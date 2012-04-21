@@ -42,9 +42,14 @@ A nice use of dropshadow on the content area, trendy floating folded banner, and
 ==HTML5Rocks==
 http://www.html5rocks.com/
 
+===Search & Navigation===
 Nice use of icons in full-width menu dropdown to indicate different technology categories. Also, nice layout and colors on menus.
 
 [[File:Html5rocks.png]]
+
+Ability to filter list of articles by format, audience, technology or tags (would be nice to have other parameters, like date, author, etc.).
+
+[[File:Html5rocks-filters.png]]
 
 ===Profile Page / Bio===
 Map of location, profile picture, list of contributions. (Our site should have a profile page for each contributor, but might have a "collection page" for all contributors in a team or employed by a specific organization.)
