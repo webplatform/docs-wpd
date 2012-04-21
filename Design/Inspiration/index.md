@@ -46,6 +46,10 @@ Nice use of icons in full-width menu dropdown to indicate different technology c
 
 [[File:Html5rocks.png]]
 
+===Profile Page / Bio===
+Map of location, profile picture, list of contributions. (Our site should have a profile page for each contributor, but might have a "collection page" for all contributors in a team or employed by a specific organization.)
+
+[[File:Html5rocks-profile.png]]
 
 ==DocHub==
 http://dochub.io/
