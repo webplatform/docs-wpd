@@ -62,3 +62,12 @@ http://dochub.io/
 Excellent autocomplete live-filtering search box. Simple, clear, non-distracting design.
 
 [[File:Dochub.png]]
+
+===ReadTheDocs===
+http://readthedocs.org/docs/sublime-text-unofficial-documentation/en/latest/search_and_replace/search_and_replace.html
+
+Elided long strings on items in sidebar are revealed in full text when sidebar is moused over (or in focus), rather than using a horizontal scroll bar. Focused list item is outlined.
+
+For serial content, it's good to have a "previous" and "next" link, with page title, though it doesn't necessarily have to be in sidebar (could be in footer, or on right side callout, or whatever). 
+
+[[File:Readthedocs-sidebar.png]]
