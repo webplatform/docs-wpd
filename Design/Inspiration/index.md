@@ -75,10 +75,33 @@ For serial content, it's good to have a "previous" and "next" link, with page ti
 ==The Django Book==
 http://djangobook.com/en/2.0/chapter02/
 
-Comments system lets you comment on any block inline in a handy but unobtrusive way, with a marker that indicates how many comments that block has. When the marker is activated, it brings up a forum-style comment dialog. (This could be implemented even more easily and extensibly by opening an iframe with a dedicated forum page; the user could then choose to go directly to the full forum view, or could comment right there.)
+Comments system lets you comment on any block inline in a handy but unobtrusive way, with a marker that indicates how many comments that block has. When the marker is activated, it brings up a forum-style comment dialog. 
+
+This could be implemented even more easily and extensibly by opening an absolute-positioned iframe with a dedicated forum page; the user could then choose to go directly to the full forum view, or could comment right there. It would also be nice if the comments were in the sidebar, rather than over the content area.
 
 [[File:Djangobook-comments.png]] &nbsp; [[File:Djangobook-comments-open.png]]
 
 Some details about the comment system are on the help menu.
 
 [[File:Djangobook-about.png]]
+
+==Inset Code Examples==
+I think it would be clever to have the code examples inset, as if they were "behind" the page.
+
+<style class="example">
+    style.example {
+        display: inline-block;
+        white-space: pre-wrap;
+        border-radius: 8px;
+        font-family: Monaco,Courier,MonoSpace;
+        background: none repeat scroll 0 0 #777777;
+        font-size: 12px;
+        line-height: 1.8;
+        margin: 0 0 25px;
+        overflow: auto;
+        padding: 10px 20px 10px 10px;
+        position: relative;
+        box-shadow: 0 0 25px #000000 inset;
+        color: white;
+    }
+</style>
