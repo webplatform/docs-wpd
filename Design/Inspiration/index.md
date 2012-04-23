@@ -88,7 +88,9 @@ Some details about the comment system are on the help menu.
 ==Inset Code Examples==
 I think it would be clever to have the code examples inset, as if they were "behind" the page.
 
-<style class="example">
+[[File:Inset-code.png]]
+
+ <style class="example">
     style.example {
         display: inline-block;
         white-space: pre-wrap;
@@ -104,4 +106,4 @@ I think it would be clever to have the code examples inset, as if they were "beh
         box-shadow: 0 0 25px #000000 inset;
         color: white;
     }
-</style>
+ </style>
