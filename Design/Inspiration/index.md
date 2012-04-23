@@ -63,7 +63,7 @@ Excellent autocomplete live-filtering search box. Simple, clear, non-distracting
 
 [[File:Dochub.png]]
 
-===ReadTheDocs===
+==ReadTheDocs==
 http://readthedocs.org/docs/sublime-text-unofficial-documentation/en/latest/search_and_replace/search_and_replace.html
 
 Elided long strings on items in sidebar are revealed in full text when sidebar is moused over (or in focus), rather than using a horizontal scroll bar. Focused list item is outlined.
@@ -72,7 +72,7 @@ For serial content, it's good to have a "previous" and "next" link, with page ti
 
 [[File:Readthedocs-sidebar.png]]
 
-===The Django Book===
+==The Django Book==
 http://djangobook.com/en/2.0/chapter02/
 
 Comments system lets you comment on any block inline in a handy but unobtrusive way, with a marker that indicates how many comments that block has. When the marker is activated, it brings up a forum-style comment dialog. (This could be implemented even more easily and extensibly by opening an iframe with a dedicated forum page; the user could then choose to go directly to the full forum view, or could comment right there.)
