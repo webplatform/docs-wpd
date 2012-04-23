@@ -71,3 +71,14 @@ Elided long strings on items in sidebar are revealed in full text when sidebar i
 For serial content, it's good to have a "previous" and "next" link, with page title, though it doesn't necessarily have to be in sidebar (could be in footer, or on right side callout, or whatever). 
 
 [[File:Readthedocs-sidebar.png]]
+
+===The Django Book===
+http://djangobook.com/en/2.0/chapter02/
+
+Comments system lets you comment on any block inline in a handy but unobtrusive way, with a marker that indicates how many comments that block has. When the marker is activated, it brings up a forum-style comment dialog. (This could be implemented even more easily and extensibly by opening an iframe with a dedicated forum page; the user could then choose to go directly to the full forum view, or could comment right there.)
+
+[[File:Djangobook-comments.png]] &nbsp; [[File:Djangobook-comments-open.png]]
+
+Some details about the comment system are on the help menu.
+
+[[File:Djangobook-about.png]]
