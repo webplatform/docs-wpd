@@ -6,13 +6,13 @@ I'd like your feedback on which style tile is most inline with the brand image t
 
 All fonts used are free.
 
-
+==Style 1==
 [[File:Style Tile 01.png]]
 
 
-
+==Style 2==
 [[File:Style Tile 02.png]]
 
 
-
+==Style 3==
 [[File:Style Tile 03.png]]
