@@ -75,7 +75,13 @@
 | An icon showing a jump to a new site
 |-
 ! Textual link hover states
-| Code sample
+| 
+| 
+| 
+| 
+|
+|-
+! Code sample
 | 
 | 
 | 
