@@ -1,7 +1,3 @@
-Hi there...I'm an updated visual mockup for you to view. I am based on the style tiles that you reviewed and am an update to the old wiki page mock-up, based on your feedback.
-
-
-
 
 ''Authorized (signed in) user
 ''
