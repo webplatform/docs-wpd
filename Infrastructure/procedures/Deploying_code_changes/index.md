@@ -47,7 +47,7 @@ Here's another example for docs_current:
 
 Like the root example, this tells salt that the contents of ''/srv/webplatform/wiki/current'' should exactly match the contents of ''/srv/salt/code/docs/current''. There's one extra thing in this example, which is the inclusion of another salt state.
 
-code.docs_settings is /src/salt/code/docs_settings.sls; which has the following:
+code.docs_settings is ''/src/salt/code/docs_settings.sls''; which has the following:
 
  /srv/webplatform/wiki/Settings.php:
    file.managed:
@@ -56,4 +56,4 @@ code.docs_settings is /src/salt/code/docs_settings.sls; which has the following:
      - group: www-data
      - mode: 440
 
-Notice that this directive manages only a single file, which is at ''/srv/salt/code/docs/Settings.php''. Since it is included in docs_current, it'll automatically get deployed with docs_current. It can also be deployed separately, though, since it's a standalone state.
+Notice that this directive manages only a single file, which is at ''/srv/salt/code/docs/Settings.php''. Since it is included in ''docs_current'', it'll automatically get deployed with ''docs_current''. It can also be deployed separately, though, since it's a standalone state.
