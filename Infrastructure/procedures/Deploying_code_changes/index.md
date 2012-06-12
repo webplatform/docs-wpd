@@ -2,10 +2,10 @@
 
 There's four current code bases:
 
-;root: the document root.
-;docs_current: the version of MediaWiki that runs the site.
-;docs_test: a version of MediaWiki that can be used to test changes.
-;docs_settings: the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
+;code.root: the document root.
+;code.docs_current: the version of MediaWiki that runs the site.
+;code.docs_test: a version of MediaWiki that can be used to test changes.
+;code.docs_settings: the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
 
 Each code base is stored in the salt repository on the deployment system (10.4.238.151 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
 
@@ -13,7 +13,7 @@ Each code base is stored in the salt repository on the deployment system (10.4.2
 # <edit robots.txt>
 # git commit -a -m 'my message here'
 #* Every code base is version controlled, please version control your changes.
-# salt-run deploy.run root
+# salt-run deploy.run code.root
 
 The process is the same for all code bases. There's a few notes for the docs code base, though: there's a couple weird exceptions to how the repositories are versioned. The MediaWiki extensions are submodules of the git repo. It's proper to update the submodule version in the parent repo, then have git update the submodule. One extension (SemanticForms) is using svn, rather than git, since it hasn't migrated yet.
 
