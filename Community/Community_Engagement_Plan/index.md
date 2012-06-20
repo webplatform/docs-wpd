@@ -32,11 +32,11 @@ Action to take:
 
 ==When to Engage==
 
-* Alpha launch: Current stewards, invited opinion leaders, interested W3 members
+* Sneak Preview: Current stewards, invited opinion leaders, interested W3 members
 ** Purpose: work out bugs in site; get core participants familiar
 ** Invitation: we'd like you to look at it and get familiar; in exchange, we'd like your help in promoting it later
 ** Don't invite until we have something live to share
 ** Need to develop list of people to invite
-* Beta launch: Open to the public 
+* Alpha rollout: Open to the public 
 ** Purpose: grow community, get more people contributing substantively.
 ** [[WPD:Community_Engagement_Plan/Goals|Goals, Metrics, and Mechanisms]]
