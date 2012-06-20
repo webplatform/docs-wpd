@@ -13,7 +13,7 @@ WebPlatform content is only available under the [http://creativecommons.org/lice
 Creative Commons offers a well-understood, widely-used, well-researched set of licenses, which will encourage the widespread reuse of the content.  People know and understand Creative Commons, and this aids our goal of a clear reuse policy.
 
 ===Why Attribution?===
-We chose an attribution-style license, rather than one which does not require attribution, to acknowledge the significant contributions of our community, and to let people know about the resources available at WebPlatform.org.  We provide extensive [Attribution Chains]] and [[License_and_Reuse#How_should_I_attribute_the_project.3F|Attribution Guidelines]] to make this easy to do.
+We chose an attribution-style license, rather than one which does not require attribution, to acknowledge the significant contributions of our community, and to let people know about the resources available at WebPlatform.org.  We provide extensive [Attribution Chains]] and [[WPD:License_and_Reuse#How_should_I_attribute_the_project.3F|Attribution Guidelines]] to make this easy to do.
 
 This accomplishes several goals:
 # Attribution rewards and encourages contribution by individuals and organizations
