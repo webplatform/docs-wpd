@@ -4,20 +4,19 @@ This document lists a small number of principles intended to guide the developme
 Three Pillars of the Web Developer Center''
 
 The web developer center is founded on three pillars:
-
-* '''Practical:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
-* '''Inclusive:''' Ensure the center is inclusive and accessible to all.
+* '''Pragmatism:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
+* '''Inclusion:''' Ensure the center is inclusive and accessible to all.
 * '''Consensus:''' Rely on consensus and good-faith collaboration to develop content and community practices.
 
 Below we list guiding principles for each pillar.
 
-== Practical ==
+== Pragmatism ==
 * Content will be relevant for Web developers and designers, emphasizing practical solutions for the web ecosystem as it currently exists “what works in practice” (e.g. not only what a specification says, but tips and quirks for different browsers and authoring tools, where they differ from a specification).
 * Content will be up-to-date.
 * Authors will seek to build high-quality content that is trustworthy and accurate (e.g., by providing proper attribution, avoiding confusion about status, etc.).
 * The stability and implementation status of features will be clearly marked; however, there is no requirement that features be stable or widely deployed to be included.
 
-== Inclusive == 
+== Inclusion == 
 * Content will be available at no cost.
 * Content will be readable without requiring identifying information (e.g., an account).
 * All people are invited to contribute content that is relevant to Web developers and designers in practice. Note however, that:
