@@ -1,4 +1,4 @@
-WebPlatform content is freely available under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons CC BY 3.0 non-localized (CC-BY) license], and example code is only available under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0 Public Domain Dedication].  Contributors are asked to sign a [[Contributor Agreement]] which includes copyright assignment, in order to make sure the content is free for reuse.
+WebPlatform content is freely available under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons CC BY 3.0 non-localized (CC-BY) license], and example code is only available under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0 Public Domain Dedication].  Contributors are asked to sign a [[WPD:Contributor Agreement|Contributor Agreement]] which includes copyright assignment, in order to make sure the content is free for reuse.
 
 ==Frequently Asked Questions==
 ===Why offer the content for free?===
