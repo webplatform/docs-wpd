@@ -4,9 +4,9 @@ This document lists a small number of principles intended to guide the developme
 Three Pillars of the Web Developer Center''
 
 The web developer center is founded on three pillars:
-* '''Pragmatism:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
-* '''Inclusion:''' Ensure the center is inclusive and accessible to all.
-* '''Consensus:''' Rely on consensus and good-faith collaboration to develop content and community practices.
+* '''[[#Pragmatism|Pragmatism]]:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
+* '''[[#Inclusion|Inclusion]]:''' Ensure the center is inclusive and accessible to all.
+* '''[[#Consensus|Consensus]]:''' Rely on consensus and good-faith collaboration to develop content and community practices.
 
 Below we list guiding principles for each pillar.
 
