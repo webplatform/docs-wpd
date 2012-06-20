@@ -1,5 +1,3 @@
-<big>'''''Note:''' This will be canonical location of this document in the future, but for legal discussions and comments, the current active version is the Google Docs version: [https://docs.google.com/document/d/10xoLzL7Fvl1C6Ufmc7bEj-ymnVhUE-_zeRdSGKCqveQ/edit?pli=1].''</big>
-
 This Copyright Assignment Agreement (“Agreement”) is entered into between the participating entity contributing content to the WebPlatform.org site (“Contributor”), and the World Wide Web Consortium ("W3C"), represented through W3C Host MIT. This Agreement is effective as of the date content is submitted by Contributor (“Effective Date”).
 
 Whereas, Contributor wishes to make available works created by Contributor and submitted for inclusion in the Web Platform Documentation Site (hereafter "Site"), collectively "Contributions."
