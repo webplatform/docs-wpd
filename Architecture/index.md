@@ -1,11 +1,10 @@
 ==Page Types==
 These are types of reference pages we need for the site's information architecture:
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
-* [[WPD:Architecture/API Reference|API Reference]]
-** [[WPD:Architecture/JS Object-Class Reference|JS Object-Class Reference]]
-** [[WPD:Architecture/Function Reference|JS Function-Method Reference]]
-** [[WPD:Architecture/Object property reference|JS Object property reference]]
-* [[WPD:Architecture/Element Reference|HTML Element/DOM Object Reference]]
+* [[WPD:Architecture/Object|API Object Reference]]
+** [[WPD:Architecture/Object Method Reference|API Object Method Reference]]
+** [[WPD:Architecture/Object property Reference|Object Object Property Reference]]
+* [[WPD:Architecture/Element Reference|Markup Element Reference]]
 * [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS Property Reference|CSS Property Reference]]
 * [[WPD:Architecture/Event Property Reference|Event Property Reference]]
