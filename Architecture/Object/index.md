@@ -2,7 +2,7 @@ In W3C Specifications, this is called an Interface; In JavaScript, it is an Obje
 
 An Object page should transclude the appropriate Object Method and Object Property pages.
 
-= Object{/Class} Reference page title =
+= Object Reference page title =
 
 '''Page table of contents'''
 * Links to subheadings within this article for ease of access
