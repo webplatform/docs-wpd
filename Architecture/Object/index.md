@@ -2,6 +2,8 @@ In W3C Specifications, this is called an Interface; In JavaScript, it is an Obje
 
 An Object page should transclude the appropriate Object Method and Object Property pages.
 
+ Should Constants have their own page, or just be part of the Object or Object Property pages?
+
 = Object Reference page title =
 
 '''Page table of contents'''
