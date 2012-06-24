@@ -5,11 +5,9 @@
 == Syntax ==
 
 === HTML ===
-<code> &lt;element onclick="fnFoo()" ... &gt;</code>
+<code> &lt;element attr="val" ... &gt;</code>
 === JavaScript ===
-<code> el.addEventListener('click', fnFoo); </code>
-
-<code> el.onclick = fnFoo; </code>
+<code> val = obj.attr; </code>
 
 == Property values ==
 Type: some type
