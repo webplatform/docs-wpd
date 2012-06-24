@@ -81,6 +81,6 @@ Not a separate section. Admonitions can occur anywhere in explanatory text. They
 
 ===Social Features===
 * Article rating
-** Use "[http://en.wikipedia.org/wiki/Wikipedia:Article_Feedback_Tool Article Feedback Tool]" extension by Wikimedia Foundation (see [http://www.mediawiki.org/wiki/Article_Feedback project history] and [http://blog.wikimedia.org/2011/07/15/%E2%80%9Crate-this-page%E2%80%9D-is-coming-to-the-english-wikipedia/ blog post])
+** Use "[http://en.wikipedia.org/wiki/Wikipedia:Article_Feedback_Tool Article Feedback Tool]" extension by Wikimedia Foundation (see [http://www.mediawiki.org/wiki/Article_Feedback project history], [http://blog.wikimedia.org/2011/07/15/%E2%80%9Crate-this-page%E2%80%9D-is-coming-to-the-english-wikipedia/ blog post], and the [http://en.wikipedia.org/wiki/Special:ArticleFeedback example of Article Feedback Dashboard])
 * Feedback / question input
 * "Share" links (discreet)
