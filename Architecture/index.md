@@ -7,7 +7,7 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Element Reference|Markup Element Reference]]
 * [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS Property Reference|CSS Property Reference]]
-* [[WPD:Architecture/Event Property Reference|Event Property Reference]]
+* [[WPD:Architecture/Event Reference|Event Reference]]
 * [[WPD:Architecture/Protocol Reference|Protocol Reference]]
 * [[WPD:Architecture/Guide|Guide]]
 * [[WPD:Architecture/Tutorial|Tutorial]]
