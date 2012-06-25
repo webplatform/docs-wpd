@@ -1,5 +1,3 @@
-'''Note:''' MSDN combines HTML attributes and their corresponding DOM properties into one topic; MDN documents these on the HTML element and DOM object pages.
-
 = Event title =
 
 == Syntax ==
