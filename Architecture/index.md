@@ -45,7 +45,7 @@ The structure of the wiki is broken down into technology, characteristic, and ar
 ** JavaScript/Tutorials/Foo
 
 ===Content Requirements===
-See also the [[WPD:Content_Requirements Content Requirements]] page.
+See also the [[WPD:Content_Requirements|Content Requirements]] page.
 
 ==Page Types==
 These are types of reference pages we need for the site's information architecture:
