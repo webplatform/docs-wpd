@@ -1,4 +1,4 @@
-=Site Structure=
+==Site Structure==
 The root of the wiki is <code>/docs</code>. This is the wiki where all documentation will exist, and it is collaborative.
 
 The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>. Other examples are:
@@ -42,7 +42,7 @@ The structure of the wiki is broken down into technology, characteristic, and ar
 ** JavaScript/Properties/foo
 ** JavaScript/Tutorials/Foo
 
-=Page Types=
+==Page Types==
 These are types of reference pages we need for the site's information architecture:
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
 * [[WPD:Architecture/Object|API Object Reference]]
@@ -58,7 +58,7 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Tutorial|Tutorial]]
 * [[WPD:Architecture/Media_Content|Media Content]]
 
-=Notes=
+==Notes==
 * We want aggregated pages, where content from other related pages is transcluded into a single page
 ** ''''Example:'''' the page for an interface will contain all the transcluded information from the individual method and property pages
 ** ''''Example:'''' the page for the '''font''' shorthand property will also contain the pages (or links to) font-family, font-feature-settings, font-kerning, font-language-override, font-size, font-size-adjust, font-stretch, font-style, font-variant, font-variant-ligatures, and font-weight properties
