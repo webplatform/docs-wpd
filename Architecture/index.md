@@ -1,7 +1,9 @@
 ==Site Structure==
 The root of the wiki is <code>/docs</code>. This is the wiki where all documentation will exist, and it is collaborative.
 
-The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>. Other examples are:
+The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>. 
+
+===Proposed Categories===
 * HTML
 ** HTML/Elements/foo
 ** HTML/Attributes/foo
