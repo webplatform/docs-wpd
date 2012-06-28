@@ -25,35 +25,43 @@ The deployment code is using salt runners that call salt states that aren't incl
 
 The deployment salt states are in /srv/salt/code/<code_base>.sls. Here's the root code base's state:
 
- /var/www:
-   file.recurse:
-     - include_empty: true
-     - clean: true
-     - source: salt://code/root/
+  include:
+    - rsync.codesync
 
-See the [http://salt.readthedocs.org/en/latest/ref/states/all/salt.states.file.html file.recurse salt state documentation]. This simply tells salt that the contents of ''/var/www'' should exactly match the content at ''/srv/salt/code/root''. Note that ''/srv/salt'' is salt's base directory, and it is left out of the path when using ''source''.
+  rsync -a --delete --no-perms --password-file=/etc/codesync.secret codesync@deployment.webplatform.org::code/root/ /var/www/:
+    cmd.run:
+      - user: root
+      - group: root
+      - require:
+        - file: /etc/codesync.secret
+
+We're simply doing an rsync of the root directory on the deployment system to a directory on the target system. Everything under code is shared via rsync (requiring the password in the password file).
 
 Here's another example for docs_current:
 
- # Include the common settings for the docs repo
- include:
-   - code.docs_settings
+  # Include the common settings for the docs repo
+  include:
+    - code.docs_settings
+    - rsync.codesync
 
- /srv/webplatform/wiki/current:
-   file.recurse:
-     - include_empty: true
-     - clean: true
-     - source: salt://code/docs/current
+  rsync -a --delete --no-perms --password-file=/etc/codesync.secret codesync@deployment.webplatform.org::code/docs/current/ /srv/webplatform/wiki/current/:
+    cmd.run:
+      - user: root
+      - group: root
+      - require:
+        - file: /etc/codesync.secret
 
-Like the root example, this tells salt that the contents of ''/srv/webplatform/wiki/current'' should exactly match the contents of ''/srv/salt/code/docs/current''. There's one extra thing in this example, which is the inclusion of another salt state.
+Like the root example, this simply does an rsync to make the directories match. There's one extra thing in this example, which is the inclusion of another deployment code base (code.docs_settings).
 
 code.docs_settings is ''/src/salt/code/docs_settings.sls''; which has the following:
 
- /srv/webplatform/wiki/Settings.php:
-   file.managed:
-     - source: salt://code/docs/Settings.php
-     - user: root
-     - group: www-data
-     - mode: 440
+  include:
+    - rsync.codesync
+  rsync -a --no-perms --password-file=/etc/codesync.secret codesync@deployment.webplatform.org::code/docs/Settings.php /srv/webplatform/wiki/Settings.php:
+    cmd.run:
+      - user: root
+      - group: root
+      - require:
+        - file: /etc/codesync.secret
 
 Notice that this directive manages only a single file, which is at ''/srv/salt/code/docs/Settings.php''. Since it is included in ''docs_current'', it'll automatically get deployed with ''docs_current''. It can also be deployed separately, though, since it's a standalone state.
