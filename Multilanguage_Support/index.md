@@ -21,11 +21,19 @@ This site will be using the MediaWiki convention of treating non-English article
 ''docs'' is the wiki root, ''css'' is a subpage of ''docs'', ''properties'' is a subpage of ''css'', and ''border-radius'' is a subpage of ''properties''.
 
 Translations of this article would be subpages of the article itself. For example:
-* '''Chinese:''' webplatform.org/docs/css/properties/border-radius/zh 
-* '''French:''' webplatform.org/docs/css/properties/border-radius/fr 
-* '''Hindi:''' webplatform.org/docs/css/properties/border-radius/hi 
-* '''Iranian Persian:''' webplatform.org/docs/css/properties/border-radius/pes 
-* '''Swahili:''' webplatform.org/docs/css/properties/border-radius/sw 
+* '''Chinese:''' webplatform.org/docs/css/properties/border-radius/'''zh''' 
+* '''French:''' webplatform.org/docs/css/properties/border-radius/'''fr''' 
+* '''Hindi:''' webplatform.org/docs/css/properties/border-radius/'''hi''' 
+* '''Iranian Persian:''' webplatform.org/docs/css/properties/border-radius/'''pes''' 
+* '''Swahili:''' webplatform.org/docs/css/properties/border-radius/'''sw'''
+
+This mechanism applies not only to the final "leaf" node articles, those at the end of the information hierarchy chain, but also to each level above that, the organizational or aggregation articles; each level has its own potential translation, like so:
+* webplatform.org/docs/'''fr''' 
+* webplatform.org/docs/css/'''fr''' 
+* webplatform.org/docs/css/properties/'''fr''' 
+* webplatform.org/docs/css/properties/border-radius/'''fr''' 
+
+This allows each language to reuse the same underlying information hierarchy and automatic semantic and structural mechanisms of the wiki system.
 
 ==User Experience==
 ===Readers===
