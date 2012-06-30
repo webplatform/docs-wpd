@@ -1,48 +1,54 @@
 ==Site Structure==
 The root of the wiki is <code>/docs</code>. This is the wiki where all documentation will exist, and it is collaborative.
 
-The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>. 
+The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/html/attributes/href]]</code>. 
+
+Article names are case-sensitive (e/g/ <code>getAttribute</code>), but the proposal is to use lowercase names for the hierarchy (e.g. ''html'' instead of ''HTML''). Alternately, we could use uppercase page titles, such as <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>, but this seems error-prone. 
 
 ===Proposed Categories===
-* HTML
-** HTML/Elements/foo
-** HTML/Attributes/foo
-** HTML/Objects/foo or HTML/APIs/foo
-** HTML/Objects/Methods/foo
-** HTML/APIs/Properties/foo
-** HTML/Tutorials/Foo
-** HTML/Events/foo
-* CSS
-** CSS/Properties/foo
-** CSS/Selectors/foo
-** CSS/APIs/foo
-** CSS/APIs/Methods/foo
-** CSS/APIs/Properties/foo
-** CSS/Tutorials/Foo
-*SVG
-** SVG/Elements/foo
-** SVG/Attributes/foo
-** SVG/APIs/foo
-** SVG/APIs/Methods/foo
-** SVG/APIs/Properties/foo
-** SVG/Tutorials/Foo
-** SVG/Events/foo
-* MathML
-** MathML/Elements/foo
-** MathML/Attributes/foo
-** MathML/Tutorials/Foo
-* ARIA
-** ARIA/Attributes/foo
-** ARIA/Tutorials/Foo
-* DOM
-** DOM/APIs/foo
-** DOM/APIs/Methods/foo
-** DOM/Events/foo
-** DOM/Tutorials/Foo
-* JavaScript
-** JavaScript/Methods/foo
-** JavaScript/Properties/foo
-** JavaScript/Tutorials/Foo
+* html
+** html/elements/''foo''
+** html/attributes/''foo''
+** html/objects/''foo'' or html/apis/''foo''
+** html/objects/methods/''foo''
+** html/apis/properties/''foo''
+** html/tutorials/''foo''
+* css
+** css/properties/''foo''
+** css/selectors/''foo''
+** css/apis/''foo''
+** css/apis/methods/''foo''
+** css/apis/properties/''foo''
+** css/tutorials/''foo'' 
+* svg
+** svg/elements/''foo''
+** svg/attributes/''foo''
+** svg/apis/''foo''
+** svg/apis/methods/''foo''
+** svg/apis/properties/''foo''
+** svg/tutorials/''foo''
+* mathml
+** mathml/elements/''foo''
+** mathml/attributes/''foo''
+** mathml/tutorials/''foo'' 
+* aria
+** aria/attributes/''foo''
+** aria/tutorials/''foo'' 
+* dom
+** dom/apis/''foo''
+** dom/apis/methods/''foo''
+** dom/events/''foo''
+** dom/tutorials/''foo'' 
+* events
+** events/''foo''
+** events/apis
+** events/apis/methods/''foo''
+** events/apis/properties/''foo''
+* js
+** js/methods/''foo''
+** js/properties/''foo''
+** js/tutorials/''foo'' 
+
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
