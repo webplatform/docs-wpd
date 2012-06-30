@@ -7,50 +7,78 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 ===Proposed Categories===
 * html
-** html/elements/''foo''
-** html/attributes/''foo''
-** html/objects/''foo'' or html/apis/''foo''
-** html/objects/methods/''foo''
-** html/apis/properties/''foo''
-** html/tutorials/''foo''
+** html / elements
+*** html / elements / ''foo''
+** html / attributes
+*** html / attributes / ''foo''
+** html / apis
+*** html / apis / ''foo''
+*** html / apis / methods
+**** html / apis / methods / ''foo''
+*** html / apis / properties
+**** html / apis / properties / ''foo''
+** html / tutorials / ''foo''
 * css
-** css/properties/''foo''
-** css/selectors/''foo''
-** css/apis/''foo''
-** css/apis/methods/''foo''
-** css/apis/properties/''foo''
-** css/tutorials/''foo'' 
+** css / properties
+*** css / properties / ''foo''
+** css / selectors
+*** css / selectors / ''foo''
+** css / apis
+*** css / apis / ''foo''
+*** css / apis / methods
+**** css / apis / methods / ''foo''
+*** css / apis / properties
+**** css / apis / properties / ''foo''
+** css / tutorials / ''foo'' 
 * svg
-** svg/elements/''foo''
-** svg/attributes/''foo''
-** svg/apis/''foo''
-** svg/apis/methods/''foo''
-** svg/apis/properties/''foo''
-** svg/tutorials/''foo''
+** svg / elements
+*** svg / elements / ''foo''
+** svg / attributes
+*** svg / attributes / ''foo''
+** svg / apis
+*** svg / apis / ''foo''
+*** svg / apis / methods
+**** svg / apis / methods / ''foo''
+*** svg / apis / properties
+**** svg / apis / properties / ''foo''
+** svg / tutorials / ''foo''
 * mathml
-** mathml/elements/''foo''
-** mathml/attributes/''foo''
-** mathml/tutorials/''foo'' 
+** mathml / elements
+*** mathml / elements / ''foo''
+** mathml / attributes
+*** mathml / attributes / ''foo''
+** mathml / tutorials / ''foo'' 
 * aria
-** aria/attributes/''foo''
-** aria/tutorials/''foo'' 
+** aria / attributes
+*** aria / attributes / ''foo''
+** aria / tutorials / ''foo'' 
 * dom
-** dom/apis/''foo''
-** dom/apis/methods/''foo''
-** dom/events/''foo''
-** dom/tutorials/''foo'' 
+** dom / apis
+*** dom / apis / ''foo''
+*** dom / apis / methods
+**** dom / apis / methods / ''foo''
+*** dom / apis / properties
+**** dom / apis / properties / ''foo''
+** dom / tutorials / ''foo'' 
 * events
-** events/''foo''
-** events/apis
-** events/apis/methods/''foo''
-** events/apis/properties/''foo''
+** events / ''foo''
+** events / apis
+*** events / apis / methods
+**** events / apis / methods / ''foo''
+*** events / apis / properties
+**** events / apis / properties / ''foo''
 * js
-** js/syntax/''foo''
-** js/objects/''foo''
-** js/functions/''foo''
-** js/statements/''foo''
-** js/operators/''foo''
-** js/tutorials/''foo''
+** js / syntax
+*** js / syntax / ''foo''
+** js / objects
+*** js / objects / ''foo''
+** js / functions
+*** js / functions / ''foo''
+** js / statements
+*** js / statements / ''foo''
+** js / operators
+*** js / operators / ''foo''
+** js / tutorials / ''foo''
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
