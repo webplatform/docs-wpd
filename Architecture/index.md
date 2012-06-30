@@ -45,10 +45,12 @@ Article names are case-sensitive (e/g/ <code>getAttribute</code>), but the propo
 ** events/apis/methods/''foo''
 ** events/apis/properties/''foo''
 * js
-** js/methods/''foo''
-** js/properties/''foo''
-** js/tutorials/''foo'' 
-
+** js/syntax/''foo''
+** js/objects/''foo''
+** js/functions/''foo''
+** js/statements/''foo''
+** js/operators/''foo''
+** js/tutorials/''foo''
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
