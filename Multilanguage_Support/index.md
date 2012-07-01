@@ -37,26 +37,36 @@ This allows each language to reuse the same underlying information hierarchy and
 
 ==User Experience==
 ===Readers===
-language picker (not flags), showing all available translations for each page; once language picked, becomes default until another language is picked
+Each article will feature a language picker (not flags, which are controversial), showing all available translations for that article. If the user picks a particular language, that is saved as a preference, and that language becomes that user's default until they actively pick another language.
 
-can always return to main article (English-language version)
+From any given translated page, the user can always return to the main (English-language version) article; the user should also be able to select any other translation of that same main article, from whatever translation they happen to be on (including the English-language version).
 
-can pick any translation from any article or from another translation page
-
-Is language tag always in URL?
+'''Open Question:''' Is it okay for the language tag to always appear in the URL? This may be a technical problem with MediaWiki, or may be solved by server-based content-negotiation.
 
 ====Search and Categories====
-By default, only the English-language versions of article should show up in search results or category pages
+By default, only the English-language versions of article should show up in search results or category pages. Users can select the languages they wish to receive search results in.
 
 ===Translators===
-If translation not available, can select language to translate into
+We intend to provide infrastructure, resources, and rewards for translators to localize our articles. Many details of this still need to be discussed and decided.
+
+For each article, if there is not translation available, the user can select a language to translate into, and a subpage for that language will be created; optionally, a stub may be created from an automatic translation service, with the article automatically flagged as a stub.
 
 ====Translation Teams====
-Team leaders, merit-based
+Once the site becomes known, we should actively recruit local Web developers to create translations for their language area. Some of these might come from W3C Members or W3C Offices, or from local offices of the Stewards; others may come from various Web developer communities.
+
+Organizationally, we could pick "Translation Team Leads" on a merit or reputation basis. In turn, these Team Leads will help coordination the localization efforts, coordinating with the WebPlatform leads and admins.
+
+===Rewards===
+'''Community Service:''' The simplest reward is providing a framework in which high-quality content and multiple translations can exist and thrive. This reward may be altruistic or enlightened self-interest.
+
+'''Attribution:''' Since all translations will be marked with the contributor's username, and linked to their profile, they will get some degree of credibility and recognition from their contribution.
+
+'''Authority:''' People who prove their expertise and willingness to help may be candidates for becoming Team Leads, or site admins.
+
+'''Badges:''' People should get special badges for a certain number of translations (or quantity of translation), for organizing localization sprints, and so on. They can display these badges on their user profile, or on their own site.
 
 ====Template Translations====
-For different Semantic Forms, should localize forms... is this possible?
-
+Since the different Semantic Forms contain English-language terms for their output, we should localize these forms, if that's possible.
 
 ==Automatic Translation==
 The [http://www.mediawiki.org/wiki/Extension:Live_Translate Live Translate extension] allows the user translate an article via Google's or Microsoft's machine-translation services. In light of the highly technical nature of our content, with Web development and design jargon, this is likely to produce adequate translations.  However, we could install the extension, to make it available to readers for pages that haven't yet been localized, or for translators to use as a first-pass solution that they later rework.
