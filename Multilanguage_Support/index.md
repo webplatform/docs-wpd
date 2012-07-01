@@ -1,6 +1,6 @@
 ==Design Goals==
 * The default language of the site should be English
-* There should be a single 
+* There should be a single site hierarcy
 * Translations should be a "first-class citizen" of the site
 * It should be easy to discover which translations of a page are available
 * Users should be able to choose a language of preference
