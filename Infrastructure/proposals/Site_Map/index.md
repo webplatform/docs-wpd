@@ -9,6 +9,7 @@ WebPlatform.org
 * Get Involved
 * News (?)
 * Blog: summaries of current developments in open web platform
+** [http://wordpress.org/ WordPress]
 
 ===Sub-Pages===
 * Web standards
@@ -18,16 +19,27 @@ WebPlatform.org
 * ?
 
 ==Docs==
-'''uri:''' docs.webplatform.org
+'''uri:''' webplatform.org/docs/
 
 ===Content===
 * Reference docs 
 * Guides
 * Tutorials
-* Q/A Forums (a la StackOverflow)?
+
+===Software===
+* [http://www.mediawiki.org/wiki/MediaWiki MediaWiki] with extensions:
+** Semantic MediaWiki
+** Semantic Forms
+** http://www.mediawiki.org/wiki/Extension:Admin_Links
+** http://www.mediawiki.org/wiki/Extension:ArticleFeedback
+** http://www.mediawiki.org/wiki/Extension:ConfirmAccount
+** http://www.mediawiki.org/wiki/Extension:SocialProfile
+** http://en.wikipedia.org/wiki/User:SuggestBot
+** http://piwik.org/
+** markdown parser extension?
 
 ==Teaching Material==
-'''uri:''' teach.webplatform.org
+'''uri:''' webplatform.org/teach/
 
 ===Content===
 * Curricula
@@ -35,16 +47,23 @@ WebPlatform.org
 * Sample test questions
 * Teaching guides
 * Forums
+** [http://moodle.org/ Moodle]?
 
 ==Discussion / Help Forums==
-'''uri:''' talk.webplatform.org
+'''uri:''' webplatform.org/talk/
 
 ===Content===
 * Web-based IRC client tied to dedicated #webplatform IRC channel
+** qwebirc
+** (see [http://www.borknet.org/index.php?topic=irc&page=qwebirc borknet] for an example of a well-integrated web-based IRC client)
+** logging bot, like [http://colas.nahaboo.net/Software/IrcLogger IrcLogger] or [http://bots.wmflabs.org/~wm-bot/]
+** include HTML logs, with highlighting and linking, like [http://krijnhoetmer.nl/irc-logs/whatwg/20120604 Krijn Hoetmer's logs]
 * Forums
+** Q/A Forums (a la StackOverflow)?
+** [http://www.question2answer.org/ Question2Answer]
 
 ==User Profiles==
-'''uri:''' profiles.webplatform.org
+'''uri:''' webplatform.org/profiles/
 
 ===Content===
 * User bios
@@ -55,9 +74,11 @@ WebPlatform.org
 ==Tools==
 ''Lower priority; Phase 2''
 
-'''uri:''' tools.webplatform.org
+'''uri:''' webplatform.org/tools/
 
 ===Content===
 * pastebin
+* live code tester 
+** [http://dabblet.com/ Dabblet]
 * live DOM viewer
 * validation
