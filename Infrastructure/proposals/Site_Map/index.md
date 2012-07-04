@@ -55,8 +55,8 @@ WebPlatform.org
 ===Content===
 * Web-based IRC client tied to dedicated #webplatform IRC channel
 ** qwebirc
-** (see [http://www.borknet.org/index.php?topic=irc&page=qwebirc borknet] for an example of a well-integrated web-based IRC client)
-** logging bot, like [http://colas.nahaboo.net/Software/IrcLogger IrcLogger] or [http://bots.wmflabs.org/~wm-bot/]
+** see [http://www.borknet.org/index.php?topic=irc&page=qwebirc borknet] for an example of a well-integrated web-based IRC client and [http://webchat.freenode.net/ freenode webchat] for an example with a captcha
+** logging bot, like [http://colas.nahaboo.net/Software/IrcLogger IrcLogger] or [http://bots.wmflabs.org/~wm-bot/ wm-bot]
 ** include HTML logs, with highlighting and linking, like [http://krijnhoetmer.nl/irc-logs/whatwg/20120604 Krijn Hoetmer's logs]
 * Forums
 ** Q/A Forums (a la StackOverflow)?
