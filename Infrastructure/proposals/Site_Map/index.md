@@ -36,7 +36,7 @@ WebPlatform.org
 ** http://www.mediawiki.org/wiki/Extension:SocialProfile
 ** http://en.wikipedia.org/wiki/User:SuggestBot
 ** http://piwik.org/
-** markdown parser extension?
+** http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
 
 ==Teaching Material==
 '''uri:''' webplatform.org/teach/
