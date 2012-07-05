@@ -33,10 +33,12 @@ WebPlatform.org
 ** http://www.mediawiki.org/wiki/Extension:Admin_Links
 ** http://www.mediawiki.org/wiki/Extension:ArticleFeedback
 ** http://www.mediawiki.org/wiki/Extension:ConfirmAccount
+** Captcha?
 ** http://www.mediawiki.org/wiki/Extension:SocialProfile
 ** http://en.wikipedia.org/wiki/User:SuggestBot
-** http://piwik.org/
-** http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
+** Site traffic analytics: http://piwik.org/
+** Syntax highlighting: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
+*** Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);]
 
 ==Teaching Material==
 '''uri:''' webplatform.org/teach/
