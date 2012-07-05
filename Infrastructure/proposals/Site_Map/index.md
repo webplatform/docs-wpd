@@ -47,20 +47,23 @@ WebPlatform.org
 * Sample test questions
 * Teaching guides
 * Forums
-** [http://moodle.org/ Moodle]?
+
+===Software===
+* [http://moodle.org/ Moodle]: a tool many teacher already use
 
 ==Discussion / Help Forums==
 '''uri:''' webplatform.org/talk/
 
 ===Content===
 * Web-based IRC client tied to dedicated #webplatform IRC channel
-** qwebirc
-** see [http://www.borknet.org/index.php?topic=irc&page=qwebirc borknet] for an example of a well-integrated web-based IRC client and [http://webchat.freenode.net/ freenode webchat] for an example with a captcha
-** logging bot, like [http://colas.nahaboo.net/Software/IrcLogger IrcLogger] or [http://bots.wmflabs.org/~wm-bot/ wm-bot]
-** include HTML logs, with highlighting and linking, like [http://krijnhoetmer.nl/irc-logs/whatwg/20120604 Krijn Hoetmer's logs]
 * Forums
-** Q/A Forums (a la StackOverflow)?
-** [http://www.question2answer.org/ Question2Answer]
+
+===Software===
+* [http://www.qwebirc.org/ qwebirc]: a web-based IRC client
+** see [http://www.borknet.org/index.php?topic=irc&page=qwebirc borknet] for an example of a well-integrated web-based IRC client and [http://webchat.freenode.net/ freenode webchat] for an example with a captcha
+* logging bot, like [http://colas.nahaboo.net/Software/IrcLogger IrcLogger] or [http://bots.wmflabs.org/~wm-bot/ wm-bot]
+** include HTML logs, with highlighting and linking, like [http://krijnhoetmer.nl/irc-logs/whatwg/20120604 Krijn Hoetmer's logs]
+* [http://www.question2answer.org/ Question2Answer]: Q/A Forums (a la StackOverflow)
 
 ==User Profiles==
 '''uri:''' webplatform.org/profiles/
@@ -77,6 +80,9 @@ WebPlatform.org
 '''uri:''' webplatform.org/tools/
 
 ===Content===
+?
+
+===Software===
 * pastebin
 * live code tester 
 ** [http://dabblet.com/ Dabblet]
