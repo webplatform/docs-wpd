@@ -25,8 +25,13 @@ Setting up extensions works the same as deploying settings:
 ** install the extension to ''code/docs/current/extensions''
 ** do a deploy
 
-It's best if the extensions are added as git submodules, since the rest of the extensions are done this way (except SemanticForms, which is not yet in "gerrit"):
+==== Git ====
+It's best if the extensions are added as git submodules, since the rest of the extensions are done this way (except SemanticForms, which is not yet in the [https://gerrit.wikimedia.org/mediawiki-extensions.txt list of git-supported extensions] on "gerrit", the WikiMedia git server):
 * ''git submodule add <url> <location>''
+
+==== SVN ====
+Otherwise, use SVN to load the extension onto the deployment server:
+* ''svn co <url> <location>''
 
 == Adding a new code base ==
 
