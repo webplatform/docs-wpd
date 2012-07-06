@@ -25,9 +25,18 @@ Setting up extensions works the same as deploying settings:
 ** install the extension to ''code/docs/current/extensions''
 ** do a deploy
 
+ ''git commit -a -m "Made a test change to the root repo"''
+ ''salt-run deploy.run code.docs_current''
+
+'''Note:''' you must be root to install or deploy extensions
+ ''sudo su -''
+
 ==== Git ====
 It's best if the extensions are added as git submodules, since the rest of the extensions are done this way (except SemanticForms, which is not yet in the [https://gerrit.wikimedia.org/mediawiki-extensions.txt list of git-supported extensions] on "gerrit", the WikiMedia git server):
 * ''git submodule add <url> <location>''
+
+For example:
+ ''root@deployment:/srv/salt/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
 
 ==== SVN ====
 Otherwise, use SVN to load the extension onto the deployment server:
