@@ -48,14 +48,14 @@ WebPlatform.org
 |
 |- 
 | http://www.mediawiki.org/wiki/Extension:Admin_Links 
-|  
-| 
-| ✓
+| ✓ 
+| ✓ 
+| ✓ 
 | 
 |- 
 | http://www.mediawiki.org/wiki/Extension:ArticleFeedback 
 | ✓ 
-|  
+| ✓ 
 | ✓ 
 |
 |- 
@@ -97,7 +97,7 @@ WebPlatform.org
 |- 
 | Syntax highlighting: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi 
 | ✓ 
-| 
+| ✓ 
 | ✓
 | Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);]
 |}
