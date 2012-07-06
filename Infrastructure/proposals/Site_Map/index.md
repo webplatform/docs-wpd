@@ -28,17 +28,79 @@ WebPlatform.org
 
 ===Software===
 * [http://www.mediawiki.org/wiki/MediaWiki MediaWiki] with extensions:
-** Semantic MediaWiki
-** Semantic Forms
-** http://www.mediawiki.org/wiki/Extension:Admin_Links
-** http://www.mediawiki.org/wiki/Extension:ArticleFeedback
-** http://www.mediawiki.org/wiki/Extension:ConfirmAccount
-** http://www.mediawiki.org/wiki/Extension:ReCAPTCHA Captcha for account creation?
-** http://www.mediawiki.org/wiki/Extension:SocialProfile
-** http://en.wikipedia.org/wiki/User:SuggestBot
-** Site traffic analytics: http://piwik.org/
-** Syntax highlighting: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
-*** Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);]
+{| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background:#fff; border:1px #aaa solid; border-collapse:collapse;" |
+! style="background:black; color:white;" | Extension
+! style="background:black; color:white;" | Installed
+! style="background:black; color:white;" | Deployed
+! style="background:black; color:white;" | git
+! style="background:black; color:white;" | Comments
+|-
+| Semantic MediaWiki
+| ✓ 
+| ✓ 
+| ✓ 
+|
+|-
+| Semantic Forms 
+| ✓ 
+| ✓ 
+| ✓ 
+|
+|- 
+| http://www.mediawiki.org/wiki/Extension:Admin_Links 
+|  
+| 
+| ✓
+| 
+|- 
+| http://www.mediawiki.org/wiki/Extension:ArticleFeedback 
+| ✓ 
+|  
+| ✓ 
+|
+|- 
+| http://www.mediawiki.org/wiki/Extension:ConfirmAccount 
+| 
+| 
+| 
+|
+|- 
+| http://www.mediawiki.org/wiki/Extension:ConfirmEdit 
+| ✓ 
+| 
+| ✓ 
+|
+|- 
+| http://www.mediawiki.org/wiki/Extension:ReCAPTCHA Captcha for account creation? 
+| 
+| 
+| 
+|
+|- 
+| http://www.mediawiki.org/wiki/Extension:SocialProfile 
+| 
+| 
+| 
+|
+|- 
+| http://en.wikipedia.org/wiki/User:SuggestBot 
+| 
+| 
+| 
+|
+|- 
+| Site traffic analytics: http://piwik.org/ 
+| 
+| 
+| 
+|
+|- 
+| Syntax highlighting: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi 
+| ✓ 
+| 
+| ✓
+| Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);]
+|}
 
 ==Teaching Material==
 '''uri:''' webplatform.org/teach/
