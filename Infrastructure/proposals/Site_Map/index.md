@@ -47,59 +47,59 @@ WebPlatform.org
 | ✓ 
 |
 |- 
-| http://www.mediawiki.org/wiki/Extension:Admin_Links 
+| [http://www.mediawiki.org/wiki/Extension:Admin_Links Admin_Links]
 | ✓ 
 | ✓ 
 | ✓ 
 | 
 |- 
-| http://www.mediawiki.org/wiki/Extension:ArticleFeedback 
+| [http://www.mediawiki.org/wiki/Extension:ArticleFeedback ArticleFeedback]
 | ✓ 
 | ✓ 
 | ✓ 
 |
 |- 
-| http://www.mediawiki.org/wiki/Extension:ConfirmAccount 
+| [http://www.mediawiki.org/wiki/Extension:ConfirmAccount ConfirmAccount]
 | 
 | 
 | 
 |
 |- 
-| http://www.mediawiki.org/wiki/Extension:ConfirmEdit 
+| [http://www.mediawiki.org/wiki/Extension:ConfirmEdit ConfirmEdit]
 | ✓ 
 | 
 | ✓ 
-|
+| Provides CAPTCHA options.
 |- 
-| http://www.mediawiki.org/wiki/Extension:ReCAPTCHA Captcha for account creation? 
+| [http://www.mediawiki.org/wiki/Extension:Approved_Revs ApprovedRevs] 
+| ✓ 
 | 
-| 
-| 
-|
+| ✓ 
+| For curation and approval of edits, on per-page basis. A more complicated option is [http://www.mediawiki.org/wiki/Extension:FlaggedRevs FlaggedRevs].
 |- 
-| http://www.mediawiki.org/wiki/Extension:SocialProfile 
-| 
-| 
-| 
-|
-|- 
-| http://en.wikipedia.org/wiki/User:SuggestBot 
-| 
-| 
-| 
-|
-|- 
-| Site traffic analytics: http://piwik.org/ 
-| 
-| 
-| 
-|
-|- 
-| Syntax highlighting: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi 
+| [http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi SyntaxHighlight_GeSHi]
 | ✓ 
 | ✓ 
 | ✓
-| Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);]
+| Syntax highlighting. (Allow each line to be linked to: [http://qbnz.com/highlighter/geshi-doc.html#adding-ids-to-each-line $geshi->enable_ids(true);])
+|- 
+| [http://www.mediawiki.org/wiki/Extension:SocialProfile SocialProfile]
+| 
+| 
+| 
+|
+|- 
+| [http://en.wikipedia.org/wiki/User:SuggestBot SuggestBot]
+| 
+| 
+| 
+| A Mediawiki bot that suggests pages to users to edit, based on their past edits.
+|- 
+| [http://piwik.org/ Piwik]
+| 
+| 
+| 
+| Site traffic analytics
 |}
 
 ==Teaching Material==
