@@ -4,7 +4,7 @@ There's four current code bases, run via '''salt-run deploy.run <codebase>''':
 
 ;code.root: /srv/salt/code/root - the document root.
 ;code.docs_current: /srv/salt/code/docs/current - the version of MediaWiki that runs the site.
-;code.docs_test: /srv/salt/code/docs/test - a version of MediaWiki that can be used to test changes.
+;code.docs_test: /srv/salt/code/docs/test - a version of MediaWiki that can be used to test changes. '''''Note:''' Not yet functional.''
 ;code.docs_settings: /srv/salt/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
 
 Each code base is stored in the salt repository on the deployment system (10.4.238.151 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
@@ -18,6 +18,15 @@ Each code base is stored in the salt repository on the deployment system (10.4.2
 The process is the same for all code bases. There's a few notes for the docs code base, though: there's a couple weird exceptions to how the repositories are versioned. The MediaWiki extensions are submodules of the git repo. It's proper to update the submodule version in the parent repo, then have git update the submodule. One extension (SemanticForms) is using svn, rather than git, since it hasn't migrated yet.
 
 For all repos where it's possible (like docs), it's always best to update upstream, then pull your changes in to the local repos. Local changes are dangerous.
+
+=== Adding MediaWiki Extensions ===
+Setting up extensions works the same as deploying settings: 
+* rsyncing the directory
+** install the extension to ''code/docs/current/extensions''
+** do a deploy
+
+It's best if the extensions are added as git submodules, since the rest of the extensions are done this way (except SemanticForms, which is not yet in "gerrit"):
+* ''git submodule add <url> <location>''
 
 == Adding a new code base ==
 
