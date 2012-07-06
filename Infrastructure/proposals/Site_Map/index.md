@@ -33,7 +33,7 @@ WebPlatform.org
 ** http://www.mediawiki.org/wiki/Extension:Admin_Links
 ** http://www.mediawiki.org/wiki/Extension:ArticleFeedback
 ** http://www.mediawiki.org/wiki/Extension:ConfirmAccount
-** Captcha?
+** http://www.mediawiki.org/wiki/Extension:ReCAPTCHA Captcha for account creation?
 ** http://www.mediawiki.org/wiki/Extension:SocialProfile
 ** http://en.wikipedia.org/wiki/User:SuggestBot
 ** Site traffic analytics: http://piwik.org/
