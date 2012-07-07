@@ -3,3 +3,4 @@ There are several special pages that Stewards should know about:
 * [[Special:AdminLinks]], which functions like a dashboard, with helpful links. This is handy for create templates. 
 * [[Special:Version|The Mediawiki version page]], including all information about our current installation, such as extensions
 * [[Meta:Deployment|Mediawiki Deployment Instructions]], for installing extensions, adding software to the site, etc.
+* [[WPD:Site_Map|Site Map], including site architecture and software requirements
