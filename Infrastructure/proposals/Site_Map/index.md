@@ -60,10 +60,10 @@ WebPlatform.org
 |
 |- 
 | [http://www.mediawiki.org/wiki/Extension:ConfirmAccount ConfirmAccount]
+| ✓  
+| ?
 | 
-| 
-| 
-|
+| Installed, but not clear it's working
 |- 
 | [http://www.mediawiki.org/wiki/Extension:ConfirmEdit ConfirmEdit]
 | ✓ 
@@ -95,11 +95,11 @@ WebPlatform.org
 | 
 | A Mediawiki bot that suggests pages to users to edit, based on their past edits.
 |- 
-| [http://piwik.org/ Piwik]
+| [http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts#Adding_a_Piwik_statistics_code_at_the_bottom|PCR GUI Inserts]
 | 
 | 
 | 
-| Site traffic analytics
+| Site traffic analytics, requires [http://piwik.org/ Piwik] to be installed on server
 |}
 
 ==Teaching Material==
