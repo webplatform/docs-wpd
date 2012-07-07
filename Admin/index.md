@@ -4,3 +4,8 @@ There are several special pages that Stewards should know about:
 * [[Special:Version|The Mediawiki version page]], including all information about our current installation, such as extensions
 * [[Meta:Deployment|Mediawiki Deployment Instructions]], for installing extensions, adding software to the site, etc.
 * [[WPD:Site_Map|Site Map]], including site architecture and software requirements
+
+==Account Creation==
+Currently, only registered account holders can view pages on the wiki.
+* [[http://webplatform.org/docs/Special:RequestAccount Request Account]] allows users to ask for an account
+* [[Special:ConfirmAccounts Confirm Accounts]] allows ''bureaucrats'' to approve requested accounts
