@@ -10,3 +10,7 @@ There are several special pages that Stewards should know about:
 Currently, only registered account holders can view pages on the wiki.
 * [[Special:RequestAccount|Request Account]] allows users to ask for an account
 * [[Special:ConfirmAccounts|Confirm Accounts]] allows ''bureaucrats'' to approve requested accounts
+
+==Content Management==
+* [[Special:Nuke|Nuke]] allows admins to mass delete all edits by a particular user, IP address, etc.
+** [[Special:Log/delete|Log/delete]] shows all pages which have been deleted
