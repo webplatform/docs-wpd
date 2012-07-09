@@ -79,6 +79,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** js / operators
 *** js / operators / ''foo''
 ** js / tutorials / ''foo''
+* glossary
+* guides
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
