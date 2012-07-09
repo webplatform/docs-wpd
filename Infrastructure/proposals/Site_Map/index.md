@@ -89,17 +89,71 @@ WebPlatform.org
 | 
 |
 |- 
+| [http://www.mediawiki.org/wiki/Extension:AJAX_Poll Ajax Poll]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:AjaxLogin AjaxLogin]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:ApiExplorer ApiExplorer]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:EditSimilar EditSimilar]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:LinkSuggest LinkSuggest]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:WhosOnline WhosOnline]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:Video Video]
+| 
+| 
+| 
+| 
+|- 
+| [http://www.mediawiki.org/wiki/Extension:HAWelcome HAWelcome]
+| 
+| 
+| 
+| Automatically welcomes users on their first edit.
+|- 
 | [http://en.wikipedia.org/wiki/User:SuggestBot SuggestBot]
 | 
 | 
 | 
 | A Mediawiki bot that suggests pages to users to edit, based on their past edits.
 |- 
-| [http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts#Adding_a_Piwik_statistics_code_at_the_bottom|PCR GUI Inserts]
+| [http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts#Adding_a_Piwik_statistics_code_at_the_bottom PCR GUI Inserts]
 | 
 | 
 | 
 | Site traffic analytics, requires [http://piwik.org/ Piwik] to be installed on server
+|- 
+| [http://www.mediawiki.org/wiki/Extension:WikiFactory WikiFactory]
+| 
+| 
+| 
+| Admin interface for enabling extensions, etc.
 |}
 
 ==Teaching Material==
