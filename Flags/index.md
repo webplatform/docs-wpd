@@ -21,33 +21,45 @@ Each page could feature a dropdown, with a Semantic Form backend, that automatic
 ==List of Flags==
 (Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].)
 
-* Template:Spam
+===Content Quality (High-Level)===
 * Template:Stub
-* Template:Outdated_Content
-* Template:Outdated_Compatibility
-* Template:Needs_Accessibility
-* Template:Needs_Examples
-* Template:Code_Errors
-* Template:Content_Errors
-* Template:Needs_Translation (missing language)
-* Template:Outdated_Translation
-* Template:Content_Browser_Specific (name browser)
-* Template:Content_Not_Vendor_Neutral
-* Template:Missing_Specification_Links
+* Template:Spam
 * Template:Content_Not_Relevant
 * Template:Content_Duplicated
-* Template:Content_Incomplete
 * Template:Content_Copyright_Issue
 * Template:Nondescriptive_Title
-* Template:Content_Biased_Voice
-* Template:Content_Grammar_Spelling_Guidelines
-* Template:Content_Out_Of_Date
 * Template:Needs_Tags
 * Template:Merge_Candidate
 * Template:Deletion_Candidate
-* Template:API_Documentation_Incomplete
+
+===Content Quality (Low-Level)===
+
+====Content Quality====
+* Template:Outdated_Content
+* Template:Content_Errors
+* Template:Content_Not_Vendor_Neutral
+* Template:Missing_Specification_Links
+* Template:Content_Incomplete
+* Template:Content_Biased_Voice
+* Template:Content_Grammar_Spelling_Guidelines
+* Template:Content_Out_Of_Date
+* Template:Content_Browser_Specific (name browser)
 * Template:Content_Needs_Best_Practices
-* Template:Examples_Need_Best_Practices
 * Template:Needs_Citations
+* Template:API_Documentation_Incomplete
 * Template:Content_Includes_Discussion
-* '''''Add more flags here'''''
+
+====Compatibility Quality====
+* Template:Compatibility_Outdated
+* Template:Compatibility_Incomplete
+* Template:Compatibility_Missing
+
+====Examples Quality====
+* Template:Needs_Examples
+* Template:Code_Errors
+* Template:Examples_Need_Best_Practices
+
+===Content Quality (Accessibility)===
+* Template:Needs_Translation (missing language)
+* Template:Needs_Accessibility
+* Template:Outdated_Translation
