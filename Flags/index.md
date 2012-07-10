@@ -4,19 +4,15 @@ MediaWiki uses templates to provide these error messages.  For example see [http
 
 Alex made demos of this functionality, and demoed it during a [https://www.w3.org/2012/06/18-webdoc-minutes.html#item01 telcon]. You can see an example of such a template ('''[[Template:Major_Style_Issue|"Major Style Issue"]]'''), how it is used on a '''[[CSS/Properties/border-radius|page that needs attention]]''', and the '''[[Special:WhatLinksHere/Template:Major_Style_Issue|list of pages]]''' that have that same issue (e.g. use that same template).
 
-==Presentation==
-Most warning templates are displayed as a banner, often at the top of a page before the content, but sometimes inline in the content itself. This is eye-catching, but can be distracting.  The goal is to draw attention to the warning without detracting from the use of the page.
+==Requirements==
+The specific implementation for this will require coordination between content needs, technical implementation abilities, and visual design. Here are the requirements that solutions should satisfy (in decreasing order of importance). Note that we're using "flags" as the catch-all term for these, but they might end up not being displayed that way.
 
-===Proposal===
-One way to make is easy for people to assess the status easily is by having color-coded flags (e.g. CSS ribbons) with icon arranged along the top edge of the content area, each with a different indicator; mousing over these flags would raise a tooltip indicating the specific message.
-
-(See [http://schepers.cc/wpd/Ribbons_Web_Elements_Preview2.jpg Top Ribbons] for a visual example of this type of flag, and [http://schepers.cc/webplatform/flags.svg Flags Mock] for a mock of what this could look like on this site.)
-
-==User Experience==
-Traditionally, these flags are added by using a specific bit of Mediawiki markdown to the page.  However, not everyone is familiar with the way to do this, and discovering the correct types of "content flags" is not obvious.
-
-===Proposal===
-Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
+* Allow flags to be displayed in different styles depending on which type they are. For example, some may show as little flags at the top of the content , some may be big banners at the top of the content, and others could be subtle and at the bottom of the content.
+* Allow some method of listing which pages have a given flag on them
+* Make it easy for editors to add or remove flags
+* ''-- Big gap in priority--''
+* Allow some tags to be related in behavior/style/meaning (e.g. subclassing or categories)
+* Make it easy to define new tags as necessary ''(this will be pretty rare)''
 
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
@@ -90,3 +86,25 @@ Which browsers support this technology. 'Everywhere' means that more than 90% of
 * Template:Prefix_Everywhere ''Every stable browser this ships in includes the prefix''
 * Template:Prefix_Somewhere ''At least one stable browser ships this without a prefix''
 * Template:Prefix_Nowhere ''No stable browser ships this with a prefix''
+
+
+
+
+
+
+-------
+
+==Design exploration==
+===Presentation===
+Most warning templates are displayed as a banner, often at the top of a page before the content, but sometimes inline in the content itself. This is eye-catching, but can be distracting.  The goal is to draw attention to the warning without detracting from the use of the page.
+
+====Proposal====
+One way to make is easy for people to assess the status easily is by having color-coded flags (e.g. CSS ribbons) with icon arranged along the top edge of the content area, each with a different indicator; mousing over these flags would raise a tooltip indicating the specific message.
+
+(See [http://schepers.cc/wpd/Ribbons_Web_Elements_Preview2.jpg Top Ribbons] for a visual example of this type of flag, and [http://schepers.cc/webplatform/flags.svg Flags Mock] for a mock of what this could look like on this site.)
+
+===User Experience===
+Traditionally, these flags are added by using a specific bit of Mediawiki markdown to the page.  However, not everyone is familiar with the way to do this, and discovering the correct types of "content flags" is not obvious.
+
+====Proposal====
+Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
