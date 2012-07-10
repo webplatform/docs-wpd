@@ -19,7 +19,7 @@ Traditionally, these flags are added by using a specific bit of Mediawiki markdo
 Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
 
 ==List of Flags==
-(See [[WPD:Manual_Of_Style|Manual Of Style]] for more details.)
+(Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].)
 
 * Template:Spam
 * Template:Stub
@@ -38,4 +38,16 @@ Each page could feature a dropdown, with a Semantic Form backend, that automatic
 * Template:Content_Duplicated
 * Template:Content_Incomplete
 * Template:Content_Copyright_Issue
+* Template:Nondescriptive_Title
+* Template:Content_Biased_Voice
+* Template:Content_Grammar_Spelling_Guidelines
+* Template:Content_Out_Of_Date
+* Template:Needs_Tags
+* Template:Merge_Candidate
+* Template:Deletion_Candidate
+* Template:API_Documentation_Incomplete
+* Template:Content_Needs_Best_Practices
+* Template:Examples_Need_Best_Practices
+* Template:Needs_Citations
+* Template:Content_Includes_Discussion
 * '''''Add more flags here'''''
