@@ -18,8 +18,8 @@ Traditionally, these flags are added by using a specific bit of Mediawiki markdo
 ===Proposal===
 Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
 
-==List of Flags==
-(Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].)
+==List of Work Item Flags==
+These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
 
 ===Content Quality (High-Level)===
 * Template:Stub
@@ -56,3 +56,37 @@ Each page could feature a dropdown, with a Semantic Form backend, that automatic
 * Template:Needs_Translation (missing language)
 * Template:Needs_Accessibility
 * Template:Outdated_Translation
+
+
+==List of Categorization Flags==
+These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
+===Standardization Status===
+* Template:W3C_Editors_Draft
+* Template:W3C_Working_Draft
+* Template:W3C_Candidate_Recommendation
+* Template:W3C_Recommendation
+* Template:Non-standard ''For technologies that are not yet being standardized in any formal body, don't have 2 or more compatible implementations, and likely never will''
+* Template:Defacto-standard ''For technologies that are not yet standardized, but have 2 or more compatible implementations (modulo prefixes)''
+* Template:Experimental ''For technologies that are not yet being standardized, don't have 2 or more compatible implementations, but aim to one day be a standard"
+* ''TODO: fill out this list with other standards bodies''
+===Browser Support===
+Which browsers support this technology. 'Everywhere' means that more than 90% of that browsers' users world wide supports the technology (perhaps with prefixes). 'Stable' means that that browser's most recent stable release includes support. 'Preview' means that a preview release of that browser includes support. Only one of these tags should be included for each browser (and always the highest one).
+* Template:Internet_Explorer_Everywhere
+* Template:Firefox_Everywhere
+* Template:Safari_Everywhere
+* Template:Opera_Everywhere
+* Template:Chrome_Everywhere
+* Template:Internet_Explorer_Stable
+* Template:Firefox_Stable
+* Template:Safari_Stable
+* Template:Opera_Stable
+* Template:Chrome_Stable
+* Template:Internet_Explorer_Preview
+* Template:Firefox_Preview
+* Template:Safari_Preview
+* Template:Opera_Preview
+* Template:Chrome_Preview
+===Prefixes===
+* Template:Prefix_Everywhere ''Every stable browser this ships in includes the prefix''
+* Template:Prefix_Somewhere ''At least one stable browser ships this without a prefix''
+* Template:Prefix_Nowhere ''No stable browser ships this with a prefix''
