@@ -23,30 +23,23 @@ Each page could feature a dropdown, with a Semantic Form backend, that automatic
 
 ===Content Quality (High-Level)===
 * Template:Stub
-* Template:Spam
-* Template:Content_Not_Relevant
-* Template:Content_Duplicated
-* Template:Content_Copyright_Issue
-* Template:Nondescriptive_Title
-* Template:Needs_Tags
-* Template:Merge_Candidate
-* Template:Deletion_Candidate
+* Template:Deletion_Candidate ''Applied to spam or irrelevant content''
+* Template:Merge_Candidate ''Applied to duplicate content''
+* Template:Copyright_Issue
+* Template:Undescriptive_Title
+* Template:Needs_Tags ''Applied to content that hasn't been processed to add all appropriate tags''
 
 ===Content Quality (Low-Level)===
-
 ====Content Quality====
-* Template:Outdated_Content
+* Template:Content_Outdated
+* Template:Content_Incomplete
 * Template:Content_Errors
 * Template:Content_Not_Vendor_Neutral
-* Template:Missing_Specification_Links
-* Template:Content_Incomplete
 * Template:Content_Biased_Voice
-* Template:Content_Grammar_Spelling_Guidelines
-* Template:Content_Out_Of_Date
-* Template:Content_Browser_Specific (name browser)
+* Template:Content_Grammar_Spelling
 * Template:Content_Needs_Best_Practices
-* Template:Needs_Citations
-* Template:API_Documentation_Incomplete
+* Template:Content_Missing_Specification_Links
+* Template:Content_API_Documentation_Incomplete
 * Template:Content_Includes_Discussion
 
 ====Compatibility Quality====
@@ -55,9 +48,9 @@ Each page could feature a dropdown, with a Semantic Form backend, that automatic
 * Template:Compatibility_Missing
 
 ====Examples Quality====
-* Template:Needs_Examples
-* Template:Code_Errors
-* Template:Examples_Need_Best_Practices
+* Template:Examples_Needed
+* Template:Examples_Errors ''Applied when the example code wouldn't work as described''
+* Template:Examples_Best_Practices ''Applied when the example code works but doesn't follow best practices''
 
 ===Content Quality (Accessibility)===
 * Template:Needs_Translation (missing language)
