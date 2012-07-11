@@ -50,9 +50,13 @@ These articles mark work items that an article needs to bring it up to our quali
 
 ===Content Quality (Accessibility)===
 * Template:Needs_Translation (missing language)
-* Template:Needs_Accessibility
 * Template:Outdated_Translation
+* Template:Needs_Transcript"
+" Template: Contrast_Needs_Improving
+* Template: Colloquial_Or_Slang_Language
+* Template: Images_Need_Alt_Text"
 
+* Template:Needs_Accessibility (general Flag)
 
 ==List of Categorization Flags==
 These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
