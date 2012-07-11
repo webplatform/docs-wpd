@@ -52,7 +52,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * Template:Needs_Translation (missing language)
 * Template:Outdated_Translation
 * Template:Needs_Transcript"
-" Template: Contrast_Needs_Improving
+* Template: Contrast_Needs_Improving
 * Template: Colloquial_Or_Slang_Language
 * Template: Images_Need_Alt_Text"
 
