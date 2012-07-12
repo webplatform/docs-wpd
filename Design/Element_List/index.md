@@ -1,9 +1,14 @@
-[[File:Elements_and_Structure.pdf]]
+This is a checklist of different visual design aspects ("elements") of a page on the site, including structural features, tables, navigation, controls, and so on.
 
-[[File:Elements_and_Structure.xlsx]]
+This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]], [[Design/Style_Tiles#Style_2|Style Tile 02]], [[Design/Style_Tiles#Style_3|Style Tile 03]]), as well as the final page design ([[Design/Mock-Up_Stage_2|Style Tile Revised]]).
 
+==Other Formats==
+* [[File:Elements_and_Structure.pdf]]
+* [[File:Elements_and_Structure.xlsx]]
+
+==Table==
 {| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background:#fff; border:1px #aaa solid; border-collapse:collapse;" |
-! style="background:black; color:white;" | Element name/description
+! style="background:black; color:white;" | Element Name/Description
 ! style="background:black; color:white;" | Style Tile 01
 ! style="background:black; color:white;" | Style Tile 02
 ! style="background:black; color:white;" | Style Tile 03
