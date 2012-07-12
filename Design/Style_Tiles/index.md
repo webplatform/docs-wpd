@@ -6,6 +6,9 @@ I'd like your feedback on which style tile is most inline with the brand image t
 
 All fonts used are free.
 
+==Final Decision==
+The final decision by the Stewards was for a version of [[#Style_1|Style 1]] with some elements of [[#Style_2|Style 2]].
+
 ==Style 1==
 [[File:Style Tile 01.png]]
 
