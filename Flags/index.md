@@ -65,10 +65,12 @@ These are flags that call out special status of articles. They do not represent 
 * Template:W3C_Working_Draft
 * Template:W3C_Candidate_Recommendation
 * Template:W3C_Recommendation
+* Template:Deprecated ''For technologies that have been replaced or retracted, and are not recommended for use (but which are valuable to have for reference)''
 * Template:Non-standard ''For technologies that are not yet being standardized in any formal body, don't have 2 or more compatible implementations, and likely never will''
 * Template:Defacto-standard ''For technologies that are not yet standardized, but have 2 or more compatible implementations (modulo prefixes)''
-* Template:Experimental ''For technologies that are not yet being standardized, don't have 2 or more compatible implementations, but aim to one day be a standard"
+* Template:Experimental ''For technologies that are not yet being standardized, don't have 2 or more compatible implementations, but aim to one day be a standard''
 * ''TODO: fill out this list with other standards bodies''
+
 ===Browser Support===
 Which browsers support this technology. 'Everywhere' means that more than 90% of that browsers' users world wide supports the technology (perhaps with prefixes). 'Stable' means that that browser's most recent stable release includes support. 'Preview' means that a preview release of that browser includes support. Only one of these tags should be included for each browser (and always the highest one).
 * Template:Internet_Explorer_Everywhere
