@@ -76,28 +76,14 @@ This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]],
 | 
 | 
 | ✓ 
-| 
-|-
 | An icon showing a jump to a new site
-| 
-| 
-| 
-| 
-| 
 |-
 | Textual link hover states
 | 
 | 
 | 
 | 
-| 
-|-
 | Create a hover states reference document
-| 
-|
-|
-| 
-| 
 |-
 | Code sample
 | 
@@ -141,7 +127,8 @@ This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]],
 | 
 | Requires an understanding of finalized site structure
 |-
-| Secondary navigation (article/page level anchors)
+| Secondary navigation 
+* article/page level anchors
 | 
 | 
 | 
