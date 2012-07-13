@@ -102,7 +102,7 @@ Which browsers support this technology. 'Everywhere' means that more than 90% of
 ===Presentation===
 Most warning templates are displayed as a banner, often at the top of a page before the content, but sometimes inline in the content itself. This is eye-catching, but can be distracting.  The goal is to draw attention to the warning without detracting from the use of the page.
 
-====Proposal====
+====Presentation Proposal====
 One way to make is easy for people to assess the status easily is by having color-coded flags (e.g. CSS ribbons) with icon arranged along the top edge of the content area, each with a different indicator; mousing over these flags would raise a tooltip indicating the specific message.
 
 (See [http://schepers.cc/wpd/Ribbons_Web_Elements_Preview2.jpg Top Ribbons] for a visual example of this type of flag, and [http://schepers.cc/webplatform/flags.svg Flags Mock] for a mock of what this could look like on this site.)
@@ -110,5 +110,5 @@ One way to make is easy for people to assess the status easily is by having colo
 ===User Experience===
 Traditionally, these flags are added by using a specific bit of Mediawiki markdown to the page.  However, not everyone is familiar with the way to do this, and discovering the correct types of "content flags" is not obvious.
 
-====Proposal====
+====UX Proposal====
 Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
