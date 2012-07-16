@@ -31,7 +31,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * Content_Incomplete
 * Content_Errors
 * Content_Not_Vendor_Neutral
-* Content_Biased_Voice
+* Content_Biased_Voice ''(Used for articles that are too marketing-y)''
 * Content_Grammar_Spelling
 * Content_Needs_Best_Practices
 * Content_Missing_Specification_Links
