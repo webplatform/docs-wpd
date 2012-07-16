@@ -154,6 +154,12 @@ WebPlatform.org
 | 
 | 
 | Admin interface for enabling extensions, etc.
+|- 
+| [http://www.mediawiki.org/wiki/Extension:SphinxSearch SphinxSearch]
+| 
+| 
+| ✓ 
+| Improved site search, requires [http://sphinxsearch.com/downloads/ Sphinx Search Engine] to be installed on server
 |}
 
 ==Teaching Material==
