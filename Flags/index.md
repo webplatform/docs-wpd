@@ -59,6 +59,9 @@ These articles mark work items that an article needs to bring it up to our quali
 * Needs_Accessibility (general Flag)
 
 ==List of Categorization Flags==
+
+'''We will revisit this whole thing in the future. On hold for now.'''
+
 These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
 ===Standardization Status===
 * W3C_Editors_Draft
