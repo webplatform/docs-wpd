@@ -72,12 +72,7 @@ These are flags that call out special status of articles. They do not represent 
 * ''TODO: fill out this list with other standards bodies''
 
 ===Browser Support===
-Which browsers support this technology. 'Everywhere' means that more than 90% of that browsers' users world wide supports the technology (perhaps with prefixes). 'Stable' means that that browser's most recent stable release includes support. 'Preview' means that a preview release of that browser includes support. Only one of these tags should be included for each browser (and always the highest one).
-* Internet_Explorer_Everywhere
-* Firefox_Everywhere
-* Safari_Everywhere
-* Opera_Everywhere
-* Chrome_Everywhere
+Which browsers support this technology.  'Stable' means that that browser's most recent main release includes support. 'Preview' means that a preview release of that browser (e.g. a "Beta", "Alpha", or "Developer Preview") includes support. Only one of these tags should be included for each browser (and always the highest one).
 * Internet_Explorer_Stable
 * Firefox_Stable
 * Safari_Stable
