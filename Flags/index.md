@@ -112,3 +112,23 @@ Traditionally, these flags are added by using a specific bit of Mediawiki markdo
 
 ====UX Proposal====
 Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
+
+==Implementation==
+You can see the current implementation of flags in the WPD wiki at the page [[css/properties/font-size]], and at its corresponding [http://webplatform.org/d/index.php?title=css/properties/font-size&action=formedit edit form].
+
+The following are the pages involved in the data structure for setting flags:
+
+"Form template" page (a reusable section of form syntax):
+* [[Template:Flags form section]]
+
+Display template (will eventually get called by each main template):
+* [[Template:Flags‎]]
+
+Property pages:
+* [[Property:High-level issue]]
+* [[Property:Content quality flag]]
+* [[Property:Compatibility quality flag]]
+* [[Property:Examples quality flag]]
+* [[Property:Accessibility flag]]
+
+And you can see one example of pages being aggregated by their flags, using a Semantic MediaWiki query, at [[Stub pages]].
