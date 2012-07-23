@@ -35,3 +35,5 @@ Unauthenticated (not signed in) User, default view.
 Unauthenticated user, with edit dropdown expanded.
 
 [[File:Wiki_Page_0005_Unauthorzied-EditExpanded.png]]
+
+[[Category:Design]]
