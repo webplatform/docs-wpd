@@ -4,5 +4,6 @@ Hi there...I'm the first (in progress) visual mockup for you to view. I am based
 
 I am special, but I do not yet include many page elements - se what I include and what I don't at the [[Element List]] page.
 
-
 [[File:Wiki_Page.png]]
+
+[[Category:Design]]
