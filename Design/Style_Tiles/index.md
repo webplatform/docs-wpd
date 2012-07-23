@@ -19,3 +19,5 @@ The final decision by the Stewards was for a version of [[#Style_1|Style 1]] wit
 
 ==Style 3==
 [[File:Style Tile 03.png]]
+
+[[Category:Design]]
