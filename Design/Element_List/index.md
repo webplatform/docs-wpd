@@ -262,3 +262,5 @@ This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]],
 | 
 | 
 |}
+
+[[Category:Design]]
