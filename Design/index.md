@@ -4,3 +4,5 @@ Site design considerations:
 * [[Design/Style Tiles|Style Tiles]], initial ideas
 * [[Design/Element List|Checklist of Design Elements]]
 * [[Design/Inspiration|Inspiration]]
+
+[[Category:Design]]
