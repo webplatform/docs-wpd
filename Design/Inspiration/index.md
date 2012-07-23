@@ -112,3 +112,5 @@ I think it would be clever to have the code examples inset, as if they were "beh
 http://htmldog.com/
 
 Nothing particularly notable about the design itself, but the structure and types of information is very useful for beginners.
+
+[[Category:Design]]
