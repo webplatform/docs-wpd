@@ -81,6 +81,9 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** js / tutorials / ''foo''
 * glossary
 * guides
+* tutorials (links to tech-specific tutorials)
+** tutorials / responsive web design
+** tutorials / ''foo''
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
