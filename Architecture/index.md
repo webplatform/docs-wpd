@@ -82,6 +82,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 * glossary
 * guides
 * tutorials (links to tech-specific tutorials)
+** tutorials / web standards curriculum
 ** tutorials / responsive web design
 ** tutorials / ''foo''
 
