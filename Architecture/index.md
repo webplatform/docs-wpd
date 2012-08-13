@@ -90,6 +90,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 * tutorials (links to tech-specific tutorials)
 ** tutorials / web standards curriculum
 ** tutorials / responsive web design
+** tutorials / accessibility
 ** tutorials / ''foo''
 
 ===Content Requirements===
