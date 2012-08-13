@@ -32,7 +32,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |
 |-
-| Twitter account #webplatform
+| Twitter account @webplatform
 | 
 | 	
 | 
@@ -43,6 +43,24 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 	
 | Will be done by marketing team
 | yes
+|-
+| IRC channel #webplatform
+| Doug
+| Done
+| 
+| yes
+|-
+| Web client (IRC)
+| Doug 
+| Done (no skin)
+| Requires MediaWiki component
+| 
+|-
+| Logging bot (IRC)
+| 
+| 	
+| Requires MediaWiki component
+| 
 |-
 | Community guidelines	
 | 
@@ -102,24 +120,6 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 	
 | Moodle? Later
-| 
-|-
-| IRC channel
-| Doug
-| Done
-| #webplatform
-| yes
-|-
-| Web client (IRC)
-| Doug 
-| Done (no skin)
-| Requires MediaWiki component
-| 
-|-
-| Logging bot (IRC)
-| 
-| 	
-| Requires MediaWiki component
 | 
 |-
 | Federated Login feature
