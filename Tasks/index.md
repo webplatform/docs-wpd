@@ -1,3 +1,6 @@
+=Minimal Viable Product=
+This table tracks the tasks we want to complete before we launch webplatform.org and which ones are required to create a minimal viable product (MVP) 
+
 {|
 ! TOPIC
 ! Status
