@@ -8,10 +8,10 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 ! Note
 ! Required 
 |-
-| Wiki	
-| 
+| Wiki Setup
+| Ryan
 | Done                                         
-| Media Wiki
+| Requires MediaWiki component
 | yes
 |-
 | Skin
@@ -23,7 +23,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Content Migrated
 | 
 | 	
-| Media Wiki (some) 
+| Requires MediaWiki component (some) 
 | yes
 |-
 | Original content
@@ -40,8 +40,8 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Twitter policy 
 | 
-| Will be done by marketing team
 | 	
+| Will be done by marketing team
 | yes
 |-
 | Community guidelines	
@@ -53,13 +53,13 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Flags
 | 
 | 	
-| Media Wiki
+| Requires MediaWiki component
 | yes
 |-
 | Comments
 | 
 | 	
-| Media Wiki
+| Requires MediaWiki component
 | yes
 |-
 | Clear URL structure
@@ -76,14 +76,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Internationalization
 | 
-| We need to have a mechanism, at least a plan for it, in the beginning
-| Media Wiki
+| 
+| We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
 | yes
 |-
 | Language switching
 | Yaron
 | 
-| Media Wiki
+| Requires MediaWiki component
 | yes
 |-
 | Sandbox (live viewer)
@@ -94,8 +94,8 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Forums (Q2A)
 | 
-| Will this hold up the launch? Requires SSO. Skinning?
-|  
+| 
+| Requires SSO, Skin. Will this hold up the launch? 
 | yes
 |-
 | Teaching materials
@@ -105,32 +105,32 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | IRC channel
-| 
-| done
+| Doug
+| Done
 | #webplatform
 | yes
 |-
 | Web client (IRC)
-| 
-| 
-| Media Wiki
+| Doug 
+| Done (no skin)
+| Requires MediaWiki component
 | 
 |-
 | Logging bot (IRC)
 | 
 | 	
-| Media Wiki
+| Requires MediaWiki component
 | 
 |-
 | Federated Login feature
 | 
 | 
-| Media Wiki
+| Requires MediaWiki component
 | 
 |-
-| Required email address
-| 
-| 	
+| Required email address for accounts
+| Doug
+| Done	
 | 
 | yes
 |-
@@ -142,14 +142,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Blog
 | 
-| Skin? SSO?
-| Media Wiki
+| 
+| Requires SSO, Skin. Requires MediaWiki component
 | yes
 |-
 | Feedback channel
 | 
-| Which one?
 |
+| Which one?
 | yes
 |-
 | How to use this site
@@ -170,10 +170,10 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| Metrics and tracking (Google analytics?)
+| Metrics and tracking 
 | 
 | 	
-| 
+| (Google analytics?)
 | yes
 |-
 | Metrics policy
