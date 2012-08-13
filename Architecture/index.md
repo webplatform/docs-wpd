@@ -60,10 +60,16 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** aria / tutorials / ''foo'' 
 * apis
 ** apis / ''foo''
-*** apis / ''foo'' / methods
-**** apis / ''foo'' / methods / ''foo''
-*** apis / ''foo'' / properties
-**** apis / ''foo'' / properties / ''foo''
+*** apis / ''foo'' / ''foobar'' (interface)
+**** apis / ''foo'' / ''foobar'' / methods
+***** apis / ''foo'' / ''foobar'' / methods / ''baz''
+**** apis / ''foo'' / ''foobar'' / properties 
+***** apis / ''foo'' / ''foobar'' / properties / ''baz'' 
+*** apis / ''quux'' (the Quux API has only one interface)
+*** apis / ''quux'' / methods
+**** apis / ''quux'' / methods / ''quux''
+*** apis / ''quux'' / properties
+**** apis / ''quux'' / properties / ''quux''
 * dom
 ** dom / apis
 *** dom / apis / ''foo''
