@@ -22,7 +22,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** css / properties
 *** css / properties / ''foo''
 ** css / functions
-** css / functions / "foo"
+*** css / functions / "foo"
 ** css / keywords
 *** css / keywords / "foo"
 ** css / selectors
