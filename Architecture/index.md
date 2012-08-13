@@ -59,10 +59,11 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** aria / attributes / ''foo''
 ** aria / tutorials / ''foo'' 
 * apis
-** apis / methods
-*** apis / methods / ''foo''
-** apis / properties
-*** apis / properties / ''foo''
+** apis / ''foo''
+*** apis / ''foo'' / methods
+**** apis / ''foo'' / methods / ''foo''
+*** apis / ''foo'' / properties
+**** apis / ''foo'' / properties / ''foo''
 * dom
 ** dom / apis
 *** dom / apis / ''foo''
