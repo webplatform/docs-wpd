@@ -24,7 +24,7 @@ This list will populate the article-editing form.
 
 ==Maintaining the list of external attribution sites==
 
-The list of sites that can get external attribution is deliberately kept small. All items on the list should:
+The list of sites that get external attribution is deliberately kept small. All items on the list should:
 * Have at least five articles on WPD that would list that site for external attribution
 * Be a well-regarded site that the community feels has valuable and accurate content.
 
