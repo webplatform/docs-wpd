@@ -28,7 +28,7 @@ font-size: <absolute-size> | <relative-size> | <length> | <percentage>
 
 where <values> are defined below.
 
-NB: This section is automatically generated from the Values section below.
+'''''Implementation Note''': This section is automatically generated from the Values section below.''
 
 ==Values==
 
