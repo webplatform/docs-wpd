@@ -22,7 +22,8 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
 ==Syntax==
 font-size: <absolute-size> | <relative-size> | <length> | <percentage> 
 
-where values are defined below.
+where <values> are defined below.
+NB: This section is automatically generated from the Values section below.
 
 ==Values==
 '''absolute-size'''
