@@ -22,11 +22,11 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
 |}
 
 ==Syntax==
- font-size: xx-small | x-small | small | medium | large | x-large | xx-large
- font-size: smaller | larger
- font-size: ''absolute-size'' | ''relative-size'' | <length> | <percentage> 
+ <code>font-size:  xx-small | x-small | small | medium | large | x-large | xx-large</code>
+ <code>font-size: smaller | larger</code>
+ <code>font-size: </code><em><length></em> <code>|</code> <em><percentage> </em>
 
-'''''Implementation Note''': This section is automatically generated from the Values section below.''
+'''''Implementation Note:''': Each keyword above should be automatically generated and link to the relevant part of the Values section below.''
 
 ==Values==
 
