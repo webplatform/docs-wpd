@@ -31,13 +31,15 @@ The list of sites that get external attribution is deliberately kept small. All 
 If you believe that there is a site that fulfills these requirements that is not yet on the list, contact an administrator to have them add it to the canonical list.
 
 ==Dealing with CC-BY-SA content==
-In some cases there will be portions of content that come from the Mozilla Developer Network that maintain their CC-BY-SA license (as opposed to the default CC-BY license for WPD). Maintaining content under multiple licenses is an administrative burden, and it is our long-term goal to remove CC-BY-SA licensed content from the site.
+In some cases there will be portions of content that come from sites with a CC-BY-SA license, like the Mozilla Developer Network (as opposed to the default CC-BY license for WPD). Maintaining content under multiple licenses is an administrative burden, and it is our long-term goal to remove CC-BY-SA licensed content from the site. Only sites in the canonical list of external attribution sites may have CC-BY-SA content ported over.
 
 These portions of content must be clearly marked in the wikitext with <code>&lt;div class='license-cc-by-sa'&gt;</code>. Those divs may not be removed until the license has [[WPD:Porting_MDN_Content | been converted to the WPD license]]. Any edits inside that box should retain the box.
 
 You can remove that box by rewriting the content inside the box in your own words and removing the original content inside that box.
 
 An article should have the CC-BY-SA configuration box checked in the "Edit with Form" page if and only if there are some <code>&lt;div class='license-cc-by-sa'&gt;</code> blocks in the article.
+
+Code without the CC-BY-SA configuration box checked falls under the normal license of the WPD, CC-BY.
 
 ==Example box==
 
