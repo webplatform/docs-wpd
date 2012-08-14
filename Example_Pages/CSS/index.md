@@ -43,11 +43,12 @@ relative to the font size of the parent object.
 
 '''<length>''' 
 
-A positive length, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). When the units are specified in em or ex, the size is defined relative to the size of the font on the parent element of the element in question. For example, 0.5em is half the font size of the parent of the current element.
+A positive length, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). When the units are specified in em or ex, the size is defined relative to the size of the font on the parent element of the element in question. For example, 0.5em is half the font size of the parent of the current element. Negative values are not allowed. 
+
 
 '''''percentage''''' 
 
-A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size.
+A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
 
 ==Usage==
 
