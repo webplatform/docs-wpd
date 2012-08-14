@@ -37,6 +37,13 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |
 |-
+| Mobilize the MDN community to free up the content
+| 
+| 	
+| 
+| Get permissions from authors to migrate content from CC-BY-SA to CC-BY
+|
+|-
 | Twitter account @webplatform
 | 
 | 	
