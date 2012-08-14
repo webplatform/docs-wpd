@@ -3,6 +3,20 @@
 ==Summary==
 
 ==Overview table==
+{| class="wikitable"
+|-
+| [[CSS/Concepts/Initial-Value | Initial Value]] || Medium
+|-
+| Applies to || All elements
+|-
+| [[CSS/concepts/Inherited | Inherited]] || Yes
+|-
+| Percentages || Relative to parent element's font size
+|-
+| Media || <code>[[CSS/media/visual | visual]]</code>
+|-
+| [[CSS/concepts/Computed-value | Computed value]] || Absolute length
+|}
 
 ==Syntax==
 
