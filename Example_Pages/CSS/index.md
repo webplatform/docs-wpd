@@ -29,20 +29,23 @@ where <values> are defined below.
 NB: This section is automatically generated from the Values section below.
 
 ==Values==
-'''absolute-size'''
 
-Indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: ''xx-small, x-small, small, medium, large, x-large, xx-large''. 
+We need to be able to differentiate between literal values, data types and placeholders. Also, move the values defined by the spec to the beginning, not in the prose.
 
-'''relative-size''' 
+'''xx-small, x-small, small, medium, large, x-large, xx-large'''
+
+Indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences.  
+
+''larger, smaller''
 
 Larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords,
-relative to the font size of the parent object. Possible values include the following: ''larger, smaller''.
+relative to the font size of the parent object. 
 
-'''length''' 
+'''<length>''' 
 
 A positive length, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). When the units are specified in em or ex, the size is defined relative to the size of the font on the parent element of the element in question. For example, 0.5em is half the font size of the parent of the current element.
 
-'''percentage''' 
+'''''percentage''''' 
 
 A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size.
 
