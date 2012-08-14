@@ -149,7 +149,7 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
       </tr>
       <tr>
         <td>Basic support</td>
-        <td>1.0</td>
+        <td>5.0<br/>4.0 <span style='border:1px solid black; padding:2px'>-webkit</span></td>
         <td>{{ CompatGeckoDesktop("1") }}</td>
         <td>5.5</td>
         <td>7.0</td>
@@ -157,6 +157,9 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
       </tr>
   </table>
 </div>
+
+'''''Implementation Note:''' The prefix tag (here, a fake value just to show it off) would be a link''
+
 ===Mobile===
 <div id="compat-mobile">
   <table class="compat-table">
