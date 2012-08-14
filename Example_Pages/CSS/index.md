@@ -22,7 +22,7 @@ Specifies the size of the font used for text in the object. Setting the font siz
 ==Syntax==
 font-size: <absolute-size> | <relative-size> | <length> | <percentage> 
 
-where property_value1 and property_value2 are defined below.
+where values are defined below.
 
 ==Values==
 
