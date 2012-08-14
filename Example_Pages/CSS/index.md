@@ -65,7 +65,6 @@ var ele = document.getElementyById("my-paragraph");
 ele.style.fontSize = "small";
 </syntaxhighlight>
 
-
 ==Usage==
 
 There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
@@ -114,7 +113,6 @@ p {
 </syntaxhighlight>
 
 The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
-
 
 ==Notes==
 
