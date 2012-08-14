@@ -25,7 +25,7 @@ font-size: <absolute-size> | <relative-size> | <length> | <percentage>
 where values are defined below.
 
 ==Values==
-'''absolute-size''' ''
+'''absolute-size'''
 Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: ''xx-small, x-small, small, medium, large, x-large, xx-large''. 
 
 '''relative-size''' 
