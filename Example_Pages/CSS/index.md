@@ -6,7 +6,7 @@ The <tt>font-size</tt> CSS properties specifies the size of the font used for te
 ==Overview table==
 {| class="wikitable"
 |-
-| [[CSS/Concepts/Initial-Value | Initial Value]] || Medium
+| [[CSS/Concepts/Initial-Value | Initial Value]] || <code>medium</code>
 |-
 | Applies to || All elements
 |-
