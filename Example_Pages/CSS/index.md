@@ -30,6 +30,18 @@ where property_value1 and property_value2 are defined below.
 
 
 ==Examples==
+[[CSS/examples | View live examples]]
+<syntaxhighlight>
+/* Set paragraph text to be very large. */
+p { font-size: xx-large }
+ 
+/* Set h1 (level 1 heading) text to be 2.5 times the size
+ * of the text around it. */
+h1 { font-size: 250% }
+ 
+/* Sets text enclosed within span tag to be 16px */
+span { font-size: 16px; }
+</syntaxhighlight>
 
 ==Notes==
 
