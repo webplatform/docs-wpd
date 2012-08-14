@@ -26,16 +26,21 @@ where values are defined below.
 
 ==Values==
 '''absolute-size'''
-Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: ''xx-small, x-small, small, medium, large, x-large, xx-large''. 
+
+Indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: ''xx-small, x-small, small, medium, large, x-large, xx-large''. 
 
 '''relative-size''' 
-Set of keywords that are interpreted as relative to the font size of the parent object.
+
+Larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords,
+relative to the font size of the parent object. Possible values include the following: ''larger, smaller''.
 
 '''length''' 
-Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see the CSS Values and Units Reference. 
+
+A positive length, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). When the units are specified in em or ex, the size is defined relative to the size of the font on the parent element of the element in question. For example, 0.5em is half the font size of the parent of the current element.
 
 '''percentage''' 
-Integer, followed by a percent (%). The value is a percentage of the parent object's font size. In Internet Explorer 3.0, the value is calculated as a percentage of the default font size.
+
+A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size.
 
 ==Possible approaches==
 
