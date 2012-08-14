@@ -46,7 +46,7 @@ A positive length, followed by an absolute units designator (cm, mm, in, pt, or 
 
 A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size.
 
-==Possible approaches==
+==Usage==
 
 There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
 
