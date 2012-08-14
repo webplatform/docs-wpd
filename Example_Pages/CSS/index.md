@@ -120,7 +120,7 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
 ==Specifications==
 {| class="wikitable"
 |-
-! Specification !! Status !! Notes
+! Specification !! Status !! Relevant changes
 |-
 | [http://dev.w3.org/csswg/css3-fonts/#font-size-prop CSS Fonts Module Level 3] || Working Draft || No change
 |-
