@@ -43,7 +43,7 @@ An article should have the CC-BY-SA configuration box checked in the "Edit with 
 
 For articles with some CC-BY-SA content:
 
-<pre>
+<syntaxhighlight lang="html5">
 &lt;details&gt;
 	&lt;summary&gt;This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.&lt;/summary&gt;
 	&lt;div&gt;
@@ -54,11 +54,11 @@ For articles with some CC-BY-SA content:
 		Portions of this content come from Foo.org: &lt;a href="http://foo.org/baz" target="_blank"&gt;Baz&lt;/a&gt;
 	&lt;/div&gt;
 &lt;/details&gt;
-</pre>
+</syntaxhighlight>
 
 For articles with no CC-BY-SA content:
 
-<pre>
+<syntaxhighlight lang="html5">
 &lt;details&gt;
 	&lt;summary&gt;This article contains content originally from external sources.&lt;/summary&gt;
 	&lt;div&gt;
@@ -69,6 +69,6 @@ For articles with no CC-BY-SA content:
 		Portions of this content come from Foo.org: &lt;a href="http://foo.org/baz" target="_blank"&gt;Baz&lt;/a&gt;
 	&lt;/div&gt;
 &lt;/details&gt;
-</pre>
+</syntaxhighlight>
 
 TODO: some browsers don't support the details element, so we'll need a polyfill.
