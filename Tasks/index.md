@@ -5,17 +5,20 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 ! Topic
 ! Owner
 ! Status
+! Target Time (weeks)
 ! Note
 ! Required 
 |-
 | Wiki Setup
 | Ryan
 | Done                                         
+| 
 | Requires MediaWiki component
 | yes
 |-
 | Skin
 | CJ
+| 
 | 
 | 	
 | yes
@@ -23,6 +26,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Content Migrated
 | 
 | 	
+| 
 | Requires MediaWiki component (some) 
 | yes
 |-
@@ -30,17 +34,20 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 	
 | 
+| 
 |
 |-
 | Twitter account @webplatform
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Twitter policy 
 | 
 | 	
+| 
 | Will be done by marketing team
 | yes
 |-
@@ -48,21 +55,25 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Doug
 | Done
 | 
+| 
 | yes
 |-
 | Web client (IRC)
 | Doug 
 | Done (no skin)
+| 
 | Requires MediaWiki component
 | 
 |-
 | Logging bot (IRC)
 | 
 | 	
+| 
 | Requires MediaWiki component
 | 
 |-
 | Community guidelines	
+| 
 | 
 | 
 | See Art of Community	
@@ -71,18 +82,21 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Flags
 | 
 | 	
+| 
 | Requires MediaWiki component
 | yes
 |-
 | Comments
 | 
 | 	
+| 
 | Requires MediaWiki component
 | yes
 |-
 | Clear URL structure
 | 
 | 	
+| 
 | 
 | yes
 |-
@@ -91,8 +105,10 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 	
 | 
 | 
+| 
 |-
 | Internationalization
+| 
 | 
 | 
 | We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
@@ -100,6 +116,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Language switching
 | Yaron
+| 
 | 
 | Requires MediaWiki component
 | yes
@@ -109,8 +126,10 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 	
 | 
 | 
+| 
 |-
 | Forums (Q2A)
+| 
 | 
 | 
 | Requires SSO, Skin. Will this hold up the launch? 
@@ -119,10 +138,12 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Teaching materials
 | 
 | 	
+| 
 | Moodle? Later
 | 
 |-
 | Federated Login feature
+| 
 | 
 | 
 | Requires MediaWiki component
@@ -132,9 +153,11 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Doug
 | Done	
 | 
+| 
 | yes
 |-
 | Single sign in (SSO)	
+| 
 | 
 | 
 | Case by case basis
@@ -143,17 +166,20 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Blog
 | 
 | 
+| 
 | Requires SSO, Skin. Requires MediaWiki component
 | yes
 |-
 | Feedback channel
 | 
 |
+| 
 | Which one?
 | yes
 |-
 | How to use this site
 | Lea & Doug
+| 
 | 
 | 	
 | yes
@@ -162,17 +188,20 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Privacy policy
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Metrics and tracking 
 | 
 | 	
+| 
 | (Google analytics?)
 | yes
 |-
@@ -180,15 +209,18 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Accessibility
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Issue tracker (bugs)
+| 
 | 
 | 
 | W3C bugzilla?
@@ -198,10 +230,12 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 	
 | 
+| 
 | yes
 |-
 | Fast.ly CDN
 | 	
+| 
 | 
 | 
 | yes
