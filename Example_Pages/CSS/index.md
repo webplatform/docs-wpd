@@ -187,7 +187,7 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
 
 ===Compatibility Notes===
 
-{|
+{| class="wikitable"
 ! Browser
 ! Version
 ! Note
