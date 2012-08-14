@@ -406,7 +406,7 @@ These are broken out from the top-level table.
 |
 |
 |
-
+|}
 
 
 ===Community Organization===
@@ -434,3 +434,4 @@ These are broken out from the top-level table.
 |
 |
 |
+|}
