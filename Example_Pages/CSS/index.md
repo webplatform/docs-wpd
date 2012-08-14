@@ -194,3 +194,14 @@ Possible length values specified in a relative measurement, using the height of 
 ==Related DOM properties==
 * <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
 * <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
+
+<details>
+	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
+	<div>
+		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
+<a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
+	</div>
+	<div>
+		Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+	</div>
+</details>
