@@ -175,3 +175,22 @@ As of Microsoft Internet Explorer 6, when you use the <tt>!DOCTYPE</tt> declarat
 Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
 
 ==See Also==
+===Related CSS Properties===
+* <code>[[CSS/properties/font | font]]</code>
+* <code>[[CSS/properties/font-family | font-family]]</code>
+* <code>[[CSS/properties/font-size | font-size]]</code>
+* <code>[[CSS/properties/font-size-adjust | font-size-adjust]]</code>
+* <code>[[CSS/properties/font-stretch | font-stretch]]</code>
+* <code>[[CSS/properties/font-style | font-style]]</code>
+* <code>[[CSS/properties/font-variant | font-variant]]</code>
+* <code>[[CSS/properties/font-weight | font-weight]]</code>
+
+==Related CSS At Rules==
+* <code>[[CSS/atrules/@font-face | @font-face]]</code>
+
+==Related DOM Interfaces==
+* <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
+
+==Related DOM properties==
+* <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
+* <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
