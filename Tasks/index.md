@@ -239,6 +239,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 
 | yes
+|-
+| Copyright
+| 	
+| 
+| 
+| Need to write up the terms by which people can use the content on WPD
+| yes
+
 |}
 
 ==Subtopics==
