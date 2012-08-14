@@ -30,25 +30,19 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
 
 ==Values==
 
-We need to be able to differentiate between literal values, data types and placeholders. Also, move the values defined by the spec to the beginning, not in the prose.
+'''''Implementation Notes:''''' We need to be able to differentiate between literal values, data types and placeholders. Also, move the values defined by the spec to the beginning, not in the prose.
 
-'''xx-small, x-small, small, medium, large, x-large, xx-large'''
+;<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code>, <code>large</code>, <code>x-large</code>, <code>xx-large</code>
+: Indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences.  
 
-Indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences.  
+;<code>larger</code>, <code>smaller</code>
+: Larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords relative to the font size of the parent object. 
 
-''larger, smaller''
+;[[CSS/datatypes/length <length>]]
+: A positive length, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). When the units are specified in <code>em</code> or <code>ex</code>, the size is defined relative to the size of the font on the parent element of the element in question. For example, <code>0.5em</code> is half the font size of the parent of the current element. Negative values are not allowed. 
 
-Larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords,
-relative to the font size of the parent object. 
-
-'''<length>''' 
-
-A positive length, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). When the units are specified in em or ex, the size is defined relative to the size of the font on the parent element of the element in question. For example, 0.5em is half the font size of the parent of the current element. Negative values are not allowed. 
-
-
-'''''percentage''''' 
-
-A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
+;''percentage''
+: A positive percentage of the parent element's font size, followed by a percent symbol (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
 
 ==Examples==
 [[CSS/examples | View live examples]]
