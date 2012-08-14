@@ -29,3 +29,35 @@ The list of sites that can get external attribution is deliberately kept small. 
 * Be a well-regarded site that the community feels has valuable and accurate content.
 
 If you believe that there is a site that fulfills these requirements that is not yet on the list, contact an administrator to have them add it to the canonical list.
+
+==Example box==
+
+For articles with some CC-BY-SA content:
+
+<pre>
+&lt;details&gt;
+	&lt;summary&gt;This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.&lt;/summary&gt;
+	&lt;div&gt;
+		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
+&lt;a href="http://developer.mozilla.org/foo" target="_blank"&gt;Foo&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		Portions of this content come from Foo.org: &lt;a href="http://foo.org/baz" target="_blank"&gt;Baz&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/details&gt;
+</pre>
+
+For articles with no CC-BY-SA content:
+
+<pre>
+&lt;details&gt;
+	&lt;summary&gt;This article contains content originally from external sources.&lt;/summary&gt;
+	&lt;div&gt;
+		 Portions of this content come from the Mozilla Developer Network:
+&lt;a href="http://developer.mozilla.org/foo" target="_blank"&gt;Foo&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		Portions of this content come from Foo.org: &lt;a href="http://foo.org/baz" target="_blank"&gt;Baz&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/details&gt;
+</pre>
