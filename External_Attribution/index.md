@@ -5,7 +5,7 @@ Most articles automatically maintain a history of all edits and who made them. H
 External attribution for a site should be added to an article when:
 
 * You are copying in text from an existing WPD article that contains external attribution (including when you are merging articles)
-* You are directly copying in text, no matter how long, from a site that is already listed in the external attribution list, below. (Remember to always ensure the license of the origin site is compatible with copying the text to this site before copying, even for sites already on the external attribution list.)
+* You are directly copying in a substantial piece of text (TODO: check what such a limit should be), from a site that is already listed in the external attribution list, below. When in doubt about if the text is substantial, assume it is. (Remember to always ensure the license of the origin site is compatible with copying the text to this site before copying, even for sites already on the external attribution list.)
 
 To add external attribution to an article, choose "Edit with Form" and check off the applicable box in the bottom of the form. Providing the actual link is optional in most cases; if it's not provided it will default to the organization's information page on WPD.
 
