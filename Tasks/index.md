@@ -456,7 +456,7 @@ These are broken out from the top-level table.
 |Figure out compatibility table design
 |
 |
-|
+|How it looks, how it gets populated, how we maintain it
 |
 |-
 |Templates/Properties/Categories Created based on our content organization
@@ -471,7 +471,6 @@ These are broken out from the top-level table.
 |
 |
 |}
-
 
 ===Community Organization===
 {|
