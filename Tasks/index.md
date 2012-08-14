@@ -473,6 +473,9 @@ These are broken out from the top-level table.
 |}
 
 ===Community Organization===
+
+
+
 {|
 ! TOPIC
 ! Subtopic
