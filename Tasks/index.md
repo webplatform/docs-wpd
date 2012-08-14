@@ -214,14 +214,50 @@ These are broken out from the top-level table.
 ===Content Migration===
 {|
 ! TOPIC
+! Subtopic
 ! Owner
 ! Status
 ! Note
-! Required 
+|-
+|Figure out locations for all articles
+|
+|
+|
+|
+|-
+|Migrate test article from MSDN
+|
+|
+|
+|
+|-
+|Migrate existing articles
+|
+|
+|
+|
+|-
+|Figure out concrete MDN licensing flow
+|
+|
+|
+|
 |-
 |
+|New pages
 |
 |
 |
+|-
 |
+|Merging content in
+|
+|
+|
+|-
+|
+|SA License
+|
+|
+|A manual attirbution block at bottom?
 |}
