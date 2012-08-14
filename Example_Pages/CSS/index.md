@@ -170,7 +170,7 @@ The ''em'' and ''ex'' units on the font-size property are relative to the parent
 </div>
 
 ===Microsoft Internet Explorer===
-As of Microsoft Internet Explorer 6, when you use the <tt>!DOCTYPE</tt> declaration to specify standards-compliant mode, the default value for this property is <tt>medium</tt>, not <tt>small</tt>.
+As of Microsoft Internet Explorer 6, when you use the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
 
 Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
 
