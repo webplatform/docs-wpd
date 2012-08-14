@@ -47,14 +47,14 @@ For articles with some CC-BY-SA content:
 
 <syntaxhighlight lang="html5">
 <details>
-	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
-	<div>
-		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
+  <summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
+  <p>
+    Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
 <a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
-	</div>
-	<div>
-		Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
-	</div>
+  </p>
+  <p>
+    Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+  </p>
 </details>
 </syntaxhighlight>
 
@@ -62,14 +62,14 @@ For articles with no CC-BY-SA content:
 
 <syntaxhighlight lang="html5">
 <details>
-	<summary>This article contains content originally from external sources.</summary>
-	<div>
-		 Portions of this content come from the Mozilla Developer Network:
+  <summary>This article contains content originally from external sources.</summary>
+  <p>
+    Portions of this content come from the Mozilla Developer Network:
 <a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
-	</div>
-	<div>
-		Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
-	</div>
+  </p>
+  <p>
+    Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+  </p>
 </details>
 </syntaxhighlight>
 
