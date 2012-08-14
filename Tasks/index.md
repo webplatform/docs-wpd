@@ -361,14 +361,13 @@ These are broken out from the top-level table.
 |
 |
 |
+|-
 |Create content for steward pages
 |
 |
 |
 |
 |}
-
-
 
 ===Page Structure===
 {|
