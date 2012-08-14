@@ -185,10 +185,21 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
   </table>
 </div>
 
-===Microsoft Internet Explorer===
-As of Microsoft Internet Explorer 6, when you use the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+===Compatibility Notes===
 
-Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
+{|
+! Browser
+! Version
+! Note
+|-
+| Internet Explorer
+| 6+ 
+|When using the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+|-
+| Internet Explorer 
+| 4+
+| Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
+|}
 
 ==See Also==
 ===Related CSS Properties===
