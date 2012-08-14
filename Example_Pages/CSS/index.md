@@ -1,7 +1,7 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
 
 ==Summary==
-Specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of ''em'' and ''ex'' length units.
+Specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <tt>em</tt> and <tt>ex</tt> length units.
 
 ==Overview table==
 {| class="wikitable"
