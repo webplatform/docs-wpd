@@ -52,6 +52,28 @@ A positive length, followed by an absolute units designator (cm, mm, in, pt, or 
 
 A positive percentage of the parent element's font size, followed by a percent (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
 
+==Examples==
+[[CSS/examples | View live examples]]
+<syntaxhighlight>
+/* LANGUAGE-TAG: CSS */
+/* Set paragraph text to be very large. */
+p { font-size: xx-large }
+ 
+/* Set h1 (level 1 heading) text to be 2.5 times the size
+ * of the text around it. */
+h1 { font-size: 250% }
+ 
+/* Sets text enclosed within span tag to be 16px */
+span { font-size: 16px; }
+</syntaxhighlight>
+
+<syntaxhighlight>
+//LANGUAGE-TAG: JavaScript
+var ele = document.getElementyById("my-paragraph");
+ele.style.fontSize = "small";
+</syntaxhighlight>
+
+
 ==Usage==
 
 There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
@@ -101,26 +123,6 @@ p {
 
 The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 
-==Examples==
-[[CSS/examples | View live examples]]
-<syntaxhighlight>
-/* LANGUAGE-TAG: CSS */
-/* Set paragraph text to be very large. */
-p { font-size: xx-large }
- 
-/* Set h1 (level 1 heading) text to be 2.5 times the size
- * of the text around it. */
-h1 { font-size: 250% }
- 
-/* Sets text enclosed within span tag to be 16px */
-span { font-size: 16px; }
-</syntaxhighlight>
-
-<syntaxhighlight>
-//LANGUAGE-TAG: JavaScript
-var ele = document.getElementyById("my-paragraph");
-ele.style.fontSize = "small";
-</syntaxhighlight>
 
 ==Notes==
 
