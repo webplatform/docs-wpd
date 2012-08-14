@@ -128,7 +128,7 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
 |-
 | [http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size CSS 2 (Revision 1)] || Recommendation || No change
 |-
-| [http://www.w3.org/TR/CSS1/#font-size CSS Level 1] || ||
+| [http://www.w3.org/TR/CSS1/#font-size CSS Level 1] || Recommendation || Original specification
 |}
 
 ==Browser Compatibility==
