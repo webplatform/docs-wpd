@@ -260,6 +260,9 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 
 These are broken out from the top-level table.
 
+
+
+
 ===Content Migration===
 {|
 ! TOPIC
@@ -351,6 +354,8 @@ These are broken out from the top-level table.
 |
 |}
 
+
+
 ===Original content===
 {|
 ! TOPIC
@@ -383,6 +388,8 @@ These are broken out from the top-level table.
 |
 |
 |}
+
+
 
 ===Page Structure===
 {|
