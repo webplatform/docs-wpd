@@ -20,6 +20,9 @@ Specifies the size of the font used for text in the object. Setting the font siz
 |}
 
 ==Syntax==
+preperty-name = <property_value1> | <property_value2>
+
+where property_value1 and property_value2 are defined below.
 
 ==Values==
 
