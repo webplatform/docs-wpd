@@ -261,3 +261,64 @@ These are broken out from the top-level table.
 |
 |A manual attirbution block at bottom?
 |}
+
+
+===Content Architecture===
+{|
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+|Final URL structure/ content organization
+|
+|
+|
+|
+|-
+|Create stub articles to fill out entire hierarchy
+|
+|
+|
+|
+|-
+|Language dropdown
+|
+|
+|
+|
+|-
+|Semantic mediawiki queries on listing/API summary pages to pull in all relevant attributes
+|
+|
+|
+|
+|}
+
+===Original content===
+{|
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+|Home page
+|
+|
+|
+|
+|-
+|Section header pages
+|
+|
+|
+|
+|-
+|Marketing pages
+|
+|
+|
+|
+|}
