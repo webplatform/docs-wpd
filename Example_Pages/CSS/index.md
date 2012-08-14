@@ -192,13 +192,13 @@ Possible length values specified in a relative measurement, using the height of 
 * <code>[[CSS/properties/font-variant | font-variant]]</code>
 * <code>[[CSS/properties/font-weight | font-weight]]</code>
 
-==Related CSS At Rules==
+===Related CSS At Rules===
 * <code>[[CSS/atrules/@font-face | @font-face]]</code>
 
-==Related DOM Interfaces==
+===Related DOM Interfaces===
 * <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
 
-==Related DOM properties==
+===Related DOM properties===
 * <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
 * <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
 
