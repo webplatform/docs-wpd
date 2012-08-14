@@ -30,7 +30,7 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
 
 ==Values==
 
-'''''Implementation Note:''''' We need to be able to differentiate between literal values, data types and placeholders. Also, move the values defined by the spec to the beginning, not in the prose.
+'''''Implementation Note:''' We need to be able to differentiate between literal values, data types and placeholders.'' 
 
 ;<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code>, <code>large</code>, <code>x-large</code>, <code>xx-large</code>
 : Indicate predefined abosolute font sizes. Named font sizes scale according to the user's font setting preferences.  
