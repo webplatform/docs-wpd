@@ -296,6 +296,8 @@ These are broken out from the top-level table.
 |
 |}
 
+
+
 ===Original content===
 {|
 ! TOPIC
@@ -322,3 +324,113 @@ These are broken out from the top-level table.
 |
 |
 |}
+
+
+
+===Page Structure===
+{|
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
+|
+|
+|
+|
+|-
+|Making sure we have all of the flags we need.
+|
+|
+|
+|
+|-
+|Multiple articles to display end state
+|
+|
+|
+|
+|-
+|
+|Simple CSS Property
+|
+|
+|
+|-
+|
+|Complex CSS Property (CSS transforms)
+|
+|
+|
+|-
+|
+|Guide article (Canvas)
+|
+|
+|
+|-
+|
+|Document (lots of methods)
+|
+|
+|
+|-
+|
+|Date
+|
+|
+|
+|-
+|
+|Regular Expressions
+|
+|
+|
+|-
+|Figure out compatibility table design
+|
+|
+|
+|
+|-
+|Templates/Properties/Categories Created based on our content organization
+|
+|
+|
+|
+|-
+|New page experience set up correctly
+|
+|
+|
+|
+
+
+
+===Community Organization===
+{|
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+|Tighten up pillars doc
+|
+|
+|
+|
+|-
+|Strengthen the overall guide
+|
+|
+|
+|
+|-
+|Beef up "Getting Started" guide
+|
+|
+|
+|
