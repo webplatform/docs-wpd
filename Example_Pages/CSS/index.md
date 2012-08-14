@@ -60,6 +60,18 @@ Negative values are not allowed.
 The ''em'' and ''ex'' units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
 
 ==Specifications==
+{| class="wikitable"
+|-
+! Specification !! Status !! Notes
+|-
+| [http://dev.w3.org/csswg/css3-fonts/#font-size-prop CSS Fonts Module Level 3] || Working Draft || No change
+|-
+| [http://dev.w3.org/csswg/css3-transitions/#animatable-css CSS Transitions] || Working Draft || Defines <code>font-size</code> as animatable
+|-
+| [http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size CSS 2 (Revision 1)] || Recommendation || No change
+|-
+| [http://www.w3.org/TR/CSS1/#font-size CSS Level 1] || ||
+|}
 
 ==Browser Compatibility==
 
