@@ -18,7 +18,7 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
 |-
 | [[CSS/concepts/Computed-value | Computed value]] || Absolute length
 |-
-| [[CSS/concepts/CSSOM | CSS Object Model Property]] || fontSize
+| [[CSS/concepts/CSSOM | CSS Object Model Property]] || <code>fontSize</code>
 |}
 
 ==Syntax==
