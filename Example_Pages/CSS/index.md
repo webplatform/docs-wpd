@@ -156,7 +156,7 @@ The <code>em</code> and <code>ex</code> units on the font-size property are rela
   </table>
 </div>
 
-'''''Implementation Note:''' The prefix tag (here, a fake value just to show it off) would be a link''
+'''''Implementation Note:''' The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.''
 
 ===Mobile===
 <div id="compat-mobile">
