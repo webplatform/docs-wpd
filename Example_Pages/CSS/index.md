@@ -75,4 +75,52 @@ The ''em'' and ''ex'' units on the font-size property are relative to the parent
 
 ==Browser Compatibility==
 
+===Desktop===
+<div id="compat-desktop">
+  <table class="compat-table">
+       <tr>
+        <th>Feature</th>
+        <th>Chrome</th>
+        <th>Firefox (Gecko)</th>
+        <th>Internet Explorer</th>
+        <th>Opera</th>
+        <th>Safari</th>
+      </tr>
+      <tr>
+        <td>Basic support</td>
+        <td>1.0</td>
+        <td>{{ CompatGeckoDesktop("1") }}</td>
+        <td>5.5</td>
+        <td>7.0</td>
+        <td>1.0</td>
+      </tr>
+  </table>
+</div>
+===Mobile===
+<div id="compat-mobile">
+  <table class="compat-table">
+      <tr>
+        <th>Feature</th>
+        <th>Android</th>
+        <th>Firefox Mobile (Gecko)</th>
+        <th>IE Phone</th>
+        <th>Opera Mobile</th>
+        <th>Safari Mobile</th>
+      </tr>
+      <tr>
+        <td>Basic support</td>
+        <td>1.0</td>
+        <td>{{ CompatGeckoMobile("1") }}</td>
+        <td>6.0</td>
+        <td>6.0</td>
+        <td>1.0</td>
+      </tr>
+  </table>
+</div>
+
+===Microsoft Internet Explorer===
+As of Microsoft Internet Explorer 6, when you use the <tt>!DOCTYPE</tt> declaration to specify standards-compliant mode, the default value for this property is <tt>medium</tt>, not <tt>small</tt>.
+
+Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
+
 ==See Also==
