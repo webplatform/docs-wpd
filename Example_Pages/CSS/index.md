@@ -57,6 +57,9 @@ span { font-size: 16px; }
 </syntaxhighlight>
 
 ==Notes==
+Negative values are not allowed. 
+
+The ''em'' and ''ex'' units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
 
 ==Specifications==
 
