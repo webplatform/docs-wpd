@@ -26,7 +26,7 @@ The <code>font-size</code> CSS properties specifies the size of the font used fo
  <code>font-size: smaller | larger</code>
  <code>font-size: </code><em><length></em> <code>|</code> <em><percentage> </em>
 
-'''''Implementation Note:''': Each keyword above should be automatically generated and link to the relevant part of the Values section below.''
+'''''Implementation Note:''' Each keyword above should be automatically generated and link to the relevant part of the Values section below.''
 
 ==Values==
 
