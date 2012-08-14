@@ -61,3 +61,5 @@ For articles with no CC-BY-SA content:
 	&lt;/div&gt;
 &lt;/details&gt;
 </pre>
+
+TODO: some browsers don't support the details element, so we'll need a polyfill.
