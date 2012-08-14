@@ -328,14 +328,13 @@ These are broken out from the top-level table.
 |
 |
 |
+|-
 |Placement of stewards' pages
 |
 |
 |
 |
 |}
-
-
 
 ===Original content===
 {|
