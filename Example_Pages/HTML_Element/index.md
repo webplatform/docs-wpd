@@ -6,6 +6,9 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 ==Usage Context==
 
 {|
+| Categories
+| The categories to which the element belongs, such as Flow Content or Phrasing Event.
+|-
 | Permitted content
 | Where applicable, a list of content that may be incorporated into the element.
 |-
