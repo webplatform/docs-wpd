@@ -53,7 +53,7 @@ These articles mark work items that an article needs to bring it up to our quali
 ====Examples Quality====
 * Examples_Needed
 * Examples_Errors ''Applied when the example code wouldn't work as described''
-* Examples_Best_Practices ''Applied when the example code works but doesn't follow best practices''
+* Changed: '''Examples_Style_Guide''' ''Applied when the example code works but doesn't follow all of the guidelines laid out for examples.''
 
 ===Content Quality (Accessibility)===
 * Needs_Translation (missing language)
