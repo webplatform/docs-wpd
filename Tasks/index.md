@@ -60,7 +60,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Twitter policy 
 | 
-| 	
+| [GROUP]	
 | 
 | Will be done by marketing team
 | yes
