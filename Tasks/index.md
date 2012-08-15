@@ -114,7 +114,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Easy page creation
-| 
+| See [[#Page_Structure| Page Structure]]
 | 	
 | 
 | 
