@@ -486,19 +486,15 @@ These are broken out from the top-level table.
 |
 |
 |
-|
 | Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
 |-
 |New page experience set up correctly
 |
 |
 |
-|
 | At the least the "empty" page form should have the flags and attribution (and potentially others) parts defined.
 |-
 | Finalize all flags
-|
-|
 |
 |
 |
