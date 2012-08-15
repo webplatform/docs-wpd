@@ -235,3 +235,10 @@ See Date and Time Calculations (JavaScript) for more information about how to us
 </div>
 
 =See also=
+==Reference==
+* [[JavaScript Objects]]
+* [[Formatting Date and Time Strings (JavaScript)]]
+* [[new Operator (JavaScript)]]
+* [[var Statement (JavaScript)]]
+==Tutorial==
+* [[Working with Dates and Time in JavaScript]]
