@@ -4,7 +4,7 @@ You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | s
 
 ==Descriptive Titles==
 Choose useful titles (e.g., the name of a feature being documented)
-'''TODO:''' What are the capitalization rules for this?
+{{TODO | What are the capitalization rules for this? }}
 
 ==Neutral Voice==
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
