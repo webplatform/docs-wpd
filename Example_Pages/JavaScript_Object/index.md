@@ -112,14 +112,14 @@ The following example demonstrates how to manually format a JavaScript date, in 
 ;[[prototype Property]]
 : Returns a reference to the prototype for a class of objects.
 
-Properties inherited from [[JavaScript/Function Function]]
+Properties inherited from [[JS/Function|Function]]
 * [[arity]]
 * [[caller]]
 * [[constructor]]
 * [[length]]
 * [[name]]
 
-'''''Implementation Note:''' Transclude property descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links.''
+'''''Implementation Note:''' Transclude property descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of property links.''
 
 =Methods=
 
