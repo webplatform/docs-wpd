@@ -5,12 +5,12 @@ Element is a DOM interface that forms the basis of the API for DOM objects. Othe
 
 ==Overview Table==
 
-'''Implementation note''': The ''Others...'' should be a template that calls out that this is a work item.
+'''Implementation note''': The ''Others...'' should be a template that calls out that this is a work item. Slash just include them automatically.
 {| class="wikitable"
 |-
 | Inherits from || <code>[[DOM/interface/node | Node]]</code>
 |-
-| Sub-interfaces || <code>[[DOM/interface/HTMLElement | HTMLElement]]</code>, <code>[[DOM/interface/SVGElement | SVGElement]]</code>, ''Others...''
+| Sub-interfaces || <code>[[DOM/interface/HTMLElement | HTMLElement]]</code>, <code>[[DOM/interface/SVGElement | SVGElement]]</code>, ''Incomplete list...''
 |}
 
 ==Properties==
