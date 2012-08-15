@@ -9,6 +9,12 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 
 [http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]
 
+===Inheritance Hierarchy===
+:[Node]
+::[]
+:::[]
+::::[]
+
 ==Syntax==
  <code>font-size:  xx-small | x-small | small | medium | large | x-large | xx-large</code>
  <code>font-size: smaller | larger</code>
