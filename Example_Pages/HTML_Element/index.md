@@ -5,7 +5,7 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 
 ==Usage Context==
 
-{|
+{|class="wikitable"
 | Categories
 | The categories to which the element belongs, such as Flow Content or Phrasing Content.
 |-
