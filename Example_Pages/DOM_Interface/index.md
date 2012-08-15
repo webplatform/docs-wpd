@@ -36,11 +36,11 @@ Element is a DOM interface that forms the basis of the API for DOM objects. Othe
 |-
 ! Name !! Summary
 |-
-| <code>[[WPD:Example Pages/DOM Interface Leaf|appendChild]] </code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
+| <code>[[WPD:Example Pages/DOM Interface Leaf|appendChild(element)]] </code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
 |-
-| <code>[[DOM/interfaces/Element/methods/replaceChild | replaceChild]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node. 
+| <code>[[DOM/interfaces/Element/methods/replaceChild | replaceChild(element)]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node. 
 |-
-| <code>[[DOM/interfaces/Element/methods/insertBefore | insertBefore]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
+| <code>[[DOM/interfaces/Element/methods/insertBefore | insertBefore(element)]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
 |-
 | ''Many, many others... ||
 |}
