@@ -16,6 +16,17 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 ::::[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLParentElement]
 
 ==Members==
+===Attributes===
+Like all other HTML elements, this element supports the [http://webplatform.org/docs/WPD:CSS_Example_Article global attributes].
+
+;<code>anattribute</code>
+: Short description of the attribute with any special considerations.  
+
+;<code>anattribute2</code>
+: Short description of the attribute with any special considerations.
+
+;<code>b_anattribute</code>
+: Short description of the attribute with any special considerations.
 
 
 ==Examples==
