@@ -8,6 +8,7 @@ Enables basic storage and retrieval of dates and times.
 |-
 | Inherits from || [[JS/Function|Function]] (can be multiple links here)
 |-
+| Descendents || any children
 |}
 
 =Constructor syntax=
