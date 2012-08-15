@@ -100,7 +100,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Comments
-| 
+| [TECH]
 | 	
 | 
 | Requires MediaWiki component
@@ -121,7 +121,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Internationalization
-| 
+| W3C I18n team
 | 
 | 
 | We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
@@ -142,7 +142,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Forums (Q2A)
-| 
+| [TECH]
 | 
 | 
 | Requires SSO, Skin. Will this hold up the launch? 
@@ -156,7 +156,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Federated Login feature
-| 
+| [TECH]
 | 
 | 
 | Requires MediaWiki component
@@ -170,24 +170,24 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Single sign in (SSO)	
-| 
+| [TECH]
 | 
 | 
 | Case by case basis
 | yes
 |-
 | Blog
-| 
+| [TECH]
 | 
 | 
 | Requires SSO, Skin. Requires MediaWiki component
 | yes
 |-
-| Feedback channel
-| 
+| Email feedback account set up
+| Doug
 |
 | 
-| Which one?
+| Others: Twitter, blog, IRC, forums
 | yes
 |-
 | How to use this site
