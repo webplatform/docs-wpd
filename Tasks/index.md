@@ -406,7 +406,7 @@ These are broken out from the top-level table.
 |-
 |rowspan="4"|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
 | Make page mock-ups
-| GROUP
+| [GROUP]
 |
 | 
 |-
@@ -438,32 +438,32 @@ These are broken out from the top-level table.
 |-
 |rowspan="6"|Multiple articles to display end state
 |Simple CSS Property
-|
+|[GROUP]
 |
 |
 |-
 |Complex CSS Property (CSS transforms)
-|
+|[GROUP]
 |
 |
 |-
 |Guide article (Canvas)
-|
+|[GROUP]
 |
 |
 |-
 |Large object: Document (lots of methods)
-|
+|[GROUP]
 |
 |
 |-
 |JS object or data type: Date
-|
+|[GROUP]
 |
 |
 |-
 |Regular Expressions
-|
+|[GROUP]
 |
 |
 |-
