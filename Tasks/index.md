@@ -226,7 +226,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Accessibility
-| 
+| W3C
 | 	
 | 
 | 
