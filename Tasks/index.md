@@ -529,7 +529,7 @@ These are broken out from the top-level table.
 |-
 |Strengthen the overall guide
 |
-|
+|Alex, b/c he knows what this one means.
 |
 |
 |-
