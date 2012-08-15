@@ -21,7 +21,9 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 
 [Attributes]
 [Events]
-[
+[Methods]
+[Properties]
+
 ===Attributes===
 Like all other HTML elements, this element supports the [http://webplatform.org/docs/WPD:CSS_Example_Article global attributes].
 
