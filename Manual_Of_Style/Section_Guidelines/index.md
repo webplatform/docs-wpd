@@ -1,4 +1,6 @@
 '''TODO: clean this up'''
+
+You may also be interested in the [[WPD:Manual Of Style/Article Types|list of article types]].
 ===Summary===
 * Summaries should mention the property (SEO vs. tools)
 * Summaries should not be more than 3 sentences.
