@@ -428,9 +428,14 @@ These are broken out from the top-level table.
 |
 | 
 |-
+|rowspan="2" | Flags 
 |Making sure we have all of the flags we need.
-|
 | Alex
+|
+|
+|-
+|Finalize flags.
+| [GROUP]
 |
 |
 |-
@@ -472,38 +477,32 @@ These are broken out from the top-level table.
 | 
 |-
 | How it gets populated
-| 
+| Good Question
 |
 | 
 |-
 | How we maintain it
-| 
+| Community
 |
 | 
 |-
 |Templates/Properties/Categories Created based on our content organization
 |
-|
+|Yaron / Kozak
 |
 | 
 |-
 | Create page forms for all page types.
 |
-|
+|Yaron, based on templates created by group
 |
 | Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
 |-
-|New page experience set up correctly
+|"New page" experience set up correctly
 |
 |
 |
 | At the least the "empty" page form should have the flags and attribution (and potentially others) parts defined.
-|-
-| Finalize all flags
-|
-|
-|
-|
 |}
 
 ===Community Organization===
