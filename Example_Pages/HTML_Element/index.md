@@ -3,6 +3,22 @@
 ==Summary==
 A brief summary--a few sentences at most--that describes the element. Use the element name liberally to increase SEO. 
 
+==Usage Context==
+
+{|
+| Permitted content
+| Where applicable, a list of content that may be incorporated into the element.
+|-
+| Tag Omission
+| Indicates whether any part of the tag may be omitted.
+|-
+| Permitted Parent Elements
+| As suggested
+|-
+| Permitted Child Elements
+| As suggested
+|}
+
 ==DOM Information==
 
 ===DOM Interface===
