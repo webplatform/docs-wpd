@@ -260,7 +260,13 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | Need to write up the terms by which people can use the content on WPD
 | yes
-
+|-
+| Figure out list of "early preview" people
+|
+|
+|
+|
+| yes
 |}
 
 ==Subtopics==
