@@ -30,5 +30,15 @@ Summary saying what we learned, and any conclusions we can draw from the article
 
 Resources from elsewhere on the web that might give useful information or further examples about the same topic, or which were used in the creation of this article (influences, or places where inspiration or material were drawn from)
 
-==Common Information==
-See [[Example_pages/Common_elements|Common page elements]].
+==Footer==
+
+<details>
+	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
+	<div>
+		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
+<a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
+	</div>
+	<div>
+		Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+	</div>
+</details>
