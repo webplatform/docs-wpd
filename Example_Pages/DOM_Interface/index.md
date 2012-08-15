@@ -4,6 +4,8 @@
 Element is a DOM interface that forms the basis of the API for DOM objects. Other interfaces, like HTMLElement or SVGElement, will sub-class from Element and add new parts of the API.
 
 ==Overview Table==
+
+'''Implementation note''': The ''Others...'' should be a template that calls out that this is a work item.
 {| class="wikitable"
 |-
 | Inherits from || <code>[[DOM/interface/node | Node]]</code>
