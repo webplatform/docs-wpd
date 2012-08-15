@@ -17,13 +17,13 @@ Enables basic storage and retrieval of dates and times.
 ;month
 : Required. Integer value representing the month, beginning with 0 for January to 11 for December.
 ;day
-; Required. Integer value representing the day of the month (1-31).
+: Required. Integer value representing the day of the month (1-31).
 ;hour
-; Optional. Integer value representing the hour of the day (0-23).
+: Optional. Integer value representing the hour of the day (0-23).
 ;minute
-; Optional. Integer value representing the minute segment (0-59) of a time reading.
+: Optional. Integer value representing the minute segment (0-59) of a time reading.
 ;second
-; Optional. Integer value representing the seconds segment (0-59) of a time reading.
+: Optional. Integer value representing the seconds segment (0-59) of a time reading.
 ;millisecond
 : Optional. Integer value representing the millisecond segment (0-999) of a time reading.
 
