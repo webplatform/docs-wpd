@@ -15,48 +15,18 @@ A brief summary--a few sentences at most--that describes the element. Use the el
 :::[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLElement]
 ::::[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLParentElement]
 
-==Syntax==
- <code>font-size:  xx-small | x-small | small | medium | large | x-large | xx-large</code>
- <code>font-size: smaller | larger</code>
- <code>font-size: </code><em><length></em> <code>|</code> <em><percentage> </em>
+==Members==
 
-'''''Implementation Note:''' Each keyword above should be automatically generated and link to the relevant part of the Values section below.''
-
-==Values==
-
-'''''Implementation Note:''' We need to be able to differentiate between literal values, data types and placeholders.'' 
-
-;<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code>, <code>large</code>, <code>x-large</code>, <code>xx-large</code>
-: Indicate predefined abosolute font sizes. Named font sizes scale according to the user's font setting preferences.  
-
-;<code>larger</code>, <code>smaller</code>
-: Relatively larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords relative to the font size of the parent object. 
-
-;[[CSS/datatypes/length|<length>]]
-: A positive length, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). When the units are specified in <code>em</code> or <code>ex</code>, the size is defined relative to the size of the font on the parent element of the element in question. For example, <code>0.5em</code> is half the font size of the parent of the current element. Negative values are not allowed. 
-
-;''percentage''
-: A positive percentage of the parent element's font size, followed by a percent symbol (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
 
 ==Examples==
-[[CSS/examples | View live examples]]
+[[HTML/examples | View live examples]]
 <syntaxhighlight>
-/* LANGUAGE-TAG: CSS */
-/* Set paragraph text to be very large. */
-p { font-size: xx-large }
- 
-/* Set h1 (level 1 heading) text to be 2.5 times the size
- * of the text around it. */
-h1 { font-size: 250% }
- 
-/* Sets text enclosed within span tag to be 16px */
-span { font-size: 16px; }
+A useful HTML example that shows the element in context.
 </syntaxhighlight>
 
 <syntaxhighlight>
 //LANGUAGE-TAG: JavaScript
-var ele = document.getElementyById("my-paragraph");
-ele.style.fontSize = "small";
+A useful JavaScript example that calls to the element.
 </syntaxhighlight>
 
 ==Usage==
