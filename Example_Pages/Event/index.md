@@ -11,7 +11,7 @@ The <code>click</code> event type is dispatched when the user activates the prim
 {| class="wikitable"
 ! 
 ! Keyword
-! Example
+! Sample Usage
 |-
 ! Event Attribute
 | <code>onclick</code>
