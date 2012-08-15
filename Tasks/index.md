@@ -526,4 +526,10 @@ These are broken out from the top-level table.
 |
 |
 |
+|-
+| Finalize the Manual of Style (including sub pages)
+|
+|
+|
+|
 |}
