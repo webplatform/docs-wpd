@@ -16,6 +16,20 @@ Element is a DOM interface that forms the basis of the API for DOM objects. Othe
 ==Properties==
 
 ==Methods==
+'''Implementation Note''': The summaries would be automatically transcluded from the page
+'''Implementation Note''': The list of these would be automatically generated.
+{| class="wikitable"
+|-
+! Name !! Summary
+|-
+| <code>[[WPD:Example Pages/DOM Interface Leaf|appendChild]] </code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
+|-
+| <code>[[DOM/interfaces/Element/methods/replaceChild | replaceChild]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node. 
+|-
+| <code>[[DOM/interfaces/Element/methods/insertBefore | insertBefore]]</code> || Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
+|-
+| ''Many, many others... ||
+|}
 
 ==Events==
 
