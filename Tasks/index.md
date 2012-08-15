@@ -518,7 +518,7 @@ These are broken out from the top-level table.
 |-
 |Tighten up pillars doc
 |
-|
+|Alex
 |
 |
 |-
@@ -530,19 +530,19 @@ These are broken out from the top-level table.
 |-
 |Beef up "Getting Started" guide
 |
-|
+|Doug / Lea
 |
 |
 |-
 |Create best practices for coding
 |
-|
+|Eliot
 |
 |
 |-
 | Finalize the Manual of Style (including sub pages)
 |
-|
+| Alex?
 |
 |
 |}
