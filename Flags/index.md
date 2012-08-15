@@ -25,7 +25,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * Copyright_Issue
 * Undescriptive_Title
 * Needs_Tags ''Applied to content that hasn't been processed to add all appropriate tags''
-* New: '''Missing relevant sections'''
+* New: '''Missing_relevant_sections'''
 * New: '''Data_not_semantic''' ''Used for when Semantic Media Wiki's data modeling hasn't been used to its potential for this article type''
 
 ===Content Quality (Low-Level)===
