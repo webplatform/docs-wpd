@@ -165,6 +165,19 @@ Methods inherited from [[JS/Object|Object]]:
 '''''Implementation Note:''' Transclude method descriptions from child pages. There should be a generated list of method links for items inherited by instances from Object. Provide distinctive styling for "Deprecated", "Requires JavaScript ''version''", and "Non-standard. Items with these flags should be called out in the Browser Compatibility table.''
 
 =Usage=
+The JavaScript date is measured in milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript Date object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
+
+The JavaScript Date object provides uniform behavior across platforms.
+
+The JavaScript Date object supports a number of UTC (universal) methods, as well as local time methods. UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard. The local time is the time known to the computer where JavaScript is executed.
+
+A Date object contains a number representing a particular instant in time to within a millisecond. If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
+
+If the number is NaN, the object does not represent a specific instant of time. If you pass no parameters to the Date object, it is initialized to the current time (UTC). A value must be given to the object before you can use it.
+
+The range of dates that can be represented in a Date object is approximately 285,616 years on either side of January 1, 1970.
+
+See Date and Time Calculations (JavaScript) for more information about how to use the Date object and related methods.
 
 =Notes=
 
