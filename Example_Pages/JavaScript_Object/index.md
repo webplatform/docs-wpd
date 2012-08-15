@@ -13,7 +13,7 @@ Enables basic storage and retrieval of dates and times.
  dateObj = new Date(dateVal)
  dateObj = new Date(year, month, date[, hours[, minutes[, seconds[,ms]]]])
 
-=Parameters=
+==Parameters==
 
 =Properties=
 
