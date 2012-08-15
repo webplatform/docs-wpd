@@ -44,7 +44,7 @@ This method is not allowed to move nodes between different documents. If you wan
 |}
 
 ==Browser Compatibility==
-
+'''Implementation Note''': Would have the Compatibility_Incomplete flag
 ===Desktop===
 <div id="compat-desktop">
   <table class="compat-table">
@@ -58,16 +58,14 @@ This method is not allowed to move nodes between different documents. If you wan
       </tr>
       <tr>
         <td>Basic support</td>
-        <td>5.0<br/>4.0 <span style='border:1px solid black; padding:2px'>-webkit</span></td>
-        <td>{{ CompatGeckoDesktop("1") }}</td>
-        <td>5.5</td>
-        <td>7.0</td>
-        <td>1.0</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
+        <td>Supported(when?)</td>
+        <td>Supported(when?)</td>
       </tr>
   </table>
 </div>
-
-'''''Implementation Note:''' The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.''
 
 ===Mobile===
 <div id="compat-mobile">
@@ -82,11 +80,11 @@ This method is not allowed to move nodes between different documents. If you wan
       </tr>
       <tr>
         <td>Basic support</td>
-        <td>1.0</td>
-        <td>{{ CompatGeckoMobile("1") }}</td>
-        <td>6.0</td>
-        <td>6.0</td>
-        <td>1.0</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
+        <td>Supported (when?)</td>
       </tr>
   </table>
 </div>
