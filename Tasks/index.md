@@ -265,7 +265,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |
 |
 |
-|
+| Ideally include people who will actually do ''work''. Maybe give some of the people with invites a small number of invites? Have a gatekeeper of the actual signups.
 | yes
 |}
 
