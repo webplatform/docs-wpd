@@ -3,6 +3,13 @@ JavaScript <code>Date</code> objects let you work with dates and times.
 
 Enables basic storage and retrieval of dates and times.
 
+=Overview table=
+{| class="wikitable"
+|-
+| Inherits from || [[JS/Function|Function]] (can be multiple links here)
+|-
+|}
+
 =Constructor syntax=
  new Date()
  new Date(dateVal)
