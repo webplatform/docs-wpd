@@ -100,11 +100,11 @@ This method is accessible at run time. If elements are removed at run time, befo
 |-
 | Internet Explorer
 | 6+ 
-|When using the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+|This method now applies to the attribute object.
 |-
 | Internet Explorer 
-| 4+
-| Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
+| 9+
+| Exceptions are only supported when webpages are displayed in IE9 Standards mode.
 |}
 
 ==See Also==
