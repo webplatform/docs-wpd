@@ -486,11 +486,11 @@ These are broken out from the top-level table.
 |
 | 
 |-
-|Templates/Properties/Categories Created based on our content organization
+|Templates/Properties/Categories 
 |
 |Yaron / Kozak
 |
-| 
+| Created based on our content organization
 |-
 | Create page forms for all page types.
 |
