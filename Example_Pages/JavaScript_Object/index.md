@@ -16,6 +16,8 @@ Enables basic storage and retrieval of dates and times.
  new Date(dateVal)
  new Date(year, month, day [, hour, minute, second, millisecond])
 
+'''''Implementation Note:''' link from the syntax block to the individual parameters; if possible, autogenerate the constructor syntax.''
+
 ==Parameters==
 
 ;dateVal
