@@ -54,4 +54,10 @@ Relevant comments and discussion about the page should occur in the associated d
 ==Doesn't needlessly duplicate content==
 Separate pages shouldn't substantially overlap content or topics except when necessary to improve understanding and organization. 
 
+==Includes all relevant sections==
+Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
+
+==Sections Follow Style Guidelines==
+Different sections have [[WPD:Manual Of Style/Section Guidelines|different style guidelines]]. Each section of the article should follow all of the applicable style guidelines.
+
 ''Note: Further manual of style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].''
