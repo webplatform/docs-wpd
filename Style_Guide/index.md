@@ -54,6 +54,9 @@ Relevant comments and discussion about the page should occur in the associated d
 ==Doesn't needlessly duplicate content==
 Separate pages shouldn't substantially overlap content or topics except when necessary to improve understanding and organization. 
 
+==Search engine optimization==
+Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines, so don't overload on keywords.
+
 ==Includes all relevant sections==
 Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
 
