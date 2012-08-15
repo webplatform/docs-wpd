@@ -173,7 +173,10 @@ The notes section contains information that may be important to web developers b
 |}
 
 ==See Also==
-List of links, no subcategories ''required''.
+===Tutorials and Guides===
+A list of relevant tutorials
+
+===Related Elements===
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
