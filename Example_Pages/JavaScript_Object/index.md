@@ -123,6 +123,19 @@ Properties inherited from [[JavaScript/Function Function]]
 
 =Methods=
 
+;[[JS/Date/now|now]]
+: Returns the numeric value corresponding to the current time.
+;[[JS/Date/parse|parse]]
+: Parses a string representation of a JavaScript date, and returns the number of milliseconds since January 1, 1970, 00:00:00, local time.
+;[[JS/Date/UTC|UTC]]
+: Accepts the same parameters as the longest form of the constructor, and returns the number of milliseconds in a JavaScript Date object since January 1, 1970, 00:00:00, universal time.
+
+Methods inherited from [[JS/Function|Function]]:
+* [[JS/Function/apply|apply]]
+* [[JS/Function/call|call]]
+* [[JS/Function/toSource|toSource]]
+* [[JS/Function/toString|toString]]
+
 =Functions=
 
 =Instances=
