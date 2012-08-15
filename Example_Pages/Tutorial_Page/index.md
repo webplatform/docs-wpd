@@ -26,7 +26,17 @@ The complete meat of the article. We probably need to work out some sort of guid
 
 Summary saying what we learned, and any conclusions we can draw from the article.
 
-== External references ==
+==See Also==
+List of other topics that are relevant to the tutorial
+====Reference====
+-----
+List of reference topics
+
+====Conceptual Topics====
+-----
+List of nonreference topics
+
+====External References====
 
 Resources from elsewhere on the web that might give useful information or further examples about the same topic, or which were used in the creation of this article (influences, or places where inspiration or material were drawn from)
 
