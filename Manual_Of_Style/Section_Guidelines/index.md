@@ -1,4 +1,4 @@
-'''TODO: clean this up'''
+{{{TODO | clean this up}}}
 
 You may also be interested in the [[WPD:Manual Of Style/Article Types|list of article types]].
 ===Summary===
