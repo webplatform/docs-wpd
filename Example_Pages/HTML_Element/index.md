@@ -167,16 +167,7 @@ The notes section contains information that may be important to web developers b
 |}
 
 ==See Also==
-===Parent Elements===
-* <code>[[CSS/properties/font | font]]</code>
-* <code>[[CSS/properties/font-family | font-family]]</code>
-* <code>[[CSS/properties/font-size | font-size]]</code>
-* <code>[[CSS/properties/font-size-adjust | font-size-adjust]]</code>
-* <code>[[CSS/properties/font-stretch | font-stretch]]</code>
-* <code>[[CSS/properties/font-style | font-style]]</code>
-* <code>[[CSS/properties/font-variant | font-variant]]</code>
-* <code>[[CSS/properties/font-weight | font-weight]]</code>
-
+List of links, no subcategories ''required''.
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
