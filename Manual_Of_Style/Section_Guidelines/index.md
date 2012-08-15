@@ -23,6 +23,7 @@
 * Should it have a context-setting surrounding, e.g. /* This code is part of a <style> block or a stylesheet */
 * Code should stand alone as much as possible.
 * All code should be elsewhere and included into the page. (When that functionality exists)
+* Should follow all best practices
 
 ==Notes==
 * Not specific to syntax or value, not directly related to usage, but still germane to the member. Remove this section ideally. In the long term, we should split them into other areas.
