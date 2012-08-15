@@ -1,7 +1,7 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be.'''
 
 ==Summary==
-A brief summary--a few sentences at most--that describes the element. Use the element name liberally to increase SEO. 
+A brief summary--a few sentences at most--that describes the element. Remember that the summary will likely be extracted and used out of context. Use the element name liberally to increase SEO.
 
 ==Usage Context==
 
