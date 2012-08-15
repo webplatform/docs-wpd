@@ -159,8 +159,16 @@ Properties inherited from [[JS/Object|Object]]:
 : Returns the day of the week (0-6) for the specified date according to local time.
 ;getYear
 : Deprecated. Returns the year (usually 2-3 digits) in the specified date according to local time. Use getFullYear instead.
+;toJSON 
+: Requires JavaScript 1.8.5. Returns a string encapsulating the Date object in JSON format.
+; toLocaleFormat
+: Non-standard. Converts a date to a string, using a format string.
 
-'''''Implementation Note:''' Transclude method descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links. Provide distinctive styling for "Deprecated".''
+Methods inherited from [[JS/Object|Object]]:
+* [[toLocaleString]]
+
+
+'''''Implementation Note:''' Transclude method descriptions from child pages. There should be a generated list of method links for items inherited by instances from Object. Provide distinctive styling for "Deprecated", "Requires JavaScript ''version''", and "Non-standard. Items with these flags should be called out in the Browser Compatibility table.''
 
 =Usage=
 
