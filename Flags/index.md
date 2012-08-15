@@ -21,6 +21,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * Stub
 * Deletion_Candidate ''Applied to spam or irrelevant content'' ''''TODO: this should have a field for reasoning'''
 * Merge_Candidate ''Applied to duplicate content''
+* New: '''Split_Candidate''' ''Used for articles that cover too many aspects and should be split into separate pages''
 * Copyright_Issue
 * Undescriptive_Title
 * Needs_Tags ''Applied to content that hasn't been processed to add all appropriate tags''
