@@ -501,8 +501,13 @@ These are broken out from the top-level table.
 |
 | Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
 |-
-|rowspan="2" | "New page" experience 
+|rowspan="3" | "New page" experience 
 |New page experience defined
+|[GROUP]
+|
+| 
+|-
+|New page experience defined for i18n
 |[GROUP]
 |
 | 
