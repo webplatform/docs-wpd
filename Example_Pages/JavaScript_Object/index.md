@@ -37,12 +37,30 @@ Enables basic storage and retrieval of dates and times.
 ;millisecond
 : Optional. Integer value representing the millisecond segment (0-999) of a time reading.
 
-==Usage==
+=Usage=
+
+==Constructor==
 Note: Note that JavaScript Date objects can only be instantiated by calling JavaScript Date as a constructor: calling it as a regular function (i.e. without the new operator) will return a string rather than a Date object; unlike other JavaScript object types, JavaScript Date objects have no literal syntax.
 
 If you supply no arguments, the constructor creates a JavaScript Date object for today's date and time according to local time. If you supply some arguments but not others, the missing arguments are set to 0. If you supply any arguments, you must supply at least the year, month, and day. You can omit the hours, minutes, seconds, and milliseconds.
 
 Invoking JavaScript Date in a non-constructor context (i.e., without the new operator) will return a string representing the current time.
+
+==Date Instances==
+The JavaScript date is measured in milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript Date object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
+
+The JavaScript Date object provides uniform behavior across platforms.
+
+The JavaScript Date object supports a number of UTC (universal) methods, as well as local time methods. UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard. The local time is the time known to the computer where JavaScript is executed.
+
+A Date object contains a number representing a particular instant in time to within a millisecond. If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
+
+If the number is NaN, the object does not represent a specific instant of time. If you pass no parameters to the Date object, it is initialized to the current time (UTC). A value must be given to the object before you can use it.
+
+The range of dates that can be represented in a Date object is approximately 285,616 years on either side of January 1, 1970.
+
+See Date and Time Calculations (JavaScript) for more information about how to use the Date object and related methods.
+
 
 =Examples=
 
@@ -137,7 +155,7 @@ Methods inherited from [[JS/Function|Function]]:
 
 =Instances=
 Some correct and coherent explanation goes here.
-==Properties==
+==Instance Properties==
 
 ;constructor
 : Returns the function that created an instance. This is the Date constructor by default.
@@ -147,7 +165,7 @@ Properties inherited from [[JS/Object|Object]]:
 
 '''''Implementation Note:''' Transclude property descriptions from child pages. There should be a generated list of property links for items inherited by instances from Object..''
 
-==Methods==
+==Instance Methods==
 
 ;getDate
 : Returns the day of the month (1-31) for the specified date according to local time.
@@ -165,21 +183,6 @@ Methods inherited from [[JS/Object|Object]]:
 
 
 '''''Implementation Note:''' Transclude method descriptions from child pages. There should be a generated list of method links for items inherited by instances from Object. Provide distinctive styling for "Deprecated", "Requires JavaScript ''version''", and "Non-standard. Items with these flags should be called out in the Browser Compatibility table.''
-
-=Usage=
-The JavaScript date is measured in milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript Date object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
-
-The JavaScript Date object provides uniform behavior across platforms.
-
-The JavaScript Date object supports a number of UTC (universal) methods, as well as local time methods. UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard. The local time is the time known to the computer where JavaScript is executed.
-
-A Date object contains a number representing a particular instant in time to within a millisecond. If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
-
-If the number is NaN, the object does not represent a specific instant of time. If you pass no parameters to the Date object, it is initialized to the current time (UTC). A value must be given to the object before you can use it.
-
-The range of dates that can be represented in a Date object is approximately 285,616 years on either side of January 1, 1970.
-
-See Date and Time Calculations (JavaScript) for more information about how to use the Date object and related methods.
 
 =Notes=
 
