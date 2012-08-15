@@ -70,17 +70,17 @@ Note: A note about something in the usage topic is required.
 The notes section contains information that may be important to web developers but that does not readily fit into usage or member descriptions.
 
 ==Specifications==
+
+
 {| class="wikitable"
+! Specification
+! Notes
 |-
-! Specification !! Status !! Relevant changes
+| [http://dev.w3.org/html5/spec/spec.html HTML5]
+| No change
 |-
-| [http://dev.w3.org/csswg/css3-fonts/#font-size-prop CSS Fonts Module Level 3] || Working Draft || No change
-|-
-| [http://dev.w3.org/csswg/css3-transitions/#animatable-css CSS Transitions] || Working Draft || Defines <code>font-size</code> as animatable
-|-
-| [http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size CSS 2 (Revision 1)] || Recommendation || No change
-|-
-| [http://www.w3.org/TR/CSS1/#font-size CSS Level 1] || Recommendation || Original specification
+| [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01]
+|
 |}
 
 ==Browser Compatibility==
@@ -131,17 +131,6 @@ The notes section contains information that may be important to web developers b
   </table>
 </div>
 
-===Specification===
-{| class="wikitable"
-! Specification
-! Notes
-|-
-| [http://dev.w3.org/html5/spec/spec.html HTML5]
-| No change
-|-
-| [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01]
-|
-|}
 
 ===Compatibility Notes===
 
