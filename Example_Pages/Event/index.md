@@ -1,4 +1,8 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
+Draws from:
+* https://developer.mozilla.org/en-US/docs/DOM/DOM_event_reference/mouseenter
+* https://developer.mozilla.org/en-US/docs/DOM/MouseEvent
+* http://msdn.microsoft.com/en-us/library/ie/ms536913%28v=vs.85%29.aspx
 
 ==Summary==
 The <code>click</code> event type is dispatched when the user activates the primary pointer indicator (e.g., the left mouse button) on an element.
