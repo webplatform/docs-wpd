@@ -1,4 +1,7 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
+
+Based on: https://developer.mozilla.org/en-US/docs/DOM/Node.appendChild and http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx
+
 =Node.appendChild()=
 ==Summary==
 Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
