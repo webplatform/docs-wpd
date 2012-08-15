@@ -277,7 +277,7 @@ These are broken out from the top-level table.
 
 
 ===Content Migration===
-{|
+{| class="wikitable"
 ! TOPIC
 ! Subtopic
 ! Owner
@@ -329,7 +329,7 @@ These are broken out from the top-level table.
 
 
 ===Content Architecture===
-{|
+{| class="wikitable"
 ! TOPIC
 ! Subtopic
 ! Owner
@@ -374,7 +374,7 @@ These are broken out from the top-level table.
 |}
 
 ===Original content===
-{|
+{| class="wikitable"
 ! TOPIC
 ! Subtopic
 ! Owner
@@ -409,7 +409,7 @@ These are broken out from the top-level table.
 
 
 ===Page Structure===
-{|
+{| class="wikitable"
 ! TOPIC
 ! Subtopic
 ! Owner
@@ -505,7 +505,7 @@ These are broken out from the top-level table.
 
 
 
-{|
+{| class="wikitable"
 ! TOPIC
 ! Subtopic
 ! Owner
