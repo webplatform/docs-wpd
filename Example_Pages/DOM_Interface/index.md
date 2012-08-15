@@ -1,7 +1,7 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
 =Element=
 ==Summary==
-Element is a DOM interface that forms the basis of the API for DOM objects. Other interfaces, like HTMLElement or SVGElement, will sub-class from Element and add new parts of the API.
+Element is a DOM interface that forms the basis of the API for DOM objects. Other interfaces, like [[DOM/interfaces/HTMLElement|HTMLElement]] or [[DOM/interfaces/SVGElement|SVGElement]], will sub-class from Element and add new parts of the API.
 
 ==Overview Table==
 
