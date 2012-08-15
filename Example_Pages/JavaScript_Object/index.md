@@ -40,6 +40,8 @@ The JavaScript Date object supports a number of UTC (universal) methods, as well
 
 Invoking JavaScript Date in a non-constructor context (i.e., without the new operator) will return a string representing the current time.
 
+=Examples=
+
 =Properties=
 
 =Methods=
@@ -51,8 +53,6 @@ Invoking JavaScript Date in a non-constructor context (i.e., without the new ope
 ==Properties==
 
 ==Methods==
-
-=Examples=
 
 =Usage=
 
