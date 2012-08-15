@@ -329,7 +329,10 @@ The [[DOM Reference]] and the [[DOM Event Reference]].
 * <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
 
 ===Allowed Elements===
-'''list elements?'''
+'''list elements? or list element groups?'''
+* All Core HTML elements
+* All Core SVG elements
+* any others in comma-separated list
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
