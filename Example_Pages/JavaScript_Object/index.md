@@ -147,7 +147,9 @@ Some correct and coherent explanation goes here.
 : Returns the function that created an instance. This is the Date constructor by default.
 
 Properties inherited from Object:
-[[constructor]]
+* [[constructor]]
+
+'''''Implementation Note:''' Transclude property descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of property links.''
 
 ==Methods==
 
