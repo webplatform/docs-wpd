@@ -20,7 +20,7 @@ Brief introduction to the topic in hand: the problem we are solving, the techniq
 
 == Article body ==
 
-The complete meat of the article. We probably need to work out some sort of guidance template for article body structure, but I don't think it should be too restricting. It can be more freeform than reference pages.
+The complete meat of the article. We probably need to work out some sort of guidance template for article body structure, but I don't think it should be too restricting. It can be more freeform than reference pages. The article body contains any code samples included in the article.
 
 == Summary ==
 
