@@ -286,19 +286,19 @@ These are broken out from the top-level table.
 |-
 |Figure out locations for all articles
 |
-|
+|[GROUP]
 |
 |
 |-
 |Migrate test article from MSDN
 |
-|
+|Yaron
 |
 |
 |-
 |Migrate existing articles
 |
-|
+|Yaron
 |
 |
 |-
