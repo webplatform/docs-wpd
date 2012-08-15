@@ -35,6 +35,8 @@ This method is not allowed to move nodes between different documents. If you wan
 
 '''appendChild()''' is one of the fundamental methods of web programming using the DOM. The '''appendChild()''' method inserts a new node into the DOM structure of a document, and is the second part of the one-two, create-and-append process so central to building web pages programmatically.
 
+This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
+
 ==Specifications==
 {| class="wikitable"
 |-
