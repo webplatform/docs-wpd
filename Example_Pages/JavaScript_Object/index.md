@@ -99,6 +99,20 @@ The following example demonstrates how to manually format a JavaScript date, in 
 
 =Properties=
 
+;[[constructor property]]
+: Specifies the function that creates an object.
+;[[prototype Property]]
+: Returns a reference to the prototype for a class of objects.
+
+Properties inherited from [[JavaScript/Function Function]]
+* [[arity]]
+* [[caller]]
+* [[constructor]]
+* [[length]]
+* [[name]]
+
+'''''Implementation Note:''' For each ancestor, there should be a generated list of method links.''
+
 =Methods=
 
 =Functions=
