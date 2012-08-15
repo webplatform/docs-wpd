@@ -14,6 +14,19 @@ Element is a DOM interface that forms the basis of the API for DOM objects. Othe
 |}
 
 ==Properties==
+'''Implementation Note''': The summaries would be automatically transcluded from the page
+
+'''Implementation Note''': The list of these would be automatically generated.
+{| class="wikitable"
+|-
+! Name !! Summary
+|-
+| <code>[[DOM/interfaces/Element/properties/children | children]]</code> || Children is all of the children of a node.
+|-
+| <code>[[DOM/interfaces/Element/properties/parentNode | parentNode]]</code> || parentNode is the parent of the node.
+|-
+| ''Many, many others... ||
+|}
 
 ==Methods==
 '''Implementation Note''': The summaries would be automatically transcluded from the page
