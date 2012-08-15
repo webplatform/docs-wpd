@@ -13,6 +13,10 @@ The <code>click</code> event type is dispatched when the user activates the prim
 ! Keyword
 ! Sample Usage
 |-
+! Event Type
+| <code>click</code>
+| <code>object.addEventListener("click", handler, useCapture);</code>
+|-
 ! Event Attribute
 | <code>onclick</code>
 | <code>&lt;element onclick = "handler(event)"&gt;</code>
@@ -20,10 +24,6 @@ The <code>click</code> event type is dispatched when the user activates the prim
 ! Event Property
 | <code>onclick</code>
 | <code>object.onclick = handler;</code>
-|-
-! Event Method
-| addEventListener
-| <code>object.addEventListener("click", handler, useCapture)</code>
 |}
 
 ==Event Properties==
