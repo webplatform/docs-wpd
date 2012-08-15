@@ -108,26 +108,14 @@ This method is accessible at run time. If elements are removed at run time, befo
 |}
 
 ==See Also==
-Related methods: insertBefore, replaceChild and removeChild.
-===Related CSS Properties===
-* <code>[[CSS/properties/font | font]]</code>
-* <code>[[CSS/properties/font-family | font-family]]</code>
-* <code>[[CSS/properties/font-size | font-size]]</code>
-* <code>[[CSS/properties/font-size-adjust | font-size-adjust]]</code>
-* <code>[[CSS/properties/font-stretch | font-stretch]]</code>
-* <code>[[CSS/properties/font-style | font-style]]</code>
-* <code>[[CSS/properties/font-variant | font-variant]]</code>
-* <code>[[CSS/properties/font-weight | font-weight]]</code>
+'''Implementation Note''': These should be auto-generated via tags.
+===Related DOM Methods===
+* <code>[[DOM/interfaces/element/insertBefore | insertBefore]]</code>
+* <code>[[DOM/interfaces/element/replaceChild | replaceChild]]</code>
+* <code>[[DOM/interfaces/element/removeChild | removeChild]]</code>
 
-===Related CSS At Rules===
-* <code>[[CSS/atrules/@font-face | @font-face]]</code>
-
-===Related DOM Interfaces===
-* <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
-
-===Related DOM properties===
-* <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
-* <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
+===Related DOM Concepts===
+* [[DOM/concepts/document-model | About the DOM object model]]
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
