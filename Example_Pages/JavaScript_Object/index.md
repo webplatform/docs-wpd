@@ -182,6 +182,13 @@ See Date and Time Calculations (JavaScript) for more information about how to us
 =Notes=
 
 =Specifications=
+{| class="wikitable"
+|-
+! Specification !! Status !! Relevant changes
+|-
+| [http://ecma-international.org/ecma-262/5.1/#sec-15.9.4|ECMA-262, 5.1 edition] || ??? || 
+|-
+|}
 
 =Browser compatibility=
 
