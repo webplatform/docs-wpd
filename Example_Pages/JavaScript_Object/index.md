@@ -42,6 +42,61 @@ Invoking JavaScript Date in a non-constructor context (i.e., without the new ope
 
 =Examples=
 
+==Several ways to assign dates==
+
+The following examples show several ways to assign JavaScript dates:
+
+ today = new Date();
+ birthday = new Date("December 17, 1995 03:24:00");
+ birthday = new Date(1995,11,17);
+ birthday = new Date(1995,11,17,3,24,0);
+
+==Calculating elapsed time==
+
+The following examples show how to determine the elapsed time between two JavaScript dates:	
+
+ // using static methods
+ var start = Date.now();
+ // the event you'd like to time goes here:
+ doSomethingForALongTime();
+ var end = Date.now();
+ var elapsed = end - start; // time in milliseconds
+
+ // if you have Date objects
+ var start = new Date();
+ // the event you'd like to time goes here:
+ doSomethingForALongTime();
+ var end = new Date();
+ var elapsed = end.getTime() - start.getTime(); // time in milliseconds
+
+ // if you want to test a function and get back its return
+ function printElapsedTime (fTest) {
+   var nStartTime = Date.now(), vReturn = fTest(), nEndTime = Date.now();
+   alert("Elapsed time: " + String(nEndTime - nStartTime) + " milliseconds");
+   return vReturn;
+ }
+ 
+ yourFunctionReturn = printElapsedTime(yourFunction);
+
+==ISO 8601 formatted dates==
+
+<code>Date.toISOString()</code> is now supported, so you can use that.
+
+The following example demonstrates how to manually format a JavaScript date, in an ISO 8601 format using UTC:
+
+ /* use a function for the exact format desired... */
+ function ISODateString(d){
+   function pad(n){return n<10 ? '0'+n : n}
+   return d.getUTCFullYear()+'-'
+     + pad(d.getUTCMonth()+1)+'-'
+     + pad(d.getUTCDate())+'T'
+     + pad(d.getUTCHours())+':'
+     + pad(d.getUTCMinutes())+':'
+     + pad(d.getUTCSeconds())+'Z'
+ }
+ var d = new Date();
+ console.log(ISODateString(d)); // prints something like 2009-09-28T19:03:12Z
+
 =Properties=
 
 =Methods=
