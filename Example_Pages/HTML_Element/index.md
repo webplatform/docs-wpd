@@ -64,8 +64,8 @@ Some important aspect of usage needs to be called out in its own section.
     line-height: 1.5em;
     margin-bottom: 1.286em;
     padding: 0.75em 15px;">
-</div>
 Note: A note about something in the usage topic is required.
+</div>
 
 ==Notes==
 
