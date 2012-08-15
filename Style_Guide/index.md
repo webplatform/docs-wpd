@@ -1,5 +1,7 @@
 For an article to be considered high quality, it should adhere to all of the following guidelines. Those that do not should be tagged with the relevant banners, and may be deleted.
 
+You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | style guidelines]] page, which outlines the guidelines for specific sections of pages.
+
 ==Descriptive Titles==
 Choose useful titles (e.g., the name of a feature being documented)
 
