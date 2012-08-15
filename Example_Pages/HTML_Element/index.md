@@ -1,25 +1,13 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
 
 ==Summary==
-The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.
+A brief summary--a few sentences at most--that describes the element. Use the element name liberally to increase SEO. 
 
-==Overview table==
-{| class="wikitable"
-|-
-| [[CSS/Concepts/Initial-Value | Initial Value]] || <code>medium</code>
-|-
-| Applies to || All elements
-|-
-| [[CSS/concepts/Inherited | Inherited]] || Yes
-|-
-| Percentages || Relative to parent element's font size
-|-
-| Media || <code>[[CSS/media/visual | visual]]</code>
-|-
-| [[CSS/concepts/Computed-value | Computed value]] || Absolute length
-|-
-| [[CSS/concepts/CSSOM | CSS Object Model Property]] || <code>fontSize</code>
-|}
+==DOM Information==
+
+===DOM Interface===
+
+[[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]]
 
 ==Syntax==
  <code>font-size:  xx-small | x-small | small | medium | large | x-large | xx-large</code>
