@@ -371,6 +371,12 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
+|Comprehensive list of content needed
+|
+|Chris
+|
+|Based on Chris' [[https://www.w3.org/2011/docs/wiki/Content_requirements_master_list#Reference earlier draft of the same]].
+|-
 |Home page
 |
 |Designer. Lea? Adobe?
