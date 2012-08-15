@@ -173,15 +173,14 @@ The notes section contains information that may be important to web developers b
 |}
 
 ==See Also==
-===Tutorials and Guides===
+====Tutorials and Guides====
 -----
 A list of relevant tutorials and other conceptual materials
 
-===Reference===
+====Reference====
 -----
 A list of related elements, methods, etc.
 
-===Related Elements===
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
