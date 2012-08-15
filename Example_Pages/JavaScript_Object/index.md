@@ -119,7 +119,7 @@ Properties inherited from [[JavaScript/Function Function]]
 * [[length]]
 * [[name]]
 
-'''''Implementation Note:''' For each ancestor, there should be a generated list of method links.''
+'''''Implementation Note:''' Transclude property descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links.''
 
 =Methods=
 
