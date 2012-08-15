@@ -17,6 +17,7 @@ Element is a DOM interface that forms the basis of the API for DOM objects. Othe
 
 ==Methods==
 '''Implementation Note''': The summaries would be automatically transcluded from the page
+
 '''Implementation Note''': The list of these would be automatically generated.
 {| class="wikitable"
 |-
