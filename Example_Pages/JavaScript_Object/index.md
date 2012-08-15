@@ -191,5 +191,47 @@ See Date and Time Calculations (JavaScript) for more information about how to us
 |}
 
 =Browser compatibility=
+==Desktop==
+<div id="compat-desktop">
+  <table class="compat-table">
+       <tr>
+        <th>Feature</th>
+        <th>Chrome</th>
+        <th>Firefox (Gecko)</th>
+        <th>Internet Explorer</th>
+        <th>Opera</th>
+        <th>Safari</th>
+      </tr>
+      <tr>
+        <td>Basic support</td>
+        <td>5.0</td>
+        <td>{{ CompatGeckoDesktop("1") }}</td>
+        <td>5.5</td>
+        <td>7.0</td>
+        <td>1.0</td>
+      </tr>
+  </table>
+</div>
+==Mobile==
+<div id="compat-mobile">
+  <table class="compat-table">
+      <tr>
+        <th>Feature</th>
+        <th>Android</th>
+        <th>Firefox Mobile (Gecko)</th>
+        <th>IE Phone</th>
+        <th>Opera Mobile</th>
+        <th>Safari Mobile</th>
+      </tr>
+      <tr>
+        <td>Basic support</td>
+        <td>1.0</td>
+        <td>{{ CompatGeckoMobile("1") }}</td>
+        <td>6.0</td>
+        <td>6.0</td>
+        <td>1.0</td>
+      </tr>
+  </table>
+</div>
 
 =See also=
