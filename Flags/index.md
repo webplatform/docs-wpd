@@ -19,13 +19,16 @@ These articles mark work items that an article needs to bring it up to our quali
 
 ===Content Quality (High-Level)===
 * Stub
-* Deletion_Candidate ''Applied to spam or irrelevant content''
+* Deletion_Candidate ''Applied to spam or irrelevant content'' ''''TODO: this should have a field for reasoning'''
 * Merge_Candidate ''Applied to duplicate content''
 * Copyright_Issue
 * Undescriptive_Title
 * Needs_Tags ''Applied to content that hasn't been processed to add all appropriate tags''
+* New: '''Missing relevant sections'''
+* New: '''Data_not_semantic''' ''Used for when Semantic Media Wiki's data modeling hasn't been used to its potential for this article type''
 
 ===Content Quality (Low-Level)===
+'''Ones not created yet are in bold'''
 ====Content Quality====
 * Content_Outdated
 * Content_Incomplete
@@ -42,6 +45,9 @@ These articles mark work items that an article needs to bring it up to our quali
 * Compatibility_Outdated
 * Compatibility_Incomplete
 * Compatibility_Missing
+* New: '''Specification_Outdated'''
+* New: '''Specification_Incomplete'''
+* New: '''Specification_Missing'''
 
 ====Examples Quality====
 * Examples_Needed
