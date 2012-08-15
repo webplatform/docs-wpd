@@ -53,14 +53,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Twitter account @webplatform
 | 
-| 	
+| Done	
 | 
 | 
 | yes
 |-
 | Twitter policy 
-| 
-| [GROUP]	
+| [GROUP]
+| 	
 | 
 | Will be done by marketing team
 | yes
@@ -87,7 +87,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Community guidelines (See Community Organization breakout below)
-| 
+| [GROUP]
 | 
 | 
 | See Art of Community	
@@ -108,8 +108,8 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Clear URL structure
-| 
-| 	
+| [GROUP]
+| largely done	
 | 
 | 
 | yes
@@ -150,7 +150,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Teaching materials
-| 
+| [GROUP]
 | 	
 | 
 | Moodle? Later
@@ -199,14 +199,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | How to help (includes migrating MDN)
-| 
+| [GROUP] Janet
 | 	
 | 
 | 
 | yes
 |-
 | Privacy policy
-| 
+| [GROUP], legal reps
 | 	
 | 
 | 
@@ -234,31 +234,31 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Issue tracker (bugs)
-| 
+| Eliot
 | 
 | 
 | W3C bugzilla?
 | yes
 |-
 | Task-oriented Tutorials
-| 
+| [GROUP]
 | 	
 | 
 | 
 | yes
 |-
 | Fast.ly CDN
-| 	
+| Ryan Lane	
 | 
 | 
 | 
 | yes
 |-
 | Copyright
-| 	
+| [GROUP] legal	
 | 
 | 
-| Need to write up the terms by which people can use the content on WPD
+| Need to approve the terms by which people can use the content on WPD. Start with [https://www.w3.org/2011/docs/wiki/License_and_Reuse the text on the W3C Wiki].
 | yes
 |-
 | Figure out list of "early preview" people
