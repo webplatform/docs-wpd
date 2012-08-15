@@ -320,9 +320,9 @@ The [[DOM Reference]] and the [[DOM Event Reference]].
 * <code>[[dblclick]]</code>
 
 ===Related DOM Interfaces===
-* <code>[[MouseEvent]]</code>
-* <code>[[UIEvent]]</code>
 * <code>[[Event]]</code>
+** <code>[[UIEvent]]</code>
+*** <code>[[MouseEvent]]</code>
 
 ===Related DOM properties===
 * <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
