@@ -20,9 +20,11 @@ Brief introduction to the topic in hand: the problem we are solving, the techniq
 
 == Article body ==
 
+The tutorial is a step-by-step description of a task or use case. The reader should be guided from the beginning through to completion. The introduction should make a promise of what will be accomplished, and the summary should recap what they have learned.
+
 The complete meat of the article. We probably need to work out some sort of guidance template for article body structure, but I don't think it should be too restricting. It can be more freeform than reference pages. The article body contains any code samples included in the article.
 
-Theoretically, this is the longest section, although it doesn't look it in this template.
+Theoretically, this will be the longest section of the tutorial, although it doesn't look it in this template.
 
 == Summary ==
 
