@@ -47,6 +47,8 @@ This method is accessible at run time. If elements are removed at run time, befo
 
 ==Browser Compatibility==
 '''Implementation Note''': Would have the Compatibility_Incomplete flag
+
+'''Implementation Note:''' : Supported (when?) should ideally be a template or something we can query on, low priority.
 ===Desktop===
 <div id="compat-desktop">
   <table class="compat-table">
