@@ -95,12 +95,15 @@ The notes section contains information that may be important to web developers b
 
 {| class="wikitable"
 ! Specification
-! Notes
+! Status
+! Relevant changes
 |-
 | [http://dev.w3.org/html5/spec/spec.html HTML5]
+| Last Call Working Draft
 | No change
 |-
 | [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01]
+| Recommedation
 | Introduced
 |}
 
