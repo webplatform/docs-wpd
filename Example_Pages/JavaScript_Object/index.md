@@ -140,10 +140,23 @@ Methods inherited from [[JS/Function|Function]]:
 
 
 =Instances=
-
+Some correct and coherent explanation goes here.
 ==Properties==
 
+;constructor
+: Returns the function that created an instance. This is the Date constructor by default.
+
+Properties inherited from Object:
+[[constructor]]
+
 ==Methods==
+
+;getDate
+: Returns the day of the month (1-31) for the specified date according to local time.
+;getDay
+: Returns the day of the week (0-6) for the specified date according to local time.
+;getYear
+: Deprecated. Returns the year (usually 2-3 digits) in the specified date according to local time. Use getFullYear instead.
 
 =Usage=
 
