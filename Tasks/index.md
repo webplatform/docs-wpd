@@ -364,7 +364,7 @@ These are broken out from the top-level table.
 |
 |}
 
-===Original content===
+===Original Content===
 {| class="wikitable"
 ! TOPIC
 ! Subtopic
@@ -396,8 +396,6 @@ These are broken out from the top-level table.
 |
 |
 |}
-
-
 
 ===Page Structure===
 {| class="wikitable"
