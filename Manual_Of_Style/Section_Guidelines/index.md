@@ -24,6 +24,7 @@
 * Code should stand alone as much as possible.
 * All code should be elsewhere and included into the page. (When that functionality exists)
 * Should follow all best practices
+* Should have descriptive comments to explain the results.
 
 ==Notes==
 * Not specific to syntax or value, not directly related to usage, but still germane to the member. Remove this section ideally. In the long term, we should split them into other areas.
