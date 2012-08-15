@@ -407,15 +407,30 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
-|Yaron
+|rowspan="4"|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
+| Make page mock-ups
+| GROUP
 |
+| 
+|-
+| Make templates
+| Yaron
 |
-|Make page mock-ups; make templates; make import script; verify compatibility.
+| 
+|-
+| Make import script
+| Yaron
+|
+| 
+|-
+| Verify compatibility
+| Yaron
+|
+| 
 |-
 |Making sure we have all of the flags we need.
-|Alex
 |
+| Alex
 |
 |
 |-
@@ -450,11 +465,21 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Figure out compatibility table design
-|
+|rowspan="3"|Figure out compatibility table design
+| How it looks
 | CJ 
 |
-|How it looks, how it gets populated, how we maintain it
+| 
+|-
+| How it gets populated
+| 
+|
+| 
+|-
+| How we maintain it
+| 
+|
+| 
 |-
 |Templates/Properties/Categories Created based on our content organization
 |
