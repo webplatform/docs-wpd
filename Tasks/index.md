@@ -187,7 +187,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Doug
 |
 | 
-| Others: Twitter, blog, IRC, forums
+| Others: Twitter, blog, IRC, forums, comments in topics
 | yes
 |-
 | How to use this site
