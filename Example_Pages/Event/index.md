@@ -34,16 +34,16 @@ The <code>click</code> event type is dispatched when the user activates the prim
 ! Synchronicity
 | synchronous
 |-
-| Bubbles
+! Bubbles
 | no
 |-
-| Target
+! Target
 | [[Element]]
 |-
-| Cancelable
+! Cancelable
 | no
 |-
-| Default action
+! Default action
 | none
 |}
 
