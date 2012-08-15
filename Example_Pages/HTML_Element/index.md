@@ -101,7 +101,7 @@ The notes section contains information that may be important to web developers b
 | No change
 |-
 | [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01]
-|
+| Introduced
 |}
 
 ==Browser Compatibility==
