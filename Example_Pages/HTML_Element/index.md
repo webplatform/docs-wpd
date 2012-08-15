@@ -139,7 +139,7 @@ The notes section contains information that may be important to web developers b
 | [http://dev.w3.org/html5/spec/spec.html HTML5]
 | No change
 |-
-| [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01
+| [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01]
 |
 |}
 
@@ -151,16 +151,16 @@ The notes section contains information that may be important to web developers b
 ! Note
 |-
 | Internet Explorer
-| 6+ 
-|When using the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+| 6 
+| Introduced
 |-
-| Internet Explorer 
-| 4+
-| Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)
+| Opera
+| 4
+| Introduced, with the following variant: blah, blah, blah.
 |}
 
 ==See Also==
-===Related CSS Properties===
+===Parent Elements===
 * <code>[[CSS/properties/font | font]]</code>
 * <code>[[CSS/properties/font-family | font-family]]</code>
 * <code>[[CSS/properties/font-size | font-size]]</code>
@@ -170,15 +170,6 @@ The notes section contains information that may be important to web developers b
 * <code>[[CSS/properties/font-variant | font-variant]]</code>
 * <code>[[CSS/properties/font-weight | font-weight]]</code>
 
-===Related CSS At Rules===
-* <code>[[CSS/atrules/@font-face | @font-face]]</code>
-
-===Related DOM Interfaces===
-* <code>[[DOM/element/CSSStyleDeclaration | CSSStyleDeclaration]]</code>
-
-===Related DOM properties===
-* <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
-* <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
 
 <details>
 	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
