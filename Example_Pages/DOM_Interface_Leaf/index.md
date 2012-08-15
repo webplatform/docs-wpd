@@ -40,13 +40,7 @@ This method is not allowed to move nodes between different documents. If you wan
 |-
 ! Specification !! Status !! Relevant changes
 |-
-| [http://dev.w3.org/csswg/css3-fonts/#font-size-prop CSS Fonts Module Level 3] || Working Draft || No change
-|-
-| [http://dev.w3.org/csswg/css3-transitions/#animatable-css CSS Transitions] || Working Draft || Defines <code>font-size</code> as animatable
-|-
-| [http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size CSS 2 (Revision 1)] || Recommendation || No change
-|-
-| [http://www.w3.org/TR/CSS1/#font-size CSS Level 1] || Recommendation || Original specification
+| [http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-184E7107 DOM Level 3 Core] || Recommendation || Original specification
 |}
 
 ==Browser Compatibility==
