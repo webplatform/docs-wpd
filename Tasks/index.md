@@ -23,23 +23,22 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Things to think about: syntax highlighted blocks have a tag for what type of code they are. Make sure bolding looks right on Chrome. Attribution block final styling. Styling different for intra-page links, intra-wiki links, and external links. Note callouts.
 | yes
 |-
-| Content Migrated (See breakout below)
-| 
+| Content Migrated
+| see [[#Content_Migration|Content Migration]]
 | 	
 | 
 | Requires MediaWiki component (some) 
 | yes
 |-
-| Content architecture (See breakout below)
-|
+| Content Architecture
+| see [[#Content_Architecture|Content Architecture]]
 |
 |
 |
 | yes
 |-
-| Original content (See breakout below)
-| 
-| 	
+| Original_Content
+| see [[#Original_Content|Original Content]]| 	
 | 
 | 
 |
@@ -86,8 +85,8 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | 
 |-
-| Community guidelines (See Community Organization breakout below)
-| [GROUP]
+| Community Organization
+| see [[#Community_Organization|Community Organization]]
 | 
 | 
 | See Art of Community	
