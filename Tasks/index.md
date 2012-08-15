@@ -20,7 +20,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | CJ
 | 
 | 
-| Things to think about: syntax highlighted blocks have a tag for what type of code they are. Make sure bolding looks right on Chrome. Attribution block final styling. Styling different for intra-page links, intra-wiki links, and external links.
+| Things to think about: syntax highlighted blocks have a tag for what type of code they are. Make sure bolding looks right on Chrome. Attribution block final styling. Styling different for intra-page links, intra-wiki links, and external links. Note callouts.
 | yes
 |-
 | Content Migrated (See breakout below)
