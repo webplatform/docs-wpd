@@ -6,6 +6,9 @@ The structure of the wiki is broken down into technology, characteristic, and ar
 Article names are case-sensitive (e.g. <code>getAttribute</code>), but the proposal is to use lowercase names for the hierarchy (e.g. ''html'' instead of ''HTML''). Alternately, we could use uppercase page titles, such as <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>, but this seems error-prone. 
 
 ===Proposed Categories===
+'''TODO''': Other sections to add: css/concepts/ (e.g. inheritance, initial-value, etc), css/data-types/length, etc
+
+
 * html
 ** html / elements
 *** html / elements / ''foo''
