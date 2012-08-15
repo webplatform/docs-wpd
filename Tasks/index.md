@@ -304,17 +304,17 @@ These are broken out from the top-level table.
 |-
 |rowspan="3"|Figure out concrete MDN licensing flow
 |New pages
-|
+|[Mozilla]
 |
 |
 |-
 |Merging content in
-|
+|[Mozilla]
 |
 |
 |-
 |SA License
-|
+|[Mozilla]
 |
 |A manual attirbution block at bottom?
 |}
@@ -329,33 +329,33 @@ These are broken out from the top-level table.
 |-
 |Final URL structure/ content organization
 |
-|
+|[GROUP]
 |
 |
 |-
 |Create stub articles to fill out entire hierarchy
 |
-|
+|[GROUP] (script?)
 |
 |
 |-
 |Language dropdown
 |
-|
+|Doug/Yaron
 |
 |
 |-
 |Semantic mediawiki queries on listing/API summary pages to pull in all relevant attributes
 |
-|
+|Yaron & Christian
 |
 |
 |-
 |Placement of stewards' pages
 |
+|Doug
 |
-|
-|
+|Webplatform.org/stewards/steward_name
 |-
 |Indicating standards track APIs
 |
@@ -374,25 +374,25 @@ These are broken out from the top-level table.
 |-
 |Home page
 |
-|
+|Designer. Lea? Adobe?
 |
 |
 |-
 |Section header pages
 |
-|
+|[GROUP]
 |
 |
 |-
 |Marketing pages
 |
-|
+|[GROUP] Millo, Christos, Ian
 |
 |
 |-
 |Create content for steward pages
 |
-|
+|[GROUP]
 |
 |
 |}
@@ -411,7 +411,7 @@ These are broken out from the top-level table.
 |
 |
 |
-|
+|Make page mock-ups; make templates; make import script; verify compatibility.
 |-
 |Making sure we have all of the flags we need.
 |
