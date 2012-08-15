@@ -1,4 +1,6 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
+
+Based on: https://developer.mozilla.org/en-US/docs/DOM/Element and http://msdn.microsoft.com/en-us/library/ie/hh772117(v=vs.85).aspx
 =Element=
 ==Summary==
 Element is a DOM interface that forms the basis of the API for DOM objects. Other interfaces, like [[DOM/interfaces/HTMLElement|HTMLElement]] or [[DOM/interfaces/SVGElement|SVGElement]], will sub-class from Element and add new parts of the API.
