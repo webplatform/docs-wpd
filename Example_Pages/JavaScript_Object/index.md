@@ -138,7 +138,6 @@ Methods inherited from [[JS/Function|Function]]:
 
 '''''Implementation Note:''' Transclude method descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links.''
 
-=Functions=
 
 =Instances=
 
