@@ -131,6 +131,18 @@ The notes section contains information that may be important to web developers b
   </table>
 </div>
 
+===Specification===
+{| class="wikitable"
+! Specification
+! Notes
+|-
+| [http://dev.w3.org/html5/spec/spec.html HTML5]
+| No change
+|-
+| [http://www.w3.org/TR/1999/REC-html401-19991224/ HTML 4.01
+|
+|}
+
 ===Compatibility Notes===
 
 {| class="wikitable"
