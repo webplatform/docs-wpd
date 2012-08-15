@@ -302,31 +302,22 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Figure out concrete MDN licensing flow
-|
-|
-|
-|
-|-
-|
+|rowspan="3"|Figure out concrete MDN licensing flow
 |New pages
 |
 |
 |
 |-
-|
 |Merging content in
 |
 |
 |
 |-
-|
 |SA License
 |
 |
 |A manual attirbution block at bottom?
 |}
-
 
 ===Content Architecture===
 {| class="wikitable"
