@@ -44,14 +44,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |
 |-
 | Mobilize the MDN community to free up the content
-| 
+| Mozilla
 | 	
 | 
 | Get permissions from authors to migrate content from CC-BY-SA to CC-BY
 |
 |-
 | Twitter account @webplatform
-| 
+| Doug
 | Done	
 | 
 | 
@@ -79,7 +79,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Logging bot (IRC)
-| 
+| Tech
 | 	
 | 
 | Requires MediaWiki component
@@ -93,7 +93,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Flags
-| 
+| See [[#Page_Structure| Page Structure]]
 | 	
 | 
 | Requires MediaWiki component
