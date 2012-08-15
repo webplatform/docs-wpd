@@ -408,13 +408,13 @@ These are broken out from the top-level table.
 ! Note
 |-
 |Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
-|
+|Yaron
 |
 |
 |Make page mock-ups; make templates; make import script; verify compatibility.
 |-
 |Making sure we have all of the flags we need.
-|
+|Alex
 |
 |
 |
@@ -435,12 +435,12 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Document (lots of methods)
+|Large object: Document (lots of methods)
 |
 |
 |
 |-
-|Date
+|JS object or data type: Date
 |
 |
 |
@@ -452,7 +452,7 @@ These are broken out from the top-level table.
 |-
 |Figure out compatibility table design
 |
-|
+| CJ 
 |
 |How it looks, how it gets populated, how we maintain it
 |-
