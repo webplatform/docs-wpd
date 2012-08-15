@@ -22,6 +22,8 @@ Brief introduction to the topic in hand: the problem we are solving, the techniq
 
 The complete meat of the article. We probably need to work out some sort of guidance template for article body structure, but I don't think it should be too restricting. It can be more freeform than reference pages. The article body contains any code samples included in the article.
 
+Theoretically, this is the longest section, although it doesn't look it in this template.
+
 == Summary ==
 
 Summary saying what we learned, and any conclusions we can draw from the article.
