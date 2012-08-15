@@ -536,7 +536,7 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Create best practices for coding
+|Create style guide for code examples
 |
 |Eliot
 |
