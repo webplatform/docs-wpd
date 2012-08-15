@@ -40,12 +40,6 @@ Note: Note that JavaScript Date objects can only be instantiated by calling Java
 
 If you supply no arguments, the constructor creates a JavaScript Date object for today's date and time according to local time. If you supply some arguments but not others, the missing arguments are set to 0. If you supply any arguments, you must supply at least the year, month, and day. You can omit the hours, minutes, seconds, and milliseconds.
 
-The JavaScript date is measured in milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript Date object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
-
-The JavaScript Date object provides uniform behavior across platforms.
-
-The JavaScript Date object supports a number of UTC (universal) methods, as well as local time methods. UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard. The local time is the time known to the computer where JavaScript is executed.
-
 Invoking JavaScript Date in a non-constructor context (i.e., without the new operator) will return a string representing the current time.
 
 =Examples=
