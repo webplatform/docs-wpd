@@ -160,6 +160,8 @@ Properties inherited from [[JS/Object|Object]]:
 ;getYear
 : Deprecated. Returns the year (usually 2-3 digits) in the specified date according to local time. Use getFullYear instead.
 
+'''''Implementation Note:''' Transclude method descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links.''
+
 =Usage=
 
 =Notes=
