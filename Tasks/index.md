@@ -419,43 +419,32 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Multiple articles to display end state
-|
-|
-|
-|
-|-
-|
+|rowspan="6"|Multiple articles to display end state
 |Simple CSS Property
 |
 |
 |
 |-
-|
 |Complex CSS Property (CSS transforms)
 |
 |
 |
 |-
-|
 |Guide article (Canvas)
 |
 |
 |
 |-
-|
 |Document (lots of methods)
 |
 |
 |
 |-
-|
 |Date
 |
 |
 |
 |-
-|
 |Regular Expressions
 |
 |
