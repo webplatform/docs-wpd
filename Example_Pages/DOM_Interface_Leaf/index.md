@@ -1,48 +1,17 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
-
+=Node.appendChild()=
 ==Summary==
-The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.
-
-==Overview table==
-{| class="wikitable"
-|-
-| [[CSS/Concepts/Initial-Value | Initial Value]] || <code>medium</code>
-|-
-| Applies to || All elements
-|-
-| [[CSS/concepts/Inherited | Inherited]] || Yes
-|-
-| Percentages || Relative to parent element's font size
-|-
-| Media || <code>[[CSS/media/visual | visual]]</code>
-|-
-| [[CSS/concepts/Computed-value | Computed value]] || Absolute length
-|-
-| [[CSS/concepts/CSSOM | CSS Object Model Property]] || <code>fontSize</code>
-|}
+Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
 
 ==Syntax==
- <code>font-size:  xx-small | x-small | small | medium | large | x-large | xx-large</code>
- <code>font-size: smaller | larger</code>
- <code>font-size: </code><em><length></em> <code>|</code> <em><percentage> </em>
+ var child=''element''.appendChild(''child'');
 
-'''''Implementation Note:''' Each keyword above should be automatically generated and link to the relevant part of the Values section below.''
+===Parameters===
+* <code>element</code> is the parent element.
+* <code>child</code> is the node to append underneath <code>parent</code>. Also returned.
 
-==Values==
-
-'''''Implementation Note:''' We need to be able to differentiate between literal values, data types and placeholders.'' 
-
-;<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code>, <code>large</code>, <code>x-large</code>, <code>xx-large</code>
-: Indicate predefined abosolute font sizes. Named font sizes scale according to the user's font setting preferences.  
-
-;<code>larger</code>, <code>smaller</code>
-: Relatively larger or smaller than the parent element's font size, by roughly the ratio used to separate the absolute-size keywords relative to the font size of the parent object. 
-
-;[[CSS/datatypes/length|<length>]]
-: A positive length, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). When the units are specified in <code>em</code> or <code>ex</code>, the size is defined relative to the size of the font on the parent element of the element in question. For example, <code>0.5em</code> is half the font size of the parent of the current element. Negative values are not allowed. 
-
-;''percentage''
-: A positive percentage of the parent element's font size, followed by a percent symbol (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
+===Return Value===
+Returns <code>child</code>, the element that was appended.
 
 ==Examples==
 [[CSS/examples | View live examples]]
