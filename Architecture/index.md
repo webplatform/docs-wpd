@@ -8,7 +8,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ===Proposed Categories===
 {{TODO|Other sections to add: css/concepts/ (e.g. inheritance, initial-value, etc), css/data-types/length, etc}}
 
-{{TODO: Should there be a sub-page structure for methods and properties of an interface? like DOM/interfaces/HTMLElement/properties/children ?}}
+{{TODO| Should there be a sub-page structure for methods and properties of an interface? like DOM/interfaces/HTMLElement/properties/children ?}}
 
 * html
 ** html / elements
