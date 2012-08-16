@@ -31,20 +31,20 @@ The <code>click</code> event type is dispatched when the user activates the prim
 ! Interface
 | [[MouseEvent]]
 |-
-! Synchronicity
-| synchronous
+! Synchronous
+| Yes
 |-
 ! Bubbles
-| no
+| No
 |-
 ! Target
 | [[Element]]
 |-
 ! Cancelable
-| no
+| No
 |-
 ! Default action
-| none
+| None
 |}
 
 ==Interface==
