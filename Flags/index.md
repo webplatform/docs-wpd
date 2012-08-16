@@ -17,6 +17,8 @@ The specific implementation for this will require coordination between content n
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
 
+{{TODO | Create the bolded flags (the ones that are not yet created)}}
+
 ===Content Quality (High-Level)===
 * Stub
 * Deletion_Candidate ''Applied to spam or irrelevant content'' ''''TODO: this should have a field for reasoning'''
@@ -29,7 +31,6 @@ These articles mark work items that an article needs to bring it up to our quali
 * New: '''Data_not_semantic''' ''Used for when Semantic Media Wiki's data modeling hasn't been used to its potential for this article type''
 
 ===Content Quality (Low-Level)===
-'''Ones not created yet are in bold'''
 ====Content Quality====
 * Content_Outdated
 * Content_Incomplete
