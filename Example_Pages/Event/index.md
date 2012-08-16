@@ -50,7 +50,7 @@ The <code>click</code> event type is dispatched when the user activates the prim
 ==Interface==
 The <code>click</code> event type uses the <code>MouseEvent</code> interface.
 
- '''Note:''' begin transclusion of <code>MouseEvent</code> interface.
+'''''Implementation Note:''' begin transclusion of <code>MouseEvent</code> interface.''
 
 {| class="wikitable"
 ! Property
@@ -132,7 +132,7 @@ Returns the current state of the specified modifier key. See the document of Key
    in DOMString keyArg
  );
 
- '''Note:''' end transclusion of <code>MouseEvent</code> interface.
+'''''Implementation Note:''' end transclusion of <code>MouseEvent</code> interface.''
 
 ==Examples==
 [[Event/examples/click | View live examples]]
