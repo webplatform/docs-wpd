@@ -335,7 +335,7 @@ The [[DOM Reference]] and the [[DOM Event Reference]].
 
 ===Related DOM properties===
 * <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
-* <code>[[DOM/element/properties/defaults | element.defaults]]</code> ''IE Only''
+* <code>[[DOM/element/properties/defaults | element.defaults]]</code> [[Flag:Non-standard]] ''IE Only''
 
 ===Allowed Elements===
 '''list elements? or list element groups?'''
