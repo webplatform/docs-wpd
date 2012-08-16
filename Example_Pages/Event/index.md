@@ -52,60 +52,72 @@ The <code>click</code> event type uses the <code>MouseEvent</code> interface.
 
  '''Note:''' begin transclusion of <code>MouseEvent</code> interface.
 
-===Properties===
 {| class="wikitable"
 ! Property
 ! Type
 ! Description
+! Read only
 |-
 | screenX 
 | long
-| The X coordinate of the mouse pointer in global (screen) coordinates. Read only.
+| The X coordinate of the mouse pointer in global (screen) coordinates.
+| Yes
 |-
 | screenY
 | long
-| The Y coordinate of the mouse pointer in global (screen) coordinates. Read only.
+| The Y coordinate of the mouse pointer in global (screen) coordinates.
+| Yes
 |-
 | clientX
 | long
-| The X coordinate of the mouse pointer in local (DOM content) coordinates. Read only.
+| The X coordinate of the mouse pointer in local (DOM content) coordinates.
+| Yes
 |-
 | clientY
 | long
-| The Y coordinate of the mouse pointer in local (DOM content) coordinates. Read only.
+| The Y coordinate of the mouse pointer in local (DOM content) coordinates.
+| Yes
 |-
 | ctrlKey
 | boolean
-| true if the control key was down when the mouse event was fired. Read only.
+| true if the control key was down when the mouse event was fired.
+| Yes
 |-
 | shiftKey
 | boolean
-| true if the shift key was down when the mouse event was fired. Read only.
+| true if the shift key was down when the mouse event was fired.
+| Yes
 |-
 | altKey
 | boolean
-| true if the alt key was down when the mouse event was fired. Read only.
+| true if the alt key was down when the mouse event was fired.
+| Yes
 |-
 | metaKey
 | boolean
-| true if the meta key was down when the mouse event was fired. Read only.
+| true if the meta key was down when the mouse event was fired.
+| Yes
 |-
 | button
 | unsigned short
-| The button number that was pressed when the mouse event was fired: Left button=0, middle button=1 (if present), right button=2. For mice configured for left handed use in which the button actions are reversed the values are instead read from right to left. Read only.
+| The button number that was pressed when the mouse event was fired: Left button=0, middle button=1 (if present), right button=2. For mice configured for left handed use in which the button actions are reversed the values are instead read from right to left.
+| Yes
 |-
 | buttons 
 | unsigned short 	
-| The buttons being pressed when the mouse event was fired: Left button=1, Right button=2, Middle (wheel) button=4, 4th button (typically, "Browser Back" button)=8, 5th button (typically, "Browser Forward" button)=16. If two or more buttons are pressed, returns the logical sum of the values. E.g., if Left button and Right button are pressed, returns 3 (=1 <nowiki>|</nowiki> 2). Read only.
+| The buttons being pressed when the mouse event was fired: Left button=1, Right button=2, Middle (wheel) button=4, 4th button (typically, "Browser Back" button)=8, 5th button (typically, "Browser Forward" button)=16. If two or more buttons are pressed, returns the logical sum of the values. E.g., if Left button and Right button are pressed, returns 3 (=1 <nowiki>|</nowiki> 2).
+| Yes
 |-
 | relatedTarget
 | nsIDOMEventTarget
-| The target to which the event applies. Read only.
+| The target to which the event applies.
+| Yes
 |-
 | mozPressure 
   '''Non-standard'''
 | float
-| The amount of pressure applied to a touch or tablet device when generating the event; this value ranges between 0.0 (minimum pressure) and 1.0 (maximum pressure). Read only.
+| The amount of pressure applied to a touch or tablet device when generating the event; this value ranges between 0.0 (minimum pressure) and 1.0 (maximum pressure).
+| Yes
 |}
 
 ===Methods===
