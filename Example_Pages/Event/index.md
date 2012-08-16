@@ -95,25 +95,14 @@ The <code>click</code> event type uses the <code>MouseEvent</code> interface.
 | The button number that was pressed when the mouse event was fired: Left button=0, middle button=1 (if present), right button=2. For mice configured for left handed use in which the button actions are reversed the values are instead read from right to left. Read only.
 |-
 | buttons 
- '''DOM level 3''' 
- '''Requires Gecko 15.0'''
 | unsigned short 	
 | The buttons being pressed when the mouse event was fired: Left button=1, Right button=2, Middle (wheel) button=4, 4th button (typically, "Browser Back" button)=8, 5th button (typically, "Browser Forward" button)=16. If two or more buttons are pressed, returns the logical sum of the values. E.g., if Left button and Right button are pressed, returns 3 (=1 <nowiki>|</nowiki> 2). Read only.
-
-<p style="background: none repeat scroll 0 0 #FAF9E2; border-color: #DDDAAA; border-style: solid; border-width: 1px 0; color: #5D5636; line-height: 1.5em; margin-bottom: 1.286em; padding: 0.75em 15px;">Gecko supports this attribute on Windows, Linux (GTK) and Mac.</p>
-
-<p style="background: none repeat scroll 0 0 #FAF9E2; border-color: #DDDAAA; border-style: solid; border-width: 1px 0; color: #5D5636; line-height: 1.5em; margin-bottom: 1.286em; padding: 0.75em 15px;">On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.</p>
-
-<p style="background: none repeat scroll 0 0 #FAF9E2; border-color: #DDDAAA; border-style: solid; border-width: 1px 0; color: #5D5636; line-height: 1.5em; margin-bottom: 1.286em; padding: 0.75em 15px;">On Linux (GTK), 4th button and 5th button are not supported. And also, mouseup event always have the releasing button information in this attribute value.</p>
-
-<p style="background: none repeat scroll 0 0 #FAF9E2; border-color: #DDDAAA; border-style: solid; border-width: 1px 0; color: #5D5636; line-height: 1.5em; margin-bottom: 1.286em; padding: 0.75em 15px;">On Mac OS X 10.5, buttons attribute always returns 0 because there is no platform API for implementing this feature.</p>
 |-
 | relatedTarget
 | nsIDOMEventTarget
 | The target to which the event applies. Read only.
 |-
 | mozPressure 
-  '''Requires Gecko 2.0''' 
   '''Non-standard'''
 | float
 | The amount of pressure applied to a touch or tablet device when generating the event; this value ranges between 0.0 (minimum pressure) and 1.0 (maximum pressure). Read only.
@@ -206,20 +195,20 @@ txtOutput.value = window.event.srcElement.value;
 </syntaxhighlight>
 
 ==Usage==
-If the user clicks the left mouse button, the onclick event for an object occurs only if the mouse pointer is over the object and an onmousedown and an onmouseup event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no onclick event occurs.
+If the user clicks the left mouse button, the <code>click</code> event for an object occurs only if the mouse pointer is over the object and an <code>mousedown</code> and an <code>mouseup</code> event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no <code>click</code> event occurs.
 
-The onclick event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the onclick event occurs after the onbeforeupdate and onafterupdate events for the control group.
+The <code>click</code> event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the <code>click</code> event occurs after the <code>beforeupdate</code> and <code>afterupdate</code> events for the control group.
 
-If the user clicks an object that can receive the input focus but does not already have the focus, the onfocus event occurs for that object before the onclick event. If the user double-clicks the left mouse button in a control, an ondblclick event occurs immediately after the onclick event.
+If the user clicks an object that can receive the input focus but does not already have the focus, the <code>focus</code> event occurs for that object before the <code>click</code> event. If the user double-clicks the left mouse button in a control, an <code>dblclick</code> event occurs immediately after the <code>click</code> event.
 
-Although the onclick event is available on a large number of HTML elements, if a document is to be accessible to keyboard users, you should restrict its use to the a, input, area, and button elements. These elements automatically allow keyboard access through the TAB key, making documents that use the elements accessible to keyboard users. For more information, please see the section on writing accessible Dynamic HTML.
+Although the <code>click</code> event is available on a large number of HTML elements, if a document is to be accessible to keyboard users, you should restrict its use to the a, input, area, and button elements. These elements automatically allow keyboard access through the TAB key, making documents that use the elements accessible to keyboard users. For more information, please see the section on writing accessible Dynamic HTML.
 
 Initiates any action associated with the object. For example, if the user clicks an a object, the client loads the document specified by the href property. To cancel the default behavior, set the returnValue property of the event object to FALSE.
 
 To invoke this event, do one of the following:
 
 * Click the object.
-* Invoke the click method.
+* Invoke the <code>click</code> method.
 * Press the ENTER key in a form.
 * Press the access key for a control.
 * Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.
@@ -227,7 +216,7 @@ To invoke this event, do one of the following:
 
 
 ==Notes==
-
+None.
 
 ==Specifications==
 {| class="wikitable"
@@ -299,9 +288,17 @@ To invoke this event, do one of the following:
 ! Version
 ! Note
 |-
-| 
-| 
-| 
+| Firefox
+| 15.0
+| Introduces the <code>buttons</code> attribute on attribute on Windows, Linux (GTK) and Mac. On Mac OS X 10.5, the <code>buttons</code> attribute always returns 0 because there is no platform API for implementing this feature.
+|-
+| Firefox
+| 15.0
+| On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.
+|-
+| Firefox
+| 15.0
+| On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.
 |}
 
 ==See Also==
