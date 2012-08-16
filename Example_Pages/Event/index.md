@@ -310,7 +310,7 @@ None.
 |-
 | Firefox
 | 15.0
-| On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.
+| On Linux (GTK), 4th button and 5th button are not supported. And also, <code>mouseup</code> event always have the releasing button information in this attribute value.
 |}
 
 ==See Also==
