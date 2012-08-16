@@ -137,7 +137,7 @@ Returns the current state of the specified modifier key. See the document of Key
 ==Examples==
 [[Event/examples/click | View live examples]]
 
-===Example 1===
+===Example: Click Event Origin===
 This example uses the event object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of anchor elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the location of the window object.
 
 [[See live example]]
@@ -166,8 +166,8 @@ function clickIt()
 </body>
 </syntaxhighlight>
 
-===Example 2===
-This example shows how to bind the onclick event to grouped controls.
+===Example: Binding the Click Event to Controls===
+This example shows how to bind the <code>click</code> event to grouped controls.
 
 [[See live example]]
 
