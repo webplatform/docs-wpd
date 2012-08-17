@@ -438,7 +438,7 @@ These are broken out from the top-level table.
 |
 | 
 |-
-|rowspan="2" | Flags 
+|rowspan="3" | Flags 
 |Making sure we have all of the flags we need.
 | Alex
 |
