@@ -5,6 +5,8 @@ Based on: https://developer.mozilla.org/en-US/docs/CSS/font-size and http://msdn
 ==Summary==
 The <code>font-size</code> CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units.
 
+'''Implementation Note''': use property of type text so we can pull this out elsewhere
+
 ==Overview table==
 {| class="wikitable"
 |-
