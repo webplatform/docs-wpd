@@ -20,7 +20,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | CJ
 | 
 | 
-| Things to think about: syntax highlighted blocks have a tag for what type of code they are. Make sure bolding looks right on Chrome. Attribution block final styling. Styling different for intra-page links, intra-wiki links, and external links. Note callouts. Section editing.
+| see [[#Design|Design]]
 | yes
 |-
 | Content Migrated
@@ -520,8 +520,6 @@ These are broken out from the top-level table.
 
 ===Community Organization===
 
-
-
 {| class="wikitable"
 ! TOPIC
 ! Subtopic
@@ -558,4 +556,75 @@ These are broken out from the top-level table.
 | Alex?
 |
 |
+|}
+
+
+===Design===
+
+{| class="wikitable"
+! TOPIC
+! Subtopic
+! Owner
+! Status
+! Note
+|-
+| Skin
+| Syntax highlighted blocks have a tag for what type of code they are
+| CJ
+| 
+| 
+|-
+| Skin
+| Make sure bolding looks right on Chrome
+| CJ
+| 
+| 
+|-
+| Skin
+| Attribution block final styling
+| CJ
+| 
+| 
+|-
+| Skin
+| Styling different for intra-page links, intra-wiki links, and external links
+| CJ
+| 
+| 
+|-
+| Skin
+| Note callouts
+| CJ
+| 
+| 
+|-
+| Skin
+| Section editing
+| CJ
+| 
+| 
+|-
+| Skin
+| Language dropdown in header
+| CJ
+| 
+| Shows current language; allows user to select new language; also allows authenticated user to create new translation
+|-
+| Skin
+| Username dropdown
+| CJ
+| 
+| Needs down-arrow; item highlight; item should be whole area, not just text
+|-
+| Skin
+| Edit / watch button colors
+| CJ
+| 
+| Edit button should be strongest
+|-
+| Skin
+| Search Box alignment
+| CJ
+| 
+| Size and position should align with other visual elements 
 |}
