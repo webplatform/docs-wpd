@@ -449,6 +449,11 @@ These are broken out from the top-level table.
 |
 |
 |-
+| Implement flags that can take a string value as well (e.g. merge candidate)
+| Alex
+|
+|
+|-
 |rowspan="6"|Multiple articles to display end state
 |Simple CSS Property
 |[GROUP]
