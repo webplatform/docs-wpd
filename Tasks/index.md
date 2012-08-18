@@ -639,4 +639,10 @@ These are broken out from the top-level table.
 | CJ
 | 
 | Size and position should align with other visual elements 
+|-
+| Skin
+| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
+| CJ
+| 
+| 
 |}
