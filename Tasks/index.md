@@ -572,7 +572,7 @@ These are broken out from the top-level table.
 |
 |
 |-
-|Strengthen the overall guide
+|Strengthen the overall guide (practical counterpart to pillars)
 |
 |Alex, b/c he knows what this one means.
 |
@@ -592,11 +592,10 @@ These are broken out from the top-level table.
 |-
 | Finalize the Manual of Style (including sub pages)
 |
-| Alex?
+| Alex
 |
 |
 |}
-
 
 ===Design===
 
