@@ -404,29 +404,29 @@ These are broken out from the top-level table.
 |
 |Chris
 |
-|Based on Chris' [[https://www.w3.org/2011/docs/wiki/Content_requirements_master_list#Reference earlier draft of the same]].
+|Based on Chris' [[https://www.w3.org/2011/docs/wiki/Content_requirements_master_list#Reference earlier draft of the same]]. Ideally a roadmap of all the content we'll want to fill out over the years.
 |-
 |Home page
 |
-|Designer. Lea? Adobe?
+| Lea
 |
 |
 |-
 |Section header pages
 |
-|[GROUP]
+| Chris
 |
-|
+| Pages like docs/css landing page, but also sub-pages like docs/css/properties. Some of these can be somewhat auto-generated (list of sub-pages, maybe like include tutorials). Will need some templates for it.
 |-
 |Marketing pages
 |
-|[GROUP] Millo, Christos, Ian
+| Wai (marketing taskforce)
 |
 |
 |-
 |Create content for steward pages
 |
-|[GROUP]
+| ''Up to each steward''
 |
 |
 |}
