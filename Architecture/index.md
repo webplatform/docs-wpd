@@ -10,6 +10,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 {{TODO| Should there be a sub-page structure for methods and properties of an interface? like DOM/interfaces/HTMLElement/properties/children ?}}
 
+{{TODO | Where would proprietary information live, if it were to be included? E.g. how to write a Mozilla extension.}}
+
 * html
 ** html / elements
 *** html / elements / ''foo''
