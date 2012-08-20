@@ -357,39 +357,39 @@ These are broken out from the top-level table.
 |-
 |Final URL structure/ content organization
 |
-|[GROUP]
+| Chris
 |
 |
 |-
 |Create stub articles to fill out entire hierarchy
 |
-|[GROUP] (script?)
+| Chris
 |
 |
 |-
 |Language dropdown
 |
-|Doug/Yaron
+| Doug*, work done by Yaron
 |
 |
 |-
 |Semantic mediawiki queries on listing/API summary pages to pull in all relevant attributes
 |
-|Yaron & Christian
+| Alex*, work done by Yaron
 |
 |
 |-
 |Placement of stewards' pages
 |
-|Doug
+| Doug
 |
 |Webplatform.org/stewards/steward_name
 |-
 |Indicating standards track APIs
 |
-|[GROUP] 
+| Alex
 |
-|
+| Just figuring out how to use tags/flags
 |}
 
 ===Original Content===
