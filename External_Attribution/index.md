@@ -73,4 +73,4 @@ For articles with no CC-BY-SA content:
 </details>
 </syntaxhighlight>
 
-TODO: some browsers don't support the details element, so we'll need a polyfill.
+{{TODO | some browsers don't support the details element, so we'll need a polyfill.}}
