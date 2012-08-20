@@ -439,14 +439,19 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-|rowspan="4"|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
+|rowspan="5"|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
 | Make page mock-ups
-| [GROUP]
-|
+| Doug ( with help from Lea)
 | 
+| Blocks on finalizing the list of all page types (next row).
+|- 
+| Ensure we have all page types listed on [[WPD:Architecture]]
+| Lea, with help from Doug
+| 
+| Make sure to review the whole content architecture. Make sure to include all page types, including ones that don't have templates.
 |-
 | Make templates
-| Yaron
+| Alex
 |
 | 
 |-
@@ -455,10 +460,10 @@ These are broken out from the top-level table.
 |
 | 
 |-
-| Verify compatibility
+| Figure out how to map existing content into the templates or page structure
 | Yaron
 |
-| 
+| Chris figuring out where articles fit, Alex figuring out how the content fits in, and Yaron implementing
 |-
 |rowspan="3" | Flags 
 |Making sure we have all of the flags we need.
