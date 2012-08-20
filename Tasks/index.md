@@ -272,7 +272,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |
 |
 | 
+|
+|-
+| Organize pre-launch hackathon
 | 
+|
+|
+| 
+|  yes
 |}
 
 ==Subtopics==
