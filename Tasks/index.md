@@ -606,79 +606,68 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-| Skin
+|rowspan="6"| Skin
 | Syntax highlighted blocks have a tag for what type of code they are
-| CJ
+| Doug*
 | 
 | 
 |-
-| Skin
 | Make sure bolding looks right on Chrome
-| CJ
+| Doug*
 | 
 | 
 |-
-| Skin
+| Section editing
+| Doug*
+| 
+| 
+|-
+| Username dropdown
+| Doug*
+| 
+| Needs down-arrow; item highlight; item should be whole area, not just text
+|-
+| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
+| Doug*
+| 
+| 
+|-
+| Edit / watch button colors
+| Doug*
+| 
+| Edit button should be strongest
+|-
+|rowspan="7"| Design
 | Attribution block final styling
 | CJ
 | 
 | 
 |-
-| Skin
 | Styling different for intra-page links, intra-wiki links, and external links
 | CJ
 | 
 | 
 |-
-| Skin
 | Note callouts
 | CJ
 | 
 | 
 |-
-| Skin
-| Section editing
-| CJ
-| 
-| 
-|-
-| Skin
 | Language dropdown in header
 | CJ
 | 
 | Shows current language; allows user to select new language; also allows authenticated user to create new translation
 |-
-| Skin
-| Username dropdown
-| CJ
-| 
-| Needs down-arrow; item highlight; item should be whole area, not just text
-|-
-| Skin
-| Edit / watch button colors
-| CJ
-| 
-| Edit button should be strongest
-|-
-| Skin
 | Search Box alignment
 | CJ
 | 
 | Size and position should align with other visual elements 
 |-
-| Skin
-| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
-| CJ
-| 
-| 
-|-
-| Skin
 | [[Template:CSS_Prefix | CSS Prefix]] callouts need to be styled
 | CJ
 |
 |
 |-
-| Skin
 | Design style guide
 | CJ
 |
