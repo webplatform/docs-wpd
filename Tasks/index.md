@@ -606,37 +606,6 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-|rowspan="6"| Skin
-| Syntax highlighted blocks have a tag for what type of code they are
-| Doug*
-| 
-| 
-|-
-| Make sure bolding looks right on Chrome
-| Doug*
-| 
-| 
-|-
-| Section editing
-| Doug*
-| 
-| 
-|-
-| Username dropdown
-| Doug*
-| 
-| Needs down-arrow; item highlight; item should be whole area, not just text
-|-
-| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
-| Doug*
-| 
-| 
-|-
-| Edit / watch button colors
-| Doug*
-| 
-| Edit button should be strongest
-|-
 |rowspan="7"| Design
 | Attribution block final styling
 | CJ
@@ -672,4 +641,35 @@ These are broken out from the top-level table.
 | CJ
 |
 | Provides guidlines for creating sub-properties like blog, IRC, etc.
+|-
+|rowspan="6"| Skin
+| Syntax highlighted blocks have a tag for what type of code they are
+| Doug*
+| 
+| 
+|-
+| Make sure bolding looks right on Chrome
+| Doug*
+| 
+| 
+|-
+| Section editing
+| Doug*
+| 
+| 
+|-
+| Username dropdown
+| Doug*
+| 
+| Needs down-arrow; item highlight; item should be whole area, not just text
+|-
+| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
+| Doug*
+| 
+| 
+|-
+| Edit / watch button colors
+| Doug*
+| 
+| Edit button should be strongest
 |}
