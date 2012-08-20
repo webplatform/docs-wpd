@@ -235,9 +235,9 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |-
 | Issue tracker (bugs)
 | Eliot
+| Done
 | 
-| 
-| W3C bugzilla? Writing to Mike Smith
+| In W3C bugzilla. See [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org]
 | yes
 |-
 | Task-oriented Tutorials
