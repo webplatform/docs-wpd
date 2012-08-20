@@ -598,7 +598,7 @@ These are broken out from the top-level table.
 |}
 
 ===Design===
-
+'''Handled by the marketing taskforce'''
 {| class="wikitable"
 ! TOPIC
 ! Subtopic
