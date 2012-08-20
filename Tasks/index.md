@@ -314,19 +314,19 @@ These are broken out from the top-level table.
 |-
 |Figure out locations for all articles
 |
-|[GROUP]
+| Chris
 |
-|
+| Blocked on finalizing the URL structure. First step is to break up the list of articles to set up. Then assign people to take responsibility for each section.
 |-
-|Migrate test article from MSDN
+| Migrate test article from MSDN
 |
-|Yaron
+| Doug*, work will be done by Yaron 
 |
-|
+| 
 |-
 |Migrate existing articles
 |
-|Yaron
+| Doug*, work will be done by Yaron
 |
 |
 |-
