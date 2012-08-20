@@ -332,17 +332,17 @@ These are broken out from the top-level table.
 |-
 |rowspan="3"|Figure out concrete MDN licensing flow
 |New pages
-|[Mozilla]
+| Janet
 |
 |
 |-
 |Merging content in
-|[Mozilla]
+| Janet
 |
 |
 |-
 |SA License
-|[Mozilla]
+| Janet
 |
 |A manual attirbution block at bottom?
 |}
