@@ -17,37 +17,38 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Skin
-| CJ
+| Marketing taskforce. 
 | 
 | 
-| see [[#Design|Design]]
+| See [[#Design|Design]]
 | yes
 |-
 | Content Migrated
-| see [[#Content_Migration|Content Migration]]
+| Content taskforce. 
 | 	
 | 
-| Requires MediaWiki component (some) 
+| See [[#Content_Migration|Content Migration]]. Requires MediaWiki component (some) 
 | yes
 |-
 | Content Architecture
-| see [[#Content_Architecture|Content Architecture]]
+| Content taskforce. 
 |
 |
-|
+| See [[#Content_Architecture|Content Architecture]].
 | yes
 |-
 | Original_Content
-| see [[#Original_Content|Original Content]]| 	
+| Content taskforce. 
 | 
-| 
+|
+| See [[#Original_Content|Original Content]]| 	 
 |
 |-
 | Mobilize the MDN community to free up the content
-| Mozilla
+| (Janet) Mozilla
 | 	
 | 
-| Get permissions from authors to migrate content from CC-BY-SA to CC-BY
+| Get permissions from authors to migrate content from CC-BY-SA to CC-BY. '''Move down to content taskforce.'''
 |
 |-
 | Twitter account @webplatform
@@ -58,7 +59,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Twitter policy 
-| [GROUP]
+| Marketing taskforce.
 | 	
 | 
 | Will be done by marketing team
@@ -68,67 +69,67 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Doug
 | Done
 | 
-| 
+| '''Needs to be documented where it is.'''
 | yes
 |-
 | Web client (IRC)
 | Doug 
 | Done (no skin)
 | 
-| Requires MediaWiki component
+| Requires MediaWiki component. '''Needs to be documented where it is'''
 | 
 |-
 | Logging bot (IRC)
-| Tech
+| Doug
 | 	
 | 
 | Requires MediaWiki component
 | 
 |-
 | Community Organization
-| see [[#Community_Organization|Community Organization]]
+| Content taskforce. 
 | 
 | 
-| See Art of Community	
+| See [[#Community_Organization|Community Organization]]. See Art of Community	
 | yes
 |-
 | Flags
-| See [[#Page_Structure| Page Structure]]
+| Content taskforce
 | 	
 | 
-| Requires MediaWiki component
+| See [[#Page_Structure| Page Structure]] Requires MediaWiki component
 | yes
 |-
 | Comments
-| [TECH]
+| Doug
 | 	
 | 
 | Requires MediaWiki component
 | yes
 |-
 | Clear URL structure
-| [GROUP]
+| Content taskforce
 | largely done	
 | 
-| 
+| See below.
 | yes
 |-
 | Easy page creation
-| See [[#Page_Structure| Page Structure]]
+| Alex
 | 	
 | 
-| 
+| See [[#Page_Structure| Page Structure]]
 | 
 |-
 | Internationalization
-| W3C I18n team
+| Doug (with support of Ryan, on behalf of W3C I18n team)
 | 
 | 
 | We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
 | yes
 |-
 | Language switching
-| Yaron
+| Ryan
 | 
 | 
 | Requires MediaWiki component
@@ -142,42 +143,42 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Forums (Q2A)
-| [TECH]
+| Doug*
 | 
 | 
-| Requires SSO, Skin. Will this hold up the launch? 
+| Requires SSO, Skin. Will this hold up the launch?  Needs discussion first.
 | yes
 |-
 | Teaching materials
-| [GROUP]
+| Chris
 | 	
 | 
 | Moodle? Later
 | 
 |-
 | Federated Login feature
-| [TECH]
+| Doug*
 | 
 | 
 | Requires MediaWiki component
 | 
 |-
 | Required email address for accounts
-| Doug
-| Done	
+| (Doug)
+| Pending	
 | 
-| 
+| Doesn't work as well as necessary.
 | yes
 |-
 | Single sign in (SSO)	
-| [TECH]
+| (Doug*)
 | 
 | 
-| Case by case basis
+| Case by case basis. This captures that the blog and wiki need to have their login integrated.
 | yes
 |-
 | Blog
-| [TECH]
+| (Doug)
 | 
 | 
 | Requires SSO, Skin. Requires MediaWiki component
@@ -198,14 +199,14 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | How to help (includes migrating MDN)
-| [GROUP] Janet
+| Janet. (In content taskforce)
 | 	
 | 
 | 
 | yes
 |-
 | Privacy policy
-| [GROUP], legal reps
+| Wendy
 | 	
 | 
 | 
@@ -219,66 +220,80 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Metrics policy
-| [GROUP] legal
+| Wendy
 | 	
 | 
 | 
 | yes
 |-
 | Accessibility
-| W3C
+| Chris
 | 	
 | 
-| 
+| This needs to be broken down into separate things. Like ensuring the site is accessible, and content on accessibility
 | yes
 |-
 | Issue tracker (bugs)
 | Eliot
 | 
 | 
-| W3C bugzilla?
+| W3C bugzilla? Writing to Mike Smith
 | yes
 |-
 | Task-oriented Tutorials
-| [GROUP]
+| Content taskforce.
 | 	
+| 
+| Small tutorials about how to, say, center content on the web platform.
+| 
+|-
+| Fast.ly CDN
+| Doug*, Ryan Lane to do actual work.
+| 
 | 
 | 
 | yes
 |-
-| Fast.ly CDN
-| Ryan Lane	
+| System backup of site
+| Doug*, Ryan Lane to do actual work.
+| 
+| 
+| 
+| yes
+|-
+| Deployment script for site
+| Doug*, Ryan Lane to do actual work.
 | 
 | 
 | 
 | yes
 |-
 | Copyright
-| [GROUP] legal	
+| Wendy
 | 
 | 
 | Need to approve the terms by which people can use the content on WPD. Start with [https://www.w3.org/2011/docs/wiki/License_and_Reuse the text on the W3C Wiki].
 | yes
 |-
 | Figure out list of "early preview" people
-| [GROUP]
+| Alex
 |
 |
 | Ideally include people who will actually do ''work''. Maybe give some of the people with invites a small number of invites? Have a gatekeeper of the actual signups.
 | yes
 |-
 | Finalize license of web platform logo
-| 
+| Wendy (with Alex to help)
 |
 |
 | 
 |
 |-
 | Organize pre-launch hackathon
-| 
+| Alex (Coordinate with Eliot)
 |
 |
-| 
+| Likely on west coast
 |  yes
 |}
 
