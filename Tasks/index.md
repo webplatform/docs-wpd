@@ -677,4 +677,10 @@ These are broken out from the top-level table.
 | CJ
 |
 |
+|-
+| Skin
+| Design style guide
+| CJ
+|
+| Provides guidlines for creating sub-properties like blog, IRC, etc.
 |}
