@@ -443,7 +443,7 @@ These are broken out from the top-level table.
 | Make page mock-ups
 | Doug ( with help from Lea)
 | 
-| Blocks on finalizing the list of all page types (next row).
+| Blocks on finalizing the list of all page types (next row). See the list of page types in the 6 rows below.
 |- 
 | Ensure we have all page types listed on [[WPD:Architecture]]
 | Lea, with help from Doug
@@ -472,7 +472,7 @@ These are broken out from the top-level table.
 |
 |-
 |Finalize flags.
-| [GROUP]
+| Alex
 |
 |
 |-
@@ -483,32 +483,32 @@ These are broken out from the top-level table.
 |-
 |rowspan="6"|Multiple articles to display end state
 |Simple CSS Property
-|[GROUP]
+| N/A
 |
 |
 |-
 |Complex CSS Property (CSS transforms)
-|[GROUP]
+| N/A
 |
 |
 |-
 |Guide article (Canvas)
-|[GROUP]
+| N/A
 |
 |
 |-
 |Large object: Document (lots of methods)
-|[GROUP]
+|N/A
 |
 |
 |-
 |JS object or data type: Date
-|[GROUP]
+|N/A
 |
 |
 |-
 |Regular Expressions
-|[GROUP]
+|N/A
 |
 |
 |-
@@ -519,40 +519,40 @@ These are broken out from the top-level table.
 | 
 |-
 | How it gets populated
-| Good Question
+| Alex
 |
 | 
 |-
 | How we maintain it
-| Community
+| Alex
 |
-| 
+| Just in the best practices / style guide. In the long run may want to have it automated.
 |-
 |Templates/Properties/Categories 
 |
-|Yaron / Kozak
+| Alex
 |
 | Created based on our content organization
 |-
 | Create page forms for all page types.
 |
-|Yaron, based on templates created by group
+| Alex
 |
 | Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
 |-
 |rowspan="3" | "New page" experience 
 |New page experience defined
-|[GROUP]
+| Alex
 |
 | 
 |-
 |New page experience defined for i18n
-|[GROUP]
+|  Doug
 |
 | 
 |-
 |New page experience implemented
-|Yaron / Kozak
+| Alex
 |
 | 
 |}
