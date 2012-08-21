@@ -629,7 +629,7 @@ These are broken out from the top-level table.
 |-
 | Search Box alignment
 | CJ
-| 
+| I believe this is done, I have the search box/buttons/TOC right aligned with each other and the search input copy the same font size as the rest of the header copy.  Let me know if there are any other desired changes.
 | Size and position should align with other visual elements 
 |-
 | [[Template:CSS_Prefix | CSS Prefix]] callouts need to be styled
