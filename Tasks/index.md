@@ -642,6 +642,11 @@ These are broken out from the top-level table.
 |
 | Provides guidlines for creating sub-properties like blog, IRC, etc.
 |-
+| Compatibility table styling
+| CJ
+|
+| For an example, see [[css/properties/font-size]]
+|-
 |rowspan="6"| Skin
 | Syntax highlighted blocks have a tag for what type of code they are
 | Doug*
