@@ -213,10 +213,10 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | yes
 |-
 | Metrics and tracking 
-| Eliot
+| Eliot (and Doug)
 | 	
 | 
-| (Google analytics? Adobe?) Create Wiki page.
+| (Google analytics? Adobe? Piwik?) Create Wiki page with policy about collecting and sharing metrics.
 | yes
 |-
 | Metrics policy
