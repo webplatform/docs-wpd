@@ -214,13 +214,13 @@ More info: [http://semantic-mediawiki.org/wiki/Help:Inline_queries}
 
 Here's how we use those patterns described above to implement our site so far.
 
-We'll walk through the CSS Property template, via the sample page of [http://webplatform.org/docs/css/properties/font-size].
+We'll walk through the CSS Property template, via the sample page of [[css/properties/font-size]].
 
 ====The CSS Property page====
 
 If you go to that page and hit edit, you'll see that basically it's just two templates: Flags and CSS_Property. If you were to edit with form you'd see that the form basically has one-to-one correspondence with those parameters.
 
-CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [http://webplatform.org/docs/Template:CSS_Property]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
+CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [[Template:CSS_Property]]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
 
 When we do that, we skip to the <nowiki><includeonly></nowiki> section to see the actual implementation. It's pretty simple--mainly we just print a header for each section and then dump whatever was passed in via the parameter.
 
@@ -286,7 +286,7 @@ Most of this page is just normal wiki syntax. The important bits look like:
 
 This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Summary form field should just dump directly into the Summary parameter of the CSS Property template.
 
-There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See [http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms] for more.
+There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See [http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms|] for more.
 
 Here's an example of changing the input type:
 
