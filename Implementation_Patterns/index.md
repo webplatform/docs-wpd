@@ -129,7 +129,7 @@ Categories are also built into MediaWiki. They're used extensively in Wikipedia,
 
 If you find a category, you can view its documentation (including a page that lists all of the pages in that category) at http://webplatform.org/docs/Category:Foo
 
-We use categories for a special purpose in our implementation: '''categories are how Semantic Forms knows which form to present to a user to edit the page.''' If you look at a category's documentation page (for example [[Category:CSS_Properties|CSS_Properties]] ) you'll see that it includes markup that specifies which form those pages should use. 
+We use categories for a special purpose in our implementation: '''categories are how Semantic Forms knows which form to present to a user to edit the page.''' If you look at a category's documentation page (for example http://webplatform.org/docs/Category:CSS Properties) you'll see that it includes markup that specifies which form those pages should use. 
 
 Without markup on a page to specify that it's in a category (and if that category didn't have that markup to wire it to a specific form) then the "Edit with form" button wouldn't do anything.
 
