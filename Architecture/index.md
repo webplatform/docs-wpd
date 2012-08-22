@@ -115,12 +115,13 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
 * [[WPD:Architecture/Object|API Object Reference]]
 ** [[WPD:Architecture/Object Method Reference|API Object Method Reference]]
-** [[WPD:Architecture/Object property Reference|Object Object Property Reference]]
+** [[WPD:Architecture/Object property Reference|API Object Property Reference]]
 * [[WPD:Architecture/Data type|Data type Reference]]
 * [[WPD:Architecture/Element Reference|Markup Element Reference]]
 * [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
 * [[WPD:Architecture/CSS Selector Reference|CSS Selector Reference]]
+** Note: Pseudo-classes and pseudo-elements and other selectors will all use the same template but we should have tags to differentiate them.
 * [[WPD:Architecture/CSS Property Reference|CSS Property Reference]]
 * [[WPD:Architecture/CSS Function Reference|CSS Function Reference]]
 * [[WPD:Architecture/CSS Keyword Reference|CSS Keyword Reference]]
@@ -129,6 +130,9 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Guide|Guide]]
 * [[WPD:Architecture/Tutorial|Tutorial]]
 * [[WPD:Architecture/Media_Content|Media Content]]
+
+=== Notes ===
+* Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
 
 ==Notes==
 * We want aggregated pages, where content from other related pages is transcluded into a single page
