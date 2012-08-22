@@ -115,7 +115,7 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
 * [[WPD:Architecture/JavaScript Statements|JavaScript Statements]]
 ** Subcategories: Control structures, declarations
-* [[WPD:Architecture/Operator|Operator]]
+* [[WPD:Architecture/JavaScript Operator|JavaScript Operator]]
 * [[WPD:Architecture/Regex metacharacter|Regex metacharacter]]
 ** Subcategories: Expressions (character classes, grouping etc), Quantifiers, Anchors, Assertions, Flags
 * [[WPD:Architecture/Object|API Object Reference]]
