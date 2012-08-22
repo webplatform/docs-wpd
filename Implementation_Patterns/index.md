@@ -206,7 +206,7 @@ Queries are how you select pages via properties and then print out some of their
 
 At the moment we don't use them, but soon we will use them to create method-listing pages, using inline queries.
 
-More info: [http://semantic-mediawiki.org/wiki/Help:Inline_queries}
+More info: http://semantic-mediawiki.org/wiki/Help:Inline_queries
 
 ==Other stuff==
 
