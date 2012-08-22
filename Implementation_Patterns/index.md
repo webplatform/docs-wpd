@@ -36,12 +36,12 @@ Templates, at their simplest, are just automatic text substitution. When MediaWi
 In MediaWiki markup, templates look like this:
 
 <syntaxhighlight>
- {{Foo}}
+ {{TODO}}
 </syntaxhighlight>
 
 The double-curly brace is the way that you instantly know that you're dealing with a template.
 
-By default, templates all live in the Template namespace. If you see a template in the code and want to know how it works, open a new browser window and navigate to http://webplatform.org/docs/Template:Foo , where Foo is the template name you want to investigate. '''Note that underscores and spaces are exactly equivalent in page names and template names.'''
+By default, templates all live in the Template namespace. If you see a template in the code and want to know how it works, open a new browser window and navigate to http://webplatform.org/docs/Template:TODO , where Foo is the template name you want to investigate. '''Note that underscores and spaces are exactly equivalent in page names and template names.'''
 
 Knowing this fact will help you dig into what's going wrong, or what a template does, if you don't know.
 
