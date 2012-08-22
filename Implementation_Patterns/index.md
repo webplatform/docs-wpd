@@ -140,7 +140,7 @@ We use categories for a special purpose in our implementation: '''categories are
 
 Without markup on a page to specify that it's in a category (and if that category didn't have that markup to wire it to a specific form) then the "Edit with form" button wouldn't do anything.
 
-In our implementation, the category is set within the template call. For example, if you inspect how [http://webplatform.org/docs/Template:CSS_Property] is implemented, at the very end of the template is a call to add the CSS Properties category to the page. Thus, anyone who puts a call to <nowiki>{{CSS_Property}}</nowiki> on the page will now have the page wired up to use the CSS Property Form from now on.
+In our implementation, the category is set within the template call. For example, if you inspect how [[/Template:CSS_Property]] is implemented, at the very end of the template is a call to add the CSS Properties category to the page. Thus, anyone who puts a call to <nowiki>{{CSS_Property}}</nowiki> on the page will now have the page wired up to use the CSS Property Form from now on.
 
 ====Forms====
 
