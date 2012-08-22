@@ -98,4 +98,31 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 
 ==Behind the Scenes==
 
-{{TODO | Fill in the behind the scenes section}}
+There is ''no need'' to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.
+
+If you're still here, go through and read and understand the whole section above.
+
+===Major concepts===
+
+There are a number of core concepts that we use in our implementation. They're all kind of loosely (and sometimes oddly) related, and at first it looks like a hopeless mess. But once you understand how they work, it makes a weird kind of sense.
+
+====Templates====
+Templates are the single most important concept. They're built directly into MediaWiki. They're explained in the first section of this article. 
+
+We use templates all over the place. In fact, if you hit the ''Edit'' button (as opposed to the "Edit with form" button) you'll see that most of our page types are just big templates with a large number of parameters.
+
+Templates are useful for imposing structure on your content. It allows us to make changes that affect lots of pages at once. For example, if we decided that the Values section should come before the Syntax section in CSS Property articles, we could make one change to the CSS Property template and it would automatically change all CSS property articles.
+
+Templates are also required if you want to create a user-friendly form to edit a page.
+
+Templates are also useful because it's possible to find all pages that include a template. This is why templates are great for TODOs, since we can list all of them.
+
+{{TODO | Document how to construct links to find all instances of a template.}}
+
+Finally, templates are great because they allow us to hide some of the ugly guts of setting properties or doing weird table formatting. 
+
+====Categories====
+
+====Forms====
+
+====Properties====
