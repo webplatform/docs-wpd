@@ -414,6 +414,46 @@ However, if you're doing the latter, it's easier. The form template doesn't need
 
 ====Sub-forms====
 
+In the [[Form:CSS_Property]] form, we have a few sections that allow you to add 0 or more sub-sections. Examples are the browser compatibility rows and the related specifications.
+
+These basically use sub-forms and sub-templates to allow this to happen. Here's how the related specifications section works:
+
+<syntaxhighlight>
+{{{field|Specifications|holds template}}}
+</syntaxhighlight>
+
+This part is included in the main form where we want the sub-form to show up. It says that we should look elsewhere for where this form section is defined.
+
+Below, outside of the <nowiki>{{{end template}}}</nowiki> call, we see:
+
+<syntaxhighlight>
+<!-- Begin template for Related specfications -->
+{{{for template|Related Specification|multiple|label=Related Specifications|embed in field=CSS Property[Specifications]}}}
+{| class="formtable"
+! Name:
+| {{{field|Name}}}
+|-
+! URL:
+| {{{field|URL}}}
+! Status:
+| {{{field|Status}}}
+! Relevant changes:
+! {{{field|Relevant_changes}}}
+|}
+{{{end template}}}
+<!-- End template for Related Specifications -->
+</syntaxhighlight>
+
+Basically, we're defining another form template in the same page that we'll use in the main form.
+
+Notice that the beginning of the block says it's for a template called Related Specifications. Indeed, if you go to [[Tempalte:Related_Specifications]], you'll see that we've defined a simple template that takes in four parameter and then outputs a table row.
+
+Inside of the form definition we just define a simple form just like normal, that allows users to specify the four inputs to fill into that sub-template.
+
+When the user hits submit on the main form, the form will automatically go through and stamp out an instance of the sub-template (with correct arguments) for each sub-form section the user created. It will then concatenate them together and pass them into the top-level template with the name we defined in the main body of the form, in this case "Specifications."
+
+That's it!
+
 ====Gotcha: Table syntax====
 
 We use tables a lot. Some parts of the page should have tables if there's rows of content to show, and no table if not. There's a weird gotcha to be aware of.
