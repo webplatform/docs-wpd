@@ -6,7 +6,7 @@ The vast majority of editors will only have to use the (relatively) easy-to-use 
 
 ==Normal Editing==
 
-{{Note | The WPD skin is under construction, and doesn't have an "Edit With Form" button. Switch to using the MonoBook skin instead to see it (for now).}}
+{{Note | The WPD skin is under construction, and doesn't have an "Edit With Form" button. Switch to using the Vector skin instead to see it (for now).}}
 
 ===Editing pages===
 If you're editing a page that's already been created, it's generally quite simple.
