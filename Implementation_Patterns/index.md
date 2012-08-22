@@ -121,8 +121,26 @@ Templates are also useful because it's possible to find all pages that include a
 
 Finally, templates are great because they allow us to hide some of the ugly guts of setting properties or doing weird table formatting. 
 
+{{TODO | Include links to template documentation }}
+
 ====Categories====
+
+Categories are also built into MediaWiki. They're used extensively in Wikipedia, for example. By default a list of categories a page belongs to is listed at the bottom of the page.
+
+If you find a category, you can view its documentation (including a page that lists all of the pages in that category) at http://webplatform.org/docs/Category:Foo
+
+We use categories for a special purpose in our implementation: ''categories are how Semantic Forms knows which form to present to a user to edit the page.'' If you look at a category's documentation page (for example [[http://webplatform.org/docs/Category:CSS_Properties|//webplatform.org/docs/Category:CSS_Properties]] ) you'll see that it includes markup that specifies which form those pages should use. 
+
+Without markup on a page to specify that it's in a category (and if that category didn't have that markup to wire it to a specific form) then the "Edit with form" button wouldn't do anything.
 
 ====Forms====
 
 ====Properties====
+
+==Other stuff==
+
+===How everything is wired together===
+===Design Patterns===
+====Sub-forms====
+====Re-usable form components====
+====Table syntax====
