@@ -270,7 +270,8 @@ This is one of the more complicated pieces. It's where we print out the specific
 [[Category:CSS Properties|{{#titleparts:{{PAGENAME}}||-1}}]]
 </syntaxhighlight>
 
-This last piece is very important: it's the thing that applies the category to the page. Remember, this is how we specify which form to use. If we investigate the category page: [http://webplatform.org/docs/Category:CSS_Properties] we'll see that on that page a default form is defined. Following ''that'' to the form definition will help us see how the form is hooked up. (Yes, this all seems like a rube goldberg device).
+This last piece is very important: it's the thing that applies the category to the page. Remember, this is how we specify which form to use. If we investigate the category page: http://webplatform.org/docs/Category:CSS_Properties we'll see that on that page a default form is defined. Following ''that'' to the form definition will help us see how the form is hooked up. (Yes, this all seems like a rube goldberg device).
+
 ====The CSS Property form====
 Let's dive into the definition of the accompanying form, which we discovered by going to the category page: [[Form:CSS_Property]].
 
