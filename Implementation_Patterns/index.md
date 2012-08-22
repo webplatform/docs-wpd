@@ -358,8 +358,7 @@ This pattern is done like this:
 
 This is a complicated example because it has a conditional table (the specifications parameter will be filled with rows of data glommed together).  See the deep dive above for more discussion of this pattern.
 
-====Tables with rows====
-====Sub-forms====
+====Re-usable form components====
 
 There are some pieces of forms that we'll want to re-use in other forms. Examples include the Flags section, the Attribution section, and others.
 
@@ -411,7 +410,10 @@ The example above is for the former case. That's why the form template instantia
 
 However, if you're doing the latter, it's easier. The form template doesn't need that special for block above and below the template, and you should instantiate your template ''inside'' the main <nowiki>{{for template}}</nowiki> block.
 
-====Re-usable form components====
+====Tables with rows====
+
+====Sub-forms====
+
 ====Gotcha: Table syntax====
 
 We use tables a lot. Some parts of the page should have tables if there's rows of content to show, and no table if not. There's a weird gotcha to be aware of.
