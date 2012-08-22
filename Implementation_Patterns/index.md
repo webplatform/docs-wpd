@@ -6,7 +6,14 @@ The vast majority of editors will only have to use the (relatively) easy-to-use 
 
 ==Normal Editing==
 
-{{TODO | Fill in the normal editing section}}
+===Editing pages===
+If you're editing a page that's already been created, it's generally quite simple.
+
+First, just make sure you're signed in. We've structured our content so that a number of editorial notes and action items are automatically hidden for logged-out users to avoid cluttering the interface. Logging in will display these for you.
+
+Logging in will also give you edit access to articles. In normal MediaWiki, you would use the "Edit" button. That still exists for us, but it's hidden behind a drop down. The reason is that you should be using the '''Edit with form''' button. That button will use Semantic Forms to present a structured form for you to fill in instead of trying to create the page structure yourself. If you were to click Edit, you'd see the raw template calls that make up the page. You'd also be able to wreak more havoc if you changed some of the markup.
+
+We've set up our templates so that we handle things like blank form fields in an appropriate way--something that would be hard to do without Semantic Forms.
 
 ==Behind the Scenes==
 
