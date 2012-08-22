@@ -454,6 +454,16 @@ That's it!
 
 ====Tables with rows====
 
+In some cases we want form users to define multiple rows of a table, like in Related Specifications.
+
+We do this by defining a Sub-form (see the section immediately above).  The result of that sub-form is a concatenation of all of sub-templates filled in with their values.
+
+In the case of [[Template:Related_Specifications]] you can see that the template just outputs a single row in MediaWiki table syntax. In the main [[Template:CSS_Property]] template, we output a header row and then just dump all of the contents of the Specifications parameter (which, again, is just a concatenation of those table rows from the Related Specifications template) right there.
+
+One thing to be aware of when you're building up tables like this is that we need to be aware of the Table Gotcha (see next section) if we're using #if blocks.
+
+See [http://www.mediawiki.org/wiki/Help:Tables] for more information.
+
 ====Gotcha: Table syntax====
 
 We use tables a lot. Some parts of the page should have tables if there's rows of content to show, and no table if not. There's a weird gotcha to be aware of.
