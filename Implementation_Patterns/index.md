@@ -153,6 +153,46 @@ You can see more documentation on how to configure forms here: [http://www.media
 
 ====Properties====
 
+Properties are one of the main features that ''Semantic'' MediaWiki provides. Properties allow you to attach structured data to a page that can be queried in interesting places later.
+
+Properties are very rarely set by hand; often they are automatically written out inside of a template call based on a parameter passed in.
+
+Properties are good for a few use cases:
+* If the information is small, structured, and you can imagine wanting to query for it later.
+* If you want to include that information onto other pages automatically.
+
+A good example of the first use case is whether or not a CSS property is animatable. You could conceivably want to create a page that lists all of the CSS properties are animatable, and to do that you'd need the information in a structured format that you could query on.
+
+A good example of the second use case is the Summary property. By defining it as a property, we make it possible to auto-generate pages that are listings of properties and include their summaries.
+
+=====Configuration=====
+Properties are defined in, you guessed it, the Property namespace: [http://webplatform.org/docs/Property:Summary]. Those definition pages include bits of configuration, and also list all of the pages that include that property.
+
+Properties have a type. In practice we use strings (limited to 255 characters, but queryable) and text (no length limit, but can't be included as a query parameter, only ''output'' as the result of queries).
+
+By default properties can take any value. However, you can use the <nowiki>Allows_type</nowiki> configuration property to limit the possible values to only specific types. If you do this, Semantic Forms will automatically create checkboxes for you in your form.
+
+More information: [http://semantic-mediawiki.org/wiki/Help:Properties_and_types]
+
+=====Property use=====
+
+Properties can be applied to a page in handful of ways. The first is via a special link-like syntax: 
+<syntaxhighlight>
+The property is animatable: [[Animatable::value]]
+</syntaxhighlight>
+
+This syntax will apply the property to the page, but also print out the value and link to the property definition.
+
+Sometimes you don't want that, either because you don't want the value to be visible, or because the property value is too long to be a link (for example I found that the Summary, which is of type text, wouldn't print correctly in this syntax).
+
+For that, you can use this syntax: 
+
+<syntaxhighlight>
+{{#set:Animatable=Yes}}
+</syntaxhighlight>
+
+In practice you'll often see property calls inside of template definitions, and so often the value will be set via a parameter call.
+
 ==Other stuff==
 
 ===How everything is wired together===
