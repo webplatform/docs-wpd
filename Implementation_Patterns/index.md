@@ -361,4 +361,38 @@ This is a complicated example because it has a conditional table (the specificat
 ====Tables with rows====
 ====Sub-forms====
 ====Re-usable form components====
-====Table syntax====
+====Gotcha: Table syntax====
+
+We use tables a lot. Some parts of the page should have tables if there's rows of content to show, and no table if not. There's a weird gotcha to be aware of.
+
+Here's the normal #if syntax:
+
+<syntaxhighlight>
+{{#if: condition | value | else-value}}
+</syntaxhighlight>
+
+Here's normal syntax for a table: 
+
+<syntaxhighlight>
+{| class="wikitable"
+! Header-value 1 !! Header-value-2
+|-
+| Row-value 1 || Row-value-2
+|}
+</syntaxhighlight>
+
+The problem is that in the #if block, every pipe character it encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work.
+
+This is weird. The solution is even weirder.
+
+Basically, the hack is that we have a special template defined: [[Template:!]]. This template does precisely one thing: it prints out a pipe character. This hack gets around the weird limitation of #if blocks and allows you to conditionally include parts of tables. Here's an example where we use the hack:
+
+<syntaxhighlight>
+{{#if: {{{Specifications|}}} | 
+==Related Specifications==
+{{{!}} class="wikitable"
+{{!}}-
+! Specification !! Status !! Related Changes
+{{{Specifications|}}}
+{{!}}} | }}
+</syntaxhighlight>
