@@ -447,7 +447,7 @@ Below, outside of the <nowiki>{{{end template}}}</nowiki> call, we see:
 
 Basically, we're defining another form template in the same page that we'll use in the main form.
 
-Notice that the beginning of the block says it's for a template called Related Specifications. Indeed, if you go to [[Tempalte:Related_Specifications]], you'll see that we've defined a simple template that takes in four parameter and then outputs a table row.
+Notice that the beginning of the block says it's for a template called Related Specifications. Indeed, if you go to [[Template:Related_Specifications]], you'll see that we've defined a simple template that takes in four parameter and then outputs a table row.
 
 Inside of the form definition we just define a simple form just like normal, that allows users to specify the four inputs to fill into that sub-template.
 
