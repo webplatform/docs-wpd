@@ -57,6 +57,45 @@ Again, templates are just like normal pages, except that when you invoke a templ
 
 A template's definition page, by convention, gives a short overview of what the template is for and what arguments (see the next sub-section) it takes. However, at first glance it's hard to figure out how the template '''works'''. This is because many templates use <nowiki><includeonly> and <noinclude></nowiki> tags to control which pieces of the template are the real business end, and which pieces are just documentation. If you want to see how a template actually works, '''click the edit button to see the raw markup.'''
 
+====Passing arguments to templates====
+Templates aren't very useful if they're just static text to use. That's where parameters come in. They're just like passing arguments to a method call.
+
+Arguments can be passed in two ways, depending on how the template is defined: positional parameters or named parameters.
+
+<syntaxhighlight>
+{{Foo|This is the first positional parameter | This is the second positional parameter }}
+
+{{Bar |title = This will be passed as the title parameter }}
+
+{{Baz | This is a positional parameter | message= And this is a named parameter. They can be mixed.}}
+</syntaxhighlight>
+
+Again, different templates will expect either named or positional parameters. Check out the template's documentation (at http://webplatform.org/docs/Template:Foo) to see what arguments it expects.
+
+Importantly, you '''can pass complicated MediaWiki markup as arguments''' to other templates, including ''other'' template calls. MediaWiki can handle nested templates.
+
+====How templates use parameters====
+This section isn't required to know how to use parameters, but may help in figuring out what a template's doing if you peek underneath the covers.
+
+Inside of a template, it can use parameters with code like this: 
+<syntaxhighlight>
+My title is: {{{title}}}
+
+My first parameter is: {{{1}}}
+</syntaxhighlight>
+
+That is, with ''three'' curly braces instead of two. The first example shows how a named parameter would be used, whereas the second example shows how a positional parameter would be used.
+
+But this is not how most parameter uses look. The reason is that when written this way, if the value is empty, MediaWiki will print that call literally to the screen: <nowiki>{{{title}}}</nowiki>. That's bogus. So, in practice, we use a default feature to specify what value should be printed if the parameter is null:
+
+<syntaxhighlight>
+My title is {{{title | non-existent}}}.
+
+{{{message|}}}
+</syntaxhighlight>
+
+As you can see, it's a vertical pipe character after the parameter name. You can either provide a value or leave it totally blank like in the last example. If you leave it blank, sometimes it's hard to see--that's why I'm explaining it here.
+
 ==Behind the Scenes==
 
 {{TODO | Fill in the behind the scenes section}}
