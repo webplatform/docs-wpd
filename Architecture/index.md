@@ -125,6 +125,8 @@ These are types of reference pages we need for the site's information architectu
 ** CSS Property types, HTML and SVG attribute value types
 ** In JS, every primitive also corresponds to an object. E.g. there are numbers and Number objects. Will they both be described by the same page or different pages?
 * [[WPD:Architecture/Element Reference|Markup Element Reference]]
+* [[WPD:Architecture/Markup Structure|Markup Structure]]
+** Examples: Doctypes, comments, CDATA sections, entities (?)
 * [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
 * [[WPD:Architecture/CSS Selector Reference|CSS Selector Reference]]
