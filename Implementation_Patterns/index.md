@@ -313,6 +313,23 @@ These are the sections that allow users to add between 0 and n rows. We'll dig i
 
 ===Design Patterns===
 ====New pages====
+
+Above we talked about the fact that the "Edit with form" button knows which form to use because the page includes a category which has a default form defined.
+
+But wait--what about the very first time you edit a page? How does SMW know which form to use?
+
+It doesn't.
+
+It's weird, I know.
+
+Basically, until you plop a (perhaps empty) template call on the page that prints out the category, SMW doesn't know what page type it is.
+
+There are two ways to mitigate this. The first is that the Form: pages include a helpful input at the top to create a new page using that form.
+
+The second is that we can change the Default form for the entire wiki.  What we'll do is create a default form that basically just contains links to the other forms. So when a user goes to a non-existent page they'll see a form that asks them to pick which form they actually want to use, which will forward them to the right form to use.
+
+{{Note | We haven't implemented this default form thing yet. }}
+
 ====Building new page types====
 ====Only including some sections if there's content to show====
 ====Tables with rows====
