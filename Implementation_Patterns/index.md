@@ -173,13 +173,13 @@ A good example of the first use case is whether or not a CSS property is animata
 A good example of the second use case is the Summary property. By defining it as a property, we make it possible to auto-generate pages that are listings of properties and include their summaries.
 
 =====Configuration=====
-Properties are defined in, you guessed it, the Property namespace: [http://webplatform.org/docs/Property:Summary]. Those definition pages include bits of configuration, and also list all of the pages that include that property.
+Properties are defined in, you guessed it, the Property namespace: [[Property:Summary]]. Those definition pages include bits of configuration, and also list all of the pages that include that property.
 
 Properties have a type. In practice we use strings (limited to 255 characters, but queryable) and text (no length limit, but can't be included as a query parameter, only ''output'' as the result of queries).
 
 By default properties can take any value. However, you can use the <nowiki>Allows_type</nowiki> configuration property to limit the possible values to only specific types. If you do this, Semantic Forms will automatically create checkboxes for you in your form.
 
-More information: [http://semantic-mediawiki.org/wiki/Help:Properties_and_types]
+More information: http://semantic-mediawiki.org/wiki/Help:Properties_and_types
 
 =====Property use=====
 
