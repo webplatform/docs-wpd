@@ -204,7 +204,41 @@ More info: [http://semantic-mediawiki.org/wiki/Help:Inline_queries}
 ==Other stuff==
 
 ===How everything is wired together===
+
+Here's how we use those patterns described above to implement our site so far.
+
+We'll walk through the CSS Property template, via the sample page of [http://webplatform.org/docs/css/properties/font-size].
+
+If you go to that page and hit edit, you'll see that basically it's just two templates: Flags and CSS_Property. If you were to edit with form you'd see that the form basically has one-to-one correspondence with those parameters.
+
+CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [http://webplatform.org/docs/Template:CSS_Property]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
+
+When we do that, we skip to the <nowiki><includeonly></nowiki> section to see the actual implementation. It's pretty simple--mainly we just print a header for each section and then dump whatever was passed in via the parameter.
+
+But here are some interesting patterns:
+
+<syntaxhighlight>
+==Summary==
+{{{Summary}}}
+{{#set:Summary={{{Summary}}} }}
+</syntaxhighlight>
+
+In the summary section we're printing out the value, but after that we're also manually setting the property value. This is because we don't want the normal linkified display of the text when you set a property inline, but we do want to register that property value with the page.
+
+<syntaxhighlight>
+{{#if: {{{Usage|}}}|
+==Usage==
+{{{Usage|}}}
+
+|}}
+</syntaxhighlight>
+
+In this pattern we can see that we use the #if directive to either print out the Usage section if the user provided a value, or skip the entire section if the user didn't provide anything.
+
 ===Design Patterns===
+====Building new page types====
+====Only including some sections if there's content to show====
+====Tables with rows====
 ====Sub-forms====
 ====Re-usable form components====
 ====Table syntax====
