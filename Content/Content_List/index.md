@@ -8,10 +8,10 @@ This is a list of all the existing content that has been donated to the webplatf
 # Create new pages/stubs for articles that are yet to be written.
 # Make sure all articles have the correct URLs and tags.
 # Go through the list of items that must be added to each article before publishing (NEEDS FINISHING) and make sure they are added:
-** browser compatibility
-** flags
-** license
-** ??
+## browser compatibility
+## flags
+## license
+## ??
 # also need to proof/edit articles at some point
 
 ==Tutorials==
