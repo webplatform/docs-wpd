@@ -360,6 +360,57 @@ This is a complicated example because it has a conditional table (the specificat
 
 ====Tables with rows====
 ====Sub-forms====
+
+There are some pieces of forms that we'll want to re-use in other forms. Examples include the Flags section, the Attribution section, and others.
+
+{{Note | We've only done the Flags section like this so far.}}
+
+The pattern to do this is kind of weird: we just create a simple template to contain the bit of form we want to reuse.
+
+In the main form we include it with:
+
+<syntaxhighlight>
+{{Flags form section}}
+//Normal template begins below
+{{{for template|CSS Property}}}
+...
+</syntaxhighlight>
+
+just like any other template.
+
+The contents look like this:
+
+<syntaxhighlight>
+<nowiki>{{{for template|Flags}}}</nowiki>
+'''Please enter below any issues that apply to this page.'''
+{| class="formtable" style="border: 1px solid black; background: #fe9; font-size: smaller;"
+! High-level issues:
+| <nowiki>{{{field|High-level issues|property=High-level issue|list}}}</nowiki>
+|-
+! Content:
+| <nowiki>{{{field|Content|property=Content quality flag|list}}}</nowiki>
+|-
+! Compatibility:
+| <nowiki>{{{field|Compatibility|property=Compatibility quality flag|list}}}</nowiki>
+|-
+! Examples:
+| <nowiki>{{{field|Examples|property=Examples quality flag|list}}}</nowiki>
+|-
+! Accessibility:
+| <nowiki>{{{field|Accessibility|property=Accessibility flag|list}}}</nowiki>
+|}
+<nowiki>{{{end template}}}</nowiki>
+</syntaxhighlight>
+
+Basically, it's just the sub-piece of the form we need.
+
+=====Sub-forms within the main template and outside=====
+There are two times you might need this pattern: for things whose parameters should be passed to ''another'' template, like Flags (which prints its contents out ''outside'' of the main template, like CSS Property), or for things that should be included in the ''same'' template.
+
+The example above is for the former case. That's why the form template instantiation goes ''outside'' the main <nowiki>{{{for|template-name}}}</nowiki> block, and the template itself has the weird <nowiki>{{{for template|flags}}}</nowiki>, wrapped in nowiki tags.
+
+However, if you're doing the latter, it's easier. The form template doesn't need that special for block above and below the template, and you should instantiate your template ''inside'' the main <nowiki>{{for template}}</nowiki> block.
+
 ====Re-usable form components====
 ====Gotcha: Table syntax====
 
