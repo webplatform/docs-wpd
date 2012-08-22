@@ -671,7 +671,7 @@ These are broken out from the top-level table.
 | [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
 | Doug*
 | 
-| 
+| This should probably be as simple as having a <code>.editors-only { display:none}</code> rule in the CSS file, so we can create new templates that are hidden from readers easily.
 |-
 | Edit / watch button colors
 | Doug*
