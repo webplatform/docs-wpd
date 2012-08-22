@@ -216,6 +216,8 @@ Here's how we use those patterns described above to implement our site so far.
 
 We'll walk through the CSS Property template, via the sample page of [http://webplatform.org/docs/css/properties/font-size].
 
+====The CSS Property page====
+
 If you go to that page and hit edit, you'll see that basically it's just two templates: Flags and CSS_Property. If you were to edit with form you'd see that the form basically has one-to-one correspondence with those parameters.
 
 CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [http://webplatform.org/docs/Template:CSS_Property]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
@@ -252,7 +254,55 @@ In this pattern we can see that we use the #if directive to either print out the
 
 This is basically the same, but slightly more complicated. We want to ensure that the examples section is always included in this article type. So if it's not, instead of not printing anything we print an editorial note (basically a TODO) to the screen.
 
+<syntaxhighlight>
+{{#if: {{{Specifications|}}} | 
+==Related Specifications==
+{{{!}} class="wikitable"
+{{!}}-
+! Specification !! Status !! Related Changes
+{{{Specifications|}}}
+{{!}}} | }}
+</syntaxhighlight>
+
+This is one of the more complicated pieces. It's where we print out the specifications table. A few things to note: <nowiki>{{!}}</nowiki> is a weird hack necessary to print out table syntax inside of #if parser functions (see Tables with Rows, below). Basically that template is just a single pipe character. Also, this section should be a table. First, we check if we should even show the section. If we should, we print out the header row of the table. The Specifications parameter will consist of all of the rows of the table glommed together--that's just how semantic forms does it. We'll investigate how that's set up in a bit.
+
+<syntaxhighlight>
+[[Category:CSS Properties|{{#titleparts:{{PAGENAME}}||-1}}]]
+</syntaxhighlight>
+
+This last piece is very important: it's the thing that applies the category to the page. Remember, this is how we specify which form to use. If we investigate the category page: [http://webplatform.org/docs/Category:CSS_Properties] we'll see that on that page a default form is defined. Following ''that'' to the form definition will help us see how the form is hooked up. (Yes, this all seems like a rube goldberg device).
+====The CSS Property form====
+Let's dive into the definition of the accompanying form, which we discovered by going to the category page: [[Form:CSS_Property]].
+
+Again, like templates, most of the implementation is hidden in <nowiki><includeonly></nowiki> blocks. Click edit to see how it all works.
+
+At the beginning there's a bunch of boiler plate that's not important to understand (you can just copy and paste it when you create new forms). Basically what it does is just defines that this form is attached to the CSS Property template. (You'll notice the Flags_form_section template. That's an interesting pattern to re-use pieces of forms. See the "Re-usable form components", below).
+
+Most of this page is just normal wiki syntax. The important bits look like:
+
+<syntaxhighlight>
+{{{field|Summary}}}
+</syntaxhighlight>
+
+This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Summary form field should just dump directly into the Summary parameter of the CSS Property template.
+
+There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See [http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms] for more.
+
+Here's an example of changing the input type:
+
+<syntaxhighlight>
+==Examples==
+{{{field|Examples|input type=textarea|rows=10}}}
+</syntaxhighlight>
+
+This overrides the default textinput to use a text area.
+
+But wait--the summary block gets a text area, too--but we didn't override it. How does that work?  Semantic Forms is kind of smart: it can figure out what kind of form input to display based on how the Property is configured. Recall that Summary is configured as a property because we need to be able to extract that information from a page and display it elsewhere. In fact, if you go to [[Property:Summary]] you can see we've defined it as type text, which is why Semantic Forms automatically shows it as a textarea. Semantic Forms figures all of this out because you've linked the template to the category to the form (to be honest, I'm not sure ''exactly'' how it does it).
+
+But Examples is ''not'' a property (at least not at this moment). That's because we don't have any need to extract examples and display them elsewhere, so we just print examples out normally. This means there's no property associated with Examples, so Semantic Forms can't configure the form input automatically, and we have to do it ourselves.
+
 ===Design Patterns===
+====New pages====
 ====Building new page types====
 ====Only including some sections if there's content to show====
 ====Tables with rows====
