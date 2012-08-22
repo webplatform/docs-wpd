@@ -343,6 +343,21 @@ In practice, what you'll do is have four tabs open and be edit/save/refreshing a
 When you create your form, it's important to follow the best practices of including the Flags and Attribution sections (see below).
 
 ====Only including some sections if there's content to show====
+
+This pattern is done like this:
+
+<syntaxhighlight>
+{{#if: {{{Specifications|}}} | 
+==Related Specifications==
+{{{!}} class="wikitable"
+{{!}}-
+! Specification !! Status !! Related Changes
+{{{Specifications|}}}
+{{!}}} | }}
+</syntaxhighlight>
+
+This is a complicated example because it has a conditional table (the specifications parameter will be filled with rows of data glommed together).  See the deep dive above for more discussion of this pattern.
+
 ====Tables with rows====
 ====Sub-forms====
 ====Re-usable form components====
