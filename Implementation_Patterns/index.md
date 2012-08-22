@@ -237,6 +237,16 @@ In the summary section we're printing out the value, but after that we're also m
 
 In this pattern we can see that we use the #if directive to either print out the Usage section if the user provided a value, or skip the entire section if the user didn't provide anything.
 
+<syntaxhighlight>
+{{#if: {{{Examples|}}}|
+==Examples==
+{{{Examples|}}}
+
+| {{Editorial | This section should include examples. |type=Needs Examples}} }}
+</syntaxhighlight>
+
+This is basically the same, but slightly more complicated. We want to ensure that the examples section is always included in this article type. So if it's not, instead of not printing anything we print an editorial note (basically a TODO) to the screen.
+
 ===Design Patterns===
 ====Building new page types====
 ====Only including some sections if there's content to show====
