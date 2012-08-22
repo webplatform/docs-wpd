@@ -113,6 +113,11 @@ See also the [[WPD:Content_Requirements|Content Requirements]] page.
 ==Page Types==
 These are types of reference pages we need for the site's information architecture:
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
+* [[WPD:Architecture/JavaScript Statements|JavaScript Statements]]
+** Subcategories: Control structures, declarations
+* [[WPD:Architecture/Operator|Operator]]
+* [[WPD:Architecture/Regex metacharacter|Regex metacharacter]]
+** Subcategories: Expressions (character classes, grouping etc), Quantifiers, Anchors, Assertions, Flags
 * [[WPD:Architecture/Object|API Object Reference]]
 ** [[WPD:Architecture/Object Method Reference|API Object Method Reference]]
 ** [[WPD:Architecture/Object property Reference|API Object Property Reference]]
