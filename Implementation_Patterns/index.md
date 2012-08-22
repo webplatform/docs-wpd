@@ -135,6 +135,20 @@ Without markup on a page to specify that it's in a category (and if that categor
 
 ====Forms====
 
+Forms are the way that the "Edit with Form" button knows what UI to show to the user when they hit that button.
+
+Again, in general the way that forms are tied to a specific page is because that page belongs to a category, which itself specifies which form to use.
+
+Forms, surprisingly enough, live in the Form namespace: http://webplatform.org/docs/Form:CSS_Property . Like templates, they often keep much of their implementation hidden in <nowiki><includeonly></nowiki> blocks, so you'll have to hit ''Edit'' to see how they work.
+
+Basically forms are just special templates that define how to build a page for editing. Forms generally have a one-to-one correspondence with templates.
+
+Forms consist of a number of fields. These fields define input boxes and controls that users will fill in. When the user submits, the values for those fields will then be passed directly as parameters to the associated template. In fact, after editing with a form, if you hit the normal Edit button on the page, you can see that basically the output is just a template call with all of the arguments set up in the way the user did it in the form.
+
+Note that creating sub-sections of forms that repeat (like the list of related specifications in the CSS Property form) or sections of form that you want to reuse in other forms, are advanced topics covered below.
+
+You can see more documentation on how to configure forms here: [http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms]
+
 ====Properties====
 
 ==Other stuff==
