@@ -202,6 +202,8 @@ For that, you can use this syntax:
 {{#set:Animatable=Yes}}
 </syntaxhighlight>
 
+{{Note | As with other built-in "templates" that start with a #, that's a '''colon''', not a pipe after "set" }}
+
 In practice you'll often see property calls inside of template definitions, and so often the value will be set via a parameter call.
 
 ====Queries====
