@@ -70,7 +70,7 @@ Arguments can be passed in two ways, depending on how the template is defined: p
 {{Baz | This is a positional parameter | message= And this is a named parameter. They can be mixed.}}
 </syntaxhighlight>
 
-Again, different templates will expect either named or positional parameters. Check out the template's documentation (at http://webplatform.org/docs/Template:Foo) to see what arguments it expects.
+Again, different templates will expect either named or positional parameters. Check out the template's documentation (at [[Template:Foo]]) to see what arguments it expects.
 
 Importantly, you '''can pass complicated MediaWiki markup as arguments''' to other templates, including ''other'' template calls. MediaWiki can handle nested templates.
 
