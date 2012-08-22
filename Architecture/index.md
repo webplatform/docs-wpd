@@ -117,6 +117,7 @@ These are types of reference pages we need for the site's information architectu
 ** [[WPD:Architecture/Object Method Reference|API Object Method Reference]]
 ** [[WPD:Architecture/Object property Reference|API Object Property Reference]]
 * [[WPD:Architecture/Data type|Data type Reference]]
+** * In JS, every primitive also corresponds to an object. E.g. there are numbers and Number objects. Will they both be described by the same page or different pages?
 * [[WPD:Architecture/Element Reference|Markup Element Reference]]
 * [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
