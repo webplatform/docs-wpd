@@ -463,7 +463,7 @@ In the case of [[Template:Related_Specifications]] you can see that the template
 
 One thing to be aware of when you're building up tables like this is that we need to be aware of the Table Gotcha (see next section) if we're using #if blocks.
 
-See [http://www.mediawiki.org/wiki/Help:Tables] for more information.
+See http://www.mediawiki.org/wiki/Help:Tables for more information.
 
 ====Gotcha: Table syntax====
 
