@@ -287,7 +287,7 @@ Most of this page is just normal wiki syntax. The important bits look like:
 
 This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Summary form field should just dump directly into the Summary parameter of the CSS Property template.
 
-There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See [http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms|] for more.
+There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms for more.
 
 Here's an example of changing the input type:
 
