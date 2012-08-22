@@ -1,0 +1,1 @@
+For example, HTTP verbs and headers, TCP, IP, etc.
