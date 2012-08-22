@@ -4,12 +4,18 @@ Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/In
 
 ==Tutorials==
 
-===Introduction to the world of web standards===
+=== ARTICLE BATCH 1 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: There is some good material in this section, but a lot of it probably needs to be rejigged or trimmed, and a lot needs to be added. I don't think this section is as high a priority as the raw technology stuff, but we should still add stubs and leave it for the community to pick up, in the immediacy?
+
+====Introduction to the world of web standards====
 * [http://www.w3.org/community/webed/wiki/The_history_of_the_Web The history of the Internet and the web, and the evolution of web standards] (Opera)
 * [http://www.w3.org/community/webed/wiki/How_does_the_Internet_work How does the Internet work]? (Opera)
 * [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model - HTML CSS and JavaScript] (Opera)
 
-===Web Design Concepts===
+====Web Design Concepts====
 * Introduction to planning a web site
 * Scoping and user research
 * [http://www.w3.org/community/webed/wiki/Information_Architecture_-_planning_out_a_web_site Information Architecture - planning out a web site] (Opera)
@@ -22,14 +28,18 @@ Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/In
 * Mockups and prototypes
 * User experience design
 
-===HTML beginnings===
+=== ARTICLE BATCH 2 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====HTML beginnings====
 
 * [http://www.w3.org/community/webed/wiki/The_basics_of_HTML The basics of HTML] (Opera)
 * [http://www.w3.org/community/webed/wiki/Doctypes_and_markup_styles Doctypes and markup styles] (Opera)
 * [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML &lt;head&gt; element] (Opera)
 * [http://www.w3.org/community/webed/wiki/More_about_the_document_head More about the document &lt;head&gt;] (Opera)
 
-===The HTML body===
+====The HTML body====
 
 * [http://www.w3.org/community/webed/wiki/Marking_up_textual_content_in_HTML Marking up textual content in HTML] (Opera)
 * [http://www.w3.org/community/webed/wiki/HTML_lists HTML Lists] (Opera)
@@ -43,7 +53,13 @@ Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/In
 * [http://www.w3.org/community/webed/wiki/Creating_multiple_pages_with_navigation_menus Creating multiple pages with navigation menus] (Opera)
 * [http://www.w3.org/community/webed/wiki/Validating_your_HTML Validating your HTML] (Opera)
 
-===Accessibility===
+=== ARTICLE BATCH 3 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: Someone with a good knowledge of accessibility should handle this section, preferably someone from WAI, like Shawn. The WAI should at least be consulted, as I believe they have done some work on working out a11y content for webplatform.org already.
+
+====Accessibility====
 
 We've already got
 
@@ -59,11 +75,15 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 # REAL A11Y TESTING WITH REAL PEOPLE, HOW TO PUT TOGETHER FOCUS GROUPS, WHAT TO LOOK FOR HERE
 # COMMON SENSE - SOLUTIONS FOR COMMON ACCESSIBILITY ISSUES - A ROADMAP FOR FIXING ISSUES. START WITH SEMANTIC HTML, THEN GO TO VIDEO AND AUDIO CONTENT, JAVASCRIPT, AJAX, ALTERNATIVES. }
 
-====Sources====
+====Accessibility sources====
 
 * [http://www.w3.org/WAI/yourWAI Accessibility] (W3C)
 
-===CSS===
+=== ARTICLE BATCH 4 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====CSS====
 
 * [https://developer.mozilla.org/en/CSS/Getting_Started/What_is_CSS What is CSS] (Mozilla)
 * [https://developer.mozilla.org/en/CSS/Getting_Started/Why_use_CSS Why use CSS] (Mozilla)
@@ -85,6 +105,15 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 * CSS gradients
 * Border-image
 * box-shadow
+
+=== ARTICLE BATCH 5 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: the owner of this batch should checkout the Adobe http://beta.theexpressiveweb.com/ resource, to see what tutorials we can use from there. They are willing to donate those to the project/
+
+====CSS====
+
 * [http://www.w3.org/community/webed/wiki/Styling_lists_and_links Styling lists and links] (Opera)
 * [https://developer.mozilla.org/en/CSS/Getting_Started/Lists Lists] (Mozilla)
 * [http://www.w3.org/community/webed/wiki/Styling_tables Styling tables] (Opera)
@@ -109,54 +138,17 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 # NEW CHAPTER - OBJECT FIT/OBJECT POSITION
 # NEW CHAPTER - OPTIMIZING CSS (INCLUDE IDEAS FOR OPTIMIZING FOR MOBILE  ETC.)
 
-
 ==== Sources ====
 
 Adobe are willing to donate the great tutorials available at http://beta.theexpressiveweb.com/.
 
-Mozilla tutorials: https://developer.mozilla.org/en/CSS/Getting_Started (18 topics, not including 2 Mozilla-specific ones)
+=== ARTICLE BATCH 6 ===
 
-===JavaScript ===
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Opera has the following available:
+Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.
 
-# [http://www.w3.org/wiki/Programming_-_the_real_basics Programming - the real basics!] (Opera)
-# [http://www.w3.org/wiki/What_can_you_do_with_JavaScript What can you do with JavaScript?] (Opera)
-# [http://www.w3.org/wiki/Your_first_look_at_JavaScript Your first look at JavaScript] (Opera)
-# [http://www.w3.org/wiki/JavaScript_best_practices JavaScript best practices] (Opera)
-# [http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript The principles of unobtrusive JavaScript] (Opera)
-# [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] (Opera)
-# [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] (Opera)
-# [http://www.w3.org/wiki/Traversing_the_DOM Traversing the DOM] (Opera)
-# [http://www.w3.org/wiki/Creating_and_modifying_HTML Creating and modifying HTML] (Opera)
-# [http://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript Dynamic style - manipulating CSS with JavaScript] (Opera)
-# [http://www.w3.org/wiki/Handling_events_with_JavaScript Handling events with JavaScript] (Opera)
-# [http://www.w3.org/wiki/JavaScript_animation JavaScript animation] (Opera)
-# [http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement Graceful degredation versus progressive enhancement] (Opera)
-# NEW CHAPTER - OPTIMIZING JAVASCRIPT (INCLUDE IDEAS FOR OPTIMIZING FOR MOBILE  ETC.)
-# NEW CHAPTER - TOUCH EVENTS. THESE DEFINITELY NEED COVERAGE, AS THEY ARE GETTING VERY BIG THESE DAYS. TOUCH DEVICES ARE IMPORTANT.
-
-These are available from Mozilla:
-* [https://developer.mozilla.org/en/JavaScript/Guide JavaScript Guide] (16 pages)
-** [https://developer.mozilla.org/en/JavaScript/Guide/About About this guide]
-** [https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview JavaScript overview]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Values%2C_Variables%2C_and_Literals Values, variables, and literals]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Expressions_and_Operators Expressions and operators]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Regular_Expressions Regular expressions]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Statements Statements]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects Working with objects]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Predefined_Core_Objects Predefined core objects]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Details_of_the_Object_Model Details of the object model]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Inheritance_Revisited Inheritance revisited]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Iterators_and_Generators Iterators and generators]
-** [https://developer.mozilla.org/en/JavaScript/Guide/Closures Closures]
-** [https://developer.mozilla.org/en/JavaScript/Guide/LiveConnect_Overview LiveConnect overview]
-** [https://developer.mozilla.org/En/E4X/Processing_XML_with_E4X Processing XML with E4X]
-* [https://developer.mozilla.org/en/JavaScript/Getting_Started Getting started with JavaScript] (1 page)
-* [https://developer.mozilla.org/en/JavaScript/A_re-introduction_to_JavaScript A re-introduction to JavaScript] (1 page)
-* [https://developer.mozilla.org/en/Introduction_to_Object-Oriented_JavaScript Introduction to object-oriented JavaScript] (1 page)
-
+==== JavaScript ====
 
 The following is a list of proposed topics: there is still much that can be added here, but we wanted to get the initial idea posted and will continue to add/update.
 
@@ -197,6 +189,17 @@ The following is a list of proposed topics: there is still much that can be adde
 # [http://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript Dynamic style - manipulating CSS with JavaScript] (Opera)
 # [http://www.w3.org/wiki/Handling_events_with_JavaScript Handling events with JavaScript] (Opera)
 ## Probably needs expanding
+
+
+=== ARTICLE BATCH 7 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.
+
+==== JavaScript ====
+
+
 # User interaction
 ## Clicking buttons
 ## Interacting with mouse movements
@@ -242,6 +245,16 @@ The following is a list of proposed topics: there is still much that can be adde
 ### WEBSQL/INDEXEDDB
 ### WEB STORAGE
 ### CANVAS (SHOULD PROBABLY HAVE ITS OWN SECTION ENTIRELY)
+[https://developer.mozilla.org/en/Canvas_tutorial Canvas tutorial] (Mozilla)
+# [https://developer.mozilla.org/en/Canvas_tutorial/Basic_usage Basic usage]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3ADrawing_shapes Drawing shapes]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3AUsing_images Using images]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3AApplying_styles_and_colors Applying styles and colors]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3ATransformations Transformations]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3ACompositing Compositing]
+# [https://developer.mozilla.org/en/Canvas_tutorial%3ABasic_animations Basic animations]
+# [https://developer.mozilla.org/en/Canvas_tutorial/Optimizing_canvas Optimizing canvas] (incomplete)
+
 ### HTML5 HISTORY API
 ### DATASETS
 # Sidebar: A Short History of JavaScript
@@ -255,18 +268,67 @@ The following is a list of proposed topics: there is still much that can be adde
 ## Browser support
 ## Cover additions...
 
-==== Sources ====
-
-Mozilla tutorials:
-
-* https://developer.mozilla.org/en/Canvas_tutorial (10 topics)
-* https://developer.mozilla.org/en/JavaScript/Guide (16 topics)
-* https://developer.mozilla.org/en/JavaScript/Getting_Started (1 topic)
-* https://developer.mozilla.org/en/JavaScript/A_re-introduction_to_JavaScript (1 topic)
-* https://developer.mozilla.org/en/Introduction_to_Object-Oriented_JavaScript (1 topic)
 
 
-Facebook HTML5 API content:
+=== ARTICLE BATCH 8 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: Most of these will have been added in as part of one of the previous JS batches, but just give this a quick check to see if anything has been missed.
+
+====JavaScript ====
+
+Opera has the following available:
+
+# [http://www.w3.org/wiki/Programming_-_the_real_basics Programming - the real basics!] (Opera)
+# [http://www.w3.org/wiki/What_can_you_do_with_JavaScript What can you do with JavaScript?] (Opera)
+# [http://www.w3.org/wiki/Your_first_look_at_JavaScript Your first look at JavaScript] (Opera)
+# [http://www.w3.org/wiki/JavaScript_best_practices JavaScript best practices] (Opera)
+# [http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript The principles of unobtrusive JavaScript] (Opera)
+# [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] (Opera)
+# [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] (Opera)
+# [http://www.w3.org/wiki/Traversing_the_DOM Traversing the DOM] (Opera)
+# [http://www.w3.org/wiki/Creating_and_modifying_HTML Creating and modifying HTML] (Opera)
+# [http://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript Dynamic style - manipulating CSS with JavaScript] (Opera)
+# [http://www.w3.org/wiki/Handling_events_with_JavaScript Handling events with JavaScript] (Opera)
+# [http://www.w3.org/wiki/JavaScript_animation JavaScript animation] (Opera)
+# [http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement Graceful degredation versus progressive enhancement] (Opera)
+# NEW CHAPTER - OPTIMIZING JAVASCRIPT (INCLUDE IDEAS FOR OPTIMIZING FOR MOBILE  ETC.)
+# NEW CHAPTER - TOUCH EVENTS. THESE DEFINITELY NEED COVERAGE, AS THEY ARE GETTING VERY BIG THESE DAYS. TOUCH DEVICES ARE IMPORTANT.
+
+=== ARTICLE BATCH 9 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: Some of these will have been added in as part of one of the previous JS batches, but give this a check to see if some of these have been missed, and think about where they might go in the JavaScript article structure.
+
+These are available from Mozilla:
+* [https://developer.mozilla.org/en/JavaScript/Guide JavaScript Guide] (16 pages)
+** [https://developer.mozilla.org/en/JavaScript/Guide/About About this guide]
+** [https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview JavaScript overview]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Values%2C_Variables%2C_and_Literals Values, variables, and literals]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Expressions_and_Operators Expressions and operators]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Regular_Expressions Regular expressions]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Statements Statements]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects Working with objects]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Predefined_Core_Objects Predefined core objects]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Details_of_the_Object_Model Details of the object model]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Inheritance_Revisited Inheritance revisited]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Iterators_and_Generators Iterators and generators]
+** [https://developer.mozilla.org/en/JavaScript/Guide/Closures Closures]
+** [https://developer.mozilla.org/en/JavaScript/Guide/LiveConnect_Overview LiveConnect overview]
+** [https://developer.mozilla.org/En/E4X/Processing_XML_with_E4X Processing XML with E4X]
+* [https://developer.mozilla.org/en/JavaScript/Getting_Started Getting started with JavaScript] (1 page)
+* [https://developer.mozilla.org/en/JavaScript/A_re-introduction_to_JavaScript A re-introduction to JavaScript] (1 page)
+* [https://developer.mozilla.org/en/Introduction_to_Object-Oriented_JavaScript Introduction to object-oriented JavaScript] (1 page)
+
+
+=== ARTICLE BATCH 10 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Facebook HTML5 API content====
 
 * [https://developers.facebook.com/html5/showcase/ HTML5 Showcase]
 * [https://developers.facebook.com/html5/build/richui/ Building Web Apps]
@@ -280,7 +342,11 @@ Facebook HTML5 API content:
 * [https://developers.facebook.com/html5/test/ Testing Web Apps]
 * [https://developers.facebook.com/html5/distribution/ Distributing Web Apps]
 
-Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/):
+=== ARTICLE BATCH 11 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
 
 * [http://www.html5rocks.com/en/tutorials/audio/quick/ Quick Guide to Implementing the HTML5 Audio Tag]
 * [http://www.html5rocks.com/en/tutorials/webdatabase/todo/ A Simple TODO list using HTML5 WebDatabases]
@@ -302,6 +368,13 @@ Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/):
 * [http://www.html5rocks.com/en/tutorials/dnd/basics/ Native HTML5 Drag and Drop]
 * [http://www.html5rocks.com/en/tutorials/offline/storage/ Client-Side Storage]
 * [http://www.html5rocks.com/en/tutorials/flexbox/quick/ Quick hits with the Flexible Box Model]
+
+=== ARTICLE BATCH 12 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
+
 * [http://www.html5rocks.com/en/tutorials/websockets/basics/ Introducing WebSockets: Bringing Sockets to the Web]
 * [http://www.html5rocks.com/en/tutorials/eventsource/basics/ Stream Updates with Server-Sent Events]
 * [http://www.html5rocks.com/en/tutorials/casestudies/entanglement.html Case Study: Getting Entangled with HTML5 Canvas]
@@ -322,6 +395,13 @@ Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/):
 * [http://www.html5rocks.com/tutorials/canvas/imagefilters/ Image Filters with Canvas]
 * [http://www.html5rocks.com/tutorials/file/xhr2/ New Tricks in XMLHttpRequest2]
 * [http://www.html5rocks.com/tutorials/google-chrome-frame/ Rendering HTML5 in older browsers with Google Chrome Frame]
+
+=== ARTICLE BATCH 13 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
+
 * [http://www.html5rocks.com/mobile/workingoffthegrid.html Working Off the Grid with HTML5 Offline]
 * [http://www.html5rocks.com/tutorials/webgl/shaders/ An Introduction to Shaders]
 * [http://www.html5rocks.com/tutorials/three/intro/ Getting Started with Three.js]
@@ -342,7 +422,14 @@ Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/):
 * [http://www.html5rocks.com/tutorials/webdatabase/websql-indexeddb/ Migrating your WebSQL DB to IndexedDB]
 * [http://www.html5rocks.com/tutorials/doodles/lem/ Case Study: Building the Stanisław Lem Google doodle]
 
-===Mobile and devices ===
+
+=== ARTICLE BATCH 14 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: This section will be mostly stubs, and we really need someone to think carefully about what structure our mobile and device material should have.
+
+====Mobile and devices ====
 
 We already have
 
@@ -377,14 +464,19 @@ OTHER THINGS TO ADD ELSEWHERE IN THE MATERIAL
 # WE SHOULD WRITE AN ARTICLE TITLED "ONE WEB, MANY DEVICES", PLACED INSIDE http://www.w3.org/wiki/Web_Standards_Curriculum#Introduction_to_the_world_of_web_standards
 # WE SHOULD ALSO SAY SOMETHING ABOUT SEMANTICS AND DIVERSE DEVICES IN http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript
 
-=== SVG ===
+=== ARTICLE BATCH 15 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+
+==== SVG ====
 
 Source of inspiration :
 
 * http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html
 * https://developer.mozilla.org/en/SVG/Tutorial
 
-==== SVG BASICS ====
+===== SVG BASICS =====
 
 # ''History and usage'' : As for HTML, it could be good to start by giving some context: What is it, Where does it come, What is it made for, How is it different than HTML? ([https://developer.mozilla.org/en/SVG/Tutorial/Introduction Introduction] from Mozilla)
 # ''Syntax and deployment'' : This part would introduce the basic syntax, the concept of viewport and absolute positioning and finally how to embed an SVG document inside other language (basically HTML and CSS). ([https://developer.mozilla.org/en/SVG/Tutorial/Getting_Started Simple example, basic properties, file types] from Mozilla)
@@ -414,7 +506,12 @@ Ex-Opera articles
 # [http://www.w3.org/wiki/SVG_Primer SVG Primer] (written by David Storey, but unused)
 # [http://www.w3.org/wiki/SVG_Links SVG Links] (written by David Storey, but unused)
 
-Mozilla articles: https://developer.mozilla.org/en/SVG/Tutorial (16 topics)
+=== ARTICLE BATCH 16 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: This is basically just a list of demos, but we should go through them to see where we can use these.
+
 
 SVG WOW (http://svg-wow.org/) Demos:
 
@@ -435,18 +532,12 @@ SVG WOW (http://svg-wow.org/) Demos:
 * [http://svg-wow.org//blog/2010/10/05/gandhi-quotes Gandhi Quotes]
 * [http://svg-wow.org//blog/2011/03/28/rotozoom-video Rotozoom video]
 
-=== Canvas === 
-[https://developer.mozilla.org/en/Canvas_tutorial Canvas tutorial] (Mozilla)
-# [https://developer.mozilla.org/en/Canvas_tutorial/Basic_usage Basic usage]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3ADrawing_shapes Drawing shapes]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3AUsing_images Using images]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3AApplying_styles_and_colors Applying styles and colors]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3ATransformations Transformations]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3ACompositing Compositing]
-# [https://developer.mozilla.org/en/Canvas_tutorial%3ABasic_animations Basic animations]
-# [https://developer.mozilla.org/en/Canvas_tutorial/Optimizing_canvas Optimizing canvas] (incomplete)
 
-=== Supplementary articles ===
+=== ARTICLE BATCH 17 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+==== Supplementary articles ====
 
 * [http://www.w3.org/wiki/Getting_your_content_online Getting your content online] (Opera)
 * [http://www.w3.org/wiki/Common_HTML_entities_used_for_typography Common HTML entities used for typography] (Opera)
@@ -470,19 +561,33 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 == References ==
 
+=== ARTICLE BATCH 18 ===
 
-===HTML===
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====HTML====
 
 * [http://msdn.microsoft.com/en-us/library/ie/ms533050%28v=vs.85%29.aspx HTML and DHTML Reference] (Microsoft)
 
 * [http://www.w3.org/community/webed/wiki/HTML HTML Reference] (W3C)
 
-===CSS===
+=== ARTICLE BATCH 19 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====CSS====
 
 * [http://msdn.microsoft.com/en-us/library/ie/ms531209%28v=vs.85%29.aspx CSS Reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/aa358815(v=vs.85).aspx At-rules] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/aa358816(v=vs.85).aspx Selectors] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/aa358806(v=vs.85).aspx Attributes] (Microsoft)
+
+=== ARTICLE BATCH 20 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====CSS====
+
 * [http://msdn.microsoft.com/en-us/library/ie/ms531208(v=vs.85).aspx Collections] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ms531210(v=vs.85).aspx Methods] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ms531197(v=vs.85).aspx Color Table] (Microsoft)
@@ -490,32 +595,61 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 * [http://www.w3.org/community/webed/wiki/CSS CSS Reference] (W3C)
 
-===Canvas===
+=== ARTICLE BATCH 21 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Canvas====
 
 * [http://msdn.microsoft.com/en-us/library/ie/ff975062%28v=vs.85%29.aspx CANVAS Element | canvas Object] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff975057%28v=vs.85%29.aspx CanvasRenderingContext2D Object] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/dd797413.aspx Canvas & SVG]: Tutorials and Samples ''(included or not?)'' (Microsoft)
 
-===SVG===
+
+=== ARTICLE BATCH 22 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====SVG====
 
 * [http://msdn.microsoft.com/en-us/ie/hh410107.aspx SVG Guide for Developers] ''(included or not?)'' (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh453564.aspx SVG Element Reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff971904(v=vs.85).aspx SVG Element Reference] ''(same?)'' (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff971905(v=vs.85).aspx SVG Enumeration Reference] (Microsoft)
+
+=== ARTICLE BATCH 23 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====SVG====
+
 * [http://msdn.microsoft.com/en-us/library/ie/ff971906(v=vs.85).aspx SVG Event Reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff971907(v=vs.85).aspx SVG Method Reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff971908(v=vs.85).aspx SVG Object Reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/ff971909(v=vs.85).aspx SVG Property Reference] (Microsoft)
 
-===DOM===
+
+=== ARTICLE BATCH 24 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====DOM====
+
 ''(Some of these seem out of date... are these the right references?)''
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms766473(v=vs.85).aspx DOM Enumerated Constants] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms760218(v=vs.85).aspx DOM Objects/Interfaces] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms763798(v=vs.85).aspx DOM Properties] (Microsoft)
+
+=== ARTICLE BATCH 25 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====DOM====
+
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms757828(v=vs.85).aspx DOM Methods] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms764697(v=vs.85).aspx DOM Events] (Microsoft)
 
-===DOM Events===
+====DOM Events====
 ''(Are there other references?)''
 * [http://msdn.microsoft.com/en-us/library/windows/desktop/ms764697(v=vs.85).aspx DOM Events] (Microsoft)
 
@@ -523,7 +657,11 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP InterACT Curriculum structures]. Most recent versions kept at [http://www.w3.org/community/webed/wiki/Interact_Curriculum Overview of InterACT curriculum articles]
 
-===Basics and "soft" skills===
+=== ARTICLE BATCH 26 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Basics and "soft" skills====
 
 * [http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals Internet Fundamentals]
 * [http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production Digital Design Production]
@@ -533,7 +671,11 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 * [http://www.w3.org/community/webed/wiki/Interact/Independent_Study Independent Study]
 * [http://www.w3.org/community/webed/wiki/Interact/Internship Internship]
 
-===Web design===
+=== ARTICLE BATCH 27 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Web design====
 
 * [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1]
 * [http://www.w3.org/community/webed/wiki/Interact/Web_Design_2 Web Design 2]
@@ -543,12 +685,22 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 * [http://www.w3.org/community/webed/wiki/Interact/Interaction_Design_1 Interaction Design 1]
 * [http://www.w3.org/community/webed/wiki/Interact/Prototyping Prototyping]
 
-===Web development===
+=== ARTICLE BATCH 28 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+====Web development====
 
 * [http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1 DOM Scripting 1]
 * [http://www.w3.org/community/webed/wiki/Interact/Server-Side_Scripting_1 Server-side Scripting 1]
 
 == Miscellaneous - not sure what to do with these yet ==
+
+=== ARTICLE BATCH 29 ===
+
+'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+
+Notes: low priority, but it might be nice to get someone to investigate these and see what we should do with them, where we should put them, etc.
 
 * [http://www.w3.org/International/getting-started/ Internationalization] (W3C)
 * [http://www.w3.org/2002/03/tutorials Tutorials] (W3C)
