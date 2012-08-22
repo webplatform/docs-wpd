@@ -499,3 +499,5 @@ Basically, the hack is that we have a special template defined: [[Template:!]]. 
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
+
+More information on this pattern (no, I did not come up with this crazy solution): [http://meta.wikimedia.org/wiki/Help:Table#Producing_table_syntax_using_templates_and.2For_parser_functions]
