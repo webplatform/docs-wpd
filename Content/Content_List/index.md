@@ -6,9 +6,9 @@ Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/In
 
 === ARTICLE BATCH 1 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: CHRIS MILLS'''
 
-Notes: There is some good material in this section, but a lot of it probably needs to be rejigged or trimmed, and a lot needs to be added. I don't think this section is as high a priority as the raw technology stuff, but we should still add stubs and leave it for the community to pick up, in the immediacy?
+'''Notes: There is some good material in this section, but a lot of it probably needs to be rejigged or trimmed, and a lot needs to be added. I don't think this section is as high a priority as the raw technology stuff, but we should still add stubs and leave it for the community to pick up, in the immediacy?'''
 
 ====Introduction to the world of web standards====
 * [http://www.w3.org/community/webed/wiki/The_history_of_the_Web The history of the Internet and the web, and the evolution of web standards] (Opera)
@@ -30,7 +30,7 @@ Notes: There is some good material in this section, but a lot of it probably nee
 
 === ARTICLE BATCH 2 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: CHRIS MILLS'''
 
 ====HTML beginnings====
 
@@ -57,7 +57,7 @@ Notes: There is some good material in this section, but a lot of it probably nee
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: Someone with a good knowledge of accessibility should handle this section, preferably someone from WAI, like Shawn. The WAI should at least be consulted, as I believe they have done some work on working out a11y content for webplatform.org already.
+'''Notes: Someone with a good knowledge of accessibility should handle this section, preferably someone from WAI, like Shawn. The WAI should at least be consulted, as I believe they have done some work on working out a11y content for webplatform.org already.'''
 
 ====Accessibility====
 
@@ -81,7 +81,7 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 
 === ARTICLE BATCH 4 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: CHRIS MILLS'''
 
 ====CSS====
 
@@ -108,7 +108,7 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 
 === ARTICLE BATCH 5 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: CHRIS MILLS'''
 
 Notes: the owner of this batch should checkout the Adobe http://beta.theexpressiveweb.com/ resource, to see what tutorials we can use from there. They are willing to donate those to the project/
 
@@ -146,7 +146,7 @@ Adobe are willing to donate the great tutorials available at http://beta.theexpr
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.
+'''Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.'''
 
 ==== JavaScript ====
 
@@ -195,7 +195,7 @@ The following is a list of proposed topics: there is still much that can be adde
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.
+'''Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.'''
 
 ==== JavaScript ====
 
@@ -274,7 +274,7 @@ Notes: This batch may seem like a lot, but it is in fact not that big - many of 
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: Most of these will have been added in as part of one of the previous JS batches, but just give this a quick check to see if anything has been missed.
+'''Notes: Most of these will have been added in as part of one of the previous JS batches, but just give this a quick check to see if anything has been missed.'''
 
 ====JavaScript ====
 
@@ -300,7 +300,7 @@ Opera has the following available:
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: Some of these will have been added in as part of one of the previous JS batches, but give this a check to see if some of these have been missed, and think about where they might go in the JavaScript article structure.
+'''Notes: Some of these will have been added in as part of one of the previous JS batches, but give this a check to see if some of these have been missed, and think about where they might go in the JavaScript article structure.'''
 
 These are available from Mozilla:
 * [https://developer.mozilla.org/en/JavaScript/Guide JavaScript Guide] (16 pages)
@@ -427,7 +427,7 @@ These are available from Mozilla:
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: This section will be mostly stubs, and we really need someone to think carefully about what structure our mobile and device material should have.
+'''Notes: This section will be mostly stubs, and we really need someone to think carefully about what structure our mobile and device material should have.'''
 
 ====Mobile and devices ====
 
@@ -510,7 +510,7 @@ Ex-Opera articles
 
 '''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
 
-Notes: This is basically just a list of demos, but we should go through them to see where we can use these.
+'''Notes: This is basically just a list of demos, but we should go through them to see where we can use these.'''
 
 
 SVG WOW (http://svg-wow.org/) Demos:
