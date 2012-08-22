@@ -1,6 +1,18 @@
 = Web Platform: Content requirements master list=
 
-Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/Introduction_to_the_Web_Standards_Curriculum Introduction to the Web Standards Curriculum]] (Opera), but this is hardly ideal, as it is specific for the web standards curriculum.
+This is a list of all the existing content that has been donated to the webplatform.org project. I (CHRIS MILLS) have broken it into '''batches'', of roughly the same size. For each batch, we need someone to take ownership of it, and then:
+
+# Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
+# Check the content structure for the subject you are currently dealing with. For anything that doesn't make sense, or needs adding, modifying or deleting, make changes as necessary.
+# Fit existing articles into the content structure as well as you can. 
+# Create new pages/stubs for articles that are yet to be written.
+# Make sure all articles have the correct URLs and tags.
+# Go through the list of items that must be added to each article before publishing (NEEDS FINISHING) and make sure they are added:
+** browser compatibility
+** flags
+** license
+** ??
+# also need to proof/edit articles at some point
 
 ==Tutorials==
 
@@ -9,6 +21,8 @@ Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/In
 '''OWNER: CHRIS MILLS'''
 
 '''Notes: There is some good material in this section, but a lot of it probably needs to be rejigged or trimmed, and a lot needs to be added. I don't think this section is as high a priority as the raw technology stuff, but we should still add stubs and leave it for the community to pick up, in the immediacy?'''
+
+* Introductory text. We've already got [[http://www.w3.org/community/webed/wiki/Introduction_to_the_Web_Standards_Curriculum Introduction to the Web Standards Curriculum]] (Opera), but this is hardly ideal, as it is specific for the web standards curriculum.
 
 ====Introduction to the world of web standards====
 * [http://www.w3.org/community/webed/wiki/The_history_of_the_Web The history of the Internet and the web, and the evolution of web standards] (Opera)
