@@ -51,6 +51,12 @@ There are some special template types; if you see something like
 
 , that is, a # at the front, that's a special template that is built in, and thus does not have a Template: page.
 
+====Investigating how templates work====
+
+Again, templates are just like normal pages, except that when you invoke a template, their contents replace the template call (they're ''transcluded'').
+
+A template's definition page, by convention, gives a short overview of what the template is for and what arguments (see the next sub-section) it takes. However, at first glance it's hard to figure out how the template '''works'''. This is because many templates use <nowiki><includeonly> and <noinclude></nowiki> tags to control which pieces of the template are the real business end, and which pieces are just documentation. If you want to see how a template actually works, '''click the edit button to see the raw markup.'''
+
 ==Behind the Scenes==
 
 {{TODO | Fill in the behind the scenes section}}
