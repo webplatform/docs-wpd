@@ -301,6 +301,16 @@ But wait--the summary block gets a text area, too--but we didn't override it. Ho
 
 But Examples is ''not'' a property (at least not at this moment). That's because we don't have any need to extract examples and display them elsewhere, so we just print examples out normally. This means there's no property associated with Examples, so Semantic Forms can't configure the form input automatically, and we have to do it ourselves.
 
+Later, we see things like: 
+
+<syntaxhighlight>
+{{{field|Compatibility_desktop_rows|holds template}}}
+{{{field|Compatibility_mobile_rows|holds template}}}
+{{{field|Compatibility_notes_rows|holds template}}}
+</syntaxhighlight>
+
+These are the sections that allow users to add between 0 and n rows. We'll dig into those in the sub-forms section.
+
 ===Design Patterns===
 ====New pages====
 ====Building new page types====
