@@ -96,6 +96,11 @@ My title is {{{title | non-existent}}}.
 
 As you can see, it's a vertical pipe character after the parameter name. You can either provide a value or leave it totally blank like in the last example. If you leave it blank, sometimes it's hard to see--that's why I'm explaining it here.
 
+====Common templates====
+
+[[Template:TODO]] is for action items or ''implementation'' things that need to be changed in the page.
+[[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors.
+
 ==Behind the Scenes==
 
 There is ''no need'' to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.
