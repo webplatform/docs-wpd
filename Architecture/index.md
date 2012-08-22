@@ -111,7 +111,10 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
 
 ==Page Types==
-These are types of reference pages we need for the site's information architecture:
+These are types of reference pages we need for the site's information architecture.
+
+'''Note:''' These are basic primitives that need unique templates in MediaWiki; having a unique template allows us to perform queries and aggregations, and supplements the page hierarchy architecture structure as a method of categorization; another way of categorizing them is through MediaWiki categories that can be added to each page. There may be some templates that only reuse the same basic elements as other pages, such as page name, summary, syntax, and example; it is still useful to have unique templates for them for purposes of organization and querying.
+
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
 * [[WPD:Architecture/JavaScript Statements|JavaScript Statements]]
 ** Subcategories: Control structures, declarations
@@ -125,9 +128,11 @@ These are types of reference pages we need for the site's information architectu
 ** CSS Property types, HTML and SVG attribute value types
 ** In JS, every primitive also corresponds to an object. E.g. there are numbers and Number objects. Will they both be described by the same page or different pages?
 * [[WPD:Architecture/Element Reference|Markup Element Reference]]
+** Examples: elements for HTML, SVG, MathML
+* [[WPD:Architecture/Attribute Reference|Attribute Reference]]
+** Examples: attributes for HTML, SVG, and MathML elements
 * [[WPD:Architecture/Markup Structure|Markup Structure]]
 ** Examples: Doctypes, comments, CDATA sections, entities (?)
-* [[WPD:Architecture/Attribute Reference|Attribute Reference]]
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
 * [[WPD:Architecture/CSS Selector Reference|CSS Selector Reference]]
 ** Note: Pseudo-classes and pseudo-elements and other selectors will all use the same template but we should have tags to differentiate them.
