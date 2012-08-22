@@ -23,6 +23,34 @@ Different page types have different forms. This makes sense--a page on a CSS pro
 
 It is important that you use the correct form, as that will control what form everyone ''else'' will see afterwards, and requires some manually mucking in the source of the page to undo.
 
+===Using Templates===
+
+Templates are an incredibly important concept in MediaWiki, and we use them ''all'' the time. Unlike Semantic MediaWiki or Semantic Forms, Templates are a core feature of the base install of MediaWiki. They're complicated and powerful, but this section will tell you all you need to know to ''use'' them.
+
+====Basic Template Use====
+
+Templates, at their simplest, are just automatic text substitution. When MediaWiki is converting a page's MediaWiki markup into HTML to display, when it encounters a template tag, it will simply replace that text with the content of the template.
+
+In MediaWiki markup, templates look like this:
+
+<syntaxhighlight>
+ {{Foo}}
+</syntaxhighlight>
+
+The double-curly brace is the way that you instantly know that you're dealing with a template.
+
+By default, templates all live in the Template namespace. If you see a template in the code and want to know how it works, open a new browser window and navigate to http://webplatform.org/docs/Template:Foo , where Foo is the template name you want to investigate.
+
+Knowing this fact will help you dig into what's going wrong, or what a template does, if you don't know.
+
+There are some special template types; if you see something like
+
+<syntaxhighlight>
+{{#if: foo | first | second}}
+</syntaxhighlight>
+
+, that is, a # at the front, that's a special template that is built in, and thus does not have a Template: page.
+
 ==Behind the Scenes==
 
 {{TODO | Fill in the behind the scenes section}}
