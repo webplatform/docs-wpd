@@ -410,8 +410,6 @@ The example above is for the former case. That's why the form template instantia
 
 However, if you're doing the latter, it's easier. The form template doesn't need that special for block above and below the template, and you should instantiate your template ''inside'' the main <nowiki>{{for template}}</nowiki> block.
 
-====Tables with rows====
-
 ====Sub-forms====
 
 In the [[Form:CSS_Property]] form, we have a few sections that allow you to add 0 or more sub-sections. Examples are the browser compatibility rows and the related specifications.
@@ -453,6 +451,8 @@ Inside of the form definition we just define a simple form just like normal, tha
 When the user hits submit on the main form, the form will automatically go through and stamp out an instance of the sub-template (with correct arguments) for each sub-form section the user created. It will then concatenate them together and pass them into the top-level template with the name we defined in the main body of the form, in this case "Specifications."
 
 That's it!
+
+====Tables with rows====
 
 ====Gotcha: Table syntax====
 
