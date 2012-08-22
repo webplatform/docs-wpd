@@ -331,6 +331,17 @@ The second is that we can change the Default form for the entire wiki.  What we'
 {{Note | We haven't implemented this default form thing yet. }}
 
 ====Building new page types====
+
+When you go to build a new page type, you generally are going to need four pieces:
+* The main template, which will print out all the values and also print out the category.
+* The category that we'll use to associated with the form.
+* The form itself.
+* An example page to use the form and debug with.
+
+In practice, what you'll do is have four tabs open and be edit/save/refreshing all of them piece by piece to build out your form.
+
+When you create your form, it's important to follow the best practices of including the Flags and Attribution sections (see below).
+
 ====Only including some sections if there's content to show====
 ====Tables with rows====
 ====Sub-forms====
