@@ -1,4 +1,4 @@
-This is a list of all the existing content that has been donated to the webplatform.org project. I (CHRIS MILLS) have broken it into '''batches'', of roughly the same size. For each batch, we need someone to take ownership of it, and then:
+This is a list of all the existing content that has been donated to the webplatform.org project. I (CHRIS MILLS) have broken it into '''batches''', of roughly the same size. For each batch, we need someone to take ownership of it, and then:
 
 # Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
 # Check the content structure for the subject you are currently dealing with. For anything that doesn't make sense, or needs adding, modifying or deleting, make changes as necessary.
