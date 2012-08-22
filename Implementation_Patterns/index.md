@@ -193,6 +193,14 @@ For that, you can use this syntax:
 
 In practice you'll often see property calls inside of template definitions, and so often the value will be set via a parameter call.
 
+====Queries====
+
+Queries are how you select pages via properties and then print out some of their property-values in some form.
+
+At the moment we don't use them, but soon we will use them to create method-listing pages, using inline queries.
+
+More info: [http://semantic-mediawiki.org/wiki/Help:Inline_queries}
+
 ==Other stuff==
 
 ===How everything is wired together===
