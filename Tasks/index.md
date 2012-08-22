@@ -612,10 +612,10 @@ These are broken out from the top-level table.
 | 
 | 
 |-
-| Styling different for intra-page links, intra-wiki links, and external links
+| Links
 | CJ
 | 
-| 
+| Styling different for intra-page links, intra-wiki links, external links, and links to non-existing pages
 |-
 | Note callouts
 | CJ
