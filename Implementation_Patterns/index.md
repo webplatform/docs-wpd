@@ -132,6 +132,8 @@ Finally, templates are great because they allow us to hide some of the ugly guts
 
 There are some built-in templates, like #if. You can find out more here: http://www.mediawiki.org/wiki/Help:Extension:ParserFunctions . Note there's a gotcha around doing table syntax in these; see at the bottom of this article.
 
+{{Note | There's a potential gotcha with these special "templates": after the name, you have a '''colon''', not a pipe. }}
+
 ====Categories====
 
 Categories are also built into MediaWiki. They're used extensively in Wikipedia, for example. By default a list of categories a page belongs to is listed at the bottom of the page.
