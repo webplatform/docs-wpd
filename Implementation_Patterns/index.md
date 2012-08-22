@@ -15,6 +15,14 @@ Logging in will also give you edit access to articles. In normal MediaWiki, you 
 
 We've set up our templates so that we handle things like blank form fields in an appropriate way--something that would be hard to do without Semantic Forms.
 
+===Creating New Pages===
+
+Different page types have different forms. This makes sense--a page on a CSS property will have a different structure than a page on a DOM method. When you create a brand new page, however, by default here's no form type assigned. Is it up to you to figure out the correct form type to use from the list presented and create the stub based on that form.
+
+{{Note | This create new page experience is not yet implemented.}}
+
+It is important that you use the correct form, as that will control what form everyone ''else'' will see afterwards, and requires some manually mucking in the source of the page to undo.
+
 ==Behind the Scenes==
 
 {{TODO | Fill in the behind the scenes section}}
