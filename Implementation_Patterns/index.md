@@ -98,8 +98,8 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 
 ====Common templates====
 
-[[Template:TODO]] is for action items or ''implementation'' things that need to be changed in the page.
-[[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors.
+* [[Template:TODO]] is for action items or ''implementation'' things that need to be changed in the page.
+* [[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors.
 
 ==Behind the Scenes==
 
