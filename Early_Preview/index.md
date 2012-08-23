@@ -6,7 +6,7 @@ The following is a list of folks to invite to the early preview:
 
 ==Steward Organizations Representatives==
 ''This list should include anyone at these organizations who doesn't currently have a WPD login''
-==Adobe==
+===Adobe===
 * ''Who?''
 
 ===Google===
@@ -18,22 +18,22 @@ The following is a list of folks to invite to the early preview:
 * Brendan Kenny
 * ''Many other members of Chrome's developer relations team''
 
-==Facebook==
+===Facebook===
 * ''Who?''
 
-==Microsoft==
+===Microsoft===
 * ''Who?''
 
-==Mozilla==
+===Mozilla===
 * ''Who?''
 
-==Nokia==
+===Nokia===
 * ''Who?''
 
-==Opera==
+===Opera===
 * ''Who?''
 
-==W3C==
+===W3C===
 * ''Who?''
 
 ==Active MDN Community members==
