@@ -23,7 +23,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** html / apis / methods / ''foo''
 *** html / apis / properties
 **** html / apis / properties / ''foo''
-** html / tutorials / ''foo''
+** html / tutorials
+*** html / tutorials / ''foo''
 * css
 ** css / properties
 *** css / properties / ''foo''
@@ -41,7 +42,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** css / apis / methods / ''foo''
 *** css / apis / properties
 **** css / apis / properties / ''foo''
-** css / tutorials / ''foo'' 
+** css / tutorials
+*** css / tutorials / ''foo'' 
 * svg
 ** svg / elements
 *** svg / elements / ''foo''
@@ -53,17 +55,20 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** svg / apis / methods / ''foo''
 *** svg / apis / properties
 **** svg / apis / properties / ''foo''
-** svg / tutorials / ''foo''
+** svg / tutorials
+*** svg / tutorials / ''foo''
 * mathml
 ** mathml / elements
 *** mathml / elements / ''foo''
 ** mathml / attributes
 *** mathml / attributes / ''foo''
-** mathml / tutorials / ''foo'' 
+** mathml / tutorials
+*** mathml / tutorials / ''foo'' 
 * aria
 ** aria / attributes
 *** aria / attributes / ''foo''
-** aria / tutorials / ''foo'' 
+** aria / tutorials
+*** aria / tutorials / ''foo'' 
 * apis
 ** apis / ''foo''
 *** apis / ''foo'' / ''foobar'' (interface)
@@ -98,7 +103,10 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** js / statements / ''foo''
 ** js / operators
 *** js / operators / ''foo''
-** js / tutorials / ''foo''
+** js / tutorials
+*** js / tutorials / ''foo''
+** js / libraries
+*** js / libraries / ''foo''
 * glossary
 * guides
 * tutorials (links to tech-specific tutorials)
