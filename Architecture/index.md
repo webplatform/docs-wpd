@@ -116,6 +116,12 @@ These are types of reference pages we need for the site's information architectu
 '''Note:''' These are basic primitives that need unique templates in MediaWiki; having a unique template allows us to perform queries and aggregations, and supplements the page hierarchy architecture structure as a method of categorization; another way of categorizing them is through MediaWiki categories that can be added to each page. There may be some templates that only reuse the same basic elements as other pages, such as page name, summary, syntax, and example; it is still useful to have unique templates for them for purposes of organization and querying.
 
 * [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
+* [[WPD:Architecture/Element Reference|Markup Element Reference]]
+** Examples: elements for HTML, SVG, MathML
+* [[WPD:Architecture/Attribute Reference|Attribute Reference]]
+** Examples: attributes for HTML, SVG, and MathML elements
+* [[WPD:Architecture/Markup Structure|Markup Structure]]
+** Examples: Doctypes, comments, CDATA sections, entities (?)
 * [[WPD:Architecture/JavaScript Statements|JavaScript Statements]]
 ** Subcategories: Control structures, declarations
 * [[WPD:Architecture/JavaScript Operator|JavaScript Operator]]
@@ -127,18 +133,16 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Data type|Data type Reference]]
 ** CSS Property types, HTML and SVG attribute value types
 ** In JS, every primitive also corresponds to an object. E.g. there are numbers and Number objects. Will they both be described by the same page or different pages?
-* [[WPD:Architecture/Element Reference|Markup Element Reference]]
-** Examples: elements for HTML, SVG, MathML
-* [[WPD:Architecture/Attribute Reference|Attribute Reference]]
-** Examples: attributes for HTML, SVG, and MathML elements
-* [[WPD:Architecture/Markup Structure|Markup Structure]]
-** Examples: Doctypes, comments, CDATA sections, entities (?)
+* [[WPD:Architecture/Constants|Constants]]
+** This might be for constants in APIs, but also might include things like a table of color names, ascii entity codes, etc.
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
 * [[WPD:Architecture/CSS Selector Reference|CSS Selector Reference]]
 ** Note: Pseudo-classes and pseudo-elements and other selectors will all use the same template but we should have tags to differentiate them.
 * [[WPD:Architecture/CSS Property Reference|CSS Property Reference]]
 * [[WPD:Architecture/CSS Function Reference|CSS Function Reference]]
 * [[WPD:Architecture/CSS Keyword Reference|CSS Keyword Reference]]
+* [[WPD:Architecture/CSS Media Features|CSS Media Features]]
+** for media queries, import rules, style declarations
 * [[WPD:Architecture/Event Reference|Event Reference]]
 * [[WPD:Architecture/Protocol Reference|Protocol Reference]]
 * [[WPD:Architecture/Guide|Guide]]
