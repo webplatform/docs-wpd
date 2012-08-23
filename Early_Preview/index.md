@@ -44,4 +44,18 @@ The following is a list of folks to invite to the early preview:
 {{TODO | Expand this list }}
 
 ==Active Web Developer Advocates==
-* ''Who?''
+* Robert Kiesow <rtkfaa@rit.edu> (RIT): good feedback on WebEd Community Group material
+* Tim Murtaugh <tim@o2b.net> (A List Apart): already planning something similar
+* Jeffrey Zeldman <jeffrey@zeldman.com> (A List Apart, An Event Apart, Happy Cog): in cahoots with Tim Murtaugh
+* Remy Sharp <remy@leftlogic.com>: well-known JS and design guy
+* Jeremy Keith <jeremy@adactio.com>: well-known designer, friendly critic of W3C
+* Tantek Çelik <tantek@cs.stanford.edu> (Mozilla): standards guy, CSS WG, friendly critic of W3C
+* Janna Hagan<janna.hagan@gmail.com>(Independent): Young Canadian designer, been through the education system recently so a good person to critique our material, very passionate about education
+* Anna Debenham <anna@maban.co.uk> (Independent): Young UK designer, been through the education system not so long ago so a good person to critique our material, very passionate about education, looks of contacts within the UK education system
+* Andy Budd <andy@clearleft.com> (Clearleft): very well-known, very opinionated UK designer/UX guy. Very passionate and has a lot to say about education.
+* Andy McMillan <andy@goodonpaper.com> (Independent): Irish designer/developer, runs Build conf, very passionate about edu.
+* Florian Scholz <elchi3@elchi3.de>: a great Mozilla documentation contributor, lead of our German dev docs localization team, will almost certainly have great feedback.
+* Jason Judge <jason.judge@academe.co.uk>: UK-based teacher, very passionate about education systems and could give us a lot of good feedback.
+
+==Community Drivers==
+* Peter-Paul Koch <ppk@xs4all.nl> - Mobile community.
