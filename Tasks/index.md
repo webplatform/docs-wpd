@@ -295,6 +295,13 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |
 | Likely on west coast
 |  yes
+|-
+| Organize post-announcement community engagement (and hackathon?)
+| Peter (?)
+|
+|
+| 
+|  yes
 |}
 
 ==Subtopics==
