@@ -1,4 +1,4 @@
 Promotion and marketing of the site.
 
-* [[Meta:Marketing/Swag|Swag]]
-* [[Meta:Marketing/Videos|Videos]]
+* [[WPD:Marketing/Swag|Swag]]
+* [[WPD:Marketing/Videos|Videos]]
