@@ -619,7 +619,7 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-|rowspan="8"| Design
+|rowspan="10"| Design
 | Attribution block final styling
 | CJ
 | 
