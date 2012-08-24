@@ -1,6 +1,6 @@
 We need to schedule some time with a legal person who can help us structure our branding guidelines.
 
-More specifically we want to add to [[Web-Platform-Style-Guide-05.03.2012.pdf|B-reel's logo style guide]] with some additional rules on the usage of the logo, to ensure that it doesn't get (too) abused.
+More specifically we want to add to B-reel's logo style guide ([[File:Web-Platform-Style-Guide-05.03.2012.pdf]]) with some additional rules on the usage of the logo, to ensure that it doesn't get (too) abused.
 
 Here are the things for the legal person to write up in a clearer way.
 
