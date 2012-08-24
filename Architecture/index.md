@@ -14,6 +14,7 @@ CHRIS - yes, I think there should be, but I'm not 100% sure of the best way to e
 CHRIS - the following is from Doug Schepers, and I think it ncely illustrates the conundrum we have here:
 
 &lt;DOUG&gt;
+
 I think there are 3 kinds of proprietary features:
 
 #Content-based standards extensions: these are based on some technology, like CSS or DOM or HTML, usually with a well-defined extension mechanism (e.g., vendor prefixes, or namespaces), and which authors can be expected to include as content; these have an affect on how the content is rendered in the browser, and so are candidates for standardization, and should go in the typical hierarchy.  For example, '-webkit-radial-gradient' would go in 'docs/css/properties/-webkit-radial-gradient', and would be tagged as proprietary, and if standardized, might later be redirected to 'docs/css/properties/radial-gradient'.
@@ -23,6 +24,7 @@ I think there are 3 kinds of proprietary features:
 BTW, 'browsers' is not a good topic name, because it might also hold stuff for authoring tools like DreamWeaver or Illustrator or Inkscape... but 'vendor' is also suboptimal, because multiple vendors might be involved (and OSS projects aren't "vendors"). 
 
 I could easily see tutorials on how to create SVG including specific instructions about tool use...
+
 &lt;/DOUG&gt;
 
 
