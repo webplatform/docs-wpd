@@ -8,6 +8,6 @@ Site design considerations:
 
 ==Logo==
 * [[Logo Branding Guidelines]]
-* [[File:Web-Platform-Style-Guide-05.03.2012.pdf|Logo Usage Guidelines]]
+* [[Web-Platform-Style-Guide-05.03.2012.pdf|Logo Usage Guidelines from B-Reel]]
 
 [[Category:Design]]
