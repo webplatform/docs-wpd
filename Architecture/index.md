@@ -27,6 +27,52 @@ I could easily see tutorials on how to create SVG including specific instruction
 
 &lt;/DOUG&gt;
 
+CHRIS - How about this?
+
+1. Inside each technology specific section, include ''tools'' and ''extensions'' sections, which could account for documents about tools related to the technology, and the content-based standards extensions Doug describes above. So we could have things like
+
+css / extensions / sass
+css / tools / style-master
+css / tools / prefixr
+
+js / extensions / jquery
+js / extensions / node
+js / extensions / dojo
+js / tools / jslint
+js / tools / jquery-UI
+js / tools / jsdoc
+
+svg / tools / inkscape
+
+We could also have a ''tools'' and an ''extensions'' top level section to provide an alternative access point for these articles, in the same way we do for ''tutorials''. And some of the tools may well be related to different technologies, so would have to be tagged with multiple technology tags. For example, Dreamweaver relates to HTML, CSS, JS, PHP, etc.
+
+In my mind, extensions are developments that result in you being able to write different code syntaxes to the standard technology they are based on, even if they might actually be compiles down to the standard behind the scenes. Tools are developments that just allow you to write the standard technology, but more easily/more effectively.
+
+Of course, such definitions could easily become skewed and difficult to choose between for some developments, but we can work on this as we go.
+
+2. For proprietary content and framework extensions, we should have these in a complete separate section - let's call it ''proprietary'' for now. I think ''vendor / product-name'' is actually ok - we can surely have the same page tagged with multiple vendors, causing them to appear on all the vendor's product lists. So we'd have
+
+* proprietry
+** proprietary / microsoft
+*** proprietary / microsoft / pinned sites
+*** proprietary / microsoft / silverlight
+*** proprietary / microsoft / ''foo''
+** proprietary / opera
+*** proprietary / opera / extensions
+*** proprietary / opera / ''foo''
+** proprietary / google
+*** proprietary / google / NaCl
+*** proprietary / google / ''foo''
+*** proprietary / apple
+*** proprietary / apple / ''foo''
+** proprietary / mozilla
+** proprietary / mozilla / ''foo''
+** proprietary / ''foo''
+
+A couple more notes:
+
+# I don't think prefixed properties such as '-webkit-radial-gradient' would have separate entries, e.g.  'docs/css/properties/-webkit-radial-gradient'. Rather, '-webkit-radial-gradient' is part of the browser support information for 'radial-gradient', so should be included as part of that document.
+# I am not sure where tools and other technologies by non-browser vendors should exactly fit in. I guess this depends on what technology they are related to. For example, Adobe browser labs would perhaps go in the standards-related tools section, and be referenced from the html/css/js etc sections, as it does help with all of those. But there are probably more difficult examples to contend with.
 
 * general-concepts
 ** general-concepts / IA
