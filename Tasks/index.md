@@ -660,6 +660,21 @@ These are broken out from the top-level table.
 |
 | For an example, see [[css/properties/font-size]]
 |-
+| Stewards Page Design
+| CJ
+| 
+| Extensible to work for each steward, unique page for each
+|-
+| Landing Page Design
+| CJ
+| 
+| 
+|-
+| Static Page Design
+| CJ
+| 
+|
+|-
 |rowspan="6"| Skin
 | Syntax highlighted blocks have a tag for what type of code they are
 | Doug*
