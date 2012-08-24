@@ -9,6 +9,7 @@
 ** How to use the breadcrumbs
 *  Page structure
 * How to edit
+** Illustrate the structured nature of pages (mention API)
 * How to comment
 * How to flag
 * How to make translations
@@ -19,3 +20,4 @@
 ** How to become an admin
 ** How to help other people
 ** How to get karma
+** Badges
