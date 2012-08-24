@@ -7,7 +7,7 @@ Site design considerations:
 * [[WPD:Design/Inspiration|Inspiration]]
 
 ==Logo==
-* [[Logo Branding Guidelines]]
-* [[Web-Platform-Style-Guide-05.03.2012.pdf|Logo Usage Guidelines from B-Reel]]
+* [[WPD:Design/Logo Branding Guidelines|Logo Branding Guidelines]]
+* [[File:Web-Platform-Style-Guide-05.03.2012.pdf]]
 
 [[Category:Design]]
