@@ -20,8 +20,13 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** general-concepts / user-profiling
 ** general-concepts / one-web
 ** general-concepts / progressive-enhancement
+** general-concepts / responsive-design
 ** general-concepts / ''foo''
 * html
+** html / concepts
+*** html / concepts / validation
+*** html / concepts /quirksmode
+*** html / concepts / ''foo''
 ** html / elements
 *** html / elements / ''foo''
 ** html / attributes
@@ -35,6 +40,11 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** html / tutorials
 *** html / tutorials / ''foo''
 * css
+** css / concepts
+*** css / concepts / inheritance
+*** css / concepts / the-cascade
+*** css / concepts / vendor-prefixes
+*** css / concepts /  ''foo''
 ** css / properties
 *** css / properties / ''foo''
 ** css / functions
@@ -54,6 +64,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** css / tutorials
 *** css / tutorials / ''foo'' 
 * svg
+** svg / concepts
+*** svg / concepts / ''foo''
 ** svg / elements
 *** svg / elements / ''foo''
 ** svg / attributes
@@ -67,6 +79,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** svg / tutorials
 *** svg / tutorials / ''foo''
 * mathml
+** mathml / concepts
+*** mathml / concepts / ''foo''
 ** mathml / elements
 *** mathml / elements / ''foo''
 ** mathml / attributes
@@ -74,12 +88,16 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** mathml / tutorials
 *** mathml / tutorials / ''foo'' 
 * aria
+** aria / concepts
+*** aria / concepts / ''foo''
 ** aria / attributes
 *** aria / attributes / ''foo''
 ** aria / tutorials
 *** aria / tutorials / ''foo'' 
 * apis
 ** apis / ''foo''
+** apis / concepts
+*** apis / concepts / ''foo''
 *** apis / ''foo'' / ''foobar'' (interface)
 **** apis / ''foo'' / ''foobar'' / ''baz'' method
 **** apis / ''foo'' / ''foobar'' / ''baz'' property
@@ -87,6 +105,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** apis / ''quux'' / ''quux'' method
 *** apis / ''quux'' / ''quux'' property
 * dom
+** dom / concepts
+*** dom / concepts / ''foo''
 ** dom / apis
 *** dom / apis / ''foo''
 *** dom / apis / methods
@@ -96,12 +116,19 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** dom / tutorials / ''foo'' 
 * events
 ** events / ''foo''
+** events / concepts
+*** events / concepts / ''foo''
 ** events / apis
 *** events / apis / methods
 **** events / apis / methods / ''foo''
 *** events / apis / properties
 **** events / apis / properties / ''foo''
 * js
+** js / concepts
+*** js / concepts / feature-detection
+*** js / concepts / OOP
+*** js / concepts / apis-general-context
+*** js / concepts / ''foo''
 ** js / syntax
 *** js / syntax / ''foo''
 ** js / objects
