@@ -11,6 +11,20 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 CHRIS - yes, I think there should be, but I'm not 100% sure of the best way to express this below.
 
 {{TODO | Where would proprietary information live, if it were to be included? E.g. how to write a Mozilla extension.}}
+CHRIS - the following is from Doug Schepers, and I think it ncely illustrates the conundrum we have here:
+
+&lt;DOUG&gt;
+I think there are 3 kinds of proprietary features:
+
+#Content-based standards extensions: these are based on some technology, like CSS or DOM or HTML, usually with a well-defined extension mechanism (e.g., vendor prefixes, or namespaces), and which authors can be expected to include as content; these have an affect on how the content is rendered in the browser, and so are candidates for standardization, and should go in the typical hierarchy.  For example, '-webkit-radial-gradient' would go in 'docs/css/properties/-webkit-radial-gradient', and would be tagged as proprietary, and if standardized, might later be redirected to 'docs/css/properties/radial-gradient'.
+#Non-standard content extensions: these are things that might be added to code, but which are unlikely to be standardized; typically, these will be server-side features, not client-side, or they only affect how the content is handled on the underlying platform, in which case they don't actually affect cross-browser compatibility. IE's Pinned Sites, which add values to the <meta> tags that only affect the way these sites are used on the Windows platform, are an example of this. These could be put under something like 'proprietary / vendor / product-name', and might very well simply have links to MSDN, MDN, Google, Facebook, Opera, or wherever.
+#Framework extensions: These are things that have little or nothing to do with content, but rather things that let you extend the browser or browser engine. The only connection to the Web Platform is that it renders or otherwise uses the same kind of content code.  As I understand Google NaCl ("Native Client"), this would fall into that. These things could also be in 'proprietary / vendor / product-name', with external links. This stuff is pretty peripheral to what we're focused on, but since it's part of the ecosystem, and of interest to many of the same people, I wouldn't personally object to it being there.
+
+BTW, 'browsers' is not a good topic name, because it might also hold stuff for authoring tools like DreamWeaver or Illustrator or Inkscape... but 'vendor' is also suboptimal, because multiple vendors might be involved (and OSS projects aren't "vendors"). 
+
+I could easily see tutorials on how to create SVG including specific instructions about tool use...
+&lt;/DOUG&gt;
+
 
 * general-concepts
 ** general-concepts / IA
