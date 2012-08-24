@@ -602,6 +602,12 @@ These are broken out from the top-level table.
 | Alex
 |
 |
+|-
+| Figure out about badges and community recognition
+|
+| Peter Lubbers
+|
+|
 |}
 
 ===Design===
