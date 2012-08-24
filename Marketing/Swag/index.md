@@ -1,6 +1,13 @@
 ==Stickers==
+We need to define quantity as large discounts available for larger batches.
+
+What type of stickers do we want?
+* size?
+* shape: square, square with rounded corners, round, custom shape (e.g. the shape of the logo)?
+* sticker sheets, or a single sticker?
+
 ===StickerMule===
-We plan to use [http://www.stickermule.com/products/square-stickers stickermule]. This tends to be the cheapest option. Open to see if folks have other vendors that are cheaper. We need to define quantity as large discounts available for larger batches.
+We plan to use [http://www.stickermule.com/products/square-stickers stickermule]. This tends to be the cheapest option. Open to see if folks have other vendors that are cheaper. 
 
 ===Sticker Robot===
 Another alternative is [http://stickerobot.com/order/ Sticker Robot], which seems to be slightly cheaper.
