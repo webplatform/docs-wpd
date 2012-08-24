@@ -12,6 +12,15 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 {{TODO | Where would proprietary information live, if it were to be included? E.g. how to write a Mozilla extension.}}
 
+* general-concepts
+** general-concepts / IA
+** general-concepts / accessibility-general-context
+** general-concepts / usability
+** general-concepts / UX
+** general-concepts / user-profiling
+** general-concepts / one-web
+** general-concepts / progressive-enhancement
+** general-concepts / ''foo''
 * html
 ** html / elements
 *** html / elements / ''foo''
