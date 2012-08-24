@@ -10,7 +10,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 {{TODO| Should there be a sub-page structure for methods and properties of an interface? like DOM/interfaces/HTMLElement/properties/children ?}}
 CHRIS - yes, I think there should be, but I'm not 100% sure of the best way to express this below.
 
-{{TODO | Where would proprietary information live, if it were to be included? E.g. how to write a Mozilla extension.}}
+{{TODO | Where would proprietary information live, if it were to be included? E.g. how to write a Mozilla extension.
 CHRIS - the following is from Doug Schepers, and I think it ncely illustrates the conundrum we have here:
 
 &lt;DOUG&gt;
@@ -72,7 +72,7 @@ Of course, such definitions could easily become skewed and difficult to choose b
 A couple more notes:
 
 # I don't think prefixed properties such as '-webkit-radial-gradient' would have separate entries, e.g.  'docs/css/properties/-webkit-radial-gradient'. Rather, '-webkit-radial-gradient' is part of the browser support information for 'radial-gradient', so should be included as part of that document.
-# I am not sure where tools and other technologies by non-browser vendors should exactly fit in. I guess this depends on what technology they are related to. For example, Adobe browser labs would perhaps go in the standards-related tools section, and be referenced from the html/css/js etc sections, as it does help with all of those. But there are probably more difficult examples to contend with.
+# I am not sure where tools and other technologies by non-browser vendors should exactly fit in. I guess this depends on what technology they are related to. For example, Adobe browser labs would perhaps go in the standards-related tools section, and be referenced from the html/css/js etc sections, as it does help with all of those. But there are probably more difficult examples to contend with.}}
 
 * general-concepts
 ** general-concepts / IA
