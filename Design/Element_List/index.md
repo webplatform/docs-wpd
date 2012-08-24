@@ -7,13 +7,13 @@ This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]],
 * [[File:Elements_and_Structure.xlsx]]
 
 ==Table==
-{| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background:#fff; border:1px #aaa solid; border-collapse:collapse;" |
-! style="background:black; color:white;" | Element Name/Description
-! style="background:black; color:white;" | Style Tile 01
-! style="background:black; color:white;" | Style Tile 02
-! style="background:black; color:white;" | Style Tile 03
-! style="background:black; color:white;" | Style Tile Revised
-! style="background:black; color:white;" | Notes/Comments
+{| class="wikitable sortable" |
+! Element Name/Description
+! Style Tile 01
+! Style Tile 02
+! Style Tile 03
+! Style Tile Revised
+! Notes/Comments
 |-
 | Header
 | ✓
