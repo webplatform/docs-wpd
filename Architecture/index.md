@@ -27,6 +27,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** html / concepts / validation
 *** html / concepts /quirksmode
 *** html / concepts / ''foo''
+** html / data-types
+*** html / data-types / ''foo''
 ** html / elements
 *** html / elements / ''foo''
 ** html / attributes
@@ -45,6 +47,9 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** css / concepts / the-cascade
 *** css / concepts / vendor-prefixes
 *** css / concepts /  ''foo''
+** css / data-types
+** css / data-types / length
+*** css / data-types / ''foo''
 ** css / properties
 *** css / properties / ''foo''
 ** css / functions
@@ -66,6 +71,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 * svg
 ** svg / concepts
 *** svg / concepts / ''foo''
+** svg / data-types
+*** svg / data-types / ''foo''
 ** svg / elements
 *** svg / elements / ''foo''
 ** svg / attributes
@@ -81,6 +88,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 * mathml
 ** mathml / concepts
 *** mathml / concepts / ''foo''
+** mathml / data-types
+*** mathml / data-types / ''foo''
 ** mathml / elements
 *** mathml / elements / ''foo''
 ** mathml / attributes
@@ -129,6 +138,10 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** js / concepts / OOP
 *** js / concepts / apis-general-context
 *** js / concepts / ''foo''
+** js / data-types
+*** js / data-types / string
+*** js / data-types / number
+*** js / data-types / ''foo''
 ** js / syntax
 *** js / syntax / ''foo''
 ** js / objects
