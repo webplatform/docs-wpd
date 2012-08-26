@@ -14,7 +14,7 @@ To add external attribution to an article, choose "Edit with Form" and check off
 
 ==Canonical list of sites that are on the external attribution list==
 
-The canonical list of external attribution sites will be maintained at [[Template:External_Attribution]] in the future. It will contain:
+The canonical list of external attribution sites is maintained at [[Property:External_Attribution_Source]]. The list has been copied here for convenience: 
 * [http://developer.mozilla.com MDN]
 * [http://www.html5rocks.com HTML5Rocks]
 * [http://www.MSDN.com MSDN]
