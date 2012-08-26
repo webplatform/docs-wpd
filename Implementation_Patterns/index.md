@@ -410,6 +410,8 @@ The contents look like this:
 
 Basically, it's just the sub-piece of the form we need.
 
+{{Note | The factored-out form segment needs to have all field/for template syntax wrapped in nowiki }}
+
 =====Sub-forms within the main template and outside=====
 There are two times you might need this pattern: for things whose parameters should be passed to ''another'' template, like Flags (which prints its contents out ''outside'' of the main template, like CSS Property), or for things that should be included in the ''same'' template.
 
