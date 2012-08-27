@@ -56,6 +56,7 @@ The following is a list of folks to invite to the early preview:
 * Andy McMillan <andy@goodonpaper.com> (Independent): Irish designer/developer, runs Build conf, very passionate about edu.
 * Florian Scholz <elchi3@elchi3.de>: a great Mozilla documentation contributor, lead of our German dev docs localization team, will almost certainly have great feedback.
 * Jason Judge <jason.judge@academe.co.uk>: UK-based teacher, very passionate about education systems and could give us a lot of good feedback.
+* David Storey <storey.david@gmail.com>: Well-known developer advocate, ex-Opera, passionate about vendor neutral documentation.
 
 ==Community Drivers==
 * Peter-Paul Koch <ppk@xs4all.nl> - Mobile community.
