@@ -27,7 +27,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * [[WPD:Flags/Copyright_Issue|Copyright_Issue]]
 * [[WPD:Flags/Undescriptive Title|Undescriptive_Title]]
 * [[WPD:Flags/Needs_Flags|Needs_Flags]]
-* New: '''Missing_relevant_sections'''
+* [[WPD:Flags/Missing_Relevant_Sections|Missing_Relevant_Sections]]
 * New: '''Data_not_semantic''' ''Used for when Semantic Media Wiki's data modeling hasn't been used to its potential for this article type''
 
 ===Content Quality (Low-Level)===
