@@ -206,7 +206,7 @@ The following is a list of proposed topics: there is still much that can be adde
 
 === ARTICLE BATCH 7 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF (maybe break off the Canvas pieces)'''
 
 '''Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.'''
 
