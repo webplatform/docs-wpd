@@ -285,7 +285,7 @@ The following is a list of proposed topics: there is still much that can be adde
 
 === ARTICLE BATCH 8 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: CHRIS MILLS (to likely find someone from Opera)'''
 
 '''Notes: Most of these will have been added in as part of one of the previous JS batches, but just give this a quick check to see if anything has been missed.'''
 
