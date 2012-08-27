@@ -121,7 +121,7 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 
 === ARTICLE BATCH 5 ===
 
-'''OWNER: CHRIS MILLS'''
+'''OWNER: CHRIS MILLS (Lea to help)'''
 
 Notes: the owner of this batch should checkout the Adobe http://beta.theexpressiveweb.com/ resource, to see what tutorials we can use from there. They are willing to donate those to the project/
 
