@@ -594,7 +594,7 @@ These are broken out from the top-level table.
 |Create style guide for code examples
 |
 |Eliot
-|
+|In progress
 |
 |-
 | Finalize the Manual of Style (including sub pages)
