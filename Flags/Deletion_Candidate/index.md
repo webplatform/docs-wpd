@@ -8,5 +8,3 @@ If an article has this flag, the community should decide if it does indeed meet 
 
 ==Editorial Block==
 If you check off this flag you should include a [[Template:Editorial/Deletion_Candidate]] template to specify details about why it's being considered for deletion.
-
-{{TODO | Create the Editorial/Deletion_Candidate page}}
