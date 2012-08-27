@@ -548,7 +548,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 17 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: PETER LUBBERS'''
 
 ==== Supplementary articles ====
 
