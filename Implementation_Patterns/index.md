@@ -510,3 +510,7 @@ Basically, the hack is that we have a special template defined: [[Template:!]]. 
 </syntaxhighlight>
 
 More information on this pattern (no, I did not come up with this crazy solution): http://meta.wikimedia.org/wiki/Help:Table#Producing_table_syntax_using_templates_and.2For_parser_functions
+
+====Gotcha:Spaces in template calls====
+
+MediaWiki is very weird about spaces. In particular, a line that starts with a single space is automatically formatted as a <nowiki><pre></nowiki> block. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general '''do not use spaces''' around parameter values. Most of the times everything will work fine, but other times it will break without warning. See http://webplatform.org/d/index.php?title=Template%3AExternal_Attribution_Block%2FMDN&diff=1269&oldid=1227  for an example.
