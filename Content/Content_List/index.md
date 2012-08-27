@@ -157,7 +157,7 @@ Adobe are willing to donate the great tutorials available at http://beta.theexpr
 
 === ARTICLE BATCH 6 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: PAUL IRISH'''
 
 '''Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.'''
 
