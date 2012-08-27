@@ -30,6 +30,8 @@ The following is a list of folks to invite to the early preview:
 * Rob Hawkes
 * Joe Stagner
 * David Baron
+* Jean-Yves Perrier
+* Paul Rouget
 
 ===Nokia===
 * ''Who?''
