@@ -576,7 +576,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 18 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====HTML====
 
@@ -586,7 +586,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 19 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====CSS====
 
@@ -597,7 +597,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 20 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====CSS====
 
@@ -610,7 +610,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 21 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====Canvas====
 
@@ -621,7 +621,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 22 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====SVG====
 
@@ -632,7 +632,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 23 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====SVG====
 
@@ -644,7 +644,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 24 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====DOM====
 
@@ -655,7 +655,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 === ARTICLE BATCH 25 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: ELIOT GRAFF'''
 
 ====DOM====
 
