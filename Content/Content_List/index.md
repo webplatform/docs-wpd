@@ -711,7 +711,7 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 
 === ARTICLE BATCH 29 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOM (Doug to followup with Dom)'''
 
 Notes: low priority, but it might be nice to get someone to investigate these and see what we should do with them, where we should put them, etc.
 
