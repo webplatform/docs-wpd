@@ -330,7 +330,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |
 |-
-| ???
+| Marketing
 | Organize pre-launch hackathon
 | Alex (Coordinate with Eliot)
 |
@@ -338,7 +338,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Likely on west coast
 |  yes
 |-
-| ???
+| Marketing
 | Organize post-announcement community engagement (and hackathon?)
 | Peter (?)
 |
