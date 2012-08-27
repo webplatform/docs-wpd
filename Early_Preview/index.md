@@ -25,7 +25,11 @@ The following is a list of folks to invite to the early preview:
 * ''Who?''
 
 ===Mozilla===
-* ''Who?''
+* Chris Heilmann
+* Robert Nyman
+* Rob Hawkes
+* Joe Stagner
+* David Baron
 
 ===Nokia===
 * ''Who?''
@@ -37,7 +41,7 @@ The following is a list of folks to invite to the early preview:
 * ''Who?''
 
 ==Active MDN Community members==
-* ''Who?''
+* Florian Scholz
 
 ==Active W3C Doc CG Members==
 
