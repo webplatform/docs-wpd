@@ -479,7 +479,7 @@ OTHER THINGS TO ADD ELSEWHERE IN THE MATERIAL
 
 === ARTICLE BATCH 15 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOUG SCHEPERS (Doug to communicate with Jeremie, and SVG WG)'''
 
 
 ==== SVG ====
@@ -521,7 +521,7 @@ Ex-Opera articles
 
 === ARTICLE BATCH 16 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOUG SCHEPERS (Doug to communicate with Jeremie, and SVG WG)'''
 
 '''Notes: This is basically just a list of demos, but we should go through them to see where we can use these.'''
 
