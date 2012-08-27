@@ -4,16 +4,6 @@ MediaWiki uses templates to provide these error messages.  For example see [http
 
 Alex made demos of this functionality, and demoed it during a [https://www.w3.org/2012/06/18-webdoc-minutes.html#item01 telcon]. You can see an example of such a template ('''[[Template:Major_Style_Issue|"Major Style Issue"]]'''), how it is used on a '''[[CSS/Properties/border-radius|page that needs attention]]''', and the '''[[Special:WhatLinksHere/Template:Major_Style_Issue|list of pages]]''' that have that same issue (e.g. use that same template). Most of these flag, tags, and categories will have an associated template, and will use the '''Template:''' prefix (not shown below for readability).
 
-==Requirements==
-The specific implementation for this will require coordination between content needs, technical implementation abilities, and visual design. Here are the requirements that solutions should satisfy (in decreasing order of importance). Note that we're using "flags" as the catch-all term for these, but they might end up not being displayed that way.
-
-* Allow flags to be displayed in different styles depending on which type they are. For example, some may show as little flags at the top of the content , some may be big banners at the top of the content, and others could be subtle and at the bottom of the content.
-* Allow some method of listing which pages have a given flag on them
-* Make it easy for editors to add or remove flags
-* ''-- Big gap in priority--''
-* Allow some tags to be related in behavior/style/meaning (e.g. subclassing or categories)
-* Make it easy to define new tags as necessary ''(this will be pretty rare)''
-
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
 
@@ -140,3 +130,14 @@ Property pages:
 * [[Property:Accessibility flag]]
 
 And you can see one example of pages being aggregated by their flags, using a Semantic MediaWiki query, at [[Stub pages]].
+
+==Requirements==
+''This is a section kept for historical purposes only''
+The specific implementation for this will require coordination between content needs, technical implementation abilities, and visual design. Here are the requirements that solutions should satisfy (in decreasing order of importance). Note that we're using "flags" as the catch-all term for these, but they might end up not being displayed that way.
+
+* Allow flags to be displayed in different styles depending on which type they are. For example, some may show as little flags at the top of the content , some may be big banners at the top of the content, and others could be subtle and at the bottom of the content.
+* Allow some method of listing which pages have a given flag on them
+* Make it easy for editors to add or remove flags
+* ''-- Big gap in priority--''
+* Allow some tags to be related in behavior/style/meaning (e.g. subclassing or categories)
+* Make it easy to define new tags as necessary ''(this will be pretty rare)''
