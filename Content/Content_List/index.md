@@ -438,7 +438,7 @@ These are available from Mozilla:
 
 === ARTICLE BATCH 14 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: WAI SETO'''
 
 '''Notes: This section will be mostly stubs, and we really need someone to think carefully about what structure our mobile and device material should have.'''
 
