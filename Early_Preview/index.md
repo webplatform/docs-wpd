@@ -62,3 +62,4 @@ The following is a list of folks to invite to the early preview:
 * Vanessa Wang <vanessa.wang@kaazing.com> - Co-organizer of San Francisco HTML5 User Group (SFHTML5 with >5000 members)
 * Ann Burkett <caughtthinking@gmail.com> - Organizer of HTML5 Developer Conference in San Francisco 
 * Peter Cooper <peter@peterc.org> - Helped organize Fluent Conf, curator of HTML5 Weekly newsletter
+* John Foliot <john@foliot.ca> (Accessibility, Open Web Camp organizer)
