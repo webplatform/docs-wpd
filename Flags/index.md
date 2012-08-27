@@ -1,8 +1,6 @@
-One of the core concepts that we embraced early on was the idea of flagging content that is somehow controversial, whether it is out-of-date, missing information, factually incorrect, or specific to a particular vendor.
+At WPD we use a system of Flags to mark articles that need work done on them. This helps the community keep track of what needs to be done and create automatic lists of things to do.
 
-MediaWiki uses templates to provide these error messages.  For example see [http://www.mediawiki.org/wiki/Template:Warning Template:Warning]. This has the advantage that all pages that include a template are listed on a page for that template, so flagged content is more easily identified, and fixed if necessary (some flags may be intended as permanent, such as vendor-specific experiments).
-
-Alex made demos of this functionality, and demoed it during a [https://www.w3.org/2012/06/18-webdoc-minutes.html#item01 telcon]. You can see an example of such a template ('''[[Template:Major_Style_Issue|"Major Style Issue"]]'''), how it is used on a '''[[CSS/Properties/border-radius|page that needs attention]]''', and the '''[[Special:WhatLinksHere/Template:Major_Style_Issue|list of pages]]''' that have that same issue (e.g. use that same template). Most of these flag, tags, and categories will have an associated template, and will use the '''Template:''' prefix (not shown below for readability).
+Flags are used in conjunction with Editorial templates. See more detail about each flag to see how it's used.
 
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
