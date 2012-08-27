@@ -357,7 +357,7 @@ These are available from Mozilla:
 
 === ARTICLE BATCH 11 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: SCOTT ROWE'''
 
 ====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
 
@@ -384,7 +384,7 @@ These are available from Mozilla:
 
 === ARTICLE BATCH 12 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: SCOTT ROWE'''
 
 ====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
 
@@ -411,7 +411,7 @@ These are available from Mozilla:
 
 === ARTICLE BATCH 13 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: SCOTT ROWE'''
 
 ====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
 
