@@ -2,9 +2,10 @@ This is a list of all the existing content that has been donated to the webplatf
 
 # As you do these steps, update them to make them more concrete so people who follow in your footsteps won't have to figure it all out from scratch.
 # Make sure your pages are covered by the existing [[WPD:Architecture#Page_Types | page types]] and doesn't require new ones.
-# Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
 # Check the content structure for the subject you are currently dealing with. For anything that doesn't make sense, or needs adding, modifying or deleting, make changes as necessary.
 # Fit existing articles into the content structure as well as you can. '''TODO: where should you do this?'''
+'''First week: stop here'''
+# Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
 # Create new pages/stubs for articles that are yet to be written.
 # Make sure all articles have the correct URLs and tags.
 # Go through the list of items that must be added to each article before publishing (NEEDS FINISHING) and make sure they are added:
