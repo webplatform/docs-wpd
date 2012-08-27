@@ -10,7 +10,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 ! Note
 ! Required 
 |-
-| TBD
+| Infra
 | Wiki Setup
 | Ryan
 | Done                                         
@@ -18,7 +18,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | yes
 |-
-| TBD
+| Marketing
 | Skin
 | Marketing taskforce. 
 | 
@@ -26,7 +26,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Design|Design]]
 | yes
 |-
-| TBD
+| Content
 | Content Migrated
 | Content taskforce. 
 | 	
@@ -34,7 +34,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Content_Migration|Content Migration]]. Requires MediaWiki component (some) 
 | yes
 |-
-| TBD
+| Content
 | Content Architecture
 | Content taskforce. 
 |
@@ -42,7 +42,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Content_Architecture|Content Architecture]].
 | yes
 |-
-| TBD
+| Content
 | Original_Content
 | Content taskforce. 
 | 
@@ -50,7 +50,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Original_Content|Original Content]]| 	 
 |
 |-
-| TBD
+| Content
 | Mobilize the MDN community to free up the content
 | (Janet) Mozilla
 | 	
@@ -58,7 +58,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Get permissions from authors to migrate content from CC-BY-SA to CC-BY. '''Move down to content taskforce.'''
 |
 |-
-| TBD
+| Infra
 | Twitter account @webplatform
 | Doug
 | Done	
@@ -66,7 +66,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Marketing
 | Twitter policy 
 | Marketing taskforce.
 | 	
@@ -74,7 +74,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Will be done by marketing team
 | yes
 |-
-| TBD
+| Infra
 | IRC channel #webplatform
 | Doug
 | Done
@@ -82,7 +82,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | '''Needs to be documented where it is.'''
 | yes
 |-
-| TBD
+| Infra
 | Web client (IRC)
 | Doug 
 | Done (no skin)
@@ -90,7 +90,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component. '''Needs to be documented where it is'''
 | 
 |-
-| TBD
+| Infra
 | Logging bot (IRC)
 | Doug
 | 	
@@ -98,7 +98,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | 
 |-
-| TBD
+| Content
 | Community Organization
 | Content taskforce. 
 | 
@@ -106,7 +106,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Community_Organization|Community Organization]]. See Art of Community	
 | yes
 |-
-| TBD
+| Content
 | Flags
 | Content taskforce
 | 	
@@ -114,7 +114,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Page_Structure| Page Structure]] Requires MediaWiki component
 | yes
 |-
-| TBD
+| Infra
 | Comments
 | Doug
 | 	
@@ -122,7 +122,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | yes
 |-
-| TBD
+| Content
 | Clear URL structure
 | Content taskforce
 | largely done	
@@ -130,7 +130,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See below.
 | yes
 |-
-| TBD
+| ???
 | Easy page creation
 | Alex
 | 	
@@ -138,7 +138,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | See [[#Page_Structure| Page Structure]]
 | 
 |-
-| TBD
+| Infra
 | Internationalization
 | Doug (with support of Ryan, on behalf of W3C I18n team)
 | 
@@ -146,7 +146,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
 | yes
 |-
-| TBD
+| Infra
 | Language switching
 | Ryan
 | 
@@ -154,7 +154,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | yes
 |-
-| TBD
+| Infra
 | Sandbox (live viewer)
 | Lea
 | 	
@@ -162,7 +162,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | 
 |-
-| TBD
+| Infra
 | Forums (Q2A)
 | Doug*
 | 
@@ -170,7 +170,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires SSO, Skin. Will this hold up the launch?  Needs discussion first.
 | yes
 |-
-| TBD
+| Content?
 | Teaching materials
 | Chris
 | 	
@@ -178,7 +178,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Moodle? Later
 | 
 |-
-| TBD
+| Infra
 | Federated Login feature
 | Doug*
 | 
@@ -186,7 +186,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires MediaWiki component
 | 
 |-
-| TBD
+| Infra
 | Required email address for accounts
 | Doug
 | Done	
@@ -194,7 +194,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Doesn't work as well as necessary.
 | yes
 |-
-| TBD
+| Infra
 | Single sign in (SSO)	
 | (Doug*)
 | 
@@ -202,7 +202,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Case by case basis. This captures that the blog and wiki need to have their login integrated.
 | yes
 |-
-| TBD
+| Infra
 | Blog
 | (Doug)
 | 
@@ -210,7 +210,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Requires SSO, Skin. Requires MediaWiki component
 | yes
 |-
-| TBD
+| Infra
 | Email feedback account set up
 | Doug
 |
@@ -218,7 +218,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Others: Twitter, blog, IRC, forums, comments in topics
 | yes
 |-
-| TBD
+| Content
 | How to use this site
 | Lea & Doug
 | 
@@ -226,7 +226,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 	
 | yes
 |-
-| TBD
+| Content
 | How to help (includes migrating MDN)
 | Janet. (In content taskforce)
 | 	
@@ -234,7 +234,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Content
 | Privacy policy
 | Wendy
 | 	
@@ -242,7 +242,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Infra
 | Metrics and tracking 
 | Eliot (and Doug)
 | 	
@@ -250,7 +250,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | (Google analytics? Adobe? Piwik?) Create Wiki page with policy about collecting and sharing metrics.
 | yes
 |-
-| TBD
+| 
 | Metrics policy
 | Wendy
 | 	
@@ -258,7 +258,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Infra
 | Accessibility
 | Chris
 | 	
@@ -266,7 +266,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | This needs to be broken down into separate things. Like ensuring the site is accessible, and content on accessibility
 | yes
 |-
-| TBD
+| Infra
 | Issue tracker (bugs)
 | Eliot
 | Done
@@ -274,7 +274,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | In W3C bugzilla. See [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org]
 | yes
 |-
-| TBD
+| Content
 | Task-oriented Tutorials
 | Content taskforce.
 | 	
@@ -282,7 +282,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Small tutorials about how to, say, center content on the web platform.
 | 
 |-
-| TBD
+| Infra
 | Fast.ly CDN
 | Doug*, Ryan Lane to do actual work.
 | 
@@ -290,7 +290,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Infra
 | System backup of site
 | Doug*, Ryan Lane to do actual work.
 | 
@@ -298,7 +298,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Infra
 | Deployment script for site
 | Doug*, Ryan Lane to do actual work.
 | 
@@ -306,7 +306,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 | yes
 |-
-| TBD
+| Content
 | Copyright
 | Wendy
 | 
@@ -314,7 +314,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Need to approve the terms by which people can use the content on WPD. Start with [https://www.w3.org/2011/docs/wiki/License_and_Reuse the text on the W3C Wiki].
 | yes
 |-
-| TBD
+| ???
 | Figure out list of "early preview" people
 | Alex
 |
@@ -322,7 +322,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Ideally include people who will actually do ''work''. Maybe give some of the people with invites a small number of invites? Have a gatekeeper of the actual signups.
 | yes
 |-
-| TBD
+| ???
 | Finalize license of web platform logo
 | Wendy (with Alex to help)
 |
@@ -330,7 +330,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |
 |-
-| TBD
+| ???
 | Organize pre-launch hackathon
 | Alex (Coordinate with Eliot)
 |
@@ -338,7 +338,7 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | Likely on west coast
 |  yes
 |-
-| TBD
+| ???
 | Organize post-announcement community engagement (and hackathon?)
 | Peter (?)
 |
