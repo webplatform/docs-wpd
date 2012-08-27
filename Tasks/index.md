@@ -164,8 +164,8 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 | 
 |-
 | Required email address for accounts
-| (Doug)
-| Pending	
+| Doug
+| Done	
 | 
 | Doesn't work as well as necessary.
 | yes
