@@ -339,7 +339,7 @@ These are available from Mozilla:
 
 === ARTICLE BATCH 10 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: TOBIE LANGEL'''
 
 ====Facebook HTML5 API content====
 
