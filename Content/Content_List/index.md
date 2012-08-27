@@ -672,7 +672,7 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 
 === ARTICLE BATCH 26 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOUG SCHEPERS'''
 
 ====Basics and "soft" skills====
 
@@ -686,7 +686,7 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 
 === ARTICLE BATCH 27 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOUG SCHEPERS'''
 
 ====Web design====
 
@@ -700,7 +700,7 @@ Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP Inter
 
 === ARTICLE BATCH 28 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: DOUG SCHEPERS'''
 
 ====Web development====
 
