@@ -22,7 +22,7 @@ These articles mark work items that an article needs to bring it up to our quali
 ===Content Quality (High-Level)===
 * [[WPD:Flags/Stub|Stub]]
 * [[WPD:Flags/Deletion Candidate|Deletion_Candidate]]
-* Merge_Candidate ''Applied to duplicate content''
+* [[WPD:Flags/Merge Candidate|Merge_Candidate]] ''Applied to duplicate content''
 * New: '''Split_Candidate''' ''Used for articles that cover too many aspects and should be split into separate pages''
 * Copyright_Issue
 * Undescriptive_Title
