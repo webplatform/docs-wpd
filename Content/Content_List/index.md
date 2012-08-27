@@ -1,5 +1,6 @@
 This is a list of all the existing content that has been donated to the webplatform.org project. I (CHRIS MILLS) have broken it into '''batches''', of roughly the same size. For each batch, we need someone to take ownership of it, and then:
 
+# As you do these steps, update them to make the more concrete so people who follow in your footsteps won't have to figure it all out from scratch.
 # Make sure your pages are covered by the existing [[WPD:Architecture#Page_Types | page types]] and doesn't require new ones.
 # Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
 # Check the content structure for the subject you are currently dealing with. For anything that doesn't make sense, or needs adding, modifying or deleting, make changes as necessary.
