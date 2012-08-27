@@ -68,7 +68,7 @@ This is a list of all the existing content that has been donated to the webplatf
 
 === ARTICLE BATCH 3 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: Chris Mills'''
 
 '''Notes: Someone with a good knowledge of accessibility should handle this section, preferably someone from WAI, like Shawn. The WAI should at least be consulted, as I believe they have done some work on working out a11y content for webplatform.org already.'''
 
