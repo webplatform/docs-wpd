@@ -25,7 +25,7 @@ These articles mark work items that an article needs to bring it up to our quali
 * [[WPD:Flags/Merge Candidate|Merge_Candidate]] 
 * [[WPD:Flags/Split Candidate|Split_Candidate]]
 * [[WPD:Flags/Copyright_Issue|Copyright_Issue]]
-* Undescriptive_Title
+* [[WPD:Flags/Undescriptive Title|Undescriptive_Title]]
 * Needs_Tags ''Applied to content that hasn't been processed to add all appropriate tags''
 * New: '''Missing_relevant_sections'''
 * New: '''Data_not_semantic''' ''Used for when Semantic Media Wiki's data modeling hasn't been used to its potential for this article type''
