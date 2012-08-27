@@ -311,7 +311,7 @@ Opera has the following available:
 
 === ARTICLE BATCH 9 ===
 
-'''OWNER: xxxxxxxxxxxxxxxxxxxxxx'''
+'''OWNER: JANET SWISHER'''
 
 '''Notes: Some of these will have been added in as part of one of the previous JS batches, but give this a check to see if some of these have been missed, and think about where they might go in the JavaScript article structure.'''
 
