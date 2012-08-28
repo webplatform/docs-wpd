@@ -63,10 +63,10 @@ Of course, such definitions could easily become skewed and difficult to choose b
 ** proprietary / google
 *** proprietary / google / NaCl
 *** proprietary / google / ''foo''
-*** proprietary / apple
+** proprietary / apple
 *** proprietary / apple / ''foo''
 ** proprietary / mozilla
-** proprietary / mozilla / ''foo''
+*** proprietary / mozilla / ''foo''
 ** proprietary / ''foo''
 
 A couple more notes:
