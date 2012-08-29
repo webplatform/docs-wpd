@@ -24,7 +24,7 @@ Different flags have different guidelines for when they should be used, and for 
 ====Content Quality====
 * [[WPD:Flags/Content_Outdated|Content_Outdated]]
 * [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
-* Content_Errors
+* [[WPD:Flags/Content_Errors|Content_Errors]]
 * Content_Not_Vendor_Neutral
 * Content_Biased_Voice ''(Used for articles that are too marketing-y)''
 * Content_Grammar_Spelling
