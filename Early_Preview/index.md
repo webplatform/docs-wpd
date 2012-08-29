@@ -66,7 +66,7 @@ The following is a list of folks to invite to the early preview:
 * Jason Judge <jason.judge@academe.co.uk>: UK-based teacher, very passionate about education systems and could give us a lot of good feedback.
 * David Storey <storey.david@gmail.com>: Well-known developer advocate, ex-Opera, passionate about vendor neutral documentation.
 * Estelle Weyl <estelle@weyl.org>: Frequent Web development speakers
-* Maximiliano Firtman <firtman@gmail.com>: Author of Mobile Web development books and frequent speaker in Web development conference.
+* Maximiliano Firtman <firtman@gmail.com>: Author of Mobile Web development books and frequent speaker in Web development conference. Created: http://mobilehtml5.org/
 * Tim Kadlec <tim@timkadlec.com>: Author of IMPLEMENTING RESPONSIVE DESIGN and organizer of Breaking Development Conference. 
 
 ==Community Drivers==
