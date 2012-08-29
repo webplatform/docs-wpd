@@ -5,6 +5,8 @@ Flags are used in conjunction with Editorial templates. See more detail about ea
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
 
+Different flags have different guidelines for when they should be used, and for if they should have editorial notes used along with them. '''Be sure to read the notes on each flag before using it.'''
+
 {{TODO | Create the bolded flags (the ones that are not yet created)}}
 
 ===Content Quality (High-Level)===
