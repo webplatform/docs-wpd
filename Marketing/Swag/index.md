@@ -15,6 +15,8 @@ Another alternative is [http://stickerobot.com/order/ Sticker Robot], which seem
 ==Note Pads==
 We can print custom art as a '''gray scale''' on every page, and this adds only a set-up of $150.00, if the quantity is greater than 2500 units!  For 1k units, we have the same above setup charge + $0.55 per piece.  This gives you an idea of cost. We need the template of the site to estimate cost for color printing (recommended). Images of covers are below (indicative).
 
+[[File:WebPlatformJournal.png]]
+
 [[File:WebPlatform.OrgNotebook.png]]
 
 [[File:WebPlatform.Org2.png]]
