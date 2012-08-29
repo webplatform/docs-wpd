@@ -1,4 +1,4 @@
-This flag is used to mark pages that do not yet have at least placeholders for all relevant sections for its article type.
+This flag is used to mark pages that do not yet have at least placeholders for all relevant sections for its article type. Once the page has at least stubs for all applicable sections, you should remove this flag and make sure [[WPD:Flags/Content_Incomplete]] is applied, if appropriate.
 
 ==Manual of Style==
 {{TODO | Develop which section of Manual of Style this is related to.}}
