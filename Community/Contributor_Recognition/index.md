@@ -32,4 +32,4 @@ Wikipedia and other wiki communities use [https://en.wikipedia.org/wiki/Wikipedi
 '''''Janet's Opinion:''' The choice of peer recognition awards is best made by the community as it evolves, not in advance by the Stewards. However, in setting up the site, we can choose to ensure that it supports barnstar-type recognition.''
 
 ==Other Resources==
-* The book "Building Successful Online Communities" makes a number of "design claims" about feedback and reward systems.
+* The book "Building Successful Online Communities" makes a number of "design claims" about feedback and reward systems. ''([https://www.w3.org/2011/docs/wiki/Book_Notes See notes])''
