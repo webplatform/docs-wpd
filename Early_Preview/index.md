@@ -34,7 +34,9 @@ The following is a list of folks to invite to the early preview:
 * Paul Rouget
 
 ===Nokia===
-* ''Who?''
+* Andrea Trasatti <andrea.trasatti@nokia.com>
+* Tomomi Imura <tomomi.imura@nokia.com>
+* Kevin Hague <kevin.hague@nokia.com>
 
 ===Opera===
 * ''Who?''
@@ -63,6 +65,9 @@ The following is a list of folks to invite to the early preview:
 * Florian Scholz <elchi3@elchi3.de>: a great Mozilla documentation contributor, lead of our German dev docs localization team, will almost certainly have great feedback.
 * Jason Judge <jason.judge@academe.co.uk>: UK-based teacher, very passionate about education systems and could give us a lot of good feedback.
 * David Storey <storey.david@gmail.com>: Well-known developer advocate, ex-Opera, passionate about vendor neutral documentation.
+* Estelle Weyl <estelle@weyl.org>: Frequent Web development speakers
+* Maximiliano Firtman <firtman@gmail.com>: Author of Mobile Web development books and frequent speaker in Web development conference.
+* Tim Kadlec <tim@timkadlec.com>: Author of IMPLEMENTING RESPONSIVE DESIGN and organizer of Breaking Development Conference. 
 
 ==Community Drivers==
 * Peter-Paul Koch <ppk@xs4all.nl> - Mobile community.
