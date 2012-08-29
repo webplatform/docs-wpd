@@ -724,7 +724,7 @@ These are broken out from the top-level table.
 | See [[css/properties/font-size]] for an example.
 |-
 |rowspan="7"| Skin
-| Syntax highlighted blocks have a tag for what type of code they are
+| External attribution blocks use something equivalent to details/summary elements
 | Doug*
 | 
 | 
