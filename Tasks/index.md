@@ -662,7 +662,7 @@ These are broken out from the top-level table.
 ! Status
 ! Note
 |-
-|rowspan="11"| Design
+|rowspan="12"| Design
 | Attribution block final styling
 | CJ
 | 
@@ -717,6 +717,11 @@ These are broken out from the top-level table.
 | CJ
 | 
 |
+|-
+| Styling for language tags in examples
+| CJ
+| 
+| See [[css/properties/font-size]] for an example.
 |-
 |rowspan="6"| Skin
 | Syntax highlighted blocks have a tag for what type of code they are
