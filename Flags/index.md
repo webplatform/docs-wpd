@@ -22,7 +22,7 @@ Different flags have different guidelines for when they should be used, and for 
 
 ===Content Quality (Low-Level)===
 ====Content Quality====
-* Content_Outdated
+* [[WPD:Flags/Content_Outdated|Content_Outdated]]
 * Content_Incomplete
 * Content_Errors
 * Content_Not_Vendor_Neutral
