@@ -23,7 +23,7 @@ Different flags have different guidelines for when they should be used, and for 
 ===Content Quality (Low-Level)===
 ====Content Quality====
 * [[WPD:Flags/Content_Outdated|Content_Outdated]]
-* Content_Incomplete
+* [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
 * Content_Errors
 * Content_Not_Vendor_Neutral
 * Content_Biased_Voice ''(Used for articles that are too marketing-y)''
