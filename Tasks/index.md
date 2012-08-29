@@ -723,7 +723,7 @@ These are broken out from the top-level table.
 | 
 | See [[css/properties/font-size]] for an example.
 |-
-|rowspan="6"| Skin
+|rowspan="7"| Skin
 | Syntax highlighted blocks have a tag for what type of code they are
 | Doug*
 | 
@@ -753,4 +753,9 @@ These are broken out from the top-level table.
 | Doug*
 | 
 | Edit button should be strongest
+|-
+| Syntax highlighting of examples with prism.js
+| Lea
+| 
+| Will need to modify [[Template:Single_Example]]
 |}
