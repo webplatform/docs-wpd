@@ -260,6 +260,57 @@ Basically, remove all "constants" from the URL, except for the top-level. All ty
 * guides/
 * tutorials/ (links to tech-specific tutorials)
 
+==Alternative proposal (Peter)==
+
+Using high-level grouping already in use.
+
+* Symantic markup
+* CSS
+* JavaScript
+* Graphics and 3D
+* Performance and Integration
+* Offline and Storage
+* Device Access
+* Multimedia
+* Mobile
+
+This could look like this (with short category names):
+* markup/
+** markup / foo
+** markup/ bar
+* css/
+** css / foo
+** css / bar
+* javascript/
+** javascript / foo
+** javascript / bar
+* graphics
+** graphics / foo
+** graphics / bar
+* connectivity
+** connectivity/foo
+** connectivity/foo
+* performance
+** performance / foo
+** performance / bar
+* storage
+** storage
+** storage / foo
+** storage / bar
+* device
+** device / foo
+** device / bar
+* multimedia
+* multimedia / foo
+* multimedia / bar
+* mobile
+** mobile/ foo
+** mobile / bar
+
+Reference:
+* [[http://www.w3.org/html/logo/#the-technology]]
+* [[http://goo.gl/L6sfa]]
+
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
 
