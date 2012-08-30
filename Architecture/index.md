@@ -226,6 +226,40 @@ A couple more notes:
 ** tutorials / accessibility
 ** tutorials / ''foo''
 
+==Alternative proposal (Alex)==
+
+Basically, remove all "constants" from the URL, except for the top-level. All types of pages coexist within those top-level categories, and automatic listing pages are created via judicious use of SMW, categories, and queries.
+
+* concepts/
+* html/
+** html / validation
+** html /quirksmode
+** html / ''foo'' (a concept)
+** html/ ''bar'' (a data type)
+** html / ''baz'' (an element)
+** html  / ''foo2'' (an attribute)
+* css/
+** css / inheritance
+** css / length (a datatype)
+** css / font-size (a property)
+** css / calc (a function)
+** css / inherit (a keyword)
+** css / sibling (a selector)
+** css / keyframes (an atrule)
+** css / properties (an auto-generated listing of all properties)
+* apis/
+** apis / ''foo'' (an interface)
+** apis / ''foo'' / ''bar'' (a method or property on the interface
+* svg/ ''you get the idea...''
+* mathml/
+* aria/
+* dom/
+* events/
+* js/
+* glossary/
+* guides/
+* tutorials/ (links to tech-specific tutorials)
+
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
 
