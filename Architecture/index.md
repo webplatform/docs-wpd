@@ -262,11 +262,11 @@ Basically, remove all "constants" from the URL, except for the top-level. All ty
 
 ==Alternative proposal (Peter)==
 
-Using high-level grouping already in use
-* [[HTML5 technology groups|http://www.w3.org/html/logo/#the-technology]]
-* [[HTML5 technology categories|http://goo.gl/L6sfa]]
+Using high-level grouping already in use:
+* [http://www.w3.org/html/logo/#the-technology]
+* [http://goo.gl/L6sfa]
 
-
+Groupings
 * Symantic markup
 * CSS
 * JavaScript
