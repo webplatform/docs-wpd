@@ -304,8 +304,8 @@ This could look like this (with short category names):
 ** device / foo
 ** device / bar
 * multimedia
-* multimedia / foo
-* multimedia / bar
+** multimedia / foo
+** multimedia / bar
 * mobile
 ** mobile/ foo
 ** mobile / bar
