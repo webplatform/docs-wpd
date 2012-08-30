@@ -262,7 +262,9 @@ Basically, remove all "constants" from the URL, except for the top-level. All ty
 
 ==Alternative proposal (Peter)==
 
-Using high-level grouping already in use.
+Using high-level grouping already in use
+* [[http://www.w3.org/html/logo/#the-technology]]
+* [[http://goo.gl/L6sfa]]
 
 * Symantic markup
 * CSS
@@ -306,10 +308,6 @@ This could look like this (with short category names):
 * mobile
 ** mobile/ foo
 ** mobile / bar
-
-Reference:
-* [[http://www.w3.org/html/logo/#the-technology]]
-* [[http://goo.gl/L6sfa]]
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
