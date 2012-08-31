@@ -690,7 +690,7 @@ These are broken out from the top-level table.
 |-
 | [[Template:CSS_Prefix | CSS Prefix]] callouts need to be styled
 | CJ
-|
+|[http://webplatform.org/docs/File:prefix.png%20 Example]
 |
 |-
 | Design style guide
