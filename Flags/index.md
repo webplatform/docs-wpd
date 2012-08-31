@@ -58,6 +58,8 @@ Different flags have different guidelines for when they should be used, and for 
 
 ==List of Categorization Flags==
 
+{{TODO | These aren't implemented as "Flags" anymore, but normal form fields.}}
+
 '''We will revisit this whole thing in the future. On hold for now.'''
 
 These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
