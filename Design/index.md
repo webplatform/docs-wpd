@@ -1,4 +1,7 @@
 ==Site==
+Site Components
+* [[WPD:Design/Components|Components]], Aug 31, 2012
+
 Site design considerations:
 * [[WPD:Design/Mock-Up Stage 2|Mock-Up Stage 2]], May 31, 2012
 * [[WPD:Design/Mock-Up Stage 1|Mock-Up Stage 1]], May 6, 2012
