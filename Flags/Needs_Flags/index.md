@@ -1,4 +1,4 @@
-This flag is used to mark pages that do not yet have all appropriate flags.
+This flag is used to mark pages that do not yet have all appropriate flags. This includes things like Standardization Status on articles for which it is appropriate.
 
 ==Manual of Style==
 {{TODO | Develop which section of Manual of Style this is related to.}}
