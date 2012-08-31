@@ -680,7 +680,7 @@ These are broken out from the top-level table.
 |-
 | Language dropdown in header
 | CJ
-| 
+| [http://webplatform.org/docs/File:language2.png%20 Open][http://webplatform.org/docs/File:language.png%20 Closed]
 | Shows current language; allows user to select new language; also allows authenticated user to create new translation
 |-
 | Search Box alignment
