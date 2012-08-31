@@ -665,7 +665,7 @@ These are broken out from the top-level table.
 |rowspan="12"| Design
 | Attribution block final styling
 | CJ
-| [[File:attribution1.png|Example closed]][[File:attribution2.png|Example open]]
+| [http://webplatform.org/docs/File:attribution1.png%20 Example Open][http://webplatform.org/docs/File:attribution2.png%20 Example Closed]
 | 
 |-
 | Links
