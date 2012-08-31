@@ -720,7 +720,7 @@ These are broken out from the top-level table.
 |-
 | Styling for language tags in examples
 | CJ
-| 
+| [http://webplatform.org/docs/File:code_language.png%20 Example]
 | See [[css/properties/font-size]] for an example.
 |-
 |rowspan="7"| Skin
