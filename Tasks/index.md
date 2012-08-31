@@ -675,7 +675,7 @@ These are broken out from the top-level table.
 |-
 | Note callouts
 | CJ
-| 
+| [http://webplatform.org/docs/File:notes.png%20 Example]
 | 
 |-
 | Language dropdown in header
