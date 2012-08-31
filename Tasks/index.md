@@ -733,7 +733,7 @@ These are broken out from the top-level table.
 | 
 | 
 |-
-|rowspan="7"| Skin
+|rowspan="8"| Skin
 | External attribution blocks use something equivalent to details/summary elements
 | Doug*
 | 
@@ -768,4 +768,9 @@ These are broken out from the top-level table.
 | Lea
 | 
 | Will need to modify [[Template:Single_Example]]
+|-
+| Style the standardization flag.
+| Doug
+| 
+| [[Template:Standardization_Status]]
 |}
