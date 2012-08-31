@@ -700,7 +700,7 @@ These are broken out from the top-level table.
 |-
 | Compatibility table styling
 | CJ
-|
+|[http://webplatform.org/docs/File:prefix.png%20 Example]
 | For an example, see [[css/properties/font-size]]
 |-
 | Stewards Page Design
