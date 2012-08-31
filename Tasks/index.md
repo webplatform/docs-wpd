@@ -665,7 +665,7 @@ These are broken out from the top-level table.
 |rowspan="12"| Design
 | Attribution block final styling
 | CJ
-| 
+| [[File:attribution1.png|Example closed]][[File:attribution2.png|Example open]]
 | 
 |-
 | Links
