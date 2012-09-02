@@ -68,6 +68,7 @@ The following is a list of folks to invite to the early preview:
 * Estelle Weyl <estelle@weyl.org>: Frequent Web development speakers
 * Maximiliano Firtman <firtman@gmail.com>: Author of Mobile Web development books and frequent speaker in Web development conference. Created: http://mobilehtml5.org/
 * Tim Kadlec <tim@timkadlec.com>: Author of IMPLEMENTING RESPONSIVE DESIGN and organizer of Breaking Development Conference. 
+* Jen Simmons <jen@jensimmons.com>: Front end designer and Host of The Web Ahead podcast: http://5by5.tv/webahead
 
 ==Community Drivers==
 * Peter-Paul Koch <ppk@xs4all.nl> - Mobile community.
