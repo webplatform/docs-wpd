@@ -11,6 +11,10 @@ To create a new page:
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
 
+==API Object Method==
+If you're documenting a ''method'' of an API, like <code>appendChild</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
+{{#forminput:form=API_Object_Method|default value=apis/foo/bar|button text=Create API Object Method Page}}
+
 ==Tutorial==
 For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with <code>/tutorials</code>, although there may be redirects to them from other URLs in other sections.
 {{#forminput:form=Tutorial|default value=tutorials/foo|button text=Create Tutorial Page}}
