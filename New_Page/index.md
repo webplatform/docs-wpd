@@ -10,6 +10,11 @@ To create a new page:
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
+
+==Tutorial==
+For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with <code>/tutorials</code>, although there may be redirects to them from other URLs in other sections.
+{{#forminput:form=Tutorial|default value=tutorials/foo|button text=Create Tutorial Page}}
+
 ==Basic==
 For content pages (that is, pages in the default namespace) that do not have a more specific form to use.
 {{#forminput:form=Basic|button text=Create Basic Page}}
