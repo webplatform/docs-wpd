@@ -1,38 +1,44 @@
 '''This is a temporary page to pull together an example of what the ideal end state will be. This has been written by [http://webplatform.org/docs/User:Cmills Chris Mills] to serve as a sample.'''
 
+=The <p> element =
+
 ==Summary==
 A brief summary--a few sentences at most--that describes the element. Remember that the summary will likely be extracted and used out of context. Use the element name liberally to increase SEO.
+
+<code>&lt;p&gt;</code> — the paragraph element — is used to mark up a single paragraph in a given body of content. Wrapping content in paragraph tags will generally cause that content all to be rendered in a single block, with a margin above and below.
 
 ==Usage Context==
 
 {|class="wikitable"
 | Categories
-| The categories to which the element belongs, such as Flow Content or Phrasing Content.
+| Paragraphs are phrasing content according to HTML5's definitions. It is also known to be a block level elements, under the earlier HTML definitions.
 |-
-| Permitted content
-| Where applicable, a list of content that may be incorporated into the element.
+| Permitted contents
+| Text, or any inline or text-containing flow content, such as <code>&lt;a&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;strong&gt;</code> or <code>&lt;q&gt;</code>.
 |-
 | Tag Omission
-| Indicates whether any part of the tag may be omitted.
+| None — the start and end tags are mandatory.
 |-
 | Permitted Parent Elements
-| As suggested
+| Any element that can contain flow content, typically content sectioning elements such as <code>&lt;article&gt;</code>, <code>&lt;div&gt;</code> or <code>&lt;blockquote&gt;</code>
 |-
 | Permitted Child Elements
-| As suggested
+| '''Chris - I don't think this is needed, as well as the permitted content, which I have renamed slightly to "permitted contents"'''
 |}
 
 ==DOM Information==
 
 ===DOM Interface===
 
-[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]
+The <p>, or paragraph element implements the [[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]HTMLParagraphElement] interface.
 
 ===Inheritance Hierarchy===
 :[http://webplatform.org/docs/WPD:CSS_Example_Article Node]
 ::[http://webplatform.org/docs/WPD:CSS_Example_Article Element]
 :::[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLElement]
 ::::[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLParentElement]
+
+'''Chris - not sure if this is needed?'''
 
 ==Members==
 
@@ -44,19 +50,24 @@ A brief summary--a few sentences at most--that describes the element. Remember t
 [Properties]
 
 ===Attributes===
-Like all other HTML elements, this element supports the [http://webplatform.org/docs/WPD:CSS_Example_Article global attributes].
+Like all other HTML elements, this element supports the [http://webplatform.org/docs/WPD:CSS_Example_Article global attributes. Attribute particular to this element are as follows:
 
-;<code>anattribute</code>
-: Short description of the attribute with any special considerations.  
+*;<code>align</code>: The paragraph element <code>align</code> attribute can be given values of <code>left</code>, <code>right</code>, <code>center</code> or <code>justify</code>, to align the content inside the paragraph. But please note that this is a presentational attribute, now deprecated in HTML5.
 
-;<code>anattribute2</code>
-: Short description of the attribute with any special considerations.
-
-;<code>b_anattribute</code>
-: Short description of the attribute with any special considerations.
+''The best practice would be to align your text using the CSS <code>text-align</code> property instead.''
 
 
 ==Examples==
+
+<pre><code>&lt;p&gt;This is one paragraph of content.
+
+&lt;p&gt;This is another paragraph of content. See how it appears below the last paragraph on a new line.
+
+&lt;p&gt;This is a paragraph of content inside a blockquote.</code></pre>
+
+
+'''Chris - I don't think we need to show JS and CSS examples affecting simple HTML content. I think this just muddies the waters a bit, for people trying to learn these basic rudiments.'''
+
 [[HTML/examples | View live examples]]
 <syntaxhighlight>
 A useful HTML example that shows the element in context.
@@ -67,28 +78,13 @@ A useful HTML example that shows the element in context.
 A useful JavaScript example that calls to the element.
 </syntaxhighlight>
 
-==Usage==
+==Best practices==
 
-Fairly descriptive entry about real-world use of the element. Indicate special use cases, development issues, etc. May contain subsections, notes, and inline code.
+* As said above, you should not align content with the <code>&lt;p&gt;</code> element's <code>align</code> attribute. Use the CSS <code>text-align</code> property instead.
+* You should separate all paragraphs out by wrapping each of them in their own unique <code>&lt;p&gt;</code> element. Do not separate out paragraphs by other means, such as wrappign all your content in a <code>&lt;pre&gt;</code> element, or using multiple <code>&lt;br &gt;</code>tags.
+* To alter the position or spacing of your paragraphs, dop not use presentational HTML; use appropriate CSS such as <code>padding</code> and <code>margin</code>.
 
-===Usage subsection===
-
-Some important aspect of usage needs to be called out in its own section.
-
-<div style="background: none repeat scroll 0 0 #FAF9E2;
-    border-color: #DDDAAA;
-    border-style: solid;
-    border-width: 1px 0;
-    color: #5D5636;
-    line-height: 1.5em;
-    margin-bottom: 1.286em;
-    padding: 0.75em 15px;">
-Note: A note about something in the usage topic may be included.
-</div>
-
-==Notes==
-
-The notes section contains information that may be important to web developers but that does not readily fit into usage or member descriptions.
+'''Chris - I've delete a lot of the sections from here, as I thought they were a bit repetitious. I thought "Best practices" would help to encompass all the good examples of usage and other things not said in other sections.
 
 ==Specifications==
 
