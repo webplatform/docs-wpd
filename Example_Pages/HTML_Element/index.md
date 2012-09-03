@@ -28,7 +28,7 @@
 
 ===DOM Interface===
 
-The <p>, or paragraph element implements the [[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]HTMLParagraphElement] interface.
+The <code>&lt;p&gt;</code>, or paragraph element implements the [[http://webplatform.org/docs/WPD:CSS_Example_Article HTMLAudioElement]HTMLParagraphElement] interface.
 
 ===Inheritance Hierarchy===
 :[http://webplatform.org/docs/WPD:CSS_Example_Article Node]
