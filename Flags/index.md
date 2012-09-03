@@ -26,7 +26,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
 * [[WPD:Flags/Content_Errors|Content_Errors]]
 * [[WPD:Flags/Content_Not_Neutral|Content_Not_Neutral]]
-* Content_Biased_Voice ''(Used for articles that are too marketing-y)''
+* [[WPD:Flags/Content_Biased_Voice|Content_Biased_Voice]]
 * Content_Grammar_Spelling
 * Content_Needs_Best_Practices
 * Content_Missing_Specification_Links
