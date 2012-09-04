@@ -74,7 +74,7 @@ documentation, community building, web development (you are only allowed three)
 
 ===Category===
 
-Standards and assessment (not great, but this seems to be the most appropriate of the options given)
+Resources/education
 
 ===Intended audience===
 
@@ -82,9 +82,11 @@ Web developers and designers of all levels
 
 ===In 1000 characters or less, describe your panel idea to us===
 
-The web industry is one of the fastest-growing industries; even in times of recession, everyone wants a web presence, because it is one of the cheapest and most effective ways to market yourself and find customers, friends, and more. But in spite of this, the web industry suffers from a shortage of new people with the skills required to do the job well. Very few web-related courses do a great job of teaching modern web design, so many people teach themselves. For self learners, finding reliable, good quality learning and reference material is difficult, as there is so much available out there.
+We all want to improve our skills and learn more, whether we are grizzled veterans or aspiring newcomers to the web industry. But sometimes sourcing resources to help us find what we need to know can be difficult. There are many high quality resources out there, but many of them are biased, out of date, in-complete, or all of the above. It is hard for all the resource owners to keep their resources current, with all the new advancements in web technologies.
 
-To improve things, the W3C got together with a number of other companies — many of whom already have their own documentation and other resources — and decided to to produce the ultimate, definitive, community-powered documentation resource for web design and development. This resource is called webplatform.org, and hopes to succeed where others have failed.
+To improve things, the W3C decided to collaborate with a number of other companies such as Google, Mozilla, Opera, Facebook and Microsoft — many of whom already have their own documentation and other resources — to produce the ultimate, definitive, community-powered documentation resource for web design and development.
+
+This resource is called webplatform.org — in this talk we will talk about how the site can help you do your jobs and learn more, give you a backstage tour of the technical and organisational challenges we've addressed in creating the site, and show you how you can contribute to the content base as part of the web platform.org community!
 
 ===List three questions that this talk will answer===
 
