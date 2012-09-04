@@ -13,15 +13,15 @@
 
 ===Contractors===
 # Import script (MSDN to Semantic MediaWiki)
-# Comments extension
-# Site metrics
-# Integration with other software (Single Sign-On)
-#* WordPress blog
-#* Questions2Answers forum
-# Search extension (page titles, categories)
-# Translation extension
-# Breadcrumbs extension
-# Skinning
+# Comments extension (HW)
+# Site metrics (HW)
+# Integration with other software (Single Sign-On) (HW)
+#* WordPress blog (HW)
+#* Questions2Answers forum (HW)
+# Search extension (page titles, categories) (HW)
+# Translation extension (HW)
+# Breadcrumbs extension (HW?)
+# Skinning (HW?)
 # file upload and storage
 
 ===WikiWorks SOW===
