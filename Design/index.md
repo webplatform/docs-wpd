@@ -1,4 +1,8 @@
 ==Site==
+Static Pages
+*
+*
+
 Landing Page
 * [[WPD:Design/Landing|Landing]], Sept 4, 2012
 
