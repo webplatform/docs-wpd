@@ -705,7 +705,7 @@ These are broken out from the top-level table.
 |-
 | Stewards Page Design
 | CJ
-| 
+| [http://webplatform.org/docs/File:Stewards_Page.png%20 Example]
 | Extensible to work for each steward, unique page for each
 |-
 | Landing Page Design
