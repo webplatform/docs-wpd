@@ -12,7 +12,6 @@
 # launch additional app servers
 
 ===Contractors===
-# file upload and storage
 # Import script (MSDN to Semantic MediaWiki)
 # Comments extension
 # Site metrics
@@ -23,6 +22,7 @@
 # Translation extension
 # Breadcrumbs extension
 # Skinning
+# file upload and storage
 
 ===WikiWorks SOW===
 ====Phase 1====
