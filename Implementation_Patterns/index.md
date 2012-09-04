@@ -518,3 +518,4 @@ MediaWiki is very weird about spaces. In particular, a line that starts with a s
 {{TODO| Document the partial-pre hack}}
 {{TODO | Document the slightly-different-template-name-to-avoid-hoisting hack}}
 {{TODO | Document the summary-table pattern: http://smw.referata.com/wiki/Use_the_ask_template_format_to_create_tabular_output}}
+{{TODO | When you move a page that has properties, you must "touch" the new one to get the properties set correctly.}}
