@@ -12,6 +12,7 @@
 * staging server
 
 ===Contractors===
+* Import script (MSDN to Semantic MediaWiki)
 * Comments extension
 * Site metrics
 * Integration with other software (Single Sign-On)
@@ -21,7 +22,6 @@
 * Translation extension
 * Breadcrumbs extension
 * Skinning
-* Import script (MSDN to Semantic MediaWiki)
 
 ===WikiWorks SOW===
 ====Phase 1====
