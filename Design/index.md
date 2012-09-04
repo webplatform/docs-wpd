@@ -2,6 +2,7 @@
 Static Pages
 * [http://webplatform.org/docs/File:Stewards_Page.png%20 Stewards Page]
 * [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Blog Page]
+* [http://webplatform.org/docs/File:Static_Page_QA.png%20 QA Page]
 
 Landing Page
 * [[WPD:Design/Landing|Landing]], Sept 4, 2012
