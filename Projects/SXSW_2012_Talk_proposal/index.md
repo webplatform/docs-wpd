@@ -86,11 +86,15 @@ To improve things, the W3C decided to collaborate with a number of other compani
 
 This resource is called webplatform.org — in this talk we will talk about how the site can help you do your jobs and learn more, give you a backstage tour of the technical and organisational challenges we've addressed in creating the site, and show you how you can contribute to the content base as part of the web platform.org community!
 
-===List three questions that this talk will answer===
+===List seven questions that this talk will answer===
 
-# How such a large project is funded and created, in cooperation between several often competing companies.
-# How the site was built, and surrounding technical issues.
-# How a successful community can be used to create a lot of documentation, including handling contributions from already existing resources.
+# How has this project been funded and created, in cooperation between several often competing companies?
+# How was the site built, and what were the surrounding technical issues we addressed?
+# How does this project improve on existing documentation resources?
+# How can a successful community can be used to create a lot of documentation?
+# How are contributions from already existing resources handled, in terms of licensing, porting, etc.?
+# How will this resource help web developers and designers to do their job?
+# What is the future for webplatform.org?
 
 ===Links to youtube/slideshare/vimeo or other resource.===
 
