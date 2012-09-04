@@ -39,3 +39,26 @@
 * Advise on best practices for running and configuring a wiki running on Semantic MediaWiki
 * Ensure that only administrators can create costly Semantic MediaWiki queries
 * Various other required minor tasks leading up to the launch that may arise
+
+===Scraps===
+* Fast.ly CDN
+* Forums (Q2A)
+* Internationalization
+* IRC channel #webplatform
+* Email feedback account set up
+* Federated Login feature
+* Comments
+* Accessibility
+* Blog
+* Deployment script for site
+* Issue tracker (bugs)
+* Language switching
+* Logging bot (IRC)
+* Metrics and tracking
+* Single sign in (SSO)
+* System backup of site
+* Sandbox (live viewer)
+* Required email address for accounts
+* Twitter account @webplatform
+* Web client (IRC)
+* Wiki Setup
