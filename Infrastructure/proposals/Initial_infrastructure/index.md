@@ -2,6 +2,7 @@
 ===Ryan Lane===
 # new URL structure
 # Fast.ly integration
+#* REview code (extensions and SemMediaWiki)
 # move to database service
 # backups and restoring instructions
 # move to block service for gluster and backups
