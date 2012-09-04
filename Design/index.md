@@ -1,7 +1,7 @@
 ==Site==
 Static Pages
-* [http://webplatform.org/docs/File:Stewards_Page.png%20 Open]
-* [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Open]
+* [http://webplatform.org/docs/File:Stewards_Page.png%20 Stewards Page]
+* [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Blog Page]
 
 Landing Page
 * [[WPD:Design/Landing|Landing]], Sept 4, 2012
