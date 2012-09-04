@@ -46,8 +46,8 @@ Students wishing to learn web-related subjects might also be interested in seein
 
 ===List three questions that this talk will answer===
 
-# How and why was such an ambitious project funded and created, in cooperation between several often competing companies, and made available for free? 
 # What resources does webplatform contain?
+# How can developers, designers, students, and teachers use, reuse, and add to the site and the content?
 # How can an educator use webplatform.org to teach a more effective course?
 
 == SXSWi talk proposal==
