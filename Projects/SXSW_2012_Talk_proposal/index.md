@@ -59,7 +59,7 @@ To improve things, the W3C got together with a number of other companies — man
 
 == SXSWi talk proposal==
 
-'''Janet's comment: For SXSWedu, the goal would be to promote awareness and participation among educators, by emphasizing how the site can help them to teach and to create reusable teaching materials.'''
+'''Janet's comment: For SXSWi, that audience likes to feel like part of the elite (and to be fair, I guess they are); in addition to talking about how the site can help them do their jobs, we can give them a "backstage tour" of the technical and organizational challenges we've addressed in creating the site.'''
 
 ===Title===
 
