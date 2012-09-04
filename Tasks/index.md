@@ -715,8 +715,8 @@ These are broken out from the top-level table.
 |-
 | Static Page Design
 | CJ
-| [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Example]
-[http://webplatform.org/docs/File:Static_Page_QA.png%20 Example]
+| [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Blog Example]
+[http://webplatform.org/docs/File:Static_Page_QA.png%20 Q/A Example]
 |
 |-
 | Styling for language tags in examples
