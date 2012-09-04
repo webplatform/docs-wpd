@@ -14,7 +14,7 @@ We will submit a talk proposal to both SXSW Edu, and SXSWi. The target audiences
 
 ===Title===
 
-webplatform.org: documenting web development (not the best title in the world, but you are limited to 50 characters)
+webplatform.org: learn and teach the web (not the best title in the world, but you are limited to 50 characters)
 
 ===Presentation format===
 
@@ -22,7 +22,7 @@ Solo or Dual presentation. (there are lots of us, so doing it as a panel is temp
 
 ===Difficulty level ===
 
-Intermediate (the ideas presented are not hard to grasp, but web platform.org is a pretty advanced kind of site to set up, so you could say the content is advanced)
+Intermediate
 
 ===Tags ===
 
