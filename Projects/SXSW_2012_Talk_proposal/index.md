@@ -66,7 +66,7 @@ Solo or Dual presentation. (there are lots of us, so doing it as a panel is temp
 
 ===Difficulty level ===
 
-Intermediate (the ideas presented are not hard to grasp, but web platform.org is a pretty advanced kind of site to set up, so you could say the content is advanced)
+Beginner to advanced
 
 ===Tags ===
 
@@ -78,7 +78,7 @@ Standards and assessment (not great, but this seems to be the most appropriate o
 
 ===Intended audience===
 
-Educators that teach web-related subjects, web developers and designers, students wishing to learn web-related subjects
+Web developers and designers of all levels
 
 ===In 1000 characters or less, describe your panel idea to us===
 
