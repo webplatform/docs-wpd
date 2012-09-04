@@ -1,5 +1,5 @@
 ==Site==
-* [[File:Web-Platform-Style-Guide-web-1.pdf1]]
+* [[File:Web-Platform-Style-Guide-web-1.pdf]]
 
 Static Pages
 * [http://webplatform.org/docs/File:Stewards_Page.png%20 Stewards Page]
