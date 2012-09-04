@@ -1,7 +1,7 @@
 ==Site==
 Static Pages
-*
-*
+* [[File:Static_Page_Blog.png]]
+* [[File:Stewards_Page.png]]
 
 Landing Page
 * [[WPD:Design/Landing|Landing]], Sept 4, 2012
