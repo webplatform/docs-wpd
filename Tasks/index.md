@@ -710,7 +710,7 @@ These are broken out from the top-level table.
 |-
 | Landing Page Design
 | CJ
-| [[WPD:Design/Landing|Landing Page]]
+| [[WPD:Design/Landing|Examples]]
 | 
 |-
 | Static Page Design
