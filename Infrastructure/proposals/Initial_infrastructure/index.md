@@ -1,15 +1,14 @@
 ==Work Items==
 ===Ryan Lane===
-* new URL structure
-* Fast.ly integration
-* backups and restoring instructions
-* deployment system in place
-* file upload and storage
-* eventually move to object storage for media uploads
-* launch additional app servers
-* move to block service for gluster and backups
-* move to database service
-* staging server
+# new URL structure
+# Fast.ly integration
+# move to database service
+# backups and restoring instructions
+# move to block service for gluster and backups
+# staging server
+# Improved deployment system in place
+# eventually move to object storage for media uploads
+# launch additional app servers
 
 ===Contractors===
 * Import script (MSDN to Semantic MediaWiki)
