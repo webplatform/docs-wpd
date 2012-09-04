@@ -11,16 +11,17 @@
 # launch additional app servers
 
 ===Contractors===
-* Import script (MSDN to Semantic MediaWiki)
-* Comments extension
-* Site metrics
-* Integration with other software (Single Sign-On)
-** WordPress blog
-** Questions2Answers forum
-* Search extension (page titles, categories)
-* Translation extension
-* Breadcrumbs extension
-* Skinning
+# file upload and storage
+# Import script (MSDN to Semantic MediaWiki)
+# Comments extension
+# Site metrics
+# Integration with other software (Single Sign-On)
+#* WordPress blog
+#* Questions2Answers forum
+# Search extension (page titles, categories)
+# Translation extension
+# Breadcrumbs extension
+# Skinning
 
 ===WikiWorks SOW===
 ====Phase 1====
