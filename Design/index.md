@@ -1,4 +1,6 @@
 ==Site==
+* [[File:Web-Platform-Style-Guide-web-1.pdf|Web Style Guide v1]]
+
 Static Pages
 * [http://webplatform.org/docs/File:Stewards_Page.png%20 Stewards Page]
 * [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Blog Page]
