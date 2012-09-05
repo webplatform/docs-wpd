@@ -355,6 +355,19 @@ These are types of reference pages we need for the site's information architectu
 === Notes ===
 * Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
 
+==Suggested Title (Naming) Convention for Article Types (Dave Gash)==
+For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Most content can be assigned one of three information types: task, concept, or reference. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title.
+
+I suggest adopting the following title conventions for specific article types:
+*'''About''' for articles with concept, background, overview, and similar content
+**Examples: About Audio Types, About Flexbox, About Visibility
+*'''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
+**Examples: "Using the <audio> Tag", "Drawing on the Canvas", "Calling the getLocation() Function" 
+*'''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content
+**Examples: "<audio> Tag Attributes", "Valid .moveTo() Values", "Latitude and Longitude"
+
+Also, I suggest that such a convention, once agreed upon, be added to the Manual of Style.
+
 ==Notes==
 * We want aggregated pages, where content from other related pages is transcluded into a single page
 ** ''''Example:'''' the page for an interface will contain all the transcluded information from the individual method and property pages
