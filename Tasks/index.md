@@ -695,7 +695,7 @@ These are broken out from the top-level table.
 |-
 | Design style guide
 | CJ
-|
+|[[File:Web-Platform-Style-Guide-web-1.pdf|Style Guide]]
 | Provides guidlines for creating sub-properties like blog, IRC, etc.
 |-
 | Compatibility table styling
