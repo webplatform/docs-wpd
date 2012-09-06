@@ -216,6 +216,7 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Guide|Guide]]
 * [[WPD:Architecture/Tutorial|Tutorial]]
 * [[WPD:Architecture/Media_Content|Media Content]]
+* [[WPD:Architecture/Glossary|Glossary]]
 
 === Notes ===
 * Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
