@@ -17,6 +17,11 @@ For pages that document a Markup structure (of HTML, SVG, or other types).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Markup_Structure|default value=foo|button text=Create Markup Structure Page}}
 
+==JavaScript Statement==
+For pages that document a JavaScript statement.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=JavaScript_Statement|default value=foo|button text=Create JavaScript Statement Page}}
+
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
