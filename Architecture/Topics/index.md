@@ -4,4 +4,6 @@ Topics are distinct from [[WPD:Flags|flags]]; whereas flags denote temporary wor
 
 Most articles have a form section for Topics that can be checked off. This form section is automatically generated based on which categories have the Topics category on them.
 
+You can see which topics there are either by viewing that part of any page editing form or this list: [[:Category:Topics]].
+
 {{TODO | Document guidelines for creating new Topics and how.}}
