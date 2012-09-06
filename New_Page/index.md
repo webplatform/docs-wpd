@@ -7,6 +7,11 @@ To create a new page:
 
 {{Note| This page lists all page templates that currently exist. As we create more, we'll add them here.}}
 
+==Markup Element==
+For pages that document a Markup Element (of HTML, SVG, or other types).
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Markup_Element|default value=foo|button text=Create Markup Element Page}}
+
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
