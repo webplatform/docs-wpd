@@ -51,6 +51,11 @@ For pages that document a CSS selector (like the descendant selector). The URL s
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=CSS Selector|default value=foo|button text=Create CSS Selector Page}}
 
+==CSS Function==
+For pages that document a CSS function (like calc).
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=CSS Function|default value=foo|button text=Create CSS Function Page}}
+
 ==API Object==
 If you're documenting an API, like <code>document</code>. Generally all pages in this type have a URL that contains <code>apis</code>, and has method and property pages that are sub-pages.
 {{#forminput:form=API_Object|default value=apis/foo|button text=Create API Object Page}}
