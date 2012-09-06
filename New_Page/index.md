@@ -77,6 +77,12 @@ For pages that document a DOM event, like <code>click</code>
 For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with <code>/tutorials</code>, although there may be redirects to them from other URLs in other sections.
 {{#forminput:form=Tutorial|default value=tutorials/foo|button text=Create Tutorial Page}}
 
+==Guide==
+For pages that are guides to a given complex topic.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Guide|default value=foo|button text=Create Guide Page}}
+
+
 ==Basic==
 For content pages (that is, pages in the default namespace) that do not have a more specific form to use.
 {{#forminput:form=Basic|button text=Create Basic Page}}
