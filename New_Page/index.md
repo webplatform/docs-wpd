@@ -68,6 +68,11 @@ If you're documenting a ''method'' of an API, like <code>appendChild</code>. Gen
 If you're documenting a ''property'' of an API, like <code>childNodes</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
 {{#forminput:form=API_Object_Property|default value=apis/foo/baz|button text=Create API Object Property Page}}
 
+==Event==
+For pages that document a DOM event, like <code>click</code>
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Event|default value=foo|button text=Create Event Page}}
+
 ==Tutorial==
 For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with <code>/tutorials</code>, although there may be redirects to them from other URLs in other sections.
 {{#forminput:form=Tutorial|default value=tutorials/foo|button text=Create Tutorial Page}}
