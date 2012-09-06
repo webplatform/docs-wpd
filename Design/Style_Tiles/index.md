@@ -10,8 +10,9 @@ All fonts used are free.
 The final decision by the Stewards was for a version of [[#Style_1|Style 1]] with some elements of [[#Style_2|Style 2]].
 
 ==Style 1==
-[[File:Style Tile 01.png]]
+The breadcrumbs should look like this example.
 
+[[File:Style Tile 01.png]]
 
 ==Style 2==
 [[File:Style Tile 02.png]]
