@@ -30,9 +30,9 @@ For pages that document a JavaScript operator.
 ==Data Type==
 For pages that document a data type (for CSS, JavaScript, etc).
 {{TODO | Examples of topics and URLS}}
-{{#forminput:form=Data_Type_Form|default value=foo|button text=Create Data Type Page}}
+{{#forminput:form=Data_Type_Page|default value=foo|button text=Create Data Type Page}}
 
-==Data Type==
+==Constant==
 For pages that document a constant (for CSS, JavaScript, etc).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Constant|default value=foo|button text=Create Constant Page}}
