@@ -5,6 +5,7 @@ This is a list of all the existing content that has been donated to the webplatf
 # Check the content structure for the subject you are currently dealing with. For anything that doesn't make sense, or needs adding, modifying or deleting, make changes as necessary.
 # Fit existing articles into the content structure as well as you can and document your work. '''TODO: where should you do this?'''
 # Think through the best migration strategy. Assume that writing each import script will take ~5 hours and need to be tweaked for every small difference it encounters. Is it faster to do your batch by hand or with an import script? That is, how diverse/messy is your content?
+# Look at the list of page types [[WPD:New_Page]] and figure out which page types will be appropriate for each article. Then, for each applicable page type, look at the template. What additional fields should be there? Look at [[Template:CSS_Property]] and others for inspiration.
 '''First week: stop here'''
 # Check that all the existing articles listed have been imported into the Wiki. Most of these will be done automatically using a batch import, but you may need to import some of them manually.
 # Create new pages/stubs for articles that are yet to be written.
