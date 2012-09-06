@@ -32,6 +32,11 @@ For pages that document a data type (for CSS, JavaScript, etc).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Data_Type_Form|default value=foo|button text=Create Data Type Page}}
 
+==Data Type==
+For pages that document a constant (for CSS, JavaScript, etc).
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Constant|default value=foo|button text=Create Constant Page}}
+
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
