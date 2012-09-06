@@ -1,15 +1,96 @@
 ==Work Items==
-===Ryan Lane===
-# new URL structure
-# Fast.ly integration
-#* REview code (extensions and SemMediaWiki)
-# move to database service
-# backups and restoring instructions
-# move to block service for gluster and backups
-# staging server
-# Improved deployment system in place
-# eventually move to object storage for media uploads
-# launch additional app servers
+
+{| class="wikitable sortable"
+! Priority
+! Owner
+! Task
+! Status
+! Time Estimate
+! Depends On
+! Must Finish By
+|-
+| 1
+| Ryan
+| New URL structure
+|                                        
+| 
+| 
+| Sep 28
+|-
+|-
+| 1
+| Ryan
+| Fast.ly integration
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| REview code (extensions and SemMediaWiki)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Move to DB service
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Backups/Restore instructions
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Move to Block Service for gluster and backups
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Staging Server
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Improve deploy system
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 12
+| Ryan
+| Move to object storage for media uploads
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Ryan
+| Launch add'l app server instances
+|                                        
+| 
+| 
+| Sep 28
+|}
+
 
 ===Contractors===
 # Import script (MSDN to Semantic MediaWiki)
