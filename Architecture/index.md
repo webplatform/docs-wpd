@@ -7,21 +7,20 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 ===Proposed Site Structure===
 
-* general-concepts
-** general-concepts / IA
-** general-concepts / accessibility-general-context
-** general-concepts / usability
-** general-concepts / UX
-** general-concepts / user-profiling
-** general-concepts / one-web
-** general-concepts / progressive-enhancement
-** general-concepts / responsive-design
-** general-concepts / ''foo''
+* concepts
+** concepts / IA
+** concepts / accessibility-general-context
+** concepts / usability
+** concepts / UX
+** concepts / user-profiling
+** concepts / one-web
+** concepts / progressive-enhancement
+** concepts / responsive-design
+** concepts / ''foo''
 * html
-** html / concepts
-*** html / concepts / validation
-*** html / concepts /quirksmode
-*** html / concepts / ''foo''
+** html  / ''foo''
+** html  / validation
+** html  / quirksmode
 ** html / data-types
 *** html / data-types / ''foo''
 ** html / elements
@@ -37,11 +36,10 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** html / tutorials
 *** html / tutorials / ''foo''
 * css
-** css / concepts
-*** css / concepts / inheritance
-*** css / concepts / the-cascade
-*** css / concepts / vendor-prefixes
-*** css / concepts /  ''foo''
+** css  /  ''foo''
+** css  / inheritance
+** css  / the-cascade
+** css  / vendor-prefixes
 ** css / data-types
 ** css / data-types / length
 *** css / data-types / ''foo''
@@ -64,8 +62,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** css / tutorials
 *** css / tutorials / ''foo'' 
 * svg
-** svg / concepts
-*** svg / concepts / ''foo''
+* svg / ''foo''
 ** svg / data-types
 *** svg / data-types / ''foo''
 ** svg / elements
@@ -81,8 +78,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** svg / tutorials
 *** svg / tutorials / ''foo''
 * mathml
-** mathml / concepts
-*** mathml / concepts / ''foo''
+** mathml  / ''foo''
 ** mathml / data-types
 *** mathml / data-types / ''foo''
 ** mathml / elements
@@ -91,17 +87,24 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** mathml / attributes / ''foo''
 ** mathml / tutorials
 *** mathml / tutorials / ''foo'' 
+* xml
+** xml / ''foo''
+** xml / data-types
+*** xml / data-types / ''foo''
+** xml / elements
+*** xml / elements / ''foo''
+** xml / attributes
+*** xml / attributes / ''foo''
+** xml / tutorials
+*** xml / tutorials / ''foo'' 
 * aria
-** aria / concepts
-*** aria / concepts / ''foo''
+** aria / ''foo''
 ** aria / attributes
 *** aria / attributes / ''foo''
 ** aria / tutorials
 *** aria / tutorials / ''foo'' 
 * apis
 ** apis / ''foo''
-** apis / concepts
-*** apis / concepts / ''foo''
 *** apis / ''foo'' / ''foobar'' (interface)
 **** apis / ''foo'' / ''foobar'' / ''baz'' method
 **** apis / ''foo'' / ''foobar'' / ''baz'' property
@@ -109,8 +112,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** apis / ''quux'' / ''quux'' method
 *** apis / ''quux'' / ''quux'' property
 * dom
-** dom / concepts
-*** dom / concepts / ''foo''
+* dom / ''foo''
 ** dom / apis
 *** dom / apis / ''foo''
 *** dom / apis / methods
@@ -120,19 +122,16 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** dom / tutorials / ''foo'' 
 * events
 ** events / ''foo''
-** events / concepts
-*** events / concepts / ''foo''
 ** events / apis
 *** events / apis / methods
 **** events / apis / methods / ''foo''
 *** events / apis / properties
 **** events / apis / properties / ''foo''
 * js
-** js / concepts
-*** js / concepts / feature-detection
-*** js / concepts / OOP
-*** js / concepts / apis-general-context
-*** js / concepts / ''foo''
+** js  / feature-detection
+** js  / OOP
+** js  / apis-general-context
+** js  / ''foo''
 ** js / data-types
 *** js / data-types / string
 *** js / data-types / number
@@ -158,6 +157,23 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** tutorials / responsive web design
 ** tutorials / accessibility
 ** tutorials / ''foo''
+* proprietary
+** proprietary / microsoft
+*** proprietary / microsoft / pinned sites
+*** proprietary / microsoft / silverlight
+*** proprietary / microsoft / ''foo''
+** proprietary / opera
+*** proprietary / opera / extensions
+*** proprietary / opera / ''foo''
+** proprietary / google
+*** proprietary / google / NaCl
+*** proprietary / google / ''foo''
+** proprietary / apple
+*** proprietary / apple / ''foo''
+** proprietary / mozilla
+*** proprietary / mozilla / ''foo''
+** proprietary / ''foo''
+
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
