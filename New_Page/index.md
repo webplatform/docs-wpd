@@ -22,6 +22,11 @@ For pages that document a JavaScript statement.
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=JavaScript_Statement|default value=foo|button text=Create JavaScript Statement Page}}
 
+==JavaScript Operator==
+For pages that document a JavaScript operator.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=JavaScript_Operator|default value=foo|button text=Create JavaScript Operator Page}}
+
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
