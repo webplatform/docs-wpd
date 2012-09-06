@@ -74,7 +74,7 @@
 | 
 | Sep 28
 |-
-| 12
+| 2
 | Ryan
 | Move to object storage for media uploads
 |                                        
@@ -89,21 +89,98 @@
 | 
 | 
 | Sep 28
+|-
+| 1
+| Contractors
+| Import script (MSDN to Semantic MediaWiki)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Comments extension (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Site metrics (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Integration with other software (Single Sign-On) (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| *WordPress blog (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| *Questions2Answers forum (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Search extension (page titles, categories) (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Translation extension (HW)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Breadcrumbs extension (HW?)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| Skinning (HW?)
+|                                        
+| 
+| 
+| Sep 28
+|-
+| 1
+| Contractors
+| file upload and storage
+|                                        
+| 
+| 
+| Sep 28
 |}
 
 
-===Contractors===
-# Import script (MSDN to Semantic MediaWiki)
-# Comments extension (HW)
-# Site metrics (HW)
-# Integration with other software (Single Sign-On) (HW)
-#* WordPress blog (HW)
-#* Questions2Answers forum (HW)
-# Search extension (page titles, categories) (HW)
-# Translation extension (HW)
-# Breadcrumbs extension (HW?)
-# Skinning (HW?)
-# file upload and storage
+
 
 ===WikiWorks SOW===
 ====Phase 1====
