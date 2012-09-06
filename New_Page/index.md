@@ -46,6 +46,11 @@ For pages that document a CSS At Rule (like @keyframes).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=CSS At Rule|default value=foo|button text=Create CSS At Rule Page}}
 
+==CSS Selector==
+For pages that document a CSS selector (like the descendant selector). The URL should be a descriptive name since most of the selectors are illegal characters for MediaWiki URLs.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=CSS Selector|default value=foo|button text=Create CSS Selector Page}}
+
 ==API Object==
 If you're documenting an API, like <code>document</code>. Generally all pages in this type have a URL that contains <code>apis</code>, and has method and property pages that are sub-pages.
 {{#forminput:form=API_Object|default value=apis/foo|button text=Create API Object Page}}
