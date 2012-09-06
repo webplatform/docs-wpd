@@ -355,7 +355,9 @@ These are types of reference pages we need for the site's information architectu
 === Notes ===
 * Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
 
-==Suggested Titling/Naming Convention for Article Types (Dave Gash)==
+==Article Naming Conventions==
+'''Suggested Titling/Naming Convention for Article Types (Dave Gash)'''
+
 For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: task, concept, or reference. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title without further reading.
 
 I suggest adopting the following title conventions for specific article types:
