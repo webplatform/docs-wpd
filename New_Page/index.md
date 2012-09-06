@@ -41,6 +41,11 @@ For pages that document a constant (for CSS, JavaScript, etc).
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
 
+==CSS At Rule==
+For pages that document a CSS At Rule (like @keyframes).
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=CSS At Rule|default value=foo|button text=Create CSS At Rule Page}}
+
 ==API Object==
 If you're documenting an API, like <code>document</code>. Generally all pages in this type have a URL that contains <code>apis</code>, and has method and property pages that are sub-pages.
 {{#forminput:form=API_Object|default value=apis/foo|button text=Create API Object Page}}
