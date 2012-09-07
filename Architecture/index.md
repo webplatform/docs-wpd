@@ -211,6 +211,11 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/Media_Content|Media Content]]
 * [[WPD:Architecture/Glossary|Glossary]]
 
+==Article Naming Conventions==
+Suggested Titling/Naming Convention for Article Types (Dave Gash).
+
+See [[WPD:Manual_Of_Style#Descriptive_Titles Manual Of Style, Descriptive Titles]]
+
 === Notes ===
 * Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
 
