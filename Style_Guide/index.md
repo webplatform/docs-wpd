@@ -3,8 +3,30 @@ For an article to be considered high quality, it should adhere to all of the fol
 You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | style guidelines]] page, which outlines the guidelines for specific sections of pages.
 
 ==Descriptive Titles==
-Choose useful titles (e.g., the name of a feature being documented)
-{{TODO | What are the capitalization rules for this? }}
+Choose useful titles (e.g., the name of a feature being documented).
+
+Titles are part of the URL structure, and so should follow certain rules:
+* Titles should be as short as possible. Leave out any articles (e.g., ''the'', ''an'', ''a'')
+* Only capitalize when absolutely necessary, such as for technical terms, like ''getElementByID''
+* Use minimal punctuation; for methods, do not use parens (''( )'') 
+* Separate words with a space ('' ''), which MediaWiki will convert to an underscore (''_''); only use hyphens (''-'') or dashes (''–'') when they are part of a word
+* When creating a subpage, avoid duplicating the parent title in the current title if at all possible, especially for long words.
+
+In the case where these rules make it difficult to make a descriptive coherent title, such as for a tutorial, the the ''title'' should be a minimally reduced version, and the real title should be given as a subtitle.
+
+==Article Naming Conventions==
+For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title without further reading.
+
+Please follow the following title conventions for specific article types:
+* '''About''' for articles with concept, background, overview, and similar content
+** Examples: "About Audio Types", "About Flexbox", "About Visibility"
+* '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
+** Examples: "Using the <audio> Tag", "Drawing on the Canvas", "Calling the getLocation() Function" 
+* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content
+** Examples: "<audio> Tag Attributes", "Valid .moveTo() Values", "Latitude and Longitude Notation"
+
+===Section Headings===
+As much as possible, use short sentences for heading titles, with minimal punctuation and articles, but the rules for titles do not necessarily apply to section headings.
 
 ==Neutral Voice==
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
