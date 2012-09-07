@@ -9,18 +9,18 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 * concepts
 ** concepts / IA
-** concepts / accessibility-general-context
+** concepts / accessibility
 ** concepts / usability
 ** concepts / UX
-** concepts / user-profiling
-** concepts / one-web
-** concepts / progressive-enhancement
-** concepts / responsive-design
+** concepts / user profiling
+** concepts / one web
+** concepts / progressive enhancement
+** concepts / responsive design
 ** concepts / ''foo''
 * html
 ** html  / ''foo''
 ** html  / validation
-** html  / quirksmode
+** html  / quirks mode
 ** html / data-types
 *** html / data-types / ''foo''
 ** html / elements
@@ -33,8 +33,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** html / apis / methods / ''foo''
 *** html / apis / properties
 **** html / apis / properties / ''foo''
-** html / tutorials
-*** html / tutorials / ''foo''
+** html / tutorials (a list of tutorials categorized as HTML)
 * css
 ** css  /  ''foo''
 ** css  / inheritance
@@ -59,8 +58,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** css / apis / methods / ''foo''
 *** css / apis / properties
 **** css / apis / properties / ''foo''
-** css / tutorials
-*** css / tutorials / ''foo'' 
+** css / tutorials (a list of tutorials categorized as CSS)
 * svg
 * svg / ''foo''
 ** svg / data-types
@@ -75,8 +73,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** svg / apis / methods / ''foo''
 *** svg / apis / properties
 **** svg / apis / properties / ''foo''
-** svg / tutorials
-*** svg / tutorials / ''foo''
+** svg / tutorials (a list of tutorials categorized as SVG)
 * mathml
 ** mathml  / ''foo''
 ** mathml / data-types
@@ -85,8 +82,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** mathml / elements / ''foo''
 ** mathml / attributes
 *** mathml / attributes / ''foo''
-** mathml / tutorials
-*** mathml / tutorials / ''foo'' 
+** mathml / tutorials (a list of tutorials categorized as MathML)
 * xml
 ** xml / ''foo''
 ** xml / data-types
@@ -95,14 +91,12 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** xml / elements / ''foo''
 ** xml / attributes
 *** xml / attributes / ''foo''
-** xml / tutorials
-*** xml / tutorials / ''foo'' 
+** xml / tutorials (a list of tutorials categorized as XML)
 * aria
 ** aria / ''foo''
 ** aria / attributes
 *** aria / attributes / ''foo''
-** aria / tutorials
-*** aria / tutorials / ''foo'' 
+** aria / tutorials (a list of tutorials categorized as ARIA)
 * apis
 ** apis / ''foo''
 *** apis / ''foo'' / ''foobar'' (interface)
@@ -119,7 +113,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** dom / apis / methods / ''foo''
 *** dom / apis / properties
 **** dom / apis / properties / ''foo''
-** dom / tutorials / ''foo'' 
+** dom / tutorials (a list of tutorials categorized as DOM)
 * events
 ** events / ''foo''
 ** events / apis
@@ -127,6 +121,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 **** events / apis / methods / ''foo''
 *** events / apis / properties
 **** events / apis / properties / ''foo''
+** dom / tutorials (a list of tutorials categorized as events)
 * js
 ** js  / feature-detection
 ** js  / OOP
@@ -146,8 +141,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 *** js / statements / ''foo''
 ** js / operators
 *** js / operators / ''foo''
-** js / tutorials
-*** js / tutorials / ''foo''
+** js / tutorials (a list of tutorials categorized as Javascript)
 ** js / libraries
 *** js / libraries / ''foo''
 * glossary
@@ -173,7 +167,6 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ** proprietary / mozilla
 *** proprietary / mozilla / ''foo''
 ** proprietary / ''foo''
-
 
 ===Content Requirements===
 See also the [[WPD:Content_Requirements|Content Requirements]] page.
