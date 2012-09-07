@@ -101,63 +101,59 @@
 | 1
 | Contractors
 | Comments extension (HW)
-|                                        
-| 
-| 
+| open                                       
+| 10 days
+| partly on Skinning
 | Sep 28
 |-
 | 1
 | Contractors
 | Site metrics (HW)
-|                                        
-| 
-| 
+| open                                       
+| 2 days
+| Improve deploy system (?)
 | Sep 28
 |-
 | 1
 | Contractors
-| Integration with other software (Single Sign-On) (HW)
-|                                        
+| Integration with other software (Single Sign-On): Wordpress (HW)
+| open                                       
+| 2 days
 | 
-| 
+* Installation of Wordpress
+* Launch add'l app server instances 
 | Sep 28
 |-
 | 1
 | Contractors
-| *WordPress blog (HW)
-|                                        
+| Integration with other software (Single Sign-On): Questions2Answers (HW)
+| open                                       
+| 3 days
 | 
-| 
-| Sep 28
-|-
-| 1
-| Contractors
-| *Questions2Answers forum (HW)
-|                                        
-| 
-| 
+* Installation of Questions2Answers
+* Launch add'l app server instances 
 | Sep 28
 |-
 | 1
 | Contractors
 | Search extension (page titles, categories) (HW)
-|                                        
-| 
-| 
+| open                                       
+| 3 days
+| partly on Skinning
 | Sep 28
 |-
 | 1
 | Contractors
 | Translation extension (HW)
-|                                        
-| 
-| 
+| open                                       
+| 8 days
+| partly on Skinning
 | Sep 28
 |-
 | 1
 | Contractors
 | Breadcrumbs extension (HW?)
-|                                        
+| work in progress                                       
 | 
 | 
 | Sep 28
@@ -165,7 +161,7 @@
 | 1
 | Contractors
 | Skinning (HW?)
-|                                        
+| work in progress                                       
 | 
 | 
 | Sep 28
