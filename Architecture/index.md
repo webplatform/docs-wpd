@@ -37,8 +37,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 * css
 ** css  /  ''foo''
 ** css  / inheritance
-** css  / the-cascade
-** css  / vendor-prefixes
+** css  / cascade
+** css  / vendor prefixes
 ** css / data-types
 ** css / data-types / length
 *** css / data-types / ''foo''
