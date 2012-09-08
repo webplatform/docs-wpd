@@ -93,6 +93,11 @@ For pages that document a DOM event, like <code>click</code>
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Event|default value=foo|button text=Create Event Page}}
 
+==Glossary Item==
+For pages that define a single term and its definition.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Glossary Item|default value=foo|button text=Create Glossary Item Page}}
+
 ==Tutorial==
 For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with <code>/tutorials</code>, although there may be redirects to them from other URLs in other sections.
 {{#forminput:form=Tutorial|default value=tutorials/foo|button text=Create Tutorial Page}}
