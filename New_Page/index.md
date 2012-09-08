@@ -8,9 +8,8 @@ To create a new page:
 {{Note| This page lists all page templates that currently exist. As we create more, we'll add them here.}}
 
 ==Markup Element==
-For pages that document a Markup Element (of HTML, SVG, or other types).
-{{TODO | Examples of topics and URLS}}
-{{#forminput:form=Markup_Element|default value=foo|button text=Create Markup Element Page}}
+For pages that document a Markup Element (of HTML, SVG, MathML, or XML). For example, <code>canvas</code>, <code>div</code>, <code>circle</code>. These articles normally live at URLs with a prefix of <code>{xml,svg,html,mathml}/elements/</code>
+{{#forminput:form=Markup_Element|default value=html/elements/foo|button text=Create Markup Element Page}}
 
 ==Markup Attribute==
 For pages that document a Markup attribute (of HTML, SVG, or other types), for example <code>class</code> or <code>href</code>.
