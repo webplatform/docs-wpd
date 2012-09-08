@@ -42,6 +42,11 @@ For pages that document a constant (for CSS, JavaScript, etc).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Constant|default value=foo|button text=Create Constant Page}}
 
+==Regex Metacharacter==
+For pages that document a regex metacharacter, like <code>*</code> or <code>.</code>. Make sure to use a descriptive name, not the literal character (as those are often illegal page names).
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Regex_Metacharacter|default value=foo|button text=Create Regex Metacharacter Page}}
+
 ==CSS Property==
 For pages that document a CSS property, like <code>font-size</code>. Generally, all pages that have a URL that begins with <code>/css/properties/</code> should live here.
 {{#forminput:form=CSS_Property|default value=css/properties/foo|button text=Create CSS Property Page}}
