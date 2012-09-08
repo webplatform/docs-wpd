@@ -112,7 +112,9 @@ For pages that are guides to a given complex topic.
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Guide|default value=foo|button text=Create Guide Page}}
 
-
 ==Basic==
 For content pages (that is, pages in the default namespace) that do not have a more specific form to use.
 {{#forminput:form=Basic|button text=Create Basic Page}}
+
+{{TODO | Create a Media Content page type}}
+{{TODO | Create a Protocol page type}}
