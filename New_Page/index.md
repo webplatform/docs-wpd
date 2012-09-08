@@ -16,8 +16,8 @@ For pages that document a Markup attribute (of HTML, SVG, MathML or XML), for ex
 {{#forminput:form=Markup_Attribute|default value=html/attributes/foo|button text=Create Markup Attribute Page}}
 
 ==Markup Structure==
-For pages that document a Markup structure (of HTML, SVG, or other types).
-{{TODO | Examples of topics and URLS}}
+For pages that document a Markup structure (of HTML, SVG, or other types). For example, <code>CDATA</code>.
+{{TODO | Where ''do'' these live in the URL structure?}}
 {{#forminput:form=Markup_Structure|default value=foo|button text=Create Markup Structure Page}}
 
 ==JavaScript Statement==
