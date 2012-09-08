@@ -93,6 +93,11 @@ For pages that document a DOM event, like <code>click</code>
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Event|default value=foo|button text=Create Event Page}}
 
+==Glossary==
+For pages that act as a collection of Glossary Items.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Glossary|default value=foo|button text=Create Glossary Page}}
+
 ==Glossary Item==
 For pages that define a single term and its definition.
 {{TODO | Examples of topics and URLS}}
