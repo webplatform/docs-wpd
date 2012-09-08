@@ -12,6 +12,11 @@ For pages that document a Markup Element (of HTML, SVG, or other types).
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Markup_Element|default value=foo|button text=Create Markup Element Page}}
 
+==Markup Attribute==
+For pages that document a Markup attribute (of HTML, SVG, or other types), for example <code>class</code> or <code>href</code>.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Markup_Attribute|default value=foo|button text=Create Markup Attribute Page}}
+
 ==Markup Structure==
 For pages that document a Markup structure (of HTML, SVG, or other types).
 {{TODO | Examples of topics and URLS}}
