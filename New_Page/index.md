@@ -21,9 +21,8 @@ For pages that document a Markup structure (of HTML, SVG, or other types). For e
 {{#forminput:form=Markup_Structure|default value=foo|button text=Create Markup Structure Page}}
 
 ==JavaScript Statement==
-For pages that document a JavaScript statement.
-{{TODO | Examples of topics and URLS}}
-{{#forminput:form=JavaScript_Statement|default value=foo|button text=Create JavaScript Statement Page}}
+For pages that document a JavaScript statement, for example <code>for</code>, or <code>var</code>. Normally their URLs begin with <code>js/statements/</code>
+{{#forminput:form=JavaScript_Statement|default value=js/statements/foo|button text=Create JavaScript Statement Page}}
 
 ==JavaScript Operator==
 For pages that document a JavaScript operator.
