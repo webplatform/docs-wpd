@@ -25,9 +25,8 @@ For pages that document a JavaScript statement, for example <code>for</code>, or
 {{#forminput:form=JavaScript_Statement|default value=js/statements/foo|button text=Create JavaScript Statement Page}}
 
 ==JavaScript Operator==
-For pages that document a JavaScript operator.
-{{TODO | Examples of topics and URLS}}
-{{#forminput:form=JavaScript_Operator|default value=foo|button text=Create JavaScript Operator Page}}
+For pages that document a JavaScript operator, for example <code>+</code> or <code>.</code>. These normally live at URLs that begin with <code>js/operators/</code>. Note that you must use a readable long-form name as many of the actual values are illegal in URLs.
+{{#forminput:form=JavaScript_Operator|default value=js/operators/foo|button text=Create JavaScript Operator Page}}
 
 ==Data Type==
 For pages that document a data type (for CSS, JavaScript, etc).
