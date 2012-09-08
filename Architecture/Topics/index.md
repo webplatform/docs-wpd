@@ -6,4 +6,9 @@ Most articles have a form section for Topics that can be checked off. This form 
 
 You can see which topics there are either by viewing that part of any page editing form or this list: [[:Category:Topics]].
 
-{{TODO | Document guidelines for creating new Topics and how.}}
+===Steps to add a new topic===
+
+# Create a Category:Foo page. Add '''<nowiki>[[Category:Topics]]</nowiki>''' to it to make it a sub-category of the Topics category.
+# Add the topic name (''exactly'' the Category name, minus <code>Category:</code>) to [[Property:Topics]]. This property is how the Topic form section's checkboxes are automatically generated.
+
+{{TODO | Document guidelines for when a new Topic is warranted.}}
