@@ -370,7 +370,7 @@ These are available from Mozilla:
 * [http://www.html5rocks.com/en/tutorials/notifications/quick/ Using the Notifications API]
 * [http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/ A Simple Trip Meter using the Geolocation API]
 * [http://www.html5rocks.com/en/tutorials/speed/quick/ Best Practices for a Faster Web App with HTML5]
-* [http://www.html5rocks.com/en/tutorials/developertools/part1/ Introduction to Chrome Developer Tools, Part One]
+* [http://www.html5rocks.com/en/tutorials/developertools/part1/ Introduction to Chrome Developer Tools, Part One] - Chrome only
 * [http://www.html5rocks.com/en/tutorials/appcache/beginner/ A Beginner's Guide to Using the Application Cache]
 * [http://www.html5rocks.com/en/tutorials/file/dndfiles/ Reading files in JavaScript using the File APIs]
 * [http://www.html5rocks.com/en/tutorials/offline/takingappoffline/ Practical Guide to Take Your TODO List Offline]
@@ -384,7 +384,7 @@ These are available from Mozilla:
 * [http://www.html5rocks.com/en/tutorials/casestudies/html5_in_deviantart_muro.html Case Study: HTML5 in deviantART muro]
 * [http://www.html5rocks.com/en/tutorials/dnd/basics/ Native HTML5 Drag and Drop]
 * [http://www.html5rocks.com/en/tutorials/offline/storage/ Client-Side Storage]
-* [http://www.html5rocks.com/en/tutorials/flexbox/quick/ Quick hits with the Flexible Box Model]
+* [http://www.html5rocks.com/en/tutorials/flexbox/quick/ Quick hits with the Flexible Box Model] - Out of date
 
 === ARTICLE BATCH 12 ===
 
@@ -395,8 +395,8 @@ These are available from Mozilla:
 * [http://www.html5rocks.com/en/tutorials/websockets/basics/ Introducing WebSockets: Bringing Sockets to the Web]
 * [http://www.html5rocks.com/en/tutorials/eventsource/basics/ Stream Updates with Server-Sent Events]
 * [http://www.html5rocks.com/en/tutorials/casestudies/entanglement.html Case Study: Getting Entangled with HTML5 Canvas]
-* [http://www.html5rocks.com/en/tutorials/indexeddb/todo/ A Simple TODO list using HTML5 IndexedDB]
-* [http://www.html5rocks.com/en/tutorials/file/filesystem/ Exploring the FileSystem APIs]
+* [http://www.html5rocks.com/en/tutorials/indexeddb/todo/ A Simple TODO list using HTML5 IndexedDB] - Out of date
+* [http://www.html5rocks.com/en/tutorials/file/filesystem/ Exploring the FileSystem APIs] - Chrome only
 * [http://www.html5rocks.com/en/tutorials/casestudies/20things_pageflip.html Case Study: Page Flip Effect from 20thingsilearned.com]
 * [http://www.html5rocks.com/en/tutorials/casestudies/mathboard.html Case Study: HTML5 MathBoard]
 * [http://www.html5rocks.com/en/tutorials/canvas/notearsgame/ No Tears Guide to HTML5 Games]
