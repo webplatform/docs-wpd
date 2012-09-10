@@ -32,6 +32,7 @@ Different flags have different guidelines for when they should be used, and for 
 * Content_Missing_Specification_Links
 * Content_API_Documentation_Incomplete
 * Content_Includes_Discussion
+* '''Content_Broken_Links''' ''For when some content links don't work; in practice used a lot on imported content.''
 
 ====Compatibility Quality====
 * Compatibility_Outdated
