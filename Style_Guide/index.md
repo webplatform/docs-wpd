@@ -7,7 +7,7 @@ Choose useful titles (e.g., the name of a feature being documented).
 
 Titles are part of the URL structure, and so should follow certain rules:
 * Titles should be as short as possible. Leave out any articles (e.g., ''the'', ''an'', ''a'')
-* Only capitalize when absolutely necessary, such as for technical terms, like ''getElementByID''
+* Only capitalize when absolutely necessary, such as for technical terms, like ''getElementById''
 * Use minimal punctuation; for methods, do not use parens (''( )'') 
 * Separate words with a space ('' ''), which MediaWiki will convert to an underscore (''_''); only use hyphens (''-'') or dashes (''–'') when they are part of a word
 * When creating a subpage, avoid duplicating the parent title in the current title if at all possible, especially for long words.
