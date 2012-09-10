@@ -6,6 +6,8 @@ Most articles have a form section for Topics that can be checked off. This form 
 
 You can see which topics there are either by viewing that part of any page editing form or this list: [[:Category:Topics]].
 
+Topics differ from "Topic Clusters" because Topics are designed to be wide-ranging "tags" throughout the site that end users may use to find content, whereas Topic Clusters are used very specifically to auto-generate portions of the See Also sections, and nothing else.
+
 ===Steps to add a new topic===
 
 # Create a Category:Foo page. Add '''<nowiki>[[Category:Topics]]</nowiki>''' to it to make it a sub-category of the Topics category.
