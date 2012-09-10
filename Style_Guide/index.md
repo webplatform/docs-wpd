@@ -14,7 +14,7 @@ Titles are part of the URL structure, and so should follow certain rules:
 
 In the case where these rules make it difficult to make a descriptive coherent title, such as for a tutorial, the the ''title'' should be a minimally reduced version, and the real title should be given as a subtitle.
 
-==Article Naming Conventions==
+===Article Naming Conventions===
 For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title without further reading.
 
 Please follow the following title conventions for specific article types:
