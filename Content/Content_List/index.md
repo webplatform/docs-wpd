@@ -392,7 +392,7 @@ These are available from Mozilla:
 
 ====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
 
-* [http://www.html5rocks.com/en/tutorials/websockets/basics/ Introducing WebSockets: Bringing Sockets to the Web]
+* [http://www.html5rocks.com/en/tutorials/websockets/basics/ Introducing WebSockets: Bringing Sockets to the Web] - broken
 * [http://www.html5rocks.com/en/tutorials/eventsource/basics/ Stream Updates with Server-Sent Events]
 * [http://www.html5rocks.com/en/tutorials/casestudies/entanglement.html Case Study: Getting Entangled with HTML5 Canvas]
 * [http://www.html5rocks.com/en/tutorials/indexeddb/todo/ A Simple TODO list using HTML5 IndexedDB] - Out of date
