@@ -396,7 +396,7 @@ These are available from Mozilla:
 * [http://www.html5rocks.com/en/tutorials/eventsource/basics/ Stream Updates with Server-Sent Events]
 * [http://www.html5rocks.com/en/tutorials/casestudies/entanglement.html Case Study: Getting Entangled with HTML5 Canvas]
 * [http://www.html5rocks.com/en/tutorials/indexeddb/todo/ A Simple TODO list using HTML5 IndexedDB] - Out of date
-* [http://www.html5rocks.com/en/tutorials/file/filesystem/ Exploring the FileSystem APIs] - Chrome only
+* [http://www.html5rocks.com/en/tutorials/file/filesystem/ Exploring the FileSystem APIs]
 * [http://www.html5rocks.com/en/tutorials/casestudies/20things_pageflip.html Case Study: Page Flip Effect from 20thingsilearned.com]
 * [http://www.html5rocks.com/en/tutorials/casestudies/mathboard.html Case Study: HTML5 MathBoard]
 * [http://www.html5rocks.com/en/tutorials/canvas/notearsgame/ No Tears Guide to HTML5 Games]
