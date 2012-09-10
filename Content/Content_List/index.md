@@ -381,7 +381,7 @@ These are available from Mozilla:
 * [http://www.html5rocks.com/en/tutorials/video/basics/ HTML5 Video]
 * [http://www.html5rocks.com/en/tutorials/3d/css/ 3D and CSS]
 * [http://www.html5rocks.com/en/tutorials/casestudies/box_dnd_download.html Case Study: Drag and Drop Download in Chrome]
-* [http://www.html5rocks.com/en/tutorials/casestudies/html5_in_deviantart_muro.html Case Study: HTML5 in deviantART muro]
+* [http://www.html5rocks.com/en/tutorials/casestudies/html5_in_deviantart_muro.html Case Study: HTML5 in deviantART muro] - Schmarketing?
 * [http://www.html5rocks.com/en/tutorials/dnd/basics/ Native HTML5 Drag and Drop]
 * [http://www.html5rocks.com/en/tutorials/offline/storage/ Client-Side Storage]
 * [http://www.html5rocks.com/en/tutorials/flexbox/quick/ Quick hits with the Flexible Box Model] - Out of date
