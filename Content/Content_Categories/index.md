@@ -1,5 +1,7 @@
 {{Flags}}
 {{Basic Page}}
+'''This page is deprecated; see [[WPD:Topics]] instead.'''
+
 The following is a list of the various categories that may apply to content in WPD.
 
 ==Concepts==
@@ -79,8 +81,6 @@ The following is a list of the various categories that may apply to content in W
 *selector
 *statement
 *structure
-
-
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
