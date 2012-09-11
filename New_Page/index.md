@@ -108,6 +108,11 @@ For pages that are guides to a given complex topic.
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=Guide|default value=foo|button text=Create Guide Page}}
 
+==Concept==
+For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
+{{TODO | Examples of topics and URLS}}
+{{#forminput:form=Concept_Page|default value=concepts/foo|button text=Create Concept Page}}
+
 ==Basic==
 For content pages (that is, pages in the default namespace) that do not have a more specific form to use.
 {{#forminput:form=Basic|button text=Create Basic Page}}
