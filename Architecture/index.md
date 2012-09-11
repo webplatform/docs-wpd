@@ -8,14 +8,16 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 ===Proposed Site Structure===
 
 * concepts
-** concepts / IA
 ** concepts / accessibility
-** concepts / usability
-** concepts / UX
-** concepts / user profiling
+** concepts / IA
+** concepts / Internet and web
 ** concepts / one web
 ** concepts / progressive enhancement
 ** concepts / responsive design
+** concepts / security
+** concepts / usability
+** concepts / user profiling
+** concepts / UX
 ** concepts / ''foo''
 * html
 ** html  / ''foo''
