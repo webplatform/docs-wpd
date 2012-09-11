@@ -1,46 +1,55 @@
 {{Flags}}
 {{Basic Page}}
-Converting HTML to Wiki markup for inserting into a WPD page
+This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.
 
 == Preparation ==
 
+===1. Open up the pages you need to do this work:===
 
-1. Open up the pages you need to do this work:
+* [https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c#gid=0 Alex's content batch tracking spreadsheet]
+* The [http://webplatform.org/docs/WPD:Content_Requirements Content requirements]
+* The [http://webplatform.org/docs/WPD:Architecture Site architecture document]
+* The [http://webplatform.org/docs/WPD:New_Page New page creator tool]
 
-a. Alex's content batch tracking spreadsheet at https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c#gid=0
+===2. Choose a batch to work on===
 
-b. The content requirements at http://webplatform.org/docs/WPD:Content_Requirements
+Mark it as being in progress in Alex's spread
 
-c. The site architecture document at http://webplatform.org/docs/WPD:Architecture
+===3. Choose an article to work on===
 
-d. The New page creator tool at http://webplatform.org/docs/WPD:New_Page
+From the batch you have chosen.
 
-2. Choose a batch to work on, and mark it as being in progress in Alex's spread
-
-3. Choose an article to work on.
-
-4. Go to the relevant tab on Alex's spread for the batch you are working on. For your current article, do the following:
-
+Go to the relevant tab on Alex's spread for the batch you are working on. For your current article, do the following:
 * fill in the article name and existing URL.
-* fill in a new article name for your article, for the article as it will appear on WPD. This will generally be very similar to the name of the article as it appears on http://webplatform.org/docs/WPD:Content_Requirements, but it might differ a bit. Read http://webplatform.org/docs/WPD:Manual_Of_Style#Descriptive_Titles_Manual_Of_Style.2C_Descriptive_Titles to get more of a clue about this.
-* Choose a page category for your page, and fill it in. Page categories are generally the same as page types (see http://webplatform.org/docs/WPD:New_Page), but you should fill in a more specific page category identifier, as several different ones might fit into a single page type. For example, it would include things like DOM Interface (as opposed to API_Object being the page type). The point of this column is to enumerate how many import scripts we would need based on how many categories of things to import there are from your content.
-* Choose a page type for your page to be based on, at http://webplatform.org/docs/WPD:New_Page, and fill it in.
+* fill in a new article name for your article, for the article as it will appear on WPD. This will generally be very similar to the name of the article as it appears on the [http://webplatform.org/docs/WPD:Content_Requirements content requirements], but it might differ a bit. Read the [http://webplatform.org/docs/WPD:Manual_Of_Style#Descriptive_Titles_Manual_Of_Style.2C_Descriptive_Titles article titling guide] to get more of a clue about this.
+* Choose a page category for your page, and fill it in. Page categories are generally the same as page types (see the [http://webplatform.org/docs/WPD:New_Page New page tool]), but you should fill in a more specific page category identifier, as several different ones might fit into a single page type. For example, it would include things like DOM Interface (as opposed to API_Object being the page type). The point of this column is to enumerate how many import scripts we would need based on how many categories of things to import there are from your content.
+* Choose a page type for your page to be based on, at the [http://webplatform.org/docs/WPD:New_Page New page tool], and fill it in.
 
 [ALEX - I CREATED A NEW "WPD NAME" COLUMN IN THE BATCH TABS ON YOUR SPREADSHEET, AS IT IS EASIER TO AKE A NOTE OF THE NAME YOU ARE GOING TO USE FIRST, AND THEN FILL IN THE URL WHEN THE NEW PAGE TOOL CREATES IT FOR YOU, WHIHC WON'T BE UNTIL SLIGHTLY LATER]
 
 == Implementation ==
 
-1. Fill in your chosen page title, in the text field in the relevant page type section at http://webplatform.org/docs/WPD:New_Page. You should basically replace "foo" in each case with your page title. 
+=== Fill in your chosen page title===
 
-2. Press the "Create…" button for your page type. This will take you to the form editing page for your new page.
+in the text field in the relevant page type section at the [http://webplatform.org/docs/WPD:New_Page New page tool]. You should basically replace "foo" in each case with your page title. 
 
-3. Immediately go to the bottom on the page and press "Save". Grab the Page URL and fill it in, in the "WPD URL" field of Alex's spreadsheet. It may seem tedious having to fill in all this information in Alex's spreadsheet, but it will make a lot of things way easier later on, if we have it to hand.
+===Press the "Create…" button for your page type===
 
-4. Press the edit button, and start filling in the form.
+This will take you to the form editing page for your new page.
+
+===record your page URL===
+
+Immediately go to the bottom on the page and press "Save". Grab the Page URL and fill it in, in the "WPD URL" field of Alex's spreadsheet. It may seem tedious having to fill in all this information in Alex's spreadsheet, but it will make a lot of things way easier later on, if we have it to hand.
+
+===Start filling in the form===
+
+Press the edit button, and start filling in the form.
 
 [THESE INSTRUCTIONS WILL DIFFER FROM PAGE TO PAGE - THE CURRENT ONES ARE ONLY FOR TUTORIALS. WE'LL HAVE TO ADD MORE AS WE TACKLE DIFFERENT PAGE TYPES.]
 
-5. First of all, tackle the main content box - this is where the bulk of your article content goes:
+====Main content====
+
+First of all, tackle the main content box - this is where the bulk of your article content goes:
 
 # Take a copy of the HTML you want to convert - this is best done like so, from the different sources:
 
@@ -54,32 +63,34 @@ d. The New page creator tool at http://webplatform.org/docs/WPD:New_Page
 
 # Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:
 
-I. Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.
-
-II. Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]
-
-III. Tidy up code blocks. Code samples should be wrapped in <pre></pre> tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
+* Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.
+* Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]
+* Tidy up code blocks. Code samples should be wrapped in <pre></pre> tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
 
 <pre>This
   is a
   code
 Sample</pre>
 
-IV. Images (I'M YET TO GET TO AN IMAGE)
+* Images (I'M YET TO GET TO AN IMAGE)
+* Executable code samples (I'M YET TO GET TO AN EXECUTABLE CODE SAMPLE)
+* Foo
 
-V. Executable code samples (I'M YET TO GET TO AN EXECUTABLE CODE SAMPLE)
+====flags/issues====
 
-VI. Foo
+Check any boxes for issues that you know apply to the current article, and enter any editorial notes you want to add at this stage. [I REALLY WOULDN'T OBSESS OVER THESE RIGHT NOW - BETTER TO GET THE ARTICLES ON THE SITE FIRST, AND THEN WORRY ABOUT THESE LATER IF YOU ARE NOT SURE WHAT TO PUT]
 
-6. Now fill out the other information the article needs:
+====Summary====
 
-a. Check any boxes for issues that you know apply to the current article, and enter any editorial notes you want to add at this stage. [I REALLY WOULDN'T OBSESS OVER THESE RIGHT NOW - BETTER TO GET THE ARTICLES ON THE SITE FIRST, AND THEN WORRY ABOUT THESE LATER IF YOU ARE NOT SURE WHAT TO PUT]
+Fill in a short top level summary to say what the article covers.
 
-b. Fill in a short top level summary to say what the article covers.
+====Next and previous pages====
 
-c. You probably won't be able to fill in next and previous pages at first. Leave this blank for now, and come back when you've filled in a whole series, or batch.
+You probably won't be able to fill in next and previous pages at first. Leave this blank for now, and come back when you've filled in a whole series, or batch.
 
-d. In the compatibility section, fill in information on what browser support there is for the technology features discussed in the tutorial. If the article does not discuss specific technology features, check the "Not required checkbox".
+====Browser compatibility====
+
+In the compatibility section, fill in information on what browser support there is for the technology features discussed in the tutorial. If the article does not discuss specific technology features, check the "Not required" checkbox.
 
 To add a section detailing support for a single technology feature on desktop of mobile browsers, click the relevant "Add another button" and fill in the big box that appears - these are pretty intuitive. You can have multiple ones for multiple technology features.
 
@@ -87,7 +98,9 @@ To add a section detailing support for a single technology feature on desktop of
 
 The "Compatibility note" section is for you to add support information about a browser that doesn't appear in the list.
 
-e. In the "See also" section, include any further information and links to other resources that you deem relevant.
+====See also section: references and further reading====
+
+In the "See also" section, include any further information and links to other resources that you deem relevant.
 
 Click a topic cluster if you want your article to be part of a specific topic cluster.
 
@@ -103,9 +116,13 @@ You need to include the links in bullet form, like this:
 
 If you want to put any extra text and headings below the reference links in the "Manual sections" field, you'll need to start the headings at heading level three for them to appear underneath the "See also" heading. You can start them at page 2 if you want to include more sections at the bottom unrelated to "See also", but I'm not sure why you'd want to do that.
 
-f. the "Topics" section allows you to put the current article into a high level topic, such as Accessibility, or CSS. You can choose multiple topics for each article. These will appear at the very bottom of the page.
+====Page topics====
 
-g. The "External attribution" section is for you to fill in extra licensing information about the article. It should be licensed as CC-BY, in which case you can do nothing.
+The "Topics" section allows you to put the current article into a high level topic, such as Accessibility, or CSS. You can choose multiple topics for each article. These will appear at the very bottom of the page.
+
+====Attribution====
+
+The "External attribution" section is for you to fill in extra licensing information about the article. It should be licensed as CC-BY, in which case you can do nothing.
 
 If it is instead licensed as CC-BY-SA, check the top checkbox. You may also need to fill in one of the other checkboxes instead, provide an external link and the summary at the bottom, to say what the content has come from and how it is licensed, as appropriate. If the content's license is incompatible with WPD, it will be removed.
 
@@ -116,11 +133,7 @@ If it is instead licensed as CC-BY-SA, check the top checkbox. You may also need
 In the "overview" tab of Alex's tracking spread, you should update the status of each task for your batch as you complete them - these are the dreaded red boxes. The less red you see, the better! You will generally only change the status of these boxes twice - once to "In progress" when you start progress on a batch, and once when to "Done" you complete processing all articles in a batch (as you tend to do all the tasks concurrently.)
 
 If you can't complete a batch, set your boxes to "Blocked" and report to the list why they are blocked.
-
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
