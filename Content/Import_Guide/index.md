@@ -65,7 +65,7 @@ First of all, tackle the main content box - this is where the bulk of your artic
 
 * Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.
 * Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]
-* Tidy up code blocks. Code samples should be wrapped in <pre></pre> tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
+* Tidy up code blocks. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
 
 <pre>This
   is a
