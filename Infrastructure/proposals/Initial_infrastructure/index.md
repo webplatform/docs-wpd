@@ -28,7 +28,7 @@
 |-
 | 1
 | Ryan
-| REview code (extensions and SemMediaWiki)
+| Review code (extensions and SemMediaWiki)
 |                                        
 | 
 | 
