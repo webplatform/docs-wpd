@@ -13,8 +13,8 @@
 | Ryan
 | New URL structure
 |                                        
-| 
-| 
+| 5-10 hours
+| DNS changes
 | Sep 28
 |-
 |-
@@ -22,72 +22,72 @@
 | Ryan
 | Fast.ly integration
 |                                        
-| 
-| 
+| 1-2 hours
+| New URL structure
 | Sep 28
 |-
 | 1
 | Ryan
 | Review code (extensions and SemMediaWiki)
 |                                        
-| 
-| 
+| 1-2 hours
+| None
 | Sep 28
 |-
 | 1
 | Ryan
 | Move to DB service
 |                                        
-| 
-| 
+| 1-2 hours
+| None
 | Sep 28
 |-
 | 1
 | Ryan
 | Backups/Restore instructions
 |                                        
-| 
-| 
+| 2-5 hours
+| None
 | Sep 28
 |-
 | 1
 | Ryan
 | Move to Block Service for gluster and backups
 |                                        
-| 
-| 
+| 1-2 hours
+| None
 | Sep 28
 |-
 | 1
 | Ryan
 | Staging Server
 |                                        
-| 
-| 
+| 4-5 hours
+| New URL structure
 | Sep 28
 |-
 | 1
 | Ryan
 | Improve deploy system
 |                                        
-| 
-| 
+| 1-2 hours
+| None
 | Sep 28
 |-
 | 2
 | Ryan
 | Move to object storage for media uploads
 |                                        
-| 
-| 
+| 4-5 hours
+| Need to ask Wikimedia about how it works
 | Sep 28
 |-
 | 1
 | Ryan
 | Launch add'l app server instances
 |                                        
-| 
-| 
+| 1-2 hours
+| None
 | Sep 28
 |-
 | 1
