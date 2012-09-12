@@ -51,43 +51,38 @@ Press the edit button, and start filling in the form.
 
 First of all, tackle the main content box - this is where the bulk of your article content goes:
 
-# Take a copy of the HTML you want to convert - this is best done like so, from the different sources:
+* Take a copy of the HTML you want to convert - this is best done like so, from the different sources:
+** MDN - sign in to MDN, press the edit button, press the Source button on the editing interface, and copy and paste the contents of the <body></body> tags into a blank text file.
+** Opera web standards curriculum - this material is already in Wiki markup, so you've got a much easier job here!
+** foo
+* Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <body></body> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.
+* Go to http://w-i-k-i.appspot.com/. Choose "HTML to Wikipedia" from the drop down box at the bottom of the page. Paste your valid HTML into it, and press the "Convert input" button. Grab a copy of the result.
+* Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:
+** Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.
+** Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]
+** Tidy up code blocks. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
 
-* MDN - sign in to MDN, press the edit button, press the Source button on the editing interface, and copy and paste the contents of the <body></body> tags into a blank text file.
-* Opera web standards curriculum - this material is already in Wiki markup, so you've got a much easier job here!
-* foo
+:: <pre>This
+::  is a
+::  code
+:: Sample</pre>
 
-# Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <body></body> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.
+** Images: To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.
 
-# Go to http://w-i-k-i.appspot.com/. Choose "HTML to Wikipedia" from the drop down box at the bottom of the page. Paste your valid HTML into it, and press the "Convert input" button. Grab a copy of the result.
+:: Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:
 
-# Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:
+&#91; &#91; Image:image-filename.jpg|alt text you want your image to have&#93;&#93;
 
-* Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.
-* Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]
-* Tidy up code blocks. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:
+:: Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there. 
 
-<pre>This
-  is a
-  code
-Sample</pre>
+:: When you've done that, go back to the page and refresh - the image should appear in place of the red link. The wiki markup you entered above should be rendered in the final HTML:
 
-* Images: To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.
+<pre>&lt;img src="image-filename.jpg" alt="alt text you want your image to have"&gt;</pre>
 
-Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:
+:: Media wiki may have also tagged some icky presentational HTML crap onto the end of this like, like <code>border="0"</code>, but hey, it works, and no kittens are going to die.
 
-[[Image:image-filename.jpg|alt text you want your image to have]]
-
-Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there. 
-
-When you've done that, go back to the page and refresh - the image should appear in place of the red link. The wiki markup you entered above should be rendered in the final HTML:
-
-<img src="image-filename.jpg" alt="alt text you want your image to have">
-
-Media wiki may have also tagged some icky presentational HTML crap onto the end of this like, like <code>border="0"</code>, but hey, it works, and no kittens are going to die.
-
-* Executable code samples (I'M YET TO GET TO AN EXECUTABLE CODE SAMPLE)
-* Foo
+** Executable code samples (I'M YET TO GET TO AN EXECUTABLE CODE SAMPLE)
+** Foo
 
 ====flags/issues====
 
