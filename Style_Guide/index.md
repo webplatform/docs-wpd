@@ -31,8 +31,12 @@ As much as possible, use short sentences for heading titles, with minimal punctu
 ==Neutral Voice==
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
 
-==Correct grammar and spelling==
-We follow the <established Style guide we prefer> guidelines for style.
+==Grammar and spelling conventions==
+We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spalling, gramattical, or other language query.
+
+=== Common word and phrase conventions ===
+
+*
 
 ==Free of spam==
 Spam makes it hard for readers of the site to find what they’re looking for, and should be removed as soon as possible.
