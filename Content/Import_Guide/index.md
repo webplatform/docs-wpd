@@ -72,7 +72,20 @@ First of all, tackle the main content box - this is where the bulk of your artic
   code
 Sample</pre>
 
-* Images (I'M YET TO GET TO AN IMAGE)
+* Images: To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.
+
+Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:
+
+[[Image:image-filename.jpg|alt text you want your image to have]]
+
+Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there. 
+
+When you've done that, go back to the page and refresh - the image should appear in place of the red link. The wiki markup you entered above should be rendered in the final HTML:
+
+<img src="image-filename.jpg" alt="alt text you want your image to have">
+
+Media wiki may have also tagged some icky presentational HTML crap onto the end of this like, like <code>border="0"</code>, but hey, it works, and no kittens are going to die.
+
 * Executable code samples (I'M YET TO GET TO AN EXECUTABLE CODE SAMPLE)
 * Foo
 
@@ -136,4 +149,7 @@ If you can't complete a batch, set your boxes to "Blocked" and report to the lis
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
