@@ -28,6 +28,10 @@ Please follow the following title conventions for specific article types:
 ===Section Headings===
 As much as possible, use short sentences for heading titles, with minimal punctuation and articles, but the rules for titles do not necessarily apply to section headings.
 
+===Title casing===
+
+You should capitalise the first word of each title, but not every word. So '''Web standards rock''', but not '''Web Standards Rock'''
+
 ==Neutral Voice==
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
 
@@ -36,7 +40,10 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 
 === Common word and phrase conventions ===
 
-*
+* Internet, not internet, when used as a proper noun, e.g. '''The Internet'''. Otherwise, use lower case, e.g. '''Do you think internet marketing is a real degree?'''
+* Web, not web, when used as a proper noun, e.g. '''The Web'''. Otherwise, use lower case, e.g. '''I think CSS is a web-related topic'''
+* website, not web site
+
 
 ==Free of spam==
 Spam makes it hard for readers of the site to find what they’re looking for, and should be removed as soon as possible.
