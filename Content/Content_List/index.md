@@ -457,26 +457,30 @@ We already have
 And the following available from Nokia:
 
 Reusable mobile templates or components
-
+<s>
 * [http://www.developer.nokia.com/Develop/Web/Mobile_web_browsing/Web_templates/Templates_for_smartphones/ Templates for smartphones]
 * [http://www.developer.nokia.com/Develop/Web/Mobile_web_browsing/Web_templates/Templates_for_mobile_phones/ Templates for mobile phones]
 * [http://projects.developer.nokia.com/mobile_web_components Mobile Web Components]
+</s>
 
 Mobile web development shortcuts articles
 
 * [http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/common-elements-of-nokia-browsers/device-and-browser-detection.html#toc_Clientsidedetection Device and browser detection]
 * [http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/common-elements-of-nokia-browsers/mobile-javascript-best-practices.html Mobile JavaScript best practies]
+<s>
 * [http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/common-elements-of-nokia-browsers/mobile-optimised-cms-plug-ins.html Mobile-optimised CMS plug-ins]
+</s> 
 
+(Some don't seen to fit WPD anymore after revewing our content style/types)
 
 PROPOSED STRUCTURE
 
-# [[Mobile beginnings: An introduction to the mobile web]] (include history of mobiles, how mobile networks work, what the hardware looks like, what the software looks like)
+# Mobile beginnings: An introduction to the mobile web (include history of mobiles, how mobile networks work, what the hardware looks like, what the software looks like) [[http://webplatform.org/docs/concepts/About_mobile_web About the mobile web]]
 # [[What do the devices look like?]] (a fairly detailed reference showing the types of devices you are likely to need to support when building cross device adaptive apps. Include data such as screen resolution, espect ratio and dpi of the different devices. This kid of reference material will be very useful to developers.)
 # [[Mobile constraints and advantages]] (what are the specific constraints you need to work around for mobile and alternative browsing devices? What are the advantages, eg the context specific technologies you can take advantage of?)
 # [[Mobile friendly: web design and development Overview]] (start with a basis of semantic HTML, accessibility best practices are Making an app or site mobile friendly - do you create a different site, or do you adapt your existing site for mobile? A brief introduction to Adaptive design - graceful degradation, progressive enhancement, using media queries and viewport to adapt layout, using feature detection to server appropriate content and services, geolocation, multimedia, offline apps, don't use browser sniffing!) A lot of this will be covered elsewhere.
-# Feature detection, polyfilling, graceful degredation, etc. An article on this would be good, maybe something which showed how to detect for all different features. Kind of like Mark Pilgrims' No bullshit guide to detecting everything. Before he took it all down.
-# MOBILE/DEVICE TESTING
+# [[http://webplatform.org/docs/Implementing_mobile_browser_feature_detecion Implementing mobile browser feature detection]] Feature detection, polyfilling, graceful degredation, etc. An article on this would be good, maybe something which showed how to detect for all different features. Kind of like Mark Pilgrims' No bullshit guide to detecting everything. Before he took it all down.
+# [[http://webplatform.org/docs/Testing_with_mobile_browsers Testing with mobile browsers]] CoreMob specs, Ringmark
 
 OTHER THINGS TO ADD ELSEWHERE IN THE MATERIAL
 
