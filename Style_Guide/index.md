@@ -97,3 +97,10 @@ Different [[WPD:Manual Of Style/Article Types|types of articles]] have different
 Different sections have [[WPD:Manual Of Style/Section Guidelines|different style guidelines]]. Each section of the article should follow all of the applicable style guidelines.
 
 ''Note: Further manual of style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].''
+
+==Use Accepted Wikitext Syntax Conventions==
+WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax, which everyone should use when editing pages:
+
+* [[WPD:Manual_Of_Style/Tables|Tables]]
+* [[WPD:Manual_Of_Style/Links|Links]]
+* [[WPD:Manual_Of_Style/Code Examples|Code Examples]]
