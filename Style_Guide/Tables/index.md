@@ -75,7 +75,7 @@ Do not use the single-line row syntax.
 MediaWiki has the ability to create sortable tables, simply by adding the class <code>wikitable sortable</code>:
 
 <pre><nowiki>
-{| class="sortable"|
+{| class="sortable"
 ! head 1
 ! head 2
 ! head 3
@@ -92,7 +92,7 @@ MediaWiki has the ability to create sortable tables, simply by adding the class 
 
 This results in the following table:
 
-{| class="sortable"|
+{| class="sortable"
 ! head 1
 ! head 2
 ! head 3
