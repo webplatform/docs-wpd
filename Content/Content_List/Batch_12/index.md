@@ -12,9 +12,8 @@ Note: the input URL does not contain any information required in output URL. The
 Use the [[Form:Tutorial]] form.
 
 ===Field values===
+
 ====Flags====
-* Missing Relevant Sections
-* Data Not Semantic
 * Content_Missing_Specification_Links
 * Compatibility_missing
 
