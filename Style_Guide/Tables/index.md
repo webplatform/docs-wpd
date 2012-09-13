@@ -35,13 +35,13 @@ This results in the following table:
 |}
 
 ===Form-Based Pages===
-Tables in a template or form-based page must use the [[http://webplatform.org/docs/WPD:Implementation_Patterns#The_CSS_Property_page|"pipe hack"]] instead of the <code>|</code> character:
+Tables in a template or form-based page must use the [[WPD:Implementation_Patterns#The_CSS_Property_page|"pipe hack"]] instead of the <code>|</code> character:
 
 <pre><nowiki>
 {{!}}
 </nowiki></pre>
 
-Thus, the same table in a form would use the following syntax:
+Thus, the same table in a form would use the following (ugly) syntax:
 
 <pre><nowiki>
 {{{{!}}
