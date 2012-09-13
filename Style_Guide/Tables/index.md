@@ -44,7 +44,7 @@ Tables in a template or form-based page must use the [[WPD:Implementation_Patter
 Thus, the same table in a form would use the following (ugly) syntax:
 
 <pre><nowiki>
-{{{{!}}
+{{{!}}
 ! head 1
 ! head 2
 ! head 3
