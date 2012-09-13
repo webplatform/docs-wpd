@@ -1,5 +1,5 @@
 ==Syntax==
-For consistency and compatibility of tables, please use the following table syntax styles.
+For consistency and compatibility of tables, please use the following table syntax styles. These rules are required to ensure that tables print correctly in all contexts, including when they are part of a form field.
 
 ===Normal Pages===
 <pre><nowiki>
