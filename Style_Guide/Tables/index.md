@@ -5,16 +5,16 @@ For consistency and compatibility of tables, please use the following table synt
 <pre><nowiki>
 {|
 ! head 1
-! column 2
-! column 3
+! head 2
+! head 3
 |-
-| column 1
-| column 2
-| column 3
+| column a1
+| column a2
+| column a3
 |-
-| column 1
-| column 2
-| column 3
+| column b1
+| column b2
+| column b3
 |}
 </nowiki></pre>
 
@@ -25,13 +25,13 @@ This results in the following table:
 ! head 2
 ! head 3
 |-
-| column 1
-| column 2
-| column 3
+| column a1
+| column a2
+| column a3
 |-
-| column 1
-| column 2
-| column 3
+| column b1
+| column b2
+| column b3
 |}
 
 ===Form-Based Pages===
@@ -49,13 +49,13 @@ Thus, the same table in a form would use the following syntax:
 ! head 2
 ! head 3
 {{!}}-
-{{!}} column 1
-{{!}} column 2
-{{!}} column 3
+{{!}} column a1
+{{!}} column a2
+{{!}} column a3
 {{!}}-
-{{!}} column 1
-{{!}} column 2
-{{!}} column 3
+{{!}} column b1
+{{!}} column b2
+{{!}} column b3
 {{!}}}
 </nowiki></pre>
 
@@ -63,11 +63,11 @@ Thus, the same table in a form would use the following syntax:
 Do not use the single-line row syntax.
 <pre><nowiki>
 {|
-| head 1   !! column 2 !! column 3
+| head 1    !! column 2  !! column 3
 |-
-| column 1 || column 2 || column 3
+| column a1 || column a2 || column a3
 |-
-| column 1 || column 2 || column 3
+| column b1 || column b2 || column b3
 |}
 </nowiki></pre>
 
@@ -80,13 +80,13 @@ MediaWiki has the ability to create sortable tables, simply by adding the class 
 ! head 2
 ! head 3
 |-
-| apple 1
-| peach 2
-| blueberry 3
+| apple a1
+| peach a2
+| blueberry a3
 |-
-| ape 1
-| dog 2
-| fish 3
+| ape b1
+| dog b2
+| fish b3
 |}
 </nowiki></pre>
 
