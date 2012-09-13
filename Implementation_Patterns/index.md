@@ -272,11 +272,9 @@ This is basically the same, but slightly more complicated. We want to ensure tha
 
 This is one of the more complicated pieces. It's where we print out the specifications table. A few things to note: 
 
-=====The Pipe Hack=====
-<nowiki>{{!}}</nowiki> is a weird hack necessary to print out table syntax inside of #if parser functions (see Tables with Rows, below). Basically that template is just a single pipe character. 
+* <nowiki>{{!}}</nowiki> is a weird hack necessary to print out table syntax inside of #if parser functions (see Tables with Rows, below). Basically that template is just a single pipe character. 
 
-=====Hiding and Showing the Table=====
-This section should be a table. First, we check if we should even show the section. If we should, we print out the header row of the table. The Specifications parameter will consist of all of the rows of the table glommed together--that's just how semantic forms does it. We'll investigate how that's set up in a bit.
+* This section should be a table. First, we check if we should even show the section. If we should, we print out the header row of the table. The Specifications parameter will consist of all of the rows of the table glommed together--that's just how semantic forms does it. We'll investigate how that's set up in a bit.
 
 <syntaxhighlight>
 [[Category:CSS Properties|{{#titleparts:{{PAGENAME}}||-1}}]]
