@@ -601,10 +601,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====CSS====
 
-* [http://msdn.microsoft.com/en-us/library/ie/ms531209%28v=vs.85%29.aspx CSS Reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/aa358815(v=vs.85).aspx At-rules] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/aa358816(v=vs.85).aspx Selectors] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/aa358806(v=vs.85).aspx Attributes] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/ms531209(v=vs.85).aspx CSS Reference] (Microsoft)
 
 === ARTICLE BATCH 20 ===
 
