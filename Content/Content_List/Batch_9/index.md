@@ -14,10 +14,10 @@ Use the [[Form:Guide]] form.
 
 
 ====Summary====
-The first <p> element in the content
+The first <nowiki><p></nowiki> element in the content
 
 ====Main content====
-The rest of the page after the first <p> element.
+The rest of the page after the first <nowiki><p></nowiki> element.
 
 ====Topics====
 * JavaScript
