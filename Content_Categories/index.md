@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Content/Content Categories]]
