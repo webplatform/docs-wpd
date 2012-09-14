@@ -1,3 +1,7 @@
+== Wiki Tools ==
+<br />
+[[File:wikitools.png|Wiki Tools]]
+
 == Browser Prefix ==
 <br />
 
