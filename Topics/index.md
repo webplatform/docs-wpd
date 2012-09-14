@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Architecture/Topics]]
