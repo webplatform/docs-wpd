@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Content/Content List/Batch Example]]
