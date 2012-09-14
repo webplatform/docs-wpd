@@ -63,16 +63,16 @@ First of all, tackle the main content box - this is where the bulk of your artic
   <li><p>Go to http://w-i-k-i.appspot.com/. Choose "HTML to Wikipedia" from the drop down box at the bottom of the page. Paste your valid HTML into it, and press the "Convert input" button. Grab a copy of the result.</p></li>
   <li><p>Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:</p>
     <ul>
-      <li><p>Remove excess whitespace. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
-      <li><p>Get tables to render [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]</p></li>
-      <li><p>Tidy up code blocks. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:</p>
+      <li><p>'''Remove excess whitespace'''. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
+      <li><p>'''Get tables to render''' [AT THE MOMENT THEY WON'T RENDER AT ALL, AND I REALLY DON'T KNOW WHY. ANY THOUGHTS?]</p></li>
+      <li><p>'''Tidy up code blocks'''. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:</p>
 
 <pre>This
   is a
   code
 Sample</pre>
       </li>
-      <li><p>Images: To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.</p>
+      <li><p>'''Images''': To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.</p>
 
       <p>Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:</p>
 
@@ -86,8 +86,8 @@ Sample</pre>
 
 <p>Media wiki may have also tagged some icky presentational HTML crap onto the end of this like, like <code>border="0"</code>, but hey, it works, and no kittens are going to die.</p>
       </li>
-      <li><p>Executable code samples (THERE DOESN'T SEEM TO BE ANY WAY YET TO INCLUDE EXECUTABLE CODE EXAMPLE ON THE SITE, BUT I ASSUME THIS IS BEING WORKED ON)</p></li>
-      <li><p>HTML lists: Dealing with HTML lists is absolutely fine for simple lists where you've just a simple list of bullets (items created using asterisks — &#42;) or numbers (items created using hashes/pounds — &#35;), but for any kind of complex nested lists, I would advise you to just use HTML instead, otherwise you'll go through far to much pain trying to make the list render correctly and consistently. For some more complex list examples that I've already dealt with, see the [HTML lists] guide.</p>
+      <li><p>'''Executable code samples''' (THERE DOESN'T SEEM TO BE ANY WAY YET TO INCLUDE EXECUTABLE CODE EXAMPLE ON THE SITE, BUT I ASSUME THIS IS BEING WORKED ON)</p></li>
+      <li><p>'''HTML lists''': Dealing with HTML lists is absolutely fine for simple lists where you've just a simple list of bullets (items created using asterisks — &#42;) or numbers (items created using hashes/pounds — &#35;), but for any kind of complex nested lists, I would advise you to just use HTML instead, otherwise you'll go through far to much pain trying to make the list render correctly and consistently. For some more complex list examples that I've already dealt with, see the [HTML lists] guide.</p>
       <li><p>Foo</p></li>
     </ul>
   </li>
