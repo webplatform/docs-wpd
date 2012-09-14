@@ -5,5 +5,6 @@ If you are making a new article for this area, please consider making it a sub-p
 * [[WPD:Content|Content]]
 * [[WPD:Policy|Policy]]
 * [[WPD:Architecture|Architecture]]
+* [[WPD:Infrastructure||Infrastructure]]
 * [[WPD:Tasks|Tasks]]
 * [[WPD:Marketing|Marketing]]
