@@ -1,3 +1,5 @@
+* [[WPD:Architecture/Topics|Topics]]
+
 ==Site Structure==
 The root of the wiki is <code>/docs</code>. This is the wiki where all documentation will exist, and it is collaborative.
 
