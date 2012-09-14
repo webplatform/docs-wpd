@@ -591,7 +591,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====HTML====
 
-* [http://msdn.microsoft.com/en-us/library/ie/ms533050%28v=vs.85%29.aspx HTML and DHTML Reference] (Microsoft)
+* [http://msdn.microsoft.com/en-US/library/ie/hh772960.aspx HTML Reference] (Microsoft)
 
 * [http://www.w3.org/community/webed/wiki/HTML HTML Reference] (W3C)
 
