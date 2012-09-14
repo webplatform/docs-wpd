@@ -609,10 +609,6 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====CSS====
 
-* [http://msdn.microsoft.com/en-us/library/ie/ms531208(v=vs.85).aspx Collections] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ms531210(v=vs.85).aspx Methods] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ms531197(v=vs.85).aspx Color Table] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ms531211(v=vs.85).aspx CSS Values and Units Reference] (Microsoft)
 
 * [http://www.w3.org/community/webed/wiki/CSS CSS Reference] (W3C)
 
