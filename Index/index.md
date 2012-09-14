@@ -4,4 +4,5 @@ If you are making a new article for this area, please consider making it a sub-p
 * [[WPD:Design|Design]]
 * [[WPD:Content|Content]]
 * [[WPD:Policy|Policy]]
+* [[WPD:Architecture|Architecture]]
 * [[WPD:Tasks|Tasks]]
