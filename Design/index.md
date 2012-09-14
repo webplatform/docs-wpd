@@ -7,6 +7,7 @@ Static Pages
 * [http://webplatform.org/docs/File:Static_Page_QA.png%20 QA Page]
 
 Landing Page
+* [[WPD:Design/Landing|Landing]], Sept 14, 2012
 * [[WPD:Design/Landing|Landing]], Sept 4, 2012
 
 Site Components
