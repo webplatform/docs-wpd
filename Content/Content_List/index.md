@@ -365,7 +365,8 @@ These are available from Mozilla:
 
 '''OWNER: SCOTT ROWE'''
 
-====Google HTML5 API content (donated from http://www.html5rocks.com/en/tutorials/)====
+====Google HTML5 API content====
+''Donated from http://www.html5rocks.com/en/tutorials/''
 
 * [http://www.html5rocks.com/en/tutorials/audio/quick/ Quick Guide to Implementing the HTML5 Audio Tag]
 * [http://www.html5rocks.com/en/tutorials/webdatabase/todo/ A Simple TODO list using HTML5 WebDatabases]
