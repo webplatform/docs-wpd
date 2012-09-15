@@ -648,13 +648,9 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 '''OWNER: ELIOT GRAFF'''
 
-====DOM====
+====DOM Events====
 
 * [http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx DOM Events] (Microsoft)
-
-====DOM Events====
-''(Are there other references?)''
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms764697(v=vs.85).aspx DOM Events] (Microsoft)
 
 == Curriculum structures ==
 
