@@ -618,10 +618,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====Canvas====
 
-* [http://msdn.microsoft.com/en-us/library/ie/ff975062%28v=vs.85%29.aspx CANVAS Element | canvas Object] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff975057%28v=vs.85%29.aspx CanvasRenderingContext2D Object] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/dd797413.aspx Canvas & SVG]: Tutorials and Samples ''(included or not?)'' (Microsoft)
-
+* [http://msdn.microsoft.com/en-us/library/ie/hh771733(v=vs.85).aspx CANVAS reference (element and 2D API)] (Microsoft)
 
 === ARTICLE BATCH 22 ===
 
