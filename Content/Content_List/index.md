@@ -666,23 +666,15 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====Web Apps====
 
-* [http://msdn.microsoft.com/en-us/library/ie/hh673545(v=vs.85).aspx
- AppCache reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772315(v=vs.85).aspx
-File API reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh673545(v=vs.85).aspx AppCache reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772315(v=vs.85).aspx File API reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/hh772290(v=vs.85).aspx Geolocation reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772651(v=vs.85).aspx
-IndexedDB reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh781494(v=vs.85).aspx
-Messaging reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx
-Timing reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772807(v=vs.85).aspx
-Web workers reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772770(v=vs.85).aspx
-Websocket reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/hh772834(v=vs.85).aspx
-XHR reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772651(v=vs.85).aspx IndexedDB reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh781494(v=vs.85).aspx Messaging reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx Timing reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772807(v=vs.85).aspx Web workers reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772770(v=vs.85).aspx Websocket reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772834(v=vs.85).aspx XHR reference] (Microsoft)
 
 === ARTICLE BATCH 25C ===
 
