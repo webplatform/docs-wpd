@@ -9,6 +9,7 @@ There are several special pages that Stewards should know about:
 ==Site Metrics==
 * [[WPD:Admin/Site_Metrics|Site Metrics]]
 * [[Special:Statistics]]
+* [https://meta.wikimedia.org/wiki/Research:Community_portal_redesign WikiMedia discussion on a useful community portal for Wikipedia editors]
 
 ==Account Creation==
 Currently, only registered account holders can view pages on the wiki.
