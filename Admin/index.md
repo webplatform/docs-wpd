@@ -6,6 +6,10 @@ There are several special pages that Stewards should know about:
 * [[WPD:Site_Map|Site Map]], including site architecture and software requirements
 * '''?uselang=qqx''' appended to any page give you special information about that page
 
+==Site Metrics==
+* [[WPD:Admin/Site_Metrics]]
+* [[Special:Statistics]]
+
 ==Account Creation==
 Currently, only registered account holders can view pages on the wiki.
 * [[Special:RequestAccount|Request Account]] allows users to ask for an account
