@@ -20,7 +20,7 @@
 |-
 | 1
 | Ryan
-| Fast.ly integration
+| Fastly integration
 |                                        
 | 1-2 hours
 | New URL structure
