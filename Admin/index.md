@@ -7,7 +7,7 @@ There are several special pages that Stewards should know about:
 * '''?uselang=qqx''' appended to any page give you special information about that page
 
 ==Site Metrics==
-* [[WPD:Admin/Site_Metrics]]
+* [[WPD:Admin/Site_Metrics|Site Metrics]]
 * [[Special:Statistics]]
 
 ==Account Creation==
