@@ -650,8 +650,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====DOM====
 
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms757828(v=vs.85).aspx DOM Methods] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms764697(v=vs.85).aspx DOM Events] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx DOM Events] (Microsoft)
 
 ====DOM Events====
 ''(Are there other references?)''
