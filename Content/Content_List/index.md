@@ -632,13 +632,9 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 '''OWNER: ELIOT GRAFF'''
 
-====SVG====
+====DOM Transversal====
 
-* [http://msdn.microsoft.com/en-us/library/ie/ff971906(v=vs.85).aspx SVG Event Reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff971907(v=vs.85).aspx SVG Method Reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff971908(v=vs.85).aspx SVG Object Reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff971909(v=vs.85).aspx SVG Property Reference] (Microsoft)
-
+* [http://msdn.microsoft.com/en-us/library/ie/hh772120(v=vs.85).aspx DOM transversal reference] (Microsoft)
 
 === ARTICLE BATCH 24 ===
 
