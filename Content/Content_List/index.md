@@ -652,6 +652,47 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 * [http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx DOM Events] (Microsoft)
 
+=== ARTICLE BATCH 25A ===
+
+'''OWNER: ELIOT GRAFF'''
+
+====ARIA====
+
+* [http://msdn.microsoft.com/en-us/library/ie/hh801958(v=vs.85).aspx ARIA reference] (Microsoft)
+
+=== ARTICLE BATCH 25B ===
+
+'''OWNER: ELIOT GRAFF'''
+
+====Web Apps====
+
+* [http://msdn.microsoft.com/en-us/library/ie/hh673545(v=vs.85).aspx
+ AppCache reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772315(v=vs.85).aspx
+File API reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772290(v=vs.85).aspx Geolocation reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772651(v=vs.85).aspx
+IndexedDB reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh781494(v=vs.85).aspx
+Messaging reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx
+Timing reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772807(v=vs.85).aspx
+Web workers reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772770(v=vs.85).aspx
+Websocket reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh772834(v=vs.85).aspx
+XHR reference] (Microsoft)
+
+=== ARTICLE BATCH 25C ===
+
+'''OWNER: ELIOT GRAFF'''
+
+====Media (Audio and Video)====
+
+* [http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx DOM Events] (Microsoft)
+
+
 == Curriculum structures ==
 
 Seed content taken from [http://interact.webstandards.org/curriculum/ WaSP InterACT Curriculum structures]. Most recent versions kept at [http://www.w3.org/community/webed/wiki/Interact_Curriculum Overview of InterACT curriculum articles]
