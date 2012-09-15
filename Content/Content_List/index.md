@@ -674,6 +674,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 * [http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx Timing reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/hh772807(v=vs.85).aspx Web workers reference] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/hh772770(v=vs.85).aspx Websocket reference] (Microsoft)
+* [http://msdn.microsoft.com/en-US/library/ie/hh781511.aspx Web Storage] (Microsoft)
 * [http://msdn.microsoft.com/en-us/library/ie/hh772834(v=vs.85).aspx XHR reference] (Microsoft)
 
 === ARTICLE BATCH 25C ===
