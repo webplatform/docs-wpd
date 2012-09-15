@@ -642,10 +642,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====DOM====
 
-''(Some of these seem out of date... are these the right references?)''
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms766473(v=vs.85).aspx DOM Enumerated Constants] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms760218(v=vs.85).aspx DOM Objects/Interfaces] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/windows/desktop/ms763798(v=vs.85).aspx DOM Properties] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/hh771916(v=vs.85).aspx DOM General reference] (Microsoft)
 
 === ARTICLE BATCH 25 ===
 
