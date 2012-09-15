@@ -2,7 +2,7 @@
 {{Basic Page}}
 ==Introduction==
 
-Webplatform.org uses the [https://www.w3.org/Bugs/Public/ W3C's public bug], project and issue Tracking Service, using the open-source [http://www.bugzilla.org/ bugzilla] platform.
+Webplatform.org uses the [https://www.w3.org/Bugs/Public/ W3C's public bug], project and issue Tracking Service, using the open-source [http://www.bugzilla.org/ bugzilla] platform. We use this tool for bugs about infrastructure problems, administrative issues, and the like. Problems that are found in the WPD content library should be flagged in the topic and fixed by and within the community. 
 
 While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearch.html page with help topics], this page is a rudimentary getting started.
 
@@ -108,6 +108,17 @@ When you create a new bug, you must select ''webplatform.org'' as the product. T
 | 
 |}
 
+==Commenting on a bug==
+
+Once a bug is open, you merely add a comment in the Comment field and then click ''Save changes''. Bugzilla saves the comments in order. You can comment in general on the bug or reply to a specific comment already in the bug's history. 
+
+==Resolving bugs==
+
+To resolve a bug, merely change the status to ''RESOLVED''. A new dropdown menu appears listing choices for how the bug was resolved. After making the selection and adding any appropriate comments, save changes.
+
+==Access and permissions==
+
+The WPD Bugzilla database is open only to those who have a current W3C account. This includes W3C staff members, WPD stewards, members of working groups, and members of W3C Community Groups. WPD is looking at ways that this database may be opened to the public in the future.
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
