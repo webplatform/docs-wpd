@@ -2,7 +2,7 @@
 {{Basic Page}}
 ==Introduction==
 
-Webplatform.org uses the [https://www.w3.org/Bugs/Public/ W3C's public bug], project and issue Tracking Service, using the open-source [http://www.bugzilla.org/ bugzilla] platform. We use this tool for bugs about infrastructure problems, administrative issues, and the like. Problems that are found in the WPD content library should be flagged in the topic and fixed by and within the community. 
+Webplatform.org uses the [https://www.w3.org/Bugs/Public/ W3C's public bug], project and issue Tracking Service, using the open-source [http://www.bugzilla.org/ bugzilla] platform. We use this tool for bugs about infrastructure problems, administrative issues, and the like. Problems about the content and that are found in the topics within the WPD content library should be flagged in the topic and fixed by and within the community. 
 
 While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearch.html page with help topics], this page is a rudimentary getting started.
 
