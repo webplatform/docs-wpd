@@ -1,7 +1,7 @@
 * [[WPD:Infrastructure/Importing_data|Importing data]]
 * [[WPD:Infrastructure/Tasks|Infrastructure Tasks]]
 * [[WPD:Infrastructure/Site_Map|Site Map]]
-* [[WPD:Infrastructure/Bugs Bugs]]
+* [[WPD:Infrastructure/Bugs|Bugs]]
 
 ==Site Structure==
 
