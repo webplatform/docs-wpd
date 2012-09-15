@@ -10,25 +10,7 @@ While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearc
 
 You can begin a search for any bugs from [https://www.w3.org/Bugs/Public/query.cgi https://www.w3.org/Bugs/Public/query.cgi]. You can toggle between simple and advanced search by using the tabs on the page. The simple search will scour a product for strings, and the advanced search has pretty powerful capability pivoting on a number of factors. Note that the built-in functionality via the links at the bottom of the page vary depending on whether you're using simple or advanced search.
 
-Bugzilla uses the following criteria for categorizing bugs. Use the product in the simple search and the product along with the other fields when searching for bugs in the advanced search.
-{|
-! Label
-! WPD implementation
-|-
-| Product
-| webplatform.org
-|-
-| Component
-| default
-|-
-| Version
-| unspecified
-|-
-| target
-| N/A
-|}
-
-In addition, you can search on fields such as URL, comment, keywords, and more. 
+Bugzilla uses the following criteria for categorizing bugs. Use the product in the simple search and the product along with the other fields when searching for bugs in the advanced search. You can search on fields such as URL, comment, keywords, and more. 
 
 ==Creating a new bug==
 
