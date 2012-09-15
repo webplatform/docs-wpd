@@ -10,11 +10,10 @@ While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearc
 
 You can begin a search for any bugs from [https://www.w3.org/Bugs/Public/query.cgi https://www.w3.org/Bugs/Public/query.cgi]. You can toggle between simple and advanced search by using the tabs on the page. The simple search will scour a product for strings, and the advanced search has pretty powerful capability pivoting on a number of factors. Note that the built-in functionality via the links at the bottom of the page vary depending on whether you're using simple or advanced search.
 
+
+==Database Fields==
+
 Bugzilla uses the following criteria for categorizing bugs. Use the product in the simple search and the product along with the other fields when searching for bugs in the advanced search. You can search on fields such as URL, comment, keywords, and more. 
-
-==Creating a new bug==
-
-When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the following fields:
 
 {|
 ! Field
@@ -89,6 +88,10 @@ When you create a new bug, you must select ''webplatform.org'' as the product. T
 | List of bugs blocked by this bug
 | 
 |}
+
+==Creating a bug==
+To create a new bug, just click ''New'' on one of the Bugzilla pages. When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the fields listed above. 
+
 
 ==Commenting on a bug==
 
