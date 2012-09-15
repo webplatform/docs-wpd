@@ -90,7 +90,7 @@ Bugzilla uses the following criteria for categorizing bugs. Use the product in t
 |}
 
 ==Creating a bug==
-To create a new bug, just click ''New'' on one of the Bugzilla pages. When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the fields listed above. 
+To create a new bug, just click ''New'' on one of the Bugzilla pages. When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the fields listed above. The component and Summary fields are mandatory.
 
 
 ==Commenting on a bug==
