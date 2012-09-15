@@ -8,7 +8,9 @@ While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearc
 
 ==Categorizing bugs==
 
-Bugzilla uses the following criteria for categorizing bugs:
+You can begin a search for any bugs from [https://www.w3.org/Bugs/Public/query.cgi https://www.w3.org/Bugs/Public/query.cgi]. You can toggle between simple and advanced search by using the tabs on the page. The simple search will scour a product for and keyword string, and the advanced search has pretty powerful capability pivoting on a number of factors. Note that the built-in functionality via the links at the bottom of the page vary depending on whether you're using simple or advanced search.
+
+Bugzilla uses the following criteria for categorizing bugs. Use these fields when searching for bugs in the advanced search.
 {|
 ! Label
 ! WPD implementation
@@ -24,6 +26,86 @@ Bugzilla uses the following criteria for categorizing bugs:
 |-
 | target
 | N/A
+|}
+
+In addition, you can search on fields such as URL, comment, keywords, and more. 
+
+==Creating a new bug==
+
+When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the following fields:
+
+{|
+! Field
+! Value
+! Mandatory?
+|-
+| Component
+| ''default'' (the only one we have right now)
+| Yes
+|-
+| Version
+| ''unspecified''
+| 
+|-
+| Target Milestone
+| TBD
+| 
+|-
+| Severity
+| ranges from ''enhancement'' to ''blocker''
+| 
+|-
+| Hardware
+| Types of hardware in dropdown
+| 
+|-
+| Priority
+| P1 to P5. Default is P2.
+| 
+|-
+| Initial State
+| This describes the bug. Default is ''New''
+| 
+|-
+| Assign To
+| email address of the registered DB user. Default is dave.null@w3.org.
+| 
+|-
+| QA Contact
+| For bug resolution. Default is also to dave.null@w3.org
+| 
+|-
+| CC:
+| Any valid email. Default is Eliot and Doug right now.
+| 
+|-
+| URL:
+| Locator for the page that the bug references
+| 
+|-
+| Summary
+| Brief summary of the bug
+| Yes
+|-
+| Description
+| Detailed description of the bug
+| 
+|-
+| Attachment
+| method by with images, supporting files, etc. can be attached to bug
+| 
+|-
+| Keywords
+| For categorizing bugs, i.e. ''Infrastructure''
+| 
+|-
+| Depends on
+| List of bugs that this bug is dependent on
+| 
+|-
+| Blocks
+| List of bugs blocked by this bug
+| 
 |}
 
 {{Topics}}
