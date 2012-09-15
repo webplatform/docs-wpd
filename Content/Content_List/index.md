@@ -626,10 +626,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====SVG====
 
-* [http://msdn.microsoft.com/en-us/ie/hh410107.aspx SVG Guide for Developers] ''(included or not?)'' (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/windows/apps/hh453564.aspx SVG Element Reference] (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff971904(v=vs.85).aspx SVG Element Reference] ''(same?)'' (Microsoft)
-* [http://msdn.microsoft.com/en-us/library/ie/ff971905(v=vs.85).aspx SVG Enumeration Reference] (Microsoft)
+* [http://msdn.microsoft.com/en-us/library/ie/ff971903(v=vs.85).aspx SVG reference] (Microsoft)
 
 === ARTICLE BATCH 23 ===
 
