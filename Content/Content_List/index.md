@@ -682,8 +682,7 @@ SVG WOW (http://svg-wow.org/) Demos:
 
 ====Media (Audio and Video)====
 
-* [http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx DOM Events] (Microsoft)
-
+* [http://msdn.microsoft.com/en-us/library/ie/hh772500(v=vs.85).aspx Media reference] (Microsoft)
 
 == Curriculum structures ==
 
