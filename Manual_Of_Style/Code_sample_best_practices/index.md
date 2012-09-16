@@ -3,6 +3,7 @@
 ==Overview==
 This topic provides guidance for writing code and markup samples and snippets for documentation published to webplatform.org. It is meant to provide a quality bar for code samples and snippets, and to provide consistency of style across this documentation, not functionality. 
 Sample code serves as a mini-portal to content. Developers use samples as documentation, and they almost always browse code before reading a topic fully. Because of its special regard, code requires special attention.
+
 At the most basic level, effective code samples and snippets should follow these top five guidelines:
 *It must run as intended. While you need not include an entire .html file, code samples should indicate where the code fits in with required elements. 
 *Code samples and snippets should be simple and brief. Their purpose is to demonstrate specific functionality, not what a clever programmer you are. 
