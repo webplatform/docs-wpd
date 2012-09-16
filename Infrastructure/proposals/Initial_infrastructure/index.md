@@ -69,7 +69,15 @@
 | 1
 | Ryan
 | Improve deploy system
-|                                        
+| complete
+| 1 hour
+| None
+| Sep 28
+|-
+| 1
+| Ryan
+| Fix deployment code to output results
+| open
 | 1-2 hours
 | None
 | Sep 28
