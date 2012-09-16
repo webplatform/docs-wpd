@@ -27,6 +27,7 @@ You may also be interested in the [[WPD:Manual Of Style/Article Types|list of ar
 * All code should be elsewhere and included into the page. (When that functionality exists)
 * Should follow all best practices
 * Should have descriptive comments to explain the results.
+* See also [[WPD:Manual_Of_Style/Sample_best_practices|Sample best practices]
 
 ==Notes==
 * Not specific to syntax or value, not directly related to usage, but still germane to the member. Remove this section ideally. In the long term, we should split them into other areas.
