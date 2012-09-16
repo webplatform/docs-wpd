@@ -54,7 +54,7 @@ var privateVariable = ”…”;
     }
 }</pre>
 *If your namespace requires private members, use the singleton pattern. You can combine both patterns as you nest namespaces.
-*All JSON structures should be well-formed and conform to the JSON specification [http://www.json.org].
+*All JSON structures should be well-formed and conform to the JSON specification [http://www.json.org|http://www.json.org].
 *Use <code>JSON.parse()</code> and <code>JSON.stringify()</code> to parse and serialize JSON strings.
 
 
