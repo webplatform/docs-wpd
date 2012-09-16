@@ -35,8 +35,8 @@ Creating code snippets or developing full samples share many best practices:
 WPD uses some specific guidelines for HTML:
 *Use lowercase letters for element names
 *Place all attribute values in quotation marks
-*Replace empty attributes with values, such as defer=”defer”
-*Use a valid DOCTYPE, preferably <!DOCTYPE html>
+*Replace empty attributes with values, such as <code>defer=”defer”</code>
+*Use a valid DOCTYPE, preferably <code><!DOCTYPE html></code>
 *Avoid browser-sniffing. Test for feature presence instead.
 *Avoid inline styles. They make the code harder to read.
 WPD uses some specific guidelines for JavaScript
