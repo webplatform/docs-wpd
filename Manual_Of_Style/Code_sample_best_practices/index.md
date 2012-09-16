@@ -16,7 +16,8 @@ Broadly speaking, there are two sizes for example code: code snippets and code s
 '''Code snippet''': A code snippet is any example in the documentation. It shows how to use a specific member or how to accomplish a specific task. It might be a short snippet that focuses on a specific task (for example, how to cause a button to change color using the <code>onhover</code> event), or a longer tutorial or how-to. The code shown may not even compile out of context, but ideally it should be possible to paste the code into an existing project without extensive rewriting. A code snippet is real code; it is not pseudocode.
 
 '''Code sample''': A code sample is intended to demonstrate programming tasks or scenarios, or to demonstrate a particular program architecture that is not easily demonstrated in a code snippet (for example, how to create, populate, and manage a list). A code sample is a complete, web page or application, with references to all required source files in its description.
-When you approach a code sample, try to put yourself in the readers’ shoes. Ask yourself questions like these to enhance your samples and the content around them:
+
+When you approach either type of code sample, try to put yourself in the readers’ shoes. Ask yourself questions like these to enhance your samples and the content around them:
 *“What do I want to learn from this sample?” (Not “What do I want to see this sample do.”)
 *“What parts would I want to take from this sample, and how do I find them?”
 *“How do I know that specific code blocks do what it looks like they are supposed to do?”
