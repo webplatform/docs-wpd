@@ -39,10 +39,10 @@ WPD uses some specific guidelines for JavaScript
 *Remember your semi-colons.
 *Use the following pattern to create Singleton objects:
 <pre>var Singleton = (function() {
-  var privateVariable = ”…”;
-    this.publicMethod = function()	{…};
-    function privateMethod() {…};
-  })();</pre>
+var privateVariable = ”…”;
+  this.publicMethod = function()	{…};
+  function privateMethod() {…};
+})();</pre>
 *Use JavaScript namespaces to isolate variables and functionality from the global namespace for anything beyond simple illustrations.  This makes it simpler to copy-paste sample code into other pages.
 *If every member in your namespace is public, use object-notation to create your namespace:
 <pre>var SampleNamespace = {
@@ -50,17 +50,15 @@ WPD uses some specific guidelines for JavaScript
   “destroy” : function() {…},
   “defaultValue” : “…”,
     “NestedNamespace” : {
-  “member” : “...”
-  }
+    “member” : “...”
+    }
 }</pre>
 *If your namespace requires private members, use the singleton pattern. You can combine both patterns as you nest namespaces.
 *All JSON structures should be well-formed and conform to the JSON specification (http://www.json.org).
-*Use JSON.parse() and JSON.stringify() to parse and serialize JSON strings.
+*Use <code>JSON.parse()</code> and <code>JSON.stringify()</code> to parse and serialize JSON strings.
 
 
 The final suggestions: Be simple. Be straightforward. Don’t try to impress. Just teach.
-
-
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
