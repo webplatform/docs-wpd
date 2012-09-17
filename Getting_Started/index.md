@@ -2,7 +2,7 @@ Web Platform Docs is written, edited, and organized by an active community of vo
 
 It's easy to get started. Here are a few easy tasks that are great for beginners.
 
-* '''Correct grammar and spelling mistakes''' Pages on [http://wpd.referata.com/w/index.php?title=Special%3AWhatLinksHere&target=Style_Compatibility_Issue&namespace=10 this list] need some attention to fix grammar and spelling mistakes.
+* '''Correct grammar and spelling mistakes''' Pages on [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere&target=Style_Compatibility_Issue&namespace=10 this list] need some attention to fix grammar and spelling mistakes.
 * '''Add examples'''
 * '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles that have the '''Duplicate content''' label, and look through the two articles to ensure that all of the good content of the two articles is kept when they're merged into one.
 * '''Add appropriate labels to pages that need help'''
