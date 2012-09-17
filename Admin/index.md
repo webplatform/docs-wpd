@@ -13,6 +13,7 @@ There are several special pages that Stewards should know about:
 
 ==Account Creation==
 Currently, only registered account holders can view pages on the wiki.
+* [[Special:UserLogin|UserLogin]] allows ''bureaucrats'' to create accounts
 * [[Special:RequestAccount|Request Account]] allows users to ask for an account
 * [[Special:ConfirmAccounts|Confirm Accounts]] allows ''bureaucrats'' to approve requested accounts
 
