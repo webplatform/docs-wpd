@@ -29,12 +29,12 @@
 | forums
 | Question2Answer
 | talk.webplatform.org/forums/
-| 
+| 15.185.109.17
 |-
 | IRC
 | qwebirc
 | talk.webplatform.org/chat/
-| 
+| 15.185.109.17
 |-
 | metrics
 | Piwik
@@ -44,12 +44,12 @@
 | blog
 | WordPress
 | blog.webplatform.org/
-| 
+| 15.185.109.17
 |-
 | Sandbox
 | Dabblet
 | code.webplatform.org/
-| 
+| 15.185.109.17
 |-
 | Learning Management System
 | Moodle
