@@ -12,17 +12,16 @@
 | 1
 | Ryan
 | New URL structure
-|                                        
-| 5-10 hours
+| in progress
+| 2-5 hours
 | DNS changes
 | Sep 28
-|-
 |-
 | 1
 | Ryan
 | Fastly integration
-|                                        
-| 1-2 hours
+| complete
+| 1 hour
 | New URL structure
 | Sep 28
 |-
