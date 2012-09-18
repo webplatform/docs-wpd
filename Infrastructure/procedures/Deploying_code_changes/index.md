@@ -88,3 +88,16 @@ code.docs_settings is ''/src/salt/code/docs_settings.sls''; which has the follow
         - file: /etc/codesync.secret
 
 Notice that this directive manages only a single file, which is at ''/srv/salt/code/docs/Settings.php''. Since it is included in ''docs_current'', it'll automatically get deployed with ''docs_current''. It can also be deployed separately, though, since it's a standalone state.
+
+=== Committing and Deploying Content ===
+Inside the proper directory, run:
+
+ git commit -a "Message"
+
+To deploy: 
+
+ salt-run deploy.run code.codebasename
+
+Such as 
+
+ salt-run deploy.run code.nonshared
