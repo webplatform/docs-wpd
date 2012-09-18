@@ -1,7 +1,7 @@
 This page describes some intricacies of the mark-up syntax used by Semantic MediaWiki that can cause confusion for people editing WPD.
 
 ==Tables==
-"Normal" MediaWiki syntax for tables does not work in Semantic MediaWiki forms. See [[/WPD:Manual_Of_Style/Tables|Tables]] for details.
+"Normal" MediaWiki syntax for tables does not work in Semantic MediaWiki forms. See [[WPD:Manual_Of_Style/Tables|Tables]] for details.
 
 ==Pipe characters==
 Related to the table issue, the pipe character ("|") cannot appear in text in a Semantic MediaWiki form. In place of the pipe character, you must use the sequence "{{!}}". For example:
@@ -13,3 +13,5 @@ The logical OR operator {{!}}{{!}} returns true if either operand is true.
 <blockquote>
 The logical OR operator {{!}}{{!}} returns true if either operand is true.
 </blockquote>
+
+{{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use the Edit Source link to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
