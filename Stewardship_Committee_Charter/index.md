@@ -1,6 +1,3 @@
-'''At this point, ''do not share'' this information without permission of collaborators.  Public leaks will decrease the impact of the site launch announcement.'''
-
-<big>'''''Note:''' This will be canonical location of this document in the future, but for legal discussions and comments, the current active version is the Google Docs version: [https://docs.google.com/document/d/10xoLzL7Fvl1C6Ufmc7bEj-ymnVhUE-_zeRdSGKCqveQ/edit?pli=1].''</big>
 = Stewardship Committee Charter =
 
 This document lays out the by-laws of the stewardship committee, which every steward must contractually agree to abide by.
