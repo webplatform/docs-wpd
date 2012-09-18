@@ -15,6 +15,8 @@ Use the [[Form:CSS_Property]] form.
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
+
+'''Note''': All content should be run through an HTML-to-MediaWiki converter. All occurrences of vertical pipe must be replaced with <nowiki>{{!}}</nowiki> and all occurrences of equals should be replaced with <nowiki>{{=}}</nowiki>
 ====Flags====
 <pre>
 {{Flags
@@ -73,3 +75,27 @@ Where:
 Where:
 * '''HEADER_VALUE''' is the value of the header for that value in the source document
 * '''DESCRIPTION_VALUE''' is the value of the paragraph for that value in the source document
+
+====Examples Section====
+<pre>
+{{Examples_Section
+|Not_required=No
+|Examples=EXAMPLES_VALUE
+}}
+</pre>
+
+Where:
+* '''EXAMPLES_VALUE''' is a concatenation of the following code, one for each sample in the source document:
+<pre>
+{{Single Example
+|Language=
+|Description=DESCRIPTION_VALUE
+|Code=CODE_VALUE
+|LiveURL=URL_VALUE
+}}
+</pre>
+
+Where:
+* '''DESCRIPTION_VALUE''' is the paragraph immediately before the link to the example in the source document
+* '''CODE_VALUE''' is the unescaped value of the code from the example, following the general escaping rules for pipes and equals.
+* '''URL_VALUE''' is equal to the href of the link preceding the example in the source document
