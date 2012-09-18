@@ -14,6 +14,7 @@ The url should not include the "property" suffix and should be lower-case with h
 Use the [[Form:CSS_Property]] form.
 
 ===Field values===
+The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
 ====Flags====
 <pre>
 {{Flags
