@@ -44,6 +44,7 @@ Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
 ====CSS Property====
+<pre>
 {{CSS Property
 |Initial value=INITIAL_VALUE
 |Applies to=APPLIES_TO_VALUE
@@ -55,7 +56,7 @@ Where:
 |CSS percentages=
 |Values=CSS_VALUES_VALUE
 }}
-
+</pre>
 Where:
 * ''''INITIAL_VALUE''' comes from the Initial value field of the source's overview table
 * '''APPLIES_TO_VALUE''' comes from the Applies to value field of the sources' overview table
