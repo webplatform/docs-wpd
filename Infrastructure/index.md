@@ -21,6 +21,11 @@
 | webplatform.org/stewards/
 | 
 |-
+| Logo page
+|
+| webplatform.org/logo/
+| 
+|-
 | wiki
 | MediaWiki
 | docs.webplatform.org/wiki/
