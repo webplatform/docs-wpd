@@ -25,8 +25,6 @@ Go to the relevant tab on Alex's spread for the batch you are working on. For yo
 * Choose a page category for your page, and fill it in. Page categories are generally the same as page types (see the [http://webplatform.org/docs/WPD:New_Page New page tool]), but you should fill in a more specific page category identifier, as several different ones might fit into a single page type. For example, it would include things like DOM Interface (as opposed to API_Object being the page type). The point of this column is to enumerate how many import scripts we would need based on how many categories of things to import there are from your content.
 * Choose a page type for your page to be based on, at the [http://webplatform.org/docs/WPD:New_Page New page tool], and fill it in.
 
-[ALEX - I CREATED A NEW "WPD NAME" COLUMN IN THE BATCH TABS ON YOUR SPREADSHEET, AS IT IS EASIER TO AKE A NOTE OF THE NAME YOU ARE GOING TO USE FIRST, AND THEN FILL IN THE URL WHEN THE NEW PAGE TOOL CREATES IT FOR YOU, WHIHC WON'T BE UNTIL SLIGHTLY LATER]
-
 == Implementation ==
 
 === Fill in your chosen page title===
@@ -60,7 +58,7 @@ First of all, tackle the main content box - this is where the bulk of your artic
     </ul>
   </li>
   <li><p>Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <body></body> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.</p></li>
-  <li><p>Go to http://w-i-k-i.appspot.com/. Choose "HTML to Wikipedia" from the drop down box at the bottom of the page. Paste your valid HTML into it, and press the "Convert input" button. Grab a copy of the result.</p></li>
+  <li><p>Go to http://toolserver.org/~diberri/cgi-bin/html2wiki/. Use this tool to convert your HTML into wikimarkup, and grab a copy of the result.</p></li>
   <li><p>Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:</p>
     <ul>
       <li><p>'''Remove excess whitespace'''. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
@@ -153,4 +151,7 @@ If you can't complete a batch, set your boxes to "Blocked" and report to the lis
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
