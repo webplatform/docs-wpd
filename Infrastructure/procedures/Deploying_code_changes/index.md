@@ -1,6 +1,6 @@
 == Deploying code bases ==
 
-There's four current code bases, run via '''salt-run deploy.run <codebase>''':
+There's four current code bases, run via '''sudo salt-run deploy.run <codebase>''':
 
 ;code.root: /srv/salt/code/root - the document root.
 ;code.docs_current: /srv/salt/code/docs/current - the version of MediaWiki that runs the site.
@@ -14,32 +14,33 @@ Each code base is stored in the salt repository on the deployment system (10.4.2
 # <edit robots.txt>
 # git commit -a -m 'my message here'
 #* Every code base is version controlled, please version control your changes.
-# salt-run deploy.run code.root
+# sudo salt-run deploy.run code.root
 
 The process is the same for all code bases. There's a few notes for the docs code base, though: there's a couple weird exceptions to how the repositories are versioned. The MediaWiki extensions are submodules of the git repo. It's proper to update the submodule version in the parent repo, then have git update the submodule. One extension (SemanticForms) is using svn, rather than git, since it hasn't migrated yet.
 
 For all repos where it's possible (like docs), it's always best to update upstream, then pull your changes in to the local repos. Local changes are dangerous.
 
 === Adding MediaWiki Extensions ===
+
 Setting up extensions works the same as deploying settings: 
+
 * rsyncing the directory
 ** install the extension to ''code/docs/current/extensions''
 ** do a deploy
-
- ''git commit -a -m "Made a test change to the root repo"''
- ''salt-run deploy.run code.docs_current''
-
-'''Note:''' you must be root to install or deploy extensions
- ''sudo su -''
+**: ''git commit -a -m "Made a test change to the root repo"''
+**: ''sudo salt-run deploy.run code.docs_current''
 
 ==== Git ====
+
 It's best if the extensions are added as git submodules, since the rest of the extensions are done this way (except SemanticForms, which is not yet in the [https://gerrit.wikimedia.org/mediawiki-extensions.txt list of git-supported extensions] on "gerrit", the WikiMedia git server):
+
 * ''git submodule add <url> <location>''
 
 For example:
- ''root@deployment:/srv/salt/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
+ ''laner@deployment:/srv/salt/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
 
 ==== SVN ====
+
 Otherwise, use SVN to load the extension onto the deployment server:
 * ''svn co <url> <location>''
 
@@ -91,14 +92,15 @@ code.docs_settings is ''/src/salt/code/docs_settings.sls''; which has the follow
 Notice that this directive manages only a single file, which is at ''/srv/salt/code/docs/Settings.php''. Since it is included in ''docs_current'', it'll automatically get deployed with ''docs_current''. It can also be deployed separately, though, since it's a standalone state.
 
 === Committing and Deploying Content ===
+
 Inside the proper directory, run:
 
  git commit -a "Message"
 
 To deploy: 
 
- salt-run deploy.run code.codebasename
+ sudo salt-run deploy.run code.codebasename
 
 Such as 
 
- salt-run deploy.run code.nonshared
+ sudo salt-run deploy.run code.nonshared
