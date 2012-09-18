@@ -99,3 +99,30 @@ Where:
 * '''DESCRIPTION_VALUE''' is the paragraph immediately before the link to the example in the source document
 * '''CODE_VALUE''' is the unescaped value of the code from the example, following the general escaping rules for pipes and equals.
 * '''URL_VALUE''' is equal to the href of the link preceding the example in the source document
+
+====Notes====
+<pre>
+{{Notes_Section
+|Notes=NOTES_VALUE
+}}
+</pre>
+
+Where:
+* '''NOTES_VALUE''' is the content of the "Remarks" section in the source document
+
+====Topics====
+<pre>
+{{Topics|CSS}}
+</pre>
+
+====External_Attribution===
+<pre>
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=LINK_VALUE
+}}
+</pre>
+
+Where:
+* '''LINK_VALUE''' is the link to the live URL of the source doc.
