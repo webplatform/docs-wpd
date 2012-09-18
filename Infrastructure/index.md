@@ -13,61 +13,61 @@
 |- 
 | landing page
 |
-| webplatform.org/
+| [http://webplatform.org/ webplatform.org/]
 | 
 |-
 | Stewards pages
 |
-| webplatform.org/stewards/
+| [http://webplatform.org/stewards/ webplatform.org/stewards/]
 | 
 |-
 | Logo page
 |
-| webplatform.org/logo/
+| [http://webplatform.org/logo/ webplatform.org/logo/]
 | 
 |-
 | wiki
-| MediaWiki
-| docs.webplatform.org/wiki/
+| [https://www.mediawiki.org/wiki/MediaWiki MediaWiki]
+| [http://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
 | 
 |-
 | forums
-| Question2Answer
-| talk.webplatform.org/forums/
+| [http://www.question2answer.org/ Question2Answer]
+| [http://talk.webplatform.org/forums/ talk.webplatform.org/forums/]
 | 15.185.109.17
 |-
 | IRC
-| qwebirc
-| talk.webplatform.org/chat/
+| [http://qwebirc.org/ qwebirc]
+| [http://talk.webplatform.org/chat/ talk.webplatform.org/chat/]
 | 15.185.109.17
 |-
 | metrics
-| Piwik
-| stats.webplatform.org/
+| [http://piwik.org/ Piwik]
+| [http://stats.webplatform.org/ stats.webplatform.org/]
 | 
 |-
 | blog
-| WordPress
-| blog.webplatform.org/
+| [http://wordpress.org/ WordPress]
+| [http://blog.webplatform.org/ blog.webplatform.org/]
 | 15.185.109.17
 |-
 | Sandbox
-| Dabblet
-| code.webplatform.org/
+| [http://dabblet.com/ Dabblet]
+| [http://code.webplatform.org/ code.webplatform.org/]
 | 15.185.109.17
 |-
 | Learning Management System
-| Moodle
-| teach.webplatform.org/
+| [http://moodle.org/ Moodle]
+| [http://teach.webplatform.org/ teach.webplatform.org/]
 | 
 |-
 | Event calendar
 | 
-| events.webplatform.org/
+| [http://events.webplatform.org/ events.webplatform.org/]
 | 
 |-
 | Test management
 | 
-| tests.webplatform.org/
+| [http://tests.webplatform.org/ tests.webplatform.org/]
 | 
 |}
