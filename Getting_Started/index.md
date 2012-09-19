@@ -12,7 +12,7 @@ To get a username, click the "Login" link on any page and follow the instruction
 
 The WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
 
-'''web-documentation@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join).
+'''public-webed@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can join at http://www.w3.org/community/webed/. You'll need a W3 account, which is free and easy.
 
 You can find us on '''IRC''' at '''freenode.org''' at '''#webdocs'''. IRC is the best place to ask simple questions like "why can I not get this formatting to look right" or "do we have a template I can use to do X?". Generally folks are around to answer any questions you might have.
 
