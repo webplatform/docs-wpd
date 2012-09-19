@@ -52,12 +52,12 @@ First of all, tackle the main content box - this is where the bulk of your artic
 <ol>
   <li><p>Take a copy of the HTML you want to convert - this is best done like so, from the different sources:</p>
     <ul>
-      <li><p>MDN - sign in to MDN, press the edit button, press the Source button on the editing interface, and copy and paste the contents of the <code>&lt;body&gt;&lt;/body&gt;</code> tags into a blank text file. Pro tip from Janet: adding <code>?raw&macros</code> to an MDN URL gives you the article content without the skin, but after evaluating templates; view the source of this to get the raw HTML.</p></li>
+      <li><p>MDN - sign in to MDN, press the edit button, press the Source button on the editing interface, and copy and paste the contents of the <code>&lt;body&gt;&lt;/body&gt;</code> tags into a blank text file. Pro tip from Janet: adding <br><code>?raw&macros</code> to an MDN URL gives you the article content without the skin, but after evaluating templates; view the source of this to get the raw HTML.</p></li>
       <li><p>Opera web standards curriculum - this material is already in Wiki markup, so you've got a much easier job here!</p></li>
       <li><p>foo</p></li>
     </ul>
   </li>
-  <li><p>Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <body></body> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.</p></li>
+  <li><p>Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <code>&lt;body&gt;&lt;/body&gt;</code> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.</p></li>
   <li><p>Go to http://toolserver.org/~diberri/cgi-bin/html2wiki/. Use this tool to convert your HTML into wikimarkup, and grab a copy of the result.</p></li>
   <li><p>Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:</p>
     <ul>
