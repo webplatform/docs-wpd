@@ -1,6 +1,32 @@
-Web Platform Docs is written, edited, and organized by an active community of volunteers.
+Web Platform Docs is written, edited, and organized by an active community&mdash;many of them volunteers.
 
-It's easy to get started. Here are a few easy tasks that are great for beginners.
+It's incredibly easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to any newcomers. If you ever have any questions, just ask!
+
+==Getting Started==
+
+Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're all set!
+
+To get a username, click the "Login" link on any page and follow the instructions to generate an account.
+
+==Finding Help==
+
+The WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
+
+'''web-documentation@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join).
+
+You can find us on '''IRC''' at '''freenode.org''' at '''#webdocs'''. IRC is the best place to ask simple questions like "why can I not get this formatting to look right" or "do we have a template I can use to do X?". Generally folks are around to answer any questions you might have.
+
+{{TODO | Add a resource on getting started with IRC}}
+
+Remember: all of WPD is a wiki. If you ever find content that's not quite up to snuff (including pages like this one that help you get started), please help improve them! If everyone leaves a page in just a little bit better shape than they way they found it, WPD will get even more useful.
+
+==The Basics==
+
+====The Technology====
+Web Platform Docs is built on MediaWiki (what Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, which means that often making substantive contributions to pages is as simple as filling in a form field! This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful.
+
+====The Norms====
+
 
 * '''Correct grammar and spelling mistakes''' Pages on [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere&target=Style_Compatibility_Issue&namespace=10 this list] need some attention to fix grammar and spelling mistakes.
 * '''Add examples'''
