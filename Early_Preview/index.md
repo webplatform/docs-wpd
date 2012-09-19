@@ -69,6 +69,7 @@ The following is a list of folks to invite to the early preview:
 * Maximiliano Firtman <firtman@gmail.com>: (Sponsor: ''Who?'') Author of Mobile Web development books and frequent speaker in Web development conference. Created: http://mobilehtml5.org/
 * Tim Kadlec <tim@timkadlec.com>: (Sponsor: ''Who?'') Author of IMPLEMENTING RESPONSIVE DESIGN and organizer of Breaking Development Conference. 
 * Jen Simmons <jen@jensimmons.com>: (Sponsor: ''Who?'') Front end designer and Host of The Web Ahead podcast: http://5by5.tv/webahead
+* David Flanagan <dflanagan@gmail.com> : (Sponsor: Paul Irish) - Author of the best JavaScript reference books.
 
 ==Community Drivers==
 * Peter-Paul Koch <ppk@xs4all.nl> -(Sponsor: ''Who?'')  Mobile community.
