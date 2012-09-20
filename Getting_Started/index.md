@@ -20,13 +20,13 @@ Remember: all of WPD is a wiki. If you ever find content that's not quite up to 
 
 ==The Basics==
 
-====The Technology====
+===The Technology===
 Web Platform Docs is built on MediaWiki (what Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, which means that often making substantive contributions to pages is as simple as filling in a form field! This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page.
 
-====The Norms====
+===The Norms===
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillar|Pillars]]. The Pillars document is a list of abstract guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and prefer norms over rules.
 
-====Flags and Editorial Notes====
+===Flags and Editorial Notes===
 WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. 
 
 Flags are high-level labels on a page the help us find pages that require some class of work, like new examples or grammar help. They display at the top of the page in a prominent way for logged-in users, but also show for logged-out users. Most content pages have a space for them, and when you go to edit a form you'll find that they're shown as a long list of checkboxes. Most flags are toggled by hand, although some are set automatically by some templates. You can find more about each flag at [[WPD:Flags]], including guidelines on what they mean, when they should be used, and perhaps most importantly, when they can be ''removed'' from content. 
