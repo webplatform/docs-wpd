@@ -45,11 +45,13 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * Filling in compat Information
 * Data Not Semantic
 * Content Biased Voice
+* Setting appropriate flags
 
 
 ===Half-Hour Tasks===
 * New Examples
 * Incomplete
+* Rewriting CC-BY-SA content
 
 ===Half-Day Tasks===
 * New Articles
