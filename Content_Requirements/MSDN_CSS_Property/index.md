@@ -68,7 +68,7 @@ Where:
 * '''MEDIA_VALUE''' comes from the Media field in the source's overview table.
 * '''CSS_VALUES_VALUE''' is a concatenation of values (one for each header in the Property Values section of the source) of the form:
 <pre>
-{CSS Property Value
+{{CSS Property Value
 |Data Type=HEADER_VALUE
 |Description=DESCRIPTION_VALUE
 }}
