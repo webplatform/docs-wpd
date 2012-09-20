@@ -35,6 +35,27 @@ Editorial notes, by default, don't show up for users who are not logged-in. They
 
 Editors can provide a lot of value by merely making sure that pages have the correct flags and editorial notes set. This makes it so that other editors can easily come along and find and accomplish specific improvements, focusing their attention on the spots that need the most help.
 
+==Contributing==
+There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience.
+
+Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
+
+===5-Minute Tasks===
+* Grammar
+* Filling in compat Information
+* Data Not Semantic
+* Content Biased Voice
+
+
+===Half-Hour Tasks===
+* New Examples
+* Incomplete
+
+===Half-Day Tasks===
+* New Articles
+* Merge Articles
+* Improve internal documentation
+ 
 
 * '''Correct grammar and spelling mistakes''' Pages on [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere&target=Style_Compatibility_Issue&namespace=10 this list] need some attention to fix grammar and spelling mistakes.
 * '''Add examples'''
