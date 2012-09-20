@@ -43,28 +43,23 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 ===5-Minute Tasks===
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
 * '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources and then inputting the values in the form.
-* Data Not Semantic
-* Content Biased Voice
-* Setting appropriate flags
+* '''Data Not Semantic'''
+* '''Content Biased Voice'''
+* '''Setting appropriate flags'''
 
 
 ===Half-Hour Tasks===
-* New Examples
-* Incomplete
-* Rewriting CC-BY-SA content
+* '''New Examples'''
+* '''Incomplete API Documentation'''
+* '''Rewriting CC-BY-SA content'''
 * '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles on [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|this list]], then look in the editorial note at the top to find the other article they've been proposed to merge into. Often it just requires looking carefully through both articles to maintain the best of both without duplication. See [[WPD:Flags/Merge_Candidate]] for more information.
-* Fill in stubs
+* '''Fill in stubs'''
 
 ===Half-Day Tasks===
-* New Articles
-* Merge Articles
-* Improve internal documentation
- 
-
-
-* '''Add examples'''
-
-* '''Add appropriate labels to pages that need help'''
-* '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
+* '''Writing New Articles'''
+* '''Merge Articles'''
 * '''Write new articles''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at XXXXXXXXXXXX. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
-* '''Welcome new users'''
+* '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
+* '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
+
+{{TODO | Fill in the more tactical guides for how to do some of the things on this list.}}
