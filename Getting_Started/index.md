@@ -42,7 +42,7 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 
 ===5-Minute Tasks===
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
-* Filling in compat Information
+* '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources and then inputting the values in the form.
 * Data Not Semantic
 * Content Biased Voice
 * Setting appropriate flags
