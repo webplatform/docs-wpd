@@ -41,7 +41,7 @@ There are many ways to contribute that take varying amounts of time and expertis
 Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
 
 ===5-Minute Tasks===
-* Grammar
+* '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
 * Filling in compat Information
 * Data Not Semantic
 * Content Biased Voice
@@ -59,7 +59,7 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * Improve internal documentation
  
 
-* '''Correct grammar and spelling mistakes''' Pages on [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere&target=Style_Compatibility_Issue&namespace=10 this list] need some attention to fix grammar and spelling mistakes.
+
 * '''Add examples'''
 * '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles that have the '''Duplicate content''' label, and look through the two articles to ensure that all of the good content of the two articles is kept when they're merged into one.
 * '''Add appropriate labels to pages that need help'''
