@@ -30,12 +30,12 @@ The output of the script should be effectively the concatenation of the PRE bloc
 </pre>
 
 
-====Standardization_Status.1====
+====Standardization Status====
 <pre>
 {{Standardization_Status|}}
 </pre>
 
-====API_Name====
+====API Name====
 <pre>
 {{API_Name}}
 </pre>
@@ -116,7 +116,7 @@ Where:
 {{Topics|CSS}}
 </pre>
 
-====External_Attribution====
+====External Attribution====
 <pre>
 {{External_Attribution
 |Is_CC-BY-SA=No
