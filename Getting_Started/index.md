@@ -1,4 +1,4 @@
-Web Platform Docs is written, edited, and organized by an active community&mdash;many of them volunteers.
+This website, Web Platform Docs is written, edited, and organized by an active community&mdash;many of them volunteers.
 
 It's incredibly easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to any newcomers. If you ever have any questions, just ask!
 
