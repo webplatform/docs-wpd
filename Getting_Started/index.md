@@ -4,9 +4,9 @@ It's incredibly easy to get started, and you can make meaningful contributions w
 
 ==Getting Started==
 
-Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're all set!
+Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're set!
 
-To get a username, click the "Login" link on any page and follow the instructions to generate an account.
+To get a username, click '''Login''' on any page and follow the instructions to create an account.
 
 ==Finding Help==
 
