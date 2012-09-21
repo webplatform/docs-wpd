@@ -2,6 +2,7 @@
 * [[WPD:Infrastructure/Tasks|Infrastructure Tasks]]
 * [[WPD:Infrastructure/Site_Map|Site Map]]
 * [[WPD:Infrastructure/Bugs|Bugs]]
+* [[WPD:Infrastructure/Deployment|Deployment]]
 
 ==Site Structure==
 
