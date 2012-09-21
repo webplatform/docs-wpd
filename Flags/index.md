@@ -1,6 +1,8 @@
 At WPD we use a system of Flags to mark articles that need work done on them. This helps the community keep track of what needs to be done and create automatic lists of things to do.
 
-Flags are used in conjunction with Editorial templates. See more detail about each flag to see how it's used.
+Flags are used in conjunction with Editorial templates to provide more details. Whereas flags are used to mark high-level issues and allow editors to locate articles that require specific kinds of work, Editorial notes are used to describe what specifically sections of the page require.
+
+See more detail about each flag to see how it's used and what Editorial notes it should be used in conjunction with.
 
 ==List of Work Item Flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
