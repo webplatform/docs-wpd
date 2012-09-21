@@ -7,6 +7,7 @@ There's four current code bases, run via '''sudo salt-run deploy.run <codebase>'
 ;code.docs_test: /srv/salt/code/docs/test - a version of MediaWiki that can be used to test changes. '''''Note:''' Not yet functional.''
 ;code.docs_settings: /srv/salt/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
 ;code.nonshared: /srv/salt/code/nonshared - static content that is specific to domains.
+;code.piwik: /srv/salt/code/piwik - the location of the site metrics software
 
 Each code base is stored in the salt repository on the deployment system (15.185.100.127 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
 
