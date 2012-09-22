@@ -2,6 +2,11 @@
 
 {{TODO| Fill in logo legal information here }}
 
+The Web Platform Logo (unadorned by text) is available to the community under a permissive license that allows remixing by the community.
+
+The version of the logo that includes text is reserved for use in approved contexts to denote the site.
+
+{[TODO | Put source files here }}
 
 ==Badges==
 
@@ -11,6 +16,7 @@ You can use these pre-made badges on your site.
 
 ==Logo Use Guidelines==
 {{TODO | Review these guidelines for validity}}
+''These guidelines are not binding but merely best practices.''
 * Don’t modify the logo in any other way than what is prescribed in the guide, other than resizing.
 * Don’t make the logo the primary element on your page.
 * Keep some distance between the logo and other logos and icons on your page. 
