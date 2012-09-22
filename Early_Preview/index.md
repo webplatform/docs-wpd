@@ -22,7 +22,8 @@ The following is a list of folks to invite to the early preview:
 * ''Who?''
 
 ===Microsoft===
-* ''Who?''
+* Grant Skinner (grant@gskinner.com)
+* Robby Ingebretsen (robby@thinkpixellab.com)
 
 ===Mozilla===
 * Chris Heilmann
