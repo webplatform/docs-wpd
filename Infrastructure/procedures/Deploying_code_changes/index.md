@@ -45,6 +45,11 @@ For example:
 Otherwise, use SVN to load the extension onto the deployment server:
 * ''svn co <url> <location>''
 
+==== Updating the Database ====
+Sometimes an extension will require updating the databases. To do this, change your permissions to root, and run:
+
+<code>root@deployment:/srv/salt/code/docs/current# php maintenance/update.php</code>
+
 == Adding a new code base ==
 
 The deployment code is using salt runners that call salt states that aren't included in the top state configuration. These non-top called states are only called during deployment. We do this so that we can separate deployment of applications from configuration of the instances. That said, adding a new code base for deployment is the same as writing any other salt state.
