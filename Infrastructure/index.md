@@ -44,7 +44,7 @@
 |-
 | metrics
 | [http://piwik.org/ Piwik]
-| [http://stats.webplatform.org/ stats.webplatform.org/]
+| [http://stats.webplatform.org/ stats.webplatform.org/] or [http://stats.webplatform.org/track/ stats.webplatform.org/track/]
 | 
 |-
 | blog
