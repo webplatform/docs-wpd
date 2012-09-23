@@ -1,10 +1,8 @@
 ==Using the logo==
 
-{{TODO| Fill in logo legal information here }}
+The Web Platform graphical logo is licensed under a Creative Commons Attribution license,  creativecommons.org/licenses/by/3.0/ CC-BY 3.0 Unported. The unadorned graphic is available to the community for re-use and remixing.  
 
-The Web Platform Logo (unadorned by text) is available to the community under a permissive license that allows remixing by the community.
-
-The version of the logo that includes text is reserved for use in approved contexts to denote the site.
+To help users distinguish the Web Platform Documentation Site, we ask that the logo+text version be used only unmodified, to refer to this Site and its content.
 
 {[TODO | Put source files here }}
 
