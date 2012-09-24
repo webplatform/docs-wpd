@@ -63,6 +63,7 @@ First of all, tackle the main content box - this is where the bulk of your artic
     <ul>
       <li><p>'''Remove excess whitespace'''. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
       <li><p>'''Get tables to render'''. Because of a bug in the way media wiki tables are handled in semantic media wiki forms, you need to write your table syntax using the pipe hack. See http://webplatform.org/docs/WPD:Manual_Of_Style/Tables for more details.</p></li>
+      <li><p>'''Replace vertical bars'''. Media wiki's handling of the vertical bar character ( {{!}} ) is problematic. To be safe, use the "pipe hack" mentioned above to replace all vertical bars&mdash;not only in tables, but in code blocks and regular text throughout the article.</p></li>
       <li><p>'''Tidy up code blocks'''. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:</p>
 
 <pre>This
