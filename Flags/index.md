@@ -31,7 +31,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Content_Not_Neutral|Content_Not_Neutral]]
 * [[WPD:Flags/Content_Biased_Voice|Content_Biased_Voice]]
 * [[WPD:Flags/Content_Grammar_Spelling|Content_Grammar_Spelling]]
-* Content_Includes_Discussion
+* [[WPD:Flags/Content_Cleanup|Content_Cleanup]]
 * '''Content_Broken_Links''' ''For when some content links don't work; in practice used a lot on imported content.''
 * '''Compatibility_Incomplete'''
 
