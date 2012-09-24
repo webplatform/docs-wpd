@@ -72,6 +72,10 @@ For pages that document a CSS media feature.
 {{TODO | Examples of topics and URLS}}
 {{#forminput:form=CSS Media Feature|default value=foo|button text=Create CSS Media Feature Page}}
 
+==API Listing==
+For pages that primarily list APIs, like css/properties.
+{{#forminput:form=API_Listing|default value=foo|button text=Create API Listing Page}}
+
 ==API Object==
 If you're documenting an API, like <code>document</code>. Generally all pages in this type have a URL that contains <code>apis</code>, and has method and property pages that are sub-pages.
 {{#forminput:form=API_Object|default value=apis/foo|button text=Create API Object Page}}
