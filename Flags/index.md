@@ -34,7 +34,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Content_Cleanup|Content_Cleanup]]
 * [[WPD:Flags/Content_Broken_Links|Content_Broken_Links]]
 * [[WPD:Flags/Compatibility_Incomplete|Compatibility_Incomplete]]
-* '''Examples_Needed'''
+* [[WPD:Flags/Examples_Needed|Examples_Needed]
 * '''Examples_Errors''' ''Applied when the example code wouldn't work as described''
 * '''Examples_Style_Guide''' ''Applied when the example code works but doesn't follow all of the guidelines laid out for examples.''
 
