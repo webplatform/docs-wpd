@@ -13,7 +13,6 @@ You can use these pre-made badges on your site.
 {{TODO | Add the pre-made badges here }}
 
 ==Logo Use Guidelines==
-{{TODO | Review these guidelines for validity}}
 ''These guidelines are not binding but merely best practices.''
 * Don’t modify the logo in any other way than what is prescribed in the guide, other than resizing.
 * Don’t make the logo the primary element on your page.
