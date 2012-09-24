@@ -19,7 +19,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Copyright_Issue|Copyright_Issue]]
 * [[WPD:Flags/Undescriptive Title|Undescriptive_Title]]
 * [[WPD:Flags/Needs_Flags|Needs_Flags]]
-* '''Needs_Topics'''
+* [[WPD:Flags/Needs_Topics|Needs_Topics]]
 * [[WPD:Flags/Missing_Relevant_Sections|Missing_Relevant_Sections]]
 * [[WPD:Flags/Data_Not_Semantic|Data_Not_Semantic]]
 
