@@ -32,7 +32,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Content_Biased_Voice|Content_Biased_Voice]]
 * [[WPD:Flags/Content_Grammar_Spelling|Content_Grammar_Spelling]]
 * [[WPD:Flags/Content_Cleanup|Content_Cleanup]]
-* '''Content_Broken_Links''' ''For when some content links don't work; in practice used a lot on imported content.''
+* [[WPD:Flags/Content_Broken_Links|Content_Broken_Links]]
 * '''Compatibility_Incomplete'''
 
 ====Examples Quality====
