@@ -50,6 +50,11 @@ Sometimes an extension will require updating the databases. To do this, change y
 
 <code>root@deployment:/srv/salt/code/docs/current# php maintenance/update.php</code>
 
+If the extension includes a SQL file to create new tables, run (for example):
+
+<code>root@deployment:/srv/salt/code/docs/current# php maintenance/sql.php extensions/NewSignupPage/user_register_track.sql
+</code>
+
 == Adding a new code base ==
 
 The deployment code is using salt runners that call salt states that aren't included in the top state configuration. These non-top called states are only called during deployment. We do this so that we can separate deployment of applications from configuration of the instances. That said, adding a new code base for deployment is the same as writing any other salt state.
