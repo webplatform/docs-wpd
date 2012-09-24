@@ -34,19 +34,10 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Content_Cleanup|Content_Cleanup]]
 * [[WPD:Flags/Content_Broken_Links|Content_Broken_Links]]
 * [[WPD:Flags/Compatibility_Incomplete|Compatibility_Incomplete]]
+* [[WPD:Flags/Content_Accessibility|Content_Accessibility]]
 * [[WPD:Flags/Examples_Needed|Examples_Needed]]
 * [[WPD:Flags/Examples_Errors|Examples_Errors]]
 * [[WPD:Flags/Examples_Best_Practices|Examples_Best_Practices]]
-
-===Content Quality (Accessibility)===
-{{TODO | Implement the accessibility flags}}
-* Needs_Translation (missing language)
-* Outdated_Translation
-* Needs_Transcript
-* Contrast_Needs_Improving
-* Colloquial_Or_Slang_Language
-* Images_Need_Alt_Text
-* Needs_Accessibility (general Flag)
 
 ==List of Categorization Flags==
 
