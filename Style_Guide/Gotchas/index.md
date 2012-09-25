@@ -1,3 +1,13 @@
+Gotchas, gaaks, traps, pratfalls - every language is full of them, and MediaWiki markdown is no exception. This article lists those that we've discovered as we build this site and work with content. Wherever possible, a work-around is provided.
+
+==The Dreaded pipe character==
+
+""What happens:"" The content you've entered in the text field contains a pipe character. When you click Save page all of the text including and following the pipe character disappears.
+
+This can happen in the following cases:
+
+===Tables with pipe characters===
+
 This page describes some intricacies of the mark-up syntax used by Semantic MediaWiki that can cause confusion for people editing WPD.
 
 ==Tables==
