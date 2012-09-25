@@ -8,7 +8,7 @@ When the pipe character appears in a Semantic MediaWiki form it gets interpreted
 
 '''What to do:'''Yes, you can get your content back. It's still there. Deep breath.
 # In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
-# Find the offending pipe character, '''<nowiki>"|"</nowiki>'''.
+# Find the offending pipe character, '''<nowiki>|</nowiki>'''.
 # Replace the pipe character with '''<nowiki>{{!}}</nowiki>'''.
 
 '''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named <nowiki>"!"</nowiki> which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, and thus ''renderus interruptus'' is avoided.
