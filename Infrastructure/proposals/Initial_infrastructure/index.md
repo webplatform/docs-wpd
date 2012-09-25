@@ -25,15 +25,15 @@
 | New URL structure
 | Sep 28
 |-
-| 1
+| 2
 | Ryan
 | Review code (extensions and SemMediaWiki)
-|                                        
+|  in progress                                      
 | 1-2 hours
 | None
 | Sep 28
 |-
-| 1
+| 2
 | Ryan
 | Move to DB service
 |                                        
@@ -44,7 +44,7 @@
 | 1
 | Ryan
 | Backups/Restore instructions
-|                                        
+| in progress                                
 | 2-5 hours
 | None
 | Sep 28
