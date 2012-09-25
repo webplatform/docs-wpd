@@ -12,7 +12,7 @@
 | 1
 | Ryan
 | New URL structure
-| in progress
+| complete
 | 2-5 hours
 | DNS changes
 | Sep 28
@@ -52,7 +52,7 @@
 | 1
 | Ryan
 | Move to Block Service for gluster and backups
-|                                        
+| complete
 | 1-2 hours
 | None
 | Sep 28
