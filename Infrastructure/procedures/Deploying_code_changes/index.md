@@ -115,3 +115,9 @@ To deploy:
 Such as 
 
  sudo salt-run deploy.run code.nonshared
+
+== Error Logs ==
+
+All servers and applications have combined error logs at 
+
+ /mnt/logs/error.log
