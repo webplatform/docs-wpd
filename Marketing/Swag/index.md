@@ -27,4 +27,4 @@ Another option is flip-top notebooks with a collection of sticky notes, as avail
 [[File:NOT21.jpg]]
 
 ==T-Shirts==
-''Will we make t-shirts?''
+[[File:WebPlatform.org_Tshirts_v2.1.pdf]]
