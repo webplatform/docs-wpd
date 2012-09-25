@@ -92,8 +92,8 @@
 | 1
 | Ryan
 | Launch add'l app server instances
-|                                        
-| 1-2 hours
+| complete
+| 1-2 hours (took 4 hours)
 | None
 | Sep 28
 |-
