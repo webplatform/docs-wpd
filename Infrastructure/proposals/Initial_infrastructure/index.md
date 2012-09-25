@@ -100,7 +100,7 @@
 | 1
 | Contractors
 | Import script (MSDN to Semantic MediaWiki)
-|                                        
+| in progress                                       
 | 
 | 
 | Sep 28
@@ -108,7 +108,7 @@
 | 1
 | Contractors
 | Comments extension (HW)
-| open                                       
+| in progress, 90% complete                                       
 | 10 days
 | partly on Skinning
 | Sep 28
@@ -116,7 +116,7 @@
 | 1
 | Contractors
 | Site metrics (HW)
-| open                                       
+| done                                       
 | 2 days
 | Improve deploy system (?)
 | Sep 28
@@ -124,7 +124,7 @@
 | 1
 | Contractors
 | Integration with other software (Single Sign-On): Wordpress (HW)
-| open                                       
+| in progress                                     
 | 2 days
 | 
 * Installation of Wordpress
@@ -134,7 +134,7 @@
 | 1
 | Contractors
 | Integration with other software (Single Sign-On): Questions2Answers (HW)
-| open                                       
+| in progress                                   
 | 3 days
 | 
 * Installation of Questions2Answers
@@ -144,15 +144,15 @@
 | 1
 | Contractors
 | Search extension (page titles, categories) (HW)
-| open                                       
+| odone                                       
 | 3 days
 | partly on Skinning
 | Sep 28
 |-
-| 1
+| 3
 | Contractors
 | Translation extension (HW)
-| open                                       
+| postponed                                       
 | 8 days
 | partly on Skinning
 | Sep 28
@@ -173,10 +173,10 @@
 | 
 | Sep 28
 |-
-| 1
+| 3
 | Contractors
 | file upload and storage
-|                                        
+| postponed                                   
 | 
 | 
 | Sep 28
