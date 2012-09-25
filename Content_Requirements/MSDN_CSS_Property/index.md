@@ -21,11 +21,8 @@ The output of the script should be effectively the concatenation of the PRE bloc
 ====Flags====
 <pre>
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Needs Flags
-|Content=Incomplete, Not Neutral, Content Missing Specification Links
-|Compatibility=Missing
-|Examples=Examples are not best practices
-|Editorial notes=
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
 }}
 </pre>
 
