@@ -3,16 +3,11 @@
 ==Page Category Migration Mapping CSS Property==
 
 ===URL Mapping===
-''Input URL'':  http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx
-
-''Final URL'': http://webplatform.org/docs/css/properties/foo
-
-Note: the input URL does not contain any information required in output URL. The foo name comes from the <nowiki><h1> </nowiki>title on the input page, with the content "foo property".
-
-The url should not include the "property" suffix and should be lower-case with hypens separating the words, in line with the actual property-name in CSS (e.g. <code>font-size</code>, <code>background-position</code>)
+''URL mapping is handled in the spreadsheet''
 
 ====Page Form====
-Use the [[Form:CSS_Property]] form.
+You need to create '''TWO''' forms.
+Use the [[Form:Markup_Element]] form, as well as the [[Form:API_Object]] form.
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
