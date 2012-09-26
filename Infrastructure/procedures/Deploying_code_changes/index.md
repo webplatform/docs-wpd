@@ -4,13 +4,14 @@ There's four current code bases, run via '''sudo salt-run deploy.run <codebase>'
 
 ;code.root: /srv/salt/code/root - the document root.
 ;code.docs_current: /srv/salt/code/docs/current - the version of MediaWiki that runs the site.
-;code.docs_test: /srv/salt/code/docs/test - a version of MediaWiki that can be used to test changes. '''''Note:''' Not yet functional.''
+;code.docs_test: /srv/salt/code/docs/current - a version of MediaWiki that can be used to test changes.
 ;code.docs_settings: /srv/salt/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
 ;code.nonshared: /srv/salt/code/nonshared - static content that is specific to domains.
-;code.piwik: /srv/salt/code/piwik - the location of the site metrics software
-;code.qwebirc: /srv/salt/code/qwebirc - the location of the IRC browser client software
-:code.blog: /srv/salt/code/blog/current - the location of the wordpress software
-:code.talk: /srv/salt/code/talk/forums/current - the location of questions2answers software
+;code.piwik: /srv/salt/code/piwik - the location of the site metrics software.
+;code.qwebirc: /srv/salt/code/qwebirc - the location of the IRC browser client software.
+:code.blog: /srv/salt/code/blog/current - the location of the wordpress software.
+:code.talk: /srv/salt/code/talk/forums/current - the location of questions2answers software.
+:code.all: This will deploy all of the above code bases. This is incredibly dangerous to use. It's meant for deploying new application servers and should likely not be used for any other purpose.
 
 Each code base is stored in the salt repository on the deployment system (15.185.100.127 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
 
