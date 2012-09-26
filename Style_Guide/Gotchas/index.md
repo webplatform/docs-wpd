@@ -28,7 +28,7 @@ The logical OR operator {{!}}{{!}} returns true if either operand is true.
 </pre>
 '''Result:'''
 <blockquote>
- The logical OR operator {{!}}{{!}} returns true if either operand is true.
+The logical OR operator {{!}}{{!}} returns true if either operand is true.
 </blockquote>
 
 {{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use <nowiki>&action=edit</nowiki> in the URL to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
