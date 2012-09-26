@@ -28,5 +28,3 @@ if (moodQuery==checkin.mood||moodQuery) handler(checkin);
 But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
 
  if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
-
-{{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use <nowiki>&action=edit</nowiki> in the URL to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
