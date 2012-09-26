@@ -24,7 +24,7 @@ You'd think that if a pipe character appears in a <nowiki><pre></nowiki> section
 For double pipe characters, you have to use the <nowiki>{{!}}</nowiki> template. For example:
 
 <pre>
-The logical OR operator {{!}}{{!}} returns true if either operand is true.
+The logical OR operator || returns true if either operand is true.
 </pre>
 '''Result:'''
 <blockquote>
