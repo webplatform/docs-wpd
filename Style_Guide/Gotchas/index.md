@@ -6,7 +6,7 @@ Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them
 
 When the pipe character appears in a Semantic MediaWiki form it gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit with Form''' (&action=formedit) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?). 
 
-'''What to do:'''Yes, you can get your content back. It's still there. Deep breath.
+'''What to do:''' Yes, you can get your content back. It's still there. Deep breath.
 # In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
 # Replace the pipe character with '''<nowiki>{{!}}</nowiki>'''.
