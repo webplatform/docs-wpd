@@ -49,7 +49,7 @@ But in lines of code designated by a leading single space (implicit pre-formatte
 
 And just to beat this topic to death, pipes in <nowiki><code></nowiki>-encoded text must also be substituted with the <nowiki>{{!}}</nowiki> template. The rendering engine only treats such sections for style considerations (with CSS), it still evaluates the characters.
 
-===Parser functions with pipes===
+===Parser functions with pipe characters===
 
 But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
 
