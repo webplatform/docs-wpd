@@ -17,7 +17,7 @@ When the pipe character appears in a Semantic MediaWiki form it gets interpreted
 
 To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/Tables|Tables]] for details. 
 
-==Pre sections with pipe characters==
+===Pre sections with pipe characters===
 
 Related to the table issue,  For example:
 
