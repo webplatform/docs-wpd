@@ -35,7 +35,7 @@ This results in the following table:
 |}
 
 ===Form-Based Pages===
-Tables in a template or form-based page must use the [[WPD:Implementation_Patterns#The_CSS_Property_page|"pipe hack"]] instead of the <code>|</code> character:
+Tables in a template or form-based page must use the [[WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character|"pipe hack"]] instead of the <code>|</code> character:
 
 <pre><nowiki>
 {{!}}
