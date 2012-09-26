@@ -71,7 +71,7 @@ Here's normal syntax for a table:
 |}
 </syntaxhighlight>
 
-The problem is that in the #if block, every pipe character the rendering engine encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work. Here's an example where we use the nowiki>{{!}}</nowiki> template hack:
+The problem is that in the #if block, every pipe character the rendering engine encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work. Here's an example where we use the <nowiki>{{!}}</nowiki> template hack:
 
 <syntaxhighlight>
 {{#if: {{{Specifications|}}} | 
