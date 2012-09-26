@@ -53,7 +53,7 @@ And just to beat this topic to death, pipes in <nowiki><code></nowiki>-encoded t
 
 But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
 
-Parser functions also gaak when they encounter pipes. So, when you combine a parser function like <nowiki>#if</nowiki> with a table, you have to use the nowiki>{{!}}</nowiki> template instead of pipes for the table.
+Parser functions also gaak when they encounter pipes. So, when you combine a parser function like <nowiki>#if</nowiki> with a table, you have to use the <nowiki>{{!}}</nowiki> template instead of pipes for the table.
 
 Here's the normal #if syntax:
 
