@@ -2,12 +2,12 @@ Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them
 
 ==The dreaded pipe character==
 
-'''What happens'''
+'''What happens'''</ br>
 The content you've entered in the '''Content''' text field contains a pipe character ('''<nowiki>|</nowiki>'''). When you click '''Save page''' all of the text including and following the pipe character disappears.
 
 When the pipe character appears in a Semantic MediaWiki form it gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit with Form''' (&action=formedit) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?). 
 
-'''What to do'''
+'''What to do'''</ br>
 Yes, you can get your content back. It's still there. Deep breath.
 # In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
