@@ -48,3 +48,37 @@ But in lines of code designated by a leading single space (implicit pre-formatte
  if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
 
 And just to beat this topic to death, pipes in <nowiki><code></nowiki>-encoded text must also be substituted with the <nowiki>{{!}}</nowiki> template. The rendering engine only treats such sections for style considerations (with CSS), it still evaluates the characters.
+
+===Parser functions with pipes===
+
+But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
+
+Parser functions also gaak when they encounter pipes. So, when you combine a parser function like <nowiki>#if</nowiki> with a table, you have to use the nowiki>{{!}}</nowiki> template instead of pipes for the table.
+
+Here's the normal #if syntax:
+
+<syntaxhighlight>
+{{#if: condition | value | else-value}}
+</syntaxhighlight>
+
+Here's normal syntax for a table: 
+
+<syntaxhighlight>
+{| class="wikitable"
+! Header-value 1 !! Header-value-2
+|-
+| Row-value 1 || Row-value-2
+|}
+</syntaxhighlight>
+
+The problem is that in the #if block, every pipe character the rendering engine encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work. Here's an example where we use the nowiki>{{!}}</nowiki> template hack:
+
+<syntaxhighlight>
+{{#if: {{{Specifications|}}} | 
+==Related Specifications==
+{{{!}} class="wikitable"
+{{!}}-
+! Specification !! Status !! Related Changes
+{{{Specifications|}}}
+{{!}}} | }}
+</syntaxhighlight>
