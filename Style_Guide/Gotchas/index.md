@@ -28,3 +28,5 @@ if (moodQuery==checkin.mood||moodQuery) handler(checkin);
 But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
 
  if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
+
+And just to beat this topic to death, pipes in <nowiki><code></nowiki>-encoded text must also be substituted with the <nowiki>{{!}}</nowiki> template.
