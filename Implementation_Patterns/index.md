@@ -513,9 +513,9 @@ Basically, the hack is that we have a special template defined: [[Template:!]]. 
 {{!}}} | }}
 </syntaxhighlight>
 
-More information on this pattern (no, I did not come up with this crazy solution), see [http://meta.wikimedia.org/wiki/Help:Table#Producing_table_syntax_using_templates_and.2For_parser_functions | "Parser functions"].
+More information on this pattern (no, I did not come up with this crazy solution), see [[http://meta.wikimedia.org/wiki/Help:Table#Producing_table_syntax_using_templates_and.2For_parser_functions |Parser functions]].
 
-For general information about the problems with pipe characters, see [http://docs.webplatform.org/wiki/WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character | "The dreaded pipe character"].
+For general information about the problems with pipe characters, see [[WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character |The dreaded pipe character]].
 
 ====Gotcha:Spaces in template calls====
 
