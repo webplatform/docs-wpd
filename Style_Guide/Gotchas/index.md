@@ -27,9 +27,7 @@ It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The render
 
 <code>
 <nowiki>
-<pre>
-if (moodQuery==checkin.mood||moodQuery) handler(checkin);
-</pre>
+<pre>if (moodQuery==checkin.mood||moodQuery) handler(checkin);</pre>
 </nowiki>
 </code>
 
