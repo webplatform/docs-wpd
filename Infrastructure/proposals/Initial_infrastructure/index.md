@@ -60,7 +60,7 @@
 | 1
 | Ryan
 | Staging Server
-| in progress
+| complete
 | 4-5 hours
 | New URL structure
 | Sep 28
