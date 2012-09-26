@@ -19,15 +19,14 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores verything in a <nowiki><pre></nowiki> section and reproduces it as is.
-
-But in blocks of code designated by a leading single space (
+It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores verything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
 
 <pre>
-if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
+if (moodQuery==checkin.mood||moodQuery) handler(checkin);
 </pre>
 
- if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
+But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
 
+ if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
 
 {{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use <nowiki>&action=edit</nowiki> in the URL to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
