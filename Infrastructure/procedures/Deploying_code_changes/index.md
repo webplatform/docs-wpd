@@ -56,6 +56,25 @@ If the extension includes a SQL file to create new tables, run (for example):
 <code>root@deployment:/srv/salt/code/docs/current# php maintenance/sql.php extensions/NewSignupPage/user_register_track.sql
 </code>
 
+=== Testing MediaWiki changes via the test site ===
+
+It's possible to test changes on docs.webplatform.org/test prior to deploying them to docs.webplatform.org/wiki. There's three things to know about this:
+
+# Both are modified in the same place (/srv/salt/code/docs/current), but they are deployed separately:
+#* test: sudo salt-run deploy.run code.docs_test
+#* wiki: sudo salt-run deploy.run code.docs_current
+# To run maintenance scripts for test, you need to provide a configuration file via a flag; from /srv/salt/code/docs/current:
+#* php maintenance/<maintenance-script> --conf=../TestSettings.php
+# The MediaWiki configuration is shared between test and wiki in Settings.php. You can modify settings, add extension, etc. for just test by using $mode; for instance:
+<source lang="php">
+
+if ( $mode === "test" ) {
+    require_once( "$IP/extensions/Translate/Translate.php" );
+}
+</source>
+
+Best practice is to deploy the changes to test and test them out before deploying them to wiki.
+
 == Adding a new code base ==
 
 The deployment code is using salt runners that call salt states that aren't included in the top state configuration. These non-top called states are only called during deployment. We do this so that we can separate deployment of applications from configuration of the instances. That said, adding a new code base for deployment is the same as writing any other salt state.
