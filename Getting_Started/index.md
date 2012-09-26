@@ -38,6 +38,11 @@ Editors can provide a lot of value by merely making sure that pages have the cor
 ==Contributing==
 There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience.
 
+Here are some references to help you:
+* [[WPD:Manual_Of_Style|Style Guide]
+* [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
+* [[WPD:Implementation_Patterns|Template and Form Implementation]]
+
 Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
 
 ===5-Minute Tasks===
