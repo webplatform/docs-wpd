@@ -19,7 +19,9 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-Related to the table issue,  For example:
+You'd think that if a pipe character appears in a <nowiki><pre></nowiki>section, it would be ignored and rendered as is, just like everything else in a <nowiki><pre></nowiki>section. Well, almost. Single pipe characters in <nowiki><pre></nowiki>sections do get ignored and reproduced as is. Double pipes, though, not so much.
+
+For double pipe characters, you have to use the <nowiki>{{!}}</nowiki>. For example:
 
 <pre>
 The logical OR operator {{!}}{{!}} returns true if either operand is true.
@@ -29,4 +31,4 @@ The logical OR operator {{!}}{{!}} returns true if either operand is true.
 The logical OR operator {{!}}{{!}} returns true if either operand is true.
 </blockquote>
 
-{{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use the Edit Source link to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
+{{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use '''&action=edit''' in the URL to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
