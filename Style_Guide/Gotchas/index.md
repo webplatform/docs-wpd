@@ -21,11 +21,25 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores verything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
 
+<nowiki>
+<pre>
+if (moodQuery==checkin.mood||moodQuery) handler(checkin);
+</pre>
+</nowiki>
+
+This code renders as follows.
+
 <pre>
 if (moodQuery==checkin.mood||moodQuery) handler(checkin);
 </pre>
 
 But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
+
+<nowiki>
+ if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
+</nowiki>
+
+(With a leading space), this code renders as follows.
 
  if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
 
