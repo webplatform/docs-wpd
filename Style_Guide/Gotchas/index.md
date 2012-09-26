@@ -19,16 +19,15 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-You'd think that if a pipe character appears in a <nowiki><pre></nowiki> section, it would be ignored and rendered as is, just like everything else in a <nowiki><pre></nowiki> section. Well, almost. Single pipe characters in <nowiki><pre></nowiki> sections do get ignored and reproduced as is. Double pipes, though, not so much.
+It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores verything in a <nowiki><pre></nowiki> section and reproduces it as is.
 
-For double pipe characters, you have to use the <nowiki>{{!}}</nowiki> template. For example:
+But in blocks of code designated by a leading single space (
 
 <pre>
-The logical OR operator || returns true if either operand is true.
+if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
 </pre>
-'''Result:'''
-<blockquote>
-The logical OR operator {{!}}{{!}} returns true if either operand is true.
-</blockquote>
+
+ if (moodQuery==checkin.mood{{!}}{{!}}moodQuery) handler(checkin);
+
 
 {{Note|The <nowiki>{{!}}</nowiki> escape sequence does not work properly inside a <nowiki><pre></nowiki> element, when editing using a form. To edit pages that have this condition, use <nowiki>&action=edit</nowiki> in the URL to edit the page, being careful not to disturb any of the form-related syntax on the page.}}
