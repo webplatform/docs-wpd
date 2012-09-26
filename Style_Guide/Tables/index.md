@@ -1,7 +1,7 @@
 ==Syntax==
 For consistency and compatibility of tables, please use the following table syntax styles. These rules are required to ensure that tables print correctly in all contexts, including when they are part of a form field.
 
-===Normal Pages===
+===Normal pages===
 <pre><nowiki>
 {|
 ! head 1
@@ -34,7 +34,7 @@ This results in the following table:
 | column b3
 |}
 
-===Form-Based Pages===
+===Form-based pages===
 Tables in a template or form-based page must use the [[WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character|"pipe hack"]] instead of the <code>|</code> character:
 
 <pre><nowiki>
@@ -59,7 +59,7 @@ Thus, the same table in a form would use the following (ugly) syntax:
 {{!}}}
 </nowiki></pre>
 
-===Do Not Do This!===
+===Do not do this!===
 Do not use the single-line row syntax.
 <pre><nowiki>
 {|
@@ -71,7 +71,7 @@ Do not use the single-line row syntax.
 |}
 </nowiki></pre>
 
-==Sortable Tables==
+==Sortable tables==
 MediaWiki has the ability to create [http://www.mediawiki.org/wiki/Help:Sorting sortable tables], simply by adding the class <code>sortable</code>:
 
 <pre><nowiki>
