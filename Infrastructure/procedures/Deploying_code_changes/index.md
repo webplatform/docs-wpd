@@ -119,6 +119,6 @@ Such as
 
 == Error Logs ==
 
-All servers and applications have combined error logs at 
+All servers and applications have combined error logs on the deployment host at:
 
  /mnt/logs/error.log
