@@ -1,15 +1,15 @@
 ''This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.''
 
-==Page Category Migration Mapping HTML Attribute==
+==Page Category Migration Mapping CSS Property==
 
 ===URL Mapping===
 ''URL mapping is handled in the spreadsheet''
 
 ====Page Form====
 You need to create '''TWO''' forms.
-Use the [[Form:Markup_Attribute]] form, as well as the [[Form:API_Object_Property]] form; the MSDN content is a mix of content that we want to be two different page types in WPD.
+Use the [[Form:Markup_Element]] form, as well as the [[Form:API_Object]] form; the MSDN content is a mix of content that we want to be two different page types in WPD.
 
-==Markup_Attribute==
+==Markup_Element==
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
@@ -41,16 +41,14 @@ The output of the script should be effectively the concatenation of the PRE bloc
 Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
-====Markup Attribute====
+====Markup Element====
 <pre>
-{{Markup_Attribute
-|Applies_to=URL
+{{Markup_Element
+|DOM_interface=URL
 }}
 </pre>
 Where:
-* '''URL''' is the url of the corresponding API_Object that this attribute applies to.
-
-{{Note | There does not appear to be a way to figure this out from the attribute articles in MSDN, although the information must be held somewhere}}
+* '''URL''' is the url of the corresponding API_Object article being created at this import step. 
 
 ====Examples Section====
 <pre>
@@ -88,7 +86,7 @@ Where:
 
 ====Topics====
 <pre>
-{{Topics|HTML}}
+{{Topics|HTML,}}
 </pre>
 
 ====External Attribution====
@@ -103,7 +101,7 @@ Where:
 Where:
 * '''LINK_VALUE''' is the link to the live URL of the source doc.
 
-==API_Object_Property==
+==API_Object==
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
@@ -135,17 +133,16 @@ The output of the script should be effectively the concatenation of the PRE bloc
 Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
-====API Object Property====
+====API Object====
 <pre>
-{{API_Object_Property
-|Property_applies_to=OBJECT
-|Read_only=
+{{API_Object
+|Subclass_of=dom/apis/OBJECT
 }}
 </pre>
 Where:
 * '''OBJECT''' is the name of the last item in the DOM Information sections' inheritance hierarchy.
 
-{{Note | There does not appear to be a way to figure this out from the attribute articles in MSDN, although the information must be held somewhere}}
+{{Note| The properties and methods on the page can be ignored because they will be affixed to the correct interface object when they are created during the import.}}
 
 ====Examples Section====
 <pre>
