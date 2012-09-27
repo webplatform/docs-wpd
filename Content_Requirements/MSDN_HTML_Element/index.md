@@ -103,7 +103,7 @@ Where:
 Where:
 * '''LINK_VALUE''' is the link to the live URL of the source doc.
 
-==API_Object==
+==API_Object_Property==
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
@@ -135,16 +135,17 @@ The output of the script should be effectively the concatenation of the PRE bloc
 Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
-====API Object====
+====API Object Property====
 <pre>
-{{API_Object
-|Subclass_of=dom/apis/OBJECT
+{{API_Object_Property
+|Property_applies_to=OBJECT
+|Read_only=
 }}
 </pre>
 Where:
 * '''OBJECT''' is the name of the last item in the DOM Information sections' inheritance hierarchy.
 
-{{Note| The properties and methods on the page can be ignored because they will be affixed to the correct interface object when they are created during the import.}}
+{{Note | There does not appear to be a way to figure this out from the attribute articles in MSDN, although the information must be held somewhere}}
 
 ====Examples Section====
 <pre>
