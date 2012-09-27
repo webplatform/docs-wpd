@@ -7,7 +7,9 @@
 
 ====Page Form====
 You need to create '''TWO''' forms.
-Use the [[Form:Markup_Element]] form, as well as the [[Form:API_Object]] form.
+Use the [[Form:Markup_Element]] form, as well as the [[Form:API_Object]] form; the MSDN content is a mix of content that we want to be two different page types in WPD.
+
+==Markup_Element==
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
@@ -16,8 +18,8 @@ The output of the script should be effectively the concatenation of the PRE bloc
 ====Flags====
 <pre>
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 }}
 </pre>
 
@@ -39,35 +41,14 @@ The output of the script should be effectively the concatenation of the PRE bloc
 Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
-====CSS Property====
+====Markup Element====
 <pre>
-{{CSS Property
-|Initial value=INITIAL_VALUE
-|Applies to=APPLIES_TO_VALUE
-|Inherited=INHERITED_VALUE
-|Media=MEDIA_VALUE
-|Computed value=
-|Animatable=
-|CSS object model property=
-|CSS percentages=
-|Values=CSS_VALUES_VALUE
+{{Markup_Element
+|DOM_interface=URL
 }}
 </pre>
 Where:
-* ''''INITIAL_VALUE''' comes from the Initial value field of the source's overview table
-* '''APPLIES_TO_VALUE''' comes from the Applies to value field of the sources' overview table
-* '''INHERITED_VALUE''' comes from the Inherited field in the source's overview table, where "1" is Yes and "0" is "No"
-* '''MEDIA_VALUE''' comes from the Media field in the source's overview table.
-* '''CSS_VALUES_VALUE''' is a concatenation of values (one for each header in the Property Values section of the source) of the form:
-<pre>
-{{CSS Property Value
-|Data Type=HEADER_VALUE
-|Description=DESCRIPTION_VALUE
-}}
-</pre>
-Where:
-* '''HEADER_VALUE''' is the value of the header for that value in the source document
-* '''DESCRIPTION_VALUE''' is the value of the paragraph for that value in the source document
+* '''URL''' is the url of the corresponding API_Object article being created at this import step. 
 
 ====Examples Section====
 <pre>
