@@ -1,15 +1,15 @@
 ''This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.''
 
-==Page Category Migration Mapping CSS Property==
+==Page Category Migration Mapping HTML Attribute==
 
 ===URL Mapping===
 ''URL mapping is handled in the spreadsheet''
 
 ====Page Form====
 You need to create '''TWO''' forms.
-Use the [[Form:Markup_Element]] form, as well as the [[Form:API_Object]] form; the MSDN content is a mix of content that we want to be two different page types in WPD.
+Use the [[Form:Markup_Attribute]] form, as well as the [[Form:API_Object_Property]] form; the MSDN content is a mix of content that we want to be two different page types in WPD.
 
-==Markup_Element==
+==Markup_Attribute==
 
 ===Field values===
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
@@ -41,14 +41,16 @@ The output of the script should be effectively the concatenation of the PRE bloc
 Where:
 * '''SUMMARY_INFORMATION''' is the first <nowiki><p></nowiki> element in the content
 
-====Markup Element====
+====Markup Attribute====
 <pre>
-{{Markup_Element
-|DOM_interface=URL
+{{Markup_Attribute
+|Applies_to=URL
 }}
 </pre>
 Where:
-* '''URL''' is the url of the corresponding API_Object article being created at this import step. 
+* '''URL''' is the url of the corresponding API_Object that this attribute applies to.
+
+{{Note | There does not appear to be a way to figure this out from the attribute articles in MSDN, although the information must be held somewhere}}
 
 ====Examples Section====
 <pre>
@@ -86,7 +88,7 @@ Where:
 
 ====Topics====
 <pre>
-{{Topics|HTML,}}
+{{Topics|HTML}}
 </pre>
 
 ====External Attribution====
