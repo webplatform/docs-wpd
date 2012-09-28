@@ -1,5 +1,5 @@
 === Flags v2 ===
-[[flags2.pdf]]<br />
+[[File:flags2.pdf]]<br />
 
 Showing inline flag examples and logged in view checklist of flags
 [[File:Wiki Page Flags2.png]]
