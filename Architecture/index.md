@@ -9,6 +9,8 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 ===Proposed Site Structure===
 
+See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
+
 * concepts
 ** concepts / accessibility
 ** concepts / IA
