@@ -3,7 +3,7 @@
 The Web Platform graphical logo is licensed under a Creative Commons Attribution license, [http://creativecommons.org/licenses/by/3.0/ CC-BY 3.0 Unported]. The unadorned graphic is available to the community for re-use and remixing.  
 
 To help users distinguish the Web Platform Documentation Site, we ask that the logo+text version be used only unmodified, to refer to this Site and its content.
-
+[[File:wplogo_nocopy.png]]
 [[File:wplogo_transparent_lg.png]]
 [[File:wplogo_transparent.png]]
 
