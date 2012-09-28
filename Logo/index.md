@@ -8,7 +8,6 @@ To help users distinguish the Web Platform Documentation Site, we ask that the l
 
 [[File:wplogo_transparent_lg.png]]
 [[File:wplogo_transparent.png]]
-[[File:wplogo_wide_alone.svg]]
 
 ==Badges==
 
