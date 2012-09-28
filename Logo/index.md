@@ -10,11 +10,12 @@ To help users distinguish the Web Platform Documentation Site, we ask that the l
 
 You can use these pre-made badges on your site.
 
-{{TODO | Add the pre-made badges here }}
 [[File:wplogo_pillow_white.png]]
 [[File:wplogo_pillow_tan.png]]
 [[File:wplogo_pillow_wide_white.png]]
 [[File:wplogo_pillow_wide_tan.png]]
+
+{{TODO | Add the pre-made badges here }}
 
 ==Logo Use Guidelines==
 ''These guidelines are not binding but merely best practices.''
