@@ -4,6 +4,8 @@ This page documents how to go about creating them.
 
 The primary goal of these landing pages is to make sure that users (and search engines!) know about all of the content we have hidden within the site. The secondary goal is to explain the concepts that unite them.
 
+'''For each page, make sure to use the Basic_Page type, and fill in the summary'''. The summary will be used in other listing pages.
+
 There are a few types of pages:
 
 ==Manually generated==
@@ -29,6 +31,14 @@ The code snippet you'll probably use most often is this:
 
 The first parameter is omitted because it's the URL to list sub-pages of, and if you omit it it defaults to the current page.
 
-You can read more at http://www.mediawiki.org/wiki/Extension:SubPageList
+You can read more at http://www.mediawiki.org/wiki/Extension:SubPageList .
 
 ==Query-generated==
+
+Sometimes you need to do something that's not just the descendants or children of the given page. For that you'll want to use Semantic Media Wiki's query functionality.
+
+I've set up a template that makes this easy: [[Template:API_Listing]] . This template accepts a query string, and abstracts away the other arcana of producing the right listing.
+
+The query string is how you select which pages to show. Common ones would be based on the category they're in, like <nowiki>[[Category:CSS_Properties]]</nowiki>. You can chain them together to AND them, or even do ORs. You can also filter based on semantic media properties set on them.
+
+See http://semantic-mediawiki.org/wiki/Help:Selecting_pages for more information about all of the stuff you can pass to the query parameter.
