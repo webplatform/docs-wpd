@@ -5,7 +5,7 @@ Flags are used in conjunction with Editorial templates to provide more details. 
 See more detail about each flag to see how it's used and what Editorial notes it should be used in conjunction with.
 
 ==List of Work Item Flags==
-These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Manual_Of_Style|Manual Of Style]].
+These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Style_Manual|Style Manual]].
 
 Different flags have different guidelines for when they should be used, and for if they should have editorial notes used along with them. '''Be sure to read the notes on each flag before using it.'''
 
