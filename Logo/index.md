@@ -26,4 +26,3 @@ You can use these pre-made badges on your site.
 * Don’t use the logo on a page that contains or displays adult content, promotes gambling, promotes violence, contains hate speech, involves the sale of tobacco or alcohol to persons under twenty-one years of age, violates other applicable laws or regulations or is otherwise objectionable.
 * Make sure that clicking the logo always links to Web Platform Docs.
 * If your product is compatible with Web Platform Docs, make reference this by using the text "for", "for use with", or "compatible with". Example: "Search Extension for Web Platform Docs"
-* You can not use the stewards' logos without permission.
