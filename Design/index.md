@@ -12,6 +12,7 @@ Landing Page
 
 Site Components
 * [[WPD:Design/Components|Components]], Aug 31, 2012
+* [[WPD:Design/Flags|Flags]]
 
 Site design considerations:
 * [[WPD:Design/Mock-Up Stage 2|Mock-Up Stage 2]], May 31, 2012
