@@ -14,6 +14,8 @@ You can use these pre-made badges on your site.
 [[File:wplogo_pillow_tan.png]]
 [[File:wplogo_pillow_wide_white.png]]
 [[File:wplogo_pillow_wide_tan.png]]
+[[File:wplogo_pillow_widesmall_white.png]]
+[[File:wplogo_pillow_widesmall_tan.png]]
 
 {{TODO | Add the pre-made badges here }}
 
