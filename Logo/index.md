@@ -4,6 +4,7 @@ The Web Platform graphical logo is licensed under a Creative Commons Attribution
 
 To help users distinguish the Web Platform Documentation Site, we ask that the logo+text version be used only unmodified, to refer to this Site and its content.
 
+[[File:wplogo_transparent.png]]
 {[TODO | Put source files here }}
 
 ==Badges==
