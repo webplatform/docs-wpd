@@ -18,8 +18,8 @@ You can use these pre-made badges on your site.
 [[File:wplogo_pillow_widesmall_white.png]]
 [[File:wplogo_pillow_widesmall_tan.png]]
 
-==Logo Use Guidelines==
-''These guidelines are not binding but merely best practices.''
+==Logo Use Recommendations==
+''Guidelines for using the logo as-is''
 * Don’t modify the logo in any other way than what is prescribed in the guide, other than resizing.
 * Don’t make the logo the primary element on your page.
 * Keep some distance between the logo and other logos and icons on your page. 
