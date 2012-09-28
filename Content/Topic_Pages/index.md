@@ -2,7 +2,7 @@ We have a number of landing pages implied by the [[WPD:Architecture]]. Most of t
 
 This page documents how to go about creating them.
 
-The primary goal of these landing pages is to make sure that users (and search engines!) know about all of the content we have hidden within the site. The secondary goal is to explain the concepts that unite them.
+The primary goal of these topic pages is to make sure that users (and search engines!) know about all of the content we have within the site. The secondary goal is to explain the concepts that unite them.
 
 '''For each page, make sure to use the Basic_Page type, and fill in the summary'''. The summary will be used in other listing pages.
 
