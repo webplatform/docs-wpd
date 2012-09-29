@@ -1,5 +1,7 @@
 === Flag Icons ===
-[[File:flag_icons.pdf]]<br />
+[[File:flag-icons.png]]
+
+[[File:flag_icons.pdf]]
 
 === Flags v2 ===
 [[File:flags2.pdf]]<br />
