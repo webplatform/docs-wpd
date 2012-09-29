@@ -20,3 +20,7 @@ Currently, only registered account holders can view pages on the wiki.
 ==Content Management==
 * [[Special:Nuke|Nuke]] allows admins to mass delete all edits by a particular user, IP address, etc.
 ** [[Special:Log/delete|Log/delete]] shows all pages which have been deleted
+
+==Miscellaneous==
+
+ curl 'http://15.185.108.248/w/api.php' -H 'Host: docs.webplatform.org'
