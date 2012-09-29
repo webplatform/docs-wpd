@@ -80,4 +80,10 @@ These are some notes I have recorded, from my experiences with trying to create 
 
 </li>
 
+<li>
+<p>Now edit the page by choosing Edit, not the Edit Source option: you'll be able to edit the page using the nice form, which is necessary, and makes things a lot easier.</p>
+</li>
+
 </ol>
+
+Whatever way of populating the page you choose, make sure the TOC is easy to follow and makes sense. I did the concepts page manually, because I found that just dumping the articles in automatically didn't give enough control.
