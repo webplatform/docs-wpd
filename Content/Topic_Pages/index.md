@@ -42,3 +42,15 @@ I've set up a template that makes this easy: [[Template:API_Listing]] . This tem
 The query string is how you select which pages to show. Common ones would be based on the category they're in, like <nowiki>[[Category:CSS_Properties]]</nowiki>. You can chain them together to AND them, or even do ORs. You can also filter based on semantic media properties set on them.
 
 See http://semantic-mediawiki.org/wiki/Help:Selecting_pages for more information about all of the stuff you can pass to the query parameter.
+
+==Notes from Chris==
+
+These are some notes I have recorded, from my experiences with trying to create these pages. Hopefully they will help others.
+
+<ol>
+
+<li>
+First, you need to make sure your landing pages fit with the structure defined in the [Architecture] page
+</li>
+
+</ol>
