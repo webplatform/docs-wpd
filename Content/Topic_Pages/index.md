@@ -89,3 +89,5 @@ These are some notes I have recorded, from my experiences with trying to create 
 Whatever way of populating the page you choose, make sure the TOC is easy to follow and makes sense. I did the concepts page manually, because I found that just generating the article list automatically didn't give enough control, and it didn't look very good either. For example, to list all the concept pages I used this:
 
 <pre>{{Special:PrefixIndex/concepts/}}</pre>
+
+It's a good tool for making sure that you don't miss any pages of a given topic, but I wouldn't recommend it for final presentation. Have we got some kind of tool to alert us to new pages being created, so we can make sure to add them to the landing pages?
