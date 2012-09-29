@@ -23,63 +23,63 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / user profiling
 ** concepts / UX
 ** concepts / ''foo''
-* html
-** html  / ''foo''
-** html  / validation
-** html  / quirks mode
-** html / data-types
-*** html / data-types / ''foo''
-** html / elements
-*** html / elements / ''foo''
-** html / attributes
-*** html / attributes / ''foo''
-** html / apis
-*** html / apis / ''foo''
-*** html / apis / methods
-**** html / apis / methods / ''foo''
-*** html / apis / properties
-**** html / apis / properties / ''foo''
-** html / tutorials (a list of tutorials categorized as HTML)
-* css
-** css  /  ''foo''
-** css  / inheritance
-** css  / cascade
-** css  / vendor prefixes
-** css / data-types
-** css / data-types / length
-*** css / data-types / ''foo''
-** css / properties
-*** css / properties / ''foo''
-** css / functions
-*** css / functions / "foo"
-** css / keywords
-*** css / keywords / "foo"
-** css / selectors
-*** css / selectors / ''foo''
-** css / atrules
-*** css / atrules / "foo"
-** css / apis
-*** css / apis / ''foo''
-*** css / apis / methods
-**** css / apis / methods / ''foo''
-*** css / apis / properties
-**** css / apis / properties / ''foo''
-** css / tutorials (a list of tutorials categorized as CSS)
-* svg
-* svg / ''foo''
-** svg / data-types
-*** svg / data-types / ''foo''
-** svg / elements
-*** svg / elements / ''foo''
-** svg / attributes
-*** svg / attributes / ''foo''
-** svg / apis
-*** svg / apis / ''foo''
-*** svg / apis / methods
-**** svg / apis / methods / ''foo''
-*** svg / apis / properties
+* HTML
+** HTML  / ''foo''
+** HTML  / validation
+** HTML  / quirks mode
+** HTML / data-types
+*** HTML / data-types / ''foo''
+** HTML / Elements
+*** HTML / Elements / ''foo''
+** HTML / attributes
+*** HTML / attributes / ''foo''
+** HTML / apis
+*** HTML / apis / ''foo''
+*** HTML / apis / methods
+**** HTML / apis / methods / ''foo''
+*** HTML / apis / properties
+**** HTML / apis / properties / ''foo''
+** HTML / tutorials (a list of tutorials categorized as HTML)
+* CSS
+** CSS  /  ''foo''
+** CSS  / inheritance
+** CSS  / cascade
+** CSS  / vendor prefixes
+** CSS / data-types
+** CSS / data-types / length
+*** CSS / data-types / ''foo''
+** CSS / properties
+*** CSS / properties / ''foo''
+** CSS / functions
+*** CSS / functions / "foo"
+** CSS / keywords
+*** CSS / keywords / "foo"
+** CSS / selectors
+*** CSS / selectors / ''foo''
+** CSS / atrules
+*** CSS / atrules / "foo"
+** CSS / apis
+*** CSS / apis / ''foo''
+*** CSS / apis / methods
+**** CSS / apis / methods / ''foo''
+*** CSS / apis / properties
+**** CSS / apis / properties / ''foo''
+** CSS / tutorials (a list of tutorials categorized as CSS)
+* SVG
+* SVG / ''foo''
+** SVG / data-types
+*** SVG / data-types / ''foo''
+** SVG / Elements
+*** SVG / Elements / ''foo''
+** SVG / attributes
+*** SVG / attributes / ''foo''
+** SVG / apis
+*** SVG / apis / ''foo''
+*** SVG / apis / methods
+**** SVG / apis / methods / ''foo''
+*** SVG / apis / properties
 **** svg / apis / properties / ''foo''
-** svg / tutorials (a list of tutorials categorized as SVG)
+** SVG / tutorials (a list of tutorials categorized as SVG)
 * mathml
 ** mathml  / ''foo''
 ** mathml / data-types
