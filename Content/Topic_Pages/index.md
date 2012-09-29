@@ -50,7 +50,34 @@ These are some notes I have recorded, from my experiences with trying to create 
 <ol>
 
 <li>
-<p>First, you need to make sure your landing pages fit with the structure defined in the [[WPD:Architecture]] page. So for example I created a top level landing page for concepts by using entering "concepts" into the Basic page form at [[WPD:New_Page]]. This created [[concepts]]</p>
+<p>First, you need to make sure your landing pages fit with the structure defined in the [[WPD:Architecture]] page. So for example I created a top level landing page for concepts by using entering "concepts" into the Basic page form at [[WPD:New_Page]]. This created [[concepts]].</p>
+</li>
+<li>
+<p>Unfortunately I found that the concepts page had already been created, and it hadn't been created using a form. If you find this, you'll need to edit the source of the page to put the Basic page form into it, before you can then edit it and fill it in using the form. This code looks like so — copy this all and put it into the edit form, then save:</p>
+
+<pre>{{Page_Title}}
+{{Flags}}
+{{Summary_Section|Test}}
+{{Basic_Page
+|Content=test
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}</pre>
+
+<p>You probably don't need most of this, but I added it all in just to be on the safe side.</p>
+
 </li>
 
 </ol>
