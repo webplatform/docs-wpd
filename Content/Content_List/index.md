@@ -201,15 +201,14 @@ The following is a list of proposed topics: there is still much that can be adde
 ## Animation loops with setInterval
 ## Other...
 ## could use some of [http://www.w3.org/wiki/JavaScript_animation JavaScript animation] (Opera)
-# [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] (Opera)
+# [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] (Opera) - duplicate of batch 8
 # [https://developer.mozilla.org/en/JavaScript/Guide/Details_of_the_Object_Model Details of the JavaScript object model] (Mozilla)
 # [https://developer.mozilla.org/en/JavaScript/Guide/Iterators_and_Generators Iterators and generators] (Mozilla)
-# [http://www.w3.org/wiki/Traversing_the_DOM Traversing the DOM] (Opera)
-# [http://www.w3.org/wiki/Creating_and_modifying_HTML Creating and modifying HTML] (Opera)
-# [http://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript Dynamic style - manipulating CSS with JavaScript] (Opera)
-# [http://www.w3.org/wiki/Handling_events_with_JavaScript Handling events with JavaScript] (Opera)
+# [http://www.w3.org/wiki/Traversing_the_DOM Traversing the DOM] (Opera) - duplicate of batch 6
+# [http://www.w3.org/wiki/Creating_and_modifying_HTML Creating and modifying HTML] (Opera)  - duplicate of batch 8
+# [http://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript Dynamic style - manipulating CSS with JavaScript] (Opera) - duplicate of batch 8
+# [http://www.w3.org/wiki/Handling_events_with_JavaScript Handling events with JavaScript] (Opera) - duplicate of batch 8
 ## Probably needs expanding
-
 
 === ARTICLE BATCH 7 ===
 
