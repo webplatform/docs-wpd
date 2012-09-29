@@ -86,4 +86,6 @@ These are some notes I have recorded, from my experiences with trying to create 
 
 </ol>
 
-Whatever way of populating the page you choose, make sure the TOC is easy to follow and makes sense. I did the concepts page manually, because I found that just dumping the articles in automatically didn't give enough control.
+Whatever way of populating the page you choose, make sure the TOC is easy to follow and makes sense. I did the concepts page manually, because I found that just generating the article list automatically didn't give enough control, and it didn't look very good either. For example, to list all the concept pages I used:
+
+<pre>{{Special:PrefixIndex/concepts/}}</pre>
