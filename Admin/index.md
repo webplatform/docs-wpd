@@ -23,4 +23,6 @@ Currently, only registered account holders can view pages on the wiki.
 
 ==Miscellaneous==
 
+===Debugging===
+You can bypass fastly completely by curling directly to an app server and passing the host header; so rather than just seeing a 500, you can see an actual exception:
  curl 'http://15.185.108.248/w/api.php' -H 'Host: docs.webplatform.org'
