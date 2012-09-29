@@ -190,7 +190,7 @@ The following is a list of proposed topics: there is still much that can be adde
 ## Operators ([https://developer.mozilla.org/en/JavaScript/Guide/Expressions_and_Operators Expressions and operators] - Mozilla)
 ## Conditions
 ## Loops
-# Functions ([https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions] - Mozilla; [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] - Opera) - duplicate of batch 8
+# Functions ([https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions] - Mozilla; [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] - Opera - duplicate of batch 8) 
 ## Declaring functions
 ## Functions as Objects
 ## Anonymous functions
