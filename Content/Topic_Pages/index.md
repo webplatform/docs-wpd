@@ -50,7 +50,7 @@ These are some notes I have recorded, from my experiences with trying to create 
 <ol>
 
 <li>
-First, you need to make sure your landing pages fit with the structure defined in the [[WPD:Architecture]] page
+<p>First, you need to make sure your landing pages fit with the structure defined in the [[WPD:Architecture]] page. So for example I created a top level landing page for concepts by using entering "concepts" into the Basic page form at [[WPD:New_Page]]. This created [[concepts]]</p>
 </li>
 
 </ol>
