@@ -57,9 +57,9 @@ These are some notes I have recorded, from my experiences with trying to create 
 
 <pre>{{Page_Title}}
 {{Flags}}
-{{Summary_Section|Test}}
+{{Summary_Section|SUMMARY GOES HERE}}
 {{Basic_Page
-|Content=test
+|Content=PAGE CONTENT GOES HERE
 }}
 {{Compatibility_Section
 |Not_required=Yes
