@@ -74,5 +74,8 @@ Which browsers support this technology.  'Stable' means that that browser's most
 * Prefix_Somewhere ''At least one stable browser ships this without a prefix''
 * Prefix_Nowhere ''No stable browser ships this with a prefix''
 
+==Design==
+[[WPD:Design/Flags|Flag appearance and icons]]
+
 ==Notes==
 See [[WPD:Flags/Notes|Flag Notes]] for background details.
