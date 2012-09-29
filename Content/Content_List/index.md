@@ -184,13 +184,13 @@ The following is a list of proposed topics: there is still much that can be adde
 ### Booleans
 ### Strings
 ### Arrays
-### Objects ([https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects Working with objects] - Mozilla; [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] - Opera)
+### Objects ([https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects Working with objects] - Mozilla; [http://www.w3.org/wiki/Objects_in_JavaScript Objects in JavaScript] - Opera - duplicate of batch 8)
 ### [https://developer.mozilla.org/en/JavaScript/Guide/Predefined_Core_Objects Predefined core objects] - Mozilla
 ## [https://developer.mozilla.org/en/JavaScript/Guide/Statements Statements] - Mozilla
 ## Operators ([https://developer.mozilla.org/en/JavaScript/Guide/Expressions_and_Operators Expressions and operators] - Mozilla)
 ## Conditions
 ## Loops
-# Functions ([https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions] - Mozilla; [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] - Opera)
+# Functions ([https://developer.mozilla.org/en/JavaScript/Guide/Functions Functions] - Mozilla; [http://www.w3.org/wiki/JavaScript_functions JavaScript functions] - Opera) - duplicate of batch 8
 ## Declaring functions
 ## Functions as Objects
 ## Anonymous functions
