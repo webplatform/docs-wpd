@@ -50,7 +50,7 @@ These are some notes I have recorded, from my experiences with trying to create 
 <ol>
 
 <li>
-First, you need to make sure your landing pages fit with the structure defined in the [Architecture] page
+First, you need to make sure your landing pages fit with the structure defined in the [[Architecture]] page
 </li>
 
 </ol>
