@@ -84,6 +84,14 @@ These are some notes I have recorded, from my experiences with trying to create 
 <p>Now edit the page by choosing Edit, not the Edit Source option: you'll be able to edit the page using the nice form, which is necessary, and makes things a lot easier.</p>
 </li>
 
+<li>
+<p>When you create article links, often the raw relative URL fragments don't look very good, for example [[concepts/how does the internet work]]. It is much better to use different display text in such cases, and this can be added after a pipe character, after the URL fragment. So for example:</p>
+
+<pre>[[concepts/how does the internet work|How does the Internet Work?]]</pre>
+
+<p>Creates this: [[concepts/how does the internet work|How does the Internet Work?]]</p>
+</li>
+
 </ol>
 
 Whatever way of populating the page you choose, make sure the TOC is easy to follow and makes sense. I did the concepts page manually, because I found that just generating the article list automatically didn't give enough control, and it didn't look very good either. For example, to list all the concept pages I used this:
