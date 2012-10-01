@@ -67,4 +67,9 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
 
+==Bugs!==
+
+If you find a bug on the site - that is, with the site functionality, not the content - please file a bug at [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org Web Platform Docs Bugs]. Thanks!
+
+
 {{TODO | Fill in the more tactical guides for how to do some of the things on this list.}}
