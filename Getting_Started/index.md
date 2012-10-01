@@ -40,6 +40,7 @@ There are many ways to contribute that take varying amounts of time and expertis
 
 Here are some references to help you:
 * [[WPD:Manual_Of_Style|Style Guide]]
+* [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
 * [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
 * [[WPD:Implementation_Patterns|Template and Form Implementation]]
 * [[WPD:FAQ|General FAQ]]
