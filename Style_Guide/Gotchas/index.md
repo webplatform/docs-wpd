@@ -23,7 +23,7 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores verything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
+It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores everything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
 
 <code>
 <nowiki>
