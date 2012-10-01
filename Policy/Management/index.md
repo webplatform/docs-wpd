@@ -1,3 +1,5 @@
+{{TODO | This article is very stale. Much of its content is duplicated elsewhere in the site. We should factor it out into relevant sub-articles.}}
+
 This document sets expectations about the organization and management of the Web Developer Center, and describes how the site implements the ideals described in the [[WPD:Pillars|Pillars]].  Like all parts of the site, this document is expected to evolve over time in accordance with the will of the community.
 
 ==Scope of Content on the Site==
