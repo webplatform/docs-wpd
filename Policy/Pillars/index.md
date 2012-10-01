@@ -8,22 +8,20 @@ The web developer center is founded on three pillars:
 * '''[[#Inclusion|Inclusion]]:''' Ensure the center is inclusive and accessible to all.
 * '''[[#Consensus|Consensus]]:''' Rely on consensus and good-faith collaboration to develop content and community practices.
 
-Below we list guiding principles for each pillar.
-
 == Pragmatism ==
-* Content will be relevant for Web developers and designers, emphasizing practical solutions for the web ecosystem as it currently exists “what works in practice” (e.g. not only what a specification says, but tips and quirks for different browsers and authoring tools, where they differ from a specification).
+* Content will be relevant for Web developers and designers, emphasizing practical solutions for the web ecosystem as it currently exists.
 * Content will be up-to-date.
-* Authors will seek to build high-quality content that is trustworthy and accurate (e.g., by providing proper attribution, avoiding confusion about status, etc.).
+* Authors will seek to build high-quality content that is trustworthy and accurate.
 * The stability and implementation status of features will be clearly marked; however, there is no requirement that features be stable or widely deployed to be included.
 
 == Inclusion == 
 * Content will be available at no cost.
-* Content will be readable without requiring identifying information (e.g., an account).
+* Content will be readable without requiring identifying information.
 * All people are invited to contribute content that is relevant to Web developers and designers in practice. Note however, that:
 ** This does not imply that all content is suitable for the center, and controversial content flagged by the community will be removed at the consensus of the administrators; controversial content may include (but is not limited to) false claims, subjective claims on the relative merits of browsers, code samples that favor one browser, and incorrect identification of the standardization status of a feature.
 ** Disruptive behavior may lead to people losing editing or administrative privileges.
-* Content will be accessible
-* Content will be translated into as many languages as possible
+* Content will be accessible.
+* Content will be translated into as many languages as possible.
 * Content will be available under a permissive copyright license to enable sharing and reuse.
 
 == Consensus ==
