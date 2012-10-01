@@ -8,16 +8,16 @@ Use capitals sparingly. Where the instance includes an abbreviation, a proper na
 ;Page titles
 : Capitalize only the first word.
 : Example: '''Style manual''' (in other words, don't use this page as an example).
-: Example: '''The CSS layout model''' 
+: Example: '''The CSS layout model'''. 
 ;Section headings
 : Capitalize only the first word.
 : Example: '''Titles and headings''' (see below).
-: Example: '''Unicode characters in JavaScript files'''
+: Example: '''Unicode characters in JavaScript files'''.
 : Example: '''Action: specifying fonts'''.
 ;URLs
 : Do not capitalize
 : Example: '''tutorials/audio_tag''' (the underscore is generated for you).
-: Example: '''tutorials/using_getUserMedia'''
+: Example: '''tutorials/using_getUserMedia'''.
 
 =Titles and headings=
 
