@@ -1,6 +1,9 @@
 ===What does it mean for the site to be in alpha?===
 Web Platform Docs is in an "alpha" state because although it has a substantial amount of starter content donated by some of the stewards, it is still in a rough and incomplete state. We wanted to open it up to the larger community as early as possible so they can help shape the content and set the direction for the site. Over time, and with the help of the broader community, the goal is for the site to become the canonical source of documentation for web developers.
 
+===Is this a content aggregation site?===
+No, we started the site with existing content from the Stewards' documentation sites, but we already have fresh original content that will be added over the first few weeks, along with original content from the community.
+
 ===Who writes the content on the site?===
 Web Platform Docs is a collaborative wiki, in the same vein as Wikipedia. Anyone is allowed to edit it and improve it. If you're interested in helping out, see the [[WPD:Getting_Started|getting started guide]].
 
