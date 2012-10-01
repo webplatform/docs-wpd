@@ -70,11 +70,16 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 
 ==Bugs!==
 
+===Functional bugs===
+
 If you find a bug on the site, please file a bug at [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Web Platform Docs Bugs]. We're using this bug tracker for two types of bugs:
 * Site functionality bugs - errors, UI issues.
 * Multiple page content problems - when an issue is related to entire groups of pages (otherwise, when an issue is related to a specific page, use the page flags).
 
-For more guidance about filing bugs, see the [[WPD:Bugzilla_Guidelines|Bugzilla Guidelines]].
+For more guidance about filing the types of bugs, see the [[WPD:Bugzilla_Guidelines|Bugzilla Guidelines]].
 
+===Content bugs===
+
+If you find that content in an article is wrong or missing, consider adding a comment directly on the wiki page. To add a comment, hover over the relevant heading and an "Add comment" element appears. Select it to add your comment in the dialog box.
 
 {{TODO | Fill in the more tactical guides for how to do some of the things on this list.}}
