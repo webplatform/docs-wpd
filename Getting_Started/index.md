@@ -70,7 +70,7 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 
 ==Bugs!==
 
-If you find a bug on the site - that is, with the site functionality, not the content - please file a bug at [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org Web Platform Docs Bugs]. Thanks!
+If you find a bug on the site - that is, with the site functionality, not the content - please file a bug at [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Web Platform Docs Bugs]. Thanks!
 
 For guidance about filing bugs, see the [http://docs.webplatform.org/wiki/Bugzilla_Guidelines Bugzilla Guidelines].
 
