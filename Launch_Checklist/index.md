@@ -6,6 +6,10 @@
 == Launch: ==
 
 * Marketing Team (who specifically?), 7:30am - Press Release sent
+* Ian, 7:30am - Publish home page news. That news will link to press release
+* Ian, 7:30am - Tweet news
+* ???, 7:30am - Wire Service??
+
 == Immediately after launch: == 
 
 * Stewards, 7:30am - Stewards Blog Posts go out
