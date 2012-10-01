@@ -2,6 +2,23 @@ For an article to be considered high quality, it should adhere to all of the fol
 
 You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.
 
+=Capitalization=
+Use capitals sparingly. Where the instance includes an abbreviation, a proper name, or camel case, keep the capitalization for those.
+
+;Page titles
+: Capitalize only the first word.
+: Example: '''Style manual''' (in other words, don't use this page as an example).
+: Example: '''What is CSS?''' 
+;Section headings
+: Capitalize only the first word.
+: Example: '''Titles and headings''' (see below).
+: Example: '''Unicode characters in JavaScript files'''
+: Example: '''Information: what is CSS" (bad example, but you get the idea).
+;URLs
+: Do not capitalize
+: Example: '''tutorials/audio_tag''' (the underscore is generated for you).
+: Example: '''tutorials/using_getUserMedia'''
+
 =Titles and headings=
 
 ==Choose descriptive titles==
@@ -28,7 +45,7 @@ Please follow the following title conventions for specific article types:
 ** Examples: "<audio> Tag Attributes", "Valid .moveTo() Values", "Latitude and Longitude Notation"
 
 ==Section headings==
-As much as possible, use short sentences for heading titles, with minimal punctuation and articles, but the rules for titles do not necessarily apply to section headings.
+As much as possible, use short sentences for heading titles, with minimal punctuation and articles, but the rules for titles do not necessarily apply to section headings. Avoid asking questions in section headings.
 
 ==Title casing==
 
