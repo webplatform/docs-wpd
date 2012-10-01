@@ -1,8 +1,8 @@
-This document lists a small number of principles intended to guide the development and maintenance of the Web developer center. This is a living document that the community will develop over time. Because it expresses a small number of abstract guiding principles, it is expected to evolve slowly and only with the consensus of the community. The specific tactical details that describe how the community currently implement these ideals are covered in the Management document.
+This document lists a small number of principles intended to guide the development and maintenance of the Web developer center. This is a living document that the community will develop over time. Because it expresses a small number of abstract guiding principles, it is expected to evolve slowly and only with the consensus of the community. The specific tactical details that describe how the community currently implement these ideals are covered in the [[WPD:Management|management]] document.
 
-'''''Note:''' This document draws from Wikipedia practices and the community is encouraged to continue to consider their best practices.
-Three Pillars of the Web Developer Center''
+''''Note:''' This document draws from Wikipedia practices and the community is encouraged to continue to consider their best practices.
 
+==Three Pillars of the Web Developer Center==
 The web developer center is founded on three pillars:
 * '''[[#Pragmatism|Pragmatism]]:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
 * '''[[#Inclusion|Inclusion]]:''' Ensure the center is inclusive and accessible to all.
