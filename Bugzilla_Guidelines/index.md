@@ -1,6 +1,10 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|How we are using Bugzilla for this project.}}
+{{Summary_Section|How we are using Bugzilla for this project.  We're using the bug tracker for two types of bugs:
+* Site functionality bugs - errors, UI issues.
+* Multiple page content problems - when a issue is related to entire groups of pages (otherwise, when an issue is related to a specific page, use the page flags).
+
+}}
 {{Basic Page}}
 # '''If it not in bugzilla, it doesn't exist.'''  If you are working on something that takes more than an hour or that you can't get to immediately, please log it as a bug.  That includes marketing tasks.
 # '''First, check if there is an existing bug report on your issue.''' If so, add a comment there instead. (Duplicate bug reports cost us time.) 
