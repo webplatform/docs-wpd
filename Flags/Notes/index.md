@@ -1,5 +1,46 @@
 These are early notes about the Flags concept.
 
+==List of Categorization Flags==
+
+{{TODO | These aren't implemented as "Flags" anymore, but normal form fields.}}
+
+'''We will revisit this whole thing in the future. On hold for now.'''
+
+These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
+===Standardization Status===
+* W3C_Editors_Draft
+* W3C_Working_Draft
+* W3C_Candidate_Recommendation
+* W3C_Recommendation
+* Deprecated ''For technologies that have been replaced or retracted, and are not recommended for use (but which are valuable to have for reference)''
+* Non-standard ''For technologies that are not yet being standardized in any formal body, don't have 2 or more compatible implementations, and likely never will''
+* Defacto-standard ''For technologies that are not yet standardized, but have 2 or more compatible implementations (modulo prefixes)''
+* Experimental ''For technologies that are not yet being standardized, don't have 2 or more compatible implementations, but aim to one day be a standard''
+* ''TODO: fill out this list with other standards bodies''
+
+===Browser Support===
+Which browsers support this technology.  'Stable' means that that browser's most recent main release includes support. 'Preview' means that a preview release of that browser (e.g. a "Beta", "Alpha", or "Developer Preview") includes support. Only one of these tags should be included for each browser (and always the highest one).
+* Internet_Explorer_Stable
+* Firefox_Stable
+* Safari_Stable
+* Opera_Stable
+* Chrome_Stable
+* Internet_Explorer_Preview
+* Firefox_Preview
+* Safari_Preview
+* Opera_Preview
+* Chrome_Preview
+===Prefixes===
+* Prefix_Everywhere ''Every stable browser this ships in includes the prefix''
+* Prefix_Somewhere ''At least one stable browser ships this without a prefix''
+* Prefix_Nowhere ''No stable browser ships this with a prefix''
+
+==Design==
+[[WPD:Design/Flags|Flag appearance and icons]]
+
+
+''These are even earlier notes:''
+
 ==Design exploration==
 ===Presentation===
 Most warning templates are displayed as a banner, often at the top of a page before the content, but sometimes inline in the content itself. This is eye-catching, but can be distracting.  The goal is to draw attention to the warning without detracting from the use of the page.
