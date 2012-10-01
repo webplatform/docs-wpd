@@ -95,6 +95,6 @@ Because HTML markup is interpreted by MediaWiki, you must enclose code examples 
 
 To refer to a <code>&lt;script&gt;</code> element, use the following:
 
- &amp;amp;lt;script&amp;gt;
+ &amp;lt;script&amp;gt;
 
 Otherwise, the element is interpreted, and halts processing of the page.
