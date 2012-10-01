@@ -15,7 +15,7 @@ Use capitals sparingly. Where the instance includes an abbreviation, a proper na
 : Example: '''Unicode characters in JavaScript files'''.
 : Example: '''Action: specifying fonts'''.
 ;URLs
-: Do not capitalize
+: Do not capitalize.
 : Example: '''tutorials/audio_tag''' (the underscore is generated for you).
 : Example: '''tutorials/using_getUserMedia'''.
 
