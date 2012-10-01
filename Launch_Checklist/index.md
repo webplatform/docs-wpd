@@ -3,6 +3,7 @@
 == Before: ==
 * Infra Team, Midnight - Last system checks, enable the account creation infrastructure
 * Content Team/Christos - Final content scrub
+* Content Team/Doug - Move main interesting main_page content back to the main_page (currently in [[Meta:Main_Page]])
 == Launch: ==
 
 * Marketing Team (who specifically?), 7:30am - Press Release sent
