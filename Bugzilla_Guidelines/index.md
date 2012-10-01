@@ -1,16 +1,7 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|How we are using Bugzilla for this project.}}
+{{Summary_Section|How we are using [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Bugzilla] for this project.}}
 {{Basic Page}}
-
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-
 1. '''If it not in bugzilla, it doesn't exist.'''  If you are working on something that takes more than an hour or that you can't get to immediately, please log it as a bug.  That includes marketing tasks.<br /><br />
 2. '''All bugs should include''': 
 :* reproduction steps, 
@@ -35,3 +26,10 @@
 :Pri 3 - Nice to have
 :Pri 4 - Next release, out of scope for sure for this release
 <br />
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
