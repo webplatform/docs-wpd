@@ -42,6 +42,7 @@ Here are some references to help you:
 * [[WPD:Manual_Of_Style|Style Guide]]
 * [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
 * [[WPD:Implementation_Patterns|Template and Form Implementation]]
+* [[WPD:FAQ|General FAQ]]
 
 Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
 
