@@ -39,17 +39,6 @@ The tagging system will also support a smart referencing system to make it easie
 
 3. Code examples might be made available as standalone entities so that they could be transplanted into tutorials at appropriate places, but also just browsed on their own, without the tutorials.
 
-==Administration==
-
-The administration of content and the overall community is based largely upon the model proven effective by the Wikipedia community.The goal is that the community shall be self-policing and shall create a code of interactivity that reflects the cooperative nature of the site. To that extent: [a]
-
-* Any user whom the community collectively trusts to be a productive member of the community and uphold the three pillars may be promoted to administrator. When someone wants to become an administrator, they need to make a request to the existing admins group, and they will approve it on a case by case basis. The process will be documented somewhere on the admin pages of the site.
-* Administrators may block users, promote other users to administrators, or delete, rename, move, or lock pages.
-* Administrators must use their privileges in a manner consistent with the Community Charter (or else they may lose those privileges).
-* We expect that Administrators will post relevant administrative information on a portion of the site.
-* The community will have a means to contact Administrators to inform them of issues that require attention, including out of date content, offensive content, edit wars, etc.
-
-
 ==Contributions and Attribution==
 
 * Contributors agree that content they contribute will have the copyright assigned to W3C, to be made public under the appropriate open license; initially, prose content and references will be licensed under CC-BY, and code examples will be made public domain under CC-0. Special dispensation may be made on a case-by-case basis for open content for which copyright assignment does not exist.
