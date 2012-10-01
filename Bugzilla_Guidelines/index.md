@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section|We are using Bugzilla on this project for two types of bugs:
 * Site functionality bugs - errors, UI issues.
-* Multiple page content problems - when a issue is related to entire groups of pages (otherwise, when an issue is related to a specific page, use the page flags).
+* Multiple page content problems - when an issue is related to entire groups of pages (otherwise, when an issue is related to a specific page, use the page flags).
 
 Use the following guidelines:
 }}
