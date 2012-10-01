@@ -62,9 +62,8 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Fill in stubs'''
 
 ===Half-Day Tasks===
-* '''Writing New Articles'''
 * '''Merge Articles'''
-* '''Write new articles''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at XXXXXXXXXXXX. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
+* '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at XXXXXXXXXXXX. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
 
