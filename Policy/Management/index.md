@@ -1,5 +1,3 @@
-'''At this point, ''do not share'' this information without permission of collaborators.  Public leaks will decrease the impact of the site launch announcement.'''
-
 This document sets expectations about the organization and management of the Web Developer Center, and describes how the site implements the ideals described in the [[WPD:Pillars|Pillars]].  Like all parts of the site, this document is expected to evolve over time in accordance with the will of the community.
 
 ==Scope of Content on the Site==
