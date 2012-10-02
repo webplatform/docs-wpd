@@ -37,7 +37,6 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Data_Not_Semantic|Data_Not_Semantic]]
 
 ===Content quality (low-level)===
-====Content quality====
 * [[WPD:Flags/Content_Outdated|Content_Outdated]]
 * [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
 * [[WPD:Flags/Content_Errors|Content_Errors]]
