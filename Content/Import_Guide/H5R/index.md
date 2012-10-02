@@ -1,6 +1,6 @@
 These instructions are specific to importing content from HTML5Rocks!
 
-=Initial conversion=
+==Initial conversion==
 Here's what you do to get the content into wiki format.
 
 #From the [https://docs.google.com/a/google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c&pli=1#gid=0 Content Batches spreadsheet], copy the WPD URL for the article you intend to create.
@@ -20,19 +20,19 @@ Here's what you do to get the content into wiki format.
 
 That gets the main content into a new page.
 
-=Clean up=
+==Clean up==
 There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
 #In the new WPD page, click the EDIT button.
-#In the Content field, remove everything up to the title - usually an H1 marked with a single '='.
-#Remove everything between the title and the "by" line; we'll keep the "by" line.
-#Remove everything up to the "Published" text, remove any cruft around the text (including the spaces before), but leave the "Published XXXX" in place.
-#Keep the Supported Browsers information - for now - but remove everything between the last browser "supported" or "unsupported" - i.e. "Your browser may ..." and so on up to the first subheading of the article; this includes Table of Contents.
-#Scroll down to the last line of article content, and remove everything after it - including the page content license blather, the page comments JavaScript references, etc.
-#Remove any double line breaks - make them single line breaks.
+#In the Content field, remove everything up to the title - usually an H1 marked with a single '='. You'll remove it later as well, but save it for now.
+#Remove everything between the title and the "by" line; again, you'll remove it later, but you need the data for the moment. Same for "publish date".
+#Keep the Supported Browsers information (again, temporarily) but remove everything between the last browser "supported" or "unsupported" (i.e., "Your browser may ..." and so on) and the first subheading of the article (probably marked with ==s), including Table of Contents information.
+#Scroll down to the last line of article content, and remove everything after it, including the page content license blather, the page comments, JavaScript references, etc.
+#Remove any double line breaks except those meant to start a new paragraph.
 #Save the article and have a look.
 
-=Fix broken links=
+
+==Fix broken links==
 You'd think that the converter would be able to create simple links of the format, "[URL title]" but this is apparently not so (I think this a bug). Until we can get the converter to work, we'll have to go back and fix each link. These appear in red when the page is in read mode. Note that the links also come in with double brackets [[ ... ]] - these should be single brackets [ ... ].
 
 =I-framed content=
