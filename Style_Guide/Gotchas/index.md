@@ -1,6 +1,9 @@
 Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them, and MediaWiki markup is no exception. This article lists those that we've discovered as we build this site and work with content. Wherever possible, a work-around is provided.
 
-==The dreaded pipe character==
+=The dreaded pipe character=
+
+"You wanna come over? It's pipe night!"
+-Kramer on ''Seinfield''
 
 '''What happens'''
 
@@ -85,11 +88,11 @@ The problem is that in the #if block, every pipe character the rendering engine 
 {{!}}} | }}
 </syntaxhighlight>
 
-==Spaces in template calls==
+=Spaces in template calls=
 
 This applies only if you are editing the templates and forms used to build this wiki. MediaWiki is very weird about spaces. In particular, a line that starts with a single space is interpreted as a pre-formatted line of characters, and a group of such lines are then formatted as a <nowiki><pre></nowiki> block in the HTML output. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general '''do not use spaces''' around parameter values. Most of the times everything will work fine, but some times it will break without warning. See the [[Template:External_Attribution_Block|External Attribution Block template]] for an example.
 
-= HTML code =
+=HTML code=
 
 Because HTML markup is interpreted by MediaWiki, you must enclose code examples that contain HTML markup in a <code><nowiki>&lt;syntaxhighlight&gt;</nowiki></code> block. To mention HTML elements in an inline context (in text rather than an example block), use the <code>&amp;lt;</code> and <code>&amp;gt;</code> character entities to represent the left and right angle brackets around the name. 
 
