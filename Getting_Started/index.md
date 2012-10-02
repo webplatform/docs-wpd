@@ -2,7 +2,7 @@ This website, Web Platform Docs is written, edited, and organized by an active c
 
 It's incredibly easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to any newcomers. If you ever have any questions, just ask!
 
-==Getting Started==
+==Getting started==
 
 Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're set!
 
