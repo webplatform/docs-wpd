@@ -4,7 +4,20 @@ Flags are used in conjunction with Editorial templates to provide more details. 
 
 See more detail about each flag to see how it's used and what Editorial notes it should be used in conjunction with.
 
-==List of Work Item Flags==
+==How to add a flag==
+To add a flag, go to the page to be flagged, and click <b>Edit</b>. You should see a form. (If you don't, the page might need to be converted to the Basic_Page template.)
+
+In the "High-level issues" or "Content" part of the form, click the checkbox next to the appropriate flag—for example, Merge Candidate.
+
+If you see a warning that you need to include a block with more information about the flag, add the block in the "Block of editorial notes" section. See the flag's page for details on how to fill in the block.
+
+For example, if you choose Merge Candidate and want the page to be merged with http://docs.webplatform.org/wiki/css/atrules, then your block should look like this:
+
+<pre>
+{{Editorial/Merge_Candidate|Other=css/atrules}}
+</pre>
+
+==List of work item flags==
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [[WPD:Style_Manual|Style Manual]].
 
 Different flags have different guidelines for when they should be used, and for if they should have editorial notes used along with them. '''Be sure to read the notes on each flag before using it.'''
