@@ -13,7 +13,7 @@ A pipe character in a Semantic MediaWiki form gets interpreted as a parameter se
 Yes, you can get your content back. It's still there. Deep breath.
 # In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
-# Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or .
+# Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or '''&amp;#124'''.
 
 '''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named '''<nowiki>!</nowiki>''' which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator.
 
@@ -27,7 +27,7 @@ It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The 
 
 <code>
 <nowiki>
-<pre>if (moodQuery==checkin.mood&#l24;&#l24;moodQuery) handler(checkin);</pre>
+<pre>if (moodQuery==checkin.mood&amp;#124;&amp;#124;moodQuery) handler(checkin);</pre>
 </nowiki>
 </code>
 
