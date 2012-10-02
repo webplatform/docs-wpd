@@ -1,7 +1,6 @@
 These instructions are specific to importing content from HTML5Rocks!
 
 =Initial conversion=
-
 Here's what you do to get the content into wiki format.
 
 #From the [https://docs.google.com/a/google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c&pli=1#gid=0 Content Batches spreadsheet], copy the WPD URL for the article you intend to create.
@@ -22,7 +21,6 @@ Here's what you do to get the content into wiki format.
 That gets the main content into a new page.
 
 =Clean up=
-
 There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
 #In the new WPD page, click the EDIT button.
