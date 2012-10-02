@@ -13,7 +13,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 
 * [[concepts]]
 ** concepts / accessibility
-** concepts / IA
+** concepts / ia
 ** concepts / Internet and web
 ** concepts / one web
 ** concepts / progressive enhancement
@@ -21,7 +21,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / responsive design
 ** concepts / security
 ** concepts / user profiling
-** concepts / UX
+** concepts / ux
 ** concepts / ''foo''
 * [[HTML]]
 ** HTML  / ''foo''
