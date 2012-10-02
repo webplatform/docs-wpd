@@ -9,9 +9,10 @@ Here's what you do to get the content into wiki format.
 #In the text field, paste the WPD URL, and click Create Tutorial Page.
 #From the Content Batches spreadsheet, open the original HTML5Rocks! article using the Existing URL.
 #Open the [http://toolserver.org/~diberri/cgi-bin/html2wiki/index.cgi html-to-wiki converter] page.
-#Do one of the following:
+# Open the original HTML5Rocks! article by adding the <code>?ModPagespeed=off</code> parameter to the URL.
+#Next, do one of the following:
 #*In the original article, View Source, select all content, and copy; in the converter, choose the "Raw HTML" radio button, and paste the source into the HTML Source box.
-#*In the original article, copy the full HTML5Rocks! URL; in the converter, choose the "Fetch from URL" radio button, and paste the original URL into the text field.
+#*In the original article, copy the full HTML5Rocks! URL (with the <code>?ModPagespeed=off</code>); in the converter, choose the "Fetch from URL" radio button, and paste the original URL into the text field.
 #Under Options, choose "MediaWiki" from the dropdown as the output type. 
 #Check "Escape HTML entities".
 #Click "Convert HTML to wiki markup". The converted markup appears in the MediaWiki markup box at the top of the page.
