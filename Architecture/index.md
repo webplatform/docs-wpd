@@ -11,7 +11,7 @@ Article names are case-sensitive (e.g. <code>getAttribute</code>), but the propo
 
 See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 
-* concepts
+* [[concepts]]
 ** concepts / accessibility
 ** concepts / IA
 ** concepts / Internet and web
