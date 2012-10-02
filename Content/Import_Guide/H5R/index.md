@@ -21,6 +21,8 @@ Here's what you do to get the content into wiki format.
 
 That gets the main content into a new page.
 
+''Note:'' If the above converter won't load (we've been getting a 503 Bad Gateway error lately), try [http://labs.seapine.com/htmltowiki.cgi this one]. It's copy-and-paste only, but if it works, it works.
+
 ==Clean up==
 There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
@@ -78,13 +80,12 @@ If there are only a few images, you can right-click on each one and save them lo
 Next, for each image, you need to create (or correct) the wiki markup tag that signifies you want to insert an image, in this format:
 
 <pre>
-[ [ Image:filename.jpg|alt text]]
+[[Image:filename.jpg|alt text]]
 </pre>
 
-Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there.
+Use the file name and extension for the image as saved to your local drive. When you next save the page, the image code will appear as a red (i.e., broken) link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there. Select the image and let the page load a preview; this will also check that the image type matches the file extension, which is handy. Then click Upload, which actually uploads the file.
 
-When you've done that, go back to the page and refresh - the image should appear in place of the red link.
-
+After the file is uploaded, click the link at the bottom of the upload page to return to your original article. The image should appear in place of the red link. Repeat for each image.
 
 ==Filling in the boxes==
 The next piece of work is to fill in the meta data and other form content for the article.
