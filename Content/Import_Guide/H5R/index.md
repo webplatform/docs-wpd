@@ -8,7 +8,7 @@ Here's what you do to get the content into wiki format.
 #In a new window, open the [http://docs.webplatform.org/wiki/WPD:New_Page WPD:New_Page] page.
 #Scroll down to the page type for the article (e.g., Tutorial).
 #In the text field, paste the WPD URL, and click Create Tutorial Page.
-#From the Content Batches spreadsheet, open the Existing URL of the HTML5Rocks! article.
+#From the Content Batches spreadsheet, open the original HTML5Rocks! article using the Existing URL.
 #Open the [http://toolserver.org/~diberri/cgi-bin/html2wiki/index.cgi html-to-wiki converter] page.
 #Do one of the following:
 #*In the original article, View Source, select all content, and copy; in the converter, choose the "Raw HTML" radio button, and paste the source into the HTML Source box.
