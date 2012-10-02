@@ -8,7 +8,7 @@ Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you
 
 To get a username, click '''Login''' on any page and follow the instructions to create an account.
 
-==Finding Help==
+==Finding help==
 
 WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
 
