@@ -66,7 +66,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 **** CSS / apis / properties / ''foo''
 ** CSS / tutorials (a list of tutorials categorized as CSS)
 * [[SVG]]
-* SVG / ''foo''
+** SVG / ''foo''
 ** SVG / data-types
 *** SVG / data-types / ''foo''
 ** SVG / Elements
@@ -112,7 +112,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** apis / ''quux'' / ''quux'' method
 *** apis / ''quux'' / ''quux'' property
 * [[dom]]
-* dom / ''foo''
+** dom / ''foo''
 ** dom / apis
 *** dom / apis / ''foo''
 *** dom / apis / methods
