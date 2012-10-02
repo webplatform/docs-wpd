@@ -23,11 +23,11 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-It's okay to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine ignores everything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
+It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine isignores everything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
 
 <code>
 <nowiki>
-<pre>if (moodQuery==checkin.mood||moodQuery) handler(checkin);</pre>
+<pre>if (moodQuery==checkin.mood&#l24;&#l24;moodQuery) handler(checkin);</pre>
 </nowiki>
 </code>
 
