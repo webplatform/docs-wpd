@@ -13,9 +13,11 @@ A pipe character in a Semantic MediaWiki form gets interpreted as a parameter se
 Yes, you can get your content back. It's still there. Deep breath.
 # In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
-# Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or '''&amp;#124'''.
+# Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or '''&amp;#124;'''.
 
-'''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named '''<nowiki>!</nowiki>''' which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator.
+'''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named '''<nowiki>!</nowiki>''' which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator. The &amp;#124; escape is even stronger because only the browser will render the pipe character from it.
+
+'''Note:''' Don't copy and paste the &amp;#124; sequence from this article. To get it to display here, the ampersand (
 
 ===Tables with pipe characters===
 
@@ -23,7 +25,7 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ===Pre sections with pipe characters===
 
-It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine isignores everything in a <nowiki><pre></nowiki> section and reproduces it as is. Here's an example:
+It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine is supposed to ignore everything in a <nowiki><pre></nowiki> section and reproduces it as is.  But no.  For this you have to use the '''&amp;#124;'''  Here's an example:
 
 <code>
 <nowiki>
