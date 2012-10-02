@@ -17,7 +17,7 @@ Here's what you do to get the content into wiki format.
 #Check "Escape HTML entities".
 #Click "Convert HTML to wiki markup". The converted markup appears in the MediaWiki markup box at the top of the page.
 #In the MediaWiki markup box, select all text, and copy.
-#In the new WPD page, in the Content field, paste the text, and click Save page.
+#In the new WPD page, past the new wiki code into the Content field, and click Save page.
 
 That gets the main content into a new page.
 
