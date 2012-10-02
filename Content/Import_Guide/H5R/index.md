@@ -47,7 +47,11 @@ Corrected link:
 </pre>
 
 =iframe content=
-Some of the articles we're migrating may have content that appears in an iframe. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article and put it in a <code><pre>...</pre></code> block. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page and say something like, "You can see a demo here." 
+Some of the articles we're migrating may have content that appears in an iframe. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article and put it in a <code>&lt;pre&gt;...&lt;/pre&gt;</code> block. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page and tell the user what's happening, something like this:
+
+<pre>
+You can see a live demo of this game  [http://www.html5rocks.com/tutorials/casestudies/onslaught/ here].
+</pre> 
 
 See [[tutorials/audio_tag|audio tag]] for an example. 
 
