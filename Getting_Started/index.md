@@ -54,9 +54,9 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Content Biased Voice'''
 * '''Setting appropriate flags'''
 
-===Half-Hour Tasks===
-* '''New Examples'''
-* '''Incomplete API Documentation'''
+===Half-hour tasks===
+* '''New examples'''
+* '''Incomplete API documentation'''
 * '''Rewriting CC-BY-SA content'''
 * '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles on [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|this list]], then look in the editorial note at the top to find the other article they've been proposed to merge into. Often it just requires looking carefully through both articles to maintain the best of both without duplication. See [[WPD:Flags/Merge_Candidate]] for more information.
 * '''Fill in stubs'''
