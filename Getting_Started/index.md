@@ -61,8 +61,8 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles on [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|this list]], then look in the editorial note at the top to find the other article they've been proposed to merge into. Often it just requires looking carefully through both articles to maintain the best of both without duplication. See [[WPD:Flags/Merge_Candidate]] for more information.
 * '''Fill in stubs'''
 
-===Half-Day Tasks===
-* '''Merge Articles'''
+===Half-day tasks===
+* '''Merge articles'''
 * '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at XXXXXXXXXXXX. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
