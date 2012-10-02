@@ -33,6 +33,18 @@ There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 #Save the article and have a look.
 
 
+==&lt;h2&gt;s with IDs==
+The converter should change h2 HTML headings to double-equals wiki headings. However, many of our articles "deep link" to specific heading points in other articles. Those targets have IDs, and the IDs must be preserved for the links to continue to work. So after conversion, review the original article's source code for h2s with IDs. If you find any, change the converted double-equals headings ''back'' to standard HTML syntax and include the original ID, thus: 
+
+<pre>
+==Introduction==
+</pre>
+becomes
+<pre>
+&lt;h2 id="toc-intro"&gt;Introduction&lt;/h2&gt;
+</pre>
+as it appeared in the original article.
+
 ==Fix broken links==
 Check the content for links. They should be of the form: 
 <pre>[http://www.google.com Google]</pre>
@@ -54,7 +66,22 @@ Some of the articles we're migrating may have content that appears in an iframe.
 You can see a live demo of this game  [http://www.html5rocks.com/tutorials/casestudies/onslaught/ here].
 </pre> 
 
-See the [[http://docs.webplatform.org/wiki/tutorials/audio_tag audio tag]] article for examples of this workaround. 
+See the [http://docs.webplatform.org/wiki/tutorials/audio_tag audio tag] WPD article for examples of this workaround. 
+
+==Images==
+Images: To get any images from the original article into your new version, you must save the images locally, fix the image references in your new code, and then upload them to your more-or-less finished product. 
+
+One good way to do this, especially if there are loads of images, is to go to the original article page and select <code>File &gt; Save as... &gt; Web page, complete</code> (or your browser's equivalent). This will save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a subfolder.
+
+If there are only a few images, you can right-click on each one and save them locally with a name of your choosing. In either case, you have to get the article's images onto your local drive.
+
+Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:
+
+[ [ Image:image-filename.jpg|alt text you want your image to have]]
+Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there.
+
+When you've done that, go back to the page and refresh - the image should appear in place of the red link.
+
 
 ==Filling in the boxes==
 The next piece of work is to fill in the meta data and other form content for the article.
