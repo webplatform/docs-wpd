@@ -26,7 +26,7 @@ Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) 
 ===The norms===
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|Pillars]]. The Pillars document is a list of abstract guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
 
-===Flags and Editorial Notes===
+===Flags and editorial notes===
 WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. 
 
 Flags are high-level labels on a page the help us find pages that require some class of work, like new examples or grammar help. They display at the top of the page in a prominent way for logged-in users, but also show for logged-out users. Most content pages have a space for them, and when you go to edit a form you'll find that they're shown as a long list of checkboxes. Most flags are toggled by hand, although some are set automatically by some templates. You can find more about each flag at [[WPD:Flags]], including guidelines on what they mean, when they should be used, and perhaps most importantly, when they can be ''removed'' from content. 
