@@ -58,7 +58,7 @@ First of all, tackle the main content box - this is where the bulk of your artic
     </ul>
   </li>
   <li><p>Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <code>&lt;body&gt;&lt;/body&gt;</code> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.</p></li>
-  <li><p>Go to http://toolserver.org/~diberri/cgi-bin/html2wiki/. Use this tool to convert your HTML into wikimarkup, and grab a copy of the result.</p></li>
+  <li><p>Go to [http://toolserver.org/~diberri/cgi-bin/html2wiki/ this tool] or [http://labs.seapine.com/htmltowiki.cgi this tool]. Use either tool to convert your HTML into wikimarkup, and grab a copy of the result.</p></li>
   <li><p>Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:</p>
     <ul>
       <li><p>'''Remove excess whitespace'''. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
