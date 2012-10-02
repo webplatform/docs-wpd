@@ -34,7 +34,7 @@ There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
 
 ==&lt;h2&gt;s with IDs==
-The converter should change h2 HTML headings to double-equals wiki headings. However, many of our articles "deep link" to specific heading points in other articles. Those targets have IDs, and the IDs must be preserved for the links to continue to work. So after conversion, review the original article's source code for h2s with IDs. If you find any, change the converted double-equals headings ''back'' to standard HTML syntax and include the original ID, thus: 
+The converter should change HTML &lt;h2&gt; headings to double-equals wiki headings. However, many of our articles "deep link" to specific heading points in other articles. Those targets have IDs, and the IDs must be preserved for the links to continue to work. So after conversion, review the original article's source code for h2s with IDs. If you find any, change the converted double-equals headings ''back'' to standard HTML syntax and include the original ID, thus: 
 
 <pre>
 ==Introduction==
