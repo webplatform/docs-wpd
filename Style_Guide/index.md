@@ -73,7 +73,7 @@ Spam makes it hard for readers of the site to find what they’re looking for, a
 ==Vendor neutral==
 Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in major browsers.
 
-==Neutral Voice==
+==Neutral voice==
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
 
 ==Up to date==
