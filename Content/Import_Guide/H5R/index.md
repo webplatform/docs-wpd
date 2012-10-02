@@ -1,20 +1,25 @@
-These are instructions specific to importing content from HTML5Rocks!
+These instructions are specific to importing content from HTML5Rocks!
 
 =Initial conversion=
 
 Here's what you do to get the content into wiki format.
 
-#From the Content Batches spreadsheet, copy the WPD URL.
-#In a new window, open WPD:New_Page.
-#Scroll down to the Tutorial page type.
+#From the [https://docs.google.com/a/google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c&pli=1#gid=0 Content Batches spreadsheet], copy the WPD URL for the article you intend to create.
+#In a new window, open the [http://docs.webplatform.org/wiki/WPD:New_Page WPD:New_Page] page.
+#Scroll down to the page type for the article (e.g., Tutorial).
 #In the text field, paste the WPD URL, and click Create Tutorial Page.
-#From the Content Batches spreadsheet, open the Existing URL of the article.
-#View Source, select all content, and copy.
-#Open the html-to-wiki converter.
-#In the Input field, paste in the HTML from the article, select HTML to Wikipedia and click Convert Input.
-#In the Conversion output, select all text, and copy.
+#From the Content Batches spreadsheet, open the Existing URL of the HTML5Rocks! article.
+#Open the [http://toolserver.org/~diberri/cgi-bin/html2wiki/index.cgi html-to-wiki converter] page.
+#Do one of the following:
+*In the original article, View Source, select all content, and copy; in the converter, choose the "Raw HTML" radio button, and paste the source into the HTML Source box.
+*In the original article, copy the full HTML5Rocks! URL; in the converter, choose the "Fetch from URL" radio button, and paste the original URL into the text field.
+#Under Options, choose "MediaWiki" from the dropdown as the output type. 
+#Check "Escape HTML entities".
+#Click "Convert HTML to wiki markup". The converted markup appears in the MediaWiki markup box at the top of the page.
+#In the MediaWiki markup box, select all text, and copy.
 #In the new WPD page, in the Content field, paste the text, and click Save page.
 
+That gets the main content into a new page.
 
 =Clean up=
 
