@@ -123,7 +123,7 @@ Different sections have [[WPD:Manual Of Style/Section Guidelines|different style
 
 ''Note: Further manual of style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].''
 
-==Use Accepted Wikitext Syntax Conventions==
+==Use accepted wikitext syntax conventions==
 WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax, which everyone should use when editing pages:
 
 * [[WPD:Manual_Of_Style/Tables|Tables]]
