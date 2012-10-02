@@ -20,11 +20,11 @@ Yes, you can get your content back. It's still there. Deep breath.
 
 '''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named '''<nowiki>!</nowiki>''' which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator. The &amp;#124; escape is even stronger because only the browser will render the pipe character from it.
 
-===Tables with pipe characters===
+==Tables with pipe characters==
 
 To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/Tables|Tables]] for details. 
 
-===Pre sections with pipe characters===
+==Pre sections with pipe characters==
 
 It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine is supposed to ignore everything in a <nowiki><pre></nowiki> section and reproduces it as is.  But no.  For this you have to use the '''&amp;#124;'''  Here's an example:
 
@@ -54,7 +54,7 @@ In lines of code designated by a leading single space (implicit pre-formatted se
 
 And just to beat this topic to death, pipes in <nowiki><code></nowiki>-encoded text must also be substituted with the <nowiki>{{!}}</nowiki> template. The rendering engine treats such sections only for style considerations (with CSS), it still evaluates the characters.
 
-===Parser functions with pipe characters===
+==Parser functions with pipe characters==
 
 But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
 
@@ -87,6 +87,7 @@ The problem is that in the #if block, every pipe character the rendering engine 
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
+
 
 =Spaces in template calls=
 
