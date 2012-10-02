@@ -17,8 +17,6 @@ Yes, you can get your content back. It's still there. Deep breath.
 
 '''<nowiki>{{!}}</nowiki>''' is a transclusion of a template named '''<nowiki>!</nowiki>''' which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator. The &amp;#124; escape is even stronger because only the browser will render the pipe character from it.
 
-'''Note:''' Don't copy and paste the &amp;#124; sequence from this article. To get it to display here, the ampersand (
-
 ===Tables with pipe characters===
 
 To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/Tables|Tables]] for details. 
@@ -39,7 +37,7 @@ This code renders as follows.
 if (moodQuery==checkin.mood&#124;&#124;moodQuery) handler(checkin);
 </pre>
 
-But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
+In lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you may use the <nowiki>{{!}}</nowiki> template. Here's an example:
 
 <code>
 &nbsp;<nowiki>
