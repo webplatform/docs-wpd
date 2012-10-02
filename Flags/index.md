@@ -24,7 +24,7 @@ Different flags have different guidelines for when they should be used, and for 
 
 {{TODO | Create the bolded flags (the ones that are not yet created)}}
 
-===Content Quality (High-Level)===
+===Content quality (high-level)===
 * [[WPD:Flags/Stub|Stub]]
 * [[WPD:Flags/Deletion Candidate|Deletion_Candidate]]
 * [[WPD:Flags/Merge Candidate|Merge_Candidate]] 
@@ -36,8 +36,8 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Missing_Relevant_Sections|Missing_Relevant_Sections]]
 * [[WPD:Flags/Data_Not_Semantic|Data_Not_Semantic]]
 
-===Content Quality (Low-Level)===
-====Content Quality====
+===Content quality (low-level)===
+====Content quality====
 * [[WPD:Flags/Content_Outdated|Content_Outdated]]
 * [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
 * [[WPD:Flags/Content_Errors|Content_Errors]]
