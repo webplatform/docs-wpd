@@ -18,7 +18,7 @@ You can find us on '''IRC''' (essentially a special chat room) at '''irc.freenod
 
 Remember: all of WPD is a wiki. If you ever find content that's not quite up to snuff (including pages like this one that help you get started), please help improve them! If everyone leaves a page in just a little bit better shape than the way they found it, WPD will become more and more useful.
 
-==The Basics==
+==The basics==
 
 ===The technology===
 Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, which means that often making substantive contributions to pages is as simple as filling in a form field! This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page.
