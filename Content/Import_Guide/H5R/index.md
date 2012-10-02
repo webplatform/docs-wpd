@@ -33,6 +33,8 @@ There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
 
 ==Fix broken links==
+Check the content for links. They should be of the form <code>[http://www.google.com Google]</code>.
+
 You'd think that the converter would be able to create simple links of the format, "[URL title]" but this is apparently not so (I think this a bug). Until we can get the converter to work, we'll have to go back and fix each link. These appear in red when the page is in read mode. Note that the links also come in with double brackets [[ ... ]] - these should be single brackets [ ... ].
 
 =I-framed content=
