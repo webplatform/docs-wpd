@@ -46,8 +46,8 @@ Corrected link:
 [http://www.html5rocks.com/tutorials/casestudies/onslaught/ Onslaught]
 </pre>
 
-=I-framed content=
-Some of the articles we're migrating may have content that appears in an i-frame. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page. 
+=iframe content=
+Some of the articles we're migrating may have content that appears in an iframe. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article and put it in a <code><pre>...</pre></code> block. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page and say something like, "You can see a demo here." 
 
 See [[tutorials/audio_tag|audio tag]] for an example. 
 
