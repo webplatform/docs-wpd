@@ -14,7 +14,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 * [[concepts]]
 ** concepts / accessibility
 ** concepts / ia
-** concepts / Internet and web
+** concepts / internet and web
 ** concepts / one web
 ** concepts / progressive enhancement
 ** concepts / programming
