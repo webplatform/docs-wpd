@@ -46,33 +46,35 @@ Corrected link:
 [http://www.html5rocks.com/tutorials/casestudies/onslaught/ Onslaught]
 </pre>
 
-=iframe content=
+==iframe content==
 Some of the articles we're migrating may have content that appears in an iframe. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article and put it in a <code>&lt;pre&gt;...&lt;/pre&gt;</code> block. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page and tell the user what's happening, something like this:
 
 <pre>
 You can see a live demo of this game  [http://www.html5rocks.com/tutorials/casestudies/onslaught/ here].
 </pre> 
 
-See [[tutorials/audio_tag|audio tag]] for an example. 
+See the [[http://docs.webplatform.org/wiki/tutorials/audio_tag audio tag]] article for examples of this workaround. 
 
-=Filling in the boxes=
-
-The next piece of work is to fill in all the meta data and other form content for the article.
+==Filling in the boxes==
+The next piece of work is to fill in the meta data and other form content for the article.
 
 '''Note:''' The wiki layout puts the checkbox to the left of the label.
 
 #Edit the article.
-#Always check High-level issues: Needs flags.
+#At the top, always check High-level issues: Needs flags.
 #Check other flags that apply.
 #Fill in a short Summary. Be mindful of SEO.
-#In the Topics section, check all that apply.
-#Under External Attribution, check that which applies (MDN, HTML5Rocks!), and provide the link.
+#At the bottom, in the Topics section, check all that apply.
+#Under External Attribution, check whichever applies (HTML5Rocks! in this case), and provide the original link in the text box. '''Important:''' If the H5R URL contains "en/" in the path, remove it. That is, if the original article URL is <code>http://www.html5rocks.com/en/tutorials/eventsource/basics/</code>, change it to <code>http://www.html5rocks.com/tutorials/eventsource/basics/</code>.
 
-=Compatibility table=
-In the Content field, move all the Supported Browser content down to the end of the content to make it easier to reference when you are filling out the compatibility table. You can use this info to start the tables, but you must also get more specific information from caniuse.com.
+==Author and publish date==
+Enter the original author's name, their profile link, and the publish (and update) date(s) in the form fields. Delete the original info from the content box.
 
-Once you have the compatibility table filled out, delete the Supported browsers content.
+==Compatibility table==
+In the Content field, move all the Supported Browser content down to the end of the content to make it easier to reference when you are filling out the compatibility table. Do not make manual tables; use the compatibility table buttons in the form. You can use the original author's info as reference, but it may be out of date. Always get the latest information from [http://caniuse.com/ caniuse.com].
 
-=Housekeeping=
+When you have the compatibility tables filled out, delete the original supported browsers info from the content box.
 
-When you've finished an article, fill in the Status column of the spreadsheet: provide a status and your initials (i.e. Done - sr). I'll be spot-converting some articles in the list, so check the status column before you begin.
+==Housekeeping==
+
+When you've finished an article, fill in the Status column of the spreadsheet: provide a status and your initials (i.e. Done - sr). Other people may be converting some articles in the same list, so always check the status column before you begin.
