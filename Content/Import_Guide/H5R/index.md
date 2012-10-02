@@ -33,10 +33,18 @@ There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
 
 ==Fix broken links==
-Check the content for links. They should be of the form 
-<pre>[http://www.google.com Google]</pre>.
+Check the content for links. They should be of the form: 
+<pre>[http://www.google.com Google]</pre>
 
-You'd think that the converter would be able to create simple links of the format, "[URL title]" but this is apparently not so (I think this a bug). Until we can get the converter to work, we'll have to go back and fix each link. These appear in red when the page is in read mode. Note that the links also come in with double brackets [[ ... ]] - these should be single brackets [ ... ].
+Make sure that all URLs are fully qualified. External URLs will already be fully qualified, but links back to existing HTML5Rocks! articles will probably not be, and they won't work from the new WPD domain. That is:
+
+<pre>
+Original link:
+[/tutorials/casestudies/onslaught/ Onslaught]
+
+Corrected link:
+[http://www.html5rocks.com/tutorials/casestudies/onslaught/ Onslaught]
+</pre>
 
 =I-framed content=
 Some of the articles we're migrating may have content that appears in an i-frame. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page. 
