@@ -6,7 +6,9 @@
 ''URL mapping is handled in the spreadsheet''
 
 ====Page Form====
-Use the [[Form:API_Object]] form.
+Use the [[Form:Event]] form.
+
+{{TODO: Update this with the new fields from Event}}
 
 ==API_Object==
 
