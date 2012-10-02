@@ -23,7 +23,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / user profiling
 ** concepts / UX
 ** concepts / ''foo''
-* HTML
+* [[HTML]]
 ** HTML  / ''foo''
 ** HTML  / validation
 ** HTML  / quirks mode
@@ -40,7 +40,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** HTML / apis / properties
 **** HTML / apis / properties / ''foo''
 ** HTML / tutorials (a list of tutorials categorized as HTML)
-* CSS
+* [[CSS]]
 ** CSS  /  ''foo''
 ** CSS  / inheritance
 ** CSS  / cascade
@@ -65,7 +65,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** CSS / apis / properties
 **** CSS / apis / properties / ''foo''
 ** CSS / tutorials (a list of tutorials categorized as CSS)
-* SVG
+* [[SVG]]
 * SVG / ''foo''
 ** SVG / data-types
 *** SVG / data-types / ''foo''
@@ -80,7 +80,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** SVG / apis / properties
 **** svg / apis / properties / ''foo''
 ** SVG / tutorials (a list of tutorials categorized as SVG)
-* mathml
+* [[mathml]]
 ** mathml  / ''foo''
 ** mathml / data-types
 *** mathml / data-types / ''foo''
@@ -89,7 +89,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** mathml / attributes
 *** mathml / attributes / ''foo''
 ** mathml / tutorials (a list of tutorials categorized as MathML)
-* xml
+* [[xml]]
 ** xml / ''foo''
 ** xml / data-types
 *** xml / data-types / ''foo''
@@ -98,12 +98,12 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** xml / attributes
 *** xml / attributes / ''foo''
 ** xml / tutorials (a list of tutorials categorized as XML)
-* aria
+* [[aria]]
 ** aria / ''foo''
 ** aria / attributes
 *** aria / attributes / ''foo''
 ** aria / tutorials (a list of tutorials categorized as ARIA)
-* apis
+* [[apis]]
 ** apis / ''foo''
 *** apis / ''foo'' / ''foobar'' (interface)
 **** apis / ''foo'' / ''foobar'' / ''baz'' method
@@ -111,7 +111,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** apis / ''quux'' (the Quux API has only one interface)
 *** apis / ''quux'' / ''quux'' method
 *** apis / ''quux'' / ''quux'' property
-* dom
+* [[dom]]
 * dom / ''foo''
 ** dom / apis
 *** dom / apis / ''foo''
@@ -120,7 +120,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** dom / apis / properties
 **** dom / apis / properties / ''foo''
 ** dom / tutorials (a list of tutorials categorized as DOM)
-* events
+* [[events]]
 ** events / ''foo''
 ** events / apis
 *** events / apis / methods
@@ -128,7 +128,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** events / apis / properties
 **** events / apis / properties / ''foo''
 ** dom / tutorials (a list of tutorials categorized as events)
-* js
+* [[js]]
 ** js  / feature-detection
 ** js  / OOP
 ** js  / apis-general-context
@@ -150,14 +150,14 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** js / tutorials (a list of tutorials categorized as Javascript)
 ** js / libraries
 *** js / libraries / ''foo''
-* glossary
-* guides
-* tutorials (links to tech-specific tutorials)
+* [[glossary]]
+* [[guides]]
+* [[tutorials]] (links to tech-specific tutorials)
 ** tutorials / web standards curriculum
 ** tutorials / responsive web design
 ** tutorials / accessibility
 ** tutorials / ''foo''
-* proprietary
+* [[proprietary]]
 ** proprietary / microsoft
 *** proprietary / microsoft / pinned sites
 *** proprietary / microsoft / silverlight
