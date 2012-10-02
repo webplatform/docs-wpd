@@ -11,8 +11,8 @@ Here's what you do to get the content into wiki format.
 #From the Content Batches spreadsheet, open the Existing URL of the HTML5Rocks! article.
 #Open the [http://toolserver.org/~diberri/cgi-bin/html2wiki/index.cgi html-to-wiki converter] page.
 #Do one of the following:
-*In the original article, View Source, select all content, and copy; in the converter, choose the "Raw HTML" radio button, and paste the source into the HTML Source box.
-*In the original article, copy the full HTML5Rocks! URL; in the converter, choose the "Fetch from URL" radio button, and paste the original URL into the text field.
+#*In the original article, View Source, select all content, and copy; in the converter, choose the "Raw HTML" radio button, and paste the source into the HTML Source box.
+#*In the original article, copy the full HTML5Rocks! URL; in the converter, choose the "Fetch from URL" radio button, and paste the original URL into the text field.
 #Under Options, choose "MediaWiki" from the dropdown as the output type. 
 #Check "Escape HTML entities".
 #Click "Convert HTML to wiki markup". The converted markup appears in the MediaWiki markup box at the top of the page.
