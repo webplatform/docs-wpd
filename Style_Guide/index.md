@@ -39,7 +39,7 @@ For clarity in both creating and reading, article types should be consistently t
 Please follow the following title conventions for specific article types:
 * '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
 ** Examples: "Using the <audio> Tag", "Drawing on the Canvas", "Calling the getLocation() Function" 
-* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and articles with concept, background or overview content. Essentially, concept articles are a reference of sorts, although more introductory and less terse.
+* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and articles with concept, guide, background or overview content. Essentially, concept/guide articles are a reference of sorts, although more introductory and less terse.
 ** Reference examples: "<audio> Tag Attributes", "Valid .moveTo() Values", "Latitude and Longitude Notation"
 ** Examples: "Introduction to Flexbox", "The history of the Web", "Information architecture"
 
