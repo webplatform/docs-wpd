@@ -20,7 +20,6 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / programming
 ** concepts / responsive design
 ** concepts / security
-** concepts / usability
 ** concepts / user profiling
 ** concepts / UX
 ** concepts / ''foo''
