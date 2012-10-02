@@ -34,7 +34,7 @@ It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The 
 This code renders as follows.
 
 <pre>
-if (moodQuery==checkin.mood||moodQuery) handler(checkin);
+if (moodQuery==checkin.mood || moodQuery) handler(checkin);
 </pre>
 
 But in lines of code designated by a leading single space (implicit pre-formatted sections, let's call 'em), you have to use the <nowiki>{{!}}</nowiki> template. Here's an example:
