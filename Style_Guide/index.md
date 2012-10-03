@@ -55,9 +55,9 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 
 == Common usages ==
 
-* Internet, not internet, when used as a proper noun, e.g. '''The Internet'''. Otherwise, use lower case, e.g. '''Do you think internet marketing is a real degree?'''
-* Web, not web, when used as a proper noun, e.g. '''The Web'''. Otherwise, use lower case, e.g. '''I think CSS is a web-related topic'''
-* website, not web site
+* ''Internet'', not ''internet'', when used as a proper noun, e.g. '''The Internet'''. Otherwise, use lower case, e.g. '''Do you think internet marketing is a real degree?'''
+* ''Web'', not ''web'', when used as a proper noun, e.g. '''The Web'''. Otherwise, use lower case, e.g. '''I think CSS is a web-related topic'''
+* ''website'', not ''web site''
 
 =Quality principles=
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
