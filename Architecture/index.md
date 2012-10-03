@@ -151,7 +151,6 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** js / libraries
 *** js / libraries / ''foo''
 * [[glossary]]
-* [[Guides|guides]]
 * [[tutorials]] (links to tech-specific tutorials)
 ** tutorials / web standards curriculum
 ** tutorials / responsive web design
