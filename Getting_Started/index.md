@@ -1,24 +1,14 @@
-=Getting started=
-
-This website, '''Web Platform Docs''', is written, edited, and organized by an active community&mdash;many of them volunteers.
+=Contributing to WPD =
 
 It's easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to newcomers; if you ever have any questions, just ask!
+
+There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience.
 
 ==Wiki-based==
 
 Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're set!
 
 To get a username, click '''Login''' on any page and follow the instructions to create an account.
-
-==Finding help==
-
-WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
-
-We use a mailing list, [mailto:public-webplatform@w3.org public-webplatform@w3.org] to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can subscribe to the list [http://lists.w3.org/Archives/Public/public-webplatform/ here]. You do not need a W3C account to join or send messages.
-
-You can find us on '''IRC''' (Internet Relay Chat, essentially a specialized chat room) at '''irc.freenode.org'''; join the room called '''#webplatform'''. IRC is the best place to ask simple questions like "Why can't I get this formatting to look right?" or "Do we have a template I can use to do X?". Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
-
-Remember, all of WPD is a wiki. If you ever find content that's not quite up to snuff (including pages like this one that help you get started), please help improve them! If everyone leaves a page in just a little bit better shape than the way they found it, WPD will become more and more useful.
 
 ==The basics==
 
@@ -29,16 +19,9 @@ Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) 
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
 
 ===Flags and editorial notes===
-WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. 
-
-Flags are high-level labels on a page the help us find pages that require some class of work, like new examples or grammar help. They display at the top of the page in a prominent way for logged-in users, but also show for logged-out users. Most content pages have a space for them, and when you go to edit a form you'll find that they're shown as a long list of checkboxes. Most flags are toggled by hand, although some are set automatically by some templates. You can find more about each flag at [[WPD:Flags]], including guidelines on what they mean, when they should be used, and perhaps most importantly, when they can be ''removed'' from content. 
-
-Editorial notes, by default, don't show up for users who are not logged-in. They are meant to allow editors to leave tactical notes to one another about specific work that needs to be done to improve the page. They often go hand-in-hand with flags. For example, the page might be flagged with "Examples do not follow best practices", and within the page the examples an editorial note might show up next to the specific example that needs work describing precisely which best practices it doesn't follow.  Each of the sub-pages of [[WPD:Flags]] describes which Editorial notes to use in conjunction with which flags and why. Most editorial notes are simple "sub-classes" of the basic [[Template:Editorial|editorial note template]].
-
-Editors can provide a lot of value by merely making sure that pages have the correct flags and editorial notes set. This makes it so that other editors can easily come along and find and accomplish specific improvements, focusing their attention on the spots that need the most help.
+WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. [[link to flags]]
 
 ==Contributing==
-There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience.
 
 Here are some references to help you:
 * [[WPD:Manual_Of_Style|Style Guide]]
