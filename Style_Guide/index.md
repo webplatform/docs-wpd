@@ -28,10 +28,10 @@ Titles are part of the URL structure, and so should follow certain rules:
 * Titles should be as short as possible. Leave out any articles that aren't completely necessary (e.g., ''the'', ''an'', ''a'')
 * Only capitalize when absolutely necessary, such as for technical terms, like ''getElementById''
 * Use minimal punctuation; for methods, do not use parens (''( )'') 
-* Separate words with a space ('' ''), which MediaWiki will convert to an underscore (''_''); only use hyphens (''-'') or dashes (''–'') when they are part of a word
+* Separate words with a space ('' ''), which MediaWiki will convert to an underscore (''_''); only use hyphens or dashes (''–'') when they are part of a word
 * When creating a subpage, avoid duplicating the parent title in the current title if at all possible, especially for long words.
 
-In the case where these rules make it difficult to make a descriptive coherent title, such as for a tutorial, the the ''title'' should be a minimally reduced version, and the real title should be given as a subtitle.
+In the case where these rules make it difficult to make a descriptive coherent title, such as for a tutorial, the ''title'' field should be a minimally reduced version, and the real title should be given as a subtitle.
 
 ==Article naming conventions==
 For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title without further reading.
