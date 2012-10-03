@@ -15,9 +15,9 @@ Use capitals sparingly. Where the instance includes an abbreviation, a proper na
 : Example: '''Unicode characters in JavaScript files'''.
 : Example: '''Action: specifying fonts'''.
 ;URLs
-: Do not capitalize unless complete vital for syntax correctness.
-: Example: '''tutorials/audio_tag''' (the underscore is generated for you — you would enter '''tutorials/audio tag''').
-: Example: '''tutorials/using_getUserMedia''' (the underscore is generated for you — you would enter '''tutorials/using getUserMedia''').
+: Do not capitalize unless completely vital for syntax correctness.
+: Example: '''tutorials/audio_tag''' (the underscore is generated for you &mdash; you would enter '''tutorials/audio tag''').
+: Example: '''tutorials/using_getUserMedia''' (the underscore is generated for you &mdash; you would enter '''tutorials/using getUserMedia''').
 
 =Titles and headings=
 
