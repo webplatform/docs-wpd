@@ -1,10 +1,10 @@
 =Getting started=
 
-This website, Web Platform Docs is written, edited, and organized by an active community&mdash;many of them volunteers.
+This website, '''Web Platform Docs''', is written, edited, and organized by an active community&mdash;many of them volunteers.
 
-It's incredibly easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to any newcomers. If you ever have any questions, just ask!
+It's easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to newcomers; if you ever have any questions, just ask!
 
-==Getting started==
+==Wiki-based==
 
 Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're set!
 
@@ -13,6 +13,8 @@ To get a username, click '''Login''' on any page and follow the instructions to 
 ==Finding help==
 
 WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
+
+[public-webplatform@w3.org|mailing list]
 
 '''public-webplatform@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can join at  http://lists.w3.org/Archives/Public/public-webplatform/. You do '''not''' need a W3C account to join or send messages.
 
