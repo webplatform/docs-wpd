@@ -14,7 +14,7 @@ To get a username, click '''Login''' on any page and follow the instructions to 
 
 WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
 
-'''public-webplatform@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can subscribe to the list [[http://lists.w3.org/Archives/Public/public-webplatform/ here]]. You do '''not''' need a W3C account to join or send messages.
+'''public-webplatform@w3.org''' is the mailing list we use to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can subscribe to the list [[http://lists.w3.org/Archives/Public/public-webplatform/|here]]. You do '''not''' need a W3C account to join or send messages.
 
 You can find us on '''IRC''' (essentially a specialized chat room) at '''irc.freenode.org'''; join the room called '''#webplatform'''. IRC is the best place to ask simple questions like "Why can't I get this formatting to look right?" or "Do we have a template I can use to do X?". Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
 
