@@ -21,7 +21,6 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / mobile web
 ** concepts / responsive design
 ** concepts / security
-** concepts / user profiling
 ** concepts / ux
 ** concepts / ''foo''
 * [[HTML]]
