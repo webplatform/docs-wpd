@@ -18,6 +18,7 @@ The canonical list of external attribution sites is maintained at [[Property:Ext
 * [http://developer.mozilla.com MDN]
 * [http://www.html5rocks.com HTML5Rocks]
 * [http://www.MSDN.com MSDN]
+* [http://developers.facebook.com/html5 Facebook HTML5 Resource Center]
 * ''and some others''
 
 This list will populate the article-editing form.
