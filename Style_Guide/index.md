@@ -1,60 +1,41 @@
-
 =WPD style guide=
-For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not should be tagged with the relevant banners, and may be deleted.
+WPD is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
 
 <!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
 
 ==URLs==
-When creating an article from the [http://docs.webplatform.org/wiki/WPD:New_Page new page page], 
+When creating an article from the [http://docs.webplatform.org/wiki/WPD:New_Page new page page], bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
 
-Use capitals sparingly. Where the instance includes an abbreviation, a proper name, or camel case, keep the capitalization for those.
+A couple of guidelines:
+*Do not capitalize unless absolutely vital for syntax correctness. Thus, for an article about user media, you might enter "usermedia"; for an article specifically about the getUserMedia method, you might instead enter "getUserMedia".
+*Use blanks, not underscores, to separate words, as underscores are generated when the page is created. Thus for an article about the HTLM5 audio tag, you might enter "audio tag"; the generated URL would be "audio_tag".
+*Do not use other punctuation, such as dashes or parentheses, in a URL. Just don't.
+*Do not use articles (the, a, an) in titles unless absolutely necessary.
 
-;Page titles
-: Capitalize only the first word.
-: Example: '''Style manual''' (in other words, don't use this page as an example).
-: Example: '''The CSS layout model'''. 
-;Section headings
-: Capitalize only the first word.
-: Example: '''Titles and headings''' (see below).
-: Example: '''Unicode characters in JavaScript files'''.
-: Example: '''Action: specifying fonts'''.
-;URLs
-: Do not capitalize unless completely vital for syntax correctness.
-: Example: '''tutorials/audio_tag''' (the underscore is generated for you &mdash; you would enter '''tutorials/audio tag''').
-: Example: '''tutorials/using_getUserMedia''' (the underscore is generated for you &mdash; you would enter '''tutorials/using getUserMedia''').
+==Article titles==
+In the "Custom page title" form field, enter a descriptive title if it's different from the URL "title" (it probably should be). 
 
-=Titles and headings=
+For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
-==Choose descriptive titles==
-Choose useful titles (e.g., the name of a feature being documented).
-
-Titles are part of the URL structure, and so should follow certain rules:
-* Titles should be as short as possible. Leave out any articles that aren't completely necessary (e.g., ''the'', ''an'', ''a'')
-* Only capitalize when absolutely necessary, such as for technical terms, like ''getElementById''
-* Use minimal punctuation; for methods, do not use parens (''( )'') 
-* Separate words with a space ('' ''), which MediaWiki will convert to an underscore (''_''); only use hyphens or dashes (''–'') when they are part of a word
-* When creating a subpage, avoid duplicating the parent title in the current title if at all possible, especially for long words.
-
-In the case where these rules make it difficult to make a descriptive coherent title, such as for a tutorial, the ''title'' field should be a minimally reduced version, and the real title should be given as a subtitle.
-
-==Article naming conventions==
-For clarity in both creating and reading, article types should be consistently titled at the primary heading level, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that the author can accurately place it in the information hierarchy and so that the reader can infer its content type from the title without further reading.
-
-Please follow the following title conventions for specific article types:
+Please follow the following title conventions for at least these specific article types:
 * '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
-** Examples: "Using the <audio> tag", "Drawing on the canvas", "Using getLocation data" 
-* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and articles with concept, guide, background or overview content. Essentially, concept/guide articles are a reference of sorts, although more introductory and less terse.
-** Reference examples: "<audio> tag attributes", "Valid .moveTo values", "Latitude and longitude notation"
-** Examples: "Introduction to Flexbox", "The history of the Web", "Information architecture"
+** Examples: "Using the <audio> tag", "Drawing on the canvas", "Interpreting getLocation() data" 
+* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and also for articles with concept, guide, background or overview content. 
+** Examples: "<audio> tag attributes", "Valid .moveTo() values", "Latitude and longitude notation", "Introduction to Flexbox", "The history of the Web", "Information architecture basics"
+
+Use capitals sparingly. Capitalize only the first word ("sentence case"); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization for those. Some correct examples:
+*Style manual
+*The CSS layout model
+*Unicode characters in JavaScript files
+*Specifying fonts
 
 ==Section headings==
-As much as possible, use short sentences for heading titles, with minimal punctuation and articles, but the rules for titles do not necessarily apply to section headings. Avoid asking questions in section headings.
 
-==Title casing==
+Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
 
-You should capitalise the first word of each title, but not every word. So '''Web standards rock''', but not '''Web Standards Rock'''
+=start here bubba=
 
-=Grammar and spelling conventions=
+==Grammar and spelling conventions==
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query.
 
 == Common usages ==
