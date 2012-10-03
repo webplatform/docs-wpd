@@ -18,7 +18,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 ** concepts / one web
 ** concepts / progressive enhancement
 ** concepts / programming
-** concepts / mobile
+** concepts / mobile web
 ** concepts / responsive design
 ** concepts / security
 ** concepts / user profiling
