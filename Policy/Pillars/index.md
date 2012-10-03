@@ -18,7 +18,7 @@ The web developer center is founded on three pillars:
 * Content will be available at no cost.
 * Content will be readable without requiring identifying information.
 * All people are invited to contribute content that is relevant to Web developers and designers in practice. Note however, that:
-** This does not imply that all content is suitable for the center, and controversial content flagged by the community will be removed at the consensus of the administrators; controversial content may include (but is not limited to) false claims, subjective claims on the relative merits of browsers, code samples that favor one browser, and incorrect identification of the standardization status of a feature.
+** This does not imply that all content is suitable for the site, and controversial content flagged by the community will be removed at the consensus of the administrators; controversial content may include (but is not limited to) false claims, subjective claims on the relative merits of browsers, code samples that favor one browser, and incorrect identification of the standardization status of a feature.
 ** Disruptive behavior may lead to people losing editing or administrative privileges.
 * Content will be accessible.
 * Content will be translated into as many languages as possible.
