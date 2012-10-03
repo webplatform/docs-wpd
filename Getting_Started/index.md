@@ -49,10 +49,14 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 
 ===5-minute tasks===
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
-* '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources and then inputting the values in the form.
-* '''Data not semantic'''
-* '''Content biased voice'''
-* '''Setting appropriate flags'''
+* '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources  (such as http://caniuse.com/) and then inputting the values in the form. 
+* '''Data not semantic''' it is a bad practice to use include code examples that are not semantic, for example which use presentational IDs (e.g. red-box; editors-note would be better) or use presentational elements (such as <center> or <font>) or which just use inappropriate tag structures (for example <br><br> to create line breaks between paragraphs). Please fix such instances! 
+* '''Biased content''' WPD is supposed to be a vendor neutral documentation site, so efforts need to be made to remove biased information. For example, have you found a section that talks about a feature as if it is only usable in Firefox or Chrome, or a section of code that could work across all browsers, but won't because it only uses one or two browsers' vendor prefixes? Please ammend these accordingly, or at least check the '''Biased voice''' flag in the edit form
+* '''Setting appropriate flags''' If you press the edit button at the top of an article, you can check the different flag checkboxes at the top of the edit form to indicate what tasks need to be done on that article.
+* '''Fixing broken links''' Broken links are fairly easy to spot on WPD - they should be highlighted in a [[albatross/my broken link example|bold red colour]]. Please repair any you find, or at least check the '''Broken Links''' flag.
+* '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
+* '''Fill in exercise questions''' Some articles have exercise questions listed at the bottom of them - you can fill in useful exercise questions, in the '''Manual sections: (raw other sections, including headers)''' box of the '''See also section''' in the edit form for tutorials, guides, etc.
+* '''Add screenshots or supporting information''' many articles have broken screenshot links, or notes such as '''Note: add screenshot to show what this should look like.''' in them. Please help out by adding needed screenshots, or further examples or supporting information to illustrate techniques.
 
 ===Half-hour tasks===
 * '''New examples'''
