@@ -17,7 +17,7 @@ A pipe character in a Semantic MediaWiki form gets interpreted as a parameter se
 
 Yes, you can get your content back. It's still there. Deep breath.
 # From the '''Edit''' menu, select '''Edit Source'''.
-#;Alternatively, in the URL for the page you can replace '''&action=formedit''' with '''&action=edit'''.
+#:Alternatively, in the URL for the page you can replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
 # Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or '''&amp;#124;'''.
 
