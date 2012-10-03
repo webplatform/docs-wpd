@@ -55,21 +55,22 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Setting appropriate flags''' If you press the edit button at the top of an article, you can check the different flag checkboxes at the top of the edit form to indicate what tasks need to be done on that article.
 * '''Fixing broken links''' Broken links are fairly easy to spot on WPD - they should be highlighted in a [[albatross/my broken link example|bold red colour]]. Please repair any you find, or at least check the '''Broken Links''' flag.
 * '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
+
+===Half-hour tasks===
+* '''New examples''' It is always useful to add more examples to illustrate techniques or show good use of technologies. Look for articles where the examples are thin on the group.
+* '''Incomplete API documentation''' Some reference articles or incomplete or need documentation fleshing out.
+* '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles on [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|this list]], then look in the editorial note at the top to find the other article they've been proposed to merge into. Often it just requires looking carefully through both articles to maintain the best of both without duplication. See [[WPD:Flags/Merge_Candidate]] for more information.
+* '''Fill in stubs''' There are a number of pages that are just stubs - article titles and locations with no content, usually as a result of someone thinking that it'd be a good idea to have an article on X or Y, but not having time right now, so setting a placeholder for later. Filling these in would be greatly appreciated.
 * '''Fill in exercise questions''' Some articles have exercise questions listed at the bottom of them - you can fill in useful exercise questions, in the '''Manual sections: (raw other sections, including headers)''' box of the '''See also section''' in the edit form for tutorials, guides, etc.
 * '''Add screenshots or supporting information''' many articles have broken screenshot links, or notes such as '''Note: add screenshot to show what this should look like.''' in them. Please help out by adding needed screenshots, or further examples or supporting information to illustrate techniques.
 
-===Half-hour tasks===
-* '''New examples'''
-* '''Incomplete API documentation'''
-* '''Rewriting CC-BY-SA content'''
-* '''Merge duplicate articles''' Every so often there will be pages that substantially duplicate content and should be merged into one. For example, an article that originally came from MSDN might have lots of overlapping content with another article that came from HTML5Rocks. Look for articles on [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|this list]], then look in the editorial note at the top to find the other article they've been proposed to merge into. Often it just requires looking carefully through both articles to maintain the best of both without duplication. See [[WPD:Flags/Merge_Candidate]] for more information.
-* '''Fill in stubs'''
-
 ===Half-day tasks===
-* '''Merge articles'''
-* '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at XXXXXXXXXXXX. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
+* '''Merge articles''' Some articles are marked with the '''Merge candidate'' flag, meaning that they should be merged with other articles, perhaps because they duplicate information, or because they would work better as single entity.
+* '''Split articles''' - this is the same as above, except in the opposite direction.
+* '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at our [[http://talk.webplatform.org/forums/|Forums]] or in our IRC channel (irc.freenode.org, port 6667, room webplatform). If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
+* '''Rewriting CC-BY-SA content''' While we have content on the site that is licensed under CC-BY-SA, ideally we would prefer to rewrite it so that it is more distributable and reusable. If you see articles licensed like this, feel free to rewrite the content. 
 
 ==Bugs!==
 
