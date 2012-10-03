@@ -55,6 +55,7 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''Setting appropriate flags''' If you press the edit button at the top of an article, you can check the different flag checkboxes at the top of the edit form to indicate what tasks need to be done on that article.
 * '''Fixing broken links''' Broken links are fairly easy to spot on WPD - they should be highlighted in a [[albatross/my broken link example|bold red colour]]. Please repair any you find, or at least check the '''Broken Links''' flag.
 * '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
+* '''Add the correct code syntax coloring to code blocks''' See http://docs.webplatform.org/wiki/WPD:Style_Manual#Code_syntax_highlight_coloring for details of how.
 
 ===Half-hour tasks===
 * '''New examples''' It is always useful to add more examples to illustrate techniques or show good use of technologies. Look for articles where the examples are thin on the group.
