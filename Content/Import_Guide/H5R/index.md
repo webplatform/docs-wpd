@@ -1,4 +1,4 @@
-These instructions are specific to importing content from HTML5Rocks!
+These instructions are specific to importing content from [http://www.html5rocks.com/ HTML5Rocks!]
 
 ==Initial conversion==
 Here's what you do to get the content into wiki format.
