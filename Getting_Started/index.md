@@ -1,38 +1,13 @@
-=Contributing to WPD =
+=Contributing content to WPD =
 
-It's easy to get started, and you can make meaningful contributions whether you have five minutes, half an hour, or half a day. The community is friendly and welcoming to newcomers; if you ever have any questions, just ask!
+All you need to do to start is get a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
 
-There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience.
+==Tasks==
 
-==Wiki-based==
-
-Web Platform Docs (we call it WPD) is an open wiki that anyone may edit. All you need to do is get a username, verify your e-mail address, and you're set!
-
-To get a username, click '''Login''' on any page and follow the instructions to create an account.
-
-==The basics==
-
-===The technology===
-Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
-
-===The norms===
-The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
-
-===Flags and editorial notes===
-WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. [[link to flags]]
-
-==Contributing==
-
-Here are some references to help you:
-* [[WPD:Manual_Of_Style|Style Guide]]
-* [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
-* [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
-* [[WPD:Implementation_Patterns|Template and Form Implementation]]
-* [[WPD:FAQ|General FAQ]]
-
-Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
+There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
 
 ===5-minute tasks===
+
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
 * '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources  (such as http://caniuse.com/) and then inputting the values in the form. 
 * '''Data not semantic''' it is a bad practice to use include code examples that are not semantic, for example which use presentational IDs (e.g. red-box; editors-note would be better) or use presentational elements (such as &lt;center&gt; or &lt;font&gt;) or which just use inappropriate tag structures (for example &lt;br&gt;&lt;br&gt; to create line breaks between paragraphs). Please fix such instances! 
@@ -56,7 +31,30 @@ Remember, if at any point you're unsure, ask the IRC channel or the e-mail list.
 * '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. IF you are not sure if something needs to be written, ask about it first, at our [[http://talk.webplatform.org/forums/|Forums]] or in our IRC channel (irc.freenode.org, port 6667, room webplatform). If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways, for example my e-mailing ideas to XXXXXXXXXXXX, writing then down on the suggestion board at XXXXXXXXXXXX, and XXXXXXXXXXXXX.
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
-* '''Rewriting CC-BY-SA content''' While we have content on the site that is licensed under CC-BY-SA, ideally we would prefer to rewrite it so that it is more distributable and reusable. If you see articles licensed like this, feel free to rewrite the content. 
+* '''Rewriting CC-BY-SA content''' While we have content on the site that is licensed under CC-BY-SA, ideally we would prefer to rewrite it so that it is more distributable and reusable. If you see articles licensed like this, feel free to rewrite the content.
+
+==The basics==
+===The technology===
+Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
+
+===The norms===
+The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
+
+===Flags and editorial notes===
+WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. [[link to flags]]
+
+==Contributing==
+
+Here are some references to help you:
+* [[WPD:Manual_Of_Style|Style Guide]]
+* [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
+* [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
+* [[WPD:Implementation_Patterns|Template and Form Implementation]]
+* [[WPD:FAQ|General FAQ]]
+
+Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
+
+ 
 
 ==Bugs!==
 
