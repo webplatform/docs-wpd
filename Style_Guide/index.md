@@ -1,5 +1,5 @@
 
-=Style guide=
+=WPD style guide=
 For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not should be tagged with the relevant banners, and may be deleted.
 
 <!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
