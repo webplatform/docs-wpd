@@ -95,7 +95,7 @@ Authors are encouraged to address accessibility, internationalization, privacy, 
 Examples help make APIs more concrete and easier to understand.
 
 ==Follow all best practices for sample code==
-It is particularly important that samples and example code follow best practices (for instance, accessibility best practices regarding the use of alt text for image tags within samples), because example code is often copied by developers.
+It is particularly important that samples and example code follow best practices (for instance, accessibility best practices regarding the use of alt text for image tags within samples), because example code is often copied by developers. Therefore, in particular, be sure that sample code does not create security vulnerabilities.
 
 ==Include citations and helpful links==
 Include references to applicable standards, test suites, implementation reports, and other useful resources.
