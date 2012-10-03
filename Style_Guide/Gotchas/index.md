@@ -11,7 +11,7 @@ The content you've entered in the '''Content''' text field contains a pipe chara
 
 A pipe character in a Semantic MediaWiki form gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit with Form''' (&action=formedit) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?).
 
-:'''Note:''' The pipe character works just fine in external links, like <nowiki>[http://somewhere.com</nowiki>'''&#124'''<nowiki>somewhere]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124'''<nowiki>parameter}}</nowiki>. 
+:'''Note:''' The pipe character works just fine in external links, like <nowiki>[http://somewhere.com</nowiki>'''&#124;'''<nowiki>somewhere]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. 
 
 '''What to do'''
 
