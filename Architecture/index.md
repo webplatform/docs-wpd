@@ -1,6 +1,8 @@
 {{Page_Title|Site architecture}}
 {{Summary_Section|Here we describe how the site content is organized so that you can find it by following the path in the URL.}}
 
+{{IRC}}
+
 * [[WPD:Architecture/Topics|Topics]]
 
 ==Site Structure==
