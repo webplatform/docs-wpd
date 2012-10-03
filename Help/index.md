@@ -1,4 +1,4 @@
-==Finding help==
+=Finding help=
 
 WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question.
 
