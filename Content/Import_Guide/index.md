@@ -4,7 +4,7 @@
 {{Basic Page}}
 This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.
 
-'''Note:''' if you are importing content from HTML5Rocks! see [[wiki/WPD:Content/Import_Guide/H5R|this guide]] for additional information.
+'''Note:''' if you are importing content from HTML5Rocks! see [[/H5R|this guide]] for additional information.
 
 == Preparation ==
 
