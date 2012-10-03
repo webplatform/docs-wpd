@@ -2,10 +2,10 @@ This document lists a small number of principles intended to guide the developme
 
 '''Note:''' This document draws from Wikipedia practices and the community is encouraged to continue to consider their best practices.
 
-==Three Pillars of the Web Developer Center==
-The web developer center is founded on three pillars:
+==Three Pillars of the WebPlatform Site==
+The web developer site is founded on three pillars:
 * '''[[#Pragmatism|Pragmatism]]:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
-* '''[[#Inclusion|Inclusion]]:''' Ensure the center is inclusive and accessible to all.
+* '''[[#Inclusion|Inclusion]]:''' Ensure the site is inclusive and accessible to all.
 * '''[[#Consensus|Consensus]]:''' Rely on consensus and good-faith collaboration to develop content and community practices.
 
 == Pragmatism ==
