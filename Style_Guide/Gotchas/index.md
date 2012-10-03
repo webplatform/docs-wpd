@@ -9,14 +9,15 @@ Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them
 
 The content you've entered in the '''Content''' text field contains a pipe character ('''<nowiki>|</nowiki>'''). When you click '''Save page''' all of the text including and following the pipe character disappears.
 
-A pipe character in a Semantic MediaWiki form gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit with Form''' (&action=formedit) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?).
+A pipe character in a Semantic MediaWiki form gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit''' (&action=formedit in the URL) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?).
 
 :'''Note:''' The pipe character works just fine in external links, like <nowiki>[http://somewhere.com</nowiki>'''&#124;'''<nowiki>somewhere]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. This is just a bug in the situations described below.
 
 '''What to do'''
 
 Yes, you can get your content back. It's still there. Deep breath.
-# In the URL for the page, replace '''&action=formedit''' with '''&action=edit'''.
+# From the '''Edit''' menu, select '''Edit Source'''.
+::Alternatively, in the URL for the page you can replace '''&action=formedit''' with '''&action=edit'''.
 # Find the offending pipe character, '''<nowiki>|</nowiki>'''.
 # Replace the pipe character with '''<nowiki>{{!}}</nowiki>''' or '''&amp;#124;'''.
 
