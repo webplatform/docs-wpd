@@ -64,7 +64,7 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 WPD uses the SyntaxHighlight GeSHi extension for syntax highlighting. You can find more detailed usage instructions at http://www.mediawiki.org/wiki/Syntaxhighlight. The following points should help you so what you need to do quickly, 90% of the time.
 
 # We don't want code terms inside paragraphs colored, just code blocks.
-# You have to enclose each code block in <syntaxhighlight lang="language"> … </syntaxhighlight>, where "language" is the type of language you are highlighting.
+# You have to enclose each code block in <code>&lt;syntaxhighlight lang="language"&gt; … &lt;/syntaxhighlight&gt;</code>, where "language" is the type of language you are highlighting.
 # The type of language has to be one of the supported languages (http://www.mediawiki.org/wiki/Syntaxhighlight#Supported_languages), so html5, css and javascript are the most common we'll use. Note that just "html" doesn't work. It has to be "html5" or "html4strict", afaics.
 # If your code block is inside <pre></pre> tags already, remove those - the SyntaxHighlight extension creates those for you.
 # If you are escaping things like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.
