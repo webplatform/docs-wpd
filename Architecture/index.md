@@ -211,7 +211,6 @@ These are types of reference pages we need for the site's information architectu
 ** for media queries, import rules, style declarations
 * [[WPD:Architecture/Event Reference|Event Reference]]
 * [[WPD:Architecture/Protocol Reference|Protocol Reference]]
-* [[WPD:Architecture/Guide|Guide]]
 * [[WPD:Architecture/Tutorial|Tutorial]]
 * [[WPD:Architecture/Media_Content|Media Content]]
 * [[WPD:Architecture/Glossary|Glossary]]
