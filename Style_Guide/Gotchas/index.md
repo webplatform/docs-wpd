@@ -89,6 +89,18 @@ The problem is that in the #if block, every pipe character the rendering engine 
 </syntaxhighlight>
 
 
+=Escaping characters=
+
+If you include certain characters in your article, like the pipe character, the Semantic MediaWiki will interpret these as part of the template processing instructions and the result is usually a break in the rendering at the point where the character appears. See [[#The_dreaded_pipe_character|The dreaded pipe character]] above. For these characters, use their HTML entity tags, shown in this table.
+  
+[working on it]
+
+=Unclosed brakets=
+
+When you include either curly or straight brackets in your article, the wiki will choke if you don't pair a left bracket with a matching right bracket. The form will stop rendering and you'll see an error message like this:
+
+[insert image here - working on it] 
+
 =Spaces in template calls=
 
 This applies only if you are editing the templates and forms used to build this wiki. MediaWiki is very weird about spaces. In particular, a line that starts with a single space is interpreted as a pre-formatted line of characters, and a group of such lines are then formatted as a <nowiki><pre></nowiki> block in the HTML output. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general '''do not use spaces''' around parameter values. Most of the times everything will work fine, but some times it will break without warning. See the [[Template:External_Attribution_Block|External Attribution Block template]] for an example.
