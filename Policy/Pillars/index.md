@@ -26,7 +26,7 @@ The web developer center is founded on three pillars:
 
 == Consensus ==
 * These principles are inspired by Wikipedia’s model, and are meant to change over time to best suit our community.
-* Collaborators will assume good faith on the part of other collaborators and treat others with respect.
+* Contributors will assume good faith on the part of other contributors and treat others with respect.
 * People will aim for consensus while remaining attentive to practical considerations.
 * People will be respectful of the content that comes before them.
 * No organization or its representatives, including members of the Stewardship Committee, will exert undue influence.
