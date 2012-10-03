@@ -63,11 +63,13 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 
 WPD uses the SyntaxHighlight GeSHi extension for syntax highlighting. You can find more detailed usage instructions at http://www.mediawiki.org/wiki/Syntaxhighlight. The following points should help you so what you need to do quickly, 90% of the time.
 
-# We don't want code terms inside paragraphs colored, just code blocks.
-# You have to enclose each code block in <code>&lt;syntaxhighlight lang="language"&gt; … &lt;/syntaxhighlight&gt;</code>, where "language" is the type of language you are highlighting.
-# The type of language has to be one of the supported languages (http://www.mediawiki.org/wiki/Syntaxhighlight#Supported_languages), so html5, css and javascript are the most common we'll use. Note that just "html" doesn't work. It has to be "html5" or "html4strict", afaics.
-# If your code block is inside <code>&lt;pre&gt;&lt;/pre&gt;</code> tags already, remove those - the SyntaxHighlight extension creates those for you.
-# If you are escaping things like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.
+<ol>
+<li><p>We don't want code terms inside paragraphs colored, just code blocks.</p></li>
+<li><p>You have to enclose each code block in <code>&lt;syntaxhighlight lang="language"&gt; ... &lt;/syntaxhighlight&gt;</code>, where "language" is the type of language you are highlighting.</p></li>
+<li><p>The type of language has to be one of the supported languages (http://www.mediawiki.org/wiki/Syntaxhighlight#Supported_languages), so <code>html5</code>, <code>css</code> and <code>javascript</code> are the most common we'll use. Note that just <code>html</code> doesn't work. It has to be <code>html5</code> or <code>html4strict</code>.</p></li>
+<li><p>If your code block is inside <code>&lt;pre&gt;&lt;/pre&gt;</code> tags already, remove those - the SyntaxHighlight extension creates those for you.</p></li>
+<li><p>If you are escaping things like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.</p></li>
+</ol>
 
 =Quality principles=
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
