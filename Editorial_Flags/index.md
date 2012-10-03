@@ -1,4 +1,4 @@
-==Flags and editorial notes==
+=Flags and editorial notes=
 
 WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. 
 
