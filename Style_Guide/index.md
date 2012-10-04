@@ -111,10 +111,10 @@ Different [[WPD:Manual Of Style/Article Types|types of articles]] have different
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
 
 ===Use accepted wikitext syntax conventions===
-WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax, which everyone should use when editing pages. For general coding guidelines, see:
+WebPlatform Docs uses Semantic MediaWiki&dash;the same one Wikipedia uses&mdash;as its underlying engine, and has adopted certain conventions in the syntax that you should use when editing pages. For general coding guidelines, see:
 *[http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wikipedia Cheatsheet] or
 *[http://en.wikipedia.org/wiki/Help:Wiki_markup full Wikipedia markup guide]
 
-For WPD coding In particular, see:
+For WPD coding issues in particular, see:
 * [[WPD:Manual_Of_Style/Tables|Tables]]
 * [[WPD:Manual_Of_Style/Gotchas|Common Gotchas for WPD editors]]
