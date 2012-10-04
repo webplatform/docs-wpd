@@ -43,31 +43,19 @@ The WPD community is guided by a series of foundational norms that we call the [
 ===Flags and editorial notes===
 WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. [[link to flags]]
 
-==Contributing==
+==References==
 
 Here are some references to help you:
+
 * [[WPD:Manual_Of_Style|Style Guide]]
 * [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
 * [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
 * [[WPD:Implementation_Patterns|Template and Form Implementation]]
 * [[WPD:FAQ|General FAQ]]
 
-Remember, if at any point you're unsure, ask the IRC channel or the e-mail list. We love helping new editors get the hang of things!
+Remember, if at any point you're unsure, ask the [[WPD:Help|IRC channel or the e-mail list]]. We love helping new editors get the hang of things!
 
- 
 
 ==Bugs!==
 
-===Functional bugs===
-
-If you find a bug on the site, please file a bug at [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Web Platform Docs Bugs]. We're using this bug tracker for two types of bugs:
-* Site functionality bugs - errors, UI issues.
-* Multiple page content problems - when an issue is related to entire groups of pages (otherwise, when an issue is related to a specific page, use the page flags).
-
-For more guidance about filing the types of bugs, see the [[WPD:Bugzilla_Guidelines|Bugzilla Guidelines]].
-
-===Content bugs===
-
-If you find that content in an article is wrong or missing, consider adding a comment directly on the wiki page. To add a comment, hover over the relevant heading and an "Add comment" element appears. Select it to add your comment in the dialog box.
-
-{{TODO | Fill in the more tactical guides for how to do some of the things on this list.}}
+See [[WPD:Filing|Filing bugs]]
