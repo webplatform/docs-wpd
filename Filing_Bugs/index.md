@@ -13,6 +13,6 @@ For more guidance about filing the types of bugs, see the [[WPD:Bugzilla_Guideli
 
 If you find that content in an article is wrong or missing, you have a few choices:
 
-* Fix it yourself. [[WPD:Getting Started|Learn how]] to contribute.
-* Add a comment. To add a comment, hover your mouse over the relevant section heading and click '''Add Comment'''.
-* Add a flag. Flags visually mark pages that are incomplete or incorrect. See [[WPD:Flags|Using Flags]] for details.
+* '''Fix it yourself'''. [[WPD:Getting Started|Learn how]] to contribute.
+* '''Add a comment'''. To add a comment, hover your mouse over the relevant section heading and click '''Add Comment'''.
+* '''Add a flag'''. Flags visually mark pages that are incomplete or incorrect. See [[WPD:Flags|Using Flags]] for details.
