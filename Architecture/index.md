@@ -44,7 +44,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 **** HTML / apis / methods / ''foo''
 *** HTML / apis / properties
 **** HTML / apis / properties / ''foo''
-** HTML / tutorials (a list of tutorials categorized as HTML)
+** HTML/tutorials (read-only) a list of tutorials categorized as HTML
 * [[CSS]]
 ** CSS  /  ''foo''
 ** CSS  / inheritance
