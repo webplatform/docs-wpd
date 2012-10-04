@@ -13,14 +13,14 @@ A couple of guidelines:
 *Do not use articles (the, a, an) in titles unless absolutely necessary.
 
 ==Article titles==
-In the "Custom page title" form field, enter a descriptive title if it's different from the URL (it probably should be). 
+In the "Custom page title" form field, enter a descriptive title if it's different from the URL (it probably will be). 
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
 Please follow the following title conventions for at least these specific article types:
 * '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
 ** Examples: "Using the <audio> tag", "Drawing on the canvas", "Interpreting getLocation() data" 
-* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and also for articles with concept, guide, background or overview content. 
+* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and also for articles with concept, guide, and overview content. 
 ** Examples: "<audio> tag attributes", "Valid .moveTo() values", "Latitude and longitude notation", "Introduction to Flexbox", "The history of the Web", "Information architecture basics"
 
 Use capitals sparingly. Capitalize only the first word ("sentence case"); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization for those. Some correct examples:
@@ -30,23 +30,19 @@ Use capitals sparingly. Capitalize only the first word ("sentence case"); howeve
 *Specifying fonts
 
 ==Section headings==
-
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
-
-=start here bubba=
 
 ==Grammar and spelling conventions==
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query.
 
 == Common usages ==
-
-* ''Internet'', not ''internet'', when used as a proper noun, e.g. '''The Internet'''. Otherwise, use lower case, e.g. '''Do you think internet marketing is a real degree?'''
-* ''Web'', not ''web'', when used as a proper noun, e.g. '''The Web'''. Otherwise, use lower case, e.g. '''I think CSS is a web-related topic'''
-* ''website'', not ''web site''
+* Use ''Internet'' when used as a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
+* Use ''Web'' when used as a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
+* Use ''website'', not ''web site''. Strictly speaking, it's an adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
 
 =Code syntax highlight coloring=
 
-WPD uses the SyntaxHighlight GeSHi extension for syntax highlighting. You can find more detailed usage instructions at http://www.mediawiki.org/wiki/Syntaxhighlight. The following points should help you so what you need to do quickly, 90% of the time.
+WPD uses the SyntaxHighlight GeSHi extension for syntax highlighting. You can find more detailed usage instructions at http://www.mediawiki.org/wiki/Syntaxhighlight. The following points should help you do what you need to do most of the time.
 
 <ol>
 <li><p>We don't want code terms inside paragraphs colored, just code blocks.</p></li>
