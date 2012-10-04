@@ -73,7 +73,7 @@ Content should include any new details that may be useful for web developers.
 Tags help users of the site find content that is relevant to them, which means that having comprehensive and complete tagging is important. This includes tags that clearly denote its standardization progress and implementation status.
 
 ===Include compatibility information===
-See [[Template:Style Compatibility Issue|Compatibility]] &lt;Sub-Page&gt; for a description of the best practices for formatting compatibility information.
+See [[Template:Style Compatibility Issue|Compatibility]] for a description of the best practices for formatting compatibility information.
 
 ===Complete documentation of API===
 API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in practice.
