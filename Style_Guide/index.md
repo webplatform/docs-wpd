@@ -43,7 +43,15 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 ==Code syntax highlight coloring==
 WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
-#Use &lt;syntaxhighlight&gt; only for standalone code blocks; for inline terms use the <code>&lt;code&gt;...&lt;/code&gt;</code> tag.
+*Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;...&lt;/code&gt;</code> tag.
+*Specify the language for each code block like this: <code>&lt;syntaxhighlight lang="language"&gt; ... &lt;/syntaxhighlight&gt;</code>. You can find a full list of supported languages in the Syntaxhighlight documentation [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight here]. 
+*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
+*Prefer <code>&lt;syntaxhighlight&gt;</code> tags to <code>&lt;pre&gt;&lt;/pre&gt;</code> tags, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
+*If you are escaping entities like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.
+
+
+
+
 
 <ol>
 <li><p>We don't want code terms inside paragraphs colored, just code blocks.</p></li>
