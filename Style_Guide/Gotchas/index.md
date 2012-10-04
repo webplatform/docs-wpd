@@ -105,7 +105,7 @@ When you include either curly or straight brackets in your article, the wiki wil
 
 [[File:open_bracket.png]]
 
-If the text incudes a single bracket that should not be paired, as when the text describes a bracket character as part of a code example, use an HTML entity instead of the keyboard character. See
+If the text incudes a single bracket that should not be paired, as when the text describes a bracket character as part of a code example, use an HTML entity instead of the keyboard character. See [[#Escaping_characters]] for more information.
 
 =Spaces in template calls=
 
