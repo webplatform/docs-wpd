@@ -1,6 +1,34 @@
 =Contributing content to WPD =
 
-All you need to do to start is get a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
+Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. We've created structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
+
+To get started you need a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
+
+== Creating a new page ==
+
+Great, you have an idea for a new page you want to create, and you've determined the page's canonical URL. The next step is to use the New Page form page to generate the actual page from the proper template.
+
+1. Go to the New Page form page, and locate the template for the type of content you want to create (for example, '''Tutorial''').
+2. Enter the canonical URL for the page you want to create. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''. For details on how to choose your page URL, see [[WPD:Architecture|the architecture page]].
+
+==Editing an existing page==
+
+==Content types and URLs==
+
+WPD supports three basic types of content:
+
+* Reference; 
+* Tutorials
+* Concepts
+
+Each of these types content types has a unique URL name space--that is, where the page "lives". Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
+
+http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_web
+
+http://docs.webplatform.org/wiki/tutorials/
+
+Identify the most specific form below that fits the type of content you'd like to create. The forms are listed in decreasing order of specificity.
+
 
 ==Tasks==
 
@@ -35,7 +63,6 @@ There are many ways to contribute that take varying amounts of time and expertis
 
 ==The basics==
 ===The technology===
-Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. These extensions allow us to create structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
 
 ===The norms===
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
