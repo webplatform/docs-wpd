@@ -6,15 +6,13 @@ To get started you need a username, verify your e-mail address, and you're set! 
 
 == Creating a new page ==
 
-Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Architecture|the architecture page]]. 
+Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Architecture|the architecture page]]. The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
 
-The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
+'''Steps for creating a new page'''
 
 # Go to the [[WPD:New_Page|New Page]] form page. This page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL, and a Create button.
 # Locate the form area for the type of content you want to create.
-# Type the URL for the new page in the text field, and click Create Page.
-
-For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
+# Type the URL for the new page in the text field, and click Create Page. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
 ==Editing an existing page==
 
