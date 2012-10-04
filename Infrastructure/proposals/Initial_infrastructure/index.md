@@ -107,6 +107,14 @@
 |-
 | 1
 | Ryan
+| Add nagios monitoring
+| complete
+| 2-4 hours
+| None
+| ?
+|-
+| 1
+| Ryan
 | Add database replication
 | complete
 | 1-2 hours
