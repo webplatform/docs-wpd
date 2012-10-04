@@ -6,7 +6,7 @@ WebPlatform Docs (WPD) is intended to be a repository of high quality, reliable,
 ==URLs==
 When creating an article from the [http://docs.webplatform.org/wiki/WPD:New_Page new page page], bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
 
-A couple of guidelines:
+A few guidelines:
 *Do not capitalize unless absolutely vital for syntax correctness. Thus, for an article about user media, you might enter "usermedia"; for an article specifically about the getUserMedia method, you might instead enter "getUserMedia".
 *Use blanks, not underscores, to separate words, as underscores are generated when the page is created. Thus for an article about the HTLM5 audio tag, you might enter "audio tag"; the generated URL would be "audio_tag".
 *Do not use other punctuation, such as dashes or parentheses, in a URL. Just don't.
@@ -23,14 +23,14 @@ Please follow the following title conventions for at least these specific articl
 * '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and also for articles with concept, guide, and overview content. 
 ** Examples: "<audio> tag attributes", "Valid .moveTo() values", "Latitude and longitude notation", "Introduction to Flexbox", "The history of the Web", "Information architecture basics"
 
-Use capitals sparingly. Capitalize only the first word ("sentence case"); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization for those. Some correct examples:
+Use capitals sparingly. Capitalize only the first word (sentence case); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization. Some correct examples:
 *Style manual
 *The CSS layout model
 *Unicode characters in JavaScript files
 *Specifying fonts
 
 ==Section headings==
-Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
+Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
 
 ==Grammar and spelling conventions==
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query.
