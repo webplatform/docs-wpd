@@ -30,7 +30,7 @@ To create tables, you have to avoid pipes completely. See [[WPD:Manual_Of_Style/
 
 ==Pre sections with pipe characters==
 
-It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine is supposed to ignore everything in a <nowiki><pre></nowiki> section and reproduces it as is.  But no.  For this you have to use the '''&amp;#124;'''  Here's an example:
+It's even worse to use pipes in an explicit <nowiki><pre></nowiki> section. The rendering engine is supposed to ignore everything in a <nowiki><pre></nowiki> section and reproduce it as is.  But no.  For this you have to use the '''&amp;#124;'''  Here's an example:
 
 <code>
 <nowiki>
