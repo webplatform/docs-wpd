@@ -15,7 +15,7 @@ A few guidelines:
 ==Article titles==
 In the "Custom page title" form field, enter a descriptive title if it's different from the URL (it probably will be). 
 
-For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Most content can be assigned one of three information types: '''task''', '''concept''', or '''reference'''. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
+For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
 Please follow the following title conventions for at least these specific article types:
 * '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
