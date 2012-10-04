@@ -10,19 +10,28 @@ Great, you have an idea for a new page you want to create, and you've determined
 
 '''Steps for creating a new page'''
 
-# Go to the [[WPD:New_Page|New Page]] form page. This page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL, and a Create button.
-# Locate the form area for the type of content you want to create.
+# Go to the [[WPD:New_Page|New Page]] form page. This page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL, and a Create button. Identify the most specific form below that fits the type of content you'd like to create. The forms are listed in decreasing order of specificity.
+
+# Locate the form for the type of content you want to create. The forms are listed in decreasing order of specificity (see [[Choosing a form for details]]).
+
 # Type the URL for the new page in the text field, and click Create Page. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
+
+=== Adding content to the page ===
+
+The following fields are 
+
 ==Editing an existing page==
+
+Editing an existing page is as easy as clicking the Edit button at the top of the page. 
 
 ==Content types and URLs==
 
 WPD supports three basic types of content:
 
-* Reference; 
-* Tutorials
-* Concepts
+* '''Reference material''' -- JavaScript APIs, HTML and CSS reference). 
+* '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
+* '''Concepts''' -- Provides an overview of a feature or API.
 
 Each of these types content types has a unique URL name space--that is, where the page "lives". Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
 
@@ -30,7 +39,6 @@ http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_we
 
 http://docs.webplatform.org/wiki/tutorials/
 
-Identify the most specific form below that fits the type of content you'd like to create. The forms are listed in decreasing order of specificity.
 
 
 ==Tasks==
