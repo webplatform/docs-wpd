@@ -1,4 +1,7 @@
 == Under Construction ==
+v2 - inline warning box, red
+[[File:under-construction2.png|Under Constructio]]
+v1 - slide down notification
 [[File:under-construction.png|Under Construction]]
 
 == Wiki Tools ==
