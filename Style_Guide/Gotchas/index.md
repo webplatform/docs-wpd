@@ -96,8 +96,6 @@ The problem is that in the #if block, every pipe character the rendering engine 
 =Escaping characters=
 
 If you include certain characters in your article, like the pipe character, the Semantic MediaWiki will interpret these as part of the template processing instructions and the result is usually a break in the rendering at the point where the character appears. See [[#The_dreaded_pipe_character|The dreaded pipe character]] above. For these characters, use their HTML entity tags, shown in this table.
-  
-Character Description HTML_Entity
 
 {| class="wikitable"
 |-
