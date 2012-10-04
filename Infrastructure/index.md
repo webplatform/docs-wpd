@@ -3,6 +3,7 @@
 * [[WPD:Infrastructure/Site_Map|Site Map]]
 * [[WPD:Infrastructure/Bugs|Bugs]]
 * [[WPD:Infrastructure/Deployment|Deployment]]
+* [[WPD:Infrastructure/Backup and Restore|Backup and Restore]]
 
 ==Site Structure==
 
