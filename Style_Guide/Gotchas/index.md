@@ -103,7 +103,9 @@ If you include certain characters in your article, like the pipe character, the 
 
 When you include either curly or straight brackets in your article, the wiki will choke if you don't pair a left bracket with a matching right bracket. The form will stop rendering and you'll see an error message like this:
 
-[insert image here - working on it] 
+[[File:open_bracke.png]]
+
+[insert image here - working on it]
 
 =Spaces in template calls=
 
