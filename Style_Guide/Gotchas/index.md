@@ -1,3 +1,4 @@
+{{Page_Title|Gotchas}
 Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them, and MediaWiki markup is no exception. This article lists those that we've discovered as we build this site and work with content. Wherever possible, a work-around is provided.
 
 =The dreaded pipe character=
@@ -90,7 +91,7 @@ The problem is that in the #if block, every pipe character the rendering engine 
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
-
+<br />
 
 =Escaping characters=
 
