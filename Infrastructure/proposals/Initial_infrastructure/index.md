@@ -98,6 +98,22 @@
 | Sep 28
 |-
 | 1
+| Ryan
+| Add ganglia monitoring
+| complete
+| 1-2 hours
+| None
+| Oct 1
+|-
+| 1
+| Ryan
+| Add database replication
+| complete
+| 1-2 hours
+| None
+| Oct 3
+|-
+| 1
 | Contractors
 | Import script (MSDN to Semantic MediaWiki)
 | in progress                                       
