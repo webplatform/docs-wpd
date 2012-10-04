@@ -35,6 +35,7 @@ Different flags have different guidelines for when they should be used, and for 
 * [[WPD:Flags/Needs_Topics|Needs_Topics]]
 * [[WPD:Flags/Missing_Relevant_Sections|Missing_Relevant_Sections]]
 * [[WPD:Flags/Data_Not_Semantic|Data_Not_Semantic]]
+* [[WPD:Flags/Unreviewed_Import|Unreviewed_Import]]
 
 ===Content quality (low-level)===
 * [[WPD:Flags/Content_Outdated|Content_Outdated]]
