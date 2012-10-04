@@ -11,7 +11,7 @@ The content you've entered in the '''Content''' text field contains a pipe chara
 
 A pipe character in a Semantic MediaWiki form gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit''' (&action=formedit in the URL) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?).
 
-:'''Note:''' The pipe character works just fine in external links, like <nowiki>[http://somewhere.com</nowiki>'''&#124;'''<nowiki>somewhere]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. This is just a bug in the situations described below.
+:'''Note:''' The pipe character works just fine in internal links, like <nowiki>[[WPD:Manual_of_style'''&#124;'''<nowiki>Manual of style]]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. This is just a bug in the situations described below.
 
 '''What to do'''
 
@@ -90,7 +90,6 @@ The problem is that in the #if block, every pipe character the rendering engine 
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
-
 
 =Escaping characters=
 
