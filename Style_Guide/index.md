@@ -43,8 +43,8 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 ==Code syntax highlighting==
 WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
-*Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;...&lt;/code&gt;</code> tag (as used in this list item).
-*Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt; ... &lt;/syntaxhighlight&gt;</code>. You can find a full list of supported languages in the Syntaxhighlight documentation [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight here]. 
+*Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
+*Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the Syntaxhighlight documentation [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight here]. 
 *<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
 *Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
 *There's no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
