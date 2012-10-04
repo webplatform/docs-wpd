@@ -11,15 +11,13 @@ Great, you have an idea for a new page you want to create, and you've determined
 '''Steps for creating a new page'''
 
 # Go to the [[WPD:New_Page|New Page]] form page. This page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL, and a Create button. Identify the most specific form below that fits the type of content you'd like to create. The forms are listed in decreasing order of specificity.
-
 # Locate the form for the type of content you want to create. The forms are listed in decreasing order of specificity (see [[Choosing a form for details]]).
-
 # Type the URL for the new page in the text field, and click Create Page. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
 
 === Adding content to the page ===
 
-The following fields are 
+The following fields are
 
 ==Editing an existing page==
 
