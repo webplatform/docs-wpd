@@ -44,22 +44,22 @@ We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styl
 WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
 *Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;...&lt;/code&gt;</code> tag.
-*Specify the language for each code block like this: <code>&lt;syntaxhighlight lang="language"&gt; ... &lt;/syntaxhighlight&gt;</code>. You can find a full list of supported languages in the Syntaxhighlight documentation [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight here]. 
-*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
-*Prefer <code>&lt;syntaxhighlight&gt;</code> tags to <code>&lt;pre&gt;&lt;/pre&gt;</code> tags, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
+*Specify the language for each code block like this: <code>&lt;syntaxhighlight lang="''language''"&gt; ... &lt;/syntaxhighlight&gt;</code>. You can find a full list of supported languages in the Syntaxhighlight documentation [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight here]. 
+*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
+*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
 *If you are escaping entities like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.
 
+=test blocks=
+<pre>
+this is a <b>bold</b> word
+</pre>
+
+<syntaxhighlight>
+this is a <b>bold</b> word
+</syntaxhighlight>
 
 
 
-
-<ol>
-<li><p>We don't want code terms inside paragraphs colored, just code blocks.</p></li>
-<li><p>You have to enclose each code block in <code>&lt;syntaxhighlight lang="language"&gt; ... &lt;/syntaxhighlight&gt;</code>, where "language" is the type of language you are highlighting.</p></li>
-<li><p>The type of language has to be one of the supported languages (http://www.mediawiki.org/wiki/Syntaxhighlight#Supported_languages), so <code>html5</code>, <code>css</code> and <code>javascript</code> are the most common we'll use. Note that just <code>html</code> doesn't work. It has to be <code>html5</code> or <code>html4strict</code>.</p></li>
-<li><p>If your code block is inside <code>&lt;pre&gt;&lt;/pre&gt;</code> tags already, remove those - the SyntaxHighlight extension creates those for you.</p></li>
-<li><p>If you are escaping things like angle brackets inside your code block, you'll need to put them back in as <, >, etc. Syntaxhighlight seems to escape them for you.</p></li>
-</ol>
 
 =Quality principles=
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
