@@ -35,14 +35,15 @@ Generally, follow the same guidelines as for article titles. Make your section h
 ==Grammar and spelling conventions==
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query.
 
-== Common usages ==
-* Use ''Internet'' when used as a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
-* Use ''Web'' when used as a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
-* Use ''website'', not ''web site''. Strictly speaking, it's an adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
+==Common terms==
+* Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
+* Use ''Web'' when it's a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
+* Use ''website'', not ''web site''. Strictly speaking, it's a two word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
 
-=Code syntax highlight coloring=
+==Code syntax highlight coloring==
+WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
-WPD uses the SyntaxHighlight GeSHi extension for syntax highlighting. You can find more detailed usage instructions at http://www.mediawiki.org/wiki/Syntaxhighlight. The following points should help you do what you need to do most of the time.
+#Use &lt;syntaxhighlight&gt; only for standalone code blocks; for inline terms use the <code>&lt;code&gt;...&lt;/code&gt;</code> tag.
 
 <ol>
 <li><p>We don't want code terms inside paragraphs colored, just code blocks.</p></li>
