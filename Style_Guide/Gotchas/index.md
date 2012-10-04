@@ -103,15 +103,15 @@ Character Description HTML_Entity
 |-
 ! Character !! Description !! HTML Entity
 |-
-| &#91; || Left square bracket || &amp#91;
+| &#91; || Left square bracket || &amp;#91;
 |-
-| &#93; || Right square bracket || &amp#93;
+| &#93; || Right square bracket || &amp;#93;
 |-
-| &#123; || Left curly bracket || &amp#123;
+| &#123; || Left curly bracket || &amp;#123;
 |-
-| &#125; || Right curly bracket || &amp#125;
+| &#125; || Right curly bracket || &amp;#125;
 |-
-| &#124; || Pipe || &amp#124;
+| &#124; || Pipe || &amp;#124;
 |}
 
 =Unclosed brackets=
