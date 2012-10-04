@@ -97,7 +97,22 @@ The problem is that in the #if block, every pipe character the rendering engine 
 
 If you include certain characters in your article, like the pipe character, the Semantic MediaWiki will interpret these as part of the template processing instructions and the result is usually a break in the rendering at the point where the character appears. See [[#The_dreaded_pipe_character|The dreaded pipe character]] above. For these characters, use their HTML entity tags, shown in this table.
   
-[working on it]
+Character Description HTML_Entity
+
+{| class="wikitable"
+|-
+! Character !! Description !! HTML Entity
+|-
+| &#91; || Left square bracket || &amp#91;
+|-
+| &#93; || Right square bracket || &amp#93;
+|-
+| &#123; || Left curly bracket || &amp#123;
+|-
+| &#125; || Right curly bracket || &amp#125;
+|-
+| &#124; || Pipe || &amp#124;
+|}
 
 =Unclosed brackets=
 
