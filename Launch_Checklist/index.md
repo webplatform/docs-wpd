@@ -4,7 +4,7 @@
 == Before: ==
 * Infra Team (Ryan, Markus, Robert, Doug), 6:30am PDT/9:30am EDT/13:30 UTC - Begin standby emergency availability and IRC monitoring
 * Doug, 6:30am PDT/9:30am EDT/13:30 UTC - Last system checks, enable the account creation infrastructure
-* Doug, 6:30am PDT/9:30am EDT/13:30 UTC - Move main [[Meta:Main_Page]] back to [[Main_Page]]
+* Doug, 6:30am PDT/9:30am EDT/13:30 UTC - Move [[Meta:Main_Page]] back to [[Main_Page]]
 * Content Team/Christos - Final content scrub
 
 == Launch: ==
