@@ -1,20 +1,18 @@
 ''Be sure to list who, when, and what for the checklist''
 
+'''All Times Pacific (PDT) unless otherwise noted'''
 == Before: ==
-* Infra Team, Midnight - Last system checks, enable the account creation infrastructure
+* Infra Team, 6:00am - Last system checks, enable the account creation infrastructure
 * Content Team/Christos - Final content scrub
-* Content Team/Doug - Move main interesting main_page content back to the main_page (currently in [[Meta:Main_Page]])
+* Content Team/Doug, 6:00am - Move main interesting main_page content back to the main_page (currently in [[Meta:Main_Page]])
 == Launch: ==
 
-* Marketing Team (who specifically?), 7:30am - Press Release sent
-* Ian, 7:30am - Publish home page news. That news will link to press release
-* Ian, 7:30am - Tweet news
-* ???, 7:30am - Wire Service?? (Not needed per war room meeting on 10/1)
+* Marketing Team (who specifically?), 8:30am - Press Release sent
+* Ian, 8:30am - Publish home page news. That news will link to press release
+* Ian, 8:30am - Tweet news
 
 == Immediately after launch: == 
 
-* Stewards, 7:30am - Stewards Blog Posts go out
-* Doug, 7:30am - Initial blog post on webplatform.org
+* Stewards, 8:30am - Stewards Blog Posts go out
+* Doug, 8:30am - Initial blog post on webplatform.org
 == After launch: ==
-
-* Lea, 8:15ish am - Mention at Fronteers Conference
