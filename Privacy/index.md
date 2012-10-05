@@ -18,7 +18,7 @@ of the site, maintaining session state, and enabling single-sign-on
 (SSO) for the different software installations among our subdomains,
 including the blog, forums, wiki, etc.
 
-We may link to or embed content such as video from other sites. Those
+Pages may link to or embed content such as video from other sites. Those
 resources are governed by the privacy policy of their originating site.
 
 Logged information may be kept indefinitely as administrative,
