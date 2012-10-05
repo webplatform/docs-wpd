@@ -4,7 +4,7 @@ Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) 
 
 To get started you need a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
 
-[[File:getting_started.png]]
+[[File:get_start.png]]
 
 == Creating a new page ==
 
