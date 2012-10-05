@@ -1,9 +1,9 @@
 == Privacy Policy for WebPlatform.org ==
 
 === Non-Logged-in Usage ===
-The following applies to non-logged-in interactions with the WebPlatform.org site:
+The following applies to non-logged-in interactions with the WebPlatform.org Web site:
 
-We use the [http://piwik.org/ Piwik] open-source site statistic software in a local installation, with recommended privacy settings enabled.
+We use the [http://piwik.org/ Piwik] open-source site statistics software in a local installation, with recommended privacy settings enabled.
 
 We make no effort to identify public users of our site. No
 identifying data is disclosed to any third party for any purpose. Data
@@ -26,7 +26,7 @@ diagnostic, and research material; it is not disclosed outside of host
 site personnel. Aggregate (non-identifying) statistics generated from
 these logs may be reported publicly as part of research results.
 
-If you set the Do-Not-Track header, [(link to future article on DNT in WPD) Do-Not-Track] header, which is an option in the preferences of many browsers, we do not collect any information about your visit, other than the fact that a particular page was visited.
+If you set the Do-Not-Track header, which is an option in the preferences of many browsers, we do not collect any information about your visit, other than the fact that a particular page was visited.
 
 === Logged-in Usage: ===
 
@@ -43,6 +43,10 @@ attribution, per our license policy.
 You may request that your username be changed, though we will ask for a
 rationale, in order to limit the number of requests; we will try to
 respond to reasonable requests for username change, but offer no guarantee.
+
+=== Mailing Lists ===
+
+Mailing lists associated with WebPlatform.org are publicly archived. On your first submission to one of these lists, you will be asked to [http://www.w3.org/2002/09/aa/ approve the public posting] of your message. We [http://www.w3.org/Mail/ArchiveEditingPolicy do not remove] postings from archived lists.
 
 === Law enforcement and other compelled disclosures: ===
 
