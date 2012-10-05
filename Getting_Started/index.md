@@ -1,8 +1,10 @@
 =Contributing content to WPD =
 
-Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. We've created structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
+Anyone can contribute to WPD. To get started, you'll first need to [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup register] and verify your email address.
 
-To get started you need a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
+There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
+
+The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
 
 [[File:get_start.png]]
 
@@ -13,16 +15,23 @@ Great, you have an idea for a new page you want to create, and you've determined
 '''Steps for creating a new page'''
 
 # Go to the [[WPD:New_Page|New Page]] page. 
-# Based on the type of content you are creating, identify the form for the type of content you want to create. The forms are listed in decreasing order of specificity (see [[#About_content templates]]).
-# Type the URL for the new page in the text field, and click Create Page. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
+# On that page identify the form to create the proper template (see [[#About_content templates]]).
+# In the form's text field enter the URL for the new page in the text field, and click Create Page. 
 
-=== About content templates ===
+For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
-The New Page page contains a form for each type of content on the site. Each form consists of a text field where you enter the new page's URL and a button to create a page with that URL. 
+=== Choosing a content template===
 
-The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. 
+The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's partial URL and a button to create a page with that URL.
 
-=== Adding content to the page ===
+Having unique template types allows us to query and aggregate content.
+
+The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
+
+====JavaScript APIs====
+
+Each 
+
 
 
 
@@ -44,9 +53,7 @@ http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_we
 
 http://docs.webplatform.org/wiki/tutorials/
 
-
-
-==How can I help?==
+==Types of tasks==
 
 There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
 
