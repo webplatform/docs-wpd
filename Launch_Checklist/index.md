@@ -19,3 +19,4 @@
 * Doug, 8:30am PDT/11:30 EDT/15:30 UTC - Initial blog post on webplatform.org
 
 == After launch: ==
+* Infra Team (Ryan, Markus, Robert, Doug), 10:30am PDT/1:30pm EDT/17:30 UTC - End formal standby emergency availability and IRC monitoring.  Switch to on-call emergency handling.
