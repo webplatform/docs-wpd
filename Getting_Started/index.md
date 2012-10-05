@@ -13,7 +13,7 @@ Great, you have an idea for a new page you want to create, and you've determined
 '''Steps for creating a new page'''
 
 # Go to the [[WPD:New_Page|New Page]] page. 
-# Based on the type of content you are creating, identify the form for the type of content you want to create. The forms are listed in decreasing order of specificity (see [[About_content templates]]).
+# Based on the type of content you are creating, identify the form for the type of content you want to create. The forms are listed in decreasing order of specificity (see [[#About_content templates]]).
 # Type the URL for the new page in the text field, and click Create Page. For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
 === About content templates ===
