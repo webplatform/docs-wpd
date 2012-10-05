@@ -1,5 +1,7 @@
 =Contributing content to WPD =
 
+[[File:get_start.png]]
+
 Web Platform Docs is built on MediaWiki (the same system Wikipedia is built on) and the Semantic Media Wiki and Semantic Forms extensions. We've created structured forms for most pages, so making substantive contributions to pages is often as simple as filling in a form field. This means that you don't have to learn MediaWiki's somewhat arcane syntax to be helpful. Editing a page is as simple as hitting the '''Edit''' button at the top of any page and adding content.
 
 To get started you need a username, verify your e-mail address, and you're set! To get a username, click '''Login''' on any page and follow the instructions to create an account. The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask]]!
