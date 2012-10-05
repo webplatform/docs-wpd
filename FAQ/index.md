@@ -23,7 +23,7 @@ Web Platform Docs uses MediaWiki (which also powers Wikipedia) to run. It uses t
 Web Platform Docs is a sub-component of the larger webplatform.org site, and is focused specifically on high-quality documentation for the Open Web Platform. Over time, webplatform.org will grow to encompass additional functionality.
 
 ===What will happen to existing documentation sites?===
-In the short term, stewards with existing developer documentation sites will add new content, both to Web Platform Docs and to their existing site. As Web Platform Docs matures and supports all the features needed by individual stewards, it will emerge as the authoritative and comprehensive web site for web developer documentation.
+In the short term, stewards with existing developer documentation sites will each make their own determination about managing content in both places. As Web Platform Docs matures and supports all the features needed by individual stewards, the stewards intend for it to gain acceptance as the authoritative and comprehensive web site for web developer documentation. As that happens, stewards may choose to place priority on Web Platform Docs content.
 
 ===Where does the content come from?===
 The initial group of stewards has already provided thousands of web documentation articles to Web Platform Docs. As the community around the site grows, we expect the content developed by the community and hosted on the site to grow substantially.
