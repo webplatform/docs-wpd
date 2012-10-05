@@ -15,6 +15,7 @@
 
 == Immediately after launch: == 
 
-* Stewards, 8:30am - Stewards Blog Posts go out
-* Doug, 8:30am - Initial blog post on webplatform.org
+* Stewards, 8:30am PDT/11:30 EDT/15:30 UTC - Stewards Blog Posts go out
+* Doug, 8:30am PDT/11:30 EDT/15:30 UTC - Initial blog post on webplatform.org
+
 == After launch: ==
