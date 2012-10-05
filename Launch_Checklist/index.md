@@ -9,9 +9,9 @@
 
 == Launch: ==
 
-* Marketing Team (who specifically?), 8:30am - Press Release sent
-* Ian, 8:30am - Publish home page news. That news will link to press release
-* Ian, 8:30am - Tweet news
+* Marketing Team (who specifically?), 8:30am PDT/11:30 EDT/15:30 UTC - Press Release sent
+* Ian, 8:30am PDT/11:30 EDT/15:30 UTC - Publish home page news. That news will link to press release
+* Ian, 8:30am PDT/11:30 EDT/15:30 UTC - Tweet news
 
 == Immediately after launch: == 
 
