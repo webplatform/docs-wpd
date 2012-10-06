@@ -13,25 +13,22 @@ Great, you have an idea for a new page you want to create, and you've determined
 '''Steps for creating a new page'''
 
 # Go to the [[WPD:New_Page|New Page]] page. 
-# On that page identify the form to create the proper template (see [[#About_content templates]]).
+# On that page identify the form to create the proper template (see [[#Choosing a content template]]).
 # In the form's text field enter the URL for the new page in the text field, and click Create Page. 
 
 For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
 
 === Choosing a content template===
 
-The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's partial URL and a button to create a page with that URL.
+The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL and a button to create the page.
 
-Having unique template types allows us to query and aggregate content.
+* If you are creating a tutorial, use the [[WPD:New_Page#Tutorial|Tutorial template]].
+* If you want to describe a concept or feature, use the [[WPD:New_Page#Concept|Concept template]].
+* If you are creating a reference page, the template you select is determined by the kind of API you are documenting.
+** 
+** 
 
 The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
-
-====JavaScript APIs====
-
-Each 
-
-
-
 
 ==Editing an existing page==
 
