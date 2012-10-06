@@ -62,6 +62,7 @@ There are many ways to contribute that take varying amounts of time and expertis
 * '''Fixing broken links''' Broken links are fairly easy to spot on WPD - they should be highlighted in a [[albatross/my broken link example|bold red colour]]. Please repair any you find, or at least check the '''Broken Links''' flag.
 * '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
 * '''Add the correct code syntax coloring to code blocks''' See [[WPD:Style_Manual#Code_syntax_highlight_coloring|our code coloring guide]] for details of how.
+* '''Watch Recent Changes for improper changes''' It always helps to have someone keeping an eye on the [[Special:RecentChanges|Recent Changes]] list to help find cases where new editors might need a bit of guidance to contribute productively and according to the norms of the community.
 
 ===Half-hour tasks===
 * '''New examples''' It is always useful to add more examples to illustrate techniques or show good use of technologies. Look for articles where the examples are thin on the group.
