@@ -18,6 +18,7 @@ Currently, only registered account holders can view pages on the wiki.
 * [[Special:ConfirmAccounts|Confirm Accounts]] allows ''bureaucrats'' to approve requested accounts
 
 ==Content Management==
+* [[Special:ReplaceText]] allows admins to search and replace across multiple pages on the wiki using regular expressions. See [http://www.mediawiki.org/wiki/Extension:Replace_Text#Usage usage instructions] for more details.
 * [[Special:Nuke|Nuke]] allows admins to mass delete all edits by a particular user, IP address, etc.
 ** [[Special:Log/delete|Log/delete]] shows all pages which have been deleted
 
