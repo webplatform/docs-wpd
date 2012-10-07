@@ -1,16 +1,16 @@
 ==Copyrights==
 
-Material on the Web Platform Docs site is meant for public use. Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)]. That means you are free to share and remix, with attribution to the source.  To attribute Web Platform Docs content, include a link such as "derived from material on <a href="http://docs.webplatform.org/">Web Platform Docs</a>" and a link to the specific page. 
+Material on the WebPlatform.org site is meant for public use. Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)]. That means you are free to share and remix, with attribution to the source.  To attribute WebPlatform.org  content, include a link such as "derived from material on <a href="http://docs.webplatform.org/">WebPlatform.org </a>" and a link to the specific page. 
 
-Some material on the site comes from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. In that case, Web Platform Docs maintains the share-alike term, meaning that you may use the material under the same terms: "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." That content is identified by notes at the bottom of the page.
+Some material on the site comes from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. In that case, WebPlatform.org maintains the share-alike term, meaning that you may use the material under the same terms: "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." That content is identified by notes at the bottom of the page.
 
 ==Contributing==
 
-When you register to edit Web Platform Docs, you agree to the [http://docs.webplatform.org/wiki/MediaWiki:Site-terms-of-service Web Platform Documentation Site Contributor Agreement], agreeing to post only material you own or have rights to post and share. Material you contribute will be licensed CC-BY for others to use and remix.
+When you register to edit at WebPlatform.org, you agree to the [http://docs.webplatform.org/wiki/MediaWiki:Site-terms-of-service Web Platform Documentation Site Contributor Agreement], agreeing to post only material you own or have rights to post and share. Material you contribute will be licensed CC-BY for others to use and remix.
 
 ==Reporting Copyright Infringement==
 
-If you are or represent a copyright owner and material on Web Platform Docs infringes your copyrights, you may file a notification of claimed infringement under the Digital Millennium Copyright Act (DMCA). 
+If you are or represent a copyright owner and material on WebPlatform.org infringes your copyrights, you may file a notification of claimed infringement under the Digital Millennium Copyright Act (DMCA). 
 
 A notification of claimed infringement must be a written communication that includes:
 
