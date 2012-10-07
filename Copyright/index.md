@@ -2,7 +2,7 @@
 
 Material on the Web Platform Docs site is meant for public use. Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)]. That means you are free to share and remix, with attribution to the source.  To attribute Web Platform Docs content, include a link such as "derived from material on <a href="http://docs.webplatform.org/">Web Platform Docs</a>" and a link to the specific page. 
 
-Some material on the site comes from other sources that have made it available under a share-alike license. In that case, Web Platform Docs maintains the share-alike term, meaning that you may use the material under the same terms: "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." That content is identified @@how?@@.
+Some material on the site comes from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. In that case, Web Platform Docs maintains the share-alike term, meaning that you may use the material under the same terms: "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." That content is identified by notes at the bottom of the page.
 
 ==Contributing==
 
