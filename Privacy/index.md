@@ -31,18 +31,16 @@ If you set the Do-Not-Track header, which is an option in the preferences of man
 === Logged-in Usage: ===
 
 When you create a user account, you are asked for a username, email, and
-optional real name. This information is stored in the database and displayed on your public profile page; your email is not displayed publicly unless you choose to do so. Any additional information you provide on your profile page, such as a photo, links to your sites, and so on, is also displayed publicly.
+optional real name. This information is stored in the database and displayed on your public profile page; your email is not displayed publicly unless you choose to do so. Any additional information you provide on your profile page, such as a photo, links to your sites, and other text, is also displayed publicly.
 
 Your username will be publicly associated with all edits you make to pages and visible in page "history."
 
-You may delete your account at any time, and we will make reasonable
-efforts to remove personally identifying information
-about you from our site, other than your username, which is needed for
-attribution, per our license policy.
+You may delete your account at any time. At your request, we will make reasonable
+efforts to remove personally identifying information about you from our site, other than your username, which is needed for attribution, per our license policy.
 
 You may request that your username be changed, though we will ask for a
 rationale, in order to limit the number of requests; we will try to
-respond to reasonable requests for username change, but offer no guarantee.
+respond to reasonable requests for username change, but offer no guarantees.
 
 === Mailing Lists ===
 
