@@ -58,6 +58,8 @@ Each of these content types has a unique URL name space--that is, where the page
 
 An article's URL generally follows the established architecture.
 
+===Style Guide===
+
 == Creating a new page ==
 
 Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Architecture|the architecture page]]. The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
