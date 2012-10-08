@@ -7,49 +7,6 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 [[File:get_start.png]]
 </div>
 
-== Creating a new page ==
-
-Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Architecture|the architecture page]]. The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
-
-'''Steps for creating a new page'''
-
-# Go to the [[WPD:New_Page|New Page]] page. 
-# On that page identify the form to create the proper template (see [[#Choosing a content template]]).
-# In the form's text field enter the URL for the new page in the text field, and click Create Page. 
-
-For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (you would type in '''tutorials/racing game''': the Wiki creates the underscores for you. Please do not use hyphens in urls unless grammatically appropriate, and use all lower case.).
-
-=== Choosing a content template===
-
-The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL and a button to create the page.
-
-* If you are creating a tutorial, use the [[WPD:New_Page#Tutorial|Tutorial template]].
-* If you want to describe a concept or feature, use the [[WPD:New_Page#Concept|Concept template]].
-* If you are creating a reference page, the template you select is determined by the kind of API/feature you are documenting, for example
-** [[WPD:New_Page#API_Object_Method|API Object Method]] for a method of an API/Object.
-** [[WPD:New_Page#CSS_Property|CSS Property]] for a CSS property.
-** etc.
-
-The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
-
-==Editing an existing page==
-
-Editing an existing page is as easy as clicking the Edit button at the top of the page. 
-
-==Content types and URLs==
-
-WPD supports three basic types of content:
-
-* '''Reference material''' -- JavaScript APIs, HTML and CSS reference). 
-* '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
-* '''Concepts''' -- Provides an overview of a feature or API.
-
-Each of these types content types has a unique URL name space--that is, where the page "lives". Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
-
-http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_web
-
-http://docs.webplatform.org/wiki/tutorials/
-
 ==Types of tasks==
 
 There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
@@ -82,6 +39,47 @@ There are many ways to contribute that take varying amounts of time and expertis
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways — use any of the methods documented on our [[WPD:Help|Help page]].
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
 * '''Rewriting CC-BY-SA content''' While we have content on the site that is licensed under CC-BY-SA, ideally we would prefer to rewrite it so that it is more distributable and reusable. If you see articles licensed like this, feel free to rewrite the content.
+
+==Editing an existing page==
+
+Editing an existing page is as easy as clicking the Edit button at the top of the page. 
+
+==Content types and URLs==WPD supports three basic types of content:
+
+* '''Reference material''' -- JavaScript APIs, HTML and CSS reference). 
+* '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
+* '''Concepts''' -- Provides an overview of a feature or API.
+
+Each of these types content types has a unique URL name space--that is, where the page "lives". Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
+
+http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_web
+
+http://docs.webplatform.org/wiki/tutorials/
+
+== Creating a new page ==
+
+Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Architecture|the architecture page]]. The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
+
+'''Steps for creating a new page'''
+
+# Go to the [[WPD:New_Page|New Page]] page. 
+# On that page identify the form to create the proper template (see [[#Choosing a content template]]).
+# In the form's text field enter the URL for the new page in the text field, and click Create Page. 
+
+For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (you would type in '''tutorials/racing game''': the Wiki creates the underscores for you. Please do not use hyphens in urls unless grammatically appropriate, and use all lower case.).
+
+=== Choosing a content template===
+
+The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL and a button to create the page.
+
+* If you are creating a tutorial, use the [[WPD:New_Page#Tutorial|Tutorial template]].
+* If you want to describe a concept or feature, use the [[WPD:New_Page#Concept|Concept template]].
+* If you are creating a reference page, the template you select is determined by the kind of API/feature you are documenting, for example
+** [[WPD:New_Page#API_Object_Method|API Object Method]] for a method of an API/Object.
+** [[WPD:New_Page#CSS_Property|CSS Property]] for a CSS property.
+** etc.
+
+The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
 
 ==The basics==
 ===The technology===
