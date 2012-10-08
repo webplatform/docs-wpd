@@ -18,6 +18,7 @@ To file a bug against WPD, or any other part of webplatform.org, you need to use
 
 * First of all, you need to make sure you have an account. If not, go to the [https://www.w3.org/Bugs/Public/createaccount.cgi Create a new Bugzilla account] page, and follow the steps there.
 * Next, make sure you are logged into the site.
+* Make sure tat this bug hasn't been filed already — go to the [https://www.w3.org/Bugs/Public/query.cgi Bugzilla search] page, set the product to '''webplatform.org''', and enter keywords to search for the bug. 
 * Now go to the [https://www.w3.org/Bugs/Public/enter_bug.cgi Enter bug] page.
 * Choose the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org webplatform.org] link.
 * There are a number of options here, for example you can set a severity rating, add an attachment, or specify the hardware/OS you are using; the most important ones for you to fill in are as follows:
