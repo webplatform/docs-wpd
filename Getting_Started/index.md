@@ -42,13 +42,13 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 ==Editing an existing page==
 
-Editing an existing page is as easy as clicking the Edit button at the top of the page. 
+Editing an existing page is as easy as clicking the Edit button at the top of the page. Be sure you're familiar with the 
 
 ===Content types===
 
 WPD supports three basic types of content:
 
-* '''Reference material''' -- JavaScript APIs, HTML and CSS reference. 
+* '''Reference material''' -- A concise description of an entity and its components; for example, JavaScript APIs, HTML and CSS reference. 
 * '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
 * '''Concepts''' -- Provides an overview of a feature or API.
 
@@ -56,9 +56,11 @@ Each of these content types has a unique URL name space--that is, where the page
 
 ===Architecture===
 
-An article's URL generally follows the established architecture.
+For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Architecture|architecture]] of this site.
 
 ===Style Guide===
+
+The [[WPD:Manual_Of_Style|style manual]] for this site describes the conventions we have adopted for things like capitalization, title and section headings. Please be familiar with these conventions as you edit site content.
 
 == Creating a new page ==
 
