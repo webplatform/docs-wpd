@@ -20,3 +20,4 @@
 
 == After launch: ==
 * Infra Team (Ryan, Markus, Robert, Doug), 10:30am PDT/1:30pm EDT/17:30 UTC - End formal standby emergency availability and IRC monitoring.  Switch to on-call emergency handling.
+* Doug, as appropriate - Follow-on Tweets
