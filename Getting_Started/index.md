@@ -25,9 +25,10 @@ The [[WPD:New_Page|New Page]] page contains a form for each type of content you 
 
 * If you are creating a tutorial, use the [[WPD:New_Page#Tutorial|Tutorial template]].
 * If you want to describe a concept or feature, use the [[WPD:New_Page#Concept|Concept template]].
-* If you are creating a reference page, the template you select is determined by the kind of API you are documenting, for example
-** [[WPD:New_Page#API_Object_Method|API Object Method]]
-** 
+* If you are creating a reference page, the template you select is determined by the kind of API/feature you are documenting, for example
+** [[WPD:New_Page#API_Object_Method|API Object Method]] for a method of an API/Object.
+** [[WPD:New_Page#CSS_Property|CSS Property]] for a CSS property.
+** etc.
 
 The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
 
