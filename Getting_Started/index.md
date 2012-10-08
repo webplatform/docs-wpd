@@ -7,9 +7,9 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 [[File:get_start.png]]
 </div>
 
-==Types of tasks==
+==Tasks==
 
-There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
+Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
 
 ===5-minute tasks===
 
