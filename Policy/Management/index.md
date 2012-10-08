@@ -43,7 +43,7 @@ The tagging system will also support a smart referencing system to make it easie
 
 ==Contributions and Attribution==
 
-* Contributors agree that content they contribute will have the copyright assigned to W3C, to be made public under the appropriate open license; initially, prose content and references will be licensed under CC-BY, and code examples will be made public domain under CC-0. Special dispensation may be made on a case-by-case basis for open content for which copyright assignment does not exist.
+* Contributors agree to license content they contribute, to be shared under the appropriate open license; initially, prose content and references will be licensed under CC-BY, and code examples will be made public domain under CC-0. Special dispensation may be made on a case-by-case basis for open content for which copyright assignment does not exist.
 * People must have an account to edit the site, and must be logged in to do so.
 * Contributors must cite sources when including content from other sites and must abide by copyrights and licenses for such content. Content whose inclusion violates anyone’s intellectual property rights will be removed. 
 * The community will develop good practices for recognizing significant contributions. Initially, we expect a manually-created list of contributors.
