@@ -24,7 +24,7 @@ But if you would like to support the project, [[become a sponsor]] or [[donate]]
 
 ===What about example code?===
 
-Example code is available under the Creative Commons [http://creativecommons.org/publicdomain/zero/1.0/ CC0 Public Domain Dedication].  This license was chosen for clarity and for maximum compatibility with other software licenses.  For more details, see the [http://wiki.creativecommons.org/CC0_FAQ#May_I_apply_CC0_to_computer_software.3F_If_so.2C_is_there_a_recommended_implementation.3F CC0 FAQ].  Please note that the CC0 license does not confer patent licensing, but the [[Contributor Agreement]] warns contributors against including code encumbered by patents.
+Example code is in the public domain, made available with the Creative Commons [http://creativecommons.org/publicdomain/zero/1.0/ CC0 Public Domain Dedication].  This grant was chosen for clarity and for maximum compatibility with other software licenses.  For more details, see the [http://wiki.creativecommons.org/CC0_FAQ#May_I_apply_CC0_to_computer_software.3F_If_so.2C_is_there_a_recommended_implementation.3F CC0 FAQ].  Please note that CC0 does not confer patent licensing.
 
 There may be additional code, such as Javascript polyfills or other script libraries, which is also free for use; where these script libraries use a different software license, they will be clearly marked.
 
