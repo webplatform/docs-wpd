@@ -42,8 +42,6 @@ The licensing was chosen carefully to provide incentive to contributors while st
 
 The license may change to reflect the best legal expression of the goal of the project to make the content openly and widely available.  For example, if Creative Commons issues an updated version of the CC-BY license, this project will likely adopt it.
 
-This is one of the reasons that contributors are asked to grant copyright assignment, rather than simply making their content available under CC-BY, so that the WebPlatform project can adapt its license to meet future conditions.
-
 ===What do you mean by "Attribution"?===
 
 We want you to attribute WebPlatform and its contributors, i.e. you show users and viewers of whatever you do with our content clearly where you got the data from. 
