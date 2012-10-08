@@ -30,3 +30,10 @@ The initial group of stewards has already provided thousands of web documentatio
 
 ===How does this site differ from existing sites?===
 Web Platform Docs is an effort to create a single authoritative and comprehensive site for web developer documentation, supported by leading technology companies, convened by W3C, and managed and driven by the web community at large. As such it is very different from vendor-specific sites that tend to mostly cover the implementation of web technologies on that vendor’s operating system, browser, or devices. Other sites strive to collect information about multiple browsers by having individuals or groups test compatibility. Web Platform Docs provides a single place for browser makers to contribute this type of information directly, so that energy and effort can be freed for helping Web developers in other ways.
+
+===Why/how did you choose the browsers listed in the browser compatibility tables?===
+
+There are so many browsers available that we could have listed in our browser compatibility tables, but we had to narrow down the list. We couldn't possibly list them all and hope to keep the information up to date and error free. Some browsers are big in certain countries/locales but not so useful form a worldwide point of view. And functionality to allow people to enter new browser support info into the tables would have been complicated and error-prone (we did look into this).
+
+We chose our final list based on the browsers we thought would be the most common options developers worldwide would want to know about/test against. Bear in mind that webplatform.org does not specialize in testing/compatibility. There are specialized websites such as caniuse.com, and http://mobilehtml5.org/ that specialize in such data.
+http://www.quirksmode.org/mobile/.
