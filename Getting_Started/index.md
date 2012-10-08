@@ -33,7 +33,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 * '''Clean up imported content''' Some content that came from other sources originally needs help to clean it up, ensure it is complete, make sure it is associated with the correct other pages when applicable, and generally bring it up to snuff. You can find out more specifics by reading about the [[WPD:Flags/Unreviewed_Import|Unreviewed Import]] flag.
 
 ===Half-day tasks===
-* '''Merge articles''' Some articles are marked with the '''Merge candidate'' flag, meaning that they should be merged with other articles, perhaps because they duplicate information, or because they would work better as single entity.
+* '''Merge articles''' Some articles are marked with the ''Merge candidate'' flag, meaning that they should be merged with other articles, perhaps because they duplicate information, or because they would work better as single entity.
 * '''Split articles''' - this is the same as above, except in the opposite direction.
 * '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. If you are not sure if something needs to be written, ask about it first, any of the methods documented on our [[WPD:Help|Help page]]. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways — use any of the methods documented on our [[WPD:Help|Help page]].
