@@ -44,7 +44,9 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 Editing an existing page is as easy as clicking the Edit button at the top of the page. 
 
-==Content types and URLs==WPD supports three basic types of content:
+==Content types and URLs==
+
+WPD supports three basic types of content:
 
 * '''Reference material''' -- JavaScript APIs, HTML and CSS reference). 
 * '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
