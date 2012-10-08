@@ -52,7 +52,7 @@ WPD supports three basic types of content:
 * '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
 * '''Concepts''' -- Provides an overview of a feature or API.
 
-Each of these types content types has a unique URL name space--that is, where the page "lives". The URL generally follows the logical organization of the feature. For example [css/selectors/outline-style].
+Each of these types content types has a unique URL name space--that is, where the page "lives". The URL generally follows the logical organization of the feature. For example [[css/selectors/outline-style]].
 
 
 Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
