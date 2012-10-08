@@ -42,7 +42,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 ==Editing an existing page==
 
-Editing an existing page is as easy as clicking the Edit button at the top of the page. Be sure you're familiar with the 
+Editing an existing page is as easy as clicking the Edit button at the top of the page. Be sure you're familiar with the content types, architecture, and style guide before editing existing content or creating new content.
 
 ===Content types===
 
@@ -58,9 +58,9 @@ Each of these content types has a unique URL name space--that is, where the page
 
 For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Architecture|architecture]] of this site.
 
-===Style Guide===
+===Style guide===
 
-The [[WPD:Manual_Of_Style|style manual]] for this site describes the conventions we have adopted for things like capitalization, title and section headings. Please be familiar with these conventions as you edit site content.
+The [[WPD:Manual_Of_Style|style guide]] for this site describes the conventions we have adopted for things like capitalization, title and section headings. Please be familiar with these conventions as you edit site content.
 
 == Creating a new page ==
 
