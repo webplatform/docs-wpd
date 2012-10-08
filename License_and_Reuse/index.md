@@ -78,4 +78,4 @@ In addition, we encourage specificity in your attribution.  If you quote an arti
 
 ===Acknowledgments===
 
-WebPlatform.org thanks [http://creativecommons.org/ Creative Commons] for developing the licenses, Wikipedia for proving a model of large-scale community collaboration on reference content and developing the Mediawiki software, and [http://www.osmfoundation.org/wiki/License OpenStreetMap] for inspiring our license decisions.
+WebPlatform.org thanks [http://creativecommons.org/ Creative Commons] for developing the licenses, Wikipedia for proving a model of large-scale community collaboration on reference content and developing the Mediawiki software, and [http://www.osmfoundation.org/wiki/License OpenStreetMap] for inspiring this FAQ.
