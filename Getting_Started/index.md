@@ -108,4 +108,4 @@ Remember, if at any point you're unsure, ask the [[WPD:Help|IRC channel or the e
 
 ==Bugs!==
 
-See [[WPD:Filing|Filing bugs]]
+See [[WPD:Filing Bugs|Filing bugs]]
