@@ -20,7 +20,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 * '''Setting appropriate flags''' If you press the edit button at the top of an article, you can check the different flag checkboxes at the top of the edit form to indicate what tasks need to be done on that article.
 * '''Fixing broken links''' Broken links are fairly easy to spot on WPD - they should be highlighted in a [[albatross/my broken link example|bold red colour]]. Please repair any you find, or at least check the '''Broken Links''' flag.
 * '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
-* '''Add the correct code syntax coloring to code blocks''' See [[WPD:Style_Manual#Code_syntax_highlight_coloring|our code coloring guide]] for details of how.
+* '''Add the correct code syntax coloring to code blocks''' See [[WPD:Style_Manual#Code_syntax_highlighting|our code coloring guide]] for details of how.
 * '''Watch Recent Changes for improper changes''' It always helps to have someone keeping an eye on the [[Special:RecentChanges|Recent Changes]] list to help find cases where new editors might need a bit of guidance to contribute productively and according to the norms of the community.
 
 ===Half-hour tasks===
