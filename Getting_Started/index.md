@@ -17,7 +17,7 @@ Great, you have an idea for a new page you want to create, and you've determined
 # On that page identify the form to create the proper template (see [[#Choosing a content template]]).
 # In the form's text field enter the URL for the new page in the text field, and click Create Page. 
 
-For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game'''.
+For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (you would type in '''tutorials/racing game''': the Wiki creates the underscores for you. Please do not use hyphens in urls unless grammatically appropriate, and use all lower case.).
 
 === Choosing a content template===
 
