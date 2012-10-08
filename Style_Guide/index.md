@@ -112,8 +112,8 @@ Different [[WPD:Manual Of Style/Article Types|types of articles]] have different
 
 ===Use accepted wikitext syntax conventions===
 WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax that you should use when editing pages. This is the same wiki engine used by Wikipedia, and thus has the same basic coding characteristics. For general guidelines, see:
-*the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wikipedia Cheatsheet] or
-*the [http://en.wikipedia.org/wiki/Help:Wiki_markup full Wikipedia markup guide]
+* the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wikipedia Cheatsheet] or
+* the [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki formatting guide]
 
 For help with some specific WPD coding issues, see:
 * [[WPD:Manual_Of_Style/Tables|Tables]]
