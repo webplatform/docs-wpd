@@ -5,12 +5,12 @@ If you find an issue related to the content of the site (e.g. an article is inco
 * '''Fix it yourself'''. [[WPD:Getting Started|Learn how]] to contribute.
 * '''Add a comment'''. To add a comment, hover your mouse over the relevant section heading and click '''Add Comment'''.
 * '''Add a flag'''. Flags visually mark pages that are incomplete or incorrect. See [[WPD:Flags|Using Flags]] for details.
-* '''File a bug'''. If it is not something that is covered by the three options above (see below for how).
+* '''File a bug'''. Only if it is not something that is covered by the three options above (see below for how).
 
 If you find an issue related to the functionality of the site, file a bug (see below). The main groups of bugs we are seeing are as follows:
 
-* Site functionality bugs (for example, browser errors or UI issues).
-* Issues related to entire groups of pages not behaving or displaying correctly.
+* '''Site functionality bugs''' (for example, browser errors or UI issues).
+* '''Issues related to entire groups of pages''' not behaving or displaying correctly.
 
 ==How to file bugs==
 
