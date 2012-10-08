@@ -86,6 +86,8 @@ There are many ways to contribute that take varying amounts of time and expertis
 ==The basics==
 ===The technology===
 
+WPD is a site dedicated to documenting and teaching people about open web standards, those technologies documented by the W3C, IETF, and other standardization bodies, which are created as part of an open process to be free for anyone to use, and not controlled by any one company. If you think that a technology is missing from WPD, please open a discussion about it using any of the methods documented on our [[WPD:Help Help page]].
+
 ===The norms===
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
 
