@@ -2,10 +2,10 @@
 
 If you find an issue related to the content of the site (e.g. an article is incorrect or missing), you have a few choices:
 
-* '''Fix it yourself'''. [[WPD:Getting Started|Learn how]] to contribute.
-* '''Add a comment'''. To add a comment, hover your mouse over the relevant section heading and click '''Add Comment'''.
-* '''Add a flag'''. Flags visually mark pages that are incomplete or incorrect. See [[WPD:Flags|Using Flags]] for details.
-* '''File a bug'''. Only if it is not something that is covered by the three options above (see below for how).
+* '''Fix it yourself'''. [[WPD:Getting Started|Learn how]] to contribute. If you find a fairly trivial fix, such as a typo, bad grammar, or obvious incorrect piece of data, '''please fix it yourself'''. There is no point bothering others with it — you could probably fix it quicker than you can file a bug about it!
+* '''Add a comment'''. To add a comment, hover your mouse over the relevant section heading and click '''Add Comment'''. This is useful for slightly more major content issues that are still fairly trivial; in most cases, this is still preferable to filing bugs.
+* '''Add a flag'''. Flags visually mark pages that are suffering from common blanket issues, resulting in them being incomplete or incorrect. See [[WPD:Flags|Using Flags]] for details.
+* '''File a bug'''. Do this '''only''' if it is not something that is covered by the three options above (see below for how). again, please don't file bugs concerning tiny trivialities that you could fix easily yourself!
 
 If you find an issue related to the functionality of the site, file a bug (see below). The main groups of bugs we are seeing are as follows:
 
