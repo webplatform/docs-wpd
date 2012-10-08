@@ -44,15 +44,18 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 Editing an existing page is as easy as clicking the Edit button at the top of the page. 
 
-==Content types and URLs==
+===Content types===
 
 WPD supports three basic types of content:
 
-* '''Reference material''' -- JavaScript APIs, HTML and CSS reference). 
+* '''Reference material''' -- JavaScript APIs, HTML and CSS reference. 
 * '''Tutorials''' -- Step-by-step instructions for building a sample application or demonstrating a feature. 
 * '''Concepts''' -- Provides an overview of a feature or API.
 
-Each of these types content types has a unique URL name space--that is, where the page "lives". Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
+Each of these types content types has a unique URL name space--that is, where the page "lives". The URL generally follows the logical organization of the feature. For example [css/selectors/outline-style].
+
+
+Figure out where the page should live. Consult the architecture page for an overview of the URL structure of the site.
 
 http://docs.webplatform.org/wiki/concepts/internet_and_web/the_history_of_the_web
 
