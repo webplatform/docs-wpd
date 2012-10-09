@@ -6,3 +6,4 @@ The WPD community's norms and best practices are documented here and in sub-page
 * [[WPD:Policy/Management|Management]]
 * [[WPD:Privacy|Privacy Policy]]
 * [[WPD:Copyright|Copyright]]
+* [[WPD:Conduct|Public conduct/discipline guidelines]]
