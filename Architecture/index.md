@@ -158,6 +158,7 @@ See also [[WPD:Content/Topic_Hierarchy|Topic Hierarchy]].
 *** js / operators / ''foo''
 ** js / tutorials (a list of tutorials categorized as Javascript)
 ** js / libraries
+*** js / libraries / jQuery
 *** js / libraries / ''foo''
 * [[glossary]]
 * [[tutorials]] (links to tech-specific tutorials)
