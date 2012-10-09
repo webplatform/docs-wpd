@@ -15,7 +15,7 @@ To add external attribution to an article, choose "Edit with Form" and check off
 ==Canonical list of sites that are on the external attribution list==
 
 The canonical list of external attribution sites is maintained at [[Property:External_Attribution_Source]]. The list has been copied here for convenience: 
-* [http://developer.mozilla.com MDN]
+* [http://developer.mozilla.org MDN]
 * [http://www.html5rocks.com HTML5Rocks]
 * [http://www.MSDN.com MSDN]
 * [http://developers.facebook.com/html5 Facebook HTML5 Resource Center]
