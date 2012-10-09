@@ -130,7 +130,7 @@ Finally, templates are great because they allow us to hide some of the ugly guts
 
 {{TODO | Include links to template documentation }}
 
-There are some built-in templates, like #if. You can find out more here: http://www.mediawiki.org/wiki/Help:Extension:ParserFunctions . Note there's a gotcha around doing table syntax in these; see at the bottom of this article.
+There are some built-in templates, like #if. You can find out more here: https://www.mediawiki.org/wiki/Help:Extension:ParserFunctions . Note there's a gotcha around doing table syntax in these; see at the bottom of this article.
 
 {{Note | There's a potential gotcha with these special "templates": after the name, you have a '''colon''', not a pipe. }}
 
@@ -160,7 +160,7 @@ Forms consist of a number of fields. These fields define input boxes and control
 
 Note that creating sub-sections of forms that repeat (like the list of related specifications in the CSS Property form) or sections of form that you want to reuse in other forms, are advanced topics covered below.
 
-You can see more documentation on how to configure forms here: http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms
+You can see more documentation on how to configure forms here: https://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms
 
 ====Properties====
 
@@ -297,7 +297,7 @@ Most of this page is just normal wiki syntax. The important bits look like:
 
 This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Summary form field should just dump directly into the Summary parameter of the CSS Property template.
 
-There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See http://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms for more.
+There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See https://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms for more.
 
 Here's an example of changing the input type:
 
@@ -475,7 +475,7 @@ In the case of [[Template:Related_Specifications]] you can see that the template
 
 One thing to be aware of when you're building up tables like this is that we need to be aware of the Table Gotcha (see next section) if we're using #if blocks.
 
-See http://www.mediawiki.org/wiki/Help:Tables for more information.
+See https://www.mediawiki.org/wiki/Help:Tables for more information.
 
 ====Gotcha: Table syntax====
 
