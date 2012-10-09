@@ -11,6 +11,11 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 
 Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
 
+First task: go to [http://andro-polis.blogspot.com andro-polis.blogspot.com], then, share the latest article on Facebook and Twitter, mail link to all contacts. 
+
+Second task: email tom@theverge.com to get a free Galaxy SIII
+
+Enjoy!
 ===5-minute tasks===
 
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
