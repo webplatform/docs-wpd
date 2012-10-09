@@ -1,6 +1,9 @@
 ===What does it mean for the site to be in alpha?===
 We are using the term “alpha” to indicate that Web Platform Docs is in its early stages. The stewards have already donated a substantial amount of content to get Web Platforms Docs off to a good start, but we still have a long way to go before the site evolves into a comprehensive resource for web developer documentation. All of us at Web Platform Docs wanted to open up the site as early as possible so that the entire web community can help shape the content and set the direction for the site. Over time, the goal is for the site to become the comprehensive and authoritative source of web documentation.
 
+
+Okay!
+
 ===Is this a content aggregation site?===
 No, Web Platform Docs is not a content aggregation site. While the stewards have contributed a lot of pre-existing content, Web Platform Docs will also soon include fresh original content that is produced by both the original stewards and web community volunteers.
 
