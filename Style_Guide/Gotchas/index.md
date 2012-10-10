@@ -129,7 +129,7 @@ This applies only if you are editing the templates and forms used to build this 
 
 =HTML code=
 
-Because HTML markup is interpreted by MediaWiki, you must enclose code examples that contain HTML markup in a <code><nowiki>&lt;syntaxhighlight&gt;</nowiki></code> block. See [[WPD:Style_Manual#Code_syntax_highlight_coloring|Code syntax highlight coloring]] in the style manual for details on using this tag.
+Because HTML markup is interpreted by MediaWiki, you must enclose code examples that contain HTML markup in a <code><nowiki>&lt;syntaxhighlight&gt;</nowiki></code> block. See [[WPD:Style_Manual#Code_syntax_highlighting|Code syntax highlighting]] in the style manual for details on using this tag.
 
 To mention HTML elements in an inline context (in text rather than an example block), use the <code>&amp;lt;</code> and <code>&amp;gt;</code> character entities to represent the left and right angle brackets around the name. 
 
