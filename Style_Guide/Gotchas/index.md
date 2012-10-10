@@ -12,7 +12,7 @@ The content you've entered in the '''Content''' text field contains a pipe chara
 
 A pipe character in a Semantic MediaWiki form gets interpreted as a parameter separator for the template call. When you edit a page via '''Edit''' (&action=formedit in the URL) everything you enter in the '''Content''' text field is contained in a form that calls a template to render the content. So the rendering engine hits the pipe and stops generating the form (unless the characters following the pipe happen to match a named parameter, but hey, what are the chances?).
 
-:'''Note:''' The pipe character works just fine in internal links, like <nowiki>[[WPD:Style_Manual'''&#124;'''<nowiki>Style manual]]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. This is just a bug in the situations described below.
+:'''Note:''' The pipe character works just fine in internal links, like <nowiki>[[WPD:Style_Manual</nowiki>'''&#124;'''<nowiki>Style manual]]</nowiki> and in subsequent template calls, as in <nowiki>{{template</nowiki>'''&#124;'''<nowiki>parameter}}</nowiki>. This is just a bug in the situations described below.
 
 '''What to do'''
 
@@ -70,13 +70,15 @@ Here's the normal #if syntax:
 {{#if: condition | value | else-value}}
 </syntaxhighlight>
 
-Here's normal syntax for a table: 
+Here's the normal syntax for a table: 
 
 <syntaxhighlight>
 {| class="wikitable"
-! Header-value 1 !! Header-value-2
+! Header-value 1
+! Header-value-2
 |-
-| Row-value 1 || Row-value-2
+| Row-value 1
+| Row-value-2
 |}
 </syntaxhighlight>
 
@@ -86,12 +88,13 @@ The problem is that in the #if block, every pipe character the rendering engine 
 {{#if: {{{Specifications|}}} | 
 ==Related Specifications==
 {{{!}} class="wikitable"
+! Specification
+! Status
+! Related Changes
 {{!}}-
-! Specification !! Status !! Related Changes
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
-<br />
 
 =Escaping characters=
 
