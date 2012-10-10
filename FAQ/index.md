@@ -41,3 +41,12 @@ We chose our final list based on the browsers we thought would be the most commo
 ===Where can I report bugs I find on the site?===
 
 Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org bugtracker].
+
+
+===Will this site include information on server-side languages, like PHP, Perl, Ruby, Python, etc.?===
+
+We plan to concentrate mostly on client-side technologies like HTML, CSS, and JavaScript, on some fundamental Internet technologies and protocols like HTTP, TCP/IP, and on some “hybrid” technologies that are both client- and server-side, like WebRTC.
+
+However, because they are useful concepts, we do plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
+
+See the article on [[server-side_languages|server-side languages]] for more details.
