@@ -1,7 +1,7 @@
 =Public conduct/displine guidelines=
 
 * We do not yet have a code of conduct for webplatform.org. Until we do, we expect to follow (roughly) the Wikipedia code of conduct — see http://en.wikipedia.org/wiki/Wikipedia:Etiquette. So also below for some guidance notes.
-* Site administrators reserve the right to ban participation that it deems disruptive or offensive.
+* Site administrators reserve the right to ban participation that they deem disruptive or offensive.
 
 ==General webplatform conduct goals==
 
