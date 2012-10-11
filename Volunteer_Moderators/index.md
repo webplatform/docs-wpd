@@ -12,8 +12,22 @@ You aren't expected to do this all the time, of course, and the webplatform staf
 
 Please read the [[WPD:Conduct|WPD conduct guidelines]] to get a feel for what is acceptable and what isn't, in terms of topics of questions and chat, and dealing with troublemakers.
 
+We won't check up on you too much; we'll probably just look at the forums, IRC logs, etc. every so often to make sure things are being done.
+
 ==FAQ==
 
 One role is going to be answering questions. A lot of these questions will be repeated over and over again. We are aiming to create an IRC bot that will pick up on common phrases and auto-generate replies, plus the IRC room topic provides links to URLs for [[WPD:FAQ|FAQ]], [https://www.w3.org/Bugs/Public/ bug tracker], etc. Feel free to point people towards these reaources or quite out of them, as you see fit.
 
 The Q&A is soon to be improved, with categorization, etc., things will be more manageable there soon as well.
+
+==Leaving==
+
+If you don't want to do this anymore, please tell us, and we won't hate you. Anything you can do for us to help is really appreciated. Telling us helps us to look for other people to fill up the gaps.
+
+==People currently on board as volunteer moderators==
+
+* varl (Viktor; Sweden)
+* Grephix (Dennis; Europe?)
+* Sandkorn (Europe?)
+* _WiZZarD (Netherlands)
+* arkhi (Fabien; China)
