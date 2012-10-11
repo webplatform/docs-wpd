@@ -51,10 +51,18 @@ We chose our final list based on the browsers we thought would be the most commo
 
 Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org bugtracker].
 
+===What is the scope of content for this site?===
+
+The content scope is:
+
+* Broad
+* Focused on client-side open web technologies (but not complete limited to that; see below)
+* Not limited to W3C specifications (IETF, Khronos, etc. are fine)
+* Not for specification development (webplatform.org is for documenting '''existing''' specs; for new spec development use community groups or working groups)
 
 ===Will this site include information on server-side languages, like PHP, Perl, Ruby, Python, etc.?===
 
-We plan to concentrate mostly on client-side technologies like HTML, CSS, and JavaScript, on some fundamental Internet technologies and protocols like HTTP, TCP/IP, and on some “hybrid” technologies that are both client- and server-side, like WebRTC.
+See above. We plan to concentrate mostly on client-side technologies like HTML, CSS, and JavaScript, on some fundamental Internet technologies and protocols like HTTP, TCP/IP, and on some “hybrid” technologies that are both client- and server-side, like WebRTC.
 
 If we tried to cover all server-side languages in depth, as well as all client side languages, the site would just become unmaintainable. Plus there are really good resources out there already for a lot of server-side languages.
 
