@@ -10,7 +10,7 @@ You aren't expected to do this all the time, of course, and the webplatform staf
 
 ==Codes of conduct==
 
-Please read the [WPD:Conduct|WPD conduct guidelines] to get a feel for what is acceptable and what isn't, in terms of topics of questions and chat, and dealing with troublemakers.
+Please read the [[WPD:Conduct|WPD conduct guidelines]] to get a feel for what is acceptable and what isn't, in terms of topics of questions and chat, and dealing with troublemakers.
 
 ==FAQ==
 
