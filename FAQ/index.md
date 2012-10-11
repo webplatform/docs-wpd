@@ -50,3 +50,7 @@ We plan to concentrate mostly on client-side technologies like HTML, CSS, and Ja
 However, because they are useful concepts, we do plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
 
 See the article on [[server-side_languages|server-side languages]] for more details.
+
+=== Is webplatform.org built on open source technologies? ===
+
+Yes, the site is completely built on open source technologies, including Media Wiki, Semantic Media Wiki and Wordpress.
