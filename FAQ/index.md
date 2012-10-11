@@ -56,7 +56,7 @@ Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglis
 The content scope is:
 
 * Broad
-* Focused on client-side open web technologies (but not complete limited to that; see below)
+* Focused on client-side open web technologies (but not completely limited to that; see below)
 * Not limited to W3C specifications (IETF, Khronos, etc. are fine)
 * Not for specification development (webplatform.org is for documenting '''existing''' specs; for new spec development use community groups or working groups)
 
