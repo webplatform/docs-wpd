@@ -1,4 +1,4 @@
-=Volunteer moderators for IRC and Q&A=
+=Volunteer Moderators for IRC and Q&A=
 
 This page provides information for those who have volunteered to be official webplatform moderators for our IRC and/or Q&A. First of all, thanks for agreeing to do this. Second, read all the notes below to make your lives as easy as possible.
 
