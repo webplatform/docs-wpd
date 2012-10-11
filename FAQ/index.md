@@ -53,12 +53,11 @@ Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglis
 
 ===What is the scope of content for this site?===
 
-The content scope is:
+In a word, we expect a broad scope about Web technology. However, we do have some expectations:
 
-* Broad
-* Focused on client-side open web technologies (but not completely limited to that; see below)
-* Not limited to W3C specifications (IETF, Khronos, etc. are fine)
-* Not for specification development (webplatform.org is for documenting '''existing''' specs; for new spec development use community groups or working groups)
+* We anticipate an early emphasis on client-side open web technologies, but the scope is not limited to those (see below).
+* Technologies covered will include [http://www.w3.org/TR/ W3C Specifications] but also technologies from other organizations.
+* The site is not for the development of new specifiations; please consider a [http://www.w3.org/community/ W3C Community Groups] if you wish to work on new Web technology.
 
 ===Will this site include information on server-side languages, like PHP, Perl, Ruby, Python, etc.?===
 
