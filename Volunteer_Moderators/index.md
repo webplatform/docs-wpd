@@ -20,7 +20,7 @@ We won't check up on you too much; we'll probably just look at the forums, IRC l
 
 ==FAQ==
 
-One role is going to be answering questions. A lot of these questions will be repeated over and over again. We are aiming to create an IRC bot that will pick up on common phrases and auto-generate replies, plus the IRC room topic provides links to URLs for [[WPD:FAQ|FAQ]], [https://www.w3.org/Bugs/Public/ bug tracker], etc. Feel free to point people towards these reaources or quite out of them, as you see fit.
+One role is going to be answering questions. A lot of these questions will be repeated over and over again. We are aiming to create an IRC bot that will pick up on common phrases and auto-generate replies, plus the IRC room topic provides links to URLs for [[WPD:FAQ|FAQ]], [https://www.w3.org/Bugs/Public/ bug tracker], etc. Feel free to point people towards these resources or quite out of them, as you see fit.
 
 The Q&A is soon to be improved, with categorization, etc., things will be more manageable there soon as well.
 
