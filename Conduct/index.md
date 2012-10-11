@@ -2,6 +2,8 @@
 
 We do not yet have a code of conduct for webplatform.org. Until we do, we expect to follow (roughly) the Wikipedia code of conduct — see http://en.wikipedia.org/wiki/Wikipedia:Etiquette
 
+==General goal of webplatform WRT conduct==
+
 In general, the goal of webplatform.org is that the community shall be self-policing and shall create a code of interactivity that reflects the cooperative nature of the site. To that extent:
 
 * Any user whom the community collectively trusts to be a productive member of the community and uphold the [[WPD:Policy/Pillars|three pillars]] may be promoted to administrator. When someone wants to become an administrator, they need to make a request to the existing admins group, and they will approve it on a case by case basis. The process will be documented somewhere on the admin pages of the site.
@@ -10,7 +12,7 @@ In general, the goal of webplatform.org is that the community shall be self-poli
 * We expect that Administrators will post relevant administrative information on a portion of the site.
 * The community will have a means to contact Administrators to inform them of issues that require attention, including out of date content, offensive content, edit wars, etc.
 
-==General notes about webplatform conduct==
+==General notes about webplatform IRC/forum/mailing list conduct==
 
 Throughout the webplatform site and related resources — including the Wiki, forums, chat, and other sections — we expect communication to be on topic, respectful and courteous at all times.
 
