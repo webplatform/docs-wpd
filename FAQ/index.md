@@ -55,7 +55,7 @@ Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglis
 
 In a word, we expect a broad scope about Web technology. However, we do have some expectations:
 
-* We anticipate an early emphasis on client-side open web technologies, but the scope is not limited to those (see below).
+* We anticipate an early emphasis on client-side open web technologies, but the scope is not limited to those (see next FAQ question for more).
 * Technologies covered will include [http://www.w3.org/TR/ W3C Specifications] but also technologies from other organizations.
 * The site is not for the development of new specifiations; please consider a [http://www.w3.org/community/ W3C Community Groups] if you wish to work on new Web technology.
 
