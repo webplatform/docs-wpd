@@ -1,8 +1,9 @@
 =Public conduct/displine guidelines=
 
-We do not yet have a code of conduct for webplatform.org. Until we do, we expect to follow (roughly) the Wikipedia code of conduct — see http://en.wikipedia.org/wiki/Wikipedia:Etiquette
+* We do not yet have a code of conduct for webplatform.org. Until we do, we expect to follow (roughly) the Wikipedia code of conduct — see http://en.wikipedia.org/wiki/Wikipedia:Etiquette. So also below for some guidance notes.
+* Site administrators reserve the right to ban participation that it deems disruptive or offensive.
 
-==General goal of webplatform WRT conduct==
+==General webplatform conduct goals==
 
 In general, the goal of webplatform.org is that the community shall be self-policing and shall create a code of interactivity that reflects the cooperative nature of the site. To that extent:
 
