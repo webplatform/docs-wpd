@@ -19,9 +19,7 @@ Throughout the webplatform site and related resources — including the Wiki, fo
 
 The topic of the site is client-side web development, which is a very broad topic, but it gives some idea of what we're aiming at. We don't want to discourage any meaningful technology conversation and writing, but we would like to keep the site focused on this area to keep it manageable and maintainable.
 
-Therefore, if we start to see too much off-topic discussion, trivial/comedy banter, or other disruptive activity in any of our communication mechanisms, we may step in and politely ask the people involved to cut it out/take it to another, more suitable venue.
-
-If it persists, we may be forced to start banning users.
+Therefore, if we start to see too much off-topic discussion, trivial/comedy banter, or other disruptive activity in any of our pages or communication mechanisms, we may lock down edits, remove editing privileges, politely ask the people involved to cut it out/take conversation to a more suitable venue, or even start banning users if the activity persists.
 
 Instant bans will be put into effect on community members who:
 
