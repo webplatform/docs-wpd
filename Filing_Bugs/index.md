@@ -14,6 +14,10 @@ If you find an issue related to the functionality of the site, file a bug (see b
 * '''Site functionality bugs''' (for example, browser errors or UI issues).
 * '''Issues related to entire groups of pages''' not behaving or displaying correctly.
 
+==Browse Existing Bugs==
+* [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org Peruse all open bugs by component]
+* [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&list_id=173&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=webplatform.org List all open webplatform.org bugs]
+
 ==How to file bugs==
 
 To file a bug against WPD, or any other part of webplatform.org, you need to use the W3C's [http://www.w3.org/Bugs/ Bugzilla bug tracking system].
