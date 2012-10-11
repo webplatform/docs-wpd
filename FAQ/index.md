@@ -17,7 +17,12 @@ The role of stewards is intentionally limited in favor of self-governance by the
 The Stewardship Committee provided funds to create, launch, and maintain the site. Any organization or individual may join the Stewardship Committee. W3C plays the role of administrator of the funds to ensure the site is available.
 
 ===What technology is the site implemented on?===
+
+webplatform.org is completely built on open source technologies.
+
 Web Platform Docs uses MediaWiki (which also powers Wikipedia) to run. It uses the Semantic MediaWiki and Semantic Forms extensions to apply more structure to the content and make it easier to edit.
+
+Our Blog is built on WordPress.
 
 ===What's the difference between Web Platform Docs and WebPlatform.org?===
 Web Platform Docs is a sub-component of the larger webplatform.org site, and is focused specifically on high-quality documentation for the Open Web Platform. Over time, webplatform.org will grow to encompass additional functionality.
@@ -52,10 +57,6 @@ If we tried to cover all server-side languages in depth, as well as all client s
 However, because they are useful concepts, we do plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
 
 See the article on [[server-side_languages|server-side languages]] for more details.
-
-=== Is webplatform.org built on open source technologies? ===
-
-Yes, the site is completely built on open source technologies, including Media Wiki, Semantic Media Wiki and Wordpress.
 
 ===Can I translate articles on WPD?===
 
