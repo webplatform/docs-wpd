@@ -18,8 +18,7 @@ The Stewardship Committee provided funds to create, launch, and maintain the sit
 
 ===How can I become a steward?===
 
-To become a steward, an organization must complete an [[https://www.w3.org/Consortium/Legal/2012/08-WebPlatformDocsStewardshipAgreement-1.pdf agreement]] (PDF) with the W3C. See also the [[http://docs.webplatform.org/wiki/WPD:Stewardship_Committee_Charter Stewardship Charter]], which governs steward roles and responsibilities. For more information, contact Doug Schepers at team-devrel@w3.org.
-
+To become a steward, an organization must complete an [https://www.w3.org/Consortium/Legal/2012/08-WebPlatformDocsStewardshipAgreement-1.pdf agreement] (PDF) with the W3C. See also the [http://docs.webplatform.org/wiki/WPD:Stewardship_Committee_Charter Stewardship Charter], which governs steward roles and responsibilities. For more information, contact Doug Schepers at team-devrel@w3.org.
 
 ===What technology is the site implemented on?===
 
