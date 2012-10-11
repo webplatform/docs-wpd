@@ -69,7 +69,7 @@ However, because they are useful concepts, we do plan to include very basic intr
 
 See the article on [[server-side_languages|server-side languages]] for more details.
 
-===How does webplatform.org influence W3C specs?===
+===How does webplatform.org influence W3C specifications?===
 
 At the current time there is no formal connection between the two. However, W3C does anticipate that greater community involvement in W3C via webplatform.org will be a net benefit for all, through discussions and feedback.
 
