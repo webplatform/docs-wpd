@@ -56,3 +56,9 @@ See the article on [[server-side_languages|server-side languages]] for more deta
 === Is webplatform.org built on open source technologies? ===
 
 Yes, the site is completely built on open source technologies, including Media Wiki, Semantic Media Wiki and Wordpress.
+
+===Can I translate articles on WPD?===
+
+WPD is not yet set up for handling article translations. We are working on it, so this facility should appear soon.
+
+For those interested in writing translations, who don't want to wait for the translation facilities to come up on the site, there is a group inside the W3C called the [[http://www.w3.org/community/webed/ web education community group]], which deals with outreach and translations. You can join them and use their [[http://www.w3.org/community/webed/wiki/Main_Page#Project_activities wiki to hold translations]] for now, until webplatform.org is ready.
