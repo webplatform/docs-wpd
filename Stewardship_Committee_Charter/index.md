@@ -18,7 +18,7 @@ The Convener is the W3C.
 
 == Joining the Stewardship Committee ==
 
-Any individual or organization may join the Stewardship Committee by providing material support for the project and signing the contract agreeing to abide by these by-laws. Material support is defined as having a minimum value of 10K USD annually (though more is welcome). Material support may take many forms, including funds, hardware, and sponsoring employees/spending time themselves to work on the project as members of the community.
+Any individual or organization may join the Stewardship Committee by providing material support for the project and signing the contract agreeing to abide by these by-laws. Material support is defined as having a minimum value of $35K USD annually (though more is welcome). Material support may take many forms, including funds, hardware, and sponsoring employees/spending time themselves to work on the project as members of the community.
 
 Along with the supporting members of the Stewardship Committee, the Stewards will seek to appoint an unpaid community representative as a member of the Stewardship Committee. This individual will be selected from the trusted administrators of the site, must have the general consensus of the community to represent them, and must be elected by consensus of the Stewardship Committee. There will be only one community representative at a time, serving a term of one year.
 
