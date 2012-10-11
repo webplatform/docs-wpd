@@ -30,7 +30,7 @@ If you don't want to do this anymore, please tell us, and we won't hate you. Any
 
 ==Getting help==
 
-Chris Mills is the organizer of the volunteer moderators, so for any concerns or questions about this, feel free to contact him at '''cmills at w3 dot org'''.
+Chris Mills is the organizer of the volunteer moderators, so for any concerns or questions about this, feel free to contact him at '''cmills at w3 dot org'''. We may also set up a mailing list for this, but I'm not sure that's necessary right now.
 
 ==People currently on board as volunteer moderators==
 
