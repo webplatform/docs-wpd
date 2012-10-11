@@ -12,6 +12,8 @@ You aren't expected to do this all the time, of course, and the webplatform staf
 
 For the moment, you just get a whole lot of love and appreciation for us, for so graciously helping out. We will also promote you to an Operator on IRC, so you have the rights to deal with situations.
 
+As soon as you are accepted for the job of volunteer moderator, you should register your nick on Freenode.
+
 ==Codes of conduct==
 
 Please read the [[WPD:Conduct|WPD conduct guidelines]] to get a feel for what is acceptable and what isn't, in terms of topics of questions and chat, and dealing with troublemakers.
