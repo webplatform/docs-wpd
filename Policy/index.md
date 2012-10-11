@@ -7,3 +7,4 @@ The WPD community's norms and best practices are documented here and in sub-page
 * [[WPD:Privacy|Privacy Policy]]
 * [[WPD:Copyright|Copyright]]
 * [[WPD:Conduct|Public conduct/discipline guidelines]]
+* [[WPD:Volunteer moderators|Volunteer moderators for IRC and Q&A]]
