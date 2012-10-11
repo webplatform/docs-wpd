@@ -47,6 +47,8 @@ Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglis
 
 We plan to concentrate mostly on client-side technologies like HTML, CSS, and JavaScript, on some fundamental Internet technologies and protocols like HTTP, TCP/IP, and on some “hybrid” technologies that are both client- and server-side, like WebRTC.
 
+If we tried to cover all server-side languages in depth, as well as all client side languages, the site would just become unmaintainable. Plus there ar really good resources out there already for a lot of server-side languages.
+
 However, because they are useful concepts, we do plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
 
 See the article on [[server-side_languages|server-side languages]] for more details.
