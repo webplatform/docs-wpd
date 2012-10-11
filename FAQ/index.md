@@ -16,6 +16,10 @@ The role of stewards is intentionally limited in favor of self-governance by the
 ===Who provides the funds to run the site?===
 The Stewardship Committee provided funds to create, launch, and maintain the site. Any organization or individual may join the Stewardship Committee. W3C plays the role of administrator of the funds to ensure the site is available.
 
+===How can I become a steward?===
+
+We have had considerable interest from potential new stewards: this is a pretty unique, high-profile opportunity for any web company to show its leadership. For more information, please e-mail Doug Schepers ('''schepers at w3 dot org''').
+
 ===What technology is the site implemented on?===
 
 webplatform.org is completely built on open source technologies.
