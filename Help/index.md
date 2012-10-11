@@ -6,7 +6,7 @@ WPD is an active and welcoming community. We'll help you get started, and there'
 * You can find us on '''IRC''' (Internet Relay Chat, essentially a specialized chat room) at '''irc.freenode.net'''; join the room called 
 **'''#webplatform-site''' is the best place to ask site-specific questions like "Why can't I get this formatting to look right?" or "Do we have a template I can use to do X?" or "Is anyone working on reviewing /html/attributes/target?"
 **'''#webplatform''' is for a more general discussion of web development topics. Note that freenode also has chat rooms specific to certain topics like '''#css''' and '''#javascript'''.
-Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
+;Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
 * We also have [http://talk.webplatform.org/forums/ forums available], on which you can post questions, and answer the questions of others.
 * You can also [https://www.twitter.com/webplatform find us on Twitter].
 
