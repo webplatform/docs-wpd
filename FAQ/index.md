@@ -4,6 +4,10 @@ We are using the term “alpha” to indicate that Web Platform Docs is in its e
 ===Is this a content aggregation site?===
 No, Web Platform Docs is not a content aggregation site. While the stewards have contributed a lot of pre-existing content, Web Platform Docs will also soon include fresh original content that is produced by both the original stewards and web community volunteers.
 
+===What principles guide the management of the site?===
+
+The webplatform.org [[WPD:Pillars]] lists a small number of principles intended to guide the development and maintenance of the site. 
+
 ===Who writes the content on the site?===
 Web Platform Docs is a collaborative wiki, in the same vein as Wikipedia. Anyone is allowed to edit it and improve it. If you're interested in helping out, please see the [[WPD:Getting_Started|getting started guide]].
 
