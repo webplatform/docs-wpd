@@ -38,6 +38,6 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 
 * varl (Viktor; Sweden)
 * Grephix (Dennis Jamin; Netherlands)
-* Sandkorn (Europe?)
+* Sandkorn (Germany)
 * _WiZZarD (Netherlands)
 * arkhi (Fabien; China)
