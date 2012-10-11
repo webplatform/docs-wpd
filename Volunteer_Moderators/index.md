@@ -8,6 +8,10 @@ You are expected to act as moderators on the webplatform IRC and/or Q&A, so basi
 
 You aren't expected to do this all the time, of course, and the webplatform staff will hang out on IRC/Q&A as much as possible. The aim here is just to take a bit of pressure of the webplatform.org guys, as moderating these venues 24/7 is a really time consuming task!
 
+==What you get==
+
+For the moment, you just get a whole lot of love and appreciation for us, for so graciously helping out. We will also promote you to an Operator on IRC, so you have the rights to deal with situations.
+
 ==Codes of conduct==
 
 Please read the [[WPD:Conduct|WPD conduct guidelines]] to get a feel for what is acceptable and what isn't, in terms of topics of questions and chat, and dealing with troublemakers.
@@ -23,6 +27,10 @@ The Q&A is soon to be improved, with categorization, etc., things will be more m
 ==Leaving==
 
 If you don't want to do this anymore, please tell us, and we won't hate you. Anything you can do for us to help is really appreciated. Telling us helps us to look for other people to fill up the gaps.
+
+==Getting help==
+
+Chris Mills is the organizer of the volunteer moderators, so for any concerns or questions about this, feel free to contact him at '''cmills at w3 dot org'''
 
 ==People currently on board as volunteer moderators==
 
