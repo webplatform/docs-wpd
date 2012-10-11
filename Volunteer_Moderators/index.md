@@ -36,11 +36,11 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 
 ==People currently on board as volunteer moderators==
 
-* varl (Viktor; Sweden)
-* Grephix (Dennis Jamin; Netherlands)
-* Sandkorn (Germany)
-* _WiZZarD (Netherlands)
-* arkhi (Fabien; China)
+* [[User:Varl|Varl]] (Viktor; Sweden)
+* [[User:Grephix|Grephix]] (Dennis Jamin; Netherlands)
+* [[User:Sandkorn|Sandkorn]] (Germany)
+* [[User:WiZZarD|WiZZarD]] (Netherlands)
+* [[User:arkhi|arkhi]] (Fabien; China)
 * Tony Crockford (UK?, Q&A only)
-* Garbee (Jonathan, Virginia, USA)
-* NotTomato
+* [[User:Garbee|Garbee]] (Jonathan, Virginia, USA)
+* [[User:Tomato|Tomato]] (Taylor, Colorado, USA)
