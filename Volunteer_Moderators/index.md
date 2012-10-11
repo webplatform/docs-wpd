@@ -37,7 +37,7 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 ==People currently on board as volunteer moderators==
 
 * varl (Viktor; Sweden)
-* Grephix (Dennis Jamin; Netherlands)
+* dennis_jamin (Dennis Jamin; Netherlands)
 * Sandkorn (Germany)
 * _WiZZarD (Netherlands)
 * arkhi (Fabien; China)
