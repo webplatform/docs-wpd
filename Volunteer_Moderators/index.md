@@ -44,3 +44,4 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 * Tony Crockford (UK?, Q&A only)
 * [[User:Garbee|Garbee]] (Jonathan, Virginia, USA)
 * [[User:Tomato|Tomato]] (Taylor, Colorado, USA)
+* [[Michelle Carlough]] (USA?, Q&A only)
