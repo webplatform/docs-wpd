@@ -72,14 +72,9 @@ See the article on [[server-side_languages|server-side languages]] for more deta
 
 ===How does webplatform.org influence W3C specs?===
 
-It is yet to be seen how this will play out  — webplatform.org increases connectivity and participation in open standards, and proviudes a good place to discuss the practicality of difference specs, but will probably not have direct consequences for the W3C Working Groups that write the specs.
+At the current time there is no formal connection between the two. However, W3C does anticipate that greater community involvement in W3C via webplatform.org will be a net benefit for all, through discussions and feedback.
 
-Different things will probably happen in different situations:
-
-* People who have ideas for technology X can start a W3C Community Group to work on use cases and requirements. They are free and have the right amount of patent protection.
-* A Working Group could be paired with a Community Group (or Interest Group); in such cases broad discussions  can happen in the CG (or IG) and specs
-can be written in the WG. This model has worked in the past.
-* A Working Group may see some activity happening on webplatform.org and realize they need to change something, or correct something on webplatform.org.
+If you are interested in developing use cases and requirements for new Web technology, please consider starting a [http://www.w3.org/community/ W3C Community Group]. Community Groups are free to anyone and provide additional services for specification developmet, notably a patent policy designed to help make Web technology Royalty-Free for all.
 
 ===Can I translate articles on WPD?===
 
