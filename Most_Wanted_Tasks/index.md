@@ -21,7 +21,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 * Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
 
-* Fix [[http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0|Lonely Pages]].   These are typically the pages that need the most work at this time.
+* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].   These are typically the pages that need the most work at this time.
 
 * Move capitalized page paths that aren't following the style guide, check [[Category:CSS]] for this
 
