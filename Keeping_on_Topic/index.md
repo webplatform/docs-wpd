@@ -23,9 +23,9 @@ Point people to the bugs URL for reporting bugs; the FAQ also contains a lot of 
 
 For specific questions about content, and where to document things, etc., it is a good idea to familiarise yourself with the structure of the WPD wiki as much as possible. If you are not sure how answer such questions then no worries. As a last resort, you can point people towards the [http://lists.w3.org/Archives/Public/public-webplatform/ mailing list], where their question can be picked up by one of the webplatform.org staff.
 
-We are not here to talk about specific web development problems, or questions about developing specifications new technologies. If you encounter such questions, it is a good idea to point them towards a more appropriate chatroom that deals with niche development questions, for example #html5, ##javascript, #jquery, #svg, #css and #web are all available on freenode.
+We are not here to talk about specific web development problems, or questions about developing specifications new technologies. If you encounter such questions, it is a good idea to point them towards a more appropriate chatroom that deals with niche development questions, for example '''#html''', '''#html5''', '''##javascript''', '''#jquery''', '''#svg''', '''#css''' and '''#web''' are all available on freenode.
  
-For people who want to talk about possible new standards, the #whatwg chatroom is a good place to go; or they could go to [http://lists.w3.org/ lists.w3.org] and find a relevant W3C mailing list to ask questions on.
+For people who want to talk about possible new standards, the '''#whatwg''' chatroom is a good place to go; or they could go to [http://lists.w3.org/ lists.w3.org] and find a relevant W3C mailing list to ask questions on.
 
 ==Q&A==
 
