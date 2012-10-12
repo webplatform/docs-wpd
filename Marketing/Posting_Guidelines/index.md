@@ -52,3 +52,6 @@ The following guidelines must be met:
 
 == Handling unofficial channels ==
 * Although we encourage members of the community to share news about Web Platform Docs in their own ways, we require that '''any unofficial channels be positioned in a way that makes it clear that they are not official.'''
+
+== Videos ==
+Videos must always be approved by the member-webdocs list. They also must include the standard intro/outro.
