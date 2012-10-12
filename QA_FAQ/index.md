@@ -4,6 +4,13 @@
 }}
 {{Summary_Section}}
 {{Basic Page}}
+===Why did you use [http://www.question2answer.org/ Question2Answer] instead of partnering with StackExchange?===
+We are only using open source software for this project.  Therefore, we couldn't use StackExchange, because it's not open source.
+
+Question2Answer seems like it has a large community and frequent and recent updates -- a good sign of life.
+
+StackOverflow, and the StackExchange network at large, have great communities.  We aren't trying to undermine that; we're just trying to provide our community with a way to ask questions and provide answers about the site and about general web development within this community.
+
 ===Why is my username Capitalized?===
 The technology behind the single-sign-on system uses MediaWiki's user accounts for authentication.  This means that usernames are subject to MediaWiki's [http://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(technical_restrictions) naming conventions].  Specifically, "titles cannot begin with a lower case letter".
 
