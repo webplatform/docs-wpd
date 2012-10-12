@@ -4,7 +4,9 @@ This page provides information for those who have volunteered to be official web
 
 ==What is expected of you==
 
-You are expected to act as moderators on the webplatform IRC and/or Q&A, so basically to hang around on those properties, answer questions, point people to the information they need, and deal with troublemakers/spammers.
+You are expected to act as moderators on the webplatform IRC and/or Q&A, so basically to hang around on those properties, answer questions, point people to the information they need, keep the questions on topic as much as possible, and deal with troublemakers/spammers.
+
+There is a detailed guide to what counts as being "on topic", available at [[WPD:Keeping on Topic]] — this should give you the guidelines you need for dealing with most situations you encounter.
 
 You aren't expected to do this all the time, of course, and the webplatform staff will hang out on IRC/Q&A as much as possible. The aim here is just to take a bit of pressure of the webplatform.org guys, as moderating these venues 24/7 is a really time consuming task!
 
