@@ -34,8 +34,19 @@ The following guidelines must be met:
 ** ''This list will grow over time''
 * '''Every''' proposed tweet '''must''' be posted to the '''webplatform-site''' IRC channel and receive at least one '''SGTM''' from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
 
-== Google+ ==
+== @webplatform on Google+ ==
+'''Owner''': Doug
+
+'''Posters''': Paul, Alex, Peter, ??
+* Topics we normally post about:
+** Summarizing and linking to WPD blog posts
+** Summarizing and linking to WPD posts on other channels (like Google+)
+** Responding to direct questions or mentions
+* Because Google+ allows longer or more in-depth discussions, often it is appropriate to extend shorter tweets into more substantial posts.
+* '''Every''' proposed post '''must''' be posted to the '''webplatform-site''' IRC channel and receive at least one '''SGTM''' from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
 
 == Adding new channels ==
+* Every so often we may want to include more channels in our official line-up (e.g. a Facebook page). These need to be approved by the member-webdocs list.
 
 == Handling unofficial channels ==
+* Although we encourage members of the community to share news about Web Platform Docs in their own ways, we require that '''any unofficial channels be positioned in a way that makes it clear that they are not official.'''
