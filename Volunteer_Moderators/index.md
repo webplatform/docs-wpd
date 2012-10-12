@@ -38,16 +38,20 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 
 ==People currently on board as volunteer moderators==
 
+* Tony Crockford (UK, Q&A only)
+* Chris Cook (UK, chris_cook on freenode)
 * [[User:Varl|Varl]] (Viktor; Sweden)
+*[[User:stianfauskanger|Stian Fauskanger]] (Bergen, Norway)
 * [[User:Grephix|Grephix]] (Dennis Jamin; Netherlands)
 * [[User:Sandkorn|Sandkorn]] (Germany)
+* [[User:Timo|Timo Schrappe]] (Dortmund, Germany, tisch on freeserve)
 * [[User:WiZZarD|WiZZarD]] (Netherlands)
+* [[Giuseppe Gurgone]] (Italian, but lives in Denmark, ravenzz on freenode)
 * [[User:arkhi|arkhi]] (Fabien; China)
-* Tony Crockford (UK?, Q&A only)
 * [[User:Garbee|Garbee]] (Jonathan, Virginia, USA)
 * [[User:Tomato|Tomato]] (Taylor, Colorado, USA)
 * [[User:Ccheney|Chris Cheney]] (Michigan, USA, _cheney on freeserve)
 * [[User:Michistar|Michelle Carlough]] (USA?, Q&A only)
 * [[User:Rainulf|Rainulf Pineda]] (Toronto, Canada, _Rainulf on freeserve)
-* Andrew Rowls (Q&A only)
+* Andrew Rowls (Q&A only, eternicode on freenode, lives in Indiana USA)
 * Michael del Tito
