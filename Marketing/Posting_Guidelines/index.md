@@ -32,7 +32,7 @@ The following guidelines must be met:
 ** Summarizing and linking to WPD posts on other channels (like Google+)
 ** Responding to direct questions or mentions
 ** ''This list will grow over time''
-* '''Every''' proposed tweet must be posted to the '''webplatform-site''' IRC channel and receive at least one '''SGTM''' from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
+* '''Every''' proposed tweet '''must''' be posted to the '''webplatform-site''' IRC channel and receive at least one '''SGTM''' from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
 
 == Google+ ==
 
