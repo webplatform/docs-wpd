@@ -17,7 +17,7 @@ The webplatform IRC room is for conversation and questions about the webplatform
 
 To answer these questions, the chat topic should help you a lot:
 
-"Support and conversation about webplatform.org • FAQ: http://docs.webplatform.org/wiki/WPD:FAQ • logs: http://talk.webplatform.org/chatlogs • bugs: http://goo.gl/bTTpT • /join #webplatform-site for site/content discussion"
+"Support and conversation about webplatform.org • FAQ: http://docs.webplatform.org/wiki/WPD:FAQ • logs: http://talk.webplatform.org/chatlogs • bugs: http://goo.gl/bTTpT"
 
 Point people to the bugs URL for reporting bugs; the FAQ also contains a lot of useful answers to very commonly asked questions.
 
