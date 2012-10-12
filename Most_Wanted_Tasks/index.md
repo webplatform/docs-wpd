@@ -15,9 +15,13 @@ Thanks in advance for any tasks completed!  Have a cookie!
 
 ====Half Day Tasks====
 
+Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
+
 * Look for duplicate pages that are in the root page.
 
-* Put every page into a category except for the main page.
+* Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
+
+* Fix [[http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0|Lonely Pages]].   These are typically the pages that need the most work at this time.
 
 * Move capitalized page paths that aren't following the style guide, check [[Category:CSS]] for this
 
