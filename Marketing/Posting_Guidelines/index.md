@@ -1,3 +1,5 @@
+{{Note|Are you a member of the community with a great idea for a blog post or tweet? Propose it on IRC or on public-webplatform!}}
+
 These are the guidelines for how to handle blog posts, tweets, G+ posts, and any other posts on behalf of Web Platform Docs on official channels.
 
 Multiple people have access to the login for each channel. These people need not work directly for a steward organization, but they should be trusted by the community. The number of people with access to each channel should be kept to the minimum. Passwords should be treated incredibly carefully and never shared on any public channel (obviously).
