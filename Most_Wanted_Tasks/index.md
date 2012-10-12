@@ -14,7 +14,22 @@ Thanks in advance for any tasks completed!  Have a cookie!
 
 
 ====Half Day Tasks====
-{{Notes_Section}}
+
+# Look for duplicate pages that are in the root page.
+
+# Put every page into a category except for the main page.
+
+# Move capitalized page paths that aren't following the style guide, check [[Category:CSS]] for this
+
+# Expand Topics on almost every page, every page should have multiple topics
+
+
+====Always going====
+
+# Clean up pages that do not have needed templates
+{{Notes_Section
+|Notes=Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
