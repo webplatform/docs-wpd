@@ -42,7 +42,7 @@ The following guidelines must be met:
 '''Posters''': Paul, Alex, Peter, ??
 * Topics we normally post about:
 ** Summarizing and linking to WPD blog posts
-** Summarizing and linking to WPD posts on other channels (like Google+)
+** Summarizing and linking to WPD posts on other channels (like Twitter)
 ** Responding to direct questions or mentions
 * Because Google+ allows longer or more in-depth discussions, often it is appropriate to extend shorter tweets into more substantial posts.
 * '''Every''' proposed post and comment  '''must''' be posted to the '''webplatform-site''' IRC channel and receive at least one '''SGTM''' from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
