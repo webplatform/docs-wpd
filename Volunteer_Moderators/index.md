@@ -46,4 +46,8 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 * Tony Crockford (UK?, Q&A only)
 * [[User:Garbee|Garbee]] (Jonathan, Virginia, USA)
 * [[User:Tomato|Tomato]] (Taylor, Colorado, USA)
+* [[User:Ccheney|Chris Cheney]] (Michigan, USA, _cheney on freeserve)
 * [[Michelle Carlough]] (USA?, Q&A only)
+* [[User:Rainulf|Rainulf Pineda]] (Toronto, Canada, _Rainulf on freeserve)
+* Andrew Rowls (Q&A only)
+* Michael del Tito
