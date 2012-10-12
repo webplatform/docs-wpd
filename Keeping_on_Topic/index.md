@@ -21,11 +21,11 @@ To answer these questions, the chat topic should help you a lot:
 
 Point people to the bugs URL for reporting bugs; the FAQ also contains a lot of useful answers to very commonly asked questions.
 
-For specific questions about content, and where to document things, etc., it is a good idea to familiarise yourself with the structure of the WPD wiki as much as possible. If you are not sure how answer such questions then no worries. As a last resort, you can point people towards the [[http://lists.w3.org/Archives/Public/public-webplatform/ mailing list]], where their question can be picked up by one of the webplatform.org staff.
+For specific questions about content, and where to document things, etc., it is a good idea to familiarise yourself with the structure of the WPD wiki as much as possible. If you are not sure how answer such questions then no worries. As a last resort, you can point people towards the [http://lists.w3.org/Archives/Public/public-webplatform/ mailing list], where their question can be picked up by one of the webplatform.org staff.
 
 We are not here to talk about specific web development problems, or questions about developing specifications new technologies. If you encounter such questions, it is a good idea to point them towards a more appropriate chatroom that deals with niche development questions, for example #html5, ##javascript, #jquery, #svg, #css and #web are all available on freenode.
  
-For people who want to talk about possible new standards, the #whatwg chatroom is a good place to go; or they could go to [[http://lists.w3.org/ lists.w3.org]] and find a relevant W3C mailing list to ask questions on.
+For people who want to talk about possible new standards, the #whatwg chatroom is a good place to go; or they could go to [http://lists.w3.org/ lists.w3.org] and find a relevant W3C mailing list to ask questions on.
 
 ==Q&A==
 
@@ -46,10 +46,10 @@ Questions such as
 * I have this very specific bug in IE6 involving hover states not working when positioning is used
 * I have a very specific problem with animation in iOS6
 
-Are very niche and specific, would probably not make great documentation, and will also take a lot of your time in debugging them. In these cases, point the question answer over to [[http://stackoverflow.com/ stack overflow]], which is a much more suitable venue for asking such niche questions.
+Are very niche and specific, would probably not make great documentation, and will also take a lot of your time in debugging them. In these cases, point the question answer over to [http://stackoverflow.com/ stack overflow], which is a much more suitable venue for asking such niche questions.
 
 Then you get questions such as
 
 * Plz help me do web design
 
-These can just be ignored, or you can send them a link to the webplatform [[http://docs.webplatform.org/wiki/beginners beginner's guide]] as a good starting place.
+These can just be ignored, or you can send them a link to the webplatform [http://docs.webplatform.org/wiki/beginners beginner's guide] as a good starting place.
