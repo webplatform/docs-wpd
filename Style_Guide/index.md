@@ -48,6 +48,10 @@ WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeS
 *<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
 *Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
 *There's no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
+*Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
+**<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code><br>This highlights the third line in your code snippet.
+**<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
+**<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
 ==Quality principles==
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
