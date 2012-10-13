@@ -1,7 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics
-}}
+{{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
 ===Why did you use [http://www.question2answer.org/ Question2Answer] instead of partnering with StackExchange?===
