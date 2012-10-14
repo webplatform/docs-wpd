@@ -1,1 +1,1 @@
-#REDIRECT [[WPD:Content/Content List/Topic Pages]]
+#REDIRECT [[WPD:Content/Topic Pages]]
