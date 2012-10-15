@@ -15,6 +15,12 @@ Thanks in advance for any tasks completed!
 
 ====Half Day Tasks====
 
+* Help close [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500 bug 19500]
+
+* Help close [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19373 bug 19373] -could be much faster if you are experienced in MediaWiki's syntax.  As in like a 5 minute task.
+
+* Help close [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19314 but 19314]
+
 Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
 
 * Look for duplicate pages that are in the root page.
