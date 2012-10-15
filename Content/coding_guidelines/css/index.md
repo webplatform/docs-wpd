@@ -92,12 +92,12 @@ Only one style should exist across the entire source of your code-base. Always b
 ===  Declaration order ===
 Declarations should be ordered in accordance with a single principle.
 Structurally important properties are declared prior to all others:
-# Position
-# Box Model (Dimension)
-# Font
-# Text
-# Others
-# Animation
+# Position;
+# Box Model (Dimension);
+# Font;
+# Text;
+# Others;
+# Animation.
 
 <syntaxhighlight lang="css">
 .selector {
