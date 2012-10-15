@@ -55,9 +55,12 @@ WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeS
 
 ==Images==
 
-* Images should only be as large as required to display the content to be portrayed.
+When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
 
-* Give them a proper semantic filename.
+* Images should only be as large as required to display the content to be portrayed. To fit inside the content column on WPD, you should make them no larger than about 650 pixels wide. If an image absolutely needs to be much larger than this, you should display a thumbnail and then link it to a fill size image somewhere else.
+* Please do not try to load images of several MB to WPD! If an image is really large in file size you should shrink it down first. If the image is something not very detailed like a line drawing, save it as a PNG 8 (most graphics packages have this option in their export settings.) If it is a lot more detailed, such as a browser screenshot or photograph, use a JPEG — 70% quality is sufficient for web use. You might also want to consider using a compression application like [[http://pmt.sourceforge.net/pngcrush/ PNG Crush]].
+* Images should be given an appropriate semantic filename, for example "box-shadow-output.jpg", not "my-great-image.jpg" or "454654756-awesome.jpg".
+*
 
 ==Quality principles==
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
