@@ -2,12 +2,12 @@
 {{Flags}}
 {{Summary_Section|This article provides a guide to editing and creating concept articles and tutorial articles. Following the steps below should give good results, but if you have any questions, feel free to share them on the mailing list or IRC or Q&A (see our [[WPD:Help|help page]] for more details.)}}
 {{Basic Page}}
-==1. tutorial or concept — make a choice!==
+==1. Tutorial or concept — make a choice!==
 
 First you need to choose whether a concept or tutorial article would be best for what you want to write. Both are informative articles that teach the reader something, but there is a difference in style
 
-* concept articles teach the reader what something is, or how something works, in a clear series-of-facts manner. They don't require the reader to do anything except read through the document and take in the facts presented. A good example might be '''Introduction to CSS element selectors'''.
-* tutorial articles also teach the reader how to do something, but do so in a much more applied way, which involves getting the reader to follow step by step instructions to get to a tangible result. A good example might be '''Using element selectors to select paragraph elements'''
+* Concept articles teach the reader what something is, or how something works, in a clear series-of-facts manner. They don't require the reader to do anything except read through the document and take in the facts presented. A good example might be '''Introduction to CSS element selectors'''.
+* Tutorial articles also teach the reader how to do something, but do so in a much more applied way, which involves getting the reader to follow step by step instructions to get to a tangible result. A good example might be '''Using element selectors to select paragraph elements'''
 
 If you are not sure which to choose, have a think about what subject or subjects you want to cover. If you are covering one subject and it isn't too much of an applied learning experience (maybe it is just an overview of what something is, rather than an in-depth treatment of how to do something specific with it), then a concept article is probably good, especially if it is pretty esoteric stuff (like how HTTP works). If you are showing how to do something specific then a tutorial is probably best, especially if you are showing how to marry two technologies together to do something ('''Creating a sortable table using HTML and JavaScript''', for example).
 
