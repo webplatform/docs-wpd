@@ -1,9 +1,11 @@
 {{Page_Title|CSS Coding Guidelines}}
 {{Flags
 |High-level issues=Stub
-|Content=This article is based on Idiomatic CSS, a repository created by Nicolas Gallagher: https://github.com/necolas/idiomatic-css
 }}
-{{Summary_Section|These guidelines aim to produce consistent coding style throughout all CSS examples on WebPlatform Docs.}}
+{{Summary_Section|These guidelines aim to produce consistent coding style throughout all CSS examples on WebPlatform Docs.
+
+This article is based on Idiomatic CSS, a repository created by Nicolas Gallagher: https://github.com/necolas/idiomatic-css
+}}
 {{Basic Page}}
 == General Principles ==
 <blockquote>"Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec." - Idan Gazit</blockquote>
