@@ -176,20 +176,20 @@ Naming is hard, but very important. It's a crucial part of the process of develo
 <syntaxhighlight lang="css">
 /* Example of code with bad names */
 .s-scr {
-    overflow: auto;
+  overflow: auto;
 }
 
 .cb {
-    background: #000;
+  background: #000;
 }
 
 /* Example of code with better names */
 .is-scrollable {
-    overflow: auto;
+  overflow: auto;
 }
 
 .column-body {
-    background: #000;
+  background: #000;
 }
 </syntaxhighlight>
 
@@ -205,8 +205,8 @@ Naming is hard, but very important. It's a crucial part of the process of develo
   * Example HTML:
   *
   * <div class="grid">
-  *     <div class="cell cell-5"></div>
-  *     <div class="cell cell-5"></div>
+  *   <div class="cell cell-5"></div>
+  *   <div class="cell cell-5"></div>
   * </div>
   */
 
