@@ -53,6 +53,12 @@ WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeS
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
+==Images==
+
+* Images should only be as large as required to display the content to be portrayed.
+
+* Give them a proper semantic filename.
+
 ==Quality principles==
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
 * '''easy to use''': task oriented, accurate, complete
