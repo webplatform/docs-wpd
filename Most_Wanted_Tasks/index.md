@@ -12,6 +12,8 @@ Thanks in advance for any tasks completed!
 
 ====Half Hour Tasks====
 
+* Organize the Common MIME Types table on the [[concepts/internet_and_web/mime_types|MIME Types]] page to be alphabetical by MIME Type. 
+
 
 ====Half Day Tasks====
 
