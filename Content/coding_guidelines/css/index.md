@@ -133,7 +133,7 @@ Structurally important properties are declared prior to all others:
   /* Others */
   cursor: pointer;
 
-  /* animation */
+  /* Animation */
   transition-property: all;
   transition-duration: .25s;
 }
