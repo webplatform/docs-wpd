@@ -42,9 +42,6 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 * '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
 * '''Rewriting CC-BY-SA content for CC-BY use''' Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)] for maximum reusability. Some material on the site comes from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. If you see articles licensed like this, feel free to rewrite the content.
 
-===I want to help!===
-If you want to contribute, you can have a look at our [[WPD:To-Do_List|Task list]] for some specific places you can get started.
-
 ==Editing an existing page==
 
 Editing an existing page is as easy as clicking the Edit button at the top of the page. Be sure you're familiar with the content types, architecture, and style guide before editing existing content or creating new content.
