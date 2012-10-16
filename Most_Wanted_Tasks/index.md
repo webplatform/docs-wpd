@@ -77,6 +77,8 @@ General Concepts:
 
 HTML:
 
+* [[guides/html_text|HTML Text]] worked on by [[User:Garbee|Jonathan Garbee]]
+
 CSS:
 
 * [[tutorials/learning what css is|What is CSS?]] worked on by [[User:Cmills|Chris Mills]]
