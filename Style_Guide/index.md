@@ -33,7 +33,8 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
 
 ==Grammar and spelling conventions==
-We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query.
+We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
+* Please do not use contractions. For example say "I am" compared to "I'm".  This makes translation better and makes good legibility.
 
 ==Common terms==
 * Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
