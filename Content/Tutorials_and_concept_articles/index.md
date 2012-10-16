@@ -89,6 +89,12 @@ For syntax help, look at the [[http://www.mediawiki.org/wiki/Help:Formatting Med
 
 The following is a list of other things that need to be checked through before the article is deemed complete.
 
+* '''Make sure images are all present''': If you see red links that are supposed to point to images, then try to find a suitable image (or make one yourself if you are able) to upload for this purpose. If the article comes from another location, then you can probably find it by going to that link.
+* '''Make sure images have alt text''': Very important for accessibility; to add alt text to an image, you use this syntax: &#91;&#91;image:image-name.jpg|alt=alt text for my image&#93;&#93;  
+* '''Make sure links work''': You can spot dead links a mile off, as they are bright red, but you should also check that the other links present go to the right places.
+* '''Remove obvious biased or out of place language''': For example, if the article is talking about a feature only in the context of working in WebKit and includes WebKit-specific code, you should update the language and code to remove this bias. If there is language that says something like "To find more out about this subject, consult these other articles on MDN", then link to WPD articles instead, and update it.
+* '''Give the article a general update''': Have a read through and think about whether it is up-to-date, or whether any of the text, code examples, etc. need updating. Write new text and code examples to suit.  
+
 ==9. Ask for an editor/proofer!== 
 
 When you have written a new article, let us know about it, via the mailing list. It is also a good idea to ask for a proof reader to come on board to look over your work for you, and correct any errors. We all make mistakes!
