@@ -13,6 +13,8 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 '''For specific things to do''', take a look at our [[WPD:Most_Wanted_Tasks|WPD Most Wanted]] page, which is a place to record the things that most need doing right now. This will be added to as time goes on.
 
+'''Want to create a new tutorial or conept page?''' Find a thorough guide at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and Concept articles]]
+
 ===5-minute tasks===
 
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
