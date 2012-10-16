@@ -12,7 +12,7 @@ I would like to call upon anyone interested to help start going through the HTML
 
 ===Things that need to be done===
 
-* All other HTML element reference pages - see http://docs.webplatform.org/wiki/html/elements for a list!
+* All  HTML element reference pages (except the ones mentioned below) - see http://docs.webplatform.org/wiki/html/elements for a list!
 * Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
 * Linking up each HTML element page to it's relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
 
