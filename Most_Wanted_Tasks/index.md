@@ -51,6 +51,18 @@ I would like to call upon anyone interested to help start going through the HTML
 ** cells become "{{!}} text" instead of "| text"
 ** pipes DO NOT need replacing in link-markups in tables, e.g. this is fine: "{{!}}Sets an [[dom/attributes|'''attribute''']] object node as part of the object."
 
+==Specific call to action: help clean up DOM interface references==
+
+See http://docs.webplatform.org/wiki/dom
+
+<p class="note">TO BE WRITTEN!</p>
+
+==Specific call to action: help clean up HTML attribute references==
+
+See http://docs.webplatform.org/wiki/html/attributes
+
+<p class="note">TO BE WRITTEN!</p>
+
 ==Specific call to action: help clean up tutorials/concepts!==
 
 I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling and grammar, making sure links and images work, and making improvements as you see fit.
