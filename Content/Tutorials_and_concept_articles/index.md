@@ -85,11 +85,15 @@ You shouldn't let language and formatting perfection get in the way of writing a
 
 For syntax help, look at the [[http://www.mediawiki.org/wiki/Help:Formatting Media Wiki formatting guide]]. If you encounter a weird problem when trying to get some syntax to work, see if you can find an answer in our [[WPD:Manual_Of_Style/Gotchas|Gotchas page]].
 
-==8. Ask for an editor/proofer!== 
+==8. Other adjustments to be made==
+
+The following is a list of other things that need to be checked through before the article is deemed complete.
+
+==9. Ask for an editor/proofer!== 
 
 When you have written a new article, let us know about it, via the mailing list. It is also a good idea to ask for a proof reader to come on board to look over your work for you, and correct any errors. We all make mistakes!
 
-==9. Record your progress in working on the article==
+==10. Record your progress in working on the article==
 
 When you are working on fixing up an article, it is a good idea to write who you are and what stage you have got to in the Editorial note box near the top of the edit form, so that others don't decided to take on the same work and start repeating what you have done.
 
