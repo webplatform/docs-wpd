@@ -6,6 +6,18 @@ Here is just a quick list of specific things that could be done around the site.
 
 Thanks in advance for any tasks completed!  
 
+==Specific call to action: help clean up HTML element references==
+
+I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures. I have written a detailed reference to creating/editing reference articles, which will help — see [[WPD:Content/Reference_articles|Reference articles]].
+
+===Things already done===
+
+* Changed link to HTML elements page on [[html|main HTML page]] from http://docs.webplatform.org/wiki/HTML/Elements to http://docs.webplatform.org/wiki/html/elements.
+* Kept list of subpages at http://docs.webplatform.org/wiki/html/elements, but moved useful content from http://docs.webplatform.org/wiki/HTML/Elements on to it.
+* 
+
+===Things that need to be done
+
 ==Specific call to action: help clean up tutorials/concepts!==
 
 I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling and grammar, making sure links and images work, and making improvements as you see fit.
