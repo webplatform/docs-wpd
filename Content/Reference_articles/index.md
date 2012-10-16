@@ -61,31 +61,36 @@ You can find a guide to the site structure at [[WPD:Content/Topic_Hierarchy|Topi
 
 ==4. Make sure the fields in the edit form are filled in correctly==
 
-The different types of reference article will have slightly different forms, and we don't have space to list them all here. What I will do is provide an example that should help you go in the right direction.
-
-In general, you should find some decent already existing material about the thing you are documenting, to look up missing details. The [[http://w3.org|main W3C site]] has a lot of material to help you! You can all use search engines, I'm sure!
+The different types of reference article will have slightly different forms, and we don't have space to list them all here. What I will do is provide some examples that should help you go in the right direction.
 
 <p class="note">TODO: ADD LINKS TO DECENT REFERENCES</p>
 
-In the article edit form, there are several form fields to fill in to create your article. Let's go through all of these now
+In general, you should find some decent already existing material about the thing you are documenting, to look up missing details. The [[http://w3.org|main W3C site]] has a lot of material to help you! You can all use search engines, I'm sure! 
 
-* '''Page title''': Enter a properly capitalised title for your article. By default, only the URL slug will be used, for example '''html javascript sortable table'''. This makes for a good URL slug, but not a very good article title, so enter '''Creating a sortable table using HTML and JavaScript''' in the Page title field.
-* '''High level issues, content, editorial notes''': Checking the checkboxes creates the flags that I mentioned above. Content and notes allows you to enter more details about what is currently wrong with the article. When going through articles, please check flags and enter more details to let the eventual editors deal with the article as effectively as possible.
-* '''Byline''': allows you to include your name, website address, and a publication date, if you want to be credited as the sole author of the text.
-* '''Top level summary''': this is where the brief summary goes - it says concisely what will be covered in the article.
-* '''Next/Previous page''': In a tutorial series, this is where to list the previous and next page in the series, to create a linear navigation between series members. We haven't really used this much so far.
-* '''Content'''. This is where the main content of the article goes, everything from the introduction to the conclusion/end.
+You should also write a couple of examples demonstrating usage of the subject being discussed, as most reference pages have space for adding some examples.
+
+===Example: an HTML markup element reference page===
+
+Let's look at an example article, [[html/elements/p|The <p> element]]. In its edit form, you have the following fields:
+
+* '''Page title''': Enter a properly capitalised title for your article. By default, only the URL slug will be used, for example '''html javascript sortable table'''. This makes for a good URL slug, but not a very good article title; in the example we've used '''The <p> (paragraph) element'''.
+* '''Standardization status''': Choose what the subject's standardization status is. If you are not sure, search for W3 specs mentioning the article, to see what they say. In our example's case, &lt;p&gt; has been in a finished W3C recommendation since about HTML 2.0, so no question really. When the subject is mentioned in multiple specs, you should look for the status of the oldest spec it is featured in. For example, HTML5 mentions &lt;p&gt;, but it is not finished, so not a good measure to go off.
+* '''API Name''' NOT SURE ABOUT THIS
+* '''Top level summary''': contains a brief summary that says what the subject does.
+* '''DOM interface''': In here, fill in '''dom/<name of interface>''', and it should create a link to the page that covers the DOM interface for the element. 
+* '''Main Content''': This is where the main content of the article goes: this usually contains further information about the feature that might be useful; in our case information on block/inline and closing tag. Copy these and fill them in for future HTML element references
+* '''Examples section''': This shouldn't be suppressed; you should fill in at least one or two examples to show usage of the subject, as appropriate.
 * '''Usage/Notes/Import notes''': ??? Ignore these if you are not sure, which I'm not.
+* '''Related specifications''': A place to provide link to the most recent specifications that cover the subject. In our example, we have included the links to the relevant pages of HTML5 and HTML4.01. Including links to older specs would not really be worth it. 
 * '''Compatibility section''': This is where you record the browser compatibility for the features covered by your article. They are fairly self-explanatory when you try to use them.
-* '''Topic clusters''': check the boxes that most relate to your article - do you want your article to be placed with a specific topics cluster? For '''Creating a sortable table using HTML and JavaScript''', HTML might be appropriate, but I'm not sure what else is. 
-* '''Manual links''': Here, include internal links to other articles that are related to this one. Where do you want your readers to go for more information? What should they read next after this article?
+* '''Topic clusters''': check the boxes that most relate to your article - do you want your article to be placed with a specific topics cluster?
+* '''Manual links''': Here, include internal links to other articles that are related to this one. Where do you want your readers to go for more information? What should they read to learn more about how to use the subject, or find more examples?
 * '''External links''': the same purpose as manual links, but this is specifically for external links.
 * '''Manual sections'': this is for any other sections you want to add that are not covered by the other sections in the form. For example I have included exercise questions in a lot of my articles, but you could think about including other things as well.
 * '''Topics''': check any topic boxes that related to technologies the article covers. Our '''Creating a sortable table using HTML and JavaScript''' example would definitely go under HTML and JavaScript.
 * '''External attribution''': if the article actually comes from another site, provide details here. You should make sure not to use content which isn't licensed for such reuse.
 
 '''FOR EXISTING ARTICLES''' Feel free to move stuff around to the right places, when fixing up an existing article.
-
 
 ==5. Ask for an editor/proofer!== 
 
