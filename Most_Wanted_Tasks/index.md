@@ -10,18 +10,18 @@ Thanks in advance for any tasks completed!
 
 I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures. I have written a detailed reference to creating/editing reference articles, which will help — see [[WPD:Content/Reference_articles|Reference articles]].
 
+===Things that need to be done===
+
+* All other HTML element reference pages - see http://docs.webplatform.org/wiki/html/elements for a list!
+* Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
+* Linking up each HTML element page to it's relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
+
 ===Things already done===
 
 * Changed link to HTML elements page on [[html|main HTML page]] from http://docs.webplatform.org/wiki/HTML/Elements to http://docs.webplatform.org/wiki/html/elements.
 * Kept list of subpages at http://docs.webplatform.org/wiki/html/elements, but moved useful content from http://docs.webplatform.org/wiki/HTML/Elements on to it.
 * Updated all the links to individual pages on http://docs.webplatform.org/wiki/html/elements to be correct - all lower case, and changed Meta:HTML to html in URLs still pointing to the meta namespace.
 * The [[html/elements/p|Paragraph element]] page has been pretty much completed: you can use this for a reference when completing other reference pages.
-
-===Things that need to be done===
-
-* All other HTML element reference pages - see http://docs.webplatform.org/wiki/html/elements for a list!
-* Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
-* Linking up each HTML element page to it's relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
 
 
 ===Pages being worked on===
