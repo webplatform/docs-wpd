@@ -28,6 +28,8 @@ CSS:
 
 JavaScript:
 
+* [[concepts/programming/drawing_images_onto_canvas|Drawing images onto canvas]] worked on by [[User:Asbjornenge|Asbjorn Enge]]
+
 SVG:
 
 == Other tasks to choose from ==
