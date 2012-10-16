@@ -23,13 +23,17 @@ I would like to call upon anyone interested to help start going through the HTML
 * Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
 * Linking up each HTML element page to it's relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
 
-====Pages that are being worked on, or have been finished====
+
+===Pages being worked on===
+
+* [[html/elements/blockquote|Blockquote]] worked on by [[User:Michistar|Michelle Carlough]]
+
+* [[html/elements/ul|ul]] worked on by [[User:Michistar|Michelle Carlough]]
+
+====Completed Pages====
 
 * [[html/elements/p|The paragraph element]]
 
-* [[html/elements/blockquote|Blockquote]] worked on by [[User:Michistar|Michelle]]
-
-* [[html/elements/ul|ul]] worked on by [[User:Michistar|Michelle]]
 
 ===[[User:Frozenice|fr0zenice's]] notes on updating the paragraph element page===
 
@@ -88,6 +92,8 @@ CSS:
 * [[tutorials/learning what css is|What is CSS?]] worked on by [[User:Cmills|Chris Mills]]
 * [[tutorials/learning why we use css|Why use CSS?]] worked on by [[User:Cmills|Chris Mills]]
 * [[guides/getting started with css|Getting started with CSS]] worked on by [[User:Cmills|Chris Mills]]
+* [[tutorials/css_text_quick_start|CSS Text Quick Start]] worked on by [[User:Michistar|Michelle Carlough]]
+* [[guides/advanced_css_text_styling|Advanced CSS Text Styling]] worked on by [[User:Michistar|Michelle Carlough]]
 
 JavaScript:
 
