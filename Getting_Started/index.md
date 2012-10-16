@@ -13,7 +13,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 '''For specific things to do''', take a look at our [[WPD:Most_Wanted_Tasks|WPD Most Wanted]] page, which is a place to record the things that most need doing right now. This will be added to as time goes on.
 
-'''Want to create a new tutorial or conept page?''' Find a thorough guide at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and Concept articles]]
+'''Want to create a new tutorial or concept page?''' Find a thorough guide at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and Concept articles]]
 
 ===5-minute tasks===
 
