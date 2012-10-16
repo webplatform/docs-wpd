@@ -27,7 +27,7 @@ I would like to call upon anyone interested to help start going through the HTML
 
 * [[html/elements/p|The paragraph element]]
 
-===[[User:Fr0zenice|fr0zenice's]] notes on updating the paragraph element page===
+===[[User:fr0zenice|fr0zenice's]] notes on updating the paragraph element page===
 
 * check what the editor before me had done: http://docs.webplatform.org/w/index.php?title=html%2Felements%2Fp&diff=13355&oldid=9438
 ** summary, remarks and some other stuff as it seems
