@@ -16,7 +16,19 @@ To get started, choose a concept or tutorial article you want to help improve, a
 
 ===Articles being worked on===
 
+General Concepts:
 
+HTML:
+
+CSS:
+
+* [[tutorials/learning what css is|What is CSS?]] worked on by [[User:Cmills|Chris Mills]]
+* [[tutorials/learning why we use css|Why use CSS?]] worked on by [[User:Cmills|Chris Mills]]
+* [[guides/getting started with css|Getting started with CSS]] worked on by [[User:Cmills|Chris Mills]]
+
+JavaScript:
+
+SVG:
 
 == Other tasks to choose from ==
 
