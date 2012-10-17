@@ -138,3 +138,8 @@ To refer to a <code>&lt;script&gt;</code> element, use the following:
  &amp;lt;script&amp;gt;
 
 Otherwise, the element is interpreted, and halts processing of the page.
+
+=Leading colon in page name=
+Pages with a leading colon in their name (e.g. [[css/selectors/pseudo-elements/::first-line|::first-line]]) will display their h1 title incorrectly, because the first colon will be interpreted as starting a dl list.
+
+To work around this, use an HTML escape of ":" (i.e. &amp;#58;) in the "custom title" field.
