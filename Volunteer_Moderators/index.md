@@ -10,6 +10,8 @@ There is a detailed guide to what counts as being "on topic", available at [[WPD
 
 You aren't expected to do this all the time, of course, and the webplatform staff will hang out on IRC/Q&A as much as possible. The aim here is just to take a bit of pressure of the webplatform.org guys, as moderating these venues 24/7 is a really time consuming task!
 
+See some guidance on [[WPD:Q&A Moderation Guide|how to act as a moredrator of Q&A]].
+
 ==What you get==
 
 For the moment, you just get a whole lot of love and appreciation for us, for so graciously helping out. We will also promote you to an Operator on IRC, so you have the rights to deal with situations.
