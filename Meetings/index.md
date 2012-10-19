@@ -1,0 +1,16 @@
+Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 12:00 ET / 9:00 PT, in the #webplatform IRC channel. 
+
+==Telcon Info==
+'''Toll-free dial-in number (U.S. and Canada):''' (866) 243-6264 
+
+'''International dial-in number:''' (224) 357-2812
+
+'''Conference code:''' 6654824671 
+
+==Agenda==
+* welcome
+* editor rights and responsibilities
+* important next steps in content curation
+* templates
+* bug triage
+* "what's on-topic" for forums and IRC
