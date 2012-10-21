@@ -1,0 +1,1 @@
+[[Image:http://docs.webplatform.org/w/skins/webplatform/images/cc-by-sa-small-black.svg]]
