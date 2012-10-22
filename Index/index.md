@@ -3,6 +3,7 @@ The '''WPD''' namespace is used for articles about the site or wiki itself, for 
 If you are making a new article for this area, please consider making it a sub-page of one of these top-level articles:
 * [[WPD:Getting_Started|Getting Started]]
 * [[WPD:FAQ|FAQ]]
+* [[WPD:Wishlist|Site Wishlist]]
 * [[WPD:Logo|Guidelines on using the logo]]
 * [[WPD:Community|Community]]
 * [[WPD:Policy|Policy]]
