@@ -14,3 +14,5 @@ Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 1
 * templates
 * bug triage
 * "what's on-topic" for forums and IRC
+* Who decides on merge/move/delete flags?
+* Acceptable language in IRC.
