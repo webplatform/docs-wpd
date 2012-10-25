@@ -145,6 +145,8 @@ Without markup on a page to specify that it's in a category (and if that categor
 
 In our implementation, the category is set within the template call. For example, if you inspect how [[Template:CSS_Property]] is implemented, at the very end of the template is a call to add the CSS Properties category to the page. Thus, anyone who puts a call to <nowiki>{{CSS_Property}}</nowiki> on the page will now have the page wired up to use the CSS Property Form from now on.
 
+{{TODO | Document how to switch a page type. }}
+
 ====Forms====
 
 Forms are the way that the "Edit with Form" button knows what UI to show to the user when they hit that button.
