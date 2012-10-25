@@ -149,7 +149,7 @@ In our implementation, the category is set within the template call. For example
 
 ====Forms====
 
-Forms are the way that the "Edit with Form" button knows what UI to show to the user when they hit that button.
+Forms are the way that the "Edit" button knows what UI to show to the user when they hit that button.
 
 Again, in general the way that forms are tied to a specific page is because that page belongs to a category, which itself specifies which form to use.
 
