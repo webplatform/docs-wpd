@@ -125,9 +125,7 @@ Templates are useful for imposing structure on your content. It allows us to mak
 
 Templates are also required if you want to create a user-friendly form to edit a page.
 
-Templates are also useful because it's possible to find all pages that include a template. This is why templates are great for TODOs, since we can list all of them.
-
-{{TODO | Document how to construct links to find all instances of a template.}}
+Templates are also useful because it's possible to find all pages that include a template. This is why templates are great for TODOs, since we can list all of them. If you want to find all of the articles that include a template, visit the template's page, then click 'What links here' in Tools.  You may want to select 'Hide links' if you only want to see pages that use (or ''transclude'') the template.
 
 Finally, templates are great because they allow us to hide some of the ugly guts of setting properties or doing weird table formatting. 
 
