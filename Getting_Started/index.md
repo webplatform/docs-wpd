@@ -1,3 +1,6 @@
+__TOC__
+
+
 =Contributing content to WPD =
 
 Anyone can contribute to WPD. To get started, you'll first need to [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup register] and verify your email address. There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have [[#5-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
