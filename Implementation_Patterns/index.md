@@ -101,7 +101,7 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 ====Common templates====
 
 * [[Template:TODO]] is for action items or ''implementation'' things that need to be changed in the page.
-* [[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors. Most often you'll actually use one of the sub-templates (which are listed from the [[Template:Editorial]] page.
+* [[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors. Most often you'll actually use one of the sub-templates (which are listed from the [[Template:Editorial]] page).
 * ''And many more''. We use templates for many things.
 
 {{TODO | Add a link to the specific implementation guide about the common templates. }}
