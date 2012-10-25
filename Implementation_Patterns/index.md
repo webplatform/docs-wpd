@@ -108,7 +108,7 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 
 ==Behind the Scenes==
 
-There is ''no need'' to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.
+'''There is ''no need'' to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.'''
 
 If you're still here, go through and read and understand the whole section above.
 
