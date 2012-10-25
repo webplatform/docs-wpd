@@ -119,7 +119,7 @@ There are a number of core concepts that we use in our implementation. They're a
 ====Templates====
 Templates are the single most important concept. They're built directly into MediaWiki. They're explained in the first section of this article. 
 
-We use templates all over the place. In fact, if you hit the ''Edit'' button (as opposed to the "Edit with form" button) you'll see that most of our page types are just big templates with a large number of parameters.
+We use templates all over the place. In fact, if you hit the ''Edit source'' button (as opposed to the "Edit" button) you'll see that most of our page types are just big templates with a large number of parameters. (For those of you familiar with Semantic Forms, our Edit button would normally be called "Edit with Form", and our "Edit source" button would normally be called "Edit".)
 
 Templates are useful for imposing structure on your content. It allows us to make changes that affect lots of pages at once. For example, if we decided that the Values section should come before the Syntax section in CSS Property articles, we could make one change to the CSS Property template and it would automatically change all CSS property articles.
 
