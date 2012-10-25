@@ -29,6 +29,9 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 *Unicode characters in JavaScript files
 *Specifying fonts
 
+==Article Summaries==
+All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
+
 ==Section headings==
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
 
