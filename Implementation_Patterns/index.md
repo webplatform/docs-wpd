@@ -74,6 +74,8 @@ Again, different templates will expect either named or positional parameters. Ch
 
 Importantly, you '''can pass complicated MediaWiki markup as arguments''' to other templates, including ''other'' template calls. MediaWiki can handle nested templates.
 
+{{Note | One of the most common gotchas is if you use a pipe character (a {{!}}) in the parameter value. This will break many pages in hard-to-diagnose ways. Importantly, almost everything you fill into a form field when editing a page will be passed into a template, and thus should not include any unescaped pipes. Find out more at [[WPD:Manual_Of_Style/Gotchas]] }}
+
 ====How templates use parameters====
 This section isn't required to know how to use parameters, but may help in figuring out what a template's doing if you peek underneath the covers.
 
