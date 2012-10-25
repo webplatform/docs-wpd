@@ -40,9 +40,9 @@ For pages that document a CSS At Rule (like @keyframes).
 {{#forminput:form=CSS At Rule|default value=foo|button text=Create CSS At Rule Page}}
 
 ==CSS Function==
-For pages that document a CSS function (like calc).
+For pages that document a CSS function (like calc()).
 {{TODO | Examples of topics and URLS}}
-{{#forminput:form=CSS Function|default value=foo|button text=Create CSS Function Page}}
+{{#forminput:form=CSS Function|default value=css/functions/foo|button text=Create CSS Function Page}}
 
 ==CSS Keyword==
 For pages that document a CSS keyword (like <code>inherit</code>).
