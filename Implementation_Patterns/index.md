@@ -129,8 +129,6 @@ Templates are also useful because it's possible to find all pages that include a
 
 Finally, templates are great because they allow us to hide some of the ugly guts of setting properties or doing weird table formatting. 
 
-{{TODO | Include links to template documentation }}
-
 There are some built-in templates, like #if. You can find out more here: https://www.mediawiki.org/wiki/Help:Extension:ParserFunctions . Note there's a gotcha around doing table syntax in these; see at the bottom of this article.
 
 {{Note | There's a potential gotcha with these special "templates": after the name, you have a '''colon''', not a pipe. }}
