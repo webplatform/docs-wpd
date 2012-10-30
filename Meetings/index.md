@@ -20,3 +20,4 @@ We simultaneously meet in the #webplatform IRC channel. Afterwards we will send 
 * "what's on-topic" for forums and IRC
 * Who decides on merge/move/delete flags?
 * Acceptable language in IRC.
+* DocSprint 11/3.
