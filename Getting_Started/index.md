@@ -46,7 +46,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 * '''Split articles''' - this is the same as above, except in the opposite direction.
 * '''[[WPD:New_Page|Write new articles]]''' It is always great to see people writing new content. To find out what needs to be written, see the suggestion board. If you are not sure if something needs to be written, ask about it first, any of the methods documented on our [[WPD:Help|Help page]]. If you haven't got time to write a complete article, it is still worth creating a new page with the beginnings of a new article on it.
 * '''Suggest new topics for inclusion''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. You can do this in a variety of ways — use any of the methods documented on our [[WPD:Help|Help page]].
-* '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so people who others can follow in your footsteps later.
+* '''Improve internal documentation''' If it took you time to figure out how to do something, consider writing up a guide so others can follow in your footsteps later.
 * '''Rewriting CC-BY-SA content for CC-BY use''' Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)] for maximum reusability. Some material on the site comes from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. If you see articles licensed like this, feel free to rewrite the content.
 
 ==Editing an existing page==
