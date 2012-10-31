@@ -106,6 +106,8 @@ SVG:
 ===5 Minute Tasks===
 * Import an article or two worth of compatibility information from CoreMob's published compatibility table: https://docs.google.com/spreadsheet/ccc?key=0AuIhlK0fCwP4dEFPR1pUWHk1QVczcV9xbFAtX19CMXc#gid=0
 
+* Help [[WPD:Touch_Pages|Touch Pages]]
+
 ===Half Hour Tasks===
 
 
