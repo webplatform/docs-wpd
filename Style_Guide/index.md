@@ -8,7 +8,7 @@ When creating an article from the [http://docs.webplatform.org/wiki/WPD:New_Page
 
 A few guidelines:
 *Do not capitalize unless absolutely vital for syntax correctness. Thus, for an article about user media, you might enter "usermedia"; for an article specifically about the getUserMedia method, you might instead enter "getUserMedia".
-*Use blanks, not underscores, to separate words, as underscores are generated when the page is created. Thus for an article about the HTLM5 audio tag, you might enter "audio tag"; the generated URL would be "audio_tag".
+*Use blanks, not underscores, to separate words, as underscores are generated when the page is created. Thus for an article about the HTML5 audio tag, you might enter "audio tag"; the generated URL would be "audio_tag".
 *Do not use other punctuation, such as dashes or parentheses, in a URL. Really, don't.
 *Do not use articles (the, a, an) in URLs unless absolutely necessary.
 
