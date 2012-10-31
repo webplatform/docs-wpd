@@ -15,5 +15,5 @@ When work is completed, change the status to 'Done', and leave it in the table. 
 |-
 | Example || Example || Example || Example || Example
 |-
-| /apis || WebRTC reference || scottrowe || Working on it, dammit! || 10.31.2012 - boo!
+| /apis/webrtc || WebRTC reference || scottrowe || Working on it, dammit! || 10.31.2012 - boo!
 |}
