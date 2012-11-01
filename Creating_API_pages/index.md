@@ -16,9 +16,20 @@ You really only need one landing page. It's enough to just have '''apis/webrtc''
 
 The landing page then lists the APIs as links - under headings, if necessary - like this:
 <nowiki>
-<title>WebRTC API</title>&br;
+<title>WebRTC API</title>
+</nowiki>
+<nowiki>
    <h1>MediaStream API</h1>
+</nowiki>
+<nowiki>
    <a href...>MediaStream</a>
+</nowiki>
+<nowiki>
    <a href...>LocalMediaStream</a>
+</nowiki>
+<nowiki>
    <a href...>
+</nowiki>
+<nowiki>
+   <a href...>MediaStreamTrack</a>
 </nowiki>
