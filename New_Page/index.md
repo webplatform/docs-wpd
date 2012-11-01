@@ -18,11 +18,11 @@ If you're documenting an API, like <code>document</code>. Generally all pages in
 
 ==API Object Method==
 If you're documenting a ''method'' of an API, like <code>appendChild</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
-{{#forminput:form=API_Object_Method|default value=apis/foo/bar|button text=Create API Object Method Page}}
+{{#forminput:form=API_Object_Method|default value=apis/foo/methods/bar|button text=Create API Object Method Page}}
 
 ==API Object Property==
 If you're documenting a ''property'' of an API, like <code>childNodes</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
-{{#forminput:form=API_Object_Property|default value=apis/foo/baz|button text=Create API Object Property Page}}
+{{#forminput:form=API_Object_Property|default value=apis/foo/properties/baz|button text=Create API Object Property Page}}
 
 ==Concept==
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
