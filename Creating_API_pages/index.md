@@ -1,4 +1,4 @@
-This article offers a methodology for adding new pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[/apis/webrtc/ | WebRTC API]] pages.
+This article offers a methodology for adding new pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc/ | WebRTC API]] pages.
 
 =Landing page=
 
