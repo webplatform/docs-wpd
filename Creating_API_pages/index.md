@@ -12,6 +12,23 @@ The landing pages should be at the same level in the structure as the API object
 
 Note that landing pages, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''.
 
-You really only need one landing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a landing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', or '''apis/datachannel'''. All of these sub landing pages should just be represented as headings in the main landing page, not as pages in their own right.
+You really only need one landing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a landing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', or '''apis/datachannel'''. All of these sub landing pages should just be represented as headings in the main landing page, not as pages in their own right, like this:
+ <nowiki>
+<title>WebRTC API</title>
+<p>Some nice things about the API.</p>
+    <h1>MediaStream API</h1>
+    <p>More niceties</p>
+        <a href...>MediaStream</a>
+        <a href...>LocalMediaStream</a>
+        <a href...>MediaStreamTrack</a>
+        <a href...>MediaStreamTrackList</a>
+    <h1>PeerConnection API</h1>
+    <p>More niceties</p>
+        <a href...>RTCPeerConnection</a>
+    etc.</nowiki>
 
-The landing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API.
+The landing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them. That's next.
+
+=Stubbing out the pages=
+
+The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out as well as providing you with the ability to create the links you need between pages as you fill them out.
