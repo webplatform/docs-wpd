@@ -33,9 +33,10 @@ The landing page then lists the APIs as links - under headings, if necessary - a
 
 # Navigate to the [[WPD:New_Page]] page.
 # Under the '''Other/Basic''' page type, enter '''apis/foo'''.
-: Where '''foo''' is the name of the landing page, all lower case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
+#: Where '''foo''' is the name of the landing page, all lower case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
 # Click the '''Create Basic Page''' button.
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
+
 
 =Stubbing out the pages=
 
