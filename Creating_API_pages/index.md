@@ -4,7 +4,7 @@ This article offers a methodology for adding new pages to Web Platform Docs. It 
 
 The landing page is the top-level page that introduces the subject, in this example the WebRTC API. Most of the time, this page is not the proper name of an API or other element. Rather, it is a catch-all description for a group of APIs. In this example, WebRTC is a catch-all for the MediaStream, PeerConnection, and DataChannel APIs. To make matters worse, these are catch-alls themselves. The MediaStream API is actually composed of the MediaStream, LocalMediaStream, MediaStreamTrack, and MediaStreamTrackList objects. These are the actual APIs, the named objects that have methods and properties and which the developer uses in her application.
 
-We want to associate all of the objects and their members properly by organizing the content hierarchically with the objects as parents and their members as child pages. It serves no useful purpose to put those objects under the landing pages - the result is an artificial representation and long URLs that leave all the important bits hidden at the end of the browser's navigation field.
+We want to associate all of the objects and their members properly by organizing the content hierarchically with the objects as parents and their members as child pages. It serves no useful purpose to put those objects under the landing pages - the result is an artificial representation and long URLs that leave all the important bits hidden at the end of the browser's navigation field. In other words, the landing page is not the parent page of the API objects. Rather, it is a reference page that associates the common name of the API (WebRTC) with its actual components (MediaStream, LocalMediaStream, etc.).
 
 So, instead of '''apis/webrtc/mediastream/LocalMediaStream''' the URL of the page should read, '''apis/LocalMediaStream'''.
 
@@ -27,9 +27,18 @@ You really only need one landing page. It's enough to just have '''apis/webrtc''
     <p>More niceties</p>
         <a href...>RTCPeerConnection</a>
     etc.</nowiki>
+The landing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them.
 
-The landing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them. That's next.
+==Creating the landing page==
+
+# Navigate to the [[WPD:New_Page]] page.
+# Under the '''Other/Basic''' page type, enter '''apis/foo'''.
+: Where '''foo''' is the name of the landing page, all lower case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
+# Click the '''Create Basic Page''' button.
+# Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 
 =Stubbing out the pages=
 
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
+
+The first page to create, after the landing page, is that for the first API object; in this example, MediaStream.
