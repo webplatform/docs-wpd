@@ -16,16 +16,16 @@ You really only need one listing page. It's enough to just have '''apis/webrtc''
  <nowiki>
 <title>WebRTC API</title>
 ...
-<p>Some nice things about the API.</p>
-    <h1>MediaStream API</h1>
-    <p>More niceties</p>
-        <a href...>MediaStream</a>
-        <a href...>LocalMediaStream</a>
-        <a href...>MediaStreamTrack</a>
-        <a href...>MediaStreamTrackList</a>
-    <h1>PeerConnection API</h1>
-    <p>More niceties</p>
-        <a href...>RTCPeerConnection</a>
+Some nice things about the API.
+=MediaStream API=
+More niceties.
+        [[apis/MediaStream|MediaStream]]
+        [[apis/LocalMediaStream|LocalMediaStream]]
+        [[apis/MediaStreamTrack|MediaStreamTrack]]
+        [[apis/MediaStreamTrackList|MediaStreamTrackList]]
+=PeerConnection API=
+ More niceties.
+        [[apis/RTCPeerConnection|RTCPeerConnection]]
     etc.</nowiki>
 The listing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them.
 
