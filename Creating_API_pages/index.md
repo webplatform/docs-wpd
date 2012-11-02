@@ -30,7 +30,7 @@ You really only need one listing page. It's enough to just have '''apis/webrtc''
 The listing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them.
 
 ==Creating the listing page==
-
+The [[apis/webrtc]] listing page was created as follows.
 # Navigate to the [[WPD:New_Page]] page.
 # Under the '''API Lising'' page type, enter '''apis/foo'''.
 #: Where '''foo''' is the name of the listing page, all lower case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
@@ -43,7 +43,7 @@ The listing page then lists the APIs as links - under headings, if necessary - a
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
 
 ==Creating the API Object page==
-The first page to create, after the listing page, is that for the first API object; in this example, MediaStream.
+The first page to create, after the listing page, is that for the first API object; in this example, [[apis/MediaStream]].
 # Navigate to the [[WPD:New_Page]] page.
 # Under the '''API Object''' page type, enter '''apis/Foo'''.
 #: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
