@@ -31,7 +31,7 @@ The listing page then lists the APIs as links - under headings, if necessary - a
 
 ==Creating the listing page==
 The [[apis/webrtc]] listing page was created as follows.
-# Navigate to the [[WPD:New_Page]] page.
+# Navigate to [[WPD:New_Page]].
 # Under the '''API Lising'' page type, enter '''apis/foo'''.
 #: Where '''foo''' is the name of the listing page, all lower case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
 # Click the '''Create API Listing Page''' button.
@@ -44,7 +44,7 @@ The best way to work on all of this is to first draw out the architecture as a h
 
 ==Creating the API Object page==
 The first page to create, after the listing page, is that for the first API object; in this example, [[apis/MediaStream]].
-# Navigate to the [[WPD:New_Page]] page.
+# Navigate to [[WPD:New_Page]].
 # Under the '''API Object''' page type, enter '''apis/Foo'''.
 #: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
