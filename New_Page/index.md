@@ -26,7 +26,7 @@ If you're documenting a ''property'' of an API, like <code>childNodes</code>. Ge
 
 ==API Object Event==
 If you're documenting an ''event'' of an API, like <code>click</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
-{{#forminput:form=Event|default value=apis/foo/events/foz|button text=Create API Object Event Page}}
+{{#forminput:form=API_Object_Event|default value=apis/foo/events/foz|button text=Create API Object Event Page}}
 
 ==Concept==
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
