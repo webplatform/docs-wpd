@@ -31,4 +31,4 @@ The landing page then lists the APIs as links - under headings, if necessary - a
 
 =Stubbing out the pages=
 
-The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out as well as providing you with the ability to create the links you need between pages as you fill them out.
+The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
