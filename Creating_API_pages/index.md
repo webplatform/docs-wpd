@@ -15,6 +15,7 @@ Note that landing pages, not being proper names of API objects, do not have came
 You really only need one landing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a landing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', or '''apis/datachannel'''. All of these sub landing pages should just be represented as headings in the main landing page, not as pages in their own right, like this:
  <nowiki>
 <title>WebRTC API</title>
+...
 <p>Some nice things about the API.</p>
     <h1>MediaStream API</h1>
     <p>More niceties</p>
