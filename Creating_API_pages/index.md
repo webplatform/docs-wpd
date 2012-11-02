@@ -49,3 +49,5 @@ The first page to create, after the listing page, is that for the first API obje
 #: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
+
+==Creating the API Object Method, Property, and Event pages==
