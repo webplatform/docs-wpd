@@ -38,9 +38,14 @@ The listing page then lists the APIs as links - under headings, if necessary - a
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 
 
-
 =Stubbing out the pages=
 
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
 
+==Creating the API Object page==
 The first page to create, after the listing page, is that for the first API object; in this example, MediaStream.
+# Navigate to the [[WPD:New_Page]] page.
+# Under the '''API Object''' page type, enter '''apis/Foo'''.
+#: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_of_Style]] for more information about titles and headings.
+# Click the '''Create API Object Page''' button.
+# Mark the page as a stub.
