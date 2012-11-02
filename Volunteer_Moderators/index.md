@@ -58,4 +58,4 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 * [[User:Michistar|Michelle Carlough]] (USA?, Q&A only)
 * [[User:Rainulf|Rainulf Pineda]] (Toronto, Canada, _Rainulf on freenode)
 * [[User:eternicode|Andrew Rowls]] (Q&A only, eternicode on freenode, lives in Indiana USA)
-* Michael del Tito (Pennsylvania, USA, mdel on freenode)
+* Michael Del Tito (Pennsylvania, USA, mdel on freenode)
