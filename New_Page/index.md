@@ -69,9 +69,9 @@ For pages that document a data type (for CSS, JavaScript, etc).
 {{#forminput:form=Data_Type_Page|default value=foo|button text=Create Data Type Page}}
 
 ==Event==
-For pages that document a DOM event, like <code>click</code>
+For pages that document a DOM event, like <code>click</code> (dom/events/faz) or an API object event like <code>ended</code> (apis/foo/events/faz).
 {{TODO | Examples of topics and URLS}}
-{{#forminput:form=Event|default value=foo|button text=Create Event Page}}
+{{#forminput:form=Event|default value=faz|button text=Create Event Page}}
 
 ==Guide==
 For pages that are guides to a given complex topic.
