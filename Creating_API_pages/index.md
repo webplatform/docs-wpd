@@ -2,7 +2,7 @@ This article offers a methodology for adding new pages to Web Platform Docs. It 
 
 =Listing page=
 
-Limerick
+Lemon Ricky
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. Most of the time, this page is not the proper name of an API or other element. Rather, it is a catch-all description for a group of APIs. In this example, WebRTC is a catch-all for the MediaStream, PeerConnection, and DataChannel APIs. To make matters worse, these are catch-alls themselves. The MediaStream API is actually composed of the MediaStream, LocalMediaStream, MediaStreamTrack, and MediaStreamTrackList objects. These are the actual APIs, the named objects that have methods and properties and which the developer uses in her application.
 
