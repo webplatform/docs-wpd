@@ -9,7 +9,7 @@ To create a new page:
 
 
 ==API Listing==
-For pages that primarily list APIs, like css/properties.
+For pages that primarily list APIs, like apis/webrtc.
 {{#forminput:form=API_Listing|default value=foo|button text=Create API Listing Page}}
 
 ==API Object==
