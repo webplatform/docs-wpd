@@ -3,7 +3,7 @@ __TOC__
 
 =Contributing content to WPD =
 
-Anyone can contribute to WPD. To get started, you'll first need to [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup register] and '''verify your email address'''. There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have [[#5-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
+Anyone can contribute to WPD. To get started, you'll first need to [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup register] and '''verify your email address'''. There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have [[#Five-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
 
 The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask the community on IRC or e-mail]]!
 <div style='background-color:transparent'>
@@ -20,7 +20,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 '''Want to create a new reference page, or edit an existing one?''' Find a thorough guide at [[WPD:Content/Reference_articles|Reference articles]].
 
-===5-minute tasks===
+===Five-minute tasks===
 
 * '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|grammar flag checked]] need some attention to fix grammar and spelling mistakes. Often these changes require no knowledge of MediaWiki or web development domain expertise to help with, which makes them great starter issues to focus on. See [[WPD:Flags/Content_Grammar_Spelling|for more information]].
 * '''Filling in missing compatibility information''' Some pages have compatibility tables with missing cells, which you can find on [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= this list]. Generally the information can be verified by comparing a couple of other sources (such as http://caniuse.com/) and then inputting the values in the form. 
