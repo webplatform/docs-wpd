@@ -6,6 +6,54 @@ Here is just a quick list of specific things that could be done around the site.
 
 Thanks in advance for any tasks completed!  
 
+===Five Minute Tasks===
+* Import an article or two worth of compatibility information from CoreMob's published compatibility table: https://docs.google.com/spreadsheet/ccc?key=0AuIhlK0fCwP4dEFPR1pUWHk1QVczcV9xbFAtX19CMXc#gid=0
+
+===Half Hour Tasks===
+
+* Help improve the JS Libraries page [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19834 bug 19834]
+
+* Help create the pages for server-side languages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19391 bug 19391].  Please remember that we are NOT fully documenting langauges and that the content should be non-opinionated.
+
+* Remove HTML4 specific content from some tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19719 bug 19719]
+
+* Clean the HTML tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19720 bug 19720]
+
+===Half Day Tasks===
+
+* Help improve HTML attribute pages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500 bug 19500]
+
+* Help import some that failed during the initial import [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19314 bug 19314]
+
+Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
+
+* Help [[WPD:Touch_Pages|Touch Pages]]
+
+* Review merges from meta:html into html/elements [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19265 bug 19265]
+
+* Look for duplicate pages that are in the root page.
+
+* Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
+
+* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].   These are typically the pages that need the most work at this time.
+
+* Move capitalized page paths that aren't following the style guide, check [[:Category:CSS]] for this
+
+* Expand Topics on almost every page, every page should have multiple topics
+
+
+===Brainstorming===
+
+* Let's find a way to display CSS Properties better [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19835 bug 19835]
+
+===Always going===
+
+* Clean up pages that do not have needed templates
+
+
+== Other tasks to choose from ==
+
+
 ==Specific call to action: help clean up HTML element references==
 
 I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures. I have written a detailed reference to creating/editing reference articles, which will help — see [[WPD:Content/Reference_articles|Reference articles]].
@@ -101,38 +149,6 @@ JavaScript:
 
 SVG:
 
-== Other tasks to choose from ==
-
-===5 Minute Tasks===
-* Import an article or two worth of compatibility information from CoreMob's published compatibility table: https://docs.google.com/spreadsheet/ccc?key=0AuIhlK0fCwP4dEFPR1pUWHk1QVczcV9xbFAtX19CMXc#gid=0
-
-* Help [[WPD:Touch_Pages|Touch Pages]]
-
-===Half Hour Tasks===
-
-
-===Half Day Tasks===
-
-* Help close [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500 bug 19500]
-
-* Help close [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19314 bug 19314]
-
-Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
-
-* Look for duplicate pages that are in the root page.
-
-* Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
-
-* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].   These are typically the pages that need the most work at this time.
-
-* Move capitalized page paths that aren't following the style guide, check [[:Category:CSS]] for this
-
-* Expand Topics on almost every page, every page should have multiple topics
-
-
-====Always going====
-
-* Clean up pages that do not have needed templates
 {{Notes_Section
 |Notes=Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
 }}
