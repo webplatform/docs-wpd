@@ -9,7 +9,7 @@ We are generally most concerned initially with getting the newer features covere
 
 {{Note | Extended prose discussions on compatibility may have citation and reuse issues, and so must be avoided (without training beyond this Getting Started guideline).  See http://docs.webplatform.org/wiki/WPD:External_Attribution.}}
 
-Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup; use this {{TODO | insert}} link to get caught up.
+Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup.  See http://docs.webplatform.org/wiki/WPD:Getting_Started.
 
 The basic process flow (to be detailed below) is:
 * locate and select an element that is missing Compatibility info
