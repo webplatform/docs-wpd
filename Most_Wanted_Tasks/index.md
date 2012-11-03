@@ -37,7 +37,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 * Look for duplicate pages that are in the root page.
 
-* Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
+* Put every page into a category except for the main page.  Review the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
 
 * Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].  These are typically the pages that need the most work at this time.
 
@@ -60,7 +60,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 ==Specific call to action: help clean up HTML element references==
 
-I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures.  I have written a detailed reference to creating/editing reference articles, which will help.  See [[WPD:Content/Reference_articles|Reference articles]].
+I would like to call upon anyone interested to help start going through the HTML element reference pages and surrounding structures.  I have written a detailed reference to creating/editing reference articles, which will help.  See [[WPD:Content/Reference_articles|Reference articles]].
 
 ===Things that need to be done===
 
