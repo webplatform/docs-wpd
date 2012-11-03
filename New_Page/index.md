@@ -24,6 +24,9 @@ If you're documenting a ''method'' of an API, like <code>appendChild</code>. Gen
 If you're documenting a ''property'' of an API, like <code>childNodes</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
 {{#forminput:form=API_Object_Property|default value=apis/foo/properties/baz|button text=Create API Object Property Page}}
 
+==API Object Event==
+Use the [[#Event]] form, below, with a URL like '''apis/foo/events/bar'''.
+
 ==Concept==
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
 {{TODO | Examples of topics and URLS}}
@@ -69,8 +72,7 @@ For pages that document a data type (for CSS, JavaScript, etc).
 {{#forminput:form=Data_Type_Page|default value=foo|button text=Create Data Type Page}}
 
 ==Event==
-For pages that document a DOM event, like <code>click</code> (dom/events/faz) or an API object event like <code>ended</code> (apis/foo/events/faz).
-{{TODO | Examples of topics and URLS}}
+For pages that document a DOM event, like <code>click</code> (dom/events/click) or an API object event like <code>ended</code> (apis/MediaStream/events/ended).
 {{#forminput:form=Event|default value=faz|button text=Create Event Page}}
 
 ==Guide==
