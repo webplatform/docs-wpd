@@ -65,7 +65,7 @@ Each of these content types has a unique URL name space--that is, where the page
 
 ===Architecture===
 
-For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Architecture|architecture]] of this site.
+For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Content/Topic_Hierarchy]] of this site.
 
 ===Style guide===
 
