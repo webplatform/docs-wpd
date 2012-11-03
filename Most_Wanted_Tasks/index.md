@@ -150,6 +150,9 @@ JavaScript:
 * [[concepts/programming/drawing_images_onto_canvas|Drawing images onto canvas]] worked on by [[User:Asbjornenge|Asbjorn Enge]]
 
 SVG:
+
+* [[wiki/svg]] worked on by [[dirkschulze|Dirk Schulze]]
+
 {{Notes_Section
 |Notes=Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
 }}
