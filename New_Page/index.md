@@ -3,7 +3,7 @@ Follow the steps below as you create new '''content''' pages. (Content pages are
 To create a new page:
 # Figure out where the page should live. Consult the [[WPD:Architecture | architecture]] page for an overview of the URL structure of the site.
 # Identify the most specific form below that fits the type of content you'd like to create. The forms are listed in decreasing order of specificity.
-# In the associated input box, type the full name of the page you'd like to create (including slashes if you're creating a sub-page) and hit the "Create foo" button, where "foo" is the name of the form you want to use. For file naming guidelines, consult the [[WPD:Manual_Of_Style | webplatform.org style guide]].
+# In the associated input box, type the full name of the page you'd like to create (including slashes if you're creating a sub-page) and hit the "Create foo" button, where "foo" is the name of the form you want to use. For file naming guidelines, consult the [[WPD:Manual_Of_Style | style guide]].
 
 {{Note| This page lists all page templates that currently exist. As we create more, we'll add them here.}}
 
