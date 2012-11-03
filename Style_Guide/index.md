@@ -4,7 +4,9 @@ WebPlatform Docs (WPD) is intended to be a repository of high quality, reliable,
 <!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
 
 ==URLs==
-When creating an article from the [[WPD:New_Page | new page page]], bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
+The first thing you need to do when adding new content is to decide the location. Consult the [[WPD:Content/Topic_Hierarchy | topic hierarchy page]] to understand how content is organized and where your new page should live.
+
+Next, go to the [[WPD:New_Page new page page]] to create your new page using one of the defined content page templates. When creating an article from the [http://docs.webplatform.org/wiki/WPD:New_Page new page page], bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
 
 A few guidelines:
 *Do not capitalize unless absolutely vital for syntax correctness. Thus, for an article about user media, you might enter "usermedia"; for an article specifically about the getUserMedia method, you might instead enter "getUserMedia".
