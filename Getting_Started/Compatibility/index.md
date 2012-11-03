@@ -19,8 +19,8 @@ Background -- this starter guide assumes that you are already registered with WP
 * update the existing reference page with the Compatibility info
 * check your work back in (note any gotchas, incompleteness, or issues, and let others know that your work is done and ready for review and/or use)
 
-==Special instructions for the November Adobe Doc Sprint (temporary)==
-* updating the task spreadsheet (google doc) {{TODO | insert link}}
-* notifying the IRC {{TODO | insert link}}
+==Special instructions for the November Adobe Doc Sprint (or other doc sprints or hackathons)==
+* avoiding collisions (simultaneous work on the same page by two contributors) and notifying others
+* updating the task spreadsheet (google doc - https://docs.google.com/spreadsheet/ccc?key=0Aoc3F7WkVTNUdGg1UnVCakExMjZBUjIxYThGdTh5X2c#gid=0)
 
 ==Add real and useful stuff here==
