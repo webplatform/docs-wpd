@@ -31,8 +31,6 @@ Thanks in advance for any tasks completed!
 
 Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
 
-* Help [[WPD:Touch_Pages|Touch Pages]] -- This is done 11/2/2012 EPG
-
 * Review merges from meta:html into html/elements [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19265 bug 19265]
 
 * Look for duplicate pages that are in the root page.
@@ -74,6 +72,7 @@ I would like to call upon anyone interested to help start going through the HTML
 * Kept list of subpages at http://docs.webplatform.org/wiki/html/elements, but moved useful content from http://docs.webplatform.org/wiki/HTML/Elements on to it.
 * Updated all the links to individual pages on http://docs.webplatform.org/wiki/html/elements to be correct - all lower case, and changed Meta:HTML to html in URLs still pointing to the meta namespace.
 * The [[html/elements/p|Paragraph element]] page has been pretty much completed: you can use this for a reference when completing other reference pages.
+* Help [[WPD:Touch_Pages|Touch Pages]] -- This is done 11/2/2012 EPG
 
 
 ===Pages being worked on===
