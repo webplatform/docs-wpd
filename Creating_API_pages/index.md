@@ -51,4 +51,17 @@ The first page to create, after the listing page, is that for the first API obje
 # Mark the page as a stub.
 
 ==Creating the API Object Method, Property, and Event pages==
-The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize the members as represented their own pages. You have to create a page for each member using the [[WPD:New_Page]].
+The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
+
+For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has the following members:
+*Methods
+**[[apis/MediaStream/methods/add|add()]]
+**[[apis/MediaStream/methods/item|item()]]
+**[[apis/MediaStream/methods/remove|remove()]
+*Properties
+**[[apis/MediaStream/properties/length|length]]
+**[[apis/MediaStream/properties/onaddtrack|onaddtrack]]
+**[[apis/MediaStream/properties/properties/onremovetrack|onremovetrack]]
+*Events
+**[[apis/MediaStream/events/addtrack|addtrack]]
+**[[apis/MediaStream/events/removetrack|removetrack]]
