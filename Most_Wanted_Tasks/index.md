@@ -17,7 +17,7 @@ Thanks in advance for any tasks completed!
 
 * Help improve the JS Libraries page [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19834 bug 19834]
 
-* Help create the pages for server-side languages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19391 bug 19391].  Please remember that we are NOT fully documenting langauges and that the content should be non-opinionated.
+* Help create the pages for server-side languages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19391 bug 19391].  Please remember that we are NOT fully documenting languages and that the content should be non-opinionated.
 
 * Remove HTML4 specific content from some tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19719 bug 19719]
 
