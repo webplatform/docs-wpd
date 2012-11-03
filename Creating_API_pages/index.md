@@ -33,7 +33,7 @@ The listing page then lists the APIs as links - under headings, if necessary - a
 The [[apis/webrtc]] listing page was created as follows.
 # Navigate to [[WPD:New_Page]].
 # Under the '''API Lising'' page type, enter '''apis/foo'''.
-#: Where '''foo''' is the name of the listing page, all lower case. See the [[WPD:Manual_Of_Style]] for more information about titles and headings.
+#: Where '''foo''' is the name of the listing page, all lower case. See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Listing Page''' button.
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 &nbsp;
