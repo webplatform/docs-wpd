@@ -151,8 +151,7 @@ JavaScript:
 
 SVG:
 
-* [[wiki/svg]] worked on by [[dirkschulze|Dirk Schulze]]
-
+* [[svg]] worked on by [[dirkschulze|Dirk Schulze]]
 {{Notes_Section
 |Notes=Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
 }}
