@@ -20,8 +20,15 @@ Background -- this starter guide assumes that you are already registered with WP
 * check your work back in (note any gotchas, incompleteness, or issues, and let others know that your work is done and ready for review and/or use)
 
 ==Special instructions for the November Adobe Doc Sprint (or other doc sprints or hackathons)==
-* avoiding collisions (simultaneous work on the same page by two contributors) and notifying others
-* updating the task spreadsheet (google doc - https://docs.google.com/spreadsheet/ccc?key=0Aoc3F7WkVTNUdGg1UnVCakExMjZBUjIxYThGdTh5X2c#gid=0)
+These instructions were created in order to set up the Compatibility Info update as a quick entry point for new participants to engage.  In order to have everyone's efforts make a difference, some special attention is needed.
+
+* Avoiding collisions (simultaneous work on the same page by two contributors) and notifying others -- see "Avoiding edit collisions" (below).
+
+* updating the task spreadsheet (google doc for Nov 2012 event at Adobe SF is/was https://docs.google.com/spreadsheet/ccc?key=0Aoc3F7WkVTNUdGg1UnVCakExMjZBUjIxYThGdTh5X2c#gid=0)
+
+With hundreds of incomplete compatibility items flagged in WPD, there is currently only a generic task item in the tracking spreadsheet.  You can clone/copy the row and show it as "In process" with your WPD userid, and put the topics you have done or are working on in the "Notes" field.  If you do a single item (as your "warm-up" exercise), you can then flag it complete and move on to your next task.  If you are going to do a bunch, try to locate the others who are doing the same and work out a way to keep up the momentum without colliding.
+
+One suggestion for event organizers might be to pull a list of prioritized topics to hit, and then let participants pull from the list, or have others nominate priority topics (the official report from the repo can a bit daunting, at this stage).
 
 ==Selecting items to update==
 {{Note|We are most interested in covering the emerging and most recent features in JS/CSS3/HTML5.  If it was covered by Safari 1 or IE 4, the information is useful for completeness, but is not a priority.}}
