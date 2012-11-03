@@ -46,7 +46,7 @@ The best way to work on all of this is to first draw out the architecture as a h
 The first page to create, after the listing page, is that for the first API object; in this example, [[apis/MediaStream]].
 # Navigate to [[WPD:New_Page]].
 # Under the '''API Object''' page type, enter '''apis/Foo'''.
-#: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_Of_Style]] for more information about titles and headings.
+#: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
 
