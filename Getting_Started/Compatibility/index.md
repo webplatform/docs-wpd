@@ -63,3 +63,19 @@ Additional rows should be sorted by name.  Use the drag handles to the right of 
 Examples to review:
 * GetElementById
 * Blur
+
+==Compatibility Notes==
+There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that can't be covered just by yes/no/?? and a version number.  Just click "Add another" to insert a row.
+
+==Closure and exceptions==
+When you have completed your edits (or have simply done a significant piece of work which is not yet saved), enter a summary of your changes (if needed), check the box for a "minor edit" if you only tweaked existing info, click "Show preview" to review your work (recommended), and then click "Save page" to finish.
+
+{{Note|If you have been editing for a while without saving, your session info might be stale, and ''your work will not be saved.''  You can tell because you get a warning message "Sorry! We could not process your edit due to a loss of session data. Please try again." (along with a deceptively updated preview of your unprocessed new version, and the edited source).  Most of the time, just resubmitting will work fine (the first attempt refreshes your session, so the second attempt goes through).}}
+
+If you feel that the Compatibility Info is now complete (for both desktop and mobile browsers), you can uncheck the "Compatibility Incomplete" box in the content section just below the page title.
+
+If you feel that no compatibility information is needed for this topic (it was on the list because it was checked by default), you can check the box immediately under the "Compatibility" section header, which indicates that this section is not needed (and so will not appear).  Be sure to uncheck the "Compatibility Incomplete" box near the top of the page, too, if needed.
+
+Finally, remove any "edit in progress" rows you might have added, and update your global team if you are coordinating within a large event.
+
+Congratulate yourself, and thanks for contributing!
