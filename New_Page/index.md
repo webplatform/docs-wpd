@@ -25,7 +25,7 @@ If you're documenting a ''property'' of an API, like <code>childNodes</code>. Ge
 {{#forminput:form=API_Object_Property|default value=apis/foo/properties/baz|button text=Create API Object Property Page}}
 
 ==API Object Event==
-Use the [[#Event]] form, below, with a URL like '''apis/foo/events/bar'''.
+Use the [[#Event|Event]] form, below, with a URL like '''apis/foo/events/bar'''.
 
 ==Concept==
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
