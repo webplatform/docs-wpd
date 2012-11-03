@@ -57,7 +57,7 @@ For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has t
 *Methods
 **[[apis/MediaStream/methods/add|add()]]
 **[[apis/MediaStream/methods/item|item()]]
-**[[apis/MediaStream/methods/remove|remove()]
+**[[apis/MediaStream/methods/remove|remove()]]
 *Properties
 **[[apis/MediaStream/properties/length|length]]
 **[[apis/MediaStream/properties/onaddtrack|onaddtrack]]
