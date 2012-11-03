@@ -19,9 +19,9 @@ We've set up our templates so that we handle things like blank form fields in an
 
 ===Creating New Pages===
 
-Different page types have different forms. This makes sense--a page on a CSS property will have a different structure than a page on a DOM method. When you create a brand new page, however, by default here's no form type assigned. Is it up to you to figure out the correct form type to use from the list presented and create the stub based on that form. We have a listing of all pages at [[WPD:New_Page]].
+Different page types have different forms. This makes sense--a page on a CSS property will have a different structure than a page on a DOM method. When you create a brand new page, however, by default there's no form type assigned. Is it up to you to figure out the correct form type to use from the list presented and create the stub based on that form. We have a listing of all pages at [[WPD:New_Page]].
 
-It is important that you use the correct form, as that will control what form everyone ''else'' will see afterwards, and requires some manually mucking in the source of the page to undo.
+It is important that you use the correct form, as that will control what form everyone ''else'' will see afterwards, and it requires some manually mucking in the source of the page to undo.
 
 ===Using Templates===
 
