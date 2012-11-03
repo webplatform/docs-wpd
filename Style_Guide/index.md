@@ -31,7 +31,7 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 *Unicode characters in JavaScript files
 *Specifying fonts
 
-==Article Summaries==
+==Article summaries==
 All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
 
 ==Section headings==
