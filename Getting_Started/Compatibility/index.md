@@ -31,5 +31,13 @@ Background -- this starter guide assumes that you are already registered with WP
 
 ==Avoiding edit collisions==
 Especially if you are engaged in a hackathon or doc sprint, we suggest that you establish a way to communicate across the group to avoid having two people taking the same element at the same time.  Similarly, avoid suggestions like "just take the first item on the list" (high probability of collision).
-You can immediately start editing the page, going down to the Compatibility Information section, and clicking "Add Another" to add a bogus line item to the table, indicating you are currently editing (give your WPD user name and the date).  Save the changes as a minor edit, so that others can see that you are working on it.
+You can immediately start editing the page, going down to the Compatibility Information section, and clicking "Add Another" to add a bogus line item to the table, indicating you are currently editing -- put "editing by [your WPD user name] on [date]" as the "Area" (where the default is "Basic Support").  Save the changes as a minor edit, so that others can see that you are working on it.
 {{Note|Be sure to click "Remove" to get rid of the bogus item when you are done.}}
+
+==Locating the missing Compatibility Information==
+You can login to the Mozilla Developer Network and search, or search Google (or your alternate) for MDN + (CSS | HTML | JS -- whichever area you're touching) + the elementname.
+
+Examples:
+* GetElementById
+* Blur
+*
