@@ -98,7 +98,7 @@ This resource is called webplatform.org — in this talk we will talk about how 
 
 ===Links to youtube/slideshare/vimeo or other resource.===
 
-[CAN WE PUT ANYTHING HERE? DO YOU THINK WE NEED ANYTHING?]
+[CAN WE PUT ANYTHING HERE? DO YOU THINK WE NEED ANYTHING?]<br />
 You can put something here if you want, I'll allow it this time. --[[User:Tomato|<span style="color: #FF0000;">TOMA</span>]][[User_talk:Tomato|<span style="color: #FFDE4F;">TO</span>]] 22:56, 3 November 2012 (UTC)
 {{External_Attribution
 |Is_CC-BY-SA=No
