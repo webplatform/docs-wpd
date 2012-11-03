@@ -51,3 +51,4 @@ The first page to create, after the listing page, is that for the first API obje
 # Mark the page as a stub.
 
 ==Creating the API Object Method, Property, and Event pages==
+The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize the members as represented their own pages. You have to create a page for each member using the [[WPD:New_Page]].
