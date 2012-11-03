@@ -12,7 +12,7 @@ The listing page should be at the same level in the structure as the API objects
 
 Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/MediaStream''' (it is also the name of the API listing that is represented in all lower case). See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]].
 
-You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a listing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', or '''apis/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, like this:
+You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a listing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', nor '''apis/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, like this:
  <nowiki>
 <title>WebRTC API</title>
 ...
