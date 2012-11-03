@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Content=Grammar/Spelling
+}}
 {{Summary_Section|A quick list of things that could be done around the site.}}
 {{Basic Page}}
 Here is just a quick list of specific things that could be done around the site.  They are organized by the time that they fit into from the [[WPD:Getting_Started | Getting Started Guide]].  If you see something you want to take up, just do it and then please be neat and remove it from the list once you are finished.
@@ -64,7 +66,7 @@ I would like to call upon anyone interested to help start going through the HTML
 
 * All  HTML element reference pages (except the ones mentioned below) - see http://docs.webplatform.org/wiki/html/elements for a list!
 * Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
-* Linking up each HTML element page to it's relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
+* Linking up each HTML element page to its relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
 
 ===Things already done===
 
