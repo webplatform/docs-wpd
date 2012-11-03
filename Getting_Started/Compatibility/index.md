@@ -69,10 +69,6 @@ Examples of multi-row Compatibility tables are:
 
 Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the list.
 
-Examples to review:
-* GetElementById
-* Blur
-
 ==Compatibility Notes==
 There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that can't be covered just by yes/no/?? and a version number.  Just click "Add another" to insert a row.
 
