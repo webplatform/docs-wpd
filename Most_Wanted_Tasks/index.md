@@ -128,7 +128,7 @@ I would like to call upon anyone who wants to help to start going through tutori
 
 You can find a detailed guide to handling tutorials and concept articles at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and concept articles]]. Follow the different steps on this page, and make sure everything looks ok, to go through a tutorial/concept successfully. Let [[mailto:cmills@opera.com Chris Mills know]] if you have any problems, want your work checked, or have any suggestions about improving the process.
 
-To get started, choose a concept or tutorial article you want to help improve, and link to it in the subsection below so that others know you are working on it. Also put a note to say you are working on it in the editorial notes form field for that article. Good luck!
+To get started, choose a concept or tutorial article you want to help improve and link to it in the subsection below so that others know you are working on it. Also put a note to say you are working on it in the editorial notes form field for that article. Good luck!
 
 ===Articles being worked on===
 
