@@ -10,5 +10,7 @@ If there is one primary article and one or more articles that are clearly of les
 ==Work Items==
 If an article has this flag, anyone can start to work to merge the denoted articles. Once the content of all of the articles has been moved to a single article and location, you can delete the useless pages.
 
+If you add this flag, '''you do not need to wait for permission'''; this flag is mainly used as an "FYI" to others that someone is working on merging them.
+
 ==Editorial Block==
 If you check off this flag you should include a [[Template:Editorial/Merge_Candidate]] template in the body.
