@@ -1,9 +1,9 @@
 Follow the steps below as you create new '''content''' pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the <code>WPD:</code> namespace), just visit the URL you would like to exist and hit the 'Create' tab.
 
 To create a new page:
-# Figure out where the page should live. Consult the [[WPD:Content/Topic_Hierarchy | topic hierarchy]] page for an overview of the URL structure of the site.
+# Figure out where the page should live. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy]] page for an overview of the URL structure of the site.
 # Identify the most specific form below that fits the type of content you'd like to create.
-# In the associated input box, type the full name of the page you'd like to create (including slashes if you're creating a sub-page) and hit the "Create foo" button, where "foo" is the name of the form you want to use. For file naming guidelines, consult the [[WPD:Manual_Of_Style | style guide]].
+# In the associated input box, type the full name of the page you'd like to create (including slashes if you're creating a sub-page) and hit the "Create foo" button, where "foo" is the name of the form you want to use. For file naming guidelines, consult the [[WPD:Manual_Of_Style | Style guide]].
 
 {{Note| This page lists all page templates that currently exist. As we create more, we'll add them here.}}
 
