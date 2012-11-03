@@ -88,7 +88,6 @@ I would like to call upon anyone interested to help start going through the HTML
 
 
 ===[[User:Frozenice|fr0zenice's]] notes on updating the paragraph element page===
-
 * check what the editor before me had done: http://docs.webplatform.org/w/index.php?title=html%2Felements%2Fp&diff=13355&oldid=9438
 ** summary, remarks and some other stuff as it seems
 * I'm assuming the article has a formedit compatible template
@@ -96,20 +95,20 @@ I would like to call upon anyone interested to help start going through the HTML
 * remove extra brackets around links, external links use single square brackets and a space as seperator for the displayed title
 ** in this case the only one was the MSDN Link right at the bottom, maybe note that this field automatically wraps it's text in single square brackets
 ** there might also be erroneous links in the other fields, seen some in other articles
-[Import Notes only stuff from here on, that means the text that's in that field in formedit, not raw stuff via edit source]
+(Import Notes only stuff from here on, that means the text that's in that field in formedit, not raw stuff via edit source)
 * fixing anchor-links
-** "[#events Events]" -> "[[#Events|Events]]"
-** this requires a heading like "====Events===="
+** "<nowiki>[#events Events]</nowiki>" -> "<nowiki>[[#Events|Events]]</nowiki>"
+** this requires a heading like "<nowiki>====Events====</nowiki>"
 * collapsing multiple spaces / formatting line-breaks
 ** there were several places where 2-3 spaces were used instead of one, could be due to the import
-** some table cells had more than one line, I formatted them like this: "Gets the namespace defined for the element.<br>This property is not supported for Metro style apps using JavaScript."
+** some table cells had more than one line, I formatted them like this: "Gets the namespace defined for the element.&lt;br&gt;This property is not supported for Metro style apps using JavaScript."
 ** that is totally open for discussion, of course, but the way it was took too much space, in my opinion
 * fixing tables (the largest part)
-** "|" needs to be replaced with "{{!}}" where appropriate, that means:
-** the start and end tag of a table become "{{{!}} ... {{!}}}" instead of "{| ... |}"
-** row breaks become "{{!}}-" instead of "|-"
-** cells become "{{!}} text" instead of "| text"
-** pipes DO NOT need replacing in link-markups in tables, e.g. this is fine: "{{!}}Sets an [[dom/attributes|'''attribute''']] object node as part of the object."
+** "|" needs to be replaced with "<nowiki>{{!}}</nowiki>" where appropriate, that means:
+** the start and end tag of a table become "<nowiki>{{{!}} ... {{!}}}</nowiki>" instead of "<nowiki>{| ... |}</nowiki>"
+** row breaks become "<nowiki>{{!}}-</nowiki>" instead of "<nowiki>|-</nowiki>"
+** cells become "<nowiki>{{!}}</nowiki> text" instead of "| text"
+** pipes DO NOT need replacing in link-markups in tables, e.g. this is fine: "<nowiki>{{!}}Sets an [[dom/attributes|'''attribute''']] object node as part of the object.</nowiki>"
 
 ==Specific call to action: help clean up DOM interface references==
 
