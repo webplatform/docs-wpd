@@ -1,7 +1,7 @@
 {{TODO | Create a simple starter guide to bringing in compatibility table information here }}
 
 ==Overview==
-"Compatibility Information" details which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version.  Tables for this information are built into the templates for those elements, etc., and are automatically flagged as incomplete, which has them appear on a centralized list (http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=).
+"Compatibility Information" details which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version.  Tables for this information are built into the templates for those elements, etc., presented under "Browser Compatibility" (with separate tabs for desktop and mobile), and are automatically flagged as incomplete, which has them appear on a centralized list (http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=).
 
 The needed source information is available from the Mozilla Developer Network site (http://developer.mozilla.org), and the basic factual details can be freely copied (permission already given).  This information typically says when that support started (or ended), and so rarely changes.
 
@@ -30,16 +30,36 @@ Background -- this starter guide assumes that you are already registered with WP
 * Browse the WPD site to locate a specific topic of interest (e.g., http://docs.webplatform.org/wiki/html/elements).
 
 ==Avoiding edit collisions==
-Especially if you are engaged in a hackathon or doc sprint, we suggest that you establish a way to communicate across the group to avoid having two people taking the same element at the same time.  Similarly, avoid suggestions like "just take the first item on the list" (high probability of collision).
-You can immediately start editing the page, going down to the Compatibility Information section, and clicking "Add Another" to add a bogus line item to the table, indicating you are currently editing -- put "editing by [your WPD user name] on [date]" as the "Area" (where the default is "Basic Support").  Save the changes as a minor edit, so that others can see that you are working on it.
+Especially if you are engaged in a hackathon or doc sprint, we suggest that you establish a way to communicate across the group(s) to avoid having two people taking the same element at the same time.  Similarly, avoid suggestions like "just take the first item on the list" (high probability of collision).  This can be done verbally, electronically, or using a flipchart or white board.
+
+Even outside a large-group setting, you can take steps to protect the value of your contribution -- you can immediately start editing the page, going down to the Compatibility Information section, and clicking "Add Another" to add a bogus line item to the table, indicating you are currently editing -- put "editing by [your WPD user name] on [date]" as the "Area" (where the default is "Basic Support").  Save the changes as a minor edit, so that others can see that you are working on it.  
+
 {{Note|Be sure to click "Remove" to get rid of the bogus item when you are done.}}
+
+Look for such a row before you start researching missing info.
 
 ==Locating the missing Compatibility Information==
 You can login to the Mozilla Developer Network (http://developer.mozilla.org/) and search, or search Google (or your alternate) for MDN + (CSS | HTML | JS -- whichever area you're touching) + the element name.  For newer features (the ones we want you to start with) also check http://caniuse.com.
 
-For MDN, you can use the basic facts (version numbers, yes/no on support) without attribution.  WPD has already made this arrangement.  For all others, you should follow the attribution guidelines ().
+For each item, you want to note which browser version was the first to provide complete support.  If only partial support is currently provided, note that with "(partial)" after the version number.
 
-Examples:
+For MDN, you can use the basic facts (version numbers, yes/no/partial on support) without attribution.  WPD has already made this arrangement.  For all others, you should follow the attribution guidelines (http://docs.webplatform.org/wiki/WPD:External_Attribution).
+
+==Compatibility details==
+Note that especially the new, emergent, proposed, and transitional features tend to be implemented in browser-specific ways.  This is usually done with a browser-specific prefix on the tag (e.g., -moz- or -ms-).  There are two rows in the Compatibility Table templates for each browser, to cover both the common standards and the vendor-specific (prefixed) versions.
+
+There are separate tables for Desktop and for Mobile support.  One may be filled in while the other is still incomplete (driven by the editor's focus).
+
+Each element is either supported or not (radio buttons for yes, no, and unknown).  If it is supported, there is a minimum browser version that supports it (and presumably all higher versions will also support it).
+
+For some elements, there may be sub-elements or features that need to called out individually.  For these, after you have covered the Basic Support, you can click the "Add Another" button to add rows to the table.
+
+Examples of multi-row Compatibility tables are:
+* the audio tag (http://docs.webplatform.org/w/index.php?title=html/elements/audio) which has separate rows for the various codecs covered in the HTML5 spec, since support differs significantly across vendors
+* [get something with sub-elements]
+
+Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the list.
+
+Examples to review:
 * GetElementById
 * Blur
-*
