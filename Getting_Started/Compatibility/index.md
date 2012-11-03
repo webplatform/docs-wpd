@@ -1,7 +1,7 @@
 {{TODO | Create a simple starter guide to bringing in compatibility table information here }}
 
 ==Overview==
-"Compatibility Information" details which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version.  Tables for this information are built into the templates for those elements, etc., and are automatically flagged as incomplete, which has them appear on a centralized list
+"Compatibility Information" details which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version.  Tables for this information are built into the templates for those elements, etc., and are automatically flagged as incomplete, which has them appear on a centralized list (http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=).
 
 The needed source information is available from the Mozilla Developer Network site (http://developer.mozilla.org), and the basic factual details can be freely copied (permission already given).  This information typically says when that support started (or ended), and so rarely changes.
 
