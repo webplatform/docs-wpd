@@ -1,11 +1,13 @@
 {{TODO | Create a simple starter guide to bringing in compatibility table information here }}
 
 ==Overview==
-Compatibility information details which (CSS/HTML) features are supported by which browsers, as of which version.  This information is supposed to be in the {{TODO | insert}} section of the {{TODO | insert}} relevant pages.
+"Compatibility Information" details which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version.  Tables for this information are built into the templates for those elements, etc., and are automatically flagged as incomplete, which has them appear on a centralized list
 
-The needed source information is available from the mozdev site {{TODO | insert link}}, and the basic details can be freely copied (permission already given).  This information typically says when that support started (or ended), and so rarely changes.
+The needed source information is available from the Mozilla Developer Network site (http://developer.mozilla.org), and the basic factual details can be freely copied (permission already given).  This information typically says when that support started (or ended), and so rarely changes.
 
-NOTE: Extended prose discussions on compatibility may have citation and reuse issues, and so must be avoided (without training beyond this Getting Started guideline).
+We are generally most concerned initially with getting the newer features covered, so http://caniuse.com is another valuable reference.
+
+{{NOTE | Extended prose discussions on compatibility may have citation and reuse issues, and so must be avoided (without training beyond this Getting Started guideline).}}
 
 Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup; use this {{TODO | insert}} link to get caught up.
 
