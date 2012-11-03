@@ -23,4 +23,13 @@ Background -- this starter guide assumes that you are already registered with WP
 * avoiding collisions (simultaneous work on the same page by two contributors) and notifying others
 * updating the task spreadsheet (google doc - https://docs.google.com/spreadsheet/ccc?key=0Aoc3F7WkVTNUdGg1UnVCakExMjZBUjIxYThGdTh5X2c#gid=0)
 
-==Add real and useful stuff here==
+==Selecting items to update==
+{{Note|We are most interested in covering the emerging and most recent features in JS/CSS3/HTML5.  If it was covered by Safari 1 or IE 4, the information is useful for completeness, but is not a priority.}}
+* Use the official list (http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=), and select a topic of interest.  As of Nov 2012 there are hundreds of items, so you may need to page forward for a while. (or)
+* Pick something you already noticed was incomplete or missing.  Note that if the template doesn't include the Compatibility tables, you might want to double check that you are working on the most appropriate page.  Compatibility tables can be added manually, but that is beyond the scope of this Getting Started piece. (or)
+* Browse the WPD site to locate a specific topic of interest (e.g., http://docs.webplatform.org/wiki/html/elements).
+
+==Avoiding edit collisions==
+Especially if you are engaged in a hackathon or doc sprint, we suggest that you establish a way to communicate across the group to avoid having two people taking the same element at the same time.  Similarly, avoid suggestions like "just take the first item on the list" (high probability of collision).
+You can immediately start editing the page, going down to the Compatibility Information section, and clicking "Add Another" to add a bogus line item to the table, indicating you are currently editing (give your WPD user name and the date).  Save the changes as a minor edit, so that others can see that you are working on it.
+{{Note|Be sure to click "Remove" to get rid of the bogus item when you are done.}}
