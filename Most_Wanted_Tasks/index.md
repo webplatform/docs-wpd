@@ -4,7 +4,7 @@
 }}
 {{Summary_Section|A quick list of things that could be done around the site.}}
 {{Basic Page}}
-Here is just a quick list of specific things that could be done around the site.  They are organized by the time that they fit into from the [[WPD:Getting_Started | Getting Started Guide]].  If you see something you want to take up, just do it and then please be neat and remove it from the list once you are finished.
+Here is just a quick list of specific things that could be done around the site.  They are organized by the timeframe into which they fit according to the [[WPD:Getting_Started | Getting Started Guide]].  If you see something you want to take up, just do it and then please be neat and remove it from the list once you are finished.
 
 Working on the Web Platform DocSprint SF (11/3/12)? Use this tracking spreadsheet: [http://goo.gl/NHJYT http://goo.gl/NHJYT]
 
