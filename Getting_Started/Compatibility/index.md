@@ -7,7 +7,7 @@ The needed source information is available from the Mozilla Developer Network si
 
 We are generally most concerned initially with getting the newer features covered, so http://caniuse.com is another valuable reference.
 
-{{Note | Extended prose discussions on compatibility may have citation and reuse issues, and so must be avoided (without training beyond this Getting Started guideline).}}
+{{Note | Extended prose discussions on compatibility may have citation and reuse issues, and so must be avoided (without training beyond this Getting Started guideline).  See http://docs.webplatform.org/wiki/WPD:External_Attribution.}}
 
 Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup; use this {{TODO | insert}} link to get caught up.
 
