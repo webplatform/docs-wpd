@@ -11,7 +11,7 @@ We are generally most concerned initially with getting the newer features covere
 
 Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup.  See http://docs.webplatform.org/wiki/WPD:Getting_Started.
 
-The basic process flow (to be detailed below) is:
+==The basic process flow (to be detailed below)==
 * locate and select an element that is missing Compatibility info
 * check the item out for editing (tell others that you are working on it)
 * look up the relevant info on mozdev
