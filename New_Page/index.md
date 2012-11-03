@@ -1,4 +1,4 @@
-This page is the way that you create new '''content''' pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the <code>WPD:</code> namespace), just visit the URL you would like to exist and hit the 'Create' tab.
+Use the steps on below to create new '''content''' pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the <code>WPD:</code> namespace), just visit the URL you would like to exist and hit the 'Create' tab.
 
 To create a new page:
 # Figure out where the page should live. Consult the [[WPD:Architecture | architecture]] page for an overview of the URL structure of the site.
