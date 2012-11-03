@@ -31,7 +31,7 @@ Thanks in advance for any tasks completed!
 
 Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
 
-* Help [[WPD:Touch_Pages|Touch Pages]]
+* Help [[WPD:Touch_Pages|Touch Pages]] -- This is done 11/2/2012 EPG
 
 * Review merges from meta:html into html/elements [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19265 bug 19265]
 
