@@ -124,7 +124,7 @@ See http://docs.webplatform.org/wiki/html/attributes
 
 ==Specific call to action: help clean up tutorials/concepts!==
 
-I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling and grammar, making sure links and images work, and making improvements as you see fit.
+I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling, and grammar; making sure links and images work; and making improvements as you see fit.
 
 You can find a detailed guide to handling tutorials and concept articles at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and concept articles]]. Follow the different steps on this page, and make sure everything looks ok, to go through a tutorial/concept successfully. Let [[mailto:cmills@opera.com Chris Mills know]] if you have any problems, want your work checked, or have any suggestions about improving the process.
 
