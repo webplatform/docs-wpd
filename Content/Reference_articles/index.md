@@ -71,9 +71,9 @@ You should also write a couple of examples demonstrating usage of the subject be
 
 ===Example: an HTML markup element reference page===
 
-Let's look at an example article, [[html/elements/p|The <p> element]]. In its edit form, you have the following fields:
+Let's look at an example article, [[html/elements/p|The paragraph (p) element]]. In its edit form, you have the following fields:
 
-* '''Page title''': Enter a properly capitalised title for your article. By default, only the URL slug will be used, for example '''html javascript sortable table'''. This makes for a good URL slug, but not a very good article title; in the example we've used '''The <p> (paragraph) element'''.
+* '''Page title''': Enter a properly capitalised title for your article. By default, only the URL slug will be used, for example '''html javascript sortable table'''. This makes for a good URL slug, but not a very good article title; in the example we've used '''The paragraph (p) element'''.
 * '''Standardization status''': Choose what the subject's standardization status is. If you are not sure, search for W3 specs mentioning the article, to see what they say. In our example's case, &lt;p&gt; has been in a finished W3C recommendation since about HTML 2.0, so no question really. When the subject is mentioned in multiple specs, you should look for the status of the oldest spec it is featured in. For example, HTML5 mentions &lt;p&gt;, but it is not finished, so not a good measure to go off.
 * '''API Name''' NOT SURE ABOUT THIS
 * '''Top level summary''': contains a brief summary that says what the subject does.
