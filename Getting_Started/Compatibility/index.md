@@ -35,9 +35,9 @@ You can immediately start editing the page, going down to the Compatibility Info
 {{Note|Be sure to click "Remove" to get rid of the bogus item when you are done.}}
 
 ==Locating the missing Compatibility Information==
-You can login to the Mozilla Developer Network and search, or search Google (or your alternate) for MDN + (CSS | HTML | JS -- whichever area you're touching) + the element name.  For newer features (the ones we want you to start with) also check http://caniuse.com.
+You can login to the Mozilla Developer Network (http://developer.mozilla.org/) and search, or search Google (or your alternate) for MDN + (CSS | HTML | JS -- whichever area you're touching) + the element name.  For newer features (the ones we want you to start with) also check http://caniuse.com.
 
-For MDN, you can use the basic facts (version numbers, yes/no on support) without attribution.  WPD has already made this arrangement.  For all others, you should follow the attribution guidelines().
+For MDN, you can use the basic facts (version numbers, yes/no on support) without attribution.  WPD has already made this arrangement.  For all others, you should follow the attribution guidelines ().
 
 Examples:
 * GetElementById
