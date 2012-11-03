@@ -25,7 +25,7 @@ First you need to choose what type of reference you are creating or editing. The
 * [[WPD:New_Page#Markup_Attribute|Markup attribute]]: For pages that document a Markup attribute (of HTML, SVG, MathML or XML), for example <code>class</code> or <code>href</code>. These normally live at URLs with a prefix of <code>{xml,html,mathml,svg}/attributes/</code>.
 * [[WPD:New_Page#Markup_Element|Markup element]]: For pages that document a Markup Element (of HTML, SVG, MathML, or XML). For example, <code>canvas</code>, <code>div</code>, <code>circle</code>. These articles normally live at URLs with a prefix of <code>{xml,svg,html,mathml}/elements/</code>.
 * [[WPD:New_Page#Markup_Structure|Markup structure]]: For pages that document a Markup structure (of HTML, SVG, or other types). For example, <code>CDATA</code>.
-* [[WPD:New_Page#Regex_Metacharacter|Regex Metacharacter]]: For pages that document a regex metacharacter, like <code>*</code> or <code>.</code>. Make sure to use a descriptive name, not the literal character (as those are often illegal page names).
+* [[WPD:New_Page#Regex_Metacharacter|Regex metacharacter]]: For pages that document a regex metacharacter, like <code>*</code> or <code>.</code>. Make sure to use a descriptive name, not the literal character (as those are often illegal page names).
 
 If you are not sure where to put your chosen subject, take your best guess; then afterwards send a mail to the webplatform public mailing list so someone else can check it.
 
@@ -75,10 +75,10 @@ Let's look at an example article, [[html/elements/p|The paragraph (p) element]].
 
 * '''Page title''': Enter a properly capitalised title for your article. By default, only the URL slug will be used, for example '''html javascript sortable table'''. This makes for a good URL slug, but not a very good article title; in the example we've used '''The paragraph (p) element'''.
 * '''Standardization status''': Choose what the subject's standardization status is. If you are not sure, search for W3 specs mentioning the article, to see what they say. In our example's case, &lt;p&gt; has been in a finished W3C recommendation since about HTML 2.0, so no question really. When the subject is mentioned in multiple specs, you should look for the status of the oldest spec it is featured in. For example, HTML5 mentions &lt;p&gt;, but it is not finished, so not a good measure to go off.
-* '''API Name''' NOT SURE ABOUT THIS
+* '''API name''' NOT SURE ABOUT THIS
 * '''Top level summary''': contains a brief summary that says what the subject does.
 * '''DOM interface''': In here, fill in '''dom/<name of interface>''', and it should create a link to the page that covers the DOM interface for the element. 
-* '''Main Content''': This is where the main content of the article goes: this usually contains further information about the feature that might be useful; in our case information on block/inline and closing tag. Copy these and fill them in for future HTML element references
+* '''Main content''': This is where the main content of the article goes: this usually contains further information about the feature that might be useful; in our case information on block/inline and closing tag. Copy these and fill them in for future HTML element references
 * '''Examples section''': This shouldn't be suppressed; you should fill in at least one or two examples to show usage of the subject, as appropriate.
 * '''Usage/Notes/Import notes''': ??? Ignore these if you are not sure, which I'm not.
 * '''Related specifications''': A place to provide link to the most recent specifications that cover the subject. In our example, we have included the links to the relevant pages of HTML5 and HTML4.01. Including links to older specs would not really be worth it. 
