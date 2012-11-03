@@ -39,11 +39,11 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 * Put every page into a category except for the main page.  See the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
 
-* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].   These are typically the pages that need the most work at this time.
+* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].  These are typically the pages that need the most work at this time.
 
-* Move capitalized page paths that aren't following the style guide. Check [[:Category:CSS]] for this.
+* Move capitalized page paths that aren't following the style guide.  Check [[:Category:CSS]] for this.
 
-* Expand Topics on almost every page. Every page should have multiple topics.
+* Expand Topics on almost every page.  Every page should have multiple topics.
 
 
 ===Brainstorming===
@@ -52,7 +52,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 ===Always going===
 
-* Clean up pages that do not have needed templates
+* Clean up pages that do not have needed templates.
 
 
 == Other tasks to choose from ==
@@ -60,13 +60,13 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 ==Specific call to action: help clean up HTML element references==
 
-I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures. I have written a detailed reference to creating/editing reference articles, which will help — see [[WPD:Content/Reference_articles|Reference articles]].
+I would like to call upon anyone interested to help start going through the HTML element reference pages, and surrounding structures.  I have written a detailed reference to creating/editing reference articles, which will help.  See [[WPD:Content/Reference_articles|Reference articles]].
 
 ===Things that need to be done===
 
-* All  HTML element reference pages (except the ones mentioned below) - see http://docs.webplatform.org/wiki/html/elements for a list!
-* Adding a table into the main content of each article to say what attributes they can take. See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
-* Linking up each HTML element page to its relevant DOM Interface. See http://docs.webplatform.org/wiki/dom for the full list.
+* All HTML element reference pages (except the ones mentioned below).  See http://docs.webplatform.org/wiki/html/elements for a list!
+* Adding a table into the main content of each article to say what attributes they can take.  See http://docs.webplatform.org/wiki/html/attributes for the list of links you can choose from!
+* Linking up each HTML element page to its relevant DOM Interface.  See http://docs.webplatform.org/wiki/dom for the full list.
 
 ===Things already done===
 
