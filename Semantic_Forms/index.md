@@ -1,10 +1,11 @@
+__TOC__
 === What are Semantic Forms? ===
-Semantic Forms is a extension for MediaWiki that relies on Semantic MediaWiki to create form edits and define forms. They appear over most pages on this wiki.
+Semantic Forms is a extension for MediaWiki that relies on Semantic MediaWiki to create form edits and define forms (which I will describe later). They appear over most pages on this wiki.
 
 === Why isn't my page showing Semantic Forms? ===
-Semantic Forms requires special Categories, defined by Forms, that are used to query Semantics MediaWiki to allow the forms to exist. These Categories are written in the same style as typical MediaWiki syntax, such as <nowiki>[[Category:Markup Elements]]</nowiki>.
+Semantic Forms requires special Categories, defined by forms, that are used to query Semantics MediaWiki to allow the forms to exist. These Categories are written in the same style as typical MediaWiki syntax, such as <nowiki>[[Category:Markup Elements]]</nowiki>.
 
-The Categories must belong to one of the Forms, below is a compiled list of every existing form.
+The Categories must belong to one of the Forms, below is a compiled list of every form.
 *API Listings
 *API Objects
 *API Object Method
