@@ -8,7 +8,7 @@ Most of the time, the API listing is not the proper name of an API or other elem
 
 We use the API listings as reference pages for all of the associated API objects and their members. The listing page is the parent page of the API objects. It is a reference page that associates the common name of the API (WebRTC) with its actual components (MediaStream, LocalMediaStream, etc.).
 
-So, the listing page for the WebRTC API is '''apis/webrtc/'''.
+So, the listing page for the WebRTC API is '''apis/webrtc'''.
 
 Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/webrtc/objects/MediaStream'''. See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]] for more about URLs.
 
