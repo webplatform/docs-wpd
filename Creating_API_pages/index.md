@@ -6,30 +6,37 @@ The listing page is the top-level page that introduces the subject, in this exam
 
 Most of the time, the API listing is not the proper name of an API or other element. Rather, it is a catch-all description for a group of APIs. In this example, WebRTC is a catch-all for the MediaStream, PeerConnection, and DataChannel APIs. In fact, these are catch-alls themselves. The MediaStream API is actually composed of the MediaStream, LocalMediaStream, MediaStreamTrack, and MediaStreamTrackList objects. These are the actual APIs, the named objects that have methods and properties and which the developer uses in her application.
 
-While we do want to preserve the API listings as references, we want to associate all of the API objects and their members properly by organizing the content hierarchically with the objects as parents and their members as child pages. It serves no useful purpose to put those objects under the listing pages - the result is an artificial representation and long URLs that leave all the important bits hidden at the end of the browser's navigation field. In other words, the listing page is not the parent page of the API objects. Rather, it is a reference page that associates the common name of the API (WebRTC) with its actual components (MediaStream, LocalMediaStream, etc.).
+We use the API listings as reference pages for all of the associated API objects and their members. The listing page is the parent page of the API objects. It is a reference page that associates the common name of the API (WebRTC) with its actual components (MediaStream, LocalMediaStream, etc.).
 
-So, instead of '''apis/webrtc/mediastream/LocalMediaStream''' the URL of the page should read, '''apis/LocalMediaStream'''.
+So, the listing page for the WebRTC API is '''apis/webrtc/'''.
 
-The listing page should be at the same level in the structure as the API objects. So, '''apis/webrtc''' and '''apis/LocalMediaStream'''.
+Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/webrtc/objects/MediaStream'''. See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]] for more about URLs.
 
-Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/MediaStream''' (it is also the name of the API listing that is represented in all lower case). See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]].
+You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a listing page, different from the '''apis/webrtc/objects/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', nor '''apis/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, as shown below.
 
-You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a listing page, different from the '''apis/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', nor '''apis/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, like this:
+==Content of the listing page==
+
+The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively.
+
  <nowiki>
 <title>WebRTC API</title>
 ...
-Some nice things about the API.
+Describe the WebRTC API.
 =MediaStream API=
-More niceties.
-        [[apis/MediaStream|MediaStream]]
-        [[apis/LocalMediaStream|LocalMediaStream]]
-        [[apis/MediaStreamTrack|MediaStreamTrack]]
-        [[apis/MediaStreamTrackList|MediaStreamTrackList]]
+Describe the MediaStream API. Provide links to the appropriate API objects, in this example:
+        [[apis/webrtc/objects/MediaStream|MediaStream]]
+        [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]]
+        [[apis/webrtc/objects/MediaStreamTrack|MediaStreamTrack]]
+        [[apis/webrtc/objects/MediaStreamTrackList|MediaStreamTrackList]]
 =PeerConnection API=
- More niceties.
-        [[apis/RTCPeerConnection|RTCPeerConnection]]
+ Describe the PeerConnection API.
+        [[apis/webrtc/objects/RTCPeerConnection|RTCPeerConnection]]
     etc.</nowiki>
-The listing page then lists the APIs as links - under headings, if necessary - along with all the verbiage about the API. But of course, you have to first create all those pages before you can link to them.
+
+The listing page should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
+
+It also will have a summary table of the API objects included in the API.
+
 
 ==Creating the listing page==
 The [[apis/webrtc]] listing page was created as follows.
