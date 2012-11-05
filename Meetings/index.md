@@ -9,15 +9,18 @@ Web Platform community meetings occur every two weeks on Tuesdays, 16:00 UTC / 1
 
 '''Conference code:''' 6654824671 
 
-We simultaneously meet in the #webplatform IRC channel. Afterwards we will send out minutes.
+We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will send out minutes.
 
 ==Agenda==
-* welcome
-* editor rights and responsibilities
-* important next steps in content curation
-* templates
-* bug triage
-* "what's on-topic" for forums and IRC
-* Who decides on merge/move/delete flags?
-* Acceptable language in IRC.
-* DocSprint 11/3.
+<ul>
+<li> Welcome
+<li> Review of last week's action items
+<li> Triage of new bugs
+<li> Discussion topcs:
+<ul>
+<li>Docsprint debrief
+<li>Translations (hopefully with the right people in the call this time)
+<li>Tracking bugs/actions with BugGenie
+<li>A seminar about how we've wired up our intricate template system
+</ul>
+</ul>
