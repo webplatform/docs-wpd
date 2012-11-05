@@ -56,10 +56,10 @@ The [[apis/webrtc]] listing page was created as follows.
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
 
 ==Creating the API Object page==
-The first page to create, after the listing page, is that for the first API object; in this example, [[apis/MediaStream]].
+The first page to create, after the listing page, is that for the first API object; in this example, [[apis/webrtc/objects/MediaStream]].
 # Navigate to [[WPD:New_Page]].
-# Under the '''API Object''' page type, enter '''apis/Foo'''.
-#: Where '''Foo''' is the name of the API object, in its native case. See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
+# Under the '''API Object''' page type, enter '''apis/Foo/objects/bar'''.
+#: Where '''Foo''' is the name of the API listing, and '''bar''' is the name of the API object in its native case. See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
 
