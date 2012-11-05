@@ -12,7 +12,11 @@ So, the listing page for the WebRTC API is '''apis/webrtc/'''.
 
 Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/webrtc/objects/MediaStream'''. See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]] for more about URLs.
 
-You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/mediastream''' (as a listing page, different from the '''apis/webrtc/objects/MediaStream''' page which represents the actual API object), '''apis/peerconnection''', nor '''apis/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, as shown below.
+You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/webrtc/mediastream''' (as a listing page, different from the '''apis/webrtc/objects/MediaStream''' page which represents the actual API object), '''apis/webrtc/peerconnection''', nor '''apis/webrtc/datachannel'''. All of these sub listing pages should just be represented as headings in the main listing page, not as pages in their own right, as shown below.
+
+If you have only one API object and there is no other "catch-all" description for the API, you still have to create the listing page. So if the API name is "MyAPI" the URLs for the listing page and the object are, "apis/myapi" and "apis/myapi/objects/MyAPI", respectively.
+
+Doing this allows for changes in the specification as the API is being developed. Often an API in development goes through lots of changes. Decoupling the API listing and the API objects in this fashion allows the names to change to protect the innocent.
 
 ==Content of the listing page==
 
