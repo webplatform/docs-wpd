@@ -68,13 +68,13 @@ The API Object page lists all of the members (properties, methods, and events) f
 
 For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has the following members:
 *Methods
-**[[apis/MediaStream/methods/add|add()]]
-**[[apis/MediaStream/methods/item|item()]]
-**[[apis/MediaStream/methods/remove|remove()]]
+**[[apis/webrtc/objects/MediaStream/methods/add|add()]]
+**[[apis/webrtc/objects/MediaStream/methods/item|item()]]
+**[[apis/webrtc/objects/MediaStream/methods/remove|remove()]]
 *Properties
-**[[apis/MediaStream/properties/length|length]]
-**[[apis/MediaStream/properties/onaddtrack|onaddtrack]]
-**[[apis/MediaStream/properties/properties/onremovetrack|onremovetrack]]
+**[[apis/webrtc/objects/MediaStream/properties/length|length]]
+**[[apis/webrtc/objects/MediaStream/properties/onaddtrack|onaddtrack]]
+**[[apis/webrtc/objects/MediaStream/properties/properties/onremovetrack|onremovetrack]]
 *Events
-**[[apis/MediaStream/events/addtrack|addtrack]]
-**[[apis/MediaStream/events/removetrack|removetrack]]
+**[[apis/webrtc/objects/MediaStream/events/addtrack|addtrack]]
+**[[apis/webrtc/objects/MediaStream/events/removetrack|removetrack]]
