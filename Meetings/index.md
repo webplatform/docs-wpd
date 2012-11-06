@@ -23,4 +23,5 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 <li>Tracking bugs/actions with BugGenie
 <li>A seminar about how we've wired up our intricate template system
 </ul>
+<li>Content architecture meeting(s)?</li>
 </ul>
