@@ -97,7 +97,7 @@ You need to fill in these pages to avoid confusing the reader and to provide for
 
 ===Filling with a redirect===
 
-The easiest way to deal with empty intermediate pages is to redirect them back to the API object page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page:
+The easiest way to deal with empty intermediate pages is to redirect them back to the API object page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page back to the Properties section of the API object page:
  <nowiki>
 #REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
 
