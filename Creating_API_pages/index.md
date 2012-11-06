@@ -82,3 +82,13 @@ The WPD:New_Page page describes how to create the URL for each page. For example
 The [[apis/webrtc/objects/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
 
 When you are stubbing out the pages, if you do nothing else in the member pages, you must specify the parent API object in the '''Applies to''' field.
+
+Oh, that and mark them as stubs, of course!
+
+=Filling in the pages=
+
+Once you've got the pages all in place, you can go back and start filling them in. Most of the time, how to do this is obvious. But where it may be unclear, this section attempts to clarify.
+
+==Redirecting empty pages==
+
+By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the
