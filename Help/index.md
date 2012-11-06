@@ -3,9 +3,7 @@
 WPD is an active and welcoming community. We'll help you get started, and there's no such thing as a dumb question. Please use any of the following methods to talk to us:
 
 * We use a mailing list, [mailto:public-webplatform@w3.org public-webplatform@w3.org] to coordinate on larger issues, like article organization, changes to common templates or forms, or setting new norms. It's also where we announce things like upcoming hackathons (which everyone is welcome to join). You can subscribe to the list [http://lists.w3.org/Archives/Public/public-webplatform/ here]. You do not need a W3C account to join or send messages.
-* You can find us on '''IRC''' (Internet Relay Chat, essentially a specialized chat room) at '''irc.freenode.net'''; join a chat room such as one of the following: 
-**'''#webplatform-site''' is the best place to ask site-specific questions like "Why can't I get this formatting to look right?" or "Do we have a template I can use to do X?" or "Is anyone working on reviewing /html/attributes/target?"
-**'''#webplatform''' is for a more general discussion of web development topics. Note that freenode also has chat rooms specific to certain topics like '''#css''' and '''#javascript'''.
+* You can find us on '''IRC''' (Internet Relay Chat, essentially a specialized chat room) at '''irc.freenode.net'''; join out chatroom '''#webplatform'''.
 :See [[WPD:Conduct]] for information about using the chat rooms.
 :Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
 * We also have [http://talk.webplatform.org/forums/ forums available], on which you can post questions, and answer the questions of others.
