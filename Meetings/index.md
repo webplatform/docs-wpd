@@ -1,4 +1,4 @@
-Web Platform community meetings occur every two weeks on Tuesdays, 16:00 UTC / 12:00 ET / 9:00 PT, in the #webplatform IRC channel. 
+Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 12:00 ET / 9:00 PT, in the #webplatform IRC channel. 
 
 {{Note | At this early stage of the project we will occasionally hold meetings more often than bi-weekly. }}
 
