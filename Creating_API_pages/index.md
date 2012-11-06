@@ -66,7 +66,7 @@ The first page to create, after the listing page, is that for the first API obje
 ==Creating the API Object Method, Property, and Event pages==
 The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
 
-For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has the following members:
+For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has the following members, shown with their full paths:
 *Methods
 **[[apis/webrtc/objects/MediaStream/methods/add]]
 **[[apis/webrtc/objects/MediaStream/methods/item]]
@@ -78,3 +78,7 @@ For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has t
 *Events
 **[[apis/webrtc/objects/MediaStream/events/addtrack]]
 **[[apis/webrtc/objects/MediaStream/events/removetrack]]
+
+The [[apis/webrtc/objects/MediaStream]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStream object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
+
+When you are stubbing out the pages, if you do nothing else in the member pages, you must specify the parent API object in the '''Applies to''' field.
