@@ -95,9 +95,17 @@ By virtue of the URL architecture we impose, there will be empty pages created a
 
 You need to fill in these pages to avoid confusing the reader and to provide for navigation.
 
+===Filling with a redirect===
+
+The easiest way to deal with empty intermediate pages is to redirect them back to the API object page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page:
+ <nowiki>
+#REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
+
+This has the advantage of providing not only the list of properties, but all of the information about the API.
+
 ===Filling with a query===
 
-To fill in the page, you could plug in a Semantic MediaWiki query, as we do with the '''apis''' page, like this:
+To fill in the page, you could also plug in a Semantic MediaWiki query, as we do with the '''apis''' page, like this:
  <nowiki>
 {{API_Listing
 |Query=[[Category:API_Objects]]
@@ -110,11 +118,3 @@ You could do this on a '''properties''' page with the query reading as follows:
 Query=[[Category:API_Object_Properties]]</nowiki>
 
 But the disadvantage of doing it this way is that you don't get anything but a table of links. You still have to write some adorning text to explain the page and so forth.
-
-===Filling with a redirect===
-
-You could also just redirect these intermediate pages back to the API listing page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page:
- <nowiki>
-#REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
-
-This has the advantage of
