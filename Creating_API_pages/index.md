@@ -79,6 +79,6 @@ For example, the [[apis/MediaStreamTrackList|MediaStreamTrackList]] object has t
 **[[apis/webrtc/objects/MediaStream/events/addtrack]]
 **[[apis/webrtc/objects/MediaStream/events/removetrack]]
 
-The [[apis/webrtc/objects/MediaStream]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStream object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
+The [[apis/webrtc/objects/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStream object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
 
 When you are stubbing out the pages, if you do nothing else in the member pages, you must specify the parent API object in the '''Applies to''' field.
