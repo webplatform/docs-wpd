@@ -101,7 +101,7 @@ The easiest way to deal with empty intermediate pages is to redirect them back t
  <nowiki>
 #REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
 
-This has the advantage of providing not only the list of properties, but all of the information about the API.
+This has the advantage of providing not only the list of properties, but all of the information about the API without you having to rewrite it.
 
 ===Filling with a query===
 
