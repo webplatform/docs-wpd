@@ -99,13 +99,11 @@ You could plug in a Semantic MediaWiki query, as we do with the '''apis''' page,
 |Query=[[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=Yes
-}}
-</nowiki>
+}}</nowiki>
 
 You could do this on a '''properties''' page with the query reading as follows:
  <nowiki>
-Query=[[Category:API_Object_Properties]]
-</nowiki>
+Query=[[Category:API_Object_Properties]]</nowiki>
 
 You could also just redirect these intermediate pages back to the API listing page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page:
 <nowiki>
