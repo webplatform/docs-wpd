@@ -114,8 +114,7 @@ But the disadvantage of doing it this way is that you don't get anything but a t
 ===Filling with a redirect===
 
 You could also just redirect these intermediate pages back to the API listing page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page:
-<nowiki>
-#REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]
-</nowiki>
+ <nowiki>
+#REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
 
 This has the advantage of
