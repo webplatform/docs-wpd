@@ -2,6 +2,8 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{TODO|Once the final methodology is in place, and the fixes cited by the TODOs are in, remove all the TODOs like this one.}}
 
+{{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me snark.}}
+
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
