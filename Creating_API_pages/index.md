@@ -113,3 +113,7 @@ You could do this on a '''properties''' page with the query reading as follows:
 Query=[[Category:API_Object_Properties]]</nowiki>
 
 But the disadvantage of doing it this way is that you don't get anything but a table of links. You still have to write some adorning text to explain the page and so forth.
+
+==Referencing extra-API facilities==
+
+Sometimes an API includes methods that are called on objects not in the API. This is the case with [[dom/methods/getUserMedia|getUserMedia()]] which is a method of the DOM Navigator object.
