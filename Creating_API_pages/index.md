@@ -20,6 +20,8 @@ If you have only one API object and there is no other catch-all description for 
 
 Doing this allows for changes in the specification as the API is being developed. Often an API in development goes through lots of changes. Decoupling the API listing and the API objects in this fashion allows the names to change to protect the innocent.
 
+{{Author_note|I'm not a big fan of the long URLs. But we've got to dance with the date we brought, and this is the only way currently that we have for organizing our content - through the URLs. The scheme above provides for disambiguation within the constraints of our current structure and methodology.}}
+
 ==Creating the listing page==
 The [[apis/webrtc]] listing page was created as follows.
 # Navigate to [[WPD:New_Page]].
