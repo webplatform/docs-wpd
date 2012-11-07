@@ -98,6 +98,8 @@ The easiest way to deal with empty intermediate pages is to redirect them back t
 
 This has the advantage of providing not only the list of properties, but all of the information about the API without you having to rewrite it.
 
+If you ever have to remove the redirect, navigate to the page with '''&redirect=no''' appended to the URL. For example, <nowiki>http://docs.webplatform.org/wiki/apis/webrtc/objects/MediaStream/properties&redirect=no</nowiki>. You can then edit the page as needed.
+
 ===Filling with a query===
 
 To fill in the page, you could also plug in a Semantic MediaWiki query, as we do with the '''apis''' page, like this:
