@@ -28,13 +28,9 @@ The API listing page provides a broad description of the API. If there are furth
 Describe the WebRTC API.
 =MediaStream API=
 Describe the MediaStream API. Provide links to the appropriate API objects, in this example:
-        [[apis/webrtc/objects/MediaStream|MediaStream]]
-        [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]]
-        [[apis/webrtc/objects/MediaStreamTrack|MediaStreamTrack]]
-        [[apis/webrtc/objects/MediaStreamTrackList|MediaStreamTrackList]]
 =PeerConnection API=
  Describe the PeerConnection API.
-        [[apis/webrtc/objects/RTCPeerConnection|RTCPeerConnection]]
+=DataChannel API=
     etc.</nowiki>
 
 The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
