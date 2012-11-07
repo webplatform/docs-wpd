@@ -18,25 +18,6 @@ If you have only one API object and there is no other catch-all description for 
 
 Doing this allows for changes in the specification as the API is being developed. Often an API in development goes through lots of changes. Decoupling the API listing and the API objects in this fashion allows the names to change to protect the innocent.
 
-==Content of the listing page==
-
-The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
-
- <nowiki>
-<title>WebRTC API</title>
-...
-Describe the WebRTC API.
-=MediaStream API=
-Describe the MediaStream API. Provide links to the appropriate API objects, in this example:
-=PeerConnection API=
- Describe the PeerConnection API.
-=DataChannel API=
-    etc.</nowiki>
-
-The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
-
-It also will have a summary table of the API objects included in the API. These are generated when each object's '''Applies to''' field specifies the API listing to which it belongs.
-
 ==Creating the listing page==
 The [[apis/webrtc]] listing page was created as follows.
 # Navigate to [[WPD:New_Page]].
@@ -83,6 +64,27 @@ Oh, that and mark them as stubs, of course!
 =Filling in the pages=
 
 Once you've got the pages all in place, you can go back and start filling them in. Most of the time, how to do this is obvious. But where it may be unclear, this section attempts to clarify.
+
+==Listing page content==
+
+The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
+
+ <nowiki>
+<title>WebRTC API</title>
+...
+Describe the WebRTC API.
+=MediaStream API=
+Describe the MediaStream API. Provide links to the appropriate API objects, in this example:
+=PeerConnection API=
+ Describe the PeerConnection API.
+=DataChannel API=
+    etc.</nowiki>
+
+The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
+
+{{TODO|The API_Listing template '''Usage''' section should be retitled as '''Overview''' and given an <h1> header.}}
+
+It also will have a summary table of the API objects included in the API. These are generated when each object's '''Applies to''' field specifies the API listing to which it belongs.
 
 ==Intermediate pages==
 
