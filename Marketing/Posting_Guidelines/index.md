@@ -24,6 +24,7 @@ The following guidelines must be met:
 ** Weekly stats summary
 ** Calling out special community contributions
 ** Linking to videos or other posts directly about Web Platform Docs.
+** Status updates for in-progress commonly-requested features.
 ** ''This list will grow over time''
 * Every proposed blog post must be posted by a member of member-webdocs (perhaps on behalf of another submitter) to that list. The post may not go live until either: '''two independent "Sounds Good To Me" responses''' are received on that list, or '''12 hours''' have passed. Post types that do not have precedent or are potentially controversial must get at least two active SGTMs.
 
