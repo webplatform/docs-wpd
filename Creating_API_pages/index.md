@@ -62,17 +62,17 @@ The first page to create, after the listing page, is that for the first API obje
 The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
 
 The WPD:New_Page page describes how to create the URL for each page. For example, the [[apis/webrtc/objects/MediaStreamTrackList|MediaStreamTrackList]] object has the following members, shown with their full paths:
-*Methods
-**[[apis/webrtc/objects/MediaStream/methods/add]]
-**[[apis/webrtc/objects/MediaStream/methods/item]]
-**[[apis/webrtc/objects/MediaStream/methods/remove]]
-*Properties
-**[[apis/webrtc/objects/MediaStream/properties/length]]
-**[[apis/webrtc/objects/MediaStream/properties/onaddtrack]]
-**[[apis/webrtc/objects/MediaStream/properties/properties/onremovetrack]]
-*Events
-**[[apis/webrtc/objects/MediaStream/events/addtrack]]
-**[[apis/webrtc/objects/MediaStream/events/removetrack]]
+* Methods
+** [[apis/webrtc/objects/MediaStream/methods/add]]
+** [[apis/webrtc/objects/MediaStream/methods/item]]
+** [[apis/webrtc/objects/MediaStream/methods/remove]]
+* Properties
+** [[apis/webrtc/objects/MediaStream/properties/length]]
+** [[apis/webrtc/objects/MediaStream/properties/onaddtrack]]
+** [[apis/webrtc/objects/MediaStream/properties/onremovetrack]]
+* Events
+** [[apis/webrtc/objects/MediaStream/events/addtrack]]
+** [[apis/webrtc/objects/MediaStream/events/removetrack]]
 
 The [[apis/webrtc/objects/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
 
