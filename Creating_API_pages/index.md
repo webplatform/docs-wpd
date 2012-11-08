@@ -51,7 +51,7 @@ Somehow this fundamental principle of namespace architecture got missed in our '
 
 ==Template and form fixes needed==
 
-To fill out the '''apis''' for better usability, we'll need to make some minor modifications to the templates and forms that comprise the pages.  These are cited as TODOs in the following sections, where the methodology for creating API pages is provided as solution to the problems cited here.
+To fill out the '''apis''' for better usability, we'll need to make some minor modifications to the templates and forms that comprise the pages.  These are cited as TODOs in the following sections, where the methodology for creating API pages is proposed as a solution to the problems cited here.
 
 =Listing page=
 
