@@ -153,7 +153,7 @@ It also will have a summary table of the API objects included in the API. These 
 
 The listing page should also include compatibility tables for each of the API objects.
 
-{{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently. See below}}
+{{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently.}}
 
 ==Object page content==
  
