@@ -112,6 +112,10 @@ The WPD:New_Page page describes how to create the URL for each page. For example
 ** [[apis/webrtc/objects/MediaStreamTrackList/events/addtrack]]
 ** [[apis/webrtc/objects/MediaStreamTrackList/events/removetrack]]
 
+When you create the page, you specify the full path - per the above - in the New_Page page.
+
+{{TODO|The form input fields in the New_Page page need to be wider to display longer paths.}}
+
 The [[apis/webrtc/objects/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
 
 When you are stubbing out the pages, if you do nothing else in the member pages, you must specify the parent API object in the '''Applies to''' field.
