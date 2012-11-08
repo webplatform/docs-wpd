@@ -20,7 +20,7 @@ Our WPD:New_Page page provides for the creation of API Listing pages that descri
 
 Sometimes this is a problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]] in the Manual of Style.)
 
-Sometimes it is a problem with a missing '''objects''' namespace artifact - but not always - as in [[apis/timing/objects/performance]]. Most of the apis appear to missing this artifact - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexedDB/objects/IDBFactory'''.
+Sometimes it is a problem with a missing '''objects''' namespace artifact - but not always - as in [[apis/timing/objects/performance]]. Most of the APIs appear to missing this artifact - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexedDB/objects/IDBFactory'''.
 
 We need to consistently distinguish API objects the same way we distinguish events, methods, and properties, by placing the '''objects''' artifact between the API listing and object, as in [[apis/webrtc/objects/MediaStream]].
 
