@@ -34,7 +34,7 @@ By saying, '''apis/indexedDB/methods/openKeyCursor''' the URL is implying that t
 
 Instead, these should be assigned to their respective API objects, as in '''apis/indexeddb/objects/indexedDB/methods/open'''. Notice how this both properly associates the '''open''' method with the '''indexedDB''' object ''and'' differentiates the '''indexeddb''' API listing from the '''indexedDB''' object.
 
-While the templates do provide for an association between the event, method, or property with its parent object via the '''Applies to''' field, this is not implemented consistently. For many object members the '''Applies to''' field doesn't work properly. For example, [[apis/indexedDB/properties/direction]]. Although the '''Applies to''' field does specify '''apis/indexedDB/IDBCursor''' the reference does not appear in the generated page. Therefore, the user has no idea how to use this particular property, given the documentation.
+While the templates do provide for an association between the event, method, or property with its parent object via the '''Applies to''' field, for many object members the '''Applies to''' field doesn't work properly (must be a bug - as noted below). For example, [[apis/indexedDB/properties/direction]]. Although the '''Applies to''' field does specify '''apis/indexedDB/IDBCursor''' the reference does not appear in the generated page. Therefore, the user has no idea how to use this particular property, given the documentation.
 
 If the '''direction''' page had as its URL, '''apis/indexeddb/objects/IDBCursor/properties/direction''' the developer would know at a glance to which object this property belongs.
 
