@@ -211,7 +211,7 @@ In practice you'll often see property calls inside of template definitions, and 
 
 Queries are how you select pages via properties and then print out some of their property-values in some form.
 
-At the moment we don't use them, but soon we will use them to create method-listing pages, using inline queries.
+We use them quite a bit, for example to automatically generate the listing of methods/properties on the [[Template:API_Object|API Object template]] and for listings of pages in [[Template:API_Listing|API Listing pages]].
 
 More info: http://semantic-mediawiki.org/wiki/Help:Inline_queries
 
