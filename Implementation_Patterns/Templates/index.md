@@ -53,6 +53,8 @@ Note that it's actually kind of difficult to select pages that are only direct c
 
 In practice, the queries you will create will be some combination of a given template type combined with it having a URL of a given form.
 
+{{TODO | Document how to find what properties a page has}}
+
 ===Attributes, properties, and DOM===
 
 {{TODO | Fill this part in}}
