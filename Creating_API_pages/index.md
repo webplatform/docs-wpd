@@ -53,6 +53,8 @@ Somehow this fundamental principle of namespace architecture got missed in our '
 
 To fill out the '''apis''' for better usability, we'll need to make some minor modifications to the templates and forms that comprise the pages.  These are cited as TODOs in the following sections, where the methodology for creating API pages is proposed as a solution to the problems cited here.
 
+{{Author_note|Keep in mind that while the rest of this document is a proposed solution, it is ultimately intended to become a guide for users creating new pages. That means there will be a lot of "well, duh" moments for you as an expert on this wiki. Bear with us.}}
+
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
