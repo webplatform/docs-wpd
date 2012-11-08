@@ -149,7 +149,7 @@ The listing page's main content should provide both an elaborate description of 
 
 It also will have a summary table of the API objects included in the API. These are generated when each object's '''Applies to''' field specifies the API listing to which it belongs.
 
-{{TODO|The API_Listing template needs an API Name/Summary table to list all of the API objects. Move the '''Subpages''' table to the bottom of the template.}}
+{{TODO|The API_Listing template needs an '''API Name/Summary''' table to list all of the API objects. Move the '''Subpages''' table to the bottom of the template.}}
 
 The listing page should also include compatibility tables for each of the API objects.
 
