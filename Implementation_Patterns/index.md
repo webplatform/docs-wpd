@@ -137,11 +137,11 @@ There are some built-in templates, like #if. You can find out more here: https:/
 
 Categories are also built into MediaWiki. They're used extensively in Wikipedia, for example. By default a list of categories a page belongs to is listed at the bottom of the page.
 
-If you find a category, you can view its documentation (including a page that lists all of the pages in that category) at http://webplatform.org/docs/Category:Foo
+If you find a category, you can view its documentation (including a page that lists all of the pages in that category) at http://webplatform.org/docs/Category:Foo (replace "Foo" with the category name in question).
 
 We use categories for a special purpose in our implementation: '''categories are how Semantic Forms knows which form to present to a user to edit the page.''' If you look at a category's documentation page (for example http://webplatform.org/docs/Category:CSS_Properties) you'll see that it includes markup that specifies which form those pages should use. 
 
-Without markup on a page to specify that it's in a category (and if that category didn't have that markup to wire it to a specific form) then the "Edit with form" button wouldn't do anything.
+Without markup on a page to specify that it's in a category (and if that category didn't have that markup to wire it to a specific form) then the "Edit" button would just take you directly to the scary, confusing edit source view
 
 In our implementation, the category is set within the template call. For example, if you inspect how [[Template:CSS_Property]] is implemented, at the very end of the template is a call to add the CSS Properties category to the page. Thus, anyone who puts a call to <nowiki>{{CSS_Property}}</nowiki> on the page will now have the page wired up to use the CSS Property Form from now on.
 
