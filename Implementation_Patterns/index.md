@@ -302,9 +302,9 @@ Let's dive into the definition of the accompanying form, which we discovered by 
 
 Again, like templates, most of the implementation is hidden in <nowiki><includeonly></nowiki> blocks. Click edit to see how it all works.
 
-At the beginning there's a bunch of boiler plate that's not important to understand (you can just copy and paste it when you create new forms). Basically what it does is just defines that this form is attached to the CSS Property template. (You'll notice the Flags_form_section template. That's an interesting pattern to re-use pieces of forms. See the "Re-usable form components", below).
+At the beginning there's a bunch of boiler plate that's not important to understand (you can just copy and paste it when you create new forms). Basically what it does is just defines that this form is attached to the CSS Property template. (You'll notice the Flags_form_section template as well as a large number of other ones. That's an interesting pattern to re-use pieces of forms. See the "Re-usable form components", below).
 
-Most of this page is just normal wiki syntax. The important bits look like:
+If you scroll down to the section that deals with the CSS Property template, you'll see the meat of this form. Most of this page is just normal wiki syntax. The important bits look like:
 
 <syntaxhighlight>
 {{{field|Summary}}}
