@@ -161,7 +161,7 @@ The object page is pretty straight-forward. Here you'll want to explain how to u
 
 {{TODO|The API_Object template needs an '''Applies to''' field to which the summary table in the API_Listing page can refer to list all of the objects in the API listing page.}}
 
-{{TODO|In the API_Object template, '''Subclass of''' should be changed to '''Inherits from"" for greater accuracy and clarity.}}
+{{TODO|In the API_Object template, '''Subclass of''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
 
 ==Intermediate pages==
 
