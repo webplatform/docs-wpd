@@ -26,13 +26,17 @@ We need to consistently distinguish API objects the same way we distinguish even
 
 == Delineation is inaccurate ==
 
-By saying, '''apis/indexedDB/methods/openKeyCursor''' the URL is implying that the openKeyCursor method belongs to an object called indexedDB. It does not. Rather it belongs to the IDBIndex object. All of the properties, methods, and events of ''every api'' are collocated likewise under one namespace artifact. In the case of indexedDB, they read as follows:
+By saying, '''apis/indexedDB/methods/openKeyCursor''' the URL is implying that the openKeyCursor method belongs to an object called indexedDB. It does not. Rather it belongs to the IDBIndex object. All of the properties, methods, and events of ''every api'' are collocated likewise under one namespace artifact. In the case of IndexedDB, they read as follows:
 
 * apis/indexedDB/events
 * apis/indexedDB/methods
 * apis/indexedDB/properties
 
-Instead, the 
+Instead, these should be assigned to their respective API objects, as in '''apis/indexeddb/objects/indexedDB/methods/open'''. Notice how this both properly associates the '''open''' method with the '''indexedDB''' object ''and'' differentiates the '''indexeddb''' API listing from the '''indexedDB''' object.
+
+While the templates do provide for an association between the event, method, or property with its parent object via the '''Applies to''' field, this is not implemented consistently. For many object members the '''Applies to''' field doesn't work properly. For example, [[apis/indexedDB/properties/direction]]. Although the '''Applies to''' field does specify '''apis/indexedDB/IDBCursor''' the reference does not appear in the generated page. Therefore, the user has no idea how to use this particular property, given the documentation.
+
+If the '''direction''' page had as its URL, '''apis/indexeddb/objects/IDBCursor/properties/direction''' the developer would know at a glance to which object this property belongs.
 
 =Listing page=
 
