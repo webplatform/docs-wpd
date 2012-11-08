@@ -372,9 +372,7 @@ This is a complicated example because it has a conditional table (the specificat
 
 ====Re-usable form components====
 
-There are some pieces of forms that we'll want to re-use in other forms. Examples include the Flags section, the Attribution section, and others.
-
-{{Note | We've only done the Flags section like this so far.}}
+There are many pieces of forms that we'll want to re-use in other forms. Examples include the Flags section, the Attribution section, and others.
 
 The pattern to do this is kind of weird: we just create a simple template to contain the bit of form we want to reuse.
 
