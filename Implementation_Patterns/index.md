@@ -225,9 +225,9 @@ We'll walk through the CSS Property template, via the sample page of [[css/prope
 
 ====The CSS Property page====
 
-If you go to that page and hit edit, you'll see that basically it's just two templates: Flags and CSS_Property. If you were to edit with form you'd see that the form basically has one-to-one correspondence with those parameters.
+If you go to that page and hit "Edit Source", you'll see that basically it's a number of templates being called: Flags, Summary, CSS_Property and more.  If you were to "Edit" on the page you'd see that the form basically has one-to-one correspondence with those parameters. (This is only obvious for the templates that are configured directly in the form. More on that in a bit).
 
-CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [[Template:CSS_Property]]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
+If you scroll down in the source, you'll see the CSS_Property template being called. CSS_Property is just a normal template (we can tell that based on the double-curly brace syntax), so that means we can see its definition at [[Template:CSS_Property]]. When we go there, we get a brief overview of what the parameters ''are'', but not how it ''works''. To do that, we'll need to hit "Edit".
 
 When we do that, we skip to the <nowiki><includeonly></nowiki> section to see the actual implementation. It's pretty simple--mainly we just print a header for each section and then dump whatever was passed in via the parameter.
 
