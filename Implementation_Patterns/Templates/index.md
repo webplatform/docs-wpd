@@ -51,13 +51,29 @@ The API_Listing page template is used for many pages that are primarily about or
 
 The listing is powered in one of two ways: the better way and the worse way.
 
+====The Worse Way====
+First, the worse way.
+
+It is possible in MediaWiki to enumerate all sub-pages that are descendants of a given page. We implement this in the API Listing template with a parameter to "Print all sub-pages rooted here."
+
+There are two major limitations of this approach. First, it prints out ''all descendants'' when what you normally want is only the ''direct children''. This creates listings that are far too full. Secondly, the listings use the full page name (things like "css/properties/font-size"), which is ugly, and doesn't include the page summary.
+
+The reason we have this is because of a mistake we made in the import. The prettier way of printing sub-pages relies on the "Page_Title", "Path", and "Summary" properties being set on pages. However, when we did the import, we goofed--we didn't include the templates that set those properties. Thus, most pages imported don't have those properties set until they've been manually edited at least once (we refer to a manual edit without substantive changes, whose only purpose is to make sure all relevant templates and properties are included, a "touch"). 
+
+We figured at the beginning that it was better to comprehensively list all descendants instead of doing the better listing format but missing some pages seemingly randomly--perhaps forgetting about them for all time.
+
+Over time, as more articles are touched, every API_Listing page should transition to using the Better Way and stop using this "Print all sub-pages rooted here" checkbox. Note that while we're transitioning, it's best practice to include the better way print out as well as the comprehensive sub-listing (they can coexist on the page). Once we've verified the better listing is comprehensive, we can uncheck the sub-listing option.
+
+====The Better Way====
 The better way uses Semantic Media Wiki query syntax to select which pages to show. You can see what syntax is allowed at [http://semantic-mediawiki.org/wiki/Help:Selecting_pages this page]. Basically you write a query that selects pages based on categories they're in or the values of semantic media wiki properties on them.
 
 Note that it's actually kind of difficult to select pages that are only direct children of a page (as opposed to all descendants).  We get around this (somewhat) by having every page have a Path property, which is just set to the name of the page (e.g. "css/properties/font-size"). You can then use the like operator in the SMW query to do some matching.
 
+{{Note | Pro tip: you can easily see what properties are currently applied to a page by going to Tools > Browser Properties }}
+
 In practice, the queries you will create will be some combination of a given template type combined with it having a URL of a given form.
 
-{{TODO | Document how to find what properties a page has}}
+
 
 ===Attributes, properties, and DOM===
 
