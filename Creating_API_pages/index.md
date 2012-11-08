@@ -141,6 +141,8 @@ Describe the MediaStream API. Provide links to the appropriate API objects, in t
 =DataChannel API=
     etc.</nowiki>
 
+This is just an outline. Here's the [[apis/webrtc|actual content of the apis/webrtc page]].
+
 The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
 
 {{TODO|The API_Listing template needs a '''Content''' section - as in the Basic_Page template.}}
