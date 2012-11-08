@@ -41,7 +41,15 @@ The [[Template:API_Name|API name]] template overlaps in use with the page title 
 
 ===API Listing===
 
-{{TODO | Fill this part in}}
+The [[Template:API_Listing|API Listing]] template is somewhat confusingly named. Unlike the API_Object template which is the canonical reference for the methods, properties, and events that apply to a given interface object, the API Listing template is more about just listing all sub-pages that match some criteria.
+
+The API_Listing page template is used for many pages that are primarily about organization and not about content. For example, the [[css/properties]] page uses this template to list all css properties.
+
+The listing is powered in one of two ways: the better way and the worse way.
+
+The better way uses Semantic Media Wiki query syntax to select which pages to show. You can see what syntax is allowed at [http://semantic-mediawiki.org/wiki/Help:Selecting_pages this page]. Basically you write a query that selects pages based on categories they're in or the values of semantic media wiki properties on them.
+
+{{TODO | Continue filling in this section, including using the SMW property for page name. }}
 
 ===Attributes, properties, and DOM===
 
