@@ -156,6 +156,12 @@ The listing page should also include compatibility tables for each of the API ob
 {{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently. See below}}
 
 ==Object page content==
+ 
+The object page is pretty straight-forward. Here you'll want to explain how to use the object and its relationship to the other objects in the API.
+
+{{TODO|The API_Object template needs an '''Applies to''' field to which the summary table in the API_Listing page can refer to list all of the objects in the API listing page.}}
+
+{{TODO|In the API_Object template, '''Subclass of''' should be changed to '''Inherits from"" for greater accuracy and clarity.}}
 
 ==Intermediate pages==
 
