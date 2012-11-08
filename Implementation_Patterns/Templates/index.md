@@ -9,6 +9,10 @@ The summary section is a good example. We have the [[Template:Summary_Section|ma
 
 Most page-type forms use sub-forms and sub-templates as much as possible, and use the "central" template--the one most specific to this page-type--only for properties and form fields that are specific to this page type and this page type only. That "central" template is often the one that deposits the appropriate category on the page to wire it up to the form. The most simple of these page-type forms is the [[Form:Basic|one for basic pages]]. There aren't any special parameters to set, so basically that central template ''just'' sets the Basic Pages category so that in the future when the user hits the Edit button the right form will show.
 
+==Template/Form Naming Conventions==
+
+{{TODO | Fill in this section }}
+
 ==Specific Sub-Forms==
 
 There are many sub-forms and sub-templates that we use very often. These are generally easy to discover by viewing the source of the page-type form you're interested in.
