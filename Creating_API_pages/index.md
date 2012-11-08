@@ -163,6 +163,22 @@ The object page is pretty straight-forward. Here you'll want to explain how to u
 
 {{TODO|In the API_Object template, '''Subclasses''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
 
+==Object method page content==
+
+Again, pretty straight-forward.
+
+{{TODO|The API__Object_Method template needs greater clarity in using the '''Syntax''' section.}}
+
+[[TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
+
+==Object property page content==
+
+Another straight-forward form.
+
+{{TODO|'''Bug''' The API_Object_Property page does not display the parent object, i.e. "Property of X object."}}
+
+{{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
+
 ==Intermediate pages==
 
 By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the '''objects''', '''properties''', '''methods''', and '''events''' intermediate pages in the '''apis''' namespace.
