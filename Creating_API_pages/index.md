@@ -47,6 +47,8 @@ Consider the following two pages. They both describe different properties of the
 No, these aren't the same, but under the current architecture, one of 'em's gotta go. You can't have two pages with the same name:
 * apis/webrtc/properties/label
 
+Somehow this fundamental principle of namespace architecture got missed in our '''apis'''.
+
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
