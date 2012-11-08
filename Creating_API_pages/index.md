@@ -155,6 +155,8 @@ The listing page should also include compatibility tables for each of the API ob
 
 {{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently. See below}}
 
+==Object page content==
+
 ==Intermediate pages==
 
 By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the '''objects''', '''properties''', '''methods''', and '''events''' intermediate pages in the '''apis''' namespace.
