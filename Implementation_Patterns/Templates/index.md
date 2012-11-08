@@ -14,3 +14,16 @@ Most page-type forms use sub-forms and sub-templates as much as possible, and us
 There are many sub-forms and sub-templates that we use very often. These are generally easy to discover by viewing the source of the page-type form you're interested in.
 
 {{TODO | Fill in a list of the main sub-form templates }}
+
+==Page-Type Organization==
+Again, the common elements of pages (like summaries) are handled in sub-forms and sub-templates that are used the same on every page. Most page-types have a specific "central" template that handles the interesting bits that are specific to this page type. For example, the [[Form:CSS_Property|css property form]] defines fields for whether or not the field is inheritable and what its legal values are.
+
+The following sections give a more in-depth overview of how these main page-types are inter-related. Documentation that is mainly about one specific page-type (and not how they inter-relate) should be found on the given Template itself.
+
+===API Objects, Methods, and Properties ===
+
+Some of the most common page-types are [[Template:API_Object]], [[Template:API_Object_Method]], and [[Template:API_Object_Property]]. They are also some of the most confusing when you first look at them.
+
+The API Object template is the one that should be used for the object that contains methods and properties. It will ultimately have an exhaustive list of all of its associated properties, methods, events, constants, etc. However, if you edit a page that uses this template you will see that there isn't much content on the page at all!
+
+The way the API_Object template works is that all of the applicable API_Object_Method and API_Object_Property pages set an Applies_to field that specifies the page they "apply to": the API_Object. Then, when we generate the text for that page, we use a semantic media wiki query to select all pages that apply to it and print out their information.
