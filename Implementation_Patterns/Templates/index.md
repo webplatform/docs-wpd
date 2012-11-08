@@ -27,3 +27,22 @@ Some of the most common page-types are [[Template:API_Object]], [[Template:API_O
 The API Object template is the one that should be used for the object that contains methods and properties. It will ultimately have an exhaustive list of all of its associated properties, methods, events, constants, etc. However, if you edit a page that uses this template you will see that there isn't much content on the page at all!
 
 The way the API_Object template works is that all of the applicable API_Object_Method and API_Object_Property pages set an Applies_to field that specifies the page they "apply to": the API_Object. Then, when we generate the text for that page, we use a semantic media wiki query to select all pages that apply to it and print out their information.
+
+===Summaries, Page_Title, and API_Name===
+As far as MediaWiki is concerned, the "title" of a page is the entirety of the URL after the "http://docs.webplatform.org/wiki/" part. This leads to many pages having long names like "css/properties/font-size" when "font-size" is far more appropriate. Also, when we include a link to a page on another page, we often want to provide a bit of context on what the page is about.
+
+We get around this by setting Semantic Media Wiki properties for the Page_Title, API_Name, and Summary.
+
+The Summary is simply a property of type Text that is set to contain the Summary field in the form. By setting a property, other pages (like [[Template:API_Listing]]) can automatically pull out that information and display it in a table.
+
+The [[Template:Page_Title|page title]] template is how you set the page title. If the editor provided a value, it uses that value. However, it defaults to using the last part of the page-title. So, for example, on "css/properties/font-size", it would default to "font-size".
+
+The [[Template:API_Name|API name]] template overlaps in use with the page title template quite a bit, but historically it predates it. Whereas page title is what the page should be called when presented as a link, the API_Name is the precise text used to invoke that API. The API_Name is used when generating automatic examples and theoretically for more stuff in the future. For methods and properties, it would be the method/property name. For things like CSS selectors, however, it would be things like "#" or ".". Pages with weird API_Names are the cases where the page title might be different than the API_Name, for example the page might have a title of "Class Selector", but the API_Name might have a value of ".".
+
+===API Listing===
+
+{{TODO | Fill this part in}}
+
+===Attributes, properties, and DOM===
+
+{{TODO | Fill this part in}}
