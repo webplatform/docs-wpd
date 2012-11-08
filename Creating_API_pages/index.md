@@ -185,7 +185,7 @@ Another straight-forward form.
 
 Again, straight-forward.
 
-{{TODO|The Event template: it's not clear how the values in the '''Overview Table''' get populated.
+{{TODO|The Event template: it's not clear how the values in the '''Overview Table''' get populated. For APIs - as opposed to DOM events - we may need a different form/template.}}
 
 ==Intermediate pages==
 
