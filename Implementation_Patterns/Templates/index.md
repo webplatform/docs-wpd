@@ -49,6 +49,8 @@ Again, the common elements of pages (like summaries) are handled in sub-forms an
 
 The following sections give a more in-depth overview of how these main page-types are inter-related. Documentation that is mainly about one specific page-type (and not how they inter-relate) should be found on the given Template itself.
 
+{{TODO | A lot of the documentation in the following sections actually should live in the specific documentation sections on each Template's page.}}
+
 ===API Objects, Methods, and Properties ===
 
 Some of the most common page-types are [[Template:API_Object]], [[Template:API_Object_Method]], and [[Template:API_Object_Property]]. They are also some of the most confusing when you first look at them.
