@@ -149,6 +149,8 @@ The listing page's main content should provide both an elaborate description of 
 
 It also will have a summary table of the API objects included in the API. These are generated when each object's '''Applies to''' field specifies the API listing to which it belongs.
 
+{{TODO|The API_Listing template needs an API Name/Summary table to list all of the API objects}}
+
 ==Intermediate pages==
 
 By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the '''objects''', '''properties''', '''methods''', and '''events''' intermediate pages in the '''apis''' namespace.
