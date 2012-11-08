@@ -8,3 +8,9 @@ There are many common elements on these reference pages that occur either on all
 The summary section is a good example. We have the [[Template:Summary_Section|main template]] that handles the work of taking in parameters and rendering them out in a standard way, as well as setting certain semantic media wiki properties in the right way. If you "Edit Source" on almost any reference page, you'll see that there's an instantiation of this template on the page. We also have the [[Template:Summary_Form_Section|form template]] which configures how that part of the form will show up and what fields it will have. If you look at the source of any of the major page-type forms, like [[Form:CSS_Property|the css property form]], you'll see that there is a call to this Summary_Form_Section template.
 
 Most page-type forms use sub-forms and sub-templates as much as possible, and use the "central" template--the one most specific to this page-type--only for properties and form fields that are specific to this page type and this page type only. That "central" template is often the one that deposits the appropriate category on the page to wire it up to the form. The most simple of these page-type forms is the [[Form:Basic|one for basic pages]]. There aren't any special parameters to set, so basically that central template ''just'' sets the Basic Pages category so that in the future when the user hits the Edit button the right form will show.
+
+==Specific Sub-Forms==
+
+There are many sub-forms and sub-templates that we use very often. These are generally easy to discover by viewing the source of the page-type form you're interested in.
+
+{{TODO | Fill in a list of the main sub-form templates }}
