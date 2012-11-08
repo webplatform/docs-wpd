@@ -49,7 +49,9 @@ The listing is powered in one of two ways: the better way and the worse way.
 
 The better way uses Semantic Media Wiki query syntax to select which pages to show. You can see what syntax is allowed at [http://semantic-mediawiki.org/wiki/Help:Selecting_pages this page]. Basically you write a query that selects pages based on categories they're in or the values of semantic media wiki properties on them.
 
-{{TODO | Continue filling in this section, including using the SMW property for page name. }}
+Note that it's actually kind of difficult to select pages that are only direct children of a page (as opposed to all descendants).  We get around this (somewhat) by having every page have a Path property, which is just set to the name of the page (e.g. "css/properties/font-size"). You can then use the like operator in the SMW query to do some matching.
+
+In practice, the queries you will create will be some combination of a given template type combined with it having a URL of a given form.
 
 ===Attributes, properties, and DOM===
 
