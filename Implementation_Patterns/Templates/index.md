@@ -116,4 +116,18 @@ Events are weird because they have both an Applies_to (the types of DOM interfac
 
 ===Topics, Topic Clusters, See Also===
 
-{{TODO | Fill this in}}
+We use a number of organizing principles, and it's easy to get confused about how they all inter-relate and when you should use each one.
+
+First, '''Topics'''. Topics are simply special category pages that are common enough that they make sense to show in a form UI on most pages. You can see more information about them at [[WPD:Topics]].  You can think of Topics almost like "tags": if you can imagine more than 20 or so pages using them, and a realistic user scenario where someone would want to find all of those pages as a group, there should be a tag.
+
+Many articles have a See Also section. This section ranges from fully-automatically generated to completely manually generated. The see also sections sometimes include links from within WPD and sometimes include external links. 70 million years from now when we're done documenting everything, pages will use topic clusters, manual links, and external links sections--but not the "Manual Sections".
+
+'''Topic clusters''' are the way that allows us to automatically generate portions of the See Also section automatically for articles on the WPD. A topic cluster (configured at [[Property:Topic_Cluster]]) should be created whenever there's a grouping of articles that should all be listed on one-another's pages. The CSS Font topic cluster is a canonical example; there are a lot of CSS properties that deal directly with fonts and it makes sense to list all of them on one-another's pages. '''If you check off a topic cluster for a page, it will automatically print out links to all other pages in its see also section.''' Whereas Topics are designed to be visible to end users and a relatively small list, Topic clusters should be created whenever you want to have an automatically-curated grouping of See Also links. 
+
+The See Also section also has three free-form fields: '''Manual Links''', '''External Links''', and '''Manual Sections'''. 
+
+'''Manual links''' is a section in the See Also section that should list any articles within WPD that should also be listed but where a Topic Cluster doesn't make sense. Don't include a header (it's automatically generated for you) but do include bullets for each line.
+
+'''External Links''' is a section in the See Also section that should list links to any external resources (except for specs; those go in the Related Specifications form). Don't include a header (it's automatically generated for you) but do include bullets for each line.
+
+'''Manual Sections''' is for articles that haven't yet made use of topic clusters appropriately. It's basically an escape hatch where you can just list whatever you want and it will be plopped into the see also section wholesale. 70 million years from now when we're done documenting everything, pages will use topic clusters, manual links, and external links sections--but not the "Manual Sections".
