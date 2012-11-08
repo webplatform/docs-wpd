@@ -82,11 +82,9 @@ The better way uses Semantic Media Wiki query syntax to select which pages to sh
 
 Note that it's actually kind of difficult to select pages that are only direct children of a page (as opposed to all descendants).  We get around this (somewhat) by having every page have a Path property, which is just set to the name of the page (e.g. "css/properties/font-size"). You can then use the like operator in the SMW query to do some matching.
 
-{{Note | Pro tip: you can easily see what properties are currently applied to a page by going to Tools > Browser Properties }}
+{{Note | Pro tip: you can easily see what properties are currently applied to a page by going to Tools > Browse Properties }}
 
 In practice, the queries you will create will be some combination of a given template type combined with it having a URL of a given form.
-
-
 
 ===Attributes, properties, and DOM===
 
