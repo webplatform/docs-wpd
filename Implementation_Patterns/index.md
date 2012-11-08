@@ -240,7 +240,10 @@ Most page-type forms use sub-forms and sub-templates as much as possible, and us
 
 If you want to figure out how a given page type works, you'll need to dig into the main templates as well as the other templates being used on the page.
 
-But here are some interesting patterns:
+'''You should see the [[WPD:Implementation_Patterns/Templates|templates implementation guide]] for a better overview of how our main work-horse templates are wired together.'''
+
+===Common Patterns===
+If you dig into the various templates and sub-patterns, you'll see some interesting patterns. Below we explore a few of them.
 
 <syntaxhighlight>
 ==Summary==
@@ -248,7 +251,7 @@ But here are some interesting patterns:
 {{#set:Summary={{{Summary}}} }}
 </syntaxhighlight>
 
-In the summary section we're printing out the value, but after that we're also manually setting the property value. This is because we don't want the normal linkified display of the text when you set a property inline, but we do want to register that property value with the page.
+In the [[Template:Summary_Section|summary section template]] we're printing out the value, but after that we're also manually setting the property value. This is because we don't want the normal linkified display of the text when you set a property inline, but we do want to register that property value with the page.
 
 <syntaxhighlight>
 {{#if: {{{Usage|}}}|
