@@ -57,6 +57,8 @@ The API Object template is the one that should be used for the object that conta
 
 The way the API_Object template works is that all of the applicable API_Object_Method and API_Object_Property pages set an Applies_to field that specifies the page they "apply to": the API_Object. Then, when we generate the text for that page, we use a semantic media wiki query to select all pages that apply to it and print out their information.
 
+Importantly, it's also possible to define the '''Subclass_of''' property of API_Objects. This is the way we formally represent which objects this inherits properties and methods of--something that's critically important for many DOM APIs (for example, the chain for AudioElement looks like: AudioElement --> MediaElement --> HTMLElement --> Element --> Node). We automatically print out the properties and methods of the immediate parent.  For performance reasons we don't print out any methods or properties that come from higher up in the chain, but if you want to, you can manually specify more ancestors in the Subclass_of field by separating them with commas (most recent ancestor first).
+
 ===Summaries, Page_Title, and API_Name===
 As far as MediaWiki is concerned, the "title" of a page is the entirety of the URL after the "http://docs.webplatform.org/wiki/" part. This leads to many pages having long names like "css/properties/font-size" when "font-size" is far more appropriate. Also, when we include a link to a page on another page, we often want to provide a bit of context on what the page is about.
 
