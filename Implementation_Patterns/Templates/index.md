@@ -17,7 +17,7 @@ In the vast majority of cases, we use consistent naming conventions so it's easy
 
 For page types:
 * '''Core template''': [[Template:Foo]] 
-* '''Core category''': [[Category:Foos]], where "Foos" is the english plurilization of the core template name.
+* '''Core category''': <nowiki>[[Category:Foos]]</nowiki>, where "Foos" is the english plurilization of the core template name.
 * '''Core form''': [[Form:Foo]]
 
 {{Note | Basic page's form is an exception to these rules. The main form is at [[Template:Basic_Page]] but the form is at [[Form:Basic]] }}
