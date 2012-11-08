@@ -4,6 +4,35 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me snark.}}
 
+=The  Problem=
+
+{{TODO|This "Problem" section will be removed from the final, user-facing page.}}
+
+The way our '''apis''' namespace is drawn out is inadequate to accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purposes of storing the content in a predictable, logical fashion, and providing the user with equally predictable, logical navigation.
+
+The scheme in place currently, however, omits some key elements needed to achieve those objectives, and results in ambiguous or conflicting delineations.
+
+For the purposes of comparison, this article will cite examples from the [[apis/indexedDB]] namespace. Other APIs in the '''apis''' namespace currently follow the same structure.
+
+==No differentiation between objects and listings==
+
+Our WPD:New_Page page provides for the creation of API Listing pages where the API is described. The purpose of these pages is to list all of the API objects in the API, and it distinguishes the common name of the API (IndexedDB) from its member object proper names (IDBFactory, IDBCursor, etc.) However, with the current structure of the '''apis''' namespace, there is no differentiation between API Listings and API Objects.
+
+Sometime this is problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]].)
+
+
+
+
+== Delineation is inaccurate ==
+
+By saying, '''apis/indexedDB/methods/openKeyCursor''' the URL is implying that the openKeyCursor method belongs to an object called indexedDB. It does not. Rather it belongs to the IDBIndex object. All of the properties, methods, and events of ''every api'' are collocated likewise under one namespace artifact. In the case of indexedDB, they read as follows:
+
+* apis/indexedDB/events
+* apis/indexedDB/methods
+* apis/indexedDB/properties
+
+Instead, the 
+
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
