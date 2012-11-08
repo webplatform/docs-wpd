@@ -38,6 +38,15 @@ While the templates do provide for an association between the event, method, or 
 
 If the '''direction''' page had as its URL, '''apis/indexeddb/objects/IDBCursor/properties/direction''' the developer would know at a glance to which object this property belongs.
 
+==Dublicate names in conflict==
+
+Consider the following two pages. They both describe different properties of the same name for different objects.
+* [[apis/webrtc/objects/MediaStream/properties/label]]
+* [[apis/webrtc/objects/MediaStreamTrack/properties/label]]
+
+No, these aren't the same, but under the current architecture, one of 'em's gotta go. You can't have two pages with the same name:
+* apis/webrtc/properties/label
+
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
