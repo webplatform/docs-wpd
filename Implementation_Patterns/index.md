@@ -104,7 +104,7 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 * [[Template:Editorial]] is for ''editorial'' action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors. Most often you'll actually use one of the sub-templates (which are listed from the [[Template:Editorial]] page).
 * ''And many more''. We use templates for many things.
 
-{{TODO | Add a link to the specific implementation guide about the common templates. }}
+{{Note | You can find a more in-depth overview of how our work-horse templates are set up at [[WPD:Implementation_Patterns/Templates|the templates sub-page of this guide]].}}
 
 ==Behind the Scenes==
 
