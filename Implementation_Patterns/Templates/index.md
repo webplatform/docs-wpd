@@ -30,7 +30,19 @@ For sub-templates and sub-forms:
 
 There are many sub-forms and sub-templates that we use very often. These are generally easy to discover by viewing the source of the page-type form you're interested in.
 
-{{TODO | Fill in a list of the main sub-form templates }}
+* [[Template:Page_Title]]
+* [[Template:Flags]]
+* [[Template:Standardization_Status]]
+* [[Template:API_Name]]
+* [[Template:Summary_Section]]
+* [[Template:Examples_Section]]
+* [[Template:Notes_Section]]
+* [[Template:Related_Specifications_Section]]
+* [[Template:Compatibility_Section]]
+* [[Template:See_Also_Section]]
+* [[Template:Topics]]
+* [[Template:External_Attribution]]
+* ''This list is not comprehensive yet. Please add more sub-forms to it!''
 
 ==Page-Type Organization==
 Again, the common elements of pages (like summaries) are handled in sub-forms and sub-templates that are used the same on every page. Most page-types have a specific "central" template that handles the interesting bits that are specific to this page type. For example, the [[Form:CSS_Property|css property form]] defines fields for whether or not the field is inheritable and what its legal values are.
