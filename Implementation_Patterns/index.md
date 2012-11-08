@@ -307,14 +307,14 @@ At the beginning there's a bunch of boiler plate that's not important to underst
 If you scroll down to the section that deals with the CSS Property template, you'll see the meat of this form. Most of this page is just normal wiki syntax. The important bits look like:
 
 <syntaxhighlight>
-{{{field|Summary}}}
+{{{field|Inherited}}}
 </syntaxhighlight>
 
-This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Summary form field should just dump directly into the Summary parameter of the CSS Property template.
+This is how you register form inputs and define which parameters of the associated template they should dump their results to.  Normally all you need is something simple like this, because the Inherited form field should just dump directly into the Inherited parameter of the CSS Property template.
 
 There are all kinds of configuration things you can do here, like defining what values are allowed, different input types, etc. See https://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms for more.
 
-Here's an example of changing the input type:
+Here's an example of changing the input type (from the [[Template:Examples_Form_Section|examples form section template]]):
 
 <syntaxhighlight>
 ==Examples==
@@ -323,11 +323,11 @@ Here's an example of changing the input type:
 
 This overrides the default textinput to use a text area.
 
-But wait--the summary block gets a text area, too--but we didn't override it. How does that work?  Semantic Forms is kind of smart: it can figure out what kind of form input to display based on how the Property is configured. Recall that Summary is configured as a property because we need to be able to extract that information from a page and display it elsewhere. In fact, if you go to [[Property:Summary]] you can see we've defined it as type text, which is why Semantic Forms automatically shows it as a textarea. Semantic Forms figures all of this out because you've linked the template to the category to the form (to be honest, I'm not sure ''exactly'' how it does it).
+But wait--the summary block in [[Template:Summary_Form_Section]] gets a text area, too--but we didn't override it. How does that work?  Semantic Forms is kind of smart: it can figure out what kind of form input to display based on how the Property is configured. Recall that Summary is configured as a property because we need to be able to extract that information from a page and display it elsewhere. In fact, if you go to [[Property:Summary]] you can see we've defined it as type text, which is why Semantic Forms automatically shows it as a textarea. Semantic Forms figures all of this out because you've linked the template to the category to the form (to be honest, I'm not sure ''exactly'' how it does it).
 
 But Examples is ''not'' a property (at least not at this moment). That's because we don't have any need to extract examples and display them elsewhere, so we just print examples out normally. This means there's no property associated with Examples, so Semantic Forms can't configure the form input automatically, and we have to do it ourselves.
 
-Later, we see things like: 
+Later, in [[Template:Compatibility_Form_Section|the compatibility form section template]] we see things like: 
 
 <syntaxhighlight>
 {{{field|Compatibility_desktop_rows|holds template}}}
