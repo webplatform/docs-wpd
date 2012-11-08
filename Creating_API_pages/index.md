@@ -173,7 +173,7 @@ Again, pretty straight-forward.
 
 {{TODO|The API__Object_Method template needs greater clarity in using the '''Syntax''' section.}}
 
-[[TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
+{{TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
 
 ==Object property page content==
 
