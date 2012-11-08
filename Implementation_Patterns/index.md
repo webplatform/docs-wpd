@@ -261,7 +261,7 @@ In the [[Template:Summary_Section|summary section template]] we're printing out 
 |}}
 </syntaxhighlight>
 
-In this pattern we can see that we use the #if directive to either print out the Usage section if the user provided a value, or skip the entire section if the user didn't provide anything.
+In this pattern (from the [[Template:Notes_Section|notes section template]]) we can see that we use the #if directive to either print out the Usage section if the user provided a value, or skip the entire section if the user didn't provide anything.
 
 <syntaxhighlight>
 {{#if: {{{Examples|}}}|
@@ -271,7 +271,7 @@ In this pattern we can see that we use the #if directive to either print out the
 | {{Editorial | This section should include examples. |type=Needs Examples}} }}
 </syntaxhighlight>
 
-This is basically the same, but slightly more complicated. We want to ensure that the examples section is always included in this article type. So if it's not, instead of not printing anything we print an editorial note (basically a TODO) to the screen.
+This example (from the [[Template:Examples_Section|examples section template]]) is basically the same, but slightly more complicated. We want to ensure that the examples section is always included in this article type. So if it's not, instead of not printing anything we print an editorial note (basically a TODO) to the screen.
 
 <syntaxhighlight>
 {{#if: {{{Specifications|}}} | 
@@ -282,6 +282,8 @@ This is basically the same, but slightly more complicated. We want to ensure tha
 {{{Specifications|}}}
 {{!}}} | }}
 </syntaxhighlight>
+
+The rest of these template examples come from the [[Template:CSS_Property|css property template]].
 
 This is one of the more complicated pieces. It's where we print out the specifications table. A few things to note: 
 
