@@ -8,7 +8,7 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{TODO|This "Problem" section will be removed from the final, user-facing page.}}
 
-The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purposes of storing the content in a predictable, logical fashion, and providing the user with equally predictable, logical navigation.
+The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purposes of storing the content in a predictable, logical fashion, and for the purpose of providing the user with equally predictable, logical navigation.
 
 The scheme in place currently, however, omits some key elements needed to achieve those objectives, and results in ambiguous or conflicting delineations.
 
@@ -20,9 +20,9 @@ Our WPD:New_Page page provides for the creation of API Listing pages that descri
 
 Sometimes this is a problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]] in the Manual of Style.)
 
-Sometimes it is a problem with a missing '''objects''' namespace artifact - but not always - as in [[apis/timing/objects/performance]]. Most of the APIs appear to missing this artifact - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexedDB/objects/IDBFactory'''.
+Sometimes it is a problem with a missing '''objects''' namespace artifact identifier - but not always - as in [[apis/timing/objects/performance]]. Most of the APIs appear to missing this identifier - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexedDB/objects/IDBFactory'''.
 
-We need to consistently distinguish API objects the same way we distinguish events, methods, and properties, by placing the '''objects''' artifact between the API listing and object, as in [[apis/webrtc/objects/MediaStream]].
+We need to consistently distinguish API objects the same way we distinguish events, methods, and properties, by placing the '''objects''' identifier between the API listing and API object, as in [[apis/webrtc/objects/MediaStream]].
 
 == Delineation is inaccurate ==
 
