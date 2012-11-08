@@ -38,6 +38,10 @@ While the templates do provide for an association between the event, method, or 
 
 If the '''direction''' page had as its URL, '''apis/indexeddb/objects/IDBCursor/properties/direction''' the developer would know at a glance to which object this property belongs.
 
+==Template and form fixes needed==
+
+To fill out the '''apis''' for better usability, we'll need to make some minor modifications to the templates and forms that comprise the pages.  These are cited as TODOs in the following sections, where the methodology for creating API pages is provided as solution to the problems cited here.
+
 ==Dublicate names in conflict==
 
 Consider the following two pages. They both describe different properties of the same name for different objects.
