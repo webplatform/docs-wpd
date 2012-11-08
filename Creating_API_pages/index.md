@@ -181,6 +181,12 @@ Another straight-forward form.
 
 {{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
 
+==Object event page content==
+
+Again, straight-forward.
+
+{{TODO|The Event template: it's not clear how the values in the '''Overview Table''' get populated.
+
 ==Intermediate pages==
 
 By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the '''objects''', '''properties''', '''methods''', and '''events''' intermediate pages in the '''apis''' namespace.
