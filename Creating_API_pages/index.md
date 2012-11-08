@@ -8,7 +8,7 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{TODO|This "Problem" section will be removed from the final, user-facing page.}}
 
-The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purposes of storing the content in a predictable, logical fashion, and for the purpose of providing the user with equally predictable, logical navigation.
+The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purpose of storing the content in a predictable, logical fashion, and for the purpose of providing the user with equally predictable, logical navigation.
 
 The scheme in place currently, however, omits some key elements needed to achieve those objectives, and results in ambiguous or conflicting delineations.
 
