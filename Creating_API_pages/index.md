@@ -126,7 +126,7 @@ Oh, that and mark them as stubs, of course!
 
 Once you've got the pages all in place, you can go back and start filling them in. Most of the time, how to do this is obvious. But where it may be unclear, this section attempts to clarify.
 
-==Listing page content==
+==Object listing page content==
 
 The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
 
