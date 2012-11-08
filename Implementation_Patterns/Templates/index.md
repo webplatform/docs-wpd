@@ -1,4 +1,4 @@
-This page is a specific overview of our primary work-horse templates, and complements the more high-level [[WPD:Implementation_Patterns]] guide. It assumes you have read and understood that guide.
+'''This page is a specific overview of our primary work-horse templates, and complements the more high-level [[WPD:Implementation_Patterns]] guide. It assumes you have read and understood that guide.'''
 
 ==General Organization==
 Almost every reference page uses one of ~20 major templates/forms. You can view a comprehensive list at [[WPD:New_Page]].
