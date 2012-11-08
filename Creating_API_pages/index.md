@@ -1,5 +1,7 @@
 This article offers a methodology for adding new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc|WebRTC API]] pages.
 
+The purpose of this article is to provide for the creation of new API pages. It advocates taking a different direction from the way the current API pages are laid out, and it cites those pages as examples not to follow. Implied with this methodology is the eventual reorganization of and improvements to the API pages - and that should be done - but the immediate purpose is to provide the community with a new, better way to create API pages.
+
 {{TODO|Once the final methodology is in place, and the fixes cited by the TODOs are in, remove all the TODOs like this one.}}
 
 {{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me snark.}}
