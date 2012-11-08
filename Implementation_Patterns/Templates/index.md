@@ -102,7 +102,17 @@ In practice, the queries you will create will be some combination of a given tem
 
 ===Attributes, properties, and DOM===
 
-{{TODO | Fill this part in}}
+{{Note | This part gets hairy really fast, and our current information organization for it has known problems (see the notes from the community meeting on 10/30 for just a few examples of things we need to change). }}
+
+First of all, most DOM interfaces should use the [[Template:API_Object|API Object template]], since they primarily consist of methods/properties on an API interface.
+
+Markup_Elements should use the DOM_Interface property to point to the ''most specific DOM interface that applies to them.'' For example, the <nowiki><audio></nowiki> markup_element page would point to the AudioElement page. For many "simple" elements, the most specific DOM interface is simply HTMLElement.
+
+Markup_Attribute pages should point at the most-specific DOM interface to which they apply (yes, this is conceptually a bit weird). In the future for each markup_element, we will check to see what its DOM_Interface is, and then query for all attributes that are associated with that DOM_Interface and show those.
+
+Attributes are weird for another reason: generally every attribute on a markup element has a corresponding  property on associated DOM interface. However, this corresponding property might be slightly different (for example, switching from hyphens to camel casing); we need to update the Markup_Attribute template to have an often-automatically-generated Associated_property parameter. There are theoretically some attributes that don't have associated properties (although I can't think of any right now); we need to allow a Markup_Attribute to specify it doesn't have a corresponding property. We don't think it makes sense to have two pages that would have almost precisely the same content. Generally, the rule of thumb is this: '''If the attribute is also a property, create a Markup_Attribute page and make sure it's pointing at the right DOM interface. If there's a property with no attribute, make it just an API_Object_Property'''.
+
+Events are weird because they have both an Applies_to (the types of DOM interfaces they can be fired at), as well as their Subclass_of. There are many different event types that are interconnected with dependency relationships that it's important to model. Most of these relationships terminate with the vanilla Event object.
 
 ===Topics, Topic Clusters, See Also===
 
