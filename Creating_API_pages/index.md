@@ -16,12 +16,13 @@ For the purposes of comparison, this article will cite examples from the [[apis/
 
 ==No differentiation between objects and listings==
 
-Our WPD:New_Page page provides for the creation of API Listing pages where the API is described. The purpose of these pages is to list all of the API objects in the API, and it distinguishes the common name of the API (IndexedDB) from its member object proper names (IDBFactory, IDBCursor, etc.) However, with the current structure of the '''apis''' namespace, there is no differentiation between API Listings and API Objects.
+Our WPD:New_Page page provides for the creation of API Listing pages where the API is described. The purpose of these pages is to list all of the API objects in the API, and it distinguishes the common name of the API (IndexedDB) from its member object proper names (IDBFactory, IDBCursor, etc.) However, with the current structure of the '''apis''' namespace, there is a problem with differentiation between API Listings and API Objects.
 
-Sometime this is problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]].)
+Sometimes this is problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]] in the Manual of Style.)
 
+Sometimes this is a problem with a missing '''objects''' namespace artifact, as in [[apis/timing/objects/performance]]. Most of the apis appear to missing this artifact - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexedDB/objects/IDBFactory'''.
 
-
+We need to consistently distinguish API objects the same way we distinguish events, methods, and properties, by placing the '''objects''' artifact between the API listing and object, as in [[apis/webrtc/objects/MediaStream]].
 
 == Delineation is inaccurate ==
 
