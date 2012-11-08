@@ -13,7 +13,18 @@ Most page-type forms use sub-forms and sub-templates as much as possible, and us
 
 ==Template/Form Naming Conventions==
 
-{{TODO | Fill in this section }}
+In the vast majority of cases, we use consistent naming conventions so it's easy to figure out what the related Form/Template is called without having to investigate it.
+
+For page types:
+* '''Core template''': [[Template:Foo]] 
+* '''Core category''': [[Category:Foos]], where "Foos" is the english plurilization of the core template name.
+* '''Core form''': [[Form:Foo]]
+
+{{Note | Basic page's form is an exception to these rules. The main form is at [[Template:Basic_Page]] but the form is at [[Form:Basic]] }}
+
+For sub-templates and sub-forms:
+* '''Template''': [[Template:Foo_Section]]
+* '''Sub-Form''': [[Template:Foo_Form_Section]] '''Note''': the sub-form is implemented as a ''template'', not a ''form''.
 
 ==Specific Sub-Forms==
 
