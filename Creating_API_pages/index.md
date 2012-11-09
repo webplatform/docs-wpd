@@ -18,11 +18,11 @@ A methodology for creating new content is part of the solution.
 * Introduce a new namespace identifier, objects and locate all api object pages under it.  [[#Stubbing_out_the_pages|More...]]
 Also, a new architecture is needed.
 * The proposed new architecture is as follows:
-apis
+ <nowiki>apis
 apis/apilist
 apis/apilist/objects/apiObject/events
 apis/apilist/objects/apiObject/methods
-apis/apilist/objects/apiObject/properties
+apis/apilist/objects/apiObject/properties</nowiki>
 More clarity about how to create the pages is required.
 * Provide guidelines to creating URLs for API pages in the [[WPD:New_Page]].
 * Develop the forms and templates used in creating new apis pages. [[#Filling_in_the_pages|TODO’s in this section]]
