@@ -7,7 +7,7 @@ This article offers a methodology for adding new API documentation pages to Web 
 =Summary=
 
 Contributors and users cannot create and locate pages in the apis namespace because the namespace architecture is inadequate to the task. The architecture has the following problems:
-* Does not differentiate between an API’s common name (WebRTC) and the actual JavaScript objects that provide the programmatic API (MediaStream). [[wiki/WPD:Creating_API_pages#No_differentiation_between_objects_and_listings|More...]]
+* Does not differentiate between an API’s common name (WebRTC) and the actual JavaScript objects that provide the programmatic API (MediaStream). [[#No_differentiation_between_objects_and_listings|More...]]
 * Inaccurately describes the relationship between the API objects and their members - events, methods, and properties (by omitting the object identifier or using the wrong casing on it). [[wiki/WPD:Creating_API_pages#Delineation_is_inaccurate|More...]] 
 * Does not provide for duplicate member names of the same member type, for example two properties named label, each a property of a different object.  [[wiki/WPD:Creating_API_pages#Dublicate_names_in_conflict|More...]]
 
