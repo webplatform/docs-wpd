@@ -4,6 +4,32 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me rattle on.}}
 
+=Summary=
+
+== Problem ==
+Contributors and users cannot create and locate pages in the apis namespace because the namespace architecture is inadequate to the task. The architecture has the following problems:
+* Does not differentiate between an API’s common name (WebRTC) and the actual JavaScript objects that provide the programmatic API (MediaStream). [[wiki/WPD:Creating_API_pages#No_differentiation_between_objects_and_listings|More...]]
+* Inaccurately describes the relationship between the API objects and their members - events, methods, and properties (by omitting the object identifier or using the wrong casing on it). [[wiki/WPD:Creating_API_pages#Delineation_is_inaccurate|More...]] 
+* Does not provide for duplicate member names of the same member type, for example two properties named label, each a property of a different object.  [[wiki/WPD:Creating_API_pages#Dublicate_names_in_conflict|More...]]
+
+Problems with forms and templates are somewhat related to the problems with the architecture. Various fixes to these are needed to round out the larger solution for usability. [[wiki/WPD:Creating_API_pages#Template and form fixes needed|More...]]
+
+== Solution ==
+A methodology for creating new content is part of the solution.
+* For each common-name API, create only one API Listing page as a top level page for the API; follow casing rules; include any other common names for the API in the page content; consistently follow the methodology, even for singleton APIs. [[wiki/WPD:Creating_API_pages#Listing_page|More...]]
+* Introduce a new namespace identifier, objects and locate all api object pages under it.  [[wiki/WPD:Creating_API_pages#Stubbing out the pages|More...]]
+Also, a new architecture is needed.
+* The proposed new architecture is as follows:
+apis
+apis/apilist
+apis/apilist/objects/apiObject/events
+apis/apilist/objects/apiObject/methods
+apis/apilist/objects/apiObject/properties
+More clarity about how to create the pages is required.
+* Provide guidelines to creating URLs for API pages in the [[wiki/WPD:New_Page]].
+* Develop the forms and templates used in creating new apis pages. [[wiki/WPD:Creating_API_pages#Filling_in_the_pages|TODO’s in this section]]
+Implied with this methodology is the need to reorganize the existing content according to the new model.
+
 =The  Problem=
 
 {{TODO|This "Problem" section will be removed from the final, user-facing page.}}
