@@ -60,7 +60,7 @@ In a word, we expect a broad scope about Web technology. However, we do have som
 
 * We anticipate an early emphasis on client-side open web technologies, but the scope is not limited to those (see next FAQ question for more).
 * Technologies covered will include [http://www.w3.org/TR/ W3C Specifications] but also technologies from other organizations.
-* The site is not for the development of new specifiations; please consider a [http://www.w3.org/community/ W3C Community Groups] if you wish to work on new Web technology.
+* The site is not for the development of new specifications; please consider a [http://www.w3.org/community/ W3C Community Groups] if you wish to work on new Web technology.
 
 ===Will this site include information on server-side languages, like PHP, Perl, Ruby, Python, etc.?===
 
