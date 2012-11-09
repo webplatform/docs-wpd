@@ -4,7 +4,9 @@ This article offers a methodology for adding new API documentation pages to Web 
 
 {{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me rattle on.}}
 
-=Summary=
+=Summary= 
+
+{{TODO|The "Summary" and "Problem" sections will be removed from the final, user-facing page.}}
 
 Contributors and users cannot create and locate pages in the apis namespace because the namespace architecture is inadequate to the task. The architecture has the following problems:
 * Does not differentiate between an API’s common name (WebRTC) and the actual JavaScript objects that provide the programmatic API (MediaStream). [[#No_differentiation_between_objects_and_listings|More...]]
@@ -29,8 +31,6 @@ More clarity about how to create the pages is required.
 Implied with this methodology is the need to reorganize the existing content according to the new model.
 
 =The  Problem=
-
-{{TODO|This "Problem" section will be removed from the final, user-facing page.}}
 
 The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purpose of storing the content in a predictable, logical fashion, and for the purpose of providing the user with equally predictable, logical navigation.
 
