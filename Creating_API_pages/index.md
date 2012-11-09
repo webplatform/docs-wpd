@@ -14,7 +14,7 @@ Contributors and users cannot create and locate pages in the apis namespace beca
 Problems with forms and templates are somewhat related to the problems with the architecture. Various fixes to these are needed to round out the larger solution for usability. [[#Template and form fixes needed|More...]]
 
 A methodology for creating new content is part of the solution.
-* For each common-name API, create only one API Listing page as a top level page for the API; follow casing rules; include any other common names for the API in the page content; consistently follow the methodology, even for singleton APIs. [[wiki/WPD:Creating_API_pages#Listing_page|More...]]
+* For each common-name API, create only one API Listing page as a top level page for the API; follow casing rules; include any other common names for the API in the page content; consistently follow the methodology, even for singleton APIs. [[#Listing_page|More...]]
 * Introduce a new namespace identifier, objects and locate all api object pages under it.  [[#Stubbing out the pages|More...]]
 Also, a new architecture is needed.
 * The proposed new architecture is as follows:
