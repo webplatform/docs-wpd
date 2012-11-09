@@ -15,7 +15,7 @@ Problems with forms and templates are somewhat related to the problems with the 
 
 A methodology for creating new content is part of the solution.
 * For each common-name API, create only one API Listing page as a top level page for the API; follow casing rules; include any other common names for the API in the page content; consistently follow the methodology, even for singleton APIs. [[#Listing_page|More...]]
-* Introduce a new namespace identifier, objects and locate all api object pages under it.  [[#Stubbing out the pages|More...]]
+* Introduce a new namespace identifier, objects and locate all api object pages under it.  [[#Stubbing_out_the_pages|More...]]
 Also, a new architecture is needed.
 * The proposed new architecture is as follows:
 apis
