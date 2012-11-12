@@ -20,10 +20,7 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 <li> Triage of new bugs
 <li> Discussion topcs:
 <ul>
-<li>Docsprint debrief
-<li>Translations (hopefully with the right people in the call this time)
-<li>Tracking bugs/actions with BugGenie
-<li>A seminar about how we've wired up our intricate template system
+<li>Template Corps
+<li>Other topics people bring up.
 </ul>
-<li>Content architecture meeting(s)?</li>
 </ul>
