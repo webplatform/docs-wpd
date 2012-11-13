@@ -184,7 +184,7 @@ The listing page should also include compatibility tables for each of the API ob
  
 The object page is pretty straight-forward. Here you'll want to explain how to use the object and its relationship to the other objects in the API.
 
-{{TODO|The API_Object template needs a Content section - as in the Basic_Page template.}}
+{{TODO|The API_Object template needs a '''Content''' section - as in the Basic_Page template.}}
 
 {{TODO|The API_Object template needs an '''Applies to''' field to which the summary table in the API_Listing page can refer to list all of the objects in the API listing page.}}
 
