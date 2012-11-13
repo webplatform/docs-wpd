@@ -191,6 +191,16 @@ The object page is pretty straight-forward. Here you'll want to explain how to u
 
 {{TODO|In the API_Object template, '''Subclasses''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
 
+==Object sub-page content==
+
+This covers issues common to all sub pages of the object page, events, methods, and properties pages.
+
+===Return value data type===
+
+In the '''Basic property configuration''' form, for the '''Return value data type''' field you specify the data type of the object by selecting it from the drop-down menu. However, if the type is not in the list, you must edit the '''Property:Javascript_data_type''' and add the data type to the list. When you add types to the list, be sure to maintain the alphabetical order.
+
+{{TODO|The problems with this are, 1 - keeping the list in some order that makes sense (alphabetical), and 2 - dealing with a potentially endless list of types. We need to come up with a better way of specifying the type if it is not one of the primitive types. Perhaps an additional text input field under the drop-down where you can specify the type if you choose "Other" from the drop-down.}}
+
 ==Object method page content==
 
 Again, pretty straight-forward.
