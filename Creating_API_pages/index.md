@@ -161,6 +161,7 @@ Describe the WebRTC API.
 =MediaStream API=
 Describe the MediaStream API. Provide links to the appropriate API objects, in this example: LocalMediaStream, MediaStream, </no wiki><br />
 <nowiki>
+
 MediaStreamTrack, and MediaStreamTrackList.
 =PeerConnection API=
  Describe the PeerConnection API.
