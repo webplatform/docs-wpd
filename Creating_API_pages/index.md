@@ -214,8 +214,6 @@ Another straight-forward form.
 
 Constants often define the possible values of an object property. See [[apis/webrtc/objects/MediaStreamTrack/properties/readyState|this]] for an example of how they are treated. 
 
-{{TODO|'''Bug''' The API_Object_Property page does not display the parent object, i.e. "Property of X object."}}
-
 {{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
 
 ==Object event page content==
