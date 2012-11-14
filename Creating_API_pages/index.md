@@ -22,9 +22,9 @@ Also, a new architecture is needed.
 * The proposed new architecture is as follows:
  <nowiki>apis
 apis/<apilist>
-apis/<apilist>/<apiObject>/events/<foo>
-apis/<apilist>/<apiObject>/methods/<bar>
-apis/<apilist>/<apiObject>/properties/<far></nowiki>
+apis/<apilist>/<apiObject>/<foo-event>
+apis/<apilist>/<apiObject>/<bar-method>
+apis/<apilist>/<apiObject>/<baz-property></nowiki>
 More clarity about how to create the pages is required.
 * Provide guidelines to creating URLs for API pages in the [[WPD:New_Page]].
 * Develop the forms and templates used in creating new apis pages. [[#Filling_in_the_pages|TODO’s in this section]]
