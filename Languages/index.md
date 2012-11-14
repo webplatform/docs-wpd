@@ -1,3 +1,3 @@
-{{Languages|WPD:Languages}}
+{{Languages}}
 
 This is a test page for languages
