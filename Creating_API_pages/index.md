@@ -1,84 +1,5 @@
 This article offers a methodology for adding new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc|WebRTC API]] pages.
 
-{{TODO|Once the final methodology is in place, and the fixes cited by the TODOs are in, remove all the TODOs like this one.}}
-
-{{Author_note|These will be removed, too, once the final methodology is agreed upon. You can ignore them if you don't want to listen to me rattle on.}}
-
-=Summary= 
-
-{{TODO|The "Summary" and "Problem" sections will be removed from the final, user-facing page.}}
-
-Contributors and users cannot create and locate pages in the apis namespace because the namespace architecture is inadequate to the task. The architecture has the following problems:
-* Does not differentiate between an API’s common name (WebRTC) and the actual JavaScript objects that provide the programmatic API (MediaStream). [[#No_differentiation_between_objects_and_listings|More...]]
-* Inaccurately describes the relationship between the API objects and their members - events, methods, and properties (by omitting the object identifier or using the wrong casing on it). [[#Delineation_is_inaccurate|More...]] 
-* Does not provide for duplicate member names of the same member type, for example two properties named label, each a property of a different object.  [[#Dublicate_names_in_conflict|More...]]
-
-Problems with forms and templates are somewhat related to the problems with the architecture. Various fixes to these are needed to round out the larger solution for usability. [[#Template and form fixes needed|More...]]
-
-A methodology for creating new content is part of the solution.
-* For each common-name API, create only one API Listing page as a top level page for the API; follow casing rules; include any other common names for the API in the page content; consistently follow the methodology, even for singleton APIs. [[#Listing_page|More...]]
-* Introduce a new namespace identifier, objects and locate all api object pages under it.  [[#Stubbing_out_the_pages|More...]]
-Also, a new architecture is needed.
-* The proposed new architecture is as follows:
- <nowiki>apis
-apis/<apilist>
-apis/<apilist>/<apiObject>/<foo-event>
-apis/<apilist>/<apiObject>/<bar-method>
-apis/<apilist>/<apiObject>/<baz-property></nowiki>
-More clarity about how to create the pages is required.
-* Provide guidelines to creating URLs for API pages in the [[WPD:New_Page]].
-* Develop the forms and templates used in creating new apis pages. [[#Filling_in_the_pages|TODO’s in this section]]
-Implied with this methodology is the need to reorganize the existing content according to the new model.
-
-=The  Problem=
-
-The way our '''apis''' namespace is drawn out leaves us short of accomplishing the goals we had for the URL architecture. We wanted URLs that delineated the hierarchies inherent with the coding artifacts in the documentation, for the purpose of storing the content in a predictable, logical fashion, and for the purpose of providing the user with equally predictable, logical navigation.
-
-The scheme in place currently, however, omits some key elements needed to achieve those objectives, and results in ambiguous or conflicting delineations.
-
-For the purposes of comparison, this article will cite examples from the [[apis/indexedDB]] namespace. Other APIs in the '''apis''' namespace currently follow the same structure.
-
-==No differentiation between objects and listings==
-
-Our WPD:New_Page page provides for the creation of API Listing pages that can describe the API and list all of the API objects in it. The listing page can distinguish the common name of the API (IndexedDB) from its member objects (IDBFactory, IDBCursor, etc.) With the current structure of the '''apis''' namespace, there is a problem with differentiation between API listings and API objects.
-
-Sometimes this is a problem with the case of the URL artifact. For example, the API listing should be '''indexeddb''' instead of '''indexedDB''' where the camel casing implies an object. (All lower case implies a listing - see [[WPD:Manual_Of_Style#URLs|URLs]] in the Manual of Style.)
-
-Sometimes it is a problem with a missing '''objects''' namespace artifact identifier - but not always - as in [[apis/timing/objects/performance]]. Most of the APIs appear to missing this identifier - at least if you look at the [[apis]] page. For example, [[apis/indexedDB/IDBFactory]] would be better understood as '''apis/indexeddb/objects/IDBFactory'''.
-
-We need to consistently distinguish API objects the same way we distinguish events, methods, and properties, by placing the '''objects''' identifier between the API listing and API object, as in [[apis/webrtc/objects/MediaStream]]. Below in this document is shown how API listing pages can be used to solve these problems.
-
-== Delineation is inaccurate ==
-
-By saying, '''apis/indexedDB/methods/openKeyCursor''' the URL is implying that the openKeyCursor method belongs to an object called indexedDB. It does not. Rather it belongs to the IDBIndex object. All of the properties, methods, and events of ''every api'' are collocated likewise under one namespace artifact. In the case of IndexedDB, they read as follows:
-
-* apis/indexedDB/events
-* apis/indexedDB/methods
-* apis/indexedDB/properties
-
-Instead, these should be assigned to their respective API objects, as in '''apis/indexeddb/objects/indexedDB/methods/open'''. Notice how this both properly associates the '''open''' method with the '''indexedDB''' object ''and'' differentiates the '''indexeddb''' API listing from the '''indexedDB''' object.
-
-While the templates do provide for an association between the event, method, or property with its parent object via the '''Applies to''' field, for many object members the '''Applies to''' field doesn't work properly (must be a bug - as noted below). For example, [[apis/indexedDB/properties/direction]]. Although the '''Applies to''' field does specify '''apis/indexedDB/IDBCursor''' the reference does not appear in the generated page. Therefore, the user has no idea how to use this particular property, given the documentation.
-
-If the '''direction''' page had as its URL, '''apis/indexeddb/objects/IDBCursor/properties/direction''' the developer would know at a glance to which object this property belongs.
-
-==Dublicate names in conflict==
-
-Consider the following two pages. They both describe different properties of the same name for different objects.
-* [[apis/webrtc/objects/MediaStream/properties/label]]
-* [[apis/webrtc/objects/MediaStreamTrack/properties/label]]
-
-No, these aren't the same, but under the current architecture, one of 'em's gotta go. You can't have two pages with the same name:
-* apis/webrtc/properties/label
-
-Somehow this fundamental principle of namespace architecture got missed in our '''apis'''.
-
-==Template and form fixes needed==
-
-To fill out the '''apis''' for better usability, we'll need to make some minor modifications to the templates and forms that comprise the pages.  These are cited as TODOs in the following sections, where the methodology for creating API pages is proposed as a solution to the problems cited here.
-
-{{Author_note|Keep in mind that while the rest of this document is a proposed solution, it is ultimately intended to become a guide for users creating new pages. That means there will be a lot of "well, duh" moments for you as an expert on this wiki. Bear with us.}}
-
 =Listing page=
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
@@ -89,9 +10,9 @@ We use the API listings as reference pages for all of the associated API objects
 
 So, the listing page for the WebRTC API is '''apis/webrtc'''.
 
-Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/webrtc/objects/MediaStream'''. See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]] for more about URLs.
+Note that the API listings, not being proper names of API objects, do not have camel-casing in URLs. So, '''apis/webrtc''' not '''apis/WebRTC'''. But MediaStream is an API object, so '''apis/webrtc/MediaStream'''. See [[WPD:Manual_Of_Style#URLs|URLs]] in the [[WPD:Manual_Of_Style|Manual of Style]] for more about URLs.
 
-You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/webrtc/mediastream''' (as a listing page, different from the '''apis/webrtc/objects/MediaStream''' page which represents the actual API object), '''apis/webrtc/peerconnection''', nor '''apis/webrtc/datachannel'''. All of these sub listing pages should just be represented as headings in the content of the main listing page, not as pages in their own right, as shown below. But don't leave these names out; they are valuable as keywords, and as long as they're included as sub headings, search engines can find them.
+You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/webrtc/peerconnection''', '''apis/webrtc/datachannel''', nor '''apis/webrtc/mediastream''' (as a listing page, different from the '''apis/webrtc/MediaStream''' page which represents the actual API object - more on that below). All of these sub listing pages should just be represented as headings in the content of the main listing page, not as pages in their own right, as shown below. But don't leave these names out; they are valuable as keywords, and as long as they're included as sub headings, search engines can find them.
 
 If you have only one API object and there is no other catch-all description for the API, you still have to create the listing page. So if the API name is '''MyAPI''' the URLs for the listing page and the object are, '''apis/myapi''' and '''apis/myapi/objects/MyAPI''', respectively.
 
