@@ -1,4 +1,4 @@
-This article offers a methodology for adding new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc|WebRTC API]] pages.
+This article provides a methodology for adding new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc|WebRTC API]] pages.
 
 =Listing page=
 
@@ -14,54 +14,52 @@ Note that the API listings, not being proper names of API objects, do not have c
 
 You really only need one listing page. It's enough to just have '''apis/webrtc''' - you don't need '''apis/webrtc/peerconnection''', '''apis/webrtc/datachannel''', nor '''apis/webrtc/mediastream''' (as a listing page, different from the '''apis/webrtc/MediaStream''' page which represents the actual API object - more on that below). All of these sub listing pages should just be represented as headings in the content of the main listing page, not as pages in their own right, as shown below. But don't leave these names out; they are valuable as keywords, and as long as they're included as sub headings, search engines can find them.
 
-If you have only one API object and there is no other catch-all description for the API, you still have to create the listing page. So if the API name is '''MyAPI''' the URLs for the listing page and the object are, '''apis/myapi''' and '''apis/myapi/objects/MyAPI''', respectively.
+If you have only one API object and there is no other catch-all description for the API, you still have to create the listing page. So if the API name is '''MyAPI''' the URLs for the listing page and the object page are, '''apis/myapi''' and '''apis/myapi/MyAPI''', respectively.
 
 Doing this allows for changes in the specification as the API is being developed. Often an API in development goes through lots of changes. Decoupling the API listing and the API objects in this fashion allows the names to change to protect the innocent.
-
-{{Author_note|I'm not a big fan of the long, verbose URLs. But we've got to dance with the date we brought, and this is the only way currently that we have for organizing our content - through the URLs. The scheme above provides for disambiguation within the constraints of our current structure and methodology. Long term, I'd like to see us move away from rigid URL-dependence and toward flexible, keyword-based, multi-faceted, seach-served content. These URLs provide a path toward that future whereby they get converted into metadata via some automated process.}}
 
 ==Creating the listing page==
 The [[apis/webrtc]] listing page was created as follows.
 # Navigate to [[WPD:New_Page]].
 # Under the '''API Lising''' page type, enter '''apis/foo'''.
-#: Where '''foo''' is the name of the listing page, all lower case (webrtc). See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
+#: Where '''foo''' is the name of the listing page, all lower case (as in webrtc). See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Listing Page''' button.
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 &nbsp;
 
 =Stubbing out the pages=
 
-The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them out.
+The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them in.
 
 ==Creating the API Object page==
-The first page to create, after the listing page, is that for the first API object; in this example, [[apis/webrtc/objects/MediaStream]].
+The first page to create, after the listing page, is that for the first API object; in this example, [[apis/webrtc/MediaStream]].
 # Navigate to [[WPD:New_Page]].
-# Under the '''API Object''' page type, enter '''apis/foo/objects/barFly'''.
-#: Where '''foo''' is the name of the API listing (webrtc), and '''barFly''' is the name of the API object in its native case (MediaStream). See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
+# Under the '''API Object''' page type, enter '''apis/foo/barFly'''.
+#: Where '''foo''' is the name of the API listing (webrtc), and '''barFly''' is the name of the API object in its native case (as in MediaStream). See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
 
 ==Creating the API Object Method, Property, and Event pages==
 The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
 
-The WPD:New_Page page describes how to create the URL for each page. For example, the [[apis/webrtc/objects/MediaStreamTrackList|MediaStreamTrackList]] object has the following members, shown with their full paths:
+The WPD:New_Page page describes how to create the URL for each page. For example, the [[apis/webrtc/MediaStreamTrackList|MediaStreamTrackList]] object has the following members, shown with their full paths:
 * Methods
-** [[apis/webrtc/objects/MediaStreamTrackList/methods/add]]
-** [[apis/webrtc/objects/MediaStreamTrackList/methods/item]]
-** [[apis/webrtc/objects/MediaStreamTrackList/methods/remove]]
+** [[apis/webrtc/MediaStreamTrackList/add]]
+** [[apis/webrtc/MediaStreamTrackList/item]]
+** [[apis/webrtc/MediaStreamTrackList/remove]]
 * Properties
-** [[apis/webrtc/objects/MediaStreamTrackList/properties/length]]
-** [[apis/webrtc/objects/MediaStreamTrackList/properties/onaddtrack]]
-** [[apis/webrtc/objects/MediaStreamTrackList/properties/onremovetrack]]
+** [[apis/webrtc/MediaStreamTrackList/length]]
+** [[apis/webrtc/MediaStreamTrackList/onaddtrack]]
+** [[apis/webrtc/MediaStreamTrackList/onremovetrack]]
 * Events
-** [[apis/webrtc/objects/MediaStreamTrackList/events/addtrack]]
-** [[apis/webrtc/objects/MediaStreamTrackList/events/removetrack]]
+** [[apis/webrtc/MediaStreamTrackList/addtrack]]
+** [[apis/webrtc/MediaStreamTrackList/removetrack]]
 
 When you create the page, you specify the full path - per the above - in the New_Page page.
 
 {{TODO|The form input fields in the New_Page page need to be wider to display longer paths.}}
 
-The [[apis/webrtc/objects/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
+The [[apis/webrtc/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
 
 When you are stubbing out the pages, if you do nothing else in the member pages, you must specify the parent API object in the '''Applies to''' field.
 
@@ -107,6 +105,8 @@ The object page is pretty straight-forward. Here you'll want to explain how to u
 
 {{TODO|The API_Object template needs a '''Content''' section - as in the Basic_Page template.}}
 
+For now, just use the Usage section.
+
 {{TODO|The API_Object template needs an '''Applies to''' field to which the summary table in the API_Listing page can refer to list all of the objects in the API listing page.}}
 
 {{TODO|In the API_Object template, '''Subclasses''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
@@ -133,7 +133,7 @@ Again, pretty straight-forward.
 
 Another straight-forward form.
 
-Constants often define the possible values of an object property. See [[apis/webrtc/objects/MediaStreamTrack/properties/readyState|this]] for an example of how they are treated. 
+Constants often define the possible values of an object property. See [[apis/webrtc/MediaStreamTrack/readyState|this]] for an example of how they are treated. 
 
 {{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
 
@@ -143,43 +143,11 @@ Again, straight-forward.
 
 {{TODO|The Event template: it's not clear how the values in the '''Overview Table''' get populated. For APIs - as opposed to DOM events - we may need a different form/template.}}
 
-==Intermediate pages==
-
-By virtue of the URL architecture we impose, there will be empty pages created as you assign the member pages to their URLs. This is the case with the '''objects''', '''properties''', '''methods''', and '''events''' intermediate pages in the '''apis''' namespace.
-
-You need to fill in these pages to avoid confusing the reader and to provide for navigation.
-
-===Filling with a redirect===
-
-The easiest way to deal with empty intermediate pages is to redirect them back to the API object page, as we do on the [[apis/webrtc/objects/MediaStream/properties]] page. This page has only the following line to redirect the page back to the Properties section of the API object page:
- <nowiki>
-#REDIRECT [[apis/webrtc/objects/MediaStream#Properties]]</nowiki>
-
-This has the advantage of providing not only the list of properties, but all of the information about the API without you having to rewrite it.
-
-If you ever have to remove the redirect, navigate to the page with '''&redirect=no''' appended to the URL. For example, <nowiki>http://docs.webplatform.org/wiki/apis/webrtc/objects/MediaStream/properties&redirect=no</nowiki>. You can then edit the page as needed.
-
-===Filling with a query===
-
-To fill in the page, you could also plug in a Semantic MediaWiki query, as we do with the '''apis''' page, like this:
- <nowiki>
-{{API_Listing
-|Query=[[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=Yes
-}}</nowiki>
-
-You could do this on a '''properties''' page with the query reading as follows:
- <nowiki>
-Query=[[Category:API_Object_Properties]]</nowiki>
-
-But the disadvantage of doing it this way is that you don't get anything but a table of links. You still have to write some adorning text to explain the page and so forth.
-
 ==Referencing extra-API facilities==
 
-Sometimes an API includes methods that are called on objects not in the API. In our WebRTC example, this is the case with [[dom/methods/getUserMedia|getUserMedia()]] which is a method of the DOM Navigator object. In WebRTC, you call getUserMedia() to get a [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]] object for the user's audio and video data.
+Sometimes an API includes methods that are called on objects not in the API. In our WebRTC example, this is the case with [[dom/methods/getUserMedia|getUserMedia()]] which is a method of the DOM Navigator object. In WebRTC, you call getUserMedia() to get a [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object for the user's audio and video data.
 
 Strictly speaking, getUserMedia() does not belong to the WebRTC API, though it was developed to accommodate WebRTC. There is no semantic way to include getUserMedia() as a method of any object in the WebRTC API. The getUserMedia() method must be added to the wiki under [[dom/methods]] and as a member of [[dom/navigator]].
 {{TODO|The ambiguity this creates and it's ramifications for our dom architecture are the subject for another day - in short, yeah, we need to fix this, too - as in dom/objects/navigator/methods/getUserMedia.}}
 
-The best practice is to reference the extra-API facility (couldn't think of a better name) in the main content of the pertinent API listing and object pages. For the WebRTC API, the [[apis/webrtc/objects/LocalMediaStream|LocalMediaStream]] object page must have a reference to [[dom/methods/getUserMedia|getUserMedia()]]. So should any tutorials about using the API, and these tutorials should be referenced in the API listing and object pages as well.
+The best practice is to reference the extra-API facility (couldn't think of a better name) in the main content of the pertinent API listing and object pages. For the WebRTC API, the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object page must have a reference to [[dom/methods/getUserMedia|getUserMedia()]]. So should any tutorials about using the API, and these tutorials should be referenced in the API listing and object pages as well.
