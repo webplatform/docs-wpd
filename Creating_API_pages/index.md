@@ -1,6 +1,6 @@
 This article provides a methodology for adding new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the [[apis/webrtc|WebRTC API]] pages.
 
-=Listing page=
+==Listing page==
 
 The listing page is the top-level page that introduces the subject, in this example the WebRTC API. It uses the common API listing name to identify the subject.
 
@@ -28,7 +28,7 @@ The organization of the '''apis''' namespace, therefore, is as follows:
 
 See [[Creating the API Object Method, Property, and Event pages]] for an example.
 
-==Creating the listing page==
+===Creating the listing page===
 The [[apis/webrtc]] listing page was created as follows.
 # Navigate to [[WPD:New_Page]].
 # Under the '''API Lising''' page type, enter '''apis/foo'''.
@@ -37,11 +37,11 @@ The [[apis/webrtc]] listing page was created as follows.
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 &nbsp;
 
-=Stubbing out the pages=
+==Stubbing out the pages==
 
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them in.
 
-==Creating the API Object page==
+===Creating the API Object page===
 The first page to create, after the listing page, is that for the first API object; in this example, [[apis/webrtc/MediaStream]].
 # Navigate to [[WPD:New_Page]].
 # Under the '''API Object''' page type, enter '''apis/foo/barFly'''.
@@ -49,7 +49,7 @@ The first page to create, after the listing page, is that for the first API obje
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
 
-==Creating the API Object Method, Property, and Event pages==
+===Creating the API Object Method, Property, and Event pages===
 The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
 
 The WPD:New_Page page describes how to create the URL for each page. For example, the [[apis/webrtc/MediaStreamTrackList|MediaStreamTrackList]] object has the following members, shown with their full paths:
@@ -82,11 +82,11 @@ When you are stubbing out the pages, if you do nothing else in the member pages,
 
 Oh, that and mark them as stubs, of course!
 
-=Filling in the pages=
+==Filling in the pages==
 
 Once you've got the pages all in place, you can go back and start filling them in. Most of the time, how to do this is obvious. But where it may be unclear, this section attempts to clarify.
 
-==Object listing page content==
+===Object listing page content===
 
 The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
 
@@ -94,12 +94,12 @@ The API listing page provides a broad description of the API. If there are furth
 <title>WebRTC API</title>
 ...
 Describe the WebRTC API.
-=MediaStream API=
+==MediaStream API==
 Describe the MediaStream API. Provide links to the appropriate API objects, in this example: LocalMediaStream, </nowiki>
  <nowiki>MediaStream, MediaStreamTrack, and MediaStreamTrackList.
-=PeerConnection API=
+==PeerConnection API==
  Describe the PeerConnection API.
-=DataChannel API=
+==DataChannel API==
     etc.</nowiki>
 
 This is just an outline. Here's the [[apis/webrtc|actual content of the apis/webrtc page]].
@@ -116,7 +116,7 @@ The listing page should also include compatibility tables for each of the API ob
 
 {{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently.}}
 
-==Object page content==
+===Object page content===
  
 The object page is pretty straight-forward. Here you'll want to explain how to use the object and its relationship to the other objects in the API.
 
@@ -128,17 +128,17 @@ For now, just use the Usage section.
 
 {{TODO|In the API_Object template, '''Subclasses''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
 
-==Object sub-page content==
+===Object sub-page content===
 
 This covers issues common to all sub pages of the object page, events, methods, and properties pages.
 
-===Return value data type===
+====Return value data type====
 
 In the '''Basic property configuration''' form, for the '''Return value data type''' field you specify the data type of the object by selecting it from the drop-down menu. However, if the type is not in the list, you must edit the '''Property:Javascript_data_type''' and add the data type to the list. When you add types to the list, be sure to maintain the alphabetical order.
 
 {{TODO|The problems with this are, 1 - keeping the list in some order that makes sense (alphabetical), and 2 - dealing with a potentially endless list of types. We need to come up with a better way of specifying the type if it is not one of the primitive types. Perhaps an additional text input field under the drop-down where you can specify the type if you choose "Other" from the drop-down.}}
 
-==Object method page content==
+===Object method page content===
 
 Again, pretty straight-forward.
 
@@ -146,7 +146,7 @@ Again, pretty straight-forward.
 
 {{TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
 
-==Object property page content==
+===Object property page content===
 
 Another straight-forward form.
 
@@ -154,13 +154,13 @@ Constants often define the possible values of an object property. See [[apis/web
 
 {{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
 
-==Object event page content==
+===Object event page content===
 
 Again, straight-forward.
 
 {{TODO|The Event template: it's not clear how the values in the '''Overview Table''' get populated. For APIs - as opposed to DOM events - we may need a different form/template.}}
 
-==Referencing extra-API facilities==
+===Referencing extra-API facilities===
 
 Sometimes an API includes methods that are called on objects not in the API. In our WebRTC example, this is the case with [[dom/methods/getUserMedia|getUserMedia()]] which is a method of the DOM Navigator object. In WebRTC, you call getUserMedia() to get a [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object for the user's audio and video data.
 
