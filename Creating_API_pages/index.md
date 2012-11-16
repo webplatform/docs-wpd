@@ -36,7 +36,6 @@ The [[apis/webrtc]] listing page was created as follows.
 # Click the '''Create API Listing Page''' button.
 # Fill out the '''Main content''' with the sub headings and names of the API objects - you can come back and create the links to them later.
 &nbsp;
-
 ==Stubbing out the pages==
 
 The best way to work on all of this is to first draw out the architecture as a hierarchy of stub pages. This allows other writers to help out and it provides you with the ability to create the links you need between pages as you fill them in.
