@@ -67,6 +67,13 @@ The WPD:New_Page page describes how to create the URL for each page. For example
 
 When you create the page, you specify the full path - per the above - in the New_Page page.
 
+'''Note:''' While we are reasonably confident that there will be no collisions, for example a property and an event of the same name, we are resolved to deal with these by inserting identifying labels, for example:
+
+* apis/myapi/myAPI/void-property
+* apis/myapi/myAPI/void-method
+
+Such identifiers, however, are the exception, not the rule.
+
 {{TODO|The form input fields in the New_Page page need to be wider to display longer paths.}}
 
 The [[apis/webrtc/MediaStreamTrackList]] page displays each of these methods, properties, and events in tables generated for each member where the member has specified the MediaStreamTrackList object in the '''Applies to''' field in the '''Basic property configuration''' form. All you have to do to generate the tables is to specify the parent API object for the member in that form.
