@@ -146,11 +146,15 @@ Again, pretty straight-forward.
 
 {{TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
 
+For now, treat exceptions within the summary section of the event that throws the exception. Use a link to any existing exception pages - i.e. DOM execeptions.
+
 ===Object property page content===
 
 Another straight-forward form.
 
 Constants often define the possible values of an object property. See [[apis/webrtc/MediaStreamTrack/readyState|this]] for an example of how they are treated. 
+
+Event handlers, as they are typically treated in a specification's IDL, are properties and should be treated as such. Within the summary section for the property, be sure to link to the extant page for the event, i.e. DOM events.
 
 {{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
 
