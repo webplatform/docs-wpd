@@ -26,7 +26,7 @@ The organization of the '''apis''' namespace, therefore, is as follows:
 :apis/<apilist>/<apiObject>/<method>
 :apis/<apilist>/<apiObject>/<property>
 
-See [[#Creating the API Object Method, Property, and Event pages]] for an example.
+See [[#Creating the API Object Method, Property, and Event pages|below]] for an example.
 
 ===Creating the listing page===
 The [[apis/webrtc]] listing page was created as follows.
