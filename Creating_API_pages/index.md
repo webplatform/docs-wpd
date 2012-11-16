@@ -16,6 +16,14 @@ You really only need one listing page. It's enough to just have '''apis/webrtc''
 
 If you have only one API object and there is no other catch-all description for the API, you still have to create the listing page. So if the API name is '''MyAPI''' the URLs for the listing page and the object page are, '''apis/myapi''' and '''apis/myapi/MyAPI''', respectively.
 
+The organization of the '''apis'' namespace, therefore, is as follows:
+
+:apis
+:apis/<apilist>
+:apis/<apilist>/<apiObject>/<foo-event>
+:apis/<apilist>/<apiObject>/<bar-method>
+:apis/<apilist>/<apiObject>/<baz-property>
+
 Doing this allows for changes in the specification as the API is being developed. Often an API in development goes through lots of changes. Decoupling the API listing and the API objects in this fashion allows the names to change to protect the innocent.
 
 ==Creating the listing page==
