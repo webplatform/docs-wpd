@@ -47,7 +47,7 @@ The first page to create, after the listing page, is that for the first API obje
 #: Where '''foo''' is the name of the API listing (webrtc), and '''barFly''' is the name of the API object in its native case (as in MediaStream). See the [[WPD:Manual_Of_Style|Manual of Style]] for more information about titles and headings.
 # Click the '''Create API Object Page''' button.
 # Mark the page as a stub.
-
+&nbsp;
 ===Creating the API Object Method, Property, and Event pages===
 The API Object page lists all of the members (properties, methods, and events) for the object in tables that summarize these members. Each member's information is held in a separate page, the pertinent sections of which are drawn into the summary tables. You have to create a page for each member using [[WPD:New_Page]].
 
