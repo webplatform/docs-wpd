@@ -11,6 +11,8 @@ There cannot be a space before the token, or it will not be converted to a list 
 
 There cannot be a line break between list items, or it will start a new list.
 
+MediaWiki supports other list styles, but these are not allowed on Web Platform Docs, because of inadequate accessibility.
+
 ===Unordered list===
 Unordered lists (bulleted lists) start each line with an asterisk (*), with additional asterisks indicating the level of nesting of a list item (e.g., ** is a nested list item, *** is a double-nested list item).
 
