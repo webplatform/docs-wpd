@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Style Guide]]
