@@ -144,5 +144,6 @@ WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopt
 * the [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki formatting guide]
 
 For help with some specific WPD coding issues, see:
-* [[WPD:Manual_Of_Style/Tables|Tables]]
-* [[WPD:Manual_Of_Style/Gotchas|Common Gotchas for WPD editors]]
+* [[WPD:Style_Guide/Tables|Tables]]
+* [[WPD:Style_Guide/Lists|Lists]] 
+* [[WPD:Style_Guide/Gotchas|Common Gotchas for WPD editors]]
