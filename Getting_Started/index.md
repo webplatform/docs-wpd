@@ -64,6 +64,11 @@ WPD supports three basic types of content:
 
 Each of these content types has a unique URL name space--that is, where the page "lives". The URL generally follows the logical organization of the feature. For example, [[css/selectors/outline-style]].
 
+===Guides to creating pages===
+
+The guides listed here provide information about creating specific types of pages - for a specific namespace or concept.
+* [[WPD:Creating_API_pages]]
+
 ===Architecture===
 
 For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Content/Topic_Hierarchy | topic hierarchy]] of this site.
