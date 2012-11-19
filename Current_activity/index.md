@@ -17,5 +17,7 @@ When work is completed, change the status to 'Done', and leave it in the table. 
 |-
 | /css (mostly) || CSS Regions || Sierra || working on behalf of Adobe, estimate 3 weeks to complete || 11/8/12
 |-
+| /dom || DOM Range API || (unclaimed) || ... || ...
+|-
 | /apis/webrtc || WebRTC reference || Scottrowe || Working on it, dammit! || 10.31.2012 - boo!
 |}
