@@ -17,5 +17,5 @@ When work is completed, change the status to 'Done', and leave it in the table. 
 |-
 | /apis/webrtc || WebRTC reference || Scottrowe || Working on it, dammit! || 10.31.2012 - boo!
 |-
-| /dom (mostly) || DOM Range API || (unclaimed) || (need content) || ...
+| /dom/apis (mostly) || DOM Range API || (unclaimed) || (need content) || ...
 |}
