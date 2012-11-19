@@ -14,18 +14,18 @@ For pages that primarily list APIs, like apis/webrtc.
 
 ==API Object==
 If you're documenting an API, like <code>document</code>. Generally all pages in this type have a URL that contains <code>apis</code>, and has method and property pages that are sub-pages.
-{{#forminput:form=API_Object|default value=apis/foo/objects/bar|button text=Create API Object Page}}
+{{#forminput:form=API_Object|default value=apis/foo/bar|button text=Create API Object Page}}
 
 ==API Object Method==
 If you're documenting a ''method'' of an API, like <code>appendChild</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
-{{#forminput:form=API_Object_Method|default value=apis/foo/objects/bar/methods/fuz|button text=Create API Object Method Page}}
+{{#forminput:form=API_Object_Method|default value=apis/foo/bar/fuz|button text=Create API Object Method Page}}
 
 ==API Object Property==
 If you're documenting a ''property'' of an API, like <code>childNodes</code>. Generally all pages in this type have a URL that contains <code>apis</code> and also includes the parent API Object.
-{{#forminput:form=API_Object_Property|default value=apis/foo/objects/bar/properties/baz|button text=Create API Object Property Page}}
+{{#forminput:form=API_Object_Property|default value=apis/foo/bar/baz|button text=Create API Object Property Page}}
 
 ==API Object Event==
-Use the [[#Event|Event]] form, below, with a URL like '''apis/foo/objects/bar/events/buz'''.
+Use the [[#Event|Event]] form, below, with a URL like '''apis/foo/bar/buz'''.
 
 ==Concept==
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
@@ -72,7 +72,7 @@ For pages that document a data type (for CSS, JavaScript, etc).
 {{#forminput:form=Data_Type_Page|default value=foo|button text=Create Data Type Page}}
 
 ==Event==
-For pages that document a DOM event, like <code>click</code> (dom/events/click) or an API object event like <code>ended</code> (apis/webrtc/objects/MediaStream/events/ended).
+For pages that document a DOM event, like <code>click</code> (dom/events/click) or an API object event like <code>ended</code> (apis/webrtc/MediaStream/ended).
 {{#forminput:form=Event|default value=faz|button text=Create Event Page}}
 
 ==Guide==
