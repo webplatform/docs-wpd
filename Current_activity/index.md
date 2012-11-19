@@ -13,9 +13,9 @@ When work is completed, change the status to 'Done', and leave it in the table. 
 |-
 | What area or topic does this affect? || More details about what you're doing || Who is working on it? (link to your profile page) || What is the status of this work? (Planned, In process, Done) || Date you updated this status (YYYY-MM-DD)
 |-
-| /css (mostly) || CSS Regions || Sierra || working on behalf of Adobe, estimate 3 weeks to complete || 11/8/12
+| /css, /apis/css-regions || CSS Regions || Sierra || working on behalf of Adobe, estimate 3 weeks to complete || 11/8/12
 |-
 | /apis/webrtc || WebRTC reference || Scottrowe || Working on it, dammit! || 10.31.2012 - boo!
 |-
-| /dom/apis (mostly) || DOM Range API || (unclaimed) || (need content) || ...
+| /dom/apis || DOM Range API || (unclaimed) || (need content) || ...
 |}
