@@ -10,7 +10,7 @@ This article is based on Idiomatic CSS, a repository created by Nicolas Gallaghe
 == General Principles ==
 <blockquote>"Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec." - Idan Gazit</blockquote>
 
-* You are not a human code compiler/compressor, so don't try to be one.
+* You are not a human code compiler/compressor, so do not try to be one.
 * All code in any code-base should look like a single person typed it, no matter how many people contributed.
 * Strictly enforce the agreed upon style.
 * If in doubt when deciding upon a style, use existing, common patterns.
@@ -26,7 +26,7 @@ Only one style should exist across the entire source of your code-base. Always b
 == Comments ==
 * Place comments on a new line above their subject.
 * Avoid end of line comments.
-* Keep line-length to a sensible maximum, e.g., 80 columns.
+* Keep line-length to a sensible maximum, such as 80 columns.
 * Make liberal use of comments to break CSS code into discrete sections.
 * Use "sentence case" comments and consistent text indentation.
 
@@ -65,10 +65,10 @@ Only one style should exist across the entire source of your code-base. Always b
 * Include one declaration per line in a declaration block.
 * Use one level of indentation for each declaration.
 * Include single space after the colon of a declaration.
-* Use lowercase and shorthand hex values, e.g., <code>#aaa</code>.
-* Use double quotes, e.g., <code>content: ""</code>.
-* Quote attribute values in selectors, e.g., <code>input[type="checkbox"]</code>.
-* Where allowed, avoid specifying units for zero-values, e.g., <code>margin: 0</code>.
+* Use lowercase and shorthand hex values, such as <code>#aaa</code>.
+* Use double quotes, like this <code>content: ""</code>.
+* Quote attribute values in selectors, such as <code>input[type="checkbox"]</code>.
+* Where allowed, avoid specifying units for zero-values, like this: <code>margin: 0</code>.
 * Include a space after each comma in comma-separated property or function values.
 * Include a semi-colon at the end of the last declaration in a declaration block.
 * Place the closing brace of a ruleset in the same column as the first character of the ruleset.
@@ -166,9 +166,9 @@ Long, comma-separated property values - such as collections of gradients or shad
 
 
 == Naming ==
-Naming is hard, but very important. It's a crucial part of the process of developing a maintainable code base, and ensuring that you have a relatively scalable interface between your HTML and CSS.
+Naming is hard, but it is very important. It is a crucial part of the process of developing a maintainable code base, and ensuring that you have a relatively scalable interface between your HTML and CSS.
 
-* Avoid systematic use of abbreviated class names. Don't make things difficult to understand.
+* Avoid systematic use of abbreviated class names. Do not make things difficult to understand.
 * Use clear, thoughtful, and appropriate names for HTML classes.
 * Pick an understandable and consistent naming pattern that makes sense both within HTML files and CSS files.
 * Selectors for components should uses class names; avoid the use of generic tags and unique ids.
