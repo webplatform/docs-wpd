@@ -14,13 +14,10 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 Anyone can call in free of charge by using [http://www.skype.com Skype].
 
 ==Agenda==
-<ul>
-<li> Welcome
-<li> Review of last week's action items
-<li> Triage of new bugs
-<li> Discussion topcs:
-<ul>
-<li>Template Corps
-<li>Other topics people bring up.
-</ul>
-</ul>
+* Welcome
+* Triage of new bugs
+* Review of open action items
+* Content Task Force summary
+* Issue / bug tracking
+* Defining roles and milestones
+* Anything else brought up during the conference.
