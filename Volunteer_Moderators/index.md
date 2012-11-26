@@ -47,7 +47,6 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 * [[User:Varl|Varl]] (Viktor; Sweden)
 *[[User:stianfauskanger|Stian Fauskanger]] (Bergen, Norway)
 * [[User:Grephix|Grephix]] (Dennis Jamin; Netherlands)
-* [[User:Sandkorn|Sandkorn]] (Germany)
 * [[User:Timo|Timo Schrappe]] (Dortmund, Germany, tisch on freenode)
 * [[User:Frozenice|David Kirstein]] (Germany, fr0zenice on freenode)
 * [[User:WiZZarD|WiZZarD]] (Netherlands)
