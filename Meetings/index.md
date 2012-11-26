@@ -20,4 +20,5 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 * Content Task Force summary
 * Issue / bug tracking
 * Defining roles and milestones
+* Discuss the DocSprint being held on the 12th of December.
 * Anything else brought up during the conference.
