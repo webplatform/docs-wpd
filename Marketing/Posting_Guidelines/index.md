@@ -18,6 +18,7 @@ The following guidelines must be met:
 * Anyone may propose a blog topic or blog post draft.
 * Posts may be "signed" by any member of the community (with their permission, of course)
 * Topics we normally post about:
+** New stewards joining WPD
 ** Updates on community events
 ** Posts on infrastructure
 ** Achievement of milestones
