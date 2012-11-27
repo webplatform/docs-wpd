@@ -18,6 +18,7 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 * Triage of new bugs
 * Review of open action items
 * Content Task Force summary
+** Next steps with Content Task Force
 * Issue / bug tracking
 * Defining roles and milestones
 * Discuss the DocSprint being held on the 12th of December.
