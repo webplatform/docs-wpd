@@ -1,4 +1,4 @@
-Web Platform community meetings occur on Wednesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
+Web Platform content architecture meetings occur on Wednesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
 
 {{Note | Each week we will decide if next week's meeting is necessary. }}
 
