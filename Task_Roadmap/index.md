@@ -2,6 +2,7 @@
 {{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
+<div>
 {| style="width: 2000px;overflow:scroll"
 ! Week ending
 ! colspan=6|Content
@@ -232,6 +233,7 @@
 |
 |
 |}
+</div>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
