@@ -12,7 +12,7 @@
 | Sunday 2nd December
 | style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
 | style="background: orange;" | Fix Overall URL structure<br>Julee B<br>''Relevant bug?''  
-| style="background: orange; border: 2px solid black" | Create tasks roadmap<br>Chris M<br>''Relevant bug?''
+| style="background: orange; border: 2px dashed black" | Create tasks roadmap<br>Chris M<br>''Relevant bug?''
 | style="background: orange;" | Write clear purpose on webplatform.org<br>Chris M<br>''Relevant bug?''
 | style="background: orange;" | Write centralised editors guide<br>Garbee<br>''Relevant bug?''
 | style="background: orange;" | Write beginner's content plan<br>Garbee<br>''Relevant bug?''
