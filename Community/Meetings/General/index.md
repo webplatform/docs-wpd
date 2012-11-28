@@ -23,4 +23,4 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** Should APIs that add members to existing core interfaces be listed separately?
 ** Where appropriate, note the DOM node used to access each interface object: document, navigator, window, video, audio, etc.
 * [[WPD:Task_Roadmap|Task roadmap]] includes content track, prioritizing content issues.
-* [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]
+* [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
