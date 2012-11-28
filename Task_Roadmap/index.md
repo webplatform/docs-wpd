@@ -23,7 +23,7 @@
 |
 |-
 | Sunday 9th December
-| 
+| style="width: 200px;background: orange;" |
 |   
 | style="background: lightblue;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
 |
@@ -32,7 +32,7 @@
 |  
 |  
 |
-| 
+| style="background: green;" | 
 |
 |
 |-
@@ -46,7 +46,7 @@
 | 
 |  
 |
-| 
+| style="background: green;" | 
 |
 |
 |-
