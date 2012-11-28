@@ -1,6 +1,6 @@
 Web Platform Docs is looking for someone to formally take on the role of "Project Manager" to help organize the work we need to get done and ensure that we as a community are making progress on those tasks.
 
-*Time Commitment*: Minimum of 10 hours/week
+''Time Commitment'': Minimum of 10 hours/week
 
 ==Responsibilities==
 * ''Note: the role will start with a minimum of keeping track of '''content''' actions, but ideally will expand to cover all types if the project manager has the time and inclination''
