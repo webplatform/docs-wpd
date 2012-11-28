@@ -17,8 +17,7 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 
 <ul>
 <li><p>Welcome</p></li>
-<li><p>Review of open action items</p></li>
-<li>
+<li><p>Review of open action items</p>
 <ol>
   <li><p>ACTION, Alex K:  Implement attributes/actions stuff (carried over)</p></li>
   <li><p>ACTION, Doug S: Write up proposal for usage of data from caniuse, quirks mode, etc. on Wiki, and send link to list (carried over)</p></li>
