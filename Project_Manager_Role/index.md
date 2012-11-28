@@ -4,19 +4,18 @@ Web Platform Docs is looking for someone to formally take on the role of "Projec
 
 ==Responsibilities==
 * ''Note: the role will start with a minimum of keeping track of '''content''' actions, but ideally will expand to cover all types if the project manager has the time and inclination''
+* Design and execute on a coordinated, consistent task-tracking system for content issues (perhaps in bugs, flags, spreadsheets, etc)
 * Help track all new action items of all types (focusing primarily on content to start)
 * Identify owners for all action items
 * Ensure actions don't get stuck on the backlog forever
 * Identify tasks that need to be done (e.g. projects to improve specific types of content)
 * Follow up on actions to ensure they are completed
 * Keep track of work items in flight and their status
-* Help run and organize weekly meetings
-* Be results-oriented and impartial
-* Design and execute on a coordinated, consistent task-tracking system for content issues (perhaps in bugs, flags, spreadsheets, etc)
-
+* Attend weekly meetings to keep track of actions and follow up on them
 
 
 ==Requirements==
 * Project Management experience preferred
-* Strong organizational skills: able to bring order 
+* Strong organizational skills: able to bring order to chaos
+* Results-oriented and impartial
 * Web Platform and/or documentation experience ''not'' required, but a plus
