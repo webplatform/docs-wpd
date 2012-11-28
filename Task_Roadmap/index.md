@@ -9,7 +9,7 @@
 ! colspan=3|Styling/UX
 |-
 | Sunday 2nd December
-| style="width: 200px;background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
+| style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
 | style="background: orange;" | Fix Overall URL structure<br>Julee B<br>''Relevant bug?''  
 | style="background: orange;" | Write content plan re: concepts and tutorials<br>Chris M<br>''Relevant bug?''
 | style="background: orange;" | Write clear purpose on webplatform.org<br>Chris M<br>''Relevant bug?''
@@ -23,7 +23,7 @@
 |
 |-
 | Sunday 9th December
-| style="width: 200px;background: orange;" |
+| style="background: orange;" |
 |   
 | style="background: lightblue;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
 |
