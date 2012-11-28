@@ -29,7 +29,7 @@
 |
 |
 | 
-| style="background: yellow;"  
+| style="background: yellow;" |
 |  
 |
 |
