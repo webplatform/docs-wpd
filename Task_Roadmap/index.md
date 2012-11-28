@@ -2,8 +2,8 @@
 {{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-<div>
-{| style="width: 2000px;overflow:scroll"
+<div style="width: 100%;overflow:hidden;">
+{| style="width: 2000px;"
 ! Week ending
 ! colspan=6|Content
 ! colspan=3|Infrastructure
