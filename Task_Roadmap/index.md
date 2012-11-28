@@ -9,30 +9,30 @@
 ! colspan=3|Styling/UX
 |-
 | Sunday 2nd December
-|
-|   
-|
-|
-|
-| 
-| style="background: yellow;" | Fix session issues<br>Doug Schepers<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
-|  
-|
-|
+| style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
+| style="background: orange;" | Fix Overall URL structure<br>Julee B<br>''Relevant bug?''  
+| style="background: orange;" | Write content plan re: concepts and tutorials<br>Chris M<br>''Relevant bug?''
+| style="background: orange;" | Write clear purpose on webplatform.org<br>Chris M<br>''Relevant bug?''
+| style="background: orange;" | Write centralised editors guide<br>Garbee<br>''Relevant bug?''
+| style="background: orange;" | Write beginner's content plan<br>Garbee<br>''Relevant bug?''
+| style="background: yellow;" | Fix session issues<br>Doug S<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
+| style="background: yellow;" | Implement live code examples<br>Doug S<br>''Relevant bug?'' 
+| style="background: yellow;" | Allow editors to move pages<br>Doug S<br>''Relevant bug?''
+| style="background: green;" | Improve Landing page UX<br>Lea V<br>''Relevant bug?''
 |
 |
 |-
 | Sunday 9th December
-|
+| style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
 |   
+| style="background: orange;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
 |
 |
-|
-| 
-| style="background: yellow;" |
+| style="background: orange;" | 
+|  
 |  
 |
-|
+| style="background: green;" | Improve Landing page UX<br>Lea V<br>''Relevant bug?''
 |
 |
 |-
@@ -46,7 +46,7 @@
 | 
 |  
 |
-|
+| style="background: green;" | Improve Landing page UX<br>Lea V<br>''Relevant bug?''
 |
 |
 |-
