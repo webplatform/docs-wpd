@@ -15,8 +15,9 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 
 == Agenda 4 December 2012 ==
 
-* Welcome
-* Review of open action items
+<ul>
+<li><p>Welcome</p></li>
+<li><p>Review of open action items</p></li>
 <li>
 <ol>
   <li><p>ACTION, Alex K:  Implement attributes/actions stuff (carried over)</p></li>
@@ -37,9 +38,10 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
   <li><p>ACTION, Doug S: Send summary to mailing list of everything he can find to do with statistics</p></li>
 </ol>
 </li>
-* Content Task Force summary
-* How to deal with spam content
-* AOB
+<li><p>Content Task Force summary</p></li>
+<li><p>How to deal with spam content</p></li>
+<li><p>AOB</p></li>
+</ul>
 
 == Agenda 27 November 2012 ==
 
