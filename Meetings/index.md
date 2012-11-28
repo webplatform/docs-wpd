@@ -17,22 +17,24 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 
 * Welcome
 * Review of open action items
-## ACTION, Alex K:  Implement attributes/actions stuff (carried over)
-## ACTION, Doug S: Write up proposal for usage of data from caniuse, quirks mode, etc. on Wiki, and send link to list (carried over)
-## ACTION: Paul I: Do further investigation into feasibility of markdown tool (carried over)
-## ACTION, Doug S: Write up guide on how to do translations by hand (carried over)
-## ACTION, Peter L: Follow up with evangelization of WPD docsprint at Google (carried over)
-## ACTION, Peter L: Write blog posts about next doc sprint on Dec 12th in Mountain View, continue organization for this
-## ACTION, Doug S: Set Peter up with permissions to write blog post on Webplatform.org
-## ACTION, all: Make our internal company teams aware of the doc sprint, and get interested parties to sign up and contribute
-## ACTION, Doug S: Approach Event Apart/Web directions folks about doing WPD doc sprints to tie into their events. (carried over, Doug has already started a conversation with John Allsopp, AEA folks still to be approached.)
-## ACTION, Doug S: Make more progress towards hosting Webplatform skin on GitHub (carried over, Doug has made progess on this, but needs to confer with Alex about best way to do this; Fr0zenice has looked at some of this stuff as well, in terms of what he wants to help with.)
-## ACTION, Doug S: Post a proposal to the list about best solution for duplicate title problem (carried over: progress made, plugin worked on, but Doug needs to wait for Ryan to get back off vacation to check that this will work)
-## ACTION, Peter L: Create Sprint in a Box package for docsprints (carried over: Still needs to be finished, but progress has been made, Andre from Adobe helped him out)
-## ACTION, Garbee: Continue working on solution for issue/bug tracking, as we really need a better way to do this. 
-## ACTION, Julee: Send around mail about Wednesday Content TF meeting, and send around Doodle poll to agree on better time for Content TF meetings
-## ACTION, Chris M: Work on milestones and roles for upcoming important tasks - make wiki page, then list 10 or so milestones that we really need to do; also encourage others to add their own. Things to definitely put on there - session handling issues, recruiting specific content contributors (to work on CSS, JS, etc.), dealing with spam
-## ACTION, Doug S: Send summary to mailing list of everything he can find to do with statistics
+<ul>
+  <li><p>ACTION, Alex K:  Implement attributes/actions stuff (carried over)</p></li>
+  <li><p>ACTION, Doug S: Write up proposal for usage of data from caniuse, quirks mode, etc. on Wiki, and send link to list (carried over)</p></li>
+  <li><p>ACTION: Paul I: Do further investigation into feasibility of markdown tool (carried over)</p></li>
+  <li><p>ACTION, Doug S: Write up guide on how to do translations by hand (carried over)</p></li>
+  <li><p>ACTION, Peter L: Follow up with evangelization of WPD docsprint at Google (carried over)</p></li>
+  <li><p>ACTION, Peter L: Write blog posts about next doc sprint on Dec 12th in Mountain View, continue organization for this</p></li>
+  <li><p>ACTION, Doug S: Set Peter up with permissions to write blog post on Webplatform.org</p></li>
+  <li><p>ACTION, all: Make our internal company teams aware of the doc sprint, and get interested parties to sign up and contribute</p></li>
+  <li><p>ACTION, Doug S: Approach Event Apart/Web directions folks about doing WPD doc sprints to tie into their events. (carried over, Doug has already started a conversation with John Allsopp, AEA folks still to be approached)</p></li>
+  <li><p>ACTION, Doug S: Make more progress towards hosting Webplatform skin on GitHub (carried over, Doug has made progess on this, but needs to confer with Alex about best way to do this; Fr0zenice has looked at some of this stuff as well, in terms of what he wants to help with)</p></li>
+  <li><p>ACTION, Doug S: Post a proposal to the list about best solution for duplicate title problem (carried over: progress made, plugin worked on, but Doug needs to wait for Ryan to get back off vacation to check that this will work)</p></li>
+  <li><p>ACTION, Peter L: Create Sprint in a Box package for docsprints (carried over: Still needs to be finished, but progress has been made, Andre from Adobe helped him out)</p></li>
+  <li><p>ACTION, Garbee: Continue working on solution for issue/bug tracking, as we really need a better way to do this. </p></li>
+  <li><p>ACTION, Julee: Send around mail about Wednesday Content TF meeting, and send around Doodle poll to agree on better time for Content TF meetings</p></li>
+  <li><p>ACTION, Chris M: Work on milestones and roles for upcoming important tasks - make wiki page, then list 10 or so milestones that we really need to do; also encourage others to add their own. Things to definitely put on there - session handling issues, recruiting specific content contributors (to work on CSS, JS, etc.), dealing with spam</p></li>
+  <li><p>ACTION, Doug S: Send summary to mailing list of everything he can find to do with statistics</p></li>
+</ul>
 * Content Task Force summary
 * How to deal with spam content
 * AOB
