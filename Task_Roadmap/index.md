@@ -15,7 +15,7 @@
 |
 |
 | 
-| 
+| Fix session issues<br>Doug Schepers<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
 |  
 |
 |
@@ -29,7 +29,7 @@
 |
 |
 | 
-| 
+|  
 |  
 |
 |
@@ -232,7 +232,6 @@
 |
 |
 |}
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
