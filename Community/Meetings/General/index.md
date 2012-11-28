@@ -33,8 +33,8 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * We pointed out the new task roadmap: http://docs.webplatform.org/wiki/WPD:Task_Roadmap, and related email, and asked for comments. It's a high-level view that's very readable. Editing it (e.g.: adding columns) might be a bit tricky.
 * We discussed the need for a project management system and a program manager to ensure content tasks are triaged. WPD:Most_Wanted_Tasks isn't getting things prioritized and we need motivational tools.
 * We continued discussion on creating API pages, focusing on exceptions to the guidelines captured here: http://docs.webplatform.org/wiki/WPD:Creating_API_pages.
-  ** What to do for API that add members to an existing interface. For example, CSS Regions includes a new member in the Document interface - keep it with the API or the existing interface? Probably in both. But where does canonical page reside?
-  ** What to do with lots of little bits of information, for example SVG attribute values or the HTML type element? For data modeling purposes, it might be best to create separate pages for each and then include them in the main page. What is best for folks importing, managing content? For the end-user?
+** What to do for API that add members to an existing interface. For example, CSS Regions includes a new member in the Document interface - keep it with the API or the existing interface? Probably in both. But where does canonical page reside?
+** What to do with lots of little bits of information, for example SVG attribute values or the HTML type element? For data modeling purposes, it might be best to create separate pages for each and then include them in the main page. What is best for folks importing, managing content? For the end-user?
 * We need to change the meeting time.
 
 ===Decisions===
