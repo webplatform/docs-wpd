@@ -4,9 +4,9 @@
 {{Basic Page}}
 {| class="sortable wikitable"| style="overflow: scroll;"|
 ! Week ending
-! colspan=6|Content
-! colspan=3|Infrastructure
-! colspan=3|Styling/UX
+! style="width: 500px;" | colspan=6|Content
+! style="width: 500px;"|colspan=3|Infrastructure
+! style="width: 500px;"|colspan=3|Styling/UX
 |-
 | Sunday 2nd December
 | style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
