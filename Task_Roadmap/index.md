@@ -23,16 +23,16 @@
 |
 |-
 | Sunday 9th December
-| style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
+| 
 |   
-| style="background: orange;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
+| style="background: lightblue;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
 |
 |
 | style="background: orange;" | 
 |  
 |  
 |
-| style="background: green;" | Improve Landing page UX<br>Lea V<br>''Relevant bug?''
+| 
 |
 |
 |-
@@ -46,7 +46,7 @@
 | 
 |  
 |
-| style="background: green;" | Improve Landing page UX<br>Lea V<br>''Relevant bug?''
+| 
 |
 |
 |-
