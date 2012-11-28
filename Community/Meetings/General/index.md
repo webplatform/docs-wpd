@@ -14,6 +14,6 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Roll call
 * Triage of new content architecture issues
 * Review of open action items
-* Handling specialized API [[http://docs.webplatform.org/wiki/WPD:Creating_API_pages|in light of new guidelines]].
+* Handling specialized API [[WPD:Creating_API_pages|in light of new guidelines]].
 * [[http://docs.webplatform.org/wiki/WPD:Task_Roadmap|Task roadmap]] includes content track, prioritizing content issues.
 * [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]
