@@ -3,7 +3,7 @@
 {{Summary_Section}}
 {{Basic Page}}
 <div style="width: 100%;overflow:scroll;">
-{| style="width: 2000px;"
+{| style="width: 2400px;"
 ! Week ending
 ! colspan=6|Content
 ! colspan=3|Infrastructure
