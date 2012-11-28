@@ -2,7 +2,7 @@
 {{Flags}}
 {{Summary_Section}}
 {{Basic Page}}
-{| class="sortable wikitable"| style="overflow: scroll;"|
+{| class="sortable wikitable"| style="width: 1200px; height: 200px"|
 ! Week ending
 ! colspan=6|Content
 ! colspan=3|Infrastructure
