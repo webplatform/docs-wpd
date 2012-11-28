@@ -15,7 +15,7 @@
 |
 |
 | 
-| Fix session issues<br>Doug Schepers<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
+| style="background: yellow;" | Fix session issues<br>Doug Schepers<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
 |  
 |
 |
