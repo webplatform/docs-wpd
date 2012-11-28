@@ -4,12 +4,12 @@
 {{Basic Page}}
 {| class="sortable wikitable"| style="overflow: scroll;"|
 ! Week ending
-! style="width: 500px;" | colspan=6|Content
-! style="width: 500px;"|colspan=3|Infrastructure
-! style="width: 500px;"|colspan=3|Styling/UX
+! colspan=6|Content
+! colspan=3|Infrastructure
+! colspan=3|Styling/UX
 |-
 | Sunday 2nd December
-| style="background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
+| style="width: 200px;background: orange;" | Draft spam solution<br>Julee B<br>''Relevant bug?''
 | style="background: orange;" | Fix Overall URL structure<br>Julee B<br>''Relevant bug?''  
 | style="background: orange;" | Write content plan re: concepts and tutorials<br>Chris M<br>''Relevant bug?''
 | style="background: orange;" | Write clear purpose on webplatform.org<br>Chris M<br>''Relevant bug?''
