@@ -14,7 +14,7 @@
 | style="background: lightblue;" | Fix Overall URL structure<br>Julee B<br>''Relevant bug?''  
 | style="background: orange; border: 2px dashed black" | Create tasks roadmap<br>Chris M<br>''Relevant bug?''
 | style="background: orange;" | Write clear purpose on webplatform.org<br>Chris M<br>''Relevant bug?''
-| style="background: orange;" | Write centralised editors guide<br>Garbee<br>''Relevant bug?''
+| style="background: orange;" | Write centralised editors guide<br>Garbee<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20154 Bug 20154]]
 | style="background: orange;" | Write beginner's content plan<br>Garbee<br>''Relevant bug?''
 | style="background: yellow;" | Fix session issues<br>Doug S<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 Bug 19390]]
 | style="background: yellow;" | Implement live code examples<br>Doug S<br>''Relevant bug?'' 
