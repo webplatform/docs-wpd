@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Editors Guide/Topic Hierarchy]]
