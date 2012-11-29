@@ -28,7 +28,7 @@
 | style="background: orange;" | Write content plan re: concepts and tutorials<br>Chris M<br>''Relevant bug?''  
 | style="background: lightblue;" | Update most wanted tasks<br>Chris M<br>[[http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks MWT page]]
 | style="background: orange;" | Fix wanted pages<br>doc sprint task?<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20137 Bug 20137]]
-|
+|style="background: orange;" |
 | style="background: orange;" | 
 |  
 |  
