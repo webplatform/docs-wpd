@@ -94,7 +94,7 @@
 | style="background: black;color: white;" | Christmas hiatus?
 |-
 | Sunday 13th January
-|
+| style="background:orange;" | deal with move/delete candidates<br>Chris Mills<br>[[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20153 Bug 20153]]
 |   
 |
 |
@@ -108,7 +108,7 @@
 |
 |-
 | Sunday 20th January
-|
+| style="background:orange;"|
 |   
 |
 |
