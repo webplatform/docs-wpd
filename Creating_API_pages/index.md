@@ -125,8 +125,6 @@ For now, just use the Usage section.
 
 {{TODO|The API_Object template needs an '''Applies to''' field to which the summary table in the API_Listing page can refer to list all of the objects in the API listing page.}}
 
-{{TODO|In the API_Object template, '''Subclasses''' should be changed to '''Inherits from''' for greater accuracy and clarity.}}
-
 ===Object sub-page content===
 
 This covers issues common to all sub pages of the object page, events, methods, and properties pages.
