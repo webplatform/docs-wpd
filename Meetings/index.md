@@ -40,6 +40,7 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 <li><p>Content Task Force summary</p></li>
 <li><p>How to deal with spam content</p></li>
 <li><p>What other root topic pages we want to link from the [[Main Page]]. We already have concepts, html, css, javascript, accessibility, svg. But we should probably have [[dom]] as a top level root page as well.</p></li>
+<li><p>Updating main page and template. Chris has a few things he'd like to do that require this, but he just don't have the power.</p></li>
 <li><p>AOB</p></li>
 </ul>
 
