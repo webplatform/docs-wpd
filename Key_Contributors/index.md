@@ -11,4 +11,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 | Chris Mills || [[User:cmills|CMills]] || cmills@w3.org || chrismills || Opera / W3C || Official Steward Representative, content, community, high level planning and organization || I'm knee deep in content and sorting out the site's IA. Talk to me if you have questions about site content, IA, high level issues, and heavy metal. 
 |-
 | Eliot Graff|| [[User:Eliot-MSFT|Eliot-MSFT]] || -- || Eliot|| Microsoft|| Official Steward Representative || I'm involved in the overall site planning, Content Task Force, community growth, and doc sprints.
+|-
+| Sébastien Desbenoit || [[User:Desbenoit|Desbenoit]] || seb@desbenoit.net || Desbenoit ||ThinkInnovation || -- || I'm involved in the design content and I give an hand in the website's graphic design.
 |}
