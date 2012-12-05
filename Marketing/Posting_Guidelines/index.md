@@ -28,7 +28,7 @@ The following guidelines must be met:
 ** Status updates for in-progress commonly-requested features.
 ** ''This list will grow over time''
 * Every proposed blog post must be posted by a member of member-webdocs (perhaps on behalf of another submitter, since most people don't have access to post) to that list. The post may not go live until either: '''two independent "Sounds Good To Me" responses''' are received on that list, or '''12 hours''' have passed. Post types that do not have precedent or are potentially controversial must get at least two active SGTMs.
-* Everyone is welcome to submit blog post proposals. If you are not a member of a steward organization (and thus not on member-webdocs), send to one of the steward representatives (or ask for one on IRC) to have them send the proposal on your behalf and CC you.
+* Everyone is welcome to submit blog post proposals. If you are not a member of a steward organization (and thus not on member-webdocs), send to one of the steward representatives (or ask for one on IRC) to have them send the proposal on your behalf and CC you. You can find them listed on the [[WPD:Key_Contributors|key contributors]] list.
 
 == @WebPlatform Twitter handle ==
 '''Posters''': Doug, ''others?''
