@@ -12,5 +12,5 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 | Eliot Graff|| [[User:Eliot-MSFT|Eliot-MSFT]] || -- || Eliot|| Microsoft|| Official Steward Representative || I'm involved in the overall site planning, Content Task Force, community growth, and doc sprints.
 |-
-| Sébastien Desbenoit || [[User:Desbenoit|Desbenoit]] || seb@desbenoit.net || Desbenoit ||ThinkInnovation || -- || I'm involved in the design content and I give an hand in the website's graphic design.
+| Sébastien Desbenoit || [[User:Desbenoit|Desbenoit]] || seb@desbenoit.net || Desbenoit ||ThinkInnovation || -- || I'm involved in the contents about design and I create some graphic design elements for the website.
 |}
