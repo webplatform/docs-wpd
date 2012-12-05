@@ -18,5 +18,5 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 | Taylor Agnew || [[User:Tomato|Tomato]] || -- || NotTomato || -- || -- || I'm a volunteer administrator and moderator, sometimes I answer questions about MediaWiki. I'm involved with content and templates.
 |-
-| Julee Burdekin || [[User:Julee|Julee]] || julee@adobe.com || Julee || Adobe || official steward representative || Breaking down barriers for contributors.
+| Julee Burdekin || [[User:Julee|Julee]] || julee@adobe.com || Julee || Adobe || official steward representative || Helping improve the experience for contributors.
 |}
