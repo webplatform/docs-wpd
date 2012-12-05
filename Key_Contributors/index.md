@@ -15,4 +15,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 | Sébastien Desbenoit || [[User:Desbenoit|Desbenoit]] || seb@desbenoit.net || Desbenoit ||ThinkInnovation || -- || I'm involved in the contents about design and I create some graphic design elements for the website.
 |-
 | Janet Swisher || [[User:jswisher|jswisher]] || jswisher@mozilla.com || ''jswisher'' on w3.org and freenode; ''jms'' on mozilla || Mozilla || official steward representative || I try to encourage openness and community building. I kibbitz about content, site structure, IA (information architecture), and a lot of other things.
+|-
+| Taylor Agnew || [[User:Tomato|Tomato]] || -- || NotTomato || -- || -- || I'm a volunteer administrator and moderator, sometimes I answer questions about MediaWiki. I'm involved with content and templates.
 |}
