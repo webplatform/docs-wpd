@@ -4,5 +4,5 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 ! Name !! Username !! E-mail !! IRC Nick !! Organization !! Roles !! Bio
 |-
-| Example || Example || Example || Example || Example || Example || Example
+| Alex Komoroske || [[User:Jkomoros|Jkomoros]] || -- || jkomoros (''sometimes you'll see me as komoroske'') || Google || Official Steward Representative, Template Corps Member || I'm mainly involved in the organization of how the site is strung together.
 |}
