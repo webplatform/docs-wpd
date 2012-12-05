@@ -6,7 +6,9 @@ WPD is an active and welcoming community. We'll help you get started, and there'
 * You can find us on '''IRC''' (Internet Relay Chat, essentially a specialized chat room) at '''irc.freenode.net'''; join out chatroom '''#webplatform'''.
 :See [[WPD:Conduct]] for information about using the chat rooms.
 :Generally, someone will be around to answer questions. If you're new to IRC, check out [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ this great getting started guide].
+:[http://docs.webplatform.org/wiki/WPD:Key_Contributors|Key contributors]
 * We also have [http://talk.webplatform.org/forums/ forums available], on which you can post questions, and answer the questions of others.
 * You can also [https://www.twitter.com/webplatform find us on Twitter].
+
 
 Remember, all of WPD is a wiki. If you ever find content that's not quite up to snuff (including pages like this one that help you get started), please help improve them! If everyone leaves a page in just a little bit better shape than the way they found it, WPD will become more and more useful.
