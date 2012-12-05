@@ -8,10 +8,11 @@ For all of these reasons, we have a group of template wizards in the '''Template
 
 For small changes, often it's easiest to raise a member of the Template Corps on the IRC channel. For cases where you can't find someone or the change is bigger, send an e-mail to public-webplatform@w3.org with "[templates]" at the front of the subject line.
 
-==Membership List==
+==Canonical Membership List==
 * [[User:Jkomoros|Jkomoros]]
 * [[User:Frozenice|Frozenice]]
 * [[User:Phistuck|Phistuck]]
+''Only Template Corps members should modify this list in accordance with the "Inducting New Members" section below.''
 
 ==Inducting New Members==
 
