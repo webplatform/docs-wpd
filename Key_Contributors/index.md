@@ -17,4 +17,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 | Janet Swisher || [[User:jswisher|jswisher]] || jswisher@mozilla.com || ''jswisher'' on w3.org and freenode; ''jms'' on mozilla || Mozilla || official steward representative || I try to encourage openness and community building. I kibbitz about content, site structure, IA (information architecture), and a lot of other things.
 |-
 | Taylor Agnew || [[User:Tomato|Tomato]] || -- || NotTomato || -- || -- || I'm a volunteer administrator and moderator, sometimes I answer questions about MediaWiki. I'm involved with content and templates.
+|-
+| Julee Burdekin || [[User:Julee|Julee]] || julee@adobe.com || Julee || Adobe || official steward representative || Breaking down barriers for contributors.
 |}
