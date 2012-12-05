@@ -4,7 +4,7 @@ For all of these reasons, we have a group of template wizards in the '''Template
 
 ==Guidelines for making changes to templates==
 
-'''The general rule of thumb is that small tweaks to existing templates need a single SGTM ("Sounds Good To Me") from one of the members of the template corps. More substantive changes require a consensus of Template Corps members to agree.'''
+'''The general rule of thumb is that small tweaks to existing templates need a single SGTM ("Sounds Good To Me") from one of the members of the template corps. More substantive changes (including new core templates, changes to form organization, adding additional SMW queries, and information architecture changes)  require a consensus of Template Corps members to agree on the technical implementation strategy.'''
 
 For small changes, often it's easiest to raise a member of the Template Corps on the IRC channel. For cases where you can't find someone or the change is bigger, send an e-mail to public-webplatform@w3.org with "[templates]" at the front of the subject line.
 
