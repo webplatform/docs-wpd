@@ -2,7 +2,7 @@ This page is an informal list of key contributors. Anyone who's made more than a
 
 {| class="wikitable sortable"
 |-
-! Name !! Username !! E-mail !! IRC Nick !! Organization !! Roles !! Bio
+! Name !! Username !! E-mail !! IRC Nick !! Organization !! Roles !! Specialties
 |-
-| Alex Komoroske || [[User:Jkomoros|Jkomoros]] || -- || jkomoros (''sometimes you'll see me as komoroske'') || Google || Official Steward Representative, Template Corps Member || I'm mainly involved in the organization of how the site is strung together.
+| Alex Komoroske || [[User:Jkomoros|Jkomoros]] || -- || jkomoros (''sometimes you'll see me as komoroske'') || Google || Official Steward Representative, Template Corps Member || I'm mainly involved in the organization of how the templates are written and wired together, and keeping track of tasks that need to be done.
 |}
