@@ -1,4 +1,6 @@
+{{Page_Title}}
 {{Flags}}
+{{Summary_Section}}
 {{Basic Page}}
 ==Overview==
 This topic provides guidance for writing code and markup samples and snippets for documentation published to webplatform.org. It is meant to provide a quality bar for code samples and snippets, and to provide consistency of style across this documentation, not functionality. 
@@ -35,7 +37,7 @@ Creating code snippets or developing full samples share many best practices:
 WPD uses some specific guidelines for HTML:
 *Use lowercase letters for element names
 *Place all attribute values in quotation marks
-*Replace empty attributes with values, such as <code>defer=”defer”</code>
+*Replace empty attributes with values, such as <code>defer="defer"</code>
 *Use a valid DOCTYPE, preferably <code><!DOCTYPE html></code>
 *Avoid browser-sniffing. Test for feature presence instead.
 *Avoid inline styles. They make the code harder to read.
@@ -44,18 +46,18 @@ WPD uses some specific guidelines for JavaScript
 *Remember your semi-colons.
 *Use the following pattern to create Singleton objects:
 <pre>var Singleton = (function() {
-var privateVariable = ”…”;
+var privateVariable = "…";
   this.publicMethod = function()	{…};
   function privateMethod() {…};
 })();</pre>
 *Use JavaScript namespaces to isolate variables and functionality from the global namespace for anything beyond simple illustrations.  This makes it simpler to copy-paste sample code into other pages.
 *If every member in your namespace is public, use object-notation to create your namespace:
 <pre>var SampleNamespace = {
-  “init” : function() {…},
-  “destroy” : function() {…},
-  “defaultValue” : “…”,
-    “NestedNamespace” : {
-    “member” : “...”
+  "init" : function() {…},
+  "destroy" : function() {…},
+  "defaultValue" : "…",
+    "NestedNamespace" : {
+    "member" : "..."
     }
 }</pre>
 *If your namespace requires private members, use the singleton pattern. You can combine both patterns as you nest namespaces.
@@ -64,6 +66,7 @@ var privateVariable = ”…”;
 
 
 The final suggestions: Be simple. Be straightforward. Don’t try to impress. Just teach.
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
