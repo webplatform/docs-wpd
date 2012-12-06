@@ -94,7 +94,7 @@ The listing page describes the API and its objects.
 After the Top-Level Summary section, in which you briefly describe the API, edit the Basic Listing Configuration to display a summary table of the API objects included in the listing.
 
 In the Query field, include a query that selects for the topic and the API_Objects categories. For example, the WebRTC listing page query looks like this:
-: <nowiki>[[Category:WebRTC]][[Category:API_Objects]]</nowiiki>
+: <nowiki>[[Category:WebRTC]][[Category:API_Objects]]</nowiki>
 
 Note, you may have to create the topic category for your API listing. How to do this is described in [[WPD:Topics]].
 
