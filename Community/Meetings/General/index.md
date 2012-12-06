@@ -22,6 +22,10 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** Identifying stable vs. proprietary and experimental features
 ** Style guide for example code [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20227|bug 20227]]
 ** Topic hierarchy needs updating
+* Anything blocking you from creating great content?
+* 12/12/12 DocSprint?
+** Any content-specific focus?
+** Going? Going to be on IRC? 
 * [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
 
 ==Agenda 2012-11-28==
