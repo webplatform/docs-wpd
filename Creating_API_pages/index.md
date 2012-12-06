@@ -98,7 +98,7 @@ In the Query field, include a query that selects for the topic and the API_Objec
 
 Note, you may have to create the topic category for your API listing. How to do this is described in [[WPD:Topics]].
 
-Also, '''do not check''' the '''Use page title''' or '''Print all subpages boxes'''.
+Also, '''do not check''' the '''Use page title''' or '''Print all subpages''' boxes.
 
 ====Main Content section====
 
