@@ -12,6 +12,8 @@ Web Platform content architecture meetings occur on Thursdays, 20:00 UTC / 15:00
 
 We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will send out minutes.
 
+{{Note | If you haven't already done so, please volunteer to scribe. }}
+
 ==Agenda 2012-12-06==
 * Roll call
 * Review of open action items
