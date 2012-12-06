@@ -1,4 +1,4 @@
-Web Platform content architecture meetings occur on Wednesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
+Web Platform content architecture meetings occur on Thursdays, 20:00 UTC / 15:00 ET / Noon PT. 
 
 {{Note | Each week we will decide if next week's meeting is necessary. }}
 
@@ -8,7 +8,16 @@ Web Platform content architecture meetings occur on Wednesdays, 17:00 UTC / 12:0
 
 '''Conference code:''' 3627 ("DOCS") 
 
+'''VOIP:'''  sip:zakim@w3.org
+
 We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will send out minutes.
+
+==Agenda 2012-12-06==
+* Roll call
+* Triage of new content architecture issues
+* Review of open action items
+* [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
+
 
 ==Agenda 2012-11-28==
 * Roll call
@@ -47,7 +56,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 * chrismills to set up a Doodle poll for next meeting times.
 * garbee to write guidelines on creating content bugs.
-* julee to write down (in bug creation guidelines) what issues go where (Bugzilla vs. WPD:Task_Roadmap, WPD:Most_Wanted_Tasks, Special:WantedPages, WPD:Getting_Started, etc.)
+* (was julee, is now) Garbee to write down (in bug creation guidelines) what issues go where (Bugzilla vs. WPD:Task_Roadmap, WPD:Most_Wanted_Tasks, Special:WantedPages, WPD:Getting_Started, etc.)
 * Alex to write up a description of the project manager's role.
 * All: review this summary to ensure accuracy.
 
