@@ -15,6 +15,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ==Agenda 2012-12-06==
 * Roll call
 * Triage of new content architecture issues
+** New templates this week: /*_listing pages
 ** Identifying stable vs. proprietary and experimental features
 ** Checking in about dom, cssom, svgom
 ** Topic hierarchy needs updating
