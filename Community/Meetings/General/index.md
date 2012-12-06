@@ -18,7 +18,6 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Roll call
 * Review of open action items
 * Triage of new content architecture issues
-** New templates this week: listing pages
 ** Identifying stable vs. proprietary and experimental features
 ** Style guide for example code [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20227|bug 20227]]
 ** Topic hierarchy needs updating
@@ -27,6 +26,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** Please review, especially in terms of content discoverability
 ** [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20250|Bug on adding a menu]]
 ** [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19386|Bug for fixing top-level buckets]]
+* New templates this week: listing pages
 * 12/12/12 DocSprint?
 ** Any content-specific focus?
 ** Going? Going to be on IRC? 
