@@ -87,6 +87,19 @@ Once you've got the pages all in place, you can go back and start filling them i
 
 ===Object listing page content===
 
+The listing page describes the API and its objects.
+
+====Summary and object table====
+
+After the Top-Level Summary section, in which you briefly describe the API, edit the Basic Listing Configuration to display a summary table of the API objects included in the listing.
+
+In the Query field, include a query that selects for the topic and the API_Objects categories. For example, the WebRTC listing page query looks like this:
+: <nowiki>[[Category:WebRTC]][[Category:API_Objects]]</nowiiki>
+
+Note, you may have to create the topic category for your API listing. How to do this is described in [[WPD:Topics]].
+
+====Main Content section====
+
 The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
 
  <nowiki>
@@ -106,14 +119,6 @@ This is just an outline. Here's the [[apis/webrtc|actual content of the apis/web
 The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
 
 {{TODO|The API_Listing template needs a '''Content''' section - as in the Basic_Page template.}}
-
-It also will have a summary table of the API objects included in the API. These are generated when each object's '''Applies to''' field specifies the API listing to which it belongs.
-
-{{TODO|The API_Listing template needs an '''API Name/Summary''' table to list all of the API objects. Move the '''Subpages''' table to the bottom of the template.}}
-
-The listing page should also include compatibility tables for each of the API objects.
-
-{{TODO|The API_Listing template needs to include the Compatibility Section and import compat tables. Note that the import compat tables does not appear to work currently.}}
 
 ===Object page content===
  
