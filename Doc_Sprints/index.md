@@ -3,6 +3,7 @@ We plan to have ongoing documentation sprints to work on integrating the content
 ==Schedule==
 * '''3 November 2012''' San Francisco Doc Sprint at Adobe
 * '''12 December 2012:''' Mountain View Doc Sprint at Google
+* '''23-FEB-2013'''—WebPlatform Doc Sprint at Adobe in San Francisco, California, USA. [Registration TBD]
 * Who's next?
 
 ==Logistics==
