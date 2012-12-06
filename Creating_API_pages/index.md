@@ -98,6 +98,8 @@ In the Query field, include a query that selects for the topic and the API_Objec
 
 Note, you may have to create the topic category for your API listing. How to do this is described in [[WPD:Topics]].
 
+Also, '''do not check''' the '''Use page title''' or '''Print all subpages boxes'''.
+
 ====Main Content section====
 
 The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
