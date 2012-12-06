@@ -15,6 +15,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ==Agenda 2012-12-06==
 * Roll call
 * Triage of new content architecture issues
+** Identifying stable vs. proprietary and experimental features
+** Checking in about dom, cssom, svgom
+** Topic hierarchy needs updating
 * Review of open action items
 * [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
 * Checking in about dom, cssom, svgom
