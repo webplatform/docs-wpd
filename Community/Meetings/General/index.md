@@ -23,6 +23,10 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** Style guide for example code [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20227|bug 20227]]
 ** Topic hierarchy needs updating
 * Anything blocking you from creating great content?
+* [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20180|Main bug of site UX]]
+** Please review, especially in terms of content discoverability
+** [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20250|Bug on adding a menu]]
+** [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=19386|Bug for fixing top-level buckets]]
 * 12/12/12 DocSprint?
 ** Any content-specific focus?
 ** Going? Going to be on IRC? 
