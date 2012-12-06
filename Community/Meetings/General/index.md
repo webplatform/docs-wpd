@@ -18,11 +18,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Triage of new content architecture issues
 ** New templates this week: listing pages
 ** Identifying stable vs. proprietary and experimental features
-** Checking in about dom, cssom, svgom
 ** Topic hierarchy needs updating
 ** Style guide for example code [[https://www.w3.org/Bugs/Public/show_bug.cgi?id=20227|bug 20227]]
 * [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
-* Checking in about dom, cssom, svgom
 * Topic hierarchy needs updating
 
 ==Agenda 2012-11-28==
