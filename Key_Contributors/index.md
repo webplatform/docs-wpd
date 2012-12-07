@@ -20,5 +20,5 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 | Julee Burdekin || [[User:Julee|Julee]] || julee@adobe.com || Julee || Adobe || official steward representative || Helping improve the experience for contributors and visitors.
 |-
-| Scott Rowe || [[User:Scottrowe|Scottrowe]] || scottrowe@google.com || scottrowe || Google || Contributor || Content, templates, opinions.
+| Scott Rowe || [[User:Scottrowe|Scottrowe]] || scottrowe@google.com || scottrowe || Google || Contributor || Content, content, content.
 |}
