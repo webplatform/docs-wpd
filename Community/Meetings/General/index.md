@@ -32,6 +32,36 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** Going? Going to be on IRC? 
 * [[https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496|content bugs]]: Content bugs in bugzilla need your input and resolution.
 
+==Meeting summary==
+===Topics discussed===
+* We discussed the status on the project/program manager for the content tasks. Alex said he realized that the term "project manager" might have caused some confusion and may have implied too big a scope. Really, it's more about someone who just follows through on Action items. We're continuing to discuss this with those who have volunteered for the role.
+* We discussed categorizing the features as stable, proprietary, experimental, and so on.We do have a page that calls out the different statuses: http://docs.webplatform.org/wiki/Property:Standardization_Status.
+We need to further discuss what are the appropriate categories for WPD. The http://docs.webplatform.org/wiki/WPD:Pillars page says that we should aim to be useful documentation for the web as it is, so categories such as "proprietary" are important, because we might document something that's useful but has legal restrictions. If there's something TOTALLY proprietary, we had talked about having that in a special vendor section as well 
+* We discussed the example code style bug [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20227|Bug 20227], but decided to table it for a couple of weeks, because Lea's dabbler code highlighting might land next Friday. (Here's what we have so far: http://docs.webplatform.org/wiki/WPD:Manual_Of_Style/Sample_best_practices)
+* Topic hierarchy page and architecture page is one place where people go to figure out where things go and where they will be. It needs updating. Julee volunteered to do this. We predicted that questions will probably arise from this task.
+* We want to ask each week: Anything blocking you from creating great content? This week, it's the session bug. Ryan has installed the newest version of mediawiki. There are a few conflicts, he's working to resolve those before deploying.
+* We called out the user experience bugs for this task force to review, especially to confirm designs are discoverable, accessible, and follows content architecture:
+** https://www.w3.org/Bugs/Public/show_bug.cgi?id=20180 (site organization)
+** https://www.w3.org/Bugs/Public/show_bug.cgi?id=20250 (global nav)
+** https://www.w3.org/Bugs/Public/show_bug.cgi?id=19386 (links from main)
+* This brought up another topic:
+* Use Meta bugs on bugzilla are big and fuzzy. Plans, proposals, and scratch pad work should be kept as subpages: http://docs.webplatform.org/wiki/WPD:Plans. Not in Bugzilla, and not in another site, such as GitHub. They keep the substantive discussion/plans in WPD:Plans/FOO, and then as actionable sub-items pop out, we file them as bugs that the meta bug depends on.
+* Garbee mentioned that one of the things with using Bug genie is we can edit comments.  So we could actually use that as our place to put things like my Beginner's Guide outline as a comment, then just edit that comment when we update things.  Further centralizing some creation there if we 1) Go with Bug Genie and 2) decide to use it that way. So an issue is just opened for it to be created, then the outline is one of the comments.
+* When new templates appear, such as the listing pages that were sent out for review this week, call it out in terms of content, reviewing it to make sure they make sense from content perspective.
+* We talked about the coming DocSprint at Google. Several folks are going. Several suggestions regarding promoting, gathering like-skilled folks together via tweeting and other social channels. Also several folks are going to try to get editors' feedback about their experience of the site.
+* We talked about the template corp and giving access to those who want to edit templates. But not on a one-off basis, more like giving group access.
+
+===Decisions===
+* Until we have a project management system in place, plans, proposals, and scratch pad work should be kept as subpages: http://docs.webplatform.org/wiki/WPD:Plans. Not in Bugzilla, and not in another site, such as GitHub.
+
+===Action items===
+* Julee to find out how to add a meeting bot to the Content TF Meeting.
+* Julee to file a bug about the design of reference pages with a non-standard standardization status.
+* Eliot to update bug 20227 with pointer to the style guide he wrote
+* Garbee to send out his awesome task organization plan
+* Scott and Peter to explore social media channels about next week's docsprint
+Proposed next discussion topics
+
 ==Agenda 2012-11-28==
 * Roll call
 * Triage of new content architecture issues
