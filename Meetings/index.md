@@ -9,7 +9,7 @@ Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 1
 
 '''Conference code:''' 6654824671 
 
-We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will send out minutes.
+We simultaneously meet in the #webplatform-site IRC channel on irc.freenode.org. Afterwards we will send out minutes.
 
 Anyone can call in free of charge by using [http://www.skype.com Skype].
 
