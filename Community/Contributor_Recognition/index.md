@@ -24,6 +24,28 @@ A large part of our recognition will be around the upcoming doc sprints. We shou
 
 ===Achievement Recognition===
 
+People should be given recognition for the skills they possess, as well as the contributions they have made to the site. So for contributions, you could have badges for 
+
+* Q&A moderator
+* Numbers of answers in Q&A
+* IRC moderator
+* Number of new articles
+* Number of edits
+* Number of template updates
+* Translations contributed
+
+And then for skills, you could have
+
+* Editor
+* Writer
+* Template ninja
+* Design smarts (for those like Seb and Lea, who have contributed styling)
+* International superhero: Germany, or France, etc. (awarded for certain language contributions)
+* Domain expert: HTML, or CSS (you have certain specific knowledge of different subjects)
+* Doc sprint organizer / participant
+
+This would act as recognition, as well as letting others know what skills you have, so they can determine who best to approach if they have a query or problem.
+
 Mozilla Foundation supports the development of the [http://www.openbadges.org Open Badges] Infrastructure, which enable issuers to define badges, and individuals to earn badges and display them to others. Badge-earners can collect badges from multiple issuers in a "back pack" to share with whomever is interested.
 
 For WPD, open badges could be used to represent status or roles. In theory, they could also be tied into a quantitative recognition system. (But see Janet's opinion above.
