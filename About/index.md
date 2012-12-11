@@ -4,7 +4,7 @@
 {{Basic Page}}
 ==What is Webplatform.org?==
 
-Webplatform.org is a community-driven documentation site mainly focused on client-side web technologies. It was founded by several stewards, including Opera, Mozilla, Google, the W3C, Microsoft, Adobe, HP, Nokia and Facebook, with the aim of creating a definitive resource for web developers and designers to find all the information they need to do their job. The main part of the site is a wiki containing tutorials, concept articles and reference docs, but we also have a Q&A section, blog, and IRC chat, and we are aiming to expand out capabilities in the future to include live code examples, resources for educators, and more.
+Webplatform.org is a community-driven documentation site mainly focused on client-side web technologies. It is supported by several [[http://www.webplatform.org/stewards/|Stewards]], with the aim of creating a definitive resource for web developers and designers to find all the information they need to do their job. The main part of the site is a wiki containing tutorials, concept articles and reference docs, but we also have a Q&A section, blog, and IRC chat, and we are aiming to expand out capabilities in the future to include live code examples, resources for educators, and more.
 
 ==How the site was created==
 
