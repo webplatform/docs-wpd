@@ -8,7 +8,7 @@
 We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
 
 '''Related''' ...
-[http://webplatform.org/stewardsxxx/ Web Platform stewards] 
+[http://www.webplatform.org/stewards/ Web Platform stewards] 
 
 
 ==[http://docs.webplatform.org/wiki/WPD:Getting_Started Getting Started - WebPlatform Docs]==
