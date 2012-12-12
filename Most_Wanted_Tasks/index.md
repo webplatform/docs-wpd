@@ -126,32 +126,6 @@ See http://docs.webplatform.org/wiki/html/attributes
 I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling, and grammar; making sure links and images work; and making improvements as you see fit.
 
 You can find a detailed guide to handling tutorials and concept articles at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and concept articles]]. Follow the different steps on this page, and make sure everything looks ok, to go through a tutorial/concept successfully. Let [[mailto:cmills@opera.com Chris Mills know]] if you have any problems, want your work checked, or have any suggestions about improving the process.
-
-To get started, choose a concept or tutorial article you want to help improve and link to it in the subsection below so that others know you are working on it. Also put a note to say you are working on it in the editorial notes form field for that article. Good luck!
-
-===Articles being worked on===
-
-General Concepts:
-
-HTML:
-
-* [[guides/html_text|HTML Text]] worked on by [[User:Garbee|Jonathan Garbee]]
-
-CSS:
-
-* [[tutorials/learning what css is|What is CSS?]] worked on by [[User:Cmills|Chris Mills]]
-* [[tutorials/learning why we use css|Why use CSS?]] worked on by [[User:Cmills|Chris Mills]]
-* [[guides/getting started with css|Getting started with CSS]] worked on by [[User:Cmills|Chris Mills]]
-* [[tutorials/css_text_quick_start|CSS Text Quick Start]] worked on by [[User:Michistar|Michelle Carlough]]
-* [[guides/advanced_css_text_styling|Advanced CSS Text Styling]] worked on by [[User:Michistar|Michelle Carlough]]
-
-JavaScript:
-
-* [[concepts/programming/drawing_images_onto_canvas|Drawing images onto canvas]] worked on by [[User:Asbjornenge|Asbjorn Enge]]
-
-SVG:
-
-* [[svg]] worked on by [[dirkschulze|Dirk Schulze]]
 {{Notes_Section
 |Notes=Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
 }}
