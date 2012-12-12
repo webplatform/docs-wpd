@@ -23,8 +23,6 @@ Thanks in advance for any tasks completed!
 
 * Clean the HTML tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19720 bug 19720]
 
-* Help fix Wanted Pages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20137 bug 20137]
-
 ===Half Day Tasks===
 
 * Help improve HTML attribute pages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500 bug 19500]
