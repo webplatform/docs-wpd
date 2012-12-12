@@ -1,4 +1,4 @@
-{{Page_Title|A Quick Start to adding your contributions to Web Platform.org }}
+{{Page_Title|A Quick Start to adding your contributions to Web Platform.org}}
 {{Flags}}
 {{Summary_Section|This article provides quick access to important Content to give you the "lay of the land" to start contributing as quickly as possible...}}
 {{Basic Page}}
@@ -8,7 +8,7 @@
 We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
 
 '''Related''' ...
-[http://webplatform.org/stewards/ Web Platform stewards] 
+[http://webplatform.org/stewardsxxx/ Web Platform stewards] 
 
 
 ==[http://docs.webplatform.org/wiki/WPD:Getting_Started Getting Started - WebPlatform Docs]==
@@ -101,8 +101,6 @@ Do this only if it is not something that is covered by the three options above. 
 
 <hr/>
 This content above was originally published on   [http://www.irelate.us iRelate.us]  by  [http://www.irelate.us/Tony Tony] within this [http://www.irelate.us/SharedPackages/Tony/cdda6bbc8604d9a7058b29aa666d882b448c869c.html Post]...
-
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
