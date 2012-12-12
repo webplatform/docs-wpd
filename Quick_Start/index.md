@@ -101,7 +101,6 @@ Do this only if it is not something that is covered by the three options above. 
 
 <hr/>
 This content above was originally published on   [http://www.irelate.us iRelate.us]  by  [http://www.irelate.us/Tony Tony] within this [http://www.irelate.us/SharedPackages/Tony/cdda6bbc8604d9a7058b29aa666d882b448c869c.html Post]...
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
