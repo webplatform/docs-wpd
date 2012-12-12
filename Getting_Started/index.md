@@ -111,15 +111,15 @@ WPD is a site dedicated to documenting and teaching people about open web standa
 The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
 
 ===Flags and editorial notes===
-WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. when you choose to edit WPD pages, you should see a list of check boxes for the different flags available — use these to raise an alert that a specific type of improvement or attention is needed on a page.
+WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. When you choose to edit WPD pages, you should see a list of check boxes for the different flags available — use these to raise an alert that a specific type of improvement or attention is needed on a page.
 
 ==References==
 
 Here are some references to help you:
 
-* [[WPD:Manual_Of_Style|Style Guide]]
+* [[WPD:Style_Guide|Style Guide]]
 * [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
-* [[WPD:Manual_Of_Style/Gotchas|Wiki Syntax Errors (Gotchas)]]
+* [[WPD:Style_Guide/Gotchas|Wiki Syntax Errors (Gotchas)]]
 * [[WPD:Implementation_Patterns|How Web Platform Docs uses Semantic Media Wiki]]
 * [[WPD:FAQ|General FAQ]]
 
