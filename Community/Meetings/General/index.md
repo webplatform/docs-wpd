@@ -29,7 +29,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ==Meeting summary==
 ===Discussion===
 
-* notice that the [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee, how do we spread these out to others? Maybe a larger issue than with just the content bugs
+* Note that the [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee. We wonder how do we spread these out to others? Maybe a larger issue than with just the content bugs?
 * Discussed top-level pages sent out by Chris. We generally thought Chris's [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed pages] were excellent. Eliot volunteered to do an edit pass on the descriptions.
 * We discussed the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0235.html navigation proposals] (and [Proposal for updating links on webplatform.org proposal for updating links]) that have been in the email list. We discussed the pros and cons of providing the reader with a choice of content type or topic area, via hover links on the global nav. We would appreciate a mock-up. We are not sure how the different proposals would actually pan out. Jswisher took the action to follow up in the email threads and request the next level of detail.
 * We identified four priorities we're working on to make editing the site easier and hope to have this work completed by the new year:
