@@ -20,6 +20,8 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Triage of new content architecture issues
 ** All [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee. Do we want to re-assign some of them?
 * [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html Main landing page prototypes completed/subpage structures?/domain leads?]
+* [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0235.html allow people to start their search by technology or page type]
+* [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0221.html Different ways to browse]
 * Anything blocking you from creating great content?
 
 ==Agenda 2012-12-06==
