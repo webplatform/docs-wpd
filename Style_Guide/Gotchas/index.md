@@ -123,6 +123,18 @@ When you include either curly or straight brackets in your article, the wiki wil
 
 If the text incudes a single bracket that should not be paired, as when the text describes a bracket character as part of a code example, use an HTML entity instead of the keyboard character. See [[#Escaping_characters|Escaping characters]] for more information.
 
+=URL containing special characters in notes or other tags=
+
+Certain links contain special characters, such as the equal sign (=) in a link to a YouTube video (for example, http://www.youtube.com/watch?v=me3BviH3nZc). When these links are inside other wiki references, such as the Note tag, the special character needs to be escaped. Two ways to do so are:
+
+* Replace every = with {{=}}, as in:
+{{Note|[http://www.youtube.com/watch?v{{=}}me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
+
+OR
+
+* Prefix the note-text with 1=, as in:
+{{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
+
 =Spaces in template calls=
 
 This applies only if you are editing the templates and forms used to build this wiki. MediaWiki is very weird about spaces. In particular, a line that starts with a single space is interpreted as a pre-formatted line of characters, and a group of such lines are then formatted as a <nowiki><pre></nowiki> block in the HTML output. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general '''do not use spaces''' around parameter values. Most of the times everything will work fine, but some times it will break without warning. See the [[Template:External_Attribution_Block|External Attribution Block template]] for an example.
