@@ -25,6 +25,32 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0221.html Different ways to browse]
 * Anything blocking you from creating great content?
 
+
+==Meeting summary==
+===Discussion===
+
+* notice that the [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee, how do we spread these out to others? Maybe a larger issue than with just the content bugs
+* Discussed top-level pages sent out by Chris. We generally thought Chris's [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed pages] were excellent. Eliot volunteered to do an edit pass on the descriptions.
+* We discussed the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0235.html navigation proposals] (and [Proposal for updating links on webplatform.org proposal for updating links]) that have been in the email list. We discussed the pros and cons of providing the reader with a choice of content type or topic area, via hover links on the global nav. We would appreciate a mock-up. We are not sure how the different proposals would actually pan out. Jswisher took the action to follow up in the email threads and request the next level of detail.
+* We identified four priorities we're working on to make editing the site easier and hope to have this work completed by the new year:
+** The global nav/landing pages, discussed above, that Chris Mills is working on
+** The [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20160 consolidation of editorial pages] that Garbee is working on
+** Updating the Topic Hierarchy and Architecture pages that Julee is working on
+** The [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 session bug] that shepazu hopes will be resolved this weekend.
+
+===Action Items===
+
+* Julee to update Topic Hierarchy and Architecture pages.
+* Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
+* Eliot to do an editorial pass on the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed top-level pages]. 
+* Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas.
+* LAST WEEK ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.
+** UPDATE: in progress
+* LAST WEEK ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.
+** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.
+* LAST WEEK ACTION: Garbee to send out his awesome task organization plan
+** UPDATE: still working on it
+
 ==Agenda 2012-12-06==
 * Roll call
 * Review of open action items
