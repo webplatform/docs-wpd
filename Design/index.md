@@ -25,4 +25,8 @@ Site design considerations:
 * [[WPD:Design/Logo Branding Guidelines|Logo Branding Guidelines]]
 * [[File:Web-Platform-Style-Guide-05.03.2012.pdf]]
 
+==Icons==
+* [[WPD:Design/icons|icons]]
+
+
 [[Category:Design]]
