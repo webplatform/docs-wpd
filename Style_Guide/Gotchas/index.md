@@ -130,8 +130,7 @@ Certain links contain special characters, such as the equal sign (=) in a link t
 * Replace every = with {{=}}, as in:
 <code>
 <nowiki>
-<pre>{{Note|[http://www.youtube.com/watch?v{{=}}me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
-</pre>
+{{Note|[http://www.youtube.com/watch?v{{=}}me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
 </nowiki>
 </code>
 
@@ -140,8 +139,7 @@ OR
 * Prefix the note-text with 1=, as in:
 <code>
 <nowiki>
-<pre>{{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
-</pre>
+{{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
 </nowiki>
 </code>
 
