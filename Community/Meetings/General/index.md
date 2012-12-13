@@ -18,6 +18,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Roll call
 * Review of open action items
 * Triage of new content architecture issues
+** All [https://www.w3.org/Bugs/Public/buglist.cgi{{?}}component{{=}}content&list{{_}}id{{=}}3267{{&}}product{{=}}webplatform.org{{&}}query_format{{=}}advanced{{&}}resolution{{=}}{{-}}{{-}}{{-}}{{&}}order{{=}}changeddate{{%}}20DESC{{%}}2Cassigned_to{{%}}20DESC{{%}}2Cbug{{_}}status{{&}}query{{_}}based{{_}}on{{=}}|content bugs] are assigned to either Chris or Garbee. Do we want to re-assign some of them?
 * Anything blocking you from creating great content?
 
 
