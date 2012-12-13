@@ -37,6 +37,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** The [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20160 consolidation of editorial pages] that Garbee is working on
 ** Updating the Topic Hierarchy and Architecture pages that Julee is working on
 ** The [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390 session bug] that shepazu hopes will be resolved this weekend.
+* The Content Task Force will not meet for the next two weeks. We will resume again 1/3/2013.
 
 ===Action Items===
 
