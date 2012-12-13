@@ -2,17 +2,6 @@
 {{Flags}}
 {{Summary_Section|This article provides quick access to important Content to give you the "lay of the land" to start contributing as quickly as possible...}}
 {{Basic Page}}
-==[http://docs.webplatform.org/wiki/WPD:New_Page New Page - WebPlatform Docs]==
-
-
-Follow the steps below as you create new content pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the WPD: namespace), just visit the URL you would like to exist and hit the 'Create' tab.
-
-'''Related''' ...
-[http://docs.webplatform.org/wiki/WPD:Manual_Of_Style Style guide] 
-[http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy Topic hierarchy] 
-[http://docs.webplatform.org/wiki/WPD:Creating_API_pages WPD:Creating_API_pages] 
-
-
 ==[http://www.webplatform.org/ WebPlatform.org — Your Web, documented]==
 
 
@@ -45,6 +34,17 @@ Here is a great quick list of specific things that could be done around the site
 [http://docs.webplatform.org/wiki/WPD:Getting_Started Getting Started - WebPlatform Docs] 
 
 
+==[http://docs.webplatform.org/wiki/WPD:New_Page New Page - WebPlatform Docs]==
+
+
+Follow the steps below as you create new content pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the WPD: namespace), just visit the URL you would like to exist and hit the 'Create' tab.
+
+'''Related''' ...
+[http://docs.webplatform.org/wiki/WPD:Manual_Of_Style Style guide] 
+[http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy Topic hierarchy] 
+[http://docs.webplatform.org/wiki/WPD:Creating_API_pages WPD:Creating_API_pages] 
+
+
 ==[http://docs.webplatform.org/wiki/WPD:Pillars Policy/Pillars - WebPlatform Docs]==
 
 
@@ -54,13 +54,6 @@ This document lists a small number of principles intended to guide the developme
 [http://docs.webplatform.org/wiki/WPD:Pillars#Consensus Consensus - Rely on consensus and good-faith collaboration to develop content and community practices.] 
 [http://docs.webplatform.org/wiki/WPD:Pillars#Inclusion Inclusion] 
 [http://docs.webplatform.org/wiki/WPD:Pillars#Pragmatism Pragmatism] 
-
-
-==[http://docs.webplatform.org/wiki/WPD:FAQ FAQ - WebPlatform Docs]==
-
-
-General info that might head off your questions...
-
 
 
 ==[http://www.mediawiki.org/wiki/Help:Formatting Help:Formatting - MediaWiki]==
@@ -73,6 +66,13 @@ You can format your text by using wiki markup. This consists of normal character
 [http://www.mediawiki.org/wiki/Help:Images Images] 
 [http://www.mediawiki.org/wiki/Help:Links Links] 
 [http://docs.webplatform.org/wiki/WPD:Manual_Of_Style/Gotchas Wiki Syntax Errors (Gotchas)] 
+
+
+==[http://docs.webplatform.org/wiki/WPD:FAQ FAQ - WebPlatform Docs]==
+
+
+General info that might head off your questions...
+
 
 
 ==[http://docs.webplatform.org/wiki/WPD:Filing_Bugs Filing bugs]==
@@ -101,6 +101,7 @@ Do this only if it is not something that is covered by the three options above. 
 
 <hr/>
 This content above was originally published on   [http://www.irelate.us iRelate.us]  by  [http://www.irelate.us/Tony Tony] within this [http://www.irelate.us/SharedPackages/Tony/cdda6bbc8604d9a7058b29aa666d882b448c869c.html Post]...
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
