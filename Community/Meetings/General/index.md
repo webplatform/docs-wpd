@@ -49,6 +49,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** UPDATE: in progress
 * LAST WEEK ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.
 ** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.
+** Filed two bugs:
+*** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 For needing the categories]
+*** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20387 For needing the UI updated to reflect the categories]
 * LAST WEEK ACTION: Garbee to send out his awesome task organization plan
 ** UPDATE: still working on it
 
