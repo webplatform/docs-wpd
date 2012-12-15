@@ -12,6 +12,7 @@ For small changes, often it's easiest to raise a member of the Template Corps on
 * [[User:Jkomoros|Jkomoros]]
 * [[User:Frozenice|Frozenice]]
 * [[User:Phistuck|Phistuck]]
+* [[User:Tomato|Tomato]]
 ''Only Template Corps members should modify this list in accordance with the "Inducting New Members" section below.''
 
 ==Inducting New Members==
