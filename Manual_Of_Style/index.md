@@ -1,1 +1,1 @@
-#REDIRECT [[WPD:Style Manual]]
+#REDIRECT [[WPD:Style Guide]]
