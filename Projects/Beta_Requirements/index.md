@@ -2,7 +2,6 @@
 {{Flags}}
 {{Summary_Section|This page is a brainstorm page for deciding on and listing the tasks that need to be done before we can move Webplatform.org to beta stage.}}
 {{Basic Page}}
-
 ==Bugs we need to fix==
 
 * Information architecture needs to be sorted out and got into a manageable, searchable state.
@@ -14,6 +13,7 @@
 * WPD in article titles for better SEO
 * Site-wide navigation menu
 * Localization fraemwork
+* Designated people to take responsibility for different topic areas
 
 ==Level of content robustness we want to achieve (quality and quantity)==
 
