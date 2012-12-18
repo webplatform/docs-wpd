@@ -6,7 +6,7 @@
 
 * Information architecture needs to be sorted out and got into a manageable, searchable state.
 * Session issue!
-* [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20216|Bug 20216] The font doesn't include all Unicode characters which makes web site ugly in some languages.
+* [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20216 Bug 20216] The font doesn't include all Unicode characters which makes web site ugly in some languages.
 
 ==New features we need to add==
 
