@@ -1,11 +1,17 @@
 == HTML Icons==
+====PNG 32px====
+[[File:WPD-HTML-32px.png]]
+====SVG====
+[[File:WPD-HTML-blue.svg|50px]]
 
-===Alternate HTML Icons===
+===HTML5 Icons===
 ====PNG 32px====
 [[File:WPD-HTML5-32px.png]]
-
 ====SVG====
 [[File:WPD-HTML5-blue.svg|50px]]
+
+===Alternate HTML Icons===
+====SVG====
 [[File:WPD-icon-html-semantic.svg|50px]]
 [[File:WPD-icon-html-brackets.svg|50px]]
 
