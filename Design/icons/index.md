@@ -55,4 +55,4 @@
 ====PNG 32px====
 [[File:WPD-Concepts-32px.png]]
 ====SVG====
-[[File:WPD-Concept-Blue.svg|50px]]
+[[File:WPD-Concepts-Blue.svg|50px]]
