@@ -1,6 +1,11 @@
 == HTML Icons==
 
 ===Alternate HTML Icons===
+PNG
+[[File:WPD-HTML5-32px.png]]
+
+SVG
+[[File:WPD-HTML5-blue.svg|50px]]
 [[File:WPD-icon-html-semantic.svg|50px]]
 [[File:WPD-icon-html-brackets.svg|50px]]
 
@@ -18,6 +23,7 @@
 
 == Accessibility Icons==
 PNG 32px : [[File:WPD-Accessibility-32px.png]]
+
 SVG : [[File:WPD-Accessibility-blue.svg|50px]]
 
 == Beginners Icons==
