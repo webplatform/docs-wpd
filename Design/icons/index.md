@@ -16,36 +16,43 @@
 [[File:WPD-icon-html-brackets.svg|50px]]
 
 == CSS Icons==
+====PNG 32px====
+[[File:WPD-CSS-32px.png]]
+====SVG====
+[[File:WPD-CSS-blue.svg|50px]]
 
 == JS Icons==
+====PNG 32px====
+[[File:WPD-JS-32px.png]]
+====SVG====
+[[File:WPD-JS-blue.svg|50px]]
 
 == SVG Icons==
+====PNG 32px====
+[[File:WPD-SVG-32px.png]]
+====SVG====
+[[File:WPD-SVG-blue.svg|50px]]
 
 == DOM Icons==
-
-===Alternate DOM Icons===
+====PNG 32px====
+[[File:WPD-DOM-32px.png]]
+====SVG====
+[[File:WPD-DOM-blue.svg|50px]]
 
 ==Accessibility icons==
-
 ====PNG 32px====
 [[File:WPD-Accessibility-32px.png]]
-
 ====SVG====
 [[File:WPD-Accessibility-blue.svg|50px]]
 
 == Beginners Icons==
+====PNG 32px====
+[[File:WPD-Beginners-32px.png]]
+====SVG====
+[[File:WPD-Beginners-blue.svg|50px]]
 
 == Concepts Icons==
-
-
-==Blue Icons==
-[[File:wpdBleuComplet.jpg]]
-
-==Red Icons==
-[[File:wpdRougeComplet.jpg]]
-
-== HTML Icons==
-
-===Alternate HTML Icons===
-[[File:WPD-icon-html-semantic.svg]]
-[[File:WPD-icon-html-brackets.svg]]
+====PNG 32px====
+[[File:WPD-Concepts-32px.png]]
+====SVG====
+[[File:WPD-Concepts-blue.svg|50px]]
