@@ -59,6 +59,12 @@ A list of required actions in the long run, mostly due to the fact that the curr
 |-
 |[[dom/traversal/properties/filter]]
 |[[dom/traversal/TreeWalker]] and the current one
+|-
+|[[dom/properties/data]]
+|[[dom/objects/CompositionEvent|CompositionEvent]],[[dom/objects/MessageEvent|MessageEvent]], [[dom/objects/TextEvent|TextEvent]]
+|-
+|[[dom/properties/locale]]
+|[[dom/objects/CompositionEvent|CompositionEvent]],[[dom/objects/KeyboardEvent|KeyboardEvent]], [[dom/objects/TextEvent|TextEvent]]
 |}
 *Pages on which a lot of pages depend that should be moved/renamed -
 {|
