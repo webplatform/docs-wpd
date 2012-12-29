@@ -31,6 +31,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 **[[dom/methods/cancelBubble]] - should probably be removed.
 **[[dom/objects/dataTransfer]] - change its URL to be property related one or something (?).
 **[[dom/clipboardData]] - needs an offer for an alternative, standard (track) implementation (event.dataTransfer?)
+**[[dom/properties/defaultValue]] should link to the value HTML attribute. A page for which does not seem to exist.
 *Needs support for multiple values in the "Applies to..." field -
 {|
 ! Page
