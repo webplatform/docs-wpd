@@ -85,6 +85,9 @@ A list of required actions in the long run, mostly due to the fact that the curr
 ! Page
 ! Move/Rename To
 |-
+|[[dom/properties/applet]]
+|[[dom/document/applets]]
+|-
 |[[dom/window]]
 |[[dom/Window]]
 |-
