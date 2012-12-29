@@ -22,6 +22,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 **[[dom/methods/setCapture]]
 **[[dom/methods/fireEvent]]
 **[[dom/methods/applyElement]]
+**[[dom/properties/browserLanguage]]
 *Miscellaneous -
 **[[dom/methods/getAttribute_(userProfile)]], [[dom/properties/cpuClass]], [[dom/userProfile]] - apply to [[dom/Navigator]] when it exists
 **[[cssom/ClientRect]] - needs further work?
