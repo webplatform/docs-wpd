@@ -36,8 +36,20 @@ A list of required actions in the long run, mostly due to the fact that the curr
 ! Page
 ! Future Multiple "Applies to..." Values
 |-
+|[[dom/methods/getElementsByTagName]]
+|[[dom/document]], [[dom/HTMLElement]]
+|-
+|[[css/selectors_api/querySelectorAll]]
+|[[dom/document]], [[dom/HTMLElement]]
+|-
+|[[css/selectors_api/querySelector]]
+|[[dom/document]], [[dom/HTMLElement]]
+|-
 |[[dom/methods/attachEvent]]
 |[[dom/document]], [[dom/window]], [[dom/Node]]
+|-
+|[[dom/properties/complete]]
+|[[dom/HTMLImageElement]], [[dom/images|dom/Image]](?), [[dom/HTMLInputElement|dom/HTMLInputElement type=image]]
 |-
 |[[dom/methods/getModifierState]]
 |[[dom/objects/KeyboardEvent]],
