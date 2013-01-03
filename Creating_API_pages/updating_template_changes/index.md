@@ -16,7 +16,7 @@ To update an extant API_Listing page to use the new templates and forms:
 ## Select everything after the '''Query=''' including the brackets; for example, '''<nowiki>[[Category:IndexedDB]][[Category:API_Objects]]</nowiki>'''.
 ## Press '''command c''' or '''Ctrl c''' or whatever.
 # From the '''<nowiki>{{API_Listing<nowiki>''' call, delete the query entirely. That's the pipe character and everything up to but not including the closing '''}}'''.
-] For example, delete '''<nowiki>|Query=[[Category:IndexedDB]][[Category:API_Objects]]|Use_page_title=No|List_all_subpages=No</nowiki>''' so that the template call now reads simply, '''<nowiki>{{API_Listing}}</nowiki>'''
+#: For example, delete '''<nowiki>|Query=[[Category:IndexedDB]][[Category:API_Objects]]|Use_page_title=No|List_all_subpages=No</nowiki>''' so that the template call now reads simply, '''<nowiki>{{API_Listing}}</nowiki>'''
 # Click '''Save page'''. Be sure the save takes - watch out for the old session data loss bug.
 # '''Edit''' the page - this time with the form.
 # Under '''Basic Listing Configuration''', in the '''Query''' field, paste the query from your buffer.
