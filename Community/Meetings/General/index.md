@@ -14,6 +14,26 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 {{Note | If you haven't already done so, please volunteer to scribe. }}
 
+==Agenda 2013-01-03==
+
+
+* Roll call
+* Review of open action items
+* Triage of new content architecture issues
+** All [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee. Do we want to re-assign some of them?
+* Status on [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20160 bug#20160]
+* Current workflow for promoting new/great content? (Propose, Review, Sign-off?)
+* DocSprint in Germany
+** Anyone going?
+** Registration for the first european Doc Sprint in Berlin, Feb 8+9 2013, is now open. Please help to spread the word:
+*** [https://plus.google.com/100575683580946332118/posts/iLxwzGU6zac Share]
+*** [https://alpha.app.net/klick_ass/post/2113801 Repost]
+*** [https://twitter.com/klick_ass/status/281775907734167553 Retweet]
+* Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM;
+Subject: Re: New topic landing pages installed (was Re: We have a new front page))
+* Status on Dabblet?
+* Anything blocking you from creating great content?
+
 ==Agenda 2012-12-13==
 * Roll call
 * Review of open action items
