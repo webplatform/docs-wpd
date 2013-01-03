@@ -1,3 +1,4 @@
+==Updating API_Listing pages to use the new Template:Concept_Listing==
 We have created a Template:Concept_Listing that can be called in any location on any page where you want to create a table of links and summaries. (However, it does not allow you to change where the table is produced on API_Listing pages - see below.)
 
 This decouples the Basic Listing Configuration section from the Template:API_Listing (which now serves only to provide the appropriate category, "API_Listings" to the page that uses it). This allows you to do landing pages that list and summarize all of the pages corresponding to the query you supply. See the Mobile Web landing page for an example.
