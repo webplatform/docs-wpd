@@ -38,8 +38,8 @@
 * https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org (external site)
 ***** [COMMENT:] Recommend merging the information of these two pages.
 * https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org
-**** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
-**** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
+***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
+***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
 =Step 3: Become familiar with the wiki=
 ==If you can't wait, start contributing.==
 * http://docs.webplatform.org/wiki/WPD:Getting_Started
