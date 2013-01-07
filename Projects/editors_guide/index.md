@@ -9,7 +9,7 @@
 * http://docs.webplatform.org/w/index.php?title* Special:UserLogin&type* signup
 ==Make sure to verify your account.==
 * The verification link is sent via email. If you don't see the message, check your spam folder.
-==Log into the WebPlatform.org site using your user name and password.==
+==Log into the WebPlatform.org site.==
 * http://webplatform.org
 =Step 2. Get ready to communicate with the online community=
 ==The WebPlatform.org online community uses IRC extensively. Log in and ask questions.==
