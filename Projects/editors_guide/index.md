@@ -132,7 +132,7 @@
 ==Use the Upload File page to upload the images.==
 * http://docs.webplatform.org/wiki/Special:Upload
 ==Add the link to an uploaded image in the article draft.==
-* Enter the syntax to link the uploaded image file in the article: [[File:File.jpg]]
+* Enter the syntax to link the uploaded image file in the article: &#91;&#91;File:File.jpg&#93;&#93;
 </div>
 {{Notes_Section}}
 {{Topics}}
