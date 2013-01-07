@@ -44,6 +44,7 @@
 ==Step 3: Become familiar with the wiki==
 ===If you can't wait, start contributing.===
 * http://docs.webplatform.org/wiki/WPD:Getting_Started
+* Make sure to use the reference resources in Step 5, below, to ensure you're using the correct markup and styles.
 ***** [COMMENT:] The Getting Started page is the primary resource that contributors can use to edit the site. Make sure the Getting Started page links to the wiki syntax page. Make sure contributors understand Step 4, how to add comments and flag pages.
 ===Be sure to read the wiki philosophy to understand the mission.===
 * Watch the project video to learn about the site's mission and goals.
@@ -75,11 +76,13 @@
 ***** [COMMENT:] This is a duplicate of Step 3, but I think it is OK to reiterate this.
 ==Step 5. Update existing content==
 ===Become familiar with MediaWiki syntax conventions.===
+***** [COMMENT:] NEW Page/Section NEEDED that explains how we use the MediaWiki syntax, and lists all valide tags and macros for WPD pages.
 ***** [COMMENT:] [PULL OR POINT TO CONTENT FROM: http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet]
 ***** [COMMENT:] Remove syntax and conventions from the Style Guide page.
 ***** [COMMENT:] [PULL OR POINT TO CONTENT FROM: http://www.mediawiki.org/wiki/Help:Formatting]
 ***** [COMMENT:] Create a new page using above content: Getting started with MediaWiki syntax conventions.
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Style_Guide Use accepted wikitext syntax conventions]
+
 ===Read the guidelines and best practices for editing the text.===
 * http://docs.webplatform.org/wiki/WPD:Style_Guide 
 ***** [COMMENT:] Delete Manual of Style and Style Manual, after resolving all links to Style_Guide page. http://docs.webplatform.org/wiki/WPD:Manual_Of_Style and http://docs.webplatform.org/wiki/WPD:Style_Manual. Move out sections: syntax, common terms, images, etc.
