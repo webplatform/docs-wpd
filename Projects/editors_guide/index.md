@@ -19,10 +19,10 @@
 **** [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 *** In the IRC client, connect to the WebPlatform channel.
 **** [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
-Recommend merging the information of these two pages.
+***** [COMMENT:] Recommend merging the information of these two pages.
 **** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
 *** Log in anytime you want to share ideas or ask questions
-No change to the Meetings pages.
+***** [COMMENT:] No change to the Meetings pages.
 *** Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
 **** http://docs.webplatform.org/wiki/WPD:Meetings 
 **** http://docs.webplatform.org/wiki/WPD:Content_Meetings
