@@ -4,7 +4,7 @@
 {{Basic Page}}
 <div style='float: right;background: white;border:1px dashed black;padding: 1ex;margin-left:1ex;'>
 
-=Step 1: Register for an account to participate on the WebPlatform.org wiki=
+=Step 1: Register for a WebPlatform.org wiki account=
 ==Create an account with your email address, user name, and password.==
 * http://docs.webplatform.org/w/index.php?title* Special:UserLogin&type* signup
 ==Make sure to verify your account.==
