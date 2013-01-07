@@ -73,9 +73,9 @@ Recommend merging the information of these two pages.
 =Step 5. Update existing content=
 ** Become familiar with MediaWiki syntax conventions.
 **** [PULL CONTENT FROM: http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet]
-Remove syntax and conventions from the Style Guide page.
+***** [COMMENT:] Remove syntax and conventions from the Style Guide page.
 **** [PULL CONTENT FROM: http://www.mediawiki.org/wiki/Help:Formatting]
-Create a new page using above content: Getting started with MediaWiki syntax conventions.
+***** [COMMENT:] Create a new page using above content: Getting started with MediaWiki syntax conventions.
 **** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Style_Guide Use accepted wikitext syntax conventions]
 ** Read the guidelines and best practices for editing the text.
 **** http://docs.webplatform.org/wiki/WPD:Style_Guide 
