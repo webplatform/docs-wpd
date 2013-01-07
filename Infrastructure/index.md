@@ -72,4 +72,9 @@
 | 
 | [http://tests.webplatform.org/ tests.webplatform.org/]
 | 
+|-
+| Project management and bugs
+| [http://www.thebuggenie.com/ The Bug Genie]
+| [http://project.webplatform.org/ project.webplatform.org/]
+| 
 |}
