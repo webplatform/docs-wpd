@@ -6,13 +6,13 @@
 
 <div style='float: right;background: white;border:1px dashed black;padding: 1ex;margin-left:1ex;'>
 
-* Step 1: Register for an account to participate on the WebPlatform.org wiki
+=Step 1: Register for an account to participate on the WebPlatform.org wiki=
 ** Create an account with your email address, user name, and password.
 **** http://docs.webplatform.org/w/index.php?title* Special:UserLogin&type* signup
 ** Make sure to verify your account. The verification link is sent via email. If you don't see the message, check your spam folder.
 ** Log into the WebPlatform.org site using your user name and password.
 **** http://webplatform.org
-* Step 2. Get ready to communicate with the online community 
+=Step 2. Get ready to communicate with the online community=
 ** The WebPlatform.org online community uses IRC extensively. Log in and ask questions:
 **** http://webchat.freenode.net/?channels* #webplatform
 *** Download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can use:
@@ -40,7 +40,7 @@ Recommend merging the information of these two pages.
 **** https://www.w3.org/Bugs/Public/query.cgi?product* webplatform.org
 **** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
 **** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
-* Step 3: Become familiar with the wiki
+=Step 3: Become familiar with the wiki=
 ** If you can't wait, start contributing. 
 **** http://docs.webplatform.org/wiki/WPD:Getting_Started
 The Getting Started page is the primary resource that contributors can use to edit the site. Make sure the Getting Started page links to the wiki syntax page. Make sure contributors understand Step 4, how to add comments and flag pages.
@@ -59,7 +59,7 @@ All three of these pages should be edited. The Task Roadmap page will soon be re
 Recommend updating the Policy page to begin with content in Pillars page, above the links.
 ** Explore the web development docs.
 *** http://docs.webplatform.org/wiki/Main_Page
-* Step 4. Review existing content
+=Step 4. Review existing content=
 ** Add comments to sections. 
 *** Add a comment by hovering your mouse over the relevant section heading and click Add Comment. Leaving comments on articles helps others see exactly what needs to be fixed.
 Provide a screenshot?
@@ -72,7 +72,7 @@ Provide a screenshot?
 ** Notify other editors about pages that require revisions. 
 **** Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the public-webplatform@w3.org mail list, or post to forums. 
 This is a duplicate of Step 3, but I think it is OK to reiterate this.
-* Step 5. Update existing content
+=Step 5. Update existing content=
 ** Become familiar with MediaWiki syntax conventions.
 **** [PULL CONTENT FROM: http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet]
 Remove syntax and conventions from the Style Guide page.
@@ -94,7 +94,7 @@ Need to clean up older content on this page. Delete Things already done, Pages b
 *** Visit the Most Wanted Tasks page to find articles to fix.
 **** http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks
 Used for DocSprints, and to point contributors to a specific task, if they don't have one in mind.
-* Step 6. Author or upload new content 
+=Step 6. Author or upload new content=
 ** Refer to the Style_Guide to determine if your content is appropriate for the wiki. 
 **** http://docs.webplatform.org/wiki/WPD:Style_Guide
 ** Let the team know that you are adding new content. 
@@ -117,7 +117,7 @@ Used for DocSprints, and to point contributors to a specific task, if they don't
 *** To author tutorials and concept articles follow the guidelines.
 **** http://docs.webplatform.org/wiki/WPD:Content/Tutorials_and_concept_articles
 **** http://docs.webplatform.org/wiki/WPD:Implementation_Patterns
-* Step 7. Prepare and upload assets for articles
+=Step 7. Prepare and upload assets for articles=
 ** Optimize files
 *** Optimize PNG image files and resize to a maximum width of 650px. Some popular optimizers are:
 **** http://www.pngoptimizer.com/
