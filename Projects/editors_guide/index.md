@@ -13,7 +13,7 @@
 * http://webplatform.org
 =Step 2. Get ready to communicate with the online community=
 ==The WebPlatform.org online community uses IRC extensively. Log in and ask questions.==
-* http://webchat.freenode.net/?channels* #webplatform
+* http://webchat.freenode.net/?channels=#webplatform
 * Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can use:
 ** http://www.mirc.com mIRC (Windows)
 ** http://colloquy.info/downloads.html Colloquy (Mac)
