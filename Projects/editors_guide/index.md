@@ -12,7 +12,7 @@
 ==Log into the WebPlatform.org site.==
 * http://webplatform.org
 =Step 2. Get ready to communicate with the online community=
-==Join IRC channel==
+==Join IRC channel.==
 * The WebPlatform.org online community uses IRC extensively. Log in and ask questions.
 * http://webchat.freenode.net/?channels=#webplatform
 * Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can use:
@@ -28,7 +28,7 @@
 * Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
 ** http://docs.webplatform.org/wiki/WPD:Meetings 
 ** http://docs.webplatform.org/wiki/WPD:Content_Meetings
-==Join the public-webplatform@w3.org==
+==Join the public-webplatform@w3.org.==
 * We announce initiatives and work out proposals on the W3.org mailing list. Subscribe to the w3.org mailing list.
 ** public-webplatform@w3.org
 ** http://lists.w3.org/Archives/Public/public-webplatform/
@@ -83,7 +83,7 @@
 ==Read the guidelines and best practices for editing the text.==
 * http://docs.webplatform.org/wiki/WPD:Style_Guide 
 ***** [COMMENT:] Delete Manual of Style and Style Manual, after resolving all links to Style_Guide page. http://docs.webplatform.org/wiki/WPD:Manual_Of_Style and http://docs.webplatform.org/wiki/WPD:Style_Manual. Move out sections: syntax, common terms, images, etc.
-==Read gotchas==
+==Read gotchas.==
 * http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas
 ==Conform content to one style when editing.==
 * WebPlatform.org uses the Yahoo Style Guide:
@@ -102,7 +102,7 @@
 * See Step 2 above.
 ==Before creating or moving pages, identify pages linked to existing docs.==
 * http://docs.webplatform.org/w/index.php?title* Special%3AWhatLinksHere&target* Template%3ACompat+Unknown&namespace
-==See the Topic Hierarchy and Architecture pages to determine where to create the new page.==
+==Select where to create the new page.==
 * http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy
 * http://docs.webplatform.org/wiki/WPD:Architecture
 ==Check features for cross browser compatibility.==
@@ -121,7 +121,7 @@
 =Step 7. Prepare and upload assets for articles=
 ==[COMMENT:] section needs more work...==
 
-==Optimize files==
+==Optimize files.==
 * Optimize PNG image files and resize to a maximum width of 650px. Some popular optimizers are:
 ** http://www.pngoptimizer.com/
 ***** [COMMENT:] This will require a new page. 
