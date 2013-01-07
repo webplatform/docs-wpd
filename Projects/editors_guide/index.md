@@ -108,7 +108,7 @@
 * Here are some good cross-compatibility resources:
 ** http://caniuse.com/
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Getting_Started/Compatibility]
-**** http://www.quirksmode.org/compatibility.html 
+** http://www.quirksmode.org/compatibility.html 
 ==Visit the New Page center, choose a type (Tutorial) and click Create.==
 * http://docs.webplatform.org/wiki/WPD:New_Page
 * To author reference docs, create reference articles.
