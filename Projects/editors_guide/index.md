@@ -91,8 +91,8 @@
 * Review recently edited articles.
 ** http://docs.webplatform.org/wiki/Special:RecentChanges
 ***** [COMMENT:] Need to clean up older content on this page. Delete Things already done, Pages being worked on, and Completed pages, unless someone plans to keep updating these sections. 
-** Visit the Most Wanted Tasks page to find articles to fix.
-*** http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks
+* Visit the Most Wanted Tasks page to find articles to fix.
+** http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks
 ***** [COMMENT:] Used for DocSprints, and to point contributors to a specific task, if they don't have one in mind.
 =Step 6. Author or upload new content=
 ==Refer to the Style_Guide to determine if your content is appropriate for the wiki.==
