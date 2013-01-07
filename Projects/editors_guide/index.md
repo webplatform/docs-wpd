@@ -22,11 +22,11 @@
 ***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 ***** [COMMENT:] Recommend merging the information of these two pages.
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
-** Log in anytime you want to share ideas or ask questions
+* Log in anytime you want to share ideas or ask questions
 ***** [COMMENT:] No change to the Meetings pages.
-** Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
-*** http://docs.webplatform.org/wiki/WPD:Meetings 
-*** http://docs.webplatform.org/wiki/WPD:Content_Meetings
+* Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
+** http://docs.webplatform.org/wiki/WPD:Meetings 
+** http://docs.webplatform.org/wiki/WPD:Content_Meetings
 ==Join the public-webplatform@w3.org==
 * We announce initiatives and work out proposals on the W3.org mailing list. Subscribe to the w3.org mailing list.
 ** public-webplatform@w3.org
