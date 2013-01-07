@@ -19,9 +19,9 @@
 ** http://colloquy.info/downloads.html Colloquy (Mac)
 ***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 ** In the IRC client, connect to the WebPlatform channel.
-**** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
+***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 ***** [COMMENT:] Recommend merging the information of these two pages.
-**** [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
+***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
 ** Log in anytime you want to share ideas or ask questions
 ***** [COMMENT:] No change to the Meetings pages.
 ** Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
