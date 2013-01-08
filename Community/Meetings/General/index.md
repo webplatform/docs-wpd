@@ -61,12 +61,12 @@ Subject: Re: New topic landing pages installed (was Re: We have a new front page
 * DocSprint Germany: Scott Rowe is probably going.
 * We received status on the Dabblet extensions. The consensus on the list was code.webplatform.org. Lea has put the technical things in place in her codebase there's still some work to do to link from. First is a dabbler instance on code.webplatform.org. The second phase is to make it easy to open examples on the site in that instance (a "try now" button). Third phase is actual live code examples in the pages themselves. (possibly) via iframes. (There's actually a phase 4 that allows us to decouple a dependency on github.) We're aiming to have first phase done by next week. And we should have a blog post about it. We also need to get a template made with the form to submit/change code in the forms. Garbee is emailing Tomato this afternoon to see if she would be up for that. 
 * We need more work on getting started pages (bug : https://www.w3.org/Bugs/Public/show_bug.cgi?id=20160). At last doc sprint was they just can't get through them -- somewhere between five and ten people. When we walked them through the basics, they had a hard time getting productive. Following through the instructions is difficult. It should be more self-serve. Julee to send outline of new Editor's Guide next week. Scott to work on usability testing. Also, there are going to be some people who don't respond to the given way. So maybe we have other docs for different mind sets. Scott and Peter are working on Getting Started videos. 
-* Additional Getting Started problems: 
-** The form system. For example, we've seen people wanting to use API_Listing template on other pages, which breaks pages (it uses two forms).
-** There was a glitch in the process for updating compatibility tables. A lot of the pages in the "Pages that need compatibility table" weren't working.
-** A lot of people at the Sprint were confused with them. I actually spent most of the day there explaining it to people.
-** A handful actually went to editing source because the button was there. Some of us want to remove that button unless you are an admin or in the template corp group whenever that gets made.
-** Besides forms people were getting hit hard by the template bugs that require the hacks like {{!}} and {{=}}. We need to either fix it so those hacks aren't required or look at another way of doing things.
+** Additional Getting Started problems: 
+*** The form system. For example, we've seen people wanting to use API_Listing template on other pages, which breaks pages (it uses two forms).
+*** There was a glitch in the process for updating compatibility tables. A lot of the pages in the "Pages that need compatibility table" weren't working.
+*** A lot of people at the Sprint were confused with them. I actually spent most of the day there explaining it to people.
+*** A handful actually went to editing source because the button was there. Some of us want to remove that button unless you are an admin or in the template corp group whenever that gets made.
+*** Besides forms people were getting hit hard by the template bugs that require the hacks like {{!}} and {{=}}. We need to either fix it so those hacks aren't required or look at another way of doing things.
 ** Additional solutions:
 *** One way to fix the hacks would be editing as much as possible in raw HTML. Leaving mostly only links to be made in the wiki markup.
 *** Garbee has an open bug report for it iirc. Has been there for a while. I will bring attention to it once we get an in-house system going.
