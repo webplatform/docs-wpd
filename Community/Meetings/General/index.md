@@ -29,8 +29,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 *** [https://plus.google.com/100575683580946332118/posts/iLxwzGU6zac Share]
 *** [https://alpha.app.net/klick_ass/post/2113801 Repost]
 *** [https://twitter.com/klick_ass/status/281775907734167553 Retweet]
-* Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM;
-Subject: Re: New topic landing pages installed (was Re: We have a new front page))
+* Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM; Subject: Re: New topic landing pages installed (was Re: We have a new front page))
 * Status on Dabblet?
 * Anything blocking you from creating great content?
 
