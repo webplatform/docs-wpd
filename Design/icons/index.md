@@ -4,6 +4,12 @@
 ====SVG====
 [[File:WPD-Accessibility-blue.svg|50px]]
 
+==API icons==
+====PNG 32px====
+[[File:WPD-API-32px.png]]
+====SVG====
+[[File:WPD-API-blue.svg|50px]]
+
 == Beginners Icons==
 ====PNG 32px====
 [[File:WPD-Beginners-32px.png]]
