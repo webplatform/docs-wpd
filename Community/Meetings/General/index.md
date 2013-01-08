@@ -14,6 +14,15 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 {{Note | If you haven't already done so, please volunteer to scribe. }}
 
+==Agenda 2013-01-10==
+
+* Roll call
+* Review of open action items
+* Triage of new content architecture issues
+** https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-01-03==
 
 * Roll call
@@ -31,22 +40,6 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM; Subject: Re: New topic landing pages installed (was Re: We have a new front page))
 * Status on Dabblet?
 * Anything blocking you from creating great content?
-
-==Agenda 2013-01-03==
-
-
-* Roll call
-* Review of open action items
-* Triage of new content architecture issues
-** https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs
-* Current workflow for promoting new/great content? (Propose, Review, Sign-off?)
-* DocSprint in Germany
-* Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM;
-Subject: Re: New topic landing pages installed (was Re: We have a new front page))
-* Status on Dabblet?
-* Anything blocking you from creating great content?
-* Any great new content to promote?
-
 
 ==Meeting Summary==
 
