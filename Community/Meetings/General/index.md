@@ -85,23 +85,15 @@ Subject: Re: New topic landing pages installed (was Re: We have a new front page
 * ACTION: Julee and klick_ass to write up WPD blog post about Germany Doc Sprint.
 * ACTION: Julee to send out Ed Guide outline. UPDATE: DONE
 * ACTION: Scott to work on usability of Ed Guide.
-* LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages.
-* UPDATE: in progress
-* LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
-* UPDATE: Julee sent an email.
-* LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages.
-* UPDATE: No status.
-* LAST WEEK ACTION: Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas.
-* UPDATE: Janet sent out the email.
-* PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.
-** UPDATE: in progress
-* PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.
-** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.
-** UPDATE: Filed two bugs:
-* For needing the categories
-* For needing the UI updated to reflect the categories
-* PREVIOUS ACTION: Garbee to send out his awesome task organization plan
-** UPDATE: sending it out today.
+* LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: in progress
+* LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more. UPDATE: Julee sent an email.
+* LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. UPDATE: No status.
+* LAST WEEK ACTION: Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas. UPDATE: Janet sent out the email.
+* PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting. UPDATE: in progress
+* PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status. UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct. UPDATE: Filed two bugs:
+** For needing the categories
+** For needing the UI updated to reflect the categories
+* PREVIOUS ACTION: Garbee to send out his awesome task organization plan. UPDATE: sending it out today.
 
 
 ==Agenda 2012-12-13==
