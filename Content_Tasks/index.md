@@ -109,4 +109,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 |-
 |[[dom/implementation]]
 |[[dom/DOMImplementation]] (?)
+|-
+|[[concepts/programming/javascript/objects/js/objects/Object/getOwnPropertyNames]]
+|[[javascript/Object/getOwnPropertyNames]]
 |}
