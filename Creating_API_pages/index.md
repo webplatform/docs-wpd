@@ -140,15 +140,25 @@ In the '''Basic property configuration''' form, for the '''Return value data typ
 
 {{TODO|The problems with this are, 1 - keeping the list in some order that makes sense (alphabetical), and 2 - dealing with a potentially endless list of types. We need to come up with a better way of specifying the type if it is not one of the primitive types. Perhaps an additional text input field under the drop-down where you can specify the type if you choose "Other" from the drop-down.}}
 
+====Exceptions, constants and enumerations need forms and templates====
+
+We need to be able to refer to constants and enumerations as content chunks (like methods and properties) so they may be reused across object methods and properties. For now, enumerations and constants are defined in the return values of properties and methods without the ability to reuse them.
+
+{{TODO|Create Object_Exceptions templates, forms, etc. - very large effort}}
+
+{{TODO|Create Object_Constants templates, forms, etc. - very large effort}}
+
 ===Object method page content===
 
 Again, pretty straight-forward.
 
 {{TODO|The API__Object_Method template needs greater clarity in using the '''Syntax''' section.}}
 
-{{TODO|The API_Object_Method template needs a field for '''Exceptions'''.}}
+{{TODO|The API_Object_Method template needs to handle '''Exceptions'''.}}
 
 For now, treat exceptions within the summary section of the event that throws the exception. Use a link to any existing exception pages - i.e. DOM execeptions.
+
+{{TODO|The API_Object_Method template needs to handle constants and enumerations}}
 
 ===Object property page content===
 
