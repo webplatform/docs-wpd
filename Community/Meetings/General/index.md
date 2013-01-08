@@ -16,7 +16,6 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 ==Agenda 2013-01-03==
 
-
 * Roll call
 * Review of open action items
 * Triage of new content architecture issues
