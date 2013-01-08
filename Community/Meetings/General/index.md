@@ -68,13 +68,13 @@ Subject: Re: New topic landing pages installed (was Re: We have a new front page
 ** A lot of people at the Sprint were confused with them. I actually spent most of the day there explaining it to people.
 ** A handful actually went to editing source because the button was there. Some of us want to remove that button unless you are an admin or in the template corp group whenever that gets made.
 ** Besides forms people were getting hit hard by the template bugs that require the hacks like {{!}} and {{=}}. We need to either fix it so those hacks aren't required or look at another way of doing things.
-* Additional solutions:
-** One way to fix the hacks would be editing as much as possible in raw HTML. Leaving mostly only links to be made in the wiki markup.
-** Garbee has an open bug report for it iirc. Has been there for a while. I will bring attention to it once we get an in-house system going.
-** People also seemed to be lost in what was needed to be done. We should try to use the content tracker to a greater extent once we get it in-house.
-** Another way to approach it is that it will always be hard for new editors--so we can also focus on making EXISTING editors more productive and effective.
-** "If you know something that needs to be done but don't have the time, even if it is a 5 minute thing, file a bug report." We should try to encourage that more.
-** We also need better ways for people to get in touch with existing editors if they have questions. Not having a web chat system hurts a bit probably. (We could iframe freenode's webchat today and have a safe system online!)
+** Additional solutions:
+*** One way to fix the hacks would be editing as much as possible in raw HTML. Leaving mostly only links to be made in the wiki markup.
+*** Garbee has an open bug report for it iirc. Has been there for a while. I will bring attention to it once we get an in-house system going.
+*** People also seemed to be lost in what was needed to be done. We should try to use the content tracker to a greater extent once we get it in-house.
+*** Another way to approach it is that it will always be hard for new editors--so we can also focus on making EXISTING editors more productive and effective.
+*** "If you know something that needs to be done but don't have the time, even if it is a 5 minute thing, file a bug report." We should try to encourage that more.
+*** We also need better ways for people to get in touch with existing editors if they have questions. Not having a web chat system hurts a bit probably. (We could iframe freenode's webchat today and have a safe system online!)
 * Alex gives us a tantalizing tease: join meeting next week for some good news.
 * Everyone should feel free to add agenda items for these content meetings.
 
