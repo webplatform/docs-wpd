@@ -34,6 +34,77 @@ Subject: Re: New topic landing pages installed (was Re: We have a new front page
 * Status on Dabblet?
 * Anything blocking you from creating great content?
 
+==Agenda 2013-01-03==
+
+
+* Roll call
+* Review of open action items
+* Triage of new content architecture issues
+** https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs
+* Current workflow for promoting new/great content? (Propose, Review, Sign-off?)
+* DocSprint in Germany
+* Scott is working on Listing pages (Per Scott's email Thursday, December 20, 2012 11:35 AM;
+Subject: Re: New topic landing pages installed (was Re: We have a new front page))
+* Status on Dabblet?
+* Anything blocking you from creating great content?
+* Any great new content to promote?
+
+
+==Meeting Summary==
+
+===Discussion===
+
+* We're adding an API section to the topic landing pages. We need to include APIs and their icons on those pages. Seb is working on an icon, and Chris will put that in the landing page
+* Concept_Listing template is done
+* Continuing to work on API area: reorganizing it and following through on previous work we've done. The APIs section is starting to come around, with help from Dave Gash.
+* Promoting new or great content. To post about WPD topics, see  http://docs.webplatform.org/wiki/WPD:Marketing/Posting_Guidelines. 
+* The process right now is shoot it into the Mailing List, wait a bit, and see if anyone disagrees with it. Doug will set up additional bloggers. This content task force will continue to request suggestions for "Any new and notable content to promote"
+* DocSprint Germany: Scott Rowe is probably going.
+* We received status on the Dabblet extensions. The consensus on the list was code.webplatform.org. Lea has put the technical things in place in her codebase there's still some work to do to link from. First is a dabbler instance on code.webplatform.org. The second phase is to make it easy to open examples on the site in that instance (a "try now" button). Third phase is actual live code examples in the pages themselves. (possibly) via iframes. (There's actually a phase 4 that allows us to decouple a dependency on github.) We're aiming to have first phase done by next week. And we should have a blog post about it. We also need to get a template made with the form to submit/change code in the forms. Garbee is emailing Tomato this afternoon to see if she would be up for that. 
+* We need more work on getting started pages (bug : https://www.w3.org/Bugs/Public/show_bug.cgi?id=20160). At last doc sprint was they just can't get through them -- somewhere between five and ten people. When we walked them through the basics, they had a hard time getting productive. Following through the instructions is difficult. It should be more self-serve. Julee to send outline of new Editor's Guide next week. Scott to work on usability testing. Also, there are going to be some people who don't respond to the given way. So maybe we have other docs for different mind sets. Scott and Peter are working on Getting Started videos. 
+* Additional Getting Started problems: 
+** The form system. For example, we've seen people wanting to use API_Listing template on other pages, which breaks pages (it uses two forms).
+** There was a glitch in the process for updating compatibility tables. A lot of the pages in the "Pages that need compatibility table" weren't working.
+** A lot of people at the Sprint were confused with them. I actually spent most of the day there explaining it to people.
+** A handful actually went to editing source because the button was there. Some of us want to remove that button unless you are an admin or in the template corp group whenever that gets made.
+** Besides forms people were getting hit hard by the template bugs that require the hacks like {{!}} and {{=}}. We need to either fix it so those hacks aren't required or look at another way of doing things.
+* Additional solutions:
+** One way to fix the hacks would be editing as much as possible in raw HTML. Leaving mostly only links to be made in the wiki markup.
+** Garbee has an open bug report for it iirc. Has been there for a while. I will bring attention to it once we get an in-house system going.
+** People also seemed to be lost in what was needed to be done. We should try to use the content tracker to a greater extent once we get it in-house.
+** Another way to approach it is that it will always be hard for new editors--so we can also focus on making EXISTING editors more productive and effective.
+** "If you know something that needs to be done but don't have the time, even if it is a 5 minute thing, file a bug report." We should try to encourage that more.
+** We also need better ways for people to get in touch with existing editors if they have questions. Not having a web chat system hurts a bit probably. (We could iframe freenode's webchat today and have a safe system online!)
+* Alex gives us a tantalizing tease: join meeting next week for some good news.
+* Everyone should feel free to add agenda items for these content meetings.
+
+
+==Action Items==
+
+* ACTION: Julee to add to weekly agenda template: "Any new and notable content to promote?" UPDATE: DONE
+* ACTION: Doug to add folks who responded to email thread as contributing bloggers.
+* ACTION: Julee and klick_ass to write up WPD blog post about Germany Doc Sprint.
+* ACTION: Julee to send out Ed Guide outline. UPDATE: DONE
+* ACTION: Scott to work on usability of Ed Guide.
+* LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages.
+* UPDATE: in progress
+* LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
+* UPDATE: Julee sent an email.
+* LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages.
+* UPDATE: No status.
+* LAST WEEK ACTION: Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas.
+* UPDATE: Janet sent out the email.
+* PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.
+** UPDATE: in progress
+* PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.
+** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.
+** UPDATE: Filed two bugs:
+* For needing the categories
+* For needing the UI updated to reflect the categories
+* PREVIOUS ACTION: Garbee to send out his awesome task organization plan
+** UPDATE: sending it out today.
+
+
 ==Agenda 2012-12-13==
 * Roll call
 * Review of open action items
