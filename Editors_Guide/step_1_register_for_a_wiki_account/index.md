@@ -1,8 +1,7 @@
-{{Page_Title|Editor's Guide: Step 1: Register for a WebPlatform.org wiki account}}
+{{Page_Title}}
 {{Flags}}
-{{Summary_Section| This is Step 1.}}
+{{Summary_Section|This is Step 1.}}
 {{Basic Page}}
-
 ==Step 1: Register for a WebPlatform.org wiki account==
 ===Create an account with your email address, user name, and password.===
 * http://docs.webplatform.org/w/index.php?title* Special:UserLogin&type* signup
@@ -10,3 +9,11 @@
 * The verification link is sent via email. If you don't see the message, check your spam folder.
 ===Log into the WebPlatform.org site.===
 * http://webplatform.org
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
