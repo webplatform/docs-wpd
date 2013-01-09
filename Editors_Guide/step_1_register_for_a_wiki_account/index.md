@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Editor's Guide: Step 1: Register for a WebPlatform.org wiki account}}
 {{Flags}}
 {{Summary_Section|This is Step 1.}}
 {{Basic Page}}
