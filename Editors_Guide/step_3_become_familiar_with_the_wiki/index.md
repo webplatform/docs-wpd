@@ -1,4 +1,4 @@
-{{Page_Title|Editor's Guide: Step 3: Register for a WebPlatform.org wiki account}}
+{{Page_Title|Editor's Guide: Step 3: Become familiar with the wiki}}
 {{Flags}}
 {{Summary_Section|This is Step 3 of the Editor's Guide.}}
 {{Basic Page}}
@@ -22,3 +22,11 @@
 ***** [COMMENT:] Recommend updating the Policy page to begin with content in Pillars page, above the links.
 ===Explore the web development docs.===
 * http://docs.webplatform.org/wiki/Main_Page
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
