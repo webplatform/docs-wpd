@@ -1,6 +1,6 @@
 Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
 
-{{Note|1=[WPD:Content_Meeting Content meetings]: currently this meeting is consolidated with the content meeting. }}
+{{Note|1=[http://docs.webplatform.org/wiki/WPD:Content_Meetings The Content Meetings] are currently where we're convening. }}
 
 
 ==Telcon Info==
