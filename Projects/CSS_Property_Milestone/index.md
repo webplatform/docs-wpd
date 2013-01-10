@@ -14,3 +14,7 @@ CSS properties is a great topic to focus on for our first milestone:
 * A launch supported by a feature in Dev Tools will help demonstrate momentum. We'll no longer be that ambitious site everyone's heard of, but the site that has '''real, useful content''' in some domains.
 
 It's always hard to prioritize, because it implicitly means that some things will be ''de''prioritized. Hopefully the pros outweigh the negatives here.
+
+== Milestone Goal ==
+
+Documentation for all standards-track CSS properties is as comprehensive, correct, and helpful as--or better than--the current best sources for CSS property documentation.
