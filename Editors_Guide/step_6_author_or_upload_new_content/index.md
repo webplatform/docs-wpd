@@ -1,6 +1,6 @@
 {{Page_Title|Editor's Guide: Step 6: Author or upload new content}}
 {{Flags}}
-{{Summary_Section|This is Step 6.}}
+{{Summary_Section|This is Step 6 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 6. Author or upload new content==
 ===Refer to the Style_Guide to determine if your content is appropriate for the wiki.===
