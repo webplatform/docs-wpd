@@ -1,0 +1,16 @@
+
+==Background==
+
+Although we have a good amount of contributors, the actual quality of documentation has not improved much in the past few months. This is primarily because the amount of work is so overwhelming that it's hard to dig in. We're trying to boil the ocean.
+
+Engineers on the WebKit Dev Tools team are looking to implement a feature where a user in dev tools can automatically be linked to more documentation about a given CSS property. Our goal is to have WPD be the source of that documentation. It will require a fair bit of work on our part.
+
+CSS properties is a great topic to focus on for our first milestone:
+* It is a relatively small number of articles (~80)
+* All of the articles will have very similar structure, making it easier to track progress.
+* We already have a solid foundation and just need to layer on more/better content
+* CSS property documentation is one of the most commonly used pieces of reference documentation (no citation; based on my personal habits and discussions with other developers)
+* Having an island of strong content makes it easier for us to add other islands of content over time and build up the usefulness of the full site. Instead of boiling the ocean, we just need to boil a number of bathtubs sequentially.
+* A launch supported by a feature in Dev Tools will help demonstrate momentum. We'll no longer be that ambitious site everyone's heard of, but the site that has '''real, useful content''' in some domains.
+
+It's always hard to prioritize, because it implicitly means that some things will be ''de''prioritized. Hopefully the pros outweigh the negatives here.
