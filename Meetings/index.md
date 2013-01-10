@@ -1,6 +1,7 @@
 Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
 
-{{Note | At this early stage of the project we will occasionally hold meetings more often than bi-weekly. }}
+{{Note|1=[WPD:Content_Meeting Content meetings]: currently this meeting is consolidated with the content meeting. }}
+
 
 ==Telcon Info==
 '''Toll-free dial-in number (U.S. and Canada):''' +1(866) 243-6264 
