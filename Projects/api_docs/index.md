@@ -17,7 +17,7 @@ This proposal outlines a strategy for building out the API documentation, consid
 
 With the launch of WPD in October 2012, we received a generous donation of API documentation from Microsoft; it included some 12 APIs: appcache, audio-video (media), canvas, file, geolocation, indexeddb, timing, web-messaging, web-storage, websocket, workers, and xhr. A review of this content revealled that it needed to be reorganized and ammended extensively. While this work began, some new API documentation was developed (mostly to prove the process for creating API documentation). The findings of these efforts are summarized in [[WPD:Creating_API_pages]].
 
-The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms]], below. Another (messy) representation of this content may be found on the [[wiki/apis|apis]] page.
+The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms]], below. Another (messy) representation of this content may be found on the [[apis|apis]] page.
 
 {| class="sortable"
 ! API Name
