@@ -1,8 +1,8 @@
-{{Page_Title|Editor's Guide: Step 1: Register for a WebPlatform.org wiki account}}
+{{Page_Title|Step 2: Communicate with the online community}}
 {{Flags}}
-{{Summary_Section|This is Step 1.}}
+{{Summary_Section|This is Step 2 of the Editor's Guide.}}
 {{Basic Page}}
-==Step 2. Get ready to communicate with the online community==
+==Step 2. Communicate with the online community==
 ===Join IRC channel.===
 * The WebPlatform.org online community uses IRC extensively. Log in and ask questions.
 * http://webchat.freenode.net/?channels=#webplatform
@@ -32,3 +32,11 @@
 * https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
