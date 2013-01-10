@@ -1,6 +1,6 @@
 {{Page_Title|Editor's Guide: Step 4: Review existing content}}
 {{Flags}}
-{{Summary_Section|This is Step 4.}}
+{{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 4. Review existing content==
 ===Add comments to sections.===
