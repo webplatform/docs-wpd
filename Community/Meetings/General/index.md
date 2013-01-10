@@ -14,12 +14,14 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 {{Note | If you haven't already done so, please volunteer to scribe. }}
 
-==Agenda 2013-01-10==
+==Agenda 2013-01-17==
 
 * Roll call
 * Review of open action items
 * Triage of new content architecture issues
 ** https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs
+* Additional issues:
+** [http://docs.webplatform.org/wiki/WPD:Proposals/api_docs Scott's API proposal] ([http://lists.w3.org/Archives/Public/public-webplatform/2013Jan/0069.html See thread.])
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
