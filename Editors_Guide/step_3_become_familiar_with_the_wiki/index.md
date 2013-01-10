@@ -1,6 +1,6 @@
 {{Page_Title|Editor's Guide: Step 3: Become familiar with the wiki}}
 {{Flags}}
-{{Summary_Section|This is Step 3 of the Editor's Guide.}}
+{{Summary_Section|This is Step 3 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 3: Become familiar with the wiki==
 ===If you can't wait, start contributing.===
