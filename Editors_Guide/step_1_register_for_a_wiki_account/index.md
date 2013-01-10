@@ -1,6 +1,6 @@
 {{Page_Title|Step 1: Register for a WebPlatform.org wiki account}}
 {{Flags}}
-{{Summary_Section|This is Step 1 of the Editor's Guide.}}
+{{Summary_Section|This is Step 1 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 1: Register for a WebPlatform.org wiki account==
 ===Create an account with your email address, user name, and password.===
