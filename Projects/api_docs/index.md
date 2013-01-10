@@ -38,7 +38,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | [[apis/css-regions|css-regions]]
 | [[User:Sierra]]
-| In progress
+| Content complete
 |-
 | [[apis/file|file]]
 | [[User:Dgash]]
