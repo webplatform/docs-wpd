@@ -1,6 +1,6 @@
 {{Page_Title|Step 2: Communicate with the online community}}
 {{Flags}}
-{{Summary_Section|This is Step 2 of the Editor's Guide.}}
+{{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 2. Communicate with the online community==
 ===Join IRC channel.===
