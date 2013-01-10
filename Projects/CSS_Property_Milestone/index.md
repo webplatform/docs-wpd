@@ -18,3 +18,12 @@ It's always hard to prioritize, because it implicitly means that some things wil
 == Milestone Goal ==
 
 Documentation for all standards-track CSS properties is as comprehensive, correct, and helpful as--or better than--the current best sources for CSS property documentation.
+
+== Project Plan ==
+# Enumerate all CSS property articles to include in this milestone
+# Pick one representative property and make its documentation the ideal model of CSS reference documentation.
+# Derive content guidelines for CSS pages based on the documentation we created for the representative property
+# Assign owners for each property, and track progress towards individual quality goals (e.g. Summary, examples, compatibility table, syntax)
+# Review all articles to verify they meet our quality guidelines.
+
+While we're working on articles, there are a few best practices to keep in mind: after you think your article is done, e-mail the list for others to take a look and review it. You should follow the guidelines as closely as possible. If you discover places where the guidelines should be changed or added to, propose them to the group along with the specific motivating examples.
