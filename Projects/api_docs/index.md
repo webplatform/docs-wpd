@@ -15,7 +15,7 @@ This proposal outlines a strategy for building out the API documentation, consid
 
 ==Current state of the WPD API documentation==
 
-With the launch of WPD in October 2012, we received a generous donation of API documentation from Microsoft; it included some 12 APIs: appcache, audio-video (media), canvas, file, geolocation, indexeddb, timing, web-messaging, web-storage, websocket, workers, and xhr. A review of this content revealled that it needed to be reorganized and ammended extensively. While this work began, some new API documentation was developed (mostly to prove the process for creating API documentation). The findings of these efforts are summarized in [[wiki/WPD:Creating_API_pages|WPD:Creating_API_pages]].
+With the launch of WPD in October 2012, we received a generous donation of API documentation from Microsoft; it included some 12 APIs: appcache, audio-video (media), canvas, file, geolocation, indexeddb, timing, web-messaging, web-storage, websocket, workers, and xhr. A review of this content revealled that it needed to be reorganized and ammended extensively. While this work began, some new API documentation was developed (mostly to prove the process for creating API documentation). The findings of these efforts are summarized in [[WPD:Creating_API_pages]].
 
 The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms]], below. Another (messy) representation of this content may be found on the [[wiki/apis|apis]] page.
 
@@ -24,63 +24,63 @@ The following table summarizes the current state of the extant API documentation
 ! Handler
 ! Current State
 |-
-| [[wiki/apis/appcache|appcache]]
-| [[wiki/User:Dgash]]
+| [[apis/appcache|appcache]]
+| [[User:Dgash]]
 | Content complete
 |-
-| [[wiki/apis/audio-video|audio-video]]
-| [[wiki/User:Dgash]]
+| [[apis/audio-video|audio-video]]
+| [[User:Dgash]]
 | Content complete
 |-
-| [[wiki/apis/canvas|canvas]]
-| [[wiki/User:Dgash]]
+| [[apis/canvas|canvas]]
+| [[User:Dgash]]
 | In progress
 |-
-| [[wiki/apis/css-regions|css-regions]]
-| [[wiki/User:Sierra]]
+| [[apis/css-regions|css-regions]]
+| [[User:Sierra]]
 | In progress
 |-
-| [[wiki/apis/file|file]]
-| [[wiki/User:Dgash]]
+| [[apis/file|file]]
+| [[User:Dgash]]
 | Content complete
 |-
-| [[wiki/apis/geolocation|geolocation]]
+| [[apis/geolocation|geolocation]]
 | None
 | Not started
 |-
-| [[wiki/apis/indexeddb|indexeddb]]
-| [[wiki/User:Scottrowe]]
+| [[apis/indexeddb|indexeddb]]
+| [[User:Scottrowe]]
 | Reorganized, content incomplete
 |-
-| [[wiki/apis/timing|timing]]
+| [[apis/timing|timing]]
 | None
 | Not started
 |-
-| [[wiki/apis/webaudio|webaudio]]
-| [[wiki/User:Dgash]]
+| [[apis/webaudio|webaudio]]
+| [[User:Dgash]]
 | Content complete
 |-
-| [[wiki/apis/web-messaging|web-messaging]]
+| [[apis/web-messaging|web-messaging]]
 | None
 | Not started
 |-
-| [[wiki/apis/webrtc|webrtc]]
-| [[wiki/User:Scottrowe]]
+| [[apis/webrtc|webrtc]]
+| [[User:Scottrowe]]
 | In progress
 |-
-| [[wiki/apis/websocket|websocket]]
+| [[apis/websocket|websocket]]
 | None
 | Not started
 |-
-| [[wiki/apis/web-storage|web-storage]]
+| [[apis/web-storage|web-storage]]
 | None
 | Not started
 |-
-| [[wiki/apis/workers|workers]]
+| [[apis/workers|workers]]
 | None
 | Not started
 |-
-| [[wiki/apis/xhr|xhr]]
+| [[apis/xhr|xhr]]
 | None
 | Not started; also, needs to include CORS
 |}
