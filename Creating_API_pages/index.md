@@ -120,15 +120,9 @@ This is just an outline. Here's the [[apis/webrtc|actual content of the apis/web
 
 The listing page's main content should provide both an elaborate description of the APIs and links to other conceptual or tutorial pages.
 
-{{TODO|The API_Listing template needs a '''Content''' section - as in the Basic_Page template.}}
-
 ===Object page content===
  
 The object page is pretty straight-forward. Here you'll want to explain how to use the object and its relationship to the other objects in the API.
-
-{{TODO|The API_Object template needs a '''Content''' section - as in the Basic_Page template.}}
-
-For now, just use the Usage section.
 
 ===Object sub-page content===
 
