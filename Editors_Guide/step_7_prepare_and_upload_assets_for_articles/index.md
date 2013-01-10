@@ -1,6 +1,6 @@
 {{Page_Title|Editor's Guide: Step 7: Prepare and upload assets for articles}}
 {{Flags}}
-{{Summary_Section|This is Step 7.}}
+{{Summary_Section|This is Step 7 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 7. Prepare and upload assets for articles==
 ===[COMMENT:] section needs more work...===
