@@ -20,66 +20,82 @@ With the launch of WPD in October 2012, we received a generous donation of API d
 The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms]], below. Another (messy) representation of this content may be found on the [[apis|apis]] page.
 
 {| class="sortable"
+! Priority
 ! API Name
 ! Handler
 ! Current State
 |-
+| 1
 | [[apis/appcache|appcache]]
 | [[User:Dgash]]
 | Content complete
 |-
+| 2
 | [[apis/audio-video|audio-video]]
 | [[User:Dgash]]
 | Content complete
 |-
+| 3
 | [[apis/canvas|canvas]]
 | [[User:Dgash]]
 | In progress
 |-
+| 4
 | [[apis/css-regions|css-regions]]
 | [[User:Sierra]]
 | Content complete
 |-
+| 5
 | [[apis/file|file]]
 | [[User:Dgash]]
 | Content complete
 |-
+| 6
 | [[apis/geolocation|geolocation]]
 | None
 | Not started
 |-
+| 7
 | [[apis/indexeddb|indexeddb]]
 | [[User:Scottrowe]]
 | Reorganized, content incomplete
 |-
+| 8
 | [[apis/timing|timing]]
 | None
 | Not started
 |-
+| 9
 | [[apis/webaudio|webaudio]]
 | [[User:Dgash]]
 | Content complete
 |-
+| 10
 | [[apis/web-messaging|web-messaging]]
 | None
 | Not started
 |-
+| 11
 | [[apis/webrtc|webrtc]]
 | [[User:Scottrowe]]
 | In progress
 |-
+| 12
 | [[apis/websocket|websocket]]
 | None
 | Not started
 |-
+| 13
 | [[apis/web-storage|web-storage]]
 | None
 | Not started
 |-
+| 14
 | [[apis/workers|workers]]
 | None
 | Not started
 |-
+| 15
 | [[apis/xhr|xhr]]
 | None
 | Not started; also, needs to include CORS
