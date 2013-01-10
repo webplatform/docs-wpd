@@ -32,7 +32,7 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
   <li><p>ACTION, Doug S: Post a proposal to the list about best solution for duplicate title problem (carried over: progress made, plugin worked on, but Doug needs to wait for Ryan to get back off vacation to check that this will work)</p></li>
   <li><p>ACTION, Peter L: Create Sprint in a Box package for docsprints (carried over: Still needs to be finished, but progress has been made, Andre from Adobe helped him out)</p></li>
   <li><p>ACTION, Garbee: Continue working on solution for issue/bug tracking, as we really need a better way to do this. </p></li>
-  <li><p>ACTION, Julee: Send around mail about Wednesday Content TF meeting, and send around Doodle poll to agree on better time for Content TF meetings</p></li>
+  <li><p>ACTION, Julee: Send around mail about Wednesday Content TF meeting, and send around Doodle poll to agree on better time for Content TF meetings DONE</p></li>
   <li><p>ACTION, Chris M: Work on milestones and roles for upcoming important tasks - make wiki page, then list 10 or so milestones that we really need to do; also encourage others to add their own. Things to definitely put on there - session handling issues, recruiting specific content contributors (to work on CSS, JS, etc.), dealing with spam</p></li>
   <li><p>ACTION, Doug S: Send summary to mailing list of everything he can find to do with statistics</p></li>
 </ol>
