@@ -162,7 +162,7 @@ Constants often define the possible values of an object property. See [[apis/web
 
 Event handlers, as they are typically treated in a specification's IDL, are properties and should be treated as such in your documentation. Within the summary section for the property, be sure to link to the extant page for the corresponding event, i.e. DOM events.
 
-{{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section. Need to describe event handler.}}
+{{TODO|The API__Object_Property template needs greater clarity in using the '''Syntax''' section.}}
 
 ===Object event page content===
 
