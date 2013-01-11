@@ -30,7 +30,7 @@
 ** Multiple page content problems related to entire groups of pages 
  Note: If an issue is related to a specific page, [[WPD:Editors_Guide/step_4_review_existing_content|flag a page]] to mark issues.
 
-Use the following guidelines:
+===Log bugs using the following guidelines===
 
 # '''All bugs should include''': 
 #* Steps to reproduce the issue 
