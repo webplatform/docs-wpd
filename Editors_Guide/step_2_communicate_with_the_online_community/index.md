@@ -68,8 +68,8 @@
 #** '''Comment Extension''' — if the problem relates specifically to the comments extension used to add comments to a section of a page.
 #** '''Content''' — if the problem relates to the content of a set of pages, rather than the appearance and implementation of pages.
 #** '''Default''' — choose this if you are not sure which component applies to your bug.
-#** '''Info Architecture''' — if the problem is specific to the organization of pages on the site and you have suggestions to make pages more discoverable.
-#** '''Infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs, JavaScript bugs, and other development problems.
+#** '''Info Architecture''' — if the problem is specific to the organization of the pages on the site.
+#** '''Infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs and JavaScript bugs.
 #** '''Skin''' — if the problem relates to the visual design (the look and feel of the site).
 When you are finished, press the '''Submit bug''' button at the bottom of the page.
 
