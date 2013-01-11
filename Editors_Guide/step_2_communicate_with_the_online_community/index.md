@@ -15,19 +15,17 @@
 *** Server: Freenode (irc.freenode.net)
 *** Channel: #webplatform
 ** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/| helpful guide].
-
-** Log in to the IRC channel during scheduled [[WPD:Meetings|meetings]] or anytime you want to share ideas or ask questions. You can also read the archive of [[WPD:Content_Meetings| meeting notes] to learn more.
+** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
 ===Join the public-webplatform@w3.org mailing list===
-* The team announces initiatives and proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/| Subscribe] to the w3.org mailing list.
+* We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/| Subscribe] to the w3.org mailing list to stay in touch.
 
 ===Ask questions or help others in the forum===
 * Log into the [http://talk.webplatform.org/forums/| WebPlatform forum].
 
 ===Access the bug-tracking system===
-* https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org (external site)
-***** [COMMENT:] Recommend merging the information of these two pages.
-* https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org
+* WebPlatform uses the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org| W3.org bugbase] to track issues. Be sure to [https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org| search the bugbase] before entering new bugs.
+***** [COMMENT:] Recommend merging the information of these two pages. 
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
 {{Notes_Section}}
