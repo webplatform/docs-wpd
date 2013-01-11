@@ -44,15 +44,36 @@
 #* Infrastructure: Doug, Alex
 #* Hackathon: Peter
 # '''Assign all bugs to someone specific'''. If you are not sure, see the [[WPD:Key_Contributors| list of key contributors]] or assign bugs to: ssweeney@arborheights.net.
-# '''Assign to one of the leads when possible''' and they will delegate tasks.
-# '''Use this priority system''': 
+# '''Assign bugs to one of the project leads when possible''' so that they can delegate tasks.
+# '''Use this priority system when adding bugs''': 
 #* Pri 1 - Must have, we can't release without it
 #* Pri 2 - Should have, the release will suffer without it
 #* Pri 3 - Nice to have
 #* Pri 4 - OK to wait until the next release to resolve
 
+==Browse Existing Bugs==
+* [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org Peruse all open bugs by component]
+* [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&list_id=173&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=webplatform.org List all open webplatform.org bugs]
 
-***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
+==Follow these steps to file bugs==
+
+#* Log into the W3C's [http://www.w3.org/Bugs/ Bugzilla bug tracking system].
+#* [https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org| Search the bugbase] before entering any new bugs, to make sure it hasn't been filed already. 
+#* Visit the [https://www.w3.org/Bugs/Public/enter_bug.cgi Enter Bug] page.
+#* Choose the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org webplatform.org] link.
+* There are many options; the most important fields to fill in are:
+** '''Summary''': Enter a descriptive but short summary.
+** '''Description''': Enter a more detailed description that specifies the issue. Include steps needed to reproduce the bug, in a numbered list. Describe  the expected/desired behavior and the actual behavior you encountered.
+** '''Component''': Select the component that corresponds to the bug. You can choose:
+*** '''Comment Extension''' — if the problem relates specifically to the comments extension used to add comments to a section of a page.
+*** '''content''' — if the problem relates to the content of a set of pages, rather than the appearance and implementation of pages.
+*** '''default''' — choose this if you are not sure which component applies to your bug.
+*** '''info architecture''' — if the problem is specific to the organization of pages on the site and you have suggestions to make pages more discoverable.
+*** '''infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs, JavaScript bugs, and other development problems.
+*** '''skin''' — if the problem relates to the visual design (the look and feel of the site).
+* Press the '''Submit bug''' button at the bottom of the page.
+
+You will receive notifications via e-mail when the status of your bug changes or comments are added. 
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
