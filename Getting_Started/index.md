@@ -7,7 +7,8 @@ Anyone can contribute to this WebPlatform wiki. All of the steps are outlined in
 
 There are many ways to contribute that take varying amounts of time and expertise. It is best to start with the simplest, fastest tasks, and move on to more complicated tasks as you gain expertise and experience. You can make meaningful contributions whether you have [[#Five-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
 
-The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Help|just ask the community on IRC or e-mail]]!
+The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
+
 <div style='background-color:transparent'>
 [[File:get_start.png]]
 </div>
@@ -18,9 +19,9 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 '''For specific things to do''', visit the [[WPD:Most_Wanted_Tasks|WPD Most Wanted]] page, to find high priority pages that that you can work on right now.
 
-'''If you want to create a new tutorial or concept page''' see the guide for authoring [[WPD:Content/Tutorials_and_concept_articles| tutorials and concept articles]].
+If you want to '''create a new tutorial or concept page''' see the guide for authoring [[WPD:Content/Tutorials_and_concept_articles| tutorials and concept articles]].
 
-'''If you want to create a new reference page, or edit an existing one''' read the instructions for [[WPD:Content/Reference_articles| reference articles]].
+If you want to '''create or edit a reference page''' read the instructions for [[WPD:Content/Reference_articles| reference articles]].
 
 ===Five-minute tasks===
 
