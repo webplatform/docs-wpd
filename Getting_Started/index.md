@@ -34,7 +34,7 @@ If you want to '''create or edit a reference page''' read the instructions for [
 * '''Fix broken links''' Broken links are fairly easy to spot on the wiki. Misspelled words are highlighted in a [[albatross/my broken link example|bold red color]]. Please fix any misspelled words you find, or at least check the [[Special:SearchByProperty/Content-20quality-20flag/Broken-20Links|Broken Links]] flag.
 * '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
 * '''Apply the correct code syntax coloring to code blocks''' See the [[WPD:Style_Manual#Code_syntax_highlighting|Code Coloring guide]] for details.
-* '''Review the recent changes and look for mistakes to fix''' Check out the [[Special:RecentChanges|Recent Changes]] list to help find cases where new editors might need a bit of guidance to contribute productively, and ensure we are all following the guidelines to author and edit pages.
+* '''Review the recent changes and look for mistakes to fix''' Check out the [[Special:RecentChanges|list of recent changes]] to help find issues. Help new contributors make productive edits to the wiki, and ensure we are all following the guidelines to author and update pages.
 
 ===Half-hour tasks===
 * '''New examples''' It is always useful to add more examples to illustrate techniques or show good use of technologies. Look for articles where the examples are thin on the ground.
