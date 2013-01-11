@@ -1,9 +1,9 @@
 __TOC__
 
 
-=Contributing content to WPD =
+=Getting Started contributing content=
 
-Anyone can contribute to WPD. All of the steps are outlined in the [[WPD:Editors_Guide|Editor's Guide]]. 
+Anyone can contribute to this WebPlatform wiki. All of the steps are outlined in the [[WPD:Editors_Guide|Editor's Guide]]. 
 
 There are many ways to contribute that take varying amounts of time and expertise. It is best to start with the simplest, fastest tasks, and move on to more complicated tasks as you gain expertise and experience. You can make meaningful contributions whether you have [[#Five-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
 
@@ -14,13 +14,13 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 
 ==Tasks==
 
-Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
+Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. It is usually best to start with the simplest, fastest tasks and move on to make more complicated changes as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
 
-'''For specific things to do''', take a look at our [[WPD:Most_Wanted_Tasks|WPD Most Wanted]] page, which is a place to record the things that most need doing right now. This will be added to as time goes on.
+'''For specific things to do''', visit the [[WPD:Most_Wanted_Tasks|WPD Most Wanted]] page, to find high priority pages that that you can work on right now.
 
-'''Want to create a new tutorial or concept page, or edit an existing one?''' Find a thorough guide at [[WPD:Content/Tutorials_and_concept_articles|Tutorials and Concept articles]].
+'''If you want to create a new tutorial or concept page''' see the guide for authoring [[WPD:Content/Tutorials_and_concept_articles| tutorials and concept articles]].
 
-'''Want to create a new reference page, or edit an existing one?''' Find a thorough guide at [[WPD:Content/Reference_articles|Reference articles]].
+'''If you want to create a new reference page, or edit an existing one''' read the instructions for [[WPD:Content/Reference_articles| reference articles]].
 
 ===Five-minute tasks===
 
