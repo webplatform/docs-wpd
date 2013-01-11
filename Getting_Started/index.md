@@ -119,6 +119,7 @@ Here are some references to help you:
 
 * [[WPD:Style_Guide|Style Guide]]
 * [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki Formatting]
+* [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wikipedia syntax cheat sheet]
 * [[WPD:Style_Guide/Gotchas|Wiki Syntax Errors (Gotchas)]]
 * [[WPD:Implementation_Patterns|How Web Platform Docs uses Semantic Media Wiki]]
 * [[WPD:FAQ|General FAQ]]
