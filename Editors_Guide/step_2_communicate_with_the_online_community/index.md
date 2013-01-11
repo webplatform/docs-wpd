@@ -28,7 +28,7 @@
 * We track two types of bugs in Bugzilla:
 ** Site functionality bugs, including errors and UI issues.
 ** Multiple page content problems related to entire groups of pages 
- Note: If an issue is related to a specific page, [[WPD:Editors_Guide/step_4_review_existing_content| flag a page]] to mark issues.
+ Note: If an issue is related to a specific page, [[WPD:Editors_Guide/step_4_review_existing_content|flag a page]] to mark issues.
 
 Use the following guidelines:
 
