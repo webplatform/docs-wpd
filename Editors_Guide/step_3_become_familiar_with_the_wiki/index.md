@@ -10,7 +10,7 @@ Begin reviewing, marking, and editing pages using these resources:
 * Review [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] to see how to use the correct wiki syntax.
 
 ===Understand the WebPlatform project's mission and policies===
-* Watch the [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| shorter project overview video] or the [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/| longer project video] to learn about the goals of the WebPlatform wiki.
+* Watch the [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| shorter project overview video] or the [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ longer project video] to learn about the goals of the WebPlatform wiki.
 
 ***** [COMMENT:] Rename Getting Started to Getting Started Contributing Content. Shorten the Getting Started page to include less overlap - more links to relevant pages. 
 ** Or watch the shorter version:
