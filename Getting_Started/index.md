@@ -56,6 +56,8 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 
 Editing an existing page is as easy as clicking the Edit button at the top of the page. Be sure you're familiar with the content types, architecture, and style guide before editing existing content or creating new content.
 
+To get detailed information about editing pages, see [[WPD:Editors_Guide/step_5_update_existing_content| Step 5 of the Editor's Guide]. 
+
 ===Content types===
 
 WPD supports three basic types of content:
