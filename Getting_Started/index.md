@@ -1,7 +1,7 @@
 __TOC__
 
 
-=Getting Started contributing content=
+=Getting started contributing content=
 
 Anyone can contribute to this WebPlatform wiki. All of the steps are outlined in the [[WPD:Editors_Guide|Editor's Guide]]. 
 
