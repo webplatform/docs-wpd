@@ -13,7 +13,7 @@
 * http://docs.webplatform.org/wiki/WPD:Flags/Content_Grammar_Spelling
 * http://docs.webplatform.org/wiki/Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling
 ===Notify other editors about pages that require revisions===
-* Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the public-webplatform@w3.org mail list, or post to forums. 
+* Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the [mailto:public-webplatform@w3.org the public-webplatform@w3.org mailing list], or post messages in the [http://talk.webplatform.org/forums forum]. 
 See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Step 2 of the Editor's Guide]] for more details.
 {{Notes_Section}}
 {{Topics}}
