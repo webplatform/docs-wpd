@@ -1,4 +1,4 @@
-{{Page_Title|Editor's Guide: Step 4: Review existing content}}
+{{Page_Title|Step 4: Review existing content}}
 {{Flags}}
 {{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
@@ -10,12 +10,10 @@
 * Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 [[File:edit_interface.png]]
 ===Mark articles that need revisions by checking the corresponding check boxes===
-* When you edit articles and see issues that you cannot fix yourself, select the check boxes in the flag sections to mark them. By flagging items that need fixing, you help contributors quickly find tasks they can accomplish. See the [[WPD:Flags| Flags page]] to learn more about how flags work.
-
-Flagging content is a quick and easy way to start participating with the wiki. 
-
+* http://docs.webplatform.org/wiki/WPD:Flags
 * http://docs.webplatform.org/wiki/WPD:Flags/Content_Grammar_Spelling
-* http://docs.webplatform.org/wiki/Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling
+
+* Review the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling| list of pages that are flagged with grammar and spelling issues]] and start fixing them.
 ===Notify other editors about pages that require revisions===
 * Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the [mailto:public-webplatform@w3.org the public-webplatform@w3.org mailing list], or post messages in the [http://talk.webplatform.org/forums forum]. 
 See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Step 2 of the Editor's Guide]] for more details.
