@@ -18,7 +18,7 @@
 ** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
 ===Join the public-webplatform@w3.org mailing list===
-* We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ | Subscribe] to the w3.org mailing list to stay in touch.
+* We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
 
 ===Ask questions or help others in the forum===
 * Log into the [http://talk.webplatform.org/forums/| WebPlatform forum].
