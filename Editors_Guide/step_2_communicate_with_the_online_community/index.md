@@ -65,13 +65,13 @@
 #** '''Summary''': Enter a descriptive but short summary.
 #** '''Description''': Enter a more detailed description that specifies the issue. Include steps needed to reproduce the bug, in a numbered list. Describe  the expected/desired behavior and the actual behavior you encountered.
 #** '''Component''': Select the component that corresponds to the bug. You can choose:
-*** '''Comment Extension''' — if the problem relates specifically to the comments extension used to add comments to a section of a page.
-*** '''content''' — if the problem relates to the content of a set of pages, rather than the appearance and implementation of pages.
-*** '''default''' — choose this if you are not sure which component applies to your bug.
-*** '''info architecture''' — if the problem is specific to the organization of pages on the site and you have suggestions to make pages more discoverable.
-*** '''infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs, JavaScript bugs, and other development problems.
-*** '''skin''' — if the problem relates to the visual design (the look and feel of the site).
-#* Press the '''Submit bug''' button at the bottom of the page.
+* '''Comment Extension''' — if the problem relates specifically to the comments extension used to add comments to a section of a page.
+* '''content''' — if the problem relates to the content of a set of pages, rather than the appearance and implementation of pages.
+* '''default''' — choose this if you are not sure which component applies to your bug.
+* '''info architecture''' — if the problem is specific to the organization of pages on the site and you have suggestions to make pages more discoverable.
+* '''infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs, JavaScript bugs, and other development problems.
+* '''skin''' — if the problem relates to the visual design (the look and feel of the site).
+Press the '''Submit bug''' button at the bottom of the page.
 
 You will receive notifications via e-mail when the status of your bug changes or comments are added. 
 {{Notes_Section}}
