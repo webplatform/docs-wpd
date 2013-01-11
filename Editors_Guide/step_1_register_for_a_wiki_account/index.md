@@ -3,7 +3,7 @@
 {{Summary_Section|This is Step 1 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 1: Register for a WebPlatform.org wiki account==
-===Create an account with your email address, user name, and password.===
+===Create an account with your email address, user name, and password===
 * [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=Main+Page Sign up to edit the wiki.] 
 ===Make sure to verify your account===
 * The verification link is sent via email. If you don't see the message, check your spam folder.
