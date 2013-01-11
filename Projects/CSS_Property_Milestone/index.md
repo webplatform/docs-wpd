@@ -28,5 +28,9 @@ Documentation for all standards-track CSS properties is as comprehensive, correc
 
 While we're working on articles, there are a few best practices to keep in mind: after you think your article is done, e-mail the list for others to take a look and review it. You should follow the guidelines as closely as possible. If you discover places where the guidelines should be changed or added to, propose them to the group along with the specific motivating examples.
 
+==CSS Properties in Milestone ==
+
+https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=0 '''Note''': this document is world-editable and doesn't even need a Google Account to use.
+
 ==Useful Resources==
 * http://www.opera.com/docs/specs/presto2.12/css/properties/
