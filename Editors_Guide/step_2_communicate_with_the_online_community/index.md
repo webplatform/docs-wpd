@@ -12,8 +12,8 @@
 ** [http://limechat.net/mac/| LimeChat] (Mac)
 ** [http://pidgin.im/| Pidgin] (Mac)
 ===Connect to the WebPlatform channel with an IRC client using these settings===
-*** Server: Freenode (irc.freenode.net)
-*** Channel: #webplatform
+* Server: Freenode (irc.freenode.net)
+* Channel: #webplatform
 ** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/| helpful guide].
 ** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
@@ -25,10 +25,10 @@
 
 ===Access the bug-tracking system===
 * WebPlatform uses the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org| W3.org bugbase] to track issues. Be sure to [https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org| search the bugbase] before entering new bugs.
-* We use Bugzilla to track two types of bugs:
+* We track two types of bugs in Bugzilla:
 ** Site functionality bugs, including errors and UI issues.
 ** Multiple page content problems related to entire groups of pages 
-** Note: If an issue is related to a specific page, flag a page to mark issues.
+** Note: If an issue is related to a specific page, [[WPD:Editors_Guide/step_4_review_existing_content| flag a page] to mark issues.
 
 Use the following guidelines:
 
