@@ -3,10 +3,9 @@
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 2. Communicate with the online community==
-===Join IRC channel===
-* The WebPlatform.org online community uses IRC extensively. Log in and ask questions.
-* http://webchat.freenode.net/?channels=#webplatform
-* Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can use:
+===Join the conversation on the IRC channel===
+* The WebPlatform.org online community uses IRC extensively. [http://webchat.freenode.net/?channels=#webplatform| Log in using a browser and ask the team questions].
+* Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
 ** http://www.mirc.com mIRC (Windows)
 ** http://xchat.org/ Xchat (Windows and Linux)
 ** http://colloquy.info/downloads.html Colloquy (Mac)
