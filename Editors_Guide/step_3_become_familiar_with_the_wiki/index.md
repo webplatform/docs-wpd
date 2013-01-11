@@ -5,7 +5,7 @@
 ==Step 3: Become familiar with the wiki==
 ===If you can't wait, start contributing right away===
 Begin reviewing, marking, and editing pages using these resources:
-* Follow the steps in the [[WPD:Getting_Started| Getting Started page]].
+* Follow the steps outlined in the [[WPD:Getting_Started| Getting Started page]].
 * Check out [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] to learn how to add comments and flag pages.
 * Review [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] to see how to use the correct wiki syntax.
 * Make sure the Getting Started page links to the wiki syntax page.  
