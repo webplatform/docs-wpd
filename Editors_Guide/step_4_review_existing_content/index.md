@@ -5,7 +5,7 @@
 ==Step 4. Review existing content==
 ===Add comments to sections.===
 * Add a comment by hovering your mouse over the relevant section heading and click Add Comment. Leaving comments on articles helps others see exactly what needs to be fixed.
-***** [COMMENT:] Provide a screenshot?
+[[File:add_comment.png]]
 ===Flag issues: broken links, spelling, product bias, and more.===
 * Click the Edit button in the top right corner of the article and choose Edit.
 ===Mark articles that need revisions by checking the corresponding checkboxes.===
