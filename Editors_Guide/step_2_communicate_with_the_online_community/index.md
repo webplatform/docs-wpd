@@ -6,25 +6,25 @@
 ===Join the conversation on the IRC channel===
 * The WebPlatform.org online community uses IRC extensively. [http://webchat.freenode.net/?channels=#webplatform| Log in using a browser and ask the team questions].
 * Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
-** http://www.mirc.com mIRC (Windows)
-** http://xchat.org/ Xchat (Windows and Linux)
-** http://colloquy.info/downloads.html Colloquy (Mac)
-** http://limechat.net/mac/ LimeChat (Mac)
-** http://pidgin.im/ Pidgin (Mac)
-** In the IRC client, connect to the WebPlatform channel.
-***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
-***** [COMMENT:] Recommend merging the information of these two pages.
-***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
-* Log in to the IRC channel during scheduled [[WPD:Meetings|meetings]] or anytime you want to share ideas or ask questions. You can also read the archive of [[WPD:Content_Meetings| meeting notes] to get up to speed. 
+** [http://www.mirc.com| mIRC] (Windows)
+** [http://xchat.org/| Xchat] (Windows and Linux)
+** [http://colloquy.info/downloads.html| Colloquy] (Mac)
+** [http://limechat.net/mac/| LimeChat] (Mac)
+** [http://pidgin.im/| Pidgin] (Mac)
+** Using an IRC client, connect to the WebPlatform channel with these settings:
+*** Server: Freenode (irc.freenode.net)
+*** Channel: #webplatform
+** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/| helpful guide].
 
-===Join the public-webplatform@w3.org.===
-* We announce initiatives and work out proposals on the W3.org mailing list. Subscribe to the w3.org mailing list.
-** public-webplatform@w3.org
-** http://lists.w3.org/Archives/Public/public-webplatform/
-===Ask questions or help others in the forum.===
-* http://talk.webplatform.org/forums/
-***** [COMMENT:] REALLY wish this was called "Forums" not Q&A - which sounds like an FAQ list to me. Is it possible to set up a forum channel for contributors to ask questions about editing or authoring content to the wiki? (Rather than just general web questions).
-===Access the bug-tracking system.===
+** Log in to the IRC channel during scheduled [[WPD:Meetings|meetings]] or anytime you want to share ideas or ask questions. You can also read the archive of [[WPD:Content_Meetings| meeting notes] to learn more.
+
+===Join the public-webplatform@w3.org mailing list===
+* The team announces initiatives and proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/| Subscribe] to the w3.org mailing list.
+
+===Ask questions or help others in the forum===
+* Log into the [http://talk.webplatform.org/forums/| WebPlatform forum].
+
+===Access the bug-tracking system===
 * https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org (external site)
 ***** [COMMENT:] Recommend merging the information of these two pages.
 * https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org
