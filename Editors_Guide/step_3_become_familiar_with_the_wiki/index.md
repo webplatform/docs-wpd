@@ -9,13 +9,13 @@ Begin reviewing, marking, and editing pages using these resources:
 * Check out [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] to learn how to add comments and flag pages.
 * Review [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] to see how to use the correct wiki syntax.
 
-===Be sure to read the wiki philosophy to understand the mission===
-* Watch the project video to learn about the site's mission and goals.
-** https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ (29 min.)
+===Understand the WebPlatform project's mission and policies===
+* Watch the [http://www.youtube.com/watch?feature* player_embedded&v*Ug6XAw6hzaw| shorter project overview video] or [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/| longer project video] to learn about the goals of the WebPlatform wiki.
+
 ***** [COMMENT:] Rename Getting Started to Getting Started Contributing Content. Shorten the Getting Started page to include less overlap - more links to relevant pages. 
 ** Or watch the shorter version:
 ***** [COMMENT:] Is one video preferred over the other? Looking forward to additional videos specific to getting started.
-** http://www.youtube.com/watch?feature* player_embedded&v* Ug6XAw6hzaw (2 min.)
+**  (2 min.)
 * Read the FAQ and site policies and look at the direction we're going in.
 ** http://docs.webplatform.org/wiki/WPD:FAQ
 ** http://docs.webplatform.org/wiki/WPD:Policy
