@@ -11,9 +11,9 @@
 ** [http://colloquy.info/downloads.html| Colloquy] (Mac)
 ** [http://limechat.net/mac/| LimeChat] (Mac)
 ** [http://pidgin.im/| Pidgin] (Mac)
-** Using an IRC client, connect to the WebPlatform channel with these settings:
-*** Server: Freenode (irc.freenode.net)
-*** Channel: #webplatform
+*** Using an IRC client, connect to the WebPlatform channel with these settings:
+**** Server: Freenode (irc.freenode.net)
+**** Channel: #webplatform
 ** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/| helpful guide].
 ** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
