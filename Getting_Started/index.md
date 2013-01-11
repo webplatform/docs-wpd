@@ -68,30 +68,38 @@ WPD supports three basic types of content:
 
 Each of these content types has a unique URL name space--that is, where the page "lives". The URL generally follows the logical organization of the feature. For example, [[css/selectors/outline-style]].
 
-===Guides to creating pages===
-
-The guides listed here provide information about creating specific types of pages - for a specific namespace or concept.
-* [[WPD:Creating_API_pages]]
-
 ===Architecture===
 
-For finding content, use search. You'll get the best results. For figuring out where to put new content, you'll need to get familiar with the [[WPD:Content/Topic_Hierarchy | topic hierarchy]] of this site.
+For finding content, use search. You'll get the best results. For figuring out where to put new content, ecome familiar with the [[WPD:Content/Topic_Hierarchy | topic hierarchy]] of this site.
 
 ===Style guide===
 
-The [[WPD:Manual_Of_Style|style guide]] for this site describes the conventions we have adopted for things like capitalization, title and section headings. Please be familiar with these conventions as you edit site content.
+The [[WPD:Manual_Of_Style|style guide]] for this site describes the conventions we use for capitalization, avoiding contractions, formatting titles, and section headings. Before editing pages, become familiar with these conventions and follow them to make changes to the wiki.
+
+WebPlatform uses the [http://styleguide.yahoo.com/ Yahoo Style Guide] to ensure text content is presented consistently on all pages. 
+
+===Guides to creating pages===
+
+The guides listed here provide information about creating specific types of pages - for a specific namespace or concept. You can also author pages that cover a specific API or create reference pages.
+* [[WPD:Content/Tutorials_and_concept_articles]]
+* [[WPD:Creating_API_pages]]
+* [[WPD:Content/Reference_articles]]
+
+To get detailed information about creating new pages, see [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]]. 
 
 == Creating a new page ==
 
-Great, you have an idea for a new page you want to create, and you've determined the canonical URL where the content should live. For details on how to choose your page's URL, see [[WPD:Topic Hierarchy |the Topic hierarchy page]]. The next step is to use the New Page form to create your page from the proper template, and at the proper URL.
+After you have identified an idea for a new page you want to create and [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| alerted the team]] of your plans, the next step is to determine the canonical URL where the content will live. For details on how to choose your page's URL, see the [[WPD:Topic Hierarchy| Topic Hierarchy page]]. 
+
+Once you have the URL for the new page, use the New Page form to create the page using the proper template, at the appropriate URL.
 
 '''Steps for creating a new page'''
 
-# Go to the [[WPD:New_Page|New Page]] page. 
-# On that page identify the form to create the proper template (see [[#Choosing a content template]]).
-# In the form's text field enter the URL for the new page in the text field, and click Create Page. 
+# Visit the [[WPD:New_Page|New Page]] page. 
+# Use the form to choose the proper template based on the content you are authoring (see [[#Choosing a content template]]).
+# Enter the URL for the new page in the form, and click Create Page. 
 
-For example, if you were creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (you would type in '''tutorials/racing game''': the Wiki creates the underscores for you. Please do not use hyphens in urls unless grammatically appropriate, and use all lower case.).
+For example, if you are creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (and you would type '''tutorials/racing game'''. Note that the Wiki creates the underscores in the URL for you, in place of spaces. Please do not use hyphens in URLs unless it is grammatically appropriate, and always use all lower case characters.).
 
 === Choosing a content template===
 
