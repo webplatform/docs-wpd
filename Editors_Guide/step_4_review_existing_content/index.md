@@ -7,7 +7,8 @@
 * Add a comment by hovering your mouse over the relevant section heading and clicking Add Comment. Posting comments on specific article sections helps others see exactly what needs to be fixed.
 [[File:add_comment.png]]
 ===Flag issues: broken links, spelling, product bias, and more.===
-* Click the Edit button in the top right corner of the article and choose Edit.
+* Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
+[[File:edit_interface.png]]
 ===Mark articles that need revisions by checking the corresponding checkboxes===
 * http://docs.webplatform.org/wiki/WPD:Flags
 * http://docs.webplatform.org/wiki/WPD:Flags/Content_Grammar_Spelling
