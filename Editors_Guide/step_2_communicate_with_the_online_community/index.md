@@ -3,7 +3,7 @@
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 2. Communicate with the online community==
-===Join IRC channel.===
+===Join IRC channel===
 * The WebPlatform.org online community uses IRC extensively. Log in and ask questions.
 * http://webchat.freenode.net/?channels=#webplatform
 * Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can use:
@@ -12,16 +12,12 @@
 ** http://colloquy.info/downloads.html Colloquy (Mac)
 ** http://limechat.net/mac/ LimeChat (Mac)
 ** http://pidgin.im/ Pidgin (Mac)
-***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 ** In the IRC client, connect to the WebPlatform channel.
 ***** [COMMENT:] [PULL CONTENT FROM: http://talk.webplatform.org/chat/]
 ***** [COMMENT:] Recommend merging the information of these two pages.
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Help]
-* Log in anytime you want to share ideas or ask questions
-***** [COMMENT:] No change to the Meetings pages.
-* Log in during meetings. Here are the meeting calendars and the archives of meeting notes:
-** http://docs.webplatform.org/wiki/WPD:Meetings 
-** http://docs.webplatform.org/wiki/WPD:Content_Meetings
+* Log in to the IRC channel during scheduled [[WPD:Meetings|meetings]] or anytime you want to share ideas or ask questions. You can also read the archive of [[WPD:Content_Meetings| meeting notes] to get up to speed. 
+
 ===Join the public-webplatform@w3.org.===
 * We announce initiatives and work out proposals on the W3.org mailing list. Subscribe to the w3.org mailing list.
 ** public-webplatform@w3.org
