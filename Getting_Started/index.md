@@ -79,20 +79,18 @@ The [[WPD:Manual_Of_Style|style guide]] for this site describes the conventions 
 
 WebPlatform uses the [http://styleguide.yahoo.com/ Yahoo Style Guide] to ensure text content is presented consistently on all pages. 
 
+== Creating a new page ==
+
+After you have identified an idea for a new page you want to create and [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| alerted the team]] of your plans, the next step is to determine the canonical URL where the content will live. For details on how to choose your page's URL, see the [[WPD:Topic Hierarchy| Topic Hierarchy page]]. 
+
+Once you have the URL for the new page, use the New Page form to create the page using the proper template, at the appropriate URL.
+
 ===Guides to creating pages===
 
 The guides listed here provide information about creating specific types of pages - for a specific namespace or concept. You can also author pages that cover a specific API or create reference pages.
 * [[WPD:Content/Tutorials_and_concept_articles]]
 * [[WPD:Creating_API_pages]]
 * [[WPD:Content/Reference_articles]]
-
-To get detailed information about creating new pages, see [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]]. 
-
-== Creating a new page ==
-
-After you have identified an idea for a new page you want to create and [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| alerted the team]] of your plans, the next step is to determine the canonical URL where the content will live. For details on how to choose your page's URL, see the [[WPD:Topic Hierarchy| Topic Hierarchy page]]. 
-
-Once you have the URL for the new page, use the New Page form to create the page using the proper template, at the appropriate URL.
 
 '''Steps for creating a new page'''
 
@@ -102,29 +100,30 @@ Once you have the URL for the new page, use the New Page form to create the page
 
 For example, if you are creating a tutorial about a racing game, the URL might be '''/tutorials/racing_game''' (and you would type '''tutorials/racing game'''. Note that the Wiki creates the underscores in the URL for you, in place of spaces. Please do not use hyphens in URLs unless it is grammatically appropriate, and always use all lower case characters.).
 
+To get more information about creating new pages, see [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]].
+
 === Choosing a content template===
 
 The [[WPD:New_Page|New Page]] page contains a form for each type of content you can create on the site. Each form consists of a text field where you enter the new page's URL and a button to create the page.
 
 * If you are creating a tutorial, use the [[WPD:New_Page#Tutorial|Tutorial template]].
 * If you want to describe a concept or feature, use the [[WPD:New_Page#Concept|Concept template]].
-* If you are creating a reference page, the template you select is determined by the kind of API/feature you are documenting, for example
-** [[WPD:New_Page#API_Object_Method|API Object Method]] for a method of an API/Object.
-** [[WPD:New_Page#CSS_Property|CSS Property]] for a CSS property.
-** etc.
+* If you are creating a reference page, the template you select is determined by the kind of API/feature you are documenting. For example
+** Use the [[WPD:New_Page#API_Object_Method|API Object Method]] to document a method of an API/Object.
+** Use the [[WPD:New_Page#CSS_Property|CSS Property]] to document a CSS property.
 
 The forms are listed in decreasing order of specificity. Identify the most specific form below that fits the type of content you'd like to create. For example
 
 ==The basics==
 ===The technology===
 
-WPD is a site dedicated to documenting and teaching people about open web standards, those technologies standardized by the W3C, IETF, and other standardization bodies, which are created as part of an open process to be free for anyone to use, and not controlled by any one company. If you think that a technology is missing from WPD, please open a discussion about it using any of the methods documented on our [[WPD:Help|Help page]].
+WebPlatform is a site dedicated to documenting and teaching people about open web standards, those technologies standardized by the W3C, IETF, and other standardization bodies, which are created as part of an open process to be free for anyone to use. This project is not controlled by any one company. If you think that a technology is missing from WebPlatform, please [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|start a discussion]] about it.
 
-===The norms===
-The WPD community is guided by a series of foundational norms that we call the [[WPD:Pillars|WPD Pillars]]. The Pillars document is a list of guiding principles that informs the more mundane norms and processes that govern the day-to-day operations of the site. You should read them carefully, but what's most important to know is that WPD is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These norms and rules are documented within the wiki itself, in the WPD namespace (to keep it separate from documentation content). You can find the more mundane norms listed at [[WPD:Policy]].
+===The pillars===
+The WebPlatform community is guided by a series of foundational principles that we call the [[WPD:Pillars|Pillars]]. The Pillars document informs the more mundane decisions and processes that govern the day-to-day operations of the site. Please read them. WebPlatform is founded on the idea that we should assume good faith cooperation and that we prefer norms over rules. These rules are documented within the wiki itself, in the WPD namespace (to keep the pages separate from web documentation content). Learn more by visiting the [[WPD:Policy| Policy page]].
 
 ===Flags and editorial notes===
-WPD uses a system of flags and editorial notes to keep track of areas where improvements are required. When you choose to edit WPD pages, you should see a list of check boxes for the different flags available — use these to raise an alert that a specific type of improvement or attention is needed on a page.
+While editing pages, enable check boxes to flag issues and alert contributors that a specific type of change is needed on a page. See [[WPD:Editors_Guide/step_4_review_existing_content| Step 4 of the Editor's Guide]] for more details.
 
 ==References==
 
@@ -137,8 +136,4 @@ Here are some references to help you:
 * [[WPD:Implementation_Patterns|How Web Platform Docs uses Semantic Media Wiki]]
 * [[WPD:FAQ|General FAQ]]
 
-Remember, if at any point you're unsure, ask the [[WPD:Help|IRC channel or the e-mail list]]. We love helping new editors get the hang of things!
-
-==Bugs!==
-
-See [[WPD:Filing Bugs|Filing bugs]]
+Remember, if at any point you're unsure, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|contact the team on IRC or the mailing list]]. We love helping new editors start contributing.
