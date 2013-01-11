@@ -9,8 +9,11 @@
 ===Flag issues to identify pages with broken links, spelling, product bias, and other problems===
 * Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 [[File:edit_interface.png]]
-===Mark articles that need revisions by checking the corresponding checkboxes===
-* http://docs.webplatform.org/wiki/WPD:Flags
+===Mark articles that need revisions by checking the corresponding check boxes===
+* When you edit articles and see issues that you cannot fix yourself, select the check boxes in the flag sections to mark them. By flagging items that need fixing, you help contributors quickly find tasks they can accomplish. See the [[WPD:Flags| Flags page]] to learn more about how flags work.
+
+Flagging content is a quick and easy way to start participating with the wiki. 
+
 * http://docs.webplatform.org/wiki/WPD:Flags/Content_Grammar_Spelling
 * http://docs.webplatform.org/wiki/Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling
 ===Notify other editors about pages that require revisions===
