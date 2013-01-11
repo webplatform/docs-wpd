@@ -38,21 +38,20 @@ Use the following guidelines:
 #* Your browser type and version 
 #* The date you found the bug 
 #* Screenshots (if you are logging a UI issue)
-# '''Priority changes''' are set when initially creating the bug, or by one of the following TF leads only:
+# '''Priority changes''' are set when initially creating the bug, or by one of the following project leads only:
 #* Content: Janet, Chris, Eliot, Doug
 #* Marketing: Alex, Christos, Ian
 #* Infrastructure: Doug, Alex
 #* Hackathon: Peter
-# '''Assign all bugs to someone specific'''. If you are not sure, see the [[WPD:Key_Contributors| list of key contributors]. If in doubt, assign bugs to: ssweeney@arborheights.net.
-# '''Assign to one of the TF leads when possible''' and they will delegate tasks.
+# '''Assign all bugs to someone specific'''. If you are not sure, see the [[WPD:Key_Contributors| list of key contributors]] or assign bugs to: ssweeney@arborheights.net.
+# '''Assign to one of the leads when possible''' and they will delegate tasks.
 # '''Use this priority system''': 
 #* Pri 1 - Must have, we can't release without it
 #* Pri 2 - Should have, the release will suffer without it
 #* Pri 3 - Nice to have
 #* Pri 4 - OK to wait until the next release to resolve
 
-***** [COMMENT:] Recommend merging the information of these two pages. 
-***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines]
+
 ***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Filing_Bugs]
 {{Notes_Section}}
 {{Topics}}
