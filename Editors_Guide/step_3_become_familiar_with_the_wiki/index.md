@@ -8,9 +8,7 @@ Begin reviewing, marking, and editing pages using these resources:
 * Follow the steps outlined in the [[WPD:Getting_Started| Getting Started page]].
 * Check out [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] to learn how to add comments and flag pages.
 * Review [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] to see how to use the correct wiki syntax.
-* Make sure the Getting Started page links to the wiki syntax page.  
-* Make sure to use the reference resources in Step 5, below, to ensure you're using the correct markup and styles.
-***** [COMMENT:] 
+
 ===Be sure to read the wiki philosophy to understand the mission===
 * Watch the project video to learn about the site's mission and goals.
 ** https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ (29 min.)
