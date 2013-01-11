@@ -12,10 +12,9 @@ Begin reviewing, marking, and editing pages using these resources:
 ===Understand the WebPlatform project's mission and policies===
 * Watch the [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| shorter project overview video] or the [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ longer project video] to learn about the goals of the WebPlatform wiki.
 * Read the [[WPD:FAQ| FAQ]] and [[WPD:Policy| Policy page]] to learn more about the project.
-* Check out the [[http://docs.webplatform.org/wiki/WPD:Task_Roadmap| Task Roadmap page]] to learn about recent initiatives. 
-***** [COMMENT:] Recommend updating the Policy page to begin with content in Pillars page, above the links.
+* Check out the [[WPD:Task_Roadmap| Task Roadmap page]] to learn about recent initiatives. 
 ===Explore the web development docs===
-* http://docs.webplatform.org/wiki/Main_Page
+* Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
