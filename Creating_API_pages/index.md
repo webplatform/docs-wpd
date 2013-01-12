@@ -182,6 +182,52 @@ The best practice is to reference the extra-API facility (couldn't think of a be
 
 Whenever you work on content in this wiki, you should be checking the documentation against the latest standards-track specifications, either provided by WATWG or the W3C. This is particularly important with the API documentation because most of the API specifications still have Working Draft status, and they are updated frequently. Usually the Editors' Draft version of a specification lists the latest changes, and earlier drafts of the specification are provided for reference. Discussion threads are also cited frequently, and may be a source of recent change information. Also, many of the authors review their work in blog posts or sites dedicated specifically to the feature being implemented.
 
+===Converting HTML content===
+
+To convert HTML to MediaWiki markup for importing (pasting) into WPD pages, follow these steps.
+
+<ol>
+  <li><p>Take a copy of the HTML you want to convert - this is best done like so, from the different sources:</p>
+    <ul>
+      <li><p>MDN - sign in to MDN, press the edit button, press the Source button on the editing interface, and copy and paste the contents of the <code>&lt;body&gt;&lt;/body&gt;</code> tags into a blank text file. Pro tip from Janet: adding <br><code>?raw&macros</code> to an MDN URL gives you the article content without the skin, but after evaluating templates; view the source of this to get the raw HTML.</p></li>
+      <li><p>Opera web standards curriculum - this material is already in Wiki markup, so you've got a much easier job here!</p></li>
+      <li><p>foo</p></li>
+    </ul>
+  </li>
+  <li><p>Check that the HTML validates: Go to http://html5.validator.nu/, select "text field" from the drop down select list, paste your body content in between the <code>&lt;body&gt;&lt;/body&gt;</code> tags, and press "Validate". If it comes up with errors, keeping fixing and rechecking until no more errors come up.</p></li>
+  <li><p>Go to [http://toolserver.org/~diberri/cgi-bin/html2wiki/ this tool] or [http://labs.seapine.com/htmltowiki.cgi this tool]. Use either tool to convert your HTML into wikimarkup, and grab a copy of the result.</p></li>
+  <li><p>Try pasting it into your page's content field and pressing "Save". It'll probably look terrible at the moment. You'll need to:</p>
+    <ul>
+      <li><p>'''Remove excess whitespace'''. Because of the way Wiki markup works, you'll need to put only a single line between paragraphs, and remove whitespace from the beginning of lines.</p></li>
+      <li><p>'''Get tables to render'''. Because of a bug in the way media wiki tables are handled in semantic media wiki forms, you need to write your table syntax using the pipe hack. See http://webplatform.org/docs/WPD:Manual_Of_Style/Tables for more details.</p></li>
+      <li><p>'''Replace vertical bars'''. Media wiki's handling of the vertical bar character ( {{!}} ) is problematic. To be safe, use the "pipe hack" mentioned above to replace all vertical bars&mdash;not only in tables, but in code blocks and regular text throughout the article.</p></li>
+      <li><p>'''Tidy up code blocks'''. Code samples should be wrapped in &lt;pre&gt;&lt;/pre&gt; tags, and you should use two spaces for each level of indent. The opening and closing tags should go on the same lines as the first and last lines of code, respectively. For example:</p>
+
+<pre>This
+  is a
+  code
+Sample</pre>
+      </li>
+      <li><p>'''Images''': To add images back into your article when you are importing it, first of all save a copy of them all locally. A good way to do this if there are loads of images is to go to the page where your article originally came from, then select File &gt; Save as... &gt; HTML file with Images.This should save a copy of the page you are on, with all the images and other assets associated with a page saved along with it, in a folder.</p>
+
+      <p>Next, for each image you need to create a special wiki markup tag that signifies you want to insert an image:</p>
+
+<pre>&#91; &#91; Image:image-filename.jpg|alt text you want your image to have&#93;&#93;</pre>
+
+<p>Once you save your page, this will appear as a red (i.e. "doesn't exist yet") link. Click on this link to go to an admin page where you can choose to upload the image you want to appear there. </p>
+
+<p>When you've done that, go back to the page and refresh - the image should appear in place of the red link. The wiki markup you entered above should be rendered in the final HTML:</p>
+
+<pre>&lt;img src="image-filename.jpg" alt="alt text you want your image to have"&gt;</pre>
+
+<p>Media wiki may have also tagged some icky presentational HTML crap onto the end of this like, like <code>border="0"</code>, but hey, it works, and no kittens are going to die.</p>
+      </li>
+      <li><p>'''Executable code samples''' (THERE DOESN'T SEEM TO BE ANY WAY YET TO INCLUDE EXECUTABLE CODE EXAMPLE ON THE SITE, BUT I ASSUME THIS IS BEING WORKED ON)</p></li>
+      <li><p>'''HTML lists''': Dealing with HTML lists is absolutely fine for simple lists where you've just a simple list of bullets (items created using asterisks — &#42;) or numbers (items created using hashes/pounds — &#35;), but for any kind of complex nested lists, I would advise you to just use HTML instead, otherwise you'll go through far too much pain trying to make the list render correctly and consistently. For some more complex list examples that I've already dealt with, see the [[guides/html lists|HTML lists]] guide.</p>
+      <li><p>Foo</p></li>
+    </ul>
+  </li>
+</ol>
 
 ==More==
 To update extant API_Listing pages to use the new Template:Concept_Listing go [[WPD:Creating_API_pages/updating_template_changes|here]].
