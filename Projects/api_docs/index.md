@@ -38,7 +38,7 @@ The following table summarizes the current state of the extant API documentation
 | 3
 | [[apis/canvas|canvas]]
 | [[User:Dgash]]
-| In progress
+| Content complete
 |-
 | 4
 | [[apis/css-regions|css-regions]]
