@@ -114,6 +114,8 @@ For the API documentation, the following list identifies key APIs in modern web 
 
 Also, very often the API documentation from other sources includes tutorial and conceptual content that also needs to be imported into the likewise appropriate namespace on WPD. Sometimes an API's documentation is actually a tutorial - when the API is brief, for instance.
 
+And just in case you're wondering, content identified as authored by Google or "mostly Googlers" is considered easiest to import because no explicit approval is required from Google authors to import the content.
+
 {| class="sortable"
 ! Priority
 ! API Name
