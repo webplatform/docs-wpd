@@ -4,6 +4,8 @@
 
 Some of the most immediately useful technical content that WPD can provide is for the new JavaScript APIs recently developed (or currently being developed) for web applications. These APIs provide new functionality that make web applications as robust and high-performing as desktop or native apps. By focusing on this area of technical content, we can establish WPD as the leading provider of reference information for modern web development.
 
+The goal for this project is to bring the API documentation up to date and to make WPD the most current source for this documentation.
+
 This proposal outlines a strategy for building out the API documentation, considering the following:
 
 * The current state of the "apis" namespace and extant content
