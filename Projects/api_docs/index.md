@@ -127,6 +127,12 @@ Also, very often the API documentation from other sources includes tutorial and 
 | Simulates a local file system where web apps can read, write, and create files and directories.
 | Google (grendel)
 |-
+| 2
+| [https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry File Entry API]
+| MDN
+| Writes content to a local file.
+| Google (grendel)
+|-
 | 3
 | [https://developer.mozilla.org/en-US/docs/IndexedDB IndexedDB]
 | MDN
@@ -150,12 +156,6 @@ Also, very often the API documentation from other sources includes tutorial and 
 | MDN
 | Provides input methods based on the movement of the mouse over time.
 | Many, see history
-|-
-| 2
-| [https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry File Entry API]
-| MDN
-| Writes content to a local file.
-| Google (grendel)
 |-
 | 7
 | [https://developer.mozilla.org/en-US/docs/DOM/FileReader File Reader API]
