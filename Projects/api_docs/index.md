@@ -137,6 +137,12 @@ Also, very often the API documentation from other sources includes tutorial and 
 | Mostly Googlers, see history
 |-
 | 4
+| [https://developer.mozilla.org/en-US/docs/Navigation_timing Navigation Timing API]
+| MDN
+| Provides data that can be used to measure the performance of a website.
+| Mostly Googlers, see history
+|-
+| 5
 | [https://developer.mozilla.org/en-US/docs/DOM/File File API]
 | MDN
 | Provides input methods based on the movement of the mouse over time.
