@@ -178,5 +178,10 @@ Strictly speaking, getUserMedia() does not belong to the WebRTC API, though it w
 
 The best practice is to reference the extra-API facility (couldn't think of a better name) in the main content of the pertinent API listing and object pages. For the WebRTC API, the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object page must have a reference to [[dom/methods/getUserMedia|getUserMedia()]]. So should any tutorials about using the API, and these tutorials should be referenced in the API listing and object pages as well.
 
-===More===
+==Importing and updating content==
+
+Whenever you work on content in this wiki, you should be checking the documentation against the latest standards-track specifications, either provided by WATWG or the W3C. This is particularly important with the API documentation because most of the API specifications still have Working Draft status, and they are updated frequently. Usually the Editors' Draft version of a specification lists the latest changes, and earlier drafts of the specification are provided for reference. Discussion threads are also cited frequently, and may be a source of recent change information. Also, many of the authors review their work in blog posts or sites dedicated specifically to the feature being implemented.
+
+
+==More==
 To update extant API_Listing pages to use the new Template:Concept_Listing go [[WPD:Creating_API_pages/updating_template_changes|here]].
