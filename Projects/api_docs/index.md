@@ -125,31 +125,31 @@ Also, very often the API documentation from other sources includes tutorial and 
 | Simulates a local file system where web apps can read, write, and create files and directories.
 | Google (grendel)
 |-
-| 2
+| 3
 | [https://developer.mozilla.org/en-US/docs/IndexedDB IndexedDB]
 | MDN
 | Structured off-line storage, content to fill in WPD content
 | Many, see history
 |-
-| 3
+| 4
 | [https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API Pointer Lock API]
 | MDN
 | Provides input methods based on the movement of the mouse over time.
 | Mostly Googlers, see history
 |-
-| 4
+| 5
 | [https://developer.mozilla.org/en-US/docs/Navigation_timing Navigation Timing API]
 | MDN
 | Provides data that can be used to measure the performance of a website.
 | Mostly Googlers, see history
 |-
-| 5
+| 6
 | [https://developer.mozilla.org/en-US/docs/DOM/File File API]
 | MDN
 | Provides input methods based on the movement of the mouse over time.
 | Many, see history
 |-
-| 6
+| 2
 | [https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry File Entry API]
 | MDN
 | Writes content to a local file.
