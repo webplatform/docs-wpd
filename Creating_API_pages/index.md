@@ -224,7 +224,6 @@ Sample</pre>
       </li>
       <li><p>'''Executable code samples''' (THERE DOESN'T SEEM TO BE ANY WAY YET TO INCLUDE EXECUTABLE CODE EXAMPLE ON THE SITE, BUT I ASSUME THIS IS BEING WORKED ON)</p></li>
       <li><p>'''HTML lists''': Dealing with HTML lists is absolutely fine for simple lists where you've just a simple list of bullets (items created using asterisks — &#42;) or numbers (items created using hashes/pounds — &#35;), but for any kind of complex nested lists, I would advise you to just use HTML instead, otherwise you'll go through far too much pain trying to make the list render correctly and consistently. For some more complex list examples that I've already dealt with, see the [[guides/html lists|HTML lists]] guide.</p>
-      <li><p>Foo</p></li>
     </ul>
   </li>
 </ol>
