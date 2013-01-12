@@ -9,6 +9,7 @@ This proposal outlines a strategy for building out the API documentation, consid
 * The current state of the "apis" namespace and extant content
 * External content that could be imported to WPD
 * New content that will help developers use the latest features of modern browsers
+* Creating, updating, and importing content
 * Template and forms changes that need to be implemented
 * Priorities and project management
 * Additional documents
@@ -246,6 +247,10 @@ The following table lists APIs either in development that have not been document
 | 
 |
 |}
+
+==Creating, updating, and importing content==
+
+Along with importing content from other sources, it is crucial that when you are working with existing content you check that content against the source specification. The document, [[WPD:Creating_API_pages]] has more information about editing API pages. 
 
 ==Templates and forms==
 
