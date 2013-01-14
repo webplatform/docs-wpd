@@ -10,7 +10,7 @@ Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting| format page
 
 Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax cheat sheet] from Wikipedia.
 
-=Follow the WebPlatform style guide=
+===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
 
 <!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
@@ -159,11 +159,6 @@ For help with some specific WPD coding issues, see:
 * [[WPD:Style_Guide/Tables|Tables]]
 * [[WPD:Style_Guide/Lists|Lists]] 
 * [[WPD:Style_Guide/Gotchas|Common Gotchas for WPD editors]]
-
-***** [COMMENT:] NEW Page/Section NEEDED that explains how we use the MediaWiki syntax, and lists all valide tags and macros for WPD pages.
-
-
-
 
 ===Read the guidelines and best practices for editing the text===
 * http://docs.webplatform.org/wiki/WPD:Style_Guide 
