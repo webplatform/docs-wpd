@@ -60,14 +60,13 @@ Generally, follow the same guidelines as for article titles. Make your section h
 
 See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
-===Edit content to follow grammar and spelling conventions===
-We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
-* Please do not use contractions. For example say "I am" compared to "I'm".  This makes translation better and makes good legibility.
+===Avoid using contractions===
+* Please do not use contractions. For example say "I am" compared to "I'm".  This ensures that pages are translated more accurately and makes all pages easier to read.
 
 ===Standardize common terms===
-* Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
-* Use ''Web'' when it's a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
-* Use ''website'', not ''web site''. Strictly speaking, it's a two word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
+* Use ''Internet'' when it is a proper noun, such as, '''The Internet'''. Otherwise, use lower case, like this: '''Leveraging internet marketing to drive traffic.'''
+* Use ''Web'' when it's a proper noun, such as, '''Surfing the Web'''. Otherwise, use lower case, like this: '''CSS is a web-related topic.'''
+* Use ''website'' spelled as one word, not ''web site''. Strictly speaking, it is a two word, adjective-noun combination, but common use today (including the listing in the AP Stylebook) is to combine the words into a single noun.
 
 ===Use the appropriate syntax highlighting when displaying code===
 WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines when authoring articles for this wiki:
@@ -82,7 +81,9 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
-===Preparing and uploading images===
+===Add images===
+
+Screenshots and illustrations greatly improve articles and pages posted on this wiki. See Step 7 of the Editor's Guide to learn how to prepare and upload image files and other assets. 
 
 When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
 
