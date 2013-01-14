@@ -126,7 +126,7 @@ Include references to applicable standards, test suites, implementation reports,
 Your content should be accessible according to WCAG 2.0 AA. If you have questions about accessibility, seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
 
 ===Publish content that is relevant to this wiki===
-Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site. If you are unsure, ask for advice on IRC, the mailing list, or the forum. See Step 2 of the Editor's Guide for more details.
+Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site. If you are unsure, ask for advice on IRC, the mailing list, or the forum. See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Step 2 of the Editor's Guide]] for more details.
 
 ===Omit comments and discussion===
 Relevant comments and discussion about the article should occur in the associated discussion page, not in the body of the article.
