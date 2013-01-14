@@ -65,7 +65,7 @@ See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], wh
 
 ===Standardize common terms===
 * Use ''Internet'' when it is a proper noun, such as, '''The Internet'''. Otherwise, use lower case, like this: '''Leveraging internet marketing to drive traffic.'''
-* Use ''Web'' when it's a proper noun, such as, '''Surfing the Web'''. Otherwise, use lower case, like this: '''CSS is a web-related topic.'''
+* Use ''Web'' when it is a proper noun, such as, '''Surfing the Web'''. Otherwise, use lower case, like this: '''CSS is a web-related topic.'''
 * Use ''website'' spelled as one word, not ''web site''. Strictly speaking, it is a two word, adjective-noun combination, but common use today (including the listing in the AP Stylebook) is to combine the words into a single noun.
 
 ===Use the appropriate syntax highlighting when displaying code===
@@ -74,7 +74,7 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 *Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
 *<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
-*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
+*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case&mdash;the SyntaxHighlight extension handles all the formatting.
 *There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
 *Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code><br>This highlights the third line in your code snippet.
@@ -103,14 +103,14 @@ When adding images to an article, you should think carefully about how big the i
 
 ===Quality principles===
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
-* '''easy to use''': task oriented, accurate, complete
-* '''easy to understand''': clear, concrete, appropriate style
-* '''easy to find''': coherently organized, retrievable, visually effective
+* '''Easy to use''': task oriented, accurate, complete
+* '''Easy to understand''': clear, concrete, appropriate style
+* '''Easy to find''': coherently organized, retrievable, visually effective
 
 The following principles are chosen to help achieve high quality in the information presented on this website.
 
 ===Free of spam===
-Spam makes it hard for readers to find what they’re looking for, and should be removed as soon as possible.
+Spam makes it hard for readers to find what they are looking for, and should be removed as soon as possible.
 
 ===Vendor neutral===
 Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in major browsers.
@@ -151,11 +151,11 @@ Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pil
 ===Omit comments and discussion===
 Relevant comments and discussion about the article should occur in the associated discussion page, not in the body of the article.
 
-===Don't needlessly duplicate content===
-Separate pages shouldn't substantially overlap content or topics, except when necessary to improve understanding and organization. 
+===Avoid posting duplicate content===
+Strive to ensure separate pages do not substantially overlap content or topics, except when necessary to improve understanding and organization. 
 
 ===Search engine optimization===
-Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines, so don't overload on keywords.
+Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines; do not overload pages with keywords.
 
 ===Include all relevant sections===
 Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
