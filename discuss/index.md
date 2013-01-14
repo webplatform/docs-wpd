@@ -40,6 +40,6 @@ Next, join one of the above IRC channels using the following details:
 
 * Server: Freenode (irc.freenode.net) 
 * Channel: #webplatform, #webplatform-site, or #webplatform-offtopic 
-* URL to join a channel: '''irc://chat.freenode.net[chosen chatroom name]''', for example irc://chat.freenode.net#webplatform
+* URL to join a channel: ''irc&59;//chat.freenode.net[chosen chatroom name]'', for example irc://chat.freenode.net#webplatform
 
 We will be providing a Web-based chat client in the future.
