@@ -10,12 +10,19 @@ Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting| format page
 
 Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax cheat sheet] from Wikipedia.
 
+For help with  specific coding issues, see:
+* [[WPD:Style_Guide/Tables|Tables]]
+* [[WPD:Style_Guide/Lists|Lists]] 
+* [[WPD:Style_Guide/Gotchas|Common Gotchas for editors]]
+
 Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples Best Practices page]] to see guidelines when authoring pages with code examples.
 
 ***** [COMMENT:] Create a NEW Page that explains how we use the MediaWiki syntax that contains a list of all valid tags and macros for WPD pages. For example, using the tag &#60;subpages /&#62; to display list of sub pages.
 
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
+
+* WebPlatform.org uses the [http://styleguide.yahoo.com/ Yahoo Style Guide] 
 
 ===Create valid URLs for new pages===
 The first thing you need to do when creating new content is to choose an appropriate page URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy page]] to understand how content is organized and where your new page should be saved.
@@ -154,24 +161,6 @@ Different [[WPD:Manual Of Style/Article Types|types of articles]] have different
 
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
 
-===Use accepted wikitext syntax conventions===
-WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax that you should use when editing pages. This is the same wiki engine used by Wikipedia, and thus has the same basic coding characteristics. For general guidelines, see:
-* the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wikipedia Cheatsheet] or
-* the [http://www.mediawiki.org/wiki/Help:Formatting MediaWiki formatting guide]
-
-For help with some specific WPD coding issues, see:
-* [[WPD:Style_Guide/Tables|Tables]]
-* [[WPD:Style_Guide/Lists|Lists]] 
-* [[WPD:Style_Guide/Gotchas|Common Gotchas for WPD editors]]
-
-===Read the guidelines and best practices for editing the text===
-* http://docs.webplatform.org/wiki/WPD:Style_Guide 
-***** [COMMENT:] Delete Manual of Style and Style Manual, after resolving all links to Style_Guide page. http://docs.webplatform.org/wiki/WPD:Manual_Of_Style and http://docs.webplatform.org/wiki/WPD:Style_Manual. Move out sections: syntax, common terms, images, etc.
-===Read gotchas.===
-* http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas
-===Conform content to one style when editing===
-* WebPlatform.org uses the Yahoo Style Guide:
-** http://styleguide.yahoo.com/
 ===Find content that needs your review===
 * Review recently edited articles.
 ** http://docs.webplatform.org/wiki/Special:RecentChanges
