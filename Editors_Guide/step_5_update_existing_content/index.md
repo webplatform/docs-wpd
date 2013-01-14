@@ -17,7 +17,7 @@ WebPlatform.org is intended to be a repository of high quality, reliable, and ac
 
 <!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
 
-==URLs==
+===URLs===
 The first thing you need to do when adding new content is to decide the URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy]] page to understand how content is organized and where your new page should live.
 
 Next, go to the [[WPD:New_Page | New Page]] page to create your new page using one of the defined content page templates. When creating an article from the New Page page, bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
@@ -28,8 +28,8 @@ A few guidelines:
 *Do not use other punctuation, such as dashes or parentheses, in a URL. Really, don't.
 *Do not use articles (the, a, an) in URLs unless absolutely necessary.
 
-==Article titles==
-In the "Custom page title" form field, enter a descriptive title if it's different from the URL (it probably will be). 
+===Article titles===
+In the "Custom page title" form field, enter a descriptive title if it is different from the URL (it probably will be). 
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
@@ -45,22 +45,22 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 *Unicode characters in JavaScript files
 *Specifying fonts
 
-==Article summaries==
+===Article summaries===
 All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
 
-==Section headings==
+===Section headings===
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
 
-==Grammar and spelling conventions==
+===Grammar and spelling conventions===
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
 * Please do not use contractions. For example say "I am" compared to "I'm".  This makes translation better and makes good legibility.
 
-==Common terms==
+===Common terms===
 * Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
 * Use ''Web'' when it's a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
 * Use ''website'', not ''web site''. Strictly speaking, it's a two word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
 
-==Code syntax highlighting==
+===Code syntax highlighting===
 WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
 *Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
@@ -73,7 +73,7 @@ WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeS
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
-==Images==
+===Images===
 
 When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
 
@@ -91,7 +91,7 @@ When adding images to an article, you should think carefully about how big the i
 </li>
 </ul>
 
-==Quality principles==
+===Quality principles===
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
 * '''easy to use''': task oriented, accurate, complete
 * '''easy to understand''': clear, concrete, appropriate style
