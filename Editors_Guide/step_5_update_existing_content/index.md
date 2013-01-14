@@ -161,11 +161,3 @@ Use the relevant keywords for an article in the summary, and where possible and 
 Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
 
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
-
-===Find content that needs your review===
-* Review recently edited articles.
-** http://docs.webplatform.org/wiki/Special:RecentChanges
-***** [COMMENT:] Need to clean up older content on this page. Delete Things already done, Pages being worked on, and Completed pages, unless someone plans to keep updating these sections. 
-* Visit the Most Wanted Tasks page to find articles to fix.
-** http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks
-***** [COMMENT:] Used for DocSprints, and to point contributors to a specific task, if they don't have one in mind.
