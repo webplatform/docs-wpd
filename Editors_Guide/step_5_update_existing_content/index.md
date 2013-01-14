@@ -64,14 +64,14 @@ See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], wh
 * Please do not use contractions. For example say "I am" compared to "I'm".  This ensures that pages are translated more accurately and makes all pages easier to read.
 
 ===Standardize common terms===
-* Use ''Internet'' when it is a proper noun, such as, '''The Internet'''. Otherwise, use lower case, like this: '''Leveraging internet marketing to drive traffic.'''
-* Use ''Web'' when it is a proper noun, such as, '''Surfing the Web'''. Otherwise, use lower case, like this: '''CSS is a web-related topic.'''
-* Use ''website'' spelled as one word, not ''web site''. Strictly speaking, it is a two word, adjective-noun combination, but common use today (including the listing in the AP Stylebook) is to combine the words into a single noun.
+* Use Internet when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lower case, like this: Leverage internet marketing to drive site traffic.
+* Use Web when it is a proper noun, such as, Surfing the Web. Otherwise, use lower case, like this: CSS is a web-related topic.
+* Use website spelled as one word, not web site. Strictly speaking, it is a two word, adjective-noun combination, but common use today (including the listing in the AP Stylebook) is to combine the words into a single noun.
 
 ===Use the appropriate syntax highlighting when displaying code===
 WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines when authoring articles for this wiki:
 
-*Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
+*Use <code>&lt;syntaxhighlight&gt;</code> only for stand-alone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
 *<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
 *Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case&mdash;the SyntaxHighlight extension handles all the formatting.
@@ -81,25 +81,9 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
-===Add images===
+===Add images to illustrate concepts===
 
 Screenshots and illustrations greatly improve articles and pages posted on this wiki. See Step 7 of the Editor's Guide to learn how to prepare and upload image files and other assets. 
-
-When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
-
-<ul>
-  <li><p>Images should only be as large as required to display the content to be portrayed. To fit inside the content column on WPD, you should make them no larger than about 650 pixels wide. If an image absolutely needs to be much larger than this, you should display a thumbnail and then link it to a full size image somewhere else.</p></li>
-  <li><p>Please do not try to load images of several MB to WPD! If an image is really large in file size you should shrink it down first. If the image is something not very detailed like a line drawing, save it as a PNG 8 (most graphics packages have this option in their export settings.) If it is a lot more detailed, such as a browser screenshot or photograph, use a JPEG — 70% quality is sufficient for web use. You might also want to consider using a compression application like [[http://pmt.sourceforge.net/pngcrush/ PNG Crush]].</p></li>
-  <li><p>Images should be given an appropriate semantic filename, for example '''box-shadow-output.jpg''', not '''my-great-image.jpg''' or '''454654756-awesome.jpg'''.</p></li>
-  <li><p>To add alt text to images in Media Wiki, you use the option alt=my alt text. So for example:</p>
-
-<pre>[[Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet]]</pre>
-
-<p>Maps to</p>
-
-<pre><img src="cssbasic.png alt="Screenshot of the Opera browser showing an applied inline style sheet"></pre>
-</li>
-</ul>
 
 ===Quality principles===
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
