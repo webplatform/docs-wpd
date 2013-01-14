@@ -8,7 +8,7 @@
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2  of the Editor's Guide]] to learn how to ask questions online.
 ===Check for broken links===
-* [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace Identify pages that contain links to the existing document] and then update the links in those pages to use the new URL before creating or moving pages.
+* Before creating or moving pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL.
 
 ===Choose where to create the new page===
 * Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
