@@ -17,7 +17,7 @@ Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples Best Practice
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
 
-===Choosing correct URLs for new pages===
+===Create valid URLs for new pages===
 The first thing you need to do when creating new content is to choose an appropriate page URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy page]] to understand how content is organized and where your new page should be saved.
 
 Next, go to the [[WPD:New_Page | New Page page]] to create a new page using one of the defined content page templates. When creating an article from the New Page page, bear in mind that the text you enter in the path text box will become the URL for the new page, and that the URL need not match the visible page title. For example, a page with the URL: "eventsource_basics" can have an internal title: "Streaming updates with server-sent events". The goal is to keep URLs short, descriptive, and unique.
@@ -28,7 +28,7 @@ A few guidelines:
 *Do not use other punctuation, such as dashes or parentheses, in a URL. Really, do not - because punctuation in URLs causes site issues.
 *Do not use articles (the, a, an) in URLs unless absolutely necessary.
 
-===Using a good article title===
+===Add descriptive article titles===
 In the "Custom page title" form field, enter a descriptive title if it is different from the URL (it probably will be). 
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
@@ -45,36 +45,37 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 *Unicode characters in JavaScript files
 *Specifying fonts
 
-===Article summaries===
+===Enter helpful article summaries===
 All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
 
-===Section headings===
+===Use descriptive section headings===
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
+
 See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
-===Grammar and spelling conventions===
+===Edit content to follow grammar and spelling conventions===
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
 * Please do not use contractions. For example say "I am" compared to "I'm".  This makes translation better and makes good legibility.
 
-===Common terms===
+===Standardize common terms===
 * Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
 * Use ''Web'' when it's a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
 * Use ''website'', not ''web site''. Strictly speaking, it's a two word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
 
-===Code syntax highlighting===
-WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
+===Use the appropriate syntax highlighting when displaying code===
+WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines when authoring articles for this wiki:
 
 *Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
-*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
+*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
 *Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
-*There's no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
+*There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
 *Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code><br>This highlights the third line in your code snippet.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
-===Images===
+===Preparing and uploading images===
 
 When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
 
