@@ -61,7 +61,7 @@ Generally, follow the same guidelines as for article titles. Make your section h
 See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
 ===Avoid using contractions===
-* Please do not use contractions. For example say "I am" compared to "I'm".  This ensures that pages are translated more accurately and makes all pages easier to read.
+* Please do not use contractions. For example say "I am" compared to "I'm".  This ensures that pages are translated accurately and makes pages easier to read.
 
 ===Standardize common terms===
 * Use Internet when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lower case, like this: Leverage internet marketing to drive site traffic.
@@ -73,16 +73,15 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 
 *Use <code>&lt;syntaxhighlight&gt;</code> only for stand-alone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
-*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
+*The most common language notations you'll use are <code>html5</code>, <code>css</code>, and <code>javascript</code>. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to display proper syntax highlighting.
 *Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case&mdash;the SyntaxHighlight extension handles all the formatting.
-*There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
+*There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight handles that as well.
 *Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code><br>This highlights the third line in your code snippet.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code><br>Multiple options can even be mixed together.
 
 ===Add images to illustrate concepts===
-
 Screenshots and illustrations greatly improve articles and pages posted on this wiki. See [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets to complement articles. 
 
 ===Adhere to quality principles===
@@ -91,28 +90,28 @@ The book titled: [http://www.amazon.com/Developing-Quality-Technical-Information
 * '''Easy to understand''': Clear, concrete, and appropriate style
 * '''Easy to find''': Coherently organized, retrievable, and visually effective
 
-The following principles are chosen to help achieve high quality in the information presented on this website.
+The following principles guide our contributions to help achieve high quality in the information presented on this website.
 
 ===Ensure articles are vendor neutral===
-Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in major browsers.
+Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers.
 
 ===Author content using a neutral voice===
-With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
+With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that are first authored with a specific voice can be expected to morph over time.
 
 ===Present up-to-date information===
 Content should include recent details for using the most modern browsers and the newest web technologies to help web developers build sites.
 
 ===Tag pages with all applicable tags===
-Tags help users of the site find content that is relevant to them, which means that having comprehensive and complete tagging is important. This includes tags that clearly denote its standardization progress and implementation status.
+Tagging pages help users of the site find content that is relevant to them. A comprehensive and complete set of tags are important to improve discoverability of pages. When tagging, also include tags that clearly denote the content's standardization progress and implementation status.
 
 ===Include compatibility information===
-See [[Template:Style Compatibility Issue|Compatibility]] for a description of the best practices for formatting compatibility information.
+See the [[Template:Style Compatibility Issue|Compatibility page]] for a description of best practices to follow when formatting compatibility information.
 
 ===Provide complete documentation of API===
-API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in practice.
+API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects.
 
 ===Address relevant best practices===
-Authors are encouraged to address accessibility, internationalization, privacy, and security good practices.
+Address accessibility, internationalization, privacy, and security good practices in the articles you edit for this wiki.
 
 ===Include examples where appropriate===
 Examples help make articles more concrete and easier to understand.
@@ -124,10 +123,10 @@ It is particularly important that samples and example code follow best practices
 Include references to applicable standards, test suites, implementation reports, live demos, and other useful resources.
 
 ===Author accessible pages===
-Your content should be accessible according to WCAG 2.0 AA. Where there are questions about accessibility, contributors should seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
+Your content should be accessible according to WCAG 2.0 AA. If you have questions about accessibility, seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
 
 ===Publish content that is relevant to this wiki===
-Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site.
+Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site. If you are unsure, ask for advice on IRC, the mailing list, or the forum. See Step 2 of the Editor's Guide for more details.
 
 ===Omit comments and discussion===
 Relevant comments and discussion about the article should occur in the associated discussion page, not in the body of the article.
@@ -139,6 +138,6 @@ Strive to ensure separate pages do not substantially overlap content or topics, 
 Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines; do not overload pages with keywords.
 
 ===Include all relevant sections===
-Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
+Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should include all applicable sections.
 
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
