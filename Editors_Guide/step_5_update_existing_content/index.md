@@ -83,35 +83,32 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 
 ===Add images to illustrate concepts===
 
-Screenshots and illustrations greatly improve articles and pages posted on this wiki. See Step 7 of the Editor's Guide to learn how to prepare and upload image files and other assets. 
+Screenshots and illustrations greatly improve articles and pages posted on this wiki. See [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets to complement articles. 
 
-===Quality principles===
-[http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
-* '''Easy to use''': task oriented, accurate, complete
-* '''Easy to understand''': clear, concrete, appropriate style
-* '''Easy to find''': coherently organized, retrievable, visually effective
+===Adhere to quality principles===
+The book titled: [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
+* '''Easy to use''': Task oriented, accurate, and complete
+* '''Easy to understand''': Clear, concrete, and appropriate style
+* '''Easy to find''': Coherently organized, retrievable, and visually effective
 
 The following principles are chosen to help achieve high quality in the information presented on this website.
 
-===Free of spam===
-Spam makes it hard for readers to find what they are looking for, and should be removed as soon as possible.
-
-===Vendor neutral===
+===Ensure articles are vendor neutral===
 Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in major browsers.
 
-===Neutral voice===
+===Author content using a neutral voice===
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that begin with a specific voice can be expected to morph over time.
 
-===Up to date===
-Content should include any new details that may be useful for web developers.
+===Present up-to-date information===
+Content should include recent details for using the most modern browsers and the newest web technologies to help web developers build sites.
 
-===Tagged with all applicable tags===
+===Tag pages with all applicable tags===
 Tags help users of the site find content that is relevant to them, which means that having comprehensive and complete tagging is important. This includes tags that clearly denote its standardization progress and implementation status.
 
 ===Include compatibility information===
 See [[Template:Style Compatibility Issue|Compatibility]] for a description of the best practices for formatting compatibility information.
 
-===Complete documentation of API===
+===Provide complete documentation of API===
 API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in practice.
 
 ===Address relevant best practices===
@@ -123,13 +120,13 @@ Examples help make articles more concrete and easier to understand.
 ===Follow best practices for sample code===
 It is particularly important that samples and example code follow best practices (for example, including alt text for image tags), because example code is often copied by developers. In particular, be sure that sample code does not create security vulnerabilities.
 
-===Include citations and helpful links===
+===Add citations and helpful links===
 Include references to applicable standards, test suites, implementation reports, live demos, and other useful resources.
 
-===Accessible===
+===Author accessible pages===
 Your content should be accessible according to WCAG 2.0 AA. Where there are questions about accessibility, contributors should seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
 
-===Relevant to the site===
+===Publish content that is relevant to this wiki===
 Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site.
 
 ===Omit comments and discussion===
@@ -138,7 +135,7 @@ Relevant comments and discussion about the article should occur in the associate
 ===Avoid posting duplicate content===
 Strive to ensure separate pages do not substantially overlap content or topics, except when necessary to improve understanding and organization. 
 
-===Search engine optimization===
+===Promote search engine optimization===
 Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines; do not overload pages with keywords.
 
 ===Include all relevant sections===
