@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This page provides an overview of best practices to follow when authoring articles to help standardize the content presented. Follow these guidelines to choose proper page URLs, format code snippets, add titles and structure the content you are writing.  }}
 {{Basic Page}}
 ==Overview==
 This topic provides guidance for writing code and markup samples and snippets for documentation published to webplatform.org. It is meant to provide a quality bar for code samples and snippets, and to provide consistency of style across this documentation, not functionality. 
