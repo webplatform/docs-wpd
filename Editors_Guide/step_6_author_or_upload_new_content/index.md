@@ -12,12 +12,13 @@
 
 ===Choose where to create the new page===
 * Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
-* http://docs.webplatform.org/wiki/WPD:Architecture
+* See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
 ===Check features for cross browser compatibility===
-* Here are some good cross-compatibility resources:
-** http://caniuse.com/
-***** [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Getting_Started/Compatibility]
-** http://www.quirksmode.org/compatibility.html 
+* Review the following cross-compatibility online resources to learn which technologies are supported in which browsers:
+* [http://caniuse.com/ www.caniuse.com]
+* [http://www.quirksmode.org/compatibility.html Compatibility section on www.quirksmode.org]
+* To learn more about adding compatibility information to articles in the wiki, visit the [COMMENT:] [PULL CONTENT FROM: http://docs.webplatform.org/wiki/WPD:Getting_Started/Compatibility]
+
 ===Visit the New Page center, choose a type (Tutorial) and click Create===
 * http://docs.webplatform.org/wiki/WPD:New_Page
 * To author reference docs, create reference articles.
