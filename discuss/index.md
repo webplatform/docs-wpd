@@ -25,4 +25,4 @@ mIRC
 LimeChat
 Pidgin
 
-More can be found via [Wikipedia http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients] as well.
+More can be found via [http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients Wikipedia] as well.
