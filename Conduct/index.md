@@ -17,9 +17,11 @@ In general, the goal of webplatform.org is that the community shall be self-poli
 
 Throughout the webplatform site and related resources — including the Wiki, forums, chat, and other sections — we expect communication to be on topic, respectful and courteous at all times.
 
-The topic of the site is client-side web development, which is a very broad topic, but it gives some idea of what we're aiming at. We don't want to discourage any meaningful technology conversation and writing, but we would like to keep the site focused on this area to keep it manageable and maintainable.
+The topic of the site is documenting/educating about client-side web development, which is a very broad topic, but it gives some idea of what we're aiming at. We don't want to discourage any meaningful technology conversation and writing, but we would like to keep the site focused on this area to keep it manageable and maintainable.
 
-Therefore, if we start to see too much off-topic discussion, trivial/comedy banter, or other disruptive activity in any of our pages or communication mechanisms, we may lock down edits, remove editing privileges, politely ask the people involved to cut it out/take conversation to a more suitable venue, or even start banning users if the activity persists.
+We are not a tech support site for client-side web development, so people posting "help me fix my code" type questions will be politely be asked to move those questions over to a more appropriate forum, such as JavaScript or HTML IRC channels, or [http://stackoverflow.com/ stackoverflow].
+
+If we start to see too much off-topic discussion, trivial/comedy banter, or other disruptive activity in any of our pages or communication mechanisms, we may lock down edits, remove editing privileges, politely ask the people involved to cut it out/take conversation to a more suitable venue, or even start banning users if the activity persists.
 
 Instant bans will be put into effect on community members who:
 
