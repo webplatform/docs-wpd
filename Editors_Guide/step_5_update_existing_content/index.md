@@ -17,20 +17,18 @@ Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples Best Practice
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
 
-You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.
+===Choosing correct URLs for new pages===
+The first thing you need to do when creating new content is to choose an appropriate page URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy page]] to understand how content is organized and where your new page should be saved.
 
-===URLs===
-The first thing you need to do when adding new content is to decide the URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy]] page to understand how content is organized and where your new page should live.
-
-Next, go to the [[WPD:New_Page | New Page]] page to create your new page using one of the defined content page templates. When creating an article from the New Page page, bear in mind that what you enter in the path text box will be the URL for the new page, and that the URL need not be the visible page title. That is, a page whose URL is "eventsource_basics" can have an internal title of "Streaming updates with server-sent events". So keep URLs short, descriptive, and unique.
+Next, go to the [[WPD:New_Page | New Page page]] to create a new page using one of the defined content page templates. When creating an article from the New Page page, bear in mind that the text you enter in the path text box will become the URL for the new page, and that the URL need not match the visible page title. For example, a page with the URL: "eventsource_basics" can have an internal title: "Streaming updates with server-sent events". The goal is to keep URLs short, descriptive, and unique.
 
 A few guidelines:
 *Do not capitalize unless absolutely vital for syntax correctness. Thus, for an article about user media, you might enter "usermedia"; for an article specifically about the getUserMedia method, you might instead enter "getUserMedia".
 *Use blanks, not underscores, to separate words, as underscores are generated when the page is created. Thus for an article about the HTML5 audio tag, you might enter "audio tag"; the generated URL would be "audio_tag".
-*Do not use other punctuation, such as dashes or parentheses, in a URL. Really, don't.
+*Do not use other punctuation, such as dashes or parentheses, in a URL. Really, do not - because punctuation in URLs causes site issues.
 *Do not use articles (the, a, an) in URLs unless absolutely necessary.
 
-===Article titles===
+===Using a good article title===
 In the "Custom page title" form field, enter a descriptive title if it is different from the URL (it probably will be). 
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
@@ -52,6 +50,7 @@ All articles should fill in the article summary field. The contents of this fiel
 
 ===Section headings===
 Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
+See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
 ===Grammar and spelling conventions===
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
