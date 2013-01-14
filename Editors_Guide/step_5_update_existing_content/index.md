@@ -10,7 +10,7 @@ Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting| format page
 
 Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax cheat sheet] from Wikipedia.
 
-Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Best practices page]] to see guidelines when authoring.
+Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples Best Practices page]] to see guidelines when authoring pages with code examples.
 
 ***** [COMMENT:] Create a NEW Page that explains how we use the MediaWiki syntax that contains a list of all valid tags and macros for WPD pages. For example, using the tag &#60;subpages /&#62; to display list of sub pages.
 
