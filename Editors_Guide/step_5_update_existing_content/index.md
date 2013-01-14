@@ -15,7 +15,7 @@ Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
 
-<!--You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.-->
+You might also be interested in the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines]] page, which outlines the guidelines for specific sections of pages.
 
 ===URLs===
 The first thing you need to do when adding new content is to decide the URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy]] page to understand how content is organized and where your new page should live.
