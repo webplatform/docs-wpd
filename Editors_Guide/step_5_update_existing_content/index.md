@@ -17,7 +17,7 @@ For help with  specific coding issues, see:
 
 Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practices page]] to see guidelines when authoring pages with code examples.
 
-** [COMMENT:] Create a NEW Page that explains how we use the MediaWiki syntax that contains a list of all valid tags and macros for WPD pages. For example, using the tag &#60;subpages /&#62; to display list of sub pages.
+** [COMMENT:] Create a NEW Page that explains how we use the MediaWiki syntax that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag &#60;subpages /&#62; to display list of sub pages.
 
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
