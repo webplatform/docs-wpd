@@ -20,47 +20,61 @@ You can prepare images before uploading them by using an image-editing program o
 ===Save image files with descriptive names===
 After you make changes to the file's dimensions, you can use the image-editing program or online resource to save a copy of the file to your desktop. Avoid using generic file names, such as: image 04.png, screenshot.png, figure10.png, code.png.
 
-Name image files descriptively, like this:
+Name exported image files descriptively, like this:
 * chrome_prefs.png
 * box_model_diagram.png
 * color_adjusted_landscape.jpg
 * wiki_stewards_meeting.jpg
 
 ===Optimize image quality===  
-Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a maximum resolution of 72 ppi (pixels per inch), there is no need to upload files with a higher resolution; doing so simply takes up more space and causes files to take longer to load.
+Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a resolution of 72 ppi (pixels per inch), there is no need to upload files that have a higher resolution; doing so simply takes up more space and causes the files to take longer to load.
 
-When you export the edited file to create the version to be uploaded, you usually have several compression options available. Experiment with different file formats to determine which setting works best with your image's content. The goal is to create a PNG or JPG file with the smallest possible file size and minimal acceptable image quality, while ensuring that the dimensions (height and width) are just large enough to clearly see it. 
+When you export the edited file to create the version to be uploaded, you are usually presented with several compression options. Experiment with different file formats to determine which setting works best with your image's content. The goal is to create a PNG or JPG file with the smallest possible file size and minimal acceptable image quality, while ensuring that the dimensions (height and width) are just large enough to clearly see it. 
 
 Follow these guidelines:
 
-If the image you are uploading contains simple content with solid colors and minimal details (like a flow chart), it is usually best to save the file using the PNG 8 format. (Most image-editing programs offer this option in their export settings.) If the image is more detailed, such as a browser screenshot or photograph, save the file using the JPEG format with 70% quality. You can use an image compression application such as [[http://pmt.sourceforge.net/pngcrush/ PNG Crush]].</p></li>
-* Save images with appropriate semantic file names. For example, use '''box-shadow-output.jpg''', rather than '''my-great-image.jpg''' or '''454654756-awesome.jpg'''.
-* To add alt text to images in Media Wiki, you use the option alt=my alt text. So for example:
+*If the image you are uploading contains simple content with solid colors and minimal details (like a flow chart or screenshot), it is usually best to save the file using the PNG 8 format. 
 
-<pre>[[Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet]]</pre>
-
-<p>Maps to</p>
-
-<pre><img src="cssbasic.png alt="Screenshot of the Opera browser showing an applied inline style sheet"></pre>
-
+*If the image is photo-realistic, very detailed, or includes gradients, drop shadows, or continuous tones, (such as a digital  photograph), save the file using the JPEG format with 70% quality. 
 
 ===Online tools to optimize image files===
-* Optimize PNG image files and resize to a maximum width of 650px. Some popular optimizers are:
-** [http://www.pngoptimizer.com/ www.pngoptimizer.com]
+You can use an online image compression application, instead of using image-editing software installed on your machine, to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650px. 
 
-** [http://pixenate.com/ www.pixenate.com]
-
-
+Some popular optimizers are:
+* [http://www.pngoptimizer.com/ www.pngoptimizer.com]
+* [http://pixenate.com/ www.pixenate.com]
+* [http://pmt.sourceforge.net/pngcrush/ PNG Crush]].
 
 ===Use the Upload File page to upload the images.===
 * http://docs.webplatform.org/wiki/Special:Upload
 * Please do not try to load images of several MB to this wiki! If the dimensions of an image exceed 650 pixels wide, use an image-editing program to resize the image and save a smaller version. 
 
 ===Add the link to an uploaded image in the article draft.===
-* Enter the syntax to link the uploaded image file in the article: &#91;&#91;File:File.jpg&#93;&#93;
+* Enter the syntax to link the uploaded image file in the article: 
+&#91;&#91;Image:file_name.png|alt=Screenshot of the Opera browser showing an applied inline style sheet&#93;&#93;
 
-===Ensure accessibility===
-*Ensure accessibility of the images you upload and link, by adding alt text in articles to describe the visual content for screen readers.
+The part of the syntax that actually adds the link to the page is: 
+
+&#91;&#91;Image:file_name.png#93;&#93;
+
+Read the section on accessibility below to learn about the alternate text added to every image file you link. 
+
+{{Note| If you are linking to other file types (asset files other than images) in pages, use this syntax instead: 
+
+&#91;&#91;File:file_name.png#93;&#93;}}
+
+===Make pages accessible: Add alternate text (Alt tags) to images===
+When you add links to uploaded image files, it is very important to include alternate text in pages and articles. Alternate text is stored in the alt attribute of HTML image tags, and it is used to describe the visual content for screen readers. Alt tag text also displays in some browsers when a visitor hovers their cursor over an image - to offer a text description for the graphic.
+
+To add alt text to images in Media Wiki, include the |alt=my alternate text  syntax.
+
+For example, this line of code added to a page in the wiki:
+
+&#91;&#91;Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet#93;&#93;
+
+Is rendered by the browser as:
+
+&#60;img src="cssbasic.png alt="Screenshot of the Opera browser showing an applied inline style sheet"&#62;
 
 
 {{Notes_Section}}
