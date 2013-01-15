@@ -45,21 +45,29 @@ To see an example of a multiple row Compatibility Information table, check out t
 
 Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the table.
 
-==Compatibility Notes==
-There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that can't be covered just by yes/no/?? and a version number.  Just click "Add another" to insert a row.
+===Compatibility Notes===
+There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number. Just click "Add another" to insert a row.
 
-==Save your work==
-When you have completed your edits (or have simply done a significant piece of work which is not yet saved), enter a summary of your changes (if needed), check the box for a "minor edit" if you only tweaked existing info, click "Show preview" to review your work (recommended), and then click "Save page" to finish.
+===Save your work===
+After completing your edits on a page, enter a summary of your changes in the Summary field, check the box for a minor edit if you only tweaked existing information, click the Show preview button to review your work (recommended), and then click Save page button to save your changes.
 
-{{Note|If you have been editing for a while without saving, your session info might be stale, and ''your work will not be saved.''  You can tell because you get a warning message starting with "Sorry! We could not process your edit due to a loss of session data. Please try again...." (along with a deceptively updated preview of your unprocessed new version, and the edited source).  Most of the time, just resubmitting will work fine (the first attempt refreshes your session, so the second attempt goes through).}}
+{{Note|If you have been editing for a while without saving, your session information may be stale, and you may be presented with the following warning message:
 
-==Closure and exceptions==
-If you feel that the Compatibility Info is now complete (for both desktop and mobile browsers), you can uncheck the "Compatibility Incomplete" box in the Content section just below the page title (the checkbox is to the left of the text, at least in the English version).  
+'''Sorry! We could not process your edit due to a loss of session data. Please try again....''' (along with a deceptively updated preview of your unprocessed new version, and the edited source). 
 
-If you feel that no compatibility information is needed for this topic (it was on the list because it was checked by default), you can check the box immediately under the "Compatibility" section header, which indicates that this section is not needed (and so will not appear).  Be sure to uncheck the "Compatibility Incomplete" box near the top of the page, too, if needed.
+Most of the time, you can click the Save page button again. In most cases, simply resubmitting the form will work (because the first attempt refreshes your session, and the second attempt enables the submission to process).}}
 
-Your final summary (commit) comment should mention if you have changed the status, and you should be sure to mention any outstanding issues, items or questions, possibly with a <nowiki>{{TODO | [here is what is still missing, or where to look] }}</nowiki> tag somewhere on the page.
+===Add exceptions===
+If you feel that the Compatibility Information on a page is now complete (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title (the check box is to the left of the text in the English version).  
 
+If you feel that compatibility information is not needed for this topic (and the page was on the list because the template flags it as missing by default), you can check the box immediately under the "Compatibility" section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page.
+
+Your final summary (commit) comment should mention if you have changed the status of the compatibility information. 
+
+If you want to mention any outstanding issues, items or questions about the page, add the following tag on the page with a message:
+
+<nowiki>
+{{TODO | [This is a description of items still missing on this page.] }}</nowiki> 
 
 ===Get additional information about how templates work===
 This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
