@@ -12,8 +12,8 @@ When adding images to an article, there are many factors to consider. Specifical
 
 You can prepare images before uploading them by using an image-editing program or online editing tool to open the master file or screenshot, save a copy of the file, and then make the following changes:
 
-* Crop the image file. Images should only be as large as required to display the content to conveyed. 
-* Resize the image file to a maximum width of 650 pixels. 
+* Crop the image file. Images should only be as large as required to display the content to conveyed
+* Resize the image file to a maximum width of 650 pixels 
 
 {{Note| If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
@@ -56,7 +56,7 @@ After cropping, resizing, compressing, exporting, and renaming the image file, i
 
 {{Note| Please do not attempt to upload images that are several MB in file size to this wiki. Use an image-editing program or online image compression application to resize the image and create a smaller version. Reducing both the dimensions and quality of the image file will help you generate a smaller file size.}}
 
-If you have questions about a file you are trying to upload, see Step 2 to learn how to ask for help online.
+If you have questions about a file you are trying to upload, see [[WPD:Editors_Guide/step_2_communicate_with_the_online_community Step 2 of the Editor's Guide]] to learn how to ask for help online.
 
 ===Add the link to an uploaded image in the article draft===
 After you have uploaded the file to the wiki site, the last step involves adding a link to the file in the page you are editing or creating.
