@@ -1,33 +1,34 @@
+=Implementation patterns=
 Web Platform Docs is currently built on MediaWiki (the same piece of software that Wikipedia is built on) and makes extensive use of two extensions, Semantic MediaWiki (SMW) and Semantic Forms, to organize information in a structured way, help make sure that articles have a consistent organization, and make it easier for mere mortals to edit articles.
 
 This guide reviews a number of concepts related to these software packages, as well as how we use them to implement our organization on WPD, to help give the fledgling editor a good place to get started. This guide is ''not'' designed to be a comprehensive manual of style (we've already [[WPD:Manual_Of_Style|got one]]), but rather a guide to how all of these concepts are implemented.
 
-The vast majority of editors will only have to use the (relatively) easy-to-use forms that we've created. A small number of editors, however, may want to understand how we've wired everything together so they can help modify or add to the information structure. We'll cover those two classes of use in two sections.
+The vast majority of editors will only have to use the (relatively) easy-to-use New Page forms. A small number of you, however, may want to understand how everything is wired together so you can help modify or add to the information structure. 
 
 ==Normal Editing==
 
 ===Editing pages===
-If you're editing a page that's already been created, it's generally quite simple.
+If you are editing a page that has already been created, the process is generally quite simple.
 
-First, just make sure you're signed in. We've structured our content so that a number of editorial notes and action items are automatically hidden for logged-out users to avoid cluttering the interface. Logging in will display these for you.
+First, sign in. The content is structured our content so that a number of editorial notes and action items are automatically hidden for logged-out users to avoid cluttering the interface. Logging in will enable you to see these editorial notes.
 
 {{Note | This hiding of editorial notes for non-logged-in users is not yet implemented. Editorial notes show for both logged in and logged out users.}}
 
 Logging in will also give you edit access to articles. In normal MediaWiki, the '''Edit''' button would show you the raw source of the page. That still exists for us, but it's hidden behind a drop down and called '''Edit source'''. The reason is that you should be using the '''Edit''' button, which we've changed to bring you to the edit-with-form editing experience. That button will use Semantic Forms to present a structured form for you to fill in instead of trying to create the page structure yourself. If you were to click Edit Source, you'd see the raw template calls that make up the page. You'd also be able to wreak more havoc if you changed some of the markup.
 
-We've set up our templates so that we handle things like blank form fields in an appropriate way--something that would be hard to do without Semantic Forms.
+The templates are set up to handle things like blank form fields in an appropriate way--something that would be hard to do without Semantic Forms.
 
-===Creating New Pages===
+===Creating new pages===
 
 Different page types have different forms. This makes sense--a page on a CSS property will have a different structure than a page on a DOM method. When you create a brand new page, however, by default there's no form type assigned. Is it up to you to figure out the correct form type to use from the list presented and create the stub based on that form. We have a listing of all pages at [[WPD:New_Page]].
 
 It is important that you use the correct form, as that will control what form everyone ''else'' will see afterwards, and it requires some manually mucking in the source of the page to undo.
 
-===Using Templates===
+===Using templates===
 
 Templates are an incredibly important concept in MediaWiki, and we use them ''all'' the time. Unlike Semantic MediaWiki or Semantic Forms, Templates are a core feature of the base install of MediaWiki. They're complicated and powerful, but this section will tell you all you need to know to ''use'' them.
 
-====Basic Template Use====
+====Basic template use====
 
 Templates, at their simplest, are just automatic text substitution. When MediaWiki is converting a page's MediaWiki markup into HTML to display, when it encounters a template tag, it will simply replace that text with the content of the template.
 
@@ -37,28 +38,28 @@ In MediaWiki markup, templates look like this:
  {{TODO}}
 </syntaxhighlight>
 
-The double-curly brace is the way that you instantly know that you're dealing with a template.
+The double-curly brace is the way that you instantly know that you are dealing with a template.
 
 By default, templates all live in the Template namespace. If you see a template in the code and want to know how it works, open a new browser window and navigate to <nowiki>http://docs.webplatform.org/wiki/Template:Foo</nowiki>, where Foo is the template name you want to investigate. '''Note that underscores and spaces are exactly equivalent in page names and template names.'''
 
-Knowing this fact will help you dig into what's going wrong, or what a template does, if you don't know.
+Knowing this fact will help you dig into what is going wrong, or what a template does, if you don't know.
 
-There are some special template types; if you see something like
+There are some special template types; if you see something like this:
 
 <syntaxhighlight>
 {{#if: foo | first | second}}
 </syntaxhighlight>
 
-, that is, a # at the front, that's a special template that is built in, and thus does not have a Template: page.
+that is, a # at the front, that's a special template that is built in, and thus does not have a Template: page.
 
 ====Investigating how templates work====
 
-Again, templates are just like normal pages, except that when you invoke a template, their contents replace the template call (they're ''transcluded'').
+Again, templates are just like normal pages, except that when you invoke a template, their contents replace the template call (they are ''transcluded'').
 
 A template's definition page, by convention, gives a short overview of what the template is for and what arguments (see the next sub-section) it takes. However, at first glance it's hard to figure out how the template '''works'''. This is because many templates use <nowiki><includeonly> and <noinclude></nowiki> tags to control which pieces of the template are the real business end, and which pieces are just documentation. If you want to see how a template actually works, '''click the edit button to see the raw markup.'''
 
 ====Passing arguments to templates====
-Templates aren't very useful if they're just static text to use. That's where parameters come in. They're just like passing arguments to a method call.
+Templates are not very useful if they're just static text to use. That's where parameters come in. They are just like passing arguments to a method call.
 
 Arguments can be passed in two ways, depending on how the template is defined: positional parameters or named parameters.
 
@@ -77,7 +78,7 @@ Importantly, you '''can pass complicated MediaWiki markup as arguments''' to oth
 {{Note | One of the most common gotchas is if you use a pipe character (a {{!}}) in the parameter value. This will break many pages in hard-to-diagnose ways. Importantly, almost everything you fill into a form field when editing a page will be passed into a template, and thus should not include any unescaped pipes. Find out more at [[WPD:Manual_Of_Style/Gotchas]] }}
 
 ====How templates use parameters====
-This section isn't required to know how to use parameters, but may help in figuring out what a template's doing if you peek underneath the covers.
+This section is not required to know how to use parameters, but may help you figuring out what a template is doing if you peek underneath the covers.
 
 Inside of a template, it can use parameters with code like this: 
 <syntaxhighlight>
@@ -96,7 +97,7 @@ My title is {{{title | non-existent}}}.
 {{{message|}}}
 </syntaxhighlight>
 
-As you can see, it's a vertical pipe character after the parameter name. You can either provide a value or leave it totally blank like in the last example. If you leave it blank, sometimes it's hard to see--that's why I'm explaining it here.
+As you can see, it is a vertical pipe character after the parameter name. You can either provide a value or leave it totally blank like in the last example. If you leave it blank, sometimes it's hard to see--that's why I'm explaining it here.
 
 ====Common templates====
 
@@ -106,7 +107,7 @@ As you can see, it's a vertical pipe character after the parameter name. You can
 
 {{Note | You can find a more in-depth overview of how our work-horse templates are set up at [[WPD:Implementation_Patterns/Templates|the templates sub-page of this guide]].}}
 
-==Behind the Scenes==
+==Behind the scenes==
 
 '''There is ''no need'' to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.'''
 
