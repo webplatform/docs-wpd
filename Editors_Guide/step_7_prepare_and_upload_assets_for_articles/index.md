@@ -15,7 +15,7 @@ You can prepare images before uploading them by using an image editing program t
 * Crop the image file. Images should only be as large as required to display the content to conveyed. 
 * Resize the image file to a maximum of 650 pixels wide. 
 
-{{Note|Note: If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
+{{Note|: If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
 *Ensure accessibility of the images you upload and link, by adding alt text in articles to describe the visual content for screen readers.
 * Please do not try to load images of several MB to this wiki! If the dimensions of an image exceed 650 pixels wide, use an image-editing program to resize the image and save a smaller version. See the following image optimization section below for more information. 
