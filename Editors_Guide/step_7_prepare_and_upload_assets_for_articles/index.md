@@ -3,11 +3,11 @@
 {{Summary_Section|This is Step 7 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 7. Prepare and upload assets for articles==
-
+===Determining the ideal dimensions and quality settings for images===  
 When adding images to an article, there are many factors to consider. Specifically, take the time to consider:
 
-* The optimal dimensions of the image file (such as 300 pixels x 150 pixels)
-* The minimal acceptable quality of the image (which dictates the image's file size in KB) such as a JPG file with 70% quality
+* The optimal dimensions of the image file (such as 300 pixels wide x 150 pixels high)
+* The minimal acceptable quality of the image (which dictates the image's file size in KB) such as a JPG file set at 70% quality
 * The shortest, most descriptive file name to use
 
 You can prepare images before uploading them by using an image editing program to open the master file or screenshot, and then make the following changes:
@@ -17,7 +17,7 @@ You can prepare images before uploading them by using an image editing program t
 
 {{Note| If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
-*Ensure accessibility of the images you upload and link, by adding alt text in articles to describe the visual content for screen readers.
+
 * Please do not try to load images of several MB to this wiki! If the dimensions of an image exceed 650 pixels wide, use an image-editing program to resize the image and save a smaller version. See the following image optimization section below for more information. 
 
 ===Optimizing images===  
@@ -46,11 +46,17 @@ If the image you are uploading contains simple content with solid colors and min
 ===Name image file names descriptively.===
 * Right: chrome_prefs.png, drop_shadow.png, box_model_diagram.png
 * Wrong: image 04.png, screenshot.png, figure10.png, code.png
+
+
 ===Use the Upload File page to upload the images.===
 * http://docs.webplatform.org/wiki/Special:Upload
 ===Add the link to an uploaded image in the article draft.===
 * Enter the syntax to link the uploaded image file in the article: &#91;&#91;File:File.jpg&#93;&#93;
-</div>
+
+===Ensure accessibility===
+*Ensure accessibility of the images you upload and link, by adding alt text in articles to describe the visual content for screen readers.
+
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
