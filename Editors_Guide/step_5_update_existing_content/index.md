@@ -6,7 +6,7 @@
 ==Step 5. Update existing content==
 ===Become familiar with MediaWiki syntax conventions===
 
-Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting| format pages in the wiki].
+Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting format pages in the wiki].
 
 Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax cheat sheet] from Wikipedia.
 
