@@ -17,19 +17,19 @@ For help with  specific coding issues, see:
 
 Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practices page]] to see guidelines when authoring pages with code examples.
 
-** [COMMENT:] Create a NEW Page for this Editor's Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag &#60;subpages /&#62; to display list of sub pages. 
+** [COMMENT:] Need to create a NEW Page for this Editor's Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag &#60;subpages /&#62; to display a list of sub pages. Or find the link, if this page exists already.
 
 ===Follow the WebPlatform style guide===
-WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
+WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to the conventions outlined in this Editor's Guide. Articles that do not sufficiently adhere to the guidelines will be tagged with the relevant markers, and they may be deleted over time if they are not improved.
 
-* WebPlatform.org uses the [http://styleguide.yahoo.com/ Yahoo Style Guide] 
+* WebPlatform.org uses the [http://styleguide.yahoo.com/ Yahoo Style Guide].
 
 ===Ensure articles have descriptive article titles===
-In the "Custom page title" form field, enter a descriptive title if it is different from the URL (it probably will be). 
+After clicking the Edit button to access the editing interface, verify that there is a descriptive title in the Custom Page Title field. If not, enter a descriptive title that matches the content on the page. It is fine if the custom page title is different from the URL (it probably will be). 
 
-For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
+Article types should be consistently titled, each according to its content's primary information type. Pages should use a consistent titling scheme so that the author can accurately position the content in the information hierarchy and visitors can infer the content type from the custom title without having to read the entire page.
 
-Please follow these title conventions for specific article types:
+Follow these title conventions for specific article types:
 * Use gerunds (words ending in the -ing suffix) for articles with tutorial, task, procedure, and process content.
 ** Examples: 
 *** Using the <audio> tag
@@ -43,17 +43,17 @@ Please follow these title conventions for specific article types:
 *** Introduction to Flexbox
 *** The history of the Web
 
-Use capitals sparingly. Capitalize only the first word (sentence case); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization. Some correct examples:
+Use capitals sparingly. Capitalize only the first word (using sentence case). However, in situations when the title includes an abbreviation, a proper name, or camel case, the title should use the normal capitalization, like this:
 *Style manual
 *The CSS layout model
 *Unicode characters in JavaScript files
 *Specifying fonts
 
 ===Enter helpful article summaries===
-All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
+All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page.
 
-===Use descriptive section headings===
-Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
+===Update Use descriptive section headings===
+Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what is in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like: Web standards rock or What is localStorage?
 
 See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
