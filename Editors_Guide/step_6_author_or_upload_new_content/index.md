@@ -4,7 +4,14 @@
 {{Basic Page}}
 ==Step 6. Author or upload new content==
 ===Determine if your content is appropriate to add to this wiki===
-* Refer to the [[WPD:Style_Guide|Style Guide page]] to learn about the goals of WebPlatform.org and review the different content types.
+* http://docs.webplatform.org/wiki/WPD:New_Page
+* To author reference docs, create reference articles.
+** http://docs.webplatform.org/wiki/WPD:Content/Reference_articles
+** http://docs.webplatform.org/wiki/WPD:Creating_API_pages
+* To author tutorials and concept articles follow the guidelines.
+** http://docs.webplatform.org/wiki/WPD:Content/Tutorials_and_concept_articles 
+
+Refer to the [[WPD:Style_Guide|Style Guide page]] to learn about the goals of WebPlatform.org and review the different content types.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions about asking questions online.
 ===Author new content using the correct site formatting and standards=== 
@@ -55,10 +62,5 @@ Your final summary (commit) comment should mention if you have changed the statu
 
 
 ===Visit the New Page center, choose a type (Tutorial) and click Create===
-* http://docs.webplatform.org/wiki/WPD:New_Page
-* To author reference docs, create reference articles.
-** http://docs.webplatform.org/wiki/WPD:Content/Reference_articles
-** http://docs.webplatform.org/wiki/WPD:Creating_API_pages
-* To author tutorials and concept articles follow the guidelines.
-** http://docs.webplatform.org/wiki/WPD:Content/Tutorials_and_concept_articles
-** http://docs.webplatform.org/wiki/WPD:Implementation_Patterns
+
+** If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns Implementation page]].
