@@ -50,7 +50,7 @@ Some popular online image optimizers are:
 ===Upload the image asset files===
 After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, the next step involves uploading it:
 
-* Visit the [[http://docs.webplatform.org/wiki/Special:Upload Upload File page]
+* Visit the [http://docs.webplatform.org/wiki/Special:Upload Upload File page]
 * Browse to select the optimized image file on your desktop
 * Enter a short description that summarizes the uploaded file and its usage
 
@@ -90,7 +90,7 @@ Is rendered by the browser as:
 
 {{Notes_Section}}
 {{Topics}}
-{{External_Attribution
+{{External_Attribution}}
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
