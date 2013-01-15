@@ -61,6 +61,9 @@ Additional rows should be sorted by name.  Use the drag handles to the right of 
 
 There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number.
 
+===Topics and topic clusters===
+[under construction]
+
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
 
@@ -89,3 +92,11 @@ If you want to mention any outstanding issues, items or questions about the page
 ===Get additional information about how templates work===
 This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
 * If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
