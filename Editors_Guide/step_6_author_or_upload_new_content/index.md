@@ -61,6 +61,6 @@ If you feel that no compatibility information is needed for this topic (it was o
 Your final summary (commit) comment should mention if you have changed the status, and you should be sure to mention any outstanding issues, items or questions, possibly with a <nowiki>{{TODO | [here is what is still missing, or where to look] }}</nowiki> tag somewhere on the page.
 
 
-===Visit the New Page center, choose a type (Tutorial) and click Create===
-
-** If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+===Get additional information about how templates work===
+This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details of how templates work. 
+* If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
