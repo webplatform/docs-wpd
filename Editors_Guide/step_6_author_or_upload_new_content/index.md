@@ -62,5 +62,5 @@ Your final summary (commit) comment should mention if you have changed the statu
 
 
 ===Get additional information about how templates work===
-This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details of how templates work. 
-* If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
+* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
