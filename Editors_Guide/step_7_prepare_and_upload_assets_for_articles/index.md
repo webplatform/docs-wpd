@@ -27,9 +27,9 @@ Name image files descriptively, like this:
 * wiki_stewards_meeting.jpg
 
 ===Optimize images===  
-Using an image-editing program, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since screens have a maximum resolution of 72 dpi, there is no need to upload files with a higher resolution; doing so simply takes up more space and causes files to take longer to load.
+Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a maximum resolution of 72 ppi (pixels per inch), there is no need to upload files with a higher resolution; doing so simply takes up more space and causes files to take longer to load.
 
-When you export the edited file to generate the version to be uploaded, you usually have several compression options available in the image-editing program. Experiment with different file formats to determine which setting works best with the image content. The goal is to create a PNG or JPG file with the smallest possible file size and acceptable quality, while ensuring that the image is large enough (height and width) to clearly see it. 
+When you export the edited file to create the version to be uploaded, you usually have several compression options available. Experiment with different file formats to determine which setting works best with your image's content. The goal is to create a PNG or JPG file with the smallest possible file size and minimal acceptable quality, while ensuring that the image is just large enough (height and width) to clearly see it. 
 
 Follow these guidelines:
 
