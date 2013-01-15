@@ -5,7 +5,7 @@
 ==Step 4. Review existing content==
 ===Add comments to sections===
 * Add a comment by hovering your mouse over the relevant section heading and clicking the Add comment text that appears. Posting comments on specific article sections helps others see exactly what needs to be fixed.
-[[File:add_comment.png]]
+[[File:add_comment.png|alt:Screenshot of the Add Comment interface]]
 ===Flag issues to identify pages with broken links, spelling, product bias, and other problems===
 * Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 [[File:edit_interface.png]]
