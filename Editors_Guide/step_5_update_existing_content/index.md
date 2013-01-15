@@ -52,13 +52,26 @@ Use capitals sparingly. Capitalize only the first word (using sentence case). Ho
 ===Enter helpful article summaries===
 All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page.
 
-===Update Use descriptive section headings===
-Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what is in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like: Web standards rock or What is localStorage?
+===Update section headings to be descriptive and strong ===
+Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
+*Web standards rock 
+*Develop well-formed pages 
+*Leveraging localStorage
+*Populating attributes dynamically
 
 See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
 
 ===Avoid using contractions===
-* Please do not use contractions. For example say "I am" compared to "I'm".  This ensures that pages are translated accurately and makes pages easier to read.
+* Please do not use contractions. For example, use the phrase: do not, instead of writing: don't. This ensures that pages can be translated accurately. It also makes pages easier to read if English is not a reader's primary language.
+
+===Use standard US English spellings===
+WebPlatform.org uses the general US English classification. Standardizing this type of spelling is useful because English words that appear in code syntax are also spelled in US English. Consistently spelling words in both syntax and other wording helps reduce confusion. When updating an article, use the US English spellings, like this:
+*Color
+*Customize
+*Inquiry
+Edit UK spellings that you find for colour, customise, enquiry, and other variations that do not match the code syntax.
+
+
 
 ===Standardize common terms===
 * Use Internet when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lower case, like this: Leverage internet marketing to drive site traffic.
