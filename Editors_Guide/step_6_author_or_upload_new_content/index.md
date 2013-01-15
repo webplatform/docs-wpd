@@ -64,7 +64,7 @@ There is a third table in the compatibility section for Compatibility Notes.  Us
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
 
-If you are editing or authoring a page and you feel that compatibility information is not needed (and the page was on the list because the template flags compatibility as missing by default), you can check the box immediately under the "Compatibility" section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page as described above.
+If you are editing or authoring a page and you feel that compatibility information is not needed (and the page is currently [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= listed as a page with missing compatibility information] because the template flags compatibility as missing by default), you can check the box immediately under the Compatibility section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page as described above.
 
 Your final summary (commit) comment should mention if you have changed the status of the compatibility information. 
 
