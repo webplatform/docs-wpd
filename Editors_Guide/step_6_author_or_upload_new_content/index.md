@@ -4,6 +4,7 @@
 {{Basic Page}}
 ==Step 6. Author or upload new content==
 ===Determine if your content is appropriate to add to this wiki===
+* Use the [http://docs.webplatform.org/w/index.php?title=Special:Search Advanced Search page] to verify that the topic does not already exist. 
 * Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars governing WebPlatform.org.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find out how to ask questions online.
