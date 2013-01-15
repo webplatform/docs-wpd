@@ -117,7 +117,7 @@ Content should include recent details for using the most modern browsers and the
 Tagging pages help users of the site find content that is relevant to them. A comprehensive and complete set of tags are important to improve discoverability of pages. When tagging, also include tags that clearly denote the content's standardization progress and implementation status.
 
 ===Include compatibility information===
-See the [[Template:Style Compatibility Issue|Compatibility page]] for a description of best practices to follow when formatting compatibility information.
+See [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide] to learn best practices when providing compatibility information. Many existing pages are missing the compatibility details in the compatibility tables included with the templates. Researching online and updating compatibility tables, as well as flagging pages to mark issues, is a great way to get started contributing to this wiki. 
 
 ===Provide complete documentation of API===
 API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects.
