@@ -4,7 +4,7 @@
 {{Basic Page}}
 ==Step 6. Author or upload new content==
 ===Determine if your content is appropriate to add to this wiki===
-* Refer to the [[WPD:Style_Guide|Style Guide]] to learn about the goals of WebPlatform.org and review the different content types.
+* Refer to the [[WPD:Style_Guide|Style Guide page]] to learn about the goals of WebPlatform.org and review the different content types.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions about asking questions online.
 ===Author new content using the correct site formatting and standards=== 
