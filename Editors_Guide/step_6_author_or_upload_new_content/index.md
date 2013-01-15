@@ -36,7 +36,7 @@ For example, a page with the URL: eventsource_basics can have an internal title:
 ===Check features for cross browser compatibility===
 Compatibility tables provide details about which CSS, HTML, and JavaScript  features and APIs are supported by which browsers, itemized by browser version. These tables are built into the templates with the header: Compatibility (with separate sections for desktop and mobile). Here is a screenshot of a compatibility table:
 
-[[File:compatibility_table.png]]
+[[Image:compatibility_table.png|alt=Screenshot of a compatibility table.]]
 
 The tables are automatically flagged as incomplete, which causes them appear on dynamic [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information].
 
