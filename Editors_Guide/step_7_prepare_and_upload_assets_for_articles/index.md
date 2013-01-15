@@ -13,7 +13,7 @@ When adding images to an article, there are many factors to consider. Specifical
 You can prepare images before uploading them by using an image-editing program or online editing tool to open the master file or screenshot, save a copy of the file, and then make the following changes:
 
 * Crop the image file. Images should only be as large as required to display the content to conveyed. 
-* Resize the image file to a maximum of 650 pixels wide. 
+* Resize the image file to a maximum width of 650 pixels. 
 
 {{Note| If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
@@ -26,10 +26,10 @@ Name image files descriptively, like this:
 * color_adjusted_landscape.jpg
 * wiki_stewards_meeting.jpg
 
-===Optimize images===  
+===Optimize image quality===  
 Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a maximum resolution of 72 ppi (pixels per inch), there is no need to upload files with a higher resolution; doing so simply takes up more space and causes files to take longer to load.
 
-When you export the edited file to create the version to be uploaded, you usually have several compression options available. Experiment with different file formats to determine which setting works best with your image's content. The goal is to create a PNG or JPG file with the smallest possible file size and minimal acceptable quality, while ensuring that the image is just large enough (height and width) to clearly see it. 
+When you export the edited file to create the version to be uploaded, you usually have several compression options available. Experiment with different file formats to determine which setting works best with your image's content. The goal is to create a PNG or JPG file with the smallest possible file size and minimal acceptable image quality, while ensuring that the dimensions (height and width) are just large enough to clearly see it. 
 
 Follow these guidelines:
 
