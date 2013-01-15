@@ -6,9 +6,9 @@
 
 When adding images to an article, there are many factors to consider. Specifically, take the time to consider:
 
-* the optimal dimensions of the image file (such as 300 pixels x 150 pixels)
-* the minimal acceptable quality of the image (which dictates the image's file size in KB) such as a JPG file with 70% quality
-* the shortest, most descriptive file name to use
+* The optimal dimensions of the image file (such as 300 pixels x 150 pixels)
+* The minimal acceptable quality of the image (which dictates the image's file size in KB) such as a JPG file with 70% quality
+* The shortest, most descriptive file name to use
 
 You can prepare images before uploading them by using an image editing program to open the master file or screenshot, and then make the following changes:
 
