@@ -40,23 +40,23 @@ Follow these guidelines:
 *If the image is photo-realistic, very detailed, or includes gradients, drop shadows, or continuous tones, (such as a digital  photograph), save the file using the JPEG format with 70% quality. 
 
 ===Online tools helpful for optimizing image files===
-If you prefer, you can use an online image compression application (instead of using image-editing software installed on your machine) to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650px. 
+If you prefer, you can use an online image compression application (instead of using image-editing software installed on your machine) to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650 pixels. 
 
 Some popular online image optimizers are:
 * [http://www.pngoptimizer.com/ PNG Optimizer]
 * [http://pixenate.com/ Pixenate]
 * [http://pmt.sourceforge.net/pngcrush/ PNG Crush]
 
-===Use the Upload File page to upload the images.===
+===Upload the image asset files===
 After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, the next step involves uploading it:
 
 * Visit the [[http://docs.webplatform.org/wiki/Special:Upload Upload File page]
 * Browse to select the optimized image file on your desktop
 * Enter a short description that summarizes the uploaded file and its usage
 
-{{Note| Please do not attempt to upload images that are several MB in file size to this wiki. Use an image-editing program or online image compression application to resize the image and create a smaller version. Reducing both the dimensions and quality of the image file will help you generate a smaller file size.}}
+{{Note| Please do not attempt to upload files that are several MB in file size to this wiki. Use an image-editing program or online image compression application to resize the image and create a smaller version. Reducing both the dimensions and quality of the image file will help you generate a smaller file size.}}
 
-If you have questions about a file you are trying to upload, see [[WPD:Editors_Guide/step_2_communicate_with_the_online_community Step 2 of the Editor's Guide]] to learn how to ask for help online.
+If you have questions about a file you are trying to upload, see [[WPD:Editors_Guide/step_2_communicate_with_the_online_community |Step 2 of the Editor's Guide]] to learn how to ask for help online.
 
 ===Add the link to an uploaded image in the article draft===
 After you have uploaded the file to the wiki site, the last step involves adding a link to the file in the page you are editing or creating.
@@ -66,7 +66,7 @@ After you have uploaded the file to the wiki site, the last step involves adding
 
 The part of the syntax that actually adds the link to the page is: 
 
-&#91;&#91;Image:file_name.png#93;&#93;
+&#91;&#91;Image:file_name.png&#93;&#93;
 
 Read the section on accessibility below to learn about the alternate text added to every image file you link. 
 
