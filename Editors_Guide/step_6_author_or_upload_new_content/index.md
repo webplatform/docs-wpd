@@ -7,8 +7,8 @@
 * Refer to the [[WPD:Style_Guide|Style Guide]] to learn about the goals of WebPlatform.org and review the different content types.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions about asking questions online.
-
-* Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn the correct wiki syntax and style guide to use when authoring new pages.
+===Author new content using the correct site formatting and standards=== 
+* Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax and adhere to the language guidelines outlined in the style guide.
 ===Check for broken links===
 * Before creating or moving pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL.
 
