@@ -16,7 +16,7 @@ Our public mailing list, [mailto:public-webplatform@w3.org public-webplatform@w3
 
 ==Q&A==
 
-Please visit our [http://talk.webplatform.org/forums/ Q&A page]
+Please visit our [http://talk.webplatform.org/forums/ Q&A page].
 
 This is a Q&A forum where you can post questions and get them answered by other members of the community. You can get questions voted up and down so they will appear higher or lower in the answer list depending on how popular they are, so keep discussions high quality and on topic.
 
