@@ -12,7 +12,7 @@
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
 ===Create a new page in the wiki===
 * In most cases, you can use the form on the [[WPD:New_Page| New Page page]].
-* If you are authoring tutorials and concept articles, follow the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept article page]].
+* If you are authoring tutorials and concept articles, follow the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept articles page]].
 * If you are authoring reference documentation, see the [[WPD:Content/Reference_articles | Reference articles page]].
 * If you are authoring API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]].
 ===Check for broken links===
