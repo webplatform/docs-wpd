@@ -22,7 +22,7 @@
 * Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
 * See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
 ===Check features for cross browser compatibility===
-Compatibility Information tables provide details about which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, by version. These tables are built into the templates with the header: Browser Compatibility (with separate tabs for desktop and mobile). Here is an example of a Compatibility Information table:
+Compatibility tables provide details about which CSS, HTML, and JavaScript  features and APIs are supported by which browsers, itemized by browser version. These tables are built into the templates with the header: Compatibility (with separate sections for desktop and mobile). Here is a screenshot of a compatibility table:
 
 [[File:compatibility_table.png]]
 
