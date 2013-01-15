@@ -127,6 +127,11 @@ Strive to ensure separate pages do not substantially overlap content or topics, 
 Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines; do not overload pages with keywords.
 
 ===Include all relevant sections===
-Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should include all applicable sections.
+* If you are editing tutorials and concept articles, follow the guidelines in the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept articles page]].
+* If you are editing reference documentation, see the rules in the [[WPD:Content/Reference_articles | Reference articles page]].
+* If you are updating API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]] to learn more.
 
+Different types of articles have different types of sections. For an article to be considered to be high quality, it should include all applicable sections.
+
+===Participate in the conversation about formatting and styling wiki pages===
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
