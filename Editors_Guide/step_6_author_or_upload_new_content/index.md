@@ -24,7 +24,7 @@
 ===Check features for cross browser compatibility===
 Compatibility Information tables provide details about which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, by version. These tables are built into the templates with the header: Browser Compatibility (with separate tabs for desktop and mobile). Here is an example of a Compatibility Information table:
 
-[[File:compatibility_table.png]] 
+[[File:compatibility_table.png]]
 
 The tables are automatically flagged as incomplete, which causes them appear on dynamic [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information].
 
