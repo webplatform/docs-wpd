@@ -17,10 +17,15 @@
 * If you are authoring reference documentation, see the [[WPD:Content/Reference_articles | Reference articles page]].
 * If you are authoring API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]].
 
+===Choose where to create the new page===
+* Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
+* See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
+* If you are not sure which section to create the new page, see [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to learn how to ask for guidance.
 ===Create valid URLs for new pages===
-The first thing to do when creating new content is to choose an appropriate page URL. Consult the [[WPD:Content/Topic_Hierarchy | Topic hierarchy page]] to understand how content is organized and determine where your new page fits into the site structure.
+Next, go to the [[WPD:New_Page | New Page page]] and create a new page using one of the defined content page templates. When you create pages, remember that the text you enter in the path text box becomes the URL for the new page. Also note that the page URL does not need to match the visible page title. 
 
-Next, go to the [[WPD:New_Page | New Page page]] and create a new page using one of the defined content page templates. When creating an article from the New Page page, bear in mind that the text you enter in the path text box will become the URL for the new page, and that the URL does not need to match the visible page title. For example, a page with the URL: eventsource_basics can have an internal title: Streaming updates with server-sent events. The goal is to keep URLs short, descriptive, and unique.
+For example, a page with the URL: eventsource_basics can have an internal title: Streaming updates with server-sent events. The goal is to keep URLs short, descriptive, and unique.
+
 *Do not capitalize words in a URL unless absolutely vital for syntax correctness. For example, if you are authoring an article about user media, you can enter: usermedia; for an article specifically about the getUserMedia method, you might instead enter: getUserMedia.
 *Use spaces, not underscores, to separate words in a URL, because underscores are generated automatically in place of spaces when the page is created. For example, if you are creating a new article about the HTML5 audio tag, you can enter: audio tag and the generated URL will be: audio_tag.
 *Do not use other punctuation, such as dashes or parentheses, in a URL. This is especially important because adding punctuation in URLs causes major site issues.
@@ -28,9 +33,6 @@ Next, go to the [[WPD:New_Page | New Page page]] and create a new page using one
 ===Check for broken links===
 * Before moving existing pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL you have just created.
 
-===Choose where to create the new page===
-* Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
-* See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
 ===Check features for cross browser compatibility===
 Compatibility tables provide details about which CSS, HTML, and JavaScript  features and APIs are supported by which browsers, itemized by browser version. These tables are built into the templates with the header: Compatibility (with separate sections for desktop and mobile). Here is a screenshot of a compatibility table:
 
