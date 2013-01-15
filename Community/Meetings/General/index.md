@@ -27,7 +27,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
-==Agenda 2013-01-03==
+==Agenda 2013-01-10==
 
 * Roll call
 * Review of open action items
