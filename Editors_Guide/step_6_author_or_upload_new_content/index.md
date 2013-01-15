@@ -4,9 +4,9 @@
 {{Basic Page}}
 ==Step 6. Author or upload new content==
 ===Determine if your content is appropriate to add to this wiki===
-* Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars of WebPlatform.org.
+* Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars governing WebPlatform.org.
 ===Let the team know that you are adding new content=== 
-* See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions to ask questions online.
+* See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find out how to ask questions online.
 ===Author new content using the correct site formatting and standards=== 
 * Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax.
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
@@ -22,16 +22,20 @@
 * Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
 * See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
 ===Check features for cross browser compatibility===
-* Review the following cross-compatibility online resources to learn which technologies are supported in which browsers:
-* [http://caniuse.com/ www.caniuse.com]
-* [http://www.quirksmode.org/compatibility.html Compatibility section on www.quirksmode.org]
-* [http://developer.mozilla.org Mozilla Developer Network site]
+Compatibility Information tables provide details about which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, by version. These tables are built into the templates with the header: Browser Compatibility (with separate tabs for desktop and mobile). Here is an example of a Compatibility Information table:
 
-The Compatibility Information tables provide details about which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, by version. These tables are built into the templates with the header: Browser Compatibility (with separate tabs for desktop and mobile). The tables are automatically flagged as incomplete, which causes them appear on dynamic [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information].
+[[File:compatibility_table.png]] 
+
+The tables are automatically flagged as incomplete, which causes them appear on dynamic [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information].
 
 For the purposes of this site, the support for a technology in modern browsers is most important. If a property was supported in IE 4 or Safari 1, it is not as critical as stating compatibility with the most recent browser versions. 
 
 For each item, note which browser version was the first to provide complete support.  If only partial support is currently provided, note that by adding the word (partial) after the version number.
+
+* Review the following cross-compatibility online resources to learn which technologies are supported in which browsers:
+* [http://caniuse.com/ www.caniuse.com]
+* [http://www.quirksmode.org/compatibility.html Compatibility section on www.quirksmode.org]
+* [http://developer.mozilla.org Mozilla Developer Network site]
 
 Mozilla Developer Network has agreed to allow contributors to copy the basic facts (browser version numbers, yes/no/partial on support) without attribution. When researching compatibility facts on other online resources, be sure to  follow the [http://docs.webplatform.org/wiki/WPD:External_Attribution Attribution guidelines].
 
