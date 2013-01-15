@@ -86,9 +86,10 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 *There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight handles that as well.
 *Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code>
-This highlights the third line in your code snippet.
+*This highlights the third line in your code snippet.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code>
-<code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code>This highlights a range of lines or multiple lines specified one by one.
+**<code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code>T
+*This highlights a range of lines or multiple lines specified one by one.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code>
 Multiple options can even be mixed together.
 
