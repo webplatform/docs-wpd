@@ -45,17 +45,24 @@ If you prefer, you can use an online image compression application (instead of u
 Some popular online image optimizers are:
 * [http://www.pngoptimizer.com/ PNG Optimizer]
 * [http://pixenate.com/ Pixenate]
-* [http://pmt.sourceforge.net/pngcrush/ PNG Crush]]
+* [http://pmt.sourceforge.net/pngcrush/ PNG Crush]
 
 ===Use the Upload File page to upload the images.===
-After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, follow these steps to upload it:
+After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, the next step involves uploading it:
 
-* http://docs.webplatform.org/wiki/Special:Upload
-* Please do not try to load images of several MB to this wiki! If the dimensions of an image exceed 650 pixels wide, use an image-editing program to resize the image and save a smaller version. 
+* Visit the [[http://docs.webplatform.org/wiki/Special:Upload Upload File page]
+* Browse to select the optimized image file on your desktop
+* Enter a short description that summarizes the uploaded file and its usage
 
-===Add the link to an uploaded image in the article draft.===
-* Enter the syntax to link the uploaded image file in the article: 
-&#91;&#91;Image:file_name.png|alt=Screenshot of the Opera browser showing an applied inline style sheet&#93;&#93;
+{{Note| Please do not attempt to upload images that are several MB in file size to this wiki. Use an image-editing program or online image compression application to resize the image and create a smaller version. Reducing both the dimensions and quality of the image file will help you generate a smaller file size.}}
+
+If you have questions about a file you are trying to upload, see Step 2 to learn how to ask for help online.
+
+===Add the link to an uploaded image in the article draft===
+After you have uploaded the file to the wiki site, the last step involves adding a link to the file in the page you are editing or creating.
+
+* Enter the syntax to link the uploaded image file in the article, like this: 
+&#91;&#91;Image:file_name.png|alt=Screenshot of the element rendered in Opera browser&#93;&#93;
 
 The part of the syntax that actually adds the link to the page is: 
 
@@ -65,7 +72,7 @@ Read the section on accessibility below to learn about the alternate text added 
 
 {{Note| If you are linking to other file types (asset files other than images) in pages, use this syntax instead: 
 
-&#91;&#91;File:file_name.png#93;&#93;}}
+&#91;&#91;File:file_name.png&#93;&#93;}}
 
 ===Make pages accessible: Add alternate text (Alt tags) to images===
 When you add links to uploaded image files, it is very important to include alternate text in pages and articles. Alternate text is stored in the alt attribute of HTML image tags, and it is used to describe the visual content for screen readers. Alt tag text also displays in some browsers when a visitor hovers their cursor over an image - to offer a text description for the graphic.
