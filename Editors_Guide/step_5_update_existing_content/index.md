@@ -73,8 +73,8 @@ Edit UK spellings that you find for colour, customise, enquiry, and other spelli
 
 ===Standardize common terms===
 * Use Internet when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lower case, like this: Leverage internet marketing to drive site traffic.
-* Use Web when it is a proper noun, such as, Surfing the Web. Otherwise, use lower case, like this: CSS is a web-related topic.
-* Use website spelled as one word, not web site. Strictly speaking, it is a two word, adjective-noun combination, but common use today (including the listing in the AP Stylebook) is to combine the words into a single noun.
+* Use Web when it is a proper noun, such as: Surfing the Web. Otherwise, use lower case, like this: CSS is a web-related topic.
+* Spell website as one word, not: web site. Strictly speaking, it is a two word, adjective-noun combination, but the common use today (including the listing in the AP Stylebook) combines the words into a single noun.
 
 ===Use the appropriate syntax highlighting when displaying code===
 WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines when authoring articles for this wiki:
