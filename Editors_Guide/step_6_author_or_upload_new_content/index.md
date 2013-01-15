@@ -63,4 +63,4 @@ Your final summary (commit) comment should mention if you have changed the statu
 
 ===Visit the New Page center, choose a type (Tutorial) and click Create===
 
-** If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns Implementation page]].
+** If you want to delve into how the templates work and learn how the wiki works behind the scenes, check out the [[WPD:Implementation_Patterns| Implementation page]].
