@@ -52,7 +52,7 @@ After cropping, resizing, compressing, exporting, and renaming the image file, i
 
 * Visit the [http://docs.webplatform.org/wiki/Special:Upload Upload File page]
 * Browse to select the optimized image file on your desktop
-* Enter a short description that summarizes the uploaded file and its usage
+* Enter a short summary in the File Description section about the uploaded file 
 
 {{Note| Please do not attempt to upload files that are several MB in file size to this wiki. Use an image-editing program or online image compression application to resize the image and create a smaller version. Reducing both the dimensions and quality of the image file will help you generate a smaller file size.}}
 
