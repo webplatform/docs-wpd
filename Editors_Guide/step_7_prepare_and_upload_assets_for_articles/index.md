@@ -68,7 +68,11 @@ The part of the syntax that actually adds the link to the page is:
 
 &#91;&#91;Image:file_name.png&#93;&#93;
 
-Read the section on accessibility below to learn about the alternate text added to every image file you link. 
+To add a link to a 200 pixel wide thumbnail in a box in the left margin, use this syntax:
+
+&#91;&#91;File:File.png|200px|thumb|left|alt text&#93;&#93; 
+
+Read the section on accessibility below to learn about the alternate text you should add to every image file you link. 
 
 {{Note| If you are linking to other file types (asset files other than images) in pages, use this syntax instead: 
 
