@@ -9,7 +9,7 @@
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find out how to ask questions online.
 ===Author new content using the correct site formatting and standards=== 
-* Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax.
+* Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax and apply appropriate syntax highlighting to code snippets.
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
 ===Create a new page in the wiki===
 * In most cases, you can use the form on the [[WPD:New_Page| New Page page]].
