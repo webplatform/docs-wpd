@@ -10,18 +10,21 @@ When adding images to an article, there are many factors to consider. Specifical
 * The minimal acceptable quality of the image (which dictates the image's file size in KB) such as a JPG file set at 70% quality
 * The shortest, most descriptive file name to use
 
-You can prepare images before uploading them by using an image editing program to open the master file or screenshot, and then make the following changes:
+You can prepare images before uploading them by using an image-editing program or online editing tool to open the master file or screenshot, save a copy of the file, and then make the following changes:
 
 * Crop the image file. Images should only be as large as required to display the content to conveyed. 
 * Resize the image file to a maximum of 650 pixels wide. 
 
 {{Note| If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
+===Save image files with descriptive names===
+After you make changes to the file's dimensions, you can use the image-editing program or online resource to save a copy of the file to your desktop. Avoid using generic file names, such as: image 04.png, screenshot.png, figure10.png, code.png.
 
-===Name image file names descriptively.===
-* Right: chrome_prefs.png, drop_shadow.png, box_model_diagram.png
-* Wrong: image 04.png, screenshot.png, figure10.png, code.png
-
+Name image files descriptively, like this:
+* chrome_prefs.png
+* box_model_diagram.png
+* color_adjusted_landscape.jpg
+* wiki_stewards_meeting.jpg
 
 ===Optimize images===  
 Using an image-editing program, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since screens have a maximum resolution of 72 dpi, there is no need to upload files with a higher resolution; doing so simply takes up more space and causes files to take longer to load.
