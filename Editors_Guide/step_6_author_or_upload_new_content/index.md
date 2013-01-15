@@ -11,12 +11,17 @@
 * To author tutorials and concept articles follow the guidelines.
 ** http://docs.webplatform.org/wiki/WPD:Content/Tutorials_and_concept_articles 
 
-Refer to the [[WPD:Style_Guide|Style Guide page]] to learn about the goals of WebPlatform.org and review the different content types.
+Refer to the [[WPD:Style_Guide|Pillars page]] to learn about the goals of WebPlatform.org and review the different content types.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions about asking questions online.
 ===Author new content using the correct site formatting and standards=== 
 * Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax.
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
+===Create a new page in the wiki===
+* In most cases, you can use the form on the [[WPD:New_Page| New Page page]].
+* If you are authoring tutorials and concept articles, follow the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept article page]].
+* If you are authoring reference documentation, see the [[WPD:Content/Reference_articles | Reference articles page]].
+* If you are authoring API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]].
 ===Check for broken links===
 * Before creating or moving pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL.
 
