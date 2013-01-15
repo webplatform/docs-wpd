@@ -28,7 +28,7 @@ For example, if you enabled the Merge Candidate check box and you are suggesting
 </pre>
 
 ==List of work item flags==
-Flagged articles are automatically marked as work items, so that contributors can resolve issues and ensure the page meets the WebPlatform's quality standards. One of the primary goals of contributors is to fix the issues that the flags specify, and to eventually have no remaining work item flags to address. Many of these flags are directly inspired by points outlined in the [[WPD:Style_Manual|Style Manual]].
+Flagged articles are automatically marked as work items, so that contributors can resolve issues and ensure the page meets the WebPlatform's quality standards. One of the primary goals of contributors is to fix the issues that the flags specify, and to eventually have no remaining work item flags to address. 
 
 Different flags use different guidelines that dictate when they should be applied and if editorial notes are required. '''Always read the notes about a flag before enabling it.''' 
 
