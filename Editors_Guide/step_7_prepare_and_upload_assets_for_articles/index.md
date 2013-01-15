@@ -18,13 +18,15 @@ You can prepare images before uploading them by using an image-editing program o
 {{Note| If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.}}
 
 ===Save image files with descriptive names===
-After you make changes to the file's dimensions, you can use the image-editing program or online resource to save a copy of the file to your desktop. Avoid using generic file names, such as: image 04.png, screenshot.png, figure10.png, code.png.
+After you make changes to the file's dimensions, you can use the image-editing program or online resource to save a copy of the file to your desktop. Avoid using generic file names, such as: image 04.png, screenshot.png, figure10.jpg, or code.jpg.
 
 Name exported image files descriptively, like this:
 * chrome_prefs.png
 * box_model_diagram.png
 * color_adjusted_landscape.jpg
 * wiki_stewards_meeting.jpg
+
+Only use underscores (not spaces, dashes, or other punctuation) when naming files to be uploaded. Also avoid capitalization and use all lower case characters.
 
 ===Optimize image quality===  
 Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a resolution of 72 ppi (pixels per inch), there is no need to upload files that have a higher resolution; doing so simply takes up more space and causes the files to take longer to load.
@@ -37,15 +39,17 @@ Follow these guidelines:
 
 *If the image is photo-realistic, very detailed, or includes gradients, drop shadows, or continuous tones, (such as a digital  photograph), save the file using the JPEG format with 70% quality. 
 
-===Online tools to optimize image files===
-You can use an online image compression application, instead of using image-editing software installed on your machine, to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650px. 
+===Online tools helpful for optimizing image files===
+If you prefer, you can use an online image compression application (instead of using image-editing software installed on your machine) to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650px. 
 
-Some popular optimizers are:
-* [http://www.pngoptimizer.com/ www.pngoptimizer.com]
-* [http://pixenate.com/ www.pixenate.com]
-* [http://pmt.sourceforge.net/pngcrush/ PNG Crush]].
+Some popular online image optimizers are:
+* [http://www.pngoptimizer.com/ PNG Optimizer]
+* [http://pixenate.com/ Pixenate]
+* [http://pmt.sourceforge.net/pngcrush/ PNG Crush]]
 
 ===Use the Upload File page to upload the images.===
+After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, follow these steps to upload it:
+
 * http://docs.webplatform.org/wiki/Special:Upload
 * Please do not try to load images of several MB to this wiki! If the dimensions of an image exceed 650 pixels wide, use an image-editing program to resize the image and save a smaller version. 
 
