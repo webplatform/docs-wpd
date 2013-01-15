@@ -12,11 +12,11 @@ You can find more information on discussion topics and conduct at [WPD:Conduct].
 
 ==Public mailing list==
 
-Our public mailing list, [mailto:public-webplatform@w3.org public-webplatform@w3.org], is for article organization, changes to common templates or forms, soliciting feedback, and setting new norms. It's also where we announce things like upcoming Doc Sprints (which everyone is welcome to join). You can [http://lists.w3.org/Archives/Public/public-webplatform/ subscribe to the list here]. You do not need a W3C account to join or send messages.
+Our public mailing list, '''[mailto:public-webplatform@w3.org public-webplatform@w3.org]''', is for article organization, changes to common templates or forms, soliciting feedback, and setting new norms. It's also where we announce things like upcoming Doc Sprints (which everyone is welcome to join). You can [http://lists.w3.org/Archives/Public/public-webplatform/ subscribe to the list here]. You do not need a W3C account to join or send messages.
 
 ==Q&A==
 
-Please visit our [http://talk.webplatform.org/forums/ Q&A page].
+Please visit our '''[http://talk.webplatform.org/forums/ Q&A page]'''.
 
 This is a Q&A forum where you can post questions and get them answered by other members of the community. You can get questions voted up and down so they will appear higher or lower in the answer list depending on how popular they are, so keep discussions high quality and on topic.
 
@@ -24,9 +24,9 @@ This is a Q&A forum where you can post questions and get them answered by other 
 
 We have three IRC channels available for talking about different aspects of Webplatform.org, available on freenode.net IRC:
 
-* #webplatform: The main channel, and the best place for general questions and discussion 
-* #webplatform-site: A channel reserved for discussions about updating the site, for example modifying styles and templates or creating new functionality
-* #webplatform-offtopic: A channel specifically created for any off topic discussion that arises
+* '''#webplatform''': The main channel, and the best place for general questions and discussion 
+* '''#webplatform-site''': A channel reserved for discussions about updating the site, for example modifying styles and templates or creating new functionality
+* '''#webplatform-offtopic''': A channel specifically created for any off topic discussion that arises
 
 To join the live chat, you first need to download an IRC client, such as
 
