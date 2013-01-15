@@ -47,7 +47,7 @@ Use capitals sparingly. Capitalize only the first word (using sentence case). Ho
 *Style manual
 *The CSS layout model
 *Unicode characters in JavaScript files
-*Specifying fonts
+*Resolving issues in Internet Explorer
 
 ===Enter helpful article summaries===
 All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page.
