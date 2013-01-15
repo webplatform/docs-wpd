@@ -87,11 +87,11 @@ Is rendered by the browser as:
 
 &#60;img src="cssbasic.png alt="Screenshot of the Opera browser showing an applied inline style sheet"&#62;
 
-
 {{Notes_Section}}
 {{Topics}}
-{{External_Attribution}}
+{{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
