@@ -65,11 +65,13 @@ See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], wh
 * Please do not use contractions. For example, use the phrase: do not, instead of writing: don't. This ensures that pages can be translated accurately. It also makes pages easier to read if English is not a reader's primary language.
 
 ===Use standard US English spellings===
-WebPlatform.org uses the general US English classification. Standardizing this type of spelling is useful because English words that appear in code syntax are also spelled in US English. Consistently spelling words in both syntax and other wording helps reduce confusion. When updating an article, use the US English spellings, like this:
+WebPlatform.org uses the general US English classification. Standardizing this type of spelling is useful because English words that appear in code syntax are also spelled in US English. Consistently spelling words in both syntax and other wording helps reduce confusion. When updating pages, ensure the content uses the US English spellings of words, like this:
 *Color
 *Customize
 *Inquiry
 Edit UK spellings that you find for colour, customise, enquiry, and other spelling variations.
+
+If you are not sure of the correct spelling, use an online dictionary, such as [http://www.merriam-webster.com/ Merriam-Webster] or [http://oxforddictionaries.com/|Oxford] dictionaries. 
 
 ===Standardize common terms===
 * Use Internet when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lower case, like this: Leverage internet marketing to drive site traffic.
