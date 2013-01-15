@@ -29,11 +29,19 @@ In the "Custom page title" form field, enter a descriptive title if it is differ
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
-Please follow the following title conventions for at least these specific article types:
-* '''Gerunds''' for articles with tutorial, task, procedure, process, and similar content
-** Examples: "Using the <audio> tag", "Drawing on the canvas", "Interpreting getLocation() data" 
-* '''Nouns''' and '''Noun phrases''' for articles with reference, syntactical, validity, and similar content, and also for articles with concept, guide, and overview content. 
-** Examples: "<audio> tag attributes", "Valid .moveTo() values", "Latitude and longitude notation", "Introduction to Flexbox", "The history of the Web", "Information architecture basics"
+Please follow these title conventions for specific article types:
+* Use gerunds (words ending in the -ing suffix) for articles with tutorial, task, procedure, and process content.
+** Examples: 
+*** Using the <audio> tag
+*** Drawing on the canvas
+*** Styling UI elements with CSS
+*** Interpreting getLocation() data 
+* Use nouns and noun phrases for articles with reference, syntactical, validity, and similar content, as well as concept, guide, and overview content. 
+** Examples: 
+*** <audio> tag attributes
+*** Valid .moveTo() values
+*** Introduction to Flexbox
+*** The history of the Web
 
 Use capitals sparingly. Capitalize only the first word (sentence case); however, where the title includes an abbreviation, a proper name, or camel case, keep the capitalization. Some correct examples:
 *Style manual
