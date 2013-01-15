@@ -57,8 +57,17 @@ To see an example of a multiple row Compatibility Information table, check out t
 
 Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the table.
 
-===Compatibility Notes===
-There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number. Just click "Add another" to insert a row.
+There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number.
+
+===Update the status of compatibility===
+If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
+
+If you are editing or authoring a page and you feel that compatibility information is not needed (and the page was on the list because the template flags compatibility as missing by default), you can check the box immediately under the "Compatibility" section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page as described above.
+
+Your final summary (commit) comment should mention if you have changed the status of the compatibility information. 
+
+===Upload and link images or other assets to pages===
+Visit [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets. Once a file is uploaded, you can add links to it. 
 
 ===Save your work===
 After completing your edits on a page, enter a summary of your changes in the Summary field, check the box for a minor edit if you only tweaked existing information, click the Show preview button to review your work (recommended), and then click Save page button to save your changes.
@@ -67,15 +76,9 @@ After completing your edits on a page, enter a summary of your changes in the Su
 
 '''Sorry! We could not process your edit due to a loss of session data. Please try again....''' (along with a deceptively updated preview of your unprocessed new version, and the edited source). 
 
-Most of the time, you can click the Save page button again. In most cases, simply resubmitting the form will work (because the first attempt refreshes your session, and the second attempt enables the submission to process).}}
+When you see this error, click the Save page button again. In most cases, simply resubmitting the form will work (because the first attempt refreshes your session, and the second attempt enables the submission to process).}}
 
 ===Add exceptions===
-If you feel that the Compatibility Information on a page is now complete (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title (the check box is to the left of the text in the English version).  
-
-If you feel that compatibility information is not needed for this topic (and the page was on the list because the template flags it as missing by default), you can check the box immediately under the "Compatibility" section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page.
-
-Your final summary (commit) comment should mention if you have changed the status of the compatibility information. 
-
 If you want to mention any outstanding issues, items or questions about the page, add the following tag on the page with a message:
 
 <nowiki>
