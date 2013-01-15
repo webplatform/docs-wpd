@@ -6,7 +6,7 @@
 ===Determine if your content is appropriate to add to this wiki===
 * Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars of WebPlatform.org.
 ===Let the team know that you are adding new content=== 
-* See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions about asking questions online.
+* See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find instructions to ask questions online.
 ===Author new content using the correct site formatting and standards=== 
 * Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax.
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
