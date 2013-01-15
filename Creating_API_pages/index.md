@@ -104,7 +104,7 @@ Also, '''do not check''' the '''Use page title''' or '''Print all subpages''' bo
 
 ====Topic clusters====
 
-The only articles that should appear in summary table (described previously) are API_Object pages. If you want to generate a list of related topics (or articles), the place to do that is in the '''See also''' section, in the '''Topic clusters'''. 
+The only articles that should appear in summary table (described previously) are API_Object pages. If you want to generate a list of related topics (or articles), the place to do that is in the '''See also''' section, in the '''Topic clusters'''. You'll want to check the boxes appropriate to your API, and, in related articles that belong in the same topic cluster, be sure the appropriate boxes are checked there. See [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters|Topics and topic clusters]]
 
 ====Main Content section====
 
