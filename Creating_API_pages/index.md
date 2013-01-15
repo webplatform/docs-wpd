@@ -102,6 +102,10 @@ Note, you may have to create the topic category for your API listing. How to do 
 
 Also, '''do not check''' the '''Use page title''' or '''Print all subpages''' boxes.
 
+====Topic clusters====
+
+The only articles that should appear in summary table (described previously) are API_Object pages. If you want to generate a list of related topics (or articles), the place to do that is in the '''See also''' section, in the '''Topic clusters'''. 
+
 ====Main Content section====
 
 The API listing page provides a broad description of the API. If there are further sub divisions of the API, include them as sub headings. This preserves the API's design - as it is described on w3.org - and allows the content to respond to search effectively. The main content field for the WebRTC API page (apis/webrtc) would look like the following:
