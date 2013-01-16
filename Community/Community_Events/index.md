@@ -1,4 +1,14 @@
-On this page, we will list upcoming events like WPD Doc Sprints and other related events. If you're organizing an event, please add it to the list!
+=Webplatform.org community events=
+
+Here, add Intro blurb on what our community events entail, how they fit into the Webplatform mission, and what we hope to achieve with them
+
+==Contributing to events==
+
+
+==Doc Sprint in a box: running your own community events==
+
+
+==List of community events==
 
 * '''23-FEB-2013'''—WebPlatform Doc Sprint at Adobe in San Francisco, California, USA. [Registration TBD]
 * '''08+09-FEB-2013'''—First WebPlatform Doc Sprint in Europe in Berlin, Germany. [http://web-platform-doc-sprint-berlin.eventbrite.com/ Register here]
