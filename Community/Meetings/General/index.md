@@ -28,6 +28,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 ** In-context ToCs
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
+* Need a new time for this meeting?
 
 ==Agenda 2013-01-10==
 
