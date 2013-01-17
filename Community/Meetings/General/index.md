@@ -20,6 +20,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Status on code.webplatform.org?
 * [http://docs.webplatform.org/wiki/WPD:Proposals/api_docs Scott's API proposal] ([http://lists.w3.org/Archives/Public/public-webplatform/2013Jan/0069.html See thread.])
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties milestones].
+* Status from Chris Mills: "I made loads of progress on filling in  the master CSS properties list today, building on top of Alex's great work. I'll try to finish this list tomorrow."
 * Status on "discoverability"
 ** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401 Search]
 *** Do we have an interim solution we can implement quickly & easily
