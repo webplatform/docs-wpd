@@ -17,13 +17,14 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 * Roll call
 * Review of open action items
+* [http://docs.webplatform.org/wiki/WPD:Proposals/api_docs Scott's API proposal] ([http://lists.w3.org/Archives/Public/public-webplatform/2013Jan/0069.html See thread.])
+* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties milestones].
 * Status on "discoverability"
 ** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401 Search]
 *** Do we have an interim solution we can implement quickly & easily
 *** We're going to put a search box on the [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19694 main page]
 ** Global nav
 ** In-context ToCs
-* [http://docs.webplatform.org/wiki/WPD:Proposals/api_docs Scott's API proposal] ([http://lists.w3.org/Archives/Public/public-webplatform/2013Jan/0069.html See thread.])
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
