@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|fontSize}}
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
