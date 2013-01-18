@@ -7,6 +7,7 @@
 |Initial value=medium
 |Applies to=All elements
 |Inherited=Yes
+|Media=visual
 |Computed value=as specified
 |Animatable=Yes
 |CSS object model property=fontSize
