@@ -36,9 +36,9 @@
 
 == HTML Icons==
 ====PNG 32px====
-[[File:WPD-HTML-32px.png]]
+[[File:WPD-HTML-B-32px.png]]
 ====SVG====
-[[File:WPD-HTML-blue.svg|50px]]
+[[File:WPD-HTML-B-blue.svg|50px]]
 
 ===HTML5 Icons===
 ====PNG 32px====
@@ -47,7 +47,11 @@
 [[File:WPD-HTML5-blue.svg|50px]]
 
 ===Alternate HTML Icons===
+====PNG 32px====
+[[File:WPD-HTML-32px.png]]
+
 ====SVG====
+[[File:WPD-HTML-blue.svg|50px]]
 [[File:WPD-icon-html-semantic.svg|50px]]
 [[File:WPD-icon-html-brackets.svg|50px]]
 
