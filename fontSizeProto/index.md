@@ -10,52 +10,48 @@
 |Computed value=as specified
 |Animatable=Yes
 |CSS object model property=fontSize
-|Values={{CSS Property Value
-|Data Type=absolute-size
-|Description=Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: '''xx-small''', x-small, '''small''', '''medium''', '''large''', '''x-large''', '''xx-large'''.
-}}{{CSS Property Value
-|Data Type=relative-size
-|Description=Set of keywords that are interpreted as relative to the font size of the parent object. Possible values include the following: smaller, larger.
-}}{{CSS Property Value
-|Data Type=length
-|Description=Floating-point number, followed by an absolute units designator ('''cm''', '''mm''', '''in''', '''pt''', or '''pc''') or a relative units designator ('''em''', '''ex''', or '''px''').
-For more information about the supported length units, see the CSS Values and Units Reference.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=Integer, followed by a percent (%). The value is a percentage of the parent object's font size. In Internet Explorer 3.0, the value is calculated as a percentage of the default font size.
-}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''font-size''' attribute and the '''font-size''' property to change font characteristics.
+|Description=
 
-This example sets the font size on several paragraphs using different size values.
-|Code=&lt;style&gt;
-   body {font-size: 10pt }
-   .p1 {font-size: 14pt }
-   .p2 {font-size: 75% }
-   .p3 {font-size: xx-large }
-   .p4 {font-size: larger }
-&lt;/style&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-size.htm
-}}{{Single Example
-|Description=This example uses inline scripting to set the font size to '''14pt''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;div style{{=}}"font-size:12pt" onmouseover{{=}}"this.style.fontSize{{=}}'14pt'"&gt;
-:
-&lt;/div&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontSize.htm
+This interactive utility demonstrates absolute values applied to a
+block of text, and relative values applied to a span within the block:
+
+<iframe width="600" height="300" src="http://letmespellitoutforyou.com/cssDemo/fontSize.html"></iframe>
+
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Negative values are not allowed. Font sizes using the proportional "em" measure are based on the font size of the parent object.
-As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is '''medium''', not '''small'''.
-Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
+|Notes=
+
+==Syntax==
+ font-size: ''absolute-size'' {{!}} ''relative-size'' {{!}} ''length'' {{!}} ''percentage''
+
+==values==
+
+*''absolute-size'': A set of keywords indicating predefined font sizes that scale according to font setting preferences or the browser's default values. From small to large, possible values are:
+**'''xx-small'''
+**'''x-small'''
+**'''small'''
+**'''medium'''
+**'''large'''
+**'''x-large'''
+**'''xx-large'''
+
+*''relative-size'': 
+A set of keywords interpreted relative to the parent element's '''font-size'''. Possible values are:
+**'''smaller'''
+**'''larger'''
+
+*''length'': A positive numeric value followed by a string designating absolute units ('''cm''', '''mm''', '''in''', '''pt''', '''pc''') or relative units ('''em''', '''ex''', '''px'''). If unspecified, the default unit is '''px'''. Proportional '''em''' measuements are based on the parent element's '''font-size'''.
+
+*''percentage'': A positive integer followed by a percent ('''%'''), indicating the proportion of the parent element's '''font-size'''.
+
 |Import_Notes
-====Syntax===
-font-size: ''absolute-size'' {{!}} ''relative-size'' {{!}} ''length'' {{!}} ''percentage''
 }}
+
 {{Related_Specifications_Section
 |Specifications=
 }}
