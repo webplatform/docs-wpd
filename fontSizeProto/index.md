@@ -1,8 +1,5 @@
 {{Page_Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the size of text.}}
@@ -10,7 +7,6 @@
 |Initial value=medium
 |Applies to=All elements
 |Inherited=Yes
-|Media=visual,print
 |Computed value=as specified
 |Animatable=Yes
 |CSS object model property=fontSize
