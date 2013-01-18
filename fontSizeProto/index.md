@@ -5,26 +5,31 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property is used to specify the size of text.}}
+{{Summary_Section|Specifies the size of text.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
 |Inherited=Yes
-|Media=visual
-|Animatable=No
+|Media=visual,print
+|Computed value=as specified
+|Animatable=Yes
+|CSS object model property=fontSize
 |Values={{CSS Property Value
 |Data Type=absolute-size
-|Description=Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: xx-small, x-small, small, medium, large, x-large, xx-large.
+|Description=Set of keywords that indicate predefined font
+sizes. Named font sizes scale according to the user's font setting
+preferences. Possible values include the following: xx-small, x-small,
+small, medium, large, x-large, xx-large.
 }}{{CSS Property Value
 |Data Type=relative-size
 |Description=Set of keywords that are interpreted as relative to the font size of the parent object. Possible values include the following: smaller, larger.
 }}{{CSS Property Value
 |Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>).
+|Description=Floating-point number, followed by an absolute units designator ('''cm''', '''mm''', '''in''', '''pt''', or '''pc''') or a relative units designator ('''em''', '''ex''', or '''px''').
 For more information about the supported length units, see the CSS Values and Units Reference.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer, followed by a percent (%). The value is a percentage of the parent object's font size. In Internet Explorer 3.0, the value is calculated as a percentage of the default font size.
+|Description=Integer, followed by a percent (%). The value is a percentage of the parent object's font size. In Internet Explorer 3.0, the value is calculated as a percentage of the default font size.
 }}
 }}
 {{Examples_Section
@@ -42,7 +47,7 @@ This example sets the font size on several paragraphs using different size value
 &lt;/style&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-size.htm
 }}{{Single Example
-|Description=This example uses inline scripting to set the font size to <code>14pt</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
+|Description=This example uses inline scripting to set the font size to '''14pt''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 |Code=&lt;div style{{=}}"font-size:12pt" onmouseover{{=}}"this.style.fontSize{{=}}'14pt'"&gt;
 :
 &lt;/div&gt;
@@ -52,10 +57,10 @@ This example sets the font size on several paragraphs using different size value
 {{Notes_Section
 |Notes====Remarks===
 Negative values are not allowed. Font sizes using the proportional "em" measure are based on the font size of the parent object.
-As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is <code>medium</code>, not <code>small</code>.
+As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is '''medium''', not '''small'''.
 Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
 |Import_Notes====Syntax===
-<code>'''font-size: '''''
+''''''font-size: '''''
 &lt;absolute-size&gt;
 '' '''{{!}}''' ''
 &lt;relative-size&gt;
@@ -63,7 +68,7 @@ Possible length values specified in a relative measurement, using the height of 
 &lt;length&gt;
 '' '''{{!}}''' ''
 &lt;percentage&gt;
-''</code>
+'''''
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -132,15 +137,15 @@ Possible length values specified in a relative measurement, using the height of 
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/font|font]]</code>
-*<code>Conceptual</code>
-*<code>CSS Values and Units Reference</code>
+*'''[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]'''
+*'''[[css/cssom/currentStyle|currentStyle]]'''
+*'''[[dom/defaultSelected|defaults]]'''
+*'''[[css/cssom/runtimeStyle|runtimeStyle]]'''
+*'''[[css/cssom/style|style]]'''
+*'''Reference'''
+*'''[[css/properties/font|font]]'''
+*'''Conceptual'''
+*'''CSS Values and Units Reference'''
 }}
 {{Topics|CSS}}
 {{External_Attribution
