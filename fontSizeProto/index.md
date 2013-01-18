@@ -1,6 +1,5 @@
 {{Page_Title|fontSize}}
 {{Flags}}
-{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the size of text.}}
 {{CSS Property
@@ -13,10 +12,7 @@
 |CSS object model property=fontSize
 |Values={{CSS Property Value
 |Data Type=absolute-size
-|Description=Set of keywords that indicate predefined font
-sizes. Named font sizes scale according to the user's font setting
-preferences. Possible values include the following: xx-small, x-small,
-small, medium, large, x-large, xx-large.
+|Description=Set of keywords that indicate predefined font sizes. Named font sizes scale according to the user's font setting preferences. Possible values include the following: '''xx-small''', x-small, '''small''', '''medium''', '''large''', '''x-large''', '''xx-large'''.
 }}{{CSS Property Value
 |Data Type=relative-size
 |Description=Set of keywords that are interpreted as relative to the font size of the parent object. Possible values include the following: smaller, larger.
@@ -56,16 +52,9 @@ This example sets the font size on several paragraphs using different size value
 Negative values are not allowed. Font sizes using the proportional "em" measure are based on the font size of the parent object.
 As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, the default value for this property is '''medium''', not '''small'''.
 Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex), are supported in Microsoft Internet Explorer 4.0 and later.
-|Import_Notes====Syntax===
-''''''font-size: '''''
-&lt;absolute-size&gt;
-'' '''{{!}}''' ''
-&lt;relative-size&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-'''''
+|Import_Notes
+====Syntax===
+font-size: ''absolute-size'' {{!}} ''relative-size'' {{!}} ''length'' {{!}} ''percentage''
 }}
 {{Related_Specifications_Section
 |Specifications=
