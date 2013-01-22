@@ -1,14 +1,11 @@
 {{Page_Title|Suggested design enhancements for CSS properties}}
 {{Flags}}
-{{Summary_Section|[http://letmespellitoutforyou.com/x/webplatform/font_size.html This
-page] is a suggested mockup of how a CSS property page should look.
+{{Summary_Section|This page [http://letmespellitoutforyou.com/x/webplatform/font_size.html] is a suggested mockup of how a CSS property page should look.
 Compared to the [[css/properties/font-size|original page]], there are
 several enhancements that would need to be implemented, and here is a
 list of the most significant.
-
 }}
 {{Basic Page}}
-
 * Page title & summary are on the same line in this example; formatted as left/right justification with negative margin for overlay; this is fragile for cases where text in either runs too long.
 
 * Removed hard-coded "W3C Recommendation" text. If necessary, use a graphic to represent options or otherwise push it out of the main text flow.
