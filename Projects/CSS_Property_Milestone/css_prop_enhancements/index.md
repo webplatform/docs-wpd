@@ -1,12 +1,13 @@
 {{Page_Title|Suggested design enhancements for CSS properties}}
 {{Flags}}
-{{Summary_Section}}
-{{Basic Page}}
-[http://letmespellitoutforyou.com/x/webplatform/font_size.html This
+{{Summary_Section|[http://letmespellitoutforyou.com/x/webplatform/font_size.html This
 page] is a suggested mockup of how a CSS property page should look.
 Compared to the [[css/properties/font-size|original page]], there are
 several enhancements that would need to be implemented, and here is a
 list of the most significant.
+
+}}
+{{Basic Page}}
 
 * Page title & summary are on the same line in this example; formatted as left/right justification with negative margin for overlay; this is fragile for cases where text in either runs too long.
 
@@ -51,7 +52,6 @@ list of the most significant.
 * Suggest adding explicit "example" template options for embedded samples, and for images showing the result of CSS formatting.
 
 * Unclear what "Percentages" template option is intended for "Top-Level Summary", but it is not reflected in the resulting overview table.
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
