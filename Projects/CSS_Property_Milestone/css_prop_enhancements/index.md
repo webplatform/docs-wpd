@@ -1,6 +1,6 @@
 {{Page_Title|Suggested design enhancements for CSS properties}}
 {{Flags}}
-{{Summary_Section|This page [http://letmespellitoutforyou.com/x/webplatform/font_size.html] is a suggested mockup of how a CSS property page should look.
+{{Summary_Section|[http://letmespellitoutforyou.com/x/webplatform/font_size.html This page] is a suggested mockup of how a CSS property page should look.
 Compared to the [[css/properties/font-size|original page]], there are
 several enhancements that would need to be implemented, and here is a
 list of the most significant.
