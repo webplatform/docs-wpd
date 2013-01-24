@@ -26,6 +26,8 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 # [FORM] Directly embedded a sample page as an &lt;iframe&gt;. This is only a suggested UI. Hopefully dabblet sample pages can be presented this way, directly available on the page next to doc that describes it.
 # [FORM] Suggest adding explicit "example" template options for embedded samples, and for images showing the result of CSS formatting described in other code examples. (Suggest support for >1 inline image, useful to clarify before/after scenarios.)
 # [FORM] Unclear what "Percentages" template option is intended for "Top-Level Summary", but it is not reflected in the resulting overview table.
+# [TEMPLATE] Headings may be reshuffled in output.
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
