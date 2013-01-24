@@ -1,7 +1,11 @@
 Most articles automatically maintain a history of all edits and who made them. However, some articles are seeded with already-comprehensive content that comes from external sites. Maintaining a link to the original content helps give credit to those sites, maintain a historical link to the original copy in case it is necessary in the future, and in some cases it is required by the license of the original source.
 
-==Adding external attribution to an article==
+==Legal Note==
+Note that there are some potential exceptions to our general policy on attribution and external sources:
+* Documents that only state facts, and not interpretation, are not protected by copyright, and are thus outside the bounds of licensing . But this line can be gray... a compilation of facts is protected by copyright if the selection and arrangement of the material is original. Thus, if the contribution is based on another source, it's safer to provide and preserve attribution;
+* If all the original material from a particular source has been excised from the article, attribution for that source can optionally be removed; in practice, however, we are only using this to deliberately simplify the license the article is available under, e.g., if the original content was under CC-BY-SA (Attribution and Share Alike), we might remove all the old material so the replacement article can be reused under CC-BY. Even so, we may choose to keep the original attribution for social reasons.
 
+==Adding external attribution to an article==
 External attribution for a site should be added to an article when:
 
 * You are copying in text from an existing WPD article that contains external attribution (including when you are merging articles)
