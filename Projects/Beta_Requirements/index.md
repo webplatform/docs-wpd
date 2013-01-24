@@ -2,9 +2,9 @@
 {{Flags}}
 {{Summary_Section|This page is a brainstorm page for deciding on and listing the tasks that need to be done before we can move WebPlatform.org to beta stage.}}
 {{Basic Page}}
-=WPD priority list=
-
 There are a number of tasks to do as we progress WPD through to the alpha and beta stages (we could call them alpha 2 and beta 1, perhaps, as alpha has already passed). The trouble we are getting right now is that there is so much work to do, that we are getting overwhelmed and as a result not as much is being done as we'd like. To combat this, we are going to follow a priority list, focusing on each smaller task in turn until we get it done, then moving on to the next, to make the work seem more maneageable
+
+=Beta — May 1st 2013=
 
 ==Make sure the session issues are fixed==
 
@@ -58,7 +58,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 * Description: Perfect all CSS property reference articles
 * More Details: [[WPD:Tasks/CSS_Property_Milestone]]
 * Priority justification: WPD has a lot of content that needs to be sorted, but CSS is higher priority. There are a relatively small number of CSS properties to handle, and we have a reasonably good base of articles already to build upon and sort out. CSs is also commonly sought after documentation. This all said, CSS properties are a good model island of documentation to start with, so we can then move on to others with confidence. And as a final plus, Alex has mentioned that the Google Chrome dev tools team are looking for a set of CSS articles to point to for the in-app documentation they are making available in their tool. If WPD CSS articles were available to use for this, it would be a huge plus
-* Duration: three weeks
+* Duration: three months
 
 ==API references==
 
@@ -67,7 +67,9 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 * Description: Perfect all API reference material
 * More Details: http://docs.webplatform.org/wiki/WPD:Proposals/api_docs
 * Priority justification: APIs would be a good set of documentation to go on to next — they already have a plan, and passionate project leader (Scott)
-* Duration: one month
+* Duration: three months, to run at least in part concurrently with the CSS properties task
+
+=Beta 2 — August 1st 2013=
 
 ==CSS: other reference articles==
 
@@ -85,7 +87,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 * Description: Perfect all CSS tutorials and concept articles
 * More Details: ???
 * Priority justification: Now moving on to the CSS tutorials/concepts
-* Duration: one month
+* Duration: three months
 
 ==HTML references==
 
@@ -94,7 +96,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 * Description: Perfect all HTML references
 * More Details: ???
 * Priority justification: HTML should be the next set of articles to move on to, as it is one of the central three most important web standards
-* Duration: one month
+* Duration: three months
 
 ==HTML tutorials==
 
@@ -103,8 +105,9 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 * Description: Perfect all HTML tutorials and concept articles
 * More Details: ???
 * Priority justification: now moving on to HTML tutorials
-* Duration: one month
+* Duration: three months
 
+=Gold — November 1st 2013=
 
 * ALSO TO COVER IN THIS LIST: JavaScript, Accessibility, DOM, Beginners guide, SVG, general web concepts
 
