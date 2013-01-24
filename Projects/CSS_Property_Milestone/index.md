@@ -23,6 +23,8 @@ Documentation for all standards-track CSS properties is as comprehensive, correc
 # Enumerate all CSS property articles to include in this milestone
 # Pick one representative property and make its documentation the ideal model of CSS reference documentation.
 # Derive content guidelines for CSS pages based on the documentation we created for the representative property
+# Work on a handful of other representative articles to prove out the derived guidelines and iteratively improve them.
+# Implement the necessary template changes to support the final content guidelines.
 # Assign owners for each property, and track progress towards individual quality goals (e.g. Summary, examples, compatibility table, syntax)
 # Review all articles to verify they meet our quality guidelines.
 
