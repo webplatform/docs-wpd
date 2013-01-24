@@ -118,7 +118,8 @@ To do by the end of this phase:
 
 =For later=
 
-, SVG, general web concepts
+* SVG
+* General web concepts
 
 =Level of content robustness we want to achieve (quality and quantity)=
 
