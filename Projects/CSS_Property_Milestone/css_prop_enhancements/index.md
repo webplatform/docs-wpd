@@ -4,15 +4,15 @@
 Compared to the [[css/properties/font-size|original font-size property page]], there are several enhancements that would need to be implemented, and here is a list of the most significant. They're broken down into 3 basic categories: '''SKIN''' requiring mostly modified CSS, '''TEMPLATE''' requiring a change in how content is generated and flows onto the final HTML page, and '''FORM''' for changes in the text-input UI.
 }}
 {{Basic Page}}
-* [SKIN] Page title & summary are on the same line in this example; formatted as left/right justification with negative margin for overlay; this is fragile for cases where text in either runs too long.
+# [SKIN] Page title & summary are on the same line in this example; formatted as left/right justification with negative margin for overlay; this is fragile for cases where text in either runs too long.
 
-* [TEMPLATE] Removed hard-coded "W3C Recommendation" text. If necessary, use a graphic to represent options or otherwise push it out of the main text flow.
+# [TEMPLATE] Removed hard-coded "W3C Recommendation" text. If necessary, use a graphic to represent options or otherwise push it out of the main text flow.
 
-* [FORM] "Specifies the size of text" is currently called a "summary", hopefully a simple sentence reflected in CSS property listings.  The "This property sets the..." text offers more fleshed-out expository context not intended for listings. New field needed in template. What to call it?
+# [FORM] "Specifies the size of text" is currently called a "summary", hopefully a simple sentence reflected in CSS property listings.  The "This property sets the..." text offers more fleshed-out expository context not intended for listings. New field needed in template. What to call it?
 
-* [TEMPLATE] Removed the implicit "Summary" & "Overview table" headings.
+# [TEMPLATE] Removed the implicit "Summary" & "Overview table" headings.
 
-* [TEMPLATE] Under "Values", each &lt;dt&gt;/&lt;dd&gt; pair generate incorrectly in its own &lt;dl&gt;, which also produces unnecessary rules. Regardless, Suggest removing the rule formatting altogether as too busy.
+# [TEMPLATE] Under "Values", each &lt;dt&gt;/&lt;dd&gt; pair generate incorrectly in its own &lt;dl&gt;, which also produces unnecessary rules. Regardless, Suggest removing the rule formatting altogether as too busy.
 
 * [TEMPLATE/SKIN] Heavily reformatted the property value overview table. Suggest shading all rows white here.
 
