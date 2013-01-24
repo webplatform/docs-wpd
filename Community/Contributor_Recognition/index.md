@@ -54,9 +54,9 @@ And then for skills, you could have
 
 * Editor
 * Writer
-* Template ninja
-* Design smarts (for those like Seb and Lea, who have contributed styling)
-* International superhero: Germany, or France, etc. (awarded for certain language contributions)
+* Template expert
+* Design expert (for those like Seb and Lea, who have contributed styling)
+* International expert: Germany, or France, etc. (awarded for certain language contributions)
 * Domain expert: HTML, or CSS (you have certain specific knowledge of different subjects)
 * Doc sprint organizer / participant
 
