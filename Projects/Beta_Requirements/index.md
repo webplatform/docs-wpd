@@ -109,7 +109,16 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 
 =Gold — November 1st 2013=
 
-* ALSO TO COVER IN THIS LIST: JavaScript, Accessibility, DOM, Beginners guide, SVG, general web concepts
+To do by the end of this phase:
+
+* JavaScript reference pages
+* Accessibility material improvements
+* DOM reference pages
+* Beginners guide
+
+=For later=
+
+, SVG, general web concepts
 
 =Level of content robustness we want to achieve (quality and quantity)=
 
