@@ -31,6 +31,7 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 # [TEMPLATE] If appropriate to include explicit "inherit"  or "initial" values within "Values" listing (not sure if it is), generate it from supplied metadata, and append it.
 # [FORM] Should there be a compatibility-table row for tablet-class browsers?
 # [TEMPLATE] When both prefix & unprefixed support is specified, include them in the same cell (e.g.: "5.0&lt;br/>&lt;span class="tinyWebkitPrefix">3.0&lt;/span>"). Support is the crucial info; having to add redundant property prefixes is relatively trivial.
+# [SKIN] Increase line-height within lists to match body text. I mean, just look at this page.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
