@@ -21,10 +21,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 **Any volunteer to write up instructions based on Mike's gold standard?
 * Status on code.webplatform.org?
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties milestones].
-* Status on "discoverability"
-** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401 Search]
-*** Do we have an interim solution we can implement quickly & easily
-*** We're going to put a search box on the [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19694 main page]
+* Status on "discoverability" [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401 Search Bug]
+** Do we have an interim solution we can implement quickly & easily
+** We're going to put a search box on the [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19694 main page]
 * Analytics
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
