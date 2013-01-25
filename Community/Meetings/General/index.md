@@ -16,9 +16,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 
 * Roll call
 * Review of open action items
-* CSS Properties:
-**Pick a few for folks to try out using Mike's example.
-**Any volunteer to write up instructions based on Mike's gold standard?
+* CSS Properties
+** Pick a few for folks to try out using Mike's example.
+** Any volunteer to write up instructions based on Mike's gold standard?
 * Status on code.webplatform.org?
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties milestones].
 * Status on "discoverability" [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401 Search Bug]
