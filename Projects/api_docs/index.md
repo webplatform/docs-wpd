@@ -55,8 +55,8 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 6
 | [[apis/geolocation|geolocation]]
-| None
-| Not started
+| [User:Dgash]]
+| Content complete
 |-
 | 7
 | [[apis/indexeddb|indexeddb]]
@@ -65,8 +65,8 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 8
 | [[apis/timing|timing]]
-| None
-| Not started
+| [User:Dgash]]
+| In progress
 |-
 | 9
 | [[apis/webaudio|webaudio]]
