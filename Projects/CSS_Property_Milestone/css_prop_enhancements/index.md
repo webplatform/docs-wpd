@@ -27,7 +27,8 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 # [FORM] Suggest adding explicit "example" template options for embedded samples, and for images showing the result of CSS formatting described in other code examples. (Suggest support for >1 inline image, useful to clarify before/after scenarios.)
 # [FORM] Unclear what "Percentages" template option is intended for "Top-Level Summary", but it is not reflected in the resulting overview table.
 # [TEMPLATE] Headings may be reshuffled in output.
-
+# [TEMPLATE] If only one "Basic support" feature is considered in compatibility table, do not include explicit column span heading. If other sub-features are included, include explicit column spans.
+# [TEMPLATE] If appropriate to include explicit "inherit"  or "initial" values within "Values" listing (not sure if it is), generate it from supplied metadata, and append it.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
