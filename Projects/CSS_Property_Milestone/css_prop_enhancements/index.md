@@ -33,7 +33,7 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 # [TEMPLATE] When both prefix & unprefixed support is specified, include them in the same cell (e.g.: "5.0&lt;br/>&lt;span class="tinyWebkitPrefix">3.0&lt;/span>"). Support is the crucial info to convey; having to implement redundant property prefixes is relatively trivial.
 # [FORM] Option to include sample syntax with each syntax item. E.g., along with variable "length" syntax item, a quick sample would be "1.5em" as it appears in the sample.
 # [FORM] Clarify the expected scope of each input field. What's the difference between "Usage" and "Notes"?
-# [SKIN] Increase line-height within lists to match body text. I mean, just look at this page.
+# [SKIN] Increase line-height within UL/OL/DL lists to match body text. I mean, just look at this page.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
