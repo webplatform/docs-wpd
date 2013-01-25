@@ -45,6 +45,24 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Any new or notable content to promote?
 * Need a new time for this meeting?
 
+
+
+===Meeting Summary===
+
+* Several folks weren't available to discuss open issues and action items. 
+* We talked about a Table of Contents or nav at the top of articles. There was a TOC in the skin, and also one based on a user preference. They conflicted, so we took it out of the skin but if no users have set the preference to show it, we could bring the skin TOC back. But the default ToC was ever styled since
+someone had a plugin they wanted to use.
+* We are planning blog posts on Audio API and CSS regions
+* Janet is going to FOSDEM. Anyone else?
+* CSS properties proposal: about 2/3 thru prioritization of properties. Goal is to finish tomorrow, and work on a "representative" article. Then we need to create an author's guide based on the representative article. The property worked on previously was 'font-size'. Mike Sierra to work on making a "gold standard" example page, that others can use as a model. http://docs.webplatform.org/wiki/css/properties/font-size
+
+===Actions===
+ACTION: Julee to send out a Doodle poll to figure out a better time. [Done]
+ACTION: Mike Sierra to work on making a "gold standard" example page, that others can use as a model. [DONE]
+LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: need site map
+LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. 
+LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
+
 ==Agenda 2013-01-10==
 
 * Roll call
