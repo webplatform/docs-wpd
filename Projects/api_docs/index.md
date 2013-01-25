@@ -55,7 +55,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 6
 | [[apis/geolocation|geolocation]]
-| [User:Dgash]]
+| [[User:Dgash]]
 | Content complete
 |-
 | 7
@@ -65,7 +65,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 8
 | [[apis/timing|timing]]
-| [User:Dgash]]
+| [[User:Dgash]]
 | In progress
 |-
 | 9
