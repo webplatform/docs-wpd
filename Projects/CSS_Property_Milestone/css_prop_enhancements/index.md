@@ -6,7 +6,7 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 {{Basic Page}}
 # '''[SKIN]''' Page title & summary are on the same line in this example; formatted as left/right justification with negative margin for overlay; this is fragile for cases where text in either runs too long.
 # '''[TEMPLATE]''' Removed hard-coded "W3C Recommendation" text. If necessary, use a graphic to represent options or otherwise push it out of the main text flow.
-# '''[FORM]''' "Specifies the size of text" is currently called a "summary", hopefully a simple sentence reflected in CSS property listings.  The "This property sets the..." text offers more fleshed-out expository context not intended for listings. New field needed in template. What to call it?
+# '''[FORM]''' "Specifies the size of text" is currently called a "summary", hopefully a simple sentence reflected in CSS property listings.  The "This property sets the..." text offers more fleshed-out expository context not intended for listings. New field needed in template. What to call it? Summary-listing/Summary-extended?
 # '''[TEMPLATE]''' Removed the implicit "Summary" & "Overview table" headings.
 # '''[TEMPLATE]''' Under "Values", each &lt;dt&gt;/&lt;dd&gt; pair generate incorrectly in its own &lt;dl&gt;, which also produces unnecessary rules. Regardless, Suggest removing the rule formatting altogether as too busy.
 # '''[TEMPLATE/SKIN]''' Heavily reformatted the property value overview table. Suggest shading all rows white here.
@@ -34,7 +34,6 @@ Compared to the [[css/properties/font-size|original font-size property page]], t
 # '''[FORM]''' Option to include sample syntax with each syntax item. E.g., along with variable "length" syntax item, a quick sample would be "1.5em" as it appears in the sample.
 # '''[FORM]''' Clarify the expected scope of each input field. What's the difference between "Usage" and "Notes"?
 # '''[SKIN]''' Increase line-height within UL/OL/DL lists to match body text. I mean, just look at this page.
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
