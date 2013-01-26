@@ -52,6 +52,8 @@ If the page does not exist at all, you need to create a new page, using the New 
 
 http://docs.webplatform.org/wiki/WPD:New_Page
 
+[SIERRA: Or you can navigate to the URL where you want the page to live & access the tool from the missing-page page.]
+
 You need to use the "CSS Property" section to create a new page for your CSS property. change "css/properties/foo" to "css/properties/property-name" (in my case it would be "css/properties/background-image") and press the "Create CSS property page button"
 
 ==Entering data on the page==
