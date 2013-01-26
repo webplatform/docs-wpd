@@ -107,6 +107,8 @@ radial-gradient(50% 50%, circle, #f00, #aaa)
 Multiple background images		
 	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 
+[SIERRA: I think you can also reference an in-page SVG element: url(#element) ]
+
 ===Usage===
 
 The usage section is meant to contain notes that impart useful, practical knowledge about using the property in the real world. What do you really need to know when trying to use this property in production?
