@@ -56,6 +56,8 @@ http://docs.webplatform.org/wiki/WPD:New_Page
 
 You need to use the "CSS Property" section to create a new page for your CSS property. change "css/properties/foo" to "css/properties/property-name" (in my case it would be "css/properties/background-image") and press the "Create CSS property page button"
 
+[SIERRA: If you're adapting/moving an exiting page, is there any chance it could be assigned the wrong template? If so, any way to change the template to the correct one? Just wondering.]
+
 ==Entering data on the page==
 
 Now you are ready to start entering the data into the page. You'll need to go through the different form fields in the edit page and fill each one in.
