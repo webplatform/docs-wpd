@@ -46,6 +46,8 @@ If not, then it is worth checking whether it exists at the wrong location. First
 
 If it already exists in the wrong place, we need to move it into the right place, using the "Move" tool, found in the tools menu when you are logged in. You need to enter a new slug for it to sit at. WARNING: make sure there is nothing already at the new slug before you move a page. We don't want to risk losing valuable content.
 
+[SIERRA: Does MediaWiki really clobber existing pages in this case? If so, any way to disable that?]
+
 If the page does not exist at all, you need to create a new page, using the New Page creator tool at 
 
 http://docs.webplatform.org/wiki/WPD:New_Page
