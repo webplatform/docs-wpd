@@ -216,6 +216,8 @@ Nokia N9
 * IE < 9: doesn't support SVG for background-images, or multiple background images, or gradients
 * IE < 10: doesn't support gradients
 
+[SIERRA: recent Webkits animate transitions between different background-images by cross-fading]
+
 ===Examples===
 
 For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. Just a brief CSS snippet will suffice for the printed example; for the embedded real working example, you'll need to provide full HTML too.
