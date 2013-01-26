@@ -28,6 +28,8 @@ Once you have grabbed some properties to work on, mark them with your name and e
 
 Then work sequentially through each property until you have completed your set. In this example I will do background-image.
 
+[SIERRA: No need to work sequentially.]
+
 ==Creating your page, in the right place==
 
 First, look for the prior existence of a page about this property on the WPD wiki. The general URL scheme is
