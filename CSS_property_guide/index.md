@@ -240,6 +240,10 @@ For the examples section, you should provide one or two brief examples that succ
   background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
 }</pre>
 
+[SIERRA: I would encourage authors to comment the examples, even using real-world selector names. That last example could be an indicator for open/close state.]
+
+
+
 ===Interactive example===
 
 [I AM NOT SURE HOW TO IMPLEMENT THIS, BUT I DO HAVE AN EXAMPLE WRITTEN. I WILL ATTACH IT AS A ZIP TO THE PAGE FOR THE MOMENT]
