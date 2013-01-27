@@ -170,7 +170,7 @@ Nokia N9
 	
 ====SVG images====
 
-[Sierra: clarify "SVG Background Images"]
+[Sierra: clarify "SVG Background Images"; otherwise implies overall support for SVG]
 
 Safari	
 	Desktop: 1.0 Mobile: 1.0 
