@@ -18,7 +18,6 @@
   
  <div class="long-topic">
   
-    <div class="place-holder"></div>
     
     <div class="inner">
         <h3>[[step_2_communicate_with_the_online_community | Communicate]]</h3>
