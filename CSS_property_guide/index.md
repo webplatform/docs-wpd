@@ -92,14 +92,14 @@ background-image: linear-gradient(to bottom, #f00, #aaa), url(path/to/image.png)
 
 for example
 
-url(path/to/image.png)
-	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format. In some browsers you can also reference an in-page SVG element, for example url(#element).
-linear-gradient(to bottom, #f00, #aaa)
-	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS]
-radial-gradient(50% 50%, circle, #f00, #aaa)
-	Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS].
-Multiple background images		
-	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
+* url(path/to/image.png)
+**	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format. In some browsers you can also reference an in-page SVG element, for example url(#element).
+* linear-gradient(to bottom, #f00, #aaa)
+** 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS]
+* radial-gradient(50% 50%, circle, #f00, #aaa)
+**	Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS].
+* Multiple background images		
+** 	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 
 ===Usage===
 
@@ -119,89 +119,87 @@ Fill in as many options on the compatibility table as you can. Data can be found
 
 ====Basic background-image====
 
-Safari	
-	Desktop: 1.0 Mobile: 1.0 
-Chrome	
-	Desktop: 1.0 Mobile: 1.0
-Firefox	
-	Desktop: 1.0 Mobile: 1.0 
-IE	
-	Desktop: 4.0 Mobile: 6.0 
-Opera	
-	Desktop: 3.5 Mobile: 7.0
-Opera Mini	
-	Desktop: n/a Mobile: 4.0
-Android	
-	Desktop: n/a Mobile: 1.0 
-Blackberry	
-	Desktop: n/a Mobile: 3.8 
-Nokia N9
-	Desktop: n/a Mobile: 1.0 
+* Safari	
+**	Desktop: 1.0 Mobile: 1.0 
+* Chrome	
+**	Desktop: 1.0 Mobile: 1.0
+* Firefox	
+**	Desktop: 1.0 Mobile: 1.0 
+* IE	
+**	Desktop: 4.0 Mobile: 6.0 
+* Opera	
+**	Desktop: 3.5 Mobile: 7.0
+* Opera Mini	
+**	Desktop: n/a Mobile: 4.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0 
 	
 ====Multiple backgrounds====
 
-Safari	
-	Desktop: 1.0 Mobile: 1.0 
-Chrome	
-	Desktop: 1.0 Mobile: 1.0
-Firefox	
-	Desktop: 3.6 Mobile: 1.0 
-IE	
-	Desktop: 9.0 Mobile: 8.0 
-Opera	
-	Desktop: 9.0 Mobile: 8.5
-Opera Mini	
-	Desktop: n/a Mobile: 5.0
-Android	
-	Desktop: n/a Mobile: 1.0 
-Blackberry	
-	Desktop: n/a Mobile: 3.8 
-Nokia N9
-	Desktop: n/a Mobile: 1.0 
+* Safari	
+**	Desktop: 1.0 Mobile: 1.0 
+* Chrome	
+**	Desktop: 1.0 Mobile: 1.0
+* Firefox	
+**	Desktop: 3.6 Mobile: 1.0 
+* IE	
+** 	Desktop: 9.0 Mobile: 8.0 
+* Opera	
+**	Desktop: 9.0 Mobile: 8.5
+* Opera Mini	
+**	Desktop: n/a Mobile: 5.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0 
 	
-====SVG images====
+====SVG background images====
 
-[Sierra: clarify "SVG Background Images"; otherwise implies overall support for SVG]
-
-Safari	
-	Desktop: 1.0 Mobile: 1.0 
-Chrome	
-	Desktop: 8.0 Mobile: 1.0
-Firefox	
-	Desktop: 4.0 Mobile: 1.0 
-IE	
-	Desktop: 9.0 Mobile: 8.0 
-Opera	
-	Desktop: 9.5 Mobile: 10.0
-Opera Mini	
-	Desktop: n/a Mobile: 6.0
-Android	
-	Desktop: n/a Mobile: 1.0 
-Blackberry	
-	Desktop: n/a Mobile: 3.8 
-Nokia N9
-	Desktop: n/a Mobile: 1.0
+* Safari	
+**	Desktop: 1.0 Mobile: 1.0 
+* Chrome	
+**	Desktop: 8.0 Mobile: 1.0
+* Firefox	
+**	Desktop: 4.0 Mobile: 1.0 
+* IE	
+**	Desktop: 9.0 Mobile: 8.0 
+* Opera	
+**	Desktop: 9.5 Mobile: 10.0
+* Opera Mini	
+**	Desktop: n/a Mobile: 6.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0
 	
 ====Gradients====
 
-Safari	
-	Desktop: 1.0 with -webkit- Mobile: 1.0 with -webkit- 
-Chrome	
-	Desktop: 1.0 with -webkit- Mobile: 1.0 wit -webkit-
-Firefox	
-	Desktop: 4.0 with -moz- Mobile: 1.0 
-IE	
-	Desktop: 10 without prefix Mobile: 8.0 
-Opera	
-	Desktop: 11 with -o-, 12.5 without prefix Mobile: 11.0 with -o-, 12 without prefix
-Opera Mini	
-	Desktop: n/a Mobile: no
-Android	
-	Desktop: n/a Mobile: 1.0 
-Blackberry	
-	Desktop: n/a Mobile: 3.8 
-Nokia N9
-	Desktop: n/a Mobile: 1.0
+* Safari	
+**	Desktop: 1.0 with -webkit- Mobile: 1.0 with -webkit- 
+* Chrome	
+**	Desktop: 1.0 with -webkit- Mobile: 1.0 wit -webkit-
+* Firefox	
+**	Desktop: 4.0 with -moz- Mobile: 1.0 
+* IE	
+**	Desktop: 10 without prefix Mobile: 8.0 
+* Opera	
+**	Desktop: 11 with -o-, 12.5 without prefix Mobile: 11.0 with -o-, 12 without prefix
+* Opera Mini	
+**	Desktop: n/a Mobile: no
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+** Blackberry	
+*	Desktop: n/a Mobile: 3.8 
+** Nokia N9
+*	Desktop: n/a Mobile: 1.0
 	
 [CHRIS - I AM REALLY NOT SURE WHERE TO GET THE BEST SUPPORT DATA FROM, ESPECIALLY WITH REGARDS TO OLDER SUPPORT DATA. HTML5 AND CSS3 STUFF CAN BE GOTTEN FAIRLY WELL FROM CANIUSE.COM. BUT WHAT ABOUT STUFF THAT DOESN'T LIST, SUCH AS N9 AND BLACKBERRY BROWSER? NEED TO PROVIDE A BETTER GUIDE TO FINDING THIS DATA]
 
