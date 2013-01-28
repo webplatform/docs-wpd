@@ -6,8 +6,6 @@ We have compiled a rather large and hopefully exhaustive list of all existing CS
 
 We have assigned each property a priority level, starting from P0 and going down to P4. The highest priority is for vital, commonly-used properties that every browser supports, whereas the lowest level is for properties that are rarely-used, proprietary, have limited cross-browser support, or all of the above. We would like to start on the highest priority ones and work out way down.
 
-[CHRIS - THE PRIORITIES SEEMINGLY DON'T MAKE SENSE IN SOME CASES; HOW CAN BACKGROUND-ATTACHMENT BE P2, IF APPEARANCE IS P0?]
-
 ==Choosing a property to work on==
 
 So the first step is to have a look at which properties you would like to work on. I would suggest grabbing a group of related properties that would work well as unit to work on. In my example, I grabbed
@@ -26,9 +24,7 @@ Once you have grabbed some properties to work on, mark them with your name and e
 
 [CHRIS - HAVE WE GOT A FACILITY FOR MARKING UP WHO IS ASSIGNED TO EACH PROPERTY?]
 
-Then work sequentially through each property until you have completed your set. In this example I will do background-image.
-
-[SIERRA: No need to work sequentially.]
+Then work through each property until you have completed your set. In this example I will do background-image.
 
 ==Creating your page, in the right place==
 
@@ -44,20 +40,17 @@ If it already exists, great! Go on to the next step.
 
 If not, then it is worth checking whether it exists at the wrong location. First try entering your property name in the WPD search box and see if a specific page turns up. The URL might be wrong — it might have "properties" swapped out for "Properties", or "Background-Image" swapped out for "background-image", or a forward slash on the end of the URL. These all make it a different URL, as Media Wiki has a number of quirks, including case-sensitive URLs.
 
-If it already exists in the wrong place, we need to move it into the right place, using the "Move" tool, found in the tools menu when you are logged in. You need to enter a new slug for it to sit at. WARNING: make sure there is nothing already at the new slug before you move a page. We don't want to risk losing valuable content.
-
-[SIERRA: Does MediaWiki really clobber existing pages in this case? If so, any way to disable that?]
- '''''Shepazu:''' It will first warn the mover before deleting the page: (Deletion required: The destination page "Meta:Move Test" already exists. Do you want to delete it to make way for the move?)''
+If it already exists in the wrong place, we need to move it into the right place, using the "Move" tool, found in the tools menu when you are logged in. You need to enter a new slug for it to sit at. If there is something already at the new location, it will warn you and ask if you want to delete it. Please don't! We don't want to risk losing valuable content, so make sure you move the existing content somewhere else before moving your chosen content there. A good way to deal with it is to just move the old page to a location of OLD:[slug], for example OLD:background-image.
 
 If the page does not exist at all, you need to create a new page, using the New Page creator tool at 
 
 http://docs.webplatform.org/wiki/WPD:New_Page
 
-[SIERRA: Or you can navigate to the URL where you want the page to live & access the tool from the missing-page page.]
+You can access this by navigating to the URL where you want the page created and clicking on the new page link.
 
 You need to use the "CSS Property" section to create a new page for your CSS property. change "css/properties/foo" to "css/properties/property-name" (in my case it would be "css/properties/background-image") and press the "Create CSS property page button"
 
-[SIERRA: If you're adapting/moving an exiting page, is there any chance it could be assigned the wrong template? If so, any way to change the template to the correct one? Just wondering.]
+If you are adapting/modifying an existing page, and it has the wrong template assigned to it (you'll know because the edit form won't contain the correct fields) or no template at all (you'll get no edit form when pressing "Edit", just a single textarea containing course code), then the only way to move it to the correct form type is to edit the page source to give it the right form information to use. This often isn't that simple, so either talk to a Webplatform steward for help, or just create a new page and copy the existing information across to it.
 
 ==Entering data on the page==
 
@@ -100,15 +93,13 @@ background-image: linear-gradient(to bottom, #f00, #aaa), url(path/to/image.png)
 for example
 
 url(path/to/image.png)
-	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format.
+	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format. In some browsers you can also reference an in-page SVG element, for example url(#element).
 linear-gradient(to bottom, #f00, #aaa)
 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS]
 radial-gradient(50% 50%, circle, #f00, #aaa)
 	Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS].
 Multiple background images		
 	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
-
-[SIERRA: I think you can also reference an in-page SVG element: url(#element) ]
 
 ===Usage===
 
@@ -218,8 +209,7 @@ Nokia N9
 
 * IE < 9: doesn't support SVG for background-images, or multiple background images, or gradients
 * IE < 10: doesn't support gradients
-
-[SIERRA: recent Webkits animate transitions between different background-images by cross-fading]
+* Not all browsers support animation of background images. Recent -webkit- based browsers transition between background images by cross fading.
 
 ===Examples===
 
@@ -227,6 +217,8 @@ For the examples section, you should provide one or two brief examples that succ
 
 <pre>.one {
   background-image: url(images/icon.png);
+  /* here we are applying a single background image to our first block level container element */
+  /* (could be anything, but it is a <div>in the live example. */
 }
 
 .two {
@@ -235,6 +227,12 @@ For the examples section, you should provide one or two brief examples that succ
   background-image: -ms-linear-gradient(top,#aaa,#eee);
   background-image: -o-linear-gradient(top,#aaa,#eee);
   background-image: linear-gradient(to bottom,#aaa,#eee);
+  /* Here we are applying a linear gradient to our second block level container. */
+  /* We have included a line with each different vendor prefix type, so that all supporting */
+  /* browsers will have something they can apply. This includes a prefixless version of the */
+  /* property, which uses the latest version of the syntax for the spec. As browsers update their  */
+  /* implementations and drop their prefixes, tyhey can start to use this syntax instead, meaning */
+  /* that the code will still work. */  
 }
 
 .three {
@@ -243,11 +241,8 @@ For the examples section, you should provide one or two brief examples that succ
   background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
   background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
   background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
+  /* In this case we are applying both the background image and the gradient to our third block level container. */
 }</pre>
-
-[SIERRA: I would encourage authors to comment the examples, even using real-world selector names. That last example could be an indicator for open/close state.]
-
-
 
 ===Interactive example===
 
