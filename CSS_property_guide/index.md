@@ -255,7 +255,21 @@ For the related articles, you should a include a wide variety of resources that 
 * Articles that contain interesting discussions related to the property, which might be of controversial or otherwise interesting nature
 * links to the spec(s) that the property appears in
 
-[NEED TO FILL IN EXAMPLES FOR BACKGROUND-IMAGE]
+Here's some examples for the background-image example:
+
+====Tutorials====
+
+* [[tutorials/using_css_background_images|Using CSS background images]]
+* [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
+
+====Useful external articles====
+
+* [[http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images]], by Prisca Schmarsow
+
+====Specs====
+
+* [[http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3]]
+* [[http://www.w3.org/TR/CSS21/colors CSS2.1 Colors and Backgrounds]]
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
