@@ -262,7 +262,11 @@ For the examples section, you should provide one or two brief examples that succ
 
 ===Interactive example===
 
-[I AM NOT SURE HOW TO IMPLEMENT THIS, BUT I DO HAVE AN EXAMPLE WRITTEN. I WILL ATTACH IT AS A ZIP TO THE PAGE FOR THE MOMENT]
+Until the live example viewer is properly implemented, I suggest that you attach the code examples you write to the property pages in a zip file. The syntax you need to do that is &#91;[File:filename.extension]&#93;
+
+So for example
+
+"This example is available in my CSS background-image ZIP file: [[File:filename.extension]].
 
 ===Related articles===
 
