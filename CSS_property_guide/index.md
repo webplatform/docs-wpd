@@ -111,7 +111,7 @@ Here, all the possible value types indicated in the syntax section should be exp
 for example
 
 * url(path/to/image.png)
-**	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format. In some browsers you can also reference an in-page SVG element, for example url(#element).
+**	This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[concepts/css-images|CSS images]].
 * linear-gradient(to bottom, #f00, #aaa)
 ** 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
 * radial-gradient(50% 50%, circle, #f00, #aaa)
