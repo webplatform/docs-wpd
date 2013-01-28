@@ -268,10 +268,10 @@ For the examples section, you should provide one or two brief examples that succ
 
 ===Interactive examples===
 
-At a slightly later date, we are intending to integrate [[http://dabblet.com/ Dabblet]] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, I would suggest doing one of the following with your complete examples:
+At a slightly later date, we are intending to integrate [http://dabblet.com/ Dabblet] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, I would suggest doing one of the following with your complete examples:
 
 # Including all the source code for the examples inside <code>&lt;pre&gt;</code> elements in the property page
-# Uploading the example(s) to [[http://www.github.com Github]], [[https://help.github.com/articles/creating-project-pages-manually creating a project page]] for each one, and then linking to those from the property page. This is a good idea as it means that we can show an example running live and accept pull requests from others to help fix bugs and improve examples.
+# Uploading the example(s) to [http://www.github.com Github], [https://help.github.com/articles/creating-project-pages-manually creating a project page] for each one, and then linking to those from the property page. This is a good idea as it means that we can show an example running live and accept pull requests from others to help fix bugs and improve examples.
 
 For example, I have put my background-image example at
 
@@ -299,12 +299,12 @@ Here's some examples for the background-image example:
 
 ====Useful external articles====
 
-* [[http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images]], by Prisca Schmarsow
+* [http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images], by Prisca Schmarsow
 
 ====Specs====
 
-* [[http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3]]
-* [[http://www.w3.org/TR/CSS21/colors CSS2.1 Colors and Backgrounds]]
+* [http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3]
+* [http://www.w3.org/TR/CSS21/colors CSS2.1 Colors and Backgrounds]
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
