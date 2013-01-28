@@ -58,6 +58,11 @@ If you are adapting/modifying an existing page, and it has the wrong template as
 
 Now you are ready to start entering the data into the page. You'll need to go through the different form fields in the edit page and fill each one in.
 
+NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other CSS properties. If it does, then you should consider putting that information into a separate page, whether it is a concept, function or whatever. This way, you can save others a lot of time and repetition.
+
+So, in the case of my example, url() *-gradient() functions are viable targets within the "css/functions" tree. If you were describing background colors, rather than detail how RGBA/HSLA values work, you could instead point to pages within the "css/units" (whihc doesn't exist yet). If you find yourself using any other common jargon that's hard to classify & that readers might not be familiar with, create a link within the top-level "concepts" tree, e.g., "viewport," "vendor prefixes," or "standards
+mode." Readers may also benefit from links to tutorials on the subject available as "CSS learning material." (Other areas such as HTML, JavaScript, and SVG have their own learning material areas.)
+
 ===Summary information===
 
 First of all, let's start with the summary information near the top of the page.
@@ -111,7 +116,7 @@ Here, all the possible value types indicated in the syntax section should be exp
 for example
 
 * url(path/to/image.png)
-**	This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[concepts/css-images|CSS images]].
+**	This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[css/functions/url()|CSS images: url()]].
 * linear-gradient(to bottom, #f00, #aaa)
 ** 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
 * radial-gradient(50% 50%, circle, #f00, #aaa)
@@ -218,8 +223,7 @@ Fill in as many options on the compatibility table as you can. Data can be found
 *	Desktop: n/a Mobile: 3.8 
 ** Nokia N9
 *	Desktop: n/a Mobile: 1.0
-	
-[CHRIS - I AM REALLY NOT SURE WHERE TO GET THE BEST SUPPORT DATA FROM, ESPECIALLY WITH REGARDS TO OLDER SUPPORT DATA. HTML5 AND CSS3 STUFF CAN BE GOTTEN FAIRLY WELL FROM CANIUSE.COM. BUT WHAT ABOUT STUFF THAT DOESN'T LIST, SUCH AS N9 AND BLACKBERRY BROWSER? NEED TO PROVIDE A BETTER GUIDE TO FINDING THIS DATA]
+
 
 ===Compatibility notes===
 
@@ -260,13 +264,20 @@ For the examples section, you should provide one or two brief examples that succ
   /* In this case we are applying both the background image and the gradient to our third block level container. */
 }</pre>
 
-===Interactive example===
+===Interactive examples===
 
-Until the live example viewer is properly implemented, I suggest that you attach the code examples you write to the property pages in a zip file. The syntax you need to do that is &#91;[File:filename.extension]&#93;
+At a slightly later date, we are intending to integrate [[http://dabblet.com/ Dabblet]] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, I would suggest doing one of the following with your complete examples:
 
-So for example
+# Including all the source code for the examples inside <pre> elements, in the property page
+# Uploading the example(s) to [[http:www.github.com Github]], [[https://help.github.com/articles/creating-project-pages-manually creating a project page]] for each one, and then linking to those from the property page. This is a good idea as it means that we can show an example running live and accept pull requests from others to help fix bugs and improve examples.
 
-"This example is available in my CSS background-image ZIP file: [[File:background-image.zip]].
+For example, I have put my background-image example at
+
+https://github.com/chrisdavidmills/background-image
+
+And created a project page that can be viewed at
+
+http://chrisdavidmills.github.com/background-image/background-image.html
 
 ===Related articles===
 
