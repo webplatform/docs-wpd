@@ -95,9 +95,9 @@ for example
 * url(path/to/image.png)
 **	This value contains a path to an image that you want to apply to the element in question as a background image; you can use a relative or absolute URL. Types of image commonly supported include .bmp, .gif, .png, .svg and data URIs. Some browsers also support the new .webp format. In some browsers you can also reference an in-page SVG element, for example url(#element).
 * linear-gradient(to bottom, #f00, #aaa)
-** 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS]
+** 	Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
 * radial-gradient(50% 50%, circle, #f00, #aaa)
-**	Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [tutorials/creating_gradients_in_css|Creating gradients in CSS].
+**	Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
 * Multiple background images		
 ** 	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 
