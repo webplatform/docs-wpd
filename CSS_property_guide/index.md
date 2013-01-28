@@ -64,7 +64,7 @@ First of all, let's start with the summary information near the top of the page.
 * Brief description: enter a very brief description of function, for example "Applies background images to HTML elements."
 * Summary: enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. For example:
 
-"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [tutorials/using_css_background_images|Using CSS background images] and [tutorials/creating_gradients_in_css|Creating gradients in CSS]."
+"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
 
 * Initial value: none
 * Computed value: n/a
