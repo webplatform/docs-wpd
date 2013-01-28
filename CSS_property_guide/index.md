@@ -17,6 +17,8 @@ So the first step is to have a look at which properties you would like to work o
 * background-position
 * background-repeat
 * background-size
+* background-clip
+* background-origin
 
 ==Assigning yourself to work on your chosen properties==
 
