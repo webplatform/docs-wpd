@@ -60,11 +60,23 @@ Now you are ready to start entering the data into the page. You'll need to go th
 
 First of all, let's start with the summary information near the top of the page.
 
-* Page title: enter the property name, for example background-image
-* Brief description: enter a very brief description of function, for example "Applies background images to HTML elements."
-* Summary: enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. For example:
+====Page title====
+
+Enter the property name, for example background-image
+
+====Brief description====
+
+Enter a very brief description of function, for example "Applies background images to HTML elements."
+
+====Summary====
+
+Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. For example:
 
 "The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
+
+====The data table====
+
+Fill these data items in as exactly as you can.
 
 * Initial value: none
 * Computed value: n/a
@@ -79,7 +91,9 @@ First of all, let's start with the summary information near the top of the page.
 
 Now on to the syntax and value explanations
 
-* Syntax - you should provide a different line for all notable different value types, which are then explained in the "Values" section
+====Syntax====
+
+You should provide a different line for all notable different value types, which are then explained in the "Values" section
 
 for example
 
@@ -88,7 +102,9 @@ background-image: linear-gradient(to bottom, #f00, #aaa) /* Use a CSS3 linear gr
 background-image: radial-gradient(50% 50%, circle, #f00, #aaa) /* Use a CSS3 radial gradient as a background image */
 background-image: linear-gradient(to bottom, #f00, #aaa), url(path/to/image.png), url(path/to/image2.png)  /* Apply multiple background images to the same element */</pre>
 
-* Values - here, all the possible value types indicated in the syntax section should be expanded upon and explained clearly
+====Values====
+
+Here, all the possible value types indicated in the syntax section should be expanded upon and explained clearly
 
 for example
 
