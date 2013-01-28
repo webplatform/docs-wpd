@@ -60,7 +60,9 @@ Now you are ready to start entering the data into the page. You'll need to go th
 
 NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other CSS properties. If it does, then you should consider putting that information into a separate page, whether it is a concept, function or whatever. This way, you can save others a lot of time and repetition.
 
-So, in the case of my example, url() *-gradient() functions are viable targets within the "css/functions" tree. If you were describing background colors, rather than detail how RGBA/HSLA values work, you could instead point to pages within the "css/units" (whihc doesn't exist yet). If you find yourself using any other common jargon that's hard to classify & that readers might not be familiar with, create a link within the top-level "concepts" tree, e.g., "viewport," "vendor prefixes," or "standards
+So, in the case of my example, url() *-gradient() functions are viable targets within the "css/functions" tree. I have created a page to cover url() at [[css/functions/url()|CSS images: url()]], and linear and radial gradients are currently intended to be covered at [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
+
+If you were describing background colors, rather than detail how RGBA/HSLA values work, you could instead point to pages within the "css/units" (whihc doesn't exist yet). If you find yourself using any other common jargon that's hard to classify & that readers might not be familiar with, create a link within the top-level "concepts" tree, e.g., "viewport," "vendor prefixes," or "standards
 mode." Readers may also benefit from links to tutorials on the subject available as "CSS learning material." (Other areas such as HTML, JavaScript, and SVG have their own learning material areas.)
 
 ===Summary information===
