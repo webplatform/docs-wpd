@@ -11,7 +11,7 @@
 ** [http://colloquy.info/downloads.html| Colloquy] (Mac)
 ** [http://limechat.net/mac/| LimeChat] (Mac)
 ** [http://pidgin.im/| Pidgin] (Mac)
-===Connect to the WebPlatform channel with an IRC client using these settings===
+===+Connect to the WebPlatform channel with an IRC client using these settings+===
 * Server: Freenode (irc.freenode.net)
 * Channel: #webplatform
 ** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/| helpful guide].
@@ -73,7 +73,7 @@
 #** '''Skin''' — if the problem relates to the visual design (the look and feel of the site).
 When you are finished, press the '''Submit bug''' button at the bottom of the page.
 
-You will receive notifications via e-mail when the status of your bug changes or whenever comments are added. 
+You will receive notifications via e-mail when the status of your bug changes or whenever comments are added.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
