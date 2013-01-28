@@ -266,7 +266,7 @@ Until the live example viewer is properly implemented, I suggest that you attach
 
 So for example
 
-"This example is available in my CSS background-image ZIP file: [[File:filename.extension]].
+"This example is available in my CSS background-image ZIP file: [[File:background-image.zip]].
 
 ===Related articles===
 
