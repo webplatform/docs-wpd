@@ -3,7 +3,6 @@
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Join the conversation on the IRC channel==
-[[Frog#Jumping|the jumping of frogs]]
 * The WebPlatform.org online community uses IRC extensively. [http://webchat.freenode.net/?channels=#webplatform| Log in using a browser and ask the team questions].
 * Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
 ** [http://www.mirc.com| mIRC] (Windows)
