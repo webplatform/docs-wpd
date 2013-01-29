@@ -16,7 +16,7 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner">
-        <h3>[[step_2_communicate_with_the_online_community | Communicate]]</h3>
+        <h3>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
         <p> Communicate with the online community.</p>
             <ul>
             <li>[[step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join the conversation on the IRC channel]]</li>
