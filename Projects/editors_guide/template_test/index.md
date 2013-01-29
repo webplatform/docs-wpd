@@ -19,7 +19,7 @@
         <h3>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
         <p> Communicate with the online community.</p>
             <ul>
-            <li>[[step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join the conversation on the IRC channel]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join the conversation on the IRC channel]]</li>
             <li>Join the public-webplatform@w3.org mailing list</li>
             <li>Ask questions or help others in the forum</li>
             <li>Access the bug-tracking system</li>
