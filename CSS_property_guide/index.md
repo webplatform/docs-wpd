@@ -58,6 +58,8 @@ If you are adapting/modifying an existing page, and it has the wrong template as
 
 Now you are ready to start entering the data into the page. You'll need to go through the different form fields in the edit page and fill each one in.
 
+===Putting information that applies to multiple properties in separate pages===
+
 NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other CSS properties. If it does, then you should consider putting that information into a separate page, whether it is a concept, function or whatever. This way, you can save others a lot of time and repetition.
 
 So, in the case of my example, url() *-gradient() functions are viable targets within the "css/functions" tree. I have created a page to cover url() at [[css/functions/url()|CSS images: url()]], and linear and radial gradients are currently intended to be covered at [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
