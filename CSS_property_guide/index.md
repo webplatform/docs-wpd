@@ -58,6 +58,12 @@ If you are adapting/modifying an existing page, and it has the wrong template as
 
 Now you are ready to start entering the data into the page. You'll need to go through the different form fields in the edit page and fill each one in.
 
+===Researching information===
+
+You should research the information for your article and how to verify its correct, using trustworthy sites like MDN, caniuse, quirksmode and relevant CSS specs. Review existing documentation from other sources and then read the relevant specs. If the sources all agree then you can accept the information as correct, but if they disagree you should do original research or ask for help from more knowledgeable members.
+
+When you have finished writing a page, you should get someone else to review it to verify its quality.
+
 ===Putting information that applies to multiple properties in separate pages===
 
 NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other CSS properties. If it does, then you should consider putting that information into a separate page, whether it is a concept, function or whatever. This way, you can save others a lot of time and repetition.
