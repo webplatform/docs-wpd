@@ -29,6 +29,9 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===Actions===
+
+
 ==Agenda 2013-01-17==
 
 
@@ -48,7 +51,7 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Any new or notable content to promote?
 * Need a new time for this meeting?
 
-
+===Testing the session bug===
 
 ===Meeting Summary===
 
