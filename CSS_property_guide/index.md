@@ -83,14 +83,6 @@ Enter the property name, for example background-image
 
 Enter a very brief description of function, for example "Applies background images to HTML elements."
 
-====Extended description====
-
-Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. Enter this into the '''Notes (optional)''' field down nearer the bottom of the form.
-
-For example:
-
-"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
-
 ====The data table====
 
 This refers to the small fields below the Summary. Fill these data items in as exactly as you can.
@@ -128,9 +120,47 @@ for example
 * url(path/to/image.png), url(path/to/image2.png), url(path/to/image3.png)	
 ** 	You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 
-===Usage===
+===Examples===
 
-The usage section is meant to contain notes that impart useful, practical knowledge about using the property in the real world. What do you really need to know when trying to use this property in production?
+For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. Just a brief CSS snippet will suffice for the printed example; for the embedded real working example, you'll need to provide full HTML too.
+
+<pre>.one {
+  background-image: url(images/icon.png);
+  /* here we are applying a single background image to our first block level container element */
+  /* (could be anything, but it is a <div>in the live example. */
+}
+
+.two {
+  background-image: -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: -moz-linear-gradient(top,#aaa,#eee);
+  background-image: -ms-linear-gradient(top,#aaa,#eee);
+  background-image: -o-linear-gradient(top,#aaa,#eee);
+  background-image: linear-gradient(to bottom,#aaa,#eee);
+  /* Here we are applying a linear gradient to our second block level container. */
+  /* We have included a line with each different vendor prefix type, so that all supporting */
+  /* browsers will have something they can apply. This includes a prefixless version of the */
+  /* property, which uses the latest version of the syntax for the spec. As browsers update their  */
+  /* implementations and drop their prefixes, tyhey can start to use this syntax instead, meaning */
+  /* that the code will still work. */  
+}
+
+.three {
+  background-image: url(images/icon.png), -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -moz-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
+  /* In this case we are applying both the background image and the gradient to our third block level container. */
+}</pre>
+
+===Interactive examples===
+
+At a slightly later date, we are intending to integrate [http://dabblet.com/ Dabblet] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, we would suggest Including all the source code for the examples inside <code>&lt;pre&gt;</code> elements in the property page just for now.
+
+
+===Usage (optional)===
+
+The Usage section should contain notes that impart useful, practical knowledge about using the property in the real world. What do you really need to know when trying to use this property in production?
 
 For example
 
@@ -139,6 +169,15 @@ For example
 * Older browsers do not support multiple background images, SVG as background images or CSS gradients, so be careful when using these options to make sure that a fallback is provided that will make content readable on older browsers, such as a simple solid colour.
 * When using multiple background images, the image at the start of the comma delimited list appears on top of ones later on. This might seem contrary to how CSS is expected to behave.
 * Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples."
+
+====Extended description: Notes (optional)====
+
+Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. Enter this into the '''Notes (optional)''' field down nearer the bottom of the form.
+
+For example:
+
+"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
+
 
 ===Compatibility table===
 
@@ -234,43 +273,6 @@ Fill in as many options on the compatibility table as you can. Data can be found
 * IE < 9: doesn't support SVG for background-images, or multiple background images, or gradients
 * IE < 10: doesn't support gradients
 * Not all browsers support animation of background images. Recent -webkit- based browsers transition between background images by cross fading.
-
-===Examples===
-
-For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. Just a brief CSS snippet will suffice for the printed example; for the embedded real working example, you'll need to provide full HTML too.
-
-<pre>.one {
-  background-image: url(images/icon.png);
-  /* here we are applying a single background image to our first block level container element */
-  /* (could be anything, but it is a <div>in the live example. */
-}
-
-.two {
-  background-image: -webkit-linear-gradient(top,#aaa,#eee);
-  background-image: -moz-linear-gradient(top,#aaa,#eee);
-  background-image: -ms-linear-gradient(top,#aaa,#eee);
-  background-image: -o-linear-gradient(top,#aaa,#eee);
-  background-image: linear-gradient(to bottom,#aaa,#eee);
-  /* Here we are applying a linear gradient to our second block level container. */
-  /* We have included a line with each different vendor prefix type, so that all supporting */
-  /* browsers will have something they can apply. This includes a prefixless version of the */
-  /* property, which uses the latest version of the syntax for the spec. As browsers update their  */
-  /* implementations and drop their prefixes, tyhey can start to use this syntax instead, meaning */
-  /* that the code will still work. */  
-}
-
-.three {
-  background-image: url(images/icon.png), -webkit-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -moz-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
-  /* In this case we are applying both the background image and the gradient to our third block level container. */
-}</pre>
-
-===Interactive examples===
-
-At a slightly later date, we are intending to integrate [http://dabblet.com/ Dabblet] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, we would suggest Including all the source code for the examples inside <code>&lt;pre&gt;</code> elements in the property page just for now.
 
 ===Related articles===
 
