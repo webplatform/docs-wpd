@@ -305,6 +305,8 @@ Fill in as many options on the compatibility table as you can. Data can be found
 
 ===Compatibility notes===
 
+Use the compatibility notes section to enter any useful specifics you have relating to browser compatibility. For example:
+
 * IE < 9: doesn't support SVG for background-images, or multiple background images, or gradients
 * IE < 10: doesn't support gradients
 * Not all browsers support animation of background images. Recent -webkit- based browsers transition between background images by cross fading.
