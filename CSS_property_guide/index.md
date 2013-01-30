@@ -75,32 +75,35 @@ mode." Readers may also benefit from links to tutorials on the subject available
 
 First of all, let's start with the summary information near the top of the page.
 
-====Page title====
+====Custom page title====
 
 Enter the property name, for example background-image
 
-====Brief description====
+====Top level summary====
 
 Enter a very brief description of function, for example "Applies background images to HTML elements."
 
-====Summary====
+====Extended description====
 
-Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. For example:
+Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. Enter this into the '''Notes (optional)''' field down nearer the bottom of the form.
+
+For example:
 
 "The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
 
 ====The data table====
 
-Fill these data items in as exactly as you can.
+This refers to the small fields below the Summary. Fill these data items in as exactly as you can.
 
 * Initial value: none
-* Computed value: n/a
+* Computed value: As specified, but with URIs made absolute
 * Inherited: no
 * Applies to: all elements
 * CSS Object Model property: backgroundImage
-* Media: visual, print
+* Media: visual for now (you can't currently specify more than one)
 * Animatable: yes
 * Shorthand: background
+* Percentages (ignore this)
 
 ===Syntax and values===
 
