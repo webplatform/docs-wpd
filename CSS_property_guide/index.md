@@ -8,7 +8,7 @@ We have assigned each property a priority level, starting from P0 and going down
 
 ==Choosing a property to work on==
 
-So the first step is to have a look at which properties you would like to work on. I would suggest grabbing a group of related properties that would work well as unit to work on. In my example, I grabbed
+So the first step is to have a look at which properties you would like to work on. I would suggest grabbing a group of related properties that would work well as unit to work on. So for example, I grabbed
 
 * background
 * background-attachment
@@ -20,11 +20,11 @@ So the first step is to have a look at which properties you would like to work o
 * background-clip
 * background-origin
 
-==Assigning yourself to work on your chosen properties==
+==Assigning you to work on your chosen properties==
 
 Once you have grabbed some properties to work on, let us know, so we can track who is working on what.
 
-Then work through each property until you have completed your set. In this example I will do background-image.
+Then work through each property until you have completed your set. In this example I will do background-image — see my finished example at http://docs.webplatform.org/wiki/css/properties/background-image
 
 ==Creating your page, in the right place==
 
