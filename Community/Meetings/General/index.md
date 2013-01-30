@@ -10,7 +10,20 @@ Web Platform content architecture meetings occur on Thursdays, 20:00 UTC / 15:00
 
 '''VOIP:'''  sip:zakim@w3.org
 
-We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will send out minutes.
+==Agenda 2013-02-01==
+
+* Roll call
+* Review of open action items
+* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties status]
+** Exemplar and instructions are completed; 5 folks are testing the workflow.
+** [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=specific&order=relevance%20desc&bug_status=__open__&product=webplatform.org&content=session&list_id=4654 Session bug] is a blocker. 
+*** Several bugs: can we consolidate them?
+*** Do we need folks to document exactly what's happening?
+*** Other needs to get this resolved? Other suggestions?
+** Spec status values should be resolved. Lea brings up a good point: maybe we should be calling it "browser support". [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 20386] [https://www.w3.org/Bugs/Public/show_bug.cgi?id=18896 18896]
+* Analytics?
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
 
 ==Agenda 2013-01-25==
 
@@ -50,8 +63,6 @@ We simultaneously meet in the #webplatform-site IRC channel. Afterwards we will 
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 * Need a new time for this meeting?
-
-===Testing the session bug===
 
 ===Meeting Summary===
 
