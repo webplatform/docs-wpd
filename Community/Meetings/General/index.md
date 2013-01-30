@@ -23,7 +23,7 @@ Web Platform content architecture meetings occur on Thursdays, 20:00 UTC / 15:00
 ** Spec status values should be resolved. Lea brings up a good point: maybe we should be calling it "browser support". [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 20386] [https://www.w3.org/Bugs/Public/show_bug.cgi?id=18896 18896]
 * Analytics?
 * Anything blocking you from creating great content?
-* Any new or notable content to promote?
+* Any new or notable content to promote? Does someone want to write up a blog post for Web Audio API?
 
 ==Agenda 2013-01-25==
 
