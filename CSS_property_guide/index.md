@@ -215,7 +215,7 @@ Relevant changes: Multiple background images can be specified on the same elemen
 
 ===Compatibility table===
 
-Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, and XXXXXXXXX
+Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, and MDN.
 
 ====Basic background-image====
 
