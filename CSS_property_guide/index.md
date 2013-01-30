@@ -122,7 +122,29 @@ for example
 
 ===Examples===
 
-For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. Just a brief CSS snippet will suffice for the printed example; for the embedded real working example, you'll need to provide full HTML too.
+For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. You should show your HTML and CSS, and anything else relevant, in separate sections.
+
+For example:
+
+HTML
+
+<pre>&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Background-image example&lt;/title&gt;
+	&lt;link href="background-image.css" type="text/css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="one"&gt;One&lt;/div&gt;
+&lt;div class="two"&gt;Two&lt;/div&gt;
+&lt;div class="three"&gt;Three&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+CSS
 
 <pre>.one {
   background-image: url(images/icon.png);
