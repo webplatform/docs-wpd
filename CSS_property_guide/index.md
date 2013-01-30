@@ -336,6 +336,10 @@ Here's some examples for the background-image example:
 * x
 * y
 * z
+
+===External attribution===
+
+Some of the existing pages will have content that comes from an external source. We are quite happy to overwrite/replace this information, to improve it, make it more consistent, and get rid of any licensing constraints that using that material brought with it. If there is external attribution specified, and you've just rewritten the page data. uncheck the external attribution options.
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
