@@ -22,9 +22,7 @@ So the first step is to have a look at which properties you would like to work o
 
 ==Assigning yourself to work on your chosen properties==
 
-Once you have grabbed some properties to work on, mark them with your name and e-mail address, in the XXXXXXXXXX column
-
-[CHRIS - HAVE WE GOT A FACILITY FOR MARKING UP WHO IS ASSIGNED TO EACH PROPERTY?]
+Once you have grabbed some properties to work on, let us know, so we can track who is working on what.
 
 Then work through each property until you have completed your set. In this example I will do background-image.
 
