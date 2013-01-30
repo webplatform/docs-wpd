@@ -220,86 +220,76 @@ Fill in as many options on the compatibility table as you can. Data can be found
 ====Basic background-image====
 
 * Safari	
-**	Desktop: 1.0 Mobile: 1.0 
+**	1.0 
 * Chrome	
-**	Desktop: 1.0 Mobile: 1.0
+**	1.0 
 * Firefox	
-**	Desktop: 1.0 Mobile: 1.0 
+**	1.0 
 * IE	
-**	Desktop: 4.0 Mobile: 6.0 
+**	4.0 
 * Opera	
-**	Desktop: 3.5 Mobile: 7.0
-* Opera Mini	
-**	Desktop: n/a Mobile: 4.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0 
+**	3.5 
 	
 ====Multiple backgrounds====
 
 * Safari	
-**	Desktop: 1.0 Mobile: 1.0 
+**	1.0 
 * Chrome	
-**	Desktop: 1.0 Mobile: 1.0
+**	1.0 
 * Firefox	
-**	Desktop: 3.6 Mobile: 1.0 
+**	3.6 
 * IE	
-** 	Desktop: 9.0 Mobile: 8.0 
+** 	9.0 
 * Opera	
-**	Desktop: 9.0 Mobile: 8.5
-* Opera Mini	
-**	Desktop: n/a Mobile: 5.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0 
+**	9.0 
 	
 ====SVG background images====
 
 * Safari	
-**	Desktop: 1.0 Mobile: 1.0 
+**	1.0 
 * Chrome	
-**	Desktop: 8.0 Mobile: 1.0
+**	8.0 
 * Firefox	
-**	Desktop: 4.0 Mobile: 1.0 
+**	4.0 
 * IE	
-**	Desktop: 9.0 Mobile: 8.0 
+**	9.0 
 * Opera	
-**	Desktop: 9.5 Mobile: 10.0
-* Opera Mini	
-**	Desktop: n/a Mobile: 6.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0
+**	9.5 
 	
 ====Gradients====
 
 * Safari	
-**	Desktop: 1.0 with -webkit- Mobile: 1.0 with -webkit- 
+**	1.0 with -webkit-  
 * Chrome	
-**	Desktop: 1.0 with -webkit- Mobile: 1.0 wit -webkit-
+**	1.0 with -webkit- 
 * Firefox	
-**	Desktop: 4.0 with -moz- Mobile: 1.0 
+**	4.0 with -moz- 
 * IE	
-**	Desktop: 10 without prefix Mobile: 8.0 
+**	10 without prefix
 * Opera	
-**	Desktop: 11 with -o-, 12.5 without prefix Mobile: 11.0 with -o-, 12 without prefix
+**	11 with -o-, 12.5 without prefix
+
+
+====Mobile support====
+
+* Safari	
+**	1.0 
+* Chrome	
+**	1.0
+* Firefox	
+**	1.0 
+* IE	
+**	6.0 
+* Opera	
+**	7.0
 * Opera Mini	
-**	Desktop: n/a Mobile: no
+**	4.0
 * Android	
-**	Desktop: n/a Mobile: 1.0 
-** Blackberry	
-*	Desktop: n/a Mobile: 3.8 
-** Nokia N9
-*	Desktop: n/a Mobile: 1.0
+**	1.0 
+* Blackberry	
+**	3.8 
+* Nokia N9
+**	1.0 
 
 
 ===Compatibility notes===
@@ -327,7 +317,6 @@ Here's some examples for the background-image example:
 ====Useful external articles====
 
 * [http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images], by Prisca Schmarsow
-
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
