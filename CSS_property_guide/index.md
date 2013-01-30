@@ -220,76 +220,87 @@ Fill in as many options on the compatibility table as you can. Data can be found
 ====Basic background-image====
 
 * Safari	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0 
 * Chrome	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0
 * Firefox	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0 
 * IE	
-**	4.0 
+**	Desktop: 4.0 Mobile: 6.0 
 * Opera	
-**	3.5 
+**	Desktop: 3.5 Mobile: 7.0
+* Opera Mini	
+**	Desktop: n/a Mobile: 4.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0 
 	
 ====Multiple backgrounds====
 
 * Safari	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0 
 * Chrome	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0
 * Firefox	
-**	3.6 
+**	Desktop: 3.6 Mobile: 1.0 
 * IE	
-** 	9.0 
+** 	Desktop: 9.0 Mobile: 8.0 
 * Opera	
-**	9.0 
+**	Desktop: 9.0 Mobile: 8.5
+* Opera Mini	
+**	Desktop: n/a Mobile: 5.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0 
 	
 ====SVG background images====
 
 * Safari	
-**	1.0 
+**	Desktop: 1.0 Mobile: 1.0 
 * Chrome	
-**	8.0 
+**	Desktop: 8.0 Mobile: 1.0
 * Firefox	
-**	4.0 
+**	Desktop: 4.0 Mobile: 1.0 
 * IE	
-**	9.0 
+**	Desktop: 9.0 Mobile: 8.0 
 * Opera	
-**	9.5 
+**	Desktop: 9.5 Mobile: 10.0
+* Opera Mini	
+**	Desktop: n/a Mobile: 6.0
+* Android	
+**	Desktop: n/a Mobile: 1.0 
+* Blackberry	
+**	Desktop: n/a Mobile: 3.8 
+* Nokia N9
+**	Desktop: n/a Mobile: 1.0
 	
 ====Gradients====
 
 * Safari	
-**	1.0 with -webkit-  
+**	Desktop: 1.0 with -webkit- Mobile: 1.0 with -webkit- 
 * Chrome	
-**	1.0 with -webkit- 
+**	Desktop: 1.0 with -webkit- Mobile: 1.0 wit -webkit-
 * Firefox	
-**	4.0 with -moz- 
+**	Desktop: 4.0 with -moz- Mobile: 1.0 
 * IE	
-**	10 without prefix
+**	Desktop: 10 without prefix Mobile: 8.0 
 * Opera	
-**	11 with -o-, 12.5 without prefix
-
-
-====Mobile support====
-
-* Safari	
-**	1.0 
-* Chrome	
-**	1.0
-* Firefox	
-**	1.0 
-* IE	
-**	6.0 
-* Opera	
-**	7.0
+**	Desktop: 11 with -o-, 12.5 without prefix Mobile: 11.0 with -o-, 12 without prefix
 * Opera Mini	
-**	4.0
+**	Desktop: n/a Mobile: no
 * Android	
-**	1.0 
-* Blackberry	
-**	3.8 
-* Nokia N9
-**	1.0 
+**	Desktop: n/a Mobile: 1.0 
+** Blackberry	
+*	Desktop: n/a Mobile: 3.8 
+** Nokia N9
+*	Desktop: n/a Mobile: 1.0
+
 
 
 ===Compatibility notes===
