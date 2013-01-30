@@ -122,7 +122,7 @@ for example
 
 ===Examples===
 
-For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. You should show your HTML and CSS, and anything else relevant, in separate sections.
+For the examples section, you should provide one or two brief examples that succinctly show how to do a real world implementation of the property being shown. You should show your HTML and CSS, and anything else relevant, in separate sections, as provided by the edit page.
 
 For example:
 
@@ -175,9 +175,9 @@ CSS
   /* In this case we are applying both the background image and the gradient to our third block level container. */
 }</pre>
 
-===Interactive examples===
+====Live examples====
 
-At a slightly later date, we are intending to integrate [http://dabblet.com/ Dabblet] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, we would suggest Including all the source code for the examples inside <code>&lt;pre&gt;</code> elements in the property page just for now.
+At a slightly later date, we are intending to integrate [http://dabblet.com/ Dabblet] with our site, so we will be able to have live examples running inside our references and tutorials. Until the live example viewer is properly implemented, we would suggest just showing the source code in the page for now, as instructed above. In my finished example page, I have hosted a live example at Github; feel free to host a live version at Github or another place if you feel like it.
 
 
 ===Usage (optional)===
