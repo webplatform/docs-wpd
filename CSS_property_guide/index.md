@@ -111,14 +111,7 @@ Now on to the syntax and value explanations
 
 ====Syntax====
 
-You should provide a different line for all notable different value types, which are then explained in the "Values" section
-
-for example
-
-<pre>background-image: url(path/to/image.png) /* Use an image file as a background image */
-background-image: linear-gradient(to bottom, #f00, #aaa) /* Use a CSS3 linear gradient as a background image */
-background-image: radial-gradient(50% 50%, circle, #f00, #aaa) /* Use a CSS3 radial gradient as a background image */
-background-image: linear-gradient(to bottom, #f00, #aaa), url(path/to/image.png), url(path/to/image2.png)  /* Apply multiple background images to the same element */</pre>
+You should provide a different syntax value all notable different value types, along with a nice detailed explanation, in the '''Values''' form fields. These  values are then used to auto-populate the '''Syntax''' and '''Values''' sections of the page.
 
 ====Values====
 
