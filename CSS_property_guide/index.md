@@ -81,7 +81,9 @@ Enter the property name, for example background-image
 
 ====Top level summary====
 
-Enter a very brief description of function, for example "Applies background images to HTML elements."
+Enter a very brief description of function, for example
+
+"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
 
 ====The data table====
 
@@ -191,14 +193,6 @@ For example
 * Older browsers do not support multiple background images, SVG as background images or CSS gradients, so be careful when using these options to make sure that a fallback is provided that will make content readable on older browsers, such as a simple solid colour.
 * When using multiple background images, the image at the start of the comma delimited list appears on top of ones later on. This might seem contrary to how CSS is expected to behave.
 * Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples."
-
-====Extended description: Notes (optional)====
-
-Enter a slightly more detailed description of functionality, including some more information about usage and a link to a tutorial in case the reader is not very familiar with the property in question, and needs a really detailed walkthrough. Enter this into the '''Notes (optional)''' field down nearer the bottom of the form.
-
-For example:
-
-"The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]."
 
 
 ===Compatibility table===
