@@ -322,14 +322,20 @@ For the related articles, you should a include a wide variety of resources that 
 
 Here's some examples for the background-image example:
 
-====Tutorials====
+====Internal pages (put in the ''manual links''' section)====
 
 * [[tutorials/using_css_background_images|Using CSS background images]]
 * [[tutorials/creating_gradients_in_css|Creating gradients in CSS]]
 
-====Useful external articles====
+====Useful external articles (put in the '''external links''' section)====
 
 * [http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images], by Prisca Schmarsow
+
+===Anything else (put in the '''Manual sections''' section)====
+
+* x
+* y
+* z
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
