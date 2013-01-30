@@ -4,7 +4,7 @@ Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them
 =The dreaded pipe character=
 
 <blockquote>"You wanna come over? It's pipe night!"
--Kramer on ''Seinfeld''<blockquote>
+-Kramer on ''Seinfeld''</blockquote>
 
 '''What happens'''
 
