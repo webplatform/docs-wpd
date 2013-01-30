@@ -195,6 +195,24 @@ For example
 * Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples."
 
 
+===Related specifications===
+
+enter the most current specification the property is included in, AND the recommendation the property was included in, in the case of old properties that were included in CSS 1, 2.1, etc.
+
+For example:
+
+Name: CSS 2.1
+URL: http://www.w3.org/TR/CSS21/colors
+Status: W3C Recommendation
+Relevant changes: 
+
+Name: CSS Backgrounds and Borders Module Level 3
+URL: http://www.w3.org/TR/css3-background/
+Status: W3C Candidate Recommendation
+Relevant changes: Multiple background images can be specified on the same element.
+ 
+
+
 ===Compatibility table===
 
 Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, and XXXXXXXXX
@@ -310,10 +328,6 @@ Here's some examples for the background-image example:
 
 * [http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images Get to grips with CSS3 multiple background images], by Prisca Schmarsow
 
-====Specs====
-
-* [http://www.w3.org/TR/css3-background/ CSS Backgrounds and Borders Module Level 3]
-* [http://www.w3.org/TR/CSS21/colors CSS2.1 Colors and Backgrounds]
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
