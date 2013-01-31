@@ -59,6 +59,17 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 * Custom page title
 * Top level summary
 * Data table
+
+Initial value:
+
+<pre>Computed value:
+Inherited:
+Applies to:
+CSS Object Model property:
+Media:
+Animatable:
+Shorthand:</pre>
+
 * Syntax
 * Examples
 * Usage
