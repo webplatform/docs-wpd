@@ -66,23 +66,23 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 * Related articles
 * Compatibility table
 
-Safari	
+* Safari	
 - Desktop:  Mobile:  
-Chrome	
+* Chrome	
 - Desktop:  Mobile: 
-Firefox	
+* Firefox	
 - Desktop:  Mobile:  
-IE	
+* IE	
 - Desktop:  Mobile:  
-Opera	
+* Opera	
 - Desktop:  Mobile: 
-Opera Mini	
+* Opera Mini	
 - Desktop: n/a Mobile: 
-Android	
+* Android	
 - Desktop: n/a Mobile:  
-Blackberry	
+* Blackberry	
 - Desktop: n/a Mobile:  
-Nokia N9
+* Nokia N9
 - Desktop: n/a Mobile:  
 
 
