@@ -67,26 +67,26 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 * Compatibility table
 
 Safari	
- - Desktop:  Mobile:  
+- Desktop:  Mobile:  
 Chrome	
- - Desktop:  Mobile: 
+- Desktop:  Mobile: 
 Firefox	
- - Desktop:  Mobile:  
+- Desktop:  Mobile:  
 IE	
- - Desktop:  Mobile:  
+- Desktop:  Mobile:  
 Opera	
- - Desktop:  Mobile: 
+- Desktop:  Mobile: 
 Opera Mini	
- - Desktop: n/a Mobile: 
+- Desktop: n/a Mobile: 
 Android	
- - Desktop: n/a Mobile:  
+- Desktop: n/a Mobile:  
 Blackberry	
- - Desktop: n/a Mobile:  
+- Desktop: n/a Mobile:  
 Nokia N9
- - Desktop: n/a Mobile:  
+- Desktop: n/a Mobile:  
 
 
-You'll need to go through the different form fields in the edit page and fill each one in.
+After collecting all the information, you'll then need to go through the different form fields in the edit page and fill each one in.
 
 ===Researching information===
 
