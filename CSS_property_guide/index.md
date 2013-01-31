@@ -57,7 +57,7 @@ If you are adapting/modifying an existing page, and it has the wrong template as
 Now you are ready to start gathering the data to enter into your page. I'd advise that you gather the data and record it offline first, just in case something stupid happens and you lose your edits. I'm not saying it ''will'' happen, but you never know with Wikis! So copy the following headings, put them into your text editor, then read below on how to fill them in.
 
 * Custom page title
-* Top level summary
+* Article summary
 * Data table
 
 <pre>Initial value:
