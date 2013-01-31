@@ -54,7 +54,39 @@ If you are adapting/modifying an existing page, and it has the wrong template as
 
 ==Entering data on the page==
 
-Now you are ready to start entering the data into the page. You'll need to go through the different form fields in the edit page and fill each one in.
+Now you are ready to start gathering the data to enter into your page. I'd advise that you gather the data and record it offline first, just in case something stupid happens and you lose your edits. I'm not saying it ''will'' happen, but you never know with Wikis! So copy the following headings, put them into your text editor, then read below on how to fill them in.
+
+* Custom page title
+* Top level summary
+* Data table
+* Syntax
+* Examples
+* Usage
+* Related specifications
+* Related articles
+* Compatibility table
+
+Safari	
+ - Desktop:  Mobile:  
+Chrome	
+ - Desktop:  Mobile: 
+Firefox	
+ - Desktop:  Mobile:  
+IE	
+ - Desktop:  Mobile:  
+Opera	
+ - Desktop:  Mobile: 
+Opera Mini	
+ - Desktop: n/a Mobile: 
+Android	
+ - Desktop: n/a Mobile:  
+Blackberry	
+ - Desktop: n/a Mobile:  
+Nokia N9
+ - Desktop: n/a Mobile:  
+
+
+You'll need to go through the different form fields in the edit page and fill each one in.
 
 ===Researching information===
 
@@ -101,13 +133,9 @@ This refers to the small fields below the Summary. Fill these data items in as e
 
 ===Syntax and values===
 
-Now on to the syntax and value explanations
-
-====Syntax====
+Now on to the syntax and value explanations.
 
 You should provide a different syntax value all notable different value types, along with a nice detailed explanation, in the '''Values''' form fields. These  values are then used to auto-populate the '''Syntax''' and '''Values''' sections of the page.
-
-====Values====
 
 Here, all the possible value types indicated in the syntax section should be expanded upon and explained clearly
 
