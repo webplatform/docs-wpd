@@ -66,24 +66,24 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 * Related articles
 * Compatibility table
 
-* Safari	
+<pre>Safari	
 - Desktop:  Mobile:  
-* Chrome	
+Chrome	
 - Desktop:  Mobile: 
-* Firefox	
+Firefox	
 - Desktop:  Mobile:  
-* IE	
+IE	
 - Desktop:  Mobile:  
-* Opera	
+Opera	
 - Desktop:  Mobile: 
-* Opera Mini	
+Opera Mini	
 - Desktop: n/a Mobile: 
-* Android	
+Android	
 - Desktop: n/a Mobile:  
-* Blackberry	
+Blackberry	
 - Desktop: n/a Mobile:  
-* Nokia N9
-- Desktop: n/a Mobile:  
+Nokia N9
+- Desktop: n/a Mobile:</pre>
 
 
 After collecting all the information, you'll then need to go through the different form fields in the edit page and fill each one in.
