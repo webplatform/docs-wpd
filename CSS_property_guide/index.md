@@ -60,9 +60,8 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 * Top level summary
 * Data table
 
-Initial value:
-
-<pre>Computed value:
+<pre>Initial value:
+Computed value:
 Inherited:
 Applies to:
 CSS Object Model property:
