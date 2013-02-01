@@ -1,4 +1,4 @@
-Web Platform content architecture meetings occur on Thursdays, 20:00 UTC / 15:00 ET / Noon PT. 
+Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET / 9:00 PT. 
 
 {{Note | If you haven't already done so, please volunteer to scribe. }}
 
