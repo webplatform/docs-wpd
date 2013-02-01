@@ -19,7 +19,11 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=specific&order=relevance%20desc&bug_status=__open__&product=webplatform.org&content=session&list_id=4654 Session bug] was a blocker. Ryan tried to resolve the issue. Observations?
 ** Spec status values should be resolved. Lea brings up a good point: maybe we should be calling it "browser support". [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 20386] [https://www.w3.org/Bugs/Public/show_bug.cgi?id=18896 18896]
 * Analytics?
-* Plans for getting editors back?
+* Attracting contributors:
+** Session bug needs resolving
+** Getting started experience validated via usability study @ DocSprint Berlin
+** Communications on blogs picking up
+** Additional plans?
 * Anything blocking you from creating great content?
 * Any new or notable content to promote? Does someone want to write up a blog post for Web Audio API?
 
