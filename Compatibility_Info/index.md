@@ -21,6 +21,9 @@ W3C working groups produce test suites and implementation reports associated wit
 
 Using this as a data source has the advantage that it will be kept up to date by the standardization process itself, and will also help provide incentive to browser vendors and others to provide tests to the Working Groups, because the results will be highly visible; this also takes advantage of the fact that we are encouraging implementers to make their unit tests and build tests in a way that can be contributed to W3C.
 
+===Test the Web Forward===
+This is a effort driven by Adobe and others to crowdsource the testing effort, to get developers directly involved in helping write tests. Their tests are meant to be made available through W3C's test suites.
+
 ===Others===
 There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from these sources as they are identified.
 
