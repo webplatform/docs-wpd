@@ -24,6 +24,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Getting started experience validated via usability study @ DocSprint Berlin
 ** Communications on blogs picking up
 ** Additional plans?
+* Dealing with browser compat info — it is hard and time consuming; can we automate it? See mail from Doug May: http://lists.w3.org/Archives/Public/public-webplatform/2013Feb/0002.html
 * Anything blocking you from creating great content?
 * Any new or notable content to promote? Does someone want to write up a blog post for Web Audio API?
 
