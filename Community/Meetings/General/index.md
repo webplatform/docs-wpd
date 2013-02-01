@@ -41,6 +41,19 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 ===Actions===
 
+* ACTION: shepazu + denis to implement sitemap extension
+* ACTION (carried forward): eliot to edit top level landing pages
+* ACTION (carried forward): julee and garbee to look into installing meetbot
+* ACTION: Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page
+* ACTION: Mike S to move his static font-size example into the appropriate Wiki page
+* ACTION: Chris to finish writing a guide to implementing a CSS properties page
+* ACTION: others should try to implement a CSS property page, and use chrismills' instructions when they are finished
+* ACTION: determine a set of properties we know to be complex outliers, and make sure they fit with Mike's scheme, for example background-image (with radial gradient, linear gradient, etc) perspective transforms with multiple values set (crazy: transforms take any # of functions & assume defaults; "filter" prop takes functions in sequence) properties that don't have any effect unless another property is set. So for example, top, left, bottom, right don't have any effect unless you already set position: relative or position: absolute, flex and order do not have an effect unless display: flex is set properties that are proprietary and are only ever used with -ms- or -webkit-, for example
+* ACTION: Mike to work out how to specify "dependant/dependency properties"
+* ACTION: Scott to add an instruction in the attribution template that says "hey - don't delete this or change this unless you have a really good reason"
+* ACTION: Doug, Denis, Lea, work on implementing first phase of Dabblet live coding examples
+* ACTION: Doug to get together a task force to continue investigating an alternative to MW for our platform
+
 
 ==Agenda 2013-01-17==
 
