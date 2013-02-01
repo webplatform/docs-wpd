@@ -10,6 +10,7 @@ If you are making a new article for this area, please consider making it a sub-p
 * [[WPD:Style_Manual|Style Manual]]
 * [[WPD:Design|Design]]
 * [[WPD:Content|Content]]
+* [[WPD:Compatibility_Info|Compatibility Info]]
 * [[WPD:Architecture|Architecture]]
 * [[WPD:Infrastructure|Infrastructure]]
 * [[WPD:Tasks|Tasks]]
