@@ -18,7 +18,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Exemplar and instructions are completed; 5 folks are testing the workflow.
 ** [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=specific&order=relevance%20desc&bug_status=__open__&product=webplatform.org&content=session&list_id=4654 Session bug] was a blocker. Ryan tried to resolve the issue. Observations?
 ** Spec status values should be resolved. Lea brings up a good point: maybe we should be calling it "browser support". [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 20386] [https://www.w3.org/Bugs/Public/show_bug.cgi?id=18896 18896]
-* Dealing with browser compat info — it is hard and time consuming; can we automate it? See mail from Doug May: http://lists.w3.org/Archives/Public/public-webplatform/2013Feb/0002.html
+* Dealing with browser compat info — it is hard and time consuming; can we automate it? See mail from Doug May: http://lists.w3.org/Archives/Public/public-webplatform/2013Feb/0002.html. See also: http://docs.webplatform.org/wiki/WPD:Compatibility_Info
 * Analytics?
 * Attracting contributors:
 ** Session bug needs resolving
