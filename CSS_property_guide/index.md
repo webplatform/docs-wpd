@@ -108,7 +108,7 @@ When you have finished writing a page, you should get someone else to review it 
 
 NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other CSS properties. If it does, then you should consider putting that information into a separate page, whether it is a concept, function or whatever. This way, you can save others a lot of time and repetition.
 
-So, in the case of my example, url() *-gradient() functions are viable targets within the "css/functions" tree. I have created a page to cover url() at [[css/functions/url()|CSS images: url()]], and linear and radial gradients are currently intended to be covered at [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
+So, in the case of my example, url() and *-gradient() functions are viable targets within the "css/functions" tree. I have created a page to cover url() at [[css/functions/url()|CSS images: url()]], and linear and radial gradients are currently intended to be covered at [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
 
 If you were describing background colors, rather than detail how RGBA/HSLA values work, you could instead point to pages within the "css/units" (whihc doesn't exist yet). If you find yourself using any other common jargon that's hard to classify & that readers might not be familiar with, create a link within the top-level "concepts" tree, e.g., "viewport," "vendor prefixes," or "standards
 mode." Readers may also benefit from links to tutorials on the subject available as "CSS learning material." (Other areas such as HTML, JavaScript, and SVG have their own learning material areas.)
@@ -253,7 +253,17 @@ Relevant changes: Multiple background images can be specified on the same elemen
 
 ===Compatibility table===
 
-Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, and MDN. You'll need to full in a separate entry in both the desktop and mobile table sections, for each bit of support data.
+Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, MDN and quierksmode. You'll need to full in a separate entry in both the desktop and mobile table sections, for each bit of support data, and think about what different support entries you will need — in the case of background-image, I decided it would be useful to have separate entries for basic background-image support, SVG background image support, multiple background images, and CSS gradients. You can find some more useful ideas on gathering support data at [[WPD:Getting_Started/Compatibility|Compatibility]].
+
+A basic, reasonable approach is as follows:
+
+* Leave any compatibility data that is already there in the page; generall y it will have been extracted from the original source of the page, for example MSDN, so should be fairly accurate.
+* Try to find a page covering the same property on MDN (in your search engine, search for "MDN property-name"). Use MDN to verify data you've already got, and copy across data you've not already got. MDN is fairly good for getting information on support for older, more mature properties, like basic background-image support!
+* Also search for the property/feature you are looking for support data on, at caniuse.com. Again, copy across missing data, and use it to verify any data you've not already got.
+* For anything you can't find, leave it as "unknown" for now
+* If you do manage to complete a set of compatibility data for a CSS property, uncheck the "compatibility incomplete" flag checkbox at the top of the page.
+
+
 
 ====Basic background-image====
 
