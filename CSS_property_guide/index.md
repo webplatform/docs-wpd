@@ -141,6 +141,10 @@ This refers to the small fields below the Summary. Fill these data items in as e
 * Shorthand: background
 * Percentages (ignore this)
 
+NOTE: computed values and initial values can often be hard to find by searching on your favorite search engine. A better way to find them out is often to create a very quick test (or even just go to an already-existing web page) and play with different values of said property, and see what the computed values are reported as (most browser dev tools, e.g. Opera Dragonfly, Chrome Dev Tools, report computed values.) Sometimes the computed values are not quite as simple as you'd think. For example with the color property, the computed value is always the hexadecimal equivalent, except in the case of translucent colours, where it is always the RGBa equivalent.
+
+Note: To check whether you property is animatable or not, write a simple test, or check out a list such as [http://oli.jp/2010/css-animatable-properties/ CSS animatable properties] by Oli Studholme. 
+
 ===Syntax and values===
 
 Now on to the syntax and value explanations.
