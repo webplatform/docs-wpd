@@ -1,4 +1,4 @@
-Follow the steps provided below to learn how to start editing WebPlatform.org. You'll begin by creating an account to log into the site, and then you'll become acquainted with the site's mission and structure. As you participate, you can connect with the online community and ask questions on the IRC chat channel. Once you are ready to begin editing, you'll review the style guide and wiki syntax to learn how to make changes. You'll see how to flag articles that need revisions, as well as edit and watch existing articles. And finally, you'll learn how the various topics are organized, so that you can start creating new pages and uploading linked files.
+===Editor's Guide: An Overview===
 
 
 <div class="topic-container">
