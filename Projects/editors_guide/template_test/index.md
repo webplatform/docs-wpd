@@ -47,5 +47,17 @@
      </div>
   </div>
  
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3>[[WPD:Editors_Guide/step_5_update_existing_content|Update existing content]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Become familiar with MediaWiki syntax conventions |Learn MediaWiki syntax]]</li>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Follow the WebPlatform style guide|Follow the style guidelines]]</li>
+        </ul>
+     </div>
+  </div>
+ 
+
 <div class="clearfixboth"></div>
 </div>
