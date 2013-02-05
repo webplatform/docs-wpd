@@ -14,7 +14,7 @@ In addition to specifying one of the many different display box types, setting t
 |Animatable=No
 |CSS object model property=display
 |CSS percentages=???
-|Values={{CSS Property Value
+|Values={{display:
 |Data Type=display: display-value
 |Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
 }}{{CSS Property Value
