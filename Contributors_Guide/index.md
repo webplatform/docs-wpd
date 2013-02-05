@@ -72,7 +72,6 @@
   </div>
  
 
-<div class="clearfixboth"></div>
 </div>
 
 ==Step-by-step instructions==
