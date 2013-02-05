@@ -6,11 +6,11 @@
 
 In addition to specifying one of the many different display box types, setting the display value to none lets you turn off (hide) the display of an element. A display element set to none ensures all descendant elements are also hidden. In these situations, the document renders as though the element does not exist in the document tree.}}
 {{CSS Property
-|Initial value=medium
+|Initial value=inline
 |Applies to=All elements
-|Inherited=Yes
+|Inherited=No
 |Media=visual
-|Computed value=absolute size in '''px''' units
+|Computed value=As specified, except for root element, floated elements, and absolutely positioned elements
 |Animatable=Yes
 |CSS object model property=fontSize
 |CSS percentages=???
