@@ -24,13 +24,25 @@
         </ul>
      </div>
   </div>
-  <div class="long-topic"> 
+ 
+ <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner">
         <h3>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki|Working the wiki]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#If you can't wait, start contributing right away|Get started]]</li>
             <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#Understand the WebPlatform project's mission and policies|Understand the mission]]</li>
+        </ul>
+     </div>
+  </div>
+
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3>[[WPD:Editors_Guide/step_4_review_existing_content|Working the wiki]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|Add comments]]</li>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|Add flags]]</li>
         </ul>
      </div>
   </div>
