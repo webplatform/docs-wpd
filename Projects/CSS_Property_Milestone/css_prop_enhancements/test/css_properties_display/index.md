@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Specifies the type of rendering box used for an element. In HTML, default display property values are based on behaviors listed in the HTML specifications or from the browser or user's default style sheet. The default value in XML is inline.
 
-In addition to specifying one of the many different display box types, setting the display value to none lets you turn off the display of an element. A display element set to none ensures all descendant elements are also not displayed. The document renders as though the element does not exist in the document tree.}}
+In addition to specifying one of the many different display box types, setting the display value to none lets you turn off (hide) the display of an element. A display element set to none ensures all descendant elements are also hidden. In these situations, the document renders as though the element does not exist in the document tree.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
