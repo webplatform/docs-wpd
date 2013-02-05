@@ -39,7 +39,7 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner">
-        <h3>[[WPD:Editors_Guide/step_4_review_existing_content|Working the wiki]]</h3>
+        <h3>[[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|Add comments]]</li>
             <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|Add flags]]</li>
