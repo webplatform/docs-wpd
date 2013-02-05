@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|display}}
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
