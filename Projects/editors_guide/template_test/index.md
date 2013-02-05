@@ -27,5 +27,5 @@
      </div>
   </div>
  
-</div>
 <div class="clearfixboth"></div>
+</div>
