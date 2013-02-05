@@ -57,6 +57,18 @@
         </ul>
      </div>
   </div>
+
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3>[[WPD:Editors_Guide/step_6_author_or_upload_new_content|Author or add new content]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine if your content is appropriate to add to this wiki|Decide if your content is right for the site]]</li>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Author new content using the correct site formatting and standards|Prepare new content]]</li>
+        </ul>
+     </div>
+  </div>
+ 
  
 
 <div class="clearfixboth"></div>
