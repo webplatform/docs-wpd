@@ -5,7 +5,7 @@
   <div class="long-topic">
       <div class="place-holder"></div>
       <div class="inner">
-        <h3>[[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide | Register]]</h3>
+        <h3>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide | Register]</h3>
         <ul>
             <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
             <li>A verification link is emailed. If you don't see the message in your email inbox, check your spam folder.</li>
