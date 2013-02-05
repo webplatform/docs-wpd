@@ -2,7 +2,9 @@
 {{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the size of text. Sets the font size of the element to which it is applied, and its descendants. Can size text using absolute measurements, or relative to the parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
+{{Summary_Section|Specifies the type of rendering box used for an element. In HTML, default display property values are based on behaviors listed in the HTML specifications or from the browser or user's default style sheet. The default value in XML is inline.
+
+In addition to specifying one of the many different display box types, setting the display value to none lets you turn off the display of an element. A display element set to none ensures all descendant elements are also not displayed. The document renders as though the element does not exist in the document tree.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
