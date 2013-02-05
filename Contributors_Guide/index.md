@@ -1,4 +1,4 @@
-===Editor's Guide: An Overview===
+==Editor's Guide: An Overview==
 
 
 <div class="topic-container">
