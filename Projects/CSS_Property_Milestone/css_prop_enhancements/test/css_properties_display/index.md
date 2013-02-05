@@ -14,11 +14,11 @@ In addition to specifying one of the many different display box types, setting t
 |Animatable=No
 |CSS object model property=display
 |CSS percentages=???
-|Values={{display:
-|Data Type=display-value
-|Description=A set of keywords interpreted relative to the parent element's '''font-size''', either '''smaller''' or '''larger'''.
+|Values={{CSS Property Value
+|Data Type=absolute-size
+|Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
 }}{{CSS Property Value
-|Data Type=inherit
+|Data Type=display-value
 |Description=A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.
 }}{{CSS Property Value
 |Data Type=inline
