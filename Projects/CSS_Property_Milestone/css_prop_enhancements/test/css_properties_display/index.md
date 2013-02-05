@@ -11,8 +11,8 @@ In addition to specifying one of the many different display box types, setting t
 |Inherited=No
 |Media=visual
 |Computed value=As specified, except for root element, floated elements, and absolutely positioned elements
-|Animatable=Yes
-|CSS object model property=fontSize
+|Animatable=No
+|CSS object model property=display
 |CSS percentages=???
 |Values={{CSS Property Value
 |Data Type=absolute-size
