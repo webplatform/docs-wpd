@@ -18,8 +18,8 @@
     <div class="inner">
         <h3>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join the conversation on the IRC channel]]</li>
-            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|Join the public-webplatform@w3.org mailing list]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join #webplatform IRC]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|Join the public-webplatform@w3.org list]]</li>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Access the bug-tracking system|Access the bug-tracking system]]</li>
         </ul>
      </div>
