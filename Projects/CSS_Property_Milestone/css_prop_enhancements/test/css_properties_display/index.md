@@ -159,7 +159,7 @@ run-in: The behavior depends on the following conditions:
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=3.8
+|Blackberry_version=4.6
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
@@ -211,7 +211,7 @@ run-in: The behavior depends on the following conditions:
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 |External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html: The display property]
-* HTML5 Boilerplate: [https://github.com/h5bp/html5-boilerplate/issues/724 Reasoning behind default font-size and line-height]
+* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp: CSS display property]
 * A List Apart: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
 * Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
 * WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
