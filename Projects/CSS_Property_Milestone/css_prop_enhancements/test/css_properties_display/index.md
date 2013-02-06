@@ -63,7 +63,7 @@ inline-block: The element generates a block element box that flows with surround
 
 '''Table model values in CSS 2.1'''
 
-inline-table: The inline-table value does not have a direct mapping in HTML. It behaves like a <table> HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context.
+inline-table: The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context.
 
 table: Behaves like the &#60;table&#62; HTML element. It defines a block-level box.
 
