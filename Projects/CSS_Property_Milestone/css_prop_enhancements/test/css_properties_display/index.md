@@ -52,22 +52,65 @@ display:inherit; /Sets the display value to inherit its parent container's displ
 }}
 }}
 {{Notes_Section
-|Usage=Keywords such as '''large''' and '''medium''', or relative '''em''' or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Otherwise, pixels offer the safest way to specify measurements, since [[css/concepts/CSS_pixels|CSS pixels]] are adjusted for variations in display pixel density.
+|Usage='''Basic values in CSS 1'''
 
-While the initial '''medium''' size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using [[css/properties/text-size-adjust|'''text-size-adjust''']], fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see [[tutorials/mobile_viewport|The Mobile Viewport and Orientation]].
+none: Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden.
 
-The value of '''font-size''' also affects the value of [[css/properties/line-height|'''line-height''']] when using its default or relative measurements.
+inline: The element generates one or more inline element boxes.
 
-Along with many other CSS properties, '''font-size''' can also be applied directly as an SVG attribute:
+block: The element generates a block element box.
 
-<syntaxhighlight lang="xml">
-<text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
-</syntaxhighlight>
+list-item: The element generates a block box for the content and a separate list-item.
+
+'''Extended values in CSS 2.1'''
+
+inline-block: The element generates a block element box that flows with surrounding content as if it were a single inline box (and behaves like a replaced element).
+
+'''Table model values in CSS 2.1'''
+
+inline-table: The inline-table value does not have a direct mapping in HTML. It behaves like a <table> HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context.
+
+table: Behaves like the <table> HTML element. It defines a block-level box.
+
+table-caption: Behaves like the <caption> HTML element.
+
+table-cell: Behaves like the <td> HTML element.
+
+table-column: Behaves like the <col> HTML element.
+
+table-column-group: Behaves like the <colgroup> HTML element. 
+
+table-footer-group: Behaves like the <tfoot> HTML element.
+
+table-header-group: Behaves like the corresponding <thead> HTML element. 
+
+table-row: Behaves like the <tr> HTML element.
+
+table-row-group: Behaves like the <tbody> HTML element.
+
+'''Flexbox model values in CSS3'''
+
+flex: Behaves like an block element for laying out content in the flexbox model.
+inline-flex: Behaves like an inline element for laying out content in the flexbox model.
+
+'''Grid box model values (experimental in CSS3)'''
+
+grid: Behaves like a block element for laying out content in the grid model. 
+Note: At the time of this writing, most modern browsers do not support this property.
+
+inline-grid: Behaves like an inline element for laying out content in the grid model. 
+
+'''Experimental values'''
+
+run-in: The behavior depends on the following conditions: 
+*If the run-in box contains a block box, same as block.
+*If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
+*If a inline box follows, the run-in box becomes a block box.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css3-fonts/#font-size-prop
+|URL=http://www.w3.org/wiki/CSS/Properties/display
 |Status=Working Draft
 }}{{Related Specification
 |Name=CSS Values and Units Module Level 3
