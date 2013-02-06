@@ -44,11 +44,6 @@ p.inherit
 {
 display:inherit; /Sets the display value to inherit its parent container's display values.
 }
-}}{{Single Example
-|Language=HTML
-|Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
-|Code=See live example above.
-|LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
 }}
 }}
 {{Notes_Section
@@ -72,25 +67,26 @@ inline-table: The inline-table value does not have a direct mapping in HTML. It 
 
 table: Behaves like the &#60;table&#62; HTML element. It defines a block-level box.
 
-table-caption: Behaves like the <caption> HTML element.
+table-caption: Behaves like the &#60;caption&#62; HTML element.
 
-table-cell: Behaves like the <td> HTML element.
+table-cell: Behaves like the &#60;td&#62; HTML element.
 
-table-column: Behaves like the <col> HTML element.
+table-column: Behaves like the &#60;col&#62; HTML element.
 
-table-column-group: Behaves like the <colgroup> HTML element. 
+table-column-group: Behaves like the &#60;colgroup&#62; HTML element. 
 
-table-footer-group: Behaves like the <tfoot> HTML element.
+table-footer-group: Behaves like the &#60;tfoot&#62; HTML element.
 
-table-header-group: Behaves like the corresponding <thead> HTML element. 
+table-header-group: Behaves like the corresponding &#60;thead&#62; HTML element. 
 
-table-row: Behaves like the <tr> HTML element.
+table-row: Behaves like the &#60;tr&#62; HTML element.
 
-table-row-group: Behaves like the <tbody> HTML element.
+table-row-group: Behaves like the &#60;tbody&#62; HTML element.
 
 '''Flexbox model values in CSS3'''
 
 flex: Behaves like an block element for laying out content in the flexbox model.
+
 inline-flex: Behaves like an inline element for laying out content in the flexbox model.
 
 '''Grid box model values (experimental in CSS3)'''
