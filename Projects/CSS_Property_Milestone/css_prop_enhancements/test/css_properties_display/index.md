@@ -189,8 +189,8 @@ run-in: The behavior depends on the following conditions:
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
-|Version=≤ 6.0
-|Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
+|Version=All
+|Note=flex and inline-flex are not supported in Internet Explorer.
 }}
 }}
 {{See_Also_Section
