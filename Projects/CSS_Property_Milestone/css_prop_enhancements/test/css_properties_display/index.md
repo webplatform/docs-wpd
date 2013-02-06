@@ -141,7 +141,7 @@ run-in: The behavior depends on the following conditions:
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
+|Internet_explorer_version=4.0
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -210,7 +210,7 @@ run-in: The behavior depends on the following conditions:
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
-|External_links=* Smashing: [http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake 16 Pixels: For Body Copy. Anything Less Is a Costly Mistake]
+|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html: The display property]
 * HTML5 Boilerplate: [https://github.com/h5bp/html5-boilerplate/issues/724 Reasoning behind default font-size and line-height]
 * A List Apart: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
 * Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
