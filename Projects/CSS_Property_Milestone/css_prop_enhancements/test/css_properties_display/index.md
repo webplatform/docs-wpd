@@ -29,10 +29,10 @@ In addition to specifying one of the many different display box types, setting t
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
+|Description=Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
 |Code=p.block 
 {
-display:block; /Sets the element to display in a box model.
+display:block; /Sets the element to display in a box model rendering type.
 }
 p.inline 
 {
