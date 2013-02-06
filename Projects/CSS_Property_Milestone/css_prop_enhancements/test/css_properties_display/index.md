@@ -110,13 +110,33 @@ run-in: The behavior depends on the following conditions:
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/wiki/CSS/Properties/display
+|Name=CSS Basic Box Model
+|URL=http://dev.w3.org/csswg/css3-box/#display
 |Status=Working Draft
 }}{{Related Specification
-|Name=CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/
+|Name=CSS Grid Layout
+|URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration0
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS Flexible Box Layout Module
+|URL=http://dev.w3.org/csswg/css3-flexbox/#flex-containers
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
+|Status=Recommendation
+}}{{Related Specification
+|Name=CSS Flexible Box Layout Module
+|URL=http://dev.w3.org/csswg/css3-flexbox/#flex-containers
+|Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
+|Status=Recommendation
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#display
+|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
