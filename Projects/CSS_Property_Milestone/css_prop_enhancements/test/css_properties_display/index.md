@@ -22,7 +22,7 @@ In addition to specifying one of the many different display box types, setting t
 |Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.  
 }}{{CSS Property Value
 |Data Type=inline
-|Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating the proportion of the parent element's '''font-size'''.
+|Description=An element set to inline generates one or more inline element boxes.
 }}
 }}
 {{Examples_Section
