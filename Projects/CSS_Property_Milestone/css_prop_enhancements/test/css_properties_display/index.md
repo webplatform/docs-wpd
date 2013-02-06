@@ -56,21 +56,21 @@ display:inherit; /Sets the display value to inherit its parent container's displ
 
 none: Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden.
 
-inline: The element generates one or more inline element boxes.
+inline: Generates one or more inline element boxes.
 
-block: The element generates a block element box.
+block: Generates a block element box.
 
-list-item: The element generates a block box for the content and a separate list-item.
+list-item: Generates a block box for the content and a separate list-item.
 
 '''Extended values in CSS 2.1'''
 
-inline-block: The element generates a block element box that flows with surrounding content as if it were a single inline box (and behaves like a replaced element).
+inline-block: The element generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element.
 
 '''Table model values in CSS 2.1'''
 
 inline-table: The inline-table value does not have a direct mapping in HTML. It behaves like a <table> HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context.
 
-table: Behaves like the <table> HTML element. It defines a block-level box.
+table: Behaves like the &#60;table&#62; HTML element. It defines a block-level box.
 
 table-caption: Behaves like the <caption> HTML element.
 
@@ -96,6 +96,7 @@ inline-flex: Behaves like an inline element for laying out content in the flexbo
 '''Grid box model values (experimental in CSS3)'''
 
 grid: Behaves like a block element for laying out content in the grid model. 
+
 Note: At the time of this writing, most modern browsers do not support this property.
 
 inline-grid: Behaves like an inline element for laying out content in the grid model. 
