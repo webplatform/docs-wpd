@@ -30,9 +30,18 @@ In addition to specifying one of the many different display box types, setting t
 |Examples={{Single Example
 |Language=CSS
 |Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
-|Code=display: display-value;
-display: inline;
-display: inherit;
+|Code=p.block 
+{
+display:block; /Sets the element to display in a box model.
+}
+p.inline 
+{
+display:inline; /Sets the element to display inline inside the current element.
+}
+p.inherit 
+{
+display:inherit; /Sets the display value to inherit its parent container's display values.
+}
 }}{{Single Example
 |Language=HTML
 |Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
