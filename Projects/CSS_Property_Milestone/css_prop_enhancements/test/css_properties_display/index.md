@@ -1,10 +1,13 @@
 {{Page_Title|display}}
-{{Flags}}
+{{Flags
+|Content=Compatibility Incomplete
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the type of rendering box used for an element. In HTML, default display property values are based on behaviors listed in the HTML specifications or from the browser or user's default style sheet. The default value in XML is inline.
 
-In addition to specifying one of the many different display box types, setting the display value to none lets you turn off (hide) the display of an element. A display element set to none ensures all descendant elements are also hidden. In these situations, the document renders as though the element does not exist in the document tree.}}
+In addition to specifying one of the many different display box types, setting the display value to none lets you turn off (hide) the display of an element. A display element set to none ensures all descendant elements are also hidden. In these situations, the document renders as though the element does not exist in the document tree.
+}}
 {{CSS Property
 |Initial value=inline
 |Applies to=All elements
@@ -19,7 +22,7 @@ In addition to specifying one of the many different display box types, setting t
 |Description=A keyword that defines the rendering type to apply to the element. Possible values are '''none''', '''inline''', '''block''', '''list-item''', '''inline-block''', '''inline-table''', '''table''', '''table-caption''', '''table-cell''', '''table-column''', '''table-column-group''', '''table-footer-group''', '''table-header-group''', '''table-row''', '''table-row-group''', '''flex''', '''inline-flex''', '''grid''', '''inline-grid''', and '''run-in'''.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.  
+|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.
 }}{{CSS Property Value
 |Data Type=inline
 |Description=An element set to inline generates one or more inline element boxes.
@@ -109,7 +112,6 @@ run-in: The behavior depends on the following conditions:
 |Name=CSS Basic Box Model
 |URL=http://dev.w3.org/csswg/css3-box/#display
 |Status=Working Draft
-|Related Changes=Added the run-in value.
 }}{{Related Specification
 |Name=CSS Grid Layout
 |URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration0
