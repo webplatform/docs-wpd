@@ -34,10 +34,12 @@ In addition to specifying one of the many different display box types, setting t
 {
 display:block; /Sets the element to display in a box model rendering type.
 }
+
 p.inline 
 {
 display:inline; /Sets the element to display inline inside the current element.
 }
+
 p.inherit 
 {
 display:inherit; /Sets the display value to inherit its parent container's display values.
