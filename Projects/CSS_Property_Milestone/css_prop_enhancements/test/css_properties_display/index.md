@@ -30,11 +30,9 @@ In addition to specifying one of the many different display box types, setting t
 |Examples={{Single Example
 |Language=CSS
 |Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
-|Code=html { font-size: 62.5%; } /* 16 * 62.5% == 10 */
-
-h1 { font-size: 3.6rem }   /* 36px */
-h2 { font-size: 2.4rem }   /* 24px */
-p  { font-size: 1.4rem }   /* 14px */
+|Code=display: display-value;
+display: inline;
+display: inherit;
 }}{{Single Example
 |Language=HTML
 |Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
