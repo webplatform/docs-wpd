@@ -109,6 +109,7 @@ run-in: The behavior depends on the following conditions:
 |Name=CSS Basic Box Model
 |URL=http://dev.w3.org/csswg/css3-box/#display
 |Status=Working Draft
+|Related Changes=Added the run-in value.
 }}{{Related Specification
 |Name=CSS Grid Layout
 |URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration0
