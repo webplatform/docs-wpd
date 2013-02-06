@@ -19,7 +19,7 @@ In addition to specifying one of the many different display box types, setting t
 |Description=A keyword that defines the rendering type to apply to the element. Possible values are '''none''', '''inline''', '''block''', '''list-item''', '''inline-block''', '''inline-table''', '''table''', '''table-caption''', '''table-cell''', '''table-column''', '''table-column-group''', '''table-footer-group''', '''table-header-group''', '''table-row''', '''table-row-group''', '''flex''', '''inline-flex''', '''grid''', '''inline-grid''', and '''run-in'''.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.
+|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.  
 }}{{CSS Property Value
 |Data Type=inline
 |Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating the proportion of the parent element's '''font-size'''.
