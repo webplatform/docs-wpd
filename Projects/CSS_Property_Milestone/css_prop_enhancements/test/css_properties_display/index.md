@@ -126,14 +126,6 @@ run-in: The behavior depends on the following conditions:
 |URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
 |Status=Recommendation
 }}{{Related Specification
-|Name=CSS Flexible Box Layout Module
-|URL=http://dev.w3.org/csswg/css3-flexbox/#flex-containers
-|Status=Candidate Recommendation
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
-|Status=Recommendation
-}}{{Related Specification
 |Name=CSS Level 1
 |URL=http://www.w3.org/TR/CSS1/#display
 |Status=Recommendation
