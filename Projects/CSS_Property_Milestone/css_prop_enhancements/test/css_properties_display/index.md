@@ -191,30 +191,13 @@ run-in: The behavior depends on the following conditions:
 |Browser=IE
 |Version=≤ 6.0
 |Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 7.0
-|Note=Does not support '''inherit''' as a value.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not resize text specified with absolute pixel measurements when using the browser's ''text-resize'' feature, but does resize correctly when zooming the page.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not support [[css/units/length|'''rem''']] values; specify other supported values as fallback properties.
-}}{{Compatibility Notes Row
-|Browser=All
-|Note=Check compatibility for more recent [[css/units/length|viewport unit values]].
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 |External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html: The display property]
 * W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp: CSS display property]
-* A List Apart: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS]
-* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
-* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
+* Mozilla: [https://developer.mozilla.org/en-US/docs/CSS/display: CSS Display Property]
 }}
 {{Topics|CSS}}
 {{External_Attribution
