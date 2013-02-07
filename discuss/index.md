@@ -8,7 +8,7 @@ In general, the Webplaform.org community is very welcoming and friendly, but we 
 
 We are not a tech support line for "please help me fix my code" type questions; such questions are better suited to code-specific IRC channels, or [http://www.stackoverflow.com stackoverflow].
 
-You can find more information on discussion topics and conduct at [WPD:Conduct].
+You can find more information on discussion topics and conduct at [[WPD:Conduct]].
 
 ==Public mailing list==
 
