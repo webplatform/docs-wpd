@@ -64,17 +64,17 @@ The following table summarizes the current state of the extant API documentation
 | Reorganized, content incomplete
 |-
 | 8a
-| [[apis/application_timing|application timing]]
-| [[User:Dgash]]
-| Content complete
-|-
-| 8b
 | [[apis/navigation_timing|navigation timing]]
 | [[User:Dgash]]
 | Content complete
 |-
-| 8c
+| 8b
 | [[apis/user_timing|user timing]]
+| [[User:Dgash]]
+| Content complete
+|-
+| 8c
+| [[apis/resource_timing|resource timing]]
 | [[User:Dgash]]
 | Content complete
 |-
