@@ -63,10 +63,20 @@ The following table summarizes the current state of the extant API documentation
 | [[User:Scottrowe]]
 | Reorganized, content incomplete
 |-
-| 8
-| [[apis/timing|timing]]
+| 8a
+| [[apis/application_timing|application timing]]
 | [[User:Dgash]]
-| In progress
+| Content complete
+|-
+| 8b
+| [[apis/navigation_timing|navigation timing]]
+| [[User:Dgash]]
+| Content complete
+|-
+| 8c
+| [[apis/user_timing|user timing]]
+| [[User:Dgash]]
+| Content complete
 |-
 | 9
 | [[apis/webaudio|webaudio]]
