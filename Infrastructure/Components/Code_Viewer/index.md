@@ -3,6 +3,9 @@ One planned feature of Web Platform Docs is a live code viewer and pastebin.
 The webapp we are using for this is [http://dabblet.com/ Dabblet], which will be integrated into the site.
 
 ==Features==
+* Provides a live preview of input HTML, CSS, SVG, JavaScript, etc. ''(mostly done)''
+* Allows users to share code snippets with each other, as a pastebin ''(mostly done, still replies on GitHub)''
+* Provides a way to open example code from the wiki in live example without copy-paste ''(some progress, not done)''
 
 ==Integration==
 Because integration has many aspects, we will roll out full support for this feature in several steps.
