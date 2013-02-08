@@ -13,7 +13,7 @@ Because integration has many aspects, we will roll out full support for this fea
 ===Roadmap===
 ====Phase 1: Static Live Code Viewer====
 
-'''Status:''' ''in progress''
+'''Status:''' ''partially done'' (still need to remove github features)
 
 ====Phase 2: Open Examples from Wiki====
 
