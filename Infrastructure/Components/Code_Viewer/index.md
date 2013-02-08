@@ -35,4 +35,29 @@ The public URL will be [http://code.webplatform.org code.webplatform.org].
 ===Additional Subdomains===
 In addition to the public-facing URL, Dabblet needs two additional subdomains for security reasons:
 * '''Result preview:''' This is only used internally and not displayed to the user. It's a separate domain for security reasons, otherwise people could write dabblets that leak the user's access token. On dabblet.com, this is called preview.dabblet.com
-- '''Full-page results:''' This is for results without any dabblet chrome around them. Separate subdomain for the same security reasons. On dabblet, this is result.dabblet.com. This is not critical, worst case we could just disable this feature.
+* '''Full-page results:''' This is for results without any dabblet chrome around them. Separate subdomain for the same security reasons. On dabblet, this is result.dabblet.com. This is not critical, worst case we could just disable this feature.
+
+=== Github API keys ===
+https://github.com/organizations/webplatform/settings/applications/34604
+
+=== File edits required ===
+* code/global.js for Client API key (Done)
+* Rename sample.oauth.php to oauth.php
+* oauth.php for domain and Client & Secret API keys (Done)
+* HTML and JS files, for the domain
+* Change .htaccess with the proper domain and subdomains (Partially done)
+
+=== Git ===
+Github repo: https://github.com/webplatform/dabblet
+
+TODO: Need to be able to have separate git subdirectory with the above as a remote, so we can easily pull changes. Might be a problem if we have a different structure for the subdomains (i.e. completely separate files instead of subfolders).
+
+=== Deploy ===
+salt-run deploy.run code.dabblet
+
+== Branding ==
+
+* Logo
+* Skinning (colors etc)
+* Prism theme (will also be used on WPD)
+* Links to WPD sections
