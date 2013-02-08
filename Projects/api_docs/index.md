@@ -110,8 +110,8 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 15
 | [[apis/xhr|xhr]]
-| None
-| Not started; also, needs to include CORS
+| [[User:Dgash]]
+| In progress; also, needs to include CORS
 |}
 
 ==External content for import==
