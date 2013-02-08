@@ -4,6 +4,8 @@
 {{Basic Page}}
 We have compiled a rather large and hopefully exhaustive list of all existing CSS properties — this can be found at https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=0
 
+At-a-glance view of who is working on what: [[css/assigned|Assigned CSS property pages]]
+
 We have assigned each property a priority level, starting from P0 and going down to P4. The highest priority is for vital, commonly-used properties that every browser supports, whereas the lowest level is for properties that are rarely-used, proprietary, have limited cross-browser support, or all of the above. We would like to start on the highest priority ones and work out way down.
 
 ==Choosing a property to work on==
