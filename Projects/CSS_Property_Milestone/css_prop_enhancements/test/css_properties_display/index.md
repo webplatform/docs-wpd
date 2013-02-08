@@ -193,6 +193,10 @@ run-in: The behavior depends on the following conditions:
 |Browser=IE
 |Version=All
 |Note=flex and inline-flex are not supported in Internet Explorer.
+}}{{Compatibility Notes Row
+|Browser=IE
+|Version=< 8
+|Note=display:inline-block only works on inline elements, not on block elements.
 }}
 }}
 {{See_Also_Section
