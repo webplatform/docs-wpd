@@ -35,17 +35,17 @@ In addition to specifying one of the many different display box types, setting t
 |Description=Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
 |Code=p.block 
 {
-display:block; /Sets the element to display in a box model rendering type.
+display:block; //Sets the element to display in a box model rendering type.
 }
 
 p.inline 
 {
-display:inline; /Sets the element to display inline inside the current element.
+display:inline; //Sets the element to display inline inside the current element.
 }
 
 p.inherit 
 {
-display:inherit; /Sets the display value to inherit its parent container's display values.
+display:inherit; //Sets the display value to inherit its parent container's display values.
 }
 }}
 }}
