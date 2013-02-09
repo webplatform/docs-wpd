@@ -197,6 +197,38 @@ run-in: The behavior depends on the following conditions:
 |Browser=IE
 |Version=< 8
 |Note=display:inline-block only works on inline elements, not on block elements.
+}}{{Compatibility Notes Row
+|Browser=IE
+|Version=<7
+|Note=Table display not supported.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=16+
+|Note=Supports inline-block and table display.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=23+
+|Note=Supports inline-block and table display.
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=12.1+
+|Note=Supports inline-block and table display.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=All
+|Note=Does not support run-in, grid, or inline-grid.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=Al
+|Note=Does not support flex or inline-flex.
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=All
+|Note=Does not support flex or inline-flex.
+}}{{Compatibility Notes Row
+|Browser=iOS Safari 
+|Version=3.2+
+|Note=Supports inline-block and table display.
 }}
 }}
 {{See_Also_Section
