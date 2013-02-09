@@ -37,5 +37,5 @@ We want only one representative from each steward organization, along with commu
 '''Doc Sprint slide template''': We have uploaded the presentation slides used at the Berlin Doc Sprint in February 2013, for you to reuse or base your own presentations on:
 
 * [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key Keynote]
-* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key Powerpoint]
-* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key PDF]
+* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.ppt Powerpoint]
+* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.pdf PDF]
