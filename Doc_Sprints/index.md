@@ -31,4 +31,11 @@ Janet recommend Adam Hyde of FLOSS Manuals, as he has more experience at this th
 We want only one representative from each steward organization, along with community volunteers; otherwise, we risk filling the room with stewards and excluding community. However, the volunteers should be “known” and already-engaged people; we do not plan a general open call for participants. Members of the WebEd CG and the MDN community would be good candidates.
 
 ==Materials==
-There is a dashboard available that helps to monitor Doc Sprint results and inspires people to keep the momentum over the event. It fetches the Media Wiki API for latest changes and narrows down the data based on a given list of usernames (== Doc Sprint participants) and timeframe, which is then visualized in configurably graphs and leaderboards. Grab the code here: https://github.com/webplatform/DocSprintDashboard
+
+'''Doc Sprint dashboard''': There is a dashboard available that helps to monitor Doc Sprint results and inspires people to keep the momentum over the event. It fetches the Media Wiki API for latest changes and narrows down the data based on a given list of usernames (== Doc Sprint participants) and timeframe, which is then visualized in configurably graphs and leaderboards. Grab the code here: https://github.com/webplatform/DocSprintDashboard
+
+'''Doc Sprint slide template''': We have uploaded the presentation slides used at the Berlin Doc Sprint in February 2013, for you to reuse or base your own presentations on:
+
+* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key Keynote]
+* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key Powerpoint]
+* [http://chrisdavidmills.github.com/wpds-berlin-preso/wpds-berlin-preso.key PDF]
