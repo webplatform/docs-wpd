@@ -40,6 +40,9 @@ In addition to the public-facing URL, Dabblet needs two additional subdomains fo
 * '''Result preview:''' This is only used internally and not displayed to the user. It's a separate domain for security reasons, otherwise people could write dabblets that leak the user's access token. On dabblet.com, this is called preview.dabblet.com
 * '''Full-page results:''' This is for results without any dabblet chrome around them. Separate subdomain for the same security reasons. On dabblet, this is result.dabblet.com. This is not critical, worst case we could just disable this feature.
 
+==== Why are separate subdomains needed? ====
+localStorage is local per subdomain. In dabblet, localStorage stores the user’s Github access token. If executed scripts had access to dabblet’s localStorage info, they could steal the current user’s access token and send it to arbitrary server so the attacker could use it to log in to Github as that user.
+
 === Github API keys ===
 https://github.com/organizations/webplatform/settings/applications/34604
 
