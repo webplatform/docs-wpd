@@ -69,7 +69,7 @@ Applies to:
 CSS Object Model property:
 Media:
 Animatable:
-Shorthand:</pre>
+Shorthand: (this currently doesn't exist in the CSS property form template but will be added soon. Note the related shorthand property, if one exists, in the notes section for now)</pre>
 
 * Syntax
 * Examples
