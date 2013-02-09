@@ -25,7 +25,7 @@ This person should manage the budget and funding, find a location, identify part
 This person should facilitate the content effort by guiding the creation and review of different materials, and encouraging colloboration between participation.
 
 ====Recommended Facilitators====
-Janet recommend Adam Hyde of FLOSS Manuals, as he has more experience at this than really anybody. She mentioned the possibility of a sprint to him when the web docs project was first starting, and he was interested (even though we won't be using FLOSS Manuals site or producing a "book" per se). She has offered to reach out to him again, now that we're getting more definite about doing a sprint. She thinks his consulting rate is about 1000 euro per day, plus expenses.
+Janet recommend Adam Hyde of FLOSS Manuals, as he has more experience at this than really anybody. (even though we won't be using FLOSS Manuals site or producing a "book" per se). Contact Janet for an introduction to Adam.
 
 ==Participants==
 We want only one representative from each steward organization, along with community volunteers; otherwise, we risk filling the room with stewards and excluding community. However, the volunteers should be “known” and already-engaged people; we do not plan a general open call for participants. Members of the WebEd CG and the MDN community would be good candidates.
