@@ -41,7 +41,7 @@ In addition to the public-facing URL, Dabblet needs two additional subdomains fo
 * '''Full-page results:''' This is for results without any dabblet chrome around them. Separate subdomain for the same security reasons. On dabblet, this is result.dabblet.com. This is not critical, worst case we could just disable this feature.
 
 ==== Why are separate subdomains needed? ====
-localStorage is local per subdomain. In dabblet, localStorage stores the user’s Github access token. If executed scripts had access to dabblet’s localStorage info, they could steal the current user’s access token and send it to arbitrary server so the attacker could use it to log in to Github as that user.
+localStorage is local per subdomain. In dabblet, localStorage stores the user’s Github access token. An access token is a unique string Github Oauth sends to dabblet after authentication is succesfull, to identify the current user, and dabblet uses that token in subsequent requests. If executed scripts had access to dabblet’s localStorage info, they could steal the current user’s access token and send it to an arbitrary server so some attacker could use it to log in to Github as the dabblet user that access token belonged to.
 
 === Github API keys ===
 https://github.com/organizations/webplatform/settings/applications/34604
