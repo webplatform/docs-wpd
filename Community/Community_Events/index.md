@@ -15,3 +15,9 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 * '''12-DEC-2012'''—WebPlatform Doc Sprint at Google in Mountain View, California, USA. [https://developers.google.com/events/10292028/ Register here].
 * '''03-NOV-2012'''—WebPlatform Doc Sprint ([http://www.sfhtml5.org/events/87609752/ San Francisco HTML5 User Group Event])
 * '''18-OCT-2012'''—Web Standards: Pushing the Web Forward with Divya Manian ([http://www.sfhtml5.org/events/68008012/ San Francisco HTML5 User Group Event])
+
+==Doc sprint survey==
+
+This quick survey takes only about 10 minutes and will greatly help us improve our doc sprints. Please take a moment to review your experience. Thanks!
+
+[[https://docs.google.com/spreadsheet/gform?key=0Aoc3F7WkVTNUdHYtdGhUckFUcGUtbGlPRGxkZnVaaWc&hl=en#edit Take the survey]
