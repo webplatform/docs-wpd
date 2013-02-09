@@ -96,7 +96,7 @@ The following table summarizes the current state of the extant API documentation
 | 12
 | [[apis/websocket|websocket]]
 | None
-| Not started
+| In progress
 |-
 | 13
 | [[apis/web-storage|web-storage]]
