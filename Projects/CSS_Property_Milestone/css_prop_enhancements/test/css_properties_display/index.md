@@ -389,7 +389,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
-
+}}
 {{Compatibility_Section
 |Not_required=No
 |Mobile_rows={{Compatibility Table Mobile Row
