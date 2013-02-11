@@ -26,12 +26,10 @@ In addition to specifying one of the many different display box types, setting t
 }}{{CSS Property Value
 |Data Type=inline
 |Description=An element set to inline generates one or more inline element boxes.
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=none
 |Description=Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden. This is a basic value in CSS 1.
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=list-item
 |Description=Generates a block box for the content and a separate list-item. This is a basic value in CSS 1.
 }}{{CSS Property Value
@@ -53,7 +51,7 @@ In addition to specifying one of the many different display box types, setting t
 |Data Type=table-column
 |Description=Behaves like the &#60;col&#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=table-column-group 
+|Data Type=table-column-group
 |Description=Behaves like the &#60;colgroup&#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table-footer-group
@@ -90,8 +88,7 @@ Note: At the time of this writing, most modern browsers do not support this prop
 }}{{CSS Property Value
 |Data Type=block
 |Description=Generates a block element box. This is a basic value in CSS 1.
-}}
-{{CSS Property Value
+}}{{CSS Property Value
 |Data Type=ruby
 |Description=Specifies that an element defines a '''ruby''' structure. This and the following values are from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module]. This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
 }}{{CSS Property Value
@@ -120,7 +117,6 @@ Note: At the time of this writing, most modern browsers do not support this prop
 |Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
 }}
 }}
-
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -143,8 +139,7 @@ Do not display an element by using <code>display: none;</code>.
     display: none;
   }
 &lt;/style&gt;
-}}
-{{Single Example
+}}{{Single Example
 |Language=HTML
 |Description='''Third example'''
 
@@ -165,7 +160,6 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }
 }}
 }}
-
 {{Notes_Section
 |Usage='''Basic values in CSS 1'''
 
@@ -204,7 +198,6 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 '''Experimental values'''
 
 *run-in
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -454,12 +447,12 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
+|Android_supported=Yes
+|Android_version=2.1+
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7.0+
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
@@ -474,25 +467,61 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=5.0+
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=5.0+
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2+
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Firefox
 |Note=Supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer 
+|Version=7 and earlier
+|Note=Does not support inline-block and table display.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer 
+|Version=7 and earlier
+|Note=Only supports the display value on elements with the display set to inline.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=16+
+|Note=Supports inline-block and table display.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=All
+|Note=Does not support flex or inline-flex.
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=All
+|Note=Does not support flex or inline-flex.
+}}{{Compatibility Notes Row
+|Browser=iOS Safari mobile
+|Version=3.2+
+|Note=Supports inline-block and table display.
 }}
 }}
-
+{{See_Also_Section
+|Topic_clusters=CSS Font, Fonts, Text
+|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
+* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp CSS display property]
+* Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Reference: The display property]
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 {{Notes_Section
 |Notes====Remarks===
 To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|visibility]] property.
@@ -519,17 +548,4 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 {{!}}-
 {{!}} others {{!}}{{!}} same as specified
 {{!}}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts, Text
-|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
-* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp CSS display property]
-* Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Reference: The display property]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
