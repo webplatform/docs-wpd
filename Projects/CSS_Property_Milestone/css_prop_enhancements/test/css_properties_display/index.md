@@ -91,6 +91,34 @@ Note: At the time of this writing, most modern browsers do not support this prop
 |Data Type=block
 |Description=Generates a block element box. This is a basic value in CSS 1.
 }}
+{{CSS Property Value
+|Data Type=ruby
+|Description=Specifies that an element defines a '''ruby''' structure. This and the following values are from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module]. This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
+}}{{CSS Property Value
+|Data Type=ruby-base
+|Description=Specifies that an element defines a ruby base.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
+}}{{CSS Property Value
+|Data Type=ruby-text
+|Description=Specifies that an element defines a '''ruby text'''.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
+}}{{CSS Property Value
+|Data Type=ruby-base-container
+|Description=Specifies a container for one or more ruby base elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
+}}{{CSS Property Value
+|Data Type=ruby-text-container
+|Description=Specifies a container for one or more ruby text elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
+}}{{CSS Property Value
+|Data Type=-ms-flexbox
+|Description=Internet Explorer 10. Specifies a block-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].
+}}{{CSS Property Value
+|Data Type=-ms-inline-flexbox
+|Description=Internet Explorer 10. Specifies an inline-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].
+}}{{CSS Property Value
+|Data Type=-ms-grid
+|Description=Internet Explorer 10. Specifies a block-level Grid element. For more information on grid layout, see Grid Layout.
+}}{{CSS Property Value
+|Data Type=-ms-inline-grid
+|Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
+}}
 }}
 {{Examples_Section
 |Not_required=No
