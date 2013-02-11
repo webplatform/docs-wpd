@@ -388,9 +388,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
-}}
-}}
-
+}}{{Compatibility Table Desktop Row
 |Notes_rows={{Compatibility Notes Row
 |Browser=IE
 |Version=All
@@ -421,7 +419,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Note=Does not support run-in, grid, or inline-grid.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=Al
+|Version=All
 |Note=Does not support flex or inline-flex.
 }}{{Compatibility Notes Row
 |Browser=Safari
