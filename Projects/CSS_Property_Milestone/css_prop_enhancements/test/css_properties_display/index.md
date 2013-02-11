@@ -455,14 +455,11 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
+}}
+{{
 
 
 
-
-
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=18 (Win) and 17 (Mac)
