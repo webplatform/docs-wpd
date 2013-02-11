@@ -371,7 +371,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21.0 TOMMI
+|Chrome_prefixed_version=21.0 
 |Firefox_supported=Yes
 |Firefox_version=18.0 (behind a preference),  20.0
 |Firefox_prefixed_supported=Unknown
@@ -394,7 +394,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Not_required=No
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
-|Android_version=2.1 TOMMI
+|Android_version=2.1 
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
