@@ -28,12 +28,12 @@ In addition to specifying one of the many different display box types, setting t
 |Description=An element set to inline generates one or more inline element boxes.
 }}
 {{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=none
+|Description=Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden. This is a basic value in CSS 1.
 }}
 {{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=list-item
+|Description=list-item: Generates a block box for the content and a separate list-item. This is a basic value in CSS 1.
 }}{{CSS Property Value
 |Data Type=Tommitest
 |Description=Test.
