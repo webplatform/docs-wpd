@@ -231,6 +231,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }}
 
 
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -431,7 +432,6 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Note=Supports inline-block and table display.
 }}
 }}
-
 
 
 
