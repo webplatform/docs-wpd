@@ -435,32 +435,8 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }}
 }}
 
-
-
-
-{{
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=18 (Win) and 17 (Mac)
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=10.0.2
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=11.61 (Win) and 11.61 (Mac)
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1 (Win) and 5.1.2 (Mac)
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
+{{Compatibility_Section
+|Not_required=No
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=2.1
