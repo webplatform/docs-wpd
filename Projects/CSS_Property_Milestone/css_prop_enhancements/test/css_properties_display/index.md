@@ -41,47 +41,52 @@ In addition to specifying one of the many different display box types, setting t
 |Data Type=inline-table
 |Description=The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table
+|Description=Behaves like the &#60;table#62; HTML element. It defines a block-level box. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-caption
+|Description=Behaves like the &#60;caption#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-cell
+|Description=Behaves like the &#60;td#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-column
+|Description=Behaves like the &#60;col#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-column-group 
+|Description=Behaves like the &#60;colgroup#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-footer-group
+|Description=Behaves like the &#60;tfoot#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-header-group
+|Description=Behaves like the corresponding &#60;thead#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-row
+|Description=Behaves like the &#60;tr#62; HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=table-row-group
+|Description=Behaves like the <tbody> HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=flex
+|Description=Behaves like an block element for laying out content in the flexbox model. This is a flexbox model value in CSS3.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=inline-flex
+|Description=Behaves like an inline element for laying out content in the flexbox model. This is a flexbox model value in CSS3.
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=grid
+|Description=Behaves like a block element for laying out content in the grid model.
+Note: At the time of this writing, most modern browsers do not support this property. This is a grid box model value (an experimental tag in CSS 3.0).
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=inline-grid
+|Description=Behaves like an inline element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0).
 }}{{CSS Property Value
-|Data Type=Tommitest
-|Description=Test.
+|Data Type=run-in
+|Description=The behavior depends on the following conditions:
+
+* If the run-in box contains a block box, same as block.
+* If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
+* If a inline box follows, the run-in box becomes a block box. .
 }}{{CSS Property Value
 |Data Type=Tommitest
 |Description=Test.
