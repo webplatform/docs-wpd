@@ -432,34 +432,13 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=inline-grid
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}
 }}
+
+
+
+
 {{
-
-
-
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=18 (Win) and 17 (Mac)
