@@ -116,60 +116,42 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{Notes_Section
 |Usage='''Basic values in CSS 1'''
 
-none: Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden.
-
-inline: Generates one or more inline element boxes.
-
-block: Generates a block element box.
-
-list-item: Generates a block box for the content and a separate list-item.
+*none
+*inline
+*block
+*list-item
 
 '''Extended values in CSS 2.1'''
 
-inline-block: The element generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element.
+*inline-block
 
 '''Table model values in CSS 2.1'''
 
-inline-table: The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context.
-
-table: Behaves like the &#60;table&#62; HTML element. It defines a block-level box.
-
-table-caption: Behaves like the &#60;caption&#62; HTML element.
-
-table-cell: Behaves like the &#60;td&#62; HTML element.
-
-table-column: Behaves like the &#60;col&#62; HTML element.
-
-table-column-group: Behaves like the &#60;colgroup&#62; HTML element. 
-
-table-footer-group: Behaves like the &#60;tfoot&#62; HTML element.
-
-table-header-group: Behaves like the corresponding &#60;thead&#62; HTML element. 
-
-table-row: Behaves like the &#60;tr&#62; HTML element.
-
-table-row-group: Behaves like the &#60;tbody&#62; HTML element.
+*inline-table
+*table
+*table-caption
+*table-cell
+*table-column
+*table-column-group
+*table-footer-group
+*table-header-group
+*table-row
+*table-row-group
 
 '''Flexbox model values in CSS3'''
 
-flex: Behaves like an block element for laying out content in the flexbox model.
-
-inline-flex: Behaves like an inline element for laying out content in the flexbox model.
+*flex
+*inline-flex
 
 '''Grid box model values (experimental in CSS3)'''
 
-grid: Behaves like a block element for laying out content in the grid model. 
-
-Note: At the time of this writing, most modern browsers do not support this property.
-
-inline-grid: Behaves like an inline element for laying out content in the grid model. 
+*grid
+*inline-grid
 
 '''Experimental values'''
 
-run-in: The behavior depends on the following conditions: 
-*If the run-in box contains a block box, same as block.
-*If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
-*If a inline box follows, the run-in box becomes a block box.
+*run-in
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -178,7 +160,7 @@ run-in: The behavior depends on the following conditions:
 |Status=Working Draft
 }}{{Related Specification
 |Name=CSS Grid Layout
-|URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration0
+|URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration
 |Status=Working Draft
 }}{{Related Specification
 |Name=CSS Flexible Box Layout Module
@@ -297,9 +279,9 @@ run-in: The behavior depends on the following conditions:
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
-|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html: The display property]
-* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp: CSS display property]
-* Mozilla: [https://developer.mozilla.org/en-US/docs/CSS/display: CSS Display Property]
+|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
+* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp CSS display property]
+* Mozilla: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Display Property]
 }}
 {{Topics|CSS}}
 {{External_Attribution
