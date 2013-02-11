@@ -90,9 +90,6 @@ Note: At the time of this writing, most modern browsers do not support this prop
 }}{{CSS Property Value
 |Data Type=block
 |Description=Generates a block element box. This is a basic value in CSS 1.
-}}{{CSS Property Value
-|Data Type=inline-table
-|Description=The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
 }}
 }}
 {{Examples_Section
