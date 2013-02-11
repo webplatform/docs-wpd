@@ -431,6 +431,10 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Note=Supports inline-block and table display.
 }}
 }}
+
+
+
+
 {{Notes_Section
 |Notes====Remarks===
 To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|visibility]] property.
