@@ -35,6 +35,11 @@ The results of the survey of doc sprint participants shows our community is deep
 
 [[File:dsq_3.png]]
 
+====In your own words about working with the community====
+* Define User Experience as an evaluable process and spread the concept of UX into the world of web development.
+* I think there is real need for a good documentation! I'm so tired of looking and reading that takes longer than coding and enjoying the work. Also, if I think about the editors of the future which could get semantic information about the language you're coding (think of autocompletion tuned up), is really exciting, isn't it?
+
+
 [[File:com_3.png]]
 
 ===You and your work===
