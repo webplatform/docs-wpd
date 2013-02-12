@@ -17,6 +17,10 @@ The results of the survey of doc sprint participants shows our community is deep
 
 [[File:dsq_2.png]]
 
+===Usability scoring and questions===
+
+[[File:use_1.png]]
+
 ===Community questions===
 
 [[File:com_2.png]]
