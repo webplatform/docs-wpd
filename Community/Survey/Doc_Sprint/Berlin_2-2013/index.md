@@ -19,4 +19,6 @@ The results of the survey of doc sprint participants shows our community is deep
 
 ===Community questions===
 
+[[File:com_2.png]]
+
 [[File:dsq_3.png]]
