@@ -22,3 +22,5 @@ The results of the survey of doc sprint participants shows our community is deep
 [[File:com_2.png]]
 
 [[File:dsq_3.png]]
+
+[[File:com_3.png]]
