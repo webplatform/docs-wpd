@@ -32,3 +32,7 @@ The results of the survey of doc sprint participants shows our community is deep
 [[File:dsq_3.png]]
 
 [[File:com_3.png]]
+
+===You and your work===
+
+[[you_1.png]]
