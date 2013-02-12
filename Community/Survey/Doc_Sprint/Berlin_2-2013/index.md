@@ -35,4 +35,4 @@ The results of the survey of doc sprint participants shows our community is deep
 
 ===You and your work===
 
-[[you_1.png]]
+[[File:you_1.png]]
