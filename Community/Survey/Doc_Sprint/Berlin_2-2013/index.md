@@ -17,6 +17,11 @@ The results of the survey of doc sprint participants shows our community is deep
 
 [[File:dsq_2.png]]
 
+====Other sources of hearing about the doc sprint====
+* Annouced by AJM at Firefox OS Appday
+* Friends
+* Google Developers Group Meetup
+
 ===Usability scoring and questions===
 
 [[File:use_1.png]]
