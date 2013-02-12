@@ -4,6 +4,7 @@ The results of the survey of doc sprint participants shows our community is deep
 
 [[File:score_1.png]]
 
+
 [[File:score_2.png]]
 
 More text
