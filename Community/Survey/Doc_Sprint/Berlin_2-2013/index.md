@@ -59,3 +59,13 @@ The results of the survey of doc sprint participants shows our community is deep
 [[File:you_4.png]]
 
 [[File:you_5.png]]
+
+===What else would you like to say?===
+* I appreciate all the good work that you've done so far and I'm looking forward to contribute.
+* For such an event the internet connection has to be faster and stable.
+* Thanks for organizing DocSprints!!! :)
+* Thanks for the nice event.
+* ... I told everything one by one. Thanks for the event and the oportunity to parcipate.
+* I really like the cause and reasoning behind webplatform.org. I find that I do have some trouble with things like attribution (W3C isn't mentioned, for instance, even though I do get a lot of information from their spec-pages) and trying to write the information in my own words.
+* involving experience - more music during the breaks
+* I would love, love, love to see a JSON API, where TextEditors and Web IDEs could get meta information from docs.webplatform.org in order to provide good autocompletion and quick lookup helpers and snippet inserters. And hints. Just imagine your CSS editor isn't only providing a drop down for "fixed" or "absolute" but also telling you the difference without leaving the editor. That would be so totally awesome!
