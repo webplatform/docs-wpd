@@ -1,0 +1,9 @@
+==Survey results from the Berlin Doc Sprint February 8 & 9, 2013==
+
+The results of the survey of doc sprint participants shows our community is deeply involved in the development of the Web Platform and equally committed to making the documentation and WebPlatform.org excellent for everyone in the community.
+
+
+[[score_1.png]]
+
+
+More text
