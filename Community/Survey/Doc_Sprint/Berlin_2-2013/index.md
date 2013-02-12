@@ -3,5 +3,6 @@
 The results of the survey of doc sprint participants shows our community is deeply involved in the development of the Web Platform and equally committed to making the documentation and WebPlatform.org excellent for everyone in the community.
 
 [[File:score_1.png]]
+[[File:score_2.png]]
 
 More text
