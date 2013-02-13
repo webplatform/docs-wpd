@@ -44,7 +44,13 @@ The results of the survey of doc sprint participants shows our community is deep
 
 ===You and your work===
 
-[[File:you_1.png]]
+[[File:you_a.png]]
+
+====Other occupations====
+* University Teacher and Mobile Developer
+* uhm, almost everything :)
+
+[[File:you_b.png]]
 
 [[File:you_2.png]]
 
