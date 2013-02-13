@@ -2,6 +2,8 @@
 
 The results of the survey of doc sprint participants shows our community is deeply involved in the development of the Web Platform and equally committed to making the documentation and WebPlatform.org excellent for everyone in the community.
 
+We received a total of 34 responses to our survey. That's 63% of the 54 doc sprint attendees.
+
 ===Doc sprint scoring and questions===
 
 [[File:score_1.png]]
@@ -69,3 +71,7 @@ The results of the survey of doc sprint participants shows our community is deep
 * I really like the cause and reasoning behind webplatform.org. I find that I do have some trouble with things like attribution (W3C isn't mentioned, for instance, even though I do get a lot of information from their spec-pages) and trying to write the information in my own words.
 * involving experience - more music during the breaks
 * I would love, love, love to see a JSON API, where TextEditors and Web IDEs could get meta information from docs.webplatform.org in order to provide good autocompletion and quick lookup helpers and snippet inserters. And hints. Just imagine your CSS editor isn't only providing a drop down for "fixed" or "absolute" but also telling you the difference without leaving the editor. That would be so totally awesome!
+
+===About the survey===
+
+Like a lot of what we do here at WPD, this survey was a learning experience. Due to operator error, the results of the survey could not be shared publicly without forcing everyone through Google+. That is why we've had to resort to screen shots from the survey results pasted into this article. The results have not been altered or otherwise affected. Next time we'll fix it so that the survey results are publicly available to all with no log-ins required. We'll also fine-tune the questions and methodology. Thanks to everyone who helped with the survey and everyone who responded!
