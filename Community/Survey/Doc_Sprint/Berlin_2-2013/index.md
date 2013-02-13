@@ -1,6 +1,6 @@
 ==Survey results from the Berlin Doc Sprint February 8 & 9, 2013==
 
-The results of the survey of doc sprint participants shows our community is deeply involved in the development of the Web Platform and equally committed to making the documentation and WebPlatform.org excellent for everyone in the community.
+The results of the survey of doc sprint participants show our community is deeply involved in the development of the Web Platform and equally committed to making the documentation and WebPlatform.org excellent for everyone in the community.
 
 We received a total of 34 responses to our survey. That's 63% of the 54 doc sprint attendees.
 
