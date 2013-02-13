@@ -31,6 +31,33 @@ We received a total of 34 responses to our survey. That's 63% of the 54 doc spri
 
 [[File:use_3.png]]
 
+====Which aspects of the site do we need to improve to make contributing easier and how should we improve them?====
+* Please improve input boxes and stuff like this
+* The editing of content is really hard. The Templates are not really explained and you need to search for answers. Example pages with all templates would help alot!
+* Stability or Bug Fixing. When Saving a CSS property page, some of the contents is not saved unless in prior one clicked "preview". The time it takes to make even small edits is far too long. Also textfields of templates are far too small to get all the content in conveniently
+* clearer documentation
+* don't restrict edits or mark them as non-editable
+* make priorization (= need of review) online
+* improve editing by changing syntax to Markdown or HTML
+* The site needs more speed and there are a lot of little bugs and showstoppers that slow you down a bit. It is also not clear what to do with imported but unfinished content, and how to contact authors of content with disputable quality (e.g. a11y parts)
+* It would be nice for beginners if small tasks were grouped by task somewhere and listed on a small list just to give an idea how to participate. It doesn't need to give every possibility.
+* A lot of things have already been said during the doc sprints and filed as bugs
+* search gives me the same page several times, if the word exists several times - that wierd.
+* I cant add answers to the q/a section. Dont know why, everytime the page says i am not logged in. Pipe issue is an issue. 
+* The MediaWiki bugs regarding examples and such (where sometimes code was rendered and sometimes not) were a bit annoying.
+* Workflow, versioning, reviewing. 
+** Although flags are useful, maybe find a way to explain a bit more what needs to be changed or improved, and how. 
+** When we are done with editing, maybe a special state "needs review", before removing old (addressed?) flags.
+** A "being-worked" state to prevent conflicts ?
+* Switch from mediawiki syntax to smth. devs are used to know (markdown)
+* Make the search function outputting useful content.
+* Solve the session timeout issue, introduce a Markdown editor, implement a mediawiki extension that converts characters into html entities. It would be awesome to have the form organized into steps, so one can fill them out one at the time quickly and easily.
+* Get rid of Mediawiki. Seriously.
+* Define clear and useful structures and rules for the entries
+* Don't sort the content based on the browser's code implementation, but think about users. A web developer doesn't care if context.font belongs to canvas.2dcontext, he or she will search for a `working with fonts` section
+* In other words: the content pages are aready nice and useful, the structure to get to these pages is horrible (atm)
+* Bug fixing (Session bug et al), finally, and as thoroughly as possible. This is the perfect showstopper to turn away anybody that has had interest (and these people might not come back that early).
+
 ===Community questions===
 
 [[File:com_2.png]]
