@@ -18,6 +18,4 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==Doc sprint survey==
 
-This quick survey takes only about 10 minutes and will greatly help us improve our doc sprints. Please take a moment to review your experience. Thanks!
-
-'''[https://docs.google.com/spreadsheet/viewform?formkey=dHYtdGhUckFUcGUtbGlPRGxkZnVaaWc6MQ Take the survey]'''
+...has moved to [[WPD:Community/Survey|Survey]].
