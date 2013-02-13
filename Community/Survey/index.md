@@ -10,7 +10,7 @@ These surveys are designed to learn how to improve the doc sprints.
 
 ====Berlin, Feb. 8 & 9====
 
-* [https://docs.google.com/spreadsheet/viewform?formkey=dHYtdGhUckFUcGUtbGlPRGxkZnVaaWc6MQ Survey] (now closed)
+* [https://docs.google.com/spreadsheet/viewform?formkey=dHYtdGhUckFUcGUtbGlPRGxkZnVaaWc6MQ Survey] (now closed; further responses will not be tabulated)
 * [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February 13, 2013)
 
 ===General surveys===
