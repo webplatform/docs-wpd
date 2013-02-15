@@ -10,6 +10,24 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 '''VOIP:'''  sip:zakim@w3.org
 
+==Agenda 2013-02-15==
+
+
+* Roll call
+* Review of open action items
+* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties status]
+** How did the testing go? Were folks able to create property pages?
+** Do we want to do some sort of review? How?
+** How shall we divy up the remaining properties?
+** What are the next steps for this project?
+* w3cconf DocSprint @ Adobe
+** Who's going?
+** What should we focus on?
+* Session bug status?
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
+
 ==Agenda 2013-02-01==
 
 * Roll call
