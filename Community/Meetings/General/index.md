@@ -24,6 +24,8 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Who's going? (Shepazu, Craig, Eliot, Julee maybe Peter)
 ** What should we focus on?
 * Session bug status?
+* Bug Genie
+* Webplatform preso for w3cconf
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
