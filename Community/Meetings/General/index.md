@@ -63,7 +63,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 ** shepazu: use the blog software to draft, instead of e-mails
 * Motion to establish a working group to investigate, develop communications plan
 * ACTION: Scott to focus survey on doc sprints
-* ACTION: Julee: to mail calling for participation in communication/outreach working group
+* ACTION: Julee: to mail calling for participation in communication/outreach working group:DONE
 * ACTION: Eliot to start off-line thread around blog posting priorities, suitability
 * TOPIC: New and notable activities on WPD?
 ** https://github.com/webplatform/Shortlinks - fr0zenice's shortlinks system for WPD
