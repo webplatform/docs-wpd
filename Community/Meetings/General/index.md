@@ -21,7 +21,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** How shall we divy up the remaining properties?
 ** What are the next steps for this project?
 * w3cconf DocSprint @ Adobe
-** Who's going?
+** Who's going? (Shepazu, Craig, Eliot, Julee maybe Peter)
 ** What should we focus on?
 * Session bug status?
 * Anything blocking you from creating great content?
