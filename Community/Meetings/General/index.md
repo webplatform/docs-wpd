@@ -51,7 +51,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * TOPIC: Analytics?
 ** What is the current status of work on analytics? Site traffic, usage, etc.
 http://docs.webplatform.org/wiki/Special:Statistics
-* ACTION: Julee to call for participation/leadership on e-mail.
+* ACTION: Julee to call for participation/leadership on e-mail. [DONE]
 * TOPIC: Recruiting experts and editors.
 ** Cmills is working on recruiting CSS experts, get them to contribute.
 * ACTION: cmills: to contact university lecturers on garnering participation of college students.
