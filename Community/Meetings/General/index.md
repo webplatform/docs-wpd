@@ -37,8 +37,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 *** font-style property page spec status: values are not usable; bug filed; considering different values than those of W3C
 *** How to represent feature status so visitor knows whether it's in most browsers? Production-ready?
 *** Community does need to know the status so it can participate. Need to bring the community in the standard development process; need to know if a spec is in "last call" or what, so the community can know whether/how to participate.
-*** Should we add information about level of usability? Providing both values?
-Should we move this info to the bottom of the page? Near compatibility? Or should it stay up top for easy identification? Maybe an easy flag up top with details below?
+*** Should we add information about level of usability? Providing both values? Should we move this info to the bottom of the page? Near compatibility? Or should it stay up top for easy identification? Maybe an easy flag up top with details below?
 *** html5please.com was offered up as a site that does it well: http://html5please.com/#gradients
 ** ACTION: JULEE to send out email to public list to get input.
 ** SUBTOPIC: The dreaded SESSION BUG!!! (Bug#19914). Memcache fix does not appear to solve the problem. It might be cloud infrastructure issue.
