@@ -28,6 +28,73 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Anything blocking you from creating great content?
 * Any new or notable content to promote? Does someone want to write up a blog post for Web Audio API?
 
+===Topics===
+
+* TOPIC: CSS Properties project status
+** SUBTOPIC: spec status value on exemplar page.
+*** http://docs.webplatform.org/wiki/css/properties/font-size
+*** https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386
+*** font-style property page spec status: values are not usable; bug filed; considering different values than those of W3C
+*** How to represent feature status so visitor knows whether it's in most browsers? Production-ready?
+*** Community does need to know the status so it can participate. Need to bring the community in the standard development process; need to know if a spec is in "last call" or what, so the community can know whether/how to participate.
+*** Should we add information about level of usability? Providing both values?
+Should we move this info to the bottom of the page? Near compatibility? Or should it stay up top for easy identification? Maybe an easy flag up top with details below?
+*** html5please.com was offered up as a site that does it well: http://html5please.com/#gradients
+** ACTION: JULEE to send out email to public list to get input.
+** SUBTOPIC: The dreaded SESSION BUG!!! (Bug#19914). Memcache fix does not appear to solve the problem. It might be cloud infrastructure issue.
+** ACTION: Shepazu to investigate cloud infrastructure and latency
+** SUBTOPIC: recruiting participants for CSS properties project
+*** ACTION: cmills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
+* TOPIC: Doug May has a way of dealing with browser compat info — it is hard and time consuming; can we automate it? See mail from Doug May: http://lists.w3.org/Archives/Public/public-webplatform/2013Feb/0002.html. See also: http://docs.webplatform.org/wiki/WPD:Compatibility_Info
+** shepazu: idea: to update compat from different sources: quirksmode, caniuse, w3c test suites/test the web forward and auto-generate from that
+** Doug May is investigating data-tree based solution to assess the suitability of data point, then refine algorithm for data retrieval that includes human-intervention provision.
+* ACTION: Doug May and Chris to collaborate on solution in Berlin, and hopefully define a solution for SF doc sprint.
+* TOPIC: Analytics?
+** What is the current status of work on analytics? Site traffic, usage, etc.
+http://docs.webplatform.org/wiki/Special:Statistics
+* ACTION: Julee to call for participation/leadership on e-mail.
+* TOPIC: Recruiting experts and editors.
+** Cmills is working on recruiting CSS experts, get them to contribute.
+* ACTION: cmills: to contact university lecturers on garnering participation of college students.
+** shepazu: maybe we could do college campus doc sprints
+** shepazu: wary of unleashing this ahead of site estabilshment, Julee seconds
+** Craig: need to improve the Getting Started workflows, 
+need to identify content areas of priority, focus on areas that provide sense of satisfaction
+** shepazu: would like to prioritize blog posts around content that is usable, current
+** shepazu: use the blog software to draft, instead of e-mails
+* Motion to establish a working group to investigate, develop communications plan
+* ACTION: Scott to focus survey on doc sprints
+* ACTION: Julee: to mail calling for participation in communication/outreach working group
+* ACTION: Eliot to start off-line thread around blog posting priorities, suitability
+* TOPIC: New and notable activities on WPD?
+** https://github.com/webplatform/Shortlinks - fr0zenice's shortlinks system for WPD
+
+
+===ACTIONS===
+
+* ACTION (carried forward): shepazu + denis to implement sitemap extension: Concerns about current solution viability; looking for alternate. 
+* ACTION (carried forward): julee and garbee to look into installing meetbot: Garbee to try to work on it more on the weekend.
+* ACTION (carried forward): Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page: IN PROGRESS, Alex to consult w frozenice on scope.
+* ACTION (carried forward): others should try to implement a CSS property page, and use chrismills' instructions when they are finished: IN PROGRESS
+* ACTION (carried forward): determine a set of properties we know to be complex outliers: in progress
+
+* ACTION: JULEE to send out email to public list to get input regarding spec status:DONE
+* ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
+* ACTION: cmills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
+
+
+
+====Completed Actions====
+
+
+* ACTION (carried forward): eliot to edit top level landing pages:DONE
+* ACTION: Mike S to move his static font-size example into the appropriate Wiki page:DONE
+* ACTION: Chris to finish writing a guide to implementing a CSS properties page:DONE
+* ACTION: Mike to work out how to specify "dependant/dependency properties":DONE
+* ACTION: Scott to add an instruction in the attribution template that says "hey - don't delete this or change this unless you have a really good reason":DONE
+* ACTION: Doug, Denis, Lea, work on implementing first phase of Dabblet live coding examples:DONE
+
+
 ==Agenda 2013-01-25==
 
 * Roll call
