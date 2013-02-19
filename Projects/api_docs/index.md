@@ -30,57 +30,57 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 1
 | [[apis/appcache|appcache]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 2
 | [[apis/audio-video|audio-video]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 3
 | [[apis/canvas|canvas]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 4
 | [[apis/css-regions|css-regions]]
-| [[User:Sierra]]
+| [[User:Sierra|Mike Sierra]]
 | Content complete
 |-
 | 5
 | [[apis/file|file]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 6
 | [[apis/geolocation|geolocation]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 7
 | [[apis/indexeddb|indexeddb]]
-| [[User:Scottrowe]]
+| [[User:Scottrowe|Scott Rowe]]
 | Reorganized, content incomplete
 |-
 | 8a
 | [[apis/navigation_timing|navigation timing]]
-| [[User:Dgash]]
+| [[User:Dgash]|Dave Gash]
 | Content complete
 |-
 | 8b
 | [[apis/user_timing|user timing]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 8c
 | [[apis/resource_timing|resource timing]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 9
 | [[apis/webaudio|webaudio]]
-| [[User:Dgash]]
+| [[User:Dgash]|Dave Gash]
 | Content complete
 |-
 | 10
@@ -95,22 +95,22 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 12
 | [[apis/websocket|websocket]]
-| None
-| In progress
+| [[User:Dgash]|Dave Gash]
+| Content complete
 |-
 | 13
 | [[apis/web-storage|web-storage]]
-| None
-| Not started
+| [[User:Dgash]|Dave Gash]
+| Content complete
 |-
 | 14
 | [[apis/workers|workers]]
-| None
-| Not started
+| [[User:Dgash]|Dave Gash]
+| Content complete
 |-
 | 15
 | [[apis/xhr|xhr]]
-| [[User:Dgash]]
+| [[User:Dgash|Dave Gash]]
 | In progress; also, needs to include CORS
 |}
 
