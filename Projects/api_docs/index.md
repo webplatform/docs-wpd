@@ -95,7 +95,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 12
 | [[apis/websocket|websocket]]
-| [[User:Dgash|Dave Gash]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 13
