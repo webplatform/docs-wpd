@@ -17,5 +17,4 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 * '''18-OCT-2012'''—Web Standards: Pushing the Web Forward with Divya Manian ([http://www.sfhtml5.org/events/68008012/ San Francisco HTML5 User Group Event])
 
 ==Doc sprint survey==
-
-...has moved to [[WPD:Community/Survey|Survey]].
+We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]].
