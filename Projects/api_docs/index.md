@@ -65,7 +65,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 8a
 | [[apis/navigation_timing|navigation timing]]
-| [[User:Dgash]|Dave Gash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 8b
@@ -80,32 +80,32 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 9
 | [[apis/webaudio|webaudio]]
-| [[User:Dgash]|Dave Gash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 10
 | [[apis/web-messaging|web-messaging]]
-| [[User:Dgash]|Dave Gash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 11
 | [[apis/webrtc|webrtc]]
-| [[User:Scottrowe]]
+| [[User:Scottrowe|Scott Rowe]]
 | In progress
 |-
 | 12
 | [[apis/websocket|websocket]]
-| [[User:Dgash]|Dave Gash]
+| [[User:Dgash|Dave Gash]
 | Content complete
 |-
 | 13
 | [[apis/web-storage|web-storage]]
-| [[User:Dgash]|Dave Gash]]
+| [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 14
 | [[apis/workers|workers]]
-| [[User:Dgash]|Dave Gash]]
+| [[User:Dgash|Dave Gash]]
 | In progress
 |-
 | 15
