@@ -7,7 +7,9 @@ Anyone can contribute to this WebPlatform wiki. All of the steps are outlined in
 
 There are many ways to contribute that take varying amounts of time and expertise. It is best to start with the simplest, fastest tasks, and move on to more complicated tasks as you gain expertise and experience. You can make meaningful contributions whether you have [[#Five-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
 
-The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
+The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]]. 
+
+Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
 
 <div style='background-color:transparent'>
 [[File:get_start.png]]
