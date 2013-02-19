@@ -11,10 +11,6 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 
 Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
 
-<div style='background-color:transparent'>
-[[File:get_start.png]]
-</div>
-
 ==Tasks==
 
 Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. It is usually best to start with the simplest, fastest tasks and move on to make more complicated changes as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
