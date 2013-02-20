@@ -1,7 +1,9 @@
-==5 Newest API-Pages needing examples ({{Articles_needing_examples|path=*apis/*|format=count}} total)==
+==API pages needing examples==
+Total: {{Articles_needing_examples|path=*apis/*|format=count}}
 
 {{Articles_needing_examples|path=*apis/*}}
 
-==5 Newest CSS-Pages needing examples ({{Articles_needing_examples|path=*css/*|format=count}} total)==
+==CSS pages needing examples==
+Total: {{Articles_needing_examples|path=*css/*|format=count}}
 
 {{Articles_needing_examples|path=*css/*}}
