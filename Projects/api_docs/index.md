@@ -63,52 +63,52 @@ The following table summarizes the current state of the extant API documentation
 | [[User:Scottrowe|Scott Rowe]]
 | Reorganized, content incomplete
 |-
-| 8a
+| 8
 | [[apis/navigation_timing|navigation timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 8b
+| 9
 | [[apis/user_timing|user timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 8c
+| 10
 | [[apis/resource_timing|resource timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 9
+| 11
 | [[apis/webaudio|webaudio]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 10
+| 12
 | [[apis/web-messaging|web-messaging]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 11
+| 13
 | [[apis/webrtc|webrtc]]
 | [[User:Scottrowe|Scott Rowe]]
 | In progress
 |-
-| 12
+| 14
 | [[apis/websocket|websocket]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 13
+| 15
 | [[apis/web-storage|web-storage]]
 | [[User:Dgash|Dave Gash]]
 | In progress
 |-
-| 14
+| 16
 | [[apis/workers|workers]]
 | [[User:Dgash|Dave Gash]]
 | In progress
 |-
-| 15
+| 17
 | [[apis/xhr|xhr]]
 | [[User:Dgash|Dave Gash]]
 | In progress; also, needs to include CORS
