@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section}}
+{{Summary_Section|This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.}}
 {{Basic Page}}
-This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.
-
 '''Note:''' if you are importing content from HTML5Rocks! see [[/H5R|this guide]] for additional information.
 
 == Preparation ==
@@ -153,6 +151,7 @@ If it is instead licensed as CC-BY-SA, check the top checkbox. You may also need
 In the "overview" tab of Alex's tracking spread, you should update the status of each task for your batch as you complete them - these are the dreaded red boxes. The less red you see, the better! You will generally only change the status of these boxes twice - once to "In progress" when you start progress on a batch, and once when to "Done" you complete processing all articles in a batch (as you tend to do all the tasks concurrently.)
 
 If you can't complete a batch, set your boxes to "Blocked" and report to the list why they are blocked.
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
