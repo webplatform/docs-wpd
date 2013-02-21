@@ -142,7 +142,7 @@ Object pages do not need to be included in '''topic clusters''' - leave that to 
 
 Object pages and object member pages (sub pages) should have examples. API_Listing pages should not. Anything so elaborate as to involve all of the objects of a typical API should be described in a tutorial or conceptual article.
 
-Oh, and don't forget to wrap your HTML code examples in <nowiki><nowiki></nowiki> or <nowiki><syntaxhighlight></nowiki> tags. Just look how ridiculous our [[dom/apis/document/getElementById|getElementById]] doc looks with the <nowiki><syntaxhighlight></nowiki> tags removed. Try it.
+Oh, and don't forget to wrap your HTML code examples in <nowiki><nowiki></nowiki> or <nowiki><syntaxhighlight></nowiki> tags (see [[WPD:Style_Manual#Code_syntax_highlighting|syntax highlighting]]. Just look how ridiculous our [[dom/apis/document/getElementById|getElementById]] doc looks with the <nowiki><syntaxhighlight></nowiki> tags removed. Try it.
 
 ===Object sub-page content===
 
