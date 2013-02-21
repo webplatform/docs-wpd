@@ -136,6 +136,8 @@ The listing page's main content should provide both an elaborate description of 
  
 The object page is pretty straight-forward. Here you'll want to explain how to use the object and its relationship to the other objects in the API.
 
+Object pages do not need to be included in '''topic clusters''' - leave that to the API_Listing pages. But the object page must be included in at least one '''topic''' - that for the API name (common name) itself, for example, WebRTC is the topic 
+
 ===Object sub-page content===
 
 This covers issues common to all sub pages of the object page, events, methods, and properties pages.
