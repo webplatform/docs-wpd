@@ -62,7 +62,7 @@ Additional rows should be sorted by name.  Use the drag handles to the right of 
 There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number.
 
 ===Topics and topic clusters===
-[under construction]
+Use '''topics''' to describe the article within the context of its template type (these are described in the [[WPD:New_Page]] page). That is, if the page is for an API object (which uses the API_Object template), and the article is about the CSS-Regions API, then the topic checkbox 
 
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
