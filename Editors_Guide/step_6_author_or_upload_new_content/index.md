@@ -79,13 +79,15 @@ Use a topic to describe the article within the context of its template type (the
 
 Notice that the query does not select for the more general Category:CSS. If there were other CSS-related Java APIs, let's say CSS-Overlay (this is fake), and if both the CSS-Regions and CSS-Overlay API_Listing pages queried for Category:CSS, all of the objects from both APIs would appear in each API's summary table. The way to prevent such duplication from happening is to create a discrete topic for all of the API_Object pages within one API_Listing.
 
-See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information.
+See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information. See [[WPD:Topics]] for how to create new topics.
 
 ===Topic clusters use case===
 
 To produce a list of articles of related content in the See Also section, use a topic cluster. The key here is to get articles from across the many domains of the wiki - tutorials, concepts, APIs, HTML elements, and so on. Sometimes these articles will share a common term, like "WebRTC." But sometimes the common term won't be obvious.
 
 For example, with three Timing APIs - [[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]] - you might think these should share the "Timing" topic cluster. But then your topic cluster would miss all of the articles about optimization, debugging, and performance. Probably the best topic cluster to use in this case is "Performance."
+
+To add a new topic cluster, add it to the list in [[Property:Topic_Cluster]].
 
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
