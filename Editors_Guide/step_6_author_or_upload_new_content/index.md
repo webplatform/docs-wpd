@@ -67,12 +67,25 @@ Generally, we use topics to describe articles at their lowest level of granulari
 
 ===Topics use cases===
 
-Use topics to describe the article for the following purposes.
+Use topics to describe the article for the following purposes. Note that these use cases are not mutually exclusive, and you can use topics for either or both.
+
+====Basic meta data====
+
+Topics describe the article's content with keywords. Use as many as apply *usefully*. Too much meta data can blur the picture worse than too little.
 
 ====API Basic Listing Configuration Query====
 
-Use topics to describe the article within the context of its template type (these are described in the [[WPD:New_Page]] page). That is, if the page is for an API object (which uses the API_Object template), and the article is about the CSS-Regions API, then the topic checkbox to check is "CSS-Regions." This allows you to specify the query, "<nowiki>[[Category:CSS-Regions]][[Category:API_Objects]]</nowiki>" in the API_Listing page that produces a summary table of all the API objects. This query says, "fetch me the pages of the CSS-Regions topic that are also API_Object pages." This means that for every API there must be a topic specific to that API. See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information.
+Use a topic to describe the article within the context of its template type (these are described in the [[WPD:New_Page]] page). That is, if the page is for an API object (which uses the API_Object template), and the article is about the CSS-Regions API, then the topic checkbox to check is "CSS-Regions." This allows you to specify the query, "<nowiki>[[Category:CSS-Regions]][[Category:API_Objects]]</nowiki>" in the API_Listing page that produces a summary table of all the API objects. This query says, "fetch me the pages of the CSS-Regions topic that are also API_Object pages." This means that for every API there must be a topic specific to that API.
 
+Notice that the query does not select for the more general Category:CSS. If there were other CSS-related Java APIs, let's say CSS-Overlay (this is fake), and if both the CSS-Regions and CSS-Overlay API_Listing pages queried for Category:CSS, all of the objects from both APIs would appear in each API's summary table. The way to prevent such duplication from happening is to create a discrete topic for all of the API_Object pages within one API_Listing.
+
+See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information.
+
+===Topic clusters use case===
+
+To produce a list of articles of related content in the See Also section, use a topic cluster. The key here is to get articles from across the many domains of the wiki - tutorials, concepts, APIs, HTML elements, and so on. Sometimes these articles will share a common term, like "WebRTC." But sometimes the common term won't be obvious.
+
+For example, with three Timing APIs - [[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]] - you might think these should share the "Timing" topic cluster. But then your topic cluster would miss all of the articles about optimization, debugging, and performance. Probably the best topic cluster to use in this case is "Performance."
 
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
