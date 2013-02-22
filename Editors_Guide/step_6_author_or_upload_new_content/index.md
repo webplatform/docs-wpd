@@ -71,7 +71,7 @@ Use topics to describe the article for the following purposes. Note that these u
 
 ====Basic meta data====
 
-Topics describe the article's content with keywords. Use as many as apply *usefully*. Too much meta data can blur the picture worse than too little.
+Topics describe the article's content with keywords. Mark as many as apply ''usefully''. Too much meta data can blur the picture worse than too little. The topic keywords have several uses, such as search engine optimization, and effectively describe the content taxonomy. This taxonomy has multiple facets. For example, the CSS-Regions API is an API (the content's purpose) and it is about CSS (the content's subject matter); furthermore, it is specifically about CSS-Regions. But the reason we use the CSS-Rei
 
 ====API Basic Listing Configuration Query====
 
