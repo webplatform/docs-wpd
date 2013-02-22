@@ -7,7 +7,7 @@ Most articles have a form section for Topics that can be checked off. This form 
 
 You can see which topics there are either by viewing that part of any page editing form or this list: [[:Category:Topics]].
 
-Topics differ from "Topic Clusters" because Topics are designed to be wide-ranging "tags" throughout the site that end users may use to find content, whereas Topic Clusters are used very specifically to auto-generate portions of the See Also sections, and nothing else.
+Topics differ from "Topic Clusters" because Topics are designed to be wide-ranging "tags" throughout the site that end users may use to find content, whereas Topic Clusters are used very specifically to auto-generate portions of the See Also sections, and nothing else. See [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters|Topics and topic clusters]] for more information.
 
 ===Steps to add a new topic===
 
