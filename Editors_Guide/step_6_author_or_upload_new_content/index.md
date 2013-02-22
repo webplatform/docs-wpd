@@ -87,7 +87,7 @@ To produce a list of articles of related content in the See Also section, use a 
 
 For example, with three Timing APIs - [[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]] - you might think these should share the "Timing" topic cluster. But then your topic cluster would miss all of the articles about optimization, debugging, and performance. Probably the best topic cluster to use in this case is "Performance."
 
-To add a new topic cluster, add it to the list in [[Property:Topic_Cluster]].
+To create a new topic cluster, add it to the list in [[Property:Topic_Cluster]].
 
 ===Update the status of compatibility===
 If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
