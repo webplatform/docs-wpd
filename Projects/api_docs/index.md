@@ -111,7 +111,7 @@ The following table summarizes the current state of the extant API documentation
 | 17
 | [[apis/xhr|xhr]]
 | [[User:Dgash|Dave Gash]]
-| In progress; also, needs to include CORS
+| Mostly complete, needs to include CORS
 |}
 
 ==External content for import==
