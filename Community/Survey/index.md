@@ -14,7 +14,7 @@ Take the [https://docs.google.com/forms/d/1BgL4exribU4JNnrDBdht3iVEfzHEUOYZ-QLVE
 
 ====Berlin, Feb. 8 & 9====
 
-* [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February 13, 2013)
+Survey [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February 13, 2013)
 
 ===General surveys===
 
