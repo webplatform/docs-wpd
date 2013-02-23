@@ -11,6 +11,10 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 
 Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
 
+San Francisco Feb 23, 2013 DocSprint event links:
+CSS Properties How-to Guide: http://docs.webplatform.org/wiki/WPD:CSS_property_guide
+CSS Properties spreadsheet: https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
+
 ==Tasks==
 
 Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. It is usually best to start with the simplest, fastest tasks and move on to make more complicated changes as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
