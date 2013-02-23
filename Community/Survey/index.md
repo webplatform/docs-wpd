@@ -14,7 +14,6 @@ Take the [https://docs.google.com/forms/d/1BgL4exribU4JNnrDBdht3iVEfzHEUOYZ-QLVE
 
 ====Berlin, Feb. 8 & 9====
 
-* [https://docs.google.com/spreadsheet/viewform?formkey=dHYtdGhUckFUcGUtbGlPRGxkZnVaaWc6MQ Survey] (now closed; further responses will not be tabulated)
 * [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February 13, 2013)
 
 ===General surveys===
