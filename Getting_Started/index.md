@@ -12,8 +12,8 @@ The community is friendly and welcoming to newcomers; if you ever have any quest
 Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
 
 San Francisco Feb 23, 2013 DocSprint event links:
-CSS Properties How-to Guide: http://docs.webplatform.org/wiki/WPD:CSS_property_guide
-CSS Properties spreadsheet: https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
+* CSS Properties How-to Guide: http://docs.webplatform.org/wiki/WPD:CSS_property_guide
+* CSS Properties spreadsheet: https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
 
 ==Tasks==
 
