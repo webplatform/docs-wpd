@@ -3,7 +3,7 @@
 {{Summary_Section|This article is a guide to implementing a CSS property reference page.}}
 {{Basic Page}}
 We have compiled a rather large and hopefully exhaustive list of all existing CSS properties — this can be found at
-https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=14
+https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
 
 At-a-glance view of who is working on what: [[css/assigned|Assigned CSS property pages]]
 
