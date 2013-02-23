@@ -3,58 +3,108 @@ __TOC__
 
 =Getting started contributing content=
 
-Anyone can contribute to this WebPlatform wiki. All of the steps are outlined in the [[WPD:Editors_Guide|Editor's Guide]]. 
+Anyone can contribute to the WebPlatform wiki. Read the [[WPD:Editors_Guide|Editor's Guide]] to learn how you can get started. 
 
-There are many ways to contribute that take varying amounts of time and expertise. It is best to start with the simplest, fastest tasks, and move on to more complicated tasks as you gain expertise and experience. You can make meaningful contributions whether you have [[#Five-minute tasks|five minutes]], [[#Half-hour tasks|half an hour]], or [[#Half-day tasks|half a day]]. 
+<div class="topic-container">
+<p>&nbsp;</p>
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[#Tasks|Help with Tasks]]</h3>
+		<p>Not sure where to start?  Our [[#Tasks|task list]] is broken down by time and expertise to match your skills with our needs.</p>
+	</div>
+</div>
 
-The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]]. 
 
-Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[#Creating_a_new_page|Add new content]]</h3>
+		<p>Share your knowledge by adding [[WPD:Content/Tutorials_and_concept_articles|concept pages, tutorials]] and [[WPD:Content/Reference_articles|reference articles]].</p>	
+	</div>
+</div>
 
-San Francisco Feb 23, 2013 DocSprint event links:
-* CSS Properties How-to Guide: http://docs.webplatform.org/wiki/WPD:CSS_property_guide
-* CSS Properties spreadsheet: https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
-* Survey: http://docs.webplatform.org/wiki/WPD:Community/Survey
+
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[#Editing_an_existing_page|Edit and Review]]</h3>
+		<p>[[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]] and [[WPD:Editors_Guide/step_5_update_existing_content|edit pages]] to help us improve.</p>		
+	</div>
+</div>
+
+</div>
+
+The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]]. Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
+
+'''San Francisco Feb 23, 2013 DocSprint event links:'''
+* [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
+* [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
+* [[WPD:Community/Survey|Survey]]
 
 ==Tasks==
 
-Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. It is usually best to start with the simplest, fastest tasks and move on to make more complicated changes as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day. 
+Tasks provide you with a way to roll up your sleeves and contribute; these take varying amounts of time and expertise. It is usually best to start with the simplest, fastest tasks and move on to make more complicated changes as you gain expertise and experience. 
 
-'''For specific things to do''', visit the [[WPD:Most_Wanted_Tasks|Most Wanted Tasks]] page, to find high priority changes that that you can accomplish right now.
+<div class="topic-container">
+<p>&nbsp;</p>
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[#Five-minute_tasks|Tasks by time]]</h3>
+		<p>Make a meaningful contribution whether you have [[#Five-minute_tasks|five minutes]], [[#Half-hour_tasks|half an hour]] or [[#Half-day_tasks|half a day]].</p>
+	</div>
+</div>
 
-If you want to '''create a new tutorial or concept page''' see the guide for authoring [[WPD:Content/Tutorials_and_concept_articles| tutorials and concept articles]].
 
-If you want to '''create or edit a reference page''' read the instructions for [[WPD:Content/Reference_articles| reference articles]].
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[WPD:Most_Wanted_Tasks|Tasks by need]]</h3>
+		<p>These are [[WPD:Most_Wanted_Tasks|high priority changes]] you can accomplish right now.</p>	
+	</div>
+</div>
+
+
+<div class="long-topic">
+	<div class="place-holder"></div>
+	<div class="inner">
+		<h3>[[#Creating_a_new_page|Creating new content]]</h3>
+		<p>Learn how to [[WPD:Content/Tutorials_and_concept_articles|create tutorials]] and [[WPD:Content/Reference_articles|reference articles]] for the wiki.</p>		
+	</div>
+</div>
+
+</div>
 
 ===Five-minute tasks===
 
-* '''Correct grammar and spelling mistakes''' Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|Grammar flag ]] checked require attention to fix grammar and spelling mistakes. Often these changes require no knowledge of the wiki syntax or web development domain expertise, so fixing these changes is a great way to get started.
-* '''Author missing summaries''' Most pages should include a short summary section that provides an overview of the article. Summaries are used to generate automatic overview pages. Writing a summary requires just writing a sentence or two in your own words. You can find [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere/Template:Editorial/Needs_Summary&hidelinks=1&hideredirs=1 all pages that need summaries] and start adding them.
-* '''Fill in missing compatibility information''' See the  [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information]. Generally, the missing information in compatibility tables can be verified by comparing other online resources, such as [http://caniuse.com/ www.caniuse.com] or the [http://www.quirksmode.org/compatibility.html www.quirksmode.org site]. Identify the compatibility of a feature for each browser, and then enter the values in the form. See the [http://docs.webplatform.org/wiki/WPD:Getting_Started/Compatibility Compatibility page] to learn more.
-* '''Identify data that is not semantic''' WebPlatform uses Semantic Media Wiki and Semantic Forms to organize information in a structured way. Sometimes, however, data is represented on a page in an unstructured field. Often it is as simple as moving bits of content from one text box to another. See the [[WPD:Implementation_Patterns|Implementation Patterns page]] to see where pages belong.
-* '''Update biased content''' WebPlatform aims to provide vendor-neutral documentation. If you find a section that describes a feature as if it only works in a certain browser, or a section of code that could work across all browsers, but currently won't because it only uses one or two browsers' vendor prefixes, please edit these pages. If you cannot fix pages yourself, enable the [[Special:SearchByProperty/Content-20quality-20flag/Biased-20Voice|Biased Voice flag]] in the edit form, so someone else can edit them.
-* '''Mark pages using flags''' Press the edit button at the top of an article to check the different flag check boxes at the top of the edit form. Flagging pages is critical to help other contributors find tasks to do.
-* '''Fix broken links and misspelled words''' Broken links are fairly easy to spot on the wiki, because they display in a [[albatross/my broken link example|bold red color]]. Fix broken links or check the [[Special:SearchByProperty/Content-20quality-20flag/Broken-20Links|Broken Links flag]] so someone else can find the page and fix them. Misspelled words are underlined with dashed red lines in the editing interface. Please fix any misspelled words you find.
-* '''Add more useful links''' Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
-* '''Apply the correct code syntax coloring to code blocks''' See the [[WPD:Style_Manual#Code_syntax_highlighting|Code Coloring guide]] for details.
-* '''Review the recent changes and look for mistakes to fix''' Check out the [[Special:RecentChanges|list of recent changes]] to help find issues. Help new contributors make productive edits to the wiki, and ensure we are all following the guidelines to author and update pages.
+* '''Correct grammar and spelling mistakes''' <br/>Pages with the [[Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling|Grammar flag ]] checked require attention to fix grammar and spelling mistakes. Often these changes require no knowledge of the wiki syntax or web development domain expertise, so fixing these changes is a great way to get started.
+* '''Author missing summaries''' <br/>Most pages should include a short summary section that provides an overview of the article. Summaries are used to generate automatic overview pages. Writing a summary requires just writing a sentence or two in your own words. You can find [http://docs.webplatform.org/w/index.php?title=Special:WhatLinksHere/Template:Editorial/Needs_Summary&hidelinks=1&hideredirs=1 all pages that need summaries] and start adding them.
+* '''Fill in missing compatibility information''' <br/>See the  [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information]. Generally, the missing information in compatibility tables can be verified by comparing other online resources, such as [http://caniuse.com/ www.caniuse.com] or the [http://www.quirksmode.org/compatibility.html www.quirksmode.org site]. Identify the compatibility of a feature for each browser, and then enter the values in the form. See the [http://docs.webplatform.org/wiki/WPD:Getting_Started/Compatibility Compatibility page] to learn more.
+* '''Identify data that is not semantic''' <br/>WebPlatform uses Semantic Media Wiki and Semantic Forms to organize information in a structured way. Sometimes, however, data is represented on a page in an unstructured field. Often it is as simple as moving bits of content from one text box to another. See the [[WPD:Implementation_Patterns|Implementation Patterns page]] to see where pages belong.
+* '''Update biased content''' <br/>WebPlatform aims to provide vendor-neutral documentation. If you find a section that describes a feature as if it only works in a certain browser, or a section of code that could work across all browsers, but currently won't because it only uses one or two browsers' vendor prefixes, please edit these pages. If you cannot fix pages yourself, enable the [[Special:SearchByProperty/Content-20quality-20flag/Biased-20Voice|Biased Voice flag]] in the edit form, so someone else can edit them.
+* '''Mark pages using flags''' <br/>Press the edit button at the top of an article to check the different flag check boxes at the top of the edit form. Flagging pages is critical to help other contributors find tasks to do.
+* '''Fix broken links and misspelled words''' <br/>Broken links are fairly easy to spot on the wiki, because they display in a [[albatross/my broken link example|bold red color]]. Fix broken links or check the [[Special:SearchByProperty/Content-20quality-20flag/Broken-20Links|Broken Links flag]] so someone else can find the page and fix them. Misspelled words are underlined with dashed red lines in the editing interface. Please fix any misspelled words you find.
+* '''Add more useful links''' <br/>Feel free to add useful, relevant links to external resources to show more examples to illustrate a technique or technology.
+* '''Apply the correct code syntax coloring to code blocks''' <br/>See the [[WPD:Style_Manual#Code_syntax_highlighting|Code Coloring guide]] for details.
+* '''Review the recent changes and look for mistakes to fix''' <br/>Check out the [[Special:RecentChanges|list of recent changes]] to help find issues. Help new contributors make productive edits to the wiki, and ensure we are all following the guidelines to author and update pages.
 
 ===Half-hour tasks===
-* '''Add new examples''' Provide more examples that illustrate techniques or describe good use of technologies. Look for articles where examples are missing in [[WPD:Getting_Started/examples/css|CSS pages]] or [[WPD:Getting_Started/examples/api|API pages]]. See [[WPD:Creating_API_pages#Examples|Examples]] for more information.
-* '''Fix incomplete API documentation''' Some reference articles are incomplete and need to be updated.
-* '''Merge duplicate articles''' Some pages provide substantially duplicate content and should be merged into one. For example, an imported article that was originally authored for the Microsoft Developer Network might overlap content with another imported article that was originally authored for HTML5Rocks. See the list of  [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|articles with duplicate content]], and review the editorial notes at the top to determine pages to merge. This task requires carefully reviewing both articles and keeping the best content of both pages without duplicating content. See the [[WPD:Flags/Merge_Candidate| Merge page]] for more information.
-* '''Author content in stub pages''' Many pages that are just stubs (pages with URLs and titles that contain no content). Stub pages are created because a contributor creates a placeholder for a page that would be good to add, but they do not have time to author it. Locating and populating these stub pages is a great help.
-* '''Author exercise questions''' Some articles have exercise questions listed at the bottom of them. You can add useful exercise questions to existing pages in the '''Manual sections: (raw other sections, including headers)''' box of the '''See also section''' in the edit form for tutorials, guides, and other pages.
-* '''Add screenshots or supporting information''' Many articles have broken screenshot links, or include notes that a screenshot is needed. See the steps to [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Prepare and upload screenshots]], or provide examples and supporting information to illustrate techniques.
-* '''Clean up imported content''' Some content imported from other sources needs to be edited to use the correct wiki syntax, follow the Yahoo style guide conventions, contain complete steps, have links to other pages when applicable, and other tasks to standardize the content in the wiki. See the list of [[WPD:Flags/Unreviewed_Import|unreviewed pages that were recently imported]] and flag issues or update them yourself.
+* '''Add new examples''' <br/>Provide more examples that illustrate techniques or describe good use of technologies. Look for articles where examples are missing in [[WPD:Getting_Started/examples/css|CSS pages]] or [[WPD:Getting_Started/examples/api|API pages]]. See [[WPD:Creating_API_pages#Examples|Examples]] for more information.
+* '''Fix incomplete API documentation''' <br/>Some reference articles are incomplete and need to be updated.
+* '''Merge duplicate articles''' <br/>Some pages provide substantially duplicate content and should be merged into one. For example, an imported article that was originally authored for the Microsoft Developer Network might overlap content with another imported article that was originally authored for HTML5Rocks. See the list of  [[Special:SearchByProperty/High-2Dlevel-20issue/Merge-20Candidate|articles with duplicate content]], and review the editorial notes at the top to determine pages to merge. This task requires carefully reviewing both articles and keeping the best content of both pages without duplicating content. See the [[WPD:Flags/Merge_Candidate| Merge page]] for more information.
+* '''Author content in stub pages''' <br/>Many pages that are just stubs (pages with URLs and titles that contain no content). Stub pages are created because a contributor creates a placeholder for a page that would be good to add, but they do not have time to author it. Locating and populating these stub pages is a great help.
+* '''Author exercise questions''' <br/>Some articles have exercise questions listed at the bottom of them. You can add useful exercise questions to existing pages in the '''Manual sections: (raw other sections, including headers)''' box of the '''See also section''' in the edit form for tutorials, guides, and other pages.
+* '''Add screenshots or supporting information''' <br/>Many articles have broken screenshot links, or include notes that a screenshot is needed. See the steps to [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Prepare and upload screenshots]], or provide examples and supporting information to illustrate techniques.
+* '''Clean up imported content''' <br/>Some content imported from other sources needs to be edited to use the correct wiki syntax, follow the Yahoo style guide conventions, contain complete steps, have links to other pages when applicable, and other tasks to standardize the content in the wiki. See the list of [[WPD:Flags/Unreviewed_Import|unreviewed pages that were recently imported]] and flag issues or update them yourself.
 
 ===Half-day tasks===
-* '''Merge articles''' Some articles are marked with the ''Merge candidate flag'' indicating that they should be merged with other articles. Combine articles with duplicate information.
-* '''Split articles''' - Create pages that convey a single, specific concept by splitting up long pages that contain a wide variety of different content.
-* '''[[WPD:New_Page|Write new articles]]''' If you'd like to author new pages,  see the suggestion board to find topics to write. If you are not sure if your topic idea is needed, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| send a message to the team]]. If your topic suggestion is approved and you do not have time to write the entire article, it is still worth creating a new page with the beginnings of a new article on it. (This is called a stub page).
-* '''Suggest new topics to write''' If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Send a message]] that outlines the topic and scope of the article.
-* '''Improve internal documentation''' If you research the [[WPD:Editors_Guide|Editor's Guide]] and you cannot find out how to do something, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|propose an update to the Editor's Guide]] to make the process easier for other contributors.
-* '''Rewriting CC-BY-SA content for CC-BY use''' Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)] for maximum reusability. Some material on the site has been imported from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. If you see articles licensed like this, feel free to rewrite the content. See the list of [[Special:SearchByProperty/Is-20CC-2DBY-2DSA/true|articles licensed as CC-BY-SA]] to get started.
+* '''Merge articles''' <br/>Some articles are marked with the ''Merge candidate flag'' indicating that they should be merged with other articles. Combine articles with duplicate information.
+* '''Split articles'''  <br/>Create pages that convey a single, specific concept by splitting up long pages that contain a wide variety of different content.
+* '''[[WPD:New_Page|Write new articles]]''' <br/>If you'd like to author new pages,  see the suggestion board to find topics to write. If you are not sure if your topic idea is needed, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| send a message to the team]]. If your topic suggestion is approved and you do not have time to write the entire article, it is still worth creating a new page with the beginnings of a new article on it. (This is called a stub page).
+* '''Suggest new topics to write'''  <br/>If you have a good idea for an article that could be included but don't have the time or skills to write it yourself, it is still worth putting the idea forward. [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Send a message]] that outlines the topic and scope of the article.
+* '''Improve internal documentation''' <br/>If you research the [[WPD:Editors_Guide|Editor's Guide]] and you cannot find out how to do something, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|propose an update to the Editor's Guide]] to make the process easier for other contributors.
+* '''Rewriting CC-BY-SA content for CC-BY use'''  <br/>Content original to the site is licensed under a [https://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License (CC-BY 3.0)] for maximum reusability. Some material on the site has been imported from other sources that have made it available under a share-alike license such as [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]. If you see articles licensed like this, feel free to rewrite the content. See the list of [[Special:SearchByProperty/Is-20CC-2DBY-2DSA/true|articles licensed as CC-BY-SA]] to get started.
 
 ==Editing an existing page==
 
