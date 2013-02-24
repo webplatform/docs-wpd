@@ -10,7 +10,7 @@ Anyone can contribute to the WebPlatform wiki. Read the [[WPD:Editors_Guide|Edit
 <div class="long-topic">
 	<div class="place-holder"></div>
 	<div class="inner">
-		<h3>[[#Tasks|Help with Tasks]]</h3>
+		<h3>[[#Tasks|Help with tasks]]</h3>
 		<p>Not sure where to start?  Our [[#Tasks|task list]] is broken down by time and expertise to match your skills with our needs.</p>
 	</div>
 </div>
@@ -19,7 +19,7 @@ Anyone can contribute to the WebPlatform wiki. Read the [[WPD:Editors_Guide|Edit
 <div class="long-topic">
 	<div class="place-holder"></div>
 	<div class="inner">
-		<h3>[[#Creating_a_new_page|Add new content]]</h3>
+		<h3>[[#Creating_a_new_page|Create new content]]</h3>
 		<p>Share your knowledge by adding [[WPD:Content/Tutorials_and_concept_articles|concept pages, tutorials]] and [[WPD:Content/Reference_articles|reference articles]].</p>	
 	</div>
 </div>
@@ -28,8 +28,8 @@ Anyone can contribute to the WebPlatform wiki. Read the [[WPD:Editors_Guide|Edit
 <div class="long-topic">
 	<div class="place-holder"></div>
 	<div class="inner">
-		<h3>[[#Editing_an_existing_page|Edit and Review]]</h3>
-		<p>[[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]] and [[WPD:Editors_Guide/step_5_update_existing_content|edit pages]] to help us improve.</p>		
+		<h3>[[#Editing_an_existing_page|Edit and review]]</h3>
+		<p>[[WPD:Editors_Guide/step_5_update_existing_content|Edit existing content]] and [[Special:RecentChanges|review changes]] to help improve the wiki.</p>		
 	</div>
 </div>
 
