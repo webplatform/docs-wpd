@@ -32,7 +32,7 @@ Anyone can contribute to the WebPlatform wiki. Read the [[WPD:Editors_Guide|Edit
 		<p>[[WPD:Editors_Guide/step_5_update_existing_content|Edit existing content]] and [[Special:RecentChanges|review changes]] to help improve the wiki.</p>		
 	</div>
 </div>
-
+<div class="clearfixboth"></div>
 </div>
 
 The community is friendly and welcoming to newcomers; if you ever have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]]. Also, look to see if there's an upcoming [[WPD:Community/Community_Events|community event]] near you.
@@ -73,7 +73,7 @@ Tasks provide you with a way to roll up your sleeves and contribute; these take 
 		<p>Learn how to [[WPD:Content/Tutorials_and_concept_articles|create tutorials]] and [[WPD:Content/Reference_articles|reference articles]] for the wiki.</p>		
 	</div>
 </div>
-
+<div class="clearfixboth"></div>
 </div>
 
 ===Five-minute tasks===
