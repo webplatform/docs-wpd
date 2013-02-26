@@ -65,7 +65,7 @@ The following table summarizes the current state of the extant API documentation
 |-
 | 8
 | [[apis/indexeddb|indexeddb]]
-| [[User:Scottrowe|Scott Rowe]]
+| [[User:Lleonard|Lance Leonard]]
 | Reorganized, content incomplete
 |-
 | 9
