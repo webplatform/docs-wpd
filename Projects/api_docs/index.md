@@ -119,7 +119,7 @@ The following table summarizes the current state of the extant API documentation
 | Mostly complete, needs to include CORS
 |}
 
-==External content for import==
+==DOM content==
 
 Much of the extant API content (above) needs to be filled in or otherwise amended. Doing this work from scratch, going back to the specs, and building out a completely new reference would take far more time and effort than importing content already developed by the stewards or other sources. Importing external content into WPD would help us realize our goal to make WPD the largest single source of reference material for developers.
 
@@ -136,43 +136,36 @@ And just in case you're wondering, content identified as authored by Google or "
 ! API Name
 ! Source
 ! Description
-! Authors
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API Pointer Lock API]
 | MDN
 | Provides input methods based on the movement of the mouse over time.
-| Mostly Googlers, see history
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/DOM/window.navigator.battery Battery]
 | MDN
 | Battery status.
-| Many, see history
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/DOM/MutationObserver MutationObserver]
 | MDN
 | Observes changes to the DOM.
-| Many, see history
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/DOM/Using_the_Page_Visibility_API Page Visibility]
 | MDN
 | Tells the application if a page is in focus.
-| Many, see history
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/Using_fullscreen_mode Fullscreen]
 | MDN
 | Gives elements access to fullscreen presentation.
-| Many, see history
 |-
 | 
 | [https://developer.mozilla.org/en-US/docs/Detecting_device_orientation Device Orientation]
 | MDN
 | Events that signal the device's orientation.
-| Many, see history
 |-
 | 
 | 
