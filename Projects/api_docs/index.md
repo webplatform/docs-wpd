@@ -159,11 +159,10 @@ Content identified here was originally considered part of the API project, but t
 | MDN
 | Events that signal the device's orientation.
 |-
-| 
-| 
-| 
-| 
-| 
+| DOM
+| [https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html Shadow DOM]
+| Dimitry's Blog
+| Tip of the Web Components iceberg; Scott is on the hook for this one.
 |}
 
 ==New APIs==
@@ -177,16 +176,11 @@ The following table lists APIs either in development that have not been document
 ! SMEs
 |-
 | 1
-| [https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html Shadow DOM]
-| Tip of the Web Components iceberg; Scott is on the hook for this one.
-| Dimitri Glazkov, Google
-|-
-| 2
 | [https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html Quota Management]
 | Manage usage and availability of a user's local storage (appcache, file, indexeddb, websql).
 | Kinuko Yasuda, Google
 |-
-| 3
+| 
 | 
 | 
 |
