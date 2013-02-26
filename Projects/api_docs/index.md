@@ -66,7 +66,7 @@ The following table summarizes the current state of the extant API documentation
 | 8
 | [[apis/indexeddb|indexeddb]]
 | [[User:Lleonard|Lance Leonard]]
-| Reorganized, content incomplete
+| In progress
 |-
 | 9
 | [[apis/navigation_timing|navigation timing]]
