@@ -161,7 +161,7 @@ Content identified here was originally considered part of the API project, but t
 |-
 | DOM
 | [https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html Shadow DOM]
-| Dimitry's Blog
+| Dimitri's Blog
 | Tip of the Web Components iceberg; Scott is on the hook for this one.
 |}
 
