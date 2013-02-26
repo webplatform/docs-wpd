@@ -121,15 +121,7 @@ The following table summarizes the current state of the extant API documentation
 
 ==DOM content==
 
-Much of the extant API content (above) needs to be filled in or otherwise amended. Doing this work from scratch, going back to the specs, and building out a completely new reference would take far more time and effort than importing content already developed by the stewards or other sources. Importing external content into WPD would help us realize our goal to make WPD the largest single source of reference material for developers.
-
-For the API documentation, the following list identifies key APIs in modern web development; these are both the most used and the newest (bleeding-edge) APIs currently documented by other sources. The list considers the API, its source, purpose, and whose permission we need to import the content into WPD. These are prioritized in terms of both how how important they are to developers and how easy it might be to obtain permission to import them into WPD.
-
-{{TODO|Need to put in place an automated process that provides for the obtaining of permission to import and the provision for pointers to the imported content from the source (indicating that this is the new location of the doc for on-going maintenance) for MDN.}}
-
-Also, very often the API documentation from other sources includes tutorial and conceptual content that also needs to be imported into the likewise appropriate namespace on WPD. Sometimes an API's documentation is actually a tutorial - when the API is brief, for instance.
-
-And just in case you're wondering, content identified as authored by Google or "mostly Googlers" is considered easiest to import because no explicit approval is required from Google authors to import the content.
+Content identified here was originally considered part of the API project, but these APIs are actually DOM APIs, and should be considered in the scope of the DOM project (yet to be started).
 
 {| class="sortable"
 ! Priority
@@ -162,7 +154,7 @@ And just in case you're wondering, content identified as authored by Google or "
 | MDN
 | Gives elements access to fullscreen presentation.
 |-
-| 
+| DOM
 | [https://developer.mozilla.org/en-US/docs/Detecting_device_orientation Device Orientation]
 | MDN
 | Events that signal the device's orientation.
