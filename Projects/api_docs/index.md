@@ -106,7 +106,7 @@ The following table summarizes the current state of the extant API documentation
 | 16
 | [[apis/web-storage|web-storage]]
 | [[User:Dgash|Dave Gash]]
-| In progress
+| Content complete
 |-
 | 17
 | [[apis/workers|workers]]
