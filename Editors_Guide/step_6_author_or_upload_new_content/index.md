@@ -87,6 +87,8 @@ To produce a list of articles of related content in the See Also section, use a 
 
 For example, with three Timing APIs - [[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]] - you might think these should share the "Timing" topic cluster. But then your topic cluster would miss all of the articles about optimization, debugging, and performance. Probably the best topic cluster to use in this case is "Performance."
 
+'''Careful!''' It is easy to abuse topic clusters by tagging too many articles for the same topic cluster. Doing so only creates a long list of unnecessary links. For example, API object members (events, methods, and properties) do not need to be in the topic cluster; only the API object needs to be in the topic cluster. Furthermore, avoid using large-scope topic clusters like "CSS" - again, all you'll get is a huge list of unrelated items.
+
 To create a new topic cluster, add it to the list in [[Property:Topic_Cluster]].
 
 ===Update the status of compatibility===
