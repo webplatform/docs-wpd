@@ -54,61 +54,66 @@ The following table summarizes the current state of the extant API documentation
 | Content complete
 |-
 | 6
-| [[apis/geolocation|geolocation]]
+| [[apis/filesystem|filesystem]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
 | 7
+| [[apis/geolocation|geolocation]]
+| [[User:Dgash|Dave Gash]]
+| Content complete
+|-
+| 8
 | [[apis/indexeddb|indexeddb]]
 | [[User:Scottrowe|Scott Rowe]]
 | Reorganized, content incomplete
 |-
-| 8
+| 9
 | [[apis/navigation_timing|navigation timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 9
+| 10
 | [[apis/user_timing|user timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 10
+| 11
 | [[apis/resource_timing|resource timing]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 11
+| 12
 | [[apis/webaudio|webaudio]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 12
+| 13
 | [[apis/web-messaging|web-messaging]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 13
+| 14
 | [[apis/webrtc|webrtc]]
 | [[User:Scottrowe|Scott Rowe]]
 | In progress
 |-
-| 14
+| 15
 | [[apis/websocket|websocket]]
 | [[User:Dgash|Dave Gash]]
 | Content complete
 |-
-| 15
+| 16
 | [[apis/web-storage|web-storage]]
 | [[User:Dgash|Dave Gash]]
 | In progress
 |-
-| 16
+| 17
 | [[apis/workers|workers]]
 | [[User:Dgash|Dave Gash]]
 | In progress
 |-
-| 17
+| 18
 | [[apis/xhr|xhr]]
 | [[User:Dgash|Dave Gash]]
 | Mostly complete, needs to include CORS
