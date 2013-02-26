@@ -138,103 +138,43 @@ And just in case you're wondering, content identified as authored by Google or "
 ! Description
 ! Authors
 |-
-| 1
-| [https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API File System API]
-| MDN
-| Simulates a local file system where web apps can read, write, and create files and directories.
-| Google (grendel)
-|-
-| 2
-| [https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry File Entry API]
-| MDN
-| Writes content to a local file.
-| Google (grendel)
-|-
-| 3
-| [https://developer.mozilla.org/en-US/docs/IndexedDB IndexedDB]
-| MDN
-| Structured off-line storage, content to fill in WPD content
-| Many, see history
-|-
-| 4
+| 
 | [https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API Pointer Lock API]
 | MDN
 | Provides input methods based on the movement of the mouse over time.
 | Mostly Googlers, see history
 |-
-| 5
-| [https://developer.mozilla.org/en-US/docs/Navigation_timing Navigation Timing API]
-| MDN
-| Provides data that can be used to measure the performance of a website.
-| Mostly Googlers, see history
-|-
-| 6
-| [https://developer.mozilla.org/en-US/docs/DOM/File File API]
-| MDN
-| Provides input methods based on the movement of the mouse over time.
-| Many, see history
-|-
-| 7
-| [https://developer.mozilla.org/en-US/docs/DOM/FileReader File Reader API]
-| MDN
-| Reads content from a local file.
-| Many, see history
-|-
-| 8
-| [https://developer.mozilla.org/en-US/docs/DOM/FileList File List API]
-| MDN
-| Represents a list of local files.
-| Many, see history
-|-
-| 9
-| [https://developer.mozilla.org/en-US/docs/DOM/Storage DOM Storage]
-| MDN
-| localStorage, sessionStorage to fill out web storage content, above.
-| Many, see history, could be a huge challenge to get perms
-|-
-| 10
-| [https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest XHR]
-| MDN
-| XMLHttpRequest, retrieves data (not just XML) from a URL (not just HTTP).
-| Many, see history, could be a huge challenge to get perms
-|-
-| 11
-| [https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket WebSocket]
-| MDN
-| Cousin of XHR, some say better.
-| Many, see history, could be a huge challenge to get perms
-|-
-| 12
+| 
 | [https://developer.mozilla.org/en-US/docs/DOM/window.navigator.battery Battery]
 | MDN
 | Battery status.
 | Many, see history
 |-
-| 13
+| 
 | [https://developer.mozilla.org/en-US/docs/DOM/MutationObserver MutationObserver]
 | MDN
 | Observes changes to the DOM.
 | Many, see history
 |-
-| 14
+| 
 | [https://developer.mozilla.org/en-US/docs/DOM/Using_the_Page_Visibility_API Page Visibility]
 | MDN
 | Tells the application if a page is in focus.
 | Many, see history
 |-
-| 15
+| 
 | [https://developer.mozilla.org/en-US/docs/Using_fullscreen_mode Fullscreen]
 | MDN
 | Gives elements access to fullscreen presentation.
 | Many, see history
 |-
-| 16
+| 
 | [https://developer.mozilla.org/en-US/docs/Detecting_device_orientation Device Orientation]
 | MDN
 | Events that signal the device's orientation.
 | Many, see history
 |-
-| 17
+| 
 | 
 | 
 | 
