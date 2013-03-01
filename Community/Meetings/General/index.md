@@ -10,6 +10,26 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 '''VOIP:'''  sip:zakim@w3.org
 
+==Agenda 2013-03-08==
+
+* Roll call
+* Review of open action items
+* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties project]
+** What are the next steps for this project?
+* Content question:
+** How can we get a seal of approval from the community? Can SME review content?
+** What is the criteria for calling something complete?
+** What is the announcement plan to promote completed content?
+* DocSprints
+* Session bug?
+* Bug Genie?
+* Dabblet?
+* Task forces?
+** Communications and recruiting
+** Analytics
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-03-01==
 
 * Roll call
