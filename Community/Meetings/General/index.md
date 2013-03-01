@@ -34,19 +34,19 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 SUMMARY OF ACTIONS CARRIED OVER FROM LAST WEEK
 
 1. ACTION (carried forward): shepazu + denis to implement sitemap extension
-        - Carried forward again
+* Carried forward again
 2. ACTION (carried forward): Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page
-        - Carried forward again
+* Carried forward again
 3. ACTION (carried forward): others should try to implement a CSS property page, and use chrismills' instructions when they are finished
-        - Finished
+* Finished
 4. ACTION (carried forward): determine a set of properties we know to be complex outliers
-        - Finished
+* Finished
 5. ACTION: JULEE to send out email to public list to get input regarding spec status
-        - Finished
+* Finished
 6. ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
-        - Investigated with help from HP Cloud people, no resolution as yet. Ongoing.
+* Investigated with help from HP Cloud people, no resolution as yet. Ongoing.
 7. ACTION: chrismills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
-        - Ongoing. Has invited one person to take part (Rachel Andrew), who agreed to help out.
+* Ongoing. Has invited one person to take part (Rachel Andrew), who agreed to help out.
 
 SUMMARY OF NEW ACTIONS FOR THIS WEEK
 
