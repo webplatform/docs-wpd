@@ -50,10 +50,10 @@ SUMMARY OF ACTIONS CARRIED OVER FROM LAST WEEK
 
 SUMMARY OF NEW ACTIONS FOR THIS WEEK
 
-1. ACTION: chrismills, make google spreadsheet just show p0-p2, css properties
-2. ACTION: chrismills: pull together 10-15 good CSS example pages and mail them around. People from different companies will then send these example pages to their resident CSS spec gurus, e.g Tab Atkins, Fantasai, Howcome, etc. and see what they think, as well as real world CSS gurus, e.g. Rachel Andrew, Chris Coyier, Peter Gasston, Dan Cederholm, Ethan Marcotte, Nicole Sullivan (their needs will be different.)
-3. ACTION: all, give Doug suggestions on what to add to WPD session him and Janet are doing at W3Conf
-4. ACTION: Scott to spruce up the APIs landing page
+* ACTION: chrismills, make google spreadsheet just show p0-p2, css properties
+* ACTION: chrismills: pull together 10-15 good CSS example pages and mail them around. People from different companies will then send these example pages to their resident CSS spec gurus, e.g Tab Atkins, Fantasai, Howcome, etc. and see what they think, as well as real world CSS gurus, e.g. Rachel Andrew, Chris Coyier, Peter Gasston, Dan Cederholm, Ethan Marcotte, Nicole Sullivan (their needs will be different.)
+* ACTION: all, give Doug suggestions on what to add to WPD session him and Janet are doing at W3Conf
+* ACTION: Scott to spruce up the APIs landing page
 
 ==Agenda 2013-02-01==
 
