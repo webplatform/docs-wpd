@@ -84,16 +84,16 @@ WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighli
 *Use <code>&lt;syntaxhighlight&gt;</code> only for stand-alone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
 *The most common language notations you will use are <code>&lt;html5&gt;</code>, <code>&lt;css&gt;</code>, and <code>&lt;javascript&gt;</code>. Note that using just <code>&lt;html&gt;</code> does not work; you must use either <code>&lt;html5&gt;</code> or <code>&lt;html4strict&gt;</code> to display proper syntax highlighting.
-*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case&mdash;the SyntaxHighlight extension handles all the formatting.
+*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
 *There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight handles that as well.
-*Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
-**<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code>
-*This highlights the third line in your code snippet.
-**<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code>
-**<code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code>T
-*This highlights a range of lines or multiple lines specified one by one.
-**<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code>
-Multiple options can even be mixed together.
+*Lines of code can be emphasized by providing a <code>highlight=""</code> attribute.
+**This highlights the third line in your code snippet:
+***<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code>
+**This highlights a range of lines or multiple lines specified one by one:
+***<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code>
+***<code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code>
+**Multiple options can even be mixed together:
+***<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code>
 
 ===Add images to illustrate concepts===
 Screenshots and illustrations greatly improve articles and pages posted on this wiki. See [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets to complement articles. 
