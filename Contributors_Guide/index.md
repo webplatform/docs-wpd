@@ -55,6 +55,7 @@
             <ul>
             <li>[[WPD:Editors_Guide/step_5_update_existing_content#Become familiar with MediaWiki syntax conventions |Learn MediaWiki syntax]]</li>
             <li>[[WPD:Editors_Guide/step_5_update_existing_content#Follow the WebPlatform style guide|Follow the style guidelines]]</li>
+            <li>[[WPD:Manual_Of_Style/Sample_best_practices Edit code samples]]</li>
         </ul>
      </div>
   </div>
@@ -66,6 +67,7 @@
             <ul>
             <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine if your content is appropriate to add to this wiki|Decide if your content is right for the site]]</li>
             <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Author new content using the correct site formatting and standards|Prepare new content]]</li>
+            <li>[[WPD:Manual_Of_Style/Sample_best_practices Create code samples]]</li>
         </ul>
      </div>
   </div>
