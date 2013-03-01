@@ -29,6 +29,31 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===Summary===
+
+SUMMARY OF ACTIONS CARRIED OVER FROM LAST WEEK
+
+1. ACTION (carried forward): shepazu + denis to implement sitemap extension
+        - Carried forward again
+2. ACTION (carried forward): Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page
+        - Carried forward again
+3. ACTION (carried forward): others should try to implement a CSS property page, and use chrismills' instructions when they are finished
+        - Finished
+4. ACTION (carried forward): determine a set of properties we know to be complex outliers
+        - Finished
+5. ACTION: JULEE to send out email to public list to get input regarding spec status
+        - Finished
+6. ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
+        - Investigated with help from HP Cloud people, no resolution as yet. Ongoing.
+7. ACTION: chrismills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
+        - Ongoing. Has invited one person to take part (Rachel Andrew), who agreed to help out.
+
+SUMMARY OF NEW ACTIONS FOR THIS WEEK
+
+1. ACTION: chrismills, make google spreadsheet just show p0-p2, css properties
+2. ACTION: chrismills: pull together 10-15 good CSS example pages and mail them around. People from different companies will then send these example pages to their resident CSS spec gurus, e.g Tab Atkins, Fantasai, Howcome, etc. and see what they think, as well as real world CSS gurus, e.g. Rachel Andrew, Chris Coyier, Peter Gasston, Dan Cederholm, Ethan Marcotte, Nicole Sullivan (their needs will be different.)
+3. ACTION: all, give Doug suggestions on what to add to WPD session him and Janet are doing at W3Conf
+4. ACTION: Scott to spruce up the APIs landing page
 
 ==Agenda 2013-02-01==
 
