@@ -31,7 +31,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 ===Summary===
 
-SUMMARY OF ACTIONS CARRIED OVER FROM LAST WEEK
+====CARRIED OVER FROM LAST WEEK====
 
 1. ACTION (carried forward): shepazu + denis to implement sitemap extension
 * Carried forward again
@@ -48,7 +48,7 @@ SUMMARY OF ACTIONS CARRIED OVER FROM LAST WEEK
 7. ACTION: chrismills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
 * Ongoing. Has invited one person to take part (Rachel Andrew), who agreed to help out.
 
-SUMMARY OF NEW ACTIONS FOR THIS WEEK
+====NEW ACTIONS FOR THIS WEEK====
 
 * ACTION: chrismills, make google spreadsheet just show p0-p2, css properties
 * ACTION: chrismills: pull together 10-15 good CSS example pages and mail them around. People from different companies will then send these example pages to their resident CSS spec gurus, e.g Tab Atkins, Fantasai, Howcome, etc. and see what they think, as well as real world CSS gurus, e.g. Rachel Andrew, Chris Coyier, Peter Gasston, Dan Cederholm, Ethan Marcotte, Nicole Sullivan (their needs will be different.)
