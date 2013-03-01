@@ -14,7 +14,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 * Roll call
 * Review of open action items
-* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties status]
+* [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties project]
 ** What are the next steps for this project?
 * DocSprints
 ** How was w3cconf DocSprint @ Adobe?
@@ -23,7 +23,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Bug Genie status?
 * Dabblet status?
 * New task forces
-** Communications and recruting
+** Communications and recruiting
 ** Analytics
 ** Reporting back to this meeting?
 * Anything blocking you from creating great content?
