@@ -68,7 +68,7 @@ var privateVariable = "…";
 You can create a live code example on [http://code.webplatform.org/ code.webplatform.org] to add to your content. Live code can be a good addition to in-page snippets. To add code to code.webplatform.org and link to it, follow these steps. 
 
 # Once on code.webplatform.org, press '''Ctrl + N''' or '''⌘ + N''' to get a new example. Delete any boiler plate code.  
-# On each tab - CSS, HTML, and JS - paste or type your code example. For the main JavaScript function, you don't need to include a function name. The magic behind code.webplatform.org executes your JavaScript once the HTML has loaded. Additional JavaScript functions that are called, however, do need to be defined with a function and name. 
+# On each tab - CSS, HTML, and JS - break down your example by language section, and put the code on its respective tab. For the main JavaScript function, you don't need to include a function name. The magic behind code.webplatform.org executes your JavaScript once the HTML has loaded. Additional JavaScript functions that are called, however, do need to be defined with a function and name. 
 # The <code>body</code> and <code>head</code> tags are not needed.
 # In the first line of code on the <code>CSS</code> tab, add a CSS comment with the title of your example, such as <code>/* Button example */</code>. You must add a comment do regardless of whether you have CSS content or not. This is essentially the same as using <code>title</code> in the head of a webpage. 
 # Click the <code>Result</code> tab to see your example. The title for the page tab should be the same as the title of the CSS comment. 
