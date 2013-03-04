@@ -2,6 +2,8 @@
 
 The following are the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints. This page will track the bugs logged against these issues.
 
+<nowiki> Just ignore all the 'class=' and other cruft. It came in from the original HTML in Google Docs and would take too long to remove.</nowiki>
+
 {|
 ! Bug
 ! Category
