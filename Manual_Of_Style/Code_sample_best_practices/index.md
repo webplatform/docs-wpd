@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags}}
-{{Summary_Section|This page provides an overview of best practices to follow when authoring articles to help standardize the content presented. Follow these guidelines to choose proper page URLs, format code snippets, add titles and structure the content you are writing.  }}
+{{Summary_Section|This page provides an overview of best practices to follow when authoring articles to help standardize the content presented. Follow these guidelines to choose proper page URLs, format code snippets, add titles and structure the content you are writing.}}
 {{Basic Page}}
 ==Overview==
 This topic provides guidance for writing code and markup samples and snippets for documentation published to webplatform.org. It is meant to provide a quality bar for code samples and snippets, and to provide consistency of style across this documentation, not functionality. 
@@ -64,6 +64,19 @@ var privateVariable = "…";
 *All JSON structures should be well-formed and conform to the JSON specification [http://www.json.org http://www.json.org].
 *Use <code>JSON.parse()</code> and <code>JSON.stringify()</code> to parse and serialize JSON strings.
 
+==Creating a live code example==
+A live code example can be created on code.webplatform.org and is a good addition to in-page snippets. To added code to code.webplatform.org and link to it, follow these steps. 
+
+# Go to code.webplatform.org and press Ctrl + N or ⌘ + N to get a new example. Delete any boiler plate code.  
+# On each tab - CSS, HTML, and JS, paste or type in your code example. For the main JavaScript function, you don't need to include a function name. The code.webplatform.org executes your JavaScript once the HTML has loaded. Additional JavaScript functions that are called do need to be defined with a function and name. 
+# The <code>body</code> and <code>head</code> tags are not needed.
+# On the <code>CSS</code> tab, put a CSS comment as the first line with the title of your example, such as /* Button example */. You need to do this regardless of whether you have CSS content or not. This is essentially the same as using <code>title</code> in the head of a webpage. 
+# Click the Result tab to see your example. The tab title should also show the title you entered into the CSS comment. 
+# Click the All tab, and then press CTRL + S or ⌘ + S to save the page. By saving from the All tab, your users will automatically see your code executed when they land on the page. 
+# Copy the URL from the address bar, and paste it into the "Live example URL (optional)" field in your topic. 
+
+A special note about using the Save button at the top of code.webplatform.com:
+* To see save options, hover your mouse over the button to get the dropdown menu. If you click the button or the arrow, it will automatically save. 
 
 The final suggestions: Be simple. Be straightforward. Don’t try to impress. Just teach.
 {{Notes_Section}}
