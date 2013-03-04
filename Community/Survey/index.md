@@ -19,3 +19,7 @@ Survey [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February
 ===General surveys===
 
 These are surveys that we run independently of doc sprints. Some never close.
+
+===Verbatims===
+
+We also track raw comments from various sources [[/WPD:Community/Survey/Verbatims|here]].
