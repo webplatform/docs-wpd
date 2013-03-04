@@ -22,4 +22,4 @@ These are surveys that we run independently of doc sprints. Some never close.
 
 ===Verbatims===
 
-We also track raw comments from various sources [[/WPD:Community/Survey/Verbatims|here]].
+We also track raw comments from various sources [[WPD:Community/Survey/Verbatims|here]].
