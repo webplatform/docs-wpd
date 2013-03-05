@@ -24,8 +24,11 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Generate a site map of the current site
 ** Identify what pages should be there that aren't
 ** Stub in those pages with details on priority, etc.
+* URLs for translation
+** What can we tell translators now?
+*** Why can't we do ..wiki/lang/.. now?
+** Should we have a task force?
 * Session bug?
-* Bug Genie?
 * Dabblet?
 * Task forces?
 ** Communications and recruiting
