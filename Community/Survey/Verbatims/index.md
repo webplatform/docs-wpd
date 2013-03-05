@@ -43,6 +43,8 @@ The verbatim information below is summarized here by category. Not all categorie
 
 To help with the resolutions to these problems, in the list below cite the relevant bug from our project management system. If the issue requires a new bug, please create it.
 
+==Issues cited by doc sprint participants==
+
 <!-- Just ignore all the 'class=' and other cruft. It came in from the original HTML in Google Docs and would take too long to remove. -->
 
 {|
