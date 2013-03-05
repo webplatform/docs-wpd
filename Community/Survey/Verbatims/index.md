@@ -1,6 +1,29 @@
 =Verbatims=
 
-The following are the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints. This page will track the bugs logged against these issues.
+The table below lists the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints, and tracks the bugs logged against these issues. The gathering of this information, along with the [WPD:Community/Survey|survey] was the first effort toward gaining insight into the usability of the wiki for contributors. Herein are summarized the findings with a bias toward raising issues with respect to editing and contributing.
+
+==Summary==
+
+The verbatim information below is summarized here by category. Not all categories are summarized.
+
+===Design/Layout===
+
+* Broken, unimplemented features (Comments, Q&A) are confusing users.
+* Users are unable to log in because the log-in elements do not appear on the home page.
+
+===Editing tasks===
+
+* Editing in MediaWiki and with SMW forms is not easy (this runs contrary to one of our basic assumptions)
+* Session bugs are a serious impediment to productivity
+* Need a guide to creating examples.
+* Need a process (and a flag) for reviewing contributions.
+* Topics and topic clusters are confusing and rife with abuse.
+* How to documentation (WPD:*) is hard to find and difficult to follow.
+* Markdown is preferred over MediaWiki markup.
+* Flag design is scaring some users away from working on pages.
+
+===
+
 
 <!-- Just ignore all the 'class=' and other cruft. It came in from the original HTML in Google Docs and would take too long to remove. -->
 
