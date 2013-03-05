@@ -36,6 +36,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Task forces?
 ** Community outreach
 *** Brief recap of [[WPD:Community/Survey/Verbatims|Verbatims]] and [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Survey]].
+*** Consider dates for next Doc Sprint.
 ** Analytics
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
