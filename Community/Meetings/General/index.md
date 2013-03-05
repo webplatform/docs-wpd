@@ -20,7 +20,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** How can we get a seal of approval from the community? Can SME review content?
 ** What is the criteria for calling something complete?
 ** What is the announcement plan to promote completed content?
-* Filling out the ontology of the site 
+* Filling out the taxonomy of the site 
 ** Generate a site map of the current site
 ** Identify what pages should be there that aren't
 ** Stub in those pages with details on priority, etc.
@@ -28,10 +28,14 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** What can we tell translators now?
 *** Why can't we do ..wiki/lang/.. now?
 ** Should we have a task force?
+* Fix Search
+** Duplicate pages in results
+** Crawl/index WPD: pages for help
 * Session bug?
 * Dabblet?
 * Task forces?
-** Communications and recruiting
+** Community outreach
+*** Brief recap of [WPD:Community/Survey/Verbatims|Verbatims] and [WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Survey].
 ** Analytics
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
