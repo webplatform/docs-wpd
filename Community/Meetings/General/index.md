@@ -20,7 +20,10 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** How can we get a seal of approval from the community? Can SME review content?
 ** What is the criteria for calling something complete?
 ** What is the announcement plan to promote completed content?
-* DocSprints
+* Filling out the ontology of the site 
+** Generate a site map of the current site
+** Identify what pages should be there that aren't
+** Stub in those pages with details on priority, etc.
 * Session bug?
 * Bug Genie?
 * Dabblet?
