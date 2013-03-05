@@ -14,7 +14,7 @@ The verbatim information below is summarized here by category. Not all categorie
 ===Editing tasks===
 
 * Editing in MediaWiki and with SMW forms is not easy (this runs contrary to one of our basic assumptions)
-* Session bugs are a serious impediment to productivity
+* Session bugs are a serious impediment to productivity.
 * Need a guide to creating examples.
 * Need a process (and a flag) for reviewing contributions.
 * Topics and topic clusters are confusing and rife with abuse.
@@ -22,8 +22,26 @@ The verbatim information below is summarized here by category. Not all categorie
 * Markdown is preferred over MediaWiki markup.
 * Flag design is scaring some users away from working on pages.
 
-===
+===Forms===
 
+* Syntax section too restrictive, not applicable to all cases.
+* (Many other issues, see below.)
+
+===Getting Started===
+
+* Need to identify tasks according to role, domain expertise, skill.
+* Need tasks for designers, and others.
+* Supplement the Getting Started pages with video.
+* Need a more obvious path to getting started from home pages.
+
+===Search===
+
+* Duplicate pages in search results - one for each instance of the search term (this is low-hanging; why is it still on the tree?)
+* Can't search internal help pages.
+
+==Next steps==
+
+To help with the resolutions to these problems, in the list below cite the relevant bug from our project management system. If the issue requires a new bug, please create it.
 
 <!-- Just ignore all the 'class=' and other cruft. It came in from the original HTML in Google Docs and would take too long to remove. -->
 
