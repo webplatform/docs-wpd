@@ -1,6 +1,6 @@
 =Verbatims=
 
-The table below lists the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints, and tracks the bugs logged against these issues. The gathering of this information, along with the [WPD:Community/Survey|survey] was the first effort toward gaining insight into the usability of the wiki for contributors. Herein are summarized the findings with a bias toward raising issues with respect to editing and contributing.
+The table below lists the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints, and tracks the bugs logged against these issues. The gathering of this information, along with the [[WPD:Community/Survey|survey]] was the first effort toward gaining insight into the usability of the wiki for contributors. Herein are summarized the findings with a bias toward raising issues with respect to editing and contributing.
 
 ==Summary==
 
