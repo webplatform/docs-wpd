@@ -96,7 +96,7 @@ The following table summarizes the current state of the extant API documentation
 | 14
 | [[apis/webrtc|webrtc]]
 | [[User:Scottrowe|Scott Rowe]]
-| In progress
+| Content complete
 |-
 | 15
 | [[apis/websocket|websocket]]
@@ -111,7 +111,7 @@ The following table summarizes the current state of the extant API documentation
 | 17
 | [[apis/workers|workers]]
 | [[User:Dgash|Dave Gash]]
-| In progress
+| Content complete
 |-
 | 18
 | [[apis/xhr|xhr]]
