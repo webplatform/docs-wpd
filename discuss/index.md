@@ -4,7 +4,7 @@ There are many ways for you to get in touch with fellow Webplatform.org communit
 
 ==General note on discussion topics==
 
-In general, the Webplaform.org community is very welcoming and friendly, but we would like to gently remind you to keep your conversations ''on topic'' for the community. Relevant topics for Webplatform.org include questions about contributing to Webplatform.org (whether that is helping to moderate chat, write or edit articles, create or modify WPD templates, help with site graphics or styling, or general questions about writing style), feedback about aspects of Webplatform.org, and requests for new content.
+In general, the Webplatform.org community is very welcoming and friendly, but we would like to gently remind you to keep your conversations ''on topic'' for the community. Relevant topics for Webplatform.org include questions about contributing to Webplatform.org (whether that is helping to moderate chat, write or edit articles, create or modify WPD templates, help with site graphics or styling, or general questions about writing style), feedback about aspects of Webplatform.org, and requests for new content.
 
 We are not a tech support line for "please help me fix my code" type questions; such questions are better suited to code-specific IRC channels, or [http://www.stackoverflow.com stackoverflow].
 
