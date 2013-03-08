@@ -23,7 +23,7 @@ This group will determine the metrics for reporting the success of site visits. 
 '''IRC Channel:''' webplatform-site
 
 ===Contributors===
-Doug
-Patrick
-Scott
-Julee
+* Doug
+* Patrick
+* Scott
+* Julee
