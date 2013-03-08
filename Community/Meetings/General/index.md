@@ -16,6 +16,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Review of open action items
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties project]
 ** What are the next steps for this project?
+* Topic vs. Topic Clusters?
 * Content questions:
 ** How can we get a seal of approval from the community? Can SME review content?
 ** What is the criteria for calling something complete?
