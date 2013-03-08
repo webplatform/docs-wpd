@@ -32,7 +32,7 @@ While we're working on articles, there are a few best practices to keep in mind:
 
 ==CSS Properties in Milestone ==
 
-https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=0 '''Note''': this document is world-editable and doesn't even need a Google Account to use.
+https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE '''Note''': this document is world-editable and doesn't even need a Google Account to use.
 
 ==Useful Resources==
 * http://www.opera.com/docs/specs/presto2.12/css/properties/
