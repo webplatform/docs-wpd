@@ -16,7 +16,7 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Review of open action items
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties project]
 ** What are the next steps for this project?
-* Content question:
+* Content questions:
 ** How can we get a seal of approval from the community? Can SME review content?
 ** What is the criteria for calling something complete?
 ** What is the announcement plan to promote completed content?
@@ -34,11 +34,9 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Crawl/index WPD: pages for help
 * Session bug?
 * Dabblet?
-* Task forces?
-** Community outreach
+* Community outreach task force
 *** Brief recap of [[WPD:Community/Survey/Verbatims|Verbatims]] and [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Survey]].
 *** Consider dates for next Doc Sprint.
-** Analytics
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
