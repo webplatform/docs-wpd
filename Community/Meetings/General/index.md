@@ -10,6 +10,8 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 
 '''VOIP:'''  sip:zakim@w3.org
 
+'''IRC Channel:''' webplatform-site
+
 ==Agenda 2013-03-15==
 
 * Roll call
