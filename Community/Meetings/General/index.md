@@ -31,8 +31,8 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 ** Crawl/index WPD: pages for help
 * Session bug?
 * Dabblet?
+* Press kit?
 * Community outreach task force
-** Press kit?
 *** Brief recap of [[WPD:Community/Survey/Verbatims|Verbatims]] and [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Survey]].
 *** Consider dates for next Doc Sprint.
 * Analytics task force
