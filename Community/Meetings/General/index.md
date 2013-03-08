@@ -44,6 +44,10 @@ Web Platform content architecture meetings occur on Fridays, 17:00 UTC / Noon ET
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+==Agenda 2013-03-08==
+
+Meeting adjourned for lack of a quorum.
+
 ==Agenda 2013-03-01==
 
 * Roll call
