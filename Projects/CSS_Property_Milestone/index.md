@@ -36,3 +36,26 @@ https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9S
 
 ==Useful Resources==
 * http://www.opera.com/docs/specs/presto2.12/css/properties/
+
+==Status==
+
+{| class="wikitable"
+|-
+! Status as of 2013-03-08 !! P0 !! P1 !! P2 !! Total
+|-
+| Finished ||  ||  ||  6 || 6
+|-
+| Started ||  || 16 || 2 || 18
+|-
+| No Status ||  || 29 || 147 || 176
+|-
+| See notes || 1 || 3 || 1 || 5
+|-
+| Finished, needs review || 11 || 19 || 21 || 51
+|-
+| Finished, needs examples ||  || 1 ||  || 1
+|-
+| Finished, needs review  and examples || 1 || ||  ||  1
+|-
+| Total || 13 || 68 || 177 || 258
+|}
