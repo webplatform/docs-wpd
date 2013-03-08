@@ -24,6 +24,6 @@ By default, all translators have to make interwiki manually to the corresponding
 
 [http://www.mediawiki.org/ MediaWiki web site] etc.  have a simple rule of translations. Translated articles can be created as the subpage of their original English article. For instance, the article <code>article/name/fr</code> describes a French translation of <code>article/name</code> in English.
 
-In this solution, we can add the list of all translations in a MediaWiki source code simply by using [http://www.mediawiki.org/wiki/Template:Languages <nowiki>{{Languages}}</nowiki> template]. This requires no additional configuration in MediaWiki (LocalSettings.php, etc.).
+In this solution, we can add the list of all translations simply by putting [http://www.mediawiki.org/wiki/Template:Languages <nowiki>{{Languages}}</nowiki> template]  in a MediaWiki source code. This requires no additional configuration in MediaWiki (LocalSettings.php, etc.).
 
 This solution is found to have a problem that several language codes conflict with some of HTML elements [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0051.html]. To avoid such conflicts, alternative suffix rules are proposed; <code>article/name/lang-{lang}</code>[http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0076.html], <code>article/name/lang:{lang}</code>[http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0077.html], etc.
