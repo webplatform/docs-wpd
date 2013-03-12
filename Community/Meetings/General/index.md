@@ -35,10 +35,10 @@ Web Platform community meetings occur on Fridays, 17:00 UTC / Noon ET / 9:00 PT.
 ** Crawl/index WPD: pages for help
 * Session bug?
 * Dabblet?
-* Community outreach task force
+* Community development task force
 ** Press kit?
 *** Brief recap of [[WPD:Community/Survey/Verbatims|Verbatims]] and [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Survey]].
-*** Consider dates for next Doc Sprint.
+*** Plan next Doc Sprint: April 3, 2013 in San Francisco at the Google office.
 * Analytics task force
 ** Getting together in the next week
 * Content questions:
