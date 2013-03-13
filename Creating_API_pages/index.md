@@ -89,6 +89,10 @@ Oh, that and mark them as stubs, of course!
 
 Once you've got the pages all in place, you can go back and start filling them in. Most of the time, how to do this is obvious. But where it may be unclear, this section attempts to clarify.
 
+===Flags===
+
+All pages in the apis tree need to be identified as "API" topics, along with their individual API name topic (see[[#Topics|Topics]], below. When you finish creating an API page, also mark the "Needs Review" flag.
+
 ===Object listing page content===
 
 The listing page describes the API and its objects.
