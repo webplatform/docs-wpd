@@ -1,4 +1,4 @@
-==Analytics Task Force Meeting==
+=Analytics Task Force Meeting=
 
 '''Time:''' Fridays, 19:00 UTC / 14:00 ET / 11:00 PT. 
 
@@ -9,3 +9,5 @@
 '''VOIP:'''  sip:zakim@w3.org
 
 '''IRC Channel:''' webplatform-site
+
+See [[WPD:Community/Task_Force/Community|Community Development]] task force page for more information.
