@@ -10,7 +10,7 @@ As preceding examples in translations, [http://meta.wikimedia.org/wiki/Complete_
 
 === Different host for each language ===
 
-In [http://en.wikipedia.org/ Wikipedia], [http://en.wiktionary.org/ Wiktionary], [http://en.wikiversity.org/ Wikiversity], etc., different hosts are prepared for each languages; as for Wikipedia, http://en.wikipedia.org/ for English, http://es.wikipedia.org/ for Spanish, http://ko.wikipedia.org/ for Korean, etc.
+In [http://en.wikipedia.org/ Wikipedia], [http://en.wiktionary.org/ Wiktionary], [http://en.wikiversity.org/ Wikiversity], etc., different host is prepared for each language; as for Wikipedia, http://en.wikipedia.org/ for English, http://es.wikipedia.org/ for Spanish, http://ko.wikipedia.org/ for Korean, etc.
 
 As for WebPlatform.org, there is a proposal like <code>{lang}.docs.webplatform.org</code> or <code>docs-{lang}.webplatform.org</code> [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0113.html].
 
