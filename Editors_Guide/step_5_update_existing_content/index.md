@@ -1,8 +1,9 @@
 {{Page_Title|Step 5: Update existing content}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This is Step 5 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
-
 ==Step 5. Update existing content==
 ===Become familiar with MediaWiki syntax conventions===
 
@@ -50,7 +51,7 @@ Use capitals sparingly. Capitalize only the first word (using sentence case). Ho
 *Resolving issues in Internet Explorer
 
 ===Enter helpful article summaries===
-All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page.
+All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page. Sometimes you can summarize an article based on its extant content; otherwise you may need to do some research.  
 
 ===Update section headings to be descriptive and strong ===
 Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
@@ -160,3 +161,11 @@ Different types of articles have different types of sections. For an article to 
 
 ===Participate in the conversation about formatting and styling wiki pages===
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
