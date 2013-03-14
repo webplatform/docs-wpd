@@ -10,12 +10,18 @@ This group will determine the metrics for reporting the success of site visits. 
 * What feedback are they giving us?
 * How is social media campaign impacting visits and contributions?
 
-===Meetings===
+==Meetings==
 
 See [[WPD:Community/Meetings/Analytics|Analytics Task Force meetings]]
 
-===Contributors===
+==Contributors==
 * Doug
 * Patrick
 * Scott
 * Julee
+
+==Projects==
+Here's what we're working on.
+
+===Bug Genie and WPDS Dashboard integration===
+Need to provide.
