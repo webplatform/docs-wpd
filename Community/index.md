@@ -1,5 +1,7 @@
 * [[WPD:Community/Community Events|Community Events]]
+* [[WPD:Community/Meetings|Meetings]]
 * [[WPD:Community/Community Engagement Plan|Community Engagement Plan]]
 * [[WPD:Community/Contributor Recognition|Contributor Recognition]]
 * [[WPD:Community/Social Profile|Social Profile]]
 * [[WPD:Community/Survey|Survey]]
+* [[WPD:Community/Task_Force|Task Forces]]
