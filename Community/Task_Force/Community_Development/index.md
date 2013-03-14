@@ -1,5 +1,5 @@
-=Community task force=
+=Community Development task force=
 
 This is the community task force page.
 
-See [[WPD:Community/Meetings/Community|Community meetings]].
+See [[WPD:Community/Meetings/Community_Development|Community Development meetings]].
