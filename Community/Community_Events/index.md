@@ -19,3 +19,9 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==Doc sprint survey==
 We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]].
+
+==Doc sprint links==
+
+* [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
+* [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
+* [[WPD:Community/Survey|Survey]]
