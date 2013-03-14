@@ -1,4 +1,4 @@
-==Analytics Task Force Meeting==
+=Analytics Task Force=
 
 This group will determine the metrics for reporting the success of site visits. At a high level, we're tracking things like:
 
