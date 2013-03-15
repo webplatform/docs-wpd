@@ -69,6 +69,7 @@ Meeting adjourned for lack of a quorum.
 * Session bug status?
 * Bug Genie status?
 * Dabblet status?
+* template for the native JS objects?
 * New task forces
 ** Communications and recruiting
 ** Analytics
@@ -76,6 +77,23 @@ Meeting adjourned for lack of a quorum.
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===Doc Sprints===
+
+http://docs.webplatform.org/wiki/WPD:Community/Community_Events
+
+* 2/23 DocSprint: attendance: 27; CSS Properties worked on: 23
+* Possibility of next Docsprint at HTML5DevConf - Mid-April
+* Possible Docsprint in Puget Sound Area Mid-April
+* http://openhelpconference.com/
+
+
+===Action items ===
+* JULEE will work on getting a burndown together
+* Julee - Setup Analytics project at project.webplatform.org
+* chrismills, make google spreadsheet just show p0-p2, css properties
+* Eliot: Follow up on getting documentation into Editing Guidelines for using codelet at DocSprints to do code examples
+* Julee to add agenda item for next week: Topic vs. Topic Clusters
+* ACTION: Julee to add agenda item for next week: Getting SME to review content
 
 ==Agenda 2013-02-15==
 
