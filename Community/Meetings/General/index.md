@@ -90,7 +90,7 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 ===Action items ===
 * JULEE will work on getting a burndown together [DONE]
 * Julee - Setup Analytics project at project.webplatform.org [DONE]
-* Eliot: Follow up on getting documentation into Editing Guidelines for using codelet at DocSprints to do code examples
+* Eliot: Follow up on getting documentation into Editing Guidelines for using codelet at DocSprints to do code examples [DONE] [[http://docs.webplatform.org/wiki/WPD:Manual_Of_Style/Sample_best_practices]]
 * Julee to add agenda item for next week: Topic vs. Topic Clusters [DONE]
 * Julee to add agenda item for next week: Getting SME to review content [DONE]
 
