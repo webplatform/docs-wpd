@@ -23,9 +23,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * [http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone CSS Properties project]
-** What are the next steps for this project?
+** Volunteer to get pages written.
+** Send Julee your recommendation for props that really should be reviewed & suggested experts.
+** Pointer to APIs.
 * Topic vs. Topic Clusters?
-* Translation task force?
 * Filling out the taxonomy of the site 
 ** Generate a site map of the current site
 ** Identify what pages should be there that aren't
