@@ -88,12 +88,11 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 
 
 ===Action items ===
-* JULEE will work on getting a burndown together
-* Julee - Setup Analytics project at project.webplatform.org
-* chrismills, make google spreadsheet just show p0-p2, css properties
+* JULEE will work on getting a burndown together [DONE]
+* Julee - Setup Analytics project at project.webplatform.org [DONE]
 * Eliot: Follow up on getting documentation into Editing Guidelines for using codelet at DocSprints to do code examples
-* Julee to add agenda item for next week: Topic vs. Topic Clusters
-* ACTION: Julee to add agenda item for next week: Getting SME to review content
+* Julee to add agenda item for next week: Topic vs. Topic Clusters [DONE]
+* Julee to add agenda item for next week: Getting SME to review content [DONE]
 
 ==Agenda 2013-02-15==
 
