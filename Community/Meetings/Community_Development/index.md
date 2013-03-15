@@ -16,6 +16,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 ==Next Meeting==
 
+* Establish an irregular meeting time (lack of agenda cancels)
 * Doc Sprint - San Francisco, April 3
 ** CSS Properties project
 ** Getting Started user experience design and usability
