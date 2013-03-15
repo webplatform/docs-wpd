@@ -21,7 +21,8 @@ Doc Sprint projects:
 
 ===Recognition & Rewards===
 
-* Badges? Do we need steenking badges?
+* Badges?
+* Points?
 * By-lines for initial contributors
 * Recognition for major contributors
 
