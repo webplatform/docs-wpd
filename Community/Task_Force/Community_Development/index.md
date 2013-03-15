@@ -25,10 +25,11 @@ Doc Sprint projects:
 * By-lines for initial contributors
 * Recognition for major contributors
 
+===Contributor surveys and usability studies===
+
+See [[WPD:Community/Survey]]
+
 ===Community pages===
 
 * This
-
-===Contributor surveys and usability studies===
-
-See [[WPD:Community/Surveys]]
+* Navigation
