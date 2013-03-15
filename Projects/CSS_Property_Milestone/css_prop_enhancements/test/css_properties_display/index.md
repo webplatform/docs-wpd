@@ -1,6 +1,7 @@
 {{Page_Title|display}}
 {{Flags
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -403,47 +404,47 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=grid
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=10
+|Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=inline-grid
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=10
+|Opera_supported=No
 |Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
-|Safari_supported=Unknown
+|Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
@@ -484,11 +485,11 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Browser=Firefox
 |Note=Supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer 
+|Browser=Internet Explorer
 |Version=7 and earlier
 |Note=Does not support inline-block and table display.
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer 
+|Browser=Internet Explorer
 |Version=7 and earlier
 |Note=Only supports the display value on elements with the display set to inline.
 }}{{Compatibility Notes Row
