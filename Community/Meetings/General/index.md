@@ -46,7 +46,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** Plan next Doc Sprint: April 3, 2013 in San Francisco at the Google office.
 * Analytics task force
 ** Getting together in the next week
-* Content questions:
+* Content-complete questions:
 ** How can we get a seal of approval from the community? Can SME review content?
 ** What is the criteria for calling something complete?
 ** What is the announcement plan to promote completed content?
