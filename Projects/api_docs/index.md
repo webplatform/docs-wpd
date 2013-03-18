@@ -136,12 +136,12 @@ The following table summarizes the current state of the extant API documentation
 | 22
 | [[apis/battery|battery]]
 | [[User:Dgash|Dave Gash]]
-| In progress
+| Not started
 |-
 | 22
-| [[apis/webgl|webgl]]
+| [[apis/canvas|canvas] WebGL
 | [[User:Dgash|Dave Gash]]
-| In progress
+| Not started (spec: [https://www.khronos.org/registry/webgl/specs/1.0/ WebGL])
 |}
 
 ==DOM content==
