@@ -24,11 +24,20 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Site architecture (especially the DOM apis)
 ** Dashboard
 ** Other items?
-* University outreach
-** Doc Sprints
-** Career fairs
+** Remote participation (IRC luv)
+* Encouraging new webdevs to contribute
+** University outreach
+*** Doc Sprints
+*** Career fairs
+** "Help us help people like you"
 * Recognition & Rewards
 ** Badges
 ** Points
 ** By-lines
-** Major Contributor (All-stars page)
+** Major Contributor 
+*** All-stars page
+*** Blog profiles/interviews 
+* Surfacing community activity on front page
+** Link to Getting Started on www page
+** Latest changes
+** Latest discussions
