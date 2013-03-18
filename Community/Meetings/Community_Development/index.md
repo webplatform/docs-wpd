@@ -14,6 +14,9 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 '''IRC Channel:''' webplatform-site
 
+[irc://irc.freenode.net/webplatform-site irc]
+[http://webchat.freenode.net/?channels=#webplatform-site webchat]
+
 ==Thursday, March 21, 2013 at 11 a.m. PDST, 6 p.m. GMT==
 
 * Establish an irregular meeting time (lack of agenda cancels)
