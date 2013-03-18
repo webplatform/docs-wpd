@@ -141,7 +141,7 @@ The following table summarizes the current state of the extant API documentation
 | 22
 | [[apis/canvas|canvas]] WebGL
 | [[User:Dgash|Dave Gash]]
-| Not started ([https://www.khronos.org/registry/webgl/specs/1.0/WebGL|spec])
+| Not started [https://www.khronos.org/registry/webgl/specs/1.0/WebGL|spec]
 |}
 
 ==DOM content==
