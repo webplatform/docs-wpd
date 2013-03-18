@@ -14,7 +14,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 '''IRC Channel:''' webplatform-site
 
-==Next Meeting==
+==Tuesday, March 19, 2013 at 11 a.m. PDST, 6 p.m. GMT==
 
 * Establish an irregular meeting time (lack of agenda cancels)
 * Doc Sprint - San Francisco, April 3
