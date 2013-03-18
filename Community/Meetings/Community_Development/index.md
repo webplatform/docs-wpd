@@ -13,7 +13,6 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 '''VOIP:'''  sip:zakim@w3.org
 
 '''IRC Channel:''' webplatform-site
-
 [irc://irc.freenode.net/webplatform-site irc]
 [http://webchat.freenode.net/?channels=#webplatform-site webchat]
 
