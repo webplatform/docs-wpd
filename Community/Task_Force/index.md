@@ -5,3 +5,7 @@ Task Forces are small groups of community members dedicated to specific task are
 * [[WPD:Community/Task_Force/Community|Community Development Task Force]]
 * [[WPD:Community/Task_Force/Analytics|Analytics Task Force]]
 * [[WPD:Community/Task_Force/Template_Corps|Template Corps]]
+
+<subpages />
+
+See also the [[WPD:Proposals|Proposals]] page for project-specific documentation.
