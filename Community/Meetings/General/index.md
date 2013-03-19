@@ -53,6 +53,180 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===Discussion===
+
+====TOPIC: CSS Properties====
+
+ACTION: * everyone:
+
+** if you haven't been editing pages, can you volunteer to do a CSS property? that will get you used to editing the wiki and experiencing what our users are experiencing?
+** also try to recruit one or two people to do some property pages.
+** and if you could help me with the review process. If there are certain pages that should be reviewed by an expert, call them out to me.
+** and if you have ideas of experts who would be good reviewers, let me know--we need a significant number of them before we can claim that the docs are good
+** Use the new "needs review" tag to tag articles that need review
+
+ACTION: shepazu to reach out to public CSS WG list and ask for experts to review CSS pages
+
+For the beginning, the webkit team will likely just need a stable URL scheme and that's it, so they can generate lists
+
+Eliot said that, unfortunately, someone who was going to join the project won't be able to join due to personal reasons. looking for someone to take his place, but no great options at the moment
+
+====TOPIC: Topic vs Topic Clusters====
+scottrowe_ did docs on that. more usable and better-accessed during the getting started flow and editor's guide
+
+====TOPIC: Taxonomy of the site====
+We still want to generate a sitemap. Doug and I spoke about this over e-mail to the list. Doug is going to get Julee access so she can experiment with generating a sitemap.
+
+ACTION: Denis to follow up with Julee about sitemap generation [DONE]
+
+scottrowe_ has been looking into the DOM project in relation to the Shadow DOM documentation. He's trying to figure out how we should design our DOM API pages generally. He will propose the DOM project as next quarter's project, just like CSS was this quarter's project.
+
+Let's focus on CSS properties first.
+
+DOM organization & refactoring is a pre-beta criteria. Even if we could just settle how we're going to organize it, then we could have a solid beta presentation.
+
+Coming up with a set of beta guidelines soon. It will include the DOM is part of the architecture of the site is a pre-beta criteria
+
+Segment the site (E.g. css properties) getting to "beta" individually as their quality gets to the right level.
+
+But make it clear what's beta and what isn't. Add visual cues to each section so the solid stuff looks solid, and placeholders look partly there.
+
+And map out what ALL of the pages are and creating stubs. And that goes along with the sitemap that Julee's working on. And helps us not have to explain the new page flow to new contributors – they'll be pre-populated.
+
+This conference is full, no more parties can be added.
+
+ACTION: Shepazu to allocate more spaces in future calls
+
+====TOPIC: URLs for translation====
+
+Some concern over current URL naming schema. We have a page that writes up how to do this. It's not a great process, but it is possible. 
+
+We should do one or more BoF sessions at the html5devcon, to generate buzz, invite folks to grapple with how to handle i18n, catch folks who can't make the sprint, help pack the sprint, etc.
+
+We should address this now if we have volunteers who want to help out. 
+
+ACTION: Shepazu to get richard ishia [sp?] comment on what a better solution will be. He's the W3C l18n expert
+
+The localization guide isn;'t in the editor's guide.
+
+ACTION: shepazu to send localization guide to public lis
+ACTION: Julee to call it out to the l18n folks to make sure it makes sense
+
+We will table the long-term solution for now
+
+====TOPIC: Search====
+
+Why we can't fix this part with duplicate results? the default search is bad for mediawiki. We thought we replaced it with Lucene.
+With the advanced search you can already include WPD pages
+
+ACTION: Denis and shepazu to talk about improving built-in search. (Did we replace default search with Lucene?) (Lea to shepazu: this might help: http://www.mediawiki.org/wiki/Extension:SphinxSearch)
+
+====TOPIC: Session bug status====
+Feedback from users: it's still happening.
+
+Denis talked to fastly guys two weeks ago. He said to change something in the config of servers. But it must not have worked.
+
+ACTION: Denis to continue debugging the session bug
+
+====TOPIC: Taskforces====
+
+Do we want to report status here, or just in project.webplatform.org?
+
+We can subscribe to updates from task forces via project.webplatform.org
+
+Also, cover highlights from the task teams in this weekly meeting.
+
+=====SUBTOPIC: Community development task force=====
+
+Not enough data from Feb 23rd DocSprint. Next DocSprint 4/3 around HTML5DevConf. They have on their conference webpage they have a signup for WPD. They have about 35 people signed up through EventBrite for conference website, and we have 70 or so on our site. 
+
+Sync community TF goals with project planning.
+
+ACTION: scottrowe_ to set up meeting about next doc sprint
+
+There are young CS students who are interested in getting involved in community.
+
+We are planning to have doc sprints on the east coast. One in Ohio this summer, and at least 2 doc sprints in NC (one in summer, one in fall) – NYC has been requested.
+
+=====SUBTOPIC: Analytics task force=====
+
+We're having our first meeting this week.
+
+====TOPIC: Content completeness====
+
+Now that we have project.webplatform.org, we'll build it into the workflow.
+
+Promotion: Blog posts for even small new additions are great, but for big milestones, we should have more press outreach
+
+ACTION: julee to follow up with garbee on how to do workflows and forms in BG
+
+We talked yesterday about figuring out fields and milestones. Garbee has promised to document things about BG and has committed to do some videos. We may want to set up another session for other people.
+
+====TOPIC: Any new or notable content to promote?====
+
+Adobe gave us some of Mike Sierra's times. He created several articles, one on transforms that's quite good. He's currently working on SVG
+I think that's notable and good to share. We've shared some of it and got a bunch of retweets. We should be more aggressive about tweeting out new batches of articles that we've created.
+
+Also, for the last 6 months we've benefited from the participation of Dave Gash, a contractor at Google, worked on API pages and CSS properties. There are a handful more to do, then we should put together a comm plan for that content.
+
+ACTION: shepazu to invite people to twitter account
+
+Remember it's good to get a quick LGTM from someone in IRC for spelling, links, etc.
+
+ACTION: peterlubbers to invite people to the Google+ admins
+
+Folks are putting bylines on articles. That's appropriate for primary authors. It's a nice incentive.
+
+perhaps we should have a clearer policy around author attribution or have a significant contributions page to highlight contributions? It's capture din MediaWiki, but not highlighted well.
+
+publicity workflow -- it should be easy to rain kudos on a team member when they earn it
+
+mozilla blog they have open badges 1.0 https://blog.mozilla.org/blog/2013/03/14/open_badges/
+
+
+ACTION: Julee to add comm plan as a topic for the community taskforce.
+
+====TOPIC: Kuma====
+
+Denis has been reviewing Kuma, made a local installation. So far, it's been easy to install. But he needs to figure out if it can be a good fit. Janet sent Denis some contacts, Kuma developers. They've been very helpful. This is background stuff, shouldn't affect any work going on. 
+
+===Actions===
+
+* everyone:
+
+** if you haven't been editing pages, can you volunteer to do a CSS property? that will get you used to editing the wiki and experiencing what our users are experiencing?
+** also try to recruit one or two people to do some property pages.
+** and if you could help me with the review process. If there are certain pages that should be reviewed by an expert, call them out to me.
+** and if you have ideas of experts who would be good reviewers, let me know--we need a significant number of them before we can claim that the docs are good
+** Use the new "needs review" tag to tag articles that need review
+* shepazu to reach out to public CSS WG list and ask for experts to review CSS pages
+
+* Denis to follow up with Julee about sitemap generation [DONE]
+
+* Shepazu to allocate more spaces in future community meeting calls
+
+* Shepazu to get richard ishia [sp?] comment on what a better solution will be. He's the W3C l18n expert
+
+
+* shepazu to send localization guide to public lis
+* Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.
+
+* Denis and shepazu to talk about improving built-in search. (Did we replace default search with Lucene?) (Lea to shepazu: this might help: http://www.mediawiki.org/wiki/Extension:SphinxSearch)
+
+* Denis to continue debugging the session bug
+
+
+* scottrowe_ to set up meeting about next doc sprint
+
+* julee to follow up with garbee on how to do workflows and forms in BG
+
+* shepazu to invite people to twitter account
+
+* peterlubbers to invite people to the Google+ admins
+
+* Julee to add comm plan as a topic for the community taskforce.
+
+
 ==Agenda 2013-03-08==
 
 Meeting adjourned for lack of a quorum.
