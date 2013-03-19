@@ -44,3 +44,5 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Link to Getting Started on www page
 ** Latest changes
 ** Latest discussions
+* Press kit
+* Comm plan
