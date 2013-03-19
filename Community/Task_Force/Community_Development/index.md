@@ -36,6 +36,9 @@ See [[WPD:Community/Survey]]
 * Navigation
 
 ===Doug May's brain dump===
+Points raised in this section need to be edited and incorporated into the above heading topics or have headings created for them.
+
+* Communications Plan -- Julee to add item (much already listed below falls under this, so the overarching topic has been inserted above)
 ** Our immediate opportunity to shape the conversation, and make major progress
 ** CSS Properties project
 *** Review/confront current status and definition of done
