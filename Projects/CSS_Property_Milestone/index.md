@@ -22,6 +22,9 @@ Documentation for all standards-track CSS properties is as comprehensive, correc
 ==Design enhancements==
 <subpages/>
 
+==Editing guide==
+[[WPD:CSS_property_guide|CSS property guide]]
+
 == Project Plan ==
 # Enumerate all CSS property articles to include in this milestone
 # Pick one representative property and make its documentation the ideal model of CSS reference documentation.
