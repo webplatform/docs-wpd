@@ -19,6 +19,9 @@ It's always hard to prioritize, because it implicitly means that some things wil
 
 Documentation for all standards-track CSS properties is as comprehensive, correct, and helpful as--or better than--the current best sources for CSS property documentation.
 
+==Design enhancements==
+<subpages/>
+
 == Project Plan ==
 # Enumerate all CSS property articles to include in this milestone
 # Pick one representative property and make its documentation the ideal model of CSS reference documentation.
