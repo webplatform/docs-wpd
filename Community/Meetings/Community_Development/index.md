@@ -19,5 +19,4 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ==Thursday, March 21, 2013 at 11 a.m. PDST, 6 p.m. GMT==
 
 * Establish an irregular meeting time (lack of agenda cancels)
-* Communications Plan -- Julee to add item (much already listed below falls under this, so the overarching topic has been inserted above)
 * Doc Sprint - San Francisco, April 3
