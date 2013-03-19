@@ -129,11 +129,6 @@ The following table summarizes the current state of the extant API documentation
 | In progress
 |-
 | 21
-| [[apis/gamepad|gamepad]]
-| [[User:Dgash|Dave Gash]]
-| In progress
-|-
-| 22
 | [[apis/battery|battery]]
 | [[User:Dgash|Dave Gash]]
 | Not started
