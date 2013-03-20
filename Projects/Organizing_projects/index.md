@@ -37,7 +37,7 @@ So, for example, we could have the following projects and/or components (these a
 * Master Project
 ** Content Quality
 *** Information Architecture
-** Infrastructure
+** Infrastructure Performance
 *** Project Management System (PRMG)
 *** Analytics
 *** Search
@@ -45,8 +45,7 @@ So, for example, we could have the following projects and/or components (these a
 ** Community Growth
 *** Blog
 * Deferred
-** Items to be address for the next milestone
-** Content
+** Content Quality
 ** Infrastructure Performance
 *** Skin
 *** Templates
