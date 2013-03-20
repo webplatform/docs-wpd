@@ -85,3 +85,6 @@ For the site to be beta complete, it should not have '''erroneous information'''
  
 ===Beta Means=== 
 * unflagging party (Julee)
+
+===See Also===
+* [[WPD:Beta_Requirements|Beta Requirements]] (out of date)
