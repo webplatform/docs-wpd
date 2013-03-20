@@ -13,15 +13,17 @@ We will a top-level view of the mission's progress. Users of project.webplatform
 * Master Project
 ** Content
 *** Information Architecture
-** Infrastructure
 *** Project Management System (PRMG)
 *** Analytics
 *** Search
-*** Skin
-*** Templates
 *** Comments Extension
 *** Compatibility Tables
 ** Community
 *** Blog
 * Deferred
 ** Items to be address for the next milestone
+** Content
+** Infrastructure
+*** Skin
+** Templates
+** Community
