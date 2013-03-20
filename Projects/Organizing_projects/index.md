@@ -17,7 +17,7 @@ Issues come up that may need to defer to the current milestones. These issues ne
 
 ===Project organization===
 
-The following organization of the projects on project.webplatform.org reflects the requirements and dependencies:
+The following organization of the projects on project.webplatform.org is one way to fulfill the requirements and dependencies above:
 
 * Top level view of activities
 ** Persistent goal 1
