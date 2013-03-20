@@ -12,8 +12,7 @@ We will a top-level view of the mission's progress. Users of project.webplatform
 
 * Master Project
 ** Content
-** Information Architecture
-
+*** Information Architecture
 ** Infrastructure
 *** Project Management System (PRMG)
 *** Analytics
@@ -22,9 +21,7 @@ We will a top-level view of the mission's progress. Users of project.webplatform
 *** Templates
 *** Comments Extension
 *** Compatibility Tables
-
 ** Community
 *** Blog
-
 * Deferred
 ** Items to be address for the next milestone
