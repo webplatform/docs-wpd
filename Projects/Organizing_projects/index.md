@@ -4,6 +4,9 @@ Our new [http://project.webplatform.org project] space should help us achieve ou
 
 This document proposes an project architecture to reflect these requirements.
 
+{{Note | This document is subject to change based on what we find out about The Bug Genie and what it can and cannot do. }}
+
+
 ===One mission: One master project===
 
 We will a top-level view of the mission's progress. Users of project.webplatform.org will be able to see a top-level status of the progress toward a milestone, and then drill down into functional areas to see the state of that area. 
