@@ -6,7 +6,7 @@ The goal is to get to '''Beta''' phase in a few months.
  
 '''Vision:''' The site must perform well, content reasonably good, search working
  
-All items need to be moved to Bug Genie. There will be a master project with child projects (sub-projects or components) for each activity. Each project  will itself have sub-projects, with delineated milestones (though particular items may move from one milestones to another). '''Julie will work with Garbee on this'''
+All items need to be moved to Bug Genie. There will be a master project with child projects (sub-projects or components) for each activity. Each project  will itself have sub-projects, with delineated milestones (though particular items may move from one milestones to another). '''Julee will work with Garbee on this'''
 
 Our Beta criteria will have 3 major areas of focus:
 * Infrastructure
