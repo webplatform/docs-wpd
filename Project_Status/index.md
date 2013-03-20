@@ -6,14 +6,12 @@ The goal is to get to '''Beta''' phase in a few months.
  
 '''Vision:''' The site must perform well, content reasonably good, search working
  
-All items need to be moved to Bug Genie
-* A master project with child projects hanging on it?
-** Julie to work w/ Garbee on this
-* Organization
+All items need to be moved to Bug Genie. There will be a master project with child projects (sub-projects or components) for each activity. Each project  will itself have sub-projects, with delineated milestones (though particular items may move from one milestones to another). '''Julie will work with Garbee on this'''
+
+Our Beta criteria will have 3 major areas of focus:
 * Infrastructure
-** Content
-** Community
-** Each with sub-domains (we can change milestones later)
+* Content
+* Community
  
 Sample Goals:
 * All tier 1 content is x% signed off
@@ -60,12 +58,7 @@ For the site to be beta complete, it should not have '''erroneous information'''
 * We need to call out content that needs review or is not beta complete
 * Needs to be easily identifiable as not meeting beta criteria
 * Methodology to be determined later
- 
-===Goals for Community===
-* Vote of confidence -- consensus (W3C style)
-* We have a certain number of active people or registered users
-* We have a certain met page views
- 
+  
 ====Content Items====
 * CSS properties content task
 * DOM reference
@@ -83,6 +76,11 @@ For the site to be beta complete, it should not have '''erroneous information'''
 * SVG
 * General web concepts
  
+===Goals for Community===
+* Vote of confidence -- consensus (W3C style)
+* We have a certain number of active people or registered users
+* We have a certain met page views
+
 ===Beta Means=== 
 * unflagging party (Julee)
 
