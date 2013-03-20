@@ -6,6 +6,7 @@ If you are making a new article for this area, please consider making it a sub-p
 * [[WPD:Wishlist|Site Wishlist]]
 * [[WPD:Logo|Guidelines on using the logo]]
 * [[WPD:Community|Community]]
+* [[WPD:Project_Status|Project Status]]
 * [[WPD:Policy|Policy]]
 * [[WPD:Style_Manual|Style Manual]]
 * [[WPD:Design|Design]]
