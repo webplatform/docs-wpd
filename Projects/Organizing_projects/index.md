@@ -42,7 +42,7 @@ So, for example, we could have the following projects and/or components (these a
 *** Analytics
 *** Search
 *** Compatibility Tables
-** Community
+** Community Growth
 *** Blog
 * Deferred
 ** Items to be address for the next milestone
