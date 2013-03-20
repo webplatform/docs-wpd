@@ -1,6 +1,6 @@
 ===Background===
 
-Our new [http://project.webplatform.org|project.webplatform.org] space should help us achieve our mission. The activities around this mission should broken down into [[WPD:Project_Status|milestones]], with all projects and tasks directed toward that milestone, or deferred until a future milestone.
+Our new [http://project.webplatform.org|project] space should help us achieve our mission. The activities around this mission should broken down into [[WPD:Project_Status|milestones]], with all projects and tasks directed toward that milestone, or deferred until a future milestone.
 
 This document proposes an project architecture to reflect these requirements.
 
