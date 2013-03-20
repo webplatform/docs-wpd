@@ -4,9 +4,9 @@ The goal is to get to '''Beta''' phase in a few months.
 
 ==What is Beta?==
  
-'''Vision:''' The site must perform well, content reasonably good, search working
+'''Vision:''' The site must perform well, contain reasonably good content (as we define reasonably good), with search working to our community's expectations.
  
-All items need to be moved to Bug Genie. There will be a master project with child projects (sub-projects or components) for each activity. Each project  will itself have sub-projects, with delineated milestones (though particular items may move from one milestones to another). '''Julee will work with Garbee on this'''
+All work items and criteria need to be moved to Bug Genie to "count". There will be a master project with child projects (sub-projects or components) for each activity. Each project  will itself have sub-projects, with delineated milestones (though particular items may move from one milestones to another). '''Julee will work with Garbee on this'''
 
 Our Beta criteria will have 3 major areas of focus:
 * Infrastructure
@@ -14,14 +14,18 @@ Our Beta criteria will have 3 major areas of focus:
 * Community
  
 Sample Goals:
-* All tier 1 content is x% signed off
+* All tier 1 content is ''x''% signed off
 ** We determine the following projects (or pages) are tier 1
-* What tutorials pages, too
-* Pick milestones by attacks of opportunity
-** CSS properties, say, is good
-** But we may pick other topics as well
-*** SVG for SEO gains, say
+***Project Foo
+***Project Bar
+***Conceptual pages a, b, and f of Project Baz
+* Tutorials pages will also be considered for required signoff
+* In addition to critical feature sets, we will also pick milestones by attacks of opportunity.
 * Our goals should play to our strategic needs (SEO, etc., as well as content completeness)
+** For example, CSS properties is good for general need
+** But we may pick other topics as well
+*** Including SVG may give the overall site SEO gains, as there are few existing centers of gravity.
+
  
 ==Beta Goals==
 ===Goals for Infrastructure===
