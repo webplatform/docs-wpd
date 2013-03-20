@@ -9,7 +9,7 @@ This document proposes a project organization to reflect these requirements.
 
 ===One mission: One master project===
 
-We will a top-level view of the mission's progress. Users of project.webplatform.org will be able to see a top-level status of the progress toward a milestone, and then drill down into functional areas to see the state of that area. 
+We will provide a top-level view of the mission's progress. Users of project.webplatform.org will be able to see a top-level status of the progress toward a milestone, and then drill down into functional areas to see the state of that area. 
 
 ===Except for what doesn't get done...===
 
