@@ -43,7 +43,7 @@ We want the site work as a normal reader or editor would expect it to.
 ===Goals for content===
 It should be '''beta complete'''
 * Can be defined by content project group
-* All of the functionality is listed: all reference articles identified, with stub articles for each
+* All of the functionality is listed: all reference articles identified, with stub articles and topic clusters for each
 * (May not all have full content)
 * API signature, parameter descriptions for every topic
 * The page exists on the site with the proper URL, according to our conventions
