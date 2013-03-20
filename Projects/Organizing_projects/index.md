@@ -20,17 +20,17 @@ Issues come up that may need to defer to the current milestones. These issues ne
 The following organization of the projects on project.webplatform.org reflects the requirements and dependencies:
 
 * Top level view of activities
-** Persistant goal 1
+** Persistent goal 1
 *** Project-or-activity-1
 *** Project-or-activity-n
-** Persistant goal 2
+** Persistent goal 2
 *** Project-or-activity-n
-** Persistant goal n
+** Persistent goal n
 *** Project-or-activity-n
 * Deferred activities
-** Persistant goal 1
-** Persistant goal 2
-** Persistant goal n
+** Persistent goal 1
+** Persistent goal 2
+** Persistent goal n
 
 So, for example, we could have the following projects and/or components (these are illustrative, not actual items):
 
