@@ -24,12 +24,13 @@ The following organization of the projects on project.webplatform.org reflects t
 *** Project-or-activity-1
 *** Project-or-activity-n
 ** Persistant goal 2
-** Persistant goal 3
+*** Project-or-activity-n
 ** Persistant goal n
+*** Project-or-activity-n
 * Deferred activities
 ** Persistant goal 1
 ** Persistant goal 2
-** Persistant goal 3
+** Persistant goal n
 
 So, for example, we could have the following projects and/or components (these are illustrative, not actual items):
 
