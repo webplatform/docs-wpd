@@ -27,6 +27,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Dealing with "issues". For each project, do we have:
 ** A lead and team members assigned? If not, do we have volunteers?
 ** Open issues assigned? If not, can we get a deadline for triaging all issues?
+* 404 page, and other errors. Seen ours? Want to volunteer to make it better?
 * Anyone want to share any status on any project?
 ** CSS Properties project
 *** Going to CSSConf in FL in May? Do we want to plan on promoting this new content then?
