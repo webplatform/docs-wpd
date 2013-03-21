@@ -18,6 +18,20 @@ Web Platform community meetings occur on Fridays, 17:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-03-22==
+
+* Roll call
+* Review of open action items
+* Review [[WPD:Project_Status]] and related [[WPD:Proposals/Organizing_projects]]
+* Dealing with "issues". For each project, do we have:
+** A lead and team members assigned? If not, do we have volunteers?
+** Open issues assigned? If not, can we get a deadline for doing so?
+* Anyone want to share any status on any project?
+** CSS Properties project
+*** Anyone going to CSSConf in FL in May? Do we want to plan on promoting this new content then?
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-03-15==
 
 * Roll call
