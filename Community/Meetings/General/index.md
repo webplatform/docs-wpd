@@ -28,7 +28,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Open issues assigned? If not, can we get a deadline for doing so?
 * Anyone want to share any status on any project?
 ** CSS Properties project
-*** Anyone going to CSSConf in FL in May? Do we want to plan on promoting this new content then?
+*** Going to CSSConf in FL in May? Do we want to plan on promoting this new content then?
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
