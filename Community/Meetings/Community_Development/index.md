@@ -21,3 +21,8 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ===Agenda===
 * Establish an irregular meeting time (lack of agenda cancels)
 * Doc Sprint - San Francisco, April 3
+** Dashboard?
+** Speakers?
+** Getting Started
+** CSS Properties
+** Site architecture, stubbing
