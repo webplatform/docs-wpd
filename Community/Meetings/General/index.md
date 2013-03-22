@@ -133,7 +133,7 @@ ACTION: Julee to update issue with URL that new links should point to. [DONE]
 
 ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about this. 
 
-ACTION: Julee to send out e-mail asking for owernship for each project area
+ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement.
 
 
 ==Agenda 2013-03-15==
