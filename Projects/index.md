@@ -1,5 +1,5 @@
 =Projects=
-The subpages here document the various larger-scale projects the community is working on. Both content and infrastructure projects are located here.  Very large-scale projects also have a project issue tracking page at [http://project.webplatform.org/ project.webplatform.org].
+The subpages here document the various larger-scale projects the community is working on. Both content and infrastructure projects are located here.  Very large-scale projects also have a project issue tracking page at [http://project.webplatform.org/ project.webplatform.org]. The [[WPD:Projects/Organizing_projects|Organizing projects]] page has more information about the development of these projects. 
 
 Also, the status of the larger project, Web Platform Docs, is described at [[WPD:Project_Status]].
 
