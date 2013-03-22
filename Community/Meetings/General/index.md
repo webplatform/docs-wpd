@@ -208,40 +208,17 @@ Denis has been reviewing Kuma, made a local installation. So far, it's been easy
 
 ===Actions===
 
-* everyone:
-
-** if you haven't been editing pages, can you volunteer to do a CSS property? that will get you used to editing the wiki and experiencing what our users are experiencing?
-** also try to recruit one or two people to do some property pages.
-** If there are certain pages that should be reviewed by an expert, call them out to me.
-** If you have ideas of experts who would be good reviewers, let Julee know--we need a significant number of them before we can claim that the docs are good
-** Use the new "needs review" tag to tag articles that need review
-
-* shepazu to reach out to public CSS WG list and ask for experts to review CSS pages
-
 * Denis to follow up with Julee about sitemap generation [DONE]
-
 * Shepazu to allocate more spaces in future community meeting calls
-
 * Shepazu to get richard ishia [sp?] comment on what a better solution will be. He's the W3C l18n expert
+* Denis and shepazu to talk about improving built-in search. [Denis is working on this.]
+* Denis to continue debugging the session bug [Denis is working on this.]
+* scottrowe_ to set up meeting about next doc sprint [DONE – this meeting ;-) ]
+* julee to follow up with garbee on how to do workflows and forms in BG [Garbee is working on this.]
+* shepazu to invite people to twitter account  [DONE]
+* peterlubbers to invite people to the Google+ admins  [DONE]
+* Julee to add comm plan as a topic for the community taskforce  [DONE]
 
-
-* shepazu to send localization guide to public lis
-* Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.
-
-* Denis and shepazu to talk about improving built-in search. (Did we replace default search with Lucene?) (Lea to shepazu: this might help: http://www.mediawiki.org/wiki/Extension:SphinxSearch)
-
-* Denis to continue debugging the session bug
-
-
-* scottrowe_ to set up meeting about next doc sprint
-
-* julee to follow up with garbee on how to do workflows and forms in BG
-
-* shepazu to invite people to twitter account
-
-* peterlubbers to invite people to the Google+ admins
-
-* Julee to add comm plan as a topic for the community taskforce.
 
 
 ==Agenda 2013-03-08==
