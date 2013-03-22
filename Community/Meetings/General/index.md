@@ -127,6 +127,8 @@ ACTION (CARRIED OVER): Julee to call it out to the l18n folks to make sure it ma
 
 ACTION: scottrowe, update the Proposals section to be Projects [DONE]
 
+ACTION: Julee to send out Beta Plan decision to public list [DONE]
+
 ACTION: Lea to implement content/issues/14
 
 ACTION: Julee to update issue with URL that new links should point to. [DONE]
