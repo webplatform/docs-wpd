@@ -209,8 +209,8 @@ Denis has been reviewing Kuma, made a local installation. So far, it's been easy
 ===Actions===
 
 * Denis to follow up with Julee about sitemap generation [DONE]
-* Shepazu to allocate more spaces in future community meeting calls
-* Shepazu to get richard ishia [sp?] comment on what a better solution will be. He's the W3C l18n expert
+* Shepazu to allocate more spaces in future community meeting calls [DONE]
+* Shepazu to get richard ishia [sp?] comment on what a better solution will be. He's the W3C l18n expert [DEFERRED]
 * Denis and shepazu to talk about improving built-in search. [Denis is working on this.]
 * Denis to continue debugging the session bug [Denis is working on this.]
 * scottrowe_ to set up meeting about next doc sprint [DONE – this meeting ;-) ]
