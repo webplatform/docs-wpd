@@ -87,29 +87,23 @@ Peter already has secured facilities and catering. It's at Google's offices in S
 
 ====TOPIC: Dom API====
 
-A quick huddle to talk about overall site organization and how we want to handle DOM API pages. 
-There are multiple ways to look at DOM.
-We want to entertain different viewpoints into the model, based on the way people experience it. We're not locked into a single hierarchy because this isn't a book.
-Only one URL structure, but maybe multiple views?
+A quick huddle to talk about overall site organization and how we want to handle DOM API pages. There are multiple ways to look at DOM. We want to entertain different viewpoints into the model, based on the way people experience it. We're not locked into a single hierarchy because this isn't a book. Only one URL structure, but maybe multiple views?
 
-ACTION: Content Task Force Owner [TBD] should set up a meeting to talk about this. 
+We may begin talk at Doc Sprint or Content project area lead will set a meeting to discuss.
 
-====TOPIC: Dealing with "issues".
+====TOPIC: Dealing with "issues"====
 A bunch of issues are sitting around. Let's get project owners and encourage triage and status on bugs, at the project level. Then these projects roll up in some way in summary.
 
 Minimally, we should get all issues in bug genie assigned (something that bugzilla requires).
-
-ACTION: Julee to send out e-mail asking for owernship of project area
 
 ====TOPIC: 404 page====
 
 Lea agreed to look into the UX for 404 pages. She will design and will request fine tuning of content. 
 http://docs.webplatform.org/wiki/WPD:Projects/ErrorPages
 
-
 ====TOPIC: Code styles====
 
-shepazu hid code markup styling because it were ugly, but leaverou restyled and brought back. She added Prism.js. Before the code examples had an indication of what language they were in, but the markup wasn't in the format prism expected. So, leaverou wrote some code to transform to the right format, so we now have nicely highlighted ones. It only works on samples with a language set.
+shepazu hid code markup styling because it were ugly, but leaverou restyled and brought back. She added Prism.js. Before, the code examples had an indication of what language they were in, but the markup wasn't in the format prism expected. So, leaverou wrote some code to transform to the right format, so we now have nicely highlighted ones! It only works on samples with a language set.
 
 ====TOPIC: Global navs====
 
@@ -136,6 +130,10 @@ ACTION: scottrowe, update the Proposals section to be Projects [DONE]
 ACTION: Lea to implement content/issues/14
 
 ACTION: Julee to update issue with URL that new links should point to. [DONE]
+
+ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about this. 
+
+ACTION: Julee to send out e-mail asking for owernship for each project area
 
 
 ==Agenda 2013-03-15==
