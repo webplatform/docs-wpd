@@ -124,11 +124,17 @@ ACTION (CARRIED OVER): EVERYONE:
 * and if you could help me with the review process. If there are certain pages that should be reviewed by an expert, call them out to me.
 * and if you have ideas of experts who would be good reviewers, let me know--we need a significant number of them before we can claim that the docs are good
 * Use the new "needs review" tag to tag articles that need review
+
 ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG
+
 ACTION (CARRIED OVER): shepazu to send localization guide to public list
+
 ACTION (CARRIED OVER): Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.
+
 ACTION: scottrowe, update the Proposals section to be Projects [DONE]
+
 ACTION: Lea to implement content/issues/14
+
 ACTION: Julee to update issue with URL that new links should point to. [DONE]
 
 
