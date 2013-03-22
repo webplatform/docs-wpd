@@ -34,6 +34,104 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===DISCUSSIONS===
+
+====TOPIC: CSS properties====
+
+We will have a CSS property guide (http://docs.webplatform.org/wiki/WPD:Proposals/CSS_Property_Milestone) for the upcoming doc sprint.
+
+The last docsprint was successful with that. There are about 160 left, and only one docsprint coming up. So we need contributors and reviewers. 
+
+====TOPIC: proposal vs. projects space====
+
+Scott wants only 1 area. Does not see a difference between the two. 
+
+====TOPIC: search====
+
+Denis needs to confirm, but we might install a new extension based on Google search (temporarily)
+
+====TOPIC: session bug====
+
+[http://project.webplatform.org/infrastructure/issues/1 Issue #1] was reopened
+[http://project.webplatform.org/infrastructure/issues/3 Issue #3, update error message] was closed
+[http://project.webplatform.org/infrastructure/issues/2 Issue #2, page not refreshing] is not to be confused with [http://project.webplatform.org/infrastructure/issues/1 Issue #1]
+
+
+Ryan Lane has identified this issue as an edit token issue. Excerpt from IRC of community mtg: 
+
+Ryan_Lane: the memcache configuration we're using now is the new style available in mediawiki since 1.18. It's what's used in production at wikimedia, and it uses the pecl memcache client, rather than mediawiki's home brewed in-php support. 
+
+Ryan_Lane: Are we still using the SSO plugin? And if so, do we still need it? It screws around with what's in memcache 
+
+patrickdsouza: if someone could look into the logs and check julee's logins you could try reproducing the bug. 
+
+julee: If user edits the page for a long time it is more likely to happen. 
+
+Ryan_Lane: Are we still using the SSO plugin? And if so, do we still need it? It screws around with what's in memcache. 
+
+Ryan_Lane: Are people actually logged out, or does it just say "a loss of session data" when trying to save an edit? 
+
+julee: I just got this error: "Oops! We seem to have a conflict. Please try saving again. If it still does not work after 2 or 3 attempts, try logging out and logging back in." I knew I was going to get that error because I had my page open in edit mode for so long 
+
+Ryan_Lane: that's not actually a session issue. That's an edit token issue. I'd need to see where the edit token is stored. I'd imagine memcache, but maybe not. I'm positive this could be fixed by ensuring logged in users always hit the same application server once they are logged in, but that's really just avoiding the real problem 
+
+====TOPIC: 4/3 Doc Sprint====
+
+Peter already has secured facilities and catering. It's at Google's offices in SFL:
+* very much like previous doc sprints
+* the big ticket item this time is CSS properties project, but other people should suggest other projects
+* Scott to run new people through a getting started observe whether the getting started pages/workflow is working for people. 4 or 5 people .
+* So many Doc Sprints in the Bay Area. We might really want to try to incorporate remote participation again.
+* It starts at 9, but you can come early. I'll be there by 8, 8:30.
+* We'll have schwag, a bunch of t-shirts
+
+====TOPIC: Dom API====
+
+A quick huddle to talk about overall site organization and how we want to handle DOM API pages. 
+There are multiple ways to look at DOM.
+We want to entertain different viewpoints into the model, based on the way people experience it. We're not locked into a single hierarchy because this isn't a book.
+Only one URL structure, but maybe multiple views?
+
+ACTION: Content Task Force Owner [TBD] should set up a meeting to talk about this. 
+
+====TOPIC: Dealing with "issues".
+A bunch of issues are sitting around. Let's get project owners and encourage triage and status on bugs, at the project level. Then these projects roll up in some way in summary.
+
+Minimally, we should get all issues in bug genie assigned (something that bugzilla requires).
+
+ACTION: Julee to send out e-mail asking for owernship of project area
+
+====TOPIC: 404 page====
+
+Lea agreed to look into the UX for 404 pages. She will design and will request fine tuning of content. 
+http://docs.webplatform.org/wiki/WPD:Projects/ErrorPages
+
+
+====TOPIC: Code styles====
+
+shepazu hid code markup styling because it were ugly, but leaverou restyled and brought back. She added Prism.js. Before the code examples had an indication of what language they were in, but the markup wasn't in the format prism expected. So, leaverou wrote some code to transform to the right format, so we now have nicely highlighted ones. It only works on samples with a language set.
+
+====TOPIC: Global navs====
+
+leaverou implemented the bottom global content navs! She is also willing to take up [http://project.webplatform.org/content/issues/14 Issue #14]: 
+
+===ACTION ITEMS===
+
+ACTION (CARRIED OVER): EVERYONE:
+
+* if you haven't been editing pages, can you volunteer to do a CSS property? that will get you used to editing the wiki and experiencing what our users are experiencing?
+* also try to recruit one or two people to do some property pages.
+* and if you could help me with the review process. If there are certain pages that should be reviewed by an expert, call them out to me.
+* and if you have ideas of experts who would be good reviewers, let me know--we need a significant number of them before we can claim that the docs are good
+* Use the new "needs review" tag to tag articles that need review
+ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG
+ACTION (CARRIED OVER): shepazu to send localization guide to public list
+ACTION (CARRIED OVER): Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.
+ACTION: scottrowe, update the Proposals section to be Projects [DONE]
+ACTION: Lea to implement content/issues/14
+ACTION: Julee to update issue with URL that new links should point to. [DONE]
+
+
 ==Agenda 2013-03-15==
 
 * Roll call
