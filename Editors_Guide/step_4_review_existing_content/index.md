@@ -1,5 +1,7 @@
 {{Page_Title|Step 4: Review existing content}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 4. Review existing content==
@@ -52,7 +54,6 @@ Here is the full list of high and low priority flags used in the wiki:
 * [[WPD:Flags/Content_Incomplete|Content_Incomplete]]
 * [[WPD:Flags/Content_Errors|Content_Errors]]
 * [[WPD:Flags/Content_Not_Neutral|Content_Not_Neutral]]
-* [[WPD:Flags/Content_Biased_Voice|Content_Biased_Voice]]
 * [[WPD:Flags/Content_Grammar_Spelling|Content_Grammar_Spelling]]
 * [[WPD:Flags/Content_Cleanup|Content_Cleanup]]
 * [[WPD:Flags/Content_Broken_Links|Content_Broken_Links]]
