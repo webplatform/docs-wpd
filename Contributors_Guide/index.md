@@ -78,6 +78,7 @@
 ==Step-by-step instructions==
 
 <subpages />
+:&nbsp;
 
 ==About Web Platform Docs==
 WebPlatform is a site dedicated to documenting and teaching people about open web standards, those technologies standardized by the W3C, IETF, and other standardization bodies, which are created as part of an open process to be free for anyone to use. This project is not controlled by any one company. If you think that a technology is missing from WebPlatform, please [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|start a discussion]] about it.
