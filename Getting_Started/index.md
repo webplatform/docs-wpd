@@ -17,7 +17,7 @@ The tasks are listed by degree of experience and knowledge required. As you move
 <div class="long-topic">
 	<div class="place-holder"></div>
 	<div class="inner" style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px'> 
-		<h3>Basic tasks for new-comers</h3>
+		<h3>Basic tasks for newcomers</h3>
 		<p>Start with basic tasks to get your feet wet and learn about the wiki and its workings.</p>
                 <h3 align='center'>[[#Basic_tasks|Go to basic tasks]]</h3>
 	</div>
