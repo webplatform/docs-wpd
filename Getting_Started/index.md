@@ -315,6 +315,7 @@ We run a number of long-term projects for improving the wiki infrastructure and 
 
 ==Template Corps==
 A small team of people with the requisite knowledge of SMW forms and templates is tasked with improving these for the wiki. See [[WPD:Community/Task_Force/Template_Corps|Template Corps]] for more information.
+:&nbsp;
 
 =References=
 
