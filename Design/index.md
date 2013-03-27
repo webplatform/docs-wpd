@@ -79,5 +79,28 @@ Site design considerations:
 | style="background: #21926c"|
 |}
 
+=== Website colors ===
+{|
+! Description
+! Hex
+! HSL
+! Preview
+|-
+| Page background
+| #f9f7f3
+| hsl(40, 29%, 96%)
+| style="background: #f9f7f3"|
+|-
+| Body background
+| #ece5d7
+| hsl(40, 34%, 88%)
+| style="background: #ece5d7"|
+|-
+| Body background
+| #3C3C3C
+| hsl(0, 0%, 24%)
+| style="background: #3C3C3C"|
+|}
+
 
 [[Category:Design]]
