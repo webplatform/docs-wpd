@@ -74,9 +74,14 @@ Site design considerations:
 | style="background: #263C81"|
 |-
 | Teal-orange joint (not in logo)
-| #21926c
-| hsl(160, 63%, 35%)
-| style="background: #21926c"|
+| #1f9374
+| hsl(164, 65%, 35%)
+| style="background: #1f9374"|
+|-
+| Orange-purple joint (not in logo)
+| #d75f1e
+| hsl(21, 75%, 48%)
+| style="background: #d75f1e"|
 |}
 
 === Website colors ===
