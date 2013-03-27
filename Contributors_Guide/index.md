@@ -6,7 +6,6 @@
       <div class="place-holder"></div>
       <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px; min-height:125px'>
         <h3>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]</h3>
-        <p>&nbsp;</p>
         <ul>
             <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
             <li>A verification link is emailed. If you don't see the message in your email inbox, check your spam folder.</li>
