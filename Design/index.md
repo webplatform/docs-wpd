@@ -28,5 +28,7 @@ Site design considerations:
 ==Icons==
 * [[WPD:Design/icons|icons]]
 
+== Colors ==
+
 
 [[Category:Design]]
