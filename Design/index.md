@@ -96,7 +96,7 @@ Site design considerations:
 | hsl(40, 34%, 88%)
 | style="background: #ece5d7"|
 |-
-| Body background
+| Text color
 | #3C3C3C
 | hsl(0, 0%, 24%)
 | style="background: #3C3C3C"|
