@@ -15,7 +15,7 @@
   
  <div class="long-topic"> 
      <div class="place-holder"></div>
-    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px'>
+    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px; min-height=25px'>
         <h3>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join #webplatform IRC]]</li>
