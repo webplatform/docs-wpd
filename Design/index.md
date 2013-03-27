@@ -30,5 +30,54 @@ Site design considerations:
 
 == Colors ==
 
+=== Logo colors ===
+
+{|
+! Description
+! Hex
+! HSL
+! Preview
+|-
+| Orange
+| #F89C20
+| hsl(34, 94%, 55%)
+| style="background: #F89C20"|
+|-
+| Red
+| #E54E26
+| hsl(13, 78%, 52%)
+| style="background: #E54E26"|
+|-
+| Purple
+| #694D9F
+| hsl(260, 35%, 46%)
+| style="background: #694D9F"|
+|-
+| Teal
+| #2EB3C4
+| hsl(187, 63%, 47%)
+| style="background: #2EB3C4"|
+|-
+| Orange-red joint
+| #D02E27
+| hsl(2, 69%, 48%)
+| style="background: #D02E27"|
+|-
+| Red-purple joint
+| #7F1333
+| hsl(342, 73%, 29%)
+| style="background: #7f1333"|
+|-
+| Purple-teal joint
+| #263C81
+| hsl(225, 54%, 33%)
+| style="background: #263C81"|
+|-
+| Teal-orange joint (not in logo)
+| #21926c
+| hsl(160, 63%, 35%)
+| style="background: #21926c"|
+|}
+
 
 [[Category:Design]]
