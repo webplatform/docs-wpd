@@ -50,7 +50,7 @@
  
  <div class="long-topic"> 
      <div class="place-holder"></div>
-    <div class="inner">
+    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px'>
         <h3>[[WPD:Editors_Guide/step_5_update_existing_content|Update existing content]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_5_update_existing_content#Become familiar with MediaWiki syntax conventions |Learn MediaWiki syntax]]</li>
@@ -62,7 +62,7 @@
 
  <div class="long-topic"> 
      <div class="place-holder"></div>
-    <div class="inner">
+    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 5px; border-radius:5px'>
         <h3>[[WPD:Editors_Guide/step_6_author_or_upload_new_content|Add new content]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine if your content is appropriate to add to this wiki|Confirm your content is right for the site]]</li>
