@@ -22,7 +22,7 @@ Site design considerations:
 * [[WPD:Design/Inspiration|Inspiration]]
 
 ==Logo==
-* [[WPD:Design/Logo Branding Guidelines|Logo Branding Guidelines]]
+* See the [http://www.webplatform.org/logo/ Web Platform logo page] for details on the logo and its usage, the logo color palette, and sample logo badges and an interactive logo builder.
 * [[File:Web-Platform-Style-Guide-05.03.2012.pdf]]
 
 ==Icons==
