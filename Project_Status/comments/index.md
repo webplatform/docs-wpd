@@ -1,4 +1,4 @@
-===Comments on the "Goals for content" section of the [[Project_Status]] page==+
+===Comments on the "Goals for content" section of the [[Project_Status]] page===
 
 It should be '''reasonably accurate''', with systems and standards being defined to establish it as a reliable and reusable reference for the community:
 * There must be a consensus definition of a '''reference-able''' level of quality, probably with a minimum of two positive SME reviews on top of accurate syntax and a working example, and infrastructure to facilitate the flows, reporting, and completion on all incremental work and relevant feedback, and visually reflect the exact status on all elements.
