@@ -1,31 +1,46 @@
 The compatibility tables on each reference page are meant to show how well each User Agent (desktop browser, mobile browser, authoring tool, etc.) supports that feature (also known as conformance). To be maximally help users, this information should be '''understandable''', '''data-driven''', '''accurate''', '''complete''', '''up-to-date''', '''detailed''', and '''comprehensive'''. 
 
+We plan to integrate data from multiple sources to provide up-to-date information on each feature of the Open Web Platform. This information will be displayed in what we call '''Compatibility Tables''', which show the support for a feature.
+
+See [http://schepers.cc/webplatform/Compatibility_Table.png compatibility table example].
+
 ==Automatic results==
 Currently, most sites that report compatibility information rely on humans to input and update the current status of a feature in a browser, often based on very limited tests. This information is often out-of-date, and not comprehensive across User Agent and platforms. In an environment when more users are using a wide variety of devices to access web pages and webapps, this is not as helpful to developers as it could be.
 
-Manual results are also subject to subjective opinions and even outright abuse in reporting compatibility; testing is not immune from marketing goals.
+This kind of information is best when collected directly from test data and displayed automatically, rather than entered manually by contributors, for several reasons. 
+
+Manual data can go out of date quickly, while automated data can be collected and updated regularly.
+
+Manual results are also subject to subjective opinions and even outright abuse in reporting compatibility; testing is not immune from marketing goals. Since this information can be subject to bias or different interpretations, it benefits from objective and fair criteria that is harder to game for PR purposes.
 
 As much as possible, compatibility data should be automatically generated based on objective and verifiable criteria, not manually edited. This means that it should be based on representative tests.
 
 ==Data sources==
-Given the requirement for data-driven, test-based compatibility results, we need to select appropriate sources for this information.
 
-===QuirksMode===
-QuirksMode, maintained by Peter-Paul Koch (PPK), has detailed and comprehensive test results for a variety of browsers, including mobile browsers.
+The sources for our compatibility tables must be data-driven, test-based, to ensure transparency and consistency. They must also be open, and available under a license compatible with WPD's license, CC-BY.
+
+Given these requirements, we need to select appropriate sources for this information.
 
 ===CanIUse===
-CanIUse.com, maintained by Alexis Deveria, has data on a broad number of features, and excellent reporting and ability to drill down into details. 
+[http://caniuse.com/ CanIUse.com], created and maintained by Alexis Deveria, has data on a broad number of features, and excellent reporting and ability to drill down into details, specifically on features that everyday developers need.
+
+This data already has a well-structured format that will serve as a great starting point. We may use code from [http://andismith.github.com/caniuse-widget/ Andi Smith's CanIUse widget].
+
+===QuirksMode===
+QuirksMode, created and maintained by Peter-Paul Koch (PPK), has detailed and comprehensive test results for a variety of browsers, including mobile browsers, and is mature with great historical and current data.
 
 ===W3C Tests===
 W3C working groups produce test suites and implementation reports associated with specific specifications.
 
 Using this as a data source has the advantage that it will be kept up to date by the standardization process itself, and will also help provide incentive to browser vendors and others to provide tests to the Working Groups, because the results will be highly visible; this also takes advantage of the fact that we are encouraging implementers to make their unit tests and build tests in a way that can be contributed to W3C.
 
+While W3C Test Suites are comprehensive for W3C specification features, they are currently not ideally suited for use in compatibility tables. This will shift over time.
+
 ===Test the Web Forward===
-This is a effort driven by Adobe and others to crowdsource the testing effort, to get developers directly involved in helping write tests. Their tests are meant to be made available through W3C's test suites.
+The [http://testthewebforward.org/ Test the Web Forward] events are a successful effort to help crowdsource testing. This is a effort driven by Adobe and others to get developers directly involved in helping write tests. The resulting tests are intended to be made available through W3C's test suites.
 
 ===Others===
-There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from these sources as they are identified.
+There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from other open, high-quality, test-based repositories. In the future, we may integrate efforts and features from projects like [http://www.browserscope.org/ Browserscope]. Let us know if you have other sources of data you'd like us to consider.
 
 ==Drilling down into data==
 Ideally, the depth of detail would allow developers to drill down from a high-level overview into individual criteria for conformance, including conformance on different devices and operating systems, combinations of the feature with other related features, and even access to the specific tests and their reported results.
@@ -57,4 +72,9 @@ Tests from all sources should have a single convention for reporting for '''pass
 ==API==
 To integrate the data, there should be an API that allows us to import the data from all of our sources regularly.
 
-To be useful to other projects, this API should also allow anyone to query our compatibility data; we can use this API ourselves for generating the compatibility tables on the reference pages of WebPlatform.org.
+To be useful to other projects, this API should also allow anyone to query our compatibility data. Like other aspects of WPD, we will use this API ourselves for generating the compatibility tables on the reference pages of WebPlatform.org.
+
+==Timeline==
+* '''Phase 1:''' integrate automated compatibility tables from CanIUse data ''(March–April 2013)''
+* '''Phase 2:''' normalize and integrate QuirksMode data ''(April–July 2013)''
+* '''Phase 3:''' normalize and integrate W3C Test data ''(August 2013 – March 2014)''
