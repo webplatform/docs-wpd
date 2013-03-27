@@ -58,9 +58,7 @@ It should be '''reasonably accurate''', with systems and standards being defined
 * There should be a mechanism for navigating the site.
 * At least 90% of all identified topics are validated to our standard of '''reference-able'''.
 
-Strategic and tactical suggestions:
-* These criteria can be applied to one major content area at a time. 
-* Prioritization of areas to complete should also account for community readiness to both engage in validation and to consume the API or use the site.
+These criteria can be applied to one major content area at a time. 
 
 For additional commentary on this section, see [[WPD:Project_Status/comments]]
 
@@ -72,7 +70,7 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 * CSS: tutorials
 * HTML references
 * HTML tutorials
- 
+
 ====Content items for later====
 * JavaScript reference pages
 * Accessibility material improvements
