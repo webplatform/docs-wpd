@@ -75,7 +75,6 @@ For the site to be beta complete, it should not have '''erroneous information'''
 ====Content items for later====
 * JavaScript reference pages
 * Accessibility material improvements
-* DOM reference pages
 * Beginners guide
 * SVG
 * General web concepts
