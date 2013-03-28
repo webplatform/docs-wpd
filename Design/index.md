@@ -105,6 +105,16 @@ Site design considerations:
 | #3C3C3C
 | hsl(0, 0%, 24%)
 | style="background: #3C3C3C"|
+|-
+| Link color
+| #256a84
+| hsl(196, 56%, 33%)
+| style="background: #256a84"|
+|-
+| Hover link color
+| #2dafbc
+| hsl(185, 61%, 46%)
+| style="background: #2dafbc"|
 |}
 
 
