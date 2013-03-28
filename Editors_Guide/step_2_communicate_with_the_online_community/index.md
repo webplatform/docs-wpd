@@ -12,7 +12,7 @@ The WebPlatform.org online community uses IRC extensively.
 *** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
 *** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
-* [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions] or [[irc_clients|use an irc client]]
+* [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions] or [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients|use an irc client]]
 
 ==Join the public-webplatform@w3.org mailing list==
 * We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
