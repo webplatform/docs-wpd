@@ -12,13 +12,7 @@ The WebPlatform.org online community uses IRC extensively.
 *** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
 *** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
-* [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions].
-* You can also download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
-** [http://www.mirc.com mIRC] (Windows)
-** [http://xchat.org/ Xchat] (Windows and Linux)
-** [http://colloquy.info/downloads.html Colloquy] (Mac)
-** [http://limechat.net/mac/ LimeChat] (Mac)
-** [http://pidgin.im/  Pidgin] (Mac)
+* [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions] or [[irc_clients|use an irc client]]
 
 ==Join the public-webplatform@w3.org mailing list==
 * We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
@@ -33,8 +27,6 @@ To file a bug, log into the project space [http://project.webplatform.org projec
 
 ==Ask questions or help others in the forum==
 * Log into the [http://talk.webplatform.org/forums/ WebPlatform forum].
-
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
