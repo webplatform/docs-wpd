@@ -67,7 +67,7 @@
 | [http://dabblet.com/ Dabblet]
 | [http://code.webplatform.org/ code.webplatform.org/]
 | 15.185.109.17
-| no
+| yes
 |-
 | Learning Management System
 | [http://moodle.org/ Moodle]
