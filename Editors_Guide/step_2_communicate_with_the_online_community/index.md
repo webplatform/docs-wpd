@@ -23,9 +23,6 @@ The WebPlatform.org online community uses IRC extensively.
 ==Join the public-webplatform@w3.org mailing list==
 * We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
 
-==Ask questions or help others in the forum==
-* Log into the [http://talk.webplatform.org/forums/ WebPlatform forum].
-
 ==Access the bug-tracking system==
 
 We've just installed a new issues tracking system at [http://project.webplatform.org project.webplatform.org].
@@ -33,6 +30,11 @@ We've just installed a new issues tracking system at [http://project.webplatform
 {{Note|Be sure to search for your issue before entering any new bugs.}}
 
 To file a bug, log into the project space [http://project.webplatform.org project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
+
+==Ask questions or help others in the forum==
+* Log into the [http://talk.webplatform.org/forums/ WebPlatform forum].
+
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
