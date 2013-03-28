@@ -27,9 +27,12 @@ The WebPlatform.org online community uses IRC extensively.
 * Log into the [http://talk.webplatform.org/forums/ WebPlatform forum].
 
 ==Access the bug-tracking system==
+
+We've just installed a new issues tracking system at [http://project.webplatform.org project.webplatform.org].
+
 {{Note|Be sure to search for your issue before entering any new bugs.}}
 
-Log into the project space [http://project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
+To file a bug, log into the project space [http://project.webplatform.org project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
