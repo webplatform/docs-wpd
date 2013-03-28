@@ -3,18 +3,19 @@
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Join the conversation on the IRC channel==
-* The WebPlatform.org online community uses IRC extensively. [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions].
-* Or download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
+The WebPlatform.org online community uses IRC extensively. [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions].
+* Connect to the WebPlatform channel with an IRC client using these settings
+** Server: Freenode (irc.freenode.net)
+** Channel: #webplatform
+*** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
+*** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
+
+* You can also download and install an IRC client that enables you to chat in the #webplatform channel. Here are some reliable IRC clients you can download:
 ** [http://www.mirc.com mIRC] (Windows)
 ** [http://xchat.org/ Xchat] (Windows and Linux)
 ** [http://colloquy.info/downloads.html Colloquy] (Mac)
 ** [http://limechat.net/mac/ LimeChat] (Mac)
 ** [http://pidgin.im/  Pidgin] (Mac)
-===Connect to the WebPlatform channel with an IRC client using these settings===
-* Server: Freenode (irc.freenode.net)
-* Channel: #webplatform
-** If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
-** Log in to the IRC channel during scheduled [[WPD:Content_Meetings| meetings]] or anytime you want to share ideas or ask questions. 
 
 ==Join the public-webplatform@w3.org mailing list==
 * We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
