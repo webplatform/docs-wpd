@@ -60,23 +60,8 @@ The WebPlatform.org online community uses IRC extensively.
 
 ==Follow these steps to file bugs==
 
-# Log into the W3C's [http://www.w3.org/Bugs/ Bugzilla bug tracking system].
-# [https://www.w3.org/Bugs/Public/query.cgi?product=webplatform.org Search the bugbase] before entering any new bugs, to make sure it hasn't been filed already. 
-# Visit the [https://www.w3.org/Bugs/Public/enter_bug.cgi Enter Bug] page.
-# Choose the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org webplatform.org] link.
-# There are many options; the most important fields to fill in are:
-#* '''Summary''': Enter a descriptive but short summary.
-#* '''Description''': Enter a more detailed description that specifies the issue. Include steps needed to reproduce the bug, in a numbered list. Describe  the expected/desired behavior and the actual behavior you encountered.
-#* '''Component''': Select the component that corresponds to the bug. You can choose:
-#** '''Comment Extension''' — if the problem relates specifically to the comments extension used to add comments to a section of a page.
-#** '''Content''' — if the problem relates to the content of a set of pages, rather than the appearance and implementation of pages.
-#** '''Default''' — choose this if you are not sure which component applies to your bug.
-#** '''Info Architecture''' — if the problem is specific to the organization of the pages on the site.
-#** '''Infrastructure''' — if the problem relates to how the wiki site is implemented, including database bugs and JavaScript bugs.
-#** '''Skin''' — if the problem relates to the visual design (the look and feel of the site).
-When you are finished, press the '''Submit bug''' button at the bottom of the page.
+Log into the project space [http://project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
 
-You will receive notifications via e-mail when the status of your bug changes or whenever comments are added.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
