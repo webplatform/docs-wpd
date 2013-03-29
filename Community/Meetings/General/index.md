@@ -29,7 +29,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Work out how the dev/qa/launch/communication cycle will go.
 ** Triage bugs.
 * Anyone want to share any status on any project?
-* Lea updated www.* with new global nav, can we get docs.* updated?
+** Lea updated www.* with new global nav, can we get docs.* updated?
 ** CSS Properties project
 *** Sending out [http://lists.w3.org/Archives/Public/public-webplatform/2013Mar/0308.html emails] to Doc Sprint registrants to ask them to re-try getting started. Anticipating some will participate.
 *** Any one else want to take on a few?
