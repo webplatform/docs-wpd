@@ -18,6 +18,24 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-03-29==
+
+* Roll call
+* Review of open action items
+* Status on project.*?
+* Program management meetings will be set up to:
+** Derive a final list of deliverables.
+** Get a schedule.
+** Work out how the dev/qa/launch/communication cycle will go.
+** Triage bugs.
+* Anyone want to share any status on any project?
+* Lea updated www.* with new global nav, can we get docs.* updated?
+** CSS Properties project
+*** Sending out [http://lists.w3.org/Archives/Public/public-webplatform/2013Mar/0308.html emails] to Doc Sprint registrants to ask them to re-try getting started. Anticipating some will participate.
+*** Any one else want to take on a few?
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-03-22==
 
 * Roll call
