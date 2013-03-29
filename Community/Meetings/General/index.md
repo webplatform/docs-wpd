@@ -28,6 +28,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Get a schedule.
 ** Work out how the dev/qa/launch/communication cycle will go.
 ** Triage bugs.
+* Please respond to [http://lists.w3.org/Archives/Public/public-webplatform/2013Mar/0315.html email] re: IRC hours and 
 * Anyone want to share any status on any project?
 ** Lea updated www.* with new global nav, can we get docs.* updated?
 ** CSS Properties project
