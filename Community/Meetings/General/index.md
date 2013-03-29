@@ -152,10 +152,9 @@ ACTION: Lea to implement content/issues/14
 
 ACTION: Julee to update issue with URL that new links should point to. [DONE]
 
-ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about this. 
+ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages. 
 
-ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement.
-
+ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement. [STATUS: Decided to defer this until we have the right project buckets on project.*, or some interest at the program management meeting that we're setting up.]
 
 ==Agenda 2013-03-15==
 
