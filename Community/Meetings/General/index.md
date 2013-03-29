@@ -35,6 +35,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** Any one else want to take on a few?
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
+* Julee taking a personal day next Friday. Someone willing to run this meeting?
 
 ==Agenda 2013-03-22==
 
