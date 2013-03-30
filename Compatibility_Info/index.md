@@ -75,6 +75,6 @@ To integrate the data, there should be an API that allows us to import the data 
 To be useful to other projects, this API should also allow anyone to query our compatibility data. Like other aspects of WPD, we will use this API ourselves for generating the compatibility tables on the reference pages of WebPlatform.org.
 
 ==Timeline==
-* '''Phase 1:''' integrate automated compatibility tables from CanIUse data ''(March–April 2013)''
+* '''[[WPD:Compatibility_Info/Phase_1|Phase 1]]:''' integrate automated compatibility tables from CanIUse data ''(March–April 2013)''
 * '''Phase 2:''' normalize and integrate QuirksMode data ''(April–July 2013)''
 * '''Phase 3:''' normalize and integrate W3C Test data ''(August 2013 – March 2014)''
