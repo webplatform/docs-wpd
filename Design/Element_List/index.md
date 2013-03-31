@@ -1,6 +1,6 @@
 This is a checklist of different visual design aspects ("elements") of a page on the site, including structural features, tables, navigation, controls, and so on.
 
-This table includes early mockups ([[Design/Style_Tiles#Style_1|Style Tile 01]], [[Design/Style_Tiles#Style_2|Style Tile 02]], [[Design/Style_Tiles#Style_3|Style Tile 03]]), as well as the final page design ([[Design/Mock-Up_Stage_2|Style Tile Revised]]).
+This table includes early mockups ([[WPD:Design/Style_Tiles#Style_1|Style Tile 01]], [[WPD:Design/Style_Tiles#Style_2|Style Tile 02]], [[WPD:Design/Style_Tiles#Style_3|Style Tile 03]]), as well as the final page design ([[WPD:Design/Mock-Up_Stage_2|Style Tile Revised]]).
 
 ==Other Formats==
 * [[File:Elements_and_Structure.pdf]]
