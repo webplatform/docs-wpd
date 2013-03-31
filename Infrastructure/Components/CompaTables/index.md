@@ -1,6 +1,6 @@
 Cobbled together from [http://www.mediawiki.org/wiki/Manual:Tag_extensions Manual:Tag_extensions ]:
 
-<syntaxhighlight>
+<syntaxhighlight lang="php">
  <?php
 /**
  * CompaTables - this extension adds a browser compatability table to articles based on arguments
