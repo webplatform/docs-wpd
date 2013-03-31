@@ -36,6 +36,8 @@ The manual data has a finer degree of granularity for some features, including d
 ===Result Details and Consistency===
 The manual data is missing detailed information on when a given browser first started supporting a particular feature, indicating only '''“Supported”''' in some fields, while the CanIUse data more consistently reports the version.
 
+There are discrepancies between reported results in the manual data and the CanIUse data; these will need to be researched and accurate, test-driven results should be used.
+ 
 ===Prefixes and Polyfills===
 The CanIUse data has information on the following states of support:
 * Supported
@@ -47,12 +49,15 @@ The CanIUse data has information on the following states of support:
 
 The manual data also includes this information, but inconsistently.
 
+===Classifications and Naming Conventions===
+The CanIUse data has its own set of idiosyncratic classifications and naming conventions for features. These are intuitive and valid taxonomies, but unifying based on a systematic convention may improve interoperability with other data sets.
+
 ===Notes===
 Both the manual and CanIUse data supply extra notes about support, but each has different information.
 
 ==Next Steps==
 Next steps for phase 1 are:
 * add data to fill in features missing from CanIUse, with test coverage where possible
-* improve the reporting of partial support, prefixes, and polyfills based on CanIUse data
+* <strike>improve the reporting of partial support, prefixes, and polyfills based on CanIUse data</strike>
 * categorize and align data targets for optimal coverage
 * improve table style, possibly with icons
