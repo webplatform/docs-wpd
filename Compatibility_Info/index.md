@@ -40,7 +40,9 @@ While W3C Test Suites are comprehensive for W3C specification features, they are
 The [http://testthewebforward.org/ Test the Web Forward] events are a successful effort to help crowdsource testing. This is a effort driven by Adobe and others to get developers directly involved in helping write tests. The resulting tests are intended to be made available through W3C's test suites.
 
 ===Others===
-There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from other open, high-quality, test-based repositories. In the future, we may integrate efforts and features from projects like [http://www.browserscope.org/ Browserscope]. Let us know if you have other sources of data you'd like us to consider.
+There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from other open, high-quality, test-based repositories. In the future, we may also integrate efforts and features from projects like [http://www.browserscope.org/ Browserscope]. Let us know if you have other sources of data you'd like us to consider.
+
+For example, [http://mobilehtml5.org/ Mobile HTML5] might be a good source of data.
 
 ==Drilling down into data==
 Ideally, the depth of detail would allow developers to drill down from a high-level overview into individual criteria for conformance, including conformance on different devices and operating systems, combinations of the feature with other related features, and even access to the specific tests and their reported results.
