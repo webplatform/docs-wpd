@@ -21,7 +21,8 @@ The results are a table showing the compatibility tables for the feature indicat
 ==Data Comparison==
 There are substantial differences between the manual data currently available on many articles on WPD and the data available from CanIUse.
 
-See the existing table on the [[css/properties/border-radius#Compatibility|border-radius article]] ([http://schepers.cc/webplatform/compat-table_border-radius.png archived image]).
+See the existing table on the [[css/properties/border-radius#Compatibility|border-radius article]]:
+[[File:compat-table_border-radius.png]]
 
 ===Feature Coverage===
 The CanIUse data only focuses on newer features, not features that are consistently well-supported, so not every article has analogous information available.
