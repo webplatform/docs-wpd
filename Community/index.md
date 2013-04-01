@@ -1,3 +1,7 @@
+=Be part of the community!=
+
+Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. This page will have more information soon.
+
 * [[WPD:Community/Community Engagement Plan|Community Engagement Plan]]
 * [[WPD:Community/Community Events|Community Events]]
 * [[WPD:Community/Contributor Recognition|Contributor Recognition]]
