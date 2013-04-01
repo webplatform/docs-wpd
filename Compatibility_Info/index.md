@@ -2,7 +2,7 @@ The compatibility tables on each reference page are meant to show how well each 
 
 We plan to integrate data from multiple sources to provide up-to-date information on each feature of the Open Web Platform. This information will be displayed in what we call '''Compatibility Tables''', which show the support for a feature.
 
-See [http://schepers.cc/webplatform/Compatibility_Table.png compatibility table example].
+[[File:Compatibility_Table.png]]
 
 ==Automatic results==
 Currently, most sites that report compatibility information rely on humans to input and update the current status of a feature in a browser, often based on very limited tests. This information is often out-of-date, and not comprehensive across User Agent and platforms. In an environment when more users are using a wide variety of devices to access web pages and webapps, this is not as helpful to developers as it could be.
