@@ -5,6 +5,13 @@
 {{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 4. Review existing content==
+
+All of Web Platform Docs are in review at all times! Okay, seriously though, this means you should always have your editor's hat on when reading through these pages. When you see something that needs fixing, yup, fix it!
+
+If you're not sure whether to fix something or how, you can at least set a flag for the issue you find with the content. This page describes the various flags you can apply.
+
+For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [[WPD:Getting_Started#Review_content|Review content]].
+
 ===Add comments to sections===
 * Add a comment by hovering your mouse over the relevant section heading and clicking the Add comment text that appears. Posting comments on specific article sections helps others see exactly what needs to be fixed.
 [[Image:add_comment.png|alt=Screenshot of the Add Comment interface]]
