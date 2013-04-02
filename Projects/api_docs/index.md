@@ -22,7 +22,19 @@ With the launch of WPD in October 2012, we received a generous donation of API d
 
 The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms|Templates and forms]], below. Another (messy) representation of this content may be found on the [[apis|apis]] page.
 
-Where the current state is described as "Content complete" the API has been described with all of the pertinent aspects of the current standard specification for that API. It is organized as the API's component model, with objects, properties (attributes), methods, and events delineated accordingly. The API document may or may not include code examples, and it may or may not have been reviewed; see [[WPD:Projects/api_docs#On-going_work|On-going work]].
+Where the current state is described as "Content complete" the API has been described with all of the pertinent aspects of the current standard specification for that API. It is organized as the API's component model, with objects, properties (attributes), methods, and events delineated accordingly. Additionally, the following checks apply:
+
+* The API_Listing page has instructions for (or a link to the page with the key method or other instructions on) how to use the API.
+* The usage of the "key" method is documented and includes example code.
+* All objects, properties, methods, and events have pages in the appropriate hierarchy.
+* All pages have a summary description.
+* All relevant information from the spec is included in the documentation.
+* A link to the specification is included.
+* All pages are marked "Needs review".
+* All pages contain compatibility information if available, or are marked "Compatibility incomplete" if not.
+* All pages have topic flags of "API" and API type, e.g., "Web Audio".
+
+The API document may or may not include code examples, and it may or may not have been reviewed; see [[WPD:Projects/api_docs#On-going_work|On-going work]].
 
 {| class="sortable"
 ! Priority
