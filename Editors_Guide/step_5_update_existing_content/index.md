@@ -55,6 +55,8 @@ Use capitals sparingly. Capitalize only the first word (using sentence case). Ho
 ===Enter helpful article summaries===
 All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page. Sometimes you can summarize an article based on its extant content; otherwise you may need to do some research.  
 
+See [[WPD:Getting_Started#Fill_in_missing_summaries|Fill in missing summaries]] for a list of articles with the "Needs Summary" flag set.
+
 ===Update section headings to be descriptive and strong ===
 Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
 *Web standards rock 
