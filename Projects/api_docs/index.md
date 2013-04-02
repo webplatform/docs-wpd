@@ -22,6 +22,8 @@ With the launch of WPD in October 2012, we received a generous donation of API d
 
 The following table summarizes the current state of the extant API documentation on WPD. Note that all of the extant documentation will require changes associated with new templates and forms as discussed in [[#Templates_and_forms|Templates and forms]], below. Another (messy) representation of this content may be found on the [[apis|apis]] page.
 
+Where the current state is described as "Content complete" the API has been described with all of the pertinent aspects of the current standard specification for that API. It is organized as the API's component model, with objects, properties (attributes), methods, and events delineated accordingly. The API document may or may not include code examples, and it may or may not have been reviewed; see [[WPD:Projects/api_docs#On-going_work|On-going work]].
+
 {| class="sortable"
 ! Priority
 ! API Name
@@ -126,13 +128,41 @@ The following table summarizes the current state of the extant API documentation
 | 20
 | [[apis/gamepad|gamepad]]
 | [[User:Dgash|Dave Gash]]
-| In progress
+| Content complete
 |-
 | 21
 | [[apis/canvas|canvas]] WebGL
 | [[User:Scottrowe|Scott Rowe]]
 | Not started ([https://www.khronos.org/registry/webgl/specs/1.0/WebGL spec])
 |}
+
+==On-going work==
+
+Although the initial layout and development of these documents is complete, a great deal of work remains in developing code examples and reviewing the content. The following tables list the pages that need these pieces in order for the documentation to attain stardom. The lists are the results of queries for content with [[WPD:Editors_Guide/step_4_review_existing_content#How_to_add_a_flag|flags]] that identify needed improvements; specifically, "Examples Needed" and "Needs Review." 
+
+{{Configurable_Query
+|Title====Examples development===
+|Description=These pages need examples to thoroughly explain the documented API artifacts and their usage. When you've completed a page's example, please remove the "Needs Examples" flag.
+|Topics=API
+|Content_Quality_Flags=Examples Needed
+|Checked_Out=No
+|Limit=5
+|Show_Summary=Yes
+|Show_High_Level_Issues=No
+|Show_Content_Quality_Flags=No
+}}
+
+{{Configurable_Query
+|Title====Review content===
+|Description=These pages need to be reviewed by a community member familiar with the API and its usage in JavaScript. Where you find errors, please correct them; when you're finished, please remove the "Needs Review" flag.
+|Topics=API
+|High_Level_Issues=Needs Review
+|Checked_Out=No
+|Limit=5
+|Show_Summary=Yes
+|Show_High_Level_Issues=No
+|Show_Content_Quality_Flags=No
+}}
 
 ==DOM content==
 
@@ -215,32 +245,6 @@ Several issues with the current design and implementation of the templates and f
 * Constants (or enumerations) used as property and method values need to have forms and templates designed for them so that they may be reused between object properties and methods. [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20628 Bug 20628]
 * For the Syntax section in properties and methods, it is not clear that the way the form enforces the syntax works in all cases. It may be overly specific. We need a tiger team to look at this more carefully to determine if there is an issue.
 * In the Event template it is not clear how the Overview Table gets populated. Looks like the Event template has not been completed. [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20629 Bug 20629]
-
-==Priorities and project management==
-
-This section describes the tasks and assignments needed to complete the work in this proposal. It will be developed further as the community comments on the proposal and contributors are assigned specific tasks.
-
-===Tasks===
-
-{| class="sortable"
-! Priority
-! Task
-! Description
-! Assigned to
-! State
-|-
-| 0
-| Obtain permissions to import articles from MDN
-| Begin contacting authors for permission
-| Scottrowe, Jswisher
-| Not started
-|-
-| 0
-| Assign template & form bugs
-| Some discussion and design work with the Template Corps is required.
-| Scottrowe
-| Not started
-|}
 
 ==Additional documents==
 
