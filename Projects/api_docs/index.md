@@ -222,27 +222,6 @@ Content identified here was originally considered part of the API project, but t
 | Tip of the Web Components iceberg; Scott is on the hook for this one.
 |}
 
-==New APIs==
-
-The following table lists APIs either in development that have not been documented and which will be important to developers in the near future.
-
-{| class="sortable"
-! Priority
-! API Name
-! Description
-! SMEs
-|-
-| 1
-| [https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html Quota Management]
-| Manage usage and availability of a user's local storage (appcache, file, indexeddb, websql).
-| Kinuko Yasuda, Google
-|-
-| 
-| 
-| 
-|
-|}
-
 ==Creating, updating, and importing content==
 
 Along with importing content from other sources, it is crucial that when you are working with existing content you check that content against the source specification. The document, [[WPD:Creating_API_pages]] has more information about editing API pages. 
