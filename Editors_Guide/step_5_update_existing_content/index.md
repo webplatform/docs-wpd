@@ -28,7 +28,7 @@ WebPlatform.org is intended to be a repository of high quality, reliable, and ac
 ===Ensure articles have descriptive article titles===
 After clicking the Edit button to access the editing interface, verify that there is a descriptive title in the Custom Page Title field. If not, enter a descriptive title that matches the content on the page. It is fine if the custom page title is different from the URL (it probably will be). 
 
-See [[wiki/WPD:Getting_Started#Improve_titles|Improve titles]] for a list of articles that have the "Undescriptive Title" flag set.
+See [[WPD:Getting_Started#Improve_titles|Improve titles]] for a list of articles that have the "Undescriptive Title" flag set.
 
 Article types should be consistently titled, each according to its content's primary information type. Pages should use a consistent titling scheme so that the author can accurately position the content in the information hierarchy and visitors can infer the content type from the custom title without having to read the entire page.
 
