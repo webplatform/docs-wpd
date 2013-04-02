@@ -10,7 +10,7 @@ All of Web Platform Docs are in review at all times! Okay, seriously though, thi
 
 If you're not sure whether to fix something or how, you can at least set a flag for the issue you find with the content. This page describes the various flags you can apply.
 
-For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [[WPD:Getting_Started#Review_content|Review content]].
+For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [[WPD:Getting_Started#Review_content|Review content]] in the [[WPD:Getting_Started|Getting Started guide]].
 
 ===Add comments to sections===
 * Add a comment by hovering your mouse over the relevant section heading and clicking the Add comment text that appears. Posting comments on specific article sections helps others see exactly what needs to be fixed.
