@@ -73,6 +73,10 @@ Here is the full list of high and low priority flags used in the wiki:
 ===Notify other editors about pages that require revisions===
 * Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the [mailto:public-webplatform@w3.org the public-webplatform@w3.org mailing list], or post messages in the [http://talk.webplatform.org/forums forum]. 
 See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Step 2 of the Editor's Guide]] for more details.
+
+==Check the topics and topic clusters==
+
+While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned to the content. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters]] for guidance.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
