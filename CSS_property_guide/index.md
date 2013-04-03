@@ -27,7 +27,7 @@ So the first step is to have a look at which properties you would like to work o
 
 ==Assigning you to work on your chosen properties==
 
-Once you have grabbed some properties to work on, let us know, so we can track who is working on what.
+Once you have grabbed some properties to work on, let us know, so we can track who is working on what:  Put your name into [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE the spreadsheet.]
 
 Then work through each property until you have completed your set. In this example I will do background-image — see my finished example at http://docs.webplatform.org/wiki/css/properties/background-image
 
