@@ -8,9 +8,9 @@ Below are the surveys and responses we've received.
 
 These surveys are designed to learn how to improve the doc sprints.
 
-====San Francisco, Feb. 23====
+====San Francisco, April 3, 2013====
 
-Take the [https://docs.google.com/forms/d/1BgL4exribU4JNnrDBdht3iVEfzHEUOYZ-QLVExTz_JI/viewform Survey]! Thanks!
+Take the [http://goo.gl/nI39U Survey]! Thanks!
 
 ====Berlin, Feb. 8 & 9====
 
