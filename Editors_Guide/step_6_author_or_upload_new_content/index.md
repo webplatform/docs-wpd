@@ -1,5 +1,7 @@
 {{Page_Title|Step 6: Author or upload new content}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This is Step 6 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
 ==Step 6. Author or upload new content==
@@ -77,7 +79,7 @@ Topics describe the article's content with keywords. Mark as many as apply ''use
 
 Use a topic to describe the article within the context of its template type (these are described in the [[WPD:New_Page]] page). That is, if the page is for an API object (which uses the API_Object template), and the article is about the CSS-Regions API, then the topic checkbox to check is "CSS-Regions." This allows you to specify the query, "<nowiki>[[Category:CSS-Regions]][[Category:API_Objects]]</nowiki>" in the API_Listing page that produces a summary table of all the API objects. This query says, "fetch me the pages of the CSS-Regions topic that are also API_Object pages." This means that for every API there must be a topic specific to that API.
 
-Notice that the query does not select for the more general Category:CSS. If there were other CSS-related Java APIs, let's say CSS-Overlay (this is fake), and if both the CSS-Regions and CSS-Overlay API_Listing pages queried for Category:CSS, all of the objects from both APIs would appear in each API's summary table. The way to prevent such duplication from happening is to create a discrete topic for all of the API_Object pages within one API_Listing.
+Notice that the query does not select for the more general Category:CSS. If there were other CSS-related JavaScript APIs, let's say CSS-Overlay (this is fake), and if both the CSS-Regions and CSS-Overlay API_Listing pages queried for Category:CSS, all of the objects from both APIs would appear in each API's summary table. The way to prevent such duplication from happening is to create a discrete topic for all of the API_Object pages within one API_Listing.
 
 See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information. See [[WPD:Topics]] for how to create new topics.
 
