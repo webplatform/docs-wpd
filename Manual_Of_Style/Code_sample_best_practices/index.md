@@ -34,16 +34,16 @@ Creating code snippets or developing full samples share many best practices:
 *Keep it easy to scan the code. 
 **Use consistent indenting and other formatting. WPD uses two spaces for each indentation. 
 **Ensure the sample flows logically from start to finish.
-*Keep the sample focused. If you find yourself using a lot of code branching, you’re probably trying to tackle too much.
+*Keep the sample focused. If you find yourself using a lot of code branching, you are probably trying to tackle too much.
 *Use common patterns from the computer science lexicon. For example, use the MVC pattern rather than mingling the modules.
 WPD uses some specific guidelines for HTML:
-*Use lowercase letters for element names
-*Place all attribute values in quotation marks
+*Use lowercase letters for element names.
+*Place all attribute values in quotation marks.
 *Replace empty attributes with values, such as <code>defer="defer"</code>
 *Use a valid DOCTYPE, preferably <code><!DOCTYPE html></code>
 *Avoid browser-sniffing. Test for feature presence instead.
 *Avoid inline styles. They make the code harder to read.
-WPD uses some specific guidelines for JavaScript
+WPD uses some specific guidelines for JavaScript:
 *Check for errors via exceptions. 
 *Remember your semi-colons.
 *Use the following pattern to create Singleton objects:
@@ -52,7 +52,7 @@ var privateVariable = "…";
   this.publicMethod = function()	{…};
   function privateMethod() {…};
 })();</pre>
-*Use JavaScript namespaces to isolate variables and functionality from the global namespace for anything beyond simple illustrations.  This makes it simpler to copy-paste sample code into other pages.
+*Use JavaScript namespaces to isolate variables and functionality from the global namespace for anything beyond simple illustrations. This makes it simpler to copy-paste sample code into other pages.
 *If every member in your namespace is public, use object-notation to create your namespace:
 <pre>var SampleNamespace = {
   "init" : function() {…},
