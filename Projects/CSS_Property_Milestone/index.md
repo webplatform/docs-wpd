@@ -6,7 +6,7 @@ Although we have a good amount of contributors, the actual quality of documentat
 Engineers on the WebKit Dev Tools team are looking to implement a feature where a user in dev tools can automatically be linked to more documentation about a given CSS property. Our goal is to have WPD be the source of that documentation. It will require a fair bit of work on our part.
 
 CSS properties is a great topic to focus on for our first milestone:
-* It is a relatively small number of articles (~80)
+* It is a relatively small number of articles (~160)
 * All of the articles will have very similar structure, making it easier to track progress.
 * We already have a solid foundation and just need to layer on more/better content
 * CSS property documentation is one of the most commonly used pieces of reference documentation (no citation; based on my personal habits and discussions with other developers)
