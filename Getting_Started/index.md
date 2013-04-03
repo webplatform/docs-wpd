@@ -218,6 +218,8 @@ The great thing about a wiki is that it's always under review. However, when an 
 
 Say it with code. Examples are by far the most important type of content we can produce, and every reference article should have a code example that describes how to use the feature. Presently we're concentrating on CSS properties and JavaScript APIs, so we've listed those types of articles which need examples foremost.
 
+See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]] for guidance.
+
 {{Configurable_Query
 |Title====CSS pages that need examples===
 |Description=Develop examples for CSS pages. Our topic types don't specify CSS ''properties'' per se, so look for the "css/properties" namespace identifier in the link to the article when concentrating on CSS properties pages.
