@@ -10,7 +10,7 @@ The vast majority of editors will only have to use the (relatively) easy-to-use 
 ===Editing pages===
 If you are editing a page that has already been created, the process is generally quite simple.
 
-First, sign in. The content is structured our content so that a number of editorial notes and action items are automatically hidden for logged-out users to avoid cluttering the interface. Logging in will enable you to see these editorial notes.
+First, sign in. A number of editorial notes and action items are automatically hidden for logged-out users to avoid cluttering the interface. Logging in will enable you to see these editorial notes.
 
 {{Note | This hiding of editorial notes for non-logged-in users is not yet implemented. Editorial notes show for both logged in and logged out users.}}
 
