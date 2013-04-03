@@ -121,7 +121,7 @@ Tasks in this category require little technical or subject-matter knowledge, the
 
 {{Configurable_Query
 |Title=Provide missing flags
-|Description=Edit the page and check the different '''High-level issues''' and '''Content flags''' at the top of an article. Flagging pages is critical to help other contributors find tasks to do. You can either start with pages already identified as needing flags, listed below, or simply start in the wiki somewhere, looking for pages that have issues but no flags.
+|Description=Edit the page and check the different '''High-level issues''' and '''Content flags''' at the top of an article. Flagging pages is critical to help other contributors find tasks to do. You can either start with pages already identified as needing flags, listed below, or simply start in the wiki somewhere, looking for pages that have issues but no flags. See [[WPD:Editors_Guide/step_4_review_existing_content#How_to_add_a_flag|Adding flags]] in the Editor's Guide.
 |High_Level_Issues=Needs Flags
 |Checked_Out=No
 |Limit=5
