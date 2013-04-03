@@ -46,17 +46,13 @@ function renderCompaTables($input, array $args) {
     // jSON URL which should be requested
     $json_url = 'http://docs.webplatform.org/compat/data.json';
      
-    // jSON String for request
-    $json_string = 'border-image';
-     
     // Initializing curl
     $ch = curl_init( $json_url );
      
     // Configuring curl options
     $options = array(
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => array('Content-type: application/json') ,
-        CURLOPT_POSTFIELDS => $json_string
+        CURLOPT_HTTPHEADER => array('Content-type: application/json')
     );
 
     // Setting curl options
@@ -71,9 +67,10 @@ function renderCompaTables($input, array $args) {
     // extracting data for feature
     $feature = $result['data'][ $args['feature'] ];
     $stats = $feature['stats'];
+    $format = $args['format'];
 
     // initialize information for both tables
-    $tables = array( 
+    $devices = array( 
         array(
             'title' => 'Desktop',
             'thead' => '<thead><tr><th>Feature</th><th>Chrome</th><th>Firefox</th><th>Internet Explorer</th><th>Opera</th><th>Safari</th></tr></thead>',
@@ -86,40 +83,44 @@ function renderCompaTables($input, array $args) {
         )
     );
 
-    $prefixes = array(
-        'chrome' => 'webkit',
-        'safari' => 'webkit',
-        'android' => 'webkit',
-        'and_chr' => 'webkit',
-        'ios_saf' => 'webkit',
-        'bb' => 'webkit',
-        'firefox' => 'moz',
-        'ie' => 'ms',
-        'ie_mob' => 'ms',
-        'firefox' => 'moz',
-        'and_ff' => 'moz',
-        'firefox' => 'moz',
-        'opera' => 'o',
-        'op_mob' => 'o',
-        'op_mini' => 'o'
-    );
+    $browserinfo = $result['agents'];
+
+
+    //////////////////////
+    // TEMPORARY!!!!
+    // hardcoded value not in dataset
+    //////////////////////
+    $browserinfo['ie_mob']['browser'] = 'IE Mobile';
+
+
+
+
 
     // format tables for desktops and mobiles
     $out = '';
-    $trace = 'Trace: ';
-    foreach ($tables as $table) {
-        $out .= '<h3>' . $table['title'] . '</h3>';
-        $out .= '<table class="compat-table">';
-        $out .= $table['thead'];
-        $out .= '<tbody><tr><td>Basic Support</td>';
+        // $trace = '1 Trace:';
+        // $trace .= '<p>'.implode(", ", $browserinfo );
 
-        $uas = $table['uas'];
-            $trace.='<p>' . implode(', ', $uas) . '</p>';
+    $allsupport = array();
 
+    $finalitem = end($devices[0]['uas']);
+    foreach ($devices as $device) {
+        if ('list' == $format ) {
+            $out .= '<dl class="compat-list">';
+            // if ('Mobile' == $device['title'] ) {
+            //     $out .= '<dd class=""><dt class="">Mobiles</dt><dd class="">';
+            // }
+        } else {
+            $out .= '<h3>' . $device['title'] . '</h3>';
+            $out .= '<table class="compat-table">';
+            $out .= $device['thead'];
+            $out .= '<tbody><tr><td>Basic Support</td>';
+        }
 
+        $uas = $device['uas'];
         foreach ($uas as $ua) {
             $support = 'unsupported';
-
+            $supportclass = 'Unsupported';
             $versions = $stats[ $ua ];
             if ($versions) {
                 $newvalue = '';
@@ -128,42 +129,80 @@ function renderCompaTables($input, array $args) {
                     if ($newvalue != $value) {
                         $newvalue = $value;
                         switch ($value) {
-                            case 'a':
-                                $supporthistory .= '<div>' . $v . ' <span class="partial-support">partial</span></div>';
-                                continue; 
-                            case 'a x':
-                                $supporthistory .= '<div>' . $v . ' <span class="partial-support">partial</span><span class="prefix ' . $prefixes[$ua] . '">-' . $prefixes[$ua] . '</span></div>';
-                                continue; 
-                            case 'y x':
-                                $supporthistory .= '<div>' . $v . ' <span class="prefix ' . $prefixes[$ua] . '">-' . $prefixes[$ua] . '</span></div>';
-                                continue; 
-                            case 'y':
-                                $supporthistory .= '<div>' . $v . '</div>';
-                                break;
-                            case 'p':
-                                $supporthistory .= '<div>' . $v . ' <i>unsupported, polyfill available</i></div>';
-                                continue; 
                             case 'u':
                                 $supporthistory .= '<div>' . $v . ' <i>?</i></div>';
+                                $supportclass = 'Unknown';
                                 continue; 
                             case 'u p':
                                 $supporthistory .= '<div>' . $v . ' <i>?, polyfill available</i></div>';
+                                $supportclass = 'Unknown';
                                 continue; 
+                            // case 'n':
+                            //     $supporthistory .= '<div>' . $v . ' <i>unsupported</i></div>';
+                            //     $supportclass = 'Unsupported';
+                            //     continue; 
+                            case 'p':
+                                $supporthistory .= '<div>' . $v . ' <i>unsupported, polyfill available</i></div>';
+                                $supportclass = 'Partial';
+                                continue; 
+                            case 'a':
+                                $supporthistory .= '<div>' . $v . ' <span class="partial-support">partial</span></div>';
+                                $supportclass = 'Partial';
+                                continue; 
+                            case 'a x':
+                                $supporthistory .= '<div>' . $v . ' <span class="partial-support">partial</span><span class="prefix ' . $browserinfo[$ua]['prefix'] . '">-' . $browserinfo[$ua]['prefix'] . '</span></div>';
+                                $supportclass = 'Partial';
+                                continue; 
+                            case 'y x':
+                                $supporthistory .= '<div>' . $v . ' <span class="prefix ' . $browserinfo[$ua]['prefix'] . '">-' . $browserinfo[$ua]['prefix'] . '</span></div>';
+                                $supportclass = 'Partial';
+                                continue; 
+                            case 'y':
+                                $supporthistory .= '<div>' . $v . '</div>';
+                                $supportclass = 'Supported';
+                                break;
                         }
                     }
                 }
                 $support = $supporthistory;
-                $newvalue = '';
+                // $newvalue = '';
             } else {
                 $support = '?';
+                $supportclass = 'Unknown';
             }
-            $out.='<td>' . $support . '</td>';
+
+            if ('list' == $format ) {
+                $out .= '<dt class="' . $supportclass . ' ' . $ua . '"><span>' . $browserinfo[$ua]['browser'] . '</span></dt><dd class="' . $supportclass . '">' . $supportclass . '</dd>';
+                $allsupport[] = $supportclass;
+            } else {
+                $out .= '<td>' . $support . '</td>';
+            }
         }
 
-        $out.='</tr></tbody></table>';
+        if ('list' == $format ) {
+            if ('Desktop' == $device['title'] && $finalitem == $ua ) {
+                $out .= '<dt class="MOBILE_SUPPORT mobiles"><span>Mobiles</span></dt><dd class="MOBILE_SUPPORT">MOBILE_SUPPORT';
+            } else {
+                $out .= '</dd></dl>';
+            }
+        } else {
+            $out .= '</tr></tbody></table>';
+        }
     }
-    // $out .= $trace;
 
+    // determine overall mobile support and replace placeholder
+    if ('list' == $format ) {
+        $mobilesupport  = 'Unknown';
+        if ( 1 == count(array_unique($allsupport)) ) {
+            $mobilesupport = $allsupport[0];
+        } elseif ( in_array('Supported', $allsupport) ) {
+            $mobilesupport  = 'Partial';
+        }
+
+        $out = preg_replace('/MOBILE_SUPPORT/', $mobilesupport, $out);
+    }
+
+    // $out .= '<p>' . $trace . '</p>';
     return $out;
 }            
 </syntaxhighlight>
