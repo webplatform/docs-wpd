@@ -1,8 +1,8 @@
-This document lists a small number of principles intended to guide the development and maintenance of the Web developer center. This is a living document that the community will develop over time. Because it expresses a small number of abstract guiding principles, it is expected to evolve slowly and only with the consensus of the community. The specific tactical details that describe how the community currently implement these ideals are covered in the [[WPD:Policy/Management|management]] document.
+This document lists a small number of principles intended to guide the development and maintenance of the Web developer center. This is a living document that the community will develop over time. Because it expresses a small number of abstract guiding principles, it is expected to evolve slowly and only with the consensus of the community. The specific tactical details that describe how the community currently implements these ideals are covered in the [[WPD:Policy/Management|management]] document.
 
 '''Note:''' This document draws from Wikipedia practices and the community is encouraged to continue to consider their best practices.
 
-==Three Pillars of the WebPlatform Site==
+== Three Pillars of the WebPlatform Site ==
 The web developer site is founded on three pillars:
 * '''[[#Pragmatism|Pragmatism]]:''' Provide pragmatic, comprehensive, and trustworthy content to empower web developers.
 * '''[[#Inclusion|Inclusion]]:''' Ensure the site is inclusive and accessible to all.
@@ -17,7 +17,7 @@ The web developer site is founded on three pillars:
 == Inclusion == 
 * Content will be available at no cost.
 * Content will be readable without requiring identifying information.
-* All people are invited to contribute content that is relevant to Web developers and designers in practice. Note however, that:
+* All people are invited to contribute content that is relevant to Web developers and designers in practice. Note, however, that:
 ** This does not imply that all content is suitable for the site, and controversial content flagged by the community will be removed at the consensus of the administrators; controversial content may include (but is not limited to) false claims, subjective claims on the relative merits of browsers, code samples that favor one browser, and incorrect identification of the standardization status of a feature.
 ** Disruptive behavior may lead to people losing editing or administrative privileges.
 * Content will be accessible.
