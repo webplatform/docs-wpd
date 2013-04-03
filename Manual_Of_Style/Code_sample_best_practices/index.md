@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Summary_Section|This page provides an overview of best practices to follow when authoring articles to help standardize the content presented. Follow these guidelines to choose proper page URLs, format code snippets, add titles and structure the content you are writing.}}
 {{Basic Page}}
