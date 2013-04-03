@@ -1,6 +1,6 @@
 {{Page_Title|Step 5: Update existing content}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|This is Step 5 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
