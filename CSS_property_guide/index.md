@@ -1,5 +1,7 @@
-{{Page_Title|CSS property reference guide}}
-{{Flags}}
+{{Page_Title|CSS property editing guide}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This article is a guide to implementing a CSS property reference page.}}
 {{Basic Page}}
 We have compiled a rather large and hopefully exhaustive list of all existing CSS properties — this can be found at
