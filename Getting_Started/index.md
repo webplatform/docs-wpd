@@ -5,8 +5,10 @@ This page provides lists of pages that need your help; these are broken out by t
 
 '''As you work, do the following:'''
 # Check out the page you are working on so that other editors do not attempt to work on the same page.
-#: Edit the page, check the box, '''Checked out (this article is currently being worked on)''', save the page, then reopen it and resume working.
-#: Do not forget to uncheck the box when you are done editing the page.
+#: Edit the page, check the box, '''Checked out (this article is currently being worked on)'''.
+#: Save the page, in the Summary for the edit, enter "Checking out."
+#: Then reopen it and resume working.
+#: Do not forget to uncheck the box when you are done editing the page, and in the Summary, enter "Checking in."
 # If you have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
 #: 
 # Refer to [[WPD:Editors_Guide/step_5_update_existing_content| Step 5 of the Editor's Guide]] for information about editing pages.
