@@ -76,7 +76,7 @@ WebPlatform.org uses the general US English classification. Standardizing this t
 *Inquiry
 Edit UK spellings that you find for colour, customise, enquiry, and other spelling variations.
 
-If you are not sure of the correct spelling, use an online dictionary, such as [http://www.merriam-webster.com/ Merriam-Webster] or [http://oxforddictionaries.com/ Oxford] dictionaries. 
+If you are not sure of the correct spelling, use an online dictionary of American English such as [http://www.merriam-webster.com/ Merriam-Webster]. 
 
 ===Standardize common terms===
 * Use ''Internet'' when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lowercase, like this: Leverage internet marketing to drive site traffic.
