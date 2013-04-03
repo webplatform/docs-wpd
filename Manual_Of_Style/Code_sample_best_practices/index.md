@@ -69,18 +69,18 @@ var privateVariable = "…";
 ==Creating a live code example==
 You can create a live code example on [http://code.webplatform.org/ code.webplatform.org] to add to your content. Live code can be a good addition to in-page snippets. To add code to code.webplatform.org and link to it, follow these steps. 
 
-# Once on code.webplatform.org, press '''Ctrl + N''' or '''⌘ + N''' to get a new example. Delete any boiler plate code.  
+# Once on code.webplatform.org, press '''Ctrl + N''' or '''⌘ + N''' to get a new example. Delete any boilerplate code.  
 # On each tab - CSS, HTML, and JS - break down your example by language section, and put the code on its respective tab. For the main JavaScript function, you don't need to include a function name. The magic behind code.webplatform.org executes your JavaScript once the HTML has loaded. Additional JavaScript functions that are called, however, do need to be defined with a function and name. 
 # The <code>body</code> and <code>head</code> tags are not needed.
 # In the first line of code on the <code>CSS</code> tab, add a CSS comment with the title of your example, such as <code>/* Button example */</code>. You must add a comment do regardless of whether you have CSS content or not. This is essentially the same as using <code>title</code> in the head of a webpage. 
 # Click the <code>Result</code> tab to see your example. The title for the page tab should be the same as the title of the CSS comment. 
-# Click the <code>All</code> tab, and then press '''CTRL + S''' or '''⌘ + S''' to save the page. By saving from the <code>All</code> tab, your users will automatically see your code executed when they land on the page. 
-# Copy the URL from the address bar, and paste it into the "Live example URL (optional)" field in your topic. 
+# Click the <code>All</code> tab, and then press '''CTRL + S''' or '''⌘ + S''' to save the page. By saving from the <code>All</code> tab, users will automatically see your code executed when they land on the page. 
+# Copy the URL from the address bar and paste it into the "Live example URL (optional)" field in your topic. 
 
 A special note about using the Save button at the top of code.webplatform.com:
-* To see save options, hover your mouse over the Save button (it has an icon of an arrow pointing up into a cloud). The dropdown menu shows options for saving your code. If you click either the button or the arrow, the site automatically saves your sample. 
+* To see save options, hover your mouse over the Save button (it has an icon of an arrow pointing up into a cloud). The drop-down menu shows options for saving your code. If you click either the button or the arrow, the site automatically saves your sample. 
 
-Some final suggestions: Be simple. Be straightforward. Don’t try to impress. Just teach.
+Some final suggestions: Be simple. Be straightforward. Do not try to impress. Just teach.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
