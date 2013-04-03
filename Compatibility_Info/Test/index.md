@@ -3,6 +3,9 @@
 ===border-radius as list===
 <compatability topic="css" type="property" feature="border-radius" format="list">test</compatability>
 
+===font-size as list===
+<compatability topic="css" type="property" feature="font-size" format="list">test</compatability>
+
 ==Compatibility tables==
 
 ===border-radius===
