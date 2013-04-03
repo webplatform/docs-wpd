@@ -15,7 +15,7 @@ A few guidelines:
 *Do not use articles (the, a, an) in URLs unless absolutely necessary.
 
 ==Article titles==
-In the "Custom page title" form field, enter a descriptive title if it's different from the URL (it probably will be). 
+In the "Custom page title" form field, enter a descriptive title if it is different from the URL (it probably will be). 
 
 For clarity in both creating and reading, article types should be consistently titled, each according to its content's primary information type. Each article type should use a consistent titling scheme so that (a) the author can accurately place it in the information hierarchy and (b) the reader can infer its content type from the title without further reading.
 
@@ -35,25 +35,25 @@ Use capitals sparingly. Capitalize only the first word (sentence case); however,
 All articles should fill in the article summary field. The contents of this field should be no more than a paragraph long and succinctly describe the contents of the page (for API pages, generally what this piece of the API accomplishes). This summary will be automatically included in other pages that link to this page.
 
 ==Section headings==
-Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what's in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock" or "What is localStorage?"
+Generally, follow the same guidelines as for article titles. Make your section headings brief but meaningful. Use sentence case. Again, you want the reader to know what is in the section without having to read the section. However, you may want to draw the reader into a section by making the section title enticing, something like "Web standards rock!" or "What is localStorage?"
 
 ==Grammar and spelling conventions==
 We follow the [http://styleguide.yahoo.com/ Yahoo style guide] for language styles. Refer to it when you have a spelling, gramatical, or other language query. Here are a few quick tips:
 * Please do not use contractions. For example say "I am" compared to "I'm".  This makes translation better and makes good legibility.
 
 ==Common terms==
-* Use ''Internet'' when it's a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
-* Use ''Web'' when it's a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
-* Use ''website'', not ''web site''. Strictly speaking, it's a two word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
+* Use ''Internet'' when it is a proper noun, e.g., '''The Internet'''. Otherwise, use lower case, e.g., '''Do you think internet marketing is a real degree?'''
+* Use ''Web'' when it is a proper noun, e.g., '''The Web'''. Otherwise, use lower case, e.g., '''I think CSS is a web-related topic.'''
+* Use ''website'', not ''web site''. Strictly speaking, it is a two-word, adjective-noun combination, but common use today (including recent inclusion in the AP Stylebook) is to combine them into a single noun.
 
 ==Code syntax highlighting==
 WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
 
 *Use <code>&lt;syntaxhighlight&gt;</code> only for standalone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 *Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
-*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> doesn't work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
-*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and don't use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
-*There's no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
+*<code>html5</code>, <code>css</code>, and <code>javascript</code> are the most common language notations you'll use. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to get proper highlighting.
+*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
+*There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
 *Lines of code can be emphasized by providing a <code>highlight=""</code> attribute:
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code><br>This highlights the third line in your code snippet.
 **<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code><br><code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code><br>This highlights a range of lines or multiple lines specified one by one.
