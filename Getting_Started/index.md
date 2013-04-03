@@ -1,17 +1,17 @@
 =Start contributing content=
-Anyone can contribute to the WebPlatform.org wiki. '''First''', read the [[WPD:Editors_Guide|Editor's Guide]] to learn how to set up your account, find information about how we work, and get the details about editing content. Then come back here and dig in!
+Anyone can contribute to the WebPlatform.org wiki. '''First''', read the [[WPD:Editors_Guide|Editor's Guide]] to learn how to set up your account, find information about how we work, and get the details about editing content. Then, come back here and dig in!
 
-This page provides lists of pages that need your help; these are broken out by task. Scroll down the page to find a task you'd like to perform. In the table for each task, click the link to a page that needs the work. 
+This page provides lists of pages that need your help; these are broken out by task. Scroll down the page to find a task you would like to perform. In the table for each task, click the link to a page that needs the work. 
 
 '''As you work, do the following:'''
-# Check out the page you're working on so that other editors don't attempt to work on the same page.
+# Check out the page you are working on so that other editors do not attempt to work on the same page.
 #: Edit the page, check the box, '''Checked out (this article is currently being worked on)''', save the page, then reopen it and resume working.
-#: Don't forget to uncheck the box when you're done editing the page.
-# if you have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
+#: Do not forget to uncheck the box when you are done editing the page.
+# If you have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
 #: 
 # Refer to [[WPD:Editors_Guide/step_5_update_existing_content| Step 5 of the Editor's Guide]] for information about editing pages.
 
-The tasks are listed by degree of experience and knowledge required. As you move from the basic tasks to more advanced tasks, you'll gain greater expertise, both in using the wiki and in the subject matter. Choose from the following types of tasks:
+The tasks are listed by degree of experience and knowledge required. As you move from the basic tasks to more advanced tasks, you will gain greater expertise -- both in using the wiki and in the subject matter. Choose from the following types of tasks:
 <div class="topic-container">
 <p>&nbsp;</p>
 <div class="long-topic">
@@ -49,7 +49,7 @@ The tasks are listed by degree of experience and knowledge required. As you move
 
 =Basic tasks=
 
-Tasks in this category require little technical or subject-matter knowledge, they don't require a lot of time to complete, and yet they are very important to maintaining the readability and integrity of the content.
+Tasks in this category require little technical or subject-matter knowledge, do not require a lot of time to complete, and yet are very important to maintaining the readability and integrity of the content.
 
 {{Configurable_Query
 |Title=Edit for spelling & grammar
