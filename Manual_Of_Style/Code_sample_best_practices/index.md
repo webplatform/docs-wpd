@@ -26,7 +26,7 @@ When you approach a code sample, try to put yourself in the readers’ shoes. As
 *“What parts would I want to take from this sample, and how do I find them?”
 *“How do I know that specific code blocks do what it looks like they are supposed to do?”
 *“How can I map my own input and output requirements to those demonstrated in the sample code components?”
-*“Can I cut-and-paste most of this into a webpage and make what I believe to be the minimal appropriate amount of changes, successfully?”
+*“Can I cut-and-paste most of this into a webpage and successfully implement the code with minimal changes?”
 *“Where do I go to learn more? What OTHER resources are easily available?” 
 ==Best practices==
 Creating code snippets or developing full samples share many best practices:
