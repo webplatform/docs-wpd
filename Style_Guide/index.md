@@ -61,13 +61,13 @@ WPD uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeS
 
 ==Images==
 
-When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images, by adding alt text to describe them.
+When adding images to an article, you should think carefully about how big the image needs to be (e.g. 300 x 150), as well as how heavy the image is (e.g. file size in KB), and what the file name is. Also consider the accessibility of your images by adding alt text to describe them.
 
 <ul>
   <li><p>Images should only be as large as required to display the content to be portrayed. To fit inside the content column on WPD, you should make them no larger than about 650 pixels wide. If an image absolutely needs to be much larger than this, you should display a thumbnail and then link it to a full size image somewhere else.</p></li>
   <li><p>Please do not try to load images of several MB to WPD! If an image is really large in file size you should shrink it down first. If the image is something not very detailed like a line drawing, save it as a PNG 8 (most graphics packages have this option in their export settings.) If it is a lot more detailed, such as a browser screenshot or photograph, use a JPEG — 70% quality is sufficient for web use. You might also want to consider using a compression application like [[http://pmt.sourceforge.net/pngcrush/ PNG Crush]].</p></li>
   <li><p>Images should be given an appropriate semantic filename, for example '''box-shadow-output.jpg''', not '''my-great-image.jpg''' or '''454654756-awesome.jpg'''.</p></li>
-  <li><p>To add alt text to images in Media Wiki, you use the option alt=my alt text. So for example:</p>
+  <li><p>To add alt text to images in Media Wiki, you use the option alt=my alt text. For example:</p>
 
 <pre>[[Image:cssbasic.png|alt=Screenshot of the Opera browser showing an applied inline style sheet]]</pre>
 
@@ -79,14 +79,14 @@ When adding images to an article, you should think carefully about how big the i
 
 ==Quality principles==
 [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
-* '''easy to use''': task oriented, accurate, complete
+* '''easy to use''': task-oriented, accurate, complete
 * '''easy to understand''': clear, concrete, appropriate style
 * '''easy to find''': coherently organized, retrievable, visually effective
 
 The following principles are chosen to help achieve high quality in the information presented on this website.
 
 ===Free of spam===
-Spam makes it hard for readers to find what they’re looking for, and should be removed as soon as possible.
+Spam makes it hard for readers to find what they are looking for, and should be removed as soon as possible.
 
 ===Vendor neutral===
 Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in major browsers.
@@ -119,7 +119,7 @@ It is particularly important that samples and example code follow best practices
 Include references to applicable standards, test suites, implementation reports, live demos, and other useful resources.
 
 ===Accessible===
-Your content should be accessible according to WCAG 2.0 AA. Where there are questions about accessibility, contributors should seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
+Your content should be accessible according to WCAG 2.0 AA. Where there are questions about accessibility, contributors should seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they are not accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
 
 ===Relevant to the site===
 Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site.
@@ -127,11 +127,11 @@ Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pil
 ===Omit comments and discussion===
 Relevant comments and discussion about the article should occur in the associated discussion page, not in the body of the article.
 
-===Don't needlessly duplicate content===
-Separate pages shouldn't substantially overlap content or topics, except when necessary to improve understanding and organization. 
+===Do not needlessly duplicate content===
+Separate pages should not substantially overlap content or topics, except when necessary to improve understanding and organization. 
 
 ===Search engine optimization===
-Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines, so don't overload on keywords.
+Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines, so do not overload on keywords.
 
 ===Include all relevant sections===
 Different [[WPD:Manual Of Style/Article Types|types of articles]] have different types of sections. For an article to be considered to be high quality, it should have all applicable sections.
