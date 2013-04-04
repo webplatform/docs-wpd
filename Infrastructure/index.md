@@ -43,7 +43,7 @@
 | [http://www.question2answer.org/ Question2Answer]
 | [http://talk.webplatform.org/forums/ talk.webplatform.org/forums/]
 | 15.185.109.17
-| yes
+| disabling soon
 |-
 | IRC
 | [http://qwebirc.org/ qwebirc]
