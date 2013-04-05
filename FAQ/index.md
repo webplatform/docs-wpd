@@ -80,8 +80,6 @@ If you are interested in developing use cases and requirements for new Web techn
 
 ===Can I translate articles on WPD?===
 
-WPD is not yet set up for handling article translations. We are working on it, so this facility should appear soon.
-
-For those interested in writing translations, who don't want to wait for the translation facilities to come up on the site, there is a group inside the W3C called the [http://www.w3.org/community/webed/ web education community group], which deals with outreach and translations. You can join them and use their [http://www.w3.org/community/webed/wiki/Main_Page#Project_activities wiki to hold translations] for now, until webplatform.org is ready.
+Yes. You can find instructions of submitting translations on our [[WPD:translations|translations page]].
 
 For more information, please contact Chris Mills via the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform] mailing list.
