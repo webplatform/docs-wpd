@@ -4,6 +4,11 @@ There are a number of sub-projects to accomplish this goal.
 
 ==Projects==
 
+===Data Merge===
+* [[WPD:Browser_Testing/CanIUse|CanIUse Data Model]]
+* [[WPD:Browser_Testing/QuirksMode|QuirksMode Data Model]]
+* [[WPD:Browser_Testing/Schema|WPD Schema]]
+
 ===Browser Compatibility Table API===
 '''Project Summary:''' Build an API for use on our site and by the general public for accessing information on browser support for various web programming features, integrating data from multiple different sources, such as CanIUse, Quirksmode, and W3C test suites. See the [[WPD:Compatibility_Info|Compatibility Info article]] for more information.
 
