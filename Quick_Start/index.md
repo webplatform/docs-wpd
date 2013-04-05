@@ -1,5 +1,7 @@
 {{Page_Title|A Quick Start to adding your contributions to Web Platform.org}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This article provides quick access to important Content to give you the "lay of the land" to start contributing as quickly as possible...}}
 {{Basic Page}}
 ==[http://www.webplatform.org/ WebPlatform.org — Your Web, documented]==
@@ -98,9 +100,6 @@ Do this only if it is not something that is covered by the three options above. 
 
 '''Related''' ...
 [http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks Most Wanted Tasks - WebPlatform Docs] 
-
-<hr/>
-This content above was originally published on   [http://www.irelate.us iRelate.us]  by  [http://www.irelate.us/Tony Tony] within this [http://www.irelate.us/SharedPackages/Tony/cdda6bbc8604d9a7058b29aa666d882b448c869c.html Post]...
 
 {{Notes_Section}}
 {{Topics}}
