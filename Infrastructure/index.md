@@ -91,5 +91,5 @@
 | [http://www.thebuggenie.com/ The Bug Genie]
 | [http://project.webplatform.org/ project.webplatform.org/]
 | 
-| no
+| yes
 |}
