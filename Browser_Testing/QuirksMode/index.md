@@ -104,3 +104,72 @@ The method is attributes[index].
 * Thus, if a user would request attributes[index] for IE 7 and 8 he would get all data except for the IE5.5 text. If he would leave out IE entirely he would not receive the IE5-7 and IE5.5 texts.
 
 ==JSON Example==
+<syntaxhighlight>
+{
+   "vh and vw": {
+	"test": "http://quirksmode.org/css/units-values/viewport.html",
+	"spec": "http://www.w3.org/TR/css3-values/#viewport-relative-lengths",
+	"description": "Percentages of the layout viewport width or height",
+	"example": {
+		code: "width: 50vw",
+		explanation: "Element's width is 50% of layout viewport width"
+	},
+	"compatibility": {
+		"desktop": {
+			"IE7": "No",
+			"IE8": "No",
+			"IE9": "Yes",
+			"IE10": "Yes"
+			"FF 19 Win": "Yes",
+			"FF 19 Mac": "Yes",
+			"Saf 6.0.2": "Incomplete",
+			"Chrome 25 Win": "Incomplete",
+			"Chrome 25 Mac": "Incomplete",
+			"Yandex 1.5 Mac": "Incomplete",
+			"Op 12.14 Win": "No",
+			"Op 12.14 Mac": "No",
+		},
+		"mobile": {
+			"iOS5": "No",
+			"iOS6": "Incomplete",
+			"Android 2": "No",
+			"Android 3": "No",
+			"Android 4": "No",
+			"Chrome 18 Android": "No",
+			"Chrome 25 Android": "Incorrect",
+			"Opera Mini": "No",
+			"Opera Mobile 12": "No",
+			"Opera Mobile 14": "Buggy",
+			"BB6": "No",
+			"BB7": "No",
+			"BB PB": "No",
+			"Nokia Xpress": "No",
+			"MeeGo": "No",
+			"Symbian Anna": "No",
+			"Symbian Belle": "No",
+			"UC": "No",
+			"NetFront": "No",
+			"Dolphin": "Incorrect",
+			"One": "No",
+			"Tizen": "Incorrect",
+			"IE9 WP": "Incomplete",
+			"IE10 WP": "Yes"
+			"Firefox": "No",
+		}
+	},
+	"notes": {
+		{
+			"text": "Widths not updated when the viewport changes, for instance by changing the orientation",
+			"browsers": ["Saf 6.0.2","Chrome 25 Win","Chrome 25 Mac","Yandex 1.5 Mac","iOS6","Chrome 25 Android","Tizen","IE9 WP"]
+		},
+		{
+			"text": "Unit relative to the visual viewport, not to the layout viewport.",
+			"browsers": ["Chrome 25 Android","Dolphin","Tizen"]
+		},
+		{
+			"text": "Weird numbers that bear no discernible relation to any viewport.",
+			"browsers": ["Opera 14"]
+		},
+	}
+}
+</syntaxhighlight>
