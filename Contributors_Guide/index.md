@@ -4,13 +4,14 @@
 <div class="topic-container">
   <div class="long-topic">
       <div class="place-holder"></div>
-      <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:160px'>
+      <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]</h3>
         <ul>
             <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
             <li>A verification link is emailed. If you don't see the message in your email inbox, check your spam folder.</li>
         </ul>
      </div>
+    <br>
   </div>
   
  <div class="long-topic"> 
