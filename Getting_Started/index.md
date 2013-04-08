@@ -12,6 +12,8 @@ This page provides lists of pages that need your help; these are broken out by t
 # If you have any questions, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| just ask the community on IRC or e-mail]].
 #: 
 # Refer to [[WPD:Editors_Guide/step_5_update_existing_content| Step 5 of the Editor's Guide]] for information about editing pages.
+#:
+# As you finish a chunk of work, clear the checkbox for the work issue (i.e. uncheck "Needs Summary" after you fill in the summary).
 
 The tasks are listed by degree of experience and knowledge required. As you move from the basic tasks to more advanced tasks, you will gain greater expertise -- both in using the wiki and in the subject matter. Choose from the following types of tasks:
 <div class="topic-container">
