@@ -4,7 +4,7 @@ Web Platform Docs is a community of people dedicated to documenting the technolo
 
 [[File:community_pic.jpeg|200px]]
 
-We might be a little bit messy, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
+We might be a little bit messy right now, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
 
 Please read the [[WPD:Pillars|Pillars]] document for our overall guiding principles and methods.
 
