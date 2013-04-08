@@ -16,13 +16,12 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 [irc://irc.freenode.net/webplatform-site irc]
 [http://webchat.freenode.net/?channels=#webplatform-site webchat]
 
-==Thursday, March 21, 2013 at 11 a.m. PDST, 6 p.m. GMT==
+==Time TBD==
 
 ===Agenda===
 * Establish an irregular meeting time (lack of agenda cancels)
-* Doc Sprint - San Francisco, April 3
-** Dashboard?
-** Speakers?
-** Getting Started
-** CSS Properties
-** Site architecture, stubbing
+* Doc Sprints - plan for up-coming events:
+** OpenHelp?
+** OS Con?
+** East Coast US?
+** Amsterdam?
