@@ -25,3 +25,4 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** OS Con?
 ** East Coast US?
 ** Amsterdam?
+* Further planning
