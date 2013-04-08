@@ -1,7 +1,7 @@
 =Be part of the community!=
 
 Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether your just starting in your career or are already a seasoned web professional, we encourage you to get involved with the community. 
-[[File:community_pic.jpg]]
+[[File:community_pic.jpeg]]
 We might be a little bit messy, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
 
 Please read the [[WPD:Pillars|Pillars]] document for our overall guiding principles and methods.
