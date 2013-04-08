@@ -18,6 +18,8 @@ Please read the [[WPD:Pillars|Pillars]] document for our overall guiding princip
 * [[WPD:Community/Survey|Survey]]
 * [[WPD:Community/Task_Force|Task Forces]]
 
+== Help build the site ==
+
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Editors_Guide|Editor's Guide]].
 
 * To file bugs on webplatform, use the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C bug tracker]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
