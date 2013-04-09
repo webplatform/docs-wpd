@@ -14,29 +14,16 @@ If you find an issue related to the functionality of the site, file a bug (see b
 * '''Site functionality bugs''' (for example, browser errors or UI issues).
 * '''Issues related to entire groups of pages''' not behaving or displaying correctly.
 
-==Browse Existing Bugs==
-* [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org Peruse all open bugs by component]
-* [https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&list_id=173&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=webplatform.org List all open webplatform.org bugs]
+==Browse existing bugs==
+See the [http://project.webplatform.org Project Management page] for lists of issues by category.
 
 ==How to file bugs==
 
-To file a bug against WPD, or any other part of webplatform.org, you need to use the W3C's [http://www.w3.org/Bugs/ Bugzilla bug tracking system].
+To file a bug against WPD, or any other part of webplatform.org, you need to use the [http://project.webplatform.org Project Management page].
 
-* First of all, you need to make sure you have an account. If not, go to the [https://www.w3.org/Bugs/Public/createaccount.cgi Create a new Bugzilla account] page, and follow the steps there.
-* Next, make sure you are logged into the site.
-* Make sure that this bug hasn't been filed already — go to the [https://www.w3.org/Bugs/Public/query.cgi Bugzilla search] page, set the product to '''webplatform.org''', and enter keywords to search for the bug. 
-* Now go to the [https://www.w3.org/Bugs/Public/enter_bug.cgi Enter bug] page.
-* Choose the [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org webplatform.org] link.
-* There are a number of options here, for example you can set a severity rating, add an attachment, or specify the hardware/OS you are using; the most important ones for you to fill in are as follows:
-** '''Summary''': Enter a descriptive but short summary, to summarize what the problem is.
-** '''Description''': Enter a more detailed description of exactly what the problem is. If there are multiple steps needed to reproduce the bug, say what they are, in a numbered list. It is also helpful to describe what the expected/desired behavior is, and what the actual behavior is, if appropriate.
-** '''Component''': Select which component of the site this bug applies to. You can choose:
-*** '''Comment Extension''' — if the problem relates specifically to the coments extension we've got installed to allow you to comment on specific parts of pages.
-*** '''content''' — if the problem is specifically to do with the content of any pages, rather than it's look and implementation.
-*** '''default''' — choose this if you are not sure where else to place your bug.
-*** '''info architecture''' — if the problem is specific to the organization of pages on the site. Maybe some pages are placed wrongly, or you feel that it is harder to find something than it should be?
-*** '''infrastructure''' — if you have a problem with some facet of how the site is implemented. Database bugs, JavaScript bugs, other development problems?
-*** '''skin''' — if the problem concerns the visual design; the look and feel of the site.
-* Finally, press the '''Submit bug''' button at the bottom of the page.
+* First of all, you need to have an account. If not, in the upper right corner, from the YOU ARE NOT LOGGED IN menu, select REGISTER, and follow the steps.
+* Next, make sure you are logged into the site. If you see YOU ARE NOT LOGGED IN in the upper right corner, well, you know. From the menu, select LOGIN. You can log in with OpenID or the account credentials you established on WebPlatform.org.
+* Make sure that this bug hasn't been filed already — in the Search field, enter keywords to search for the bug. You can also see the lists of issues by category by clicking the Issues button.
+* Click REPORT AN ISSUE to launch the super double-secret bug demolition missile that is your bug report. Thanks!
 
 You should receive notifications via e-mail when your bug is actioned, commented, etc.
