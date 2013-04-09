@@ -22,7 +22,7 @@ See the [http://project.webplatform.org Project Management page] for lists of is
 To file a bug against WPD, or any other part of webplatform.org, you need to use the [http://project.webplatform.org Project Management page].
 
 * First of all, you need to have an account. If not, in the upper right corner, from the YOU ARE NOT LOGGED IN menu, select REGISTER, and follow the steps.
-* Next, make sure you are logged into the site. If you see YOU ARE NOT LOGGED IN in the upper right corner, well, you know. From the menu, select LOGIN. You can log in with OpenID or the account credentials you established on WebPlatform.org.
+* Next, make sure you are logged into the site. If you see YOU ARE NOT LOGGED IN in the upper right corner, well, you know. From the menu, select LOGIN. You can also log in with OpenID.
 * Make sure that this bug hasn't been filed already — in the Search field, enter keywords to search for the bug. You can also see the lists of issues by category by clicking the Issues button.
 * Click REPORT AN ISSUE to launch the super double-secret bug demolition missile that is your bug report. Thanks!
 
