@@ -10,7 +10,7 @@ These surveys are designed to learn how to improve the doc sprints.
 
 ====San Francisco, April 3, 2013====
 
-Take the [http://goo.gl/nI39U Survey]! Thanks!
+See the [http://goo.gl/CEs8y Survey Results]! Thanks to all who responded!
 
 ====Berlin, Feb. 8 & 9====
 
