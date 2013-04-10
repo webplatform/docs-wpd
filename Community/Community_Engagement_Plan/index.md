@@ -25,9 +25,9 @@ Actions to take:
 :* Identify things to do (organize by topic, by needs and by type of contribution)
 :* Identify talking places (IRC, forum, ML, etc.)
 * Spread the world
-:* Blog about what's happen on a regular basis (see [http://hacks.mozilla.org/category/mdn/as/title/ Mozilla "State of the doc blog posts"]) 
+:* Blog about what's happenning on a regular basis (see [http://hacks.mozilla.org/category/mdn/as/title/ Mozilla "State of the doc blog posts"]) 
 :* Tweet every major doc change with credit to the contributor (this could apply to any social network, not just Twitter)
-:* Convince technical blogger to link back to webplatform.org
+:* Convince technical bloggers to link back to webplatform.org
 * Social events
 :* Organize [[WPD:Doc Sprints|Doc Sprints]]
 :* Promote events organize by contributors
