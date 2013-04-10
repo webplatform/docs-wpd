@@ -26,4 +26,5 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** East Coast US?
 ** Amsterdam?
 * Populate public-webplaform-news
+** [[WPD:Projects/Communications/Universities Universities]]
 * Further planning
