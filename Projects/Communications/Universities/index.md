@@ -46,7 +46,7 @@ We'd like to add you to our email list (public-webplatform-news@w3.org), to info
 
 We'd appreciate you forwarding this email to the person responsible for communications in your department. If you have a periodic newsletter or other communication about industry opportunities, we'd like to submit our news to that person for dissemination.
 
-Finally, if you know of any students who are working on front-end development (HTML, CSS, SVG, JavaScript) or LAMP development, please let them know about WebPlatform.org.
+Finally, if you know exceptional students who are working on front-end development (HTML, CSS, SVG, JavaScript) or LAMP development, please let put us in contact with them. We may have a paid internship, fellowship, or mentoring program, just for them.
 
 ==Timeline==
 
