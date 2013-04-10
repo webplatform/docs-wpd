@@ -15,9 +15,9 @@ Please insert a link to the working task force and their charter and next meetin
 
 Basic principle:
 # Give publicity to contributors
-# Promote update made on the wiki
+# Promote updates made on the wiki
 
-Action to take:
+Actions to take:
 * Teams and team leads?
 * Give entry points :
 :* Identify top contributors
