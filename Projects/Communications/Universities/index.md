@@ -50,6 +50,6 @@ Finally, if you know of any students who are working on front-end development (H
 
 ==Timeline==
 
-2013-04-28 Email to contacts sent
-2013-04-30 Email list populated
-2013-05-05 Initial email sent to public-webplatform-news@w3.org
+* 2013-04-28 Email to contacts sent
+* 2013-04-30 Email list populated
+* 2013-05-05 Initial email sent to public-webplatform-news@w3.org
