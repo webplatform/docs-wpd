@@ -14,7 +14,7 @@ See the [http://goo.gl/CEs8y Survey Results]! Thanks to all who responded!
 
 ====Berlin, Feb. 8 & 9====
 
-Survey [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]] (as of February 13, 2013)
+Survey [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]].
 
 ===General surveys===
 
