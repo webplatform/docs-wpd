@@ -152,6 +152,11 @@ Generally, the missing information in compatibility tables can be verified by co
 
 Articles in the lists below have issues for which the resolution may require subject-matter expertise or technical knowledge (fluency in JavaScript, CSS, MediaWiki, etc.).
 
+==CSS properties==
+
+The CSS property pages are a special project we're working on. We've selected some significant CSS properties and we're reviewing the reference pages, adding examples, editing, and improving the quality. For more information, see [[WPD:CSS_property_guide]].
+
+
 {{Configurable_Query
 |Title=Edit content for neutrality
 |Description=WebPlatform.org aims to provide vendor-neutral documentation. If you find a section that describes a feature as if it only works in a certain browser, or a section of code that could work across all browsers, but won't because it only uses one or two browsers' vendor prefixes, please edit these pages. If you cannot fix the page yourself, check the '''Not Neutral''' box under High-level issues so someone else can find and edit it.
