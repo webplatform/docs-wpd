@@ -266,6 +266,18 @@ See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]
 }}
 
 {{Configurable_Query
+|Title====Fix examples not following best practices===
+|Description=Some examples need work. See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]] for guidance.
+|Topics=API, CSS, DOM, MathML, SVG
+|Content_Quality_Flags=Examples Best Practices
+|Checked_Out=No
+|Limit=5
+|Show_Summary=Yes
+|Show_High_Level_Issues=No
+|Show_Content_Quality_Flags=No
+}} 
+
+{{Configurable_Query
 |Title=Complete documentation
 |Description=Much of the reference information is incomplete. Usually the work here involves revisiting the specifications or other materials and filling in missing information. Refer to the most recent specifications for the feature as you fill in the pages.
 |Topics=API, CSS, DOM, DOMEvents, HTML, JavaScript, MathML
