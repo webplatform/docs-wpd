@@ -112,7 +112,7 @@ The book titled: [http://www.amazon.com/Developing-Quality-Technical-Information
 The following principles guide our contributions to help achieve high quality in the information presented on this website.
 
 ===Ensure articles are vendor neutral===
-Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers.
+Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers. For a list of articles marked with the '''Not Neutral''' flag, see [[WPD:Getting_Started#Edit_content_for_neutrality|Edit content for neutrality].
 
 ===Author content using a neutral voice===
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that are first authored with a specific voice can be expected to morph over time.
@@ -121,22 +121,26 @@ With the exception of tutorials and guides, content should maintain a neutral vo
 Content should include recent details for using the most modern browsers and the newest web technologies to help web developers build sites.
 
 ===Tag pages with all applicable tags===
-Tagging pages help users of the site find content that is relevant to them. A comprehensive and complete set of tags are important to improve discoverability of pages. When tagging, also include tags that clearly denote the content's standardization progress and implementation status.
+Tagging pages helps users of the site find content that is relevant to them. A comprehensive and complete set of tags are important to improve discoverability of pages. When tagging, also include tags that clearly denote the content's standardization progress and implementation status.
+
+See [[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]] and [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance.
 
 ===Include compatibility information===
-See [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]] to learn best practices when providing compatibility information. Many existing pages are missing the compatibility details in the compatibility tables included with the templates. Researching online and updating compatibility tables, as well as flagging pages to mark issues, is a great way to get started contributing to this wiki. 
+See [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]] to learn best practices when providing compatibility information. Many existing pages are missing the compatibility details in the compatibility tables included with the templates. Researching online and updating compatibility tables, as well as flagging pages to mark issues, is a great way to get started contributing to this wiki.
+
+'''Note:''' We anticipate automating the population of the compatibility tables in the near future, and we recommend against working on compatibility tables by hand.
 
 ===Provide complete documentation of API===
-API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects.
+API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects. For more information, see [[WPD:Creating_API_pages#Filling_in_the_pages|Creating API pages]].
 
 ===Address relevant best practices===
 Address accessibility, internationalization, privacy, and security good practices in the articles you edit for this wiki.
 
 ===Include examples where appropriate===
-Examples help make articles more concrete and easier to understand.
+Examples help make articles more concrete and easier to understand. For a list of articles that need examples, see [[WPD:Getting_Started#Develop_code_examples|Develop code examples]].
 
 ===Follow best practices for sample code===
-It is particularly important that samples and example code follow best practices (for example, including alt text for image tags), because example code is often copied by developers. In particular, be sure that sample code does not create security vulnerabilities.
+It is particularly important that samples and example code follow best practices (for example, including alt text for image tags), because example code is often copied by developers. In particular, be sure that sample code does not create security vulnerabilities. See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]]. For a list of articles where code samples may not follow best practices see [[WPD:Getting_Started#Fix_examples_not_following_best_practices|Fix examples not following best practices]]. 
 
 ===Add citations and helpful links===
 Include references to applicable standards, test suites, implementation reports, live demos, and other useful resources.
