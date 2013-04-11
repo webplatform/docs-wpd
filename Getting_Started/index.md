@@ -267,7 +267,7 @@ See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]
 
 {{Configurable_Query
 |Title====Fix examples not following best practices===
-|Description=Some examples need work. See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]] for guidance.
+|Description=Some extant examples need work. See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]] for guidance.
 |Topics=API, CSS, DOM, MathML, SVG
 |Content_Quality_Flags=Examples Best Practices
 |Checked_Out=No
