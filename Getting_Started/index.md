@@ -186,7 +186,7 @@ See also the [[WPD:Implementation_Patterns|Implementation Patterns page]] to lea
 }}
 
 ==Review content==
-The great thing about a wiki is that it's always under review. However, when an article is marked with the '''Needs Review''' flag, the author has specifically requested help from the community in verifying the content. Reviewing an article requires a working knowledge of the subject, and often requires the testing of code samples. When you review an article, always check it against the most recent specifications.
+The great thing about a wiki is that it's always under review. However, when an article is marked with the '''Needs Review''' flag, the author has specifically requested help from the community in verifying the content. Reviewing an article requires a working knowledge of the subject, and often requires the testing of code samples. When you review an article, always check it against the most recent specifications. See [[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]] for reviewing guidelines.
 
 {{Configurable_Query
 |Title====API pages that need review===
