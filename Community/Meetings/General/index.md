@@ -23,14 +23,16 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * April 3 Doc Sprint
+** How was it?
 * A lot of meetings next week
 ** Community
 ** Analytics
 ** Programming
 * Fellowships, interships, mentoring programs for students
 * Please gather university contacts to add to an announce email list
-** How was it?
 * Anyone want to share any status on any project?
+** Forums
+** Translation URL schema decision final?
 ** Session bug's gone again!
 ** CSS Properties project
 ** Project.* project
