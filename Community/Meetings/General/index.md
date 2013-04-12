@@ -26,8 +26,6 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** How was it?
 * A lot of meetings next week
 ** Community
-*** Fellowships, interships, mentoring programs for students
-*** Please gather university contacts to add to an announce email list
 ** Analytics
 ** Programming
 * Closing out some items
@@ -40,6 +38,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Global nav project
 ** Beginners guide to web dev
 ** Populating news email list with [[WPD:Projects/Communications/Universities|university contacts]]
+*** Fellowships, interships, mentoring programs for students
+*** Please gather university contacts to add to an announce email list
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
