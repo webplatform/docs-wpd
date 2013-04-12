@@ -39,6 +39,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Project.* project
 ** Global nav project
 ** Beginners guide to web dev
+** Populating news email list with [[WPD:Projects/Communications/Universities|university contacts]]
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
