@@ -27,8 +27,6 @@ We've just installed a new issues tracking system at [http://project.webplatform
 
 To file a bug, log into the project space [http://project.webplatform.org project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
 
-==Ask questions or help others in the forum==
-* Log into the [http://talk.webplatform.org/forums/ WebPlatform forum].
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
