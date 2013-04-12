@@ -16,6 +16,18 @@ The WebPlatform.org online community uses IRC extensively. Connect to the WebPla
 
 Note: If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
 
+===IRC hours===
+
+{|class="wikitable" style="text-align: center; color: green; width:50%"
+!colspan="2" align="center"|When folks are hanging out on #webplatform
+|-
+|Julee
+|10a-noon PDT
+|-
+|Next persona
+|their hours
+|}
+
 ==Join the public-webplatform@w3.org mailing list==
 * We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
 
@@ -26,7 +38,6 @@ We've just installed a new issues tracking system at [http://project.webplatform
 {{Note|Be sure to search for your issue before entering any new bugs.}}
 
 To file a bug, log into the project space [http://project.webplatform.org project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
