@@ -18,6 +18,27 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-03-22==
+
+* Roll call
+* Review of open action items
+* April 3 Doc Sprint
+* A lot of meetings next week
+** Community
+** Analytics
+** Programming
+* Fellowships, interships, mentoring programs for students
+* Please gather university contacts to add to an announce email list
+** How was it?
+* Anyone want to share any status on any project?
+** Session bug's gone again!
+** CSS Properties project
+** Project.* project
+** Global nav project
+** Beginners guide to web dev
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-03-29==
 
 * Roll call
@@ -37,6 +58,90 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 * Julee taking a personal day next Friday. Someone willing to run this meeting?
+
+===DISCUSSIONS===
+
+====TOPIC: hiring a scribe ====
+
+shepazu proposes hiring a scribe
+shepazu will report back with more information
+
+====TOPIC: CSS properties project ====
+
+ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG
+
+ACTION: Julee to assign owners for properties after Doc Sprint.
+
+shepazu started work on recruiting reviewers, wrote e-mail; consulted with Fantasai
+
+ACTION: shepazu to send out e-mail with process/plan for tech reviewers
+
+We would like to get spec authors more involved with the documentation, 
+with the caveat that spec authors are not the ultimate responsible party, nor should beta criteria be dependent on spec author approval
+
+====TOPIC: DOM API pages ====
+
+ACTION: Content Task Force Lead [scottrowe_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
+
+scottrowe_ volunteers to be CTL for DOM API pages, julee also volunteers
+
+====TOPIC: Edit Dismissible Alpha ====
+
+Scott's an admin, but can't change the alpha note on the main page.
+
+ACTION: scottrowe_ to follow up with Alex about editing the dismissible message.
+
+====TOPIC: Status on project.* ====
+
+ACTION: shepazu and julee to coordinate with garbee on project buckets, testing
+
+====TOPIC: Google Summer of Code ====
+
+http://docs.webplatform.org/wiki/WPD:GSoC
+
+browser compat API in the works; maybe POC next week
+
+anyone can contribute to the GSoC proposal
+
+Shepazu - will you also be working on http://mobilehtml5.org/ to be implemented through the compat API?
+
+Millo, we're open to any data source that meets our criteria
+
+====TOPIC: Please respond to email re: IRC hours====
+
+ACTION: If folks don't respond to email, Julee to set up an IRC calendar page 
+
+====TOPIC: API Project almost done!====
+
+Scott will send out email when it's done. 
+
+====TOPIC: Custom error pages!====
+Lea did the error pages!
+
+http://www.webplatform.org/errors/404.html
+
+http://www.webplatform.org/errors/images/numbers.html
+
+====TOPIC: Bug Genie skinning====
+
+http://project.webplatform.org/skin/issues/3
+
+http://project.webplatform.org/prmg/issues/PRMG-10
+
+===ACTION ITEMS===
+
+* (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG
+* Julee to assign owners for properties after Doc Sprint. [STATUS: in progress]
+* scottrowe_ to ping jkomoros about how to fix the dismissible alpha message
+* (CARRIED OVER): shepazu to send localization guide to public list
+* Lea to implement content/issues/14 on docs.* as well
+* Julee set up CSS Properties project page with custom queries [Please carry forward]
+* Analytics team to develop report of key analytics, leading indicators, share at general meeting regularly
+* shepazu to take point on next week's meeting, if there is a quorum
+* shepazu to send out e-mail with process/plan for tech reviewers
+* Content Task Force Lead [scottrowe_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
+* shepazu and julee to coordinate with garbee on project buckets, testing [In progress: also programming meeting is next Wednesday]
+* If folks don't respond to email, Julee to set up an IRC calendar page [[DONE: WPD:Editors_Guide/step_2_communicate_with_the_online_community#IRC_hours|IRC calendar page]]
 
 ==Agenda 2013-03-22==
 
