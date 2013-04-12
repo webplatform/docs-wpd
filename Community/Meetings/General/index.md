@@ -135,17 +135,17 @@ http://project.webplatform.org/prmg/issues/PRMG-10
 ===ACTION ITEMS===
 
 * (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG
-* Julee to assign owners for properties after Doc Sprint. [STATUS: in progress]
+* Julee to assign owners for properties after Doc Sprint. (STATUS: in progress)
 * scottrowe_ to ping jkomoros about how to fix the dismissible alpha message
 * (CARRIED OVER): shepazu to send localization guide to public list
 * Lea to implement content/issues/14 on docs.* as well
-* Julee set up CSS Properties project page with custom queries [Please carry forward]
+* Julee set up CSS Properties project page with custom queries (STATUS: Not sure we want to do this. Please carry forward.)
 * Analytics team to develop report of key analytics, leading indicators, share at general meeting regularly
 * shepazu to take point on next week's meeting, if there is a quorum
 * shepazu to send out e-mail with process/plan for tech reviewers
 * Content Task Force Lead [scottrowe_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
 * shepazu and julee to coordinate with garbee on project buckets, testing [In progress: also programming meeting is next Wednesday]
-* If folks don't respond to email, Julee to set up an IRC calendar page [[DONE: WPD:Editors_Guide/step_2_communicate_with_the_online_community#IRC_hours|IRC calendar page]]
+* If folks don't respond to email, Julee to set up an IRC calendar page [[WPD:Editors_Guide/step_2_communicate_with_the_online_community#IRC_hours|IRC hangout hours on IRC page]] (DONE)
 
 ==Agenda 2013-03-22==
 
