@@ -34,6 +34,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** [http://project.webplatform.org/infrastructure/issues/1 Session bug] is gone again! Is this issue closed?
 * Anyone want to share any status on any project? Can we get completion dates?
 ** CSS Properties project
+*** Discuss sending out a "call for review"
 ** Project.* project
 ** Global nav project
 ** [http://project.webplatform.org/content/issues/41 Beginners guide] to web dev - Status from Chris: created all of the [[TEST:beginners|landing pages]] and writing updated text for the landing page
