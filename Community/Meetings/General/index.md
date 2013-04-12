@@ -144,7 +144,7 @@ http://project.webplatform.org/prmg/issues/PRMG-10
 * shepazu to take point on next week's meeting, if there is a quorum
 * shepazu to send out e-mail with process/plan for tech reviewers
 * Content Task Force Lead [scottrowe_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
-* shepazu and julee to coordinate with garbee on project buckets, testing [In progress: also programming meeting is next Wednesday]
+* shepazu and julee to coordinate with garbee on project buckets, testing (IN PROGRESS: also programming meeting is next Wednesday)
 * If folks don't respond to email, Julee to set up an IRC calendar page [[WPD:Editors_Guide/step_2_communicate_with_the_online_community#IRC_hours|IRC hangout hours on IRC page]] (DONE)
 
 ==Agenda 2013-03-22==
