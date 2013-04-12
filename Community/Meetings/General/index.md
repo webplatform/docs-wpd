@@ -26,14 +26,15 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** How was it?
 * A lot of meetings next week
 ** Community
+*** Fellowships, interships, mentoring programs for students
+*** Please gather university contacts to add to an announce email list
 ** Analytics
 ** Programming
-* Fellowships, interships, mentoring programs for students
-* Please gather university contacts to add to an announce email list
-* Anyone want to share any status on any project?
-** Forums
-** Translation URL schema decision final?
-** Session bug's gone again!
+* Closing out some items
+** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0121.html Forum dependencies] - completion date?
+** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0090.html Translation URL schema] (http://docs.webplatform.org/wiki/lang/es/Main_Page) - decision final?
+** [http://project.webplatform.org/infrastructure/issues/1 Session bug] is gone again! Is this issue closed?
+* Anyone want to share any status on any project? Can we get completion dates?
 ** CSS Properties project
 ** Project.* project
 ** Global nav project
