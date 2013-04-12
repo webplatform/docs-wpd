@@ -36,7 +36,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** CSS Properties project
 ** Project.* project
 ** Global nav project
-** Beginners guide to web dev
+** [http://project.webplatform.org/content/issues/41 Beginners guide] to web dev - Status from Chris: created all of the [[http://docs.webplatform.org/wiki/TEST:beginners|landing pages]] and writing updated text for the landing page
 ** Populating news email list with [[WPD:Projects/Communications/Universities|university contacts]]
 *** Fellowships, interships, mentoring programs for students
 *** Please gather university contacts to add to an announce email list
