@@ -19,10 +19,14 @@ Note: If you are new to using IRC, check out this [http://richard.esplins.org/si
 ===IRC hours===
 
 {|class="wikitable" style="text-align: center; color: green; width:50%"
-!colspan="2" align="center"|When folks are hanging out on #webplatform
+!colspan="2" align="center"
+|When folks are hanging out on #webplatform
 |-
 |Julee
 |10a-noon PDT
+|-
+|Frozenice
+|CE(S)T evenings / weekends
 |-
 |Next persona
 |their hours
