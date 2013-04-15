@@ -4,11 +4,11 @@ This is the project page for the DOM API documentation on WPD.
 
 ==Purpose==
 
-The purpose of this documentation is to describe the Document Object Model for developers using JavaScript to build applications that work with DOM artifacts. It is not an architectural study of the DOM, nor is it intended to support the development of the DOM itself.
+The purpose of this documentation is to describe the Document Object Model for developers of applications that work with DOM artifacts. It is not an architectural study of the DOM, nor is it intended to support the development of the DOM itself.
 
 ==Scope==
 
-This documentation will cover the DOM artifacts relevant to their use in JavaScript. This document does not cover the HTML elements or CSS artifacts that otherwise are considered part of the DOM. Nor does this project deal with the SVG or MathML content in WPD.
+This documentation will cover the programatic artifacts that provide an interface to the DOM, the APIs. This document does not cover the HTML elements or CSS artifacts that otherwise are considered part of the DOM. Nor does this project deal with the SVG or MathML content in WPD.
 
 ==Tasks==
 
@@ -19,7 +19,7 @@ The two primary tasks of this project are as follows:
 ==Reorganization==
 First, we have to reorganize our current content.
 
-===Organization problems==-
+===Organization problems===
 Most of the problems with the way the content is currently organized boil down to the use of "interstials" - either as unnecessary namespace delineations or artificial subtree designations.
 
 Consider the current state of the [[dom|DOM]] pages. Some follow the very plain, short, and predictable delineation that we consider optimum:
@@ -55,7 +55,7 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 
 ===Organization solution===
 
-Proposed is the abolition of all "interstitials" except for the "event" interstitial, and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary. To that, we would have the following first-tier designations.
+Proposed is the abolition of all "interstitials" except for the "event" interstitial, and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
 * '''dom/events''' - a listing page with all DOM events
 
@@ -75,3 +75,7 @@ etc.
 Going further into the namespace, all members would be organized under their parent objects. To wit:
 * current: [[dom/apis/document/getElementById]] proposed: [[dom/Document/getElementById]]
 * current: [[dom/traversal/methods/RangeException]] proposed: [[dom/Element/RangeException]]
+
+This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" and "events" listing pages), because there is no danger of namespace conflicts that would require the use of such interstitials.
+
+An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant. We have only the "events" subtree of the DOM as an interstitial, as it is an area of related usage.
