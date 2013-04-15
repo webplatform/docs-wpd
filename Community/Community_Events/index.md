@@ -14,7 +14,7 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 * '''Summer-2013'''—TENTATIVE: Doc Sprint @ Durham, SC 
 * '''15-19-JUN-2013'''—TENTATIVE: Doc Sprint @ OPEN HELP  
 * '''25-JUL-2013'''—OSCON - Janet & Eliot talking about WePlatform 7:00 on 25 Jul 2013.
-* '''03-APR-2013'''—WebPlatform Doc Sprint at Google in San Francisco, California, USA. [http://www.sfhtml5.org/events/109202662/ Registration]
+* '''03-APR-2013'''—WebPlatform Doc Sprint at Google in San Francisco, California, USA. [http://blog.webplatform.org/2013/04/doc-sprint-san-francisco-april-3/ Blog post]
 * '''23-FEB-2013'''—WebPlatform Doc Sprint at Adobe in San Francisco, California, USA. [http://docsprint.eventbrite.com/ Registration]
 * '''08+09-FEB-2013'''—First WebPlatform Doc Sprint in Europe in Berlin, Germany. [http://web-platform-doc-sprint-berlin.eventbrite.com/ Register here] [[community/berlin feb 2013|Talk plan for berlin doc sprint]]
 * '''12-DEC-2012'''—WebPlatform Doc Sprint at Google in Mountain View, California, USA. [https://developers.google.com/events/10292028/ Register here].
