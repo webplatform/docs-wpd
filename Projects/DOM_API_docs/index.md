@@ -79,3 +79,8 @@ Going further into the namespace, all members would be organized under their par
 This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" and "events" listing pages), because there is no danger of namespace conflicts that would require the use of such interstitials.
 
 An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant. We have only the "events" subtree of the DOM as an interstitial, as it is an area of related usage.
+
+We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above.
+
+==Amending the content==
+We'll deal with this after we get reorganized. To be continued...
