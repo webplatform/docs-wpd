@@ -17,6 +17,10 @@ The two primary tasks of this project are as follows:
 * Fill in the pages with information currently missing.
 
 ==Reorganization==
+First, we have to reorganize our current content.
+
+===Organization problems==-
+Most of the problems with the way the content is currently organized boil down to the use of "interstials" - either as unnecessary namespace delineations or artificial subtree designations.
 
 Consider the current state of the [[dom|DOM]] pages. Some follow the very plain, short, and predictable delineation that we consider optimum:
 * dom/<object>/<member>
@@ -48,3 +52,26 @@ For example, [[dom/gotpointercapture]].
 Inheritance is not described in the URLs of the pages. Most pages follow this organization:
 * dom/<object>
 For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement]].
+
+===Organization solution===
+
+Proposed is the abolition of all "interstitials" except for the "event" interstitial, and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary. To that, we would have the following first-tier designations.
+* '''dom''' - a listing page with all DOM objects and their summaries.
+* '''dom/events''' - a listing page with all DOM events
+
+Events are usually targeted to DOM Elements, and the event target is not information that need be displayed in the URL. However, the designation of events as separate from other DOM artifacts is useful as information in the URL.
+
+Inheritance, however, should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
+* dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
+* dom/Navigator
+* dom/Window
+* dom/Node
+* dom/Document
+* dom/Element
+* dom/HTMLElement
+* dom/HTMLMenuElement
+etc.
+
+Going further into the namespace, all members would be organized under their parent objects. To wit:
+* current: [[dom/apis/document/getElementById]] proposed: [[dom/Document/getElementById]]
+* current: [[dom/traversal/methods/RangeException]] proposed: [[dom/Element/RangeException]]
