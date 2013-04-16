@@ -1,7 +1,6 @@
 {{Page_Title|Step 2: Communicate with the online community}}
 {{Flags
-|High-level issues=Missing Relevant Sections
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=Navigation Flow:
 Each step in the Editor's Guide should have an option at bottom to "Go to Step X" and possibly "Go back to Overview" to facilitate user's movement through the steps instead of tracking back to move ahead.
 }}
