@@ -37,40 +37,39 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 * Further planning
 
 ===Notes===
-
 At today's meeting of the Community Development task force, we had the following.
 
-Agenda
+====Agenda====
+* Establish an irregular meeting time.
+* Develop a plan for university outreach and communication.
+* Decide when/where to hold up-coming doc sprints.
 
-Establish an irregular meeting time.
-Develop a plan for university outreach and communication.
-Decide when/where to hold up-coming doc sprints.
+====Actions====
 
-Actions
+=====Meeting time=====
+* Resolved: the meeting's appointed time shall remain Tuesdays via Zakim at 10:00 Pacific Time, to be held only if there is an agenda.
+* Doug (shepazu): confirm the Zakim reservation and reestablish the conference code, 3627 for these meetings.
 
-Meeting time
-Resolved: the meeting's appointed time shall remain Tuesdays via Zakim at 10:00 Pacific Time, to be held only if there is an agenda.
-Doug (shepazu): confirm the Zakim reservation and reestablish the conference code, 3627 for these meetings.
-University outreach
-Julee to contact Alex (jkomoros) about potential internship funding and availability.
-Julee to create internal spreadsheet listing contacts, their address and particulars.
-All to fill in the spreadsheet with contacts - having done the legwork to sign them up.
-Doug (shepazu) to contact W3C member universities.
-Julee to edit student recruitment message [1] with more detail about internships and specific tasks/projects for recruits.
-Doc Sprints
-Resolved: Holding a doc sprint at OpenHelp would be contingent upon Mozilla also holding a doc sprint. Not likely.
-Tabled: Doc sprint at OSCon, July in Portland, OR.
-Tabled: Doc sprint to coincide with Internet Week New York [2].
-Tabled: Doc sprint in North Carolina.
-Tabled: Doc sprint in New York or Boston area late summer.
-Tabled: Doc sprint in Amsterdam, with Frontiers conference in October.
-Next meeting
+=====University outreach=====
+* Julee to contact Alex (jkomoros) about potential internship funding and availability.
+* Julee to create internal spreadsheet listing contacts, their address and particulars.
+* All to fill in the spreadsheet with contacts - having done the legwork to sign them up.
+* Doug (shepazu) to contact W3C member universities.
+* Julee to edit student recruitment message [1] with more detail about internships and specific tasks/projects for recruits.
 
+=====Doc Sprints=====
+* Resolved: Holding a doc sprint at OpenHelp would be contingent upon Mozilla also holding a doc sprint. Not likely.
+* Tabled: Doc sprint at OSCon, July in Portland, OR.
+* Tabled: Doc sprint to coincide with Internet Week New York [2].
+* Tabled: Doc sprint in North Carolina.
+* Tabled: Doc sprint in New York or Boston area late summer.
+* Scott: To work with Peter to identify conferences to target for New York/Boston late summer.
+* Tabled: Doc sprint in Amsterdam, with Frontiers conference in October.
+
+=====Next meeting=====
 We'll hold another meeting next week to discuss progress on actions and tabled items.
 
-
-Minutes
-
+====Minutes====
 10:10 AM — julee present
 10:12 AM <scottrowe_> present
 10:12 AM — jswisher is present
