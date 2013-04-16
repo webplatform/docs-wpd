@@ -18,7 +18,7 @@ Individuals with university contacts can send out an email, or they can pass the
 
 ===Draft email===
 
-====Subject: WebPlatform.org wants your students====
+====Subject: WebPlatform.org is looking for students====
 
 ====cc-ing 1st degree contact====
 
@@ -26,15 +26,17 @@ Individuals with university contacts can send out an email, or they can pass the
 
 Dear So Andso:
 
-You were referred to us by [1st degree contact]. We'd like to get the word out to your students about WebPlatform.org -- where the community is documenting the web standards. This effort is comparable to the early stages of wikipedia. WebPlatform.org is sponsored by companies such as Google, Microsoft, Mozilla, Apple, Adobe, Intel, Facebook, Nokia, HP, and Opera. We also have web and mobile experts contributing content and their time. 
+You were referred to us by [1st degree contact]. We'd like to get the word out to your students about WebPlatform.org -- where the community is documenting the web standards. This effort is comparable to the early stages of wikipedia. We have web and mobile experts contributing content and their time. WebPlatform.org is sponsored by companies such as W3C, Adobe, Apple, Facebook, Google, HP, Intel, Microsoft, Mozilla, Nokia, Opera.  
 
 =====What we have to offer your students=====
 
 We'd like to include the upcoming generation of web professionals to:
 
-* let them know this is their web
-* connect them with industry leaders
-* support their contribution to the web
+* Let them know this is their web
+* Connect them with industry leaders
+* Support their contribution to the web
+* Give students the opportunity to work on a professional site and build their portfolio
+* Encourage intercollegiate and professional collaboration
 
 We have immediate opportunities for volunteer writers, coders, designers, social media enthusiasts, and detailed-oriented individuals. We have mentors who can guide your students through their training and contributions.
 
@@ -46,7 +48,7 @@ We'd like to add you to our email list (public-webplatform-news@w3.org), to info
 
 We'd appreciate you forwarding this email to the person responsible for communications in your department. If you have a periodic newsletter or other communication about industry opportunities, we'd like to submit our news to that person for dissemination.
 
-Finally, if you know exceptional students who are working on front-end development (HTML, CSS, SVG, JavaScript) or LAMP development, please let put us in contact with them. We may have a paid internship, fellowship, or mentoring program, just for them.
+Finally, if you know exceptional students who are working on front-end development (HTML, CSS, SVG, JavaScript) or LAMP development, would you kindly direct them to our [http://docs.webplatform.org/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community email list or IRC channel]? We may have a paid internship, fellowship, or mentoring program, just for them.
 
 ==Timeline==
 
