@@ -21,10 +21,13 @@ Note: If you are new to using IRC, check out this [http://richard.esplins.org/si
 !colspan="2" align="center" style="text-align: center;"|When folks are hanging out on #webplatform
 |-
 |Julee
-|10a-noon PDT
+|10a–noon PDT
 |-
 |Frozenice
 |CE(S)T evenings / weekends
+|-
+|Shepazu
+|Noon–evening ET
 |-
 |Next persona
 |their hours
