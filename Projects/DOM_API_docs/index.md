@@ -82,7 +82,7 @@ This follows the methodology in the [[WPD:Creating_API_pages|API Project]], exce
 
 An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant. We have only the "events" subtree of the DOM as an interstitial, as it is an area of related usage.
 
-We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above.
+We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method. Events may be treated either under proper objects (as in dom/PointerEvent - an object) or in the "events" namespace (as in dom/events/dblclick).
 
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
