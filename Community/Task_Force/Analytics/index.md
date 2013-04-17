@@ -88,8 +88,7 @@ set a "docsprint" property on a page, and ID that page
 
 ===ACTIONS===
 
-* Julee to update 
-http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy
+* Julee to use sitemap to update [[WPD:Content/Topic_Hierarchy|Topic hierarchy]]
 * Make it clear that all promo emails should go out with piwik campaign #
 * shepazu: submit Sitemap to google.
 * Julee to doc site based on site map in topic_hierarchy page
