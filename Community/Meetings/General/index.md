@@ -44,6 +44,139 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+===Discussion===
+
+====TOPIC: April 3 Doc Sprint====
+It was great. Scott did a blog post about it.
+====TOPIC: A lot of meetings next week====
+We should confirm that these meetings are productive: resulting in getting work done. If not, we should review.
+====TOPIC: Forums dependencies====
+====TOPIC: *====
+ 
+We want to [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0121.html close down forums], but we need to get some things done first. See dependencies: 
+
+http://project.webplatform.org/content/issues/40
+
+====TOPIC: Translation URL schema==== 
+We came close to a decision on the URL schema for other languages:
+
+http://docs.webplatform.org/wiki/lang/es/Main_Page
+
+But shepazu said we rejected this many times before.
+
+What we have now is almost the worst of both worlds. Bad design by W3C LOC experts, MW's auto URL schema isn't good, 
+what we're doing now is bad for SEO.
+
+Shepazu will follow up with Richard Ishida, W3C's internationalization and localization expert
+
+====TOPIC: Session bug is gone again!====
+
+People haven't seen it, but let's give it a little more time to test.
+It was a token bug. There's a token that ID's the session, depending on the memcache. It wasn't able to find the session and the session was lost. Ryan removed single-signon, and changed the memcache server.
+
+====TOPIC: CSS Properties project====
+Discuss sending out a "call for review". See [
+http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0148.html thread].
+
+But what's the process? Is Julee the right person to send reviewers to? What does she then do? How do we handle comments, store them, deal with them after we get the review? Seems like we don't have any system. Do we have the list of pages to review?
+
+We're talking about SME, we can just ask them to just to edit the page. We won't track what changes they're making. But, what if the change should be made across more pages? So our pages are consistent in org or style?
+
+Also, do we have a golden standard? If folks want to talk about specific styles, it's in one location: the golden standard.
+Is there a WPD voice? We added the golden standard to the top of the [https://docs.google.com/spreadsheet/ccc?key=0AkRs-
+89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE spreadsheet].
+
+Julee will work with SME to decide what pages they're going to review. If it's something global, they need to call that out and we need to fix it across the docs. 
+
+SMEs are looking for whether he doc is technically accurate.
+What we're asking them to determine if the article is "technically accurate?" We're not asking them to set the style of content.
+
+So we do need to hand pick some pages to get SME feedback, but once they say a doc is good, that's good enough.
+
+We're going to get different voices in a Wiki. But, maybe less so in reference docs. But the priorities are:
+
+•	quality content
+•	then i18l English
+•	Then down the line comes the issue of voice.
+So, the ref should be in active voice and some other things, but we shouldn't impose too much at the beginning. Not before we see how things evolve.
+
+Let's have as little process as possible. This is our first major writing project, let's put the least process in the beginning and put checkpoints in place later.
+
+We should make it clear that SMEs need to let us know if there's something global.
+
+And the letter needs to say if they see something that should be fixed across pages, or if they see any problems, contact julee. Want to make it easy for the SMEs to give feedback but doesn't need an official process to make that happen.
+
+shepazu: is concerned that we would make a call for review and problems that would cause them not to come back later. this is a push to a larger community than we've had, so we want them to feel satisfied.
+
+Julee will send out an email clarifying process. 
+
+====TOPIC: Project.* project====
+Garbee writing instrux. Having a state view of the beta is a dependency on reporting progress. This can be accomplished with a master project bucket.
+
+shepazu: julee & shepazu will follow up
+
+====TOPIC: Global nav project====
+The [http://project.webplatform.org/content/issues/14 global nav] has not been implemented consistently. Forums closing has a dependencies on this project.
+
+Lea's out this week. She's going to point to WPD in her preso!
+
+
+====TOPIC: Beginners guide to web dev====
+
+Chris Mills created all of the landing pages and writing updated text for the landing page.
+
+http://docs.webplatform.org/wiki/TEST:beginners
+
+http://project.webplatform.org/content/issues/41
+
+Note we have commenting on the issue page! Try to move discussion about implementation to project.* page.
+
+====TOPIC: Populating news email list with university====
+
+This is probably a comm & recruiting item. In the meantime, we're asking everyone to please gather university contacts to add to an announce email list.
+
+ALSO: Fellowships, interships, mentoring programs for students: GSoC: we got rejected (explicitly not for documentation). But w3c did get approved. Shepazu will follow up.
+
+Media Wiki has a mentoring program, can we add our project to their list? Julee will follow up.
+
+====TOPIC: status of table styles====
+
+Lea will incorporate scott's feedback.
+
+====TOPIC: W3C WG====
+
+W3C WG  is the week after next, may interfere with this meeting. Eliot and Shepazu will talk about presenting there.
+
+====TOPIC: Compatibility tables project====
+
+Shepazu has been working on extension with caniuse data; alexsis d. & ppk: quirks mode data is all HTML.
+
+PPK will package this data. Shepazu is merging these data sets. We may use MDN data as a fallback for the gaps in the caniuse and quirksmode datasets.
+
+Need to optimize with edge side includes (tell fastly to cache it as a special case) Fastly said we can do this.
+
+Need to work out a process for manual customization? (Maybe just the open text field?)
+
+Shooting for end of April to deploy on all ref pages.
+
+====TOPIC: WPD AS PLUGIN==== 
+Tom Ortega wants to participate by investigate building plugins for standard editors: to have WPD be a plugin for these IDE. Julee referred him to frozenice as an initial contact.
+
+===ACTION ITEMS===
+
+* shepazu will call in Richard Ishida, W3C's internationalization and localization expert
+* shepazu to set that up a dedicated discussion on translation URLs
+* Julee to write a draft email outlining the process to use for CSS properties review as instructions for SMEs.
+* shepazu to follow up with Lea regarding global nav (http://project.webplatform.org/content/issues/14)
+* shepazu to send out timeline for W3C GSoC.
+* Julee to talk to ryan about this (DONE: Only GNOME project might apply.)
+* Eliot & shepazu to talk re: presenting at W3C WGs.
+* shepazu to work with PPK/Verio/Alexis Deveria on public-webplatform-tests@w3.org.
+* shepazu to complete this weekend closing down forums (http://project.webplatform.org/content/issues/40, http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0121.html )
+
+
+
+
 ==Agenda 2013-03-29==
 
 * Roll call
