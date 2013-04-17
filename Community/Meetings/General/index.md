@@ -138,7 +138,7 @@ http://project.webplatform.org/prmg/issues/PRMG-10
 * (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG (STATUS: Prepared email. Do we have a systematic way of processing feedback? See 2013-04-15 meeting notes, above, for discussion.)
 * Julee to assign owners for properties after Doc Sprint. (STATUS: in progress)
 * scottrowe_ to ping jkomoros about how to fix the dismissible alpha message (DONE)
-* (CARRIED OVER): shepazu to send localization guide to public list (STATUS: Doug will bring in Richard Ishida, W3C's internationalization and localization expert)
+* (CARRIED OVER): shepazu to send localization guide to public list (STATUS: Chris Mills now has this action item. Doug will bring in Richard Ishida, W3C's internationalization and localization expert)
 * Lea to implement content/issues/14 on docs.* as well (STATUS: Lea's away this week)
 * Julee set up CSS Properties project page with custom queries (STATUS: Not sure we want to do this. Please carry forward.)
 * Analytics team to develop report of key analytics, leading indicators, share at general meeting regularly (STATUS: We got the sitemap! Otherwise, carry forward)
