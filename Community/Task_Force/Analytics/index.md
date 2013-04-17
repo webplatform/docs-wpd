@@ -14,10 +14,9 @@ This group will determine the metrics for reporting the success of site visits. 
 
 See [[WPD:Community/Meetings/Analytics|Analytics Task Force meetings]]
 
+==TOPICS==
 
-===TOPICS===
-
-==TOPIC: Sitemap==
+===TOPIC: Sitemap===
 
 http://project.webplatform.org/analytics/issues/3
 http://project.webplatform.org/analytics/issues/2
@@ -31,7 +30,7 @@ http://project.webplatform.org/infrastructure/issues/10
 We should put map in a user-friendly output and review site map for alignment with architecture
 
 
-==TOPIC: Topic Clusters==
+===TOPIC: Topic Clusters===
 
 Topic clusters, for example: 
 http://reference.sitepoint.com/css/background-color
@@ -55,7 +54,7 @@ shepazu: it should be fairly easy to do. the actual HTML should come from a spec
 
 then the parser tag would output the ESI, pointing to the special page
 
-==TOPIC: Analytics report==
+===TOPIC: Analytics report===
 
 A Report / Overview page that bubbles up to general meeting
 
@@ -86,7 +85,7 @@ patrickdsouza: add campaign tracking to pages before Doc Sprint, etc.
 patrickdsouza: we can compare different campaigns
 set a "docsprint" property on a page, and ID that page
 
-===ACTIONS===
+==ACTIONS==
 
 * Julee to use sitemap to update [[WPD:Content/Topic_Hierarchy|Topic hierarchy]]
 * Make it clear that all promo emails should go out with piwik campaign #
