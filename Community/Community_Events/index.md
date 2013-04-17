@@ -10,7 +10,7 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==List of community events==
 
-* '''OCT-2013'''—TENTATIVE: Doc Sprint @ Amsterdam 
+* '''12-OCT-2013'''—TENTATIVE: Doc Sprint @ Amsterdam 
 * '''31-AUG-2013'''—TENTATIVE: Doc Sprint @ Durham, SC 
 * '''Summer-2013'''—TENTATIVE: Doc Sprint @ Durham, SC 
 * '''25-JUL-2013'''—OSCON - Janet & Eliot talking about WePlatform 7:00 on 25 Jul 2013.
