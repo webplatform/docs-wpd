@@ -58,9 +58,9 @@ For other types of WebPlatform content, Creative Commons [http://wiki.creativeco
 * The original remains unchanged
 * Changes in the redistribution must be labelled.
 
-Creative Commons attribution-based licenses also indicate that those who reuse the content [http://wiki.creativecommons.org/Attribution “must attribute the work in the manner specified by the author or licensor”], leaving it to the licensor to define acceptable manners of attribution.  Under CC-BY, the attribution needs to appear in a place [http://creativecommons.org/licenses/by/3.0/legalcode “reasonable to the medium or means You are utilizing”]. 
+Creative Commons attribution-based licenses also indicate that those who reuse the content [http://wiki.creativecommons.org/Attribution “must attribute the work in the manner specified by the author or licensor”].  Under CC-BY, the attribution needs to appear in a place [http://creativecommons.org/licenses/by/3.0/legalcode “reasonable to the medium or means You are utilizing”]. 
 
-The general rule of thumb that we ask for is to include the phrase, “Thanks to WebPlatform.org and W3C for this content (CC-BY)”, with a link to WebPlatform.org or to the specific content page, if linking is available.  EAch content page will include an [[“attribution chain”]], a list of contributors for the content, which will include WebPlatform.org and W3C, and may include any individuals who wrote significant portions of the content, the organization that provided the content (e.g. the author's employer, or a content sponsor), and the [[WebPlatform Teams]] the individual contributors are associated with.
+To attribute WebPlatform.org content, include a link such as "derived from material on <a href="http://docs.webplatform.org/">WebPlatform.org</a>" and a link to the specific page, if linking is available.  Each content page will include an [[“attribution chain”]], a list of contributors for the content, which will include WebPlatform.org and W3C, and may include any individuals who wrote significant portions of the content, the organization that provided the content (e.g. the author's employer, or a content sponsor), and the [[WebPlatform Teams]] the individual contributors are associated with.
 
 Here are specific guidelines to providing attribution to WebPlatform for different media:
 
