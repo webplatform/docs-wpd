@@ -18,6 +18,19 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-04-19==
+
+* Roll call
+* Review of open action items
+* Task forces reporting back to this general meeting:
+** Community
+** Analytics
+** Program Management
+* Anyone want to share any status on any project? Can we get completion dates?
+* When you tweet, don't forget to check conversation for follow-up!
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
 ==Agenda 2013-04-12==
 
 * Roll call
