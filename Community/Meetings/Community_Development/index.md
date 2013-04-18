@@ -22,6 +22,10 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 * Progress on university outreach.
 * Doc sprints, tabled items from previous meeting.
+** NYC Doc Sprint: Patrick D'Souza has volunteered to be a leader/organizer.
+*** Patrick's last meetup: http://www.hardcorejs.com/events/79232342/
+*** He has ideas for spaces, such as appnexus and GA
+*** Promote it: http://www.meetup.com/ny-tech/
 
 ==Tuesday, April 16, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
