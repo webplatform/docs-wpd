@@ -32,6 +32,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Write a blog about it.
 ** Send it out in social media.
 ** Ask folks on the public list and IRC to re-tweet or whatever.
+** Get stewards to point to it from their highly-juiced pages.
 
 ==Tuesday, April 16, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
