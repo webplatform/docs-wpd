@@ -26,6 +26,12 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 *** Patrick's last meetup: http://www.hardcorejs.com/events/79232342/
 *** He has ideas for spaces, such as appnexus and GA
 *** Promote it: http://www.meetup.com/ny-tech/
+* Should we have a launch plan for Beta: who will create & lead it?
+* Should we have a "New & Notable" checklist: a mini-launch list for great new content or features. Something like:
+** Get a couple of folks to look at it.
+** Write a blog about it.
+** Send it out in social media.
+** Ask folks on the public list and IRC to re-tweet or whatever.
 
 ==Tuesday, April 16, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
