@@ -1,5 +1,7 @@
 Here is a sample schema:
 
+'''''Note:''' this schema does not yet take into account different support statuses per OS for each browser.''
+
 <syntaxhighlight>
 {
    "features" : {
