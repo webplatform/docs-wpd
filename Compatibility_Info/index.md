@@ -27,7 +27,7 @@ Given these requirements, we need to select appropriate sources for this informa
 This data already has a well-structured format that will serve as a great starting point. We may use code from [http://andismith.github.com/caniuse-widget/ Andi Smith's CanIUse widget].
 
 ===QuirksMode===
-QuirksMode, created and maintained by Peter-Paul Koch (PPK), has detailed and comprehensive test results for a variety of browsers, including mobile browsers, and is mature with great historical and current data.
+[http://www.quirksmode.org/compatibility.html QuirksMode.org], created and maintained by Peter-Paul Koch (PPK), has detailed and comprehensive test results for a variety of browsers, including mobile browsers, and is mature with great historical and current data.
 
 ===W3C Tests===
 W3C working groups produce test suites and implementation reports associated with specific specifications.
