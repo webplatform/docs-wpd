@@ -35,6 +35,12 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Send it out in social media.
 ** Ask folks on the public list and IRC to re-tweet or whatever.
 ** Get stewards to point to it from their highly-juiced pages.
+* Doug had a great idea
+** Add link to contributing to JS project on alert pages
+** Write a cool article about "do not track"
+** Promo it on reddit
+** Then, when folks come to visit they get the call to action~
+
 
 ==Tuesday, April 16, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
