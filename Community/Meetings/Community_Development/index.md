@@ -22,6 +22,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 * Progress on university outreach.
 ** Spreadsheet created and sent to comm & recruiting TF members.
+** We want funding to go to content contributors, per Alex.
 * Doc sprints, tabled items from previous meeting.
 ** NYC Doc Sprint: Patrick D'Souza has volunteered to be a leader/organizer.
 *** Patrick's last meetup: http://www.hardcorejs.com/events/79232342/
