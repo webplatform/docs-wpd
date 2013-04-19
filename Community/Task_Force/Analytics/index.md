@@ -18,22 +18,22 @@ See [[WPD:Community/Meetings/Analytics|Analytics Task Force meetings]]
 
 ===TOPIC: Sitemap===
 
-===Location===
+====Location====
 
 http://www.webplatform.org/sitemaps/sitemap-index-wpwiki.xml
 
-===Human-readble version===
+====Human-readble version====
 
 In progress: https://docs.google.com/spreadsheet/ccc?key=0AnXre3v9CjJXdHdKRlFZY2lRREkwVDNndDU5RWdzYnc
 
-===Open issues===
+====Open issues====
 
 http://project.webplatform.org/analytics/issues/3
 http://project.webplatform.org/analytics/issues/2
 http://project.webplatform.org/analytics/issues/1
 http://project.webplatform.org/infrastructure/issues/10
 
-===Discussion===
+====Discussion====
 
 Submitting a sitemap to Google is dependent on Ryan extracting the portions we want to expose to crawlers, see:
 
