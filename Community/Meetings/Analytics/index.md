@@ -11,3 +11,7 @@
 '''IRC Channel:''' webplatform-site
 
 See [[WPD:Community/Task_Force/Analytics|Anaytics]] task force page for more information.
+
+==Agenda 2013-04-26==
+
+* Collapse search project into this one?
