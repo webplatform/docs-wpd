@@ -29,6 +29,9 @@ This data already has a well-structured format that will serve as a great starti
 ===QuirksMode===
 [http://www.quirksmode.org/compatibility.html QuirksMode.org], created and maintained by Peter-Paul Koch (PPK), has detailed and comprehensive test results for a variety of browsers, including mobile browsers, and is mature with great historical and current data.
 
+===MobileHTML5===
+[http://mobilehtml5.org/ MobileHTML5.org], created and maintained by Max Firtman (@firt), covers high-level support for a wide variety of mobile devices. 
+
 ===W3C Tests===
 W3C working groups produce test suites and implementation reports associated with specific specifications.
 
@@ -42,7 +45,7 @@ The [http://testthewebforward.org/ Test the Web Forward] events are a successful
 ===Others===
 There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from other open, high-quality, test-based repositories. In the future, we may also integrate efforts and features from projects like [http://www.browserscope.org/ Browserscope]. Let us know if you have other sources of data you'd like us to consider.
 
-For example, [http://mobilehtml5.org/ Mobile HTML5] might be a good source of data.
+For example, [http://html5test.com/ HTML5Test.com] might be a good source of data.
 
 ==Drilling down into data==
 Ideally, the depth of detail would allow developers to drill down from a high-level overview into individual criteria for conformance, including conformance on different devices and operating systems, combinations of the feature with other related features, and even access to the specific tests and their reported results.
