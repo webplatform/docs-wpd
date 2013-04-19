@@ -104,7 +104,6 @@ set a "docsprint" property on a page, and ID that page
 * Julee to use sitemap to update [[WPD:Content/Topic_Hierarchy|Topic hierarchy]]
 * Make it clear that all promo emails should go out with piwik campaign #
 * shepazu: submit Sitemap to google.
-* Julee to doc site based on site map in topic_hierarchy page
 * scottrowe_to lead review of sitemap as it relates to overall hierarchy, especially as relates to the DOM API and maybe other things like topic clusters
 * shepazu & scottrowe_ or organize discussion around topic clusters
 
