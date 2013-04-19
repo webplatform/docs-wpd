@@ -39,7 +39,7 @@ Submitting a sitemap to Google is dependent on Ryan extracting the portions we w
 
 http://project.webplatform.org/infrastructure/issues/10
 
-4, 6, 14, 102, and 3000
+sitemap-wpwiki-NS_0-0, sitemap-wpwiki-NS_6-0, sitemap-wpwiki-NS_14-0, sitemap-wpwiki-NS_102-0, and sitemap-wpwiki-NS_3000-0
 
 We should put map in a user-friendly output and review site map for alignment with architecture
 
