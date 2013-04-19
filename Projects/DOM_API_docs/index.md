@@ -19,27 +19,31 @@ The two primary tasks of this project are as follows:
 ==Reorganization==
 First, we have to reorganize our current content.
 
-===Organization problems===
+===Current organization variants===
 Most of the problems with the way the content is currently organized boil down to the use of "interstials" - either as unnecessary namespace delineations or artificial subtree designations.
 
-Consider the current state of the [[dom|DOM]] pages. Some follow the very plain, short, and predictable delineation that we consider optimum:
+====Optimum scheme====
+Some of the [[dom|DOM]] pages follow the very plain, short, and predictable delineation that we consider optimum:
 * dom/<object>/<member>
 Where <member> may be a property or method. For example,  [[dom/Element/error]].
 
+====Weird subtrees====
 Some pages are designated as subtrees of the dom/apis. These are:
 * [[dom/apis/audio-video]]
 * [[dom/traversal]]
 These subtree designations appear to be completely artificial, unlike the use of such designations in the [[WPD:Creating_API_pages|API Project]], where API_Listing pages described the common name of the API. Here, with no common API names required to distinguish the pages, these interstitials are unnecessary. The member pages of these dom "subtrees" invariably refer to their parent objects - HTMLElement, etc. - via the "Applies to" template (though these are not shown in the URL presently).
 
-Other pages are using "interstitials" to describe the namespace type, such as:
+====Interstitials====
+Other pages are using "interstitials" to describe the namespace type, such as the "apis" interstitial, as follows:
 * dom/apis/<object>/<member>
 For example, [[dom/apis/document/getElementById]]. Note the object name, "document" is not capitalized, which violates our rules of capitalization. 
 
-Interstitials are used to delineate objects and members:
+Interstitials usually follow the "dom" namespace identifier, and are used to delineate objects and members:
 * dom/objects/<object> 
 * dom/events/<event>
 * dom/methods/<method>
 * dom/properties/<property>
+
 For example [[dom/events/abort]] or [[dom/methods/moveTo]]. For members, these lack any description of the objects that encapsulate them in the URL, though the reference to the parent object is maintained in the content via the "Applies to" template.
 
 Also, within named subtrees of the dom/apis, interstitials are used to distinguish methods and properties as well as events. For example, [[dom/apis/audio-video/properties/type]].
@@ -51,9 +55,10 @@ Some pages have no interstitials at all.
 
 For example, [[dom/gotpointercapture]].
 
+====Inheritance not  in the URLs====
 Inheritance is not described in the URLs of the pages. Most pages follow this organization:
 * dom/<object>
-For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement]].
+For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement]]. This is a good thing. As you can see, describing the inheritance model would make the URLs unnecessarily long without providing any useful information to the user.
 
 ===Organization solution===
 
