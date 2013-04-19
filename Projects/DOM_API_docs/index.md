@@ -48,7 +48,7 @@ For example [[dom/events/abort]] or [[dom/methods/moveTo]]. For members, these l
 
 Also, within named subtrees of the dom/apis, interstitials are used to distinguish methods and properties as well as events. For example, [[dom/apis/audio-video/properties/type]].
 
-In the [[WPD:Creating_API_pages|API Project]] we decided to eliminate these member interstitials as being unnecessary.
+In the [[WPD:Creating_API_pages|API Project]] we decided to eliminate these member interstitials as being unnecessary. We can follow the same reasoning for the DOM APIs.
 
 Some pages have no interstitials at all.
 * dom/<member>
@@ -80,8 +80,8 @@ Inheritance, however, should not be described in the URL. Rather, all DOM object
 etc.
 
 Going further into the namespace, all members would be organized under their parent objects. To wit:
-* current: [[dom/apis/document/getElementById]] proposed: [[dom/Document/getElementById]]
-* current: [[dom/traversal/methods/RangeException]] proposed: [[dom/Element/RangeException]]
+* current: [[dom/apis/document/getElementById]]       proposed: [[dom/Document/getElementById]]
+* current: [[dom/traversal/methods/RangeException]]       proposed: [[dom/Element/RangeException]]
 
 This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" and "events" listing pages), because there is no danger of namespace conflicts that would require the use of such interstitials.
 
