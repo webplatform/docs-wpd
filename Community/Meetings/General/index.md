@@ -18,6 +18,11 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-04-26==
+
+* Discuss appearance of content flags.
+: Limited, but pointed feedback (from doc sprinters, others) suggests that these may be a deterrent to editing content. Consider toning them down?
+
 ==Agenda 2013-04-19==
 
 * Roll call
