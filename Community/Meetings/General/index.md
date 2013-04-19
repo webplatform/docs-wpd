@@ -27,7 +27,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Analytics
 ** Program Management
 * Anyone want to share any status on any project? Can we get completion dates?
-* Review proposed URL/structure of [[WPD:Projects/DOM_API_docs|DOM API docs].
+* Review proposed URL/structure of [[WPD:Projects/DOM_API_docs|DOM API docs]].
 * When you tweet, don't forget to check conversation for follow-up!
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
