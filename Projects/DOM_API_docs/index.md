@@ -29,7 +29,7 @@ Where <member> may be a property or method. For example,  [[dom/Element/error]].
 Some pages are designated as subtrees of the dom/apis. These are:
 * [[dom/apis/audio-video]]
 * [[dom/traversal]]
-These subtree designations appear to be completely artificial, unlike the use of such designations in the [[WPD:Creating_API_pages|API Project]], where API_Listing pages described the common name of the API. Here, with no common API names required to distinguish the pages, these interstitials are unnecessary. The member pages of these dom "subtrees" invariably refer to their parent objects (via the "Applies to" template, though these are not shown in the URL.
+These subtree designations appear to be completely artificial, unlike the use of such designations in the [[WPD:Creating_API_pages|API Project]], where API_Listing pages described the common name of the API. Here, with no common API names required to distinguish the pages, these interstitials are unnecessary. The member pages of these dom "subtrees" invariably refer to their parent objects - HTMLElement, etc. - via the "Applies to" template (though these are not shown in the URL presently).
 
 Other pages are using "interstitials" to describe the namespace type, such as:
 * dom/apis/<object>/<member>
