@@ -28,6 +28,9 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 *** Patrick's last meetup: http://www.hardcorejs.com/events/79232342/
 *** He has ideas for spaces, such as appnexus and GA
 *** Promote it: http://www.meetup.com/ny-tech/
+** North Carolina (?)
+** OSCon, Portland, OR - July (?)
+** Amersterdam - October
 * Should we have a launch plan for Beta: who will create & lead it?
 * Should we have a "New & Notable" checklist: a mini-launch list for great new content or features. Something like:
 ** Get a couple of folks to look at it.
