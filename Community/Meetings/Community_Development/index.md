@@ -76,7 +76,7 @@ jswisher, scottrowe, patrickdsouza, shepazu
 ** Develop a WPD page banner for current area of emphasis
 ** Blog, Tweet, etc.
 
-====Agenda items tabled===
+====Agenda items tabled====
 
 * Progress on university outreach.
 ** Spreadsheet created and sent to comm & recruiting TF members.
