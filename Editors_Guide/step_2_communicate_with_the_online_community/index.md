@@ -27,6 +27,9 @@ Note: If you are new to using IRC, check out this [http://richard.esplins.org/si
 |Shepazu
 |Noon–evening ET
 |-
+|Scottrowe
+|9 a.m. – 5 p.m. Pacific Time
+|-
 |Next persona
 |their hours
 |}
