@@ -10,7 +10,7 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==List of community events==
 
-* '''12-OCT-2013'''—TENTATIVE: Doc Sprint @ Amsterdam 
+* '''12-OCT-2013'''— WebPlatform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page]
 * '''31-AUG-2013'''—TENTATIVE: Doc Sprint @ Durham, SC 
 * '''Summer-2013'''—TENTATIVE: Doc Sprint @ Durham, SC 
 * '''25-JUL-2013'''—OSCON - Janet & Eliot talking about WebPlatform 7:00 on 25 Jul 2013.
