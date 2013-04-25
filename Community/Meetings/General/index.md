@@ -20,8 +20,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 ==Agenda 2013-04-26==
 
-* Discuss appearance of content flags.
+* Appearance of content flags.
 : Limited, but pointed feedback (from doc sprinters, others) suggests that these may be a deterrent to editing content. Consider toning them down?
+* [[WPD:Projects/DOM_API_docs|DOM API Doc Reorganization Proposal]].
 
 ==Agenda 2013-04-19==
 
