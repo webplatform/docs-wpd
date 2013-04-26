@@ -108,7 +108,7 @@ This topic moved to communications & recruiting
 
 They'll get the pop-up for JS and get involved!
 
-3.a.: blog post: count on us to be neutral
+...3.a.: blog post: count on us to be neutral
 
  vet with key stakeholders
 
@@ -128,9 +128,4 @@ Whoa!! http://docs.webplatform.org/w/index.php?search=font-size&fulltext=+&title
 * Julee to update bug to ryan: site map can't have *.gz, master must point to xml files (DONE)
 * Make it clear that all promo emails should go out with piwik campaign #
 * in Piwik: remove ADC and keep html5weekly; add university, "news" email list, and for each social media channel, our blog, steward co. site posts, doc sprints, to id docs that were edited
-
-
-
-
-
-ACTION: shepazu: JS post Monday, alert update, drm content, then notify patrick
+*  shepazu: JS post Monday, alert update, drm content, then notify patrick
