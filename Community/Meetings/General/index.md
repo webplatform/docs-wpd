@@ -185,18 +185,13 @@ Tom Ortega wants to participate by investigate building plugins for standard edi
 
 ===ACTION ITEMS===
 
-* shepazu will call in Richard Ishida, W3C's internationalization and localization expert
-* shepazu to set that up a dedicated discussion on translation URLs
+* shepazu will call in Richard Ishida, W3C's internationalization and localization expert (DONE)
 * Julee to write a draft email outlining the process to use for CSS properties review as instructions for SMEs. (DONE http://project.webplatform.org/content/issues/43)
-* shepazu to follow up with Lea regarding global nav (http://project.webplatform.org/content/issues/14)
-* shepazu to send out timeline for W3C GSoC.
+* shepazu to follow up with Lea regarding global nav (http://project.webplatform.org/content/issues/14) (DONE)
 * Julee to talk to ryan about this (DONE: Only GNOME project might apply. Pursuing as part of community & recruiting agenda.)
-* Eliot & shepazu to talk re: presenting at W3C WGs.
-* shepazu to work with PPK/Verio/Alexis Deveria on public-webplatform-tests@w3.org.
-* shepazu to complete this weekend closing down forums (http://project.webplatform.org/content/issues/40, http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0121.html )
-
-
-
+* shepazu to send out timeline for W3C GSoC (STATUS: We discussed during analytics that it probably wasn't the right)
+* Eliot & shepazu to talk re: presenting at W3C WGs. (DONE: saw no follow up from julee or scottrowe. check your inboxes.)
+* shepazu to work with PPK/Verio/Alexis Deveria on public-webplatform-tests@w3.org (ON-GOING: shepazu: will report back if there's anything to report.)
 
 ==Agenda 2013-03-29==
 
