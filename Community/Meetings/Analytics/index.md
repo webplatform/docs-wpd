@@ -15,6 +15,7 @@ See [[WPD:Community/Task_Force/Analytics|Anaytics]] task force page for more inf
 ==Agenda 2013-04-26==
 
 * Collapse search project into this one?
+* Are these all the projects we're working on: [[WPD:Community/Task_Force/Analytics#Projects|Projects]]
 
 ==Agenda 2013-04-19==
 ==DISCUSSION==
