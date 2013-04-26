@@ -42,6 +42,9 @@ While W3C Test Suites are comprehensive for W3C specification features, they are
 ===Test the Web Forward===
 The [http://testthewebforward.org/ Test the Web Forward] events are a successful effort to help crowdsource testing. This is a effort driven by Adobe and others to get developers directly involved in helping write tests. The resulting tests are intended to be made available through W3C's test suites.
 
+===MDN===
+[https://developer.mozilla.org/ Mozilla Developer Network (MDN)] does not have a test-based methodology for its compatibility tables, which are reported manually by their contributors, but it does have wide coverage and a meaningful granularity of features. We can use these results as a stop-gap measure to fill in information where other data sources don't supply information. These non-test-based results will bear an indicator that they are not verified, and we will provide a way to allow contributors to submit tests and results for verification.
+
 ===Others===
 There are many other sources of good data on the web, some specialized and some with a different focus. We welcome data from other open, high-quality, test-based repositories. In the future, we may also integrate efforts and features from projects like [http://www.browserscope.org/ Browserscope]. Let us know if you have other sources of data you'd like us to consider.
 
@@ -81,5 +84,6 @@ To be useful to other projects, this API should also allow anyone to query our c
 
 ==Timeline==
 * '''[[WPD:Compatibility_Info/Phase_1|Phase 1]]:''' integrate automated compatibility tables from CanIUse data ''(March–April 2013)''
-* '''Phase 2:''' normalize and integrate QuirksMode data ''(April–July 2013)''
-* '''Phase 3:''' normalize and integrate W3C Test data ''(August 2013 – March 2014)''
+* '''[[WPD:Compatibility_Info/Phase_2|Phase 2]]:''' integrate MDN data ''(April–May 2013)''
+* '''Phase 3:''' normalize and integrate QuirksMode data ''(April–July 2013)''
+* '''Phase 4:''' normalize and integrate W3C Test data ''(August 2013 – March 2014)''
