@@ -16,6 +16,21 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 [irc://irc.freenode.net/webplatform-site irc]
 [http://webchat.freenode.net/?channels=#webplatform-site webchat]
 
+==Tuesday, April 30, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
+
+===Agenda===
+* Progress on university outreach.
+** Spreadsheet created and sent to comm & recruiting TF members.
+** We want funding to go to content contributors, per Alex.
+* Should we have a launch plan for Beta: who will create & lead it?
+* Should we have a "New & Notable" checklist: a mini-launch list for great new content or features. Something like:
+** Get a couple of folks to look at it.
+** Write a blog about it.
+** Send it out in social media.
+** Ask folks on the public list and IRC to re-tweet or whatever.
+** Get stewards to point to it from their highly-juiced pages.
+* Doc Sprint North Carolina (?)
+
 ==Tuesday, April 23, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
 ===Agenda===
