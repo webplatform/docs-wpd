@@ -23,5 +23,10 @@ See [[WPD:Community/Meetings/Analytics|Analytics Task Force meetings]]
 ==Projects==
 Here's what we're working on.
 
-===Bug Genie and WPDS Dashboard integration===
-Need to provide.
+===sitemap===
+
+===reporting dashboard===
+
+===campaign management===
+
+===seo audit===
