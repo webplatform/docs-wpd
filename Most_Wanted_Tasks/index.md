@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Grammar/Spelling
+|Checked_Out=No
 }}
 {{Summary_Section|A quick list of things that could be done around the site.}}
 {{Basic Page}}
@@ -8,28 +9,28 @@ Here is a great quick list of specific things that could be done around the site
 
 Working on the Web Platform DocSprint in Mountain View (12/12/12)? Use this tracking spreadsheet: [http://goo.gl/NHJYT http://goo.gl/NHJYT]
 
-Thanks in advance for any tasks completed!  
+Thanks in advance for any task completed!  
 
-===Five Minute Tasks===
+===Five-minute tasks===
 * Import an article or two worth of compatibility information from CoreMob's published compatibility table: https://docs.google.com/spreadsheet/ccc?key=0AuIhlK0fCwP4dEFPR1pUWHk1QVczcV9xbFAtX19CMXc#gid=0
 
-===Half Hour Tasks===
+===Half-hour tasks===
 
-* Help improve the JS Libraries page [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19834 bug 19834]
+* Help improve the JavaScript libraries page [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19834 bug 19834]
 
-* Help create the pages for server-side languages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19391 bug 19391].  Please remember that we are NOT fully documenting languages and that the content should be non-opinionated.
+* Help create the pages for server-side languages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19391 bug 19391].  Please remember that we are '''not''' fully documenting languages and that the content should not be opinionated.
 
-* Remove HTML4 specific content from some tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19719 bug 19719]
+* Remove HTML4-specific content from some tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19719 bug 19719]
 
 * Clean the HTML tutorials [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19720 bug 19720]
 
-===Half Day Tasks===
+===Half-day tasks===
 
 * Help improve HTML attribute pages [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500 bug 19500]
 
 * Help import some that failed during the initial import [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19314 bug 19314]
 
-Note:  These tasks are under half day tasks, but individual edits would be *far* faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
+Note:  These tasks are under half day tasks, but individual edits would be '''far''' faster.  Don't think you need to take on everything.  Just one or two edits in these areas is much appreciated.
 
 * Review merges from meta:html into html/elements [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19265 bug 19265]
 
@@ -37,7 +38,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 * Put every page into a category except for the main page.  Review the [[Special:UncategorizedPages|Uncategorized Pages]] to see where this is needed.
 
-* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 Lonely Pages].  These are typically the pages that need the most work at this time.
+* Fix [http://docs.webplatform.org/w/index.php?title=Special:LonelyPages&limit=500&offset=0 lonely pages].  These are typically the pages that need the most work at this time.
 
 * Move capitalized page paths that aren't following the style guide.  Check [[:Category:CSS]] for this.
 
@@ -46,7 +47,7 @@ Note:  These tasks are under half day tasks, but individual edits would be *far*
 
 ===Brainstorming===
 
-* Let's find a way to display CSS Properties better [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19835 bug 19835]
+* Let's find a way to display CSS properties better [https://www.w3.org/Bugs/Public/show_bug.cgi?id=19835 bug 19835]
 
 ===Always going===
 
@@ -81,7 +82,7 @@ I would like to call upon anyone interested to help start going through the HTML
 
 * [[html/elements/ul|ul]] worked on by [[User:Michistar|Michelle Carlough]]
 
-====Completed Pages====
+====Completed pages====
 
 * [[html/elements/p|The paragraph element]]
 
