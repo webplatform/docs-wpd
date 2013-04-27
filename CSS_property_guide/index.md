@@ -79,27 +79,8 @@ Shorthand: (this currently doesn't exist in the CSS property form template but w
 * Usage
 * Related specifications
 * Related articles
-* Compatibility table
-
-<pre>Safari	
-- Desktop:  Mobile:  
-Chrome	
-- Desktop:  Mobile: 
-Firefox	
-- Desktop:  Mobile:  
-IE	
-- Desktop:  Mobile:  
-Opera	
-- Desktop:  Mobile: 
-Opera Mini	
-- Desktop: n/a Mobile: 
-Android	
-- Desktop: n/a Mobile:  
-Blackberry	
-- Desktop: n/a Mobile:  
-Nokia N9
-- Desktop: n/a Mobile:</pre>
-
+* Compatibility table (You can ignore these for now. We're working on brining in the data manually.)
+* Compatibility notes (Only add something if you think it's unique and isn't represented on sites like caniuse.com or developer.mozilla.org)
 
 After collecting all the information, you'll then need to go through the different form fields in the edit page and fill each one in.
 
@@ -262,103 +243,7 @@ Relevant changes: Multiple background images can be specified on the same elemen
 
 ===Compatibility table===
 
-Fill in as many options on the compatibility table as you can. Data can be found in places such as caniuse.com, MDN and quierksmode. You'll need to full in a separate entry in both the desktop and mobile table sections, for each bit of support data, and think about what different support entries you will need — in the case of background-image, I decided it would be useful to have separate entries for basic background-image support, SVG background image support, multiple background images, and CSS gradients. You can find some more useful ideas on gathering support data at [[WPD:Getting_Started/Compatibility|Compatibility]].
-
-A basic, reasonable approach is as follows:
-
-* Leave any compatibility data that is already there in the page; generall y it will have been extracted from the original source of the page, for example MSDN, so should be fairly accurate.
-* Try to find a page covering the same property on MDN (in your search engine, search for "MDN property-name"). Use MDN to verify data you've already got, and copy across data you've not already got. MDN is fairly good for getting information on support for older, more mature properties, like basic background-image support!
-* Also search for the property/feature you are looking for support data on, at caniuse.com. Again, copy across missing data, and use it to verify any data you've not already got.
-* For anything you can't find, leave it as "unknown" for now
-* If you do manage to complete a set of compatibility data for a CSS property, uncheck the "compatibility incomplete" flag checkbox at the top of the page.
-
-
-
-====Basic background-image====
-
-* Safari	
-**	Desktop: 1.0 Mobile: 1.0 
-* Chrome	
-**	Desktop: 1.0 Mobile: 1.0
-* Firefox	
-**	Desktop: 1.0 Mobile: 1.0 
-* IE	
-**	Desktop: 4.0 Mobile: 6.0 
-* Opera	
-**	Desktop: 3.5 Mobile: 7.0
-* Opera Mini	
-**	Desktop: n/a Mobile: 4.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0 
-	
-====Multiple backgrounds====
-
-* Safari	
-**	Desktop: 1.0 Mobile: 1.0 
-* Chrome	
-**	Desktop: 1.0 Mobile: 1.0
-* Firefox	
-**	Desktop: 3.6 Mobile: 1.0 
-* IE	
-** 	Desktop: 9.0 Mobile: 8.0 
-* Opera	
-**	Desktop: 9.0 Mobile: 8.5
-* Opera Mini	
-**	Desktop: n/a Mobile: 5.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0 
-	
-====SVG background images====
-
-* Safari	
-**	Desktop: 1.0 Mobile: 1.0 
-* Chrome	
-**	Desktop: 8.0 Mobile: 1.0
-* Firefox	
-**	Desktop: 4.0 Mobile: 1.0 
-* IE	
-**	Desktop: 9.0 Mobile: 8.0 
-* Opera	
-**	Desktop: 9.5 Mobile: 10.0
-* Opera Mini	
-**	Desktop: n/a Mobile: 6.0
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-* Blackberry	
-**	Desktop: n/a Mobile: 3.8 
-* Nokia N9
-**	Desktop: n/a Mobile: 1.0
-	
-====Gradients====
-
-* Safari	
-**	Desktop: 1.0 with -webkit- Mobile: 1.0 with -webkit- 
-* Chrome	
-**	Desktop: 1.0 with -webkit- Mobile: 1.0 wit -webkit-
-* Firefox	
-**	Desktop: 4.0 with -moz- Mobile: 1.0 
-* IE	
-**	Desktop: 10 without prefix Mobile: 8.0 
-* Opera	
-**	Desktop: 11 with -o-, 12.5 without prefix Mobile: 11.0 with -o-, 12 without prefix
-* Opera Mini	
-**	Desktop: n/a Mobile: no
-* Android	
-**	Desktop: n/a Mobile: 1.0 
-** Blackberry	
-*	Desktop: n/a Mobile: 3.8 
-** Nokia N9
-*	Desktop: n/a Mobile: 1.0
-
-
+You can ignore the compatibility table for now. (We're working on brining in the data manually.) Update the compatibility notes field only if you think it's unique and isn't represented on sites like caniuse.com or developer.mozilla.org.
 
 ===Compatibility notes===
 
