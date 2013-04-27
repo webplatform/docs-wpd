@@ -14,7 +14,6 @@ Before you begin, you already should have:
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
-Most properties already have a page. Basically, you
 * pick a property (preferably one that's priority-0 through priority-2) from [[https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE the spreadsheet]] and add your name in the owner/reviewer column.
 * read the CSS property page through.
 * compare it to its spec(s).
