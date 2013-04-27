@@ -2,10 +2,8 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|This article is a guide to implementing a CSS property reference page.}}
+{{Summary_Section|Help us update, review, add samples, and add quality to the CSS properties! This article is a guide to implementing a CSS property reference page.}}
 {{Basic Page}}
-Help us update, review, add samples, and add quality to the CSS Properties!
-
 ===Before you begin===
 
 Before you begin, you already should have:
