@@ -4,12 +4,30 @@
 }}
 {{Summary_Section|This article is a guide to implementing a CSS property reference page.}}
 {{Basic Page}}
+Help us update, review, add samples, and add quality to the CSS Properties!
+
+Before you begin, you should have:
+* taken the steps to register for this site, communicate with the team, and work with the wiki. (Select [[WPD:Editors_Guide|"Editing"]] from any page on the site.)
+* ran through at least one basic contribution. See how to [[WPD:Getting_Started|start contributing content]], a cycle through one basic task, such as fixing links or adding a summary to a page.
+
+Below, Chris Mills runs through updating a property. But basically, you:
+
+Most properties already have a page. Basically, you
+* pick a property (preferably one that's priority-0 through priority-2) from [[https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE the spreadsheet]] and add your name in the owner/reviewer column
+* read the CSS property page through
+* compare it to the spec
+* compare the content to other reputable sites, such as Mozilla Developer Network
+* play around with the elements documented – you can use our playground http://code.webplatform.org
+* update the page based on your findings
+* remove any flags you think are no longer necessary
+* update the spreadsheet with your status and any notes: "fixed, needs review" or "Finished!" or such
+
+==The CSS properties spreadsheet==
+
 We have compiled a rather large and hopefully exhaustive list of all existing CSS properties — this can be found at
 https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
 
-At-a-glance view of who is working on what: [[css/assigned|Assigned CSS property pages]]
-
-We have assigned each property a priority level, starting from P0 and going down to P4. The highest priority is for vital, commonly-used properties that every browser supports, whereas the lowest level is for properties that are rarely-used, proprietary, have limited cross-browser support, or all of the above. We would like to start on the highest priority ones and work out way down.
+We have assigned each property a priority level, starting from Priority-0 and going down to Priority-4, where P0 is the highest priority for vital, commonly-used properties that every browser supports. P4, then, is considered the lowest level is for properties, because they're rarely-used, proprietary, have limited cross-browser support, or all of the above. We would like to start on the highest priority ones and work out way down.
 
 ==Choosing a property to work on==
 
