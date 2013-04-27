@@ -6,9 +6,13 @@
 {{Basic Page}}
 Help us update, review, add samples, and add quality to the CSS Properties!
 
+===Before you begin===
+
 Before you begin, you should have:
 * taken the steps to register for this site, communicate with the team, and work with the wiki. (Select [[WPD:Editors_Guide|"Editing"]] from any page on the site.)
 * ran through at least one basic contribution. See how to [[WPD:Getting_Started|start contributing content]], a cycle through one basic task, such as fixing links or adding a summary to a page.
+
+===High-level steps===
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
