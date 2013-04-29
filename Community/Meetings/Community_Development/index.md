@@ -30,6 +30,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Ask folks on the public list and IRC to re-tweet or whatever.
 ** Get stewards to point to it from their highly-juiced pages.
 * Doc Sprint North Carolina (?)
+* Doc Sprint Zurich, targeted for August 28: Call for Experts, who can support the event on-site?
 
 ==Tuesday, April 23, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
