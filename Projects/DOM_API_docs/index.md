@@ -106,7 +106,7 @@ With an eye toward automating the process of reorganizing the dom pages, the fol
 *** If the '''Applies to''' location is valid (exists)
 **** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
 **** If there is an existing page in the location specified by the '''Applies to''' field
-*****If there is an existing page in the location specified by '''<Applies-to_field>/duplicates''' move the page under '''<Applies-to_field>/duplicates/duplicates''' (for each duplicate, append a new '''duplicates''' namespace to the location specified by the '''Applies to''' field
+*****If there is an existing page in the location specified by '''<Applies-to_field>/duplicates''' move the page under '''<Applies-to_field>/duplicates/duplicates''' (for each duplicate, append a new '''duplicates''' namespace to the location specified by the '''Applies to''' field)
 ***** Otherwise, move the page under '''<Applies-to_field>/duplicates''' 
 ** Otherwise, leave the page where it is
 
