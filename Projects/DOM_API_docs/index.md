@@ -95,8 +95,11 @@ With an eye toward automating the process of reorganizing the dom pages, the fol
 
 * For the pages under [[dom/methods]], [[dom/properties]]
 ** If the page's '''Applies to''' field is set
-*** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
-*** If there is an existing page in the location specified by the '''Applies to''' field, move the page under '''dom/duplicates''' 
+*** If the '''Applies to''' location is valid (exists)
+**** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
+**** If there is an existing page in the location specified by the '''Applies to''' field
+*****If there is an existing page in the location specified by '''<Applies-to_field>/duplicates''' move the page under '''<Applies-to_field>/duplicates/duplicates''' 
+***** Otherwise, move the page under '''<Applies-to_field>/duplicates''' 
 ** Otherwise, leave the page where it is
 
 ==Amending the content==
