@@ -91,10 +91,10 @@ We propose to reorganize the DOM pages (estimated at roughly 1200 pages) accordi
 
 ===Reorganization procedure===
 
-There are 1129 pages in the dom namespace, 
-119 in dom/events (which do not need to move)
-257 in dom/methods
-336 in dom/properties 
+There are 1129 pages in the dom namespace. 
+* 119 in dom/events (which do not need to move)
+* 257 in dom/methods
+* 336 in dom/properties 
 
 With an eye toward automating the process of reorganizing the dom pages, the following outlines the steps required.
 
