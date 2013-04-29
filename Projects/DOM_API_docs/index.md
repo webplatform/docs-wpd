@@ -93,7 +93,7 @@ We propose to reorganize the DOM pages (estimated at roughly 1200 pages) accordi
 
 With an eye toward automating the process of reorganizing the dom pages, the following outlines the steps required.
 
-* For the pages under [[dom/methods]]
+* For the pages under [[dom/methods]], [[dom/properties]]
 ** If the page's '''Applies to''' field is set, move the page under the location specified in that field
 ** Otherwise, leave the page where it is
 
