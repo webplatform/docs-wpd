@@ -89,5 +89,13 @@ An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML 
 
 We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method. Events may be treated either under proper objects (as in dom/PointerEvent - an object) or in the "events" namespace (as in dom/events/dblclick).
 
+===Reorganization procedure===
+
+With an eye toward automating the process of reorganizing the dom pages, the following outlines the steps required.
+
+* For the pages under [[dom/methods]]
+** If the page's '''Applies to''' field is set, move the page under the location specified in that field
+** Otherwise, leave the page where it is
+
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
