@@ -18,6 +18,23 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-05-03==
+
+* Roll call
+* Review of open action items
+* [[WPD:Project_Status Beta criteria]]
+** We assigned project owners. Those owners should review the beta criteria[1] and update it with what their "group" thinks should be in the beta. A reminder about this is on the agenda item for our Friday meeting.
+** Beta criteria needs to be clarified at the higher level as well:
+*** CSS properties are probably a must
+*** For each content area, we should have exemplar content
+*** Each page should be clearly designated as either ready to consume or needing additional contributions.
+** We need to ensure that new contributors are properly supported. Julee (that's me) will write up a plan for helping contributors with CSS properties, including having a set times for content-wrangling.
+** The CSS properties sheet is overwhelming folks. Julee is going to update it.
+** The community TF will do a recruiting plan.
+* Anything blocking you from creating great content?
+* Any new or notable content to promote?
+
+
 ==Agenda 2013-04-26==
 
 * Roll call
