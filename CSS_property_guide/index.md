@@ -22,6 +22,7 @@ Below, Chris Mills runs through updating a property. But basically, you:
 * update the page based on your findings.
 * remove any flags you think are no longer necessary.
 * update the spreadsheet with your status and any notes: "fixed, needs review" or "Finished!" or such.
+* send us a message @webplatform to let us know you've done a page and if you'd like a review.
 
 ==The CSS properties spreadsheet==
 
