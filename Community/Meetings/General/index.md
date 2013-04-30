@@ -30,8 +30,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Each page should be clearly designated as either ready to consume or needing additional contributions.
 * We need to ensure that new contributors are properly supported. Julee will write up a plan for helping contributors with CSS properties, including having a set times for content-wrangling.
 * The CSS properties sheet is overwhelming folks. Julee is going to update it.
-*5 We need more folks vetting the content that's there. The community TF will do a recruiting plan.
-*6 We need folks to work on content, especially CSS properties pages. We may ask folks to own certain portions, to be divvied up amongst their friends and family, or otherwise focus on that.
+* We need more folks vetting the content that's there. The community TF will do a recruiting plan.
+* We need folks to work on content, especially CSS properties pages. We may ask folks to own certain portions, to be divvied up amongst their friends and family, or otherwise focus on that.
 * What you can do:
 ** If you're a project leader:
 *** discuss beta criteria with stakeholders and update the Project Status page.
