@@ -36,6 +36,139 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** One of the organizers of Patrick's meetup has backed out because of some personal reasons so he's working with another organizer Matt Mapplebeck to identify venues and promote it. Working with About.com to get them to host the event (tentative). Emails have been sent out to other potential venues and meetup organizers and I'm waiting for their response this week
 ** Appnexus is unable to host the event as they are hosting some other events during that week.
 
+===Notes===
+
+====Present====
+scottrowe, julee, patrickdsouza, shepazu, millo 
+
+====Agenda items addressed====
+
+* Progress on university outreach.
+** Spreadsheet created and sent to comm & recruiting TF members.
+** Considered jswisher's (not present) recommendation against large-scale, cold-mailing.
+** Resolved to clarify purpose and approach for including university contacts on public-webplatform-news e-mail list.
+*** Julee will respond to jswisher on public-webplatform e-mail list.
+*** Approaching only known contacts, asking permission to include them first.
+*** Working through contacts to recruit university students.
+*** public-webplatform-news@w3.org:
+**** Update current content areas of focus.
+**** Announcements of fellowships, internships, etc.
+**** Analytics & metrics (scoreboard), top pages, top contributors, etc. (patrickdsouza)
+** Millo will also reach out to contacts at IEEE and ACM university chapters
+* Should we have a launch plan for Beta: who will create & lead it?
+** Julee to include the following criteria in the [[WPD:Project_Status|Bet Criteria]]:
+*** CSS Properties, HTML5 APIs complete
+*** Gold standards and a representative page for each topic type
+*** A cogent content architecture
+*** Re-evaluate the flag system
+**** More actionable: guide to contribution on the spot
+**** Less cautionary: not so scary
+**** A clear distinction as to the level of readiness for each page
+*** Clearly defined on-boarding process
+**** Editor's guide, Getting Started guide improvements (julee and shepazu working on it)
+**** More involvement from community leadership: office hours, content wrangling meeting
+**** Clearly defined doc sprint process
+* Resources for achieving beta
+** Re-purpose steward resources toward beta priorities
+** Begin regular content wrangling sessions on IRC and direct new contributors through that process
+
+====Agenda items tabled====
+
+* Clarify scope and purpose of university outreach with jswisher
+* Fellowships, funding for contributors in university outreach (jkomoros may have more information)
+* Beta leadership and timing
+* Doc sprints
+** New York, May 22-23
+*** Patrick D'Souza working with venues to host the event before he starts promoting the event http://wpd-nyc.eventbrite.com/
+*** One of the organizers of Patrick's meetup has backed out because of some personal reasons so he's working with another organizer Matt Mapplebeck to identify venues and promote it. Working with About.com to get them to host the event (tentative). Emails have been sent out to other potential venues and meetup organizers and I'm waiting for their response this week
+*** Appnexus is unable to host the event as they are hosting some other events during that week.
+** North Carolina in August (?)
+** Zurich, targeted for August 28: Call for Experts, who can support the event on-site?
+* Should we have a "New & Notable" checklist: a mini-launch list for great new content or features. Something like:
+** Get a couple of folks to look at it.
+** Write a blog about it.
+** Send it out in social media.
+** Ask folks on the public list and IRC to re-tweet or whatever.
+** Get stewards to point to it from their highly-juiced pages.
+
+===Minutes
+
+10:03 AM <scottrowe_> community development task force meeting now starting
+10:03 AM — scottrowe_ is scribe
+10:03 AM ⇐ chrismills quit (~chrismill@135.244.112.87.dyn.plus.net) Quit: chrismills
+10:03 AM — julee present
+10:03 AM <Millo> present
+10:03 AM → David_Herz joined (~wpd@46-116-231-237.bb.netvision.net.il)
+10:03 AM — Millo 
+10:04 AM — Millo present
+10:05 AM <scottrowe_> University outreach
+10:06 AM <scottrowe_> jswisher (not present) recommends against cold-mailing.
+10:08 AM <scottrowe_> we want to get folks on the news list
+10:08 AM <scottrowe_> but the goals of University outreach may be beyond the news list and beta launch
+10:10 AM <scottrowe_> milo recommends reaching out to IEEE and ACM
+10:10 AM <scottrowe_> shepazu (not present) may have contacts
+10:11 AM <scottrowe_> milo has contacts at IEEE and ACM
+10:11 AM <scottrowe_> milo: need to define our goals, message
+10:12 AM <scottrowe_> motion to table discussion until jswisher and shepazu can attend
+10:14 AM — shepazu on the way
+10:18 AM <patrickdsouza> sorry was away in meetings.
+10:18 AM <patrickdsouza> still stuck in a meeting so i'm unable to attend
+10:18 AM <patrickdsouza> the call
+10:18 AM <scottrowe_> shepazu suggests that Milo take point of reaching out to ACM and IEEE
+10:19 AM <patrickdsouza> following on irc
+10:20 AM <scottrowe_> milo: need to define the message
+10:20 AM <scottrowe_> AI: milo to define the message
+10:21 AM <David_Herz> Sorry if this is out of line - I don't know what the protocol is.  Do I ask a question here?  Can I put my hand up to make a comment?  Anyway, what I want to ask is relative to the previous question about goals.  In reaching out to universities, are we looking for collaborators or to make people aware of our docs as a source for developing best practices?  In other words should people already be looking here as this being a com
+10:21 AM <David_Herz> resource.  If so, why start so late (i.e. university)?  My kids, starting at 9 years old, are going to eCamp this summer.
+10:22 AM <julee> We're still going pursue University channels that are already there.
+10:23 AM ⇐ Ryan_Lane quit (~Ryan_Lane@wikimedia/Ryan-lane) Ping timeout: 268 seconds
+10:24 AM <scottrowe_> Resolved: still pursue university outreach, known, targeted audience
+10:25 AM <scottrowe_> plan is to contact known persons directly and ask to be included on the news list
+10:26 AM <scottrowe_> Criteria for Beta
+10:27 AM <scottrowe_> issue: we don't have enough resources to achieve beta status, as currently defined
+10:27 AM <scottrowe_> link:
+10:27 AM <julee> http://docs.webplatform.org/wiki/WPD:Project_Status
+10:29 AM <scottrowe_> shepazu: do we have anyone driving creation of css pages?
+10:29 AM <scottrowe_> julee: I am. Need to recruit (loop back to university outreach).
+10:30 AM <julee> http://docs.webplatform.org/wiki/WPD:CSS_property_guide
+10:30 AM <julee> https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
+10:30 AM <scottrowe_> shepazu: how many pages left to work on in CSS properties?
+10:30 AM <scottrowe_> ^^
+10:31 AM → Ryan_Lane joined (~Ryan_Lane@wikimedia/Ryan-lane)
+10:32 AM <scottrowe_> shepazu: proposes pulling our own resources off of other projects to drive CSS properties for beta 
+10:35 AM <patrickdsouza> do we have a hard deadline for beta ?
+10:36 AM <scottrowe_> shepazu: proposes developing a task force for beta
+10:42 AM <scottrowe_> shepazu: the task force comprised of web development people
+10:44 AM <scottrowe_> milo: stewards could each take a batch of pages and drive their completion
+10:52 AM <scottrowe_> julee: we need a recruiting plan
+10:54 AM <scottrowe_> AI: julee to create recruiting plan with on-ramping description for CSS properties 
+10:55 AM <shepazu> patrickdsouza, we have a vague one, and we're working toward a specific date
+10:55 AM <patrickdsouza> thanks shepazu
+10:58 AM <shepazu> David_Herz, right now, our main focus is on reference material, not the educational material. Once we're in Beta, we'll focus more on the educational stuff. So the current university push is to get web-savvy engineers and designers to help contribute
+11:04 AM — Millo leave!
+11:04 AM ⇐ Millo quit (836b93a9@gateway/web/freenode/ip.131.107.147.169) Quit: Page closed
+11:04 AM <julee> http://docs.webplatform.org/wiki/WPD:Project_Status
+11:12 AM <patrickdsouza> i'm thinking i should create a weekly analytics mail outlining the metrics for the last week
+11:12 AM <patrickdsouza> top pages
+11:12 AM <patrickdsouza> top tracking campaigns
+11:13 AM <patrickdsouza> top trends
+11:13 AM <patrickdsouza> do we want to pull data about pages worked on during the week
+11:13 AM <patrickdsouza> top contributors for the week
+11:13 AM <patrickdsouza> etc
+11:21 AM  ↔ patrickdsouza nipped out  
+11:23 AM <julee> shepazu: For Beta: CSS Properties are very good.
+11:23 AM <julee> … Golden standards for each other topic type
+11:23 AM <julee> … All of our msging should include links to those exemplars
+11:24 AM <julee> … Re-evaluate the flag system
+11:24 AM <julee> … Each flag a call to action
+11:24 AM <julee> … how to display flags so they're encouraging
+11:24 AM <julee> … a very clear on-boarding process with a regular rythum
+11:24 AM <julee> ummm...
+11:24 AM <julee> ;-)
+11:25 AM <julee> … a very clear Doc Sprint process
+11:25 AM <julee> … and announcements
+11:25 AM <julee> … flag system should make it clear whether page is ready to consume or ready to edit
+
 ==Tuesday, April 23, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
 ===Agenda===
