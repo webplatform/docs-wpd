@@ -99,7 +99,7 @@ There are 1129 pages in the dom namespace.
 * 257 in dom/methods
 * 336 in dom/properties 
 
-With an eye toward automating the process of reorganizing the dom pages, the following outlines the steps required.
+Apply the following process to the dom/methods, dom/properties
 
 * If the page's '''Applies to''' field is set
 ** If the '''Applies to''' location is valid (exists)
