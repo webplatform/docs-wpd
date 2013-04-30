@@ -31,6 +31,10 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 ** Get stewards to point to it from their highly-juiced pages.
 * Doc Sprint North Carolina (?)
 * Doc Sprint Zurich, targeted for August 28: Call for Experts, who can support the event on-site?
+* NYC Doc Sprint update
+** Patrick D'Souza working with venues to host the event before he starts promoting the event http://wpd-nyc.eventbrite.com/
+** One of the organizers of Patrick's meetup has backed out because of some personal reasons so he's working with another organizer Matt Mapplebeck to identify venues and promote it. Working with About.com to get them to host the event (tentative). Emails have been sent out to other potential venues and meetup organizers and I'm waiting for their response this week
+** Appnexus is unable to host the event as they are hosting some other events during that week.
 
 ==Tuesday, April 23, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
