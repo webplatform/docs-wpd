@@ -23,17 +23,23 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * [[WPD:Project_Status Beta criteria]]
-** We assigned project owners. Those owners should review the beta criteria[1] and update it with what their "group" thinks should be in the beta. A reminder about this is on the agenda item for our Friday meeting.
-** Beta criteria needs to be clarified at the higher level as well:
-*** CSS properties are probably a must
-*** For each content area, we should have exemplar content
-*** Each page should be clearly designated as either ready to consume or needing additional contributions.
-** We need to ensure that new contributors are properly supported. Julee (that's me) will write up a plan for helping contributors with CSS properties, including having a set times for content-wrangling.
-** The CSS properties sheet is overwhelming folks. Julee is going to update it.
-** The community TF will do a recruiting plan.
-* Anything blocking you from creating great content?
-* Any new or notable content to promote?
-
+* We assigned project owners. Those owners should review the beta criteria and update it with what their "group" thinks should be in the beta. 
+* Beta criteria needs to be clarified at the higher level as well. For example:
+** CSS properties are probably a must
+** For each content area, we should have exemplar content
+** Each page should be clearly designated as either ready to consume or needing additional contributions.
+* We need to ensure that new contributors are properly supported. Julee will write up a plan for helping contributors with CSS properties, including having a set times for content-wrangling.
+* The CSS properties sheet is overwhelming folks. Julee is going to update it.
+*5 We need more folks vetting the content that's there. The community TF will do a recruiting plan.
+*6 We need folks to work on content, especially CSS properties pages. We may ask folks to own certain portions, to be divvied up amongst their friends and family, or otherwise focus on that.
+* What you can do:
+** If you're a project leader:
+*** discuss beta criteria with stakeholders and update the Project Status page.
+*** make sure you have tasks and bugs relating to beta in project.webplatform.org, and that they're assigned to someone.
+*** if you find blockers, file a bug, and broadcast it to the public list
+** If you're an individual contributor:
+*** work on some CSS properties
+*** if you find blockers, file a bug, and broadcast it to the public list
 
 ==Agenda 2013-04-26==
 
