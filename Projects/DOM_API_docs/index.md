@@ -93,20 +93,22 @@ We propose to reorganize the DOM pages (estimated at roughly 1200 pages) accordi
 
 There are 1129 pages in the dom namespace. 
 * 119 in dom/events (which do not need to move)
+* 137 in a dom/<object>/<member> pattern already (and also do not need to move)
 * 49 in dom/objects
 * 77 in dom/apis
 * 101 in dom/traversal
 * 257 in dom/methods
 * 336 in dom/properties 
 
+For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
+
 Apply the following process to the dom/methods, dom/properties
 
 * If the page's '''Applies to''' field is set
 ** If the '''Applies to''' location is valid (exists)
 *** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
-*** If there is an existing page in the location specified by the '''Applies to''' field
-****If there is an existing page in the location specified by '''<Applies-to_field>/duplicates''' move the page under '''<Applies-to_field>/duplicates/duplicates''' (for each duplicate, append a new '''duplicates''' namespace to the location specified by the '''Applies to''' field)
-**** Otherwise, move the page under '''<Applies-to_field>/duplicates''' 
+*** If there is an existing page in the location specified by the '''Applies to''' field, move the page under '''<Applies-to_field>/duplicates''' 
+*** If there is an existing page in the location specified by '''<Applies-to_field>/duplicates''' move the page under '''<Applies-to_field>/duplicates/duplicates'''
 * Otherwise, leave the page where it is
 
 ==Amending the content==
