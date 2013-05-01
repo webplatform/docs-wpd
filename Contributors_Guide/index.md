@@ -36,7 +36,7 @@
      </div>
   </div>
 
-<div class="topic-container-inner">
+<div class="topic-container-inner" style="width: 90%; padding: 1em; margin: 2em;">
 
  <div class="long-topic"> 
      <div class="place-holder"></div>
