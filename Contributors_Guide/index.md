@@ -4,7 +4,7 @@
 <div class="topic-container">
   <div class="long-topic">
       <div class="place-holder"></div>
-      <div class="topic-container-inner" >
+      <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]</h3>
         <ul>
             <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
@@ -15,7 +15,7 @@
   
  <div class="long-topic"> 
      <div class="place-holder"></div>
-    <div class="topic-container-inner">
+    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join #webplatform IRC]]</li>
@@ -27,7 +27,7 @@
  
  <div class="long-topic"> 
      <div class="place-holder"></div>
-    <div class="topic-container-inner">
+    <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki|Working the wiki]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#If you can't wait, start contributing right away|Get started]]</li>
@@ -36,7 +36,6 @@
      </div>
   </div>
 
-<div class="topic-container-inner" style="width: 90%; padding: 1em; margin: 2em;">
 
  <div class="long-topic"> 
      <div class="place-holder"></div>
@@ -74,7 +73,6 @@
   </div>
  
 <div class="clearfixboth"></div>
-</div>
 </div>
 
 :&nbsp;
