@@ -62,11 +62,11 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 
 ===Organization solution===
 
-Proposed is the abolition of all "interstitials" except for the "event" interstitial, and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
+Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
-* '''dom/events''' - a listing page with all DOM events
 
-Events are usually targeted to DOM Elements, and the event target is not information that need be displayed in the URL. However, the designation of events as separate from other DOM artifacts is useful as information in the URL.
+
+Events are usually members of the higher level objects like Window, Element, and so forth.
 
 Inheritance, however, should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
 * dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
@@ -82,6 +82,7 @@ etc.
 Going further into the namespace, all members would be organized under their parent objects. To wit:
 * current: [[dom/apis/document/getElementById]]       proposed: [[dom/Document/getElementById]]
 * current: [[dom/traversal/methods/RangeException]]       proposed: [[dom/Element/RangeException]]
+* current: [[dom/events/mouseover]]        proposed: [[dom/Element/mouseover]]
 
 This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" and "events" listing pages), because there is no danger of namespace conflicts that would require the use of such interstitials.
 
