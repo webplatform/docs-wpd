@@ -113,3 +113,5 @@ Apply the following process to the dom/methods, dom/properties, and dom/events p
 
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
+
+Need a way to identify the event type (i.e. KeyboardEvent).
