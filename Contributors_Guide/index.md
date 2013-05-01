@@ -36,6 +36,7 @@
      </div>
   </div>
 
+<div class="topic-container-inner">
 
  <div class="long-topic"> 
      <div class="place-holder"></div>
@@ -73,6 +74,7 @@
   </div>
  
 <div class="clearfixboth"></div>
+</div>
 </div>
 
 :&nbsp;
