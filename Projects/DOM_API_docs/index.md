@@ -65,7 +65,7 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
 
-Events are usually members of the higher level objects like Window, Element, and so forth.
+For events we're using the '''Applies to field''' in an overloaded fashion. For methods and properties it means "belongs to" or "is a member of" whereas for events it means "targeted at".
 
 Inheritance, however, should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
 * dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
@@ -102,6 +102,8 @@ There are 1129 pages in the dom namespace.
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
+In the PointerEvent types (for example [[dom/pointercancel]], where the Applies to field actually lists the event type (PointerEvent) rather than the target (Element), change the '''Applies to''' field for all PointerEvent event members from "dom/PointerEvent" to "dom/Element".
+
 Apply the following process to the dom/methods, dom/properties, and dom/events pages.
 
 * If the page's '''Applies to''' field is set
@@ -114,4 +116,4 @@ Apply the following process to the dom/methods, dom/properties, and dom/events p
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
 
-Need a way to identify the event type (i.e. KeyboardEvent).
+Need a way to identify the event type (i.e. KeyboardEvent). ([http://project.webplatform.org/tmpl/issues/7 bug])
