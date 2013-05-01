@@ -25,7 +25,7 @@ Most of the problems with the way the content is currently organized boil down t
 ====Optimum scheme====
 Some of the [[dom|DOM]] pages follow the very plain, short, and predictable delineation that we consider optimum:
 * dom/<object>/<member>
-Where <member> may be a property or method. For example,  [[dom/Element/error]].
+Where <member> may be a property, event, or method. For example,  [[dom/Element/error]].
 
 ====Weird subtrees====
 Some pages are designated as subtrees of the dom/apis. These are:
@@ -46,7 +46,7 @@ Interstitials usually follow the "dom" namespace identifier, and are used to del
 
 For example [[dom/events/abort]] or [[dom/methods/moveTo]]. For members, these lack any description of the objects that encapsulate them in the URL, though the reference to the parent object is maintained in the content via the "Applies to" template.
 
-Also, within named subtrees of the dom/apis, interstitials are used to distinguish methods and properties as well as events. For example, [[dom/apis/audio-video/properties/type]].
+Also, within named subtrees of the dom/apis, interstitials are used to distinguish methods, properties, and events. For example, [[dom/apis/audio-video/properties/type]].
 
 In the [[WPD:Creating_API_pages|API Project]] we decided to eliminate these member interstitials as being unnecessary. We can follow the same reasoning for the DOM APIs.
 
@@ -65,7 +65,6 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
 
-
 Events are usually members of the higher level objects like Window, Element, and so forth.
 
 Inheritance, however, should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
@@ -80,21 +79,21 @@ Inheritance, however, should not be described in the URL. Rather, all DOM object
 etc.
 
 Going further into the namespace, all members would be organized under their parent objects. To wit:
-* current: [[dom/apis/document/getElementById]]       proposed: [[dom/Document/getElementById]]
+* current: [[dom/apis/document/getElementById]]            proposed: [[dom/Document/getElementById]]
 * current: [[dom/traversal/methods/RangeException]]       proposed: [[dom/Element/RangeException]]
-* current: [[dom/events/mouseover]]        proposed: [[dom/Element/mouseover]]
+* current: [[dom/events/mouseover]]                                 proposed: [[dom/Element/mouseover]]
 
-This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" and "events" listing pages), because there is no danger of namespace conflicts that would require the use of such interstitials.
+This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" listing page), because there is no danger of namespace conflicts that would require the use of such interstitials.
 
-An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant. We have only the "events" subtree of the DOM as an interstitial, as it is an area of related usage.
+An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant.
 
-We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method. Events may be treated either under proper objects (as in dom/PointerEvent - an object) or in the "events" namespace (as in dom/events/dblclick).
+We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property, event, or method.
 
 ===Reorganization procedure===
 
 There are 1129 pages in the dom namespace. 
-* 119 in dom/events (which do not need to move)
-* 137 in a dom/<object>/<member> pattern already (and also do not need to move)
+* 119 in dom/events 
+* 137 in a dom/<object>/<member> pattern already (wich do not need to move)
 * 49 in dom/objects
 * 77 in dom/apis
 * 101 in dom/traversal
@@ -103,7 +102,7 @@ There are 1129 pages in the dom namespace.
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
-Apply the following process to the dom/methods, dom/properties
+Apply the following process to the dom/methods, dom/properties, and dom/events pages.
 
 * If the page's '''Applies to''' field is set
 ** If the '''Applies to''' location is valid (exists)
