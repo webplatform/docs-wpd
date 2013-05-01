@@ -513,7 +513,6 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 |External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
-* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp CSS display property]
 * Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Reference: The display property]
 }}
 {{Topics|CSS}}
