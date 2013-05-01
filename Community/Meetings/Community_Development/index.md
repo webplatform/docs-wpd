@@ -25,7 +25,7 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 * Should we have a launch plan for Beta: who will create & lead it?
 * Should we have a "New & Notable" checklist: a mini-launch list for great new content or features. Something like:
 ** Get a couple of folks to look at it.
-** Get a campaign number for piwik.
+** Get a campaign id for piwik.
 ** Write a blog about it.
 ** Send it out in social media.
 ** Ask folks on the public list and IRC to re-tweet or whatever.
