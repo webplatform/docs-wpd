@@ -91,22 +91,26 @@ We propose to reorganize the DOM pages (estimated at roughly 1200 pages) accordi
 
 ===Reorganization procedure===
 
-There are 1129 pages in the dom namespace. 
-* 119 in dom/events 
+There are 1129 pages in the dom namespace.  
 * 137 in a dom/<object>/<member> pattern already (wich do not need to move)
 * 49 in dom/objects
 * 77 in dom/apis
 * 101 in dom/traversal
+* 119 in dom/events
 * 257 in dom/methods
 * 336 in dom/properties 
 
+This leaves 53 pages that don't fit into any of these categories.
+
+The 137 pages that follow the dom/<object>/<member> pattern do not have to move. However, there are several PointerEvent types (for example [[dom/pointercancel]], where the Applies to field actually lists the event type (PointerEvent) rather than the target (Element). For these, change the '''Applies to''' field for all PointerEvent event members from "dom/PointerEvent" to "dom/Element". 
+
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
-In the PointerEvent types (for example [[dom/pointercancel]], where the Applies to field actually lists the event type (PointerEvent) rather than the target (Element), change the '''Applies to''' field for all PointerEvent event members from "dom/PointerEvent" to "dom/Element".
+For the dom/apis pages, some of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/apis/audio-video/events/play]].
 
 Apply the following process to the dom/methods, dom/properties, and dom/events pages.
 
-* If the page's '''Applies to''' field is set
+* If the page is of the Event, API_Object_Method, or API_Object_Property template type, AND if the page's '''Applies to''' field is set
 ** If the '''Applies to''' location is valid (exists)
 *** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
 *** If there is an existing page in the location specified by the '''Applies to''' field, move the page under '''<Applies-to_field>/duplicates''' 
