@@ -64,10 +64,13 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
+* '''dom/events''' - for all of the events. 
 
-For events we're using the '''Applies to field''' in an overloaded fashion. For methods and properties it means "belongs to" or "is a member of" whereas for events it means "targeted at".
+Note that events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in dom/PointerEvent are described thus, and ideally we would want to describe all events this way - under their event types in the URLs. The trouble is, the event type is not always captured in the properties of the event page, so there is no automatic way to tell a script to follow that property when moving the page. Instead, we will have to manually update the event pages with the event type information, then later perform a move that assigns the event's URL according to that event type (i.e. dom/Event/error). Until then we'll just put all of the events under dom/events (except those rightfully organized under dom/PointerEvent), and add a field to the Event template to capture the event type (see [[http://project.webplatform.org/tmpl/issues/7 this bug]].
 
-Inheritance, however, should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
+We also considered organizing events  under their targets (i.e. dom/Element/pointerdown), but found namespace collisions (dom/Element/error property collides with dom/Element/error event). Besides, events properly belong to event types, not targets, in the DOM.
+
+Inheritance should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
 * dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
 * dom/Navigator
 * dom/Window
@@ -81,45 +84,44 @@ etc.
 Going further into the namespace, all members would be organized under their parent objects. To wit:
 * current: [[dom/apis/document/getElementById]]            proposed: [[dom/Document/getElementById]]
 * current: [[dom/traversal/methods/RangeException]]       proposed: [[dom/Element/RangeException]]
-* current: [[dom/events/mouseover]]                                 proposed: [[dom/Element/mouseover]]
 
 This follows the methodology in the [[WPD:Creating_API_pages|API Project]], except that API_Listing pages are not required to describe interstitials (other than the "dom" listing page), because there is no danger of namespace conflicts that would require the use of such interstitials.
 
 An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant.
 
-We propose to reorganize the DOM pages (estimated at roughly 1200 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property, event, or method.
+We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method, or "dom/events/<event>."
 
 ===Reorganization procedure===
 
 There are 1129 pages in the dom namespace.  
 * 137 in a dom/<object>/<member> pattern already (which do not need to move)
+* 119 in dom/events (which also do not need to move)
 * 49 in dom/objects
 * 77 in dom/apis
 * 101 in dom/traversal
-* 119 in dom/events
 * 257 in dom/methods
 * 336 in dom/properties 
 
 This leaves 53 pages that don't fit into any of these categories.
 
-The 137 pages that follow the dom/<object>/<member> pattern do not have to move. However, there are several PointerEvent types (for example [[dom/pointercancel]], where the Applies to field actually lists the event type (PointerEvent) rather than the target (Element). For these, change the '''Applies to''' field for all PointerEvent event members from "dom/PointerEvent" to "dom/Element". 
+The 137 pages that follow the dom/<object>/<member> pattern do not have to move. However, there are several PointerEvent events (for example [[dom/PointerEvent/pointerdown]], that need to have the '''Applies to''' field changed from "dom/PointerEvent" to "dom/Element". 
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
-For the dom/apis pages, most of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/apis/audio-video/events/play]]. The rest, like [[dom/apis/document/getElementById]] can be moved manually.
+For the dom/apis pages, most of these can be moved manually en-mass, for example [[dom/apis/audio-video/events/play]]. The rest, like [[dom/apis/document/getElementById]] can be moved manually one by one.
 
-For the dom/traversal pages, most of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/traversal/methods/cloneContents]]. The rest, like [[dom/traversal/NodeIterator]] can be moved manually.
+For the dom/traversal pages, most of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/traversal/methods/cloneContents]]. The rest, like [[dom/traversal/NodeIterator]] can be moved manually. Luckily, there are no event pages under dom/traversal.
 
-The rest, in dom/events, dom/methods, and dom/properties will be moved with the following script.
+The rest, dom/methods and dom/properties will be moved with the following script.
 
 Any remaining pages that don't get moved by the script can be moved manually.
 
 ====Script====
 
-Apply the following process to the dom/ pages.
+Apply the following process to the dom pages.
 
-* If the page is of the Event, API_Object_Method, or API_Object_Property template type
-** If the page's '''Applies to''' field is set (Method_applies_to= , Property_applies_to= , Event_applies_to=)
+* If the page is of the API_Object_Method or API_Object_Property template type
+** If the page's '''Applies to''' field is set (Method_applies_to= , Property_applies_to=)
 *** If the '''Applies to''' location is valid (exists)
 **** If there is no existing page in the location specified by the '''Applies to''' field, move the page under the location specified in that field
 **** Else if there is an existing page in the location specified by the '''Applies to''' field, move the page under '''<Applies-to_field>/duplicates''' 
