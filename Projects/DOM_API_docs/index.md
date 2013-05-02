@@ -134,6 +134,12 @@ Apply the following process to the dom pages.
 
 Before moving a page, take note of the new URL, and update the links in all pages that link to the moved page. Leave no redirect.
 
+====Changing Inbound Links====
+For each page that links to the page in question, all the links on that page to the new location. All the pages that link to the target page can be found consistently with the [[Special:WhatLinksHere]] page. For example:
+ http://docs.webplatform.org/wiki/Special:WhatLinksHere/dom/apis/audio-video/events/play
+
+We should leave no redirects, since page-level redirects, as opposed to server-level redirects, harm SEO.
+
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
 
