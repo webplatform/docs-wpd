@@ -108,7 +108,7 @@ The 137 pages that follow the dom/<object>/<member> pattern do not have to move.
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
-For the dom/apis pages, most of these can be moved manually en-mass, for example [[dom/apis/audio-video/events/play]]. The rest, like [[dom/apis/document/getElementById]] can be moved manually one by one.
+For the dom/apis pages, most of these can be moved manually, for example [[dom/apis/audio-video/events/play]]. The rest, like [[dom/apis/document/getElementById]] can be moved manually one by one.
 
 For the dom/traversal pages, most of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/traversal/methods/cloneContents]]. The rest, like [[dom/traversal/NodeIterator]] can be moved manually. Luckily, there are no event pages under dom/traversal.
 
@@ -129,6 +129,10 @@ Apply the following process to the dom pages.
 ** For each page that links to this page
 *** Update the link to point to the page's new location.
 * Otherwise, leave the page where it is
+
+====Manual moving====
+
+Before moving a page, take note of the new URL, and update the links in all pages that link to the moved page. Leave no redirect.
 
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
