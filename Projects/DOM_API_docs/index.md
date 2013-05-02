@@ -102,7 +102,7 @@ There are 1129 pages in the dom namespace.
 * 257 in dom/methods
 * 336 in dom/properties 
 
-This leaves 53 pages that don't fit into any of these categories.
+This leaves 53 pages that don't fit into any of these categories. Also, there are an additional 20 or so pages that may belong in the dom namespace and which currently reside in the apis namespace.
 
 The 137 pages that follow the dom/<object>/<member> pattern do not have to move. However, there are several PointerEvent events (for example [[dom/PointerEvent/pointerdown]], that need to have the '''Applies to''' field changed from "dom/PointerEvent" to "dom/Element". 
 
