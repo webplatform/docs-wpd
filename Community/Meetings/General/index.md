@@ -230,17 +230,15 @@ We can have a way to put in unverified information, but it should be tagged that
 
 ==ACTION ITEMS==
 
-* shepazu to e-mail ML about latest plans for talk.webplatform.org
-* (CARRIED FORWARD) leaverou: to talk with Chris Coyier regarding reviewing css properties template.
-* julee to email project leads inviting them to Monday's meeting.
-* shepazu to work with lea to mock up what the improved flags will look like
-* pending Alex's amazing, insightful review of the DOM API proposal, Scott to begin implementing
+* julee to email project leads inviting them to Monday's meeting. (DONE)
+* pending Alex's amazing, insightful review of the DOM API proposal, Scott to begin implementing (DONE)
 * Julee to file a bug to get a visual representation of the DOM hierarchy (DONE: http://project.webplatform.org/content/issues/46)
 * Julee to add CSS properties recruting to communications meeting (DONE)
-* (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
-* shepazu to propose concrete proposal on compat info to list once it's done
-
-
+* shepazu to propose concrete proposal on compat info to list once it's done (ON-GOING)
+* shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRY FORWARD)
+* leaverou: to talk with Chris Coyier regarding reviewing css properties template. (CARRY FORWARD)
+* leaverou: will follow up with Denis where global nav didn't get implemented. (CARRY FORWARD)
+* shepazu to work with lea to mock up what the improved flags will look like (CARRY FORWARD)
 
 ==Agenda 2013-04-19==
 
