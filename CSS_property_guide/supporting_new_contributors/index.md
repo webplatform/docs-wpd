@@ -1,8 +1,10 @@
 ==How we support new contributors==
 
+
+===Ambassadors===
 When a new contributor volunteers:
 
-# Assign an ambassador who
+Assign an ambassador who
 * provides a warm welcome
 * offer to walk them through getting registered and picking a property.
 * let the know about channels of communication
