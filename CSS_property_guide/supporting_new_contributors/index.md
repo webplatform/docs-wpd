@@ -10,8 +10,7 @@ When a new contributor volunteers, assign an ambassador who:
 * follow up with them in a couple of days to see if they were successful.
 
 ===Weekly content wrangling meetings===
-
-# Get representatives for each major time zone
+# Set up a regular time, and establish a rhythm.
 # Post how and where to ask questions -- i.e., the IRC #webplatform channel
 # Set a goal at the beginning of the meeting
 # Track progress on project page or here
