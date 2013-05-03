@@ -33,3 +33,8 @@ Ask new contributors if they want help breaking down how to edit their first pag
 * Focus on the details, on the examples, and referencing the right specs
 * If you see other great content elsewhere on the web, don't copy-and-paste it, add links at the bottom of your page
 * Then, let the world know you have a draft up and ask for feedback, seeking out experts, tweeting in the community, etc.
+
+==Newcomers we've reached out to==
+Greg
+Antonio
+Wendy
