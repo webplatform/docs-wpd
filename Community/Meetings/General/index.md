@@ -24,7 +24,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 * Roll call
 * Review of open action items
-* [[WPD:Project_Status Beta criteria]]
+* [[WPD:Project_Status|Beta criteria]]
 * We assigned project owners. Those owners should review the beta criteria and update it with what their "group" thinks should be in the beta. 
 * Beta criteria needs to be clarified at the higher level as well. For example:
 ** CSS properties are probably a must
