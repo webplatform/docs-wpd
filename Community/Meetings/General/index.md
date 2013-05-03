@@ -56,6 +56,189 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Any new or notable content to promote?
 
+==DISCUSSION==
+
+===TOPIC: Appearance of content flags===
+
+Limited, but pointed feedback (from doc sprinters, others) suggests red flags may be a deterrent to editing content. Consider toning them down?
+
+... it's a bit "boy who cried wolf"
+
+Should the meaning of flags be explained more explicitly when being set and viewed?
+
+Some of them should be stronger than others
+
+being able to change the priorities/visibility, and actions that are obvious from them
+
+ideally, stub should be more inviting, for example
+
+Back at the beginning, the plan was to display them differently to signed in vs signed out people
+
+Also, flag banner is broken: http://docs.webplatform.org/wiki/html/elements/!DOCTYPE
+
+[agreement that this is something to fix]
+
+
+For beta, clear visual representation that this page is considered Beta-ready or not, we won't be able to touch all of the pages for beta
+
+That's especially important given that some parts of site will be ready to be called beta before others
+
+Could just have a banner that says "flags associated" or "this article is not beta ready", and when you go down to the _bottom_ it shows the flags
+
+If you look at the compat table's output, when you mouse over it shows one thing for all mobiles; then when you mouse over it shows details
+
+Also, I think a simple tooltip for explanation of flags (on hover) would be sufficient, maybe have popup appear on mobile devices
+but something like that that says "there are flags on this page" and when you hover over see the specific ones
+
+vs going to a whole separate page
+
+... also we haven't done a great job of encouraging a culture of using flags
+
+... we need to work those flagged pages back into the work flow
+
+Making each flag a call to action could help
+
+I think a tooltip explanation on the page whee it happens and a longer explanation linked from the editing page, where you set the flags would work
+
+... comments thing was also supposed to help with flagging
+
+... we want the comments thing to plug in to the issue tracker. Ideally the flags would go into the issue tracker
+
+... ideally on the page you check off, I've done this, it hits the API to issue tracker and says "this action ahs been done"
+
+
+A lot of work, but there could be phases to it. If we can get the current UI to reflect the call to action
+
+
+and then later on hook up to project tracking
+
+
+My original ideas was to have them discrete and off to the sdie
+
+... right now they're a banner at the top of most pages
+
+
+Also, if you could be clear about what the workflow should be
+
+... in other words, contributor goes to edit the page, see one banner, they click on that, then they see all flags as calls to action...
+
+
+===Topic: DOM API reorganization proposal===
+
+http://docs.webplatform.org/wiki/WPD:Projects/DOM_API_docs
+
+Adopted with the following discussion:
+
+Want to make sure it's predictable and avoids conflicts
+Follow basic object hierachy but flatten it out
+
+Shepazu provided one example of proper DOM hierarchy:
+
+http://objjob.phrogz.net/
+
+that lets you drill around all around everywhere within the DOM. I had a vision that all of these things would be interlinked
+
+URL schema for DOM API and visual representation of the DOM don't have to be the same thing. There's a lot of depth to the DOM that users don't need exposure to when they're coding. There are two use cases. The one we're solving for primarily is to figure out what a particular method does--they don't care about where it is in the dom tree. But that would address the other use case of exploring
+
+We should have a widget that allows you to explore the particular object and its hierarchy as a UI element as opposed to a URL element
+
+Are these two problems: 1) URL hierarchy 2) rendering of content to readers?
+
+
+It's about 1200 pages tagged as DOM. And you need to be an admin to do moves
+
+
+We should have a big push where we move the pages.
+
+Fr0zenice might know if there's an extension
+
+
+dunno, but the "move only for admins" thing was never really implemented btw
+
+We don't want to lose this idea of a visual representation of the DOM. something we could point to as a differentiator. Because there's no good place to see that today
+
+What we're documenting here is one ideal reference implementation of all the specs and we can show that to you in this visual way
+
+We do want our work on web platform to help people working on standards
+
+Not in URL structure, but in a separate experience
+
+===Topic:  Task force statuses===
+
+====Community Development====
+
+we firmed up out plans for upcoming doc sprints
+
+
+Any updates to any of the events should be reflected on the [[WPD:Community/Community_Events|events page]].
+
+shepazu's great idea : have a non-political description of DRM and DNT, have technical articles about those and make a blog post.
+
+... the TECHNICAL aspect, not political, social, or standardization aspect
+
+and the ancillary idea was: we have an alpha banner, but we don't have anything about the campaigns we're working on (like CSS properties)
+
+... when we have a push, we should highlight them in the banner
+
+Redesiging the notice so it's not quite so ugly and what our current call to action
+
+So, we have the blog, but do we also need a News or Current Events page linked to from the home page?
+
+More controversial topics might get more vandalism, we'll need to be vigilant.
+
+And we'll want to make it clear we're trying to just be about TECHNICAL aspects.
+
+Have a disclaimer, if you want to discuss social aspects, here are some links for you to go to to do that
+
+
+the blog entry where we say "we realize these are controversial, this is the role we're trying to play"
+
+===TOPIC: Status of CSS properties project===
+
+We're stalled on contributors to content. Not too much to review compared to content we need to create
+
+We might need to broaden our base to get more contributors
+
+===TOPIC: compatibility tables===
+http://docs.webplatform.org/wiki/WPD:Compatibility_Info
+
+
+There's a disconnect between pages that we have and granularity of caniuse data
+
+If we're going to replace our existing compat tables, we'll need to do so comprehensively.
+
+MOzilla agreed that we can crawl MDN's compat information, as this is public domain content. They agreed that we can use this data, and are not required to mark it as their _license_, although of course we'll say we got the info from them.
+
+Shepazu is working on a script to extract data from them, merge with caniuse
+
+If there's a test missing, then we'll provide a simple interface for folks to provide one, or at least some input.
+
+if you see something missing, if you want to give the test to help with that
+it will take them to a thing to let them contribute a test
+
+That's huge overhead, will discourage contributions.
+
+But how will we know it's good if they just make an assertion?
+
+
+We can have a way to put in unverified information, but it should be tagged that it needs tests
+
+
+
+==ACTION ITEMS==
+
+* shepazu to e-mail ML about latest plans for talk.webplatform.org
+* (CARRIED FORWARD) leaverou: to talk with Chris Coyier regarding reviewing css properties template.
+* julee to email project leads inviting them to Monday's meeting.
+* shepazu to work with lea to mock up what the improved flags will look like
+* pending Alex's amazing, insightful review of the DOM API proposal, Scott to begin implementing
+* Julee to file a bug to get a visual representation of the DOM hierarchy (DONE: http://project.webplatform.org/content/issues/46)
+* Julee to add CSS properties recruting to communications meeting (DONE)
+* (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
+* shepazu to propose concrete proposal on compat info to list once it's done
+
+
+
 ==Agenda 2013-04-19==
 
 * Roll call
@@ -192,12 +375,12 @@ A lot of tables were generated by authors and some use the pipe hack, so there a
 
 ==ACTION ITEMS==
 
-* leaverou: to talk with Chris Coyier regarding reviewing css properties template.
-* leaverou: will follow up with Denis where global nav didn't get implemented.
-* shepazu: change the messaging on talk.webplatform.org.
-* Patrick: to give us optimal day and time to launch a blog post. (DONE)
-* Analytics TF: set up page optimization in the next two weeks.
-* Project area leads:  join next week's call so we can define what it means to be head of a task force. (STATUS: Meeting didn't happen, due to zakim snafu. Please join us next week.)
+•	leaverou: to talk with Chris Coyier regarding reviewing css properties template. (STATUS: Lea is at a conference right now, and will be mentioning WPD explicitly)
+•	leaverou: will follow up with Denis where global nav didn't get implemented. (STATUS: carried forward)
+•	shepazu: change the messaging on talk.webplatform.org. (STATUS: not sure that changing messaging is the right thing at this point. Shepazu to send an e-mail to ML)
+•	Patrick: to give us optimal day and time to launch a blog post. (DONE)
+•	Analytics TF: set up page optimization in the next two weeks. (likely won't happen right now, it's ongoing)
+•	Project area leads: join next week's call so we can define what it means to be head of a task force. (STATUS: Meeting didn't happen, due to zakim snafu. Please join us next week.)
 
 ==Agenda 2013-04-12==
 
