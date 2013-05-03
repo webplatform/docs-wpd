@@ -1,6 +1,5 @@
 ==How we support new contributors==
 
-
 ===Ambassadors===
 When a new contributor volunteers, assign an ambassador who:
 * provides a warm welcome
@@ -12,7 +11,26 @@ When a new contributor volunteers, assign an ambassador who:
 
 ===Weekly content wrangling meetings===
 
-# Get ambassadors for each major time zone
-# Post how where to ask questions
+# Get representatives for each major time zone
+# Post how and where to ask questions -- i.e., the IRC #webplatform channel
 # Set a goal at the beginning of the meeting
 # Track progress on project page or here
+
+===Help budding writers===
+
+People think it's easy to just copy and paste. But actually, it's just as easy to think on your own. People just need to know how to proceed.
+
+Ask new contributors if they want help breaking down how to edit their first page. Something like:
+
+* Find the page that needs creation
+* How to read a spec to pull out the necessary information
+* Fill in the basics, like the values and types
+* Researching reputable sites, such as MDN
+* Look at other sources for inspiration, such as tutorials, blogs, github
+* Then play with it yourself in code.webplatform.org
+* Pick some examples from your experimentation that illustrate how to it work in common-use, real0life situations
+* Then, describe how you can use it
+* Don't fill in the compat info, that will be done automagically later
+* Focus on the details, on the examples, and referencing the right specs
+* If you see other great content elsewhere on the web, don't copy-and-paste it, add links at the bottom of your page
+* Then, let the world know you have a draft up and ask for feedback, seeking out experts, tweeting in the community, etc.
