@@ -27,6 +27,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[WPD:Project_Status|Getting to Beta]]
 ** We assigned project owners. Those owners should review the beta criteria and update it with what their "group" thinks should be in the beta. 
 ** Beta criteria needs to be clarified at the higher level as well. For example:
+*** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0370.html Scott's take]
 *** We need more folks vetting the content that's there. The community TF will do a recruiting plan.
 *** We need folks to work on content, especially CSS properties pages. We may ask folks to own certain portions, to be divvied up amongst their friends and family, or otherwise focus on that.
 *** For each content area, we should have exemplar content
