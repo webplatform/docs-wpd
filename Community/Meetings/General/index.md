@@ -41,12 +41,84 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 **** work on some CSS properties
 **** if you find blockers, file a bug, and broadcast it to the public list
 * CSS Properties pages
-** The CSS properties sheet is overwhelming folks. [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=17 Julee updated it].
-** We need to ensure that new contributors are properly supported. [[WPD:CSS_property_guide/supporting_new_contributors#Helping_contributors_with_CSS_properties_page|Plan to help contributors]]
-*** Who will be an ambassador or greeter?
-** Weekly content-wrangling events on IRC is being scheduled for the West coast first, as Scott and Julee have already volunteered as consistant facilitators. Please fill out [http://www.doodle.com/y4bdnrg4ycdk4i25 doodle poll]
-*** Available times are 11am-3pm
-*** Who will be on #webplatform to help?
+
+==DISCUSSION==
+
+===TOPIC: Beta===
+
+http://docs.webplatform.org/wiki/WPD:Community/Meetings/General
+http://docs.webplatform.org/wiki/WPD:Project_Status
+http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0370.html
+
+About Beta: we aren't out of the woods until we get to Beta, at that point, we can be comfortable saying "use this content". That's the critical mass point. Watching all the sub-task forces doing their work, it's great, but imagine that there's a day when stewards or others leave and it starts a mass exodus. Get to critical mass: instead of doing so across the site. Set up a beta based on a content category. The beta can apply to one part of the site. There is a risk that if the project does not achieve a measure of usability, stakeholders may lose interest. The CSS properties project was that set that folks could use as a resource. This calls for focusing on content, to the exclusion of other things.
+
+This should be a fundamental shift in how we do this. Not beta criteria for all of WPD, but define beta criteria for individual content areas, and define beta status on each bucket. Define "beta" as pertaining to discrete content areas. First "beta": CSS Properties.
+
+We need a milestone achievement - CSS Properties. If work doesn't lead to that, defer it. This week, we realized we're spreading our energies too thin. So we should focus our energies on CSS properties project. But, volunteer help is not fungible. For example, Max Polk is willing to work on the MSDN stuff but not interested in other bits. The only thing I would say that needs to be done is:
+
+1) have the compatibility tables from MSDN and caniuse working (because that's a big part of content creation and user experience). If people come to the site and don't see consistent compat tables, it doesn't look good. So our work there is better spent finishing up compat extension.
+
+2) Also, we need to have an exemplar for each page, which is the criteria we had for beta--that's the other thing we we should have for beta.
+
+We all agree on CSS Properties. Other content areas will be deferred.
+
+What about other beta tasks?
+
+Do we want to go back to the project status page and look at those and say if any of those are direct for beta? If we focus on this stuff and don't try to recruit additional contributors, and we say CSS properties are beta, will we have a site that people can consume and contribute to?
+
+Eliot: There are two things there. There's the content effort and the infrastructure effort. (The latter includes compat tables, community, etc.) community growth can still go on, it's separated from what the community is working on. Even MDN is mostly people consuming. Really only about 15 contributors.
+
+Want to reframe a bit: "What is beta" ? what are we trying to accomplish? who is the audience?
+
+1)	ourselves. To push ourselves and feel momentum
+2)	an opportunity to talk to, after the alpha announcement, to engage public and say hey look, another chance to introduce ourselves
+3)	is the stewards
+
+If we talk about this awesome resource, and we don't have it yet, web developers need to see progress, momentum. if they see value, they'll respond, if devs promote, we're successful. We aren't changing our goals. We need to change focus and messaging for this content only. This was the general plan from the beginning of the CSS properties project?
+
+If we do micro-betas, it may dilute the impact of a general beta. It will be virtually impossible for us to get _all_ of the content to beta.
+
+But if we have a set of clear, well-defined criteria for the different sections, that shows evidence of progress. So it's the only path to success.
+
+Then we need to be clear that we're focused on the _content_, not the _site_. We'll continually revise and refine our processes around recruitment and participation. We've already got a lot more than what we started with. We've made some strides in that area. Some efforts in regard to recruiting may not be timed appropriately to achieve a short-term objective.
+
+When Eliot sent the mail out, he was looking at was our loss of focus on the content front. We're putting together a LARGE project with many different facets. At Microsoft, we have a team of writers, and a production team, and a marketing team 
+and we don't take marketing people off that when we need to do a content push.
+
+We shouldn't do it here. We should identify who's working on what, and what they're doing. The note was really just about loss of focus on Content front. We'll continue to look at bugs and project status page focus on other areas, but as far as content effort goes, we focus on CSS properties. Other aspects are secondary but still important.
+
+Folks will review their bugs:
+
+Infrastrucutre is Doug. Content is Scott, Chris, and Julee. Community is Janet for beta criteria.
+
+Right now, the site notice has a new call to action on JS.
+
+===TOPIC: CSS Properties work===
+
+The CSS properties sheet is overwhelming folks. [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=17 Julee updated it].
+
+We need to ensure that new contributors are properly supported. [[WPD:CSS_property_guide/supporting_new_contributors#Helping_contributors_with_CSS_properties_page|Plan to help contributors]]
+
+Everyone on this call who's not up for this, e-mail me specifically, otherwise you're on the hook for being an ambassador or greeter.
+Weekly content-wrangling events on IRC is being scheduled for the West coast first, as Scott and Julee have already volunteered as consistant facilitators. Please fill out [http://www.doodle.com/y4bdnrg4ycdk4i25 doodle poll]
+
+===TOPIC: Forums===
+
+w3c accessibility folks want to use our forums. So, let's keep them open, we've already deemphasized them on the site and communications channels. But let's keep them open so accessibility folks can use it.
+
+==ACTION ITEMS==
+
+* Shepazu to mock up how project should be represented in the wiki
+* shepazu: update the site notice about the CSS Properties push and how to get started AND use the piwik tracking campaign code.
+* shepazu to draft up CSS properties project blog post (circulate for comment) AND use the piwik tracking campaign code
+* shepazu to revamp CSS WG e-mail to be call for contributors
+* leads to review the bugs for project areas on project.webplatform.org (jswisher, shepazu, cmills, julee, scottrowe) 
+* shepazu to send out e-mail asking people to vote on which skin bugs are more important
+* shepazu will send an email about change in forums with w3c accessibility folks using it to answer questions
+* (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org 
+* (CARRIED FORWARD) leaverou: to talk with Chris Coyier regarding reviewing css properties template.
+* (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
+* (CARRIED FORWARD) shepazu to work with lea to mock up what the improved flags will look like.
 
 ==Agenda 2013-04-26==
 
