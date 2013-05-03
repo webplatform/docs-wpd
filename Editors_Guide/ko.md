@@ -1,5 +1,6 @@
 ==편집자 가이드: 개요==
 
+{{Languages}}
 
 <div class="topic-container">
   <div class="long-topic">
