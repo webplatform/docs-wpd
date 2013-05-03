@@ -42,6 +42,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** If you're an individual contributor:
 *** work on some CSS properties
 *** if you find blockers, file a bug, and broadcast it to the public list
+* CSS Properties flash hackathon within the next week?
+
 
 ==Agenda 2013-04-26==
 
