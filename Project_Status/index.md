@@ -64,14 +64,14 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 
 ====Content Areas for Early Beta====
 * CSS properties content task
+* API reference
+
+====Content items for later====
 * DOM reference
-* API references
 * CSS: other reference articles
 * CSS: tutorials
 * HTML references
 * HTML tutorials
-
-====Content items for later====
 * JavaScript reference pages
 * Accessibility material improvements
 * Beginners guide
