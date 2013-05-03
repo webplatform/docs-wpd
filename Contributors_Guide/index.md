@@ -1,5 +1,6 @@
 ==Editor's Guide: An Overview==
 
+{{Languages}}
 
 <div class="topic-container">
   <div class="long-topic">
