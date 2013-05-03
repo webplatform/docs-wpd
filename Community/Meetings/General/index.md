@@ -42,7 +42,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 **** if you find blockers, file a bug, and broadcast it to the public list
 * CSS Properties pages
 ** The CSS properties sheet is overwhelming folks. [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=17 Julee updated it].
-** We need to ensure that new contributors are properly supported. [WPD:CSS_property_guide/supporting_new_contributors#Helping_contributors_with_CSS_properties_page Plan to help contributors]
+** We need to ensure that new contributors are properly supported. [[WPD:CSS_property_guide/supporting_new_contributors#Helping_contributors_with_CSS_properties_page|Plan to help contributors]]
 ** Weekly content-wrangling events on IRC is being scheduled for the West coast first, as Scott and Julee have already volunteered as consistant facilitators. Please fill out [http://www.doodle.com/y4bdnrg4ycdk4i25 doodle poll]
 
 ==Agenda 2013-04-26==
