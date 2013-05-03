@@ -41,7 +41,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 **** if you find blockers, file a bug, and broadcast it to the public list
 * CSS Properties pages
 ** The CSS properties sheet is overwhelming folks. Julee is going to update it.
-** We need to ensure that new contributors are properly supported. Julee will write up a plan for helping contributors with CSS properties.
+** We need to ensure that new contributors are properly supported. Julee wrote up a [[WPD:CSS_property_guide/supporting_new_contributors|plan for helping contributors]] with CSS properties.
 ** Weekly content-wrangling events on IRC.
 
 
