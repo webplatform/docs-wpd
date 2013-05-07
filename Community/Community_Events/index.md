@@ -10,8 +10,9 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==Community events==
 ===Upcoming===
-* '''24-JULY-2013'''—TENTATIVE: WikiWednesday? @ OSCon, Portland, OR (Doug)
-* '''25-JUL-2013'''—OSCON: Doug, Janet & Eliot talking about WebPlatform 7:00 on 25 Jul 2013.
+* '''8-MAY-2013'''—Inaugural [[Meta:web_platform_wednesday|Web Platform Wednesday]]
+* '''24-JULY-2013'''—TENTATIVE: Web Platform Wednesday? @ OSCon, Portland, OR (Doug)
+* '''25-JUL-2013'''—[http://www.oscon.com/oscon2013/public/schedule/detail/29099 OSCON: Doug, Janet & Eliot talking about WebPlatform 5:00pm]
 * '''28-AUG-2013'''—TENTATIVE: Doc Sprint @ Zurich, Switzerland (Jay Meissner)
 * '''13-SEPT-2013'''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter), might be merged with Patrick's event
 * '''12-OCT-2013'''— WebPlatform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] (Paul Verbeek)
