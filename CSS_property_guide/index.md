@@ -14,20 +14,20 @@ Before you begin, you already should have:
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
-* pick a property (preferably one that's priority-0 through priority-2) from [[https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE the spreadsheet]] and add your name in the owner/reviewer column.
+* pick a property (preferably one that's priority-0 through priority-2) from [[Meta:web_platform_wednesday|the weekly list]] and add your name in the owner/reviewer column.
 * read the CSS property page through.
 * compare it to its spec(s).
 * compare the content to other reputable sites, such as Mozilla Developer Network.
 * play around with the elements documented – you can use our playground http://code.webplatform.org.
 * update the page based on your findings.
 * remove any flags you think are no longer necessary.
-* update the spreadsheet with your status and any notes: "fixed, needs review" or "Finished!" or such.
+* ask a coordinator to update the [[Meta:web_platform_wednesday|the weekly list]] with your status.
 * send us a message @webplatform to let us know you've done a page and if you'd like a review.
 
-==The CSS properties spreadsheet==
+==Ignore the master CSS properties spreadsheet==
 
 We have compiled a rather large and hopefully exhaustive list of all existing CSS properties — this can be found at
-https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE
+[[Meta:web_platform_wednesday/master_list|the master list]]  - but you can ignore this.
 
 We have assigned each property a priority level, starting from Priority-0 and going down to Priority-4, where P0 is the highest priority for vital, commonly-used properties that every browser supports. P4, then, is considered the lowest level is for properties, because they're rarely-used, proprietary, have limited cross-browser support, or all of the above. We would like to start on the highest priority ones and work out way down.
 
@@ -47,8 +47,8 @@ So the first step is to have a look at which properties you would like to work o
 
 ==Assigning you to work on your chosen properties==
 
-Once you have grabbed some properties to work on, let us know, so we can track who is working on what:  Put your name into [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE the spreadsheet.]
-
+Once you have grabbed some properties to work on, let us know, so we can track who is working on what:  Have a coordinator add your name into 
+[[Meta:web_platform_wednesday|the weekly list]]
 Then work through each property until you have completed your set. In this example I will do background-image — see my finished example at http://docs.webplatform.org/wiki/css/properties/background-image
 
 ==Creating your page, in the right place==
