@@ -17,8 +17,34 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 [http://webchat.freenode.net/?channels=#webplatform-site webchat]
 
 ==Tuesday, May 07, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
-
+===Agenda===
 * May 22nd NYC Doc Sprint has been canceled.
+* Tabled items from last week (see below)
+
+===Notes===
+Present: shepazu, julee, jswisher, scott_rowe, millo (IRC only)
+
+* Doc sprints
+** May 22nd NYC Doc Sprint has been postponed. Patrick is seeking a venue and a date. 
+** North Carolina sprint (Doug) is looking unlikely.
+** No sprint for Portland/OSCON, as it's mostly ''not'' a webdev conference; but do a WPD Wednesday that week.
+** Millo reports he has tentatively scheduled a sprint in Seattle for May 31st, in collaboration with U of Washington.
+** Jay Meissner is working on setting up a sprint in Zurich, in conjunction with a conference, August 28th.
+** Paul Verbeek (who attended the Berlin sprint) is organizing a sprint in conjunction with Fronteers in Amsterdam in October. Scott hopes to attend.
+** ACTION: Scott to update Events page (already DONE)
+
+* University outreach
+** Clarify what we're asking academics to do
+** So far, just subscribe to a news list.
+** Not focusing (yet) on programs or direct recruiting
+** Reaching out to Tech Writing depts, like at UWash (not all U's have them)
+
+* Beta community efforts
+** WPD Wednesday is to push towards beta content quality
+** Reviewing is one of the 5 tasks for WPD Wed, along with writing basic facts, writing explanations, writing examples with explanations, and filling in links to related content.
+** The CSS mailing list is a good place to recruit interested, knowledgeable people (not nec. CSS Working Group members, who are already over-burdened)
+** Can do a broadcast appeal on the list; better if comes from someone not affiliated with W3C. ACTION: Julee to send message that Doug has drafted.
+** Also approach list members 1-to-1: "Your post on X was great! Can you help WPD with pages about X?" ACTION: Doug to ask Lea to keep an eye out for candidates; Julee is also on the list and can help.
 
 ==Tuesday, April 30, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
