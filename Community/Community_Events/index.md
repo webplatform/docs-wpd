@@ -8,14 +8,15 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 ==Doc Sprint in a box: running your own community events==
 
 
-==List of community events==
-
-* '''25-JUL-2013'''—OSCON - Janet & Eliot talking about WebPlatform 7:00 on 25 Jul 2013.
-* '''26-JULY-2013'''—TENTATIVE: WikiWednesday? @ OSCon, Portland, OR (Doug)
+==Community events==
+===Upcoming===
+* '''24-JULY-2013'''—TENTATIVE: WikiWednesday? @ OSCon, Portland, OR (Doug)
+* '''25-JUL-2013'''—OSCON: Doug, Janet & Eliot talking about WebPlatform 7:00 on 25 Jul 2013.
 * '''28-AUG-2013'''—TENTATIVE: Doc Sprint @ Zurich, Switzerland (Jay Meissner)
-* '''31-AUG-2013'''—TENTATIVE: Doc Sprint @ Durham, SC (Doug)
-* '''13-SEPT-2013''''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter)
+* '''13-SEPT-2013'''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter), might be merged with Patrick's event
 * '''12-OCT-2013'''— WebPlatform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] (Paul Verbeek)
+* '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
+===Past===
 * '''03-APR-2013'''—WebPlatform Doc Sprint at Google in San Francisco, California, USA. [http://blog.webplatform.org/2013/04/doc-sprint-san-francisco-april-3/ Blog post]
 * '''23-FEB-2013'''—WebPlatform Doc Sprint at Adobe in San Francisco, California, USA. [http://docsprint.eventbrite.com/ Registration]
 * '''08+09-FEB-2013'''—First WebPlatform Doc Sprint in Europe powered by Adobe in Berlin, Germany. [http://web-platform-doc-sprint-berlin.eventbrite.com/ Register here] [[community/berlin feb 2013|Talk plan for berlin doc sprint]]
