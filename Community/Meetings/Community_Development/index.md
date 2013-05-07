@@ -44,7 +44,7 @@ Present: shepazu, julee, jswisher, scott_rowe, millo (IRC only)
 ** Reviewing is one of the 5 tasks for WPD Wed, along with writing basic facts, writing explanations, writing examples with explanations, and filling in links to related content.
 ** The CSS mailing list is a good place to recruit interested, knowledgeable people (not nec. CSS Working Group members, who are already over-burdened)
 ** Can do a broadcast appeal on the list; better if comes from someone not affiliated with W3C. ACTION: Julee to send message that Doug has drafted.
-** Also approach list members 1-to-1: "Your post on X was great! Can you help WPD with pages about X?" ACTION: Doug to ask Lea to keep an eye out for candidates; Julee is also on the list and can help.
+** Also approach list members 1-to-1: "Your post on X was great! Can you help write/edit/review WPD pages about X?" I.e., specific to that person, and their expertise, in response to something they did, asking for specific action. ACTION: Doug to ask Lea to keep an eye out for candidates; Julee is also on the list and can help.
 
 ==Tuesday, April 30, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 
