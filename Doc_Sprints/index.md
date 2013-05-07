@@ -18,13 +18,13 @@ There should be at least two roles for organizers in a sprint: one person to org
 This person should manage the budget and funding, find a location, identify participants, arrange meals, and so on.
 
 ===Content Facilitator===
-This person should facilitate the content effort by guiding the creation and review of different materials, and encouraging colloboration between participation.
+This person should facilitate the content effort by guiding the creation and review of different materials, and encouraging collaboration between participants.
 
 ====Recommended Facilitators====
 Janet recommend Adam Hyde of FLOSS Manuals, as he has more experience at this than really anybody. (even though we won't be using FLOSS Manuals site or producing a "book" per se). Contact Janet for an introduction to Adam.
 
 ==Participants==
-We want only one representative from each steward organization, along with community volunteers; otherwise, we risk filling the room with stewards and excluding community. However, the volunteers should be “known” and already-engaged people; we do not plan a general open call for participants. Members of the WebEd CG and the MDN community would be good candidates.
+We want at best one representative from each steward organization, along with community volunteers; otherwise, we risk filling the room with stewards and excluding community. 
 
 ==Materials==
 
