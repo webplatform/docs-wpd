@@ -79,9 +79,28 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 * General web concepts
  
 ===Goals for Community===
-* Vote of confidence -- consensus (W3C style)
-* We have a certain number of active people or registered users
-* We have a certain met page views
+* Mechanisms are in place to encourage new members to engage in all channels: wiki, mailing list, IRC, Bug Genie
+** Welcome emails point users to other channels
+* Helpful usable guides exist on how to contribute and interact
+** Wiki Editor's Guide
+** How-to on using IRC
+** How-to about mailing list?
+** How-to about Bug Genie
+* Implement tracking of metrics
+** Growth
+*** # ML members, &Delta; ML members
+*** # Wiki accounts, &Delta; Wiki accounts
+*** Survey for "How did you hear about WPD?" linked from wiki welcome email (options: referral/invitation, blog, tweet, podcast, presentation, event)
+** Activity (per week or month)
+*** # ML posts and threads --> avg posts/thread
+*** # unique ML posters, # who are not Steward staff
+*** # wiki edits
+*** # active wiki users, # who are not Steward staff
+* Target metrics for Beta
+** Growth is positive (not flat or negative)
+** > 25% of new members come from non-Steward activity
+** > 25% of ML activity from non-Steward staff
+** > 25% of wiki activity from non-Steward staff
 
 ===Beta Means=== 
 * unflagging party (Julee)
