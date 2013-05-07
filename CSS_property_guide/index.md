@@ -14,7 +14,7 @@ Before you begin, you already should have:
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
-* pick a property (preferably one that's priority-0 through priority-2) from [[Meta:web_platform_wednesday|the weekly list]] and add your name in the owner/reviewer column.
+* pick a property (preferably one that's priority-0 through priority-2) from [[Meta:web_platform_wednesday|the weekly list]] and have a coordinator add your name in the owner/reviewer column.
 * read the CSS property page through.
 * compare it to its spec(s).
 * compare the content to other reputable sites, such as Mozilla Developer Network.
