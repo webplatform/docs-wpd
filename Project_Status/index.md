@@ -81,6 +81,7 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 ===Goals for Community===
 * Mechanisms are in place to encourage new members to engage in all channels: wiki, mailing list, IRC, Bug Genie
 ** Welcome emails point users to other channels
+* Benefits of contributing to WPD are articulated and are communicated to new members.
 * Helpful usable guides exist on how to contribute and interact
 ** Wiki Editor's Guide
 ** How-to on using IRC
