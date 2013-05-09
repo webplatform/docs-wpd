@@ -94,7 +94,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 |Yes
 |Yes
 |- style="font-style: italic; color: red;"
-|Information Architecture
+|InfoArch
 |Scottrowe
 |17
 |Yes
@@ -105,12 +105,6 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 |14
 |Yes
 |???
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
 |- style="font-style: italic; color: red;"
 |prmg
 |Garbee
