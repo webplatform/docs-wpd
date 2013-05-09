@@ -20,6 +20,125 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-05-10==
+
+* Roll call
+* Review of open action items
+* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** Coordinators:
+*** Doug: 
+*** Chris: did all of his, himself -- next time will get others to help
+*** Julee: did some, got help with border-color and examples
+*** Scott: 
+*** Janet: 
+** Process:
+*** Coordinators please:
+**** update [[Meta:web_platform_wednesday|WPDW]] main page with assigned items having checkmarks
+**** update [[Meta:web_platform_wednesday/2013-05-08|this week's page]] with status
+**** update [[Meta:web_platform_wednesday/master_list|master list]] when things are done
+*** Doug is working on a [[Meta:web_platform_wednesday/coordinator_guide|coordinator's guide]]
+*** Do all pages need a different reviewer? At least a "peer" review?
+* [[WPD:Project_Status|Getting to Beta]]
+** How to mark bugs that are not in beta - postponed?
+
+
+===Project Status===
+[[WPD:Project_Status|Getting to Beta]]
+
+{|class="wikitable" style="text-align: center; color: green; width:50%"
+!colspan="2" align="center" style="text-align: center;"|When folks are hanging out on #webplatform
+!colspan="1" align="center" style="text-align: center;"|Project|Lead|Open Issues|[[WPD:Project_Status|Beta defined]]|beta bugs assigned
+|-
+|Analytics
+|patrickdsouza
+|10
+|Yes
+|betabugsareassigned
+|-
+|Blog
+|Eliot-MSFT
+|5
+|???
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|-
+|project
+|name
+|bugs
+|betadefined
+|betabugsareassigned
+|}
+
+
+
+
+
+
 ==Agenda 2013-05-03==
 
 * Roll call
