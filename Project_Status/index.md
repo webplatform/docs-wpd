@@ -43,6 +43,7 @@ We want the site work as a normal reader or editor would expect it to.
 * Compatibility tables should be automated and always current
 * API for external folks pulling content from WPD
 * Dependable and useful search
+* Analytics: we track campaigns, address serious SEO issues, provide metrics data on site and projects as required and defined
  
 ===Goals for content===
 It should be '''beta complete'''
