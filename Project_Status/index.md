@@ -81,18 +81,18 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
  
 ===Goals for Community===
 * Mechanisms are in place to encourage new members to engage in all channels: wiki, mailing list, IRC, Bug Genie
-** Welcome emails point users to other channels
+** Welcome emails point users to other channels ([http://project.webplatform.org/infrastructure/issues/22 Infrastructure-22], [http://project.webplatform.org/infrastructure/issues/23 Infrastructure-23])
 * Benefits of contributing to WPD are articulated and are communicated to new members.
 * Helpful usable guides exist on how to contribute and interact
-** Wiki Editor's Guide
-** How-to on using IRC
-** How-to about mailing list?
-** How-to about Bug Genie
-* Implement tracking of metrics
+** Wiki Editor's Guide ([http://docs.webplatform.org/wiki/WPD:Editors_Guide done])
+** How-to on using IRC ([http://project.webplatform.org/community/issues/2 Community-2])
+** How-to about mailing list? ([http://project.webplatform.org/community/issues/3 Community-3])
+** How-to about Bug Genie (nice-to-have for Beta, [http://project.webplatform.org/community/issues/4 Community-4]) 
+* Implement tracking of metrics (see [http://project.webplatform.org/analytics/issues/11 Analytics-11] and [http://project.webplatform.org/infrastructure/issues/25 Infrastructure-25])
 ** Growth
 *** # ML members, &Delta; ML members
 *** # Wiki accounts, &Delta; Wiki accounts
-*** Survey for "How did you hear about WPD?" linked from wiki welcome email (options: referral/invitation, blog, tweet, podcast, presentation, event)
+*** Survey for "How did you hear about WPD?" linked from wiki welcome email ([http://project.webplatform.org/infrastructure/issues/24 Infrastructure-24])
 ** Activity (per week or month)
 *** # ML posts and threads --> avg posts/thread
 *** # unique ML posters, # who are not Steward staff
