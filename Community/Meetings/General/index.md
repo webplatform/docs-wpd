@@ -46,7 +46,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything new & notable? (Blogs or other communications planned for this week?)
 
 ===Project Status===
-[[WPD:Project_Status|Getting to Beta]]
+[[WPD:Project_Status|Project Status Page for Getting to Beta]]
 
 Bug count: 142
 
