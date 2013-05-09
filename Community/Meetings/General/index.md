@@ -109,8 +109,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 |prmg
 |Garbee
 |17
-|???
-|???
+|Shooting for 5/15
+|Shooting for 5/15
 |- style="font-style: italic; color: red;"
 |Q&A
 |shepazu
