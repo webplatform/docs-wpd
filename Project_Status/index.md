@@ -103,6 +103,9 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 ** > 25% of ML activity from non-Steward staff
 ** > 25% of wiki activity from non-Steward staff
 
+===Goals for Templates===
+The templates taskforce aims to reactively support the content and infrastructure teams with whatever they need to get to beta. Those teams should file bugs in the template project in BugGenie as necessary.
+
 ===Beta Means=== 
 * unflagging party (Julee)
 
