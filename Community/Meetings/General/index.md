@@ -33,7 +33,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** Janet: 
 ** Process:
 *** Coordinators please:
-**** update [[Meta:web_platform_wednesday|WPDW]] main page with assigned items having checkmarks
+**** update [[Meta:web_platform_wednesday|WPDW]] main page with assigned items having check marks
 **** update [[Meta:web_platform_wednesday/2013-05-08|this week's page]] with status
 **** update [[Meta:web_platform_wednesday/master_list|master list]] when things are done
 *** Doug is working on a [[Meta:web_platform_wednesday/coordinator_guide|coordinator's guide]]
@@ -45,93 +45,96 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ===Project Status===
 [[WPD:Project_Status|Getting to Beta]]
 
-{|class="wikitable" style="text-align: center; color: green; width:50%"
-!colspan="2" align="center" style="text-align: center;"|When folks are hanging out on #webplatform
-!colspan="1" align="center" style="text-align: center;"|Project|Lead|Open Issues|[[WPD:Project_Status|Beta defined]]|beta bugs assigned
+{|class="wikitable" style="text-align: center; width:50%"
+!Project
+!Lead
+!Open Issues
+!Beta defined
+!beta bugs assigned
 |-
 |Analytics
 |patrickdsouza
 |10
 |Yes
-|betabugsareassigned
-|-
+|Yes
+|- style="font-style: italic; color: red;"
 |Blog
 |Eliot-MSFT
 |5
 |???
-|betabugsareassigned
+|Yes
+|- style="font-style: italic; color: red;"
+|commentsextension
+|shepazu
+|8
+|???
+|???
+|-
+|community
+|jswisher
+|1
+|Yes
+|Yes
+|-
+|compatibilitytables
+|shepazu
+|1
+|Yes
+|Yes
+|- style="font-style: italic; color: red;"
+|content
+|Julee
+|40
+|Yes
+|in progress
+|-
+|dabblet
+|Lea
+|2
+|Yes
+|Yes
+|- style="font-style: italic; color: red;"
+|Information Architecture
+|Scottrowe
+|17
+|Yes
+|In progress
+|- style="font-style: italic; color: red;"
+|infrastructure
+|shepazu
+|14
+|Yes
+|???
 |-
 |project
 |name
 |bugs
 |betadefined
 |betabugsareassigned
+|- style="font-style: italic; color: red;"
+|prmg
+|Garbee
+|17
+|???
+|???
+|- style="font-style: italic; color: red;"
+|Q&A
+|shepazu
+|2
+|???
+|???
 |-
 |project
 |name
 |bugs
 |betadefined
 |betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
+|- style="font-style: italic; color: red;"
+|skin
+|Lea
+|18
+|???
+|In progress
 |}
 
 
