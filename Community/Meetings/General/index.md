@@ -129,12 +129,13 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 |18
 |???
 |In progress
+|- style="font-style: italic; color: red;"
+|templates
+|jkoromo
+|7
+|dependency on content & ia beta definition
+|Yes
 |}
-
-
-
-
-
 
 ==Agenda 2013-05-03==
 
