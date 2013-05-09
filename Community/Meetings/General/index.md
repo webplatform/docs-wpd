@@ -117,12 +117,6 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 |2
 |???
 |???
-|-
-|project
-|name
-|bugs
-|betadefined
-|betabugsareassigned
 |- style="font-style: italic; color: red;"
 |skin
 |Lea
