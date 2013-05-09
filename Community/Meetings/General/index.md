@@ -133,7 +133,7 @@ Bug count: 142
 |jkoromo
 |7
 |dependency on content & ia beta definition
-|Yes
+|No
 |}
 
 ==Agenda 2013-05-03==
