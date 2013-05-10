@@ -41,9 +41,11 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[WPD:Project_Status|Getting to Beta]]
 ** Bug count: 140
 ** How to mark bugs that are not in beta - postponed?
+* Onboarding
+** Need a stock response to people like Konstantinos who reach out to the list and want to join. And maybe a rotating member of the community team to send them?
 * Any updates?
-** [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 ** We have ToCs!
+* [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for this week?)
 
