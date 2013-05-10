@@ -107,6 +107,14 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 ===Goals for Templates===
 The templates taskforce aims to reactively support the content and infrastructure teams with whatever they need to get to beta. Those teams should file bugs in the template project in BugGenie as necessary.
 
+===Goals for the WPD blog===
+To be ready for success at the beta timeframe, the [http://blog.webplatform.org/ WPD blog] must meet the following criteria:
+*A detailed description of the purpose of the blog is posted, possibly in [http://docs.webplatform.org/wiki/WPD:Marketing/Posting_Guidelines Posting Guidelines]
+*Blogging practices for events and special announcements (doc sprints, milestones, etc.) are detailed in the description.
+*Cadences for blogging about ongoing needs (content status, community health, etc.) are established and evangelized.
+*A perpetual editorial calendar of blog posts has been created and filled out. The calendar looks forward a minimum of 60 days and is populated with topics and authors.
+
+
 ===Beta Means=== 
 * unflagging party (Julee)
 
