@@ -44,6 +44,9 @@ We want the site work as a normal reader or editor would expect it to.
 * API for external folks pulling content from WPD
 * Dependable and useful search
 * Analytics: we track campaigns, address serious SEO issues, provide metrics data on site and projects as required and defined
+
+====Goals for Templates====
+The templates taskforce aims to reactively support the content and infrastructure teams with whatever they need to get to beta. Those teams should file bugs in the template project in BugGenie as necessary.
  
 ===Goals for content===
 It should be '''beta complete'''
@@ -104,10 +107,7 @@ For additional commentary on this section, see [[WPD:Project_Status/comments]]
 ** > 25% of ML activity from non-Steward staff
 ** > 25% of wiki activity from non-Steward staff
 
-===Goals for Templates===
-The templates taskforce aims to reactively support the content and infrastructure teams with whatever they need to get to beta. Those teams should file bugs in the template project in BugGenie as necessary.
-
-===Goals for the WPD blog===
+====Goals for the WPD blog====
 To be ready for success at the beta timeframe, the [http://blog.webplatform.org/ WPD blog] must meet the following criteria:
 *A detailed description of the purpose of the blog is posted, possibly in [http://docs.webplatform.org/wiki/WPD:Marketing/Posting_Guidelines Posting Guidelines]
 *Blogging practices for events and special announcements (doc sprints, milestones, etc.) are detailed in the description.
