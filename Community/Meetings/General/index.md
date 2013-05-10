@@ -42,6 +42,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Bug count: 140
 ** How to mark bugs that are not in beta - postponed?
 * Any updates?
+** [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for this week?)
 
