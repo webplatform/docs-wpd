@@ -43,6 +43,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** How to mark bugs that are not in beta - postponed?
 * Any updates?
 ** [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
+** We have ToCs!
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for this week?)
 
@@ -225,11 +226,11 @@ w3c accessibility folks want to use our forums. So, let's keep them open, we've 
 
 ==ACTION ITEMS==
 
-* Shepazu to mock up how project should be represented in the wiki
-* shepazu: update the site notice about the CSS Properties push and how to get started AND use the piwik tracking campaign code.
-* shepazu to draft up CSS properties project blog post (circulate for comment) AND use the piwik tracking campaign code
+* Shepazu to mock up how project should be represented in the wiki (DONE)
+* shepazu: update the site notice about the CSS Properties push and how to get started AND use the piwik tracking campaign code.  (DONE)
+* shepazu to draft up CSS properties project blog post (circulate for comment) AND use the piwik tracking campaign code.  (DONE)
 * shepazu to revamp CSS WG e-mail to be call for contributors
-* leads to review the bugs for project areas on project.webplatform.org (jswisher, shepazu, cmills, julee, scottrowe) 
+* leads to review the bugs for project areas on project.webplatform.org (jswisher, shepazu, cmills, julee, scottrowe)  (In progress: See: [[WPD:Community/Meetings/General#Project_Status|Project Status table]])
 * shepazu to send out e-mail asking people to vote on which skin bugs are more important
 * shepazu will send an email about change in forums with w3c accessibility folks using it to answer questions
 * (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org 
