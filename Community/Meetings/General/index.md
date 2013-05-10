@@ -65,8 +65,8 @@ Bug count: 142
 |- style="font-style: italic; color: red;"
 |Blog
 |Eliot-MSFT
-|5
-|???
+|4
+|Yes
 |Yes
 |- style="font-style: italic; color: red;"
 |commentsextension
