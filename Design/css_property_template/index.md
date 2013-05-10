@@ -7,7 +7,7 @@ blah blah
 ! Values
 ! Example
 |-
-| rowspan="2"| border-radius
+! rowspan="2"| border-radius
 | [[#length_value|length]]
 | [[#length_examples|border-radius: 1em;]]
 |-
@@ -32,7 +32,7 @@ Specifically, percentages for the horizontal axis refer to the width of the box,
 Negative values are invalid.</dd>
 </dl>
 
-Overview table
+==Overview table==
 {| class="wikitable"
 | Initial value
 | 0
