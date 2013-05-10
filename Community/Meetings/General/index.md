@@ -119,9 +119,9 @@ Bug count: 141
 |- style="font-style: italic; color: red;"
 |InfoArch
 |Scottrowe
-|17
+|9
 |Yes
-|In progress
+|Yes
 |- style="font-style: italic; color: red;"
 |infrastructure
 |shepazu
