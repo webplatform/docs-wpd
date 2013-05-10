@@ -39,7 +39,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** Doug is working on a [[Meta:web_platform_wednesday/coordinator_guide|coordinator's guide]]
 *** Do all pages need a different reviewer? At least a "peer" review?
 * [[WPD:Project_Status|Getting to Beta]]
-** Bug count: 142
+** Bug count: 140
 ** How to mark bugs that are not in beta - postponed?
 * Any updates?
 * Anything blocking you from creating great content?
@@ -48,7 +48,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ===Project Status===
 [[WPD:Project_Status|Project Status Page for Getting to Beta]]
 
-Bug count: 142
+Bug count: 140
 
 {|class="wikitable" style="text-align: center; width:50%"
 !Project
@@ -122,12 +122,12 @@ Bug count: 142
 |2
 |???
 |???
-|- style="font-style: italic; color: red;"
+|-
 |skin
 |Lea
-|18
-|???
-|In progress
+|16
+|Yes
+|Yes
 |- style="font-style: italic; color: red;"
 |templates
 |jkoromo
