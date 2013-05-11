@@ -15,7 +15,7 @@
 | [[#absolute-size_examples|font-size: small;]]
 |-
 | [[#relative-size_value|relative-size]]
-| [[#relative-size_examples|font-sizes: larger;]]
+| [[#relative-size_examples|font-size: larger;]]
 |-
 | [[#length_value|length]]
 | [[#length_examples|font-size: 1.5em;]]
