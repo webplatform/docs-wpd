@@ -10,7 +10,7 @@
 ! Values
 ! Example
 |-
-! rowspan="4"| border-radius
+! rowspan="4"| font-size
 | [[#absolute-size_value|absolute-size]]
 | [[#absolute-size_examples|font-size: small;]]
 |-
