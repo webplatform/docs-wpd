@@ -143,9 +143,9 @@ p  { font-size: 1.4rem }   /* 14px */
 
 ==Related Specifications==
 {| class="wikitable"
-! 
-! 
-! 
+! Specification
+! Status
+! Related Changes
 |-
 | [http://www.w3.org/TR/css3-fonts/#font-size-prop CSS Fonts Module Level 3]
 | Working Draft
