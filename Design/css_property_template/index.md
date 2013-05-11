@@ -1,5 +1,8 @@
+=font-size=
+<compatability topic="css" type="property" feature="font-size" format="list"> </compatability>
+
 ==Summary==
-blah blah
+<code>font-size</code> sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.
 
 ==Syntax==
 {| class="wikitable template_test"
@@ -7,60 +10,101 @@ blah blah
 ! Values
 ! Example
 |-
-! rowspan="2"| border-radius
+! rowspan="4"| border-radius
+| [[#absolute-size_value|absolute-size]]
+| [[#absolute-size_examples|font-size: small;]]
+|-
+| [[#relative-size_value|relative-size]]
+| [[#relative-size_examples|font-sizes: larger;]]
+|-
 | [[#length_value|length]]
-| [[#length_examples|border-radius: 1em;]]
+| [[#length_examples|font-size: 1.5em;]]
 |-
 | [[#percentage_value|percentage]]
-| [[#percentage_examples|border-radius: 10%;]]
+| [[#percentage_examples|font-size: 110%;]]
 |}
 
 ==Values==
 <dl>
+<dt id="absolute-size_value" class="template_test">absolute-size</dt>
+<dd class="template_test">A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
+<br>
+'''Keywords:'''
+<ul class="keywords">
+<li>xx-small</li>
+<li>x-small</li>
+<li>small</li>
+<li>medium</li>
+<li>large</li>
+<li>x-large</li>
+<li>xx-large</li>
+</ul>
+</dd>
+
+<dt id="relative-size_value" class="template_test">relative-size</dt>
+<dd class="template_test">A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
+<br>
+'''Keywords:'''
+<ul class="keywords">
+<li>smaller</li>
+<li>larger</li>
+</ul>
+</dd>
+
 <dt id="length_value" class="template_test">length</dt>
-<dd class="template_test">The size of the circle radius or the horizontal and vertical radii, for elliptical curves. 
-<br>
-It can be expressed in any unit allowed in CSS <length> data types. em units are useful for controls that scale proportionally with the font-size. Viewport-relative units (vw, vh, vmin, vmax) can be useful for controls that scale with the viewport size. 
-<br>
-Negative values are invalid.</dd>
+<dd class="template_test">A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.</dd>
 
 <dt id="percentage_value" class="template_test">percentage</dt>
-<dd class="template_test">The size of the corner radius, in percentages of the box’s dimensions.
-<br>
-Specifically, percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box.
-<br>
-Negative values are invalid.</dd>
+<dd class="template_test">A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating a percentage of the parent element's '''font-size'''.</dd>
 </dl>
 
 ==Overview table==
 {| class="wikitable"
 | Initial value
-| 0
+| <code>medium</code>
 |-
 | Applies to
-| All elements, except the table element when border-collapse is collapse
+| All elements
 |-
 | Inherited
-|  No
+|  Yes
 |-
 | Media
 | visual
 |-
 | Computed value
-| As specified by individual properties
+| absolute size in '''px''' units
 |-
 | Animatable
 | Yes
 |-
 | CSS Object Model Property
-| element.style.borderRadius
+| <code>fontSize</code>
 |}
 
 ==Examples==
 
+===absolute-size	 examples===
+<syntaxhighlight>
+ font-size: small;
+</syntaxhighlight>
+
+<syntaxhighlight>
+ font-size: xx-large;
+</syntaxhighlight>
+
+===relative-size examples===
+<syntaxhighlight>
+ font-sizes: larger;
+</syntaxhighlight>
+
+<syntaxhighlight>
+ font-sizes: smaller;
+</syntaxhighlight>
+
 ===length examples===
 <syntaxhighlight>
- border-radius: 1em;
+ font-size: 1.5em;
 </syntaxhighlight>
 
 <syntaxhighlight>
@@ -69,19 +113,51 @@ Negative values are invalid.</dd>
 
 ===percentage examples===
 <syntaxhighlight>
- border-radius: 10%;
+ font-size: 110%;
 </syntaxhighlight>
 
 <syntaxhighlight>
  border-radius: 50%;
 </syntaxhighlight>
 
+===Other examples===
+Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
+<syntaxhighlight>
+html { font-size: 62.5%; } 
+/* 
+16 * 62.5% == 10 
+*/
+
+h1 { font-size: 3.6rem }   /* 36px */
+h2 { font-size: 2.4rem }   /* 24px */
+p  { font-size: 1.4rem }   /* 14px */
+</syntaxhighlight>
+
+
 ==Usage==
 
 ==Notes==
 
 ==Compatibility==
+<compatability topic="css" type="property" feature="font-size"> </compatability>
 
 ==Related Specifications==
+{| class="wikitable"
+! 
+! 
+! 
+|-
+| [http://www.w3.org/TR/css3-fonts/#font-size-prop CSS Fonts Module Level 3]
+| Working Draft
+| 
+|-
+| [http://www.w3.org/TR/css3-values/ CSS Values and Units Module Level 3]
+| Candidate Recommendation
+| 
+|-
+| [http://www.w3.org/TR/CSS2/ Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification]
+| W3C Recommendation
+| 
+|}
 
 ==See Also==
