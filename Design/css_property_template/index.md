@@ -31,13 +31,13 @@
 <br>
 '''Keywords:'''
 <ul class="keywords">
-<li>xx-small</li>
-<li>x-small</li>
-<li>small</li>
-<li>medium</li>
-<li>large</li>
-<li>x-large</li>
-<li>xx-large</li>
+   <li><code class="value-keyword">xx-small</code> 3/5 parent font-size</li>
+   <li><code class="value-keyword">x-small</code> 3/4 parent font-size</li>
+   <li><code class="value-keyword">small</code> 8/9 parent font-size</li>
+   <li><code class="value-keyword">medium</code> 1 parent font-size</li>
+   <li><code class="value-keyword">large</code> 6/5 parent font-size</li>
+   <li><code class="value-keyword">x-large</code> 3/2 parent font-size</li>
+   <li><code class="value-keyword">xx-large</code> 2/1 parent font-size</li>
 </ul>
 </dd>
 
@@ -45,6 +45,10 @@
 <dd class="template_test">A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
 <br>
 '''Keywords:'''
+<ul class="keywords">
+    <li><code class="value-keyword">smaller</code> 1 increment lower than parent font-size (e.g. if the parent font-size is <code>medium</code>, the <code>smaller</code> value would be interpreted as <code>small</code>)</li>
+   <li><code class="value-keyword">larger</code>  1 increment higher than parent font-size (e.g. if the parent font-size is <code>medium</code>, the <code>larger</code> value would be interpreted as <code>large</code>)</li>
+</ul>
 <ul class="keywords">
 <li>smaller</li>
 <li>larger</li>
