@@ -28,6 +28,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[WPD:Project_Status|Getting to Beta]]
 ** Bug count: ???
 ** How to mark bugs that are not in beta - postponed?
+* is it time to have a face-to-face
 * [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 * Embedding external pages in WPD?
 * SASS or LESS examples?
