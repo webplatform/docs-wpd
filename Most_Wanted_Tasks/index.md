@@ -1,7 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Grammar/Spelling
+|High-level issues=Deletion Candidate
 |Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate
+| Outdated. We shouldn't be maintaining static lists like this with the new project management system in place.
+}}
 }}
 {{Summary_Section|A quick list of things that could be done around the site.}}
 {{Basic Page}}
