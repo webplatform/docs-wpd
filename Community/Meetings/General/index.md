@@ -38,9 +38,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
-==Agenda 2013-05-17==
-
-Meeting canceled due to lack of quorum.
+==2013-05-17: Meeting canceled due to lack of quorum==
 
 ==Agenda 2013-05-10==
 
