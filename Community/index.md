@@ -27,7 +27,7 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 
 == Stay in touch ==
 
-* Join our [http://talk.webplatform.org/forums/ Q&A]
+* [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
 * [[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join_the_conversation_on_the_IRC_channel|Chat with other editors in IRC]]: we're on irc.freenode.org, the #webplatform channel.
 * Read our [http://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
