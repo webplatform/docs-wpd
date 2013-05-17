@@ -154,7 +154,7 @@ Articles in the lists below have issues for which the resolution may require sub
 
 ==CSS properties==
 
-The CSS property pages are a special project we're working on. We've selected some significant CSS properties. We're reviewing the reference pages, adding examples, editing, and improving the quality. For more information, see the [[WPD:CSS_property_guide|CSS properties guide]].
+The CSS property pages are a special project we're working on. We've selected some significant CSS properties. We're reviewing the reference pages, adding examples, editing, and improving the quality. For more information, see the [[Meta:web_platform_wednesday|Web Platform Wednesday]].
 
 
 {{Configurable_Query
