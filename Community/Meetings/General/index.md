@@ -26,12 +26,11 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 * [[WPD:Project_Status|Getting to Beta]]
-** Bug count: ???
+** The bug genie is returning connection errors. Seems to be associated with writing certain files.
 ** How to mark bugs that are not in beta - postponed?
-* is it time to have a face-to-face
+* is it time to have a face-to-face?
 * [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
-* Embedding external pages in WPD?
-* SASS or LESS examples?
+* Embedding external pages in WPD? (If Lea's not here, move to next week.)
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
