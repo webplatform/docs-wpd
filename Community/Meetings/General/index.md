@@ -25,8 +25,15 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** New and improved: only one table to fill out!
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
-** What is workflow for WPDWs? We never finished the process and so a lot of questions and quirks are still coming up.
+*** We should be active on IRC at that time, at least promoting the current week's blog post, and let folks know we're available to answer any questions at that time.
+** What is workflow for WPDWs?
+### Shepazu to pick topic.
+### Blog written on Tuesday, promo'd Wednesday morning.
+### Coordinators get volunteers and sign folks up.
+### Do properties.
+### Coordinators should update tables by tuesday.
 ** Anyone going to [http://cssconf.com/ CSSConf]? Any opportunity to promote WPW?
 * [[WPD:Project_Status|Getting to Beta]]
 ** The bug genie is returning connection errors. Seems to be associated with writing certain files.
