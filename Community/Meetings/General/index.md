@@ -25,7 +25,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
-** New and improved: only one table to fill out!
+** New and improved: only one table to fill out! (Master page is what we're pulling from. But http://docs.webplatform.org/wiki/Meta:web_platform_wednesday will become the final master list.)
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
 *** We should be active on IRC at that time, at least promoting the current week's blog post, and let folks know we're available to answer any questions at that time.
 ** What is workflow for WPDWs?
