@@ -12,3 +12,9 @@ Possible values with description:
 
 Return the value description of a DOM method:
 * <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[dom/methods/appendChild]]|?Return_value_description</nowiki>
+
+== Discovering properties ==
+When making queries to the API, you need to specify which properties to display. A useful tool for discovering the available properties can be found here:
+http://docs.webplatform.org/wiki/Special:Browse
+
+For example, you can find the properties available on the Document interface at http://docs.webplatform.org/wiki/Special:Browse/dom-2Fdocument
