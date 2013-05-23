@@ -27,6 +27,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
 ** What is workflow for WPDWs? We never finished the process and so a lot of questions and quirks are still coming up.
+** Anyone going to [http://cssconf.com/ CSSConf]? Any opportunity to promote WPW?
 * [[WPD:Project_Status|Getting to Beta]]
 ** The bug genie is returning connection errors. Seems to be associated with writing certain files.
 ** How to mark bugs that are not in beta - postponed?
