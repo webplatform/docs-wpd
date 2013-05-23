@@ -9,3 +9,6 @@ Summary and possible values (without their description):
 
 Possible values with description:
 * <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[Value_for_property::css/properties/display]]|?Property_value_description</nowiki>
+
+Return the value description of a DOM method:
+* <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[Path::dom/methods/appendChild]]|?Return_value_description</nowiki>
