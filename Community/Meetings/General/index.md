@@ -38,11 +38,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[WPD:Project_Status|Getting to Beta]]
 ** The bug genie is returning connection errors. Seems to be associated with writing certain files.
 ** How to mark bugs that are not in beta - postponed?
-* is it time to have a face-to-face?
 * [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 * Embedding external pages in WPD? (If Lea's not here, move to next week.)
-* Reviewing what new content is being posted
-** [[Special:Contributions/Amparoleonor|Articles about buying TVs?]]
+* Spam filtering?
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
