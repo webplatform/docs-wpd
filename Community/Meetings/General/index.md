@@ -30,11 +30,11 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
 *** We should be active on IRC at that time, at least promoting the current week's blog post, and let folks know we're available to answer any questions at that time.
 ** What is workflow for WPDWs?
-### Shepazu to pick topic.
-### Blog written on Tuesday, promo'd Wednesday morning.
-### Coordinators get volunteers and sign folks up.
-### Do properties.
-### Coordinators should update tables by tuesday.
+# Shepazu to pick topic.
+# Blog written on Tuesday, promo'd Wednesday morning.
+# Coordinators get volunteers and sign folks up on the WPW page, adding "In Progress"
+# Coordinators help contributors do properties.
+# Coordinators should update tables by Tuesday, with "Done" or "Not done".
 ** Anyone going to [http://cssconf.com/ CSSConf]? Any opportunity to promote WPW?
 * [[WPD:Project_Status|Getting to Beta]]
 ** The bug genie is returning connection errors. Seems to be associated with writing certain files.
