@@ -20,32 +20,19 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
-==Agenda 2013-05-24==
+==Agenda 2013-05-17==
 
 * Roll call
 * Review of open action items
-* [http://docs.webplatform.org/test/css/properties/border-radius ToC]
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
-** New and improved: only one table to fill out! (Master page is what we're pulling from. But http://docs.webplatform.org/wiki/Meta:web_platform_wednesday will become the final master list.)
-** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
-*** We should be active on IRC at that time, at least promoting the current week's blog post, and let folks know we're available to answer any questions at that time.
-** What is workflow for WPDWs?
-### Shepazu to pick topic.
-### Blog written on Tuesday, promo'd Wednesday morning.
-### Coordinators get volunteers and sign folks up.
-### Do properties.
-### Coordinators should update tables by tuesday.
-** Anyone going to [http://cssconf.com/ CSSConf]? Any opportunity to promote WPW?
 * [[WPD:Project_Status|Getting to Beta]]
-** The bug genie is returning connection errors. Seems to be associated with writing certain files.
+** Bug count: ???
 ** How to mark bugs that are not in beta - postponed?
 * [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
-* Embedding external pages in WPD? (If Lea's not here, move to next week.)
-* Spam filtering?
+* Embedding external pages in WPD?
+* SASS or LESS examples?
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
-
-==2013-05-17: Meeting canceled due to lack of quorum==
 
 ==Agenda 2013-05-10==
 
@@ -76,119 +63,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for this week?)
 
-Know something about border-image, break, flow, font, or list-style #CSS properties? Share it: sign up @WebPlatform Wednesdays
-
-
-?s for Ethan:
-
-* full 30K allocated for Q2?
-* Does he have a $ amount that he's allocated for Mike for Q3?
-
-* KPIs?
-* Where to 
-
-
-2013Q2 KPI Review: 
-
-Docs integration for Brackets
-Partial SVG docs
-Got WPD spot in MAX labs (only 3 attendants)
-
-
-2013Q3 KPIs:
-
-CSS Properties Project
-API requirements
-DOM Visualisation
-Internal promo: Brown bag
-Publish: CSS Units, Display and Resolution Independence
-Analytics dashboard
-NatGeo: highlighting cool code
-$14,110.00
-
-
-
-
-
-
-==DISCUSSION==
-
-===TOPIC: W3C accessibility folks to use our forums===
-
-
-We need to ensure forums banner explicitly states it's for accessibility question only.
-
-There is a cost to everything we maintain. We'd de-emphasize it from the site (well, we already have). The accessibility people have a dedicated, funded person to fund the boards.
-
-=== TOPIC: WPD Wednesdays===
-
-http://docs.webplatform.org/wiki/Meta:web_platform_wednesday
-
-====WPDW Status====
-
-We're in good shape, 25 knocked out this week, someone committed for everything but outlines
-
-jkomoros can't come next week because of I/O, but have it blocked on my calendar going forward
-
-Let's remember to send out inspirational articles when we blog about topics we're focusing on.
-
-Weekly cycle is over on Tuesday.
-
-
-====Do all pages need a different reviewer? At least a "peer" review? ====
-
-Important that the person who reviews the page is not the person who worked on it.
-
-Review shouldn't come across as too much of a blocker. Don't want it to be counter productive
-
-Informal coordinator review, peer review, with official tech review later in 1.0 perfect cycle. We should not declare failure if we don't get review. Set review flag, and reviewers clear it. When flags are removed, that shows the pages are the quality that should be standard
-
-Peer review to make sure the checklist is taken care of.
-Coordinator can do the checklist review
-
-If the coordinator can't do it, maybe just pair writers together
-
-Technical review for correctness and example is correct
-
-Two different levels of review might make the procedure too long winded. Expert review should come later, if needed.
-
-
-The whole point of this exercise is to... get the work done, but mainly to grow contributor base, make it clear how to contribute.
-
-some people have already spoken up and started contributing because this makes it easier. Don't take the work away from other people if you can help develop them. It will take some effort to get people into the habit of contributing and building up the contributor base
-
-==== Coordinators responsibilities====
-
-Doug is working on a coordinator's guide
-
-WPDW will be on #webplatform NOT #webplatform-site
-
-
-All coordinators should:
-
-* update WPDW main page with assigned items having check marks
-* update this week's page with status
-* update master list when things are done
-
-Coordinators should still do one page. That helps them understand what the pain points are.
-
-Coordinators have 1 or 2 volunteers for each WPDW
-
-When we have a short-hand property that encompasses all of the other properties for individual settings
-
-That's why we chose more properties this week, to keep shorthand/longhand sets together. One person can write the individual longhand properties (which may be in more than one shorthand property), and then do the short hand version.
-
-A lot of pages in mine that said, "just see short hand page". That's annoying to click through. Because we don't have transclusion, we should copy paste.
-
-
-===TOPIC: Getting to beta===
-
-http://docs.webplatform.org/wiki/WPD:Community/Meetings/General#Project_Status
-
-The project leads to review the criteria and update the bugs
-Extended deadline until mid week next week
-
-====Project Status====
+===Project Status===
 [[WPD:Project_Status|Project Status Page for Getting to Beta]]
 
 Bug count: 141
@@ -278,32 +153,6 @@ Bug count: 141
 |dependency on content & ia beta definition
 |No
 |}
-
-===TOPIC: Onboarding===
-
-Need a stock response to people like Konstantinos who reach out to the list and want to join. And maybe a rotating member of the community team to send them?
-
-Eliot: We're getting a regular stream of new people, asking how they can help. We need a stock mail to send out, and someone on point to respond
-
-people should feel comfortable to customize it.
-
-Tell them that wiki wednesday is a great way to get started
-
-===ACTION ITEMS===
-
-* (CARRIED FORWARD) shepazu to revamp CSS WG e-mail to be call for contributors
-* (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important
-* (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org
-* (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
-* (CARRIED FORWARD) shepazu to work with lea to mock up what the improved flags will look like.
-* shepazu to ensure forums banner explicitly states it's for accessibility question only.
-* shepazu to consider putting table at the top of the page (DONE)
-* shepazu send out an email asking for someone to work on outline
-* Julee to update editor's guide with links to WPDW (DONE)
-* shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally
-* shepazu to start thread on where new guides exists, where to link them to and what to call them
-* Scott to write up quick guide on dealing with shorthand properties
-
 
 ==Agenda 2013-05-03==
 
