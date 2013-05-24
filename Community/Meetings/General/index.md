@@ -24,6 +24,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 * Roll call
 * Review of open action items
+* [[http://docs.webplatform.org/test/css/properties/border-radius|ToC]]
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** New and improved: only one table to fill out! (Master page is what we're pulling from. But http://docs.webplatform.org/wiki/Meta:web_platform_wednesday will become the final master list.)
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
