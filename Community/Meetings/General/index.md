@@ -45,6 +45,102 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+===DISCUSSION===
+====TOPIC: Scott to do a video on how to do a CSS property====
+It would be cool if people could share tips about doing CSS properties for the video
+If we tell people to not fill in compat table information, make sure to emphasize the compat NOTES section
+Let's talk about more examples for video, too.
+
+
+We can easily do other ones in the future about how to edit wiki, contribute, etc
+
+====TOPIC: ToC====
+
+mockup: http://docs.webplatform.org/test/css/properties/border-radius
+
+Lea pulled ToC out to the side.
+
+Suggestions on how to make it better, but acceptable to deploy for now? Yes.
+
+
+====TOPIC: Web Platform Wednesdays====
+ http://docs.webplatform.org/wiki/Meta:web_platform_wednesday
+
+
+now coordinators have only one table to update.
+
+Shepazu is still tweeking it.
+
+Stuff that doesn't get done, gets pushed to next week, or goes back to the hopper to come back in later weeks.
+
+coordinator's job is NOT to do all these tasks. The corodinator is supposed to go out and actively recruit people to work on their items. If they can't get anybody, then sure work on them themselves.
+
+Master list of what hasn't been done:
+http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/master_list  or https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=14 
+
+Master list of what has been done:
+http://docs.webplatform.org/wiki/Meta:web_platform_wednesday 
+
+
+ONLY COORDINATORS should fill out that table
+
+
+Workflow is:
+
+ 1. Shepazu to pick topic.
+2. Blog written on Tuesday, promo'd Wednesday morning.
+3. Coordinators get volunteers and sign folks up on the WPW page, adding "In Progress"
+4. Coordinators help contributors do properties.
+5. Coordinators should update tables by Tuesday, with "Done" or "Not done".
+
+
+
+We should get topic clusters determined more in advance? like two or three week out
+
+Leaverou will speak about WPW at http://cssconf.com/
+
+====TOPIC: landing page/home page for site====
+
+https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0
+
+General idea: current goal is to get people active, so show community activity!
+
+Changes should be done incrementally.
+
+
+====TOPIC: Beta====
+
+Connection errors on project.webplatform.org are preventing triaging of bugs.
+
+In order to easily and quickly view bugs for current milestone within each project's open bugs page, bugs that are not part of the beta should be set to postponed.
+
+
+====TOPIC: Embedding external pages in WPD====
+
+it would be cool if we could add screencaps from other pages
+leaverou  got this from the cubic-bezier page, somebody added screencaps from my tool cubic-bezier.com. She asked him if he thought it was a good idea to embed the tool (assuming I added media queries to make it look good on small viewports). She's wondering if it's possible and allowed.
+
+
+
+===ACTION ITEMS===
+
+* julee to start thread on where new guides exist, where to link them to and what to call them (our Ed, Getting Started, WPW, and Coordinator's guides have confusing names and do not properly reference each other.)
+* Scott to do a video on how to edit a CSS properties page.
+* Leaverou to email about embedding a screencaps tool.
+* shepazu to write up guide on what coordinators do on WPW
+* leaverou to work on home page design, with the goal of highlighting community activity
+* shepazu to figure out what connection bug is in project.webplatform.org
+* Julee to write up an email about "postponing" non-beta bugs.
+* shepazu to figure out what connection bug is in project.webplatform.org
+* Julee to write up an email about "postponing" non-beta bugs.
+* (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important
+* (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu & leaverou to mock up what the improved flags will look like. (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu to ensure forums banner explicitly states it's for accessibility question only. (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally (CARRIED FORWARD)
+
+
+
 ==2013-05-17: Meeting canceled due to lack of quorum==
 
 ==Agenda 2013-05-10==
