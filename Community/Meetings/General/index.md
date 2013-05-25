@@ -87,13 +87,11 @@ ONLY COORDINATORS should fill out that table
 
 Workflow is:
 
- 1. Shepazu to pick topic.
-2. Blog written on Tuesday, promo'd Wednesday morning.
-3. Coordinators get volunteers and sign folks up on the WPW page, adding "In Progress"
-4. Coordinators help contributors do properties.
-5. Coordinators should update tables by Tuesday, with "Done" or "Not done".
-
-
+# Shepazu to pick topic.
+# Blog written on Tuesday, promo'd Wednesday morning.
+# Coordinators get volunteers and sign folks up on the WPW page, adding "In Progress"
+# Coordinators help contributors do properties.
+# Coordinators should update tables by Tuesday, with "Done" or "Not done".
 
 We should get topic clusters determined more in advance? like two or three week out
 
