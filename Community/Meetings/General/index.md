@@ -353,18 +353,17 @@ Tell them that wiki wednesday is a great way to get started
 
 ===ACTION ITEMS===
 
-* (CARRIED FORWARD) shepazu to revamp CSS WG e-mail to be call for contributors
+* (CARRIED FORWARD) shepazu to revamp CSS WG e-mail to be call for contributors (DONE) 
 * (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important
-* (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org
-* (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
-* (CARRIED FORWARD) shepazu to work with lea to mock up what the improved flags will look like.
-* shepazu to ensure forums banner explicitly states it's for accessibility question only.
+* (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu & leaverou to mock up what the improved flags will look like. (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu to ensure forums banner explicitly states it's for accessibility question only. (CARRIED FORWARD)
 * shepazu to consider putting table at the top of the page (DONE)
-* shepazu send out an email asking for someone to work on outline
+* shepazu send out an email asking for someone to work on outline (DONE)
 * Julee to update editor's guide with links to WPDW (DONE)
-* shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally
-* shepazu to start thread on where new guides exists, where to link them to and what to call them
-* Scott to write up quick guide on dealing with shorthand properties
+* shepazu to start thread on where new guides exists, where to link them to and what to call them (ACTION transferred to Julee)
+* (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally (CARRIED FORWARD)
+* Scott to write up quick guide on dealing with shorthand properties (ACTION evolved to: Scott to do a video on how to edit a CSS properties page)
 
 
 ==Agenda 2013-05-03==
