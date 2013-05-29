@@ -22,4 +22,4 @@ For example, you can find the properties available on the Document interface at 
 ==Applications==
 * [http://blog.brackets.io/2013/05/01/web-platform-docs-in-brackets/ Brackets integration]: prepackaged inline CSS properties documentation, extracted from the API
 * [http://webplatform.frozenice.de/pageinfo.html WPD page info] by [[User:Frozenice|Frozenice]]: explore the internals of a WPD page
-* [http://easydocs.org/ EasyDocs] by [[User:Tmahoney|Tmahoney]]: ?
+* [http://easydocs.org/ EasyDocs]: A quick reference for the web platform API.
