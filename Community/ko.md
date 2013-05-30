@@ -1,6 +1,6 @@
-{{Languages}}
-
 =커뮤니티에 참여하기=
+
+{{Languages}}
 
 웹 플랫폼 문서는 월드 와이드 웹 기술을 문서화하는 목적의 커뮤니티입니다. 웹 기술을 처음 시작하거나 또는 이미 웹 전문가든 상관없이, [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|커뮤니티에 참여]]하기를 권장합니다.
 
