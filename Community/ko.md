@@ -31,7 +31,7 @@
 
 *  w3.org 메일링 리스트 [http://lists.w3.org/Archives/Public/public-webplatform/ 구독하기]
 * [[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join_the_conversation_on_the_IRC_channel| IRC에서 다른 편집자들과 대화하기]]: irc.freenode.org, #webplatform 채널을 이용해주세요.
-* [http://blog.webplatform.org/ | 블로그] 읽기
+* [http://blog.webplatform.org/ 블로그] 읽기
 * 트위터에서 [https://twitter.com/webplatform @WebPlatform] 팔로잉하기
 *  웹플랫폼 [http://webplatform.org/logo 로고]와 링크를 달기
 * 문서 스프린트와 같은 [[WPD:Community/Community_Events|행사]]에 참여하기
