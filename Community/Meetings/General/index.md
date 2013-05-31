@@ -20,6 +20,19 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-05-31==
+
+* Roll call
+* Review of open action items
+* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** Coordinators finding contributors?
+** Topic clusters done with instrux?
+** How's video going
+* [[Special:RecentChanges&limit=300&days=1|Spam]] fixing?
+* Anything blocking you from creating great content?
+* Anything new & notable? (Blogs or other communications planned for next week?)
+
+
 ==Agenda 2013-05-24==
 
 * Roll call
@@ -41,7 +54,6 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** How to mark bugs that are not in beta - postponed?
 * [https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0 changing www page to focus on community]
 * Embedding external pages in WPD? (If Lea's not here, move to next week.)
-* Spam filtering?
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
