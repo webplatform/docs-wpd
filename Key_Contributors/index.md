@@ -23,4 +23,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 | Scott Rowe || [[User:Scottrowe|Scottrowe]] || scottrowe@google.com || scottrowe || [http://www.google.com/ Google] || Contributor || Content, content, content.
 |-
 | David Kirstein || [[User:Frozenice|Frozenice]] || frozenice@frozenice.de || fr0zenice || [http://batix.de Batix] || Template Corps Member || volunteer backend/frontend admin, tell me if something breaks!
-|}
+|
+| Agustín Alvia || [[User:AgustinAlvia|AgustinAlvia]] || --|| -- || [--] || --|| |
+}
