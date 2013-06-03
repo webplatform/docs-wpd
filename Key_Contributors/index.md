@@ -24,5 +24,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 | David Kirstein || [[User:Frozenice|Frozenice]] || frozenice@frozenice.de || fr0zenice || [http://batix.de Batix] || Template Corps Member || volunteer backend/frontend admin, tell me if something breaks!
 |
-| Agustín Alvia || [[User:AgustinAlvia|AgustinAlvia]] || --|| -- || [--] || --|| |
-}
+|-
+| Agustín Alvia || [[User:AgustinAlvia|AgustinAlvia]] || --|| -- ||  || --|| 
+|
