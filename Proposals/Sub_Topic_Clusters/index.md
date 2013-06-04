@@ -4,8 +4,10 @@ We have [[WPD:Implementation_Patterns/Templates#Topics.2C_Topic_Clusters.2C_See_
 
 ==Problems==
 
-Too many pages being assigned to the same cluster resulting in overly-long lists of links. 
+* Too many pages being assigned to the same cluster resulting in overly-long lists of links. 
 
-There seems to be a difference of opinion about what topic clusters are used for:
-* To group pages of the same type, i.e. css/border-style, css/border-right-style, css/border-left-style, etc.
-* To provide a mix of reference, conceptual, and tutorial articles of the same topic.
+* There are two basic use cases for topic clusters:
+** To group pages of the same type, i.e. css/border-style, css/border-right-style, css/border-left-style, etc.
+** To provide a mix of reference, conceptual, and tutorial articles of the same topic.
+
+] Our current implementation does not differentiate between these two use cases, resulting in lists that are a mix of both.
