@@ -7,10 +7,10 @@ The list of topic clusters in [[Property:Topic_Cluster]] is a single-level list 
 ==Problems==
 
 * Too many pages being assigned to the same cluster resulting in overly-long lists of links. 
+** [[css/selectors/attributes/whitespace]] (an example of a really long list under Selectors.)
 * The list of Property:Topic_Cluster items is getting very long and unwieldy.
 * Duplicate pages in topic clusters, and duplicate topic clusters. Examples:
 ** [[css/properties/font-family]] (note CSS Fonts and Fonts)
-** [[css/selectors/attributes/whitespace]] (an example of a really long list under Selectors)
 * There are two basic use cases for topic clusters:
 ** To group pages of the same type, i.e. css/border-style, css/border-right-style, css/border-left-style, etc. (This is more of a navigation use case.)
 ** To provide a mix of reference, conceptual, and tutorial articles of the same topic. (This is more true to the intent of topic clusters.)
