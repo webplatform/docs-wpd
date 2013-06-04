@@ -2,11 +2,7 @@
 
 We have [[WPD:Implementation_Patterns/Templates#Topics.2C_Topic_Clusters.2C_See_Also|topic clusters]], which were designed to automatically generate a section of related pages in the See Also section. This feature allows an author to create associations between articles without the author having to know about (or where to find) the articles.
 
-The current implementation works pretty well for API pages. For example, a high-level topic cluster pertains to a broad area of focus, like Off-line Storage, to which the [[apis/filesystem|FileSystem], IndexedDB, AppCache, and StorageQuota APIs belong. But only the API Listing pages belong in this topic cluster, not their member API object child pages (i.e. apis/filesystem/FileEntry); nor do the individual properties, methods, and events of those objects belong. We've been reasonably successful keeping the topic clusters succinct and meaningful for the APIs.
-
-Also, tutorial and concept pages fit into the current implementation the way they should.
-
-But for the CSS pages, things are getting out of control. 
+The current implementation works pretty well for API pages. For example, a high-level topic cluster pertains to a broad area of focus, like Off-line Storage, to which the [[apis/filesystem|FileSystem]], IndexedDB, AppCache, and StorageQuota APIs belong. But only the API Listing pages belong in this topic cluster, not their member API object child pages (i.e. apis/filesystem/FileEntry); nor do the individual properties, methods, and events of those objects belong. We've been reasonably successful keeping the topic clusters succinct and meaningful for the APIs. Also, tutorial and concept pages fit into the current implementation the way they should. But for the CSS pages, things are getting out of control. 
 
 ==Problems==
 
@@ -26,6 +22,8 @@ One of the hurdles is the lack of listing pages for groups of CSS properties and
 
 We'd like ''sub''-topic clusters to provide a categorization layer over the CSS properties in lieu of listing pages. For example, we would create sub-topic clusters for each of the topic clusters in column three of the [[Meta:web_platform_wednesday|WPW page]]. But these would be distinct from the existing topic clusters, which we'll keep (and clean up, of course).
 
-These sub-topic clusters could be used in a navigation structure, like the way SitePoint does it. Notice how in the navigation pane, the [http://reference.sitepoint.com/css/height height] property page is a child of Dimensions, and Dimensions is a child of Box Properties, yet the URL still reads, "css/height." No listing pages exist for either the Dimensions or Box Properties interstitials.
+These sub-topic clusters could be used in a navigation structure, like the way SitePoint does it. Notice how in the navigation pane, the [http://reference.sitepoint.com/css/height height] property page is a child of Dimensions, and Dimensions is a child of Box Properties, yet the URL still reads, "css/height." No listing pages exist for either the Dimensions or Box Properties interstitials. They are only nodes in the navigation tree.
 
-We need to provide more context for topic clusters by creating levels of categorization in a hierarchical structure.
+However, building out a navigation UI and all that is beyond the scope of this proposal. Here we're concerned with building just the infrastructure with templates and properties to enable the sub-topic clusters. For this project, the sub-topic clusters would function and display the same way the current topic clusters do.
+
+As a mechanism, we need to make this extensible so we can implement it for not just CSS properties, but other sections of WPD that are mostly flat, like the other CSS namespaces, HTML, and so forth.
