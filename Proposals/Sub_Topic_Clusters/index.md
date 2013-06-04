@@ -24,6 +24,8 @@ One of the hurdles is the lack of listing pages for groups of CSS properties and
 
 ==Objectives==
 
-We'd like 'sub'-topic clusters to provide a categorization layer over the CSS properties in lieu of listing pages. For example, we would create sub-topic clusters for each of the topic clusters in column three of the [[Meta:web_platform_wednesday|WPW page]]. But these would be distinct from the existing topic clusters.
+We'd like ''sub''-topic clusters to provide a categorization layer over the CSS properties in lieu of listing pages. For example, we would create sub-topic clusters for each of the topic clusters in column three of the [[Meta:web_platform_wednesday|WPW page]]. But these would be distinct from the existing topic clusters, which we'll keep (and clean up, of course).
+
+These sub-topic clusters could be used in a navigation structure, like the way SitePoint does it. Notice how in the navigation pane, the [http://reference.sitepoint.com/css/height height] property page is a child of Dimensions, and Dimensions is a child of Box Properties, yet the URL still reads, "css/height." No listing pages exist for either the Dimensions or Box Properties interstitials.
 
 We need to provide more context for topic clusters by creating levels of categorization in a hierarchical structure.
