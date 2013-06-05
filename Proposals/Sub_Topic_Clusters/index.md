@@ -8,7 +8,7 @@ The current implementation works pretty well for API pages. For example, a high-
 
 * Too many pages being assigned to the same cluster resulting in overly-long lists of links. 
 ** [[css/selectors/attributes/whitespace#Related_articles]] (An example of a really long list under Selectors.)
-** [[css/properties/display#Related_articles] (The text topic cluster is so long as to be useless.)
+** [[css/properties/display#Related_articles]] (The text topic cluster is so long as to be useless.)
 * The list of [[Property:Topic_Cluster]] items is getting very long and unwieldy.
 * Duplicate pages in topic clusters, and duplicate topic clusters. Examples:
 ** [[css/properties/font-family#Related_articles]] (Note CSS Fonts and Fonts)
