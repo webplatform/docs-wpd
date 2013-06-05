@@ -43,6 +43,10 @@ This, of course, is impossible unless there is a ''page'' for the "Flexbox" sub-
 
 If we want to reduce the size of the topic cluster list by aggregating groups of CSS properties (or other flat content), we have to create listing pages for those groups of properties. The listing pages would function the same way as they do for API pages.
 
+The disadvantage: there goes our flat URL structure. Instead of css/border-right-style we would have something like css/border_style/border-right-style, where the border_style page would be a listing page with border-style, border-right-style, border-left-style, border-bottom-style, and border-bottom-style as member pages.
+
+But at least the "CSS Layout" topic cluster would be able to refer to just the border_style listing page, instead of including links to all of the other border-style pages.
+
 ==Design==
 
 Currently, topic clusters work like this:
