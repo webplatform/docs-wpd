@@ -68,9 +68,9 @@ First, the form needs a new section for the sub-topic cluster that pertains to t
 <includeonly>{{#if: {{{Topic_clusters|}}}{{{Sub-topic_Cluster_CSS_Property|}}}{{{Sub-topic_Cluster_CSS_Selector|}}}{{{Sub-topic_Cluster_HTML_Element|}}}{{{Manual_links|}}}{{{External_links|}}}{{{Manual_sections|}}}|
 ==See also==
 {{#if: {{{Topic_clusters|}}}|
-{{{#if: Sub-topic_Cluster_CSS_Property|}}}|
-{{{#if: Sub-topic_Cluster_CSS_Selector|}}}|
-{{{#if: Sub-topic_Cluster_HTML_Element|}}}|
+{{#if: Sub-topic_Cluster_CSS_Property|}}|
+{{#if: Sub-topic_Cluster_CSS_Selector|}}|
+{{#if: Sub-topic_Cluster_HTML_Element|}}|
 </pre>
 
 But now here's the tricky part. The [[Template:See_Also_Form_Section]] code needs to provide a switch so that the sub-topic cluster choices provided pertain to the page. I've added this aspect as pseudo code below:
