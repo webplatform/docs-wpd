@@ -10,9 +10,9 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 
 ==Community events==
 ===Upcoming===
-* '''8-MAY-2013'''—Inaugural [[Meta:web_platform_wednesday|Web Platform Wednesday]]
-* '''31-MAY-2013'''—TENTATIVE: Doc Sprint @ Seattle, with UWash (Millo)
-* '''24-JULY-2013'''—TENTATIVE: Web Platform Wednesday? @ OSCon, Portland, OR (Doug)
+* '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
+* '''21 JUNE-2013'''—[http://seattledocsprint.eventbrite.com/# Doc Sprint @ Seattle], with UWash (Millo)
+* '''24-JULY-2013'''—TENTATIVE: Web Platform Wednesday? @ [http://www.oscon.com/oscon2013 OSCon, Portland, OR] (Doug)
 * '''25-JUL-2013'''—[http://www.oscon.com/oscon2013/public/schedule/detail/29099 OSCON: Doug, Janet & Eliot talking about WebPlatform 5:00pm]
 * '''28-AUG-2013'''—TENTATIVE: Doc Sprint @ Zurich, Switzerland (Jay Meissner)
 * '''13-SEPT-2013'''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter), might be merged with Patrick's event
