@@ -26,6 +26,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 **[[dom/methods/applyElement]]
 **[[dom/properties/browserLanguage]]
 *Miscellaneous -
+**[[dom/methods/getElementsByTagNameNS]] - change the return type to HTMLCollection or whatever.
 **[[dom/methods/getAttribute_(userProfile)]], [[dom/properties/cpuClass]], [[dom/userProfile]] - apply to [[dom/Navigator]] when it exists
 **[[cssom/ClientRect]] - needs further work?
 **[[dom/methods/replaceState]] - explain the buggy behavior of Safari 5 and later.
@@ -42,6 +43,9 @@ A list of required actions in the long run, mostly due to the fact that the curr
 |-
 |[[dom/methods/getElementsByTagName]]
 |[[dom/document]], [[dom/HTMLElement]]
+|-
+|[[dom/methods/getElementsByTagNameNS]]
+|[[dom/document]], [[dom/Element]]
 |-
 |[[css/selectors_api/querySelectorAll]]
 |[[dom/document]], [[dom/HTMLElement]]
