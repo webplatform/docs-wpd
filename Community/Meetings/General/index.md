@@ -43,6 +43,115 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+===Discussion===
+====TOPIC: DevOps====
+
+Recruiting is going slowly.
+
+
+====TOPIC WPW====
+
+coordinators should socialize the list each week
+
+coordinators need more time to reach out to contributors: do topics earlier
+
+
+
+problem: many people are not joining the e-mail list
+
+A lot of people already have email overload.
+
+project.webplatform.org was partially to cure that; there people can jump on and join an issue's discussion
+jswisher said mail list is not part of site: not one experience; psychological barrier to "subscribing to an e-mail list"
+
+http://www.discourse.org/ contextual chatting
+
+But, we already have a few systems up that don't talk well with one another.
+
+Garbee is working on an actual working Proof of Concept for a new 'wiki' engine. He will share his PoC next week.
+
+
+Denis spent some time trying to get Kuma to work. Persona was a block.
+
+
+We couldn't figure out how to make a page in Kuma
+
+If Kuma is worth it, could someone help us from the Kuma community?
+
+Imagine this as our editor: http://jejacks0n.github.io/mercury/
+
+[09:25:07] <julee> jswisher: devs are helpful, but doesn't know about how things would work from the outside.
+
+ scottrowe worked with mindtouch before http://www.mindtouch.com/
+
+
+we're not going to move forward on a system without having a dedicated devops person.
+
+ACTION: shepazu: get ahold of Kuma to get an evaluation copy going
+
+
+Garbee is trying to rope people in from other communities he frequents. A few have shown interest in helping and at least one has already started (brbcoding).
+
+go on IRC and ask: who's here right who can help
+
+what are the 100 folks on webplatform doing? Lurking.
+
+We also had major noise/spam issues right after launch. So, in us trying to control those issues we may have scared people off.
+
+
+IRC people don't like to be told what specifically to discuss. If you are too strict on things, you end up like #html and people don't like you too much.
+
+====TOPC: Topic clusters done with instrux?====
+
+scottrowe has the Action item to of a proposal to create a new set of topic clusters that are pertinent to the page type
+
+we need clusters that are relevant to the page type: CSS properties, API, HTML
+
+How do we get a specific topic cluster type form field into each page type?
+
+scottrowe: we think we can do this, but in the short term, we'll have to have folks put manual links
+
+
+====TOPIC: WPW Video====
+
+scottrowe has instrux in the video script
+
+ julee: get a checklist out of script for folks to follow?
+ACTION: scottrowe to derive a checklist from the video script for editing CSS properties
+
+
+ACTION: scottrowe to send out script to a couple of folks to get feedback before taping.
+
+ACTION: scottrowe will tape next week.
+
+====TOPIC: spam====
+
+600+ spam pages
+should Admins approve new user creation?
+
+ACTION: Garbee and shepazu to get a captcha system that works.
+
+
+[09:58:45] <Garbee> I'd set it up with Questy (with custom questions/answers) to start.
+
+http://www.mediawiki.org/wiki/Extension:QuestyCaptcha --Something like the first example code.
+
+
+We also need to improve abusefilters.
+
+Garbee is working with MicroFormats on sharing stuff once they get their system online.
+
+Jswisher said MDN watches the revisions feed and has a dedicated delete; switching to persona has helped - although it might be a temporary effect; Persona for auth is actually a pretty good helper. It, like oAuth, is harder to fake outright.
+
+===Action Items===
+
+* shepazu to send email to most active users
+* shepazu to reach out to Kuma ops (Aly).
+* shepazu to post on job sites and sysops lists
+* julee to ask direct and actionable question on IRC at 11am
+
+
+
 ==Agenda 2013-05-24==
 
 * Roll call
