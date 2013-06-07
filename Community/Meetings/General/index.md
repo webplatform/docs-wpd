@@ -23,8 +23,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ==Agenda 2013-06-07==
 
 * Roll call
-* Review of open action items
 * Demian Borba of Blackberry and his university program.
+* Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** How's video going
 ** should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
