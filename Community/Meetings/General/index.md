@@ -24,10 +24,12 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 * Roll call
 * Review of open action items
+* Demian Borba of Blackberry and his university program.
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** How's video going
-* Demian Borba of Blackberry and his university program.
+** should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
 * Ryan Lane upgraded site.
+* [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0024.html Naming conventions thread]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
