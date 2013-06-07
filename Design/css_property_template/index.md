@@ -52,7 +52,7 @@
 </dd>
 
 <dt id="length_value" class="template_test">length</dt>
-<dd class="template_test">A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.</dd>
+<dd class="template_test">A positive numeric value followed by a string designating [[css/data_types/length|absolute or relative units of length]]. Proportional [[css/data_types/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/data_types/length|'''rem''']] measurements are based on that of the root element.</dd>
 
 <dt id="percentage_value" class="template_test">percentage</dt>
 <dd class="template_test">A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating a percentage of the parent element's '''font-size'''.</dd>
