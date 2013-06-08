@@ -2,6 +2,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 *Add compatibility tables, unless automation effort gets the right information -
 **[[dom/methods/hasAttribute]]
 *Remove "Non standard" from the summary once there is an automatic indication in the listing pages (non exhaustive, unfortunately) -
+**[[dom/traversal/methods/expand]]
 **[[dom/methods/navigate]]
 **[[dom/methods/cancelBubble]]
 **[[dom/methods/ChooseColorDlg]]
