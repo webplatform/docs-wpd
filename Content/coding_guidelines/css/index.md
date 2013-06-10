@@ -21,7 +21,7 @@ This article is based on Idiomatic CSS, a repository created by Nicolas Gallaghe
 Only one style should exist across the entire source of your code-base. Always be consistent in your use of whitespace. Use whitespace to improve readability.
 
 * Use soft indents (spaces).
-* The number of characters used per indentation level is two, to maximize the amount of meaningful information per line.
+* Indent two spaces to maximize the amount of meaningful information per line.
 
 
 == Comments ==
