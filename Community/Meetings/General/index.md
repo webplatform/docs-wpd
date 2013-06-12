@@ -30,6 +30,103 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+===DISCUSSION===
+
+====TOPIC: Demian Borba of Blackberry and his university program====
+
+Demian Borba has a webkit implementation in our phone
+
+* … focusing on HTML5
+* … want to make developers successful
+* … started a program called Blackberry Tech Center
+* … Brazil, Argentina, US
+* … find professors, pick 10 tech students to sponsor
+* … could donate 20% of time to Web Platform Docs
+* … in Brazil, we have 5 tech centers
+* …. 1 in Argentina, Mexico, US
+
+WPD could do project demand for them; provide a weekly structure and set of directions, that would be great.
+
+Students are comfortable in EN and comfortable editing articles?
+
+Students could also help with software? Kuma, Gollem & GitHub? Some tech centers that are really focused on UX, another on trolling & APIs, for example: blackberry command lines were moved to a UI.
+
+It would be great to have them first work on content so they understand the work flow and requirements, and since they're ready to go
+
+Community Dev folks will meet with Demian next week. And he can get them to meet once we have execution plan 
+
+Millo is looking forward to Tuesdays meeting, can bring in MS similar programs, let's federate the students!
+
+shepazu to send email to most active users DONE
+
+shepazu to reach out to Kuma ops (Aly). Yes, but no progress
+
+shepazu to post on job sites and sysops lists Carry forward
+
+julee to ask direct and actionable question on IRC at 11am n/a
+
+shepazu to send email to most active users - DONE
+
+shepazu to reach out to Kuma ops (Aly) - DONE no reply yet
+
+julee to ask direct and actionable question on IRC at 11am - KINDA SORTA
+
+====TOPIC: WPW - how is it going?====
+
+scott is working on video
+
+snafu this week, we didn't realize that Scott had already done Flexbox….
+
+… so we pulled together an examples week
+
+… gathered together things that hadn't been done
+
+… on Monday, we're going to work with Nic deCosta, and set forward the next several weeks
+
+we meant to put things together earlier, having a set plan in place will give us consistency, we can write blog posts in advance
+
+…also folks can do things in advance and have it done by the designated week.
+
+…NicDaCosta is in EU; announcing at 11am on Wednesday PDT, kills it for EU; asked that we announce it late Tuesday night, early Wednesday morning
+
+..so folks can do it on Wednesday.
+
+====TOPIC: Japanese email list====
+
+julee: should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
+
+====Topic: Naming Conventions====
+
+julee_: we should be consistent about where landing pages are located
+
+shepazu: let's move forward with our master list of topic locations
+
+julee_: should Ben Lobaugh do it?
+
+Eliot: I'll do it
+
+shepazu: ben was also trying to link to the talk page for pointer events
+
+====Topic: Anything blocking you from creating great content?====
+
+shepazu: We got an upgrade on MW; some folks have seen some weird quirks - please continue to report anything strange
+
+====TOPIC: Doc Sprints====
+
+MS is having a Doc Sprint 6/22
+
+Brazil Doc Sprint TBD
+
+http://docs.webplatform.org/wiki/WPD:Community/Community_Events
+
+===ACTION ITEMS===
+
+* CARRIED FORWARD: shepazu to post on job sites and sysops lists
+* shepazu & julee to do a promo check list, including concrete details on how stewards can propagate
+* Millo to cc shepazu on his email to new IEEE contact
+* shepazu to ask Hiroki to propagate announcements to the JP list
+* We will blog and tweet WPW late Tuesday night
+
 ==Agenda 2013-06-07==
 
 * Roll call
