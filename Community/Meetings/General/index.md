@@ -30,6 +30,21 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+==Agenda 2013-06-14: Meeting canceled due to lack of quorum==
+
+==Agenda 2013-06-07==
+
+* Roll call
+* Demian Borba of Blackberry and his university program.
+* Review of open action items
+* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** How's video going
+** should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
+* Ryan Lane upgraded site.
+* [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0024.html Naming conventions thread]
+* Anything blocking you from creating great content?
+* Anything new & notable? (Blogs or other communications planned for next week?)
+
 ===DISCUSSION===
 
 ====TOPIC: Demian Borba of Blackberry and his university program====
@@ -127,18 +142,6 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 * shepazu to ask Hiroki to propagate announcements to the JP list
 * We will blog and tweet WPW late Tuesday night
 
-==Agenda 2013-06-07==
-
-* Roll call
-* Demian Borba of Blackberry and his university program.
-* Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
-** How's video going
-** should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
-* Ryan Lane upgraded site.
-* [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0024.html Naming conventions thread]
-* Anything blocking you from creating great content?
-* Anything new & notable? (Blogs or other communications planned for next week?)
 
 ==Agenda 2013-05-31==
 
