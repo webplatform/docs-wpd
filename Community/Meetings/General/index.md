@@ -368,14 +368,14 @@ leaverou  got this from the cubic-bezier page, somebody added screencaps from my
 
 * julee to start thread on where new guides exist, where to link them to and what to call them (our Ed, Getting Started, WPW, and Coordinator's guides have confusing names and do not properly reference each other.)
 * Scott to do a video on how to edit a CSS properties page.
-* Leaverou to email about embedding a screencaps tool.
+* Leaverou to email about embedding a screencaps tool. (CARRIED FORWARD)
 * shepazu to write up guide on what coordinators do on WPW
-* leaverou to work on home page design, with the goal of highlighting community activity
+* leaverou to work on home page design, with the goal of highlighting community activity (CARRIED FORWARD)
 * shepazu to figure out what connection bug is in project.webplatform.org
 * Julee to write up an email about "postponing" non-beta bugs.
 * shepazu to figure out what connection bug is in project.webplatform.org
 * Julee to write up an email about "postponing" non-beta bugs.
-* (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important
+* (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important (DONE)
 * (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRIED FORWARD)
 * (CARRIED FORWARD) shepazu & leaverou to mock up what the improved flags will look like. (CARRIED FORWARD)
 * (CARRIED FORWARD) shepazu to ensure forums banner explicitly states it's for accessibility question only. (CARRIED FORWARD)
