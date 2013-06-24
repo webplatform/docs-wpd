@@ -11,15 +11,15 @@ When a new contributor volunteers, assign a coordinator who:
 
 ===Helping contributors with CSS properties page===
 
-# We pick a day ("WPD Wednesday"?), and pick 17 CSS property articles for that week (it might be nice to sort them into topic clusters, but I don't want to create makework)
-# To prevent people from being intimidated by a blank page, we create stubs for those 17 articles, with the link to the specification where you will find the basic information to start from; I would hope we could automate this with a script (it would be nice to also insert the topic cluster)
+# WebPlatform Wednesday we pick a bundle of CSS property articles for that week
+# To prevent people from being intimidated by a blank page, we create stubs for those articles, with the link to the specification where you will find the basic information to start from; I would hope we could automate this with a script (it would be nice to also insert the topic cluster)
 # We put the word out for contributors, on this list, on the blog, on Twitter, on the CSS public mailing list, among our companies, in the site notice, etc.; we direct them to this email list, or IRC or Twitter if they are not into email
-# When people show up to commit, we have designated "greeters" for each page (one of the core community folks who knows how to do things will each take 3-5 pages to be responsible for), who trains and encourages the contributor, removing roadblocks and facilitating quality contributions
+# When people show up to commit, we have designated "greeters" for each page (one of the core community folks who knows how to do things will each take 3-5 pages to be responsible for), who recruits, trains and encourages the contributor, removing roadblocks and facilitating quality contributions
 * If we get more contributors than we need, we pull a few more articles into the list
 * If we don't get enough contributors, we either ask the existing contributors to take on a little more work, or we make a new call, or we adjust our goals (date or amount)
 # Once a contributor has finished their task, they tell their greeter, who make sure the next stage happens (typically, review), and they take care of the "paperwork" in the Giant Scary Spreadsheet
 * We ask the contributor to tweet about their contribution, to give themselves props and to spread the word; we retweet these from @webplatform
-# The next Wednesday, we take stock on what actually happened, how much got done and what wasn't done, and we pick the next set of articles
+# The next week, we take stock on what actually happened, how much got done and what wasn't done, and we pick the next set of articles
 * We blog about the progress, and about the next set of work. (Rinse, repeat; apply praise liberally.)
 
 Split the work down into more discrete, manageable tasks:
