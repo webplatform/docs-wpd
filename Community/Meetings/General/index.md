@@ -26,6 +26,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** How should we circle back around to folks who have previously showed interest?
+** What MBF for CSS properties?
+*** compatibility tables
+*** data types & units done
 * Demian's Tech Centers - how is it going?
 * [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0075.html Max's JS file import]
 * [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0174.html revamping flags!]
