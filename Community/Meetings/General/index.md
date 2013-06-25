@@ -28,6 +28,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** How should we circle back around to folks who have previously showed interest?
 * Demian's Tech Centers - how is it going?
 * [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0075.html Max's JS file import]
+* [http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0174.html revamping flags!]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
