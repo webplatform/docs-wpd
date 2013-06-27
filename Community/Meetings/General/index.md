@@ -25,6 +25,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** Who will be a coordinator for the next 4 weeks?
 ** How should we circle back around to folks who have previously showed interest?
 ** What MBF for CSS properties?
 *** compatibility tables
