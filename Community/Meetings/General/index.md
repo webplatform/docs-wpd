@@ -20,6 +20,27 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-07-12==
+
+* Roll call
+* Review of open action items
+* ITS
+* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+** Other MBF issues?
+*** compatibility tables
+*** data types & units done
+*** code samples switched from MSDN to code.webplatform.org
+*** visual, or UI indication of whether or not any given page is ready or not
+*** schedule high-level CSS WG review
+*** review from famous devrel people (paul irish, chris coyier)
+*** incorporate Chris Coyers UI feedback
+*** template change recommendations of WG? (e.g.: animatable is not a simple boolean)
+*** a launch plan
+** Who will be a coordinator for the next 2 weeks?
+* Max's JS file import
+* Anything blocking you from creating great content?
+* Anything new & notable? (Blogs or other communications planned for next week?)
+
 ==Agenda 2013-06-28==
 
 * Roll call
