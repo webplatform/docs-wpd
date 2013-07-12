@@ -58,6 +58,174 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+==DISCUSSION==
+
+====TOPIC: WPDW - how is it going?====
+=====SUBTOPIC: Who will be a coordinator for the next 4 weeks?=====
+
+People aren't officially signing up to be a coordinator, so Doug is basically signed up for all properties. We need people signed up to help.
+It's not that hard to coordinate. Just mark down when people volunteer, help them out. Recruit people actively, on the properties you're coordinating. It's too much for doug on his own; other people are helping out ad hoc, but aren't following through to make sure the contributor has actually completed the work.
+Alex signed up for last three weeks in July.
+
+ACTION: julee to e-mail list to try to get others to coordinate. (In progress)
+
+We're still targeted for end of July for first round of P0 CSS properties. Don't want things to fall apart for lack of resources. There are enough volunteers that people can actually get this thing done. 
+ACTION: Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
+
+=====SUBTOPIC: How should we circle back around to folks who have previously showed interest?=====
+
+Julee started a CRM spreadsheet 
+
+If anyone needs access, e-mail Julee. We won't send out public link because it has e-mail addresses on it.
+
+Other things we could do for contributors?
+
+
+Lea sent a link to a site that has a contributor spotlight http://thenounproject.com/
+
+We talked about doing something like that in the past. We should definitely recognize. As a blog post or on the home page. There are a bunch of people.  Contributer "cred"
+
+Having a contributor highlight on the site shows visitors that there is an active community.
+Be a little careful--some people are rather shy and don't want public exposure
+
+
+We don't have profiles right now to configure that. Ryan needs to fix the user profiles. He's actively working on it--it's a MW bug.
+
+
+Just to reiterate, when Julee and I emailed the people who had been past contributors, saying, "you were in the top 20/3o people". That pulled several people back in. People really responded well to the fact that we were acknowledging their contribution.
+
+That model is very useful. Even like FitBit sends out little emails to congratulate.
+
+shepazu to prod the discussion about recognizing contributors on the mailing list and look for an extension to mediawiki to do the sidebar
+
+We could have a per-page thing and the overall site notice thing, profiling people who have done a lot of stuff.
+People like Garbee and Max have done a great job, really gone above and beyond.
+Either in the TYPE of thing they've done, or the AMOUNT of work they've done
+There's a number of bots at Wikipedia that detect things like this automatically
+
+
+Because we need to explicitly let people opt in at this time, it would be just adding a little section on the home page manually. That would be easier to get going.
+We do want to execute on the leaderboards thing. It's an automatic way to get people's constructive competition going, if you're #3, you want to reach #2
+gamification kicks in…
+
+We should talk about all of these analytics in the analytics meeting. i'm going to make a note of these.
+
+===== SUBTOPIC: What MBF for CSS properties?=====
+
+compatibility tables
+data types & units done
+get the code samples switched from MSDN to code.webplatform.org
+
+checklist to make it quick to review
+some kind of visual, or UI indication of whether or not any given page is ready or not
+
+a template added to the top like {{NeedsWork}} is helpful for "not ready yet"; visitors and new contributors are not sure what 'flags' means
+
+a high-level gut check as a group before we go forward
+
+high-level CSS WG review, even just flagging issues
+I think it should be done, maybe even fairly soon
+they might suggest ways in which we should be changing the pages overall
+at the docsprint there were a few people from the CSSWG. They had some good review comments. Alan Stearns, Arron Eicholz. Some of them required template changes, like animatable is not a simple boolean unfortunately. Some of them were stylistic
+
+Arron Eicholz has many more suggestions.
+
+ACTION: shepazu to following up with CSS WG review  -- especially Arron Eicholz , who was in the IRC for this meeting -- to get more suggestions on CSS properties pages
+
+review from famous devrel people, they have good reach?
+
+people like paul irish or Chris... coyier (sp?)
+
+
+ACTION: jkomoros to work with Paul Irish to coordinate getting devrel type folks to review the docs.
+
+
+ACTION: Lea to incorporate Chris Coyers UI feedback (http://lists.w3.org/Archives/Public/public-webplatform/2013May/0241.html)
+
+a launch plan
+make sure we're contextualizing what we consider this launch to be
+
+ACTION: jkomoros to help coordinate a launch plan once we decide to go forward with launch.
+
+==== TOPIC: Max's JS file import====
+http://dev.maxpolk.org/msdnjs/index.php?title=Special:AllPages&from=Constants&to=Objects%2Farguments
+Max has a link to first full upload: http://dev.maxpolk.org/msdnjs/index.php?title=Special%3AAllPages&from=Objects%2Farguments&to=&namespace=0
+http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0075.html
+
+Chrismills and scottrowe, as content architects, give an official response?
+They may not be available right now.
+
+We should have a calendar or something.
+
+ACTION: julee to create a high-level calendar for people to mark when they're available or not.
+
+Limited resources on JS, but other things we can do to support this project?
+
+Max is a software developer at ATT mobility. When someone says "we could try one way or another", someone needs to TRY and see if it works.
+
+Need folks to review and try the proposals Max is putting out in email.
+
+Max needs to explicitly state what he needs.
+
+We need a template.
+
+
+frozenice, is just too slammed
+
+All template ninjas are too busy.
+
+
+
+ACTION: shepazu to mock up types of JS pages with examples, so we can think about templates from there.
+
+We do have tools to edit a page programmatically after the fact, and do mass page renaming, so we should just go forward with it.
+
+ACTION: Max to configure the project page with the tasks.
+ACTION: Julee to rally an IA overview
+
+ACTION: shepazu and maxpolk to meet up in person to work on JS page organization
+
+==== TOPIC: revamping flags!====
+Eliot provided last set of flags that we had settled on
+We should go ahead and do it; enough people concurred
+==== TOPIC: Demian's Tech Centers - how is it going?====
+
+The general overview is that blackberry is paying for some time to use these tech centers in brazil (schools that are paid to do lab time, basically interns). 4 students who have signed on to take on editing/ css properties. Julee and I met with them last week, will meet again on Monday. 
+
+we have four people who will spend 20% of their time a week working on WPD, with Blackberry sponsoring.
+University students. They have ten sites. This is a pilot.
+
+They have a separate table on WPDW http://docs.webplatform.org/wiki/Meta:web_platform_wednesday#BlackBerry_Tech_Centers
+Interested in being part of the community as we go through. You might see e-mails, or IRC. Down the road, we hope more of the tech centers will help out. 
+Millo said Microsoft has similar programs, so once this gets going, we can add on some Microsoft sites.
+
+
+They're mostly CS students, so maybe can help with infrastructure.
+
+==== TOPIC: Anything new & notable? ====
+
+(Blogs or other communications planned for next week?)
+ACTION: Eliot to write up blog post about Seattle Doc Sprint. (DONE)
+
+
+
+
+
+== ACTION ITEMS==
+
+* julee to e-mail list to try to get others to coordinate. (In progress)
+* Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
+* shepazu to following up with CSS WG review  -- especially Arron Eicholz , who was in the IRC for this meeting -- to get more suggestions on CSS properties pages
+* jkomoros to work with Paul Irish to coordinate getting devrel type folks to review the docs.
+* Lea to incorporate Chris Coyers UI feedback (http://lists.w3.org/Archives/Public/public-webplatform/2013May/0241.html)
+* jkomoros to help coordinate a launch plan once we decide to go forward with launch.
+* julee to create a high-level calendar for people to mark when they're available or not.
+* shepazu to mock up types of JS pages with examples, so we can think about templates from there.
+* Max to configure the JS project page with the tasks.
+* Julee to rally an IA overview of Max's JS emails
+* shepazu and maxpolk to meet up in person to work on JS page organization
+
+
 ==Agenda 2013-06-21: Meeting canceled due to lack of quorum==
 
 ==Agenda 2013-06-14: Meeting canceled due to lack of quorum==
