@@ -27,15 +27,17 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * ITS
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** Other MBF issues?
-*** compatibility tables
-*** data types & units done
+*** compatibility tables (Doug)
+*** data types & units done (Julee)
 *** code samples switched from MSDN to code.webplatform.org
-*** visual, or UI indication of whether or not any given page is ready or not
-*** schedule high-level CSS WG review
-*** review from famous devrel people (paul irish, chris coyier)
-*** incorporate Chris Coyers UI feedback
-*** template change recommendations of WG? (e.g.: animatable is not a simple boolean)
-*** a launch plan
+**** Julee to add it as a review checklist
+*** schedule high-level reviews (Doug & Lea)
+**** CSS WG, for instance: template change recommendations of WG? (e.g.: animatable is not a simple boolean)
+**** visual, or UI indication of whether or not any given page is ready or not
+**** incorporate Chris Coyers UI feedback (Lea)
+*** review from famous devrel people (paul irish, chris coyier) (Alex)
+**** visual, or UI indication of whether or not any given page is ready or not
+*** a launch plan (Alex)
 ** Who will be a coordinator for the next 2 weeks?
 * Max's JS file import
 * Anything blocking you from creating great content?
