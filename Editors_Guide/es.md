@@ -8,8 +8,8 @@
       <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Regístrate]</h3>
         <ul>
-            <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
-            <li>A verification is emailed. If you don't see the message in your email inbox, check your spam folder.</li>
+            <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Regístrate para editar el wiki.]</li>
+            <li>Te será enviada una verificación por correo-e. Si no ves el mensaje en tu bandeja de entrada, verifica en tu bandeja de spam.</li>
         </ul>
      </div>
   </div>
@@ -19,8 +19,8 @@
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
         <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Comunícate]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join #webplatform IRC]]</li>
-            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|Join the public-webplatform@w3.org list]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Únete al canal IRC  #webplatform]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|Únete a la lista de correos public-webplatform@w3.org]]</li>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Access the bug-tracking system|Access the bug-tracking system]]</li>
         </ul>
      </div>
@@ -41,7 +41,7 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content|Revisar contenido existente]]</h3>
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content|Revisa contenido existente]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|Add comments]]</li>
             <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|Add flags]]</li>
