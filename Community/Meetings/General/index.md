@@ -38,6 +38,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** review from famous devrel people (paul irish, chris coyier) (Alex)
 **** visual, or UI indication of whether or not any given page is ready or not
 *** a launch plan (Alex)
+*** All systems ready check
+**** We can handle additional traffic
+**** All SysOps & DevOps folks are notified to expect additional traffic & should not tweak the site during the first
 ** Who will be a coordinator for the next 2 weeks?
 * Max's JS file import
 * Anything blocking you from creating great content?
