@@ -222,7 +222,7 @@ ACTION: Eliot to write up blog post about Seattle Doc Sprint. (DONE)
 * julee to create a high-level calendar for people to mark when they're available or not.
 * shepazu to mock up types of JS pages with examples, so we can think about templates from there.
 * Max to configure the JS project page with the tasks.
-* Julee to rally an IA overview of Max's JS emails
+* Julee to rally an IA overview of Max's JS emails (in progress. PhishtucK is doing great.)
 * shepazu and maxpolk to meet up in person to work on JS page organization
 
 
