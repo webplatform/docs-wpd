@@ -1,4 +1,4 @@
-==Editor's Guide: An Overview==
+==Guía del Editor: Una Introducción==
 
 {{Languages}}
 
