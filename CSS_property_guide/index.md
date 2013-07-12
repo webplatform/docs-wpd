@@ -14,15 +14,15 @@ Before you begin, you already should have:
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
-* pick a property (preferably one that's priority-0 through priority-2) from [[Meta:web_platform_wednesday|the weekly list]] and have a coordinator add your name in the owner/reviewer column.
-* read the CSS property page through.
-* compare it to its spec(s).
-* compare the content to other reputable sites, such as Mozilla Developer Network.
+* pick a property (preferably one that's priority-0 through priority-2) from [[Meta:web_platform_wednesday|the weekly list]] and have a coordinator add your name in the owner/reviewer column
+* read the CSS property page through
+* compare it to its spec(s)
+* compare the content to other reputable sites, such as Mozilla Developer Network
 * play around with the elements documented – you can use our playground http://code.webplatform.org.
-* update the page based on your findings.
-* remove any flags you think are no longer necessary.
-* ask a coordinator to update the [[Meta:web_platform_wednesday|the weekly list]] with your status.
-* send us a message @webplatform to let us know you've done a page and if you'd like a review.
+* update the page based on your findings
+* remove any flags you think are no longer necessary
+* ask a coordinator to update the [[Meta:web_platform_wednesday|the weekly list]] with your status
+* send us a message @webplatform to let us know you've done a page and if you'd like a review
 
 ==Ignore the master CSS properties spreadsheet==
 
