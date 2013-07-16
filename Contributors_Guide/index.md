@@ -37,7 +37,6 @@
      </div>
   </div>
 
-
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
