@@ -16,7 +16,7 @@ Here, add Intro blurb on what our community events entail, how they fit into the
 * '''28-AUG-2013'''— Web Platform Doc Sprint hosted by Adobe at Frontend Conference Zurich, Switzerland. [http://wpds-zurich.eventbrite.com/ Registration] [http://2013.frontendconf.ch/workshops/ FrontendconfCH event page] (Andre Jay Meissner)
 * '''13-SEP-2013'''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter), might be merged with Patrick's event
 * '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] (Paul Verbeek)
-* '''OCT (Date TBD)'''—TENTATIVE: Doc Sprint @ U Washington (Millo & Eliot)
+* '''OCT (Date TBD)'''—TENTATIVE: Doc Sprint @ U Washington (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
 ===Past===
 * '''21-JUN-2013'''—Web Platform Doc Sprint at Microsoft in Seattle, Washington, USA. [http://seattledocsprint.eventbrite.com/ Registration] with UWash (Millo)
