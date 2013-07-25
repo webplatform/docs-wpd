@@ -53,22 +53,22 @@ Notice the rules for second-level pages under Operators:
 * Logical or bitwise operators are capitalized, eg. Operators/Logical AND
 
 ===Path rewriting proposal===
-* Rename Objects to Global for greater accuracy and correctness -
-** javascript/Global/Array
-** javascript/Global/Object
-** javascript/Global/parseInt
+* Rename the "Objects" level to "global" for greater accuracy and correctness -
+** javascript/global/Array
+** javascript/global/Object
+** javascript/global/parseInt
 
 * Drop the suffixes -
-** javascript/Global/Array/length property --> javascript/Global/Array/length
-** javascript/Global/Array/forEach method --> javascript/Global/Array/forEach
+** javascript/global/Array/length Property --> javascript/global/Array/length
+** javascript/global/Array/forEach Method --> javascript/global/Array/forEach
 
 * Static methods should not be prefixed with their object -
-** javascript/Global/Array/Array.isArray --> javascript/Global/Array/isArray
+** javascript/global/Array/Array.isArray --> javascript/global/Array/isArray
 
-* Drop the Constants, Functions and Properties top levels and incorporate them into Global or object pages instead.
+* Drop the Constants, Functions and Properties top levels and incorporate them into the global hierarchy or object pages instead.
 
 * Low priority -
-** Move constants into the page of their parent object. So, <code>Infinity</code> will be shown as a section within the Global page. It will not have its own page.
+** Move constants into the page of their parent object. So, <code>Infinity</code> will be shown as a section within the global page. It will not have its own page.
 ** Alternatively - treat constants as regular properties within the hierarchy.
 
 
