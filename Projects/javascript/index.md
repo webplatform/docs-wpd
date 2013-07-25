@@ -7,7 +7,9 @@ JavaScript is a proposed Web Platform Docs project to document the implementatio
 ; Location: All JavaScript reference material will exist relative to the [[javascript]] parent page.
 
 ==Page structure==
-An initial bulk page import is planned based on pages [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0238.html donated by Microsoft], and reformatted.  The import work is an [http://project.webplatform.org/msdnjs ongoing subproject].  The initial page structure will be a set of top-level pages shown below, each one having second-level subpages that capture the logical structure and for efficient bread crumbs page navigation:
+An initial bulk page import is planned based on pages [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0238.html donated by Microsoft], and reformatted.  The import work is an [http://project.webplatform.org/msdnjs ongoing subproject].  The initial page structure will be a set of top-level pages shown below, each one having second-level subpages that capture the logical structure and for efficient bread crumbs page navigation.
+
+===Top-level pages===
 
 {| class="wikitable"
 ! Top-level page !! Subpages
@@ -31,15 +33,16 @@ An initial bulk page import is planned based on pages [http://lists.w3.org/Archi
 | Reserved Words || 1 page listing words unable to be used as identifiers.
 |}
 
+===Third-level subpages===
 Third-level subpages will exist for each property, function (not requiring an object), method (requiring an object), and constant.  For example, under the Objects top-level page, we have second-level pages Array and Math.  These in turn will have the following third-level subpages:
 * Array's three properties: constructor, length, and prototype.
 * Array's one function: Array.isArray.
 * Array's many methods: concat, every, filter, forEach, indexOf, join, lastIndexOf, map, pop, push, reduce, reduceRight, reverse, shift, slice, some, sort, splice, toString, unshift, and valueOf.
 * Math's constant Math.E.
 
-Putting it all together, an example URL path for the Array constructor would then be: "Objects/Array/constructor Property".
+Putting it all together, an example URL path for the Array constructor would then be: "Objects/Array/constructor Property".  To see more examples, the current bulk import page names can be [https://github.com/maxpolk/msdn-js-conversion/blob/master/round-alice/upload-mapping.wiki found here].
 
-The current bulk import page names can be [https://github.com/maxpolk/msdn-js-conversion/blob/master/round-alice/upload-mapping.wiki found here].  Notice the rules for third-level pages under Object:
+Notice the rules for third-level pages under Object:
 * property pages have a "Property" suffix, eg. Objects/Array/length '''Property'''
 * function pages have a "Function" suffix, eg. Objects/Array/Array.isArray '''Function'''
 * method pages have a "Method" suffix, eg. Objects/Array/concat '''Method'''
