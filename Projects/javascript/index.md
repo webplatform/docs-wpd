@@ -14,13 +14,13 @@ An initial bulk page import is planned based on pages [http://lists.w3.org/Archi
 |-
 | Objects || 336 pages: built-in objects (Array, ArrayBuffer, Boolean, etc) and other special objects (arguments, Function, Global, Object).
 |-
-| Constants || (none)
+| Constants || 1 page listing constants found within Math, Global, and Number like (E, Infinity, MIN_VALUE)
 |-
-| Properties || todo
+| Properties || 1 page listing properties found within arguments, RegExp, Function, Error, etc.
 |-
-| Functions || (none)
+| Functions || 1 page listing functions found within Math, Global, Object, String, etc.
 |-
-| Methods || (none)
+| Methods || 1 page listing methods found within String, Function, Enumerator, Array, etc.
 |-
 | Operators || 39 pages: Addition Assignment, Addition, Assignment, Bitwise AND Assignment, etc.
 |-
@@ -28,9 +28,7 @@ An initial bulk page import is planned based on pages [http://lists.w3.org/Archi
 |-
 | Errors || 2 pages: Run time, Syntax
 |-
-| Reserved Words || (none)
-|-
-| Future Reserved Words || (none)
+| Reserved Words || 1 page listing words unable to be used as identifiers.
 |}
 
 Third-level subpages will exist for each property, function (not requiring an object), method (requiring an object), and constant.  For example, under the Objects top-level page, we have second-level pages Array and Math.  These in turn will have the following third-level subpages:
@@ -40,6 +38,16 @@ Third-level subpages will exist for each property, function (not requiring an ob
 * Math's constant Math.E.
 
 Putting it all together, an example URL path for the Array constructor would then be: "Objects/Array/constructor Property".
+
+The current bulk import page names can be [https://github.com/maxpolk/msdn-js-conversion/blob/master/round-alice/upload-mapping.wiki found here].  Notice the rules for third-level pages under Object:
+* property pages have a "Property" suffix, eg. Objects/Array/length '''Property'''
+* function pages have a "Function" suffix, eg. Objects/Array/Array.isArray '''Function'''
+* method pages have a "Method" suffix, eg. Objects/Array/concat '''Method'''
+* constant pages have a "Constant" suffix, eg. Objects/Float32Array/BYTES_PER_ELEMENT '''Constant'''
+
+Notice the rules for second-level pages under Operators:
+* Operators are spelled out as words, eg. Operators/Addition Assignment for the <code style="font-size: larger;">+=</code> operator
+* Logical or bitwise operators are capitlized, eg. Operators/Logical AND
 
 ==Templates and forms==
 Forms for all pages will be developed to allow editing with Semantic Forms rather than basic Mediawiki markup.
