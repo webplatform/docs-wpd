@@ -53,17 +53,17 @@ Notice the rules for second-level pages under Operators:
 * Logical or bitwise operators are capitalized, eg. Operators/Logical AND
 
 ===Path rewriting proposal===
-* Instead of an Objects top level, use Global for greater accuracy -
-javascript/Global/Array
-javascript/Global/Object
-javascript/Global/parseInt
+* Rename Objects to Global for greater accuracy and correctness -
+** javascript/Global/Array
+** javascript/Global/Object
+** javascript/Global/parseInt
 
 * Drop the suffixes -
-javascript/Global/Array/length property --> javascript/Global/Array/length
-javascript/Global/Array/forEach method --> javascript/Global/Array/forEach
+** javascript/Global/Array/length property --> javascript/Global/Array/length
+** javascript/Global/Array/forEach method --> javascript/Global/Array/forEach
 
 * Static methods should not be prefixed with their object -
-javascript/Global/Array/Array.isArray --> javascript/Global/Array/isArray
+** javascript/Global/Array/Array.isArray --> javascript/Global/Array/isArray
 
 * Drop the Constants, Functions and Properties top levels and incorporate them into Global or object pages instead.
 
