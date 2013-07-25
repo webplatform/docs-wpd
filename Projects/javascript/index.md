@@ -50,7 +50,27 @@ Notice the rules for third-level pages under Object:
 
 Notice the rules for second-level pages under Operators:
 * Operators are spelled out as words, eg. Operators/Addition Assignment for the <code style="font-size: larger;">+=</code> operator
-* Logical or bitwise operators are capitlized, eg. Operators/Logical AND
+* Logical or bitwise operators are capitalized, eg. Operators/Logical AND
+
+===Path rewriting proposal===
+* Instead of an Objects top level, use Global for greater accuracy -
+javascript/Global/Array
+javascript/Global/Object
+javascript/Global/parseInt
+
+* Drop the suffixes -
+javascript/Global/Array/length property --> javascript/Global/Array/length
+javascript/Global/Array/forEach method --> javascript/Global/Array/forEach
+
+* Static methods should not be prefixed with their object -
+javascript/Global/Array/Array.isArray --> javascript/Global/Array/isArray
+
+* Drop the Constants, Functions and Properties top levels and incorporate them into Global or object pages instead.
+
+* Low priority -
+** Move constants into the page of their parent object. So, <code>Infinity</code> will be shown as a section within the Global page. It will not have its own page.
+** Alternatively - treat constants as regular properties within the hierarchy.
+
 
 ==Templates and forms==
 Forms for all pages will be developed to allow editing with Semantic Forms rather than basic Mediawiki markup.
