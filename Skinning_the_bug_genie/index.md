@@ -1,3 +1,5 @@
+= A hitchhiker’s guide to skinning the Bug Genie =
+
 What follows is an attempt to document my findings while skinning The Bug Genie in the form of a short guide that I wish I had found when I started skinning it for WebPlatform.org. Most of it is reverse engineered, so there might be small inaccuracies.
 
 == Where is the HTML located? ==
