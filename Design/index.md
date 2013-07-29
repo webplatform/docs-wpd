@@ -1,3 +1,7 @@
+== Tutorials ==
+* [http://docs.webplatform.org/wiki/WPD:Design_changes_guide Design changes guide]
+* [http://docs.webplatform.org/wiki/WPD:Skinning_the_bug_genie A hitchhiker’s guide to skinning the Bug Genie]
+
 ==Site==
 * [[File:Web-Platform-Style-Guide-web-1.pdf]]
 
