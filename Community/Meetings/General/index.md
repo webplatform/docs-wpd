@@ -27,6 +27,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** Endgame schedule
 ** We need coordinators & contributors -- but especially coordinators
+** Action items cleanup: Please search for your name on this page. It's probably associated with an action item. Either:
+*** Mark it as (DONE)
+*** Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
+*** Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
 * Welcome to Renoir
 * Max's [[WPD:Projects/javascript|JS file import plan]] ready for language expert reviews
 * Anything blocking you from creating great content?
@@ -61,6 +65,134 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Max's JS file import
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
+
+===Discussion===
+
+====Topic: Zurich docsprint====
+Jay asked for retweeting from various official twitter handles about the Zurich Docsprint.
+
+Please retweet and otherwise promote: here: https://twitter.com/klick_ass/status/355063210086383619  +1/Share this:https://plus.google.com/u/0/100575683580946332118/posts/EjJ9r6WCBXg  Repost here: https://alpha.app.net/klick_ass/post/7550831 
+
+====Topic: Jirka's ITS project====
+Jirka shared with us:
+
+ITS developed something back 6 years ago in Firefox, mainly for XML, also XHTML just a set of metadata that could help translation like a translate attribute that could say whether or not the content should be translated. ITS developed several such attributes, and because it was not sufficient for more complex things, we developed v2.0 which added more localization metadata. because it was clear that HTML5 was taking off, we provided a way to map those attributes to they have a prefix. It's published as a proposed recommendation. Not expecting any changes to 
+not all implementations make use of all ITS attributes yet. For example, Google Translate and Microsoft Translate support translate attribute. And that attribute also is now in HTML5 formally. We thought it might be a good idea to recommend those attributes on web platform.org, since they're an integral part of HTML (or becoming that way).
+
+Action Item: Jirka to send to the public email list something where we can see it in action? public showcases, videos, slides.
+
+ITS should have its own namespace on WPD. But we should consider other things about the translation or multi-lingual stuff that might be a better larger bucket, such as unicode stuff, or some other internationalization bucket, a internationalization/multi-lingual namespace…
+
+Reference area as well.
+
+ITS is mostly attributes, with a few elements. It's a little bit tricky because HTML doesn't allow you to use your own elements in own namespace. So you can interlink to an external ITS file, similar to linking a stylesheet.
+
+ITS probably will not require any templates than our current Element and Attribute templates.
+
+====Topic: CSS Properties project end game====
+
+=====Subtopic: Stuff to do before we are "done"=====
+
+(See outline of things blocking us completing the project.)
+
+We think we can get the compatibility tables done in time.
+
+ACTION ITEM: shepazu to confirm compatibility tables will be done in time.
+
+ACTION ITEM: julee to explain on the list what's happening with the messy data types, defining what we need to do to fix it. (DONE)
+
+A lot of the content that was donated had samples in them. The view sample link points to MSDN. We need to switch the code samples from MSDN to code.webplatform.org.
+
+But really, a lot of the samples are stale. They should be reviewed.
+
+Easiest fix: after pages have been updated and reviewed, search for MSDN links and delete any of those links. More complex: programmatically update to move to code.webplatform.org.
+
+ACTION ITEM: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+ 
+=====Subtopic: Visual indication that a page is "done"=====
+
+How can the user tell if a page is ready for consumption or not. We're working on P2-P3 properties, but there are a bunch more. Want to make it clear to users which ones are vetted. 
+
+Are our new flags a good enough indication to first-time visitor that it's ready for consumption? Yes, if we are  consistent. 
+
+ACTION ITEM: Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question that they're asking people in the other reviews, validate with folks that it's clear with them. 
+
+ACTION ITEM: Julee make sure editing guide is updated with new flag values, when flags are done.
+
+ACTION ITEM: Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
+
+=====Subtopic: High level "expert" reviews=====
+
+We'd like to get feedback, fine touches, and the green light from CSS working group and other "famous devrel people".
+
+ACTION ITEM: shepazu to contact CSS wg about reviewing "done" pages.
+ACTION ITEM: Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages.
+
+ACTION ITEM: Lea to incorporate Chris Coyier's feeedback as appropriate.
+
+=====Subtopic: System stability=====
+Julee & others are getting a lot of 503 issues.
+
+ACTION ITEM: Shepazu to talk to Ryan about the 503s
+
+Maybe we need a "systems ready" line item in the guidelines for launching. If we get activity for this "launch", we should be confident we aren't going to crash.
+
+Also, need to let Ryan and all know not to tweak production site for first few weeks of launch.
+
+Also leaverou reported a bug on production site. She can't deploy to test wiki, only production wiki.
+
+ACTION ITEM: Lea to send infrastructure bug (can't deploy to test wiki, only production wiki) directly to Ryan. (DONE)
+
+=====Subtopic: we need more coordinators=====
+
+Julee and shepazu cannot keep up with the contributors and properties. We need coordinators. So, every Tuesday, please volunteer. Eliot is busy until August. (Props to Eliot for calling in on vacation!)
+
+When active folks are going to be unavailable, we need to have people hand off the things to someone else.
+
+Up-front work, but then we have another coordinator! 
+
+We had some good coordination beginning, but it's petered off. Folks are generally concurring: people are distracted with other things, it's the middle of summer…
+
+Julee is manually going back to previous contributors and re-engaging.
+
+It's fine to have this problem NOW, but to make sure it doesn't happen in the future, we need to establish a mechanism.
+
+====Topic: JS import project====
+
+Max and Phistuck have been working out the final structure of the JS import.
+Let's get some JS experts who would be interested in reviewing the structure they're working out.
+Also, they might be at a blocking point; relying on naming convention for DOM, which I'm not sure if we settled or not.
+We need to sort out the details for the import.
+
+We want to make sure they're not aiming at a moving target on the DOM side.
+
+ACTION ITEM: shepazu to reach out to Julien and Rick Byers.
+
+ACTION ITEM: Julee to make sure we have one page where we solidify what Phistuck and Max want.
+
+ACTION ITEM: jswisher to reach out to Dave Brouant (sp?) 
+
+===Action Items===
+
+* shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
+* Jirka to create overview/tutorial on ITS.
+* shepazu to confirm compatibility tables will be done in time.
+* julee to explain on the list what's happening with the messy data types, defining what we need to do to fix it. (DONE)
+* Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+* Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question that they're asking people in the other reviews, validate with folks that it's clear with them. 
+* Julee make sure editing guide is updated with new flag values, when flags are done.
+* Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
+* shepazu to contact CSS wg about reviewing "done" pages.
+* Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages.
+* Lea to incorporate Chris Coyier's feeedback as appropriate.
+* Shepazu to talk to Ryan about the 503s
+* Lea to send infrastructure bug (can't deploy to test wiki, only production wiki) directly to Ryan. (DONE)
+* shepazu to confirm compatibility tables will be done in time.
+* julee to explain on the list what's happening with the messy data types, defining what we need to do to fix it. (DONE)
+* shepazu to reach out to Julien and Rick Byers.
+* Julee to make sure we have one page where we solidify what Phistuck and Max want.(DONE)
+* jswisher to reach out to Dave Brouant (DONE) 
+
 
 ==Agenda 2013-06-28==
 
