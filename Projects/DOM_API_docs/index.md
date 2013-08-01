@@ -14,6 +14,7 @@ This documentation will cover the programatic artifacts that provide an interfac
 
 The two primary tasks of this project are as follows:
 * Reorganize the DOM API documentation in a coherent structure that supports short, predictable URLs.
+* Remove and replace proprietary content with standard content.
 * Fill in the pages with information currently missing.
 
 ==Reorganization==
