@@ -34,6 +34,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 **** Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
 **** Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
 *** Next week, Julee will email you, and cc list, all Action items that need to be done before launch.
+* Analytics meeting is moving to Monday 4pmPDT/7pmEDT
+* We're going to move to proactive notification regarding system issues:
+** We'll set up a status page of server
+** We'll email public list and update the irc channel status (webplatform webplatform-site) when there's problems; when work on the system affects UX.
 * Max's [[WPD:Projects/javascript|JS file import plan]] ready for language expert reviews
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
