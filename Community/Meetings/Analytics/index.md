@@ -1,6 +1,6 @@
 =Analytics Task Force Meeting=
 
-'''Time:''' Fridays, 19:00 UTC / 14:00 ET / 11:00 PT. 
+'''Time:''' Mondays, 23:00 UTC / 19:00 EDT / 16:00 PDT. 
 
 '''Zakim Bridge:''' +1.617.761.6200
 
