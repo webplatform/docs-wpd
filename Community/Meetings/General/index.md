@@ -23,15 +23,17 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ==Agenda 2013-08-02==
 
 * Roll call
+* Welcome to Renoir!
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPDW]] - how is it going?
 ** Endgame schedule
 ** We need coordinators & contributors -- but especially coordinators
-** Action items cleanup: Please search for your name on this page. It's probably associated with an action item. Either:
-*** Mark it as (DONE)
-*** Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
-*** Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
-* Welcome to Renoir
+** Action items cleanup: Please search for your name on this page.
+*** It's probably associated with an action item. Either:
+**** Mark it as (DONE)
+**** Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
+**** Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
+*** Next week, Julee will email you, and cc list, all Action items that need to be done before launch.
 * Max's [[WPD:Projects/javascript|JS file import plan]] ready for language expert reviews
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
