@@ -25,7 +25,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Welcome to Renoir!
 * Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Endgame schedule
 ** We need coordinators & contributors -- but especially coordinators
 ** Action items cleanup: Please search for your name on this page.
@@ -51,7 +51,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Roll call
 * Review of open action items
 * ITS
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Other MBF issues?
 *** compatibility tables (Doug)
 *** data types & units done (Julee)
@@ -204,7 +204,7 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 
 * Roll call
 * Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Who will be a coordinator for the next 4 weeks?
 ** How should we circle back around to folks who have previously showed interest?
 *** Julee started a CRM for community contributors.
@@ -219,7 +219,7 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 
 ==DISCUSSION==
 
-====TOPIC: WPDW - how is it going?====
+====TOPIC: WPW - how is it going?====
 =====SUBTOPIC: Who will be a coordinator for the next 4 weeks?=====
 
 People aren't officially signing up to be a coordinator, so Doug is basically signed up for all properties. We need people signed up to help.
@@ -354,7 +354,7 @@ The general overview is that blackberry is paying for some time to use these tec
 we have four people who will spend 20% of their time a week working on WPD, with Blackberry sponsoring.
 University students. They have ten sites. This is a pilot.
 
-They have a separate table on WPDW http://docs.webplatform.org/wiki/Meta:web_platform_wednesday#BlackBerry_Tech_Centers
+They have a separate table on WPW http://docs.webplatform.org/wiki/Meta:web_platform_wednesday#BlackBerry_Tech_Centers
 Interested in being part of the community as we go through. You might see e-mails, or IRC. Down the road, we hope more of the tech centers will help out. 
 Millo said Microsoft has similar programs, so once this gets going, we can add on some Microsoft sites.
 
@@ -394,7 +394,7 @@ ACTION: Eliot to write up blog post about Seattle Doc Sprint. (DONE)
 * Roll call
 * Demian Borba of Blackberry and his university program.
 * Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** How's video going
 ** should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
 * Ryan Lane upgraded site.
@@ -504,7 +504,7 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 
 * Roll call
 * Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Coordinators finding contributors?
 ** Topic clusters done with instrux?
 ** How's video going
@@ -626,11 +626,11 @@ Jswisher said MDN watches the revisions feed and has a dedicated delete; switchi
 * Roll call
 * Review of open action items
 * [http://docs.webplatform.org/test/css/properties/border-radius ToC]
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** New and improved: only one table to fill out! (Master page is what we're pulling from. But http://docs.webplatform.org/wiki/Meta:web_platform_wednesday will become the final master list.)
 ** We have a standing IRC meeting at 11am PDT, Wednesdays, on #webplatform -- but nothing seems to be happening there.
 *** We should be active on IRC at that time, at least promoting the current week's blog post, and let folks know we're available to answer any questions at that time.
-** What is workflow for WPDWs?
+** What is workflow for WPWs?
 **# Shepazu to pick topic.
 **# Blog written on Tuesday, promo'd Wednesday morning.
 **# Coordinators get volunteers and sign folks up on the WPW page, adding "In Progress"
@@ -735,7 +735,7 @@ leaverou  got this from the cubic-bezier page, somebody added screencaps from my
 * (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRIED FORWARD)
 * (CARRIED FORWARD) shepazu & leaverou to mock up what the improved flags will look like. (CARRIED FORWARD)
 * (CARRIED FORWARD) shepazu to ensure forums banner explicitly states it's for accessibility question only. (CARRIED FORWARD)
-* (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally (CARRIED FORWARD)
+* (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPW ideally (CARRIED FORWARD)
 
 
 
@@ -745,7 +745,7 @@ leaverou  got this from the cubic-bezier page, somebody added screencaps from my
 
 * Roll call
 * Review of open action items
-* [[Meta:web_platform_wednesday|WPDW]] - how is it going?
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Coordinators:
 *** Doug: 
 *** Chris: did all of his, himself -- next time will get others to help
