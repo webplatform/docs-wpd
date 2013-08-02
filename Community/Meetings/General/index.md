@@ -44,6 +44,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything new & notable? (Blogs or other communications planned for next week?)
 * Misc (anything to add)
 ** SSL Certificate for TLD and sub-domains
+** Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
 
 ==Agenda 2013-07-26 Meeting canceled due to lack of quorum==
 
