@@ -39,6 +39,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** We'll set up a status page of server
 ** We'll email public list and update the irc channel status (webplatform webplatform-site) when there's problems; when work on the system affects UX.
 * Max's [[WPD:Projects/javascript|JS file import plan]] ready for language expert reviews
+* [https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group Group calendar]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
