@@ -42,6 +42,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * [https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group Group calendar]
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
+* Misc (anything to add)
+** SSL Certificate for TLD and sub-domains
 
 ==Agenda 2013-07-26 Meeting canceled due to lack of quorum==
 
