@@ -40,11 +40,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** We'll email public list and update the irc channel status (webplatform webplatform-site) when there's problems; when work on the system affects UX.
 * Max's [[WPD:Projects/javascript|JS file import plan]] ready for language expert reviews
 * [https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group Group calendar]
-* Anything blocking you from creating great content?
-* Anything new & notable? (Blogs or other communications planned for next week?)
-* Misc (anything to add)
-** SSL Certificate for TLD and sub-domains
-** Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
+* SSL Certificate for TLD and sub-domains
+* Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
 
 ==Agenda 2013-07-26 Meeting canceled due to lack of quorum==
 
