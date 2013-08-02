@@ -43,6 +43,150 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * SSL Certificate for TLD and sub-domains
 * Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
 
+===Discussion===
+
+====TOPIC: Welcome to Renoir!====
+
+[much rejoicing]
+
+Shepazu chose Renoir because he has a good balance of backend/sysadmin skills, frontend/backend development, design, and also because of his interest in the topic and history of community outreach. Great combination of skills for this project.
+
+Renoir is based in Montreal, so on east coast time-zone, which is convenient for working with Shepazu but also he can be up early enough to work with europeans, but also people on the West Coast.
+
+We'll keep contracting with Ryan as we need him, given his expertise. Renoir has already helped with the recent instability problem.
+
+Official start date was August 1. Vacation to Paris for one week, August 30th
+
+====TOPIC: Lea is not at W3C====
+
+Wednesday was Lea's last day at W3C. Lea had a great mix of design/front end skills. Renoir has some of those skills (mostly on development side). She didn't design icons, illustrations, etc, so as I'm looking for a new person we can focus on people with strong UX/UI skills, ooking at 10-12 candidates already. We have a job description on W3C's site. http://www.w3.org/Consortium/Recruitment/#design-webplatform
+
+
+ACTION ITEM: julee: We need someone to review Lea's actions item and reassign, and to reassign ownership of project.webplatform.org.
+
+====TOPIC: Action items cleanup====
+
+•	
+o	Action items cleanup: Please search for your name on this page.
+•	It's probably associated with an action item. Either:
+•	Mark it as (DONE)
+•	Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
+•	Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
+•	Next week, Julee will email you, and cc list, all Action items that need to be done before launch.
+
+ACTION: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)".
+
+====TOPIC: WPW - how is it going?====
+
+====SUBTOPIC: Endgame schedule====
+
+Non-content portion of the plan is probably doable. Need to confirm the compatibility table work. 
+
+
+The Content part of the schedule is still at risk because of resources. Especially folks who can coordinate.
+
+We have 66 properties that need to be edited and also a review. It's not a huge number and something we can shoot for. We should popularize that number.
+
+We have a good pool of contributors, we need people who have expertise to get them on board.
+
+We need at least 4 coordinators for each week for next four weeks. There's shepazu & julee – who have a lot of other things to do. Shepazu suggested renoirb. If renoirb and Shepazu work on coordinating the community and content, those resources will be pulled off devops, tech support, and system readiness.
+
+We have asked folks like nicdaCosta to coordinate. That works fine, but these volunteers are hard to come by and limited in their time.
+
+Should we extend the project out and give ourselves a more sane cushion, like, into September?
+
+Maybe if Doug/Eliot/Alex responded to stewards list, that would give more momentum.
+
+We need to articulate the specific, scoped work, with realistic time commitment, that might help.
+
+ACTION: shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations.
+
+ACTION: shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
+
+=====SUBTOPIC: Flags=====
+
+Lea & shepazu have the action item to actively ask reviewers:
+
+"can you tell if this page is ready for consumption or needs more work" 
+
+Basically, the requirement that when a person lands--we have 4500 pages on WPD, we've been working on 200-300. Users need to figure out when they're looking at an article, whether it's ready to consume or not.
+
+So flags will be moved to a more discrete place.
+
+Lea has prototyped the flags. renoirb has extracted those, we're ready to put them in when we get the flag stuff done.
+
+====TOPIC: dreamhost ====
+
+Shepazu talked to dreamhost (at least one person there) at hosting the site. And possibly being an active steward. 
+
+ACTION: renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need.
+
+
+====TOPIC: Analytics meeting moving to Mondays====
+
+Analytics meeting is moving to Monday 4pmPDT / 7pmEDT.
+
+
+====TOPIC: Max's JS file import plan====
+Max's JS file import plan ready for language expert reviews
+http://docs.webplatform.org/wiki/WPD:Projects/javascript
+
+====TOPIC: Google Calendar ====
+
+Google calendar is up. This is most presently for folks to add the times where they're available to help with WPD, and when they're unavailable.
+
+renoirb: can see the calendar there, no events
+
+ 
+https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group
+
+
+====TOPIC: proactive notification regarding system issues====
+We're going to move to proactive notification regarding system issues
+* We'll set up a status page of server
+* We'll email public list and update the irc channel status (webplatform webplatform-site) when there's problems; when work on the system affects UX.
+
+Renoir set up a system that will notify himself and Doug when the site is down.
+
+Low-hanging fruit to set up have a simple system that lets people know what the status is if it's going wrong. Something like status.webplatform.org, to say either it's a known outage or unknown. 
+
+====TOPIC: Dev backlog====
+Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
+
+That way, we can store dev projects there.
+
+When your infra fails… it happens to also affect the status view.
+
+Please use project.webplatform.org when possible to create and track projects once they move from the proposals phase.
+
+====TOPIC: SSL Certificate for TLD and sub-domains ====
+No time to discuss SSL Certificate for TLD and sub-domains.
+
+renoirb & shepazu will take it off line.
+
+===ACTION ITEMS===
+
+* Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above.
+* renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need.
+* shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations.
+*shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
+* CARRY FORWARD: shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
+* CARRY FORWARD: Jirka to create overview/tutorial on ITS.
+* CARRY FORWARD: shepazu to confirm compatibility tables will be done in time.
+* CARRY FORWARD: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+* CARRY FORWARD: Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers.
+* CARRY FORWARD: Julee make sure editing guide is updated with new flag values, when flags are done. (Has a dependency on flags being done)
+* CARRY FORWARD: Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
+* CARRY FORWARD: shepazu to contact CSS wg about reviewing "done" pages. (Leaverou started a thread, but not to CSSWG. Dependency on more content being done.)
+* CARRY FORWARD: Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages. (Dependency on more content being done.)
+* CARRY FORWARD: Lea to incorporate Chris Coyier's feeedback as appropriate.
+* CARRY FORWARD: Shepazu & renoirb to review Lea's actions item and reassign and to reassign ownership of project.webplatform.org.
+* ACTION ITEM: Shepazu to talk to Ryan about the 503s. (Done: Garbee and Renoir talked to him more extensively, a bunch of jobs weren't getting performed, and the backlog was causing problems. Think he's resolved that.)
+* ACTION ITEM: renoir to look at server errors in more depth.
+* CARRY FORWARD: shepazu to reach out to Julien and Rick Byers regarding JS plan
+* CARRY FORWARD: We said we needed ECMAScript experts to review the JS plan http://docs.webplatform.org/wiki/WPD:Community/Meetings/General#Topic:_JS_import_project
+
+
 ==Agenda 2013-07-26 Meeting canceled due to lack of quorum==
 
 ==Agenda 2013-07-19 Meeting canceled due to lack of quorum==
