@@ -197,9 +197,8 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 * Lea to incorporate Chris Coyier's feeedback as appropriate.
 * Shepazu to talk to Ryan about the 503s
 * Lea to send infrastructure bug (can't deploy to test wiki, only production wiki) directly to Ryan. (DONE)
-* shepazu to confirm compatibility tables will be done in time.
 * julee to explain on the list what's happening with the messy data types, defining what we need to do to fix it. (DONE)
-* shepazu to reach out to Julien and Rick Byers.
+* shepazu to reach out to Julien and Rick Byers regarding JS plan.
 * Julee to make sure we have one page where we solidify what Phistuck and Max want.(DONE)
 * jswisher to reach out to Dave Brouant (DONE) 
 
