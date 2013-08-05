@@ -1,7 +1,7 @@
 = Meetings and schedules =
 
 == Schedule calendar ==
-You can import the following into your calendar.
+You can import the following into your own calendar application.
 
 [https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group.calendar.google.com Meeting calendar and Coordinator availabilities]
 
