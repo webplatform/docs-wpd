@@ -2491,7 +2491,7 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 ===Action items===
 * Julee to find out how to add a meeting bot to the Content TF Meeting.
 * Julee to file a bug about the design of reference pages with a non-standard standardization status.
-* Eliot to update bug 20227 with pointer to the style guide he wrote
+* Eliot to update bug 20227 with pointer to the style guide he wrote (DONE)
 * Garbee to send out his awesome task organization plan
 * Scott and Peter to explore social media channels about next week's docsprint
 Proposed next discussion topics
