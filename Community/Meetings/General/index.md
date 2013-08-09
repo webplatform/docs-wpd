@@ -98,7 +98,7 @@ Maybe if Doug/Eliot/Alex responded to stewards list, that would give more moment
 
 We need to articulate the specific, scoped work, with realistic time commitment, that might help.
 
-ACTION: shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations.
+ACTION: shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations. [Eliot DONE]
 
 ACTION: shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
 
@@ -167,7 +167,7 @@ renoirb & shepazu will take it off line.
 
 * Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above.
 * renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need.
-* shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations.
+* shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations. [Eliot DONE]
 *shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
 * CARRY FORWARD: shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
 * CARRY FORWARD: Jirka to create overview/tutorial on ITS.
@@ -2295,7 +2295,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 ===Actions===
 
 * ACTION: shepazu + denis to implement sitemap extension
-* ACTION (carried forward): eliot to edit top level landing pages
+* ACTION (carried forward): eliot to edit top level landing pages [DONE]
 * ACTION (carried forward): julee and garbee to look into installing meetbot
 * ACTION: Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page
 * ACTION: Mike S to move his static font-size example into the appropriate Wiki page
@@ -2340,7 +2340,7 @@ someone had a plugin they wanted to use.
 ACTION: Julee to send out a Doodle poll to figure out a better time. [Done]
 ACTION: Mike Sierra to work on making a "gold standard" example page, that others can use as a model. [DONE]
 LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: need site map
-LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. 
+LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. [DONE]
 LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 
 ==Agenda 2013-01-10==
@@ -2399,7 +2399,7 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 * ACTION: Scott to work on usability of Ed Guide.
 * LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: in progress
 * LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more. UPDATE: Julee sent an email.
-* LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. UPDATE: No status.
+* LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. UPDATE: No status. now [DONE]
 * LAST WEEK ACTION: Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas. UPDATE: Janet sent out the email.
 * PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting. UPDATE: in progress
 * PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status. UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct. UPDATE: Filed two bugs:
@@ -2424,7 +2424,7 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 ===Discussion===
 
 * Note that the [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513 content bugs] are assigned to either Chris or Garbee. We wonder how do we spread these out to others? Maybe a larger issue than with just the content bugs?
-* Discussed top-level pages sent out by Chris. We generally thought Chris's [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed pages] were excellent. Eliot volunteered to do an edit pass on the descriptions.
+* Discussed top-level pages sent out by Chris. We generally thought Chris's [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed pages] were excellent. Eliot volunteered to do an edit pass on the descriptions. [DONE]
 * We discussed the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0235.html navigation proposals] (and [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0221.html Proposal for updating links on webplatform.org proposal for updating links]) that have been in the email list. We discussed the pros and cons of providing the reader with a choice of content type or topic area, via hover links on the global nav. We would appreciate a mock-up. We are not sure how the different proposals would actually pan out. Jswisher took the action to follow up in the email threads and request the next level of detail.
 * We identified four priorities we're working on to make editing the site easier and hope to have this work completed by the new year:
 ** The global nav/landing pages, discussed above, that Chris Mills is working on
@@ -2437,7 +2437,7 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 
 * Julee to update Topic Hierarchy and Architecture pages.
 * Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
-* Eliot to do an editorial pass on the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed top-level pages]. 
+* Eliot to do an editorial pass on the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed top-level pages]. [DONE]
 * Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas.
 * LAST WEEK ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.
 ** UPDATE: in progress
