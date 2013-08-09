@@ -66,13 +66,12 @@ ACTION ITEM: julee: We need someone to review Lea's actions item and reassign, a
 
 ====TOPIC: Action items cleanup====
 
-•	
-o	Action items cleanup: Please search for your name on this page.
-•	It's probably associated with an action item. Either:
-•	Mark it as (DONE)
-•	Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
-•	Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
-•	Next week, Julee will email you, and cc list, all Action items that need to be done before launch.
+* Action items cleanup: Please search for your name on this page.
+** It's probably associated with an action item. Either:
+** Mark it as (DONE)
+** Mark it as (DUE: <date>) (really, only pre-launch or post-launch)
+** Mark it as (STATUS: NO LONGER IMPORTANT) or some other STATUS
+** Next week, Julee will email you, and cc list, all Action items that need to be done before launch.
 
 ACTION: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)".
 
