@@ -11,7 +11,7 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Analytics/reporting
 # Compatibility table
 
-=== Suggested ===
+== Suggestions ==
 
 Not in order of priority
 
