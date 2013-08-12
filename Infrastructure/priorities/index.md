@@ -1,14 +1,17 @@
 == Summary ==
 Things that has been taken in note that are not urgent, but that should be considered in a future.
 
-=== Overview ===
-==== Priorities ====
+== In progress ==
+# Stabilize piwik installation into a self-contained VM while documenting a maintenance workflow [[WPD:Infrastructure/MaintenanceWorkflow|Maintenance Workflow in Infrastructure]]
+# Create an analytics dashboard (pending)
+
+== Abstract Priorities ==
 # Stability
 # Deployment strategy
 # Analytics/reporting
 # Compatibility table
 
-==== Project queue ====
+=== Suggested ===
 
 Not in order of priority
 
