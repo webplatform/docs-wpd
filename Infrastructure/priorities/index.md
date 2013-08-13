@@ -7,7 +7,7 @@ Things that has been taken in note that are not urgent, but that should be consi
 
 == Abstract Priorities ==
 # Stability
-# Deployment strategy
+# Deployment strategy and migrations
 # Analytics/reporting
 # Compatibility table
 
