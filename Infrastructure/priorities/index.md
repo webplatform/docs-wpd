@@ -12,17 +12,16 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Compatibility table
 
 == Suggestions ==
-
-Not in order of priority
+Not in order of priority.
 
 *  Bring a reporting mechanism
 *  Static live dashboard on the homepage, stats, people edited so far
-*  Homepage to be dynamic: http://kamisama.github.io/cal-heatmap/,  Pull in all the data on support table, keep history, create view to consume it, and accessible as partial, generate a REST API, have progress in august
+*  Homepage to be dynamic: [[http://kamisama.github.io/cal-heatmap/]],  Pull in all the data on support table, keep history, create view to consume it, and accessible as partial, generate a REST API, have progress in august
 *  Search engine index and use throughout the site
 *  Mail server, send, possible for users
-* Status page (status update) http://status.twitter.com/, https://community.hpcloud.com/status  
-* Find a SSL certificate provider for the wpd site
-* NGINX and wordpress
+* Status page (status update) [[http://status.twitter.com/]], [[https://community.hpcloud.com/status]]  
+* Find a SSL certificate provider for the WPD site
+* NGINX and WordPress
 * WordPress: Allow uploads, update to latest version
 
 ==== Master plan for the community-management-system ====
