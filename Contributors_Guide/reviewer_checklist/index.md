@@ -24,7 +24,7 @@
 ==Technical review checklist==
 * Is article summary technically accurate and clear?
 * Do values match the latest specification? Are the experimental features clearly marked?
-* Are values definition elements and not examples (see [http://dev.w3.org/2009/dap/ReSpec.js/documentation.html#definitions])?
+* Are values definition elements and not examples (see [http://dev.w3.org/2009/dap/ReSpec.js/documentation.html#definitions] )?
 * Are examples accurate? Use best practices? Do they show common use cases?
 * Are notes & caveats sufficient?
 * Do links to other articles or resources pointing to examples that are best practices?
