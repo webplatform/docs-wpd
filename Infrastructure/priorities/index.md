@@ -5,11 +5,11 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Stabilize piwik installation into a self-contained VM while documenting a maintenance workflow [[WPD:Infrastructure/MaintenanceWorkflow|Maintenance Workflow in Infrastructure]]
 # Create an analytics dashboard (pending)
 
-== Abstract Priorities ==
-# Stability
-# Deployment strategy and migrations
-# Analytics/reporting
-# Compatibility table
+== Current Priorities ==
+# Stability ''(ongoing)''
+# Deployment strategy and migrations ''(long-term, parallel with other tasks)''
+# Analytics/reporting ''(first phase, iterating over time)''
+# Compatibility table ''(important for first beta)''
 
 == Suggestions ==
 Not in order of priority.
