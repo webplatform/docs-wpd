@@ -25,6 +25,7 @@
 ** Use first person or refer to user agent, such as the browser?
 ** Are sentences as short as possible?
 ** Is style maintained throughout page? Does it match style of related properties?
+* Check the Needs Review checkbox
 ==Technical review checklist==
 * Is article summary technically accurate and clear?
 * Do values match the latest specification? Are the experimental features clearly marked?
@@ -33,3 +34,4 @@
 * Are notes & caveats sufficient?
 * Do links to other articles or resources pointing to examples that are best practices?
 * Could you add some fun, interesting, insightful notes, links, examples?
+* Uncheck the Needs Review checkbox
