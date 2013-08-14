@@ -172,7 +172,7 @@ renoirb & shepazu will take it off line.
 * CARRY FORWARD: shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
 * CARRY FORWARD: Jirka to create overview/tutorial on ITS.
 * CARRY FORWARD: shepazu to confirm compatibility tables will be done in time.
-* CARRY FORWARD: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+* CARRY FORWARD: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE)
 * CARRY FORWARD: Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers.
 * CARRY FORWARD: Julee make sure editing guide is updated with new flag values, when flags are done. (Has a dependency on flags being done)
 * CARRY FORWARD: Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
@@ -198,9 +198,9 @@ renoirb & shepazu will take it off line.
 * [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Other MBF issues?
 *** compatibility tables (Doug)
-*** data types & units done (Julee)
+*** data types & units done (Julee) (DONE)
 *** code samples switched from MSDN to code.webplatform.org
-**** Julee to add it as a review checklist
+**** Julee to add it as a review checklist (DONE)
 *** schedule high-level reviews (Doug & Lea)
 **** CSS WG, for instance: template change recommendations of WG? (e.g.: animatable is not a simple boolean)
 **** visual, or UI indication of whether or not any given page is ready or not
@@ -257,7 +257,7 @@ But really, a lot of the samples are stale. They should be reviewed.
 
 Easiest fix: after pages have been updated and reviewed, search for MSDN links and delete any of those links. More complex: programmatically update to move to code.webplatform.org.
 
-ACTION ITEM: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+ACTION ITEM: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE)
  
 =====Subtopic: Visual indication that a page is "done"=====
 
@@ -328,7 +328,7 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 * Jirka to create overview/tutorial on ITS.
 * shepazu to confirm compatibility tables will be done in time.
 * julee to explain on the list what's happening with the messy data types, defining what we need to do to fix it. (DONE)
-* Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org.
+* Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE)
 * Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question that they're asking people in the other reviews, validate with folks that it's clear with them. 
 * Julee make sure editing guide is updated with new flag values, when flags are done.
 * Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
@@ -350,7 +350,7 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 * [[Meta:web_platform_wednesday|WPW]] - how is it going?
 ** Who will be a coordinator for the next 4 weeks?
 ** How should we circle back around to folks who have previously showed interest?
-*** Julee started a CRM for community contributors.
+*** Julee started a CRM for community contributors. (DONE)
 ** What MBF for CSS properties?
 *** compatibility tables
 *** data types & units done
@@ -369,7 +369,7 @@ People aren't officially signing up to be a coordinator, so Doug is basically si
 It's not that hard to coordinate. Just mark down when people volunteer, help them out. Recruit people actively, on the properties you're coordinating. It's too much for doug on his own; other people are helping out ad hoc, but aren't following through to make sure the contributor has actually completed the work.
 Alex signed up for last three weeks in July.
 
-ACTION: julee to e-mail list to try to get others to coordinate. (In progress)
+ACTION: julee to e-mail list to try to get others to coordinate. (DONE)
 
 We're still targeted for end of July for first round of P0 CSS properties. Don't want things to fall apart for lack of resources. There are enough volunteers that people can actually get this thing done. 
 ACTION: Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
@@ -459,7 +459,7 @@ They may not be available right now.
 
 We should have a calendar or something.
 
-ACTION: julee to create a high-level calendar for people to mark when they're available or not.
+ACTION: julee to create a high-level calendar for people to mark when they're available or not. (DONE: https://www.google.com/calendar/render?tab=oc&pli=1&gsessionid=P71QgXQ4uw2jGWqFWW6lLA)
 
 Limited resources on JS, but other things we can do to support this project?
 
@@ -483,7 +483,7 @@ ACTION: shepazu to mock up types of JS pages with examples, so we can think abou
 We do have tools to edit a page programmatically after the fact, and do mass page renaming, so we should just go forward with it.
 
 ACTION: Max to configure the project page with the tasks.
-ACTION: Julee to rally an IA overview
+ACTION: Julee to rally an IA overview (DONE)
 
 ACTION: shepazu and maxpolk to meet up in person to work on JS page organization
 
@@ -515,13 +515,13 @@ ACTION: Eliot to write up blog post about Seattle Doc Sprint. (DONE)
 
 == ACTION ITEMS==
 
-* julee to e-mail list to try to get others to coordinate. (In progress)
+* julee to e-mail list to try to get others to coordinate. (DONE)
 * Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
 * shepazu to following up with CSS WG review  -- especially Arron Eicholz , who was in the IRC for this meeting -- to get more suggestions on CSS properties pages
 * jkomoros to work with Paul Irish to coordinate getting devrel type folks to review the docs.
 * Lea to incorporate Chris Coyers UI feedback (http://lists.w3.org/Archives/Public/public-webplatform/2013May/0241.html)
 * jkomoros to help coordinate a launch plan once we decide to go forward with launch.
-* julee to create a high-level calendar for people to mark when they're available or not.
+* julee to create a high-level calendar for people to mark when they're available or not. (DONE https://www.google.com/calendar/render?tab=oc&pli=1&gsessionid=P71QgXQ4uw2jGWqFWW6lLA)
 * shepazu to mock up types of JS pages with examples, so we can think about templates from there.
 * Max to configure the JS project page with the tasks.
 * Julee to rally an IA overview of Max's JS emails (in progress. PhishtucK is doing great.)
@@ -578,7 +578,7 @@ shepazu to reach out to Kuma ops (Aly). Yes, but no progress
 
 shepazu to post on job sites and sysops lists Carry forward
 
-julee to ask direct and actionable question on IRC at 11am n/a
+julee to ask direct and actionable question on IRC at 11am n/a (DONE)
 
 shepazu to send email to most active users - DONE
 
@@ -637,7 +637,7 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 ===ACTION ITEMS===
 
 * CARRIED FORWARD: shepazu to post on job sites and sysops lists
-* shepazu & julee to do a promo check list, including concrete details on how stewards can propagate
+* shepazu & julee to do a promo check list, including concrete details on how stewards can propagate (Eliot is working on this)
 * Millo to cc shepazu on his email to new IEEE contact
 * shepazu to ask Hiroki to propagate announcements to the JP list
 * We will blog and tweet WPW late Tuesday night
@@ -865,15 +865,14 @@ leaverou  got this from the cubic-bezier page, somebody added screencaps from my
 
 ===ACTION ITEMS===
 
-* julee to start thread on where new guides exist, where to link them to and what to call them (our Ed, Getting Started, WPW, and Coordinator's guides have confusing names and do not properly reference each other.)
+* julee to start thread on where new guides exist, where to link them to and what to call them (our Ed, Getting Started, WPW, and Coordinator's guides have confusing names and do not properly reference each other.)  (DONE)
 * Scott to do a video on how to edit a CSS properties page.
 * Leaverou to email about embedding a screencaps tool. (CARRIED FORWARD)
 * shepazu to write up guide on what coordinators do on WPW
 * leaverou to work on home page design, with the goal of highlighting community activity (CARRIED FORWARD)
 * shepazu to figure out what connection bug is in project.webplatform.org
-* Julee to write up an email about "postponing" non-beta bugs.
+* Julee to write up an email about "postponing" non-beta bugs.  (DONE)
 * shepazu to figure out what connection bug is in project.webplatform.org
-* Julee to write up an email about "postponing" non-beta bugs.
 * (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important (DONE)
 * (CARRIED FORWARD) shepazu to e-mail ML about latest plans for talk.webplatform.org (CARRIED FORWARD)
 * (CARRIED FORWARD) shepazu & leaverou to mock up what the improved flags will look like. (CARRIED FORWARD)
@@ -1102,7 +1101,7 @@ Tell them that wiki wednesday is a great way to get started
 * shepazu to consider putting table at the top of the page (DONE)
 * shepazu send out an email asking for someone to work on outline (DONE)
 * Julee to update editor's guide with links to WPDW (DONE)
-* shepazu to start thread on where new guides exists, where to link them to and what to call them (ACTION transferred to Julee)
+* shepazu to start thread on where new guides exists, where to link them to and what to call them (ACTION transferred to Julee)  (DONE)
 * (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally (CARRIED FORWARD)
 * Scott to write up quick guide on dealing with shorthand properties (ACTION evolved to: Scott to do a video on how to edit a CSS properties page)
 
@@ -1661,7 +1660,7 @@ This is probably a comm & recruiting item. In the meantime, we're asking everyon
 
 ALSO: Fellowships, interships, mentoring programs for students: GSoC: we got rejected (explicitly not for documentation). But w3c did get approved. Shepazu will follow up.
 
-Media Wiki has a mentoring program, can we add our project to their list? Julee will follow up.
+Media Wiki has a mentoring program, can we add our project to their list? Julee will follow up.  (DONE)
 
 ====TOPIC: status of table styles====
 
@@ -1689,7 +1688,7 @@ Tom Ortega wants to participate by investigate building plugins for standard edi
 ===ACTION ITEMS===
 
 * shepazu will call in Richard Ishida, W3C's internationalization and localization expert (DONE)
-* Julee to write a draft email outlining the process to use for CSS properties review as instructions for SMEs. (DONE http://project.webplatform.org/content/issues/43)
+* Julee to write a draft email outlining the process to use for CSS properties review as instructions for SMEs. (DONE http://project.webplatform.org/content/issues/43) 
 * shepazu to follow up with Lea regarding global nav (http://project.webplatform.org/content/issues/14) (DONE)
 * Julee to talk to ryan about this (DONE: Only GNOME project might apply. Pursuing as part of community & recruiting agenda.)
 * shepazu to send out timeline for W3C GSoC (STATUS: We discussed during analytics that it probably wasn't the right)
@@ -1727,7 +1726,7 @@ shepazu will report back with more information
 
 ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG [STATUS: Prepared email. Do we have a systematic way of processing feedback? See 2013-04-12 meeting notes, above, for discussion.]
 
-ACTION: Julee to assign owners for properties after Doc Sprint. [IN PROGRESS]
+ACTION: Julee to assign owners for properties after Doc Sprint.  (DONE)
 
 shepazu started work on recruiting reviewers, wrote e-mail; consulted with Fantasai
 
@@ -1750,7 +1749,7 @@ ACTION: scottrowe_ to follow up with Alex about editing the dismissible message.
 
 ====TOPIC: Status on project.* ====
 
-ACTION: shepazu and julee to coordinate with garbee on project buckets, testing
+ACTION: shepazu and julee to coordinate with garbee on project buckets, testing  (DONE)
 
 ====TOPIC: Google Summer of Code ====
 
@@ -1766,7 +1765,7 @@ Millo, we're open to any data source that meets our criteria
 
 ====TOPIC: Please respond to email re: IRC hours====
 
-ACTION: If folks don't respond to email, Julee to set up an IRC calendar page 
+ACTION: If folks don't respond to email, Julee to set up an IRC calendar page  (DONE)
 
 ====TOPIC: API Project almost done!====
 
@@ -1788,11 +1787,11 @@ http://project.webplatform.org/prmg/issues/PRMG-10
 ===ACTION ITEMS===
 
 * (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG (STATUS: Prepared email. Do we have a systematic way of processing feedback? See 2013-04-15 meeting notes, above, for discussion.)
-* Julee to assign owners for properties after Doc Sprint. (STATUS: in progress)
+* Julee to assign owners for properties after Doc Sprint. (DONE)
 * scottrowe_ to ping jkomoros about how to fix the dismissible alpha message (DONE)
 * (CARRIED OVER): shepazu to send localization guide to public list (STATUS: Chris Mills now has this action item. Doug will bring in Richard Ishida, W3C's internationalization and localization expert)
 * Lea to implement content/issues/14 on docs.* as well (STATUS: Lea's away this week)
-* Julee set up CSS Properties project page with custom queries (STATUS: Not sure we want to do this. Please carry forward.)
+* Julee set up CSS Properties project page with custom queries (Scott did this.)
 * Analytics team to develop report of key analytics, leading indicators, share at general meeting regularly (STATUS: We got the sitemap! Otherwise, carry forward)
 * shepazu to take point on next week's meeting, if there is a quorum (Meeting didn't have a quorum)
 * Content Task Force Lead [scottrowe_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
@@ -1904,7 +1903,7 @@ ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public li
 
 ACTION (CARRIED OVER): shepazu to send localization guide to public list
 
-ACTION (CARRIED OVER): Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.
+ACTION (CARRIED OVER): Julee to call it out to the l18n folks to make sure it makes sense & add it to the Ed-Guide.  (Shepazu wants Richard I to be involved.)
 
 ACTION: scottrowe, update the Proposals section to be Projects [DONE]
 
@@ -1916,7 +1915,7 @@ ACTION: Julee to update issue with URL that new links should point to. [DONE]
 
 ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages. 
 
-ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement. [STATUS: Decided to defer this until we have the right project buckets on project.*, or some interest at the program management meeting that we're setting up.]
+ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement. [DONE]
 
 ==Agenda 2013-03-15==
 
@@ -2010,7 +2009,7 @@ ACTION: Shepazu to get richard ishia [sp?] comment on what a better solution wil
 The localization guide isn;'t in the editor's guide.
 
 ACTION: shepazu to send localization guide to public lis
-ACTION: Julee to call it out to the l18n folks to make sure it makes sense
+ACTION: Julee to call it out to the l18n folks to make sure it makes sense (shepazu wanted to get Richard I involved...)
 
 We will table the long-term solution for now
 
@@ -2058,7 +2057,7 @@ Now that we have project.webplatform.org, we'll build it into the workflow.
 
 Promotion: Blog posts for even small new additions are great, but for big milestones, we should have more press outreach
 
-ACTION: julee to follow up with garbee on how to do workflows and forms in BG
+ACTION: julee to follow up with garbee on how to do workflows and forms in BG  (DONE)
 
 We talked yesterday about figuring out fields and milestones. Garbee has promised to document things about BG and has committed to do some videos. We may want to set up another session for other people.
 
@@ -2084,7 +2083,7 @@ publicity workflow -- it should be easy to rain kudos on a team member when they
 mozilla blog they have open badges 1.0 https://blog.mozilla.org/blog/2013/03/14/open_badges/
 
 
-ACTION: Julee to add comm plan as a topic for the community taskforce.
+ACTION: Julee to add comm plan as a topic for the community taskforce. (DONE)
 
 ====TOPIC: Kuma====
 
@@ -2177,7 +2176,7 @@ http://docs.webplatform.org/wiki/WPD:Community/Community_Events
 * Finished
 4. ACTION (carried forward): determine a set of properties we know to be complex outliers
 * Finished
-5. ACTION: JULEE to send out email to public list to get input regarding spec status
+5. ACTION: JULEE to send out email to public list to get input regarding spec status  (DONE)
 * Finished
 6. ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
 * Investigated with help from HP Cloud people, no resolution as yet. Ongoing.
@@ -2244,7 +2243,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 ** shepazu: use the blog software to draft, instead of e-mails
 * Motion to establish a working group to investigate, develop communications plan
 * ACTION: Scott to focus survey on doc sprints
-* ACTION: Julee: to mail calling for participation in communication/outreach working group:DONE
+* ACTION: Julee: to mail calling for participation in communication/outreach working group  (DONE)
 * ACTION: Eliot to start off-line thread around blog posting priorities, suitability
 * TOPIC: New and notable activities on WPD?
 ** https://github.com/webplatform/Shortlinks - fr0zenice's shortlinks system for WPD
@@ -2253,12 +2252,12 @@ need to identify content areas of priority, focus on areas that provide sense of
 ===ACTIONS===
 
 * ACTION (carried forward): shepazu + denis to implement sitemap extension: Concerns about current solution viability; looking for alternate. 
-* ACTION (carried forward): julee and garbee to look into installing meetbot: Garbee to try to work on it more on the weekend.
+* ACTION (carried forward): julee and garbee to look into installing meetbot: Garbee to try to work on it more on the weekend.  (DONE)
 * ACTION (carried forward): Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page: IN PROGRESS, Alex to consult w frozenice on scope.
 * ACTION (carried forward): others should try to implement a CSS property page, and use chrismills' instructions when they are finished: IN PROGRESS
 * ACTION (carried forward): determine a set of properties we know to be complex outliers: in progress
 
-* ACTION: JULEE to send out email to public list to get input regarding spec status:DONE
+* ACTION: JULEE to send out email to public list to get input regarding spec status  (DONE)
 * ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
 * ACTION: cmills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
 
@@ -2296,7 +2295,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 
 * ACTION: shepazu + denis to implement sitemap extension
 * ACTION (carried forward): eliot to edit top level landing pages [DONE]
-* ACTION (carried forward): julee and garbee to look into installing meetbot
+* ACTION (carried forward): julee and garbee to look into installing meetbot  (DONE)
 * ACTION: Alex to sort out updating the CSS properties template to reflect Mike S's Gold standard CSS property page
 * ACTION: Mike S to move his static font-size example into the appropriate Wiki page
 * ACTION: Chris to finish writing a guide to implementing a CSS properties page
@@ -2341,7 +2340,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done]
 ACTION: Mike Sierra to work on making a "gold standard" example page, that others can use as a model. [DONE]
 LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: need site map
 LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. [DONE]
-LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
+LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.  (DONE)
 
 ==Agenda 2013-01-10==
 
@@ -2394,15 +2393,15 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 
 * ACTION: Julee to add to weekly agenda template: "Any new and notable content to promote?" UPDATE: DONE
 * ACTION: Doug to add folks who responded to email thread as contributing bloggers.
-* ACTION: Julee and klick_ass to write up WPD blog post about Germany Doc Sprint.
-* ACTION: Julee to send out Ed Guide outline. UPDATE: DONE
+* ACTION: Julee and klick_ass to write up WPD blog post about Germany Doc Sprint.  (DONE)
+* ACTION: Julee to send out Ed Guide outline.  (DONE)
 * ACTION: Scott to work on usability of Ed Guide.
-* LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: in progress
-* LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more. UPDATE: Julee sent an email.
+* LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages.  (DONE)
+* LAST WEEK ACTION: Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.  (DONE)
 * LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. UPDATE: No status. now [DONE]
 * LAST WEEK ACTION: Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas. UPDATE: Janet sent out the email.
-* PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting. UPDATE: in progress
-* PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status. UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct. UPDATE: Filed two bugs:
+* PREVIOUS ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.  (DONE)
+* PREVIOUS ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.  (DONE)
 ** For needing the categories
 ** For needing the UI updated to reflect the categories
 * PREVIOUS ACTION: Garbee to send out his awesome task organization plan. UPDATE: sending it out today.
@@ -2439,10 +2438,10 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 * Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
 * Eliot to do an editorial pass on the [http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html proposed top-level pages]. [DONE]
 * Jswisher to request the next level of detail on the global nav and how the reader accesses the content types as well as the technology areas.
-* LAST WEEK ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.
+* LAST WEEK ACTION: Julee to find out how to add a meeting bot to the Content TF Meeting.  (DONE)
 ** UPDATE: in progress
-* LAST WEEK ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.
-** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.
+* LAST WEEK ACTION: Julee to file a bug about the design of reference pages with a non-standard standardization status.  (DONE)
+** UPDATE: needs to be revised: Julee to file a UI bug about the design of reference pages with non-stable status, so that they look distinct.  (DONE)
 ** Filed two bugs:
 *** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20386 For needing the categories]
 *** [https://www.w3.org/Bugs/Public/show_bug.cgi?id=20387 For needing the UI updated to reflect the categories]
@@ -2489,8 +2488,8 @@ LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item.
 * Until we have a project management system in place, plans, proposals, and scratch pad work should be kept as subpages: http://docs.webplatform.org/wiki/WPD:Plans. Not in Bugzilla, and not in another site, such as GitHub.
 
 ===Action items===
-* Julee to find out how to add a meeting bot to the Content TF Meeting.
-* Julee to file a bug about the design of reference pages with a non-standard standardization status.
+* Julee to find out how to add a meeting bot to the Content TF Meeting.  (DONE)
+* Julee to file a bug about the design of reference pages with a non-standard standardization status.  (DONE)
 * Eliot to update bug 20227 with pointer to the style guide he wrote (DONE)
 * Garbee to send out his awesome task organization plan
 * Scott and Peter to explore social media channels about next week's docsprint
