@@ -8,6 +8,7 @@
 ** Examples
 *** should at least have one exemplary of a common use case
 *** should link to the example on code.webplatform.org
+*** no examples still living on MSDN site
 ** Notes section (if any, are they useful and not just left over from original content import)
 ** Related specifications (including link to any original spec, current recommendation, and editor's draft)
 ** Compatibility notes (up-to-date and not just left over from original content import)
