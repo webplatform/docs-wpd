@@ -14,12 +14,10 @@ Things that has been taken in note that are not urgent, but that should be consi
 == Suggestions ==
 Not in order of priority.
 
-*  Bring a reporting mechanism
-*  Static live dashboard on the homepage, stats, people edited so far
-*  Homepage to be dynamic: [[http://kamisama.github.io/cal-heatmap/]],  Pull in all the data on support table, keep history, create view to consume it, and accessible as partial, generate a REST API, have progress in august
-*  Search engine index and use throughout the site
-*  Mail server, send, possible for users
-* Status page (status update) [[http://status.twitter.com/]], [[https://community.hpcloud.com/status]]  
+*  Dynamic homepage [[http://project.webplatform.org/infrastructure/issues/INFR-31 INFR-31]]
+*  Search engine index and use throughout the site  [[http://project.webplatform.org/infrastructure/issues/INFR-32 INFR-32]]
+*  Mail relay server  [[http://project.webplatform.org/infrastructure/issues/INFR-33 INFR-33]] 
+* Status page (status update) [[http://project.webplatform.org/infrastructure/issues/INFR-34 INFR-34]] 
 * Find a SSL certificate provider for the WPD site
 * NGINX and WordPress
 * WordPress: Allow uploads, update to latest version
