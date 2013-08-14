@@ -9,6 +9,9 @@
 *** should at least have one exemplary of a common use case
 *** should link to the example on code.webplatform.org
 *** no examples still living on MSDN site
+*** how do they look in various browsers
+*** do the comments in the sample on code.webplatform.org point back to this property page?
+*** do the comments have an author, supported browsers, a short explanation?
 ** Notes section (if any, are they useful and not just left over from original content import)
 ** Related specifications (including link to any original spec, current recommendation, and editor's draft)
 ** Compatibility notes (up-to-date and not just left over from original content import)
