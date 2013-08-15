@@ -23,6 +23,18 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ==Agenda 2013-08-02==
 
 * Roll call
+* Review of open action items
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
+** Schedule
+** Who's coordinating?
+** Action items cleanup: Please search for your name on this page.
+* Communications plan
+* Anything blocking you from creating great content?
+* Anything new & notable? (Blogs or other communications planned for next week?)
+
+==Agenda 2013-08-02==
+
+* Roll call
 * Welcome to Renoir!
 * Review of open action items
 * [[Meta:web_platform_wednesday|WPW]] - how is it going?
