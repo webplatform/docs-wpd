@@ -20,7 +20,7 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
-==Agenda 2013-08-02==
+==Agenda 2013-08-16==
 
 * Roll call
 * Review of open action items
@@ -28,9 +28,12 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Schedule
 ** Who's coordinating?
 ** Action items cleanup: Please search for your name on this page.
+* Infrastructure meetings
 * Communications plan
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
+
+==Agenda 2013-08-09 Meeting canceled due to lack of agenda==
 
 ==Agenda 2013-08-02==
 
