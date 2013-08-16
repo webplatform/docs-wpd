@@ -34,14 +34,14 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
 ===Discussion===
- ====TOPIC: WPW - how is it going?====
+====TOPIC: WPW - how is it going?====
 julee: We have three coordinators, but no contributors. A lot of people are busy or on vacation. Originally we had an optimistic schedule to be done by august  after reviewing with a few folks, everyone thought that was way too optimistic  especially given summer vacation period. We will put in a buffer week after labor day, & add incomplete properties back onto the pile.
 After the end of august, Microsoft will have some resources that we'll be adding to this  one of my writers will be helping, another writer who hasn't worked on this yet will be helping as well.
 Google is working on a contractor as well, and scottrowe will be helping out with coordinating as well
 
 Bumping up the boolean values for things like animated values in the CSS properties template, and also Inherited field. Maybe Frozenice can ?
 ACTION: julee to reach out to frozenice assigning the "non-boolean properties for animatable, etc" template issue to him
- ====TOPIC:  Servers ====
+====TOPIC:  Servers ====
 
 shepazu: We'll be talking to dreamhost later  but ryan and renoirb think it's a good thing to have redundancy across hosts  renoir contacted a few different hosts including Digital Ocean and iWeb  the latter is based in Quebec  so renoirb can talk to them in 
 shepazu: Dreamhost asctually wants to be involved in the project as a steward
@@ -50,17 +50,16 @@ shepazu: Dreamhost asctually wants to be involved in the project as a steward
 renoirb: I talked to them. The idea is a main one and another one that's latent, that we have a copy of everything; if we need to change we just flip a switch. Looked around for one with a good reptuation with multi site. iWeb's president is going to talk to us by Tuesday of next week
 We need to have a different company/place to back up stuff on a regular basis, but if you have multiple instances across diffferent companies, you have a huge latency issue. Ryan_Lane has a preference towards openstack clouds, as its open source nature aligns well with our project  if dreamhost can provide us with the different locations/datacenters, then is the secondary company just a single backup instance? We will roll out redundancy as needed  the idea is to have redundancy between prod and test. Julee asked for an architecture document that describes our setup with a nice diagram, and references to justifing it.  
 
- ====TOPIC: Server status ====
+====TOPIC: Server status ====
 Also, server status page (going to be on our own sub-domain for sure): http://webplatform.tumblr.com/
 
- ====TOPIC: Infrastructure meeting ====
+====TOPIC: Infrastructure meeting ====
 
 At infrastructure meeting, most of the discussion was about how to prioritize renoirb's work schedule; we're going to use projects.webplatform.org. 
 Once community has a decision, having execution focused meetings is helpful to add it into the issue tracker  (if there are issues that aren't recorded yet, we'll raise them there), executing on things that have already been decided in the community meetings or over e-mail on the list, taking the decisions from the group and parsing down into actionable things and track them in project.wwebplatofm.orgexposing it in the dashboards/reports, so the current health is viewable by anyone. Everyone is welcome at the infrastructure meeting, but because julee/shepazue/renoirb are full-time on this project, we'll take responsibility to keep track. 11am Pacific on Mondays, and we can move it if others want to attend regularly.
 
 
-
- ====TOPIC: Communications plan====
+====TOPIC: Communications plan====
 There's been so much activity, I want to have people talk about what they're doing
 Renoirb got access to the social medial outlets, G+, twitter, FaceBook. Ideally we'd be able to automate publishing a post to all outlets, with a buffer system to space out updates too and space out updates on different channels. Updates should be scheduled to not only USA time but for those in Europe and the rest of the world  and the status tumblr, when something happens that we want to talk about, the conversation wil lgo to the tumblr status  regarding the policies, I think we should keep it the same: vendor neutral, information on status
 eliots blog proposal : how & why we blog; we'll have an editorial calendar; start looking for repeating blog posts;
@@ -70,8 +69,6 @@ WPD calendar in g+ may not be sufficient for an editorial calendar
 looking forward to seeing Coalie Mercier, from the W3C MarComm staff, her work & what she wants to do for the future
 we need a regular voice
 AI: R/S/J in project.wp.org, we could rename project community management; create tasks, give ownership, tag twitter, blogpost, whatever, infographics, etc.
-
-
 
 ===Action Items===
 
