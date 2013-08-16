@@ -14,3 +14,4 @@ Also, search within project &CCMS
 * easy checkbox to claim task
 * file status and time spent
 * report on all tasks
+* see [http://project.webplatform.org/contributordashboard contributor dashboard]
