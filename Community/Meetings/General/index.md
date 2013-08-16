@@ -33,6 +33,57 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Anything blocking you from creating great content?
 * Anything new & notable? (Blogs or other communications planned for next week?)
 
+===Discussion===
+ ====TOPIC: WPW - how is it going?====
+julee: We have three coordinators, but no contributors. A lot of people are busy or on vacation. Originally we had an optimistic schedule to be done by august  after reviewing with a few folks, everyone thought that was way too optimistic  especially given summer vacation period. We will put in a buffer week after labor day, & add incomplete properties back onto the pile.
+After the end of august, Microsoft will have some resources that we'll be adding to this  one of my writers will be helping, another writer who hasn't worked on this yet will be helping as well.
+Google is working on a contractor as well, and scottrowe will be helping out with coordinating as well
+
+Bumping up the boolean values for things like animated values in the CSS properties template, and also Inherited field. Maybe Frozenice can ?
+ACTION: julee to reach out to frozenice assigning the "non-boolean properties for animatable, etc" template issue to him
+ ====TOPIC:  Servers ====
+
+shepazu: We'll be talking to dreamhost later  but ryan and renoirb think it's a good thing to have redundancy across hosts  renoir contacted a few different hosts including Digital Ocean and iWeb  the latter is based in Quebec  so renoirb can talk to them in 
+shepazu: Dreamhost asctually wants to be involved in the project as a steward
+<patrickdsouza1> renoirb: good to look at hosts in a different time zone like europe.
+<renoirb> iWeb data center: http://iweb.com/green-data-centers
+renoirb: I talked to them. The idea is a main one and another one that's latent, that we have a copy of everything; if we need to change we just flip a switch. Looked around for one with a good reptuation with multi site. iWeb's president is going to talk to us by Tuesday of next week
+We need to have a different company/place to back up stuff on a regular basis, but if you have multiple instances across diffferent companies, you have a huge latency issue. Ryan_Lane has a preference towards openstack clouds, as its open source nature aligns well with our project  if dreamhost can provide us with the different locations/datacenters, then is the secondary company just a single backup instance? We will roll out redundancy as needed  the idea is to have redundancy between prod and test. Julee asked for an architecture document that describes our setup with a nice diagram, and references to justifing it.  
+
+ ====TOPIC: Server status ====
+Also, server status page (going to be on our own sub-domain for sure): http://webplatform.tumblr.com/
+
+ ====TOPIC: Infrastructure meeting ====
+
+At infrastructure meeting, most of the discussion was about how to prioritize renoirb's work schedule; we're going to use projects.webplatform.org. 
+Once community has a decision, having execution focused meetings is helpful to add it into the issue tracker  (if there are issues that aren't recorded yet, we'll raise them there), executing on things that have already been decided in the community meetings or over e-mail on the list, taking the decisions from the group and parsing down into actionable things and track them in project.wwebplatofm.orgexposing it in the dashboards/reports, so the current health is viewable by anyone. Everyone is welcome at the infrastructure meeting, but because julee/shepazue/renoirb are full-time on this project, we'll take responsibility to keep track. 11am Pacific on Mondays, and we can move it if others want to attend regularly.
+
+
+
+ ====TOPIC: Communications plan====
+There's been so much activity, I want to have people talk about what they're doing
+Renoirb got access to the social medial outlets, G+, twitter, FaceBook. Ideally we'd be able to automate publishing a post to all outlets, with a buffer system to space out updates too and space out updates on different channels. Updates should be scheduled to not only USA time but for those in Europe and the rest of the world  and the status tumblr, when something happens that we want to talk about, the conversation wil lgo to the tumblr status  regarding the policies, I think we should keep it the same: vendor neutral, information on status
+eliots blog proposal : how & why we blog; we'll have an editorial calendar; start looking for repeating blog posts;
+<nicdaCosta> with regards to tumblr and the new G+ community, is it necessary to have so many outlets? And would there be a given "purpose" for each outlet?
+WPD calendar in g+ may not be sufficient for an editorial calendar
+
+looking forward to seeing Coalie Mercier, from the W3C MarComm staff, her work & what she wants to do for the future
+we need a regular voice
+AI: R/S/J in project.wp.org, we could rename project community management; create tasks, give ownership, tag twitter, blogpost, whatever, infographics, etc.
+
+
+
+===Action Items===
+
+* CARRIED FORWARD: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above. (Mostly done: Doug & Renoir to do.) (CARRY FORWARD)
+* CARRIED FORWARD: shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers. (CARRY FORWARD)
+* CARRIED FORWARD: Julee make sure editing guide is updated with new flag values, when flags are done. (Has a dependency on flags being done) (CARRY FORWARD)
+* CARRIED FORWARD: Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages. (In progress: jkomoros talked to paulirish yesterday, who is in when needed; dependency on more content being done. Tracking this in the CSS Properties endgame schedule.)
+* CARRIED FORWARD: shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice. (CARRY FORWARD Tracking this in the CSS Properties endgame schedule.)
+* shepazu to make sure Lea incorporated Chris Coyier's feeedback as appropriate.
+* CARRY FORWARD: Shepazu & renoirb to review Lea's actions item and reassign and to reassign ownership of project.webplatform.org. (CARRIED FORWARD)
+* R/S/J in project.wp.org, we could rename project community management; create tasks, give ownership, tag twitter, blogpost, whatever, infographics, etc.
+
 ==Agenda 2013-08-09 Meeting canceled due to lack of agenda==
 
 ==Agenda 2013-08-02==
@@ -180,26 +231,23 @@ renoirb & shepazu will take it off line.
 
 ===ACTION ITEMS===
 
-* Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above.
-* renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need.
-* shepazu and julie to make a more concrete plan with nubmers about steward asks, and eliot/alex will respond with their donations. [Eliot DONE]
-*shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
-* CARRY FORWARD: shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
-* CARRY FORWARD: Jirka to create overview/tutorial on ITS.
-* CARRY FORWARD: shepazu to confirm compatibility tables will be done in time.
-* CARRY FORWARD: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE)
-* CARRY FORWARD: Lea & shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers.
-* CARRY FORWARD: Julee make sure editing guide is updated with new flag values, when flags are done. (Has a dependency on flags being done)
-* CARRY FORWARD: Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
-* CARRY FORWARD: shepazu to contact CSS wg about reviewing "done" pages. (Leaverou started a thread, but not to CSSWG. Dependency on more content being done.)
-* CARRY FORWARD: Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages. (Dependency on more content being done.)
-* CARRY FORWARD: Lea to incorporate Chris Coyier's feeedback as appropriate.
-* CARRY FORWARD: Shepazu & renoirb to review Lea's actions item and reassign and to reassign ownership of project.webplatform.org.
-* ACTION ITEM: Shepazu to talk to Ryan about the 503s. (Done: Garbee and Renoir talked to him more extensively, a bunch of jobs weren't getting performed, and the backlog was causing problems. Think he's resolved that.)
-* ACTION ITEM: renoir to look at server errors in more depth.
-* CARRY FORWARD: shepazu to reach out to Julien and Rick Byers regarding JS plan
-* CARRY FORWARD: We said we needed ECMAScript experts to review the JS plan http://docs.webplatform.org/wiki/WPD:Community/Meetings/General#Topic:_JS_import_project
-
+* CARRY FORWARD: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above. (STATUS: Mostly done: Doug & Renoir to do.) (CARRIED FORWARD)
+AI: renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need. (DONE & ongoing)
+AI: shepazu and julee to make a more concrete plan with numbers about steward asks, and eliot/alex will respond with their donations. (DONE)
+AI: shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help. (STATUS: In progress - eliot found that mail to be eloquent and effective. Tracking this in the CSS Properties endgame schedule.)
+* shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project (Unless they come to us with problems, we'll assume they're okay)
+* Jirka to create overview/tutorial on ITS. (STATUS: In progress.)
+* shepazu to confirm compatibility tables will be done in time. (STATUS: Not much progress because of renoir's other duties, we made good progress before that, it's high on Renoir's priority list, once stability stuff and reporting stuff is done, it's not going to be that much work after that. Tracking this in the CSS Properties endgame schedule.)
+* Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE: http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/reviewer_checklist)
+* CARRY FORWARD: shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers. (CARRIED FORWARD)
+* CARRY FORWARD: Julee make sure editing guide is updated with new flag values, when flags are done. (Has a dependency on flags being done) (CARRIED FORWARD)
+* CARRY FORWARD: shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice. (CARRIED FORWARD Tracking this in the CSS Properties endgame schedule.)
+* CARRY FORWARD: shepazu to contact CSS wg about reviewing "done" pages. (Leaverou started a thread, but not to CSSWG. Dependency on more content being done.) (CARRIED FORWARD Tracking this in the CSS Properties endgame schedule.)
+* CARRY FORWARD: Alex to talk to Paul irish & other folks on the list that Eliot pointed him to (a list that we created at launch?) about reviewing "done" pages. (STATUS: In progress: jkomoros talked to paulirish yesterday, who is in when needed; dependency on more content being done.) (CARRIED FORWARD Tracking this in the CSS Properties endgame schedule.)
+* CARRY FORWARD: Shepazu & renoirb to review Lea's actions item and reassign and to reassign ownership of project.webplatform.org. (CARRIED FORWARD)
+* ACTION ITEM: Shepazu to talk to Ryan about the 503s. (DONE: Garbee and Renoir talked to him more extensively, a bunch of jobs weren't getting performed, and the backlog was causing problems. Think he's resolved that.)
+* renoir to look at server errors in more depth. (DONE: Got more confirmation last week; a hard confirmation. Working this afternoon to make the piwik switch today. Trying to recreate infrastructure locally to be able to test it. Succeeded in getting it running locally, will publish my workspace on github soon, so anyone else can build it completely after, of course, removing sensitive information and history
+* CARRY FORWARD: shepazu to reach out to Julien and Rick Byers regarding JS plan. (STATUS: In progress: Shepazu reached out to rick byers, julien, and rick Waldron. Needs to pass info back to Max.)
 
 ==Agenda 2013-07-26 Meeting canceled due to lack of quorum==
 
