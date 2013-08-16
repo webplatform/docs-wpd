@@ -4,4 +4,5 @@ Unearthing requirements for an ideal WPD content and community management system
 Also, search within project &CCMS
 
 = High level requirements =
-* Flagging
+* Flagging/tagging (users, pages, category)
+* Relationship graph
