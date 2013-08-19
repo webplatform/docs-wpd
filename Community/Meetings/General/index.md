@@ -20,6 +20,15 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-08-23==
+
+* Roll call
+* Review of open action items
+* [[Meta:web_platform_wednesday|WPW]] - how is it going?
+** [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0146.html Additional properties to add to this project?]
+* Anything blocking you from creating great content?
+* Anything new & notable? (Blogs or other communications planned for next week?)
+
 ==Agenda 2013-08-16==
 
 * Roll call
