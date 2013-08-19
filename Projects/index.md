@@ -8,3 +8,5 @@ Projects here start out as proposals. Anyone is welcome to submit a proposal. If
 ==List of proposed projects==
 
 <subpages />
+
+[[svg|SVG]]
