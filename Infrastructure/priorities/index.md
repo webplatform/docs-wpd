@@ -23,7 +23,4 @@ Yet to be added to wishlist:
 * WordPress: Allow uploads, update to latest version
 
 ==== Master plan for the community-management-system ====
-Technology choice should be all Javascript.
-
-# API for content, partial, anything
-# Everything end-up in a Git repo
+See [[WPD:Requirements/Community_Management_System|Community management system ''Requirements'']]
