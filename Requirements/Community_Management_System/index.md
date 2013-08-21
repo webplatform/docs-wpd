@@ -1,7 +1,7 @@
 == Description ==
 Unearthing requirements for an ideal WPD content and community management system
 
-Also, search within project &CCMS
+Also, search within project '''&CCMS'''
 
 == Design choices ==
 # Technology choice should be all Javascript. 
@@ -10,7 +10,8 @@ Also, search within project &CCMS
 
 == Backlog ==
 Proposed initial backlog:
-* As a person, I want to subscribe so I can be known as a user As a user, I want to start contributing by declaring my intention;
+* As a person, I want to subscribe so I can be known as a user;
+* As a user, I want to start contributing by declaring my intention;
 * As a user, I'd like to know which pages I should start with;
 * As a coordinator, I want to know who said would work ''tonight'';
 * As a user, I want to say on which document I am working on;
