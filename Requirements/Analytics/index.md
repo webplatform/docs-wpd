@@ -8,7 +8,8 @@ This document is not a requirement document, but a collection of notes that will
 == Discussions ==
 Please add e-mail reply that help describe the project requirements.
 
-# [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0105.html]
+# [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0010.html Patrick D'Souza first wireframe]
+# [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0105.html First contribution from Gabriela Viana]
 #* [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0110.html]
 #* [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0111.html]
 #* [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0149.html]
