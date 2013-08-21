@@ -19,5 +19,5 @@ Please add e-mail reply that help describe the project requirements.
 
 
 == Attached files ==
-# [[File:Analytics_20082013.pdf|First Wireframe Draft by Gabriela Viana]]
+# [[File:20130821_analytics_first_draft_gabiviana.pdf|First Wireframe Draft by Gabriela Viana]]
 # [[File:20130800_analytics_pdsouza_wireframe.png|Initial wireframe by Patrick D'Souza]]
