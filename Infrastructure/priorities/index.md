@@ -1,6 +1,6 @@
 = Priorities =
 == Summary ==
-Things that has been taken in note that are not urgent, but that should be considered in a future.
+Outline page describing '''In progress'', the high-level '''Current priorities''', and some nice-to-have '''Wishlist''' (i.e. ''Suggestions'') for [http://w3.org/People/#renoirb Renoir]
 
 == In progress ==
 # Prepare moving infra [http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]
@@ -16,15 +16,18 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Compatibility table ''(important for first beta)''
 
 == Suggestions ==
-Not in order of priority.
+"''WishList''", listed in no particular order.
 
-See suggestions in [http://project.webplatform.org/infrastructure/issues/wishlist project management inside '''INFR''' in the ''wishlist''].
+Please note that most of them should be listed within the [http://project.webplatform.org/infrastructure/issues/wishlist project management issue tracker, in the '''INFR''' project in the "''wishlist''" list].
 
-Yet to be added to wishlist:
-
+Also, others that has yet to be added:
 * Find a SSL certificate provider for the WPD site
 * NGINX and WordPress
 * WordPress: Allow uploads, update to latest version
 
-==== Master plan for the community-management-system ====
-See [[WPD:Requirements/Community_Management_System]] ''Requirements''
+== Projects ==
+=== Community management system ===
+See [[WPD:Requirements/Community_Management_System]] ''Requirements'' and the hot-word "'''&CCMS'''"
+
+=== Compatibility table ====
+Yet to be described here.
