@@ -29,5 +29,5 @@ Also, others that has yet to be added:
 === Community management system ===
 See [[WPD:Requirements/Community_Management_System]] ''Requirements'' and the hot-word "'''&CCMS'''"
 
-=== Compatibility table ====
+=== Compatibility table ===
 Yet to be described here.
