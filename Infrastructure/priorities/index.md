@@ -2,10 +2,10 @@
 Things that has been taken in note that are not urgent, but that should be considered in a future.
 
 == In progress ==
-# Prepare moving infra [[http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]]
+# Prepare moving infra [http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]
 # Stabilize piwik installation into a self-contained VM while documenting a maintenance workflow
-#* [[WPD:Infrastructure/MaintenanceWorkflow|Maintenance Workflow in Infrastructure]], reporting [[http://project.webplatform.org/infrastructure/issues/INFR-35 INFR-35]]
-#* Resolving issue, reporting [[http://project.webplatform.org/infrastructure/issues/INFR-7 #INFR-7]]
+#* [[WPD:Infrastructure/MaintenanceWorkflow|Maintenance Workflow in Infrastructure]], reporting [http://project.webplatform.org/infrastructure/issues/INFR-35 INFR-35]
+#* Resolving issue, reporting [http://project.webplatform.org/infrastructure/issues/INFR-7 #INFR-7]
 # Create an analytics dashboard (pending)
 
 == Current Priorities ==
