@@ -11,6 +11,7 @@ TBA
 == Discussions ==
 Please add e-mail reply that help describe the project requirements.
 
+# [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0023.html Call for comments]
 # [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0010.html Patrick D'Souza first wireframe]
 # [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0105.html First contribution from Gabriela Viana]
 #* [http://lists.w3.org/Archives/Public/public-webplatform/2013Aug/0110.html]
@@ -19,5 +20,5 @@ Please add e-mail reply that help describe the project requirements.
 
 
 == Attached files ==
-# [[File:20130821_analytics_first_draft_gabiviana.pdf|First Wireframe Draft by Gabriela Viana]]
+# [[File:20130821_analytics_first_draft_gabiviana.pdf|First Wireframe Draft by Gabriela Viana]], see [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0023.html Call for comments]
 # [[File:20130800_analytics_pdsouza_wireframe.png|Initial wireframe by Patrick D'Souza]]
