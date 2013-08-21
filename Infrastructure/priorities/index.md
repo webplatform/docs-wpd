@@ -4,7 +4,7 @@ Things that has been taken in note that are not urgent, but that should be consi
 == In progress ==
 # Prepare moving infra [http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]
 # Stabilize piwik installation into a self-contained VM while documenting a maintenance workflow
-#* [[WPD:Infrastructure/MaintenanceWorkflow|Maintenance Workflow in Infrastructure]], reporting [http://project.webplatform.org/infrastructure/issues/INFR-35 INFR-35]
+#* [[WPD:Infrastructure/MaintenanceWorkflow]], reporting [http://project.webplatform.org/infrastructure/issues/INFR-35 INFR-35]
 #* Resolving issue, reporting [http://project.webplatform.org/infrastructure/issues/INFR-7 #INFR-7]
 # Create an analytics dashboard (pending)
 
@@ -26,4 +26,4 @@ Yet to be added to wishlist:
 * WordPress: Allow uploads, update to latest version
 
 ==== Master plan for the community-management-system ====
-See [[WPD:Requirements/Community_Management_System|Community management system ''Requirements'']]
+See [[WPD:Requirements/Community_Management_System]] ''Requirements''
