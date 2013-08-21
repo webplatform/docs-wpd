@@ -12,9 +12,11 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Compatibility table ''(important for first beta)''
 
 == Suggestions ==
-Not in order of priority, see [http://project.webplatform.org/infrastructure/issues issues in '''INFR'''].
+Not in order of priority.
 
-Also:
+See suggestions in [http://project.webplatform.org/infrastructure/issues/wishlist project management inside '''INFR''' in the ''wishlist''].
+
+Yet to be added to wishlist:
 
 * Find a SSL certificate provider for the WPD site
 * NGINX and WordPress
