@@ -2,6 +2,12 @@
 == Summary ==
 Outline page describing '''In progress''', the high-level '''Current priorities''', and some nice-to-have '''Suggestions''' (i.e. ''WishList'') attributed to  [http://w3.org/People/#renoirb Renoir].
 
+== Scratch pad ==
+Make clear what is going to be kept
+Where is the redundancy
+Minimal setup (staging, test)
+
+
 == In progress ==
 # Prepare moving infra [http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]
 # Stabilize piwik installation into a self-contained VM while documenting a maintenance workflow
