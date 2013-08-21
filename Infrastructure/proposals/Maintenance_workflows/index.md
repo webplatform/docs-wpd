@@ -7,32 +7,7 @@ In other words, the process is about describing how to create a local workspace 
 
 
 == Required tools ==
-
-=== 1. Vagrant ===
-
-This utility is the virtual machine handler. It automates manipulation with Oracle VirtualBox and providers. It runs on Windows, Linux and Mac OS X.
-
-Version [1.1 and up][1], see [documentation][0] at: 
-
-  [0]: http://docs.vagrantup.com/v2/installation/index.html
-  [1]: http://www.vagrantup.com/
-  [2]: http://chocolatey.org/packages/vagrant
-
-Note: Under windows, it is recommended to [use Chocolatey][2] to handle the installation of vagrant for you.
-
-
-
-=== 2. Salty vagrant ===
-
-This is a plugin  to Vagrant that allows us to use Salt Stack within Vagrant as a provisioner.
-
-Installing works in a terminal window with the following command:
-
-    vagrant plugin install vagrant-salt
-
-See the [documentation for more details][3]
-
-  [3]: https://github.com/saltstack/salty-vagrant
+# Installing Vagrant with Salt stack, see [[WPD:Infrastructure/Installing_Vagrant_with_Salt_stack]]
 
 
 
