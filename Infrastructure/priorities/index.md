@@ -12,12 +12,10 @@ Things that has been taken in note that are not urgent, but that should be consi
 # Compatibility table ''(important for first beta)''
 
 == Suggestions ==
-Not in order of priority.
+Not in order of priority, see [http://project.webplatform.org/infrastructure/issues issues in '''INFR'''].
 
-*  Dynamic homepage [[http://project.webplatform.org/infrastructure/issues/INFR-31 INFR-31]]
-*  Search engine index and use throughout the site  [[http://project.webplatform.org/infrastructure/issues/INFR-32 INFR-32]]
-*  Mail relay server  [[http://project.webplatform.org/infrastructure/issues/INFR-33 INFR-33]] 
-* Status page (status update) [[http://project.webplatform.org/infrastructure/issues/INFR-34 INFR-34]] 
+Also:
+
 * Find a SSL certificate provider for the WPD site
 * NGINX and WordPress
 * WordPress: Allow uploads, update to latest version
