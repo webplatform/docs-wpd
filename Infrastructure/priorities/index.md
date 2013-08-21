@@ -24,6 +24,11 @@ Also, others that has yet to be added:
 * Find a SSL certificate provider for the WPD site
 * NGINX and WordPress
 * WordPress: Allow uploads, update to latest version
+* ''App server false positives notifications'': Find a way to detect locally whether local app server has database access failure and send an e-mail
+* ''Installation automation'':  Usage of DHCP/DNS to allocate new nodes: <br/>use-case: Start me a ‘app’ server, it’ll bootstrap a vanilla Ubuntu machine using TFTP, register to Salt stack, and install itself.
+* ''Balance non http work load'': Leverage the present message queuing and by creating subscribers to take tasks: e.g. build e-mail to send, update data from remote web service.
+
+
 
 == Projects ==
 === Community management system ===
