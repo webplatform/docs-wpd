@@ -1,6 +1,6 @@
-= Priorities =
+= ''Renoir’s'' priorities =
 == Summary ==
-Outline page describing '''In progress''', the high-level '''Current priorities''', and some nice-to-have '''Suggestions''' (i.e. ''WishList'') attributed for  [http://w3.org/People/#renoirb Renoir].
+Outline page describing '''In progress''', the high-level '''Current priorities''', and some nice-to-have '''Suggestions''' (i.e. ''WishList'') attributed to  [http://w3.org/People/#renoirb Renoir].
 
 == In progress ==
 # Prepare moving infra [http://project.webplatform.org/infrastructure/issues/INFR-38 #INFR-38]
