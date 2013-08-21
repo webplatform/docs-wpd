@@ -5,6 +5,10 @@ Build a dashboard to aggregate data and get desired reports crossing multiple da
 
 This document is not a requirement document, but a collection of notes that will be used to create  "''functional requirements''", "''business requirements''" and "''product backlog''".
 
+== Attached files ==
+# [File:Analytics_20082013.pdf First Wireframe Draft by Gabriela Viana]
+# [File:20130800_analytics_pdsouza_wireframe.png Initial wireframe by Patrick D'Souza]
+
 == Discussions ==
 Please add e-mail reply that help describe the project requirements.
 
