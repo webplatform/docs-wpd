@@ -11,7 +11,7 @@ In other words, the process is about describing how to create a local workspace 
 
 
 
-=== 3. States repositories ===
+=== States repositories ===
 
 We can use our own internal repositories. 
 
