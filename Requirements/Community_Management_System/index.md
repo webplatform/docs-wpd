@@ -3,6 +3,11 @@ Unearthing requirements for an ideal WPD content and community management system
 
 Also, search within project &CCMS
 
+== Design choices ==
+# Technology choice should be all Javascript. 
+# API for content, partial, anything
+# Everything end-up in a Git repo
+
 == High level requirements ==
 * Flagging/tagging (users, pages, category)
 * Object oriented CMS
