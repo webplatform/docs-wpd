@@ -239,8 +239,8 @@ Current usage
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.00, 0.01, 0.05
 * Current services:
-* 1.5. Common services
-* Apache2 w/ mpm-prefork
+** 1.5. Common services
+** Apache2 w/ mpm-prefork
 * Disk usage:
   project:
     Filesystem      Size  Used Avail Use% Mounted on
