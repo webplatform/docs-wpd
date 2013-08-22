@@ -178,7 +178,7 @@ Node name: monitor
 Current usage
 * Number of nodes: 1
 * Web application profiles
-* Ganglia frontend
+** Ganglia frontend
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.40, 0.42, 0.45
 * Services:
@@ -514,7 +514,8 @@ An app server should have deployed one or more web application virtual host. Thi
 # 8  VMs
 
 
-Application profile distribution proposal:
+'''Application profile distribution proposal:'''
+
 ''Profile “A”''
 * qty: 5
 * using: 
