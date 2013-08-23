@@ -109,8 +109,10 @@ See section [[#2. Current environment]] to get more details.
 
 {{Quote box
  |title = Note 5 ''''Important!''''
+ |align = none
  |quote  = The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2. Refactor overview]] for problems it might cause.
 }}
+
 <!--{{clear}}-->
 
 
@@ -126,11 +128,13 @@ Although the fact that the desired production environment infrastructure could b
 The new infrastructure with support multi-site replication to a secondary site where database and files can be synced from one datacenter to another. Resource allocation for a secondary site has an estimated resource allocation similar to a “Temporary environment” in terms of numbers and will be improving service redundancy.
 
 {{Quote box
+ |align = none
  |title = Note 1
  |quote  = The numbers described in the ‘Secondary environment’ section are to be considered in surplus, but it should be possible to use in some during defined period of time.
 }}
 
 {{Quote box
+ |align = none
  |title = Note 2
  |quote  = We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
 }}
