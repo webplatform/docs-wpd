@@ -194,6 +194,63 @@ Even though the current infrastructure do not have an explicit categorization sc
 
 A generic profile server that should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
 
+{|
+|+Node <tt>app[n]</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 11.04 LTS Lucid
+|-
+|'''Current usage:'''
+|
+|-
+|'''Web application profiles:'''
+|* MediaWiki
+* Dabblet
+* WordPress
+* Talk
+|-
+|'''Specs:'''
+|4 vCPU / 8 GB RAM / 240 GB HD
+|-
+|'''Load average:'''
+|* 0.20, 0.14, 0.10
+* 0.13, 0.12, 0.14
+* 0.20, 0.17, 0.14
+* 0.24, 0.66, 0.42
+* 0.49, 0.42, 0.39
+|-
+|'''Services:'''
+|* [[#1.5. Common services]]
+* Apache2 w/ mpm-prefork
+|-
+|'''Disk usage:'''
+|  app3:
+    Filesystem            Size  Used Avail Use% Mounted on
+    /dev/vda              9.9G  5.0G  4.5G  53% / 
+    /dev/vdb              227G  188M  215G   1% /mnt
+    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
+  app2:
+    Filesystem            Size  Used Avail Use% Mounted on
+    /dev/vda              9.9G  6.8G  2.6G  73% /
+    /dev/vdb              227G  457M  215G   1% /mnt
+    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
+  app4:
+    Filesystem            Size  Used Avail Use% Mounted on
+    /dev/vda              9.9G  5.1G  4.4G  54% /
+    /dev/vdb              227G  188M  215G   1% /mnt
+    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
+  app1:
+    Filesystem            Size  Used Avail Use% Mounted on
+    /dev/vda              9.9G  6.8G  2.6G  73% /
+    /dev/vdb              227G  188M  215G   1% /mnt
+    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
+  app5:
+    Filesystem            Size  Used Avail Use% Mounted on
+    /dev/vda              9.9G  4.9G  4.5G  53% /
+    /dev/vdb              227G  188M  215G   1% /mnt
+    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
+|}
+
 '''Linux release:''' Ubuntu 11.04 LTS Lucid 
 '''Node name:''' <tt>app[n]</tt> 
 '''Current usage''' 
