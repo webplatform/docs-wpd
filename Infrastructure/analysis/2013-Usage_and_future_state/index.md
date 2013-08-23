@@ -8,7 +8,7 @@ As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ R
 
 But as anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and made the system in a need for a good maintenance.
 
-This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ ''Renoir'' has been hired]: To make the system stable, and maintain it. 
+This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ ''Renoir'' has been hired]: To maintain the system and contribute to the site success, full time.
 
 This document will describe in depth the usage, statistics of the current infrastructure and what is to come about it.
 
