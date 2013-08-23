@@ -200,11 +200,9 @@ A generic profile server that should serve only as a redundant HTTP app service.
 |'''Linux release:'''
 |Ubuntu 11.04 LTS Lucid
 |-
-|'''Current usage:'''
-|
-|-
 |'''Web application profiles:'''
-|* MediaWiki
+| 
+* MediaWiki
 * Dabblet
 * WordPress
 * Talk
@@ -213,18 +211,21 @@ A generic profile server that should serve only as a redundant HTTP app service.
 |4 vCPU / 8 GB RAM / 240 GB HD
 |-
 |'''Load average:'''
-|* 0.20, 0.14, 0.10
+|
+* 0.20, 0.14, 0.10
 * 0.13, 0.12, 0.14
 * 0.20, 0.17, 0.14
 * 0.24, 0.66, 0.42
 * 0.49, 0.42, 0.39
 |-
 |'''Services:'''
-|* [[#1.5. Common services]]
+|
+* [[#1.5. Common services]]
 * Apache2 w/ mpm-prefork
 |-
 |'''Disk usage:'''
-|  app3:
+|
+  app3:
     Filesystem            Size  Used Avail Use% Mounted on
     /dev/vda              9.9G  5.0G  4.5G  53% / 
     /dev/vdb              227G  188M  215G   1% /mnt
