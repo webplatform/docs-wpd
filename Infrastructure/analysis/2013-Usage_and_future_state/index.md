@@ -83,8 +83,7 @@ temporary * :
 * Some VMs are used for development and should be removed or migrated to an isolated environment, see [[#3.1. Type of deployment]];
 * No other environment than production (it has to change); The development work made in the production environment and might affect it;
 * Everybody with a shared account can do everything with no real control in the privileges;
-* 4 VMs has to be Ubuntu 10.04, solely required for the instances described [[#2.2.1.1. MediaWiki, WordPress, Dabblet, Talk]]
-, to be solved in [[#3.2.1. Operating System version discrepancy to solve]].
+* 4 VMs has to be Ubuntu 10.04, solely required for the instances described [[#2.2.1.1. MediaWiki, WordPress, Dabblet, Talk]], to be solved in [[#3.2.1. Operating System version discrepancy to solve]].
 
 
 
@@ -360,8 +359,7 @@ Linux release: Ubuntu 10.04.3 LTS Lucid
 Node name: <tt>db[n]</tt> 
 Current usage
 * Number of nodes: 2
-* Specs: 
-* 4 vCPU / 16 GB RAM / 480 GB HD
+* Specs:  4 vCPU / 16 GB RAM / 480 GB HD
 * Load average:
 ** 0.13, 0.07, 0.02
 ** 0.32, 0.27, 0.20
