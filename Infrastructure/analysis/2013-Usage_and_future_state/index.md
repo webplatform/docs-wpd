@@ -76,6 +76,7 @@ temporary * :
 
 {{Quote box
  |title = Note 4
+ |align = none
  |quote  = In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
 }}
 <!--{{clear}}-->
