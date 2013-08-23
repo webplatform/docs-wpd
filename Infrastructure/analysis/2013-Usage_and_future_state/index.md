@@ -8,7 +8,10 @@ As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ R
 
 But as anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and made the system in a need for a good maintenance.
 
-This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ I have been hired]: To make the system stable, and maintain it. Therefore, this document is my first steup to document and describe the state of the system and what is to come.
+This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ ''Renoir'' has been hired]: To make the system stable, and maintain it. 
+
+This document will describe in depth the usage, statistics of the current infrastructure and what is to come about it.
+
 
 == 1. Executive Summary ==
 
@@ -72,7 +75,7 @@ temporary * :
 
 === 1.2. Some facts about the current environment ===
 * Fastly is reporting 3.4 Million requests for the month of August 2013;
-* Some VMs are used for development and should be removed or migrated to an isolated environment, see 3.1. Type of deployment;
+* Some VMs are used for development and should be removed or migrated to an isolated environment, see [[#3.1._Type_of_deployment|3.1. Type of deployment]];
 * No other environment than production (it has to change); The development work made in the production environment and might affect it;
 * Everybody with a shared account can do everything with no real control in the privileges;
 * 4 VMs has to be Ubuntu 10.04, solely required for the instances described 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk, to be solved in 3.2.1. Operating System version discrepancy to solve
@@ -95,7 +98,7 @@ See section 2. Current environment to get more details.
 * '''Temporary environment'''
 ** N/A
 
-''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see  3.2. Refactor overview for problems it might cause.
+''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2._Refactor_overview|3.2. Refactor overview]] for problems it might cause.
 
 
 
@@ -692,7 +695,7 @@ The most of the current application stack do not necessarily have drop-in cachin
 * we should have one name but multiple A entries of write(able) database servers for round-robin).
 * or maybe is broken, something yet to evaluate. 
 * Create hot backup replication to shelter site (on W3C infra)
-* Database connector proxy (see mysql-proxy)
+* Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
 * Upgrade MySQL version and/or see for alternate (compatible) distribution: Percona, MariaDB
 
 
