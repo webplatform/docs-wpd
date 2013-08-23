@@ -13,6 +13,11 @@ This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your
 This document will describe in depth the usage, statistics of the current infrastructure and what is to come about it.
 
 
+
+----
+
+
+
 == 1. Executive Summary ==
 
 === 1.1. Usage comparison table ===
@@ -75,19 +80,20 @@ temporary * :
 
 === 1.2. Some facts about the current environment ===
 * Fastly is reporting 3.4 Million requests for the month of August 2013;
-* Some VMs are used for development and should be removed or migrated to an isolated environment, see [[#3.1._Type_of_deployment|3.1. Type of deployment]];
+* Some VMs are used for development and should be removed or migrated to an isolated environment, see [[#3.1. Type of deployment]];
 * No other environment than production (it has to change); The development work made in the production environment and might affect it;
 * Everybody with a shared account can do everything with no real control in the privileges;
-* 4 VMs has to be Ubuntu 10.04, solely required for the instances described [[#2.2.1.1._MediaWiki.2C_WordPress.2C_Dabblet.2C_Talk|2.2.1.1. MediaWiki, WordPress, Dabblet, Talk]]
-, to be solved in [[#3.2.1._Operating_System_version_discrepancy_to_solve|3.2.1. Operating System version discrepancy to solve]].
+* 4 VMs has to be Ubuntu 10.04, solely required for the instances described [[#2.2.1.1. MediaWiki, WordPress, Dabblet, Talk]]
+, to be solved in [[#3.2.1. Operating System version discrepancy to solve]].
 
 
 
 
 === 1.3. Current environment summary ===
+
 The following information summarizes the resources allocation used in the current environment. 
 
-See section 2. Current environment to get more details.
+See section [[#2. Current environment]] to get more details.
 
 * '''Production environment'''
 **  25  Public IP addresses; it could be possible to work with 12 static IP addresses for production 
@@ -100,7 +106,7 @@ See section 2. Current environment to get more details.
 * '''Temporary environment'''
 ** N/A
 
-''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2._Refactor_overview|3.2. Refactor overview]] for problems it might cause.
+''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2. Refactor overview]] for problems it might cause.
 
 
 
@@ -109,7 +115,7 @@ See section 2. Current environment to get more details.
 
 The following describes the estimated resources required to build the new infrastructure to be used by September 2014.
 
-See [[#3._Refactored_infrastructure|3. Refactored infrastructure]] to get more details.
+See [[#3. Refactored infrastructure]] to get more details.
 
 Although the fact that the desired production environment infrastructure could be sufficient by itself, the new infrastructure should support multi-site deployment.
 
@@ -149,6 +155,10 @@ Although the current infrastructure includes the services in common enumerated b
 
 
 
+----
+
+
+
 
 == 2. Current environment ==
 
@@ -165,17 +175,16 @@ Even though the current infrastructure do not have an explicit categorization sc
 
 A generic profile server that should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
 
-'''Linux release:''' Ubuntu 11.04 LTS Lucid
-'''Node name:''' app[n]
-'''Current usage'''
+'''Linux release:''' Ubuntu 11.04 LTS Lucid 
+'''Node name:''' <tt>app[n]</tt> 
+'''Current usage''' 
 * Number of nodes: 5 (app1, app2, …)
 * Web application profiles:
 ** MediaWiki
 ** Dabblet
 ** WordPress
 ** Talk
-* Specs: 
-** 4 vCPU / 8 GB RAM / 240 GB HD
+* Specs: 4 vCPU / 8 GB RAM / 240 GB HD
 * Load average: 
 ** 0.20, 0.14, 0.10
 ** 0.13, 0.12, 0.14
@@ -183,7 +192,7 @@ A generic profile server that should serve only as a redundant HTTP app service.
 ** 0.24, 0.66, 0.42
 ** 0.49, 0.42, 0.39
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Apache2 w/ mpm-prefork
 * Disk usage:
   app3:
@@ -220,7 +229,7 @@ A generic profile server that should serve only as a redundant HTTP app service.
 This instance provides a web frontend to ganglia reports, and publish them publicly.
 
 Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: monitor 
+Node name: <tt>monitor</tt> 
 Current usage
 * Number of nodes: 1
 * Web application profiles
@@ -228,7 +237,7 @@ Current usage
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.40, 0.42, 0.45
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Ganglia server
 * Disk usage:
   monitor:
@@ -246,7 +255,7 @@ This instance provides piwik dashboard web frontend and tracking beacon.
 ''Note:'' currently disabled.
 
 Linux release: Ubuntu 12.04.1 LTS
-Node name: piwik[n]
+Node name: <tt>piwik[n]</tt> 
 Current usage
 * Number of nodes: 2
 * Specs: 4 vCPU / 8 GB RAM / 240 GB HD
@@ -254,7 +263,7 @@ Current usage
 ** 0.00, 0.01, 0.05
 ** 0.00, 0.01, 0.05
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Apache2 w/ mpm-prefork
 * Disk usage:
   piwik1:
@@ -274,13 +283,13 @@ Current usage
 This node hosts a dedicated version of Bug Genie, available here.
 
 Linux release: Ubuntu 12.04.1 LTS
-Node name: project 
+Node name: <tt>project</tt>  
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.00, 0.01, 0.05
 * Current services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Apache2 w/ mpm-prefork
 * Disk usage:
   project:
@@ -296,13 +305,13 @@ Current usage
 This node is not fully working at the moment and it was planned to host code repositories and Gerrit application server.
 
 Linux release: Ubuntu 12.04 LTS
-Node name: code 
+Node name: <tt>code</tt>  
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.03, 0.04, 0.05
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 * Disk usage:
   code:
     Filesystem      Size  Used Avail Use% Mounted on
@@ -323,14 +332,14 @@ This node is the central point of access, it manages the local datacenter. From 
 * State change execution
 
 Linux release: Ubuntu 12.04 LTS Precise
-Node name: deployment
+Node name: <tt>deployment</tt> 
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average: 0.38 0.31 0.26
 * Services:
 ** Salt master
-** 1.5. Common services
+** [[#1.5. Common services]]
 * Disk usage:
   Filesystem   Size  Used Avail  Use% Mounted on
   /dev/vda1    9.9G  4.6G  4.8G  50%  /
@@ -348,7 +357,7 @@ This node type is a database cluster. The current setup has a master and a read-
 * Manage various database systems (e.g. MySQL)
 
 Linux release: Ubuntu 10.04.3 LTS Lucid
-Node name: db[n]
+Node name: <tt>db[n]</tt> 
 Current usage
 * Number of nodes: 2
 * Specs: 
@@ -357,7 +366,7 @@ Current usage
 ** 0.13, 0.07, 0.02
 ** 0.32, 0.27, 0.20
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** MySQL server (5.1.62-0ubuntu0.10.04.1)
 * Disk usage:
   db1:
@@ -377,7 +386,7 @@ Current usage
 Current MediaWiki uses memcache services, but it is not validated whether it is used to its full potential.
 
 Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: memcache[n]
+Node name: <tt>monitor[n]</tt>
 Current usage
 * Number of nodes: 2 (memcache1, …)
 * Specs: 2 vCPU / 4 GB RAM / 120 GB HD
@@ -385,7 +394,7 @@ Current usage
 ** 0.00, 0.01, 0.05
 ** 0.01, 0.03, 0.05
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Memcached
 * Disk usage:
   memcache1:
@@ -405,7 +414,7 @@ Current usage
 Currently, the storage is using GlusterFS as the system and many instances are using it as well.
 
 Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: memcache[n] 
+Node name: <tt>storage[n]</tt> 
 Current usage
 * Number of nodes: 2 (storage1, …)
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
@@ -416,7 +425,7 @@ Current usage
 * Images volume mountpoint
 * App specific user uploads storage
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** GlusterFS server
 * Disk usage:
   storage3:
@@ -438,13 +447,13 @@ Current usage
 ===== 2.2.3.1. Backup =====
 
 Linux release: Ubuntu 12.04 LTS
-Node name: backup 
+Node name: <tt>backup</tt>  
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
 * Load average:  0.00, 0.01, 0.05
 * Current services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 * Disk usage:
   Filesystem                     Size  Used Avail Use% Mounted on
   /dev/vda1                      9.9G  887M  8.5G  10% /
@@ -459,19 +468,24 @@ Current usage
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
  
 Linux release: Ubuntu 12.04 LTS
-Node name: bots 
+Node name: <tt>bots</tt>  
 Current usage
 * Number of nodes: 1
 * Specs: 1 vCPU / 1 GB RAM / 30 GB HD
 * Load average: 0.18, 0.17, 0.21
 * Services:
-** 1.5. Common services
+** [[#1.5. Common services]]
 ** Lumberjack python process
 * Disk usage:
   bots:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  896M  8.5G  10% /
     /dev/vdb         20G  173M   19G   1% /mnt 
+
+
+
+
+----
 
 
 
@@ -504,11 +518,11 @@ It is estimated that during a period of time, we might have 2 distinct deploymen
 === 3.2. Refactor overview ===
 
 * Linux release: Ubuntu 12.04 LTS is planned to be used on ALL instances;
-* Some other ideas to improve the infrastructure are described in this wiki page, altough relevant to the project, they are considered out of scope of the present document;
+* Some other ideas to improve the infrastructure are described in [WPD:Infrastructure/priorities], altough relevant to the project, they are considered out of scope of the present document;
 * In addition to the ideas described in the wiki, some other changes are described considered key to this refactor and has an issue number to work on:
-** http://project.webplatform.org/infrastructure/issues/INFR-39
-** http://project.webplatform.org/infrastructure/issues/INFR-40
-** http://project.webplatform.org/infrastructure/issues/INFR-41
+** [http://project.webplatform.org/infrastructure/issues/INFR-39 #INFR-39]
+** [http://project.webplatform.org/infrastructure/issues/INFR-40 #INFR-40]
+** [http://project.webplatform.org/infrastructure/issues/INFR-41 #INFR-41]
 
 
 
@@ -532,81 +546,79 @@ The architecture of the solution is going to be re-evaluated, as there are also 
 An app server should have deployed one or more web application virtual host. This should not be impacted by whether application A is also present with application B on the same node. It is a current issue which causes some false-positive errors in the logs and creates unneeded noise.
 
 
-'''Provisioning:'''
-# 7  Public IP addresses
-# 8  VMs
+:'''Provisioning:'''
+:# 7  Public IP addresses
+:# 8  VMs
 
-'''Application profile distribution proposal:'''
+:'''Application profile distribution proposal:'''
+:
+:''Profile “A”''
+:* qty: 5
+:* using: 
+:** WordPress
+:** MediaWiki
+:** BugGenie
+:
+:''Profile “B”''
+:* qty: 1
+:* using:
+:** Gerrit
+:** Talk
+:** Monitor
+:
+:''Profile “C”''
+:* qty: 2
+:* using:
+:** Piwik
+:** Dabblet
 
-''Profile “A”''
-* qty: 5
-* using: 
-** WordPress
-** MediaWiki
-** BugGenie
-
-''Profile “B”''
-* qty: 1
-* using:
-** Gerrit
-** Talk
-** Monitor
-
-''Profile “C”''
-* qty: 2
-* using:
-** Piwik
-** Dabblet
-
-
-'''To analyze:'''
-* Not all node types requires a public IP address, nodes like Ganglia, Bug genie, and Piwik could be behind a single NGINX proxy server as it is likely to be less used than a typical MediaWiki/WordPress;
-* See to support both NGINX AND Apache2 as HTTP server for all web applications;
-* Use secondary partition for manifest storage mount as XFS for quick snapshots;
-* Block storage/NFS mount point for same data across instances;
-* Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning on multiple instances. What is recommended, how is it failure resilient?
-* Nice to have: KVM-like console access (in case of firewall problem, or hard failure);
-
-
-'''Profiles:'''
-* '''WordPress'''
-** Software: WordPress, in PHP
-** virtual host name: blog.webplatform.org
-* '''MediaWiki'''
-** Software: MediaWiki, in PHP
-** virtual host name: docs.webplatform.org
-* '''Ganglia frontend'''
-** Software: Ganglia web frontend
-** virtual host name: monitor.webplatform.org
-* '''Piwik'''
-** Software: Piwik, in PHP
-** virtual host name: stats.webplatform.org
-* '''Talk'''
-** Software: Question2Answer
-** virtual host name: talk.webplatform.org
-* '''Bug genie'''
-** Software: Bug Genie
-** virtual host name: project.webplatform.org
-* '''Gerrit''' <br />''Note:'' Although there is an instance in the current state that is called code, it is NOT for Gerrit, but for Dabblet.
-** Software: Gerrit
-** virtual host name: TBD
-* '''Dabblet'''
-** Software: Dabblet
-** virtual host name: code.webplatform.org
+:'''To analyze:'''
+:* Not all node types requires a public IP address, nodes like Ganglia, Bug genie, and Piwik could be behind a single NGINX proxy server as it is likely to be less used than a typical MediaWiki/WordPress;
+:* See to support both NGINX AND Apache2 as HTTP server for all web applications;
+:* Use secondary partition for manifest storage mount as XFS for quick snapshots;
+:* Block storage/NFS mount point for same data across instances;
+:* Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning on multiple instances. What is recommended, how is it failure resilient?
+:* Nice to have: KVM-like console access (in case of firewall problem, or hard failure);
+:
+:'''Profiles:'''
+:* '''WordPress'''
+:** Software: WordPress, in PHP
+:** virtual host name: blog.webplatform.org
+:* '''MediaWiki'''
+:** Software: MediaWiki, in PHP
+:** virtual host name: docs.webplatform.org
+:* '''Ganglia frontend'''
+:** Software: Ganglia web frontend
+:** virtual host name: monitor.webplatform.org
+:* '''Piwik'''
+:** Software: Piwik, in PHP
+:** virtual host name: stats.webplatform.org
+:* '''Talk'''
+:** Software: [http://www.question2answer.org/ Question2Answer]
+:** virtual host name: talk.webplatform.org
+:* '''Bug genie'''
+:** Software: [http://www.thebuggenie.com/ Bug Genie]
+:** virtual host name: project.webplatform.org
+:* '''Gerrit''' <br />''Note:'' Although there is an instance in the current state that is called code, it is NOT for Gerrit, but for Dabblet.
+:** Software: [https://code.google.com/p/gerrit/ Gerrit]
+:** virtual host name: TBD
+:* '''Dabblet'''
+:** Software: [https://github.com/LeaVerou/dabblet Dabblet]
+:** virtual host name: code.webplatform.org
 
 
 
 
 ==== 3.3.2. Infrastructure servers ====
 
-'''Provisioning:'''
-
-The following is a sum of the described profiles below.
- 
-# 2  Public IP addresses
-# database node (DB hot backup)
-# deployment node
-# 5-11  VMs
+:'''Provisioning:'''
+:
+:The following is a sum of the described profiles below.
+: 
+:# 2  Public IP addresses
+:# database node (DB hot backup)
+:# deployment node
+:# 5-11  VMs
 
 
 
@@ -615,30 +627,28 @@ The following is a sum of the described profiles below.
 
 The objective of this instance is to be the only machine to connect to. Not only should it manage Nova and Salt stack commands, but also assist in other various tasks.
 
-Assuming multi-site hosting system is built, we will use Salt Stack’s ‘Syndic’ feature to pass along from the central master (to be yet determined).
+Assuming multi-site hosting system is built, we will use [http://docs.saltstack.com/ref/cli/salt-syndic.html Salt Stack’s ‘Syndic’ feature] to pass along from the central master (to be yet determined).
 
 
-'''Provisioning:'''
-* 1 VM
-* This node do not need direct access to big amount of CPU/RAM/HD as it is used solely to receiving/sending data from other members of the local network.
-
-
-'''To be analyzed:'''
-# Logging aggregation system for both reporting and analysis
-# DHCP server
-# DNS server
-# Logging aggregator client
-# Elastic search client
-# Database benchmarking tools
-# HTTP server benchmarking tools
-# Mailing testing utilities
-# Mailing relay exit
-
-
-'''Requirements:'''
-# Block storage, or mount-point (NFS?) for state manifests and user data
-# Use secondary partition for manifest storage mount as XFS for quick snapshots
-# Nice to have: KVM-like access
+:'''Provisioning:'''
+:* 1 VM
+:* This node do not need direct access to big amount of CPU/RAM/HD as it is used solely to receiving/sending data from other members of the local network.
+:
+:'''To be analyzed:'''
+:# Logging aggregation system for both reporting and analysis
+:# DHCP server
+:# DNS server
+:# Logging aggregator client
+:# Elastic search client
+:# Database benchmarking tools
+:# HTTP server benchmarking tools
+:# Mailing testing utilities
+:# Mailing relay exit
+:
+:'''Requirements:'''
+:# Block storage, or mount-point (NFS?) for state manifests and user data
+:# Use secondary partition for manifest storage mount as XFS for quick snapshots
+:# Nice to have: KVM-like access
 
 
 
@@ -650,49 +660,49 @@ The current setup of 2 is estimated to be enough for our needs; however, it is a
 The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and analyze its usage.
 
 
-'''Provisioning:''' 
-* 2-4 VMs
-* 1 Public IP address
-* Prefered to have significant amount of vCPU/vRAM
-
-'''To be analyzed:'''
-* we should have one name but multiple A entries of write(able) database servers for round-robin).
-* or maybe is broken, something yet to evaluate. 
-* Create hot backup replication to shelter site (on W3C infra)
-* Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
-* Upgrade MySQL version and/or see for alternate (compatible) distribution: Percona, MariaDB
-
-'''Requirements:'''
-# Make secondary drive as XFS, and to configure MySQL/etc database storage so we can make ‘snapshots’ 
-# Block storage, or mount-point (NFS?);
-# Use secondary partition for database data as XFS for snapshots
+:'''Provisioning:''' 
+:* 2-4 VMs
+:* 1 Public IP address
+:* Prefered to have significant amount of vCPU/vRAM
+:
+:'''To be analyzed:'''
+:* we should have one name but multiple A entries of write(able) database servers for round-robin).
+:* or maybe is broken, something yet to evaluate. 
+:* Create hot backup replication to shelter site (on W3C infra)
+:* Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
+:* Upgrade MySQL version and/or see for alternate (compatible) distribution: Percona, MariaDB
+:
+:'''Requirements:'''
+:# Make secondary drive as XFS, and to configure MySQL/etc database storage so we can make ‘snapshots’ 
+:# Block storage, or mount-point (NFS?);
+:# Use secondary partition for database data as XFS for snapshots
 
 
 
 
 ===== 3.3.2.3. Memcache =====
 
-'''Provisioning:'''
-* 1-2 VMs
-* Should have good amount of vCPU/vRAM (add number)
-
-'''To be analyzed:'''
-* If we get memcached with other similar technologies, we can create a cluster of services (e.g. memcached, elastic search, redis).
+:'''Provisioning:'''
+:* 1-2 VMs
+:* Should have good amount of vCPU/vRAM (add number)
+:
+:'''To be analyzed:'''
+:* If we get memcached with other similar technologies, we can create a cluster of services (e.g. memcached, elastic search, redis).
 
 
 
 
 ===== 3.3.2.4. Storage =====
 
-'''Provisioning:'''
-* 1-2 VMs
-* Should have a good amount of storage capacity, and leverage XFS’s snapshot feature.
-
-'''To be analyzed:'''
-* If we have block storage service, this node should only handle data transfers to the block storage service by creating a local copy, then copy it over.
-* This node might change its purpose and be replaced by a rsync orchestration system to move files around, e.g.:
-* Making a local copy, then creating incremental backups on block storage service
-* Updating CDN static files
+:'''Provisioning:'''
+:* 1-2 VMs
+:* Should have a good amount of storage capacity, and leverage XFS’s snapshot feature.
+:
+:'''To be analyzed:'''
+:* If we have block storage service, this node should only handle data transfers to the block storage service by creating a local copy, then copy it over.
+:* This node might change its purpose and be replaced by a rsync orchestration system to move files around, e.g.:
+:* Making a local copy, then creating incremental backups on block storage service
+:* Updating CDN static files
 
 
 
@@ -704,14 +714,18 @@ Similar to the Web application profile, a node providing a process service shoul
 Although the refactor will make sure the two profiles are independent and applicable anywhere in the infrastructure, it is considered to merge the two profiles on the same Instance.
 
 
-'''Provisioning:'''
-# 1-2  VMs
-# Lower vHD is acceptable
+:'''Provisioning:'''
+:# 1-2  VMs
+:# Lower vHD is acceptable
+:
+:'''Profiles:'''
+:* Backup <br \>''Note:'' This configuration might change as we have block storage and we might use storage as a handlers to move backup around.
+:* IRC Bot
 
 
-'''Profiles:'''
-* Backup <br \>''Note:'' This configuration might change as we have block storage and we might use storage as a handlers to move backup around.
-* IRC Bot
+
+
+----
 
 
 
