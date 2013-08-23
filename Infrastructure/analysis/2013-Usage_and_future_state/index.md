@@ -17,19 +17,55 @@ This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your
 {| class="mw-datatable os-suggest-results filehistory"
 |+VMs usage comparsion
 |-
+|
 |Current
 |Future
 |-
+|'''Application services'''
 |production:
-* A
-* B
+* app: 5
+* monitor:1 
+* piwik: 2
+* project: 1
+* code:1
 |production:
-* C
-* D
-temporary:
-* Z
-* Maybe E
+* 8
+temporary * :
+* 3
+|-
+|'''Infrastructure services'''
+|''production'':
+* deployment: 1
+* db: 2
+* memcache: 2
+* storage: 2
+|''production'':
+* 5-9
+''temporary *'':
+* 5
+|-
+|'''Process services'''
+|''production'':
+* backup: 1
+* bots: 1
+|''production'':
+* 1-2
+''temporary *'':
+* 1
+|-
+|'''Sub-total'''
+|''production'':
+* 19 VMs
+|''production'':
+* 14-19 VMs
+''temporary *'':
+* 9
+|-
+|'''Total'''
+| 19 VMs
+| 23-28 VMs <br/> ''Including *one only* one "temporary environment" up''
 |}
+
 
 ''Note'': In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
 
