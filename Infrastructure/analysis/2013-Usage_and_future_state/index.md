@@ -207,6 +207,11 @@ A generic profile server that should serve only as a redundant HTTP app service.
 * WordPress
 * Talk
 |-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Apache2 w/ mpm-prefork
+|-
 |'''Specs:'''
 |4 vCPU / 8 GB RAM / 240 GB HD
 |-
@@ -217,11 +222,6 @@ A generic profile server that should serve only as a redundant HTTP app service.
 * 0.20, 0.17, 0.14
 * 0.24, 0.66, 0.42
 * 0.49, 0.42, 0.39
-|-
-|'''Services:'''
-|
-* [[#1.5. Common services]]
-* Apache2 w/ mpm-prefork
 |-
 |'''Disk usage:'''
 |
@@ -252,75 +252,40 @@ A generic profile server that should serve only as a redundant HTTP app service.
     storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
 |}
 
-'''Linux release:''' Ubuntu 11.04 LTS Lucid 
-'''Node name:''' <tt>app[n]</tt> 
-'''Current usage''' 
-* Number of nodes: 5 (app1, app2, …)
-* Web application profiles:
-** MediaWiki
-** Dabblet
-** WordPress
-** Talk
-* Specs: 4 vCPU / 8 GB RAM / 240 GB HD
-* Load average: 
-** 0.20, 0.14, 0.10
-** 0.13, 0.12, 0.14
-** 0.20, 0.17, 0.14
-** 0.24, 0.66, 0.42
-** 0.49, 0.42, 0.39
-* Services:
-** [[#1.5. Common services]]
-** Apache2 w/ mpm-prefork
-* Disk usage:
-  app3:
-    Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  5.0G  4.5G  53% / 
-    /dev/vdb              227G  188M  215G   1% /mnt
-    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
-  app2:
-    Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  6.8G  2.6G  73% /
-    /dev/vdb              227G  457M  215G   1% /mnt
-    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
-  app4:
-    Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  5.1G  4.4G  54% /
-    /dev/vdb              227G  188M  215G   1% /mnt
-    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
-  app1:
-    Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  6.8G  2.6G  73% /
-    /dev/vdb              227G  188M  215G   1% /mnt
-    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
-  app5:
-    Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  4.9G  4.5G  53% /
-    /dev/vdb              227G  188M  215G   1% /mnt
-    storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
-
-
 
 
 ===== 2.2.1.2. Monitor =====
 
 This instance provides a web frontend to ganglia reports, and publish them publicly.
 
-Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: <tt>monitor</tt> 
-Current usage
-* Number of nodes: 1
-* Web application profiles
-** Ganglia frontend
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average: 0.40, 0.42, 0.45
-* Services:
-** [[#1.5. Common services]]
-** Ganglia server
-* Disk usage:
+{|
+|+Node <tt>monitor</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04.2 LTS Precise
+|-
+|'''Web application profiles:'''
+| 
+* Ganglia frontend
+|-
+|'''Services:'''
+|
+* Ganglia server
+* [[#1.5. Common services]]
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|0.40, 0.42, 0.45
+|-
+|'''Disk usage:'''
+|
   monitor:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.5G  7.9G  16% /
     /dev/vdb         50G  180M   47G   1% /mnt
+|}
 
 
 
@@ -329,18 +294,35 @@ Current usage
 
 This instance provides piwik dashboard web front-end and tracking beacon.
 
-Linux release: Ubuntu 12.04.1 LTS
-Node name: <tt>piwik[n]</tt> 
-Current usage
-* Number of nodes: 2
-* Specs: 4 vCPU / 8 GB RAM / 240 GB HD
-* Load average: 
-** 0.00, 0.01, 0.05
-** 0.00, 0.01, 0.05
-* Services:
-** [[#1.5. Common services]]
-** Apache2 w/ mpm-prefork
-* Disk usage:
+
+{|
+|+Node <tt>piwik[n]</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04.1 LTS
+|-
+|'''Number of nodes:'''
+|2
+|-
+|'''Web application profiles:'''
+| 
+* Piwik
+|-
+|'''Services:'''
+|
+* Apache2 w/ mpm-prefork
+* [[#1.5. Common services]]
+|-
+|'''Specs:'''
+|4 vCPU / 8 GB RAM / 240 GB HD
+|-
+|'''Load average:'''
+|
+* 0.00, 0.01, 0.05
+* 0.00, 0.01, 0.05
+|-
+|'''Disk usage:'''
+|
   piwik1:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.3G  8.2G  13% /
@@ -349,6 +331,8 @@ Current usage
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.3G  8.1G  14% /
     /dev/vdb        227G  188M  215G   1% /mnt
+|}
+
 
 
 
