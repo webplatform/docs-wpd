@@ -75,7 +75,10 @@ temporary * :
 |}
 
 
-''Note'': In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
+{{Quote box
+ |title = Note 4
+ |quote  = In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
+}}
 
 
 === 1.2. Some facts about the current environment ===
@@ -105,7 +108,10 @@ See section [[#2. Current environment]] to get more details.
 * '''Temporary environment'''
 ** N/A
 
-''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2. Refactor overview]] for problems it might cause.
+{{Quote box
+ |title = Note 5 ''''Important!''''
+ |quote  = The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2. Refactor overview]] for problems it might cause.
+}}
 
 
 
@@ -120,25 +126,34 @@ Although the fact that the desired production environment infrastructure could b
 
 The new infrastructure with support multi-site replication to a secondary site where database and files can be synced from one datacenter to another. Resource allocation for a secondary site has an estimated resource allocation similar to a “Temporary environment” in terms of numbers and will be improving service redundancy.
 
+{{Quote box
+ |title = Note 1
+ |quote  = The numbers described in the ‘Secondary environment’ section are to be considered in surplus, but it should be possible to use in some during defined period of time.
+}}
 
-'''Production environment'''
+{{Quote box
+ |title = Note 2
+ |quote  = We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
+}}
+
+==== Production environment ====
+
 * 9-12 Public IP address;
 * 14-19 VMs; <br />Note: some changes described in 3.2. Refactor overview might require to adjust the numbers;
 
-'''Temporary environment'''
+==== Temporary environment ====
+
 * It should be possible to have more than one deployed “temporary” environment at a time (e.g. one for staging, one for test);
 * Number is aproximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerancy on the DB, we might only need one web application instance, and 5 database servers)
 * ~9 Public IP Address;
 * ~9 VMs;
 
-'''Secondary environment'''
+==== Secondary environment ====
 * Represent a reduced version of the production environment, a secondary site replicating the production;
 * Resource allocation is similar to a Temporary environment in terms of IP Addresses and VM quantities.
 
 
-''Note:'' The numbers described in the ‘Secondary environment’ section are to be considered in surplus, but it should be possible to use in some during defined period of time.
 
-''Note 2:'' We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
 
 
 
@@ -251,7 +266,11 @@ Current usage
 
 This instance provides piwik dashboard web frontend and tracking beacon.
 
-''Note:'' currently disabled.
+
+{{Quote box
+ |title = Note 3
+ |quote  = Piwik nodes are currently disabled
+}}
 
 Linux release: Ubuntu 12.04.1 LTS
 Node name: <tt>piwik[n]</tt> 
