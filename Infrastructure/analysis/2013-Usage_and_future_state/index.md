@@ -1,18 +1,40 @@
+= 2013 WebPlatform Docs infrastructure usage and future state =
+
+== Introduction ==
+
+[http://webplatform.org/ WebPlatform Docs] is now closing to a year of life. The goal of this document is to describe the current health of the system and how we can make it better.
+
+As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the lauch post], we can see a year later that the structure is handling fairly well the load. 
+
+But as anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and made the system in a need for a good maintenance.
+
+This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ I have been hired]: To make the system stable, and maintain it. Therefore, this document is my first steup to document and describe the state of the system and what is to come.
 
 == 1. Executive Summary ==
 
-
-
-
 === 1.1. Usage comparison table ===
 
+{| class="mw-datatable os-suggest-results filehistory"
+|+VMs usage comparsion
+|-
+|Current
+|Future
+|-
+|production:
+* A
+* B
+|production:
+* C
+* D
+temporary:
+* Z
+* Maybe E
+|}
 
-NOTE: In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
+''Note'': In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
 
 
 === 1.2. Some facts about the current environment ===
-
-
 * Fastly is reporting 3.4 Million requests for the month of August 2013;
 * Some VMs are used for development and should be removed or migrated to an isolated environment, see 3.1. Type of deployment;
 * No other environment than production (it has to change); The development work made in the production environment and might affect it;
@@ -20,14 +42,11 @@ NOTE: In Temporary environment, numbers may vary, we might want to always have a
 * 4 VMs has to be Ubuntu 10.04, solely required for the instances described 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk, to be solved in 3.2.1. Operating System version discrepancy to solve
 
 
+
 === 1.3. Current environment summary ===
-
-
 The following information summarizes the resources allocation used in the current environment. 
 
-
 See section 2. Current environment to get more details.
-
 
 * '''Production environment'''
 **  25  Public IP addresses; it could be possible to work with 12 static IP addresses for production 
@@ -40,10 +59,7 @@ See section 2. Current environment to get more details.
 * '''Temporary environment'''
 ** N/A
 
-Important: The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see  3.2. Refactor overview for problems it might cause.
-	
-
-
+''Important'': The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see  3.2. Refactor overview for problems it might cause.
 
 
 
@@ -81,7 +97,7 @@ The new infrastructure with support multi-site replication to a secondary site w
 
 
 ''Note 2:'' We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
-	
+    
 
 === 1.5. Common services ===
 
