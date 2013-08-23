@@ -268,13 +268,7 @@ Current usage
 
 ===== 2.2.1.3. Piwik =====
 
-This instance provides piwik dashboard web frontend and tracking beacon.
-
-
-{{Quote box
- |title = Note 3
- |quote  = Piwik nodes are currently disabled
-}}
+This instance provides piwik dashboard web front-end and tracking beacon.
 
 Linux release: Ubuntu 12.04.1 LTS
 Node name: <tt>piwik[n]</tt> 
@@ -764,8 +758,9 @@ Our usage level does not require access to a web frontend, nor a web control pan
 
 Some details to clarify about what is available within our upcoming provider infrastructure.
 
-* Is there a local … ?
-** Ubuntu/Debian repository mirror
-** NTP server
-** SMTP relay or exit relays
-** Do you provide/have recommendations regarding VPN deployment for cross-site replication and security?
+Is there a local...?
+
+* Ubuntu/Debian repository mirror
+* NTP server
+* SMTP relay or exit relays
+* Do you provide/have recommendations regarding VPN deployment for cross-site replication and security?
