@@ -74,12 +74,11 @@ temporary * :
 | 23-28 VMs <br/> ''Including *one only* one "temporary environment" up''
 |}
 
-
 {{Quote box
  |title = Note 4
  |quote  = In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
 }}
-
+<!--{{clear}}-->
 
 === 1.2. Some facts about the current environment ===
 * Fastly is reporting 3.4 Million requests for the month of August 2013;
@@ -112,7 +111,7 @@ See section [[#2. Current environment]] to get more details.
  |title = Note 5 ''''Important!''''
  |quote  = The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [[#3.2. Refactor overview]] for problems it might cause.
 }}
-
+<!--{{clear}}-->
 
 
 
@@ -135,6 +134,7 @@ The new infrastructure with support multi-site replication to a secondary site w
  |title = Note 2
  |quote  = We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
 }}
+<!--{{clear}}-->
 
 ==== Production environment ====
 
