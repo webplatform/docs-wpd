@@ -78,7 +78,9 @@ temporary * :
 * Some VMs are used for development and should be removed or migrated to an isolated environment, see [[#3.1._Type_of_deployment|3.1. Type of deployment]];
 * No other environment than production (it has to change); The development work made in the production environment and might affect it;
 * Everybody with a shared account can do everything with no real control in the privileges;
-* 4 VMs has to be Ubuntu 10.04, solely required for the instances described 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk, to be solved in 3.2.1. Operating System version discrepancy to solve
+* 4 VMs has to be Ubuntu 10.04, solely required for the instances described [[#2.2.1.1._MediaWiki.2C_WordPress.2C_Dabblet.2C_Talk|2.2.1.1. MediaWiki, WordPress, Dabblet, Talk]]
+, to be solved in [[#3.2.1._Operating_System_version_discrepancy_to_solve|3.2.1. Operating System version discrepancy to solve]].
+
 
 
 
@@ -102,44 +104,41 @@ See section 2. Current environment to get more details.
 
 
 
-=== 1.4. Refactored infrastructure estimation summary ===
 
+=== 1.4. Refactored infrastructure estimation summary ===
 
 The following describes the estimated resources required to build the new infrastructure to be used by September 2014.
 
-
-See section 3. Refactored infrastructure detail to get more details.
-
+See [[#3._Refactored_infrastructure|3. Refactored infrastructure]] to get more details.
 
 Although the fact that the desired production environment infrastructure could be sufficient by itself, the new infrastructure should support multi-site deployment.
-
 
 The new infrastructure with support multi-site replication to a secondary site where database and files can be synced from one datacenter to another. Resource allocation for a secondary site has an estimated resource allocation similar to a “Temporary environment” in terms of numbers and will be improving service redundancy.
 
 
-* '''Production environment'''
-**  9-12  Public IP address;
-**  14-19   VMs; <br />Note: some changes described in 3.2. Refactor overview might require to adjust the numbers;
-* '''Temporary environment'''
-** It should be possible to have more than one deployed “temporary” environment at a time (e.g. one for staging, one for test);
-** Number is aproximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerancy on the DB, we might only need one web application instance, and 5 database servers)
-**  ~9   Public IP Address;
-**  ~9   VMs;
-* '''Secondary environment'''
-** Represent a reduced version of the production environment, a secondary site replicating the production;
-** Resource allocation is similar to a Temporary environment in terms of IP Addresses and VM quantities.
+'''Production environment'''
+* 9-12 Public IP address;
+* 14-19 VMs; <br />Note: some changes described in 3.2. Refactor overview might require to adjust the numbers;
 
+'''Temporary environment'''
+* It should be possible to have more than one deployed “temporary” environment at a time (e.g. one for staging, one for test);
+* Number is aproximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerancy on the DB, we might only need one web application instance, and 5 database servers)
+* ~9 Public IP Address;
+* ~9 VMs;
 
+'''Secondary environment'''
+* Represent a reduced version of the production environment, a secondary site replicating the production;
+* Resource allocation is similar to a Temporary environment in terms of IP Addresses and VM quantities.
 
 
 ''Note:'' The numbers described in the ‘Secondary environment’ section are to be considered in surplus, but it should be possible to use in some during defined period of time.
 
-
 ''Note 2:'' We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
-    
+
+
+
 
 === 1.5. Common services ===
-
 
 Although the current infrastructure includes the services in common enumerated below, the Refactored infrastructure will also include them.
 
@@ -151,26 +150,20 @@ Although the current infrastructure includes the services in common enumerated b
 
 
 
-________________
-
-
 == 2. Current environment ==
 
-
 === 2.2. Instance flavors ===
-
 
 Even though the current infrastructure do not have an explicit categorization scheme, each instances are conceptually separated in the following categories and the new infrastructure will have a similar categorization.
 
 
-==== 2.2.1. Application services ====
 
+
+==== 2.2.1. Application services ====
 
 ===== 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk =====
 
-
 A generic profile server that should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
-
 
 '''Linux release:''' Ubuntu 11.04 LTS Lucid
 '''Node name:''' app[n]
@@ -224,9 +217,7 @@ A generic profile server that should serve only as a redundant HTTP app service.
 
 ===== 2.2.1.2. Monitor =====
 
-
 This instance provides a web frontend to ganglia reports, and publish them publicly.
-
 
 Linux release: Ubuntu 12.04.2 LTS Precise
 Node name: monitor 
@@ -250,12 +241,9 @@ Current usage
 
 ===== 2.2.1.3. Piwik =====
 
-
 This instance provides piwik dashboard web frontend and tracking beacon.
 
-
 ''Note:'' currently disabled.
-
 
 Linux release: Ubuntu 12.04.1 LTS
 Node name: piwik[n]
@@ -283,9 +271,7 @@ Current usage
 
 ===== 2.2.1.4. Project =====
 
-
 This node hosts a dedicated version of Bug Genie, available here.
-
 
 Linux release: Ubuntu 12.04.1 LTS
 Node name: project 
@@ -303,11 +289,11 @@ Current usage
     /dev/vdb         50G  180M   47G   1% /mnt
 
 
+
+
 ===== 2.2.1.5. Code =====
 
-
 This node is not fully working at the moment and it was planned to host code repositories and Gerrit application server.
-
 
 Linux release: Ubuntu 12.04 LTS
 Node name: code 
@@ -326,21 +312,15 @@ Current usage
 
 
 
-
-
 ==== 2.2.2. Infrastructure services ====
-
 
 ===== 2.2.2.1. Deployment =====
 
-
-This node is the central point of access, it manages the local datacenter. From it, is possible to apply configuration settings through a remote execution and configuration management system called Salt Stack. [*1]
-
+This node is the central point of access, it manages the local datacenter. From it, is possible to apply configuration settings through a remote execution and configuration management system called Salt Stack.
 
 '''From this instance, it is aggregating:'''
 * Log files
 * State change execution
-
 
 Linux release: Ubuntu 12.04 LTS Precise
 Node name: deployment
@@ -357,16 +337,15 @@ Current usage
   /dev/vdb      50G   17G   31G  36%  /mnt
 
 
+
+
 ===== 2.2.2.2. Database =====
 
-
 This node type is a database cluster. The current setup has a master and a read-only node.
-
 
 '''Instance goals:'''
 * Provide database access
 * Manage various database systems (e.g. MySQL)
-
 
 Linux release: Ubuntu 10.04.3 LTS Lucid
 Node name: db[n]
@@ -391,11 +370,11 @@ Current usage
     /dev/vdb     463G  3.1G  437G   1% /mnt
 
 
+
+
 ===== 2.2.2.1. Memcache =====
 
-
 Current MediaWiki uses memcache services, but it is not validated whether it is used to its full potential.
-
 
 Linux release: Ubuntu 12.04.2 LTS Precise
 Node name: memcache[n]
@@ -423,9 +402,7 @@ Current usage
 
 ===== 2.2.2.1. Storage =====
 
-
 Currently, the storage is using GlusterFS as the system and many instances are using it as well.
-
 
 Linux release: Ubuntu 12.04.2 LTS Precise
 Node name: memcache[n] 
@@ -456,13 +433,9 @@ Current usage
 
 
 
-
-
 ==== 2.2.3. Process services ====
 
-
 ===== 2.2.3.1. Backup =====
-
 
 Linux release: Ubuntu 12.04 LTS
 Node name: backup 
@@ -479,8 +452,9 @@ Current usage
   /dev/mapper/backup1-lvbackup1   40G   40G  122M 100% /mnt/backup
 
 
-===== 2.2.3.2. Bots =====
 
+
+===== 2.2.3.2. Bots =====
 
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
  
@@ -502,26 +476,22 @@ Current usage
 
 
 
-
-
-________________
-
-
 == 3. Refactored infrastructure ==
+
 === 3.1. Type of deployment ===
 
-
 The objective is to enforce testing prior to applying it to the production environment. 
-
 
 Although the production environment has fixed resources, the Staging/testing environment can be built on demand with flexible amount of IP/VMs to ensure the developed configuration works prior to apply it to production.
 
 
-* '''Production'''
+==== Production ====
+
 Production environment is very important and it must be fully tested in Staging/Testing before make them available to the user.
 
 
-* '''Staging/testing'''
+==== Staging/testing ====
+
 The objective of this server environment is to reproduce an isolated version of the production environment. 
 
 Therefore,  the idea is to have the capability of a fully working and isolated environment version for short and temporary period for development and/or testing purposes.
@@ -529,21 +499,21 @@ Therefore,  the idea is to have the capability of a fully working and isolated e
 It is estimated that during a period of time, we might have 2 distinct deployment running for testing and acceptance testing prior to be applied in production. 
 
 
-=== 3.2. Refactor overview ===
 
+
+=== 3.2. Refactor overview ===
 
 * Linux release: Ubuntu 12.04 LTS is planned to be used on ALL instances;
 * Some other ideas to improve the infrastructure are described in this wiki page, altough relevant to the project, they are considered out of scope of the present document;
 * In addition to the ideas described in the wiki, some other changes are described considered key to this refactor and has an issue number to work on:
-* http://project.webplatform.org/infrastructure/issues/INFR-39
-* http://project.webplatform.org/infrastructure/issues/INFR-40
-* http://project.webplatform.org/infrastructure/issues/INFR-41
+** http://project.webplatform.org/infrastructure/issues/INFR-39
+** http://project.webplatform.org/infrastructure/issues/INFR-40
+** http://project.webplatform.org/infrastructure/issues/INFR-41
 
 
 
 
 ==== 3.2.1. Operating System version discrepancy to solve ====
-
 
 The objective is to migrate the Operating System version to current Ubuntu LTS version. In the meantime, two LTS versions will be supported.
 
@@ -552,22 +522,19 @@ The objective is to migrate the Operating System version to current Ubuntu LTS v
 
 === 3.3. Instance flavors ===
 
-
 The architecture of the solution is going to be re-evaluated, as there are also other instances that do not need to be exactly the same. 
+
+
 
 
 ==== 3.3.1. Application servers ====
 
-
 An app server should have deployed one or more web application virtual host. This should not be impacted by whether application A is also present with application B on the same node. It is a current issue which causes some false-positive errors in the logs and creates unneeded noise.
-
-
 
 
 '''Provisioning:'''
 # 7  Public IP addresses
 # 8  VMs
-
 
 '''Application profile distribution proposal:'''
 
@@ -592,8 +559,6 @@ An app server should have deployed one or more web application virtual host. Thi
 ** Dabblet
 
 
-
-
 '''To analyze:'''
 * Not all node types requires a public IP address, nodes like Ganglia, Bug genie, and Piwik could be behind a single NGINX proxy server as it is likely to be less used than a typical MediaWiki/WordPress;
 * See to support both NGINX AND Apache2 as HTTP server for all web applications;
@@ -601,8 +566,6 @@ An app server should have deployed one or more web application virtual host. Thi
 * Block storage/NFS mount point for same data across instances;
 * Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning on multiple instances. What is recommended, how is it failure resilient?
 * Nice to have: KVM-like console access (in case of firewall problem, or hard failure);
-
-
 
 
 '''Profiles:'''
@@ -645,11 +608,12 @@ The following is a sum of the described profiles below.
 # deployment node
 # 5-11  VMs
 
+
+
+
 ===== 3.3.2.1. Deployment =====
 
-
 The objective of this instance is to be the only machine to connect to. Not only should it manage Nova and Salt stack commands, but also assist in other various tasks.
-
 
 Assuming multi-site hosting system is built, we will use Salt Stack’s ‘Syndic’ feature to pass along from the central master (to be yet determined).
 
@@ -675,12 +639,13 @@ Assuming multi-site hosting system is built, we will use Salt Stack’s ‘Syndi
 # Block storage, or mount-point (NFS?) for state manifests and user data
 # Use secondary partition for manifest storage mount as XFS for quick snapshots
 # Nice to have: KVM-like access
-               
+
+
+
+
 ===== 3.3.2.2. Database =====
 
-
 The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottle neck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total). 
-
 
 The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and analyze its usage.
 
@@ -690,7 +655,6 @@ The most of the current application stack do not necessarily have drop-in cachin
 * 1 Public IP address
 * Prefered to have significant amount of vCPU/vRAM
 
-
 '''To be analyzed:'''
 * we should have one name but multiple A entries of write(able) database servers for round-robin).
 * or maybe is broken, something yet to evaluate. 
@@ -698,31 +662,31 @@ The most of the current application stack do not necessarily have drop-in cachin
 * Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
 * Upgrade MySQL version and/or see for alternate (compatible) distribution: Percona, MariaDB
 
-
-Requirements:
+'''Requirements:'''
 # Make secondary drive as XFS, and to configure MySQL/etc database storage so we can make ‘snapshots’ 
 # Block storage, or mount-point (NFS?);
 # Use secondary partition for database data as XFS for snapshots
-               
-===== 3.3.2.3. Memcache =====
 
+
+
+
+===== 3.3.2.3. Memcache =====
 
 '''Provisioning:'''
 * 1-2 VMs
 * Should have good amount of vCPU/vRAM (add number)
 
-
 '''To be analyzed:'''
 * If we get memcached with other similar technologies, we can create a cluster of services (e.g. memcached, elastic search, redis).
 
 
-===== 3.3.2.4. Storage =====
 
+
+===== 3.3.2.4. Storage =====
 
 '''Provisioning:'''
 * 1-2 VMs
 * Should have a good amount of storage capacity, and leverage XFS’s snapshot feature.
-
 
 '''To be analyzed:'''
 * If we have block storage service, this node should only handle data transfers to the block storage service by creating a local copy, then copy it over.
@@ -731,11 +695,11 @@ Requirements:
 * Updating CDN static files
 
 
+
+
 ==== 3.3.3. Process servers ====
 
-
 Similar to the Web application profile, a node providing a process service should be installable to any server without impacting or breaking other managed services.
-
 
 Although the refactor will make sure the two profiles are independent and applicable anywhere in the infrastructure, it is considered to merge the two profiles on the same Instance.
 
@@ -752,21 +716,18 @@ Although the refactor will make sure the two profiles are independent and applic
 
 
 
-
 == 4. Service provider infrastructure ==
 
-
 Although it might be impossible to the provider offer a fully featured Open Stack environment with Public facing web dashboard, we would appreciate to have access to bare-metal machines to your capabilities with the latest stable OpenStack version (Folsom, Grizzly).
-
 
 Our usage level does not require access to a web frontend, nor a web control pannel. Our infrastructure has already systems configured to communicate to OpenStack using the ‘nova’ utility.
 
 
+
+
 === 4.1. Questions ===
 
-
 Some details to clarify about what is available within our upcoming provider infrastructure.
-
 
 * Is there a local … ?
 ** Ubuntu/Debian repository mirror
