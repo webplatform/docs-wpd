@@ -34,7 +34,10 @@ Also, others that has yet to be added:
 * ''Installation automation'':  Usage of DHCP/DNS to allocate new nodes: <br/>use-case: Start me a ‘app’ server, it’ll bootstrap a vanilla Ubuntu machine using TFTP, register to Salt stack, and install itself.
 * ''Balance non http work load'': Leverage the present message queuing and by creating subscribers to take tasks: e.g. build e-mail to send, update data from remote web service.
 
-
+=== Notes from Lea ===
+# Whoever deploys, has to clear the cache
+# Recommendation status icons http://dabblet.com/gist/5922066 
+# Status flags http://result.dabblet.com/gist/6127923/b774fa5a44a0d7b6a1c752868cd47c67c31327b8
 
 == Projects ==
 === Community management system ===
