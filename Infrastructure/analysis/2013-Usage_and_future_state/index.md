@@ -2,7 +2,7 @@
 
 == Introduction ==
 
-[http://webplatform.org/ WebPlatform Docs] is now close to a year of life. The goal of this document is to describe the current health of the system and how we can make it better.
+[http://webplatform.org/ WebPlatform Docs] is now close to a year old. The goal of this document is to describe the current health of the system and how we can make it better.
 
 As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the launch post], we can see a year later that the structure is handling the load fairly well. 
 
