@@ -2,15 +2,15 @@
 
 == Introduction ==
 
-[http://webplatform.org/ WebPlatform Docs] is now closing to a year of life. The goal of this document is to describe the current health of the system and how we can make it better.
+[http://webplatform.org/ WebPlatform Docs] is now close to a year of life. The goal of this document is to describe the current health of the system and how we can make it better.
 
-As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the lauch post], we can see a year later that the structure is handling fairly well the load. 
+As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the launch post], we can see a year later that the structure is handling the load fairly well. 
 
-But as anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and made the system in a need for a good maintenance.
+But as with anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and the system is in a need of a good maintenance.
 
 This is why [http://blog.webplatform.org/2013/08/hi-my-name-s-renoir-ill-be-your-devops-for-the-web-platform/ ''Renoir'' has been hired]: To maintain the system and contribute to the site success, full time.
 
-This document will describe in depth the usage, statistics of the current infrastructure and what is to come about it.
+This document describes in depth the usage, statistics of the current infrastructure, and what is to come with it.
 
 
 
