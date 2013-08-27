@@ -95,7 +95,7 @@ temporary * :
 
 The following information summarizes the resources allocation used in the current environment. 
 
-See section [[#2. Current environment]] to get more details.
+See section [[#2. Current environment]] for more details.
 
 * '''Production environment'''
 **  25  Public IP addresses; it could be possible to work with 12 static IP addresses for production 
@@ -104,7 +104,7 @@ See section [[#2. Current environment]] to get more details.
 ** 2 memcached
 ** 2 mysql/db
 ** ... misc apps, storage, backup, monitoring, salt master, etc…
-**  4  VMs for testing or upcoming projects (not advertized)
+**  4  VMs for testing or upcoming projects (not advertised)
 * '''Temporary environment'''
 ** N/A
 
@@ -122,7 +122,7 @@ See section [[#2. Current environment]] to get more details.
 
 The following describes the estimated resources required to build the new infrastructure to be used by September 2014.
 
-See [[#3. Refactored infrastructure]] to get more details.
+See [[#3. Refactored infrastructure]] for more details.
 
 Although the fact that the desired production environment infrastructure could be sufficient by itself, the new infrastructure should support multi-site deployment.
 
@@ -137,7 +137,7 @@ The new infrastructure with support multi-site replication to a secondary site w
 {{Quote box
  |align = none
  |title = Note 2
- |quote  = We might consider to create a always-running ‘Secondary environment’ for ad-hoc development.
+ |quote  = We might consider creating an always-running ‘Secondary environment’ for ad-hoc development.
 }}
 <!--{{clear}}-->
 
@@ -149,7 +149,7 @@ The new infrastructure with support multi-site replication to a secondary site w
 ==== Temporary environment ====
 
 * It should be possible to have more than one deployed “temporary” environment at a time (e.g. one for staging, one for test);
-* Number is aproximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerancy on the DB, we might only need one web application instance, and 5 database servers)
+* Number is approximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerance on the DB, we might only need one web application instance, and 5 database servers)
 * ~9 Public IP Address;
 * ~9 VMs;
 
@@ -169,7 +169,7 @@ Although the current infrastructure includes the services in common enumerated b
 
 * Salt minion agent
 * Ganglia monitor agent
-* GlusterFS client (in some cases, subject to changement if we have Block storage)
+* GlusterFS client (in some cases, subject to change if we have Block storage)
 * Rsync xinetd service (rsync key is propagated through Salt)
 
 
@@ -183,16 +183,13 @@ Although the current infrastructure includes the services in common enumerated b
 
 === 2.2. Instance flavors ===
 
-Even though the current infrastructure do not have an explicit categorization scheme, each instances are conceptually separated in the following categories and the new infrastructure will have a similar categorization.
-
-
-
+Even though the current infrastructure does not have an explicit categorization scheme, each instance is conceptually separated into the following categories. The new infrastructure will have a similar categorization.
 
 ==== 2.2.1. Application services ====
 
 ===== 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk =====
 
-A generic profile server that should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
+A generic profile server should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
 
 {|
 |+Node <tt>app[n]</tt>
@@ -568,7 +565,7 @@ The objective of this server environment is to reproduce an isolated version of 
 
 Therefore,  the idea is to have the capability of a fully working and isolated environment version for short and temporary period for development and/or testing purposes.
 
-It is estimated that during a period of time, we might have 2 distinct deployment running for testing and acceptance testing prior to be applied in production. 
+It is estimated that during a period of time, we might have 2 distinct deployments running for testing and acceptance testing prior to be applied in production. 
 
 
 
@@ -576,7 +573,7 @@ It is estimated that during a period of time, we might have 2 distinct deploymen
 === 3.2. Refactor overview ===
 
 * Linux release: Ubuntu 12.04 LTS is planned to be used on ALL instances;
-* Some other ideas to improve the infrastructure are described in [WPD:Infrastructure/priorities], altough relevant to the project, they are considered out of scope of the present document;
+* Some other ideas to improve the infrastructure are described in [WPD:Infrastructure/priorities], although relevant to the project, they are considered out of scope of the present document;
 * In addition to the ideas described in the wiki, some other changes are described considered key to this refactor and has an issue number to work on:
 ** [http://project.webplatform.org/infrastructure/issues/INFR-39 #INFR-39]
 ** [http://project.webplatform.org/infrastructure/issues/INFR-40 #INFR-40]
@@ -601,7 +598,7 @@ The architecture of the solution is going to be re-evaluated, as there are also 
 
 ==== 3.3.1. Application servers ====
 
-An app server should have deployed one or more web application virtual host. This should not be impacted by whether application A is also present with application B on the same node. It is a current issue which causes some false-positive errors in the logs and creates unneeded noise.
+An app server should have deployed one or more web application virtual host. This should not be impacted by whether application A is also present with application B on the same node. It is a current issue, which causes some false-positive errors in the logs and creates unneeded noise.
 
 
 :'''Provisioning:'''
@@ -635,7 +632,7 @@ An app server should have deployed one or more web application virtual host. Thi
 :* See to support both NGINX AND Apache2 as HTTP server for all web applications;
 :* Use secondary partition for manifest storage mount as XFS for quick snapshots;
 :* Block storage/NFS mount point for same data across instances;
-:* Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning on multiple instances. What is recommended, how is it failure resilient?
+:* Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning across multiple instances. What is recommended, how is it failure resilient?
 :* Nice to have: KVM-like console access (in case of firewall problem, or hard failure);
 :
 :'''Profiles:'''
@@ -690,7 +687,7 @@ Assuming multi-site hosting system is built, we will use [http://docs.saltstack.
 
 :'''Provisioning:'''
 :* 1 VM
-:* This node do not need direct access to big amount of CPU/RAM/HD as it is used solely to receiving/sending data from other members of the local network.
+:* This node does not need direct access to a large amount of CPU/RAM/HD, as it is used solely for receiving/sending data from other members of the local network.
 :
 :'''To be analyzed:'''
 :# Logging aggregation system for both reporting and analysis
@@ -713,7 +710,7 @@ Assuming multi-site hosting system is built, we will use [http://docs.saltstack.
 
 ===== 3.3.2.2. Database =====
 
-The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottle neck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total). 
+The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottleneck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total). 
 
 The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and analyze its usage.
 
@@ -721,10 +718,10 @@ The most of the current application stack do not necessarily have drop-in cachin
 :'''Provisioning:''' 
 :* 2-4 VMs
 :* 1 Public IP address
-:* Prefered to have significant amount of vCPU/vRAM
+:* Preferred to have significant amount of vCPU/vRAM
 :
 :'''To be analyzed:'''
-:* we should have one name but multiple A entries of write(able) database servers for round-robin).
+:* We should have one name, but multiple A entries, of write(able) database servers for round-robin.
 :* or maybe is broken, something yet to evaluate. 
 :* Create hot backup replication to shelter site (on W3C infra)
 :* Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
@@ -777,7 +774,7 @@ Although the refactor will make sure the two profiles are independent and applic
 :# Lower vHD is acceptable
 :
 :'''Profiles:'''
-:* Backup <br \>''Note:'' This configuration might change as we have block storage and we might use storage as a handlers to move backup around.
+:* Backup <br \>''Note:'' This configuration might change as we have block storage and we might use storage as handlers to move backup around.
 :* IRC Bot
 
 
@@ -792,14 +789,14 @@ Although the refactor will make sure the two profiles are independent and applic
 
 Although it might be impossible to the provider offer a fully featured Open Stack environment with Public facing web dashboard, we would appreciate to have access to bare-metal machines to your capabilities with the latest stable OpenStack version (Folsom, Grizzly).
 
-Our usage level does not require access to a web frontend, nor a web control pannel. Our infrastructure has already systems configured to communicate to OpenStack using the ‘nova’ utility.
+Our usage level does not require access to a web front end, nor a web control panel. Our infrastructure has already systems configured to communicate to OpenStack using the ‘nova’ utility.
 
 
 
 
 === 4.1. Questions ===
 
-Some details to clarify about what is available within our upcoming provider infrastructure.
+Some details to clarify about what may be available within our upcoming provider infrastructure.
 
 Is there a local...?
 
