@@ -5,9 +5,9 @@ HTML is probably the most central technology in the toolset that we work with ev
 
 HTML elements is a great topic to focus on for a Doc Sprint:
 
-* It is a relatively small number of articles
+* It is a relatively small number of articles.
 * All of the articles will have very similar structure, making it easy to track progress.
-* We already have a solid foundation and just need to layer on more/better content
+* We already have a solid foundation and just need to layer on more/better content.
 * Having an island of strong content makes it easier for us to add other islands of content over time and build up the usefulness of the full site. Instead of boiling the ocean, we just need to boil a number of bathtubs sequentially.
 
 It's always hard to prioritize, because it implicitly means that some things will be ''de''prioritized. Hopefully the pros outweigh the negatives here.
@@ -15,9 +15,6 @@ It's always hard to prioritize, because it implicitly means that some things wil
 == Milestone Goal ==
 
 Documentation for all standards-track HTML elements is as comprehensive, correct, and helpful as--or better than--the current best sources for HTML elements.
-
-==Design enhancements==
-<subpages/>
 
 ==Editing guide==
 
