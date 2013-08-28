@@ -12,7 +12,7 @@ These surveys are designed to learn how to improve the doc sprints.
 
 See the [http://goo.gl/CEs8y Survey Results]! Thanks to all who responded!
 
-====Berlin, Feb. 8 & 9====
+====Berlin, Feb. 8 & 9, 2013====
 
 Survey [[WPD:Community/Survey/Doc_Sprint/Berlin_2-2013|Results]].
 
