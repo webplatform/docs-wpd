@@ -32,6 +32,8 @@ We regularly poll our contributors and users to learn how we can improve the sit
 
 ==Doc sprint links==
 
+* [[WPD:Projects/HTML_Element_Milestone|HTML Element Milestone Plan]]
+* [[WPD:HTML_Element_Guide|HTML Element Guide]]
 * [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
 * [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
 * [[WPD:Community/Survey|Survey]]
