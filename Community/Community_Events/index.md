@@ -29,3 +29,6 @@ We regularly poll our contributors and users to learn how we can improve the sit
 * [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
 * [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
 * [[WPD:Community/Survey|Survey]]
+
+==Coming soon: Doc-Sprint-In-A-Box==
+We are working on publishing a comprehensive guide on running your own (physical) Doc Sprint. Stay tuned!
