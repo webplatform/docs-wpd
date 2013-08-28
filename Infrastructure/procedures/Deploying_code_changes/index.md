@@ -2,20 +2,20 @@
 
 There's four current code bases, run via '''sudo salt-run deploy.run <codebase>''':
 
-;code.root: /srv/salt/code/root - the document root.
-;code.docs_current: /srv/salt/code/docs/current - the version of MediaWiki that runs the site.
-;code.docs_test: /srv/salt/code/docs/current - a version of MediaWiki that can be used to test changes.
-;code.docs_settings: /srv/salt/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
-;code.nonshared: /srv/salt/code/nonshared - static content that is specific to domains.
-;code.piwik: /srv/salt/code/piwik - the location of the site metrics software.
-;code.qwebirc: /srv/salt/code/qwebirc - the location of the IRC browser client software.
-;code.blog: /srv/salt/code/blog/current - the location of the wordpress software.
-;code.talk: /srv/salt/code/talk/forums/current - the location of questions2answers software.
+;code.root: /srv/code/root - the document root.
+;code.docs_current: /srv/code/docs/current - the version of MediaWiki that runs the site.
+;code.docs_test: /srv/code/docs/current - a version of MediaWiki that can be used to test changes.
+;code.docs_settings: /srv/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
+;code.nonshared: /srv/code/nonshared - static content that is specific to domains.
+;code.piwik: /srv/code/piwik - the location of the site metrics software.
+;code.qwebirc: /srv/code/qwebirc - the location of the IRC browser client software.
+;code.blog: /srv/code/blog/current - the location of the wordpress software.
+;code.talk: /srv/code/talk/forums/current - the location of questions2answers software.
 ;code.all: This will deploy all of the above code bases. This is incredibly dangerous to use. It's meant for deploying new application servers and should likely not be used for any other purpose.
 
 Each code base is stored in the salt repository on the deployment system (15.185.100.127 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
 
-# cd /srv/salt/code/root
+# cd /srv/code/root
 # <edit robots.txt>
 # git commit -a -m 'my message here'
 #* Every code base is version controlled, please version control your changes.
@@ -42,7 +42,7 @@ It's best if the extensions are added as git submodules, since the rest of the e
 * ''git submodule add <url> <location>''
 
 For example:
- ''laner@deployment:/srv/salt/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
+ ''laner@deployment:/srv/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
 
 ==== SVN ====
 
@@ -52,21 +52,21 @@ Otherwise, use SVN to load the extension onto the deployment server:
 ==== Updating the Database ====
 Sometimes an extension will require updating the databases. To do this, change your permissions to root, and run:
 
-<code>root@deployment:/srv/salt/code/docs/current# php maintenance/update.php</code>
+<code>root@deployment:/srv/code/docs/current# php maintenance/update.php</code>
 
 If the extension includes a SQL file to create new tables, run (for example):
 
-<code>root@deployment:/srv/salt/code/docs/current# php maintenance/sql.php extensions/NewSignupPage/user_register_track.sql
+<code>root@deployment:/srv/code/docs/current# php maintenance/sql.php extensions/NewSignupPage/user_register_track.sql
 </code>
 
 === Testing MediaWiki changes via the test site ===
 
 It's possible to test changes on docs.webplatform.org/test prior to deploying them to docs.webplatform.org/wiki. There's three things to know about this:
 
-# Both are modified in the same place (/srv/salt/code/docs/current), but they are deployed separately:
+# Both are modified in the same place (/srv/code/docs/current), but they are deployed separately:
 #* test: sudo salt-run deploy.run code.docs_test
 #* wiki: sudo salt-run deploy.run code.docs_current
-# To run maintenance scripts for test, you need to provide a configuration file via a flag; from /srv/salt/code/docs/current:
+# To run maintenance scripts for test, you need to provide a configuration file via a flag; from /srv/code/docs/current:
 #* php maintenance/<maintenance-script> --conf=../TestSettings.php
 # The MediaWiki configuration is shared between test and wiki in Settings.php. Both test and wiki have exclusive configuration files as well. If you wish to add settings or extensions to test, you should edit TestSettings.php. Ensure you move your changes from TestSettings.php to Settings.php when done testing.
 
@@ -76,7 +76,7 @@ Best practice is to deploy the changes to test and test them out before deployin
 
 The deployment code is using salt runners that call salt states that aren't included in the top state configuration. These non-top called states are only called during deployment. We do this so that we can separate deployment of applications from configuration of the instances. That said, adding a new code base for deployment is the same as writing any other salt state.
 
-The deployment salt states are in /srv/salt/code/<code_base>.sls. Here's the root code base's state:
+The deployment salt states are in /srv/code/<code_base>.sls. Here's the root code base's state:
 
   include:
     - rsync.codesync
