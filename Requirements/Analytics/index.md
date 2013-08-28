@@ -1,5 +1,9 @@
 = Analytics project =
 
+== See also ==
+* [WPD:Project_Status#Goals_for_Community]
+* [https://github.com/webplatform/DocSprintDashboard DocSprintDashboard project on GitHub]
+
 == Summary ==
 Build a dashboard to aggregate data and get desired reports crossing multiple data sources.
 
