@@ -1,9 +1,5 @@
 = Analytics project =
 
-== See also ==
-* [[WPD:Project_Status#Goals_for_Community]]
-* [https://github.com/webplatform/DocSprintDashboard DocSprintDashboard project on GitHub]
-
 == Summary ==
 Build a dashboard to aggregate data and get desired reports crossing multiple data sources.
 
@@ -11,6 +7,13 @@ This document is not a requirement document, but a collection of notes that will
 
 == Decisions ==
 TBA
+
+== See also ==
+* [[WPD:Project_Status#Goals_for_Community]]
+* [https://github.com/webplatform/DocSprintDashboard DocSprintDashboard project on GitHub]
+
+=== Available Data ===
+* [[Special:ActiveUsers]]
 
 == Discussions ==
 Please add e-mail reply that help describe the project requirements.
