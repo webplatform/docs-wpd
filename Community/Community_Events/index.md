@@ -1,14 +1,5 @@
 =WebPlatform.org community events=
 
-Here, add Intro blurb on what our community events entail, how they fit into the Web Platform mission, and what we hope to achieve with them
-
-==Contributing to events==
-
-
-==Doc Sprint in a box: running your own community events==
-
-
-==Community events==
 ===Upcoming===
 * '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
 * '''13-SEP-2013'''—TENTATIVE: Doc Sprint @ New York, NY (Scott & Peter), might be merged with Patrick's event
@@ -32,6 +23,7 @@ We regularly poll our contributors and users to learn how we can improve the sit
 
 ==Doc sprint links==
 
+* [[Meta:web_platform_wednesday|Good source of inspiration on what to do: Web Platform Wednesday docs]]
 * [[WPD:Projects/HTML_Element_Milestone|HTML Element Milestone Plan]]
 * [[WPD:HTML_Element_Guide|HTML Element Guide]]
 * [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
