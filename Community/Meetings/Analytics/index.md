@@ -10,7 +10,7 @@
 
 '''IRC Channel:''' webplatform-site
 
-See [[WPD:Community/Task_Force/Analytics|Anaytics]] task force page for more information.
+See [[WPD:Community/Task_Force/Analytics|Analytics]] task force page for more information.
 
 ==Agenda items==
 
