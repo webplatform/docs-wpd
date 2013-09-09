@@ -701,7 +701,7 @@ It is estimated that during a period of time, we might have 2 distinct deploymen
 === 3.2. Refactor overview ===
 
 * Linux release: Ubuntu 12.04 LTS is planned to be used on ALL instances;
-* Some other ideas to improve the infrastructure are described in [WPD:Infrastructure/priorities], although relevant to the project, they are considered out of scope of the present document;
+* Some other ideas to improve the infrastructure are described in [[WPD:Infrastructure/priorities]], although relevant to the project, they are considered out of scope of the present document;
 * In addition to the ideas described in the wiki, some other changes are described considered key to this refactor and has an issue number to work on:
 ** [http://project.webplatform.org/infrastructure/issues/INFR-39 #INFR-39]
 ** [http://project.webplatform.org/infrastructure/issues/INFR-40 #INFR-40]
