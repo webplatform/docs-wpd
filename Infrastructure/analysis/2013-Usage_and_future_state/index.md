@@ -734,8 +734,7 @@ Some tasks might improve the overall performance of the system, they should be a
 * Install StartSSL certificate 
 ** Ensure login forms uses the SSL VHost
 ** Ensure all services with login has a SSL VHost
-* Use secondary partition for manifest storage mount as XFS for quick snapshots;
-* Ensure libmemcached-tools is installed (see [http://docs.libmemcached.org/ docs]), useful for debugging
+* Use secondary partition for manifest storage mount as XFS for quick snapshots
 * Ensure tracking code is installed through salt stack, and not manually (!)
 
 
