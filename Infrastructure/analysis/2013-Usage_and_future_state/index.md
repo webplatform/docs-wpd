@@ -720,19 +720,40 @@ The objective is to migrate the Operating System version to current Ubuntu LTS v
 
 Some tasks might improve the overall performance of the system, they should be analyzed and reported into [http://project.webplatform.org/infrastructure/issues the issue tracker]
 
-* Install Logstash and ensure ALL services reports logs to it
+'''High gain, low ETA'''
+* Install Logstash and ensure ALL services reports logs to it (install on [[#3.3.2.1. Deployment]]?)
 * VHost configuration (both NGINX than Apache)
 ** Default vhost (e.g. via the IP) to serve a static file
 ** Each vhost only allows http communication to known hosts (i.e. fastly, aremysiteup, monitoring, etc)
 ** Clean up the hosts with only the minimal web applications deployed with their vhosts
 * Use/configure fastly monitoring (I need to read about what we can get out of it)
 * Use fastly 50x error pages with static  
-* Use secondary partition for manifest storage mount as XFS for quick snapshots;
 * Hide to a maximum server version in vhosts/php configuration
-* Analyse whether we can MySQL server version (possible, would break things?)
-** See [[#3.3.2.2. Database]] notes
+
+'''Lower priority but important'''
+* Install StartSSL certificate 
+** Ensure login forms uses the SSL VHost
+** Ensure all services with login has a SSL VHost
+* Use secondary partition for manifest storage mount as XFS for quick snapshots;
 * Ensure libmemcached-tools is installed (see [http://docs.libmemcached.org/ docs]), useful for debugging
 * Ensure tracking code is installed through salt stack, and not manually (!)
+
+
+==== 3.2.3. To be analyzed ====
+
+* Analyse whether we can MySQL server version (possible, would break things?)
+** See [[#3.3.2.2. Database]] notes
+* DHCP server (install on [[#3.3.2.1. Deployment]]?)
+* DNS server (install on [[#3.3.2.1. Deployment]]?)
+* Elastic search 
+** client on which node? 
+** server on which node?
+* Benchmarking tools
+** Database
+** Memcached with libmemcached-tools (see [http://docs.libmemcached.org/ docs])
+** HTTP server benchmarking tools
+** Mailing testing utilities
+* Mailing relay exit node
 
 
 === 3.3. Instance flavors ===
@@ -832,18 +853,7 @@ Assuming multi-site hosting system is built, we will use [http://docs.saltstack.
 :'''Provisioning:'''
 :* 1 VM
 :* This node does not need direct access to a large amount of CPU/RAM/HD, as it is used solely for receiving/sending data from other members of the local network.
-:
-:'''To be analyzed:'''
-:# Logging aggregation system for both reporting and analysis
-:# DHCP server
-:# DNS server
-:# Logging aggregator client
-:# Elastic search client
-:# Database benchmarking tools
-:# HTTP server benchmarking tools
-:# Mailing testing utilities
-:# Mailing relay exit
-:
+
 :'''Requirements:'''
 :# Block storage, or mount-point (NFS?) for state manifests and user data
 :# Use secondary partition for manifest storage mount as XFS for quick snapshots
@@ -856,7 +866,7 @@ Assuming multi-site hosting system is built, we will use [http://docs.saltstack.
 
 The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottleneck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total).
 
-The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and analyze its usage.
+The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and its usage.
 
 
 :'''Provisioning:'''
