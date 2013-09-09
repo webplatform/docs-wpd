@@ -507,7 +507,7 @@ This node type is a database cluster. The current setup has a master and a read-
 Current MediaWiki uses memcache services, but it is not validated whether it is used to its full potential.
 
 {|
-|+Node <tt>monitor[n]</tt>
+|+Node <tt>memcache[n]</tt>
 |-
 |'''Linux release:'''
 |Ubuntu 12.04.2 LTS Precise
@@ -632,9 +632,6 @@ Usage:
 |}
 
 
-
-
-
 ===== 2.2.3.2. Bots =====
 
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
@@ -673,7 +670,6 @@ This node is hosting a Python program called ‘Lumberjack’ that is acting as 
 
 
 ----
-
 
 
 
@@ -724,9 +720,11 @@ The objective is to migrate the Operating System version to current Ubuntu LTS v
 
 Some tasks might improve the overall performance of the system.
 
-* Default vhost (e.g. via the IP) to serve a static file
-* Each vhost only allows http communication to known hosts (i.e. fastly, aremysiteup, monitoring, etc)
-* Clean up the hosts with only the minimal web applications deployed with their vhosts
+* Install Logstash and ensure ALL services reports logs to it
+* VHost configuration (both NGINX than Apache)
+** Default vhost (e.g. via the IP) to serve a static file
+** Each vhost only allows http communication to known hosts (i.e. fastly, aremysiteup, monitoring, etc)
+** Clean up the hosts with only the minimal web applications deployed with their vhosts
 * Use/configure fastly monitoring (I need to read about what we can get out of it)
 * Use fastly 50x error pages with static  
 * Use secondary partition for manifest storage mount as XFS for quick snapshots;
