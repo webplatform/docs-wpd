@@ -278,7 +278,6 @@ This instance provides a web frontend to ganglia reports, and publish them publi
 |-
 |'''Disk usage:'''
 |
-  monitor:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.5G  7.9G  16% /
     /dev/vdb         50G  180M   47G   1% /mnt
@@ -338,41 +337,74 @@ This instance provides piwik dashboard web front-end and tracking beacon.
 
 This node hosts a dedicated version of Bug Genie, available here.
 
-Linux release: Ubuntu 12.04.1 LTS
-Node name: <tt>project</tt>
-Current usage
-* Number of nodes: 1
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average: 0.00, 0.01, 0.05
-* Current services:
-** [[#1.5. Common services]]
-** Apache2 w/ mpm-prefork
-* Disk usage:
-  project:
+{|
+|+Node <tt>project</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04.1 LTS
+|-
+|'''Number of nodes:'''
+|1
+|-
+|'''Web application profiles:'''
+|
+* 
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Apache2 w/ mpm-prefork
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|0.00, 0.01, 0.05
+|-
+|'''Disk usage:'''
+|
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.1G  8.3G  12% /
     /dev/vdb         50G  180M   47G   1% /mnt
-
+|}
 
 
 
 ===== 2.2.1.5. Code =====
 
-This node is not fully working at the moment and it was planned to host code repositories and Gerrit application server.
+This node is not fully working at the moment and it was planned to host code repositories using Gerrit application server.
 
-Linux release: Ubuntu 12.04 LTS
-Node name: <tt>code</tt>
-Current usage
-* Number of nodes: 1
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average: 0.03, 0.04, 0.05
-* Services:
-** [[#1.5. Common services]]
-* Disk usage:
-  code:
+{|
+|+Node <tt>code</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04 LTS
+|-
+|'''Number of nodes:'''
+|1
+|-
+|'''Web application profiles:'''
+|
+* Gerrit (unfinished)
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Java (J2EE container)
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|0.03, 0.04, 0.05
+|-
+|'''Disk usage:'''
+|
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  1.1G  8.4G  12% /
     /dev/vdb         50G  180M   47G   1% /mnt
+|}
+
 
 
 
@@ -387,19 +419,37 @@ This node is the central point of access, it manages the local datacenter. From 
 * Log files
 * State change execution
 
-Linux release: Ubuntu 12.04 LTS Precise
-Node name: <tt>deployment</tt>
-Current usage
-* Number of nodes: 1
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average: 0.38 0.31 0.26
-* Services:
-** Salt master
-** [[#1.5. Common services]]
-* Disk usage:
+{|
+|+Node <tt>deployment</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04 LTS Precise
+|-
+|'''Number of nodes:'''
+|1
+|-
+|'''Web application profiles:'''
+|
+* N/A
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Salt stack master
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|0.38 0.31 0.26
+|-
+|'''Disk usage:'''
+|
   Filesystem   Size  Used Avail  Use% Mounted on
   /dev/vda1    9.9G  4.6G  4.8G  50%  /
   /dev/vdb      50G   17G   31G  36%  /mnt
+|}
+
 
 
 
@@ -412,18 +462,34 @@ This node type is a database cluster. The current setup has a master and a read-
 * Provide database access
 * Manage various database systems (e.g. MySQL)
 
-Linux release: Ubuntu 10.04.3 LTS Lucid
-Node name: <tt>db[n]</tt>
-Current usage
-* Number of nodes: 2
-* Specs:  4 vCPU / 16 GB RAM / 480 GB HD
-* Load average:
-** 0.13, 0.07, 0.02
-** 0.32, 0.27, 0.20
-* Services:
-** [[#1.5. Common services]]
-** MySQL server (5.1.62-0ubuntu0.10.04.1)
-* Disk usage:
+{|
+|+Node <tt>db[n]</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 10.04.3 LTS Lucid
+|-
+|'''Number of nodes:'''
+|2
+|-
+|'''Web application profiles:'''
+|
+* N/A
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* MySQL server (5.1.x), an old version, upgrade? (see [[#3.3.2.2. Database]] notes)
+|-
+|'''Specs:'''
+|4 vCPU / 16 GB RAM / 480 GB HD
+|-
+|'''Load average:'''
+|
+* 0.13, 0.07, 0.02
+* 0.32, 0.27, 0.20
+|-
+|'''Disk usage:'''
+|
   db1:
     Filesystem   Size  Used Avail  Use% Mounted on
     /dev/vda     9.9G  3.5G  5.9G  38% /
@@ -432,7 +498,7 @@ Current usage
     Filesystem   Size  Used Avail Use% Mounted on
     /dev/vda     9.9G  2.7G  6.7G  29% /
     /dev/vdb     463G  3.1G  437G   1% /mnt
-
+|}
 
 
 
@@ -440,18 +506,34 @@ Current usage
 
 Current MediaWiki uses memcache services, but it is not validated whether it is used to its full potential.
 
-Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: <tt>monitor[n]</tt>
-Current usage
-* Number of nodes: 2 (memcache1, …)
-* Specs: 2 vCPU / 4 GB RAM / 120 GB HD
-* Load average:
-** 0.00, 0.01, 0.05
-** 0.01, 0.03, 0.05
-* Services:
-** [[#1.5. Common services]]
-** Memcached
-* Disk usage:
+{|
+|+Node <tt>monitor[n]</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04.2 LTS Precise
+|-
+|'''Number of nodes:'''
+|2
+|-
+|'''Web application profiles:'''
+|
+* N/A
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Memcached
+|-
+|'''Specs:'''
+|2 vCPU / 4 GB RAM / 120 GB HD
+|-
+|'''Load average:'''
+|
+* 0.00, 0.01, 0.05
+* 0.01, 0.03, 0.05
+|-
+|'''Disk usage:'''
+|
   memcache1:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G 1017M  8.4G  11% /
@@ -460,7 +542,7 @@ Current usage
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G 1017M  8.4G  11% /
     /dev/vdb        109G  188M  103G   1% /mnt
-
+|}
 
 
 
@@ -468,21 +550,38 @@ Current usage
 
 Currently, the storage is using GlusterFS as the system and many instances are using it as well.
 
-Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: <tt>storage[n]</tt>
-Current usage
-* Number of nodes: 2 (storage1, …)
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average:
-** 0.04, 0.03, 0.05
-** 0.04, 0.04, 0.05
-* Profiles
+Usage:
 * Images volume mountpoint
 * App specific user uploads storage
-* Services:
-** [[#1.5. Common services]]
-** GlusterFS server
-* Disk usage:
+
+{|
+|+Node <tt>storage[n]</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04.2 LTS Precise
+|-
+|'''Number of nodes:'''
+|2
+|-
+|'''Web application profiles:'''
+|
+* 
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* GlusterFS server
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|
+* 0.04, 0.03, 0.05
+* 0.04, 0.04, 0.05
+|-
+|'''Disk usage:'''
+|
   storage3:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  2.5G  6.9G  27% /
@@ -493,7 +592,7 @@ Current usage
     /dev/vda1       9.9G  2.5G  6.9G  27% /
     /dev/vdb         50G  180M   47G   1% /mnt
     /dev/vdc         50G  492M   50G   1% /srv/storage
-
+|}
 
 
 
@@ -501,19 +600,37 @@ Current usage
 
 ===== 2.2.3.1. Backup =====
 
-Linux release: Ubuntu 12.04 LTS
-Node name: <tt>backup</tt>
-Current usage
-* Number of nodes: 1
-* Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average:  0.00, 0.01, 0.05
-* Current services:
-** [[#1.5. Common services]]
-* Disk usage:
+{|
+|+Node <tt>backup</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04 LTS
+|-
+|'''Number of nodes:'''
+|1
+|-
+|'''Web application profiles:'''
+|
+* 
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+|-
+|'''Specs:'''
+|2 vCPU / 2 GB RAM / 60 GB HD
+|-
+|'''Load average:'''
+|0.00, 0.01, 0.05
+|-
+|'''Disk usage:'''
+|
   Filesystem                     Size  Used Avail Use% Mounted on
   /dev/vda1                      9.9G  887M  8.5G  10% /
   /dev/vdb                        50G   50G     0 100% /mnt
   /dev/mapper/backup1-lvbackup1   40G   40G  122M 100% /mnt/backup
+|}
+
 
 
 
@@ -522,21 +639,36 @@ Current usage
 
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
 
-Linux release: Ubuntu 12.04 LTS
-Node name: <tt>bots</tt>
-Current usage
-* Number of nodes: 1
-* Specs: 1 vCPU / 1 GB RAM / 30 GB HD
-* Load average: 0.18, 0.17, 0.21
-* Services:
-** [[#1.5. Common services]]
-** Lumberjack python process
-* Disk usage:
-  bots:
+{|
+|+Node <tt>bots</tt>
+|-
+|'''Linux release:'''
+|Ubuntu 12.04 LTS
+|-
+|'''Number of nodes:'''
+|1
+|-
+|'''Web application profiles:'''
+|
+* 
+|-
+|'''Services:'''
+|
+* [[#1.5. Common services]]
+* Lumberjack python process
+|-
+|'''Specs:'''
+|1 vCPU / 1 GB RAM / 30 GB HD
+|-
+|'''Load average:'''
+|0.18, 0.17, 0.21
+|-
+|'''Disk usage:'''
+|
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  896M  8.5G  10% /
     /dev/vdb         20G  173M   19G   1% /mnt
-
+|}
 
 
 
@@ -581,7 +713,6 @@ It is estimated that during a period of time, we might have 2 distinct deploymen
 
 
 
-
 ==== 3.2.1. Operating System version discrepancy to solve ====
 
 The objective is to migrate the Operating System version to current Ubuntu LTS version. In the meantime, two LTS versions will be supported.
@@ -600,6 +731,10 @@ Some tasks might improve the overall performance of the system.
 * Use fastly 50x error pages with static  
 * Use secondary partition for manifest storage mount as XFS for quick snapshots;
 * Hide to a maximum server version in vhosts/php configuration
+* Analyse whether we can MySQL server version (possible, would break things?)
+** See [[#3.3.2.2. Database]] notes
+* Ensure libmemcached-tools is installed (see [http://docs.libmemcached.org/ docs]), useful for debugging
+* Ensure tracking code is installed through salt stack, and not manually (!)
 
 
 === 3.3. Instance flavors ===
