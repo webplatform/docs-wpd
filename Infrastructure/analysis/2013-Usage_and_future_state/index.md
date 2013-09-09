@@ -4,7 +4,7 @@
 
 [http://webplatform.org/ WebPlatform Docs] is now close to a year old. The goal of this document is to describe the current health of the system and how we can make it better.
 
-As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the launch post], we can see a year later that the structure is handling the load fairly well. 
+As [http://blog.webplatform.org/2012/10/building-web-platforms-infrastructure/ Ryan described in the launch post], we can see a year later that the structure is handling the load fairly well.
 
 But as with anything, we also learned that we have to improve the system to make it more stable. Since the last year was mostly focussing on the content than the infrastructure, things at some spots were left behind and the system is in a need of a good maintenance.
 
@@ -32,7 +32,7 @@ This document describes in depth the usage, statistics of the current infrastruc
 |'''Application services'''
 |production:
 * app: 5
-* monitor:1 
+* monitor:1
 * piwik: 2
 * project: 1
 * code:1
@@ -93,12 +93,12 @@ temporary * :
 
 === 1.3. Current environment summary ===
 
-The following information summarizes the resources allocation used in the current environment. 
+The following information summarizes the resources allocation used in the current environment.
 
 See section [[#2. Current environment]] for more details.
 
 * '''Production environment'''
-**  25  Public IP addresses; it could be possible to work with 12 static IP addresses for production 
+**  25  Public IP addresses; it could be possible to work with 12 static IP addresses for production
 **  18  VMs production instances
 ** 5 http/php (app servers)
 ** 2 memcached
@@ -198,7 +198,7 @@ A generic profile server should serve only as a redundant HTTP app service. Each
 |Ubuntu 11.04 LTS Lucid
 |-
 |'''Web application profiles:'''
-| 
+|
 * MediaWiki
 * Dabblet
 * WordPress
@@ -224,7 +224,7 @@ A generic profile server should serve only as a redundant HTTP app service. Each
 |
   app3:
     Filesystem            Size  Used Avail Use% Mounted on
-    /dev/vda              9.9G  5.0G  4.5G  53% / 
+    /dev/vda              9.9G  5.0G  4.5G  53% /
     /dev/vdb              227G  188M  215G   1% /mnt
     storage3:/wiki-images  50G  832M   50G   2% /srv/webplatform/wiki/images
   app2:
@@ -262,7 +262,7 @@ This instance provides a web frontend to ganglia reports, and publish them publi
 |Ubuntu 12.04.2 LTS Precise
 |-
 |'''Web application profiles:'''
-| 
+|
 * Ganglia frontend
 |-
 |'''Services:'''
@@ -302,7 +302,7 @@ This instance provides piwik dashboard web front-end and tracking beacon.
 |2
 |-
 |'''Web application profiles:'''
-| 
+|
 * Piwik
 |-
 |'''Services:'''
@@ -339,7 +339,7 @@ This instance provides piwik dashboard web front-end and tracking beacon.
 This node hosts a dedicated version of Bug Genie, available here.
 
 Linux release: Ubuntu 12.04.1 LTS
-Node name: <tt>project</tt>  
+Node name: <tt>project</tt>
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
@@ -361,7 +361,7 @@ Current usage
 This node is not fully working at the moment and it was planned to host code repositories and Gerrit application server.
 
 Linux release: Ubuntu 12.04 LTS
-Node name: <tt>code</tt>  
+Node name: <tt>code</tt>
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
@@ -388,7 +388,7 @@ This node is the central point of access, it manages the local datacenter. From 
 * State change execution
 
 Linux release: Ubuntu 12.04 LTS Precise
-Node name: <tt>deployment</tt> 
+Node name: <tt>deployment</tt>
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
@@ -413,7 +413,7 @@ This node type is a database cluster. The current setup has a master and a read-
 * Manage various database systems (e.g. MySQL)
 
 Linux release: Ubuntu 10.04.3 LTS Lucid
-Node name: <tt>db[n]</tt> 
+Node name: <tt>db[n]</tt>
 Current usage
 * Number of nodes: 2
 * Specs:  4 vCPU / 16 GB RAM / 480 GB HD
@@ -445,7 +445,7 @@ Node name: <tt>monitor[n]</tt>
 Current usage
 * Number of nodes: 2 (memcache1, …)
 * Specs: 2 vCPU / 4 GB RAM / 120 GB HD
-* Load average: 
+* Load average:
 ** 0.00, 0.01, 0.05
 ** 0.01, 0.03, 0.05
 * Services:
@@ -469,11 +469,11 @@ Current usage
 Currently, the storage is using GlusterFS as the system and many instances are using it as well.
 
 Linux release: Ubuntu 12.04.2 LTS Precise
-Node name: <tt>storage[n]</tt> 
+Node name: <tt>storage[n]</tt>
 Current usage
 * Number of nodes: 2 (storage1, …)
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
-* Load average: 
+* Load average:
 ** 0.04, 0.03, 0.05
 ** 0.04, 0.04, 0.05
 * Profiles
@@ -502,7 +502,7 @@ Current usage
 ===== 2.2.3.1. Backup =====
 
 Linux release: Ubuntu 12.04 LTS
-Node name: <tt>backup</tt>  
+Node name: <tt>backup</tt>
 Current usage
 * Number of nodes: 1
 * Specs: 2 vCPU / 2 GB RAM / 60 GB HD
@@ -521,9 +521,9 @@ Current usage
 ===== 2.2.3.2. Bots =====
 
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
- 
+
 Linux release: Ubuntu 12.04 LTS
-Node name: <tt>bots</tt>  
+Node name: <tt>bots</tt>
 Current usage
 * Number of nodes: 1
 * Specs: 1 vCPU / 1 GB RAM / 30 GB HD
@@ -535,7 +535,7 @@ Current usage
   bots:
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/vda1       9.9G  896M  8.5G  10% /
-    /dev/vdb         20G  173M   19G   1% /mnt 
+    /dev/vdb         20G  173M   19G   1% /mnt
 
 
 
@@ -549,7 +549,7 @@ Current usage
 
 === 3.1. Type of deployment ===
 
-The objective is to enforce testing prior to applying it to the production environment. 
+The objective is to enforce testing prior to applying it to the production environment.
 
 Although the production environment has fixed resources, the Staging/testing environment can be built on demand with flexible amount of IP/VMs to ensure the developed configuration works prior to apply it to production.
 
@@ -561,11 +561,11 @@ Production environment is very important and it must be fully tested in Staging/
 
 ==== Staging/testing ====
 
-The objective of this server environment is to reproduce an isolated version of the production environment. 
+The objective of this server environment is to reproduce an isolated version of the production environment.
 
 Therefore,  the idea is to have the capability of a fully working and isolated environment version for short and temporary period for development and/or testing purposes.
 
-It is estimated that during a period of time, we might have 2 distinct deployments running for testing and acceptance testing prior to be applied in production. 
+It is estimated that during a period of time, we might have 2 distinct deployments running for testing and acceptance testing prior to be applied in production.
 
 
 
@@ -589,9 +589,22 @@ The objective is to migrate the Operating System version to current Ubuntu LTS v
 
 
 
+==== 3.2.2. Misc. tasks ====
+
+Some tasks might improve the overall performance of the system.
+
+* Default vhost (e.g. via the IP) to serve a static file
+* Each vhost only allows http communication to known hosts (i.e. fastly, aremysiteup, monitoring, etc)
+* Clean up the hosts with only the minimal web applications deployed with their vhosts
+* Use/configure fastly monitoring (I need to read about what we can get out of it)
+* Use fastly 50x error pages with static  
+* Use secondary partition for manifest storage mount as XFS for quick snapshots;
+* Hide to a maximum server version in vhosts/php configuration
+
+
 === 3.3. Instance flavors ===
 
-The architecture of the solution is going to be re-evaluated, as there are also other instances that do not need to be exactly the same. 
+The architecture of the solution is going to be re-evaluated, as there are also other instances that do not need to be exactly the same.
 
 
 
@@ -609,7 +622,7 @@ An app server should have deployed one or more web application virtual host. Thi
 :
 :''Profile “A”''
 :* qty: 5
-:* using: 
+:* using:
 :** WordPress
 :** MediaWiki
 :** BugGenie
@@ -629,9 +642,7 @@ An app server should have deployed one or more web application virtual host. Thi
 
 :'''To analyze:'''
 :* Not all node types requires a public IP address, nodes like Ganglia, Bug genie, and Piwik could be behind a single NGINX proxy server as it is likely to be less used than a typical MediaWiki/WordPress;
-:* See to support both NGINX AND Apache2 as HTTP server for all web applications;
-:* Use secondary partition for manifest storage mount as XFS for quick snapshots;
-:* Block storage/NFS mount point for same data across instances;
+:* See to support both NGINX AND Apache2 as HTTP server for all web applications;:* Block storage/NFS mount point for same data across instances;
 :* Find pro and cons regarding multiple web application server sharing the same storage service (e.g. NFS cluster) spanning across multiple instances. What is recommended, how is it failure resilient?
 :* Nice to have: KVM-like console access (in case of firewall problem, or hard failure);
 :
@@ -669,7 +680,7 @@ An app server should have deployed one or more web application virtual host. Thi
 :'''Provisioning:'''
 :
 :The following is a sum of the described profiles below.
-: 
+:
 :# 2  Public IP addresses
 :# database node (DB hot backup)
 :# deployment node
@@ -710,25 +721,25 @@ Assuming multi-site hosting system is built, we will use [http://docs.saltstack.
 
 ===== 3.3.2.2. Database =====
 
-The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottleneck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total). 
+The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a  bottleneck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total).
 
 The most of the current application stack do not necessarily have drop-in caching mechanism. We should analyze in depth whether we can detect the ‘too many connections’ problem, and analyze its usage.
 
 
-:'''Provisioning:''' 
+:'''Provisioning:'''
 :* 2-4 VMs
 :* 1 Public IP address
 :* Preferred to have significant amount of vCPU/vRAM
 :
 :'''To be analyzed:'''
 :* We should have one name, but multiple A entries, of write(able) database servers for round-robin.
-:* or maybe is broken, something yet to evaluate. 
+:* or maybe is broken, something yet to evaluate.
 :* Create hot backup replication to shelter site (on W3C infra)
 :* Database connector proxy (see [http://dev.mysql.com/doc/refman/5.6/en/mysql-proxy.html mysql-proxy])
 :* Upgrade MySQL version and/or see for alternate (compatible) distribution: Percona, MariaDB
 :
 :'''Requirements:'''
-:# Make secondary drive as XFS, and to configure MySQL/etc database storage so we can make ‘snapshots’ 
+:# Make secondary drive as XFS, and to configure MySQL/etc database storage so we can make ‘snapshots’
 :# Block storage, or mount-point (NFS?);
 :# Use secondary partition for database data as XFS for snapshots
 
