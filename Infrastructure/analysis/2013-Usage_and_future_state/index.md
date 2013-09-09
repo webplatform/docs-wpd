@@ -718,7 +718,7 @@ The objective is to migrate the Operating System version to current Ubuntu LTS v
 
 ==== 3.2.2. Misc. tasks ====
 
-Some tasks might improve the overall performance of the system.
+Some tasks might improve the overall performance of the system, they should be analyzed and reported into [http://project.webplatform.org/infrastructure/issues the issue tracker]
 
 * Install Logstash and ensure ALL services reports logs to it
 * VHost configuration (both NGINX than Apache)
