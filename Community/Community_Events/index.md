@@ -2,7 +2,7 @@
 
 ===Upcoming===
 * '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
-* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] (Paul Verbeek)
+* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
 * '''OCT (Date TBD)'''—TENTATIVE: Doc Sprint @ U Washington (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
 ===Past===
