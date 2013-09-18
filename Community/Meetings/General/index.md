@@ -23,6 +23,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ==Agenda 2013-09-20==
 
 * WPW update - status?
+** Have coordinators verified the status of each page in their purview?
 * WPW reinvigoration - what do we need to do to put some life back into this?
 * State of WPD for the birthday - what have we accomplished?
 * Who's in for Amsterdam?
