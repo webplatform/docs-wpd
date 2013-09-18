@@ -32,6 +32,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * JavaScript import status?
 * Compatibility automation status?
 * Back-end update from Renoir?
+* Writer for next week's WPW blog post?
 * Anything else?
 
 ==Agenda 2013-08-23==
