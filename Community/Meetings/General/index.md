@@ -20,6 +20,20 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-09-20==
+
+* WPW update - status?
+* WPW reinvigoration - what do we need to do to put some life back into this?
+* State of WPD for the birthday - what have we accomplished?
+* Who's in for Amsterdam?
+* Doc Sprint New York?
+* We're out: print up some new t-shirts?
+* Reminder: Doc Sprint in a Box, Oct. 2
+* JavaScript import status?
+* Compatibility automation status?
+* Back-end update from Renoir?
+* Anything else?
+
 ==Agenda 2013-08-23==
 
 * Roll call
