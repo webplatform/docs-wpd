@@ -5,6 +5,7 @@
 * [[WPD:Infrastructure/Deployment|Deployment]]
 * [[WPD:Infrastructure/Backup and Restore|Backup and Restore]]
 * [[WPD:Infrastructure/Code_Viewer|Code Viewer]]
+* [[WPD:Infrastructure/Piwik Tracking code installation]]
 
 ==Site Structure==
 
