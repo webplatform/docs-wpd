@@ -22,9 +22,16 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 ==Agenda 2013-09-20==
 
+Objective: Describe the current state of the project.
+
+Note, the objective does not include making any decisions or otherwise taking any actions other than those required to understand the state of the project. This should be a very short, concise meeting.
+
 * WPW update - status?
 ** Have coordinators verified the status of each page in their purview?
+** We need to consolidate the tables into a final master list of properties to be worked on, and we want to include only those properties still being worked.
 * WPW reinvigoration - what do we need to do to put some life back into this?
+** We've dropped to 50 active users/month.
+** Are site performance problems a contributing factor?
 * State of WPD for the birthday - what have we accomplished?
 * Who's in for Amsterdam?
 * Doc Sprint New York?
@@ -34,7 +41,8 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Compatibility automation status?
 * Analytics & reporting?
 * Back-end update from Renoir?
-* Writer for next week's WPW blog post?
+** Piwik enhancements in a nutshell
+** Site performance - what are the problems and what is preventing solutions?
 * Anything else?
 
 ==Agenda 2013-08-23==
