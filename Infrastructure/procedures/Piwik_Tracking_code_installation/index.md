@@ -9,26 +9,27 @@ How is installed the tracking code throughout the web application.
 
 
 === MediaWiki ===
- * Created two files in ''code/docs/current/extensions/piwik/''
- * Added file:  [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.hooks.php]
- * Added file from: [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.php]
- * Modified code/docs/Settings.php accordingly to [6]
- * Visitor exclusion: will not track authenticated MediaWiki Administrator users
+* Based on [http://www.mediawiki.org/wiki/Extension:Piwik_Integration MediaWiki Piwik Integration]
+* Created two files in ''code/docs/current/extensions/piwik/''
+* Added file:  [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.hooks.php]
+* Added file from: [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.php]
+* Modified code/docs/Settings.php accordingly to [6]
+* Visitor exclusion: will not track authenticated MediaWiki Administrator users
  
 === Status (tumblr) ===
- * Login to Tumblr, in Settings, WebPlatform.org site, Search for Theme, click 'customize', find 'Edit HTML' button, added code.
- * Visitor exclusion: None
+* Login to Tumblr, in Settings, WebPlatform.org site, Search for Theme, click 'customize', find 'Edit HTML' button, added code.
+* Visitor exclusion: None
 
 === WordPress ==
- * Installed [7] Wp-Piwik plugin
- * Visitor exclusion: will not track authenticated WordPress with role Administrator
+* Installed [http://wordpress.org/plugins/wp-piwik/ Wp-Piwik plugin]
+* Visitor exclusion: will not track authenticated WordPress with role Administrator
 
 === Static pages ===
- * Edited in file: code/nonshared/webplatform/templates/container_close.html
- * Used on the pages:
- *# http://talk.webplatform.org/
- *# http://www.webplatform.org/errors/503.html
- *# http://www.webplatform.org/errors/404.html
- *# http://www.webplatform.org/stewards/adobe/ (and all other stewards)
- *# http://www.webplatform.org/logo/
- * Visitor exclusion: None
+* Edited in file: code/nonshared/webplatform/templates/container_close.html
+* Used on the pages:
+*# http://talk.webplatform.org/
+*# http://www.webplatform.org/errors/503.html
+*# http://www.webplatform.org/errors/404.html
+*# http://www.webplatform.org/stewards/adobe/ (and all other stewards)
+*# http://www.webplatform.org/logo/
+* Visitor exclusion: None
