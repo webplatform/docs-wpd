@@ -4,8 +4,8 @@ How is installed the tracking code throughout the web application.
 == Web applications ==
 
 === BugGenie ===
- * File '''core/templates/footer.inc.php''' has the Piwik tracking code
- * Visitor exclusion: None
+* File '''core/templates/footer.inc.php''' has the Piwik tracking code
+* Visitor exclusion: None
 
 
 === MediaWiki ===
@@ -20,7 +20,7 @@ How is installed the tracking code throughout the web application.
 * Login to Tumblr, in Settings, WebPlatform.org site, Search for Theme, click 'customize', find 'Edit HTML' button, added code.
 * Visitor exclusion: None
 
-=== WordPress ==
+=== WordPress ===
 * Installed [http://wordpress.org/plugins/wp-piwik/ Wp-Piwik plugin]
 * Visitor exclusion: will not track authenticated WordPress with role Administrator
 
