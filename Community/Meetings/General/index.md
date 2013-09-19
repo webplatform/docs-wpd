@@ -32,6 +32,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Reminder: Doc Sprint in a Box, Oct. 2
 * JavaScript import status?
 * Compatibility automation status?
+* Analytics & reporting?
 * Back-end update from Renoir?
 * Writer for next week's WPW blog post?
 * Anything else?
