@@ -29,5 +29,6 @@ Please add e-mail reply that help describe the project requirements.
 #* [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0024.html]
 
 == Attached files ==
+# [[File:20130827_analytics_draft2_gabiviana.pdf|2nd Wireframe Draft by Gabriela Viana]], see [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0024.html]
 # [[File:20130821_analytics_first_draft_gabiviana.pdf|First Wireframe Draft by Gabriela Viana]], see [http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0023.html Call for comments]
 # [[File:20130800_analytics_pdsouza_wireframe.png|Initial wireframe by Patrick D'Souza]]
