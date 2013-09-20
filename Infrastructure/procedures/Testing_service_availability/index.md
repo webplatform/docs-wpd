@@ -36,3 +36,14 @@ Collection of small shell scripts that will be used to test components of the in
     $client->add('key1', $tmp_object, 10) or die ("Failed to save data at the server");
     var_dump($client->get('key1'));
     var_dump($client->get('wpwiki:user:stats:359'));
+
+
+=== Website vhost ===
+
+* One per vhost
+* Grep if a string exist
+* Return non zero if it fails
+* See for [http://nagiosplugins.org/man/check_http Nagios check_http]
+
+    #!/bin/bash
+    curl -I -H 'Host: docs.webplatform.org' http://15.185.116.171/wiki/Main_Page?t=cli-renoirb
