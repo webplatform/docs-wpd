@@ -6,7 +6,7 @@
 * [[WPD:Infrastructure/Backup and Restore|Backup and Restore]]
 * [[WPD:Infrastructure/Code_Viewer|Code Viewer]]
 * [[WPD:Infrastructure/Piwik Tracking code installation]]
-
+* [[WPD:Infrastructure/Testing service availability]]
 ==Site Structure==
 
 {| class="wikitable sortable" |
