@@ -43,6 +43,7 @@ Note, the objective does not include making any decisions or otherwise taking an
 * Back-end update from Renoir?
 ** Piwik enhancements in a nutshell
 ** Site performance - what are the problems and what is preventing solutions?
+* Next week's blog post author
 * Anything else?
 
 ==Agenda 2013-08-23==
