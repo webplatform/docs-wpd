@@ -19,6 +19,7 @@ See [[WPD:Community/Meetings/Analytics|Analytics Task Force meetings]]
 * Patrick
 * Scott
 * Julee
+* Renoir
 
 ==Projects==
 Here's what we're working on.
