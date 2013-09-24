@@ -14,7 +14,7 @@ How is installed the tracking code throughout the web application.
 * Added file:  [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.hooks.php]
 * Added file from: [https://raw.github.com/DaSchTour/piwik-mediawiki-extension/master/Piwik.php piwik-mediawiki-extension Piwik.php]
 * Modified code/docs/Settings.php accordingly to [6]
-* Visitor exclusion: will not track authenticated MediaWiki Administrator users
+* Visitor exclusion: None
  
 === Status (tumblr) ===
 * Login to Tumblr, in Settings, WebPlatform.org site, Search for Theme, click 'customize', find 'Edit HTML' button, added code.
@@ -22,7 +22,7 @@ How is installed the tracking code throughout the web application.
 
 === WordPress ===
 * Installed [http://wordpress.org/plugins/wp-piwik/ Wp-Piwik plugin]
-* Visitor exclusion: will not track authenticated WordPress with role Administrator
+* Visitor exclusion: None
 
 === Static pages ===
 * Edited in file: code/nonshared/webplatform/templates/container_close.html
