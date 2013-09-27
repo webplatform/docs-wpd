@@ -20,6 +20,20 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-09-27==
+
+===Agenda===
+
+* Piwik and the Analytics is back on track!
+** Analytics: Create a secret starting page that will help track activity during a doc sprint (TBD, probably next week)
+** Analytics: Improve the goal tracking using Piwik's API and JavaScript
+** Infra: Changing datacenter?
+*  Doc-Sprint-In-A-Boxathon scheduled for next wednesday.
+** Everyone is welcome to join, Patrick.
+** Scott will send out a note.
+** Goal is to have this done before the Amsterdam Doc Sprint, possibly even earlier.
+* CSS properties tables
+
 ==Agenda 2013-09-20==
 
 Objective: Describe the current state of the project.
