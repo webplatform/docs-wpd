@@ -34,6 +34,38 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Goal is to have this done before the Amsterdam Doc Sprint, possibly even earlier.
 * CSS properties tables
 
+===Discussion===
+====TOPIC:  PiWik/ Analytics====
+Piwik and the Analytics are back on track. Two weeks ago Renoir deployed PiWik in a different way than before without going too deep, it was in the same way as before (Fastly), putting a different tracking code on all of the pages should have covered all of the pages, with the help of Patrick, create goals in the dashboard & campaigns. Now forwarding all of the e-mails to the analytics mailing list.
+Julee & Eliot filed a bug and I responded to an earlier filed one that represents requirements for the dashboard. At the analytics meeting next week we could consolidate requirements and finalize that list. All bugs & discussion is on http://docs.webplatform.org/wiki/WPD:Requirements/Analytics
+Renoirb gives a rough geolocation, might need to recrunch the database; some other work: a way to trigger conversions in the goals (like clicking on edit or save), will require adding JS if we get it in place before the docsprint, we can track progress. Scott_rowe will show up at next analytics meeting to discuss.
+* ACTION: Scott_rowe to attend analytics meeting on Monday 4pm pdt
+====TOPIC:  Infra: Changing datacenter?====
+No news. Worked with Doug on that. Didn't get any feedback from anyone yet, but time is passing working to rebuild the VM from scratch as much as renoir can in the same environment.
+We either need to move soon, or do the move next month
+Still trying to connect up with Dreamhost and other folks
+====TOPIC:  Doc-Sprint-In-A-Boxathon scheduled for next wednesday====
+I asked Jay to take leadership of kicking this off I think that he is working on the general structure of the thing right now, Jay sent an e-mail about the timing, but also an e-mail from Scott and Peter where they had a draft docsprint in a box: a brain dump about all of the things we thought should be in there. Not intended to dictate the structure. just making sure that before the meeting we wrote down what we had learned from doing a few. Jay also had an idea of the structure he wanted.
+* ACTION: scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm
+====TOPIC:  CSS properties tables====
+We discussed how to manage the tables. Also, coordinators need to verify that each property they are coordinator for is properly reflected in table. Julee & Eliot have done this. Chris Mills, Shepazu & Nic d'Costa needs to do this. 
+* ACTION: Julee to remind Nic & Doug to update their properties in the tables. [DONE]
+* ACTION: ??? to contact Chris.
+We discussed doing a script to import all properties into project.webplatform.org, but really the work is manual checking at this point.
+https://scraperwiki.com/
+
+Creating a JS project in the project tracker and populating it makes sense for when we start a new project, especially since we've fixed the sendmail time-out bug.
+
+* ACTION: scottrowe_ and julee to work at creating a new list of unfinished CSS properties
+
+===Action Items===
+* Scott_rowe to attend analytics meeting on Monday 4pm pdt
+* scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm
+* Julee to remind Nic & Doug to update their properties in the tables. [DONE]
+* ??? to contact Chris.
+* scottrowe_ and julee to work at creating a new list of unfinished CSS properties
+
+
 ==Agenda 2013-09-20==
 
 Objective: Describe the current state of the project.
