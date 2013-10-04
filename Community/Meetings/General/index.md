@@ -56,10 +56,55 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Change this meeting time/day?
 * Anything else?
 
-===Discussion===
+====Topic: CSS property status====
+scottrowe_ emailed the list of 95 properties
+… the coordinators should contact those people individually
+… and if we can't get those people, we'll reassign them
+http://docs.webplatform.org/wiki/WPD:Community/Meetings/General
+while scott compiled the list of properties, Julee reconstructed a master list & categorized them according to status. She will put this in a google doc to manipulate it more easily
+we should still have TBDs on the wiki, so people can sign up… and it's out of date
 
+there are about 60 that need to be done, and 35 need review
+
+====Topic: Doing experimental properties====
+
+some have said we should only work on things that are not experimental, but there's value for us to do more cutting-edge stuff since we're closer to the development of the specs and implementations
+also good for SEO
+we need to be careful about updating examples
+The idea we had in mind is a mechanism. Isn't going to happen in the next 6 months
+for now maybe we could do this: W3C has a DB, with a unique URL for each spec, so we could come up with something where we are working off a draft version , script that trolls publications every day, sends an email w/ a list of specs that have changed, validated against URL
+ACTION: shepazu & eliot to brainstorm w/ Robin at TPAC
+====TOPIC: site stability====
+Getting server & client-side errors on dabblet
+Are we doing any stability testing?
+ACTION: Renoir to write up his testing plan, and add all relevant systems to that plan, such as Dabblet instance
+julee: we could also ask the community to help with testing
+====Topic: Doc Sprint in a Box====
+https://docs.google.com/document/d/1fIDssDZln2Z_DrnKliT1ymZpn_OTqdYA7rVgMaTsSk4/edit
+ACTION: Millo to review doc sprint in a box, add some comments, and update it based on what we've learned internally
+
+ACTION: scottrowe do an edit pass stripped down to its main purpose which is to have community members throw doc sprint
+ACTION: scottrowe to share with Patrick D'Souza for review
+
+====Topic: WPD Birthday next Tue: list activities/URLs====
+doing it on OCtober 8 would be best, since it's the birthday, but we have no volunteers; maybe the WPD twitter account could be the lead, and eveyone else could retweet
+
+scottrowe_ needs anecdotes, but I'll write the blog post
+ACTION: Julee to forward Scott's email & get them to commit to tweet & point to the blog post. We looked very much on the same page 1 yr ago: we should look that way now.
+ACTION: scottrowe_ will write the blog post, hopefully by Thursday.
+====topic: Change this meeting time/day?====
+ACTION: Julee to send a query email & ask if we should Change this meeting time/day?
 
 ===Action Items===
+* shepazu & eliot to brainstorm w/ Robin at TPAC
+* Renoir to write up his testing plan, and add all relevant systems to that plan, such as Dabblet instance
+* Millo to review doc sprint in a box, add some comments, and update it based on what we've learned internally
+* scottrowe do an edit pass stripped down to its main purpose which is to have community members throw doc sprint
+* scottrowe to share with Patrick D'Souza for review
+* Julee to forward Scott's email & get them to commit to tweet & point to the blog post. We looked very much on the same page 1 yr ago: we should look that way now.
+* scottrowe_ will write the blog post, hopefully by Thursday.
+* Julee to send a query email & ask if we should Change this meeting time/day?
+
 
 
 
