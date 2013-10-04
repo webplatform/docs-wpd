@@ -102,11 +102,11 @@ Creating a JS project in the project tracker and populating it makes sense for w
 * ACTION: scottrowe_ and julee to work at creating a new list of unfinished CSS properties
 
 ===Action Items===
-* Scott_rowe to attend analytics meeting on Monday 4pm pdt
-* scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm
-* Julee to remind Nic & Doug to update their properties in the tables. [DONE]
-* ??? to contact Chris.
-* scottrowe_ and julee to work at creating a new list of unfinished CSS properties
+* Scott_rowe to attend analytics meeting on Monday 4pm pdt [STATUS: Everyone was a no-show. Will happen next Monday, instead.]
+* scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm  [DONE]
+* Julee to remind Nic & Doug to update their properties in the tables. [DONE - Julee & scottrowe did them]
+* ??? to contact Chris. [Resolved]
+* scottrowe_ and julee to work at creating a new list of unfinished CSS properties  [DONE]
 
 
 ==Agenda 2013-09-20==
