@@ -53,6 +53,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * site stability
 * Doc Sprint in a Box
 * WPD Birthday next Tue: list activities/URLs
+* Change this meeting time/day?
 * Anything else?
 
 ===Discussion===
