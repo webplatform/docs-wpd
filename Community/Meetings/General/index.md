@@ -20,6 +20,47 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-10-04==
+
+===Agenda===
+
+* CSS Properties status
+{|class="wikitable" style="text-align: center; width:50%"
+!Status
+!Number
+|-
+| done
+| 209
+|-
+| In Progress
+| 20
+|-
+| Low Priority
+| 113
+|-
+| Needs Review
+| 37
+|-
+| Obso/Deprec
+| 8
+|-
+| TBD
+| 60
+|-
+| Grand Total
+| 447
+|}
+* site stability
+* Doc Sprint in a Box
+* Anything else?
+
+===Discussion===
+
+
+===Action Items===
+
+
+
 ==Agenda 2013-09-27==
 
 ===Agenda===
