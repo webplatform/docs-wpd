@@ -8,6 +8,10 @@ This document is not a requirement document, but a collection of notes that will
 == Decisions ==
 TBA
 
+==Bugs==
+http://project.webplatform.org/analytics/issues/15
+http://project.webplatform.org/analytics/issues/16
+
 == See also ==
 * [[WPD:Project_Status#Goals_for_Community]]
 * [https://github.com/webplatform/DocSprintDashboard DocSprintDashboard project on GitHub]
