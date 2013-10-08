@@ -105,3 +105,49 @@ This results in the following table:
 | dog 2
 | zebra 3
 |}
+
+
+==Other, less styled variant==
+This variant has been found by mix-matching class names. Consider this as a hack if you really need to put data in a table without being forced to use first row as the table heading cell.
+
+<pre><nowiki>
+{| class="mw-datatable os-suggest-results filehistory"
+|+Unstyled table, and showing table caption cell syntax
+|-
+|Column one
+|Column two
+|Column three
+|-
+|'''Column one and row one'''
+|Column two:
+* Lists
+* works
+* that way
+|Column three
+|-
+|'''Column one and row two'''
+|Column two, row two
+|Column three, row two
+|}
+</nowiki></pre>
+
+This results in the following table:
+
+{| class="mw-datatable os-suggest-results filehistory"
+|+Unstyled table
+|-
+|Column one
+|Column two
+|Column three
+|-
+|'''Column one and row one'''
+|Column two:
+* Lists
+* works
+* that way
+|Column three
+|-
+|'''Column one and row two'''
+|Column two, row two
+|Column three, row two
+|}
