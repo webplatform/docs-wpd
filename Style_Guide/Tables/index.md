@@ -134,7 +134,7 @@ This variant has been found by mix-matching class names. Consider this as a hack
 This results in the following table:
 
 {| class="mw-datatable os-suggest-results filehistory"
-|+Unstyled table
+|+Unstyled table, and showing table caption cell syntax
 |-
 |Column one
 |Column two
