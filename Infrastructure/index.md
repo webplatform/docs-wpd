@@ -1,12 +1,6 @@
-* [[WPD:Infrastructure/Importing_data|Importing data]]
-* [[WPD:Infrastructure/Tasks|Infrastructure Tasks]]
-* [[WPD:Infrastructure/Site_Map|Site Map]]
-* [[WPD:Infrastructure/Bugs|Bugs]]
-* [[WPD:Infrastructure/Deployment|Deployment]]
-* [[WPD:Infrastructure/Backup and Restore|Backup and Restore]]
-* [[WPD:Infrastructure/Code_Viewer|Code Viewer]]
-* [[WPD:Infrastructure/Piwik Tracking code installation]]
-* [[WPD:Infrastructure/Testing service availability]]
+== Table of contents ==
+<splist />
+
 ==Site Structure==
 
 {| class="wikitable sortable" |
