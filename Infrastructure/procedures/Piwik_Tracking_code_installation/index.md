@@ -33,3 +33,30 @@ How is installed the tracking code throughout the web application.
 *# http://www.webplatform.org/stewards/adobe/ (and all other stewards)
 *# http://www.webplatform.org/logo/
 * Visitor exclusion: None
+
+=== Customizations ===
+==== MediaWiki ====
+<syntaxHighlight>
+// In file Piwik.hooks.php, within AddPiwik method
+
+    $wgPiwikCustomJS[] = <<<'JS'
+
+          // Note from renoirb: Should be moved somewhere else soon
+          jQuery(document).ready(function(){
+              jQuery('body').on('click', '#ca-edit', function(){
+                 if (typeof _paq !== 'undefined') {
+                    _paq.push(['trackGoal',1]);// Goal specific to edit a page
+                 }
+              });
+          });
+
+JS;
+
+    // Do NOT fail the attempt if it failed, please.
+    try {
+      if ( $wgUser->isAnon() === false ) {
+        $userName = $wgUser->getName();
+        $wgPiwikCustomJS[] = '          _paq.push(["setCustomVariable",1,"username","'.$userName.'", "visit"]);'.PHP_EOL;
+      }
+    } catch(Exception $e) {  }
+</syntaxHighlight>
