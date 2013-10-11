@@ -10,7 +10,7 @@ WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopt
 * =x=, ==x==, etc. for heading levels
 * &#39;&#39;x&#39;&#39; and &#39;&#39;&#39;x&#39;&#39;&#39; for bold/italic
 * &#91;URL link-text&#93; for external links
-* &#91;&#91;relative-URL|link-text&#93;&#93; for internal
+* &#91;&#91;relative-URL|link-text&#93;&#93; for internal. Note that spaces are accepted (e.g. &#91;&#91;WPD:Style Guide/Wiki markup crash course&#93;&#93; )
 * &#91;&#91;file:filename.xxx&#93;&#93; for embedding files
 * Tables are horrible - see http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas
 * &#60;syntaxHighlight&#62;&#60;/syntaxHighlight&#62; for code blocks
