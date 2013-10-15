@@ -1,5 +1,5 @@
 =Doc Sprint in a Box=
-How to hold a doc sprint and live to tell the tale.
+How to hold a doc sprint and live to tell the tale. [Still under construction; it's been a busy couple of weeks]
 
 ==What’s a Doc Sprint?==
 This document describes the planning and execution of a Web Platform Doc Sprint. While a doc sprint may be as simple as a small group of people gathering at someone's house or as elaborate as a full-blown event at a public venue, with fifty or more people, catering, speakers, swag, etc., for the purposes of this document a doc sprint is:
