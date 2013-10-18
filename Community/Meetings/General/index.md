@@ -22,6 +22,19 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 ==Agenda 2013-10-11==
 
+* CSS Properties Project
+** clip-rule status, Doug?
+** who will volunteer for table-layout & vertical-align?
+** other dependencies?
+*** compatibility tables
+*** legacy MSDN samples, related pages, and syntax section?
+*** flag simplification?
+*** review from CSS experts, spec editors & rockstars?
+*** launch plan?
+*** should we migrate first?
+* migration plan
+* JS project plan
+* html5devconf table in SF
 * Internal Doc Sprint to get landing page & other site organization cleared up?
 
 ===Agenda===
