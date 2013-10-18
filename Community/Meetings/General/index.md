@@ -36,13 +36,13 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 | Low Priority
 | 105
 |-
-| Needs examples 
+| Needs examples (clip-rule, Doug)
 | 1
 |-
 | Obso/Deprec
 | 28
 |-
-| TBD
+| TBD (table-layout)
 | 1
 |-
 | Grand Total
@@ -51,7 +51,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 * CSS Properties Project
 ** clip-rule status, Doug?
-** who will volunteer for table-layout & vertical-align?
+** who will volunteer for table-layout?
 ** other dependencies?
 *** compatibility tables
 *** legacy MSDN samples, related pages, and syntax section?
