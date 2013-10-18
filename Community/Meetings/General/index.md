@@ -42,7 +42,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 | Obso/Deprec
 | 28
 |-
-| TBD (table-layout)
+| Vivienne just took! (table-layout)
 | 1
 |-
 | Grand Total
