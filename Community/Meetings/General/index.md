@@ -23,6 +23,33 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ==Agenda 2013-10-11==
 
 * CSS Properties Project
+{|class="wikitable" style="text-align: center; width:50%"
+! Status
+! Number
+|-
+| done
+| 257
+|-
+| In Progress
+| 3
+|-
+| Low Priority
+| 105
+|-
+| Needs examples 
+| 1
+|-
+| Obso/Deprec
+| 28
+|-
+| TBD
+| 1
+|-
+| Grand Total
+| 395
+|} 
+
+* CSS Properties Project
 ** clip-rule status, Doug?
 ** who will volunteer for table-layout & vertical-align?
 ** other dependencies?
