@@ -68,6 +68,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Doc-Sprint-In-A-Box, Piwik reporting: this is a job for the Cracker-Jack Analytics Team!
 ** A cogent set of steps for generating reports
 ** What metrics shall we report?
+** Better UI for Piwik (presently unintelligible) - if possible
+*** "Goals > Saves a Page" path makes no sense (what is this, some kind of mangled translation?)
+*** What the heck is a "conversion?"
+*** (I mean, really, sometimes this open-source stuff is incorrigible!)
 
 
 ==Agenda 2013-10-04==
