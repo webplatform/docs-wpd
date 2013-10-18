@@ -72,6 +72,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** "Goals > Saves a Page" path makes no sense (what is this, some kind of mangled translation?)
 *** What the heck is a "conversion?"
 *** (I mean, really, sometimes this open-source stuff is incorrigible!)
+* Doc Sprint, New York in December
+** Pro: New York, baby!
+** Con: We're not ready yet; let's get JavaScript imported and scoped first
 
 
 ==Agenda 2013-10-04==
