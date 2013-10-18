@@ -30,7 +30,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 | done
 | 257
 |-
-| In Progress
+| In Progress (Dave)
 | 3
 |-
 | Low Priority
