@@ -61,7 +61,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 *** should we migrate first?
 * migration plan
 * JS project plan
-* html5devconf table in SF
+** Should we do a plan, including community management, after a post-mortem on the CSS properties project?
+** A bulk of work gets done at Doc Sprints, should plan include proposing Doc Sprints on a regular basis to get a bunch of stuff done?
+* WPD table at [http://html5devconf.com/ html5devconf] in SF: please volunteer
 * Internal Doc Sprint to get landing page & other site organization cleared up?
 
 ===Agenda===
