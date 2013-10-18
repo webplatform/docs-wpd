@@ -65,8 +65,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** A bulk of work gets done at Doc Sprints, should plan include proposing Doc Sprints on a regular basis to get a bunch of stuff done?
 * WPD table at [http://html5devconf.com/ html5devconf] in SF: please volunteer
 * Internal Doc Sprint to get landing page & other site organization cleared up?
+* Doc-Sprint-In-A-Box, Piwik reporting: this is a job for the Cracker-Jack Analytics Team!
+** A cogent set of steps for generating reports
+** What metrics shall we report?
 
-===Agenda===
 
 ==Agenda 2013-10-04==
 
