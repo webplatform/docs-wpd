@@ -2,10 +2,10 @@
 
 ===Upcoming===
 * '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
-* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
-* '''OCT (Date TBD)'''—TENTATIVE: Doc Sprint @ U Washington (Millo & [[User:Eliot-MSFT|Eliot]] )
+* '''2-NOV-2013''': Web Platform Doc Sprint @ U Washington [https://www.eventbrite.com/event/8903872723/ Registration] (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
 ===Past===
+* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
 * '''28-AUG-2013'''— Web Platform Doc Sprint hosted by Adobe at Frontend Conference Zurich, Switzerland. [http://wpds-zurich.eventbrite.com/ Registration] [http://2013.frontendconf.ch/workshops/ FrontendconfCH event page] (Andre Jay Meissner)
 * '''24-JUL-2013'''—TENTATIVE: Web Platform Wednesday? @ [http://www.oscon.com/oscon2013 OSCon, Portland, OR] (Doug)
 * '''25-JUL-2013'''—[http://www.oscon.com/oscon2013/public/schedule/detail/29099 OSCON: Doug, Janet & Eliot talking about Web Platform 5:00pm]
