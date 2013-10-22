@@ -124,7 +124,7 @@ On the day of the event, '''send out a note to all no-shows'''.
 ==Timeline==
 Introductory text
 {| class="wikitable"
-! scope="col" width="50px" | Name
+! scope="col" width="150px" | Name
 ! scope="col" width="225px" | Effect
 ! scope="col" width="225px" | Games found in
 |-
