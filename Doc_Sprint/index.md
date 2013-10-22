@@ -54,7 +54,7 @@ While it sounds like a rad idea to have a doc sprint on the beach, the intense s
 *Conference venues (see [[#Colocated Events|Collocated Events]])
 *Universities and other academic settings
 
-===Colocated Events===
+==Colocated Events==
 Consider scheduling a doc sprint close to a relevant, local event, such as a web development conference or W3C working group face-to-face meeting. You may be able to use some of the event space, or catering; you may be able to announce your doc sprint through the event's PR and announcements, and attract some of the same attendees. Scheduling your doc sprint before the main event might get better engagement than after (when everybody's head is about to explode, from the conference or the conference party, or both). On the other hand, many conferences are scheduled for the last two days of the week, so attendees are more likely to stay through Saturday, perhaps with some time to donate to WPD and the community.
 
 However, be careful not to compete with any aspects of the main event, since attendees of that event are less likely to stick around to work at a doc sprint when there are other things to be done. Instead, organize the doc sprint on one of the subsequent days, or during a paid workshop day, or as a free event open to the public if the main event is for-pay.
@@ -66,3 +66,35 @@ Here are two examples on collocated doc sprints of the past:
 *As a partner event, after the regular event: [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint]
 
 In both examples, the conference helped to announce the doc sprint to attendees in its regular event communication with e-mails, tweets, and other messages. Also, a doc sprint and its world-wide visibility via the W3C and Web Platform Stewards PR can help a conference gain more visibility. This is a classic win-win and should be played as such, like a partnership.
+
+==Attendee Benefits==
+While it is already fun to contribute for the greater good, attendees appreciate other reasons to attend a doc sprint, such as the following:
+*'''Recognition:''' Include your contributors' names in the results report and highlight outstanding accomplishments; also, encourage them to earn their Firestarter badges (added to their user pages with the tag "<nowiki>[[Image:css-firestarter-badge-simple.png]]</nowiki>" ).
+*'''Swag:''' T-shirts, stickers, gadgets (possibly available through one of your sponsors, including the Web Platform Stewards) and the like should be available.
+*'''Raffle prizes:''' Various tech-related goodies (possibly available through one of your sponsors, including the Web Platform Stewards). Make it clear that only contributors are eligible for the raffle.
+*'''Catering:''' Try to provide at least free drinks and simple snacks such as fruits and energy bars. It's okay for attendees to break away independently for lunch, but remember that any time they leave the venue they may not come back.
+*'''Networking:''' Foster people's information exchange by having a reception or party after your event. It should be easy to find a sponsor for drinks, and most of the nearby bars are happy to keep open a corner for 10, 30, or 60 customers as long as you prearrange it with th em. Make sure the organizers and speakers are available to attendees as much as possible.
+*'''Meeting notable people:''' Similar to networking, if you have notable attendees, many people will enjoy meeting them; these might be specification editors, or well-known developers or designers. For some people, even just meeting and working alongside someone from the stewards group may be exciting.
+
+==Registration and Communications==
+===General Advice===
+*Come any time! Stay as long as you want! Emphasize this in all communication. Many people won't come to a doc sprint because they think that they have to be there all day.
+*The doc sprint is an introduction; you want participants to stay involved, even if you can only contribute a little bit at a time.
+*Advise people to bring their own computers and ''especially a power adaptor''. Send a reminder 24 hours before the event just for this! Make this very clear, and have it as one of the first items people will read in your communication; attendees have showed up without a computer to work on in the past! 
+*Ask attendees not to run their own hotspots, but invite them to use own cellular data for secondary devices so they come prepared.
+*Ask people to return tickets (especially on free events) if they cannot make it to the event. Include this in '''all''' communications but make sure to send out a '''dedicated''' message asking people to free up vacant tickets some days before the event so you can align catering.
+*Ask people to add themselves to any helpful social media service you are using, such as [http://www.lanyrd.com Lanyrd] or [http://www.meetup.com Meetup]. Provide these links to attendees. 
+*If you are using [http://www.eventbrite.com Eventbrite], use the survey feature to run three questions against registrants: 
+**Have you already added yourself to our Lanyrd page at <provide URL>?
+**Do you have any food requirements (vegetarian, allergies)?
+**What is your t-shirt size (if you plan to provide such swag)?
+*Make sure to provide a contact for people to ask questions.
+*Provide links to registration pages. 
+**Here is the [https://wpds-zurich.eventbrite.com/ Zurich] page.
+**Here is the [http://www.meetup.com/sfhtml5/events/109202662/ San Francisco] page.
+*Share any links to the announcement and registration pages to the [mailto:public-webplatform@w3.org WPD public list].
+*The hashtag we used for Web Platform Doc Sprints in the past is #WPDS; be sure to let your attendees know ahead of time and on the day of the event. And ask them to be active on social media! Other useful social media strings are:
+**Google Plus: +WebPlatform Docs
+**@WebPlatform
+**#WPDS
+*If you want to collect images taken by attendees, consider announcing a specific location, service, or tag to use while posting. It makes reporting much easier!
