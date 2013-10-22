@@ -124,7 +124,7 @@ On the day of the event, '''send out a note to all no-shows'''.
 ==Timeline==
 Introductory text
 {| class="wikitable"
-! scope="col" width="100px" | '''T-minus'''
+! scope="col" width="125px" | '''T-minus'''
 ! scope="col" width="400px" | '''Deliverable'''
 ! scope="col" width="400px" | '''Notes'''
 |-
@@ -159,9 +159,11 @@ Should include the what, why, where, when, and how to get involved.
 *[http://www.lanyrd.com Lanyrd]
 | Get the word out. Show up at a group meeting and give a quick lighting talk about WPD and announce the doc sprint.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 1.5 months
+| '''Swag'''
+Have quantities, a design and a vendor established for t-shirts, stickers, etc.
+See the list of [#Swag Vendors|Swag Vendors] for your location.
+| By this time you should have a rough idea of how many t-shirts and stickers to print, based on initial registrations. Most vendors need about six weeks to print and deliver.
 |-
 | t-minus text
 | deliverables text
