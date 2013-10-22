@@ -85,7 +85,7 @@ While it is already fun to contribute for the greater good, attendees appreciate
 *Ask people to return tickets (especially on free events) if they cannot make it to the event. Include this in '''all''' communications but make sure to send out a '''dedicated''' message asking people to free up vacant tickets some days before the event so you can align catering.
 *Ask people to add themselves to any helpful social media service you are using, such as [http://www.lanyrd.com Lanyrd] or [http://www.meetup.com Meetup]. Provide these links to attendees. 
 *If you are using [http://www.eventbrite.com Eventbrite], use the survey feature to run three questions against registrants: 
-**Have you already added yourself to our Lanyrd page at <provide URL>?
+**Have you already added yourself to our Lanyrd page?
 **Do you have any food requirements (vegetarian, allergies)?
 **What is your t-shirt size (if you plan to provide such swag)?
 *Make sure to provide a contact for people to ask questions.
