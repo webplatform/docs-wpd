@@ -124,9 +124,9 @@ On the day of the event, '''send out a note to all no-shows'''.
 ==Timeline==
 Introductory text
 {| class="wikitable"
-! '''T minus'''
-! '''Deliverables'''
-! '''Notes'''
+! scope="col" width="50px" | Name
+! scope="col" width="225px" | Effect
+! scope="col" width="225px" | Games found in
 |-
 | 2&nbsp;months
 | '''Commitment to day(s)'''
