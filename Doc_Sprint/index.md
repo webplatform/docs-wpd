@@ -174,23 +174,47 @@ Get commitment from community luminaries to drop by and do a presentation. If th
 | 3 weeks
 | '''Content'''
 Have a plan for what people will work on. The Content Coordinator should hold a meeting with other coordinators to develop the plan.
-| The [http://docs.webplatform.org/wiki/WPD:Getting_Started|Getting Started] page has lists of content that needs attention. These may need to be sanitized prior to the doc sprint. Run through the lists and make sure the articles cited are current. Also, email the [mailto:public-webplatform@w3.org public list] to ask about current projects & needs.
+| The [http://docs.webplatform.org/wiki/WPD:Getting_Started Getting Started] page has lists of content that needs attention. These may need to be sanitized prior to the doc sprint. Run through the lists and make sure the articles cited are current. Also, email the [mailto:public-webplatform@w3.org public list] to ask about current projects & needs.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 2 weeks
+| '''Food & Beverage'''
+Have a vendor, menu, and quantities ready.
+See the list of [[#Caterers|Caterers]] for your location.
+| Registration information should give you a good idea of how much food and beverage. You can always update your order as you get closer to the doc sprint.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 2 weeks
+| '''Reception & check-in'''
+*Staff
+*Badges
+You'll need a dedicated person to man the front door, take attendance, and hand out badges. This person should be prepared to handle emergencies, have a plan for dealing with disruptive attendees, and be able to contact site security.
+| A [https://www.taskrabbit.com/ TaskRabbit] works well for this. Don't delegate this to a doc sprint leader; it will be all they will do, which is not the best use of their time.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 1 week
+| '''Reminders'''
+*Use social media (Twitter, G+, Facebook) to remind the community, point to the registration page and the announcement blog post.
+**WPD accounts initially
+**Re-share announcement on your personal/group's/company's account
+*Email the [mailto:public-webplatform@w3.org public list] and ask folks to share with their communities
+| To help with catering and planning make sure to remind people in all communications, but especially when it gets close to the event, to update their RSVPs and release their spots if they are not coming.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| Zero (day of sprint)
+| '''Agenda'''
+*Keep track of final list of attendees
+*Introduce the leaders/coordinators
+*Describe WPD and doc sprint
+*Pre-announce guest speakers
+*Preview the prizes to be awarded (if), or pre-announce the raffle
+*Describe the work to be performed
+*Assign people to task areas based on
+**Experience ( coordinators should give newbies a tutorial in how to use the wiki)
+**Content expertise
+**Technology expertise (if working on infrastructure, etc.)
+*Designate people to lead task groups
+*Ask and designate people to take and share pictures
+*Designate someone to take notes about who's doing what with whom
+*Designate someone to track metrics
+Remember that the results of the doc sprint, communicated in the blog, will include a summary of the work performed and some anecdotes from the day. Leaders/coordinators should be on the lookout for interesting bits to include in the blog.
+| 
 |-
 | t-minus text
 | deliverables text
