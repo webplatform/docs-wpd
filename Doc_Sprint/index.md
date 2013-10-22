@@ -124,7 +124,7 @@ On the day of the event, '''send out a note to all no-shows'''.
 ==Timeline==
 Introductory text
 {| class="wikitable"
-! scope="col" width="125px" | '''T-minus'''
+! scope="col" width="150px" | '''T-minus'''
 ! scope="col" width="400px" | '''Deliverable'''
 ! scope="col" width="400px" | '''Notes'''
 |-
@@ -135,7 +135,7 @@ Introductory text
 | First and foremost, get a date, place, and people to staff the doc sprint. Compare [[#Event Roles|Event Roles]]. Check in with folks on the [http://webchat.freenode.net/?channels=#webplatform-site IRC] and the [mailto:public-webplatform@w3.org public list] to see if your dates work for potential volunteers, experts, or attendees, and are in line with other WPD happenings.
 |-
 | 2&nbsp;months
-| '''Sponsor(s) & Budget'''
+| '''Sponsor(s) and Budget'''
 If you can get a big company with deep pockets to pay for food, swag, etc., get them to sponsor a doc sprint!
 | 
 |-
@@ -216,11 +216,16 @@ You'll need a dedicated person to man the front door, take attendance, and hand 
 Remember that the results of the doc sprint, communicated in the blog, will include a summary of the work performed and some anecdotes from the day. Leaders/coordinators should be on the lookout for interesting bits to include in the blog.
 | 
 |-
-| t-minus text
-| deliverables text
-| notes text
+| Zero + 1 day
+| '''Stats and summary'''
+See [[#Results|Results] for more information about gathering and compiling metrics
+| 
 |-
-| t-minus text
-| deliverables text
-| notes text
+| Zero + 3 days
+| Blog post and social media
+Write up the results of the doc sprint and relate amusing anecdotes. See past blog posts, below for some examples.
+Use social media (Twitter, G+, Facebook) to link to the blog post
+*WPD accounts initially
+*Re-share announcement on your personal/group's/company's account
+| 
 |}
