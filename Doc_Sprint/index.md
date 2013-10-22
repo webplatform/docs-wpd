@@ -363,9 +363,9 @@ Some of the swag that we might offer for attendees includes:
 Here is a list of vendors by country from whom you can order swag. In most cases, it is best to order items and have them delivered specifically for the doc sprint to avoid the hassles of maintaining a swag inventory and shipping stuff yourself. In some countries, like those in Latin America, it is illegal to import promotional material; it must be produced in the country in which it is delivered.
 
 =====USA=====
-[http://massivemarketing.com/ Massive Marketing] (logo kits like [http://photos1.meetupstatic.com/photos/event/c/7/0/8/600_189410952.jpeg this one])
-[http://www.graphicsportswear.com/ Graphic Sportswear] (t-shirts)
-[http://www.stickermule.com/ Sticker Mule] (stickers)
+*[http://massivemarketing.com/ Massive Marketing] (logo kits like [http://photos1.meetupstatic.com/photos/event/c/7/0/8/600_189410952.jpeg this one])
+*[http://www.graphicsportswear.com/ Graphic Sportswear] (t-shirts)
+*[http://www.stickermule.com/ Sticker Mule] (stickers)
 
 =====Germany=====
 (Vendors needed)
