@@ -134,7 +134,7 @@ Introductory text
 *Venue (may require more than 2 months lead time)
 | First and foremost, get a date, place, and people to staff the doc sprint. Compare [[#Event Roles|Event Roles]]. Check in with folks on the [http://webchat.freenode.net/?channels=#webplatform-site IRC] and the [mailto:public-webplatform@w3.org public list] to see if your dates work for potential volunteers, experts, or attendees, and are in line with other WPD happenings.
 |-
-| {{nowrap|t-minus2}}
+| {{nowrap begin}}|t-minus2{{nowrap end}}
 | deliverables2
 | notes2
 |}
