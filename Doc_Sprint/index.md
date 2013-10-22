@@ -128,13 +128,70 @@ Introductory text
 ! '''Deliverables'''
 ! '''Notes'''
 |-
-| {{nowrap|2 months}}
+| 2&nbsp;months
 | '''Commitment to day(s)'''
 *Leaders/coordinators
 *Venue (may require more than 2 months lead time)
 | First and foremost, get a date, place, and people to staff the doc sprint. Compare [[#Event Roles|Event Roles]]. Check in with folks on the [http://webchat.freenode.net/?channels=#webplatform-site IRC] and the [mailto:public-webplatform@w3.org public list] to see if your dates work for potential volunteers, experts, or attendees, and are in line with other WPD happenings.
 |-
-| {{nowrap begin}}|t-minus2{{nowrap end}}
-| deliverables2
-| notes2
+| 2&nbsp;months
+| '''Sponsor(s) & Budget'''
+If you can get a big company with deep pockets to pay for food, swag, etc., get them to sponsor a doc sprint!
+| 
+|-
+| 2&nbsp;months
+| '''Event registration system established and available'''
+([http://www.meetup.com/ Meetup], [http://www.eventbrite.com/ Eventbrite], [https://tito.io/ Tito], [https://www.koliseo.com/?hl=en Koliseo], etc.)
+| As much as possible, use only one system to prevent duplicate registrations. Also make sure other people don't set up duplicate registrations.
+|-
+| 2&nbsp;months
+| '''Announcement'''
+Should include the what, why, where, when, and how to get involved.
+*WebPlatform blog
+*Email to [mailto:public-webplatform@w3.org public-webplatform@w3.org]
+*Social media (Twitter, G+, Facebook)
+*WPD accounts initially
+**Re-share announcement on your personal/group's/company's account
+**Point to the blog post and the registration page
+**Local community outreach: local web dev, HTML5, CSS, and JS, groups
+*Post on their forums/boards
+*Lightning talks at their meetings, etc.
+*[http://www.lanyrd.com Lanyrd]
+| Get the word out. Show up at a group meeting and give a quick lighting talk about WPD and announce the doc sprint.
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
+|-
+| t-minus text
+| deliverables text
+| notes text
 |}
