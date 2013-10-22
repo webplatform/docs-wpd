@@ -122,5 +122,17 @@ On the day of the event, '''send out a note to all no-shows'''.
 *You can point them to the work plan (see the [http://docs.webplatform.org/wiki/community/zurich_aug_2013 Zurich plan], for example) created by the Content Coordinator.
 
 ==Timeline==
-
-(document continues here)
+Introductory text
+{| class="wikitable"
+! T minus
+! Deliverables
+! Notes
+|-
+| t-minus1
+| deliverables1
+| notes1
+|-
+| t-minus2
+| deliverables2
+| notes2
+|}
