@@ -243,7 +243,7 @@ Throughout the doc sprint, display the current Piwik report on current progress.
 *Top five contributors words subtracted
 *Pages edited per content area (determined by URL), e.g., css/properties
 
-===Option 2: Recent changes page===
+===Option 2: Recent Changes Page===
 Alternatively, you can compile results by hand from the [http://docs.webplatform.org/wiki/Special:RecentChanges Recent Changes page], but that can be difficult. Keep in mind that the reports generated here are limited as to the number of page edits reported (you can get as many as 1,500) and the number of days back the report will show (you can go as far as 90 days or more), and combining multiple days with many page edits exceeds the capacity of our data server (you can't combine 1,500 edits and 90 days; you'll get a 503 error). So if you rely on this as a source for results metrics, be sure to compile those results as soon after the doc sprint as possible, otherwise you may not be able to get all the results reported here.
 
 ===Option 3: The Web Platform Doc Sprint Dashboard===
