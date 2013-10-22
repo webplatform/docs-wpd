@@ -166,13 +166,15 @@ Have quantities, a design, and a vendor established for t-shirts, stickers, etc.
 See the list of [[#Swag Vendors|Swag Vendors]] for your location.
 | By this time you should have a rough idea of how many t-shirts and stickers to print, based on initial registrations. Most vendors need about six weeks to print and deliver.
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 3 weeks
+| '''Guest speakers'''
+Get commitment from community luminaries to drop by and do a presentation. If the doc sprint follows a conference, speakers may be able to commit even earlier.
+| Michael Mulaney, CEO of Sencha, gave a talk on SVG filtering at a San Francisco doc sprint in April 2013. Great stuff!
 |-
-| t-minus text
-| deliverables text
-| notes text
+| 3 weeks
+| '''Content'''
+Have a plan for what people will work on. The Content Coordinator should hold a meeting with other coordinators to develop the plan.
+| The [http://docs.webplatform.org/wiki/WPD:Getting_Started|Getting Started] page has lists of content that needs attention. These may need to be sanitized prior to the doc sprint. Run through the lists and make sure the articles cited are current. Also, email the [mailto:public-webplatform@w3.org public list] to ask about current projects & needs.
 |-
 | t-minus text
 | deliverables text
