@@ -74,7 +74,7 @@ While it is already fun to contribute for the greater good, attendees appreciate
 *'''Raffle prizes:''' Various tech-related goodies (possibly available through one of your sponsors, including the Web Platform Stewards). Make it clear that only contributors are eligible for the raffle.
 *'''Catering:''' Try to provide at least free drinks and simple snacks such as fruits and energy bars. It's okay for attendees to break away independently for lunch, but remember that any time they leave the venue they may not come back.
 *'''Networking:''' Foster people's information exchange by having a reception or party after your event. It should be easy to find a sponsor for drinks, and most of the nearby bars are happy to keep open a corner for 10, 30, or 60 customers as long as you prearrange it with th em. Make sure the organizers and speakers are available to attendees as much as possible.
-*'''Meeting notable people:''' Similar to networking, if you have notable attendees, many people will enjoy meeting them; these might be specification editors, or well-known developers or designers. For some people, even just meeting and working alongside someone from the stewards group may be exciting.
+*'''Meeting notable people:''' Similar to networking, if you have notable attendees (see [[#Guest Stars|Guest Stars]), many people will enjoy meeting them; these might be specification editors, or well-known developers or designers. For some people, even just meeting and working alongside someone from the stewards group may be exciting.
 
 ==Registration and Communications==
 ===General Advice===
