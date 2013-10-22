@@ -93,8 +93,34 @@ While it is already fun to contribute for the greater good, attendees appreciate
 **Here is the [https://wpds-zurich.eventbrite.com/ Zurich] page.
 **Here is the [http://www.meetup.com/sfhtml5/events/109202662/ San Francisco] page.
 *Share any links to the announcement and registration pages to the [mailto:public-webplatform@w3.org WPD public list].
-*The hashtag we used for Web Platform Doc Sprints in the past is #WPDS; be sure to let your attendees know ahead of time and on the day of the event. And ask them to be active on social media! Other useful social media strings are:
+*The hashtag we used for Web Platform Doc Sprints in the past is <nowiki>#WPDS</nowiki>; be sure to let your attendees know ahead of time and on the day of the event. And ask them to be active on social media! Other useful social media strings are:
 **Google Plus: +WebPlatform Docs
 **@WebPlatform
-**#WPDS
+**<nowiki>#WPDS</nowiki>
 *If you want to collect images taken by attendees, consider announcing a specific location, service, or tag to use while posting. It makes reporting much easier!
+
+===Surveys===
+Follow up the doc sprint with a quick survey.
+*Here's the [https://docs.google.com/forms/d/1TRl4lb-zVzf0_ggSKGYklv3U1NDEBHER6PPynErojYM/edit?usp=sharing survey template].
+*Make a copy of this template and rename it for your doc sprint, for example, "WPDS - Amsterdam, Oct. 12, 2013".
+*Here is the [http://docs.webplatform.org/wiki/WPD:Community/Survey WPD Survey page].
+*Some event registration systems offer survey capabilities, and you can also create a Google Form for this purpose.
+
+===Thank-You Note===
+Be sure to provide thank-you notes to attendees. Here is one from a previous sprint:
+:''Thank you for attending the Web Platform Documentation Sprint last November. With your hard work we made over 800 changes to the site!''
+:''Because it was such a great event, we'd like to let you know that we will be hosting another Web Platform Doc Sprint next month and we hope you will once again decide to participate.''
+
+===Registration Fees===
+Please note that doc sprints are meant to be free events! If you can’t afford the space or catering, please consider asking a steward or other sponsor to help fund the event; please do not charge attendees for the event, as that violates expectations and trust in the community. Participants are volunteers.
+
+===Registration Numbers and No-Shows===
+A normal range of registrants can vary widely. Depending on the size of the venue and the success of advertising, you can usually count on 30–100 registrants, with an actual attendance rate of 40–50% (i.e., 50–60% of people registering will not show up). 
+
+On the day of the event, '''send out a note to all no-shows'''.
+*Tell them the doc sprint just kicked off, and "here is how you can participate if you did not make it to the event". 
+*You can point them to the work plan (see the [http://docs.webplatform.org/wiki/community/zurich_aug_2013 Zurich plan], for example) created by the Content Coordinator.
+
+==Timeline==
+
+(document continues here)
