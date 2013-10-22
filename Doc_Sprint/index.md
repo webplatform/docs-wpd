@@ -122,7 +122,7 @@ On the day of the event, '''send out a note to all no-shows'''.
 *You can point them to the work plan (see the [http://docs.webplatform.org/wiki/community/zurich_aug_2013 Zurich plan], for example) created by the Content Coordinator.
 
 ==Timeline==
-Introductory text
+IBelow is a general timeline for items you should plan, prepare, and execute before, during, and after a doc sprint.
 {| class="wikitable"
 ! scope="col" width="150px" | '''T-minus'''
 ! scope="col" width="400px" | '''Deliverable'''
