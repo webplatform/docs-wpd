@@ -254,6 +254,7 @@ Built by community members for the first European doc sprint in Berlin, you can 
 *Leaderboard of participants with most edits during doc sprint
 *Leaderboard of lifetime edits across doc sprint participants
 *Newbies vs. Lab-Rats
+
 You can also add general information such as Wifi credentials, important URLs or contact information to a sidebar that is permanently displayed. Of course you can extend the code as well &mdash; just grab it on [https://github.com/webplatform/DocSprintDashboard GitHub]. There are some [https://github.com/webplatform/DocSprintDashboard/tree/master/screenshots screenshots] there as well.
 
 ====Do good and shout it out====
@@ -306,3 +307,71 @@ Each doc sprint should have a topic: one or more work areas that will help the c
 Announce your topic when you advertise the event to focus attendees and improve productivity, by bringing in people who are interested in that specific topic, and letting them know exactly what they can expect to work on. Even experts, faced with a blank canvas, may not know where to start, so a paint-by-numbers approach can help everyone get started.
 
 Not all attendees will want to work on this topic, though. You may be running a CSS doc sprint, and one of the attendees is more interested in writing JavaScript tutorials or HTML examples; this is fine, and you should announce up front that everyone is welcome to work on what they want.
+
+===Slides, Summary Page and Short URLs===
+Regardless of whether you are just planning to do an overview of the housekeeping rules or are having one of your experts give a full featured introduction to WebPlatform.org, others have built slidedecks before you, and these are available in full featured WebPlatform.org design and available for you to use and modify.
+
+If you have themed your event and a content plan is established, it helps to list all the information you are planning to give out in an introduction on the event on a Wiki page as well. This is not only helpful for people to review after they listened to your presentation, it also helps to onboard people that join in late and have missed the introduction. Here are the [http://docs.webplatform.org/wiki/community/berlin_feb_2013 Berlin] and [http://docs.webplatform.org/wiki/community/zurich_aug_2013 Zurich] examples of those pages. 
+
+Instead of communicating lenghty URLs in your introductions, it is much easier to shout out a short URL to the room: "Hey, you'll find all necessary instructions on wpd.mx/intros!". This is why we use a Short URL service built by community contributors, and you can do as well. You can find it on GitHub, and changes are active within minutes: [https://github.com/webplatform/Shortlinks wpd.mx shorturl repo].
+
+===New Contributors===
+Doc sprint events are relatively expensive, financially and logistically; they are important, but should be a supplement and support for everyday contributions and community engagement. One of the goals of a doc sprint, besides driving content, is to convert skilled and interested people into active contributors and community members.
+*Training in conventions and editing
+*Showing how to find areas that need contributions, like Web Platform Wednesdays
+*Overcoming reluctance to add content by empowering contributors (and getting them over the hump)
+*Rewarding them at the time, and continuing to offer small rewards for future contributions
+
+One of your pre-event communications should have information for newcomers about joining WebPlatform, setting up an account, and should contain a few links to topics that have good information for those new to the project, such as the [http://docs.webplatform.org/wiki/WPD:Editors_Guide Editing Guide home page]. Don't overwhelm people, but do give them the opportunity to get started on their own. This will greatly reduce the number of volunteers who need to have their hand held on the day of the event, enabling you to concentrate more fully on the theme.
+
+===Steward Support===
+When planning a doc sprint, you should first let the community and community leaders know that you are interested in planning an event, so we can:
+*Provide promotion (see [[#Timeline|Timeline]])
+*Coordinate with other events, either other doc sprints or local events collocated with your doc sprint
+*Help in picking a theme and content lists
+*Provide swag (stickers and t-shirts)
+*Contacting Stewards
+
+The first point of contact is the [mailto:public-webplatform@w3.org W3C community mailing list]. A message there will best get the attention of community leaders. Provide the names and contact information of the organizers, the location and date of the doc sprint, and your topics of interest.
+If you prefer to start the conversation more privately, for whatever reason, you can contact the community leaders (such as [mailto:schepers@w3.org Doug Schepers (W3C)] and others) offlist.
+
+===Guest Stars===
+It's helpful for a doc sprint to have some experts involved. Having one or more well-known attendees can help promote the event, help provide expert advice to contributors, inform and entertain attendees, and even provide some high-quality content themselves.
+
+If you know your theme, you can find experts, either local or from one of the stewards, and ask them to attend the event; these people are often quite busy, so don't be discouraged if you can't get a particular person; just ask them if they know anyone who might be able to attend. Some experts might include: specification editors; working group members; developer relations engineers or evangelists; conference speakers; book authors; or just well-known developers, designers, or bloggers. It may even be a prominent member of the WebPlatform.org community!
+
+Often, the expert's employer will pay their travel expenses to attend the event, if it is related to their job.
+
+Ask the expert to prepare a 15-20 minute talk on their topic for the afternoon of the event; this will be a reward to attendees, and will re-energize contributors after lunch. It also provides an opportunity for the expert to get feedback from the community.
+
+Plan ahead for this, to make it easier to find someone. Ask the stewards and community leaders to help find someone if you don’t know who to ask.
+
+===Problem People===
+Sometimes, you will get attendees who are disruptive. They may have good intentions, or they may not… either way, you need a plan to deal with them. For example:
+*'''Social Butterflies:''' These are people who are just at the event to socialize, get food or swag, or to "check in" and be seen, without doing any work. They may sit quietly in the corner on doing their own unrelated thing until lunch, or they may engage with other people. So long as they keep to themselves, aren't too noisy, don't distract others, and are not occupying needed space, they are not a problem; just make it clear to them that they need to respect the event.
+*'''Attention Seekers:''' These are people who want too much attention from the event organizers or experts. They may be contributing, or they may only be there to have discussions or even to challenge people. Give them enough time to make their intentions clear (they may just not be communicating well, but have something to offer), then politely explain that you need to do other work. Warn other event organizers about these people, so they know not to invest too much time on them; don't palm them off on other event attendees.
+*'''Inappropriate Attendees:''' These range from homeless people looking for a meal to crazy people looking for a fight. If you have a registration desk and insist on having people sign up for your event this will help to scare off those kinds of folks. Let venue personnel handle these people.
+
+===Swag ===
+Some of the swag that we might offer for attendees includes:
+*stickers
+*t-shirts
+*books
+* toys (such as the WebPlatform erector sets Google offered)
+
+====Swag vendors====
+Here is a list of vendors by country from whom you can order swag. In most cases, it is best to order items and have them delivered specifically for the doc sprint to avoid the hassles of maintaining a swag inventory and shipping stuff yourself. In some countries, like those in Latin America, it is illegal to import promotional material; it must be produced in the country in which it is delivered.
+
+=====USA=====
+[http://massivemarketing.com/ Massive Marketing] (logo kits like [http://photos1.meetupstatic.com/photos/event/c/7/0/8/600_189410952.jpeg this one])
+[http://www.graphicsportswear.com/ Graphic Sportswear] (t-shirts)
+[http://www.stickermule.com/ Sticker Mule] (stickers)
+
+=====Germany=====
+(Vendors needed)
+
+=====Netherlands=====
+(Vendors needed)
+
+=====Mexico=====
+(Vendors needed)
