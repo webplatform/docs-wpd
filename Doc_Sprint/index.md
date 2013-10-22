@@ -128,13 +128,13 @@ Introductory text
 ! '''Deliverables'''
 ! '''Notes'''
 |-
-| <nobreak>2 months</nobreak>
+| {{nowrap|2 months}}
 | '''Commitment to day(s)'''
 *Leaders/coordinators
 *Venue (may require more than 2 months lead time)
 | First and foremost, get a date, place, and people to staff the doc sprint. Compare [[#Event Roles|Event Roles]]. Check in with folks on the [http://webchat.freenode.net/?channels=#webplatform-site IRC] and the [mailto:public-webplatform@w3.org public list] to see if your dates work for potential volunteers, experts, or attendees, and are in line with other WPD happenings.
 |-
-| <nobreak>t-minus2</nobreak>
+| {{nowrap|t-minus2}}
 | deliverables2
 | notes2
 |}
