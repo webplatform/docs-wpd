@@ -124,11 +124,11 @@ On the day of the event, '''send out a note to all no-shows'''.
 ==Timeline==
 Introductory text
 {| class="wikitable"
-! scope="col" width="150px" | Name
-! scope="col" width="225px" | Effect
-! scope="col" width="225px" | Games found in
+! scope="col" width="100px" | '''T-minus'''
+! scope="col" width="400px" | '''Deliverable'''
+! scope="col" width="400px" | '''Notes'''
 |-
-| 2&nbsp;months
+| 2 months
 | '''Commitment to day(s)'''
 *Leaders/coordinators
 *Venue (may require more than 2 months lead time)
