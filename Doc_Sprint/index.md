@@ -78,7 +78,7 @@ While it is already fun to contribute for the greater good, attendees appreciate
 
 ==Registration and Communications==
 ===General Advice===
-*Come any time! Stay as long as you want! Emphasize this in all communication. Many people won't come to a doc sprint because they think that they have to be there all day.
+*"Come any time! Stay as long as you want!" Emphasize this in all communication. Many people won't come to a doc sprint because they think that they have to be there all day.
 *The doc sprint is an introduction; you want participants to stay involved, even if you can only contribute a little bit at a time.
 *Advise people to bring their own computers and ''especially a power adaptor''. Send a reminder 24 hours before the event just for this! Make this very clear, and have it as one of the first items people will read in your communication; attendees have showed up without a computer to work on in the past! 
 *Ask attendees not to run their own hotspots, but invite them to use own cellular data for secondary devices so they come prepared.
