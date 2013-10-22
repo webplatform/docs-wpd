@@ -218,14 +218,91 @@ Remember that the results of the doc sprint, communicated in the blog, will incl
 |-
 | Zero + 1 day
 | '''Stats and summary'''
-See [[#Results|Results] for more information about gathering and compiling metrics
+See [[#Results|Results]] for more information about gathering and compiling metrics
 | 
 |-
 | Zero + 3 days
-| Blog post and social media
+| '''Blog post and social media'''
 Write up the results of the doc sprint and relate amusing anecdotes. See past blog posts, below for some examples.
 Use social media (Twitter, G+, Facebook) to link to the blog post
 *WPD accounts initially
 *Re-share announcement on your personal/group's/company's account
 | 
 |}
+
+==Results==
+You’ll want to get an accurate count of participants and the work that they do. There are at least three options to do so (maybe a combination of them is golden).
+
+===Option 1: Piwik===
+Throughout the doc sprint, display the current Piwik report on current progress. The report measures:
+*Total number of pages edited
+*Total number of words added
+*Total number of words subtracted
+*Top five contributors pages edited
+*Top five contributors words added
+*Top five contributors words subtracted
+*Pages edited per content area (determined by URL), e.g., css/properties
+
+===Option 2: Recent changes page===
+Alternatively, you can compile results by hand from the [http://docs.webplatform.org/wiki/Special:RecentChanges Recent Changes page], but that can be difficult. Keep in mind that the reports generated here are limited as to the number of page edits reported (you can get as many as 1,500) and the number of days back the report will show (you can go as far as 90 days or more), and combining multiple days with many page edits exceeds the capacity of our data server (you can't combine 1,500 edits and 90 days; you'll get a 503 error). So if you rely on this as a source for results metrics, be sure to compile those results as soon after the doc sprint as possible, otherwise you may not be able to get all the results reported here.
+
+===Option 3: The Web Platform Doc Sprint Dashboard===
+Built by community members for the first European doc sprint in Berlin, you can display this dashboard during the doc sprint. This is a web page that uses the MediaWiki API to display metrics from WebPlatform.org in time-lined graphs, such as:
+*Agenda of the day (free text display)
+*Number of Edits
+*Bytes added/removed
+*Leaderboard of participants with most edits during doc sprint
+*Leaderboard of lifetime edits across doc sprint participants
+*Newbies vs. Lab-Rats
+You can also add general information such as Wifi credentials, important URLs or contact information to a sidebar that is permanently displayed. Of course you can extend the code as well &mdash; just grab it on [https://github.com/webplatform/DocSprintDashboard GitHub]. There are some [https://github.com/webplatform/DocSprintDashboard/tree/master/screenshots screenshots] there as well.
+
+====Do good and shout it out====
+Broadcast milestones during the doc sprint. Give a shout-out when your contributors check in the 25th completed topic or when the tenth contributor joins online. Participants will love to hear that their "team" is making progress and that their efforts are part of a successful endeavor. The dashboard is a nice way of constantly pumping out the latest "competitive data".
+
+====Information that measures quality====
+Because quality is such a subjective term, capturing and reporting on the quality of work done in a sprint can be difficult. There are objective measurements you can collect that do indicate enhancement of quality, however: number of broken code samples fixed, topics reviewed successfully by industry experts, topics in which SEO optimization has been completed, etc. 
+
+====Images of the event====
+A picture's worth a thousand words, and photos from a doc sprint help bring your event to life for community members who couldn’t attend and for attendees who want to reminisce after the event is completed. First things first: '''you must get permission from any person or facility you want to capture in a photograph or video in order to use that image.''' And be specific: whatever images you place on Webplatform will be available under the CC-BY license. Having said that, reports are greatly enhanced by photographs of the community hard at work or taking part in whatever social activity that is a part of your event. Include items from Flickr and other sites, assuming you have the requisite permissions.
+
+====Social media====
+Don't forget to include samples from social media for your report. You've probably been using Twitter and other social media to advertise your event, communicate with the community, and boast about accomplishments. Did you use Eventifier to capture all the goodness? 140 characters can pack quite a wallop. Capture that goodness.
+
+====Quotations====
+We have yet to have a doc sprint after which an attendee responded, "No comment," when asked about the event. Get some good quotes from your participants and capture them. Find out if you can use their name if you publish their words, too.
+
+===Report===
+At the end of the doc sprint, people are interested how it went, what worked, and what didn't. Please provide a brief report, and include:
+*'''Event Closer:''' This is for the attendees at the end of the event itself; a preliminary report with leaderboards, number of pages edited, and callouts to specific contributions of high quality, to thank, reward, and encourage contributors.
+*'''Community List:''' Send a notice to the [mailto:public-webplatform@w3.org public list], which may include discussion about what worked well and what didn't, to spur conversation.
+*'''Blog Post:''' A [http://lists.w3.org/Archives/Public/public-webplatform/2013Sep/0001.html blog post] will be the most permanent and public record of the event, and may also be the most complete.
+*'''Go/Stop:''' Any lessons learned or improvements identified. This is especially useful if the event didn’t go as anticipated.
+
+The results measured over the doc sprint will already contain most of what you need to communicate. Freeze it, keep a copy, and publish out the results with your report. You'll also want to report:
+*Total number of attendees
+*New contributors signed up
+*Contributor with most words added
+*Contributor with most words subtracted
+*Contributor with most pages edited
+
+===Past Blog Posts===
+In order for you to post to the [http://blog.webplatform.org WebPlatform blog], you'll need a separate account. Send a request to [mailto:public-webplatform@w3.org public-webplatform@w3.org] to have an account created for you. Below are some examples of previous doc sprint blog posts.
+====Announcements====
+* [http://blog.webplatform.org/2013/01/first-european-doc-sprint-feb-8-9-berlin/ February 8/9, 2013 Berlin]
+* [http://blog.webplatform.org/2013/01/w3conf-and-doc-sprint/ February 23, 2013 San Francisco]
+* [http://blog.webplatform.org/2013/06/1st-seattle-doc-sprint/ June 22, 2013 Seattle]
+* [http://blog.webplatform.org/2013/07/web-platform-doc-sprint-august-28-2013-zurich-switzerland/ August 28, 2013 Zurich]
+* [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ October 12, 2013 Amsterdam]
+
+====Results====
+* [http://blog.webplatform.org/2012/12/web-platform-doc-sprints-off-to-a-good-start/ November 3, 2012 San Francisco]
+* [http://blog.webplatform.org/2012/12/doc-sprint-mountain-view/ December 12, 2012 Mountain View]
+* [http://blog.webplatform.org/2013/04/doc-sprint-san-francisco-april-3/ April 3, 2013 San Francisco]
+* [http://blog.webplatform.org/2013/09/switzerland-doc-sprint-sets-some-new-records/ August 28, 2013 Zurich]
+
+===Content Plan and Topic===
+Each doc sprint should have a topic: one or more work areas that will help the community get started. This may be general, such as "CSS Properties" or "JavaScript" or even "Tutorials and Examples", or very specific, such as a particular specification (see [[#Guest Stars|Guest Stars]]). This will depend upon the needs of the project at the time, on the agenda of the organizer, and on available resources. The community leaders can provide a list of articles that need attention.
+
+Announce your topic when you advertise the event to focus attendees and improve productivity, by bringing in people who are interested in that specific topic, and letting them know exactly what they can expect to work on. Even experts, faced with a blank canvas, may not know where to start, so a paint-by-numbers approach can help everyone get started.
+
+Not all attendees will want to work on this topic, though. You may be running a CSS doc sprint, and one of the attendees is more interested in writing JavaScript tutorials or HTML examples; this is fine, and you should announce up front that everyone is welcome to work on what they want.
