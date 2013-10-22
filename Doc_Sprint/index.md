@@ -33,7 +33,7 @@ The '''Content Coordinator''' will focus on general goals 2 and 4, content and s
 ===Date===
 Choosing the perfect date and time for your event is impossible. People prefer either to contribute on weekdays during work time, if their employer supports them, or on weekends, during their free time. Some like to work in the morning, some prefer the afternoon. Also, location, time of year, and other implications may apply. Consider the following:
 *Decide if you are running a one- or two-day doc sprint. Two-day sprints may attract more attendees, if scheduled, for example, on Friday and Saturday (thereby including both a workday and a weekend day). Don’t separate the days into distinct events, but briefly repeat introductions and operating mechanisms on day two. Make it clear that participants don’t have to attend both.
-*Try attaching your doc sprint to a bigger event, such as a conference. People are already in town and might be persuaded to add the doc sprint to their itineraries. (See Colocated events.)
+*Try attaching your doc sprint to a bigger event, such as a conference. People are already in town and might be persuaded to add the doc sprint to their itineraries. (See [[#Colocated Events|Colocated Events]].)
 *Check in with folks on the [http://webchat.freenode.net/?channels=#webplatform-site IRC] and the [mailto:public-webplatform@w3.org public list] to see if your dates work for potential volunteers, experts, or attendees, and are in line with other WPD happenings.
 
 ===Location===
