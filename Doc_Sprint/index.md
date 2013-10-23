@@ -1,5 +1,4 @@
 =Doc Sprint in a Box=
-How to hold a doc sprint and live to tell the tale. [Still under construction; it's been a busy couple of weeks.]
 
 ==What’s a Doc Sprint?==
 This document describes the planning and execution of a Web Platform Doc Sprint. While a doc sprint may be as simple as a small group of people gathering at someone's house or as elaborate as a full-blown event at a public venue, with fifty or more people, catering, speakers, swag, etc., for the purposes of this document a doc sprint is:
@@ -51,7 +50,7 @@ While it sounds like a rad idea to have a doc sprint on the beach, the intense s
 *Company workspaces (after hours, or on weekends): this helps promote a company, and they are often happy to offer space
 *Community centers
 *Coworking spaces
-*Conference venues (see [[#Colocated Events|Collocated Events]])
+*Conference venues (see [[#Colocated Events|Colocated Events]])
 *Universities and other academic settings
 
 ==Colocated Events==
@@ -61,7 +60,7 @@ However, be careful not to compete with any aspects of the main event, since att
 
 Always be respectful to the main event organizers; do not undermine their goals, or draw people away from their event. Treat a doc sprint as a supplement, not a rival.
 
-Here are two examples on collocated doc sprints of the past:
+Here are two examples on colocated doc sprints of the past:
 *As a workshop, prior to the regular event: [http://2013.frontendconf.ch/workshops/ http://2013.frontendconf.ch/workshops/]
 *As a partner event, after the regular event: [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint]
 
@@ -327,7 +326,7 @@ One of your pre-event communications should have information for newcomers about
 ===Steward Support===
 When planning a doc sprint, you should first let the community and community leaders know that you are interested in planning an event, so we can:
 *Provide promotion (see [[#Timeline|Timeline]])
-*Coordinate with other events, either other doc sprints or local events collocated with your doc sprint
+*Coordinate with other events, either other doc sprints or local events colocated with your doc sprint
 *Help in picking a theme and content lists
 *Provide swag (stickers and t-shirts)
 *Contacting Stewards
