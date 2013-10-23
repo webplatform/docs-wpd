@@ -358,7 +358,7 @@ Some of the swag that we might offer for attendees includes:
 *books
 * toys (such as the WebPlatform erector sets Google offered)
 
-Be sure to use the WebPlatfor.org [[/logo | logo page]] in creating designs with our logo.
+Be sure to use the WebPlatfor.org [[../logo | logo page]] in creating designs with our logo.
 
 ====Swag vendors====
 Here is a list of vendors by country from whom you can order swag. In most cases, it is best to order items and have them delivered specifically for the doc sprint to avoid the hassles of maintaining a swag inventory and shipping stuff yourself. In some countries, like those in Latin America, it is illegal to import promotional material; it must be produced in the country in which it is delivered.
