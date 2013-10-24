@@ -1,8 +1,11 @@
-{{Page_Title|Editor's Guide [DONE]}}
+{{Page_Title|Editor's Guide Proposal [DONE]}}
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|This is a proposed outline for consolidating dozens of pages under a guide to editing WPD. This will be a procedural guide, beginning with getting up and running on the site and communications channels, to reviewing content, to creating new content. All content currently available for assisting editors will be pulled into this guide, either by merging that content into this guide, or by reference. Comments welcome on this page or on the public-webplatform@w3.org email list.}}
+{{Summary_Section|Go to [[WPD:Editors Guide]] for the Editor's Guide, the result of this project.
+
+This is a proposed outline for consolidating dozens of pages under a guide to editing WPD. This will be a procedural guide, beginning with getting up and running on the site and communications channels, to reviewing content, to creating new content. All content currently available for assisting editors will be pulled into this guide, either by merging that content into this guide, or by reference. Comments welcome on this page or on the public-webplatform@w3.org email list.
+}}
 {{Basic Page}}
 <div style='float: right;background: white;border:1px dashed black;padding: 1ex;margin-left:1ex;'>
 
