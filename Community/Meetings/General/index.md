@@ -75,6 +75,100 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Doc Sprint, New York in December
 ** Pro: New York, baby!
 ** Con: We're not ready yet; let's get JavaScript imported and scoped first
+===Discussion===
+
+====TOPIC: CSS Properties Project====
+Last night we had one property unowned but vivienne (who was at Zurich's docsprint) took it (yay!!!) she's great, from Jay's group what we have outstanding are a few properties that Dave is working on. We're not going to do an example for knockout. We created a correct syntax example, but put a larger example on hold. All of the remainders will get live code examples at code.webplatform.org. clip-rule example, Doug is working on. We should be done mid next week (Dave is out next Wed-Fri). [much rejoicing]
+=====Subtopic: Dependency on compatibility tables =====
+* compatibility tables: first one is compat tables lots of activity about that this week, shepazu provided an update: at the doc sprint in amsterdam, we got to gether with PPK (he's from quirksmode, obviously) he invited the guy who does html5test.com he's been doing something like caniuse for something like ten years they're test driven what we want to do with this project is have a single data model that captures browser compat/test results for as much as we can we have permission to use MDN data, and because they are facts, we don't HAVE to attribute that use (but we plan to give attribution, just not changing the license on the articles that include it) Max Firdman (sp?) from MobileHtml5 wants to help too http://mobilehtml5.org/ http://html5test.com/ shepazu has a running prototype of a mediawiki extension that inserts compat information but it's a naive implementation and would cause caching problems html5test.com source code: https://github.com/NielsLeenheer/html5test the page would be constantly changing so it wouldn't be able to be cached by CDN I'm working on another approach renoirb has good ideas on that I got renewed energy from several people a guy named Ronald Manzfeld (sp?) stepped up and said, "if you need some server-side help, I could help" he got really into the idea of making the unified data model he started on that and has a first draft available. Niels Leenheer, guy behind html5test.com PPK, NIls (HTML5Test) and others are all on a new list: public-webplatform test. Ronald has been very active, interested in driving things forward we're also going to provide an aPI so others can get it (same API we will use) I think within a couple of weeks we'll have at least something workable
+
+Granularity is part of the data model at docsprint, we all kind of agreed that we like the way that MDN chose a good level of granularity. there are several kinds of granularity: per feature, per browser version we thought the MDN model was pretty good, so we'll start with that. if we don't have the right kind of granularity, we'll fall back to MDN which will also be good in terms of completeness. lik ecaniuse only tests things that are new and up and coming and MobileHTML5, his granularity is quite different from caniuse. We're going to try to categorize their broader categories and capture that at a diferent level of granularity.
+
+public-webplatform-tests?
+
+ACTION: shepazu to send link to the public-webplatform-test list to main list [DONE]
+
+
+We'll do batch updates once a week or so the people who are involved in this (the data sources) are likely all amendable to changing their own data models a little bit. to make it easier to integrate one exception to the updates: probably won't pull from MDN very frequently probably a one time, given that there's not as good of an API there we'll have to come up with some tests for the tests to make sure our data retrieval kept the integrity of the system. This is great, especially having so many people pitching in with experience in this area. Hoping to complete by end of november at latest. 
+
+Do we have a plan for if someone finds an error in the data on WPD?
+The plan was to punt on that for now. Will expose our data on GitHub as well. we'll likely ask people (to start) to submit a PR wonders if we could have useful data from there http://www.chromestatus.com/features although of course ultimately we'll need to come up with an easy way to change it from our system probably not all that useful, but might be good for spot checking.
+Could be a phased approach where for the 260 properties if we do an early import, even if it's just from one source so we could not wait too long. 
+ACTION: shepazu Talk to Ronald about perhaps doing a phased compat table approach, where we just do one data source to start (in order to move faster)
+
+what does a conteingency plan look like? if we run into problems with the extension I'm writing (I'm going to talk to trenoirb and ryanlane later today about that, by the way) one possible contingency is to make a script to use the API for MDN to pull out their compat information, and we write a script to inserts that compat information into our pages. not generate a new page, just edit the apges we have make sure it's not automatically generated at serve time. Even if it's not possible to fully automate, even if we can automate the hard parts, we might be able to make it feasible for a small number of volunteers to copy/paste/massage my point is mainly "just think scrappy" If full-automatic isn't easy, even semi-automatic is better than nothing.
+
+=====Subtopic: Dependency on legacy MDN samples =====
+Some residual sections were imported (especially code examples, related pages and syntax) automatically. we had talked with renoirb about doing a bulk find/replace operation if we can't do it by script, we can probably do it manually--just need some volunteers
+Eliot: We're hoping to get confirmation today for a facilities reservation for University of Washington on 11/2 that sounds like a great project for students to tackle.
+[murmurs of agreement]
+if renoirb can run a script to at least identify pages that need this, that would be helpful, but he has a lot to tackle right now I have a lot of other things on my plate
+scottrowe_: There's a lot on renoirb's plate, we should have a separate meeting to figure out prioritzation of infrastructure tassks
+renoirb: For now my focus is on migration
+ACTION: julee to write up bug (cc eliot) about investigating feasibility of finding pages that need old MSDN sections removed
+
+=====Subtopic: Dependency on reviews by experts=====
+Review by experts & get them thinking about the project so they're ready to talk about the launch when it happens. Two categories: spec experts, and rockstars the former is for shepazu, the latter is for jkomoros
+ACTION: jkomoros to ask paul_irish to do a spot check of WPD CSS properties
+=====Subtopic: Dependency on launch plan =====
+jkomoros on that AI basic idea is a plan for a few weeks from now about blog post, who to get to support the launch.
+ACTION: jkomoros to create strawman launch plan (including relative timeline)
+What's the timeline?
+The long pole is the compat tables for now so that will depend on information from that taskforce about if they can do a quick and dirty import.
+So we're going to say we're dependent on that functionality, it's a good idea to have compat information, even if it's not the Super Awesome Amazing Automatic version
+We might have a contingency plan for CSS properties, even if the SAAA version isn't ready yet so let's get feedback from compat table group, and base dates on that.
+
+=====Subtopic: Dependency on migration=====
+
+Doug earlier brought up: should we migrate before announcing? But says
+"no." The new provider is getting prepped to beta, a feature we could use at the end of the month I told renoirb to consider migration as top priority. Ideally ryan can help with it as well
+[09:41:14] Ryan_Lane nods
+[09:41:14] <Ryan_Lane> I can
+Since we're blocked on compat tables, at least starting the migration could be a good thing.
+One question is: if we finish before migration, do we wait for migration/ slash, is there enough bandwidth to do compat tables and migration? renoirb will advise on compat tables, but the two work streams don't overlap TOO much but I'll verify with Ronald
+ACTION: shepazu to verify with Ronald/renoirb that compat tables and migration work streams are independent.
+
+Renoirb has a branch where I got less-and-less hardcoded configuration. Which is the main requirement to migrate. We can almost definitely do it without downtime.
+
+The other question is the risk of the migration: Whether it will cause more problems. We're not not sure. We have a known "OK-not-great" solution now. The new solution is an unknown. We should COUNT on errors during migration. 
+No matter what, after a migration we'd need to test. We have a hard stop with current provider so we need to work back from that key date. It would be nice to see what that timeline looks like--a couple of days, a couple of years--then we can map that against a timeline for releasing CSS properties project if we find that things like "announcing" are overlapping with "testing", it won't be good.
+ACTION: shepazu to confirm date of contract expiration with current hosting provider
+ACTION: julee to make basic timeline for completing CSS prop project;
+ACTION: renorib to create basic timeline on migration
+
+Then, we can see how they interact.
+
+====TOPIC: JS project plan====
+We could do a postmortem on CSS props project (even in email), figure out what worked and what didn't. Use that to inform a high-level plan of tackling JS project
+Doc Sprints lead to TONS of work getting done so JS project plan should incorporate a schedule of doc sprints that different folks could volunteer to run.
+About.com who is enthusiastic about JS topic in particular for their upcoming doc sprint.
+JS plan should be ready by December. During November, we should prep for this.
+ACTION: shepazue to work with Max Polk to make sure his migration is up to speed we got review from two different experts on the JS architecture
+ACTION: shepazu to forward e-mails from JS experts about architecture on to list ideally we'd run through a few WPW sprints before the doc sprint to make sure we're ready for the doc sprint
+WPW is an ongoing second tier to in person doc sprints so we should pay attention to that during planning.
+
+====TOPIC: WPD table at HTML5DevConf====
+Shepazu got a table for W3C at the HTML5DevConf in SF next week we have me, Rebecca Hauk manning table but we need more volunteers we have some shirts and stickers, but we could use more swag. Shepazu has 3 free tickets for volunteers.
+We left a big pile of t-shirts in Amsertdam
+====TOPIC: PiWik reports for Doc Sprints====
+scottrowe_ looked into generating the PiWik reports about doc sprint played around for awhile, but there's no way to scale this. We need to make some decsiions about what reports we're going to generate and provide steps for doc sprint owners and fix some things about piwik user interface but we should defer to analytics meeting. 
+====TOPIC: Google contractor!====
+Alex will let us know if Google adds another contractor. Stay tuned…
+
+===Action Items===
+
+
+* shepazu to send link to the public-webplatform-test list to main list [DONE]
+* shepazu Talk to Ronald about perhaps doing a phased compat table approach, where we just do one data source to start (in order to move faster)
+* julee to write up bug (cc eliot) about investigating feasibility of finding pages that need old MSDN sections removed
+* jkomoros to ask paul_irish to do a spot check of WPD CSS properties
+* jkomoros to create strawman launch plan (including relative timeline)
+* shepazu to verify with Ronald/renoirb that compat tables and migration work streams are independent.
+* shepazu to confirm date of contract expiration with current hosting provider
+* julee to make basic timeline for completing CSS prop project;
+* renorib to create basic timeline on migration
+* shepazu to work with Max Polk to make sure his migration is up to speed we got review from two different experts on the JS architecture
+* shepazu to forward e-mails from JS experts about architecture on to list ideally we'd run through a few WPW sprints before the doc sprint to make sure we're ready for the doc sprint
 
 
 ==Agenda 2013-10-04==
