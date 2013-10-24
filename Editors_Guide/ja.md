@@ -1,4 +1,4 @@
-==Web Platform Docs 利用ガイド==
+==Web Platform Docs 利用者ガイド==
 
 {{Languages}}
 
