@@ -17,10 +17,11 @@
 * '''03-NOV-2012'''—Web Platform Doc Sprint ([http://www.sfhtml5.org/events/87609752/ San Francisco HTML5 User Group Event])
 * '''18-OCT-2012'''—Web Standards: Pushing the Web Forward with Divya Manian ([http://www.sfhtml5.org/events/68008012/ San Francisco HTML5 User Group Event])
 
-==Doc sprint survey==
-We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]].
+==Doc-Sprint-In-A-Box==
+Here is a comprehensive guide on running your own (physical) Doc Sprint. Everything you need is right there!
+[http://docs.webplatform.org/wiki/WPD:Doc_Sprint Doc-Sprint-In-A-Box™]
 
-==Doc sprint links==
+==Doc Sprint links==
 
 * [[Meta:web_platform_wednesday|Good source of inspiration on what to do: Web Platform Wednesday docs]]
 * [[WPD:Projects/HTML_Element_Milestone|HTML Element Milestone Plan]]
@@ -29,5 +30,5 @@ We regularly poll our contributors and users to learn how we can improve the sit
 * [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
 * [[WPD:Community/Survey|Survey]]
 
-==Coming soon: Doc-Sprint-In-A-Box==
-We are working on publishing a comprehensive guide on running your own (physical) Doc Sprint. Stay tuned!
+==Doc Sprint survey==
+We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]].
