@@ -6,9 +6,9 @@
   <div class="long-topic">
       <div class="place-holder"></div>
       <div class="inner">
-        <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]</h3>
+        <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide 登録]</h3>
         <ul>
-            <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
+            <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide サインアップする]</li>
             <li>確認メールが届きます。もし確認メールが届かない場合には、迷惑メールフォルダもチェックしてみてください。</li>
         </ul>
      </div>
