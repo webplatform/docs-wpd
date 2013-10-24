@@ -20,7 +20,7 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
-==Agenda 2013-10-11==
+==Agenda 2013-10-18==
 
 * CSS Properties Project
 {|class="wikitable" style="text-align: center; width:50%"
@@ -75,6 +75,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Doc Sprint, New York in December
 ** Pro: New York, baby!
 ** Con: We're not ready yet; let's get JavaScript imported and scoped first
+
 ===Discussion===
 
 ====TOPIC: CSS Properties Project====
@@ -170,6 +171,7 @@ Alex will let us know if Google adds another contractor. Stay tuned…
 * shepazu to work with Max Polk to make sure his migration is up to speed we got review from two different experts on the JS architecture
 * shepazu to forward e-mails from JS experts about architecture on to list ideally we'd run through a few WPW sprints before the doc sprint to make sure we're ready for the doc sprint
 
+==Agenda 2013-10-18: Canceled due to lack of quorum==
 
 ==Agenda 2013-10-04==
 
