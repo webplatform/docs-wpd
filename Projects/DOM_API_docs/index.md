@@ -65,11 +65,8 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
-* '''dom/events''' - for all of the events. 
 
-Note that events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and ideally we would want to describe all events this way - under their event types in the URLs. 
-
-This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
+Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and ideally we would want to describe all events this way - under their event types in the URLs. This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
 
 <nowiki>
 {{Event
@@ -86,7 +83,9 @@ This can be accomplished with a script because the event interface is captured i
 
 The trouble is that, as in the above example, the value of the Interface= field needs to be corrected before we can perform the move. In the above example, the field should read, Interface=dom/FocusEvent.
 
-Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in its event type page. In the example above, the field should read, Event_applies_to=dom/FocusEvent.
+Then, we need to develop the event type pages to list the events that specify the event type in the Interface= field, for example, Interface=dom/UIEvent. 
+
+Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in the appropriate element page. The example above is correct, but the PointerEvents (pointercancel, pointermove, pointerup, etc.) all point to PointerEvent instead of correctly pointing to dom/Element.
 
 And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent. This move needs to be performed manually for all of the pages currently under [[dom/objects]].
 
