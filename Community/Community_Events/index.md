@@ -4,6 +4,7 @@
 * '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
 * '''2-NOV-2013''': Web Platform Doc Sprint @ U Washington [https://www.eventbrite.com/event/8903872723/ Registration] (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
+* '''Date TBD'''—TENTATIVE: Doc Sprint @ Belgium (Sara Devuyst & [[User:PaulV|Paul Verbeek]])
 
 Jump to [[#Past Events|Past Events]]
 
