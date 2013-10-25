@@ -88,7 +88,7 @@ The trouble is that, as in the above example, the value of the Interface= field 
 
 Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in its event type page. In the example above, the field should read, Event_applies_to=dom/FocusEvent.
 
-And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent.
+And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent. This move needs to be performed manually for all of the pages currently under [[dom/objects]].
 
 Eventually we need to add a field to the Event form to display the event type (see [http://project.webplatform.org/tmpl/issues/7 this bug]).
 
