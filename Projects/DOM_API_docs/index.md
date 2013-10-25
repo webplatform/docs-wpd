@@ -67,7 +67,30 @@ Proposed is the abolition of all "interstitials" and the assignment of all membe
 * '''dom''' - a listing page with all DOM objects and their summaries.
 * '''dom/events''' - for all of the events. 
 
-Note that events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are described thus, and ideally we would want to describe all events this way - under their event types in the URLs. The trouble is, the event type is not always captured in the properties of the event page, so there is no automatic way to tell a script to follow that property when moving the page. Instead, we will have to manually update the event pages with the event type information, then later perform a move that assigns the event's URL according to that event type (i.e. dom/Event/error). Until then we'll just put all of the events under dom/events (except those rightfully organized under dom/PointerEvent), and add a field to the Event template to capture the event type (see [http://project.webplatform.org/tmpl/issues/7 this bug].
+Note that events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and ideally we would want to describe all events this way - under their event types in the URLs. 
+
+This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
+
+<nowiki>
+{{Event
+|Interface=dom/objects/FocusEvent
+|Target=dom/Element
+|Default_action=
+|Content=
+|Event_applies_to=dom/Element
+|Synchronous=No
+|Bubbles=No
+|Cancelable=No
+}}
+</nowiki>
+
+The trouble is that, as in the above example, the value of the Interface= field needs to be corrected before we can perform the move. In the above example, the field should read, Interface=dom/FocusEvent.
+
+Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in its event type page. In the example above, the field should read, Event_applies_to=dom/FocusEvent.
+
+And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent.
+
+Eventually we need to add a field to the Event form to display the event type (see [http://project.webplatform.org/tmpl/issues/7 this bug]).
 
 We also considered organizing events  under their targets (i.e. dom/Element/pointerdown), but found namespace collisions (dom/Element/error property collides with dom/Element/error event). Besides, events properly belong to event types, not targets, in the DOM.
 
