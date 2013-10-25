@@ -119,7 +119,7 @@ We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) accord
 
 There are 1129 pages in the dom namespace.  
 * 137 in a dom/<object>/<member> pattern already (which do not need to move)
-* 119 in dom/events (which also do not need to move)
+* 119 in dom/events 
 * 49 in dom/objects
 * 77 in dom/apis
 * 101 in dom/traversal
@@ -127,8 +127,6 @@ There are 1129 pages in the dom namespace.
 * 336 in dom/properties 
 
 This leaves 53 pages that don't fit into any of these categories. Also, there are an additional 20 or so pages that may belong in the dom namespace and which currently reside in the apis namespace.
-
-The 137 pages that follow the dom/<object>/<member> pattern do not have to move. However, there are several PointerEvent events (for example [[dom/PointerEvent/pointerdown]], that need to have the '''Applies to''' field changed from "dom/PointerEvent" to "dom/Element". 
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
