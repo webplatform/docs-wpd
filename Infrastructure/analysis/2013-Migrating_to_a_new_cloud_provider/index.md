@@ -1,6 +1,8 @@
 = 2013 - Migrating to a new cloud provider =
 
 == Introduction ==
+This document follows [[WPD:Infrastructure/analysis/2013-Usage and future state]] and should help with the [[WPD:Infrastructure/analysis/2013-Usage and future state#3. Refactored infrastructure]] objectives.
+
 While we were running on original deployment infrastructure, configuration was built empirically to suit the site visitors demand. Due to the fact that most configuration was written to be specific to the current environment, we need to review all configurations allowing us to change provider and to rebuild on demand a new deployment without impacting the production environment.
 
 The objective of this project is to migrate out of our cloud provider but to make such migration, there are some configuration changes to make.
