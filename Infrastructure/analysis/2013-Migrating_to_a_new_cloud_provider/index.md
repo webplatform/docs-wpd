@@ -10,28 +10,43 @@ In consequence, the new configuration should enable us:
 # to use services in other cloud (e.g. Database hot backup in an other provider location) 
 
 === Benefits ===
-Will give us:
+All environments (production, staging, testing, dev) are going to be completely independent, not even in the same cloud provider.
+
+It will give the following benefits:
 * capacity to test all the stack without impacting the live (production) site.
-* a way to create your own development environment wherever we can instantiate virtual machines
-* a clone of the live to develop on
+* capacity to create your own development environment wherever we can instantiate virtual machines
+* capacity to build an ad-hoc clone of the production environment to develop with
 
 == Phases ==
-# Analysis document (this document)
-# Replicating installation outside of current cloud provider
-# Replicating installation to new cloud provider
-# Testing
-# Flipping the switch
+{{TOC limit|3}}
+
+
 
 === Analysis document (this document) ===
-In progress..
+In progress...
+
+
+=== Rework hard-coded configurations ===
+
+What must be ready prior to change phase:
+# test in a separate environment the configuration management scripts
+# create two new environments in new cloud provider (test, production)
+# code a synchronization script (files, replace database) to make final migration flip be as quick as possible
+# test whether we can send play log to new production db server deployment
 
 
 === Replicating installation outside of current cloud provider ===
 stub.
 
+What must be ready prior to change phase:
+# Database servers has hot backup in both locations
+
 
 === Replicating installation to new cloud provider ===
 stub.
+
+What must be ready prior to change phase:
+# Complete new Fastly configuration mirroring current production
 
 
 === Testing ===
@@ -39,4 +54,8 @@ stub.
 
 
 === Flipping the switch ===
-stub.
+This step is leveraging the fact that Fastly configuration can be changed quickly. This will ensure us that in case of a problem, we can easily revert and therefore ease the pressure during the actual change.
+
+Regarding the switch-flip period. Since fastly allows us to say which nodes are used as backend, flipping from one to the other can be done in seconds. And, sure, we will have a testing environment.
+
+For example, at the moment I built a test host using fastly at [1]. But it is using the same environment, but using a different set of backend servers than the real is using. It is not complete, but at least filled some testing needs. Something that has to change.
