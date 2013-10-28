@@ -39,23 +39,27 @@ What must be ready prior to change phase:
 stub.
 
 What must be ready prior to change phase:
-# Database servers has hot backup in both locations
+# Database servers has working hot-backup from production
+# Deployment works fully without Fastly (i.e. by changing a tester's hosts file everything works)
 
 
 === Replicating installation to new cloud provider ===
+Assuming we can replicate in more than one environment (locally, on WikiMediaFoundation cloud, new cloud)
+
 stub.
 
 What must be ready prior to change phase:
 # Complete new Fastly configuration mirroring current production
+# Complete deployment to the new cloud provider
+# Database servers has hot backup in both locations
 
 
 === Testing ===
-stub.
+Assuming we have a 
+This step will allow us to test the full site without using any of the current production allowing us to test-proof the new deployment prior to the sign-off.
 
 
 === Flipping the switch ===
+Assuming we have a sign-off from previous phase.
+
 This step is leveraging the fact that Fastly configuration can be changed quickly. This will ensure us that in case of a problem, we can easily revert and therefore ease the pressure during the actual change.
-
-Regarding the switch-flip period. Since fastly allows us to say which nodes are used as backend, flipping from one to the other can be done in seconds. And, sure, we will have a testing environment.
-
-For example, at the moment I built a test host using fastly at [1]. But it is using the same environment, but using a different set of backend servers than the real is using. It is not complete, but at least filled some testing needs. Something that has to change.
