@@ -31,7 +31,7 @@ In progress...
 ----
 === Rework hard-coded configurations ===
 
-What must be ready prior to change phase:
+'''What must be ready prior to change phase:'''
 # test in a separate environment the configuration management scripts
 # create two new environments in new cloud provider (test, production)
 # code a synchronization script (files, replace database) to make final migration flip be as quick as possible
@@ -42,7 +42,7 @@ What must be ready prior to change phase:
 === Replicating installation outside of current cloud provider ===
 stub.
 
-What must be ready prior to change phase:
+'''What must be ready prior to change phase:'''
 # Database servers has working hot-backup from production
 # Deployment works fully without Fastly (i.e. by changing a tester's hosts file everything works)
 
@@ -51,10 +51,14 @@ What must be ready prior to change phase:
 === Replicating installation to new cloud provider ===
 Assuming we can replicate in more than one environment (locally, on WikiMediaFoundation cloud, new cloud)
 
-stub.
+'''Complete new Fastly configuration'''
+Besides the fact that we need a mirror of the configuration, there are a few features we are not using that should be enabled:
+* 500, 503 error pages using WPD theme instead of a white web page
+* Ensuring that JavaScript/CSS/Images do NOT propagate cookies in their requests
+* Ensuring that JavaScript/CSS/Images ARE cached
 
-What must be ready prior to change phase:
-# Complete new Fastly configuration mirroring current production
+'''What must be ready prior to change phase:'''
+# Complete new Fastly configuration
 # Complete deployment to the new cloud provider
 # Database servers has hot backup in both locations
 
