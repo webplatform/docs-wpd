@@ -18,14 +18,16 @@ It will give the following benefits:
 * capacity to build an ad-hoc clone of the production environment to develop with
 
 == Phases ==
-{{TOC limit|3}}
+__TOC__
 
 
+----
 
 === Analysis document (this document) ===
 In progress...
 
 
+----
 === Rework hard-coded configurations ===
 
 What must be ready prior to change phase:
@@ -35,6 +37,7 @@ What must be ready prior to change phase:
 # test whether we can send play log to new production db server deployment
 
 
+----
 === Replicating installation outside of current cloud provider ===
 stub.
 
@@ -43,6 +46,7 @@ What must be ready prior to change phase:
 # Deployment works fully without Fastly (i.e. by changing a tester's hosts file everything works)
 
 
+----
 === Replicating installation to new cloud provider ===
 Assuming we can replicate in more than one environment (locally, on WikiMediaFoundation cloud, new cloud)
 
@@ -54,11 +58,13 @@ What must be ready prior to change phase:
 # Database servers has hot backup in both locations
 
 
+----
 === Testing ===
 Assuming we have a 
 This step will allow us to test the full site without using any of the current production allowing us to test-proof the new deployment prior to the sign-off.
 
 
+----
 === Flipping the switch ===
 Assuming we have a sign-off from previous phase.
 
