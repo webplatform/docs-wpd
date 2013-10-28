@@ -17,11 +17,10 @@ It will give the following benefits:
 * capacity to create your own development environment wherever we can instantiate virtual machines
 * capacity to build an ad-hoc clone of the production environment to develop with
 
-== Phases ==
 __TOC__
 
-
-----
+== Phases ==
+Broken down into phases...
 
 === Analysis document (this document) ===
 In progress...
