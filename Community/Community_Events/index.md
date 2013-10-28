@@ -12,17 +12,8 @@ Jump to [[#Past Events|Past Events]]
 Here is a comprehensive guide on running your own (physical) Doc Sprint. Everything you need is right there!
 [http://docs.webplatform.org/wiki/WPD:Doc_Sprint Doc-Sprint-In-A-Box™]
 
-==Doc Sprint links==
-
-* [[Meta:web_platform_wednesday|Good source of inspiration on what to do: Web Platform Wednesday docs]]
-* [[WPD:Projects/HTML_Element_Milestone|HTML Element Milestone Plan]]
-* [[WPD:HTML_Element_Guide|HTML Element Guide]]
-* [[WPD:CSS_property_guide|CSS Properties How-to Guide]] 
-* [https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE CSS Properties spreadsheet] 
-* [[WPD:Community/Survey|Survey]]
-
 ==Doc Sprint survey==
-We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]].
+We once polled our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]]. Might not be super up-to-date but provides insights if you are planning on doing your own event.
 
 ==Past Events==
 * '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
