@@ -70,7 +70,7 @@ Beneath that are the DOM objects; these are of two types, event targets and even
 
 ====Events====
 
-Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and ideally we would want to describe all events this way - under their event types in the URLs. This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
+Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and we want to describe all events this way - under their event types in the URLs. This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
 
 <nowiki>
 {{Event
@@ -85,7 +85,9 @@ Events logically belong under their event types (i.e. dom/PointerEvent/pointerdo
 }}
 </nowiki>
 
-The trouble is that, as in the above example, the value of the Interface= field needs to be corrected before we can perform the move. In the above example, the field should read, Interface=dom/FocusEvent.
+The trouble is that, as in the above example, the value of the Interface= field needs to be corrected before we can perform the move. In the above example, the field should read, Interface=dom/FocusEvent. This is the case with all of the events, their event types are all organized under the interstitial, "objects."
+
+So, the first task is to re-organize the event types directly under dom, i.e. dom/PointerEvent.
 
 Then, we need to develop the event type pages to list the events that specify the event type in the Interface= field, for example, Interface=dom/UIEvent. 
 
