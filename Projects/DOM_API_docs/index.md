@@ -85,6 +85,8 @@ The trouble is that, as in the above example, the value of the Interface= field 
 
 Then, we need to develop the event type pages to list the events that specify the event type in the Interface= field, for example, Interface=dom/UIEvent. 
 
+http://project.webplatform.org/tmpl/issues/14
+
 Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in the appropriate element page. The example above is correct, but the PointerEvents (pointercancel, pointermove, pointerup, etc.) all point to PointerEvent instead of correctly pointing to dom/Element.
 
 And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent. This move needs to be performed manually for all of the pages currently under [[dom/objects]].
