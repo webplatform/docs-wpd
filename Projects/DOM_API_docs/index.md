@@ -103,6 +103,8 @@ We also considered organizing events  under their targets (i.e. dom/Element/poin
 
 ====Event targets====
 
+Event targets are such objects as Document, Element, etc.
+
 Inheritance should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
 * dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
 * dom/Navigator
@@ -122,7 +124,7 @@ This follows the methodology in the [[WPD:Creating_API_pages|API Project]], exce
 
 An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML Elements, SVG, etc., and we have already broken out the content into these top-level buckets. We don't have "dom/css/cssom" or "dom/svg." We are designating this bucket as the "dom" to mean the objects and interfaces used to program against the DOM. That these are understood to be the APIs, using "apis" as an interstitial (as in "dom/apis") is redundant.
 
-We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method, or "dom/events/<event>."
+We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/<object>/<member>" where <member> may be a property or method, or event.
 
 ===Reorganization procedure===
 
