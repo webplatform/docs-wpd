@@ -20,6 +20,8 @@ Just to run Salt state scripts to test if all is fine. We never know if things b
 
 Will help speed up when it is time to flip the switch.
 
+A Read-Only Database server; basically a slave of db1 in production (HPCloud), that other VMs in Dreamhost's infrastructure will read from.
+
 
 ===  Phase 1: Getting access to Dreamhost's to prepare new environment ===
 
