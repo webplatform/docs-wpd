@@ -3,74 +3,87 @@
 == Introduction ==
 This document follows [[WPD:Infrastructure/analysis/2013-Usage and future state]] and should help with the [[WPD:Infrastructure/analysis/2013-Usage and future state#3. Refactored infrastructure]] objectives.
 
-While we were running on original deployment infrastructure, configuration was built empirically to suit the site visitors demand. Due to the fact that most configuration was written to be specific to the current environment, we need to review all configurations allowing us to change provider and to rebuild on demand a new deployment without impacting the production environment.
-
-The objective of this project is to migrate out of our cloud provider but to make such migration, there are some configuration changes to make.
-
-In consequence, the new configuration should enable us:
-# to rebuild the complete infrastructure anywhere (even locally).
-# to use services in other cloud (e.g. Database hot backup in an other provider location) 
-
-=== Benefits ===
-All environments (production, staging, testing, dev) are going to be completely independent, not even in the same cloud provider.
-
-It will give the following benefits:
-* capacity to test all the stack without impacting the live (production) site.
-* capacity to create your own development environment wherever we can instantiate virtual machines
-* capacity to build an ad-hoc clone of the production environment to develop with
+While we were running on original deployment infrastructure, configuration was built empirically to suit the site visitors demand. 
 
 __TOC__
 
 == Phases ==
 Broken down into phases...
 
-=== Analysis document (this document) ===
-In progress...
 
 
-----
-=== Rework hard-coded configurations ===
+=== Prepare new environment ===
 
-'''What must be ready prior to change phase:'''
-# test in a separate environment the configuration management scripts
-# create two new environments in new cloud provider (test, production)
-# code a synchronization script (files, replace database) to make final migration flip be as quick as possible
-# test whether we can send play log to new production db server deployment
+==== Create a MySQL replication node on Dreamhost node ====
+
+Will help speed up when it is time to flip the switch.
 
 
-----
-=== Replicating installation outside of current cloud provider ===
-stub.
+==== Getting access to Dreamhost's OpenStack controller ====
 
-'''What must be ready prior to change phase:'''
-# Database servers has working hot-backup from production
-# Deployment works fully without Fastly (i.e. by changing a tester's hosts file everything works)
+So we can start working.
 
 
-----
-=== Replicating installation to new cloud provider ===
-Assuming we can replicate in more than one environment (locally, on WikiMediaFoundation cloud, new cloud)
+==== Make a new 'deployment' node on Dreamhost infrastructure ====
 
-'''Complete new Fastly configuration'''
-Besides the fact that we need a mirror of the configuration, there are a few features we are not using that should be enabled:
-* 500, 503 error pages using WPD theme instead of a white web page
-* Ensuring that JavaScript/CSS/Images do NOT propagate cookies in their requests
-* Ensuring that JavaScript/CSS/Images ARE cached
+So we can start working.
 
-'''What must be ready prior to change phase:'''
-# Complete new Fastly configuration
-# Complete deployment to the new cloud provider
-# Database servers has hot backup in both locations
+# Move configuration files from /srv/code, /srv/salt, /srv/pillar and other important files.
 
+==== Recreate the environment ====
 
-----
-=== Testing ===
-Assuming we have a 
-This step will allow us to test the full site without using any of the current production allowing us to test-proof the new deployment prior to the sign-off.
+Instantiate nodes with the same specs (or as close as possible) to what we have.
+
+# Test locally by overriding host names in own hosts file
+# Ensure the new configuration match new private IP addresses
+# Read from MySQL replication node on Dreamhost node. In read-only mode.
+# New database nodes to read data from the MySQL replication node on Dreamhost node
 
 
-----
-=== Flipping the switch ===
+==== Create a copy of each Fastly services to point to Dreamhost nodes ====
+
+Will be used through the reinstallation on the new environment and allow us to test prior to flipping the switch.
+
+
+
+=== Testing phase ===
+
+==== Ask people to test the new infrastructure  ====
+Local database nodes will be read-only and getting synced from production.
+
+Warn community that it is to test, and they will not be able to edit pages there.
+
+==== Prepare flipping the switch ====
+
+Script to make what is described in "Flip the switch" below as quick as possible.
+
+
+=== Flip the switch ===
+
+This has to be scripted to be as quick as possible.
+
 Assuming we have a sign-off from previous phase.
 
 This step is leveraging the fact that Fastly configuration can be changed quickly. This will ensure us that in case of a problem, we can easily revert and therefore ease the pressure during the actual change.
+
+==== Executing ====
+
+In HPCloud environment:
+- Make db1 (master) read only
+- Make show a 'Migration in progress' note so users are not surprised if they cannot save
+
+In Dreamhost environment:
+- Make new db1 the master, disconnect from replication node 
+- Make new db2 the slave of db1, disconnect from replication node
+
+In fastly:
+- Change each 'service' to use new backend nodes from dream host, deploy them
+
+
+==== Clean up ====
+
+Assuming all is fine.
+
+- Delete MySQL replication node on Dreamhost node 
+- Delete Fastly temporary services
+- Deprecate HPCloud
