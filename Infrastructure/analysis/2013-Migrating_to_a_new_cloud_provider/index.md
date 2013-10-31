@@ -14,7 +14,7 @@ Broken down into phases...
 
 === Prepare new environment ===
 
-==== Create a MySQL replication node on Dreamhost node ====
+==== Create a temporary MySQL replication node on Dreamhost ====
 
 Will help speed up when it is time to flip the switch.
 
@@ -30,7 +30,7 @@ So we can start working.
 
 # Move configuration files from /srv/code, /srv/salt, /srv/pillar and other important files.
 
-==== Recreate the environment ====
+==== Re-create the environment on Dreamhost infrastructure ====
 
 Instantiate nodes with the same specs (or as close as possible) to what we have.
 
@@ -40,7 +40,7 @@ Instantiate nodes with the same specs (or as close as possible) to what we have.
 # New database nodes to read data from the MySQL replication node on Dreamhost node
 
 
-==== Create a copy of each Fastly services to point to Dreamhost nodes ====
+==== Create a copy of each Fastly services to point on nodes within Dreamhost infrastructure ====
 
 Will be used through the reinstallation on the new environment and allow us to test prior to flipping the switch.
 
