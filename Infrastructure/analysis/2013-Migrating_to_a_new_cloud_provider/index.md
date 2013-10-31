@@ -13,6 +13,9 @@ Broken down into phases...
 
 === Phase 0: Prepare upcoming migration ===
 
+==== Dry run some salt stack states in HPCloud ====
+Just to run Salt state scripts to test if all is fine. We never know if things broke along the changes made on the master branch.
+
 ==== Create a temporary MySQL replication node on Dreamhost ====
 
 Will help speed up when it is time to flip the switch.
