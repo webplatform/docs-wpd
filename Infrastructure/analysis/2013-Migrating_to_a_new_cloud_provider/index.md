@@ -69,21 +69,21 @@ This step is leveraging the fact that Fastly configuration can be changed quickl
 ==== Executing ====
 
 In HPCloud environment:
-- Make db1 (master) read only
-- Make show a 'Migration in progress' note so users are not surprised if they cannot save
+# Make db1 (master) read only
+# Make show a 'Migration in progress' note so users are not surprised if they cannot save
 
 In Dreamhost environment:
-- Make new db1 the master, disconnect from replication node 
-- Make new db2 the slave of db1, disconnect from replication node
+# Make new db1 the master, disconnect from replication node 
+# Make new db2 the slave of db1, disconnect from replication node
 
 In fastly:
-- Change each 'service' to use new backend nodes from dream host, deploy them
+# Change each 'service' to use new backend nodes from dream host, deploy them
 
 
 ==== Clean up ====
 
 Assuming all is fine.
 
-- Delete MySQL replication node on Dreamhost node 
-- Delete Fastly temporary services
-- Deprecate HPCloud
+# Delete MySQL replication node on Dreamhost node 
+# Delete Fastly temporary services
+# Deprecate HPCloud
