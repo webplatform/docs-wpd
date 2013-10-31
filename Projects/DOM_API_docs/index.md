@@ -70,7 +70,7 @@ Beneath that are the DOM objects; these are of two types, event targets and even
 
 ====Events====
 
-Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and we want to describe all events this way - under their event types in the URLs. This can be accomplished with a script because the event interface is captured in the Event template, with the Interface= field, like this:
+Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and we want to describe all events this way - under their event types in the URLs. There are two fields in the Event template that capture the parent object of specific events, the Interface= field and the Event_applies_to= field, as shown in the example below:
 
 <nowiki>
 {{Event
@@ -78,28 +78,28 @@ Events logically belong under their event types (i.e. dom/PointerEvent/pointerdo
 |Target=dom/Element
 |Default_action=
 |Content=
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/objects/FocusEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
 </nowiki>
 
-The trouble is that, as in the above example, the value of the Interface= field needs to be corrected before we can perform the move. In the above example, the field should read, Interface=dom/FocusEvent. This is the case with all of the events, their event types are all organized under the interstitial, "objects."
+The trouble is that, as in the above example, the values of the Interface= and Event_applies_to fields need to be corrected. In the above example, the field should read, Interface=dom/FocusEvent. This is the case with all of the events, their event types are all organized under the interstitial, "objects."
 
-So, the first task is to re-organize the event types directly under dom, i.e. dom/PointerEvent.
+So, the first task is to re-organize the event types directly under dom, i.e. dom/PointerEvent. Event type pages need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent. This move needs to be performed manually for all of the pages currently under [[dom/objects]].
 
-Then, we need to develop the event type pages to list the events that specify the event type in the Interface= field, for example, Interface=dom/UIEvent. 
+Then, we need to edit the event pages Event_applies_to= field to point to the event type, for example,  Event_applies_to=dom/UIEvent. While we're at it, do the same for the Interface= field, i.e. Interface=dom/UIEvent. Although the Interface= field appears to be unused, it should be updated for consistency.
 
-http://project.webplatform.org/tmpl/issues/14
+Making these changes will cause changes to the event target pages like dom/Element. In most cases, the event pages currently specify Event_applies_to=<event target page>, i.e. Event_applies_to=dom/Element. This produces a list of events on the event target page. When we change the value to Event_applies_to=<event type>, i.e. Event_applies_to=dom/PointerEvent, the list appears on the event type page, as it should, instead.
 
-Also, and while were at it, the Event_applies_to= field needs to be corrected so that the event will be listed in the appropriate element page. The example above is correct, but the PointerEvents (pointercancel, pointermove, pointerup, etc.) all point to PointerEvent instead of correctly pointing to dom/Element.
-
-And finally, the event type pages, like FocusEvent need to be moved out of dom/objects/ and into dom/ - for example, dom/FocusEvent. This move needs to be performed manually for all of the pages currently under [[dom/objects]].
+To produce a list on the event target pages, the API_Object template needs to be updated to generate the list based on the Target=dom/Element value. See [[http://project.webplatform.org/tmpl/issues/14 this issue]] for details.
 
 Eventually we need to add a field to the Event form to display the event type (see [http://project.webplatform.org/tmpl/issues/7 this bug]).
 
 We also considered organizing events  under their targets (i.e. dom/Element/pointerdown), but found namespace collisions (dom/Element/error property collides with dom/Element/error event). Besides, events properly belong to event types, not targets, in the DOM.
+
+====Event targets====
 
 Inheritance should not be described in the URL. Rather, all DOM objects, regardless of their "level" in the DOM, should reside on one level of the WPD URL structure. This provides for short URLs. So, we would have the following:
 * dom/HTMLTrackElement (''not'' dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement)
