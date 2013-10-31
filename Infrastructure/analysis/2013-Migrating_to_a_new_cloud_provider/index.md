@@ -11,13 +11,14 @@ __TOC__
 Broken down into phases...
 
 
-
-=== Prepare new environment ===
+=== Phase 0: Prepare upcoming migration ===
 
 ==== Create a temporary MySQL replication node on Dreamhost ====
 
 Will help speed up when it is time to flip the switch.
 
+
+===  Phase 1: Getting access to Dreamhost's to prepare new environment ===
 
 ==== Getting access to Dreamhost's OpenStack controller ====
 
@@ -46,7 +47,7 @@ Will be used through the reinstallation on the new environment and allow us to t
 
 
 
-=== Testing phase ===
+=== Phase 2: Testing phase ===
 
 ==== Ask people to test the new infrastructure  ====
 Local database nodes will be read-only and getting synced from production.
@@ -58,7 +59,7 @@ Warn community that it is to test, and they will not be able to edit pages there
 Script to make what is described in "Flip the switch" below as quick as possible.
 
 
-=== Flip the switch ===
+=== Phase 3: Flip the switch ===
 
 This has to be scripted to be as quick as possible.
 
