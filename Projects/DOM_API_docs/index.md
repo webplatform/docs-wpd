@@ -95,9 +95,9 @@ Then, we need to edit the event pages Event_applies_to= field to point to the ev
 
 Making these changes will cause changes to the event target pages like dom/Element. In most cases, the event pages currently specify Event_applies_to=<event target page>, i.e. Event_applies_to=dom/Element. This produces a list of events on the event target page. When we change the value to Event_applies_to=<event type>, i.e. Event_applies_to=dom/PointerEvent, the list appears on the event type page, as it should, instead.
 
-To produce a list on the event target pages, the API_Object template needs to be updated to generate the list based on the Target=dom/Element value. See [[http://project.webplatform.org/tmpl/issues/14 this issue]] for details.
+To produce a list on the event target pages, the API_Object template needs to be updated to generate the list based on the Target=dom/Element value. See [http://project.webplatform.org/tmpl/issues/14 this issue] for details.
 
-Eventually we need to add a field to the Event form to display the event type (see [http://project.webplatform.org/tmpl/issues/7 this bug]).
+Eventually we need to add a field to the Event form to display the event type (see [http://project.webplatform.org/tmpl/issues/7 this issue]).
 
 We also considered organizing events  under their targets (i.e. dom/Element/pointerdown), but found namespace collisions (dom/Element/error property collides with dom/Element/error event). Besides, events properly belong to event types, not targets, in the DOM.
 
