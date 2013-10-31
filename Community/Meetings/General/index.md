@@ -20,6 +20,13 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-11-01==
+
+* CSS properties project
+* The next content project?
+* Status on migration project
+* Doug will be out the next two Fridays, should we meet anyway?
+
 ==Agenda 2013-10-25: Canceled due to lack of quorum==
 
 ==Agenda 2013-10-18==
