@@ -66,9 +66,11 @@ For example, [[dom/HTMLTrackElement]] ''not'' [[dom/EventTarget/Node/Element/HTM
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 * '''dom''' - a listing page with all DOM objects and their summaries.
 
-Beneath that are the DOM objects; these are of two types, event targets and events. For the purposes of this document, each type is distinguished by its use of the templates and forms in the wiki. 
+Beneath that are the DOM objects; these are of two types, '''events''' and '''event targets'''.  
 
 ====Events====
+
+All of the event types are currently organized under dom/objects, i.e. dom/objects/PointerEvent and the actual events are organized under dom/events, i.e dom/events/pointerdown.
 
 Events logically belong under their event types (i.e. dom/PointerEvent/pointerdown or dom/Event/error). The events in [[dom/PointerEvent]] are organized thus, and we want to describe all events this way - under their event types in the URLs. There are two fields in the Event template that capture the parent object of specific events, the Interface= field and the Event_applies_to= field, as shown in the example below:
 
