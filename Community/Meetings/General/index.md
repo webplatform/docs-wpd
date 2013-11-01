@@ -22,10 +22,114 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 ==Agenda 2013-11-01==
 
+* Jen Simmons
+* TPAC
 * CSS properties project
+* Compatibility tables
 * The next content project?
 * Status on migration project
 * Doug will be out the next two Fridays, should we meet anyway?
+
+===Discussion===
+
+
+julee, shepazu, peterlubbers, jswisher, scottrowe_, jensimmons, renoirb, eliot are all on the line or on IRC
+scribenick: renoirb
+eliot's here!
+
+====TOPIC: Jen Simmons is contracting====
+
+Good news: Jen simmons is going to work for at least 6 months or so, starting part time, she is a developer/designer. she is going to be part time for a few weeks and then be full time after she finished her other already planned arrangements.
+Jen had a chance to talk with a few folks at Html5DevConf, at Google. A lot to work on. Jen is thinking she will work on usability issues and improve it as well as how to help contributors to contribute (making it easier). 
+Doug believes we should prioritize usability to the users (i.e. not a contributor). we should have a conversation about those on the list. We need to prioritize.
+
+====TOPIC: TPAC====
+
+TPAC is W3C's annual "all hands" face-to-face meeting. Where we gather (almost) all the groups in a big conference. This year it is in Shenzhen, China. Renoir, Doug and Eliott will be there. Doug and Renoir be there between 11/9-17. Eliott: 11/10-16.
+Renoir will be going around and learn with various working groups.  Granted to be on an offset time zone and will be there for emergencies and things that have to be done.
+Renoir will also be organizing TPAC's "Lightnening talks" sub-event.
+Doug will be presenting with Eliott about WPD at TPAC to raise awareness.
+Doug is part of many working groups, and so will have limited availability.
+Doug & Renoir will not be available for the next 2 General meetings, so Doug will provide Julee with status before the general meetings, so they can continue as needed.
+ACTION: While at TPAC, Doug will convey status on all pending projects before Friday General Meetings.
+
+====TOPIC: Migration====
+
+Renoir has done a plan. http://docs.webplatform.org/wiki/WPD:Infrastructure/analysis/2013-Migrating_to_a_new_cloud_provider
+The HP contract is over. Doug is going to ask HP for another extension & offer HP visibility (find better word later) on the fact they started the project with us
+Dreamhost is enthusiastic to host for free our full environment, but their new system is not ready for us. They will provide a full (vanilla) OpenStack environment. They are providing us a Replication MySQL node to help the migration and testing. As soon as the OpS installation is ready, Renoir set up the full migration work.
+The time line depends upon Dreamhost to provide the environment (a blocker). Once we have in control immediately, Renoir thinks it should take a few days, then testing, as described in the doc. But the time he can't say, a lot of search & replace, and then the test, and then the live db transfer is the longest time.
+Renoir says he's ready, just waiting. Doug says Renoir already started the migration, that the migration is going started ASAP.
+The css properties has a dependency on a stable site. That's why we need to know when the migration work is being done.
+Renoirb wants to make it clear that we MUST have a clone of the full production/live environment as soon as possible. as when we make changes, we are working on the production and a simple mistake can impact stability, and a change should only be a run of a script been tested many times before being run on the live site.
+
+ACTION: Doug will contact Dream host and get dates, today.
+
+====TOPIC: Compatibility tables====
+
+Ronald Mansveld is working on the data model so all contributing sites can provide content according to the model.
+We then need to find a way to present to the users, and how mechanically to sync the data. Doug did contract [http://www.mediawiki.org/wiki/User:Aaron_Schulz Aaron Schulz] to prepare an utility to cache generated data, and thinks he's close to completion. But, since we might migrate away from MW. We do not need to have this data live. We just need to refresh the data, say, once per week.
+
+We do not need an automated data at this time. Priority is to have the data available in a re-usable format and present within the wiki. Need to test (today) on the computability table.
+
+We will disable editing the compatibility section. Julee suggested previously that if users find contrary data, they could submit an update (preferably test-driven, conforming to data model) to github. This community data source will then be one of the data sources. We might also find a way to plug to TestTheWebForward data.
+
+Eliot request a mechanism to report an error or flag.
+
+Phase one, however, is just to get some data into the css pages so we can get the css properties project out. We want to use MDN data first, and maybe caniuse.
+
+Janet Swisher didn't know Ronald Mansveld was working on MDN data. If jswisher had known, she could have connected him with the right folks, she'll try and do so in the future. (jswisher confirmed that ronaldmasveld did talk to appropriate people at Mozilla London)
+
+Doug believes we can finish Compatibility tables by the end of TPAC and possibly during it, should be at least in a working state and to test it. It would include not only the CSS properties, but be done across all features.
+
+ACTION: Doug will confirm dates with Ronald Mansveld & Aaron Schulz today.
+
+
+====TOPIC: CSS vs. Beta announcement ====
+
+For the CSS properties project, Doug suggests we "Declare victory and go home"
+
+There is a need for us to say thank you to the community. By mid-November, we will be in a moment where we can do so.
+But as jkomoros said, we have 1 more chance to make a big splash. So, we shouldn't call this beta.
+Questions: why have a beta? when is a good time to have a beta?
+Maybe it isn't good to announce between thanksgiving & xmas. Let's give a status update and showing achievements, just announce round 1 of css properties. Then, find an appropriate time to announce a beta when we have enough "meat" to show off as we only have one shot.
+We could make a big fanfare, a coming ceremony for the beta, but we might never come to a point where we are in a complete, final state as it is the nature of the subject of the project. But we're not close to a beta announcement right now. A beta launch needs to be to the same level of efforts as the launch announcement. It might not be sufficient to only announce the css properties as the beta. The beta should include more. We should carefully consider what we have to say and what we're going to. How we are going to frame this. This round 1 of the css properties edits will be one of many granular announcements.
+
+
+We've been talking publically about CSS properties, that's what we should announce.
+
+Many folks agreed.
+
+Julee again mentioned that we need to have a timeline for the compatibility tables & migration, so we know when css properties can be launched. (See discussions & outstanding action items from previous meetings.)
+
+(On the IRC, renoirb also suggests also this as a blog post: http://lists.w3.org/Archives/Public/public-webplatform/2013Oct/0148.html)
+
+====TOPIC: Next content project====
+
+We need to find what we work on during DocSprint and WPW.
+
+JavaScript pages? 
+
+What is the timeframe for the JavaScript import?
+
+ACTION: Doug will contact Max Polk today.
+
+Doug thinks we already have the script to import, so should make importing easy. It might take a week or so prior to make it work.
+
+So, if JS is ready to import, do we want to assume that the next subject to be JavaScript?
+Doug: (thinks) that we could have room to do two subject in the same time. Doug thinks we can get a limited set of people to contribute to JavaScript, and then have a larger pool of folks who could contribute to HTML pages.
+Julee believes we do not have enough resources to manage two content projects at the same time.
+Renoirb believes his community management dashboard would help.
+ACTION: Julee to send out notes so more folks can comment on the next content project.
+
+===ACTION ITEMS===
+* While at TPAC, Doug will convey status on all pending projects before Friday General Meetings.
+* Doug will contact Dream host and get dates, today.
+* Doug will confirm dates with Ronald Mansveld & Aaron Schulz today.
+* Julee to send out notes so more folks can comment on the next content project.
+* Doug will contact Max Polk today.
+
+
 
 ==Agenda 2013-10-25: Canceled due to lack of quorum==
 
