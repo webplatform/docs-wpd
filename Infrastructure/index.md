@@ -1,5 +1,5 @@
 == Table of contents ==
-Listing all sub pages from here. Testing onContentSaveComplete hook 23
+Listing all sub pages from here.
 
 <splist />
 
