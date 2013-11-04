@@ -129,7 +129,7 @@ We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) accord
 ===Reorganization procedure===
 
 There are 1129 pages in the dom namespace.  
-* 137 in a dom/<object>/<member> pattern already (which do not need to move)
+* 137 in a dom/<object>/<member> pattern already (some of which may not need to move)
 * 119 in dom/events 
 * 49 in dom/objects
 * 77 in dom/apis
@@ -137,21 +137,19 @@ There are 1129 pages in the dom namespace.
 * 257 in dom/methods
 * 336 in dom/properties 
 
-This leaves 53 pages that don't fit into any of these categories. Also, there are an additional 20 or so pages that may belong in the dom namespace and which currently reside in the apis namespace.
+This leaves 53 pages that don't fit into any of these categories. Also, there are an additional 20 or so pages that may belong in the dom namespace and which currently reside in the apis namespace. These include the [[apis/audio-video|audio-video APIs]], which need to be reviewed for members that may need to be moved into the dom namespace.
 
 For the dom/objects pages, simply move dom/objects/* to dom/* - removing the "objects" interstitial.
 
-For the dom/apis pages, most of these can be moved manually, for example [[dom/apis/audio-video/events/play]]. The rest, like [[dom/apis/document/getElementById]] can be moved manually one by one.
+For the dom/apis pages, most of these are part of the audio-video API, for example [[dom/apis/audio-video/events/play]]. Each of the pages in this namespace needs to be be organized under its parent DOM object - HTMLMediaElement, for example. Also, review the [[apis/audio-video|audio-video APIs]] for possible moves to the dom namespace. The rest, like [[dom/apis/document/getElementById]] can be moved according to the methodology outline here.
 
-For the dom/traversal pages, most of these can be moved with the script because they have an '''Applies to''' field, for example [[dom/traversal/methods/cloneContents]]. The rest, like [[dom/traversal/NodeIterator]] can be moved manually. Luckily, there are no event pages under dom/traversal.
-
-The rest, dom/methods and dom/properties will be moved with the following script.
-
-Any remaining pages that don't get moved by the script can be moved manually.
+The dom/traversal pages also need to be moved under their parent objects. For example [[dom/traversal/methods/cloneContents]] may need to move to dom/<parentDOMobject>/Range. Much of the work will be in figuring out to which DOM objects these traversal members belong. If the parent DOM object can't be determined, the traversal API might belong in the [[apis]] namespace. Luckily, there are no event pages under dom/traversal.
 
 ====Script====
 
-Apply the following process to the dom pages.
+It may be possible to do some of this moving with a script. People in the community might be able to lend a hand. [[http://docs.webplatform.org/wiki/User:Frozenice|Frozenice] (David Kirstein) is very knowledgeable about MediaWiki and Semantic MediaWiki, and he may be able to help automate this process.
+
+From a first-impression, it seemed the script could apply the following process to the dom pages.
 
 * If the page is of the API_Object_Method or API_Object_Property template type
 ** If the page's '''Applies to''' field is set (Method_applies_to= , Property_applies_to=)
@@ -175,5 +173,7 @@ We should leave no redirects, since page-level redirects, as opposed to server-l
 
 ==Amending the content==
 We'll deal with this after we get reorganized. To be continued...
+
+==Unresolved issues==
 
 Need to identify the event type (i.e. KeyboardEvent) in the Event template, Overview table. ([http://project.webplatform.org/tmpl/issues/7 bug])
