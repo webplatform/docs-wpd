@@ -1,7 +1,7 @@
 = Site status problem notification messages =
 
 == Description ==
-In case of an site problem, some boilerplate error messages to start from. Generally we publish them to [http://status.webplatform.org] and broadcast them to Twitter [https://twitter.com/WebPlatform]
+In case of an site problem, some boilerplate error messages to start from. Generally we publish them to [http://status.webplatform.org status.webplatform.org] and broadcast them to Twitter [https://twitter.com/WebPlatform @WebPlatform] and other Social media accounts.
 
 == Messages per problem type ==
 
