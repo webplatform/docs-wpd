@@ -39,3 +39,4 @@ The database server is currently not answering requests properly. Some pages are
 # Add first line of status message '''Update: This issue has been resolved as of 24:00 EST.'''
 # Put a '''Original announcement''' title before the original announcement message
 # Describe what was the problem (optional)
+# Add comment from first line status message "Update: ..." as comment on social media sites as a comment
