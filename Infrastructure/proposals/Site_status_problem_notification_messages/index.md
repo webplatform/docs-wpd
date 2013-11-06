@@ -11,7 +11,13 @@ In case of an site problem, some boilerplate error messages to start from. Gener
 
 == Messages per problem type ==
 
+=== Generic ===
+'''Title:''': WebPlatform Site Issue
+
+Some users may be experiencing an issue with our service. Our team are currently working on this issue.
+
 === Currently working on (...) ===
+
 We are currently working to repair a problem with (...)  and in consequence affecting (...).
 
 Some small down time might happen, but it is under control. We are sorry for the inconvenience.
@@ -30,8 +36,6 @@ The database server is currently not answering requests properly. Some pages are
 == Notifying problem resolution ==
 
 # Prepend 'FIXED: ' to the status message title
-# Put a '''Original announcement''' title before the original announcement message, and add a resolution state report.
-
-=== All is back to normal.  (...) ===
-
-All is back to normal.(...) cache is being rebuilt.
+# Add first line of status message '''Update: This issue has been resolved as of 24:00 EST.'''
+# Put a '''Original announcement''' title before the original announcement message
+# Describe what was the problem (optional)
