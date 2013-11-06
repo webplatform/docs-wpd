@@ -7,6 +7,8 @@ In case of an site problem, some boilerplate error messages to start from. Gener
 * When we need to block writes for backup/maintenance purposes
 * When a problem is caused by code being deployed [http://status.twitter.com/post/63765159379/issue-viewing-timelines Example: this status text]
 * When we need to shut down
+* What to put as general note after a problem notification message
+* Maintenance window warning
 * Error pages text, add link to advise looking at '''status.webplatform.org''' site on [http://www.webplatform.org/errors/404.html 404 Error page], [http://www.webplatform.org/errors/503.html 503 Error page], and also (missing) '''500 Error page'''
 
 === Inspiration and similar micro sites ===
