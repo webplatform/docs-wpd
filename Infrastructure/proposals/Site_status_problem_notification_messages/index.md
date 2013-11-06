@@ -23,8 +23,8 @@ The database server is currently not answering requests properly. Some pages are
 
 == Notifying problem resolution ==
 
-# Append 'FIXED: ' to the status message title
-# Put a '''Original announcement''' note before the announcement message
+# Prepend 'FIXED: ' to the status message title
+# Put a '''Original announcement''' title before the original announcement message, and add a resolution state report.
 
 === All is back to normal.  (...) ===
 
