@@ -9,6 +9,11 @@ In case of an site problem, some boilerplate error messages to start from. Gener
 * When we need to shut down
 * Error pages text, add link to advise looking at '''status.webplatform.org''' site on [http://www.webplatform.org/errors/404.html 404 Error page], [http://www.webplatform.org/errors/503.html 503 Error page], and also (missing) '''500 Error page'''
 
+=== Inspiration and similar micro sites ===
+* [https://community.hpcloud.com/status HP Cloud status]
+* [http://status.twitter.com Twitter status]
+* [https://developers.facebook.com/live_status/ Facebook live status]
+
 == Messages per problem type ==
 
 === Generic ===
