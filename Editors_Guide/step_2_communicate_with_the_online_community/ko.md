@@ -11,7 +11,7 @@ WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다
 
 [http://webchat.freenode.net/?channels=#webplatform 브라우저에서의 로그인과 팀 질문 문의] or [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients|IRC 클라이언트 사용하기]]. 계획된 미팅이 있거나 언제든지 여러분이 아이디어를 공유하기 원하는 때 혹은 질문을 하려면 IRC 채널에 로그인 해 주세요. 다른 IRC 채널(예. #webplatform-site : 금요일 문서팀 미팅을 위한 채널)을 사용할 수 있으므로 회의 세부 정보를 확인 해 주세요.
 
-참고: IRC 사용이 처름이라면 [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/도움이 될 이 가이드]를 확인해 주세요.
+참고: IRC 사용이 처음이라면 [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/|도움이 될 이 가이드]를 확인해 주세요.
 
 ===IRC 시간===
 
