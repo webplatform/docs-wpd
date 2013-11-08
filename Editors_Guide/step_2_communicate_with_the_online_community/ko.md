@@ -4,10 +4,9 @@
 }}
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
-{{Languages}}
 
-==Join the conversation on the IRC channel==
-The WebPlatform.org online community uses IRC extensively. Connect to the WebPlatform channel with an IRC client using these settings
+==IRC 채널에서 대화에 참여하세요.==
+WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
 * Server: Freenode (irc.freenode.net)
 * Channel: #webplatform
 
