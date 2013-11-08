@@ -120,7 +120,7 @@ If you want to mention any outstanding issues, items or questions about the page
 
 ===Get additional information about how templates work===
 This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
-* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]]. 
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
