@@ -17,7 +17,7 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| 교류하기]]</h3>
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community/ko| 교류하기]]</h3>
             <ul>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|#webplatform IRC에 가입]]</li>
             <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|public-webplatform@w3.org 메일링 그룹에 가입]]</li>
