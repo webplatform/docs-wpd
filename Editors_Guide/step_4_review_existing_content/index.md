@@ -76,7 +76,7 @@ See [[WPD:Editors Guide/step 2 communicate with the online community| Step 2 of 
 
 ==Check the topics and topic clusters==
 
-While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance.
+While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance. 
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
