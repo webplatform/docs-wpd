@@ -1,6 +1,6 @@
-{{Page_Title|Step 2: Communicate with the online community}}
+{{Page_Title|Step 2: 온라인 커뮤니티에서 교류하기}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|This is Step 2 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
