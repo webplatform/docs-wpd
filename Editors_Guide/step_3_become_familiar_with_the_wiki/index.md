@@ -19,7 +19,7 @@ Begin reviewing, marking, and editing pages using these resources:
 
 ===Explore the web development docs===
 * Join [[Meta:web_platform_wednesday|Web Platform Wednesdays]] to help with the current content drive.
-* Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation.
+* Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation. 
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
