@@ -41,7 +41,7 @@ WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다
 
 우리는 [http://project.webplatform.org project.webplatform.org]에 새 이슈 트래킹 시스템을 설치 해 두었습니다.
 
-{{참고|새로운 버그를 입력하기 전에 해당 이슈에 대한 검색을 꼭 해야 합니다.}}
+{{Note|새로운 버그를 입력하기 전에 해당 이슈에 대한 검색을 꼭 해야 합니다.}}
 
 버그를 제출하려면, [http://project.webplatform.org project.webplatform.org]의 프로젝트 공간에 로그인하여 프로젝트 리스트 중 하나를 선택하고 관련 "REPORT AN ISSUE" 버튼을 선택합니다.
 {{Notes_Section}}
