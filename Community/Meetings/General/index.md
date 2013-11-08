@@ -20,6 +20,9 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-11-08: Canceled due to lack of agenda==
+
+
 ==Agenda 2013-11-01==
 
 * Jen Simmons
