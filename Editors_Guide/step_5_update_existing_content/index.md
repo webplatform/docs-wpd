@@ -168,7 +168,7 @@ Use the relevant keywords for an article in the summary, and where possible and 
 Different types of articles have different types of sections. For an article to be considered to be high quality, it should include all applicable sections.
 
 ===Participate in the conversation about formatting and styling wiki pages===
-*Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
+*Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group]. 
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
