@@ -31,7 +31,7 @@ We will blog about it, then following the channels of communication as follows:
 |-
 | Steward blogs
 | steward rep
-| 2
+| 3
 |}
 
 ===Recruiting experts===
