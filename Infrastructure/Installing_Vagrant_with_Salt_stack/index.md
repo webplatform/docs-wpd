@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:WPD:Infrastructure/procedures/Creating local multiple Virtual Machine state development environment using Vagrant and Salt stack]]
