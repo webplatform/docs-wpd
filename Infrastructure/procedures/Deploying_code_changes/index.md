@@ -1,4 +1,6 @@
-== Deploying code bases ==
+= Deploying code bases =
+
+== Summary ==
 
 There's four current code bases, run via '''sudo salt-run deploy.run <codebase>''':
 
