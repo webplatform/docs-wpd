@@ -32,8 +32,13 @@ We will blog about it, then following the channels of communication as follows:
 | 2
 |}
 
-===recruiting experts===
-===docsprints===
+===Recruiting experts===
+
+Recruit 3-6 JavaScript experts, geographically dispersed, to advice editors, attend Doc Sprints, and provide technical reviews.
+
+===DocSprints===
+
+
 ===schools===
 ==weekly edits==
 ===WPW===
