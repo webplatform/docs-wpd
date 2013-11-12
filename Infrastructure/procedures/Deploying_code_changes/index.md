@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Infrastructure/procedures/Deploying code changes]]
