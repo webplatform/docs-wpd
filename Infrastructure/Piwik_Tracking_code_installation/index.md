@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Infrastructure/procedures/Piwik Tracking code installation]]
