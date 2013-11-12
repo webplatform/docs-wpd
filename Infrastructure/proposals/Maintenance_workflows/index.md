@@ -1,15 +1,10 @@
-= Infrastructure Maintenance Workflow =
+= Infrastructure Maintenance Workflows =
 
 == Summary ==
-This document describe how to work on the infrastructure, to commission/de-commision services, and work on the infrastructure without affecting it directly.
-
-In other words, the process is about describing how to create a local workspace using sets of Virtual Machines develop a specific use-case prior to deploy it on the cloud hosting infrastructure into production.
-
+This document describe how to work on the infrastructure, to commission/de-commision services, and work on the infrastructure and making it as transparent as possible.
 
 == Required tools ==
 # Installing Vagrant with Salt stack, see [[WPD:Infrastructure/Installing_Vagrant_with_Salt_stack]]
-
-
 
 === States repositories ===
 
