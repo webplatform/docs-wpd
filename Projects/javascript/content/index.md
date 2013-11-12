@@ -3,10 +3,12 @@ Here's a proposal for how we'll run the JavaScript content plan
 ===Dependencies===
 To start the JavaScript content review, we'll need to have:
 
-* Donated content imported
+* Donated content imported as described in the [[WPD:Projects/javascript|JavaScript project plan]].
 * A template for the JavaScript language reference pages
+* Editing environment needs to be stable (no 500s & 503s)
 ==Community launch==
 Once we have the pages in place, we'll let the community know it's time to start editing.
+
 ===Announcement===
 We will blog about it, then following the channels of communication as follows:
 
