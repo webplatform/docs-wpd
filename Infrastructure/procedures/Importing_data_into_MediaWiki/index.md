@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Infrastructure/procedures/Importing data into MediaWiki]]
