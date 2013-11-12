@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Infrastructure/proposals/Maintenance and migration workflows]]
