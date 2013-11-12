@@ -1,3 +1,6 @@
+= Importing data into MediaWiki =
+
+== Summary ==
 ''This documentation was initially created by Yaron Koren on August 12, 2012. Feel free to write me with any questions about it, at yaron57@gmail.com.''
 
 Importing content into the wiki involves several steps. For each page to be imported, you need to:
