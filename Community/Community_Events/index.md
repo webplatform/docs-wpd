@@ -2,7 +2,6 @@
 
 ==Upcoming Events== 
 * '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
-* '''2-NOV-2013''': Web Platform Doc Sprint @ U Washington [https://www.eventbrite.com/event/8903872723/ Registration] (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ Belgium (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
 
@@ -16,6 +15,7 @@ Here is a comprehensive guide on running your own (physical) Doc Sprint. Everyth
 We once polled our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [[WPD:Community/Survey|Survey page]]. Might not be super up-to-date but provides insights if you are planning on doing your own event.
 
 ==Past Events==
+* '''2-NOV-2013''': Web Platform Doc Sprint @ U Washington [https://www.eventbrite.com/event/8903872723/ Registration] (Millo & [[User:Eliot-MSFT|Eliot]] )
 * '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
 * '''28-AUG-2013'''— Web Platform Doc Sprint hosted by Adobe at Frontend Conference Zurich, Switzerland. [http://wpds-zurich.eventbrite.com/ Registration] [http://2013.frontendconf.ch/workshops/ FrontendconfCH event page] (Andre Jay Meissner)
 * '''24-JUL-2013'''—TENTATIVE: Web Platform Wednesday? @ [http://www.oscon.com/oscon2013 OSCon, Portland, OR] (Doug)
