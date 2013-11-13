@@ -7,12 +7,12 @@
 ==Step 3: 위키 문서 작업하기==
 ===기다릴 수 없으시다면 지금 바로 기여를 시작하세요.===
 아래 리소스를 이용하여 리뷰, 플래그지정 그리고 페이지 수정을 시작하세요. 
-* 특별한 주의가 필요한 페이지 목록을 찾으려면 [[WPD:Getting_Started| 시작하기 ]] 페이지로 가세요.
+* 특별한 주의가 필요한 페이지 목록을 찾으시려면 [[WPD:Getting_Started| 시작하기 ]] 페이지로 가세요.
 * 현재 진행중인 콘텐츠에 도움을 주시려면 [[Meta:web_platform_wednesday|Web Platform Wednesdays]] 에 참여하세요.
-* 코멘트 추가 및 플래그 설정하는 방법을 배우려면 [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] 를 확인 하세요.
-* 올바른 위키 문법 사용 방법을 알아보려면 [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] 를 확인 하세요.
+* 코멘트 추가 및 플래그 설정하는 방법을 배우시려면 [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] 를 확인 하세요.
+* 올바른 위키 문법의 사용 방법을 알아보시려면 [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] 를 확인 하세요.
 
-=== WebPlatform 프로젝트의 사명(mission) 및 정책 이해하기===
+=== WebPlatform 프로젝트의 목표(mission) 및 정책 이해하기===
 * WebPlatform 위키의 목표에 대해 이해하기 위해 [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| 짧은 소개 영상]을 보시거나 [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ 긴 소개 영상]을 보세요. 
 * WebPlatform 에 대해 더 많은 이해를 원하시면 [[WPD:FAQ| FAQ]] 와 [[WPD:Policy| Policy page]]를 읽어보세요.
 * 최근 이니셔티브(initiative)에 대해 이해를 원하시면  [[WPD:Project_Status| Project Status page]] 를 확인하세요.
