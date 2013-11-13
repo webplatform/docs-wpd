@@ -90,6 +90,6 @@ Once a first pass on the basic tasks & samples are complete, we'll have a review
 ===samples===
 ===experts===
 ===influencers===
-==launch==
+==Launch==
 
 After completing editing, samples, and reviews, we'll be ready to announce the completion of this project. A launch plan should be drafted that considers timing and availability.
