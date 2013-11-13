@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Infrastructure/proposals/Logging aggregation and analytics]]
