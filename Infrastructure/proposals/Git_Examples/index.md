@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Infrastructure/proposals/Content commenting system]]
