@@ -17,7 +17,7 @@
 * WebPlatform 에 대해 더 많은 이해를 원하시면 [[WPD:FAQ| FAQ]] 와 [[WPD:Policy| Policy page]]를 읽어보세요.
 * 최근 이니셔티브(initiative)에 대해 이해를 원하시면  [[WPD:Project_Status| Project Status page]] 를 확인하세요.
 
-===웹 개발 문서 탐색하기Explore the web development docs===
+===웹 개발 문서 탐색하기===
 * 현재 진행중인 콘텐츠에 도움을 주시려면 [[Meta:web_platform_wednesday|Web Platform Wednesdays]] 에 참여하세요.
 * 기존 문서의 리뷰를 시작하시려면 [[Main_Page| WebPlatform Home page]]에 방문하세요.
 {{Notes_Section}}
