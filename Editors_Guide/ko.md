@@ -29,10 +29,10 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki|위키 문서 작업하기]]</h3>
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki/ko|위키 문서 작업하기]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#If you can't wait, start contributing right away|시작하기]]</li>
-            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#Understand the WebPlatform project's mission and policies|목표에 대해 이해하기]]</li>
+            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki/ko#기다릴 수 없으시다면 지금 바로 기여를 시작하세요.|시작하기]]</li>
+            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki/ko#WebPlatform 프로젝트의 사명(mission) 및 정책 이해하기|목표에 대해 이해하기]]</li>
         </ul>
      </div>
   </div>
