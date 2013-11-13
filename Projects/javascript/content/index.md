@@ -29,6 +29,10 @@ We will blog about it, then following the channels of communication as follows:
 | Alex
 | 2
 |-
+| Facebook?
+| ???
+| 2
+|-
 | Steward blogs
 | steward rep
 | 3
@@ -36,19 +40,56 @@ We will blog about it, then following the channels of communication as follows:
 
 ===Recruiting experts===
 
-Recruit 3-6 JavaScript experts, geographically dispersed, to advice editors, attend Doc Sprints, and provide technical reviews.
+Recruit 3-6 JavaScript experts, geographically dispersed, to advice editors throughout the project, attend Doc Sprints, and provide technical reviews.
 
-===DocSprints===
+==Completing editing & samples work==
 
+Completing editing & samples work depends on weekly contributions, as well as focused events such as Doc Sprints and tailored groups, such as students.
 
-===schools===
-==weekly edits==
 ===WPW===
+
+We will continue Web Platform Wednesdays to parse out work, announce a bundle, and recruit contributors.
+
+===Doc Sprints===
+
+Doc Sprints every month or two can get a lot of work through the pipeline.
+
+===Schools===
+...
+
 ===Coordinators===
+
+Please sign up. The amount of contributions is directly proportional to the number of coordinators.
+
+Available coordinators:
+
+* Julee
 ===Office hours===
-==review cycles==
+
+Please sign up. Editorial office hours are a way for us to let contributors know when we can focus on helping them.
+
+{| class="wikitable sortable"
+! Advisor
+! Day
+! Hour
+|-
+| Julee
+| Wednesday
+| noon-3pm Pacific Time
+|-
+| ???
+| ???
+| ???
+|}
+
+==Review cycles==
+
+Once a first pass on the basic tasks & samples are complete, we'll have a review cycle to make sure editorial tasks are complete, samples are good and follow best practices. Then, we'll let the experts & influencers voice their opinion about the quality of the content.
+
 ===editorial===
 ===samples===
 ===experts===
 ===influencers===
 ==launch==
+
+After completing editing, samples, and reviews, we'll be ready to announce the completion of this project. A launch plan should be drafted that considers timing and availability.
