@@ -1,3 +1,5 @@
+= Logging aggregation and analytics =
+
 == Summary ==
 In order to get as much information on the system as possible, we have to aggregate log events. 
 
