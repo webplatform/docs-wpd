@@ -82,6 +82,8 @@ Semantic query using the [[Special:Ask|semantic query interface]] should work.  
 :: [http://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki Semantic MediaWiki]
 
 ==On-going work==
+The latest round of converted files is located [https://github.com/maxpolk/msdn-js-conversion/tree/master/round-alice here] as .wiki files, one of which is the mapping file upload-mapping.wiki.
+
 Work has already begun importing MSDN JS pages:
 * Search discussion in the mailing list [http://lists.w3.org/Archives/Public/public-webplatform/]
 * Discussed in [[WPD:Community/Meetings/General|Webplatform meetings]]
