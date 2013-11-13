@@ -1,3 +1,5 @@
+= Content commenting system =
+ 
 == Overview ==
 
 We want an extension to allow users on our wiki to comment on particular sections of wiki page, in an way that is unobtrusive for readers.
