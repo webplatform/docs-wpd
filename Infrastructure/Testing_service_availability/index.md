@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Infrastructure/procedures/Testing service availability]]
