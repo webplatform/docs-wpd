@@ -1,9 +1,8 @@
 {{Page_Title|Step 5: 기존에 작성된 콘텐츠를 수정하기}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 5입니다.
 }}
-{{Summary_Section}}
+{{Summary_Section|이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 5입니다.}}
 {{Basic Page}}
 ==Step 5. 기존에 작성된 콘텐츠를 수정하기==
 ===미디어위키 문법 배우기===
@@ -30,7 +29,7 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 ===글에는 설명 글 제목이 있는지 확인해 주세요.===
 편집 인터페이스로 진입하기 위해 Edit버튼을 클릭한 후에는 페이지 제목 필드에 설명 글 제목을 확인해 주세요. 없는 경우 페이지의 내용과 일치하는 설명 제목을 입력해 주세요. 사용자 정의 페이지 제목이 URL과 다른 경우는 괜찮습니다.
 
- "Undescriptive Title" 플래그가 지정된 글 목록을 위해[[WPD:Getting_Started#Improve_titles|제목 개선하기]]를 확인해 주세요.
+ ""Undescriptive Title"" 플래그가 지정된 글 목록을 위해[[WPD:Getting_Started#Improve_titles|제목 개선하기]]를 확인해 주세요.
 
 Article types should be consistently titled, each according to its content's primary information type. Pages should use a consistent titling scheme so that the author can accurately position the content in the information hierarchy and visitors can infer the content type from the custom title without having to read the entire page.
 
