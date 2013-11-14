@@ -8,14 +8,14 @@
 ==Step 5. 기존에 작성된 콘텐츠를 수정하기==
 ===미디어위키 문법 배우기===
 
-Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting format pages in the wiki].
+[http://www.mediawiki.org/wiki/Help:위키의 페이지 포맷에 대한] 문법을 검토해 주세요.
 
-Also see the [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki syntax cheat sheet] from Wikipedia.
+위키피디아의 [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet 미디어 위키 문법 치트 시트]도 확인해 주세요.
 
-For help with  specific coding issues, see:
-* [[WPD:Style_Guide/Tables| Formatting tables]]
-* [[WPD:Style_Guide/Lists| Formatting lists]] 
-* [[WPD:Style_Guide/Gotchas|Common gotchas for editors]]
+특정 코딩 이슈에 도움을 위한 항목은 아래와 같습니다:
+* [[WPD:Style_Guide/Tables|표 형식]]
+* [[WPD:Style_Guide/Lists|목록 형식]] 
+* [[WPD:Style_Guide/Gotchas|편집자에게 많이 발생하는 문제점]]
 
 Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practices page]] to see guidelines when authoring pages with code examples.
 
