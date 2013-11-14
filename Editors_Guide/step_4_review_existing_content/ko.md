@@ -22,16 +22,16 @@
 ===해당 체크 박스를 선택하여 수정이 필요한 문서로 표시하기===
 이 위키에서 수정 또는 추가 작업이 필요한 글에 표시하기 위한 플래그를 사용합니다. 페이지에 플래그를 추가하는 것은 여러분이 커뮤니티에 이슈를 추적하기 위해 도움을 주는 것입니다. 플래그는 수행하기 위한 작업 목록을 자동으로 생성하도록 설정되어 있습니다.
 
-Flags are used in conjunction with comments to provide more details about the content to fix on a page. Flags are used to mark issues for an entire page; they enable editors to locate pages that require specific kinds of work. Comments are used to describe issues with a specific section of the page; they help editors quickly find the areas within a page to change.
+플래그는 페이지를 수정하는 내용에 대한 자세한 정보를 제공하는 코멘트와 함께 사용됩니다. 전체 페이지에 대한 이슈를 표시하는 데 사용되는 플래그는 편집자가 특정 작업이 필요한 페이지를 찾을수 있도록 합니다. 페이지의 특정 섹션에 이슈를 설명하는데 사용되는 의견들(comments)은 편집자가 페이지내에서 변경이 필요한 부분을 신속히 찾을수 있도록 합니다.
 
-==How to add a flag==
-When you see an issue with a page, to add a flag, go to the page to be flagged and click on the Edit button to see the editing interface. This is essentially a form with check boxes and fields, including the text field that contains the page content.
+==플래그를 설정하는 방법==
+여러분이 페이지 상의 이슈를 발견하여 플래그를 추가하려면 플래그를 설정하기 위한 페이지로 이동하여 편집 인터페이스를 열기위해 Edit 버튼을 클릭해 주세요. 이것은 체크박스와 필드로 구성된 양식이며  페이지 콘텐트가 포함된 텍스트 필드입니다.
 
-In the sections of the form labelled '''High-level issues''' or '''Content''', click the check box next to the appropriate flag. For example, if you think that the page contains information that is duplicated on another page, select the Merge Candidate checkbox.
+'''High-level issues''' 또는 '''Content'''  표시된 폼에서는 적절한 플래그 옆의 체크박스를 클릭합니다. 예를 들어 다른 페이지와 중복된 정보를 포함 하고 있다고 생각한다면 "Merge Candidate" 체크박스를 선택합니다.
 
-If a warning appears stating that you need to include more information about the flag, enter the details about the issue in the '''Block of editorial notes''' field. 
+여러분이 플래그에 대해 더 많은 정보를 포함해야한다는 상태의 경고나 나타난다면 '''Block of editorial notes''' 필드 안의 이슈에 대해 세부 정보를 입력합니다. 
 
-For example, if you enabled the Merge Candidate check box and you are suggesting that the current page should be merged with http://docs.webplatform.org/wiki/css/atrules, then your block should look like this:
+예를 들어 여러분이 "Merge Candidate" 체크박스에 표시하고 현재 페이지는 http://docs.webplatform.org/wiki/css/atrules와 병합 되어야 한다고 제안하려는 경우 여러분의 블럭은 아래와 같이 되어야 합니다.
 
 <pre>
 {{Editorial/Merge_Candidate|Other=css/atrules}}
