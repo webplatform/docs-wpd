@@ -46,16 +46,16 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 *** Introduction to Flexbox (Flexbox 소개)
 *** The history of the Web (Web의 역사)
 
-Use capitals sparingly. Capitalize only the first word (using sentence case). However, in situations when the title includes an abbreviation, a proper name, or camel case, the title should use the normal capitalization, like this:
+대문자는 제한적으로 사용하세요. 대문자는 단어의 첫글자에만 사용하세요.(문장의 경우) 그러나 제목이 약어, 적절한 이름 또는 camel case("CamelCase" 같이 띄어쓰기 없이 단어의 시작을 대문자로 하는것) 를 포함 하고 있는 경우라면 제목은 아래와 같이 대문자가 사용되어야 한다.:
 *Style manual
 *The CSS layout model
 *Unicode characters in JavaScript files
 *Resolving issues in Internet Explorer
 
-===Enter helpful article summaries===
-All articles should include a brief summary in the article summary field. The contents of this field should not exceed one paragraph and should succinctly describe the contents of the page (for API pages, describe the behavior and function of the specific API section). This summary text is automatically included in other pages that link to this page. Sometimes you can summarize an article based on its extant content; otherwise you may need to do some research.  
+===도움이 되는 문서 요약을 입력하기===
+모든 문서는 문서 요약 필드에 간단한 요약을 포함 해야만 합니다. 이필드의 콘텐츠는 한 단락을 초과하지 말아야 하며 페이지의 콘텐츠를 간결하게 설명해야 합니다. (API 페이지의 경우 특정 API섹션의 동작 및 기능을 설명합니다.) 이 요약 텍스트는 이 페이지가 다른 페이지에 링크되는 경우 자동적으로 포함됩니다. 때때로 여러분은 현존하는 콘텐츠에 기초한 글을 요약 할수 있습니다. 그렇지 않으면 여러분은 몇가지 연구를 해야할 필요가 있습니다.  
 
-See [[WPD:Getting_Started#Fill_in_missing_summaries|Fill in missing summaries]] for a list of articles with the "Needs Summary" flag set.
+See "Needs Summary" 플래그가 지정된 글들의 목록을 위해 [[WPD:Getting_Started#Fill_in_missing_summaries|누락된 요약 채우기]]를 확인하세요.
 
 ===Update section headings to be descriptive and strong ===
 Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
