@@ -1,6 +1,6 @@
 {{Page_Title|Step 4: 기존에 작성된 콘텐츠를 검토하기}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Summary_Section|이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 4입니다..}}
 {{Basic Page}}
