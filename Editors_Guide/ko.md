@@ -64,10 +64,10 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:25px'>[[WPD:Editors_Guide/step_6_author_or_upload_new_content|새로운 콘텐츠를 작성하기]]</h3>
+        <h3 style='min-height:25px'>[[WPD:Editors_Guide/step_6_author_or_upload_new_content/ko|새로운 콘텐츠를 작성하기]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine if your content is appropriate to add to this wiki|새로 작성한 콘텐츠가 사이트에 적합한지 확인하기]]</li>
-            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Author new content using the correct site formatting and standards|새로운 콘텐츠를 준비하기]]</li>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content/ko#새로 작성한 콘텐츠가 사이트에 적합한지 확인하기|새로 작성한 콘텐츠가 사이트에 적합한지 확인하기]]</li>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content/ko#새로운 콘텐츠를 준비하기|새로운 콘텐츠를 준비하기]]</li>
             <li>[[WPD:Manual_Of_Style/Sample_best_practices|예제 코드를 새로 만들기]]</li>
         </ul>
      </div>
