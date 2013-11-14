@@ -1,16 +1,16 @@
-{{Page_Title|Step 6: Author or upload new content}}
+{{Page_Title|Step 6: 새로운 콘텐츠를 작성하기}}
 {{Flags
 |Checked_Out=Yes
 }}
-{{Summary_Section|This is Step 6 of the [[WPD:Editors_Guide|Editor's Guide]].}}
+{{Summary_Section|이것은 [[WPD:Editors_Guide|편집자 가이드]] Step6 입니다..}}
 {{Basic Page}}
-==Step 6. Author or upload new content==
-===Determine if your content is appropriate to add to this wiki===
+==Step 6. 새로운 콘텐츠를 작성하기==
+===새로 작성한 콘텐츠가 사이트에 적합한지 확인하기===
 * Use the [http://docs.webplatform.org/w/index.php?title=Special:Search Advanced Search page] to verify that the topic does not already exist. 
 * Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars governing WebPlatform.org.
 ===Let the team know that you are adding new content=== 
 * See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find out how to ask questions online.
-===Author new content using the correct site formatting and standards=== 
+===새로운 콘텐츠를 준비하기=== 
 * Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax and apply appropriate syntax highlighting to code snippets.
 * Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
 ===Create a new page in the wiki===
