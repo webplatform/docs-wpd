@@ -74,11 +74,11 @@
 
 ===수정이 필요한 페이지에 대해 다른 편집자에게 알려주기===
 * 이슈를 명확히 하거나 해결하는데 도움을 주기 위해 WebPlatform.org 온라인 커뮤니티에서 커뮤니케이션 해 주세요. 여러분은 IRC, [mailto:public-webplatform@w3.org public-webplatform@w3.org 메일링 리스트]로 메시지 보내기, [http://talk.webplatform.org/forums 포럼]에 메시지 보내기로 이슈를 제기 할 수 있습니다.
-더 자세한 정보는  [[WPD:Editors Guide/step 2 communicate with the online community| 편집자 가이드 Step 2]]에서 확인하세요.
+더 자세한 정보는  [[WPD:Editors Guide/step 2 communicate with the online community/ko| 편집자 가이드 Step 2]]에서 확인하세요.
 
 ==토픽과 토픽 클러스터를 확인==
 
-여러분이 콘텐트를 검토하는 동안 지정된 토픽과 지정된 토픽 클러스터 태그를 정교하게 확인해 주세요. 많은 경우에 이것들은 적절히 적용되지 못하며 문제가 있더라도 말하기 어려운 경우가 있습니다. [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|토픽과 토픽 클러스터 ]] 가이드를 확인 해 주세요.
+여러분이 콘텐트를 검토하는 동안 지정된 토픽과 지정된 토픽 클러스터 태그를 정교하게 확인해 주세요. 많은 경우에 이것들은 적절히 적용되지 못하며 문제가 있더라도 말하기 어려운 경우가 있습니다. [[WPD:Editors Guide/step 6 author or upload new content/ko#토픽과 토픽 클러스터|토픽과 토픽 클러스터 ]] 가이드를 확인 해 주세요.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
