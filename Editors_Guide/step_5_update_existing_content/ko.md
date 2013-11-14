@@ -30,21 +30,21 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 
  "Undescriptive Title" 플래그가 지정된 글 목록을 위해[[WPD:Getting_Started#Improve_titles|제목 개선하기]]를 확인해 주세요.
 
-Article types should be consistently titled, each according to its content's primary information type. Pages should use a consistent titling scheme so that the author can accurately position the content in the information hierarchy and visitors can infer the content type from the custom title without having to read the entire page.
+글 타입은 각각의 콘텐츠 주요 정보 타입에 따라 일관된 제목이 주어져야 한다. 저자가 정확하게 정보 계층 구조에 콘텐트를 배치하고 방문자가 전체페이지를 읽을 필요없이 사용자 지정 제목에서 콘텐트 타입을 유츄할 수 있도록 페이지에 일관된 제목 스키마를 사용해야 합니다.
 
-Follow these title conventions for specific article types:
-* Use gerunds (words ending in the -ing suffix) for articles with tutorial, task, procedure, and process content.
-** Examples: 
-*** Using the <audio> tag
-*** Drawing on the canvas
-*** Styling UI elements with CSS
-*** Interpreting getLocation() data 
-* Use nouns and noun phrases for articles with reference, syntactical, validity, and similar content, as well as concept, guide, and overview content. 
-** Examples: 
-*** <audio> tag attributes
-*** Valid .moveTo() values
-*** Introduction to Flexbox
-*** The history of the Web
+특정 글 타입을 위해 제목 컨벤션을 따라 주세요.
+* 튜토리얼, 작업, 절차, 프로세스 컨텐트 글을 위해 동명사(-ing 로 끝나는 단어)를 사용해 주세요.
+** 예제:: 
+*** Using the <audio> tag (<audio> 태그 사용하기)
+*** Drawing on the canvas (canvas에 그리기)
+*** Styling UI elements with CSS (CSS를 이용하여 UI element 스타일링하기)
+*** Interpreting getLocation() data (getLocation() 데이터 해석하기)
+* 참고, 문법, 유효성 그리고 비슷한 콘텐트 뿐만 아니라 컨셉트, 가이드, 콘텐트 오버뷰 글에는 명사/명사구를 사용해 주세요.
+** 예제: 
+*** <audio> tag attributes (<audio> 태그 속성)
+*** Valid .moveTo() values (moveTo() 값 유효성)
+*** Introduction to Flexbox (Flexbox 소개)
+*** The history of the Web (Web의 역사)
 
 Use capitals sparingly. Capitalize only the first word (using sentence case). However, in situations when the title includes an abbreviation, a proper name, or camel case, the title should use the normal capitalization, like this:
 *Style manual
