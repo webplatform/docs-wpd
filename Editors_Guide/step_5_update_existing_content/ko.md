@@ -1,12 +1,12 @@
-{{Page_Title|Step 5: 기존에 작성된 콘텐츠를 검토하기}}
+{{Page_Title|Step 5: 기존에 작성된 콘텐츠를 수정하기}}
 {{Flags
 |Checked_Out=Yes
 |Editorial notes=이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 5입니다.
 }}
 {{Summary_Section}}
 {{Basic Page}}
-==Step 5. Update existing content==
-===Become familiar with MediaWiki syntax conventions===
+==Step 5. 기존에 작성된 콘텐츠를 수정하기==
+===미디어위키 문법 배우기===
 
 Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting format pages in the wiki].
 
@@ -21,7 +21,7 @@ Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practice
 
 ** [COMMENT:] Need to create a NEW Page for this Editor's Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag &#60;subpages /&#62; to display a list of sub pages. Or find the link, if this page exists already.
 
-===Follow the WebPlatform style guide===
+===스타일 가이드라인을 따르기===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to the conventions outlined in this Editor's Guide. Articles that do not sufficiently adhere to the guidelines will be tagged with the relevant markers, and they may be deleted over time if they are not improved.
 
 * WebPlatform.org uses the [http://styleguide.yahoo.com/ Yahoo Style Guide].
