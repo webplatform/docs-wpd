@@ -55,7 +55,7 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 ===도움이 되는 문서 요약을 입력하기===
 모든 문서는 문서 요약 필드에 간단한 요약을 포함 해야만 합니다. 이필드의 콘텐츠는 한 단락을 초과하지 말아야 하며 페이지의 콘텐츠를 간결하게 설명해야 합니다. (API 페이지의 경우 특정 API섹션의 동작 및 기능을 설명합니다.) 이 요약 텍스트는 이 페이지가 다른 페이지에 링크되는 경우 자동적으로 포함됩니다. 때때로 여러분은 현존하는 콘텐츠에 기초한 글을 요약 할수 있습니다. 그렇지 않으면 여러분은 몇가지 연구를 해야할 필요가 있습니다.  
 
-See "Needs Summary" 플래그가 지정된 글들의 목록을 위해 [[WPD:Getting_Started#Fill_in_missing_summaries|누락된 요약 채우기]]를 확인하세요.
+"Needs Summary" 플래그가 지정된 글들의 목록을 위해 [[WPD:Getting_Started#Fill_in_missing_summaries|누락된 요약 채우기]]를 확인하세요.
 
 ===Update section headings to be descriptive and strong ===
 Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
