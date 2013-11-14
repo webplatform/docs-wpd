@@ -10,7 +10,7 @@
 
 여러분이 뭔가 어떻게 고쳐야 할지 확실치 않은 경우 여러분은 적어도 여러분이 찾은 콘텐츠에 플래그를 설정할수 있습니다. 이 페이지는 여러분이 적용할 수 있는 다양한 플래그에 대해 설명합니다.
 
-검토가 필요한("Needs Review" 플래그가 설정된) 것으로 확인된 페이지의 목록은 [[WPD:Getting_Started|시작하기]]의[[WPD:Getting_Started#Review_content|콘텐츠 검토]]를 확인해 보세요.
+검토가 필요한("Needs Review" 플래그가 설정된) 것으로 확인된 페이지의 목록은 [[WPD:Getting_Started|시작하기]]의 [[WPD:Getting_Started#Review_content|콘텐츠 검토]]를 확인해 보세요.
 
 ===의견 달기===
 * 제목 관련 부분에 마우스를 가져 가면 나타나는 Add Comment 텍스트를 클릭하여 의견을 추가합니다. 특정 문서 섹션에 대한 의견을 게시하면 다른 사람이 수정이 필요한 부분을 정확히 확인할 수 있습니다.
@@ -31,7 +31,7 @@
 
 여러분이 플래그에 대해 더 많은 정보를 포함해야한다는 상태의 경고나 나타난다면 '''Block of editorial notes''' 필드 안의 이슈에 대해 세부 정보를 입력합니다. 
 
-예를 들어 여러분이 "Merge Candidate" 체크박스에 표시하고 현재 페이지는 http://docs.webplatform.org/wiki/css/atrules와 병합 되어야 한다고 제안하려는 경우 여러분의 블럭은 아래와 같이 되어야 합니다.
+예를 들어 여러분이 "Merge Candidate" 체크박스에 표시하고 현재 페이지는 http://docs.webplatform.org/wiki/css/atrules 와 병합 되어야 한다고 제안하려는 경우 여러분의 블럭은 아래와 같이 되어야 합니다.
 
 <pre>
 {{Editorial/Merge_Candidate|Other=css/atrules}}
