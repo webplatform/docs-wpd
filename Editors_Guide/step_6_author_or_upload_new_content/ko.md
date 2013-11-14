@@ -6,121 +6,129 @@
 {{Basic Page}}
 ==Step 6. 새로운 콘텐츠를 작성하기==
 ===새로 작성한 콘텐츠가 사이트에 적합한지 확인하기===
-* Use the [http://docs.webplatform.org/w/index.php?title=Special:Search Advanced Search page] to verify that the topic does not already exist. 
-* Refer to the [[WPD:Policy/Pillars| Pillars page]] to learn about the goals of WebPlatform.org and review the three pillars governing WebPlatform.org.
-===Let the team know that you are adding new content=== 
-* See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to find out how to ask questions online.
+* 토픽이 이미 존재하는지 확인하기 위해 [http://docs.webplatform.org/w/index.php?title=Special:Search 고급 검색 페이지]를 사용하세요.
+* WebPlatform.org의 목표를 배우고 WebPlatform.org를 관장하는 세가지 pillars를 확인하기 위해 [[WPD:Policy/Pillars| Pillars page]]를 참조하세요.
+
+===여러분이 새로운 콘텐트를 추가하는 것을 팀에게 알려주세요.=== 
+* 온라인 상에서 문의하는 방법을 확인하기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|편집자 가이드 Step 2]]를 확인하세요.
+
 ===새로운 콘텐츠를 준비하기=== 
-* Visit [[WPD:Editors_Guide/step_5_update_existing_content|Step 5 of the Editor's Guide]] to learn how to format pages using the wiki syntax and apply appropriate syntax highlighting to code snippets.
-* Follow the conventions outlined in the [http://styleguide.yahoo.com/ Yahoo style guide].
-===Create a new page in the wiki===
-* In most cases, you can use the form on the [[WPD:New_Page| New Page page]].
-* If you are authoring tutorials and concept articles, follow the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept articles page]].
-* If you are authoring reference documentation, see the [[WPD:Content/Reference_articles | Reference articles page]].
-* If you are authoring API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]].
+* 코드 스니핏에 적절한 구문 highlighting을 적용하고 위키 문법을 사용하는 페이지를 만드는 방법을 배우기 위해 [[WPD:Editors_Guide/step_5_update_existing_content|편집자 가이드 Step 5]]를 참고하세요.
+* [http://styleguide.yahoo.com/ Yahoo 스타일 가이드]의 컨벤션을 따르세요.
 
-===Choose where to create the new page===
-* Visit the [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]] to learn how the pages in this wiki are structured.
-* See the [[WPD:Architecture|Architecture page]] to choose a location to save the new page you are creating.
-* If you are not sure which section to create the new page, see [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|Step 2 of the Editor's Guide]] to learn how to ask for guidance.
-===Create valid URLs for new pages===
-Next, go to the [[WPD:New_Page | New Page page]] and create a new page using one of the defined content page templates. When you create pages, remember that the text you enter in the path text box becomes the URL for the new page. Also note that the page URL does not need to match the visible page title. 
+===위키에서 새 페이지 만들기===
+* 대부분의 경우에 여러분은 [[WPD:New_Page| New Page page]]의 form을 사용할 수 있습니다.
+* 여러분이 튜토리얼과 컨셉트 글을 작성하는 경우  [[WPD:Content/Tutorials_and_concept_articles  | 튜토리얼과 컨셉트 글 페이지]]를 따르세요.
+* 여러분이 참조 문서를 작성하는 경우 [[WPD:Content/Reference_articles | 참조 글 페이지]]를 확인 하세요.
+* 여러분이 API 문서를 작성하는 경우 [[WPD:Creating_API_pages | API 문서 페이지 만들기]]를 읽어 주세요.
 
-For example, a page with the URL: eventsource_basics can have an internal title: Streaming updates with server-sent events. The goal is to keep URLs short, descriptive, and unique.
+===새 페이지를 만들 위치를 선택하기===
+* 위키 안의 페이지를 구조화하는 방법을 배우려면 [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]]를 확인해 주세요.
+* 여러분이 만드는 새 페이지를 저장하기 위한 위치를 선택하기 위해 [[WPD:Architecture|Architecture page]]를 확인해 주세요.
+* 새 페이지를 만들기 위한 섹션이 확실치 않다면 지침에 대해 문의 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|편집자 가이드 Step 2]]를 확인해 주세요.
 
-*Do not capitalize words in a URL unless absolutely vital for syntax correctness. For example, if you are authoring an article about user media, you can enter: usermedia; for an article specifically about the getUserMedia method, you might instead enter: getUserMedia.
-*Use spaces, not underscores, to separate words in a URL, because underscores are generated automatically in place of spaces when the page is created. For example, if you are creating a new article about the HTML5 audio tag, you can enter: audio tag and the generated URL will be: audio_tag.
-*Do not use other punctuation, such as dashes or parentheses, in a URL. This is especially important because adding punctuation in URLs causes major site issues.
-*Do not use articles (the, a, an) in URLs unless absolutely necessary.
-===Check for broken links===
-* Before moving existing pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL you have just created.
+===새 페이지에 대한 유효한 URL 만들기===
+다음으로 [[WPD:New_Page | New Page page]]로 이동하여 정의된 콘텐츠 페이지 템플릿 중 하나를 사용하여 새 페이지를 만들어 주세요. 여러분이 페이지를 만들때 여러분이 path 텍스트 박스에 입력한 텍스트가 새 패이지의 URL이 된다는 것을 기억해 주세요. 또한 페이지 URL은 페이지 제목으로 보여지는 것과 일치할 필요가 없다는 것을 숙지하세요.
 
-===Check features for cross browser compatibility===
-Compatibility tables provide details about which CSS, HTML, and JavaScript  features and APIs are supported by which browsers, itemized by browser version. These tables are built into the templates with the header: Compatibility (with separate sections for desktop and mobile). Here is a screenshot of a compatibility table:
+예를 들면 "eventsource_basics" 이라는 URL을 갖는 페이지는 "Streaming updates with server-sent events"이라고 내부적으로 제목을 가질수 있습니다. 목표는 URL을 짥고, 충분히 설명되며, 유일한 값으로 유지하는 것입니다.
+
+* 올바른 문법을 위해 절대적인 경우를 제외하고 URL안의 문자는 대문자를 쓰지 않습니다. 예를 들어 여러분이 user media에 관한 글을 작성한다면 여러분은 getUserMedia 메서드에 관한 글의 경우 getUserMedia라고 입력하는 대신에 usermedia라고 입력 할수 있습니다.
+* underscore는 페이지가 만들어질때 space의 위치에 자동적으로 생성되기 때문에 URL에서 분리된 단어들을 표현하기 위해 underscore 대신 space를 사용하세요. 예를 들어 여러분이 HTML5 audio tag에 관한 새 글을 만든다면 여러분은 audio tag라고 입력 할수 있으며 생성된 URL은 audio_tag가 될 것입니다.
+* URL 안에 대시 또는 괄호와 같은 다른 구두점을 사용하지 마세요. URL안에 구두점을 추가하는 것은 주요 사이트의 문제들을 일으키기 때문에 특별히 중요합니다.
+* 절대적으로 필요한 경우가 아니라면 URL 안에 the, a, an을 사용하지 마세요.
+
+===깨진 링크를 확인하세요.===
+* 기존 페이지를 이동하기 전에 [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace 기존 문서에 대한 링크를 포함하고 있는 페이지]를 식별하고 여러분이 생성한 새로운 URL을 사용하기 위해 이 페이지들의 링크를 업데이트 하세요.
+
+===크로스 브라우서 호환성을 위한 기능을 확인 하세요.===
+호환성 표는 CSS, HTML, JavaScript 기능, API들이 어느 브라우저에서 지원되는지, 브라우저 버전에 따라 지원여부에 대한 상세 정보를  제공하세요. 이 표는 헤더(데스크탐과 모바일을 위한 분리된 호환성 섹션)와 함께 템플릿안에 포함되어야 합니다. 아래는 호환성표의 스크린 샷입니다.
 
 [[Image:compatibility_table.png|alt=Screenshot of a compatibility table.]]
 
-The tables are automatically flagged as incomplete, which causes them appear on dynamic [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= list of pages with missing compatibility information].
+표는 [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= 호환성 정보를 잃어버린 페이지들의 동적인 목록]에 나타남에 따라 자동적으로 플래그가 지정됩니다. 
 
-For the purposes of this site, the support for a technology in modern browsers is most important. If a property was supported in IE 4 or Safari 1, it is not as critical as stating compatibility with the most recent browser versions. 
 
-For each item, note which browser version was the first to provide complete support.  If only partial support is currently provided, note that by adding the word (partial) after the version number.
+이 사이트의 목적을 위해 모던 브라우저에서의 기술지원 여부가 가장 중요합니다. 만약 어떤 프로퍼티가 IE 4 또는 Safari 1에서 지원되다면 그것은 가장 최근 브라우저 버전에서의 호환성 여부를 알리는 것보다 중요하지 않습니다.
 
-* Review the following cross-compatibility online resources to learn which technologies are supported in which browsers:
+각각의 항목에 대해여 브라우저 버전에 대해 완벽히 지원되는지 우선 확인하세요. 만약 부분적인 지원으로만 현재 제공된다면 버전 번호 뒤에 단어(부분)을 추가하여 명시해 주세요.
+
+* 각 브라우저에서 지원되는 각 기술들을 배우기 위해 다음의 상호 호환 온라인 리소스를 확인하세요
 * [http://caniuse.com/ www.caniuse.com]
 * [http://www.quirksmode.org/compatibility.html Compatibility section on www.quirksmode.org]
 * [http://developer.mozilla.org Mozilla Developer Network site]
 
-Mozilla Developer Network has agreed to allow contributors to copy the basic facts (browser version numbers, yes/no/partial on support) without attribution. When researching compatibility facts on other online resources, be sure to  follow the [http://docs.webplatform.org/wiki/WPD:External_Attribution Attribution guidelines].
+Mozilla Developer Network는 기여자들이 저작권 표시 없이 기본적인 사실들(브라우저 버전 번호, 지원에 대한 yes/no/partial 정보)에 대해 복사하는 것을 허락하는 것에 대해 동의했습니다. 다른 온라인 상의 리소스들에서 연구되는 호환성 사실들은 [http://docs.webplatform.org/wiki/WPD:External_Attribution 저작권 표시 지침]에 따라 확인해 주세요.
 
-Each element is either supported or not (by selecting the radio buttons for yes, no, and unknown). If an item is supported, there is a minimum browser version that supports it (and presumably all higher versions will also support it).
+각각의 element가 지원되거나 그렇지 않은 경우(라디오 버튼을 yes,no,unknown으로 선택함에 따라)를 명시합니다. 만약 항목이 지원되는 경우 그것을 지원하는 브라우저의 최소 버전을 명시합니다.(그리고 모든 더 높은 버전들은 그것을 지원한다고 가정합니다.)
 
-For some elements, there may be sub-elements or features that need to called out individually.  For these, after you have covered the Basic Support, you can click the "Add Another" button to add additional rows to the table.
+몇몇 element에 대해 개별적으로 호출되는 것이 필요한 sub-element 또는 기능들이 있을수 있습니다. 이것들은 여러분이 Basic Support에 대해 다룬 후에 여러분이 표에 부가적인 행들을 추가하기 위해 "Add Another"버튼을 클릭할수 있습니다.
 
-To see an example of a multiple row Compatibility Information table, check out the [http://docs.webplatform.org/w/index.php?title=html/elements/audio Audio tag] which contains separate rows for the various audio codecs covered in the HTML5 spec, since support differs significantly across browsers.
+여러 행 호환성 정보 표의 예제를 보려면 브라우저간 큰 차이로 지원되고 있으며 HTML5 규격안에서 다뤄지는 다양한 오디오 코덱들을 위하여 분리된 행들을 포함하고 있는 [http://docs.webplatform.org/w/index.php?title=html/elements/audio Audio tag]를 확인하세요.
 
-Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the table.
+부가적인 행들은 이름으로 정렬되어야 합니다. 표에서 항목을 위 혹은 아래로 움직이기 위해 "Remove" 버튼의 오른 쪽의 handle을 드래그하여 사용합니다.
 
-There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number.
+Compatibility Notes를 위한 부분은 호환성 섹션안의 세번째 표입니다. 이것은 단지 yes/no 그리고 버전넘버를 명시하는 것으로 다룰수 없는 것들을 다루기 위해 사용합니다.
 
-===Topics and topic clusters===
+===토픽과 토픽 클러스터===
 
-Generally, we use topics to describe articles at their lowest level of granularity - what the article is about. An article may have more than one topic. We use topic clusters to group articles of similar topics. Topic clusters produce a list of related topics in the See Also section. The following sections describe the use cases of topics and topic clusters.
+일반적으로 우리는 글의 가장 낮은 레벨의 단위(글에 대한 것)에서 글을 설명하기 위해 토픽을 사용합니다. 글은 하나 이상의 토픽을 가질 수도 있습니다. 우리는 유사 토픽들의 글을 그룹화하여 토픽 클러스터로 사용합니다. 토픽 클러스터는 See Also 섹션에서 관련된 토픽들의 목록을 만들어 냅니다. 다음 섹션은 토픽과 토픽 클러스터의 사용 예에 대해 설명합니다.
 
-===Topics use cases===
+===토픽 사용 예===
 
-Use topics to describe the article for the following purposes. Note that these use cases are not mutually exclusive, and you can use topics for either or both.
+다음 목적들로 글을 설명하기 위해 토픽들을 사용하세요. 이 사용 예들은 상호배제적이 아니며 여러분은 하나 혹은 둘다 사용할수 있음을 숙지하세요.
 
-====Basic meta data====
+====기본 메타 데이터====
 
-Topics describe the article's content with keywords. Mark as many as apply ''usefully''. Too much meta data can blur the picture worse than too little. The topic keywords have several uses, such as search engine optimization, and effectively describe the content taxonomy. This taxonomy has multiple facets. For example, the CSS-Regions API is an API (the content's purpose) and it is about CSS (the content's subject matter); furthermore, it is specifically about CSS-Regions. But the CSS-Regions topic tag is more than general meta data, it is used specifically to delineate structure and navigation. See next.
+토픽들은 키워드로 글의 콘텐츠를 설명합니다. "usefully"를 적용할 만큼 표시 합니다. 너무 많은 메타 데이터는 그림을 흐릴수 있어 너무 적은 것보다 나쁩니다. 토픽 키워드는 검색엔진 최적화와 콘텐츠 분류체계를 효과적으로 설명하는 것과 같은 몇가지 용도를 가집니다. 이 분류체계는 여러 측면이 있습니다. 예를 들어 CSS-Regions API는 API(컨텐츠의 목적)이며 CSS에 대한 것(컨텐츠의 주제)입니다. 또한 그것은 CSS-Regions에 대해 구체적입니다. 그러나 CSS-Regions 토픽 태그는 일반적인 메타 데이터보다 더 구조와 탐색을 묘사하기 위해 특화되어 사용됩니다. 다음을 보세요.
 
-====API Basic Listing Configuration Query====
+====API 기본 목록 구성 검색어====
 
-Use a topic to describe the article within the context of its template type (these are described in the [[WPD:New_Page]] page). That is, if the page is for an API object (which uses the API_Object template), and the article is about the CSS-Regions API, then the topic checkbox to check is "CSS-Regions." This allows you to specify the query, "<nowiki>[[Category:CSS-Regions]][[Category:API_Objects]]</nowiki>" in the API_Listing page that produces a summary table of all the API objects. This query says, "fetch me the pages of the CSS-Regions topic that are also API_Object pages." This means that for every API there must be a topic specific to that API.
+글의 템플릿 타입의 문맥 안에서 글을 설명하기 위해 토픽을 사용하세요.(이것은 [[WPD:New_Page]] 페이지에서 설명하고 있습니다.)  즉, 페이지가 어떤 API 오브젝트(API_Object 템플릿으로 사용됩니다.)를 위한 것이고 그 글은 CSS-Regions API에 대한 것이라면, 토픽 체크박스는 "CSS-Regions"에 체크되어야 합니다. 이것은 여러분이 모든 API 오브젝트 요약 표에서 생산된 API_Listing 페이지 안에서 "<nowiki>[[Category:CSS-Regions]][[Category:API_Objects]]</nowiki>"와 같은 검색어로 지정하는 것을 가능하게 합니다. 이 검색어가 얘기하는 것은 "CSS-Regions 토픽의 페이지들(API_Object 페이지들도)을 나에게 읽어와라"입니다. 이것은 모든 API에 토픽이 지정되어야 함을 의미합니다.
 
-Notice that the query does not select for the more general Category:CSS. If there were other CSS-related JavaScript APIs, let's say CSS-Overlay (this is fake), and if both the CSS-Regions and CSS-Overlay API_Listing pages queried for Category:CSS, all of the objects from both APIs would appear in each API's summary table. The way to prevent such duplication from happening is to create a discrete topic for all of the API_Object pages within one API_Listing.
+검색어는 일반적인 Category:CSS 이상을 선택하지 않는 것을 주의 하세요. 만약 다른 CSS 관련 Javascript API들이이 있다면, 즉 CSS-Overlay(이것은 가정입니다.)가 있다면, 만약 Category:CSS에 대한 검색 결과가 CSS-Regions와 CSS-Overlay API_Listing 페이지들이라면 두 API들의 모든 오브젝트들이 각각의 API의 요약 표에 나타날 것입니다. 중복이 발생하는 것을 막는 방법은 하나의 API_Listing 안의 모든 API_Object 페이지에 대하여 구별된 토픽을 만드는 것입니다.   
 
-See [[WPD:Creating_API_pages#Object_listing_page_content|Creating API pages]] for more information. See [[WPD:Topics]] for how to create new topics.
+더 많은 정보는 [[WPD:Creating_API_pages#Object_listing_page_content|API 페이지 만들기]]를 참고하세요. 새 토픽들을 만드는 방법은 [[WPD:Topics]]를 참고하세요.
 
-===Topic clusters use case===
+===토픽 클러스터 사용 예===
 
-To produce a list of articles of related content in the See Also section, use a topic cluster. The key here is to get articles from across the many domains of the wiki - tutorials, concepts, APIs, HTML elements, and so on. Sometimes these articles will share a common term, like "WebRTC." But sometimes the common term won't be obvious.
+See Also 섹션에서 관련 콘텐트 글 목록을 생성하는 것은 토픽 클러스터를 사용하세요. 위키-튜토리얼들, 컨셉트들, API들, HTML element들 등과 같은 많은 도메인을 가로질러 글을 가져오기 위한 방법이 여기 있습니다. 때때로 이 글들은 "WebRTC"와 같은 공통 용어를 공유하게 됩니다. 그러나 때때로 공통 용어가 불명확 해지기도 합니다.
 
-For example, with three Timing APIs - [[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]] - you might think these should share the "Timing" topic cluster. But then your topic cluster would miss all of the articles about optimization, debugging, and performance. Probably the best topic cluster to use in this case is "Performance."
+[[apis/navigation_timing]], [[apis/resource_timing]], [[apis/user_timing]]와 같은 세가지 Timing API들로 예를 들면 여러분은 이것들이 "Timing" 토픽 클러스터를 공유하고 있다고 생각할 수 있습니다. 그러나 그렇게 되면 여러분의 토픽 클러스터는 최적화, 디버깅, 성능 관련 글 모두를 놓치게 됩니다. 아마도 이 경우에서 최적의 토픽 클러스터는 "Performance"일 것입니다.
 
-'''Careful!''' It is easy to abuse topic clusters by tagging too many articles for the same topic cluster. Doing so only creates a long list of unnecessary links. For example, API object members (events, methods, and properties) do not need to be in the topic cluster; only the API object needs to be in the topic cluster. Furthermore, avoid using large-scope topic clusters like "CSS" - again, all you'll get is a huge list of unrelated items.
+'''Careful!''' 똑같은 토픽 클러스터로 너무 많은 글을 태깅함으로서 토픽 클러스터를 남용하기 쉽습니다. 불필요한 링크들의 긴 목록을 만들게 됩니다. 예를 들면 API 오브젝트 멤버들(이벤트들, 메소드들, 그리고 프로퍼티들)은 토픽 클러스터가 될 필요가 없으며 오로지 API 오브젝트가 토픽 클러스터가 될 필요가 있습니다. 또한 "CSS"와 같은 큰 범위의 토픽 클러스터를 사용하는 것을 피해야 합니다. 다시 말하면 여러분은 관계없는 항목들의 큰 목록을 얻게 될 것 입니다.
 
-To create a new topic cluster, add it to the list in [[Property:Topic_Cluster]].
+새로운 토픽 클러스터를 만들려면  [[Property:Topic_Cluster]]의 리스트에 그것을 추가하세요.
 
-===Update the status of compatibility===
-If you complete the compatibility tables on a page (for both desktop and mobile browsers), you can deselect the Compatibility Incomplete check box in the Content section just below the page title, to the left of the text in the English version.  
+===호환성 상태 업데이트===
+만약 여러분이 페이지의 호환성 표를 완료했다면(데스크탑과 모바일 브라우저 모두에 대해), 여러분은 영어버전에서 글의 왼쪽에 있는 페이지 제목 바로 아래 콘텐츠 섹션에서 호환성 관련 완료되지 않은 체크박스를 선택하지 않을 수 있습니다.  
 
-If you are editing or authoring a page and you feel that compatibility information is not needed (and the page is currently [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= listed as a page with missing compatibility information] because the template flags compatibility as missing by default), you can check the box immediately under the Compatibility section header to indicate that this section is not needed (and ensure it will not appear on the site). Be sure to also deselect the Compatibility Incomplete check box near the top of the page as described above.
+여러분이 수정하거나 저작하고 있는 페이지이며 호환성 정보가 필요하지 않다고 느껴졌다면 (그리고 현재 [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace= 페이지가 누락된 호환성 정보와 함께 페이지로 표시됩니다.]) 여러분은 이 섹션이 필요하지 않다고 지시하는 호환성 섹션 헤더 아래의 체크박스를 즉시 체크할수 있습니다.(그리고 사이트 상에 나타나지 않는지 확인해 주세요.) 또한 위에서 설명한대로 페이지의 상단 근처의 Compatibility Incomplete 체크박스 선택도 취소해야 합니다.
 
-Your final summary (commit) comment should mention if you have changed the status of the compatibility information. 
+여러분의 마지막 요약(커밋) 의견은 여러분이 호환성 정보의 상태를 변경했는지 언급해야 합니다.
 
-===Upload and link images or other assets to pages===
-Visit [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets. Once a file is uploaded, you can add links to it. 
+===이미지 링크 또는 다른 리소스(assets)를 페이지에 업로드 하기===
+이미지 파일들과 다른 리소스(assets)를 준비하고 업로드 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| 편집자 가이드 Step 7]]을 참고하세요. 파일은 한번 업로드 되면 그것에 대한 링크를 추가할 수 있습니다.
 
-===Save your work===
-After completing your edits on a page, enter a summary of your changes in the Summary field, check the box for a minor edit if you only tweaked existing information, click the Show preview button to review your work (recommended), and then click Save page button to save your changes.
+===여러분의 작업물을 저장하세요.===
+페이지 상에서 여러분의 수정이 완료된 후에 요약 필드안에 여러분의 변경사항들의 요약을 입력합니다. 여러분이 단지 기존 정보를 약간 조정하였다면 minor edit 체크박스에 체크합니다. 여러분의 작업을 확인하기 위해 (추천되는 작업입니다.) 프리뷰 보기 버튼을 클릭합니다. 그리고 여러분의 변경사항을 저장하기 위해 페이지 저장하기 버튼을 클릭합니다.
 
-{{Note|If you have been editing for a while without saving, your session information may be stale, and you may be presented with the following warning message:
+{{Note| 만약 여러분이 저장없이 잠시동안 편집한 경우 여러분의 세션 정보가 오래되어 다음과 같은 경고 메시지를 받을 수 있습니다:
 
-'''Sorry! We could not process your edit due to a loss of session data. Please try again....''' (along with a deceptively updated preview of your unprocessed new version, and the edited source). 
+'''Sorry! We could not process your edit due to a loss of session data. Please try again....''' 
+""죄송합니다! 우리는 세션 데이터가 없어져 편집을 처리할 수 없습니다. 다시 시도해 주세요...""
+(여러분의 처리되지 않은 새버전의 프리뷰와  수정된 소스와 함께...)
 
-When you see this error, click the Save page button again. In most cases, simply resubmitting the form will work (because the first attempt refreshes your session, and the second attempt enables the submission to process).}}
+여러분이 이 에러를 받으면 페이지 저장하기 버튼을 다시 클릭하세요. 대부분의 경우 단순한 resubmitting으로 form은 동작할 것 입니다. (첫번째 시도에서 여러분의 세션이 갱신되었디 때문에 두번째 시도에서 제출이 가능해 집니다.)}}
 
-===Add exceptions===
-If you want to mention any outstanding issues, items or questions about the page, add the following tag on the page with a message:
+===예외 추가===
+만약 여러분이 어떤 외부 이슈들, 페이지에 관한 항목들 혹은 질문들을 언급하기 원한다면 메시지와 함께 페이지 상에 다음 태그를 추가해 주세요:
 
 <nowiki>
-{{TODO | [This is a description of items still missing on this page.] }}</nowiki> 
+{{TODO | [이것은 이 페이지에서 여전히 누락된 항목들의 설명입니다.] }}</nowiki> 
 
-===Get additional information about how templates work===
-This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
-* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+===템플릿 작업 방법에 대한 부가적인 정보 얻기===
+이 위키는 규격화와 표준화된 페이지 컨텐츠를 위해 템플릿을 사용합니다. 이 기여를 위해 필요하지 않지만 여러분은 위키 장면 뒤의 작동 방법에 대한 세부사항을 얻을 수 있습니다.
+* 여러분이 템플릿이 작동하는 방법을 탐구하려는 경우 [[WPD:Implementation_Patterns| 패턴 페이지 구현]]을 확인해 주세요.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
