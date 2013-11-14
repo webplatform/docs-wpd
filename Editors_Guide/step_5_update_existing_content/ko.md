@@ -57,78 +57,79 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 
 "Needs Summary" 플래그가 지정된 글들의 목록을 위해 [[WPD:Getting_Started#Fill_in_missing_summaries|누락된 요약 채우기]]를 확인하세요.
 
-===Update section headings to be descriptive and strong ===
-Generally, follow the same guidelines for section headings as outlined for article titles. Make your section headings brief but meaningful. Use sentence case. The goal is to help the reader understand what is in the section without having to read the section. However, you can draw the reader into a section by making the section title enticing. Examples: 
+===정확히 설명될 수 있도록 섹션 제목을 업데이트 하기===
+일반적으로 글의 제목에 대한 설명으로 섹션 제목에 대해 동일한 지침을 따르세요.  여러분의 섹션 제목은 짧고 의미가 있어야 합니다. 문장을 사용하게요. 목표는 독자가 섹션을 읽지 않고도 섹션 안의 내용을 이해할수 있도록 도움을 주는 것입니다. 그러나 여러분은 섹션 제목으로 유혹하여 독자를 섹션으로 끌어들일 수 있습니다.
+예제: 
 *Web standards rock 
 *Develop well-formed pages 
 *Leveraging localStorage
 *Populating attributes dynamically
 
-See the [[WPD:Manual_Of_Style/Section_Guidelines | Section guidelines page]], which outlines the guidelines for specific sections of pages.
+페이지의 특정 섹션에 대한 지침을 설명하는 [[WPD:Manual_Of_Style/Section_Guidelines | 섹션 지침 페이지]]를 확인 해 주세요.
 
-===Avoid using contractions===
-* Please do not use contractions. For example, use the phrase: do not, instead of writing: don't. This ensures that pages can be translated accurately. It also makes pages easier to read if English is not a reader's primary language.
+===줄임말을 사용하지 마세요.===
+* 줄임말을 사용하지 마세요. 예를 들면 don't를 사용하는 대신 do not을 사용하세요. 이것은 페이지가 정확히 번역될수 있도록 합니다. 또한 영어가 주언어가 아닌 독자들에게 읽히기 더 쉽도록 합니다.
 
-===Use standard US English spellings===
-WebPlatform.org uses the general US English classification. Standardizing this type of spelling is useful because English words that appear in code syntax are also spelled in US English. Consistently spelling words in both syntax and other wording helps reduce confusion. When updating pages, ensure the content uses the US English spellings of words, like this:
+===표준 미국식 영어 맞춤법을 사용하세요.===
+WebPlatform.org는 일반 미국식 영어 분류를 사용합니다. 코드 문법에서도 미국식 영어 철자법을 사용하여 나타내기 때문에 철자 유형을 표준화 하는데 유용합니다. 문법과 다른 표현 모두에서 일관된 단어의 사용은 혼돈을 줄일 수 있습니다. 페이지를 업데이트 할때 콘텐츠가 아래와 같은 미국식 영어 철자법을 사용하였는지 확인하세요.
 *Color
 *Customize
 *Inquiry
-Edit UK spellings that you find for colour, customise, enquiry, and other spelling variations.
+여러분은 colour, customise, enquiry 그리고 다른 철자법을 사용한 영국식 단어들을 찾아 수정하세요.
 
-If you are not sure of the correct spelling, use an online dictionary of American English such as [http://www.merriam-webster.com/ Merriam-Webster]. 
+여러분이 올바른 철자법인지 확신할 수 없다면 [http://www.merriam-webster.com/ Merriam-Webster]와 같은 미국식 영어의 온라인 사전을 이용하세요.
 
-===Standardize common terms===
-* Use ''Internet'' when it is a proper noun, such as: The Internet is a global system of interconnected computer networks. Otherwise, use lowercase, like this: Leverage internet marketing to drive site traffic.
-* Use ''Web'' when it is a proper noun, such as: Surfing the Web. Otherwise, use lowercase, like this: CSS is a web-related topic.
-* Spell ''website'' as one word, not ''web site''. Strictly speaking, it is a two word, adjective-noun combination, but the common use today (including the listing in the AP Stylebook) combines the words into a single noun.
+===일반적인 용어를 표준화 하세요.===
+* Internet은 상호 연결된 컴퓨터 네트워크의 글로벌 시스템입니다 와 같이 고유 명사로 사용된 때에는 "Internet"이라고 사용하세요. internet 마케팅은 사이트 트래픽을 유도 할 수 있습니다. 와 같은 경우에는 소문자를 사용하세요.
+* Web 탐색하기 와 같이 고유명사로 사용된 경우 "Web"이라고 사용하세요. CSS는 web 관련 주제입니다와 같은 경우는 소문자를 사용하세요.
+* "website"는 "web site"와 같이 쓰지 않고 한 단어("website")로 사용하세요. 엄밀하게 보면 형용사-명사의 두 단어이지만 오늘날 일반적으로 단어들이 연결되어 하나의 명사로 사용됩니다. (AP Stylebook 상의 목록에 포함되어 있습니다.)
 
-===Use the appropriate syntax highlighting when displaying code===
-WebPlatform uses the [http://www.mediawiki.org/wiki/Syntaxhighlight SyntaxHighlight] GeSHi extension for syntax highlighting. Use the following guidelines when authoring articles for this wiki:
+===코드를 나타낼때 적절한 구문 강조를 사용하세요.===
+WebPlatform은 구문 강조를 위해 GeSHi [http://www.mediawiki.org/wiki/Syntaxhighlight 구문강조]를 사용합니다. 이 위키의 문서 저작시 지침을 따라 사용하세요.
 
-*Use <code>&lt;syntaxhighlight&gt;</code> only for stand-alone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
-*Specify the language for each code block in the opening tag: <code>&lt;syntaxhighlight lang="''language''"&gt;</code>. You can find a full list of supported languages in the  [http://www.mediawiki.org/wiki/Syntaxhighlight Syntaxhighlight documentation]. 
-*The most common language notations you will use are <code>html5</code>, <code>css</code>, and <code>javascript</code>. Note that using just <code>html</code> does not work; you must use either <code>html5</code> or <code>html4strict</code> to display proper syntax highlighting.
-*Prefer <code>&lt;syntaxhighlight&gt;</code> blocks to <code>&lt;pre&gt;</code> blocks, and do not use them together in any case &mdash; the SyntaxHighlight extension handles all the formatting.
-*There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight handles that as well.
-*Lines of code can be emphasized by providing a <code>highlight=""</code> attribute.
-**This highlights the third line in your code snippet:
+* <code>&lt;syntaxhighlight&gt;</code>는 인라인 문구가 <code>&lt;code&gt;</code>를 사용하기 위해 독립 실행 형 전용 코드 블록에 사용하세요. (이 문장에 사용된 것과 같이...)
+* 여는 태그에서 <code>&lt;syntaxhighlight lang="''language''"&gt;</code>와 같이 각 코드 블록에 대한 언어를 지정해 주세요. 여러분은 [http://www.mediawiki.org/wiki/Syntaxhighlight 구문 강조 문서]에서 지원되는 언어의 모든 목록을 찾을 수 있습니다.
+* 대부분의 일반적인 언어는 <code>html5</code>, <code>css</code>, 그리고 <code>javascript</code>와 같이 사용됩니다. <code>html</code>는 사용되지 않으며 적절한 구문 강조를 표현하기 위해 <code>html5</code> 또는  <code>html4strict</code>를 사용해야 합니다.
+* <code>&lt;pre&gt;</code>블록보다 <code>&lt;syntaxhighlight&gt;</code>를 선호하세요. 어떤 경우에도 그들을 함께 사용하지 마세요. - SyntaxHighlight 확장은 모든 서식을 처리합니다.
+* 코드 블록내의 괄호와 같은 요소를 회피 처리 할 필요가 없습니다. Syntaxhighlight가 잘 처리합니다.
+* 코드 행은 <code>highlight=""</code> 속성을 제공하여 강조 할 수 있습니다.
+** 이것은 여러분의 코드에서 세번째 라인을 강조합니다:
 ***<code>&lt;syntaxhighlight lang="''language''" highlight="3"&gt;</code>
-**This highlights a range of lines or multiple lines specified one by one:
+** 라인 범위 지정 또는 여러 라인의 강조는 개별적 지정하여 강조합니다.:
 ***<code>&lt;syntaxhighlight lang="''language''" highlight="3-5"&gt;</code>
 ***<code>&lt;syntaxhighlight lang="''language''" highlight="1,4,8"&gt;</code>
-**Multiple options can even be mixed together:
+** 여러 개의 옵션을 함께 혼합하여 사용할 수 있습니다.:
 ***<code>&lt;syntaxhighlight lang="''language''" highlight="1,4-6,9"&gt;</code>
 
-===Add images to illustrate concepts===
-Screenshots and illustrations greatly improve articles and pages posted on this wiki. See [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| Step 7 of the Editor's Guide]] to learn how to prepare and upload image files and other assets to complement articles. 
+===개념을 설명하기 위해 이미지를 추가하기===
+스크린 샷과 이미지는 위키에 등록된 글과 페이지를 비약적으로 향상 시킵니다. 글을 보완하기 위해 이미지 파일 및 기타 리소스(assets)를  준비하고  업로드 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| 편집자 가이드 Step 7]] 을 살펴보세요. 
 
-===Adhere to quality principles===
-The book titled: [http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 Developing Quality Technical Information: A Handbook for Writers and Editors] defines the characteristics of quality in technical information as:
-* '''Easy to use''': Task oriented, accurate, and complete
-* '''Easy to understand''': Clear, concrete, and appropriate style
-* '''Easy to find''': Coherently organized, retrievable, and visually effective
+===품질 원칙을 준수하기===
+[http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 고품길 기술 정보 개발 : 작가와 편집자를 위한 핸드북] 이라는 제목의 책은 다음과 같은 기술적 정보 품질의 특성을 정의합니다.:
+* ""사용하기 쉽게 하세요"" : 업무 중심으로 정확하고 완벽하게.
+* ""이해하기 쉽게 하세요"" : 명확하고 구체적이며 적절한 스타일.
+* ""찾기 쉽게 하세요"" : 일관적인 구성, 검색 가능한 구성, 시각적인 효과 
 
-The following principles guide our contributions to help achieve high quality in the information presented on this website.
+다음과 같은 원칙이 웹사이트에서 제공되는 정보에 높은 품질을 달성 할 수 있도록 우리의 기여를 안내합니다.
 
-===Ensure articles are vendor neutral===
-Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers. For a list of articles marked with the '''Not Neutral''' flag, see [[WPD:Getting_Started#Edit_content_for_neutrality|Edit content for neutrality].
+===글은 벤더(vendor) 중립성을 가져야 합니다.===
+콘텐트는 가능한 벤더(vendor) 중립적이어야 합니다. 브라우저 별 구현이 다를 경우 주요 브라우저에 대한 호환성 정보를 제공하거나 모든 주요 브라우저에서의 동일한 기능을 설명하세요. ""Not Neutral"" 플래그가 달린 글들의 목록을 위해 [[WPD:Getting_Started#Edit_content_for_neutrality|중립성에 대한 편집 내용]을 확인 해 주세요.
 
-===Author content using a neutral voice===
-With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that are first authored with a specific voice can be expected to morph over time.
+===중립적인 의견을 사용하는 작성자 콘텐트===
+튜토리얼과 가이드를 제외한 콘텐트는 중립적인 의견을 유지해야 합니다. 공동 위키이기 때문에 최초 특정 의견으로 작성된 튜토리얼과 가이드라 할지라도 시간이 지남에 따라 중립적인 의견으로 변화될 것으로 예상 할 수 있습니다.
 
-===Present up-to-date information===
-Content should include recent details for using the most modern browsers and the newest web technologies to help web developers build sites.
+===최신의 정보를 제공===
+콘텐트는 웹 개발자가 사이트를 구축하는데 도움이 되는 가장 현대적인 브라우저와 새로운 웹 기술을 사용하기 위한 최근의 세부사항을 포함해야 합니다.
 
-===Tag pages with all applicable tags===
-Tagging pages helps users of the site find content that is relevant to them. A comprehensive and complete set of tags are important to improve discoverability of pages. When tagging, also include tags that clearly denote the content's standardization progress and implementation status.
+===모든 적용 가능한 태그들로 페이지를 태그해 주세요.===
+페이지에 태깅하는 것은 사이트의 이용자가 그들과 관련이 있는 컨텐트를 찾는데 도움을 줍니다. 포괄적이고 완전한 세트의 태그들은 페이지의 검색 기능을 향상 시키기 위해 중요합니다. 태깅을 할때는 명확하게 콘텐츠의 표준화 진행 및 구현 상태를 나타내는 태그를 포함합니다.
 
-See [[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]] and [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance.
+[[WPD:Editors_Guide/step_4_review_existing_content|기존에 작성된 콘텐츠 검토하기 ]] 와 [[WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters|토픽과 토픽 클러스터]]를 참고하세요.
 
-===Include compatibility information===
-See [[WPD:Editors_Guide/step_6_author_or_upload_new_content| Step 6 of the Editor's Guide]] to learn best practices when providing compatibility information. Many existing pages are missing the compatibility details in the compatibility tables included with the templates. Researching online and updating compatibility tables, as well as flagging pages to mark issues, is a great way to get started contributing to this wiki.
+===호환성 정보를 포함하세요.===
+호환성 정보를 제공하는 모범 사례를 배우기 위해 [[WPD:Editors_Guide/step_6_author_or_upload_new_content| 편집자 가이드 Step 6]]을 확인 하세요. 기존의 많은 페이지들은 템플릿 상에 포함된 호환성 표의 호환성 세부사항을 누락하였습니다. 온라인을 연구하고 호환성 표를 업데이트 하는것 뿐만 아니라 이슈를 표시하기 위해 페이지에 플래그를 설정하는 것도 이 위키에 기여하기 시작하는 훌륭한 방법입니다.
 
-'''Note:''' We anticipate automating the population of the compatibility tables in the near future, and we recommend against working on compatibility tables by hand.
+'''Note:''' 우리는 가까운 장래에 호환성 표의 모집단을 자동화 할것으로 예상하며 우리는 수작업으로 호환성 표를 작업하는 것을 추천합니다.
 
 ===Provide complete documentation of API===
 API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects. For more information, see [[WPD:Creating_API_pages#Filling_in_the_pages|Creating API pages]].
