@@ -37,14 +37,15 @@
 {{Editorial/Merge_Candidate|Other=css/atrules}}
 </pre>
 
-==List of work item flags==
-Flagged articles are automatically marked as work items, so that contributors can resolve issues and ensure the page meets the WebPlatform's quality standards. One of the primary goals of contributors is to fix the issues that the flags specify, and to eventually have no remaining work item flags to address. 
+==작업 항목 플래그 목록==
+플래그가 지정된 문서들은 작업항목 자동으로 표시하여 기여자들이 이슈들을 해결할 수 있으며 WebPlatform의 품질 기준을 충족하는지 확인합니다. 기여자들의 주요목표 중 하나는 측정 플래그 된 이슈를 수정하여 최종적으로 지정된 작업 항목 플래그를 모두 해결하는 것입니다.
 
-Different flags use different guidelines that dictate when they should be applied and if editorial notes are required. '''Always read the notes about a flag before enabling it.''' 
+다른 플래그들은 편집 노트가 필요한 경우 적용되어 다른 가이드라인을 지시합니다. ""플래그를 활성화 시키기 전에 플래그에 관련된 주의사항을 읽어 주세요.""
 
-Here is the full list of high and low priority flags used in the wiki:
+여기에 위키에서 사용되는 높은 우선 순위와 낮은 우선 순위의 플래그의 전체 목록이 있습니다:
 
-===Content quality (high priority issues)===
+
+===콘텐트 품질(높은 우선 순위의 이슈)===
 * [[WPD:Flags/Stub|Stub]]
 * [[WPD:Flags/Deletion Candidate|Deletion Candidate]]
 * [[WPD:Flags/Merge Candidate|Merge Candidate]] 
@@ -57,7 +58,7 @@ Here is the full list of high and low priority flags used in the wiki:
 * [[WPD:Flags/Data Not Semantic|Data Not Semantic]]
 * [[WPD:Flags/Unreviewed Import|Unreviewed Import]]
 
-===Content quality (low priority issues)===
+===콘텐트 품질 (낮은 우선 순위의 이슈)===
 * [[WPD:Flags/Content Outdated|Content Outdated]]
 * [[WPD:Flags/Content Incomplete|Content Incomplete]]
 * [[WPD:Flags/Content Errors|Content Errors]]
@@ -71,13 +72,13 @@ Here is the full list of high and low priority flags used in the wiki:
 * [[WPD:Flags/Examples Errors|Examples Errors]]
 * [[WPD:Flags/Examples Best Practices|Examples Best Practices]]
 
-===Notify other editors about pages that require revisions===
-* Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the [mailto:public-webplatform@w3.org the public-webplatform@w3.org mailing list], or post messages in the [http://talk.webplatform.org/forums forum]. 
-See [[WPD:Editors Guide/step 2 communicate with the online community| Step 2 of the Editor's Guide]] for more details.
+===수정이 필요한 페이지에 대해 다른 편집자에게 알려주기===
+* 이슈를 명확히 하거나 해결하는데 도움을 주기 위해 WebPlatform.org 온라인 커뮤니티에서 커뮤니케이션 해 주세요. 여러분은 IRC, [mailto:public-webplatform@w3.org public-webplatform@w3.org 메일링 리스트]로 메시지 보내기, [http://talk.webplatform.org/forums 포럼]에 메시지 보내기로 이슈를 제기 할 수 있습니다.
+더 자세한 정보는  [[WPD:Editors Guide/step 2 communicate with the online community| 편집자 가이드 Step 2]]에서 확인하세요.
 
-==Check the topics and topic clusters==
+==토픽과 토픽 클러스터를 확인==
 
-While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance.
+여러분이 콘텐트를 검토하는 동안 지정된 토픽과 지정된 토픽 클러스터 태그를 정교하게 확인해 주세요. 많은 경우에 이것들은 적절히 적용되지 못하며 문제가 있더라도 말하기 어려운 경우가 있습니다. [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|토픽과 토픽 클러스터 ]] 가이드를 확인 해 주세요.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
