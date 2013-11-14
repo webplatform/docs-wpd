@@ -18,8 +18,7 @@
 
 코드 예제와 함께 작성하는 경우 [[WPD:Manual_Of_Style/Sample_best_practices| 예제 모범 사례 페이지]]를 확인 해 주세요.
 
-** [COMMENT:] 
-WebPlatform.org에서 모든 유효한 태그와 매크로 목록을 포함하는 편집자 가이드를 위한  새 페이지를 만드는 것이 필요합니다. 예를 들어 하위 페이지 목록을 보여주기 위해 &#60;subpages /&#62; 태그를 사용하는 것 입니다. 또는 이 페이지가 이미 존재하는 경우 해당 링크를 찾는 것입니다.
+** [COMMENT:] WebPlatform.org에서 모든 유효한 태그와 매크로 목록을 포함하는 편집자 가이드를 위한  새 페이지를 만드는 것이 필요합니다. 예를 들어 하위 페이지 목록을 보여주기 위해 &#60;subpages /&#62; 태그를 사용하는 것 입니다. 또는 이 페이지가 이미 존재하는 경우 해당 링크를 찾는 것입니다.
 
 ===스타일 가이드라인을 따르기===
 WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레파지토리가 되는 것을 의도하고 있습니다. 고품질로 작성 되기 위한 글은 편집자 가이드의 규칙을 준수해야 합니다. 충분하게 지침을 준수하지 않는 글은 관련 마커로 태그 될 것이며 개선되비 못할 경우 시간이 지남에 따라 삭제 될 것입니다.
@@ -29,7 +28,7 @@ WebPlatform.org는 고품질, 높은 신뢰도 , 접근 가능한 정보의 레�
 ===글에는 설명 글 제목이 있는지 확인해 주세요.===
 편집 인터페이스로 진입하기 위해 Edit버튼을 클릭한 후에는 페이지 제목 필드에 설명 글 제목을 확인해 주세요. 없는 경우 페이지의 내용과 일치하는 설명 제목을 입력해 주세요. 사용자 정의 페이지 제목이 URL과 다른 경우는 괜찮습니다.
 
- ""Undescriptive Title"" 플래그가 지정된 글 목록을 위해[[WPD:Getting_Started#Improve_titles|제목 개선하기]]를 확인해 주세요.
+ "Undescriptive Title" 플래그가 지정된 글 목록을 위해[[WPD:Getting_Started#Improve_titles|제목 개선하기]]를 확인해 주세요.
 
 Article types should be consistently titled, each according to its content's primary information type. Pages should use a consistent titling scheme so that the author can accurately position the content in the information hierarchy and visitors can infer the content type from the custom title without having to read the entire page.
 
