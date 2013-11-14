@@ -1,7 +1,7 @@
-{{Page_Title|Step 5: Update existing content}}
+{{Page_Title|Step 5: 기존에 작성된 콘텐츠를 검토하기}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=This is Step 5 of the [[WPD:Editors_Guide|Editor's Guide]].
+|Editorial notes=이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 5입니다.
 }}
 {{Summary_Section}}
 {{Basic Page}}
