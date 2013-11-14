@@ -41,10 +41,10 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content|기존에 작성된 콘텐츠를 검토하기]]</h3>
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content/ko|기존에 작성된 콘텐츠를 검토하기]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|의견 달기]]</li>
-            <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|깃발 추가하기]]</li>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content/ko#의견 달기|의견 달기]]</li>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content/ko#플래그를 설정하는 방법|플래그를 설정하는 방법]]</li>
         </ul>
      </div>
   </div>
