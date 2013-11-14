@@ -10,10 +10,10 @@
 * WebPlatform.org의 목표를 배우고 WebPlatform.org를 관장하는 세가지 pillars를 확인하기 위해 [[WPD:Policy/Pillars| Pillars page]]를 참조하세요.
 
 ===여러분이 새로운 콘텐트를 추가하는 것을 팀에게 알려주세요.=== 
-* 온라인 상에서 문의하는 방법을 확인하기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|편집자 가이드 Step 2]]를 확인하세요.
+* 온라인 상에서 문의하는 방법을 확인하기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/ko|편집자 가이드 Step 2]]를 확인하세요.
 
 ===새로운 콘텐츠를 준비하기=== 
-* 코드 스니핏에 적절한 구문 highlighting을 적용하고 위키 문법을 사용하는 페이지를 만드는 방법을 배우기 위해 [[WPD:Editors_Guide/step_5_update_existing_content|편집자 가이드 Step 5]]를 참고하세요.
+* 코드 스니핏에 적절한 구문 highlighting을 적용하고 위키 문법을 사용하는 페이지를 만드는 방법을 배우기 위해 [[WPD:Editors_Guide/step_5_update_existing_content/ko|편집자 가이드 Step 5]]를 참고하세요.
 * [http://styleguide.yahoo.com/ Yahoo 스타일 가이드]의 컨벤션을 따르세요.
 
 ===위키에서 새 페이지 만들기===
@@ -25,7 +25,7 @@
 ===새 페이지를 만들 위치를 선택하기===
 * 위키 안의 페이지를 구조화하는 방법을 배우려면 [[WPD:Content/Topic_Hierarchy| Topic hierarchy page]]를 확인해 주세요.
 * 여러분이 만드는 새 페이지를 저장하기 위한 위치를 선택하기 위해 [[WPD:Architecture|Architecture page]]를 확인해 주세요.
-* 새 페이지를 만들기 위한 섹션이 확실치 않다면 지침에 대해 문의 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|편집자 가이드 Step 2]]를 확인해 주세요.
+* 새 페이지를 만들기 위한 섹션이 확실치 않다면 지침에 대해 문의 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/ko|편집자 가이드 Step 2]]를 확인해 주세요.
 
 ===새 페이지에 대한 유효한 URL 만들기===
 다음으로 [[WPD:New_Page | New Page page]]로 이동하여 정의된 콘텐츠 페이지 템플릿 중 하나를 사용하여 새 페이지를 만들어 주세요. 여러분이 페이지를 만들때 여러분이 path 텍스트 박스에 입력한 텍스트가 새 패이지의 URL이 된다는 것을 기억해 주세요. 또한 페이지 URL은 페이지 제목으로 보여지는 것과 일치할 필요가 없다는 것을 숙지하세요.
