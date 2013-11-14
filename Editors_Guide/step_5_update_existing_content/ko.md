@@ -132,45 +132,45 @@ WebPlatform은 구문 강조를 위해 GeSHi [http://www.mediawiki.org/wiki/Synt
 '''Note:''' 우리는 가까운 장래에 호환성 표의 모집단을 자동화 할것으로 예상하며 우리는 수작업으로 호환성 표를 작업하는 것을 추천합니다.
 
 ===API의 완전한 문서를 제공하기===
+API 참조 페이지들은 API 전체 뿐만 아니라 실제 프로젝트에서 알아야 할 중요한 단점이나 주변 케이스들도 문서화 해야 합니다. 추가 정보는 [[WPD:Creating_API_pages#Filling_in_the_pages|API 페이지 만들기]]를 확인 해 주세요.
 
-API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects. For more information, see [[WPD:Creating_API_pages#Filling_in_the_pages|Creating API pages]].
+===관련 모범 사례를 해결하기===
+글에서 접근성, 국제화(다국어 처리), 개인정보보호 및 보안상의 우수 사례를 이 여러분이 위키에 작성해 주세요.
 
-===Address relevant best practices===
-Address accessibility, internationalization, privacy, and security good practices in the articles you edit for this wiki.
+===적절한 예제를 포함하기===
+예제들은 기사를 더 구체적으로 쉽게 이해할 수 있도록 도와줍니다.
+예제가 필요한 글들의 목록은 [[WPD:Getting_Started#Develop_code_examples|코드 예제 개발하기]]을 참고하세요.
 
-===Include examples where appropriate===
-Examples help make articles more concrete and easier to understand. For a list of articles that need examples, see [[WPD:Getting_Started#Develop_code_examples|Develop code examples]].
+===샘플 코드 모범 사례를 따르기===
+예제 코드는 종종 개발자들에 의해 복사되기 때문에 샘플과 예제 코드들이 모범 사례를 따르는 것은 특히 중요합니다. (예를 들어 alt 텍스트가 포함된 이미지 태그들) 특히, 샘플 코드가 보안 취약성을 만들지 않는지 확인해 주세요. [[WPD:Manual_Of_Style/Code_sample_best_practices|코드 예제 모범 사례]]를 확인해 주세요. 코드 예제가 모범 사례를 따르지 않는 글들의 목록은 [[WPD:Getting_Started#Fix_examples_not_following_best_practices|모범 사례를 따르지 않는 예제 수정하기]]에서 확인해 주세요.
 
-===Follow best practices for sample code===
-It is particularly important that samples and example code follow best practices (for example, including alt text for image tags), because example code is often copied by developers. In particular, be sure that sample code does not create security vulnerabilities. See [[WPD:Manual_Of_Style/Code_sample_best_practices|Code sample best practices]]. For a list of articles where code samples may not follow best practices see [[WPD:Getting_Started#Fix_examples_not_following_best_practices|Fix examples not following best practices]]. 
+===인용과 도움이 되는 링크 추가하기===
+적용가능한 표준들, 테스트 시트, 구현 레포트, 라이브 데모 그리고 유용한 리소스를 참조하는 것을 포함합니다.
 
-===Add citations and helpful links===
-Include references to applicable standards, test suites, implementation reports, live demos, and other useful resources.
+===저자가 접근가능한 페이지들===
+여러분의 컨텐츠는 WCAG 2.0 AA에 따라 접근 가능해야 합니다. 여러분이 접근성에 대한 문의사항이 있다면 더 많은 경험이 있는 커뮤니티 멤버들의 리뷰를 검색해 보세요. 브라우저 벤더(vendor) 에이전트(agent)에 의해 업로드된 자료들은 게시 되었을때 접근 가능해야 합니다. 관련없는 커뮤니티 멤버들에 의해 업로드된 자료들은 그들이 접근할 수 없는 경우 명확히 표시 되어야 합니다. 적절한 시간 후에 콘텐츠에 접근할수 있는 적절한 조치가 취해지지 않는 경우 이 사이트에서 삭제 될 수 있습니다.
 
-===Author accessible pages===
-Your content should be accessible according to WCAG 2.0 AA. If you have questions about accessibility, seek reviews from community members with more experience. Materials uploaded by agents of a browser vendor should be accessible when posted; materials uploaded by unaffiliated community members should be clearly marked if they aren’t accessible. If reasonable steps are not taken to make content accessible after a reasonable amount of time, it may be removed from the site.
+===이 위키와 관련된 콘텐트를 게시하기===
+사이트의 목표와 관련이 없는 글([[WPD:Pillars|Pillars]] 문서에 열거된 내용에 따라서)은 사이트에 포함할 수 없습니다. 확실치 않다면 IRC, 메일링 리스트 또는 포럼에 조언을 구해 보세요. 더 많은 정보는 [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| 편집자 가이드 Step 2]]를 확인 하세요.
 
-===Publish content that is relevant to this wiki===
-Articles that are not relevant to the site's goals (as laid out in the [[WPD:Pillars|Pillars]] document) should not be included in the site. If you are unsure, ask for advice on IRC, the mailing list, or the forum. See [[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Step 2 of the Editor's Guide]] for more details.
+===의견들과 토론을 생략하기===
+글에 대한 의견들과 토론은 글의 내용이 아닌 관련 토론 페이지에서 이루어져야 합니다.
 
-===Omit comments and discussion===
-Relevant comments and discussion about the article should occur in the associated discussion page, not in the body of the article.
+===중복 콘텐츠를 게시하지 마세요.===
+이해 및 구조를 향상시킬 필요가 있는 경우를 제외하고 서로 다른 페이지가 대부분 일치하는 콘텐츠나 주제를 가지는지 확인하는 노력을 해주세요.
 
-===Avoid posting duplicate content===
-Strive to ensure separate pages do not substantially overlap content or topics, except when necessary to improve understanding and organization. 
+===검색 엔진 최적화를 해 주세요.===
+글의 요약에서 가능한 자연스럽게 글과 통하는 관련 키워드들을 사용하세요. 그러나 검색 엔진 보다는(너무 많은 키워드들을 페이지에 나열하는 것) 사람을 위해 글을 써주세요.
 
-===Promote search engine optimization===
-Use the relevant keywords for an article in the summary, and where possible and natural throughout the article. However, write for humans more than search engines; do not overload pages with keywords.
+===모든 관련 섹션을 포함해 주세요.===
+* 만약 여러분이 튜토리얼과 컨셉트 글을 작성하고 있다면 [[WPD:Content/Tutorials_and_concept_articles  | 튜토리얼과 컨셉트 글 페이지]]의 지침을 따르세요.
+* 만약 여러분이 참조 문서를 작성하고 있다면 [[WPD:Content/Reference_articles | 참조 문서 페이지]]의 규칙을 확인해 주세요.
+* 만약 여러분이 API문서를 업데이트 한다면 [[WPD:Creating_API_pages | API 문서 페이지 만들기]]를 읽어 주세요.
 
-===Include all relevant sections===
-* If you are editing tutorials and concept articles, follow the guidelines in the [[WPD:Content/Tutorials_and_concept_articles  | Tutorial and concept articles page]].
-* If you are editing reference documentation, see the rules in the [[WPD:Content/Reference_articles | Reference articles page]].
-* If you are updating API documentation, read the [[WPD:Creating_API_pages | Creating API documentation page]] to learn more.
+글의 다른 유형들은 섹션들의 다른 유형을 가집니다. 고품질로 간주되는 글의 경우 모든 적용가능한 섹션을 포함하고 있어야 합니다.
 
-Different types of articles have different types of sections. For an article to be considered to be high quality, it should include all applicable sections.
-
-===Participate in the conversation about formatting and styling wiki pages===
-*Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group].
+===위키 페이지의 포맷팅과 스타일링에 대한 논의에 참여하기===
+*Note: 추가적인 스타일 논의는 [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group]에서 진행합니다.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
