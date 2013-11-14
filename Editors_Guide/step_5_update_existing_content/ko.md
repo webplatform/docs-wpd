@@ -105,7 +105,7 @@ WebPlatform은 구문 강조를 위해 GeSHi [http://www.mediawiki.org/wiki/Synt
 스크린 샷과 이미지는 위키에 등록된 글과 페이지를 비약적으로 향상 시킵니다. 글을 보완하기 위해 이미지 파일 및 기타 리소스(assets)를  준비하고  업로드 하는 방법을 배우기 위해 [[WPD:Editors_Guide/step_7_prepare_and_upload_assets_for_articles| 편집자 가이드 Step 7]] 을 살펴보세요. 
 
 ===품질 원칙을 준수하기===
-[http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 고품길 기술 정보 개발 : 작가와 편집자를 위한 핸드북] 이라는 제목의 책은 다음과 같은 기술적 정보 품질의 특성을 정의합니다.:
+[http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498 고품질 기술 정보 개발 : 작가와 편집자를 위한 핸드북] 이라는 제목의 책은 다음과 같은 기술적 정보 품질의 특성을 정의합니다.:
 * ""사용하기 쉽게 하세요"" : 업무 중심으로 정확하고 완벽하게.
 * ""이해하기 쉽게 하세요"" : 명확하고 구체적이며 적절한 스타일.
 * ""찾기 쉽게 하세요"" : 일관적인 구성, 검색 가능한 구성, 시각적인 효과 
