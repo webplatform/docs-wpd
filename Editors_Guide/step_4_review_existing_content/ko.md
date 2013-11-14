@@ -1,25 +1,26 @@
-{{Page_Title|Step 4: Review existing content}}
+{{Page_Title|Step 4: 기존에 작성된 콘텐츠를 검토하기}}
 {{Flags
 |Checked_Out=Yes
 }}
-{{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
+{{Summary_Section|이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 4입니다..}}
 {{Basic Page}}
-==Step 4. Review existing content==
+==Step 4. 기존에 작성된 콘텐츠를 검토하기==
 
-All of Web Platform Docs are in review at all times! Okay, seriously though, this means you should always have your editor's hat on when reading through these pages. When you see something that needs fixing, yup, fix it!
+모든 웹 플랫폼 문서들은 항상 검토 상태에 있습니다!. 네, 심각하지만, 이것은 여러분이 이페이지들을 읽고 있을때 여러분은 항상 편집자 직책도 가져야 함을 의미합니다. 여러분이 보고 있는 콘텐츠의 수정이 필요하다면 고쳐주세요!
 
-If you're not sure whether to fix something or how, you can at least set a flag for the issue you find with the content. This page describes the various flags you can apply.
+여러분이 뭔가 어떻게 고쳐야 할지 확실치 않은 경우 여러분은 적어도 여러분이 찾은 콘텐츠에 플래그를 설정할수 있습니다. 이 페이지는 여러분이 적용할 수 있는 다양한 플래그에 대해 설명합니다.
 
-For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [[WPD:Getting_Started#Review_content|Review content]] in the [[WPD:Getting_Started|Getting Started guide]].
+검토가 필요한("Needs Review" 플래그가 설정된) 것으로 확인된 페이지의 목록은 [[WPD:Getting_Started|시작하기]]의[[WPD:Getting_Started#Review_content|콘텐츠 검토]]를 확인해 보세요.
 
-===Add comments to sections===
-* Add a comment by hovering your mouse over the relevant section heading and clicking the Add comment text that appears. Posting comments on specific article sections helps others see exactly what needs to be fixed.
+===의견 달기===
+* 제목 관련 부분에 마우스를 가져 가면 나타나는 Add Comment 텍스트를 클릭하여 의견을 추가합니다. 특정 문서 섹션에 대한 의견을 게시하면 다른 사람이 수정이 필요한 부분을 정확히 확인할 수 있습니다.
 [[Image:add_comment.png|alt=Screenshot of the Add Comment interface]]
-===Flag issues to identify pages with broken links, spelling, product bias, and other problems===
-* Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
+===
+===끊어진 링크, 맞춤법, 제품 보정 값 그리고 다른 문제들을 식별하기 위한 플래그 이슈===
+* 문서의 오른쪽 상단 모서리에 있는 Edit 버튼을 클릭하고 플래그 이슈를 설정하기 위한 체크 박스에 액세스 하기위해 Edit를 선택합니다.
 [[Image:edit_interface.png|alt=Screenshot of the editing interface]]
-===Mark articles that need revisions by checking the corresponding check boxes===
-In this wiki, we use flags to mark articles that require fixes or additional work. By flagging pages, you are helping the community track issues. Flags are set up to automatically create lists of tasks to accomplish.
+===해당 체크 박스를 선택하여 수정이 필요한 문서로 표시하기===
+이 위키에서 수정 또는 추가 작업이 필요한 글에 표시하기 위한 플래그를 사용합니다. 페이지에 플래그를 추가하는 것은 여러분이 커뮤니티에 이슈를 추적하기 위해 도움을 주는 것입니다. 플래그는 수행하기 위한 작업 목록을 자동으로 생성하도록 설정되어 있습니다.
 
 Flags are used in conjunction with comments to provide more details about the content to fix on a page. Flags are used to mark issues for an entire page; they enable editors to locate pages that require specific kinds of work. Comments are used to describe issues with a specific section of the page; they help editors quickly find the areas within a page to change.
 
