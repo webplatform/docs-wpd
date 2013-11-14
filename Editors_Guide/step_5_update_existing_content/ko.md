@@ -131,7 +131,8 @@ WebPlatform은 구문 강조를 위해 GeSHi [http://www.mediawiki.org/wiki/Synt
 
 '''Note:''' 우리는 가까운 장래에 호환성 표의 모집단을 자동화 할것으로 예상하며 우리는 수작업으로 호환성 표를 작업하는 것을 추천합니다.
 
-===Provide complete documentation of API===
+===API의 완전한 문서를 제공하기===
+
 API reference pages should document the entirety of the API, as well as any quirks or edge cases that are important to know in real-world projects. For more information, see [[WPD:Creating_API_pages#Filling_in_the_pages|Creating API pages]].
 
 ===Address relevant best practices===
