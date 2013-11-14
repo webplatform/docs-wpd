@@ -1,8 +1,8 @@
 =WebPlatform.org community events=
 
 ==Upcoming Events== 
-* '''Every Wednesday'''—[[Meta:web_platform_wednesday|Web Platform Wednesday]]
-* '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
+* '''Date TBD (Jan 11, 2014)'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
+* '''March 11, 2014: Doc Sprint @ Fluent2014 in San Francisco (Julee Burdekin)
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ Belgium (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
 
 Jump to [[#Past Events|Past Events]]
