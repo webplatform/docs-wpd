@@ -52,10 +52,10 @@
  <div class="long-topic"> 
      <div class="place-holder"></div>
     <div class="inner"  style='border:1px solid #b8860b; padding:5px 5px 5px 10px; border-radius:5px; min-height:150px'>
-        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_5_update_existing_content|기존에 작성된 콘텐츠를 수정하기]]</h3>
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_5_update_existing_content/ko|기존에 작성된 콘텐츠를 수정하기]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Become familiar with MediaWiki syntax conventions |미디어위키 문법 배우기]]</li>
-            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Follow the WebPlatform style guide|스타일 가이드라인을 따르기]]</li>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content/ko#미디어위키 문법 배우기|미디어위키 문법 배우기]]</li>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content/ko#스타일 가이드라인을 따르기|스타일 가이드라인을 따르기]]</li>
             <li>[[WPD:Manual_Of_Style/Sample_best_practices|코드 샘플을 수정하기]]</li>
         </ul>
      </div>
