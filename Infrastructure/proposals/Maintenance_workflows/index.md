@@ -4,7 +4,7 @@
 This document describe how to work on the infrastructure, to commission/de-commision services, and work on the infrastructure and making it as transparent as possible.
 
 == Required tools ==
-# Installing Vagrant with Salt stack, see [[WPD:Infrastructure/Installing_Vagrant_with_Salt_stack]]
+# Installing Vagrant with Salt stack, see [[WPD:Infrastructure/procedures/Creating local multiple virtual machine state development environment]]
 
 === States repositories ===
 
