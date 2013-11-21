@@ -100,9 +100,15 @@ sub vcl_fetch {
     restart;
   } 
 
-  # Compatables ESI includes
+  # ESI support
   set req.esi = true;
   esi;
+
+  # Compatables ESI includes and verbose message
+  if(req.url ~ "Special:Compatables") {
+    set beresp.ttl = 24h;
+    set beresp.http.X-Esi-Message = "This document is targeted to be cached 24h";
+  }
 
   if(req.restarts > 0 ) {
     set beresp.http.Fastly-Restarts = req.restarts;
