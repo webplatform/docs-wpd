@@ -24,9 +24,6 @@ A recommended way to work is to follow '''[https://fastly.zendesk.com/entries/23
 ** [https://www.varnish-cache.org/docs/2.1/tutorial/cookies.html Varnish tutorial cookies]
 * [https://www.varnish-software.com/static/book/Tuning.html?highlight=timeout Varnish book about tuning]
 
-== Attached documents ==
-* [https://gist.github.com/renoirb/7586240 20131121.vcl]
-
 === Fastly configuration ===
 <syntaxHighlight>
 #
@@ -91,8 +88,14 @@ sub vcl_fetch {
  
   if ((beresp.status == 500 || beresp.status == 503) && req.restarts < 4 && (req.request == "GET" || req.request == "HEAD")) {
     restart;
+  } 
+
+  # Compatables ESI includes
+  if(req.url ~ "Special:Compatables") {
+    esi;
+    set beresp.ttl = 24h;
   }
- 
+
   if(req.restarts > 0 ) {
     set beresp.http.Fastly-Restarts = req.restarts;
   }
