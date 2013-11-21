@@ -101,10 +101,8 @@ sub vcl_fetch {
   } 
 
   # Compatables ESI includes
-  if(req.url ~ "Special:Compatables") {
-    esi;
-    set beresp.ttl = 24h;
-  }
+  set req.esi = true;
+  esi;
 
   if(req.restarts > 0 ) {
     set beresp.http.Fastly-Restarts = req.restarts;
