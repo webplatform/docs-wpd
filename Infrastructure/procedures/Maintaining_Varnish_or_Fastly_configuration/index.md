@@ -7,9 +7,9 @@ This page is about keeping notes on current Varnish configuration files and note
 == NOTES ==
 An important detail to remember is that Fastly is using Varnish 2.1.4, their configuration specifics do not support either pipe, ban, nor purging with ACL. 
 
-Also, the way to provide CDN service is with what they call "Shield", it is basically a layer of application that stores a local copy of what is grabbed by a service backend server. That way, before hitting again the backend server, it can get from one of their shield servers first.
+Also, the way to provide CDN service is with what they call "Shield", it is basically a layer of application that stores a local copy of what is grabbed by a service backend server. Provided that the backend server do not explicitly prevent caching, or that the VCL has appropriate adjustments, Fastly will send files from the Shield before hitting again the backend servers.
 
-VCL is the Varnish Configuration language file, throughout the pannel, we can see two VCL buttons, the one beside the service name and revision is to download the generated VCL, whereas we can also provide our own VCL that must have keywords so the panel adds content to it.
+VCL is the Varnish Configuration language file, throughout the panel, we can see two VCL buttons, the one beside the service name and revision is to download the generated VCL, whereas we can also provide our own VCL that must have keywords so the panel adds content to it.
 
 A recommended way to work is to follow '''[https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL-  How do I mix and match Fastly VCL with custom VCL]'''
 
