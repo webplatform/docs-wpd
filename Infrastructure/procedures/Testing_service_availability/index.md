@@ -51,7 +51,7 @@ Collection of small shell scripts that will be used to test components of the in
 </syntaxHighlight>
 
 
-=== Adding pages through MediaWiki API ==
+=== Adding pages through MediaWiki API ===
 
 '''Dependencies''':
 * Varnish configuration do not send cached documents as a reply to a POST request, see [[WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration]]
