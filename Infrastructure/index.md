@@ -1,6 +1,6 @@
 == Table of contents ==
 Listing all sub pages from here.
-
+[[WPD:Infrastructure/procedures/Managing MySQL replication]
 <splist />
 
 ==Site Structure==
