@@ -6,7 +6,7 @@ How to manage communication and replication between MySQL servers across data ce
 == Checks ==
 
 === Checking if SSL is supported ===
-Connect to the MySQL server in question and check if <code>have_ssl</coce> is to ''YES''
+Connect to the MySQL server in question and check if <code>have_ssl</code> is to ''YES''
 
     mysql> SHOW VARIABLES LIKE 'have_ssl';
     +---------------+-------+
