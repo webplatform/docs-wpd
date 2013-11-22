@@ -6,7 +6,7 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 ==Telcon Info==
 
-'''Time:''' Fridays, 16:00 UTC / Noon ET / 9:00 PT. 
+'''Time:''' Fridays, 17:00 UTC / Noon ET / 9:00 PT. 
 
 '''Zakim Bridge:''' +1.617.761.6200
 
