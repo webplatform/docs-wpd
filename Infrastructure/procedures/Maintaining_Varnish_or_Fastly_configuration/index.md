@@ -15,6 +15,7 @@ A recommended way to work is to follow '''[https://fastly.zendesk.com/entries/23
 
 == Accessing VCL configuration from Fastly ==
 
+[[File:20131121-Fastly-vcl-buttons.png|right]]
 To access/overwrite the file in Fastly, go to:
 * [https://app.fastly.com/ Fastly pannel], login
 * Select targeted site (e.g. ''docs.webplatform.org'')
