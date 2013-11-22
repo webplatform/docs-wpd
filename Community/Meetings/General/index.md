@@ -27,6 +27,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * HTML Elements
 * CSS compatibility
 * How was TPAC?
+* Pointers to info about Universal Access
 * Migration
 * Dave's working on DOM re-org
 
