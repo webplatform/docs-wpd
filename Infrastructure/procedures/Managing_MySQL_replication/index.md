@@ -3,6 +3,29 @@
 == Summary ==
 How to manage communication and replication between MySQL servers across data centers.
 
+== In a few bullet points ==
+
+# In <code>/etc/mysql/my.cnf</code>, make sure that each node has 'ssl' alone, close to the SSL certificates
+# Create CA and self-signed certificates, see TLS salt module
+# Remove db2 MySQL entries from MediaWiki configuration files, sync them to app* servers
+# On db2,  Lock databases
+# On db2,  Dump database tables
+# On db2,  Unlock databases
+
+=== Memory dump, to continue work ===
+* http://plusbryan.com/mysql-replication-without-downtime
+* http://www.rackspace.com/knowledge_center/article/mysql-replication-masterslave
+* http://www.howtoforge.com/mysql_database_replication_p2
+* http://dev.mysql.com/doc/refman/5.0/en/lock-tables.html
+* http://www.mysqlperformanceblog.com/2012/07/31/innodb-table-locks/
+* http://dev.mysql.com/doc/refman/5.0/en/replication-howto.html
+
+=== Memory dump, using Salt stack ===
+* [http://docs.saltstack.com/ref/modules/all/salt.modules.tls.html TLS salt module]
+
+    salt 'db1*' tls.create_ca 'mysql' days=730 CN='db1.webplatform.org' O='W3C' OU='WebPlatform Docs' emailAddress='EMAIL'
+
+
 == Checks ==
 
 === Checking if SSL is supported ===
