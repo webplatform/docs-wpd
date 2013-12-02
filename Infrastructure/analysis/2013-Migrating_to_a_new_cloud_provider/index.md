@@ -16,37 +16,37 @@ Broken down into phases...
 ==== Dry run some salt stack states in HPCloud ====
 Just to run Salt state scripts to test if all is fine. We never know if things broke along the changes made on the master branch.
 
-==== Create a temporary MySQL replication node on Dreamhost ====
+==== Create a temporary MySQL replication node on selected provider ====
 
 Will help speed up when it is time to flip the switch.
 
-A Read-Only Database server; basically a slave of db1 in production (HPCloud), that other VMs in Dreamhost's infrastructure will read from.
+A Read-Only Database server; basically a slave of db1 in production (HPCloud), that other VMs in selected provider's infrastructure will read from.
 
 
-===  Phase 1: Getting access to Dreamhost's to prepare new environment ===
+===  Phase 1: Getting access to selected provider's to prepare new environment ===
 
-==== Getting access to Dreamhost's OpenStack controller ====
+==== Getting access to selected provider's OpenStack controller ====
 
 So we can start working.
 
 
-==== Make a new 'deployment' node on Dreamhost infrastructure ====
+==== Make a new 'deployment' node on the selected provider infrastructure ====
 
 So we can start working.
 
 # Move configuration files from /srv/code, /srv/salt, /srv/pillar and other important files.
 
-==== Re-create the environment on Dreamhost infrastructure ====
+==== Re-create the environment on the selected provider infrastructure ====
 
 Instantiate nodes with the same specs (or as close as possible) to what we have.
 
 # Test locally by overriding host names in own hosts file
 # Ensure the new configuration match new private IP addresses
-# Read from MySQL replication node on Dreamhost node. In read-only mode.
-# New database nodes to read data from the MySQL replication node on Dreamhost node
+# Read from MySQL replication node on the selected provider VPS node. In read-only mode.
+# New database nodes to read data from the MySQL replication node on selected provider VPS node
 
 
-==== Create a copy of each Fastly services to point on nodes within Dreamhost infrastructure ====
+==== Create a copy of each Fastly services to point on nodes within selected provider infrastructure ====
 
 Will be used through the reinstallation on the new environment and allow us to test prior to flipping the switch.
 
@@ -78,7 +78,7 @@ In HPCloud environment:
 # Make db1 (master) read only
 # Make show a 'Migration in progress' note so users are not surprised if they cannot save
 
-In Dreamhost environment:
+In selected provider environment:
 # Make new db1 the master, disconnect from replication node 
 # Make new db2 the slave of db1, disconnect from replication node
 
@@ -90,6 +90,6 @@ In fastly:
 
 Assuming all is fine.
 
-# Delete MySQL replication node on Dreamhost node 
+# Delete MySQL replication node on selected provider VPS node 
 # Delete Fastly temporary services
 # Deprecate HPCloud
