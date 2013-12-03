@@ -6,7 +6,7 @@ Summarizing server requirements described in length in [[WPD:Infrastructure/anal
 
 We are using OpenStack hosted Virtual Machines as our main computing environment. Our stack is built using Salt Stack to manage instance states and various aspects of OpenStack. Salt is similar to Puppet by managing machine states, but it also enables remote execution and handles various OpenStack services. 
 
-We require many servers to host our services (memcache, MySQL, NGINX, Apache, etc). HTTP requests to these servers are managed by our caching layer, which is provided by Fastly; this provides a separate CDN service and improves site performance. In the future, we plan to improve site performance, implement ''continuous deployment'' and use OpenStack's Object/Block storage services.
+We require many servers to host our services (memcache, MySQL, NGINX, Apache, etc). HTTP requests to these servers are managed by our caching layer, which is provided by Fastly; this provides a separate CDN service and improves site performance. In the future, we plan to optimize the infrastructure, improve site performance, and implement ''continuous deployment''.
 
 In terms of hosting and server infrastructure, we want to have more than one hosting provider, to enable redundancy and multiple site replication, and to showcase the power of OpenStack. In the short term, we need only a single major host.
 
@@ -16,6 +16,7 @@ In terms of hosting and server infrastructure, we want to have more than one hos
 * Open Stack service environment
 * Object storage service (Swift/Ceph or similar; not in use, but planned)
 * Block storage (Cinder or similar, not in use but planned)
+* Open to other managed PaaS service, if available. (e.g. managed ''MySQL'' or ''Memcached'' server)
 
 === Production environment ===
 These are our minimum requirements for the live site:
