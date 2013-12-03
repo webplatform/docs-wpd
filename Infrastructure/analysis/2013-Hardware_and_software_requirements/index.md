@@ -8,7 +8,7 @@ We are using OpenStack hosted Virtual Machines as our main computing environment
 
 While we require many servers to host our services (memcache, MySQL, NGINX, Apache, etc), we are currently using a caching layer provided by Fastly  giving us a separate CDN service and improving performance of the site.
 
-Our planned architecture is to use Fastly/Akamai as a caching layer in front of our server infrastructure and to have a pool of resource available by more than one hosting provider.
+Our planned architecture is to use Fastly/Akamai as a caching layer,  in front of our server infrastructure and to have a pool of resource available by more than one hosting provider. Other changes is about leveraging ESI ("Edge Side Include") techniques, have multiple site replication.
 
 == Upcoming changes ==
 
@@ -19,7 +19,6 @@ Our planned architecture is to use Fastly/Akamai as a caching layer in front of 
 
 
 == Requirements ==
-
 
 === General ===
 * Open Stack service environment
