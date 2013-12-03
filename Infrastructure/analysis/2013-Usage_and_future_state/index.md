@@ -1,5 +1,7 @@
 = 2013 WebPlatform Docs infrastructure usage and future state =
 
+'''NOTE''': There is a ''TLDR'' version describing software and hardware requirement available [[WPD:Infrastructure/analysis/2013-Hardware and software requirements]]
+
 == Introduction ==
 
 [http://webplatform.org/ WebPlatform Docs] is now close to a year old. The goal of this document is to describe the current health of the system and how we can make it better.
