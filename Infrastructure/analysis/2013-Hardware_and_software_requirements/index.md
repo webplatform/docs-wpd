@@ -21,6 +21,7 @@ Our planned architecture is to use Fastly/Akamai as a caching layer,  in front o
 == Requirements ==
 
 === General ===
+
 * Open Stack service environment
 * Object storage service (Swift/Ceph or similar; not in use, but planned)
 * Block storage (Cinder or similar, not in use but planned)
