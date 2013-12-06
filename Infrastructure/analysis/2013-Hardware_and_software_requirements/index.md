@@ -1,6 +1,6 @@
 = Hardware and software requirements =
 
-Summarizing server requirements described in length in [[WPD:Infrastructure/analysis/2013-Usage and future state]].
+Summarizing server requirements described in length in [[WPD:Infrastructure/analysis/2013-Usage and future state]] according the the plans in [[WPD:Infrastructure/analysis/2013-Migrating to a new cloud provider]].
 
 == Summary ==
 
@@ -49,7 +49,7 @@ This is the current breakdown of machines per service type. Our plan is to event
 * Backup (1 VM)
 
 ==== Frontend servers ====
-Web server hosting web application, most of them are behind [http://fastly.com Fastly].
+HTTP servers hosting web application, most of them are behind [http://fastly.com Fastly], using Varnish (see [[WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration]]).
 
 * Analytics (2 VMs, Public IP, ''not behind'' Fastly)
 * Blog (1 VM, Public IP)
