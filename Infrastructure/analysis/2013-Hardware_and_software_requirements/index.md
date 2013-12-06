@@ -52,9 +52,9 @@ This is the current breakdown of machines per service type. Our plan is to event
 Web server hosting web application, most of them are behind [http://fastly.com Fastly].
 
 * Analytics (2 VMs, Public IP, ''not behind'' Fastly)
-* Blog (1 VM, Public IP, Apache)
-* App server (5 VMs, Public IP, Apache)
-* Project management web app (1 VM, Public IP, Apache)
+* Blog (1 VM, Public IP)
+* App server (5 VMs, Public IP)
+* Project management web app (1 VM, Public IP)
 
 == Changes ==
 
