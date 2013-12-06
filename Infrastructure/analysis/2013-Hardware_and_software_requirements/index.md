@@ -28,21 +28,24 @@ These are our minimum requirements for the live site:
 ** 3x 1 vCPU, 2Gb vRAM
 * 11 IPv4 Public IP addresses
 
-
 === Staging and testing environments ===
 In addition to the production environment, we want to have a testing and staging deployment running full time.
 
 These environments have the same requirements as the production environment,  deployed in a separate network, but do not need guaranteed uptime.
 
-== Types of Servers ==
+== Our Infrastructure ==
+Every machine is managed by a set of states and pillars and admins manages the complete infrastructure through the Salt master.
+
 This is the current breakdown of machines per service type. Our plan is to eventually slim down the quantity of machines and merge some services together.
+
+=== Distribution by type === 
 
 ==== Infrastructure servers ====
 * Salt master (1 VM, Public IP)
 * NOC nodes (2 VMs, 1 Public IP)
-* Storage (2 VMs)
 * Memcache (2 VMs)
 * MySQL (2 VMs)
+* Storage (2 VMs)
 * Backup (1 VM)
 
 ==== Frontend servers ====
@@ -63,14 +66,17 @@ What we would appreciate to have in a new environment.
 * Routing to allow downloading from the Internet for the internal only machines
 * Images of Ubuntu server 10.04.4 LTS and 12.04 LTS
 
-**Upcoming, and nice to have**:
-* Internal DNS (view) as we currently share a host file
+=== Future ===
+Upcoming, and nice to have for the current migration:
+* Internal DNS
+** Note: We currently spreading a ''hosts'' file with Salt stack
 * Private network to communicate with all the instances
 ** VPN between sites (iWeb site and Dreamhost site)
 * Object storage service (Swift/Ceph or similar; not in use, but planned)
 ** Note: our server setup is using Gluster FS and we are considering switching to use OpenStack's Swift/Ceph to store our static assets.
 
-=== Future ===
+=== Next year ===
 * MySQL cluster to be upgraded, multiple site replication
+* Implementing continuous deployment, configuring states on a local development machine using Vagrant/VirtualBox, test deployment script in staging/test, then deploy in production.
 * Log management analysis tool to help us audit system symptoms
 * We plan to leverage [http://en.wikipedia.org/wiki/Edge_Side_Includes ESI] ("Edge Side Include") for some aspects of the site content.
