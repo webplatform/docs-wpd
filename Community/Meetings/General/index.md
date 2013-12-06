@@ -38,6 +38,10 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Migration
 * Dave's working on DOM re-org
 
+===Raw meeting notes===
+
+[[WPD:Community/Meetings/General/2013/1122_raw_mtg_notes]]
+
 ==Agenda 2013-11-08: Canceled due to lack of agenda==
 
 
