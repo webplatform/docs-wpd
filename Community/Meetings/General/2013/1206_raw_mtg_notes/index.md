@@ -1,4 +1,4 @@
-eliezerb joined  ⇐ mstalfoort, chrismills and Garbee-Shop quit  ↔ paul_irish nipped out  
+eliezerb joined
 Hello, everyone!!
 Meeting in a few... http://docs.webplatform.org/wiki/WPD:Community/Meetings/General
 shepazu waves
