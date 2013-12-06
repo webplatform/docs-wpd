@@ -5,6 +5,8 @@ This document follows [[WPD:Infrastructure/analysis/2013-Usage and future state]
 
 While we were running on original deployment infrastructure, configuration was built empirically to suit the site visitors demand. 
 
+If you are searching for detailed technical requirements, they are [[WPD:Infrastructure/analysis/2013-Hardware and software requirements]]
+
 __TOC__
 
 == Phases ==
