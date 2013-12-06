@@ -15,8 +15,8 @@ In terms of hosting and server infrastructure, we want to have more than one hos
 === General ===
 * Open Stack service environment
 * Access to Nova API
-* Block storage (Cinder or similar, not in use but planned)
 * Open to other managed PaaS service, if available. (e.g. managed ''MySQL'' or ''Memcached'' server)
+* See also in [[#Current migration]] and [[#Future]]
 
 === Production environment ===
 These are our minimum requirements for the live site:
