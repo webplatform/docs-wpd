@@ -1,3 +1,4 @@
+<pre>
 eliezerb joined  ⇐ mstalfoort, chrismills and Garbee-Shop quit  ↔ paul_irish nipped out  
 
 Hello, everyone!!
@@ -337,3 +338,4 @@ julee: are they offering tech resources as well?
 shepazu: yes, but still talking about how relationship will work
 
 shepazu: thanks for all the great work this week!
+</pre>
