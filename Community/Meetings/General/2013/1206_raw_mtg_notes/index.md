@@ -1,11 +1,11 @@
- → eliezerb joined  ⇐ mstalfoort, chrismills and Garbee-Shop quit  ↔ paul_irish nipped out  
+eliezerb joined  ⇐ mstalfoort, chrismills and Garbee-Shop quit  ↔ paul_irish nipped out  
 Hello, everyone!!
 Meeting in a few... http://docs.webplatform.org/wiki/WPD:Community/Meetings/General
- — shepazu waves
- — eliezerb I guess that I'm online
- → phistuck joined (546f0265@gateway/web/freenode/ip.84.111.2.101)
+shepazu waves
+eliezerb I guess that I'm online
+phistuck joined (546f0265@gateway/web/freenode/ip.84.111.2.101)
  <phistuck> I am listening, too
- → jensimmons joined (~jensimmon@drupal.org/user/140882/view)
+jensimmons joined (~jensimmon@drupal.org/user/140882/view)
  <phistuck> Hello!
  <phistuck> I am a boy. :)	
  <jensimmons> "The conference is restricted at this time"?
@@ -14,7 +14,7 @@ Meeting in a few... http://docs.webplatform.org/wiki/WPD:Community/Meetings/Gene
  <jensimmons> in
  <jensimmons> thanks
  <phistuck> I am here, too
- → jswisher joined (~jswisher@cpe-173-174-55-161.austin.res.rr.com)
+jswisher joined (~jswisher@cpe-173-174-55-161.austin.res.rr.com)
  <phistuck> (It is pronounced like "feestook")
 eliot joined us on the phone
 phistuck - oooo! thanks!
@@ -45,11 +45,11 @@ jensimmons: top section is short. a great introduction that draws from the specs
 ... common use pattern is not just html
 ... system should be flexible to include css
 shepazu: specs are typically not suitable for the reader. only a limited amount that could be drawn from the specs
- → dsinger joined (11c5200b@gateway/web/freenode/ip.17.197.32.11)
+dsinger joined (11c5200b@gateway/web/freenode/ip.17.197.32.11)
  <phistuck> (Rejoined, had issues)
 jensimmons: yes, we need to make it plain
 jensimmons: raw code, but also explanations, would prefer them to be live
- → Garbee-Shop joined (~Garbee@192.34.161.117)
+Garbee-Shop joined (~Garbee@192.34.161.117)
 ... not possible right now
 ... no local settings, reload resets page
 shepazu: part of the original mission, but...
@@ -69,7 +69,7 @@ shepazu: that's part of the compat. projects
 jensimmons: specs are listed on mdn, what specs should be listed?
  <phistuck> Though the obsolete/deprecated/outdated ones should be hidden by default with a "More specifications..." link
 ... history: when was something introduced, how things changed, what exactly changes, becomes less important 
- — eliezerb will reconnect
+eliezerb will reconnect
 ... as it gets more history
 ... external links : should we do this is up for debate.
 ... we could decide an order...
@@ -92,7 +92,7 @@ shepazu: most of the handcrafted can't be automated. tedious details can be auto
 ... if the whole site had this kind of quality, great. We want to have uniformity among sections.
 ... e.g.: syntax section could provide best example to pull out (copy from)
 ... autocompletion for tools that use our syntax section
- — dsinger is completely failing to get Colloquy to connect. weird. using web
+dsinger is completely failing to get Colloquy to connect. weird. using web
 jensimmons: yes, other fields that won't be here, what would that be? 100 char string summary?
 ... we're not designing a page, we're designing a system
 shepazu: I think these are considerations.
