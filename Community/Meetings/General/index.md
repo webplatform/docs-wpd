@@ -12,7 +12,7 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 '''Conference code:''' 3627 ("DOCS") 
 
-'''VOIP:'''  sip:zakim@w3.org
+'''VOIP:'''  sip:zakim@voip.w3.org
 
 '''IRC Channel:''' webplatform-site
 [irc://irc.freenode.net/webplatform-site irc]
