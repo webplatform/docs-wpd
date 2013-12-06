@@ -20,6 +20,13 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2013-12-06==
+
+* Jen Simmons has a mock up of the HTML elements pages
+* Max Polk has done the 3rd JS import
+* Eliezer Bernart is on templates
+* David Singer has proposed a WebVTT content project
+
 
 ==Agenda 2013-11-22==
 
