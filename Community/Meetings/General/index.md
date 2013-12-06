@@ -27,6 +27,9 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 * Eliezer Bernart is on templates
 * David Singer has proposed a WebVTT content project
 
+===Raw meeting notes===
+
+
 
 ==Agenda 2013-11-22==
 
@@ -40,7 +43,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 
 ===Raw meeting notes===
 
-[[WPD:Community/Meetings/General/2013/1122_raw_mtg_notes]]
+[[WPD:Community/Meetings/General/2013/1206_raw_mtg_notes]]
 
 ==Agenda 2013-11-08: Canceled due to lack of agenda==
 
