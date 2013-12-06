@@ -1,6 +1,6 @@
 = Hardware and software requirements =
 
-Summarizing server requirements described in length in [[WPD:Infrastructure/analysis/2013-Usage and future state]] according the the plans in [[WPD:Infrastructure/analysis/2013-Migrating to a new cloud provider]].
+Summarizing server requirements described in length in [[WPD:Infrastructure/analysis/2013-Usage and future state]] and the execution plan is described in [[WPD:Infrastructure/analysis/2013-Migrating to a new cloud provider]].
 
 == Summary ==
 
