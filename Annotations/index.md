@@ -10,6 +10,9 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 ** Consider adding tags in new custom email header
 ** Allow admin curation of links (adding links, or removing irrelevant links on same thread)
 * Annotation server hosted on WebPlatform.org
+* Persist annotations across different versions of same spec
+** May require "canonical URL"?
+** Alert users when they start annotating an older version of a document (requires knowing the current version)
 
 ==Interface==
 * Toggle annotation functionality on or off
