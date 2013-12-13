@@ -6,8 +6,16 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 ** typo, request for clarification, bug, suggested replacement text, etc.
 * Reflecting comments in the mailing list
 ** Consider sending a custom headers via email, so replies can be federated, keeping discussion threaded and complete
+** If emails responses are sent to mailing list, links to those emails (or body text) should be added to annotation thread
+** Consider adding tags in new custom email header
+** Allow admin curation of links (adding links, or removing irrelevant links on same thread)
+* Annotation server hosted on WebPlatform.org
 
 ==Interface==
 * Toggle annotation functionality on or off
 * Show annotations on demand
 * Optional: Add special "classes" of annotation, such as tests results, that display differently in the spec than simple text annotations (perhaps as icons for browser support)
+** '''"editorial" :''' grammar change, typo, clarification
+** '''"normative" :''' change to technical requirements of spec
+** '''"request" :''' suggestion for new feature
+** '''"testable" :''' marks section of spec as a testable assertion that needs one or more tests
