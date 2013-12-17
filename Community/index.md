@@ -2,7 +2,7 @@
 
 {{Languages}}
 
-Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether your just starting in your career or are already a seasoned web professional, we encourage you to [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|get involved with the community]].
+Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether you're just starting in your career or are already a seasoned web professional, we encourage you to [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|get involved with the community]].
 
 [[File:community_pic.jpeg|200px]]
 
