@@ -2,7 +2,7 @@
 
 ==Upcoming Events== 
 * '''Date TBD (Jan 11, 2014)'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
-* '''Date TBD (Febuary 21, 2014)'''—TENTATIVE: Doc Sprint @ Mechelen (Belgium) (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
+* '''Febuary 28, 2014'''—Doc Sprint @ The Creativity Gym Mechelen (Belgium) (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
 * '''March 11, 2014: Doc Sprint @ Fluent2014 in San Francisco (Julee Burdekin)
 
 Jump to [[#Past Events|Past Events]]
