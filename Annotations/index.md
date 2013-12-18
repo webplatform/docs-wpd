@@ -13,6 +13,7 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 * Persist annotations across different versions of same spec
 ** May require "canonical URL"?
 ** Alert users when they start annotating an older version of a document (requires knowing the current version)
+* API so bots can add annotations, change states, etc.
 
 ==Interface==
 * Toggle annotation functionality on or off
@@ -29,4 +30,5 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 ** '''"accepted"''' 
 ** '''"assigned"''' 
 ** '''"resolved"''' 
+** '''"rejected"''' 
 ** might reuse existing hashtag functionality, with special behavior for certain states
