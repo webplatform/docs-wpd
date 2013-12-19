@@ -37,3 +37,8 @@ The specific implementation we want to use will be based on the [http://okfnlabs
 ** '''"resolved"''' 
 ** '''"rejected"''' 
 ** might reuse existing hashtag functionality, with special behavior for certain states
+* Provide different "annotation modes" specific to different tasks, filtering/hiding (based on tags) annotations for the other modes:
+** '''"spec review"''' 
+** '''"testable assertion"''' 
+** '''"implementation and test status"''' 
+** '''"documentation note or link"'''
