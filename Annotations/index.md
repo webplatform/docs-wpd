@@ -6,7 +6,7 @@ We want to enable annotations on W3C specifications and on WebPlatform.org, as a
 The specific implementation we want to use will be based on the [http://okfnlabs.org/annotator/ Annotator project], as implemented and enhanced by [http://hypothes.is/ Hypothes.is], with an eye towards standardization informed by the [http://w3.org/community/openannotation/ W3C Open Annotation Community Group].
 
 ==Requirements==
-* Credentials for identity (W3C, WebPlatform.org)
+* Credentials for identity: WebPlatform.org username and password
 * Adding and searching custom tags
 ** typo, request for clarification, bug, suggested replacement text, etc.
 * Reflecting comments in the mailing list
