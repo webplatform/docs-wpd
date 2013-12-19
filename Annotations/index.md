@@ -1,6 +1,6 @@
 This is a scratch space for adding annotations to WebPlatform.org and to W3C specifications.
 
- This page is actively being annotated using the existing Hypothes.is annotation extension and server. To see the annotations,  [http://hypothes.is/alpha/ install the extension or bookmarklet].
+''This page is itself actively being annotated using the existing Hypothes.is annotation extension and server. To see the annotations,  [http://hypothes.is/alpha/ install the extension or bookmarklet].''
 
 == Background ==
 We want to enable annotations on W3C specifications and on WebPlatform.org, as a way to provide feedback into specs and documentation.
