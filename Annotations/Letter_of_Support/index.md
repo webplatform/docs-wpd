@@ -1,6 +1,6 @@
 To Whom it May Concern–
 
-Hypothes.is providing profound value to the World Wide Web Consortium in developing standards for the Web, helping improve our transparency, public accountability, and technical quality of Web specifications.
+Hypothes.is is providing profound value to the World Wide Web Consortium in developing standards for the Web, helping to improve our transparency, public accountability, and the technical quality of our Web specifications.
 
 The World Wide Web Consortium (W3C) is the leading standards development organization for Web technologies. Founded by the creator of the Web, Sir Tim Berners-Lee, Director of W3C, the mission of W3C is to lead the Web to its full potential, though the creation and curation of technologies such as HTML, CSS, SVG, DOM, JavaScript APIs, ARIA, RDF, XML, and many other technical specifications ranging from accessibility for people with disabilities to internationalization to rich media to linked open data to security and privacy.
 
@@ -10,7 +10,7 @@ Because W3C has such an enormous impact on web developers, designers, users, and
 
 As Developer Relations Lead for W3C, my role in the management team is to promote the use and understanding of our technologies, and to facilitate feedback from Web developers and designers. It is vitally important that these developers and designers provide feedback early on in the spec development process, in order to make sure that what is being specified meets their actual needs, in a way that satisfies real-world use cases and requirements rather than a theoretic but impractical or insufficient functionality. 
 
-To that end, W3C has become increasingly transparent over the years, from a organization where working groups comprised of member companies and invited experts met privately and published periodic public spec updates, to a model where these working groups develop their specs directly in the public eye, with most technical work taking place on our public mailing lists, including decision-making calls for consensus and publication of meeting minutes. Anyone is allowed to provide feedback, and our process requires that all technical issues raised by anyone are addressed.
+To that end, W3C has become increasingly transparent over the years: from an organization where working groups comprised of member companies and invited experts met privately and published periodic public spec updates, to a model where these working groups develop their specs directly in the public eye, with most technical work taking place on our public mailing lists, including decision-making calls for consensus and publication of meeting minutes. Anyone is allowed to provide feedback, and our process requires that all technical issues raised by anyone are addressed.
 
 However, our infrastructure has not been significantly updated to deal with these new modes of interaction. Email lists are often effective, but alienate many contributors (especially designers); issues raised are frequently hard to address and track through to resolution; comments lose the context of their original source; the feedback channel is often not immediately obvious to potential reviewers; and there are logistical details that often trip up first-time reviewers (e.g. subscription, email verification and authorization, and others). This offers enough of a hurdle that much valuable feedback is lost.
 
@@ -18,11 +18,11 @@ The potential for annotations as a solution to many of these problems is extreme
 
 While the system has not yet been deployed widely, and is only in prototype stage, the fit for our use cases is already evident. In addition, Hypothes.is is working with us to customize their default system to make it even more efficient for our needs.
 
-This will have the potential to not only make contributions easier for hundreds of working group members and many thousands of reviewers, but because of the impact, both socially and financially, of the design and deployment of W3C specs, the public good is served for generations to come.
+This will have the potential to not only make contributions easier for hundreds of working group members and many thousands of reviewers, but because of the social and financial impact of the design and deployment of W3C specs, the public good is served for generations to come.
 
 Because of W3C's vendor neutrality, our choices of tools and services must not be perceived as preferential or exclusive to any vendor; this usually leads us to use open-source software solutions. This made it easy for us to choose to work with Hypothes.is, who have made it clear that their software and mission are explicitly open to collaboration. They have been not only responsive in working with us, but enthusiastic and deeply knowledgable.
 
-In addition helping us deploy a tool to help with standardization, they have been active in the nascent standardization of annotations in our Open Annotation Community Group, and we are hopeful that they bring this same dedication to our standards-track work when we form a working group. 
+In addition helping us deploy a tool to help with standardization, they have been active in the nascent standardization of annotations in our Open Annotation Community Group, and we are hopeful that they will bring this same dedication to our standards-track work when we form a working group. 
 
 W3C, as an vendor-neutral organization, does not offer endorsements of projects, products, services, or organizations, neither in absolute terms nor in comparison with one another; this message should not be taken as explicit endorsement of Hypothes.is, but rather as an objective statement of working experience and benefit to our operations, without consideration of other organizations that might have similar offerings.
 
