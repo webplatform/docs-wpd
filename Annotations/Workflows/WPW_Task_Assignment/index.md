@@ -9,14 +9,19 @@ This worked much better, but it was still logistically difficult. We had to assi
 
 Here is a proposal for how this process could be made much better and easier with an annotation system.
 
-* The topics for the week are chosen, and a page for each topic created.
-** On creation, each page is automatically annotated with a unique tag for that week (e..g. ''wpw-15'') and an annotation for each of the 5 tasks, with a tag for that task, and an explanation of how to do it as the annotation body, as well as a selection anchor to the appropriate part of the page (e.g. mousing over the task annotation for "Examples" would highlight the "Examples" heading).
-* A custom link is created that points to all the pages tagged with the unique WPW tag; the search and filtering capabilities of the annotation system make this trivial to do.
-* A volunteer is pointed to this page, from which they select a page to edit, and follow that link.
-* Arriving at the page, the contributor sees the different tasks that are still unassigned, in the annotation sidebar
-** The contributor selects a task, replying to the task annotation stating their intent to do that task, using the tag "assigned"
-** The contributor completes the task, and replies to their own intent annotation, using the tag "completed"
-* The coordinators (and everyone else) has a view of the status of all these pages and tasks, using filtered views with tags; they can see all the pages and tasks that are still undone, and reassign tasks to new contributors if necessary
-* At any point, if the contributor gets lost in this process or isn't sure how to solve a content problem, they create an annotation with the tag "help", and one of the coordinators will be notified, and will jump on the thread to assist the contributor, often in real-time, but sometimes time-delayed (the contributor could also use email or IRC) 
+# The topics for the week are chosen, and a page for each topic created.
+#* On creation, each page is automatically annotated with a unique tag for that week (e..g. ''wpw-15'') and an annotation for each of the 5 tasks, with a tag for that task, and an explanation of how to do it as the annotation body, as well as a selection anchor to the appropriate part of the page (e.g. mousing over the task annotation for "Examples" would highlight the "Examples" heading).
+# A custom link is created that points to all the pages tagged with the unique WPW tag; the search and filtering capabilities of the annotation system make this trivial to do.
+# A volunteer is pointed to this page, from which they select a page to edit, and follow that link.
+# Arriving at the page, the contributor sees the different tasks that are still unassigned, in the annotation sidebar
+## The contributor selects a task, replying to the task annotation stating their intent to do that task, using the tag "assigned"
+## The contributor completes the task, and replies to their own intent annotation, using the tag "completed"
+# The coordinators (and everyone else) has a view of the status of all these pages and tasks, using filtered views with tags; they can see all the pages and tasks that are still undone, and reassign tasks to new contributors if necessary
+
+At any point, if the contributor gets lost in this process or isn't sure how to solve a content problem, they create an annotation with the tag "help", and one of the coordinators will be notified, and will jump on the thread to assist the contributor, often in real-time, but sometimes time-delayed (the contributor could also use email or IRC). Annotation enables a clearer and more contextualized communication channel than existing methods.
+
+With these annotations left behind as a record of contributions, we maintain a more direct and visible attribution chain, to reward contributors. 
+
+With the planned addition of an up/down-voting mechanism in the annotation system, not only can individual contributors be given more visibility, but also more credit for particularly good work.
 
 So, rather than the time-intensive and centralized process used for the CSS Web Platform Wednesdays, an annotation system will allow for a easy distributed process for managing contributors and content.
