@@ -28,6 +28,8 @@ W3C, as an vendor-neutral organization, does not offer endorsements of projects,
 
 As a personal statement, however, I believe that Hypothes.is, in their mission and approach, is a worthy organization for support, and I wish them success.
 
-Regards-
--Doug Schepers
+Regards–
+
+–Doug Schepers
+
 W3C Developer Relations Lead
