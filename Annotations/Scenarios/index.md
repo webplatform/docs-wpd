@@ -58,3 +58,14 @@ A reader, or set of reader, wish to highlight and annotate parts of the spec for
 * User may not wish sensitive annotations to be stored on a external site
 ** Annotation tool could be configured to store annotations on user's own annotation server
 ** User could use their own annotation tool and server
+
+==Unanchored Annotation==
+A reader wishes to leave an annotation or comment about the site as a whole, not a particular page. For example, a reader may wish to add a feature request for the site, or comment on the quality of the site as a whole.
+
+===Issues===
+* Annotations should be anchorable to the site without a page referent
+** 
+* Unanchored annotations should be allowed to be added while on any site of the page without anchoring to that page
+** 
+* Unanchored annotations should not accumulate on the site landing page or index page, because they will clutter that page
+**
