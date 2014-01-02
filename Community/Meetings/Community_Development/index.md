@@ -12,9 +12,9 @@ See [[WPD:Community/Task_Force/Community|Community Development]] task force page
 
 '''VOIP:'''  sip:zakim@w3.org
 
-'''IRC Channel:''' webplatform-site
-[irc://irc.freenode.net/webplatform-site irc]
-[http://webchat.freenode.net/?channels=#webplatform-site webchat]
+'''IRC Channel:''' #webplatform
+[irc://irc.freenode.net/webplatform irc]
+[http://webchat.freenode.net/?channels=#webplatform webchat]
 
 ==Tuesday, May 21, 2013 at 10:00 a.m. PDT / 1:00 p.m. EDT / 5:00 p.m. GMT==
 ===Agenda===
