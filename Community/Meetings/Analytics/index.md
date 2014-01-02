@@ -8,7 +8,9 @@
 
 '''VOIP:'''  sip:zakim@w3.org
 
-'''IRC Channel:''' webplatform-site
+'''IRC Channel:''' #webplatform
+[irc://irc.freenode.net/webplatform irc]
+[http://webchat.freenode.net/?channels=#webplatform webchat]
 
 See [[WPD:Community/Task_Force/Analytics|Analytics]] task force page for more information.
 
