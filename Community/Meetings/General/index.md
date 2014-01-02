@@ -14,9 +14,9 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 '''VOIP:'''  sip:zakim@voip.w3.org
 
-'''IRC Channel:''' webplatform-site
-[irc://irc.freenode.net/webplatform-site irc]
-[http://webchat.freenode.net/?channels=#webplatform-site webchat]
+'''IRC Channel:''' #webplatform
+[irc://irc.freenode.net/webplatform irc]
+[http://webchat.freenode.net/?channels=#webplatform webchat]
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
