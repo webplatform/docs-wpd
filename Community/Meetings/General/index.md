@@ -20,6 +20,14 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2014-01-10==
+* JS import
+* Landing Page
+* Flags
+* Compatibility tables
+===Discussion===
+[[WPD:Community/Meetings/General/2014/0110_raw_mtg_notes]]
+
 ==Agenda 2013-12-06==
 
 * Jen Simmons has a mock up of the HTML elements pages
