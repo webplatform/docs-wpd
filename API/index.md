@@ -4,8 +4,11 @@
 * [http://semantic-mediawiki.org/wiki/Ask_API http://semantic-mediawiki.org/wiki/Ask_API]
 
 ==API Examples==
-Summary and possible values (without their description):
+Summary and possible values (without their description) for a single page, here [[css/properties/display]]:
 * <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[css/properties/display]]|?Summary|?Possible_value</nowiki>
+
+The same for a list of pages, here by [[:Category:CSS_Properties]]:
+* <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[Category:CSS_Properties]]|?Summary|?Possible_value</nowiki>
 
 Possible values with description:
 * <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[Value_for_property::css/properties/display]]|?Property_value_description</nowiki>
