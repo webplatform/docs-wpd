@@ -3,6 +3,8 @@
 * [http://www.mediawiki.org/wiki/API:Query http://www.mediawiki.org/wiki/API:Query]
 * [http://semantic-mediawiki.org/wiki/Ask_API http://semantic-mediawiki.org/wiki/Ask_API]
 
+The API supports a variety of formats, for example, add format=json or format=xml as a parameter. For quick debugging you can use format=jsonfm or format=xmlfm, this will format the output for legibility.
+
 ==API Examples==
 Summary and possible values (without their description) for a single page, here [[css/properties/display]]:
 * <nowiki>http://docs.webplatform.org/w/api.php?action=ask&query=[[css/properties/display]]|?Summary|?Possible_value</nowiki>
