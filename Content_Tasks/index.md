@@ -45,19 +45,19 @@ A list of required actions in the long run, mostly due to the fact that the curr
 ! Future Multiple "Applies to..." Values
 |-
 |[[dom/methods/getElementsByTagName]]
-|[[dom/document]], [[dom/HTMLElement]]
+|[[dom/Document]], [[dom/HTMLElement]]
 |-
 |[[dom/methods/getElementsByTagNameNS]]
-|[[dom/document]], [[dom/Element]]
+|[[dom/Document]], [[dom/Element]]
 |-
 |[[css/selectors_api/querySelectorAll]]
-|[[dom/document]], [[dom/HTMLElement]]
+|[[dom/Document]], [[dom/HTMLElement]]
 |-
 |[[css/selectors_api/querySelector]]
-|[[dom/document]], [[dom/HTMLElement]]
+|[[dom/Document]], [[dom/HTMLElement]]
 |-
 |[[dom/methods/attachEvent]]
-|[[dom/document]], [[dom/window]], [[dom/Node]]
+|[[dom/Document]], [[dom/window]], [[dom/Node]]
 |-
 |[[dom/properties/complete]]
 |[[dom/HTMLImageElement]], [[dom/images|dom/Image]](?), [[dom/HTMLInputElement|dom/HTMLInputElement type=image]]
@@ -67,10 +67,10 @@ A list of required actions in the long run, mostly due to the fact that the curr
 [[dom/objects/MouseEvent]], more?
 |-
 |[[dom/properties/fgColor]]
-|[[dom/document]], [[dom/HTMLBodyElement]]
+|[[dom/Document]], [[dom/HTMLBodyElement]]
 |-
 |[[dom/methods/releaseCapture]]
-|[[dom/document]], [[dom/Element]]
+|[[dom/Document]], [[dom/Element]]
 |-
 |[[dom/methods/setData]], [[dom/methods/getData]], [[dom/methods/clearData]]
 |[[dom/objects/dataTransfer]], [[dom/clipboardData]]
@@ -96,12 +96,12 @@ A list of required actions in the long run, mostly due to the fact that the curr
 ! Move/Rename To
 |-
 |[[dom/properties/applet]]
-|[[dom/document/applets]]
+|[[dom/Document/applets]]
 |-
 |[[dom/window]]
 |[[dom/Window]]
 |-
-|[[dom/document]]
+|[[dom/Document]]
 |[[dom/Document]]
 |-
 |[[dom/navigator]]
