@@ -95,29 +95,11 @@ A list of required actions in the long run, mostly due to the fact that the curr
 ! Page
 ! Move/Rename To
 |-
-|[[dom/properties/applet]]
-|[[dom/Document/applets]]
-|-
-|[[dom/window]]
-|[[dom/Window]]
-|-
-|[[dom/Document]]
-|[[dom/Document]]
-|-
-|[[dom/navigator]]
-|[[dom/Navigator]]
-|-
-|[[dom/history]]
-|[[dom/History]]
-|-
 |[[dom/images]]
 |[[dom/Image]] (?!)
 |-
 |[[dom/properties/children_(document)%2BB416]]
 |[[dom/properties/children]]
-|-
-|[[dom/implementation]]
-|[[dom/DOMImplementation]] (?)
 |-
 |[[concepts/programming/javascript/objects/js/objects/Object/getOwnPropertyNames]]
 |[[javascript/Object/getOwnPropertyNames]]
