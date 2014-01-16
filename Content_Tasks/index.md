@@ -57,7 +57,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 |[[dom/Document]], [[dom/HTMLElement]]
 |-
 |[[dom/methods/attachEvent]]
-|[[dom/Document]], [[dom/window]], [[dom/Node]]
+|[[dom/Document]], [[dom/Window]], [[dom/Node]]
 |-
 |[[dom/properties/complete]]
 |[[dom/HTMLImageElement]], [[dom/images|dom/Image]](?), [[dom/HTMLInputElement|dom/HTMLInputElement type=image]]
