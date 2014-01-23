@@ -58,4 +58,4 @@ Chris Mills is the organizer of the volunteer moderators, so for any concerns or
 * [[User:Michistar|Michelle Carlough]] (USA?, Q&A only)
 * [[User:Rainulf|Rainulf Pineda]] (Toronto, Canada, _Rainulf on freenode)
 * [[User:eternicode|Andrew Rowls]] (Q&A only, eternicode on freenode, lives in Indiana USA)
-* [[User:Renoirb|Renoir Boulanger]] resident DevOps/Web developer (Montréal, Québec, Canada, renoirg on freenode)
+* [[User:Renoirb|Renoir Boulanger]] resident DevOps/Web developer (Montréal, Québec, Canada, renoirb on freenode)
