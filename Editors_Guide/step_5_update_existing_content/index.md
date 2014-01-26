@@ -169,6 +169,10 @@ Different types of articles have different types of sections. For an article to 
 
 ===Participate in the conversation about formatting and styling wiki pages===
 *Note: Further style discussions are taking place in the [http://www.w3.org/community/webed/wiki/Web_Education_community_group_style_guide Web Education Community Group]. 
+
+===Blogging guidelines===
+To contribute to the WPD blog efforts, please see the [[WPD:Blogging | Blogging ]] topic.
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
