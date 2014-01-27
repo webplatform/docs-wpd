@@ -1,9 +1,10 @@
 =WebPlatform.org community events=
 
 ==Upcoming Events== 
-* '''Date TBD'''—TENTATIVE: Doc Sprint @ New York (Patrick D'Souza)
-* '''March 11, 2014'''—Doc Sprint @ Fluent2014 in San Francisco (Julee Burdekin)
-* '''Date TBD (April, 2014)'''—Doc Sprint @ The Creativity Gym Mechelen (Belgium) (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
+* '''March 11, 2014'''— Doc Sprint @ Fluent2014 in San Francisco, USA (Julee Burdekin, Adobe)
+* '''April, 2014 (Date TBD)'''— Doc Sprint @ The Creativity Gym Mechelen, Belgium (Sara Devuyst & [[User:Paulv|Paul Verbeek]])
+* '''May 18, 2014'''— Doc Sprint @ Beyond Tellerrand in Düsseldorf, Germany ([[User:Klickass|Andre Jay Meissner]], Adobe)
+* '''Date TBD'''—TENTATIVE: Doc Sprint @ New York, USA (Patrick D'Souza)
 
 Jump to [[#Past Events|Past Events]]
 
