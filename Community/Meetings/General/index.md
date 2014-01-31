@@ -32,6 +32,7 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Schedule
 * Site stability
 * WPD landing page
+* Compat Tables Task Force
 
 ==Agenda 2014-01-10==
 * JS import
