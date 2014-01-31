@@ -20,6 +20,19 @@ Web Platform community meetings occur on Fridays, 16:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2014-01-31==
+
+* JS Import
+** Final import
+** Blog posts from Max & Eliezer
+* Preparing for Web Platform Wednesdays restart with JS content
+** Spreadsheet & landing page are done
+** We need another badge, no?
+** Golden standard
+** Schedule
+* Site stability
+* WPD landing page
+
 ==Agenda 2014-01-10==
 * JS import
 * Landing Page
