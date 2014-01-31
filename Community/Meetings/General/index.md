@@ -31,8 +31,11 @@ We recommend that you follow both the audio conference and the IRC chat.  For th
 ** Golden standard
 ** Schedule
 * Site stability
-* WPD landing page
 * Compat Tables Task Force
+* WPD landing page
+
+===Discussion===
+[[WPD:Community/Meetings/General/2014/0131_raw_mtg_notes]]
 
 ==Agenda 2014-01-10==
 * JS import
