@@ -30,24 +30,30 @@ WPD will use a centralized editorial calendar, (https://www.google.com/calendar/
 ! Pub date
 ! topic/title
 ! author
+! status
 |-
 | date
 | topic
 | author(s)
+| status
 |-
 | 17 February, 2014
 | WPD Doc Sprint, Fluent conference
 | Julee
+| proposed
 |-
 | 7 February, 2014
 | JavaScript reference import
 | Max Polk
+| in edit
 |-
 | 7 November, 2013
 | Seattle Doc Sprint, U of Washington
 | Eliot
+| published
 |-
 | 18 October, 2013
 | Doc Sprint, Amsterdam & 1st Anniversary
 | Scott Rowe
+| published
 |}
