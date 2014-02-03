@@ -12,9 +12,7 @@ The tone for all communications is:
 '''Anyone who does not meet these guidelines (either the letter or spirit) will have their posting privileges revoked immediately.'''
 
 == Web Platform Docs Blog ==
-'''Posters''': Doug, ''others?''
 
-The following guidelines must be met:
 * Anyone may propose a blog topic or blog post draft.
 * Posts may be "signed" by any member of the community (with their permission, of course)
 * Topics we normally post about:
@@ -26,9 +24,8 @@ The following guidelines must be met:
 ** Calling out special community contributions
 ** Linking to videos or other posts directly about Web Platform Docs.
 ** Status updates for in-progress commonly-requested features.
-** ''This list will grow over time''
-* Every proposed blog post must be posted by a member of member-webdocs (perhaps on behalf of another submitter, since most people don't have access to post) to that list. The post may not go live until either: '''two independent "Sounds Good To Me" responses''' are received on that list, or '''12 hours''' have passed. Post types that do not have precedent or are potentially controversial must get at least two active SGTMs.
-* Everyone is welcome to submit blog post proposals. If you are not a member of a steward organization (and thus not on member-webdocs), send to one of the steward representatives (or ask for one on IRC) to have them send the proposal on your behalf and CC you. You can find them listed on the [[WPD:Key_Contributors|key contributors]] list.
+
+For a detailed description of the blog requirements and publishing process, check out [[WPD:Blogging|Blogging]].
 
 == @WebPlatform Twitter handle ==
 '''Posters''': Doug, ''others?''
