@@ -35,9 +35,13 @@ WPD will use a centralized editorial calendar, (https://www.google.com/calendar/
 | topic
 | author(s)
 |-
-| date
-| topic
-| author(s)
+| 17 February, 2014
+| WPD Doc Sprint, Fluent conference
+| Julee
+|-
+| 7 February, 2014
+| JavaScript reference import
+| Max Polk
 |-
 | 7 November, 2013
 | Seattle Doc Sprint, U of Washington
