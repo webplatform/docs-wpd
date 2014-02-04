@@ -1,3 +1,5 @@
+<div class='note'>'''NOTE''' Project is completed, participate in improving the [[javascript]] documentation!</div>
+
 =JavaScript project proposal=
 JavaScript is a proposed Web Platform Docs project to document the implementation of the ECMAScript standard in web browsers, focusing on the language itself rather than how it is coupled inside a browser to dom objects, events, HTML5 APIs, or CSS style.
 
