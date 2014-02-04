@@ -52,7 +52,7 @@ We chose our final list based on the browsers we thought would be the most commo
 
 ===Where can I report bugs I find on the site?===
 
-Please submit bugs to the webplatform.org [https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org bugtracker].
+To file bugs on webplatform, use the [http://project.webplatform.org Project Management page]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
 
 ===What is the scope of content for this site?===
 
