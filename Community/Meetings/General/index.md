@@ -20,6 +20,9 @@ Web Platform community meetings occur on Fridays, 17:00 UTC / Noon ET / 9:00 PT.
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
+==Agenda 2014-02-07==
+[[http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0207_raw_mtg_notes]]
+
 ==Agenda 2014-01-31==
 
 * JS Import
