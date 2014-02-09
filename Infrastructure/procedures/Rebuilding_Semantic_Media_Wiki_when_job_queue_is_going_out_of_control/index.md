@@ -140,3 +140,6 @@ mysql> SELECT COUNT(*) FROM job WHERE job_cmd LIKE '%SMW%';
 </syntaxhighlight>
 * All should be fine now!
 * Re-enable the jobRun in the appropriate cron jobs.
+
+== Reference ==
+* [http://semantic-mediawiki.org/wiki/Help:Repairing_SMW's_data Repairing Semantic Media Wiki data]
