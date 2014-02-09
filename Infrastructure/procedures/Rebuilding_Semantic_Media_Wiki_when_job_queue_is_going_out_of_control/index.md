@@ -52,8 +52,8 @@ if ( !$wgCommandLineMode ) {
         );
 }
 </syntaxhighlight>
-# Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in Fastly, in the "Hosts" within "Configure" for the appropriate service. Current configuration is that two VMs have the load in equal portion, and a third is available in case the two first cannot meet the requests.
-# The app server that generally run the cron job has the lowest traffic
+* Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in Fastly, in the "Hosts" within "Configure" for the appropriate service. Current configuration is that two VMs have the load in equal portion, and a third is available in case the two first cannot meet the requests.
+* The app server that generally run the cron job has the lowest traffic
 
 == Steps ==
 === In summary ===
@@ -64,8 +64,8 @@ if ( !$wgCommandLineMode ) {
 
 === In detail ===
 
-# Find the cron entries mentioning 'runJob.php' and comment them.  This can be found by searching (grep -rli 'runJob' /srv/salt) in the salt state files. The job are assigned to the "www-data" user on the strongest app server (e.g. app4).
-# Make sure no job is running. The following shows it is fine.
+* Find the cron entries mentioning 'runJob.php' and comment them.  This can be found by searching (<code>grep -rli 'runJob' /srv/salt</code>) in the salt state files. The job are assigned to the "<code>www-data</code>" user on the strongest app server (e.g. app4).
+* Make sure no job is running. The following shows it is fine.
 <syntaxhighlight>
 root@deployment:~# salt 'app*' cmd.run 'ps aux | grep runJob'
 app1:
@@ -81,4 +81,45 @@ app4:
     root      4183  0.0  0.0   9220  1188 ?        S    00:14   0:00 /bin/sh -c ps aux | grep unJob
     root      4185  0.0  0.0   6176   672 ?        S    00:14   0:00 grep unJob 
 </syntaxhighlight>
-# Connect to the strongest app server with lowest
+* Connect via SSH to the strongest app server with lowest weight in Fastly caching service. It is most likely the one that had crontabs with the <code>'runJob.php'</code> scheduled tasks.
+* Kill all related process, if it applies (not in this example), with <code>kill -9 8888</code>
+* Start a <code>screen</code> or <code>tmux</code> session and run the following from within it.  That way, if your SSH connection dies, the script will continue to run.
+* Go to the appropriate folder where MediaWiki is installed. We have more than one installation, in this situation the appropriate place is in <code>/srv/webplatform/wiki/current/</code>. Always refer to the Salt states on the deployment server in <code>/srv/salt</code>
+* Run the Semantic Media Wiki refreshData script, it might take a while. Expect about 20 minutes of time to wait.
+<syntaxHighlight>
+php /srv/webplatform/wiki/current/extensions/SemanticMediaWiki/maintenance/SMW_refreshData.php -v
+...
+(29477) Processing ID 29478 ...
+(29478) Processing ID 29479 ...
+(29479) Processing ID 29480 ...
+(29480) Processing ID 29481 ...
+(29481) Processing ID 29482 ...
+(29482) Processing ID 29483 ...
+(29483) Processing ID 29484 ...
+(29484) Processing ID 29485 ...
+(29485) Processing ID 29486 ...
+(29486) Processing ID 29487 ...
+29487 IDs refreshed.
+</syntaxhighlight>
+* If the job runner dies, you can use the ID it died on, and re-run the <code>SMW_refreshData.php</code> with the <code>-s</code> option.
+* When all is done, you can connect to the master database server and truncate the job table. Note that I made sure that the count is the same as I checked before running the <code>SMW_refreshData.php</code>.
+<syntaxhighlight>
+mysql> use wpwiki;
+mysql> SELECT COUNT(*) FROM job WHERE job_cmd LIKE '%SMW%';
++----------+
+| COUNT(*) |
++----------+
+|   318223 |
++----------+
+mysql> truncate job;
+Query OK, 0 rows affected (0.34 sec)
+mysql> SELECT COUNT(*) FROM job WHERE job_cmd LIKE '%SMW%';
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+</syntaxhighlight>
+* All should be fine now!
+* Re-enable the jobRun in the appropriate cron jobs.
