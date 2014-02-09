@@ -92,6 +92,7 @@ app4:
     root      4183  0.0  0.0   9220  1188 ?        S    00:14   0:00 /bin/sh -c ps aux | grep unJob
     root      4185  0.0  0.0   6176   672 ?        S    00:14   0:00 grep unJob 
 </syntaxhighlight>
+* Note that in this sample, we can see the use of the <code>/usr/bin/timeout</code> with various durations. The current salt configuration has the cronjob to run tasks for a maximum of 3100 seconds. The other job that has a duration of 10800 has been started manually to attempt emptying the queue. 
 * Connect via SSH to the strongest app server with lowest weight in Fastly caching service. It is most likely the one that had crontabs with the <code>'runJob.php'</code> scheduled tasks.
 * Kill all related process on the server, and make sure they are not running anymore
 <syntaxHighlight>
