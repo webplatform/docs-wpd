@@ -82,7 +82,7 @@ app4:
     root      4185  0.0  0.0   6176   672 ?        S    00:14   0:00 grep unJob 
 </syntaxhighlight>
 * Connect via SSH to the strongest app server with lowest weight in Fastly caching service. It is most likely the one that had crontabs with the <code>'runJob.php'</code> scheduled tasks.
-* Kill all related process, if it applies (not in this example), with <code>kill -9 8888</code>
+* Kill all related process, if it applies (not in this example), with <code>kill -9 PID</code> command.
 * Start a <code>screen</code> or <code>tmux</code> session and run the following from within it.  That way, if your SSH connection dies, the script will continue to run.
 * Go to the appropriate folder where MediaWiki is installed. We have more than one installation, in this situation the appropriate place is in <code>/srv/webplatform/wiki/current/</code>. Always refer to the Salt states on the deployment server in <code>/srv/salt</code>
 * Run the Semantic Media Wiki refreshData script, it might take a while. Expect about 20 minutes of time to wait.
