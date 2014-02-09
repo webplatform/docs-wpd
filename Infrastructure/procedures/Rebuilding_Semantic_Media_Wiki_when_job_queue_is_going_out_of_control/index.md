@@ -75,14 +75,30 @@ app6:
     root     10650  0.0  0.0   9220  1188 ?        S    00:14   0:00 /bin/sh -c ps aux | grep unJob
     root     10652  0.0  0.0   6180   704 ?        S    00:14   0:00 grep unJob
 app5:
-    root     30615  0.0  0.0   9220  1184 ?        S    00:14   0:00 /bin/sh -c ps aux | grep unJob
-    root     30617  0.0  0.0   6176   676 ?        S    00:14   0:00 grep unJob
+    www-data 23979  0.0  0.0   4112   580 ?        Ss   14:44   0:00 /bin/sh -c /srv/webplatform/wiki/mediawiki-runJobs.sh #1st run
+    www-data 23980  0.0  0.0   9228  1332 ?        S    14:44   0:00 /bin/bash -l /srv/webplatform/wiki/mediawiki-runJobs.sh
+    www-data 23983  0.0  0.0   3876   412 ?        Ss   14:44   0:00 /usr/bin/timeout 3100 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.php
+    www-data 23984 71.7  0.6 203932 50700 ?        R    14:44  24:59 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.php
+    www-data 24347  0.0  0.0   4112   584 ?        Ss   15:16   0:00 /bin/sh -c /srv/webplatform/wiki/mediawiki-runJobs.sh #2nd run
+    www-data 24348  0.0  0.0   9228  1328 ?        S    15:16   0:00 /bin/bash -l /srv/webplatform/wiki/mediawiki-runJobs.sh
+    www-data 24351  0.0  0.0   3876   412 ?        Ss   15:16   0:00 /usr/bin/timeout 3100 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.php
+    www-data 24352 69.2  0.5 202424 49160 ?        S    15:16   1:59 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.php
+    root     24395  0.0  0.0   3876   408 pts/1    S+   15:18   0:00 /usr/bin/timeout 10800 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.ph
+p
+    root     24396 65.6  0.5 202472 49164 pts/1    R+   15:18   0:13 /usr/bin/php /srv/webplatform/wiki/current/maintenance/runJobs.php
+    root     24403  0.0  0.0   9220  1188 ?        S    15:18   0:00 /bin/sh -c ps aux | grep unJob
+    root     24405  0.0  0.0   6180   708 ?        S    15:18   0:00 grep unJob
 app4:
     root      4183  0.0  0.0   9220  1188 ?        S    00:14   0:00 /bin/sh -c ps aux | grep unJob
     root      4185  0.0  0.0   6176   672 ?        S    00:14   0:00 grep unJob 
 </syntaxhighlight>
 * Connect via SSH to the strongest app server with lowest weight in Fastly caching service. It is most likely the one that had crontabs with the <code>'runJob.php'</code> scheduled tasks.
-* Kill all related process, if it applies (not in this example), with <code>kill -9 PID</code> command.
+* Kill all related process on the server, and make sure they are not running anymore
+<syntaxHighlight>
+root@app5:/srv/webplatform/wiki/test/extensions/SemanticMediaWiki/maintenance# kill -9 24395 24351 23983
+root@app5:/srv/webplatform/wiki/test/extensions/SemanticMediaWiki/maintenance# ps aux | grep unJob
+root     32427  0.0  0.0   7640   916 pts/3    S+   02:02   0:00 grep --color=auto unJob
+</syntaxhighlight>
 * Start a <code>screen</code> or <code>tmux</code> session and run the following from within it.  That way, if your SSH connection dies, the script will continue to run.
 * Go to the appropriate folder where MediaWiki is installed. We have more than one installation, in this situation the appropriate place is in <code>/srv/webplatform/wiki/current/</code>. Always refer to the Salt states on the deployment server in <code>/srv/salt</code>
 * Run the Semantic Media Wiki refreshData script, it might take a while. Expect about 20 minutes of time to wait.
