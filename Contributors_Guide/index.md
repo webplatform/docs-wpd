@@ -1,2 +1,78 @@
-The whole I did a little bit of shopping online a because the [http://blacklineelitecanada.org/ BlackLine Elite] its easy and convenient and returns like crowds so book it believe it  the always help sales but they have like beans extra sandals for the same period after Christmas and I decided to try some brands from French brand that I’ve seen around different places in stores but I’ve never I've never tried them so book it believe it is like the American ok look for you get cheaper really significant discounts it starts at like three persons [http://blacklineelitecanada.org/ BlackLine Elite] but  generally for skin care it's between fifty and eighty percent of for all the skin care so I could be a little bit lucky I accomplished Novak’s yeah which in a theory commemorating mask so it a for all skin types and apparently it’s like a whole natural okay it fragrance-free essential.
-http://blacklineelitecanada.org/
+==Editor's Guide: An Overview==
+
+{{Languages}}
+
+<div class="topic-container editors">
+  <div class="long-topic">
+      <div class="place-holder"></div>
+      <div class="inner">
+        <h3 style='min-height:30px'>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]</h3>
+        <ul>
+            <li>[http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Sign up to edit the wiki.]</li>
+            <li>A verification is emailed. If you don't see the message in your email inbox, check your spam folder.</li>
+        </ul>
+     </div>
+  </div>
+  
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community| Communicate]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the conversation on the IRC channel|Join #webplatform IRC]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join the public-webplatform@w3.org mailing list|Join the public-webplatform@w3.org list]]</li>
+            <li>[[WPD:Editors_Guide/step_2_communicate_with_the_online_community#Access the bug-tracking system|Access the bug-tracking system]]</li>
+        </ul>
+     </div>
+  </div>
+ 
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki|Working the wiki]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#If you can't wait, start contributing right away|Get started]]</li>
+            <li>[[WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#Understand the WebPlatform project's mission and policies|Understand the mission]]</li>
+        </ul>
+     </div>
+  </div>
+
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|Add comments]]</li>
+            <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|Add flags]]</li>
+        </ul>
+     </div>
+  </div>
+ 
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_5_update_existing_content|Update existing content]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Become familiar with MediaWiki syntax conventions |Learn MediaWiki syntax]]</li>
+            <li>[[WPD:Editors_Guide/step_5_update_existing_content#Follow the WebPlatform style guide|Follow the style guidelines]]</li>
+            <li>[[WPD:Manual_Of_Style/Sample_best_practices|Edit code samples]]</li>
+        </ul>
+     </div>
+  </div>
+
+ <div class="long-topic"> 
+     <div class="place-holder"></div>
+    <div class="inner">
+        <h3 style='min-height:25px'>[[WPD:Editors_Guide/step_6_author_or_upload_new_content|Add new content]]</h3>
+            <ul>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine if your content is appropriate to add to this wiki|Confirm your content is right for the site]]</li>
+            <li>[[WPD:Editors_Guide/step_6_author_or_upload_new_content#Author new content using the correct site formatting and standards|Prepare new content]]</li>
+            <li>[[WPD:Manual_Of_Style/Sample_best_practices|Create code samples]]</li>
+        </ul>
+     </div>
+  </div>
+ 
+<div class="clearfixboth"></div>
+</div>
+
+:&nbsp;
