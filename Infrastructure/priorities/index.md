@@ -1,4 +1,4 @@
-= ''Renoir’s'' priorities =
+= ''Infrastructure'' priorities =
 == Summary ==
 Outline page describing '''In progress''', the high-level '''Current priorities''', and some nice-to-have '''Suggestions''' (i.e. ''WishList'') attributed to  [http://w3.org/People/#renoirb Renoir].
 
