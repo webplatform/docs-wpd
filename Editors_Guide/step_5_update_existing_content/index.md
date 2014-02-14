@@ -2,9 +2,8 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|This is Step 5 of the [[WPD:Editors_Guide|Editor's Guide]].}}
+{{Summary_Section}}
 {{Basic Page}}
-==Step 5. Update existing content==
 ===Become familiar with MediaWiki syntax conventions===
 
 Review the syntax to [http://www.mediawiki.org/wiki/Help:Formatting format pages in the wiki].
@@ -172,7 +171,6 @@ Different types of articles have different types of sections. For an article to 
 
 ===Blogging guidelines===
 To contribute to the WPD blog efforts, please see the [[WPD:Blogging | Blogging ]] topic.
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
