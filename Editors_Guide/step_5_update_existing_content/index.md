@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|MediaWiki syntax and the Web Platform style guide.}}
 {{Basic Page}}
 ===Become familiar with MediaWiki syntax conventions===
 
