@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=This is a page where you can practice using this website, and WikiMedia formatting. 
 }}
 {{Standardization_Status}}
 {{API_Name}}
