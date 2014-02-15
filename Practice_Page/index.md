@@ -10,7 +10,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=You can write an example in a fiddle playground, such as http://code.webplatform.org. Copy and paste the important lines of code, and link to the source code.
+|Code=// Creates a string and writes it to the page.
+someText = "This is the coolest JavaScript, ever!";
+document.write(someText);
+|LiveURL=http://code.webplatform.org/gist/9011914
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
