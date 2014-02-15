@@ -14,7 +14,10 @@
 |Computed value=As specified
 |Animatable=Yes
 |CSS object model property=practice
-|Values=
+|Values={{CSS Property Value
+|Data Type=none
+|Description=you start here
+}}
 }}
 {{Examples_Section
 |Not_required=No
