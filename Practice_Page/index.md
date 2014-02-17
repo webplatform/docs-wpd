@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting].}}
+{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the Edit button to practice editing without consequences. }}
 {{CSS Property
 |Initial value=none
 |Applies to=Everything
@@ -31,7 +31,8 @@
 }}
 }}
 {{Notes_Section
-|Usage=Use practice to learn new things and improve your skill.
+|Usage=Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heinous, send a note to 
+[mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
 |Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
 |Import_Notes=This is important!
 }}
