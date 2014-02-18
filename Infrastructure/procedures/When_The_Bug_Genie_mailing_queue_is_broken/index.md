@@ -9,26 +9,26 @@ The mailing queue from TheBugGenie happened to be broken. The issue was not noti
   renoirb@project5:~$ php /srv/webplatform/buggenie/tbg_cli mailing:process_mail_queue --limit=20
   Processing mail queue ... 
   The following notice has stopped further execution:
-
+  
   unserialize(): Error at offset 1931 of 1938 bytes
   occured in
   /srv/webplatform/buggenie/modules/mailing/classes/B2DB/TBGMailQueueTable.class.php, line 61
-
+  
   Backtrace:
-  unserialize()
-  /srv/webplatform/buggenie/modules/mailing/classes/B2DB/TBGMailQueueTable.class.php, line 61
+  unserialize() /srv/webplatform/buggenie/modules/mailing/classes/B2DB/TBGMailQueueTable.class.php, line 61
   TBGMailQueueTable->getQueuedMessages()
   /srv/webplatform/buggenie/modules/mailing/classes/cli/CliMailingProcessMailQueue.class.php, line 50
   CliMailingProcessMailQueue->do_execute()
   /srv/webplatform/buggenie/core/classes/TBGCliCommand.class.php, line 52
   TBGCliCommand->execute()
   /srv/webplatform/buggenie/tbg_cli, line 102
-
+  
   SQL queries:
   (1) [1.6ms] from /srv/webplatform/buggenie/core/classes/B2DB/TBGScopesTable.class.php, line 100:
  </code>
 
-The error lies in 
+The error lies in:
+
 <code>
   unserialize(): Error at offset 1931 of 1938 bytes
 </code>
@@ -73,8 +73,8 @@ This means that the class <tt>TBGMimemail</tt> will be unserialized with this da
 # When you are at <tt>--limit=1</tt> and it breaks, it means its the broken one
 # Add those lines before the loop, before <tt>if($res){</tt>:
 <code>
-$hack = TBGMimemail::createNewFromMessage('Borken message hack', 'passing around, sorry for that', null, array('renoirb@gmail.com'));
-$hack->setFrom('renoirb@project1.dho.wpdn');
+    $hack = TBGMimemail::createNewFromMessage('Borken message hack', 'passing around, sorry for that', null, array('renoirb@gmail.com'));
+    $hack->setFrom('renoirb@project1.dho.wpdn');
 </code>
 # Replace the part <tt>unserialize($message); </tt> with <tt>$hack</tt>
 # Run the <tt>mailing:process_mail_queue</tt> manually, the email should pass
