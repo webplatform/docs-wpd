@@ -5,7 +5,7 @@
 === Finding the issue ===
 The mailing queue from TheBugGenie happened to be broken. The issue was not noticed until a maintenance check made me run the cronjob and to see an error message such as.
 
-</code>
+<code>
   renoirb@project5:~$ php /srv/webplatform/buggenie/tbg_cli mailing:process_mail_queue --limit=20
   Processing mail queue ... 
   The following notice has stopped further execution:
@@ -26,7 +26,7 @@ The mailing queue from TheBugGenie happened to be broken. The issue was not noti
 
   SQL queries:
   (1) [1.6ms] from /srv/webplatform/buggenie/core/classes/B2DB/TBGScopesTable.class.php, line 100:
-  </code>
+ </code>
 
 The error lies in 
 <code>
