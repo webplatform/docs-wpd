@@ -73,9 +73,24 @@ This means that the class <tt>TBGMimemail</tt> will be unserialized with this da
 # When you are at <tt>--limit=1</tt> and it breaks, it means its the broken one
 # Add those lines before the loop, before <tt>if($res){</tt>:
 <code>
-    $hack = TBGMimemail::createNewFromMessage('Borken message hack', 'passing around, sorry for that', null, array('renoirb@gmail.com'));
+    $hack = TBGMimemail::createNewFromMessage('Borken message hack', 'passing around, sorry for that', null, array('my_own@gmail.com'));
     $hack->setFrom('renoirb@project1.dho.wpdn');
 </code>
 # Replace the part <tt>unserialize($message); </tt> with <tt>$hack</tt>
+<code>
+  // Put the hack like so:
+  $hack = TBGMimemail::createNewFromMessage('Borken message hack', 'passing around, sorry for that', null, array('my_own@gmail.com'));
+  $hack->setFrom('renoirb@project1.dho.wpdn');
+  if($res)
+  {
+    while ($row = $res->getNextRow())
+    {
+        $message = $row->get(self::MESSAGE);
+        $messages[$row->get(self::ID)] = $hack;
+        //$messages[$row->get(self::ID)] = unserialize($message);
+    }
+  }
+</code>
 # Run the <tt>mailing:process_mail_queue</tt> manually, the email should pass
-# Comment the <tt>$hack</tt> and continue purging the queue
+# Comment the <tt>$hack</tt> and uncomment the real code.
+# Make sure all the queue is processed
