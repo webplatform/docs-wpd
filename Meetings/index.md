@@ -1,4 +1,4 @@
-Web Platform community meetings occur every two weeks on Tuesdays, 17:00 UTC / 12:00 ET / 9:00 PT. 
+Web Platform community meetings occur every week on [http://everytimezone.com/#2014-2-25,1800 Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT]. 
 
 {{Note|1=[http://docs.webplatform.org/wiki/WPD:Content_Meetings The Content Meetings] are currently where we're convening. }}
 
