@@ -2,7 +2,7 @@
 
 ==Telcon Info==
 
-'''Time:''' Thursdays, 18:00 UTC / 14:00 ET / 11:00 PT. 
+'''Time:'''  [http://everytimezone.com/#2014-2-25,1800 Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT]. 
 
 '''Zakim Bridge:''' +1.617.761.6200
 
