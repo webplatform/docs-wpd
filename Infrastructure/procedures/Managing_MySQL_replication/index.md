@@ -1,4 +1,4 @@
-= Managing MySQL Replication =
+= Managing MySQL Replication over SSL =
 
 == Summary ==
 How to manage communication and replication between MySQL servers across data centers.
