@@ -3,8 +3,12 @@
 == Summary ==
 How to manage communication and replication between MySQL servers across data centers.
 
-== In a few bullet points ==
+=== Conventions ===
+This document will follow those facts as a convention.
 
+* Master MySQL server is known as ''db1'' and the replication is ''db2''
+
+== In a few bullet points ==
 # In <code>/etc/mysql/my.cnf</code>, make sure that each node has 'ssl' alone, close to the SSL certificates
 # Create CA and self-signed certificates, see Salt TLS module ([http://docs.saltstack.com/ref/modules/all/salt.modules.tls.html salt.modules.tls])
 # Remove db2 MySQL entries from MediaWiki configuration files, sync them to <code>app*</code> servers
