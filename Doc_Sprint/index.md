@@ -101,7 +101,7 @@ While it is already fun to contribute for the greater good, attendees appreciate
 ===Surveys===
 Follow up the doc sprint with a quick survey.
 *Here's the [https://docs.google.com/forms/d/1TRl4lb-zVzf0_ggSKGYklv3U1NDEBHER6PPynErojYM/edit?usp=sharing survey template].
-*Make a copy of this template and rename it for your doc sprint, for example, "WPDS - Amsterdam, Oct. 12, 2013".
+*Make a copy of this template and rename it for your doc sprint, for example, "WPDS - Amsterdam, Oct. 12, 2013". In your copy, toggle "Not accepting responses" button to "Accepting responses".
 *Here is the [http://docs.webplatform.org/wiki/WPD:Community/Survey WPD Survey page].
 *Some event registration systems offer survey capabilities, and you can also create a Google Form for this purpose.
 
