@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the Edit button to practice editing without consequences. 2{{sup|32}}}}
+{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the Edit button to practice editing without consequences.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Everything
