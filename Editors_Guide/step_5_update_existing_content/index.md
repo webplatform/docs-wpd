@@ -22,8 +22,6 @@ Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practice
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to the conventions outlined in this Editor's Guide. Articles that do not sufficiently adhere to the guidelines will be tagged with the relevant markers, and they may be deleted over time if they are not improved.
 
-* WebPlatform.org uses the [http://styleguide.yahoo.com/ Yahoo Style Guide].
-
 ===Ensure articles have descriptive article titles===
 After clicking the Edit button to access the editing interface, verify that there is a descriptive title in the Custom Page Title field. If not, enter a descriptive title that matches the content on the page. It is fine if the custom page title is different from the URL (it probably will be). 
 
