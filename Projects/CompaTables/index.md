@@ -29,7 +29,22 @@ down view into different data sources)
 ----
 == Releases ==
 
-===  ===
+=== Current status ===
+'''mdn-compat-importer''':
+* Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
+* Process and normalize data (living implementation)
+
+'''CompaTables MediaWiki Extension''':
+* Generated HTML to leverage ESI tags to help with caching (Varnish)
+* Relies on Memcached to save/purge/re-use chunks of HTML
+* Reads date of data JSON file, invalidate Memcached version if mismatch
+* Allow manage markup-free for various ways to display the information (e.g. in format=table, the version number be in a dd tag, while in format=list it can be in a span tag)
+* Support alternate URL for table itself on a page, example:
+** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table Table in a standard view]
+** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=render Table alone]
+* Purging a particular table [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
+* Should not break current ESI support feature
+
 
 ---- 
 
