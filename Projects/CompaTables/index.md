@@ -15,11 +15,11 @@ Determine and analyze what features are ready, what is missing to make our first
 
 Based on meeting notes [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct 2013, WebPlatform Browser Support Info], by [[User:Shepazu|Shepazu]], next release should implement:
 <blockquote>
-* create unified data model (see '''Published data''')
+* create unified data model (currently in an intermediary state, see '''[[#Published data]]''')
 * integrate data from different sites into that data store
-* provide an API for that data
+* provide an API for that data (see '''[[#Published data]]''')
 * <strike>create a scalable extension for WebPlatform.org to show compat data on 
-our pages<strike>
+our pages</strike> (see [[#Code repositories]])
 * find the right level of granularity to display results in different 
 contexts (e.g., quicklook, detailed tables of current information, drill 
 down view into different data sources)
@@ -37,8 +37,8 @@ down view into different data sources)
 
 === Published data  ===
 
-* [http://docs.webplatform.org/compat/compat-mdn.json  compat-mdn.json]
-* [http://docs.webplatform.org/compat/data.json data.json]
+* Generated from [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], published at [http://docs.webplatform.org/compat/compat-mdn.json compat/compat-mdn.json]
+* Directly from caniuse, [http://docs.webplatform.org/compat/data.json data.json]
 
 === Code repositories ===
 * [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], by [[User:frozenice]] and [[User:renoirb]]
