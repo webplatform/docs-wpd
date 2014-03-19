@@ -2,13 +2,15 @@
 
 = Compatibility Tables ("CompaTables") =
 
-== Related ==
+== Summary ==
+This document is to define how WebPlatform produce browser compatibility support table in multiple formats; published and within WebPlatform Docs. This document describes the actual implementation status and related conversation describing its status. 
+
+It is expected that the project produce multiple modules, such as: scraping, aggragating, normalizing, publishing and generating HTML blocks and also within our own pages.
+
+To read more about the plans and objectives you can see in the [[#Resources]], read relevant [[#Mail threads]], or follow those links below:
 * [[WPD:Compatibility_Info]]
 * [[WPD:Compatibility_Info/Phase_1]]
 * [[WPD:Compatibility_Info/Phase_2]]
-
-== Abstract ==
-This document is to define how WebPlatform will publish browser compatibility to support of a given feature for the web developers. WebPlatform Docs should eventually be able to aggregate and publish support information based on multiple data sources.
 
 == Overview ==
 Determine and analyze what features are ready, what is missing to make our first release into the production wiki.
@@ -61,14 +63,15 @@ down view into different data sources)
 * [http://webplatform.github.io/browser-compat-model/ Data Model for User Agent Testing], by [[User:Ronaldmansveld]]
 
 
-==== See also ====
+=== See also ===
 * [https://github.com/dontcallmedom/canmymobilebrowser Can My Mobile Browser] by Dominique Hazael-Massieux, [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html in April 2013, Re: Automatic Data CanIUse Prototype] in file [https://github.com/dontcallmedom/canmymobilebrowser/blob/master/build.py build.py] (yet to be documented)
 
 === Testing the Compatable feature our pages ===
 * [[WPD:Compatibility_Info/Test]]
 * On the test wiki at [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching test/Tests/Compatibility_table_and_caching], bleeding edge version and integration testing
 
-=== Resources ===
+
+== Resources ==
 * [http://lists.w3.org/Archives/Public/public-webplatform-tests/ ''public-webplatform-tests'' dedicated mailing list]
 * [http://testthewebforward.org/ Test the Web Forward]
 * [https://github.com/w3c/web-platform-tests W3C browser test suites]
@@ -87,5 +90,5 @@ down view into different data sources)
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html April 2013, Re: Automatic Data CanIUse Prototype] answer by Dominique Hazael-Massieux
 
 
-== Misc. assets ==
+=== Misc. assets ===
 * [https://github.com/alrra/browser-logos/ Collection of web browser logos]
