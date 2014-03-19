@@ -1,11 +1,11 @@
 ==Phase 1: ''Integrate automated compatibility tables from CanIUse data==
-* '''Timeline:''' March–April 2013
+* '''Timeline:''' March–April <strike>2013</strike> 2014
 * '''Status:''' in progress, partial completion
 
 This first phase of automated data compatibility tables is to integrate the data from [http://caniuse.com/ CanIUse.com], a popular data-driven compatibility site.
 
 ==Methodology==
-# Set up a chron job to pull the data from Alexis Deveria's [https://github.com/Fyrd/caniuse CanIUse GitHub repo] (https://raw.github.com/Fyrd/caniuse/master/data.json) on a weekly basis
+# Set up a cron job to pull the data from Alexis Deveria's [https://github.com/Fyrd/caniuse CanIUse GitHub repo] (https://raw.github.com/Fyrd/caniuse/master/data.json) on a weekly basis
 # We saved the data in our own mirror at http://docs.webplatform.org/compat/caniuse/data.json
 # We copied the data.json file to our shared data directory: http://docs.webplatform.org/compat/data.json
 #* Currently, only CanIUse data is integrated into the shared data directory, but in later phases, we will integrate multiple sources of data, including QuirksMode and W3C Test Suites 
