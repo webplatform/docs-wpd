@@ -41,7 +41,7 @@ down view into different data sources)
 * Allow manage markup-free for various ways to display the information (e.g. in format=table, the version number be in a dd tag, while in format=list it can be in a span tag)
 * Support alternate URL for table itself on a page, example:
 ** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table Table in a standard view]
-** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=render Table alone]
+** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&foresi=1 Table alone (used for ESI, see in URL '&foresi=1')]
 * Purging a particular table [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
 * Should not break current ESI support feature
 
