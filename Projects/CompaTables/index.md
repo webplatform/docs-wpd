@@ -27,6 +27,7 @@ Non-goals for WebPlatform.org:
 site aimed at web developers)
 
 Possible future goals:
+
 * report browser statistics (from best source... Akamai? netstats?)
 * report results for game consoles, set-top boxes, TVs, etc.
 </blockquote>
