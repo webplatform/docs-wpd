@@ -2,39 +2,43 @@
 
 = Compatibility Tables ("CompaTables") =
 
+== Related ==
+* [[WPD:Compatibility_Info]]
+* [[WPD:Compatibility_Info/Phase_1]]
+* [[WPD:Compatibility_Info/Phase_2]]
+
 == Abstract ==
+This document is to define how WebPlatform will publish browser compatibility to support of a given feature for the web developers. WebPlatform Docs should eventually be able to aggregate and publish support information based on multiple data sources.
 
-This document is to define how WebPlatform will publish browser compatibility to support of a given feature for the web developers. WebPlatform Docs should eventually be able to aggregate and publish support information based on multiple data sources, including interpretation of test results provided by ''W3C's Test Suites for Web Platform specifications''.
+== Overview ==
+Determine and analyze what features are ready, what is missing to make our first release into the production wiki.
 
-=== Goals overview ===
-[http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Excerpt from "Oct 2013, WebPlatform Browser Support Info"], by [[User:Shepazu|Shepazu]]
-
+Based on meeting notes [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct 2013, WebPlatform Browser Support Info], by [[User:Shepazu|Shepazu]], next release should implement:
 <blockquote>
-Current Goals:
-* create unified data model (probably JSON)
+* create unified data model (see '''Published data''')
 * integrate data from different sites into that data store
 * provide an API for that data
-* create a scalable extension for WebPlatform.org to show compat data on 
-our pages
+* <strike>create a scalable extension for WebPlatform.org to show compat data on 
+our pages<strike>
 * find the right level of granularity to display results in different 
 contexts (e.g., quicklook, detailed tables of current information, drill 
 down view into different data sources)
 * help automate QuirksMode's infrastructure
-
-Non-goals for WebPlatform.org:
-* testing user's browsers
-* collecting stats on browser usage for compat (uselessly skewed on a 
-site aimed at web developers)
-
-Possible future goals:
-
-* report browser statistics (from best source... Akamai? netstats?)
-* report results for game consoles, set-top boxes, TVs, etc.
 </blockquote>
 
+----
+== Releases ==
+
+===  ===
+
+---- 
 
 == Related ==
-To get up to speed on other traces of the project.
+
+=== Published data  ===
+
+* [http://docs.webplatform.org/compat/compat-mdn.json  compat-mdn.json]
+* [http://docs.webplatform.org/compat/data.json data.json]
 
 === Code repositories ===
 * [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], by [[User:frozenice]] and [[User:renoirb]]
@@ -45,24 +49,15 @@ To get up to speed on other traces of the project.
 ==== See also ====
 * [https://github.com/dontcallmedom/canmymobilebrowser Can My Mobile Browser] by Dominique Hazael-Massieux, [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html in April 2013, Re: Automatic Data CanIUse Prototype] in file [https://github.com/dontcallmedom/canmymobilebrowser/blob/master/build.py build.py] (yet to be documented)
 
-
-=== Other related documents ===
-* [[WPD:Compatibility_Info]]
-* [[WPD:Compatibility_Info/Phase_1]]
-* [[WPD:Compatibility_Info/Phase_2]]
-
-
 === Testing the Compatable feature our pages ===
 * [[WPD:Compatibility_Info/Test]]
 * On the test wiki at [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching test/Tests/Compatibility_table_and_caching], bleeding edge version and integration testing
-
 
 === Resources ===
 * [http://lists.w3.org/Archives/Public/public-webplatform-tests/ ''public-webplatform-tests'' dedicated mailing list]
 * [http://testthewebforward.org/ Test the Web Forward]
 * [https://github.com/w3c/web-platform-tests W3C browser test suites]
 * [http://www.w3.org/Mobile/mobile-web-app-state/ W3C Mobile "web app state"] maintained by Dominique Hazael-Massieux
-
 
 === Mail threads ===
 * [http://lists.w3.org/Archives/Public/public-webplatform/2014Feb/0051.html Feb 2014, Compat Table Progress]
