@@ -53,7 +53,7 @@ To use ESI, work has to be done on the servers. To summarize the findings, we ca
 
 Fastly's Varnish version (2.1.5) doesn't support gzip between backend and varnish; (but Varnish 3.x+ do.)
 * Between our servers ("backend") and Fastly we use currently compress with gzip
-* Varnish has plans to upgrade their varnish, but its out of our hands
+* Fastly has plans to upgrade their varnish, but its out of our hands
 
 To enable;
 * Disable gzip between our backend servers and Fastly (might increase the data transfer usage, to validate with fastly)
