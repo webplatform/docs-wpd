@@ -12,10 +12,9 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 
 == Agenda ==
 
-# Goals and getting to know the desired outcome
-## Analyze [[#Work done]] and [[#To fix or improve]]
-## '''Next milestone'''; determine what is ready, and missing to make our first release into the production wiki.
-## Validate to adjust status on [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
+# Analyze [[#Work done]] and [[#To fix or improve]]
+# '''Next milestone'''; determine what is ready, and missing to make our first release into the production wiki.
+# Validate to adjust status on [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
 # Technical chat: '''What's to be done''' and who can do what
 
 === Work done ===
@@ -36,11 +35,11 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Should not break current ESI support feature
 
 === To fix or improve ===
-'''mdn-compat-importer''':
+==== mdn-compat-importer ====
 * Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
 * Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
 
-'''CompaTables MediaWiki Extension''':
+==== CompaTables MediaWiki Extension ====
 * List view format (format=list) is not using latest ''[[#Current normalized data|]]'' 
 * Table view format 
 ** doesn't show prefix icons (e.g. -webkit)
