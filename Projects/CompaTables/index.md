@@ -33,8 +33,12 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 ** When origin JSON file date changes mismatch cached version
 ** Purging a particular table directly, along with ESI purging mechanism  [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
 * Should not break current ESI support feature
+* Rudimentary A11y markup (needs testing). Done according to [http://www.w3.org/TR/WCAG10-HTML-TECHS/#identifying-table-rows-columns this WCAG1 checkpoint]
 
 === To fix or improve ===
+==== Figure out where ====
+* How we want to display the available prefixes? [[#Prefixes, potential resources]]
+
 ==== mdn-compat-importer ====
 * Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
 * Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
@@ -43,7 +47,6 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * List view format (format=list) is not using latest ''[[#Current normalized data|]]'' 
 * Table view format 
 ** doesn't show prefix icons (e.g. -webkit)
-** doesn't identify rows and columns information (see [http://www.w3.org/TR/WCAG10-HTML-TECHS/#identifying-table-rows-columns this checkpoint], optional but good for a11y)
 
 ==== ESI ====
 To use ESI, work has to be done on the servers. To summarize the findings, we cannot enable ESI tags on Fastly as it is at the moment due to a set of factors:
@@ -97,6 +100,15 @@ To enable;
 * [http://lists.w3.org/Archives/Public/public-webplatform/2013Mar/0345.html March 2013,  Re: Automatic Data CanIUse Prototype]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0016.html April 2013,  Re: Automatic Data CanIUse Prototype]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html April 2013, Re: Automatic Data CanIUse Prototype] answer by Dominique Hazael-Massieux
+
+
+=== Prefixes, potential resources ===
+* http://www.w3.org/TR/CSS21/syndata.html#vendor-keyword-history
+* http://peter.sh/experiments/vendor-prefixed-css-property-overview/
+* https://github.com/ai/autoprefixer
+**  https://github.com/ai/autoprefixer/tree/master/lib/hacks
+** https://github.com/ai/autoprefixer/blob/master/updaters/prefixes.coffee
+** https://github.com/ai/autoprefixer/blob/master/updaters/browsers.coffee
 
 
 === Misc. assets ===
