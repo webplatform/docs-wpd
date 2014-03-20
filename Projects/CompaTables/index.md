@@ -24,14 +24,15 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Process and normalize data (living implementation)
 
 '''CompaTables MediaWiki Extension''':
-* Generated HTML to leverage ESI tags to help with caching (Varnish)
+* Implement mdn-compat-importer current normalized data (living implementation)
 * Relies on Memcached to save/purge/re-use chunks of HTML
-* Reads date of data JSON file, invalidate Memcached version if mismatch
-* Allow manage markup-free for various ways to display the information (e.g. in format=table, the version number be in a dd tag, while in format=list it can be in a span tag)
-* Support alternate URL for table itself on a page, example:
+* Allow manage markup-free text arrays (e.g. in format=table, the word "Unsupported" be in a dd tag, while in format=list it can be in a abbr tag)
+* Support alternate URL for table itself on its own view:
 ** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table Table in a standard view]
 ** [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&foresi=1 Table alone (used for ESI, see in URL '&foresi=1')]
-* Purging a particular table [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
+* Purging Memcached version of generated HTML views:
+** When origin JSON file date changes mismatch cached version
+** Purging a particular table directly, along with ESI purging mechanism  [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
 * Should not break current ESI support feature
 
 
