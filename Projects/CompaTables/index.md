@@ -19,6 +19,8 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 
 == Upcoming features ==
 
+Note that the MediaWiki extension only support the new  ''format=table'' at the moment, the ''format=list'' has to be done.
+
 '''mdn-compat-importer''':
 * Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
 * Process and normalize data (living implementation)
