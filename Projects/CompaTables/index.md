@@ -24,7 +24,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Process and normalize data (living implementation)
 
 '''CompaTables MediaWiki Extension''':
-* Implement mdn-compat-importer ''current normalized data'' (living implementation)
+* Implement mdn-compat-importer ''[[#Current normalized data|]]'' (living implementation)
 * Relies on Memcached to save/purge/re-use chunks of HTML
 * Allow manage markup-free text arrays (e.g. in format=table, the word "Unsupported" be in a dd tag, while in format=list it can be in a abbr tag)
 * Support alternate URL for table itself on its own view:
@@ -41,7 +41,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
 
 '''CompaTables MediaWiki Extension''':
-* List view format (format=list) is not using latest ''current normalized data'' 
+* List view format (format=list) is not using latest ''[[#Current normalized data|]]'' 
 * Table view format 
 ** doesn't show prefix icons (e.g. -webkit)
 ** doesn't identify rows and columns information (see [http://www.w3.org/TR/WCAG10-HTML-TECHS/#identifying-table-rows-columns this checkpoint], optional but good for a11y)
@@ -61,14 +61,16 @@ To enable;
 == Related ==
 
 === Published data  ===
-
+==== Current normalized data ====
 * Generated from [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], published at [http://docs.webplatform.org/compat/compat-mdn.json compat/compat-mdn.json]
+
+==== Original data format ====
 * Directly from caniuse, [http://docs.webplatform.org/compat/data.json data.json]
 
 === Code repositories ===
 * [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], by [[User:frozenice]] and [[User:renoirb]]
 * [https://github.com/webplatform/mediawiki WebPlatform mediawiki repository], in '''extensions/CompaTables''', by ''[http://www.mediawiki.org/wiki/User:Aaron_Schulz Aaron Schulz]'', [[User:shepazu]] and [[User:Renoirb]]
-* [http://webplatform.github.io/browser-compat-model/ Data Model for User Agent Testing], by [[User:Ronaldmansveld]]
+* [http://webplatform.github.io/browser-compat-model/ Data Model for User Agent Testing], by [[User:Ronaldmansveld]] and [http://blog.tobie.me/ Tobie Langel]
 
 
 === See also ===
