@@ -10,8 +10,7 @@ This first phase of automated data compatibility tables is to integrate the data
 # We copied the data.json file to our shared data directory: http://docs.webplatform.org/compat/data.json
 #* Currently, only CanIUse data is integrated into the shared data directory, but in later phases, we will integrate multiple sources of data, including QuirksMode and W3C Test Suites 
 # We created a MediaWiki extension, [[WPD:Infrastructure/Extensions/CompaTables|CompaTables]] to automatically display the data as a table
-## We registered a '''magic"" keyword element as a MediaWiki extension. To use, add in a Wiki page a snippte with the following syntax: <syntaxhighlight><compatability feature="border-radius" format="table"></compatability>
-</syntaxhighlight>
+## Created a specific tag element that serves as placeholder for the table in the content. To use, add in a Wiki page using the following syntax: <syntaxhighlight><compatability feature="border-radius" format="table"></compatability></syntaxhighlight>
 ## format can be either: 'table', or 'list'
 ## When this element is used in an article, we pull the data from the local repository, extract the data for the keyword indicated in the '''feature''' attribute, and format in into a table showing the first version supported for each browser 
 
