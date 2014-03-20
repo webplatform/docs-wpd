@@ -23,7 +23,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Process and normalize data (living implementation)
 
 '''CompaTables MediaWiki Extension''':
-* Implement mdn-compat-importer ''[[#Current normalized data|]]'' (living implementation)
+* Implement mdn-compat-importer ''[[#Current normalized data]]'' (living implementation)
 * Relies on Memcached to save/purge/re-use chunks of HTML
 * Allow manage markup-free text arrays (e.g. in format=table, the word "Unsupported" be in a dd tag, while in format=list it can be in a abbr tag)
 * Support alternate URL for table itself on its own view:
@@ -44,7 +44,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
 
 ==== CompaTables MediaWiki Extension ====
-* List view format (format=list) is not using latest ''[[#Current normalized data|]]'' 
+* List view format (format=list) is not using latest ''[[#Current normalized data]]'' 
 * Table view format 
 ** doesn't show prefix icons (e.g. -webkit)
 
