@@ -13,20 +13,18 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 == Agenda ==
 
 # Goals and getting to know the desired outcome
-# Analyze what's to be done to push to the production wiki
-# Determine and analyze what features are ready, what is missing to make our first release into the production wiki.
-# Validate to adjust notes published in both [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
+## Analyze [[#Work done]] and [[#To fix or improve]]
+## '''Next milestone'''; determine what is ready, and missing to make our first release into the production wiki.
+## Validate to adjust status on [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
+# Technical chat: '''What's to be done''' and who can do what
 
-== Upcoming features ==
-
-Note that the MediaWiki extension only support the new  ''format=table'' at the moment, the ''format=list'' has to be done.
+=== Work done ===
 
 '''mdn-compat-importer''':
-* Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
 * Process and normalize data (living implementation)
 
 '''CompaTables MediaWiki Extension''':
-* Implement mdn-compat-importer current normalized data (living implementation)
+* Implement mdn-compat-importer ''current normalized data'' (living implementation)
 * Relies on Memcached to save/purge/re-use chunks of HTML
 * Allow manage markup-free text arrays (e.g. in format=table, the word "Unsupported" be in a dd tag, while in format=list it can be in a abbr tag)
 * Support alternate URL for table itself on its own view:
@@ -37,6 +35,27 @@ Note that the MediaWiki extension only support the new  ''format=table'' at the 
 ** Purging a particular table directly, along with ESI purging mechanism  [http://docs.webplatform.org/test/Special:Compatables?feature=border-radius&format=table&action=purge see in URL note '&action=purge']
 * Should not break current ESI support feature
 
+=== To fix or improve ===
+'''mdn-compat-importer''':
+* Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
+* Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
+
+'''CompaTables MediaWiki Extension''':
+* List view format (format=list) is not using latest ''current normalized data'' 
+* Table view format 
+** doesn't show prefix icons (e.g. -webkit)
+** doesn't identify rows and columns information (see [http://www.w3.org/TR/WCAG10-HTML-TECHS/#identifying-table-rows-columns this checkpoint], optional but good for a11y)
+
+==== ESI ====
+To use ESI, work has to be done on the servers. To summarize the findings, we cannot enable ESI tags on Fastly as it is at the moment due to a set of factors:
+
+Fastly's Varnish version (2.1.5) doesn't support gzip between backend and varnish; (but Varnish 3.x+ do.)
+* Between our servers ("backend") and Fastly we use currently compress with gzip
+* Varnish has plans to upgrade their varnish, but its out of our hands
+
+To enable;
+* Disable gzip between our backend servers and Fastly (might increase the data transfer usage, to validate with fastly)
+* Enable gzip only from Fastly to our visitors (currently gzip is in both places)
 
 
 == Related ==
