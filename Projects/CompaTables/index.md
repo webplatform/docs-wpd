@@ -1,5 +1,3 @@
-<div class='note'>'''NOTE''' Project is ongoing</div>
-
 = Compatibility Tables ("CompaTables") =
 
 == Summary ==
@@ -12,26 +10,15 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * [[WPD:Compatibility_Info/Phase_1]]
 * [[WPD:Compatibility_Info/Phase_2]]
 
-== Overview ==
-Determine and analyze what features are ready, what is missing to make our first release into the production wiki.
+== Agenda ==
 
-Based on meeting notes [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct 2013, WebPlatform Browser Support Info], by [[User:Shepazu|Shepazu]], next release should implement:
-<blockquote>
-* create unified data model (currently in an intermediary state, see '''[[#Published data]]''')
-* integrate data from different sites into that data store
-* provide an API for that data (see '''[[#Published data]]''')
-* <strike>create a scalable extension for WebPlatform.org to show compat data on 
-our pages</strike> (see [[#Code repositories]])
-* find the right level of granularity to display results in different 
-contexts (e.g., quicklook, detailed tables of current information, drill 
-down view into different data sources)
-* help automate QuirksMode's infrastructure
-</blockquote>
+# Goals and getting to know the desired outcome
+# Analyze what's to be done to push to the production wiki
+# Determine and analyze what features are ready, what is missing to make our first release into the production wiki.
+# Validate to adjust notes published in both [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
 
-----
-== Releases ==
+== Upcoming features ==
 
-=== Current status ===
 '''mdn-compat-importer''':
 * Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
 * Process and normalize data (living implementation)
@@ -48,7 +35,6 @@ down view into different data sources)
 * Should not break current ESI support feature
 
 
----- 
 
 == Related ==
 
@@ -59,7 +45,7 @@ down view into different data sources)
 
 === Code repositories ===
 * [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], by [[User:frozenice]] and [[User:renoirb]]
-* [https://github.com/webplatform/mediawiki WebPlatform mediawiki repository]], in '''extensions/CompaTables''', by ''[http://www.mediawiki.org/wiki/User:Aaron_Schulz Aaron Schulz]'', [[User:shepazu]] and [[User:Renoirb]]
+* [https://github.com/webplatform/mediawiki WebPlatform mediawiki repository], in '''extensions/CompaTables''', by ''[http://www.mediawiki.org/wiki/User:Aaron_Schulz Aaron Schulz]'', [[User:shepazu]] and [[User:Renoirb]]
 * [http://webplatform.github.io/browser-compat-model/ Data Model for User Agent Testing], by [[User:Ronaldmansveld]]
 
 
