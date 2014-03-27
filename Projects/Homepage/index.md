@@ -12,6 +12,7 @@ Static content are pages that we do not want to allow edition without audit such
 # Workspace where a contributor can fork and improve CSS and JavaScript assets
 # Serve from one place all CSS and JavaScript, already minified (currently MediaWiki's minifier; create load for no real benefit)
 # Ensure uniformity in pages without relying on server side language
+# Provide a workspace where we can focus on HTML/CSS/JavaScript without backend code involved.
 
 === Requirements ===
 ==== Functional ====
