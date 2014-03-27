@@ -23,6 +23,7 @@ Static content are pages that we do not want to allow edition without audit such
 # Workspace has to allow contributor to use without a too steep learning-curve
 # Tools to use the language of the Web Platform (e.g. JavaScript)
 # Serve as a reference to illustrate current Frontend development best-practices
+# Have as less as possible technology requirements (i.e. if we can rely only on JavaScript+Node, the better)
 
 === Choice ===
 [[User:renoirb]] has personally tried a few static site generators and found that [http://docpad.org/ DocPad] was the right choice. Among the technologies tried we had: Assemble, Octopress, Jekyll,  and Ghost.  What made the choice clear was that it took less than one hour to be able to do basic things described in the [[#Requirements]].  
