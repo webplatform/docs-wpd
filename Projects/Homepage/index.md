@@ -8,14 +8,15 @@ The code is available on [https://github.com/webplatform/www.webplatform.org git
 === Scope ===
 Static content are pages that we do not want to allow edition without audit such as: The homepage,  the steward pages, the logo, and error pages. Since the pages are't going to change frequently we could use a static webpage generator to create the documents but prevent us copy-pasting code through many files. 
 
-Also, in order to improve the quality of the CSS/JavaScript code that is used in our site, it is recommended to organize, optimize (e.g. minify, separate only load only what is needed, etc.) the files and be served only as static assets. The idea is to re-organize the CSS/JavaScript assets, put in place proven workflows to be able to validate, lint, and minify them as part of the publication process. As a side benefit, we can leverage the caching configuration of the ''www.webplatform.org'' domain that doesn't require cookies and will ensure a better HTTP cache HIT rate.
+Also, in order to improve the load time our our page, we could set in place workflows that helps us organize our CSS/JavaScript files and allow us to serve them with appropriate caching headers and reduced file-size (i.e. minification). Since the content at ''www.webplatform.org'' is mostly static, doesn't have application that requires cookies it will help us increase our HTTP cache HIT rate for both static pages and CSS/JavaScript files.
 
 
 === Objectives ===
 # Workspace where a contributor can fork and improve CSS/JavaScript assets
-# Serve from one place all CSS/JavaScript, already minified (currently MediaWiki's minifier; create load for no tangible benefit)
+# Serve from one place all CSS/JavaScript, already minified (currently using MediaWiki's minifier; create load for no tangible benefit)
 # Ensure uniformity in pages without relying on server side language
 # Provide a workspace where we can focus on HTML/CSS/JavaScript without backend code involved
+
 
 === Requirements ===
 ==== Functional ====
