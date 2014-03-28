@@ -1,7 +1,9 @@
 == Description ==
 Unearthing requirements for an ideal WPD content and community management system
 
-Also, search within project '''&CCMS'''
+=== See also ===
+* [https://www.w3.org/2011/docs/wiki/Technical_Requirements WebPlatform Docs first technical requirements document]
+* [[WPD:Projects/Beta_Requirements WPD Beta requirements]]
 
 == Design choices ==
 # Technology choice should be all Javascript. 
