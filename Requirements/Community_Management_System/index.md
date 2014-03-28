@@ -36,7 +36,6 @@ Proposed initial backlog:
 * easy checkbox to claim task
 * file status and time spent
 * report on all tasks
-* see [http://project.webplatform.org/contributordashboard contributor dashboard]
 
 == Content ==
 
