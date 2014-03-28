@@ -2,7 +2,7 @@
 Unearthing requirements for an ideal WPD content and community management system
 
 === See also ===
-* [https://www.w3.org/2011/docs/wiki/Technical_Requirements WebPlatform Docs first technical requirements document]
+* [https://www.w3.org/2011/docs/wiki/Technical_Requirements WPD first technical requirements document]
 * [http://docs.webplatform.org/wiki/WPD:Projects/Beta_Requirements WPD Beta requirements]
 
 == Design choices ==
