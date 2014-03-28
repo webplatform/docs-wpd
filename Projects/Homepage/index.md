@@ -1,8 +1,8 @@
 == Homepage project ==
 === Summary ===
-This document describes the status and points to other related documentation for the home page and various static content that aren't managed by a CMS. 
+This document describes the status and points to other related documentation for the [http://www.webplatform.org webplatform.org home page] and various static content that aren't managed by a CMS. 
 
-The code is available on [https://github.com/webplatform/www.webplatform.org github.com/webplatform.org/www.webplatform.org], you can also report issues in [https://github.com/webplatform/www.webplatform.org/issues/new?title=Describe%20issue%20found%20&labels=bug&assignee=renoirb&body=URL:%20Insert%20address%20where%20you%20found%20the%20problem the repository issue tracker].
+The code is available on [https://github.com/webplatform/www.webplatform.org github.com/webplatform.org/www.webplatform.org], you can contribute by forking and submitting a pull-request,  report issues in [https://github.com/webplatform/www.webplatform.org/issues/new?title=Describe%20issue%20found%20&labels=bug&assignee=renoirb&body=URL:%20Insert%20address%20where%20you%20found%20the%20problem the repository issue tracker].
 
 
 === Scope ===
@@ -12,7 +12,7 @@ Static content are pages that we do not want to allow edition without audit such
 # Workspace where a contributor can fork and improve CSS and JavaScript assets
 # Serve from one place all CSS and JavaScript, already minified (currently MediaWiki's minifier; create load for no real benefit)
 # Ensure uniformity in pages without relying on server side language
-# Provide a workspace where we can focus on HTML/CSS/JavaScript without backend code involved.
+# Provide a workspace where we can focus on HTML/CSS/JavaScript without backend code involved
 
 === Requirements ===
 ==== Functional ====
