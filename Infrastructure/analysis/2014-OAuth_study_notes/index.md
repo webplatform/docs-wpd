@@ -29,9 +29,10 @@ While OpenID was about keeping authorization and user information. It doesn’t 
 
 Quoting the example given in (link8)
 
-[[Image:http://static.webplatform.org/w/thumb/1/15/mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png/755px-mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png|OAuth2 process flow]]
+[[File:mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png]]
 
-<blockquote>* (A) -- a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.<br />
+<blockquote>
+* (A) -- a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.
 * (B) -- MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client.<br />
 * (C) -- the Client then uses that authorization grant code to request an access token from the Authorization Server.<br />
 * (D) -- if the authorization grant code is valid, then the Authorization Server grants an access token. The access token is then used by the client to request resources from the Resource Server (MyPhotos.com).<br />
