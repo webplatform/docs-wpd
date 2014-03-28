@@ -34,3 +34,6 @@ Also, in order to improve the load time our our page, we could set in place work
 [[User:renoirb]] has personally tried a few static site generators and found that [http://docpad.org/ DocPad] was the right choice. Among the technologies tried we had: Assemble, Octopress, Jekyll,  and Ghost.  What made the choice clear was that it took less than one hour to be able to do basic things described in the [[#Requirements]].  
 
 Besides the fact that DocPad was  uses CoffeeScript, we are not forced to use it in our own code.
+
+== See also ==
+* [https://gist.github.com/balupton/5519403  Use DocPad to pull and render content from a GitHub repository]
