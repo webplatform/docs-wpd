@@ -4,6 +4,14 @@ See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread]
 
 == What is OAuth? ==
 
+OAuth is a way to validate authenticity between various players in the context of multiple application communicating together. It is a framework to validate the rights ("Grant") and how to  request for information from one system to another.
+
+It is similar to what a ''Valet-key'' of a car is for:
+> Many luxury cars come with a valet key. It is a special key you give the parking attendant and unlike your regular key, will only allow the car to be driven a short distance while blocking access to the trunk (...).
+source (link10)
+
+OAuth is not the first attempt to solve the authentication. There were also OpenID, and SAML, both are older and besides the fact that OAuth is younger, it can do more. 
+
 While OpenID was about keeping authorization and user information. It doesn’t solve the problem that third parties has to create a local account with the user. That's where OAuth comes in to play.
 
 * Giving access tokens to consumers without giving away private information<br />
@@ -134,3 +142,4 @@ source: (link7)
 * (link7) [http://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ Choosing an SSO Strategy; OAuth vs SAML]<br />
 * (link8) [http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language#SAML_Assertions SAML Assertion and tokens]
 * (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
+* (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0]
