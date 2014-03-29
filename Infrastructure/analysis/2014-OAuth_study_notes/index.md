@@ -26,8 +26,6 @@ While OpenID was about keeping authorization and user information. It doesn’t 
 ** '''User''': A human being (''synonyms'': Ressource owner)
 ** '''Scope''': Expressed in non standardized ways, to convey what can be done. (''synonyms'': entitlement)
 ** '''Grant''': Many types, depending of the use-case (''synonym'': Flow) see (link9), (link10)
-
-(term used in the documentation): Web-server app (authorization_code), Browser-based app (implicit), Username/password (password), Mobile apps (implicit), Authorization code, and Extension grant (how you would wire a SAML in the process) see (link9)
 * To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is referred to as "Scope" or "Entitlement" (link2)
 * Ways to describe Scope/entitlement spec leaves it open ended. In the article (link2) they show various ways used by know websites.
 
@@ -45,7 +43,7 @@ Both address the same problem, besides the fact that SAML is dating from 2005 an
 
 -----
 
-== Example as a schema ==
+== How OAuth works ==
 
 Quoting the example given in (link8)
 
@@ -90,10 +88,10 @@ It is unclear in (link10) if he refers as "Flow" is actually what is now known a
 Here is what (link10) described as flow, but summarizes well various "Grant types".
 
 <blockquote>
-* '''User-Agent''' –  for clients running inside a user-agent (typically a web browser).
-* '''Web Server''' –  for clients that are part of a web server application, accessible via HTTP requests. This is a simpler version of the flow provided by OAuth 1.0.
-* '''Device''' –  suitable for clients executing on limited devices, but where the end-user has separate access to a browser on another computer or device.
- * '''Username and Password''' –  used in cases where the user trusts the client to handle its credentials but it is still undesirable for the client to store the user’s username and password.  This flow is only suitable when there is a high degree of trust between the user and the client.
+* '''User-Agent''' –  for clients running inside a user-agent (typically a web browser) (grant_type="'''implicit'''")
+* '''Web Server''' –  for clients that are part of a web server application, accessible via HTTP requests. This is a simpler version of the flow provided by OAuth 1.0.   (grant_type="'''authorization_code'''")
+* '''Device''' –  suitable for clients executing on limited devices, but where the end-user has separate access to a browser on another computer or device. (grant_type="'''implicit'''")
+ * '''Username and Password''' –  used in cases where the user trusts the client to handle its credentials but it is still undesirable for the client to store the user’s username and password.  This flow is only suitable when there is a high degree of trust between the user and the client. (grant_type="'''password'''")
  * '''Client Credentials''' –  the client uses its credentials to obtain an access token. This flow supports what is known as the 2-legged scenario.
  * '''Assertion Flow''' – the client presents an assertion such as a SAML assertion to the authorization server in exchange for an access token.
 <blockquote>
