@@ -94,7 +94,7 @@ Here is what (link10) described as flow, but summarizes well various "Grant type
  * '''Username and Password''' –  used in cases where the user trusts the client to handle its credentials but it is still undesirable for the client to store the user’s username and password.  This flow is only suitable when there is a high degree of trust between the user and the client. (grant_type="'''password'''")
  * '''Client Credentials''' –  the client uses its credentials to obtain an access token. This flow supports what is known as the 2-legged scenario.
  * '''Assertion Flow''' – the client presents an assertion such as a SAML assertion to the authorization server in exchange for an access token.
-<blockquote>
+</blockquote>
 source (link10)
 
 === ''Service provider'', ''Resource Server'' and ''Authorization Server'' ===
@@ -116,7 +116,6 @@ Although most of the services expos them as one, they are functionally different
 
 <blockquote>
 (...) OAuth uses a code/refresh token/access token system that enables 3 possible session lifetimes for a single relationship (...)
-
 * '''When a user initially authorizes an application''' to have access, a code is issued (first lifetime). Typically this code is used one-time to obtain something called a refresh token or access token.
 * '''A refresh token''' (the second lifetime) is '''optional''', but the intention is that it is kept for a longer term and allows the client application to obtain resource access tokens. Refresh tokens might typically last days or months.
 * '''Resource access tokens''' (third lifetime) are then used (often as '''bearer tokens''') to access protected services. These tokens are typically short-lived (minutes/hours).
@@ -135,7 +134,8 @@ source: (link6)
 
 This article (link7) went through to compare the terminology and the description of both technologies.
 
-<blockquote>''SAML'' and ''OAuth2'' use similar terms for similar concepts.
+<blockquote>
+''SAML'' and ''OAuth2'' use similar terms for similar concepts.
 
 For comparison the formal SAML term is listed with the OAuth2 equivalent in parentheses.
 
