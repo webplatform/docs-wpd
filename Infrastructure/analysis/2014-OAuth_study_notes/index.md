@@ -164,3 +164,4 @@ source: (link7)
 * (link8) [http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language#SAML_Assertions SAML Assertion and tokens]
 * (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
 * (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0] (Author: [http://hueniverse.com/author/eran/ Eran Hammer], who participated in the IETF draft of OAuth 1.0)
+* (link11) [http://datatracker.ietf.org/doc/active/#oauth Current IETF specs ''Web Authorization Protocol (OAuth)'']
