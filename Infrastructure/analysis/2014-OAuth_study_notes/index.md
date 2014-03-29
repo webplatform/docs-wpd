@@ -15,6 +15,7 @@ While OpenID was about keeping authorization and user information. It doesn’t 
 ** '''Consumer''': 3rd party looking to receive data. (external site, mobile app, etc)
 ** '''User''': A human being (''synonyms'': Ressource owner)
 ** '''Scope''': Expressed in non standardized ways, to convey what can be done. (''synonyms'': entitlement)
+** '''Grant''': Many types, depending of the use-case (term used in the documentation): Web-server app (authorization_code), Browser-based app (implicit), Username/password (password), Mobile apps (implicit), Authorization code, and Extension grant (how you would wire a SAML in the process) see (link9)
 * To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is referred to as "Scope" or "Entitlement" (link2)
 * Ways to describe Scope/entitlement spec leaves it open ended. In the article (link2) they show various ways used by know websites.
 
@@ -132,3 +133,4 @@ source: (link7)
 * (link6) [http://www.independentid.com/2010/12/oauth-more-than-just-delegation.html OAuth, more than just delegation]<br />
 * (link7) [http://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ Choosing an SSO Strategy; OAuth vs SAML]<br />
 * (link8) [http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language#SAML_Assertions SAML Assertion and tokens]
+* (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
