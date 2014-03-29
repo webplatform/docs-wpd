@@ -7,20 +7,27 @@ See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread]
 While OpenID was about keeping authorization and user information. It doesn’t solve the problem that third parties has to create a local account with the user. That's where OAuth comes in to play.
 
 * Giving access tokens to consumers without giving away private information<br />
-* Setting ''rules'' for sharing information through APIs<br />
-* Keywords:<br />
-* '''Service provider''': From where to login against, and stores/provides data (''synonyms'': RS, Resource Server, AS, Authorization server)<br />
-* '''Consumer''': 3rd party looking to receive data. (external site, mobile app, etc)<br />
-* '''User''': A human being.<br />
-* '''Scope''': Expressed in non standardized ways, to convey what can be done. (''synonyms'': entitlement)<br />
-* To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is refered to as &quot;Scope&quot; or &quot;Entitlement&quot; (link2)<br />
+* Setting ''rules'' for sharing information through APIs
+* Keywords:
+** '''Service provider''': It is understood that this is used when an entity serves both as: Resource Server, and Authorization server in the transparently.
+** '''Resource server''': The API; (''synonyms'': RS)
+** '''Authorization server''': The system to login against; (''synonyms'': AS)
+** '''Consumer''': 3rd party looking to receive data. (external site, mobile app, etc)
+** '''User''': A human being (''synonyms'': Ressource owner)
+** '''Scope''': Expressed in non standardized ways, to convey what can be done. (''synonyms'': entitlement)
+* To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is referred to as "Scope" or "Entitlement" (link2)
 * Ways to describe Scope/entitlement spec leaves it open ended. In the article (link2) they show various ways used by know websites.
 
-'''In other words'''
+=== In other words ===
 
-<blockquote>The client application obtains a token (with user consent) with which the client application can act on behalf of a user. Note the important distinction: the application does not become the user. The application is simply able to indicate that it is acting on behalf of a user for a particular scope of activity.
+<blockquote>
+The client application obtains a token (with user consent) with which the client application can act on behalf of a user. Note the important distinction: the application does not become the user. The application is simply able to indicate that it is acting on behalf of a user for a particular scope of activity.
 </blockquote>
 [http://notes.webplatform.org/a/D3xZP4xeTpiKDFHD_IGrFA annotation], source: (link6)
+
+
+=== Compared to SAML ===
+Both address the same problem, besides the fact that SAML is dating from 2005 and serves only to web applications. In other words, due to SAML design, a native mobile application cannot use it. Because back in 2005, nobody could expect the mobile bubble and the information exchange mechanism requires things that cannot be achieved.
 
 
 -----
@@ -52,7 +59,7 @@ For example, when somebody use Twitter as OAuth Service provider, the Consumer c
 
 Note:
 
-* Some documentation also refer this component as an &quot;Entitlement&quot; (are they synonyms?).<br />
+* Some documentation also refer this component as an "Entitlement" (are they synonyms?)
 * In SAML, they also have concept of Tokens, but document how to represent it (link8)
 
 '''In other words'''
@@ -73,8 +80,8 @@ Although most of the services expos them as one, they are functionally different
 '''Synonyms''' (to validate)
 
 * Service provider<br />
-* Resource Server (&quot;RS&quot;)<br />
-* Authorization Server (&quot;AS&quot;)
+* Resource Server ("RS")
+* Authorization Server "AS")
 
 === Tokens, and their lifetime ===
 
