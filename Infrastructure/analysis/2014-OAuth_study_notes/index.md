@@ -4,7 +4,7 @@ See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread]
 
 == What is OAuth? ==
 
-OAuth is a way to validate authenticity between various players in the context of multiple application communicating together. It is a framework to validate the rights ("Grant") and how to  request for information from one system to another.
+OAuth is a way to validate authenticity between various players in the context of multiple application communicating together. It is a framework to validate the rights ("grant") and how to request ("scope", "entitlements") for information ("resource") from one system to another.
 
 It is similar to what a ''Valet-key'' of a car is for:
 <blockquote> 
@@ -16,7 +16,7 @@ OAuth is not the first attempt to solve the authentication. There were also Open
 
 While OpenID was about keeping authorization and user information. It doesn’t solve the problem that third parties has to create a local account with the user. That's where OAuth comes in to play.
 
-* Giving access tokens to consumers without giving away private information<br />
+* Giving access tokens to consumers without giving away private information
 * Setting ''rules'' for sharing information through APIs
 * Keywords:
 ** '''Service provider''': It is understood that this is used when an entity serves both as: Resource Server, and Authorization server in the transparently.
@@ -53,10 +53,10 @@ Quoting the example given in (link8)
 
 <blockquote>
 * (A) – a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.
-* (B) – MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client.<br />
-* (C) – the Client then uses that authorization grant code to request an access token from the Authorization Server.<br />
-* (D) – if the authorization grant code is valid, then the Authorization Server grants an access token. The access token is then used by the client to request resources from the Resource Server (MyPhotos.com).<br />
-* (E) – MyPhotos.com receives the request for a resource and it receives the access token. In order to make sure it's a valid access token it sends the token directly to the Authorization Server to validate. If valid, the Authorization Server sends back information about the user.<br />
+* (B) – MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client
+* (C) – the Client then uses that authorization grant code to request an access token from the Authorization Server.
+* (D) – if the authorization grant code is valid, then the Authorization Server grants an access token. The access token is then used by the client to request resources from the Resource Server (MyPhotos.com).
+* (E) – MyPhotos.com receives the request for a resource and it receives the access token. In order to make sure it's a valid access token it sends the token directly to the Authorization Server to validate. If valid, the Authorization Server sends back information about the user.
 * (F) – having validated the user's request MyPhotos.com sends the requested resource back to the user.
 </blockquote>
 
@@ -103,14 +103,14 @@ source (link10)
 
 There is more than one component
 
-* Resource Server<br />
+* Resource Server
 * Authorization server
 
 Although most of the services expos them as one, they are functionally different and can be decoupled.
 
 '''Synonyms''' (to validate)
 
-* Service provider<br />
+* Service provider
 * Resource Server ("RS")
 * Authorization Server "AS")
 
@@ -127,10 +127,10 @@ source: (link6)
 
 '''Synonyms''' (to validate)
 
-* Bearer token<br />
-* Token<br />
-* Grant<br />
-* OAuth Grant<br />
+* Bearer token
+* Token
+* Grant
+* OAuth Grant
 * Authorization
 
 === SAML vs OAuth ===
@@ -156,13 +156,13 @@ source: (link7)
 
 == References ==
 
-* (link1) [http://www.hongkiat.com/blog/oauth-connect/ Unofficial blog post about OAuth Connect]<br />
-* (link2) [http://brandur.org/oauth-scope Unofficial blog post about OAuth Scope] (unofficial article)<br />
-* (link4) [http://www.slideshare.net/travisspencer/calling-an-oauth-10a-api-from-an-oauth-20-api Slides about collaboration between multiple OAuth providers]<br />
-* (link3) [https://developers.facebook.com/docs/facebook-login/permissions#permissions Facebook developer documentation: OAuth scope and permissions]<br />
-* (link5) [https://dev.twitter.com/docs/auth/application-only-auth Twitter developer documentation: Application only auth]<br />
-* (link6) [http://www.independentid.com/2010/12/oauth-more-than-just-delegation.html OAuth, more than just delegation]<br />
-* (link7) [http://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ Choosing an SSO Strategy; OAuth vs SAML]<br />
+* (link1) [http://www.hongkiat.com/blog/oauth-connect/ Unofficial blog post about OAuth Connect]
+* (link2) [http://brandur.org/oauth-scope Unofficial blog post about OAuth Scope] (unofficial article)
+* (link4) [http://www.slideshare.net/travisspencer/calling-an-oauth-10a-api-from-an-oauth-20-api Slides about collaboration between multiple OAuth providers]
+* (link3) [https://developers.facebook.com/docs/facebook-login/permissions#permissions Facebook developer documentation: OAuth scope and permissions]
+* (link5) [https://dev.twitter.com/docs/auth/application-only-auth Twitter developer documentation: Application only auth]
+* (link6) [http://www.independentid.com/2010/12/oauth-more-than-just-delegation.html OAuth, more than just delegation]
+* (link7) [http://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ Choosing an SSO Strategy; OAuth vs SAML]
 * (link8) [http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language#SAML_Assertions SAML Assertion and tokens]
 * (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
 * (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0] (Author: [http://hueniverse.com/author/eran/ Eran Hammer], who participated in the IETF draft of OAuth 1.0)
