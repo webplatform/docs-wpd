@@ -167,4 +167,5 @@ source: (link7)
 * (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
 * (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0] (Author: [http://hueniverse.com/author/eran/ Eran Hammer], who participated in the IETF draft of OAuth 1.0)
 * (link11) [http://datatracker.ietf.org/doc/active/#oauth Current IETF specs ''Web Authorization Protocol (OAuth)'']
-* (link12) [http://www.slideshare.net/aaronpk/an-introduction-to-oauth-2  Slides: An introduction to OAuth 2] (Author: Aaron Parecki)
+* (link12) [http://www.slideshare.net/aaronpk/an-introduction-to-oauth-2  Slides: An introduction to OAuth 2] (Author: Aaron Parecki, maintainer of OAuth.net)
+* (link13) [http://oauth.net/2/ OAuth.net/2/] that is listing various OAuth implementations
