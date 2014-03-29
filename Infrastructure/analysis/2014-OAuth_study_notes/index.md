@@ -7,7 +7,9 @@ See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread]
 OAuth is a way to validate authenticity between various players in the context of multiple application communicating together. It is a framework to validate the rights ("Grant") and how to  request for information from one system to another.
 
 It is similar to what a ''Valet-key'' of a car is for:
-> Many luxury cars come with a valet key. It is a special key you give the parking attendant and unlike your regular key, will only allow the car to be driven a short distance while blocking access to the trunk (...).
+<blockquote> 
+Many luxury cars come with a valet key. It is a special key you give the parking attendant and unlike your regular key, will only allow the car to be driven a short distance while blocking access to the trunk (...).
+</blockquote> 
 source (link10)
 
 OAuth is not the first attempt to solve the authentication. There were also OpenID, and SAML, both are older and besides the fact that OAuth is younger, it can do more. 
@@ -23,7 +25,9 @@ While OpenID was about keeping authorization and user information. It doesn’t 
 ** '''Consumer''': 3rd party looking to receive data. (external site, mobile app, etc)
 ** '''User''': A human being (''synonyms'': Ressource owner)
 ** '''Scope''': Expressed in non standardized ways, to convey what can be done. (''synonyms'': entitlement)
-** '''Grant''': Many types, depending of the use-case (term used in the documentation): Web-server app (authorization_code), Browser-based app (implicit), Username/password (password), Mobile apps (implicit), Authorization code, and Extension grant (how you would wire a SAML in the process) see (link9)
+** '''Grant''': Many types, depending of the use-case (''synonym'': Flow) see (link9), (link10)
+
+(term used in the documentation): Web-server app (authorization_code), Browser-based app (implicit), Username/password (password), Mobile apps (implicit), Authorization code, and Extension grant (how you would wire a SAML in the process) see (link9)
 * To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is referred to as "Scope" or "Entitlement" (link2)
 * Ways to describe Scope/entitlement spec leaves it open ended. In the article (link2) they show various ways used by know websites.
 
@@ -41,19 +45,19 @@ Both address the same problem, besides the fact that SAML is dating from 2005 an
 
 -----
 
-== Flow ==
+== Example as a schema ==
 
 Quoting the example given in (link8)
 
 [[File:mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png]]
 
 <blockquote>
-* (A) -- a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.
-* (B) -- MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client.<br />
-* (C) -- the Client then uses that authorization grant code to request an access token from the Authorization Server.<br />
-* (D) -- if the authorization grant code is valid, then the Authorization Server grants an access token. The access token is then used by the client to request resources from the Resource Server (MyPhotos.com).<br />
-* (E) -- MyPhotos.com receives the request for a resource and it receives the access token. In order to make sure it's a valid access token it sends the token directly to the Authorization Server to validate. If valid, the Authorization Server sends back information about the user.<br />
-* (F) -- having validated the user's request MyPhotos.com sends the requested resource back to the user.
+* (A) – a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.
+* (B) – MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client.<br />
+* (C) – the Client then uses that authorization grant code to request an access token from the Authorization Server.<br />
+* (D) – if the authorization grant code is valid, then the Authorization Server grants an access token. The access token is then used by the client to request resources from the Resource Server (MyPhotos.com).<br />
+* (E) – MyPhotos.com receives the request for a resource and it receives the access token. In order to make sure it's a valid access token it sends the token directly to the Authorization Server to validate. If valid, the Authorization Server sends back information about the user.<br />
+* (F) – having validated the user's request MyPhotos.com sends the requested resource back to the user.
 </blockquote>
 
 -----
@@ -64,18 +68,36 @@ Quoting the example given in (link8)
 
 Has to be created and enforced among the ecosystem of the OAuth Service provider.
 
+It is basically a set of keywords to describe what information is requested.
+
 For example, when somebody use Twitter as OAuth Service provider, the Consumer can do things that Twitter's scope is allowing. If we create our own OAuth, we have to set in place our ''own'' set of scopes.
 
 Note:
-
 * Some documentation also refer this component as an "Entitlement" (are they synonyms?)
 * In SAML, they also have concept of Tokens, but document how to represent it (link8)
 
-'''In other words'''
+==== In other words ====
 
-<blockquote>(...) because OAuth uses both a client application credential (aka client identifier) and a token representing the user's scope of permission, service providers like banks, are able to set different access policies for client applications authorized by their customers.
+<blockquote>
+(...) because OAuth uses both a client application credential (aka client identifier) and a token representing the user's scope of permission, service providers like banks, are able to set different access policies for client applications authorized by their customers.
 </blockquote>
 [http://notes.webplatform.org/a/cn5hB9q5SoC9BgnvmoKhdw annotation], source: (link6)
+
+=== Grant types ===
+
+It is unclear in (link10) if he refers as "Flow" is actually what is now known as  "Grant type". I assume that in since 2010 the terminology changed a bit. 
+
+Here is what (link10) described as flow, but summarizes well various "Grant types".
+
+<blockquote>
+* '''User-Agent''' –  for clients running inside a user-agent (typically a web browser).
+* '''Web Server''' –  for clients that are part of a web server application, accessible via HTTP requests. This is a simpler version of the flow provided by OAuth 1.0.
+* '''Device''' –  suitable for clients executing on limited devices, but where the end-user has separate access to a browser on another computer or device.
+ * '''Username and Password''' –  used in cases where the user trusts the client to handle its credentials but it is still undesirable for the client to store the user’s username and password.  This flow is only suitable when there is a high degree of trust between the user and the client.
+ * '''Client Credentials''' –  the client uses its credentials to obtain an access token. This flow supports what is known as the 2-legged scenario.
+ * '''Assertion Flow''' – the client presents an assertion such as a SAML assertion to the authorization server in exchange for an access token.
+<blockquote>
+source (link10)
 
 === ''Service provider'', ''Resource Server'' and ''Authorization Server'' ===
 
@@ -94,10 +116,11 @@ Although most of the services expos them as one, they are functionally different
 
 === Tokens, and their lifetime ===
 
-<blockquote>(...) OAuth uses a code/refresh token/access token system that enables 3 possible session lifetimes for a single relationship (...)
+<blockquote>
+(...) OAuth uses a code/refresh token/access token system that enables 3 possible session lifetimes for a single relationship (...)
 
-* '''When a user initially authorizes an application''' to have access, a code is issued (first lifetime). Typically this code is used one-time to obtain something called a refresh token or access token.<br />
-* '''A refresh token''' (the second lifetime) is '''optional''', but the intention is that it is kept for a longer term and allows the client application to obtain resource access tokens. Refresh tokens might typically last days or months.<br />
+* '''When a user initially authorizes an application''' to have access, a code is issued (first lifetime). Typically this code is used one-time to obtain something called a refresh token or access token.
+* '''A refresh token''' (the second lifetime) is '''optional''', but the intention is that it is kept for a longer term and allows the client application to obtain resource access tokens. Refresh tokens might typically last days or months.
 * '''Resource access tokens''' (third lifetime) are then used (often as '''bearer tokens''') to access protected services. These tokens are typically short-lived (minutes/hours).
 </blockquote>
 source: (link6)
@@ -142,4 +165,4 @@ source: (link7)
 * (link7) [http://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ Choosing an SSO Strategy; OAuth vs SAML]<br />
 * (link8) [http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language#SAML_Assertions SAML Assertion and tokens]
 * (link9) [http://tools.ietf.org/html/rfc6749#section-4.1 IETF OAuth spec, Grant types]
-* (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0]
+* (link10) [http://hueniverse.com/2010/05/introducing-oauth-2-0/  Introducting OAuth 2.0] (Author: [http://hueniverse.com/author/eran/ Eran Hammer], who participated in the IETF draft of OAuth 1.0)
