@@ -1,5 +1,7 @@
 = Sprint of 2014-03 =
 
+Sprint report, extending documentation at [[WPD:Projects/CompaTables]]
+
 == Work done ==
 
 '''mdn-compat-importer''':
