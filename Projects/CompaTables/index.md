@@ -21,7 +21,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#Work done]]
 
 === To fix or improve ===
-* See Sprint 2014-03, see [[WPD:Project/CompaTables/201403-sprint#To fix or improve]]
+* See Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#To fix or improve]]
 
 == Related ==
 
