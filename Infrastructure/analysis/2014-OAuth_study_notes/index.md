@@ -172,3 +172,4 @@ source: (link7)
 * (link14) [http://blog.epanastasi.com/post/56919440376/oauth-is-awesome-oauth-is-horrible OAuth is awesome, OAuth is horrible]!
 * (link15) [http://stackoverflow.com/questions/14402938/2-legged-auth-standards-in-2013-should-we-use-oauth2 StackOverflow question: 2-legged auth standards in 2013 -- should we use OAuth2]
 * (link16) [http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication/ Designing a secure API withoug OAuth anthentication]
+* (link17) [https://dev.twitter.com/docs/auth/implementing-sign-twitter Twitter developers; A step-by-step example to implement OAuth]
