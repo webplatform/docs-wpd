@@ -170,3 +170,5 @@ source: (link7)
 * (link12) [http://www.slideshare.net/aaronpk/an-introduction-to-oauth-2  Slides: An introduction to OAuth 2] (Author: Aaron Parecki, maintainer of OAuth.net)
 * (link13) [http://oauth.net/2/ OAuth.net/2/] that is listing various OAuth implementations
 * (link14) [http://blog.epanastasi.com/post/56919440376/oauth-is-awesome-oauth-is-horrible OAuth is awesome, OAuth is horrible]!
+* (link15) [http://stackoverflow.com/questions/14402938/2-legged-auth-standards-in-2013-should-we-use-oauth2 StackOverflow question: 2-legged auth standards in 2013 -- should we use OAuth2]
+* (link16) [http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication/ Designing a secure API withoug OAuth anthentication]
