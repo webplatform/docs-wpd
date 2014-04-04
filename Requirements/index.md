@@ -1,3 +1,7 @@
 = Requirements =
-* [[WPD:Requirements/Community_Management_System]]
-* [[WPD:Requirements/Analytics]]
+Ideas and their descriptions.
+
+== Table of contents ==
+Listing all sub pages from here.
+
+<splist />
