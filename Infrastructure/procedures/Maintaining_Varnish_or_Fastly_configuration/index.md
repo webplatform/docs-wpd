@@ -19,7 +19,7 @@ A recommended way to work is to follow '''[https://fastly.zendesk.com/entries/23
 
 ==== MediaWiki ====
 Here are the specifics for MediaWiki
-* Note that most of the cookies starts with the ''$wgDBname'' string from the ''Settings*.php'' file
+* Note that most of the cookies starts with the ''$wgDBname'' string from the ''Settings*.php'' file. In the list below, its value is 'wpwiki'.
 * Delete all cookies, except: wpwikiUserID, wpwiki_session, wpwikiUserName, Token, LoggedOut, dismissSiteNotice
 * Only place to set cookies are when UserLogin, UserLogout
 
