@@ -1,10 +1,12 @@
 == Summary ==
 
-Using Varnish does not gives caching for free. The configuration still has to be adjusted to each site specifics. Details such as a web application sending HTTP headers with no-cache or max-age=0 can still prevent caching to happen.
+If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
 
 This page is about keeping notes on current Varnish configuration files and notes to help maintaining an appropriate caching strategy. 
 
 == NOTES ==
+
+=== Varnish version and limitations ===
 An important detail to remember is that Fastly is using Varnish 2.1.4, their configuration specifics do not support either pipe, ban, nor purging with ACL. 
 
 Also, the way to provide CDN service is with what they call "Shield", it is basically a layer of application that stores a local copy of what is grabbed by a service backend server. Provided that the backend server do not explicitly prevent caching, or that the VCL has appropriate adjustments, Fastly will send files from the Shield before hitting again the backend servers.
@@ -12,6 +14,13 @@ Also, the way to provide CDN service is with what they call "Shield", it is basi
 VCL is the Varnish Configuration language file, throughout the panel, we can see two VCL buttons, the one beside the service name and revision is to download the generated VCL, whereas we can also provide our own VCL that must have keywords so the panel adds content to it.
 
 A recommended way to work is to follow '''[https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL-  How do I mix and match Fastly VCL with custom VCL]'''
+
+=== Details to consider ===
+
+==== MediaWiki ====
+Here are the specifics for MediaWiki
+* Delete all cookies, except: wpwikiUserID, wpwiki_session, wpwikiUserName, Token, LoggedOut, dismissSiteNotice
+* Only place to set cookies are when UserLogin, UserLogout
 
 == Accessing VCL configuration from Fastly ==
 [[File:20131121-Fastly-vcl-buttons.png]]
@@ -25,149 +34,7 @@ To access/overwrite the file in Fastly, go to:
 === Current Fastly configuration ===
 Make the content of snippet as a file and upload it to the Fastly control pannel.
 
-Each subsection should have each site's ACL configuration.
-
-
-
-Please ensure to check differences, and reflect deployed changes here or adjust accordingly.
-
-=== GLOBAL ===
-Unless another block exist, this configuration can be used on all services within Fastly
-
-<syntaxHighlight>
-#
-# See: http://docs.webplatform.org/wiki/WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration
-#
-director iphashed client {
-  .retries = 5;
-  {
-    .backend = F_app1;
-    .weight = 9;
-  }
-  {
-    .backend = F_app2;
-    .weight = 9;
-  }
-  {
-    .backend = F_app3;
-    .weight = 7;
-  }
-  {
-    .backend = F_app4;
-    .weight = 4;
-  }
-  {
-    .backend = F_app5;
-    .weight = 1;
-  }
-}
- 
-sub vcl_recv {
-#FASTLY recv
- 
-  set req.backend = iphashed;
-  set client.identity = req.http.Fastly-Client-IP;
- 
-  if (req.request != "HEAD" && req.request != "GET" && req.request != "PURGE") {
-    return(pass);
-  }
- 
-  # Pass any requests with the "If-None-Match" header directly.
-  if (req.http.If-None-Match)
-  { return(pass); }
- 
-  # normalize Accept-Encoding to reduce vary
-  if (req.http.Accept-Encoding) {
-    if (req.http.User-Agent ~ "MSIE 6") {
-      unset req.http.Accept-Encoding;
-    } elsif (req.http.Accept-Encoding ~ "gzip") {
-      set req.http.Accept-Encoding = "gzip";
-    } elsif (req.http.Accept-Encoding ~ "deflate") {
-      set req.http.Accept-Encoding = "deflate";
-    } else {
-      unset req.http.Accept-Encoding;
-    }
-  }
-  return(lookup);
-}
- 
- 
-sub vcl_fetch {
-#FASTLY fetch
- 
-  if ((beresp.status == 500 || beresp.status == 503) && req.restarts < 4 && (req.request == "GET" || req.request == "HEAD")) {
-    restart;
-  } 
-
-  # ESI support
-  set req.esi = true;
-  esi;
-
-  # Compatables ESI includes and verbose message
-  if(req.url ~ "Special:Compatables") {
-    set beresp.ttl = 24h;
-    set beresp.http.X-Esi-Message = "This document is targeted to be cached 24h";
-  }
-
-  if(req.restarts > 0 ) {
-    set beresp.http.Fastly-Restarts = req.restarts;
-  }
- 
-  if (beresp.http.Set-Cookie) {
-    set req.http.Fastly-Cachetype = "SETCOOKIE";
-    return (pass);
-  }
- 
-  if (beresp.http.Cache-Control ~ "private") {
-    set req.http.Fastly-Cachetype = "PRIVATE";
-    return (pass);
-  }
- 
-  if (beresp.status == 500 || beresp.status == 503) {
-    set req.http.Fastly-Cachetype = "ERROR";
-    set beresp.ttl = 1s;
-    set beresp.grace = 5s;
-    return (deliver);
-  }
- 
- 
-  if (beresp.http.Expires || beresp.http.Surrogate-Control ~ "max-age" || beresp.http.Cache-Control ~"(s-maxage|max-age)") {
-    # keep the ttl here
-  } else {
-    # apply the default ttl
-    set beresp.ttl = 3600s;
-  }
- 
-  return(deliver);
-}
- 
-sub vcl_hit {
-#FASTLY hit
- 
-  if (!obj.cacheable) {
-    return(pass);
-  }
-  return(deliver);
-}
- 
-sub vcl_miss {
-#FASTLY miss
-  return(fetch);
-}
- 
-sub vcl_deliver {
-#FASTLY deliver
-  return(deliver);
-}
- 
-sub vcl_error {
-#FASTLY error
-}
- 
-sub vcl_pass {
-#FASTLY pass
-}
-</syntaxHighlight>
+Configuration files are stored on [https://github.com/webplatform/varnish-configs Github, in '''webplatform/varnish-configs''' project], the VCL file name should match the subdomain and also the service bane in Fastly dashboard.
 
 == Links ==
 === MediaWiki ===
