@@ -1,24 +1,43 @@
 renoirb: compat tables
 
 … we're crawling and getting already as far as we can on MDN
+
 … Jérémie Patonnier guided us, but gave already [https://github.com/webplatform/mdn-compat-importer/blob/master/lib/Reader.js#L197 known information]
+
 … we're still trying to get deeper, [https://github.com/mozilla/kuma/blob/master/apps/wiki/feeds.py#L22 but there's a hardcoded limitation] and [https://github.com/webplatform/mdn-compat-importer/issues/3 the issue has been already raised]
+
 … we're creating a crawler with apache sw to crawl & keep a copy of pages: Nutch
+
 … w/ Nutch, we can get the content and we already have a new model
+
 … in the [http://docs.webplatform.org/test/ test wiki] we [docs.webplatform.org/test/Tests/Compatibility_table_and_caching can see the compat tables from mdn]
+
 … we will be using ESI includes, but if Varnish doesnt work for any reason, it hurts the servers
+
 … this is why we added another caching layer that basically keeps a copy of the generated HTML and saves it
+
 … inside memcache. Subsequent page views will use the memcache version regardless of Varnish
+
 … the memcache cached version can get invalidated when the original JSON file gets updated 
+
 … to sum where we are at; we already crawl MDN, normalize the data, generate HTML tables, and serve that version
+
 … since we [https://github.com/webplatform/mdn-compat-importer/issues/3 cannot get all of the data that there is] 
+
 … Apache Nutch will replace that crawling with an industrial-strenght tool for the task
+
 … we do not hit MDN server at every mdn-compat-import run (in progress)
+
 … what we are basically doing is crawling the pages, keeping a local copy as HTML to JavaScript object in files
+
 … the normalization is basically a second-pass, , is about
+
 … normalize what we think makes sense following Can I use's result
+
 … We move what we are unsure in notes or removing notes, for example, if it's mozilla-specific
+
 … there's a limitation [https://github.com/mozilla/kuma/blob/master/apps/wiki/feeds.py#L22 in the python pager]
+
 … we don't want to hammer the server, but crawl the pages once we get them
 
 Apache Nutch
