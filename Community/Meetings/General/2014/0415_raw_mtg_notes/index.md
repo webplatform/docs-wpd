@@ -10,7 +10,7 @@ renoirb: compat tables
 
 … w/ Nutch, we can get the content and we already have a new model
 
-… in the [http://docs.webplatform.org/test/ test wiki] we [docs.webplatform.org/test/Tests/Compatibility_table_and_caching can see the compat tables from mdn]
+… in the [http://docs.webplatform.org/test/ test wiki] we [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching can see the compat tables from mdn]
 
 … we will be using ESI includes, but if Varnish doesnt work for any reason, it hurts the servers
 
