@@ -1,32 +1,34 @@
-renoirb: compat tables
+== Topic: Compat tables ==
 
-… we're crawling and getting already as far as we can on MDN
+renoirb: We have something working that use compatibility data from MDN
 
-… Jérémie Patonnier guided us, but gave already [https://github.com/webplatform/mdn-compat-importer/blob/master/lib/Reader.js#L197 known information]
+… we cannot get all the data, more on this later, but we have enough to allow the community to use it
 
-… we're still trying to get deeper, [https://github.com/mozilla/kuma/blob/master/apps/wiki/feeds.py#L22 but there's a hardcoded limitation] and [https://github.com/webplatform/mdn-compat-importer/issues/3 the issue has been already raised]
+… you can see the result inside the [http://docs.webplatform.org/test/ test wiki] and you can see many examples in the [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching /test/Tests/Compatibility_table_and_caching page].
 
-… we're creating a crawler with apache sw to crawl & keep a copy of pages: Nutch
+… The project had many iterations:
 
-… w/ Nutch, we can get the content and we already have a new model
+…  1. First iteration (led by Shepazu) was about generating HTML table based on JSON data file. The table was regenerated at every page render. If a visitor is logged in Mediawiki, it would regenerate at every page view (!)
 
-… in the [http://docs.webplatform.org/test/ test wiki] we [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching can see the compat tables from mdn]
+…  2. Second iteration (led by Aaron, a reference of Ryan Lane) was about leveraging Varnish's ESI tags that allows us to freeze snippets of HTML in a page. It went well, but it isn't deployed due to limitations with our Varnish provider (Fastly). It is using a version of Varnish that cannot GZIP content AND do ESI includes. At that point, we decided to focus on importing data
 
-… we will be using ESI includes, but if Varnish doesnt work for any reason, it hurts the servers
+…  3. Third iteration (led by Frozenice) was to create a nodejs crawler to copy and normalize the data.
 
-… this is why we added another caching layer that basically keeps a copy of the generated HTML and saves it
+…  4. Most recent iteration (led by renoirb) was to work on normalizing
 
-… inside memcache. Subsequent page views will use the memcache version regardless of Varnish
+…      the data and add continue improving the code. It now uses internally memcached to keep the generated HTML and will serve that version until the cache is invalidated.
 
-… the memcache cached version can get invalidated when the original JSON file gets updated 
+…     The cache can be invalidated if the original JSON file is updated, or if it has been purged or if the lifetime of the cached version comes.
 
-… to sum where we are at; we already crawl MDN, normalize the data, generate HTML tables, and serve that version
+…     That way, regardless of whether Varnish provides us the ESI version, it adds one more performance improvement before hitting our servers
 
-… since we [https://github.com/webplatform/mdn-compat-importer/issues/3 cannot get all of the data that there is] 
+… So, at the moment, we: have MDN data, can normalize it, do generate HTML tables, do have two layers of caching, have ways for users to embed the data in our wiki (!).
 
-… Apache Nutch will replace that crawling with an industrial-strenght tool for the task
 
-… we do not hit MDN server at every mdn-compat-import run (in progress)
+== Topic: Compat tables; known limitation ==
+
+renoirb: As I said, we have a known limitation. 
+… Our current implementation was already making a copy, but with a specific tool, we can concentrate [https://github.com/webplatform/mdn-compat-importer mdn-compat-importer] only for normalizing the data 
 
 … what we are basically doing is crawling the pages, keeping a local copy as HTML to JavaScript object in files
 
@@ -36,11 +38,27 @@ renoirb: compat tables
 
 … We move what we are unsure in notes or removing notes, for example, if it's mozilla-specific
 
-… there's a limitation [https://github.com/mozilla/kuma/blob/master/apps/wiki/feeds.py#L22 in the python pager]
 
-… we don't want to hammer the server, but crawl the pages once we get them
+renoirb: we have something working that creates a local copy of pages that has compatibility data
 
-Apache Nutch
+… the scraping is not complete due to a known issue but it is a good starting point
+
+… eventually we will need to be aple to scrape everythin. But due to [https://github.com/mozilla/kuma/blob/master/apps/wiki/feeds.py#L22 an hardcoded limitation] we cannot get further.
+
+… We [https://github.com/webplatform/mdn-compat-importer/issues/3 raised the issue] and [https://lists.w3.org/Archives/Team/team-devrel/2014Mar/0051.html Jérémie Patonnier pointed out something to help us].
+
+… unfortunately it didn't help as [https://github.com/webplatform/mdn-compat-importer/blob/master/lib/Reader.js#L197 we are already doing this]
+
+… currently we have good amount of data. It is incomplete, but good enough to make us have something working.
+
+
+== Topic: Compat tables; how to work around limitation ==
+
+… to work around the problem of hardcoded limitation from MDN. We have been suggested 
+
+… by one of our contributors, Pat Tressel, to use something specific for this.  A software called *Apache Nutch* that is meant scraping websites to make a local copy
+
+… w/ Nutch we'll be able to crawl the entire site and shouldn't hit too hard the MDN servers.
 
 renoirb: we are talking about the crawler for the content to have it offline
 
