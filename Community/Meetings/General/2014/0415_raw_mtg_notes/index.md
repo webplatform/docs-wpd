@@ -8,7 +8,7 @@ renoirb: We have something working that use compatibility data from MDN
 
 … Adding a table requires to use <code>&lt;compatability feature="analyser-node" format="table"&gt;&lt;/compatability&gt;</code> tag.
 
-… figuring out which key to put in <code>feature=""</code> can be found from a human-friendly JSON file at [http://docs.webplatform.org/compat/compat-mdn-human.json].
+… figuring out which key to put in <code>feature=""</code> can be found from a human-friendly JSON file at [http://docs.webplatform.org/compat/compat-mdn-human.json compat/compat-mdn-human.json], it is a reformatted version from the raw [http://docs.webplatform.org/compat/compat-mdn.json compat/compat-mdn.json file]
 
 … The project had many iterations:
 
