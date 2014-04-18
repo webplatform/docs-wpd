@@ -2,9 +2,13 @@
 
 renoirb: We have something working that use compatibility data from MDN
 
-… we cannot get all the data, more on this later, but we have enough to allow the community to use it
+… we cannot get all the data, more on this later, but we have enough to allow the community to use it already
 
-… you can see the result inside the [http://docs.webplatform.org/test/ test wiki] and you can see many examples in the [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching /test/Tests/Compatibility_table_and_caching page].
+… you can see how it works from the [http://docs.webplatform.org/test/ test wiki] and you can see many examples in the [http://docs.webplatform.org/test/Tests/Compatibility_table_and_caching /test/Tests/Compatibility_table_and_caching page].
+
+… Adding a table requires to use <code>&lt;compatability feature="analyser-node" format="table"&gt;&lt;/compatability&gt;</code> tag.
+
+… figuring out which key to put in <code>feature=""</code> can be found from a human-friendly JSON file at [http://docs.webplatform.org/compat/compat-mdn-human.json].
 
 … The project had many iterations:
 
