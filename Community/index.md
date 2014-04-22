@@ -10,8 +10,7 @@
 I want to remove some of the things that are listed below that are no longer active. 
 
 <hr>
-=IRC=
-==Join the conversation on our IRC channel==
+==Chat with us on IRC==
 The WebPlatform.org online community uses IRC and mailing lists extensively. Connect to the WebPlatform channel with an IRC client using these settings
 * Server: Freenode (irc.freenode.net)
 * Channel: #webplatform
@@ -20,6 +19,13 @@ The WebPlatform.org online community uses IRC and mailing lists extensively. Con
 
 Note: If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
 
+==Join the public-webplatform@w3.org mailing list==
+* We announce initiatives and discuss proposals on the W3.org mailing list. [http://lists.w3.org/Archives/Public/public-webplatform/ Subscribe] to the w3.org mailing list to stay in touch.
+
+==Access the bug-tracking system==
+You can report and work on issues reported on our issue tracker at [http://project.webplatform.org project.webplatform.org]. Be sure to search for your issue before entering any new bugs.
+
+To file a bug, log into the project space [http://project.webplatform.org project.webplatform.org], choose from one of the projects listed, and select the related Report an Issue button.
 <hr>
 
 ==Original Page==
