@@ -104,3 +104,7 @@ You can read the archives and learn more about how the email list works  [http:/
 </div>
 
 :&nbsp;
+
+==Ancient Thing Jen Found==
+Is this supposed to be retired? I like this:
+http://docs.webplatform.org/wiki/Meta:Editors_Guide
