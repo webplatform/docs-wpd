@@ -17,7 +17,7 @@ Web Platform community meetings occur on [http://everytimezone.com/#2014-2-25,18
 '''IRC Channel:''' #webplatform
 * [irc://irc.freenode.net/webplatform irc]
 * [http://webchat.freenode.net/?channels=#webplatform webchat]
-* [http://www.webplatform.org/chat/chatlogs/ or read the public log]
+* or [http://www.webplatform.org/talk/chatlogs/#home read from the public archive view or our IRC channel]
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
