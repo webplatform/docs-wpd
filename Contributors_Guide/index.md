@@ -2,7 +2,7 @@
 
 {{Languages}}
 
-<h2>Introduction</h2>
+<h2>Where To Start</h2>
 Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.
 
 <h3>Step 1: Get an Account.</h3>
@@ -21,9 +21,13 @@ Next, sign up for our group email — the place where everyone who's involved ta
 Once you are on the list, please email the group and introduce yourself. Who are you? What would you like to contribute? Are you unsure of what to work on — that's fine. Reach out to us, and we'll be happy to find something for you. Do have have a suggestion on how WPD can be better? We'd love to hear it.
 
 You can read the archives and learn more about how the email list works  [http://lists.w3.org/Archives/Public/public-webplatform|here].
+
+<h2>What's Next</h2>
 (Currently in progress...)
 
+
 <hr>
+
 ==Old Guide (about to disappear)==
 <h3>Step 1: Get an Account.</h3>
 <div class="topic-container editors">
