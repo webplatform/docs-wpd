@@ -106,8 +106,7 @@ Eliot: suggests that we have a "flagger" badge (or something else more clever)
 
 Doug: Asking Eliot about the current flags
 
-Eliot: The list of flags [http://lists.w3.org/Archives/Public/public-
-webplatform/2013Dec/0035.html is available from the mailing list archive]
+Eliot: The list of flags [http://lists.w3.org/Archives/Public/public-webplatform/2013Dec/0035.html is available from the mailing list archive]
 
 ... will be very nice to have such "TODO"
 
@@ -190,8 +189,7 @@ Renoir validated how to query, points out address and other know tools
 
 ... [http://webplatform.frozenice.de/pageinfo.html#css/properties/border-radius page example "border radius"]
 
-Eliot:   Could do something like the W3C specs use. See this for the blue stripe: http://www.w3.org/TR/html-
-polyglot/
+Eliot:   Could do something like the W3C specs use. See this for the blue stripe: [http://www.w3.org/TR/html-polyglot/ in TR/html-polyglot, see the blue stripe]
 
 ... Doug pulls foot from mouth
 
