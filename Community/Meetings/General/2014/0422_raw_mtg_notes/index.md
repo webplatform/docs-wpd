@@ -1,3 +1,14 @@
+[http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes Previous meeting notes]
+
+== Presences ===
+* Renoir (scribe)
+* Doug
+* Eliot
+* Jen
+* Amelia
+* Elizer (on IRC only)
+* Frozenice (on IRC only)
+
 == Agenda ==
 * Compatibility Table Project
 * Flag templates
