@@ -1,7 +1,31 @@
-==Editor's Guide: An Overview==
+=Contributor's Guide=
 
 {{Languages}}
 
+<h2>Introduction</h2>
+Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.
+
+<h3>Step 1: Get an Account.</h3>
+<p>Anyone is welcome to make changes to the pages on [[Main_Page|docs.webplatform.org]]. First, [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup create an account]. Then [http://docs.webplatform.org/w/index.php?title=Special:UserLogin log in] and edit pages. It's that easy.</p>
+
+<h3>Step 2: Make a Change.</h3>
+Do you see a mistake on a page that needs to be fixed? Something that can could be written better? Information that's inaccurate or old? Well, jump in — go ahead and change the page. Really. Just fix it. We need lots of people contributing more than we need perfection.
+
+Scared you'll make a mistake? Try our [[WPD:Practice_Page|practice page]]. You can make mistakes there without hurting anything.
+
+Web Platform Docs currently uses MediaWiki, the same software that drives Wikipedia. If you are trying to format something, this [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax cheat sheet] might be helpful.
+
+<h3>Step 3: Join the Group Email List and Introduce Yourself.</h3>
+Next, sign up for our group email — the place where everyone who's involved talks to each other. Join the list by emailing an empty message with the subject “subscribe” to public-webplatform-request@w3.org from the email address you'd like to use.
+
+Once you are on the list, please email the group and introduce yourself. Who are you? What would you like to contribute? Are you unsure of what to work on — that's fine. Reach out to us, and we'll be happy to find something for you. Do have have a suggestion on how WPD can be better? We'd love to hear it.
+
+You can read the archives and learn more about how the email list works  [http://lists.w3.org/Archives/Public/public-webplatform|here].
+(Currently in progress...)
+
+<hr>
+==Old Guide (about to disappear)==
+<h3>Step 1: Get an Account.</h3>
 <div class="topic-container editors">
   <div class="long-topic">
       <div class="place-holder"></div>
