@@ -1,6 +1,6 @@
 [http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes Previous meeting notes]
 
-== Presences ===
+== Presences ==
 * Renoir (scribe)
 * Doug
 * Eliot
@@ -14,8 +14,7 @@
 * Flag templates
 * Web Platform Wednesday: SVG
 * Review of open action items
-* Any other topics?
-AGENDA+ Roundtable with Amelia
+* Amelia's introduction
 
 ==  Compatibility Table project ==
 Doug: Renoir made a scrip that imports content from MDN and converts it to objects.
@@ -165,6 +164,8 @@ ACTION: To ensure that flag links leads to a page listing pages that has same fl
 
 +eliezerb: See [http://docs.webplatform.org/wiki/Special:SearchByProperty/Content_quality_flag/Incomplete List 
 of flags link]
+
+... See also Frozenice's special form to list pages based on flags [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=formedit at "User:Frozenice/Customized_Lists_Test&action=formedit", use as example], or [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=edit view the source]
 
 Doug: Suggesting to remove temporarily the flags (without deleting the data) and put the readyness
 
