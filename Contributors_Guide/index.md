@@ -1,4 +1,4 @@
-=Contributor's Guide=
+=Contribute To Web Platform Docs=
 
 {{Languages}}
 
