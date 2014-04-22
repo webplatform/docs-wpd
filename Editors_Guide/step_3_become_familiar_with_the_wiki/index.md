@@ -4,13 +4,11 @@
 }}
 {{Summary_Section|This is Step 3 of the [[WPD:Editors_Guide|Editor's Guide]].}}
 {{Basic Page}}
-==Step 3: Become familiar with the wiki==
+==Become familiar with the wiki==
 ===If you can't wait, start contributing right away===
 Begin reviewing, marking, and editing pages using these resources:
 * Go to the [[WPD:Getting_Started| Getting Started page]] to find lists of pages that need specific attention.
 * Join [[Meta:web_platform_wednesday|Web Platform Wednesdays]] to help with the current content drive.
-* Check out [[WPD:Editors_Guide/step_4_review_existing_content| Step 4]] to learn how to add comments and flag pages.
-* Review [[WPD:Editors_Guide/step_5_update_existing_content| Step 5]] to see how to use the correct wiki syntax.
 
 ===Understand the WebPlatform project's mission and policies===
 * Watch the [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| shorter project overview video] or the [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ longer project video] to learn about the goals of the WebPlatform wiki.
@@ -19,7 +17,7 @@ Begin reviewing, marking, and editing pages using these resources:
 
 ===Explore the web development docs===
 * Join [[Meta:web_platform_wednesday|Web Platform Wednesdays]] to help with the current content drive.
-* Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation. 
+* Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
