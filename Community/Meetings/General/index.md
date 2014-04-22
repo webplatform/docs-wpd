@@ -15,10 +15,15 @@ Web Platform community meetings occur on [http://everytimezone.com/#2014-2-25,18
 '''VOIP:'''  sip:zakim@voip.w3.org
 
 '''IRC Channel:''' #webplatform
-[irc://irc.freenode.net/webplatform irc]
-[http://webchat.freenode.net/?channels=#webplatform webchat]
+* [irc://irc.freenode.net/webplatform irc]
+* [http://webchat.freenode.net/?channels=#webplatform webchat]
+* [http://www.webplatform.org/chat/chatlogs/ or read the public log]
 
 We recommend that you follow both the audio conference and the IRC chat.  For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
+
+==Agenda 2014-04-22==
+
+[[WPD:Community/Meetings/General/2014/0422_raw_mtg_notes]]
 
 ==Agenda 2014-04-15==
 
