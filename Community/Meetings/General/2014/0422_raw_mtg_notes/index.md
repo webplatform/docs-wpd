@@ -167,6 +167,8 @@ of flags link]
 
 ... See also Frozenice's special form to list pages based on flags [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=formedit at "User:Frozenice/Customized_Lists_Test&action=formedit", use as example], or [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=edit view the source]
 
+... or re-use the [http://docs.webplatform.org/wiki/Template:Configurable_Query "Template:Configurable_Query" template] as the content of a page with the query you want to see results.
+
 Doug: Suggesting to remove temporarily the flags (without deleting the data) and put the readyness
 
 ... workflow. So later we can read the data from the former tags, remove the barrier of "red flags" for the 
