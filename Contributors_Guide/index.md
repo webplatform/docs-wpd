@@ -1,9 +1,9 @@
 =Contribute To Web Platform Docs=
 
 {{Languages}}
+Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.
 
 <h2>Where To Start</h2>
-Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.
 
 <h3>Step 1: Get an Account.</h3>
 <p>Anyone is welcome to make changes to the pages on [[Main_Page|docs.webplatform.org]]. First, [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup create an account]. Then [http://docs.webplatform.org/w/index.php?title=Special:UserLogin log in] and edit pages. It's that easy.</p>
