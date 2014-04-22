@@ -1,6 +1,17 @@
-=Be part of the community!=
+=Connect. Be part of our WPD community.=
 
 {{Languages}}
+
+(This page is undergoing an overhaul by Jen. This will be a place for all the information about how to connect to other folks working on the project.)
+* IRC Info
+* Mailing List info
+* Everything from this old "step 2" page. http://docs.webplatform.org/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community
+
+I want to remove some of the things that are listed below that are no longer active. 
+
+<hr>
+
+==Original Page==
 
 Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether you're just starting in your career or are already a seasoned web professional, we encourage you to [[WPD:Editors_Guide/step_2_communicate_with_the_online_community|get involved with the community]].
 
