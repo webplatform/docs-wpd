@@ -201,6 +201,8 @@ Renoir validated how to query, points out address and other know tools
 
 ... [http://webplatform.frozenice.de/pageinfo.html#css/properties/border-radius page example "border radius"]
 
+... Or see for a property possible values, e.g. [http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&value=Examples%20Best%20Practices Content_quality_flag], and query them [http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&value=Examples%20Best%20Practices from the Special:SearchByProperty view]
+
 Eliot:   Could do something like the W3C specs use. See this for the blue stripe: [http://www.w3.org/TR/html-polyglot/ in TR/html-polyglot, see the blue stripe]
 
 ... Doug pulls foot from mouth
