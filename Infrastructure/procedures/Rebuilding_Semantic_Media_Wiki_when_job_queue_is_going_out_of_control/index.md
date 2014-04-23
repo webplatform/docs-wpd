@@ -24,20 +24,21 @@ Note that number is getting bigger and bigger, it is expectable that they are mo
 == Things to know ==
 * If the database setup has one master and multiple slave, make sure you do them on the master only, the slaves should follow. Doing the opposite might break the consistency of the database cluster.
 * The cronjobs should ideally, in the scripts, use the timeout utility with a maximum duration of an hour. Doing this prevents to have multiple long running tasks slowly eating all CPU resources.
-* MediaWiki configuration file should show you which is the master database server and slave. Only the first entry can read and write to the database, the other entries are read-only.
+* MediaWiki configuration file (see code below) should show you which is the database master, and which is the read only ("slave"). Only the first entry with <code>load=0</code> can read+write, the other entries are read-only.
 <syntaxhighlight>
 root@app5:/home/renoirb# head -n 40 /srv/webplatform/wiki/CurrentSettings.php
 <?php
 // ... truncated file notes ...
 $wgDBservers = array(
         array(
-                'host' => "master.db.wpdn",
-                'dbname' => "wpwiki",
-                'user' => "HIDDENINFORMATION",
+                'host' => "master.db.wpdn",        // < The salt states ensures
+                'dbname' => "wpwiki",              //     that the master database server
+                'user' => "HIDDENINFORMATION",     //     has this hostname among all VMs.
                 'password' => "HIDDENINFORMATION",
                 'type' => "mysql",
                 'flags' => DBO_DEFAULT,
-                'load' => 0,
+                'load' => 0     //  < This means read AND write, 
+                                //      it is specific to the master.
         ),
 );
 if ( !$wgCommandLineMode ) {
@@ -48,12 +49,24 @@ if ( !$wgCommandLineMode ) {
                 'password' => "HIDDENINFORMATION",
                 'type' => "mysql",
                 'flags' => DBO_DEFAULT,
-                'load' => 1,
+                'load' => 1    //  < This means read ONLY
         );
 }
 </syntaxhighlight>
-* Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in Fastly, in the "Hosts" within "Configure" for the appropriate service. Current configuration is that two VMs have the load in equal portion, and a third is available in case the two first cannot meet the requests.
-* The app server that generally run the cron job has the lowest traffic
+
+* Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in [https://app.fastly.com/ Fastly admin panel], in the "Hosts" within "Configure" for the appropriate service. Current configuration is that three <code>app*</code> VMs have the load in equal portions and a fourth one is not exposed at all. Cronjobs are run on that one.
+
+[[File:fastly-docs-service-hosts-screenshot.png]]
+
+* To know which VMs are <code>app*</code> servers, run the following.
+
+<syntaxhighlight>
+renoirb@deployment:~$ nova list | grep app
+| ... | app3  | ACTIVE | None       | Running     | vmnet=10.0.0.32, 208.113.157.171 |
+| ... | app4  | ACTIVE | None       | Running     | vmnet=10.0.0.18, 208.113.157.173 |
+| ... | app5  | ACTIVE | None       | Running     | vmnet=10.0.0.2, 208.113.157.166  |
+| ... | app6  | ACTIVE | None       | Running     | vmnet=10.0.0.14, 208.113.157.162 |
+</syntaxhighlight>
 
 == Steps ==
 === In summary ===
