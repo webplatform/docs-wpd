@@ -54,11 +54,12 @@ if ( !$wgCommandLineMode ) {
 }
 </syntaxhighlight>
 
-* Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in [https://app.fastly.com/ Fastly admin panel], in the "Hosts" within "Configure" for the appropriate service. Current configuration is that three <code>app*</code> VMs have the load in equal portions and a fourth one is not exposed at all. Cronjobs are run on that one.
+* Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in [https://app.fastly.com/ Fastly admin panel], in the "Hosts" within "Configure" for the appropriate service. Current configuration is that two <code>app*</code> VMs have the load in equal portions (200), the 3rd VM is exposed as a backup load (190, see B, in attached image). The 3rd is ready if the two first ones can't serve all requests. 
+* The cronjobs are run from a 4th app server that is not exposed at all. In the ''app server VM listing'' below, it's currently "app5".
 
 [[File:fastly-docs-service-hosts-screenshot.png]]
 
-* To know which VMs are <code>app*</code> servers, run the following.
+* '''app server VM listing''. To know which VMs are <code>app*</code> servers, run the following.
 
 <syntaxhighlight>
 renoirb@deployment:~$ nova list | grep app
