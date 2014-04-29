@@ -16,11 +16,14 @@ Scared you'll make a mistake? Try our [[WPD:Practice_Page|practice page]]. You c
 Web Platform Docs currently uses MediaWiki, the same software that drives Wikipedia. If you are trying to format something, this [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax cheat sheet] might be helpful.
 
 <h3>Step 3: Join the Group Email List and Introduce Yourself.</h3>
-Next, sign up for our group email — the place where everyone who's involved talks to each other. Join the list by emailing an empty message with the subject “subscribe” to public-webplatform-request@w3.org from the email address you'd like to use.
+
+Next, sign up for our group email. This is where everyone who's involved talks to each other. Join the list by emailing an empty message with the subject “subscribe” to [mailto:public-webplatform-request@w3.org public-webplatform-requests] from the email address you'd like to use. 
+
+If you never been in touch with mailing lists, take note of the following. Mailing lists at w3.org are handled with two addresses, one that has the word ''-requests'', that is a self-service bot, and the main mailing list. You just need to remember that the conversation happens on [mailto:public-webplatform@w3.org public-webplatform] (i.e. without -requests).
 
 Once you are on the list, please email the group and introduce yourself. Who are you? What would you like to contribute? Are you unsure of what to work on — that's fine. Reach out to us, and we'll be happy to find something for you. Do have have a suggestion on how WPD can be better? We'd love to hear it.
 
-You can read the archives and learn more about how the email list works  [http://lists.w3.org/Archives/Public/public-webplatform|here].
+You can read the archives and learn more about how the email list works  [http://lists.w3.org/Archives/Public/public-webplatform on the ''lists.w3.org/Archives/Public/public-webplatform''] archive site.
 
 <h2>What's Next</h2>
 (Currently in progress...)
