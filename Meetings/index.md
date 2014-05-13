@@ -2,7 +2,9 @@ Web Platform community meetings occur every week on [http://everytimezone.com/#2
 
 {{Note|1=[http://docs.webplatform.org/wiki/WPD:Content_Meetings The Content Meetings] are currently where we're convening. }}
 
+'''The rest of this information is out-of-date and maintained for archival purposes only.'''  Agendas and minutes for current meetings are distributed via the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform email list].
 
+<!--
 ==Telcon Info==
 '''Toll-free dial-in number (U.S. and Canada):''' +1(866) 243-6264 
 
@@ -13,7 +15,7 @@ Web Platform community meetings occur every week on [http://everytimezone.com/#2
 We simultaneously meet in the #webplatform-site IRC channel on irc.freenode.org. Afterwards we will send out minutes.
 
 Anyone can call in free of charge by using [http://www.skype.com Skype].
-
+-->
 == Agenda 4 December 2012 ==
 
 <ul>
