@@ -1,7 +1,7 @@
 {{Page_Title|The famous CSS 'practice' property}}
 {{Flags
 |High-level issues=Stub, Needs Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
@@ -28,6 +28,11 @@
   /* make sure to practice HTML regularly */
   practice: weekly;
 }
+}}{{Single Example
+|Language=JavaScript
+|Description=getting to know WPD editing
+|Code=alert('Hello world!');
+|LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
 }}
 }}
 {{Notes_Section
@@ -49,7 +54,7 @@
 {{See_Also_Section
 |Topic_clusters=Performance
 }}
-{{Topics|Developer Tools}}
+{{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
