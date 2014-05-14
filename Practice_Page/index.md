@@ -1,7 +1,7 @@
 {{Page_Title|The famous CSS 'practice' property}}
 {{Flags
 |High-level issues=Stub, Needs Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
