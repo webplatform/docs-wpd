@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the Edit button to practice editing without consequences.}}
+{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Everything
@@ -57,7 +57,4 @@
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
