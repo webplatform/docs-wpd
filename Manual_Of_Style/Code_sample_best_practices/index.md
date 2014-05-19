@@ -30,7 +30,7 @@ When you approach a code sample, try to put yourself in the readers’ shoes. As
 *“Where do I go to learn more? What OTHER resources are easily available?” 
 ==Best practices==
 Creating code snippets or developing full samples share many best practices:
-*Comment your code well. It can be frustrating to have to determine what a sample is doing at any one point.
+*Comment your code well. It can be frustrating to have to determine what a sample is doing at any one point. For example, see http://code.webplatform.org/gist/9011914.
 *Keep it easy to scan the code. 
 **Use consistent indenting and other formatting. WPD uses two spaces for each indentation. 
 **Ensure the sample flows logically from start to finish.
@@ -85,7 +85,4 @@ Some final suggestions: Be simple. Be straightforward. Do not try to impress. Ju
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
