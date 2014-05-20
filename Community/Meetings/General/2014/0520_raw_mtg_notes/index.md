@@ -2,6 +2,7 @@
 
 On IRC, and call:
 * renoirb (scribe)
+* AmeliaBR
 * shepazu (chair)
 * Julee
 * Eliot
