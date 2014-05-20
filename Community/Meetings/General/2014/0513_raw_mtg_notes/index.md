@@ -16,7 +16,8 @@ On IRC:
 
 == Topics ==
 
-* Topic page formatting
+* Discussing scheduling of telecon re DocSprint Europe
+* Page formatting
 * Readiness markers
 
 == Notes ==
@@ -40,7 +41,7 @@ shepazu:  if SVG is main focus, need to make sure people are familiar
 (i.e., rescheduled telcon)
 </pre>
 
-=== Topic page formatting ===
+=== Page formatting ===
 <pre>
 All agreed, minus sarcasm from shepazu, that tables are ugly and confusing
 Jen:  Should only have title, not path, should be list not table
