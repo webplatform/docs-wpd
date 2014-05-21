@@ -1,6 +1,6 @@
 = OAuth Study notes =
 
-See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread]. Testing something
+See [http://notes.webplatform.org/stream?tags=gist-9837155 annotations thread].
 
 == What is OAuth? ==
 
