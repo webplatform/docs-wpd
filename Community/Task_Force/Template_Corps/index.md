@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Community/Task Force/Templates]]
