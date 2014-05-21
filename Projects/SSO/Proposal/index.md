@@ -1,4 +1,4 @@
-===Goals==
+==Goals==
 * Annotation on WPD by signing into MW
 * Annotation on specs without a pop-up
 
