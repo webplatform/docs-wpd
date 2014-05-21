@@ -9,7 +9,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 **[[dom/methods/ChooseColorDlg]]
 **[[dom/properties/canHaveChildren]]
 **[[dom/properties/compatible]]
-**[[dom/clipboardData]]
+**[[dom/ClipboardData]]
 **[[dom/methods/getAttribute_(userProfile)]]
 **[[dom/methods/dragDrop]]
 **[[dom/properties/cpuClass]]
@@ -37,7 +37,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 **[[dom/properties/reason2]] - find the event that uses this property.
 **[[dom/methods/cancelBubble]] - should probably be removed.
 **[[dom/objects/dataTransfer]] - change its URL to be property related one or something (?).
-**[[dom/clipboardData]] - needs an offer for an alternative, standard (track) implementation (event.dataTransfer?)
+**[[dom/ClipboardData]] - needs an offer for an alternative, standard (track) implementation (event.dataTransfer?)
 **[[dom/properties/defaultValue]] should link to the value HTML attribute. A page for which does not seem to exist.
 *Needs support for multiple values in the "Applies to..." field -
 {|
@@ -73,7 +73,7 @@ A list of required actions in the long run, mostly due to the fact that the curr
 |[[dom/Document]], [[dom/Element]]
 |-
 |[[dom/methods/setData]], [[dom/methods/getData]], [[dom/methods/clearData]]
-|[[dom/objects/dataTransfer]], [[dom/clipboardData]]
+|[[dom/objects/dataTransfer]], [[dom/ClipboardData]]
 |-
 |[[apis/file/methods/abort]]
 |[[apis/file/FileReader]], [[apis/file/MSStreamReader]]
