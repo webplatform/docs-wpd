@@ -26,5 +26,11 @@ We are currently forking the following components based on recommended version/t
 * [https://github.com/webplatform/fxa-content-server fxa-content-server], using branch oauth
 * [https://github.com/webplatform/fxa-content-server-l10n fxa-content-server-l10n], adjusting content based off of the same branch as fxa-content-server
 * [https://github.com/webplatform/fxa-js-client fxa-js-client], that is installed within fxa-content-server via the bower.json file
-* [https://github.com/webplatform/fxa-auth-server fxa-auth-server]
+* [https://github.com/webplatform/fxa-auth-server fxa-auth-server], branch train-11
 * [https://github.com/webplatform/fxa-oauth-server fxa-oauth-server]
+
+=== Changes ===
+
+* Accept two fields [username, fullName] and allow forcing created date
+** [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
+** [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client]
