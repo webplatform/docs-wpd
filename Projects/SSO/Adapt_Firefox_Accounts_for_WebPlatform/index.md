@@ -32,5 +32,5 @@ We are currently forking the following components based on recommended version/t
 === Changes ===
 
 * Accept two fields [username, fullName] and allow forcing created date
-** [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
-** [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client]
+** [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server issue #1], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
+** [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client issue #1]
