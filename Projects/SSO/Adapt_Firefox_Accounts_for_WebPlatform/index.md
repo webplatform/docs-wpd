@@ -20,17 +20,16 @@ Our use of FxA will be limited to a minimum to suit our needs. In the future, we
 
 === Components ===
 
-We are currently forking the following components based on recommended version/tags from the Mozilla fxa group.
+We forked the following components based on recommended version/tags from the Mozilla fxa team.
 
-
-* [https://github.com/webplatform/fxa-content-server fxa-content-server], using branch oauth
+* [https://github.com/webplatform/fxa-content-server fxa-content-server], using branch master
 * [https://github.com/webplatform/fxa-content-server-l10n fxa-content-server-l10n], adjusting content based off of the same branch as fxa-content-server
 * [https://github.com/webplatform/fxa-js-client fxa-js-client], that is installed within fxa-content-server via the bower.json file
-* [https://github.com/webplatform/fxa-auth-server fxa-auth-server], branch train-11
+* [https://github.com/webplatform/fxa-auth-server fxa-auth-server], branch webplatform-customizations
 * [https://github.com/webplatform/fxa-oauth-server fxa-oauth-server]
 
 === Changes ===
 
-* Accept two fields [username, fullName] and allow forcing created date
-** [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server issue #1], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
+# Accept two fields [username, fullName] and allow forcing created date
+## [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server issue #1], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
 ** [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client issue #1]
