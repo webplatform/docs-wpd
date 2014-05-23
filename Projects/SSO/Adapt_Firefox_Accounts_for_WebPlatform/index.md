@@ -30,6 +30,7 @@ We forked the following components based on recommended version/tags from the Mo
 
 === Changes ===
 
-# Accept two fields [username, fullName] and allow forcing created date
+# Accept two fields [username, fullName] and allow forcing createdAt
 ## [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server issue #1], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
-** [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client issue #1]
+## [https://github.com/webplatform/fxa-js-client/issues/1 fxa-js-client issue #1]
+## [https://github.com/webplatform/fxa-content-server/issues/1 fxa-content-server issue #1]
