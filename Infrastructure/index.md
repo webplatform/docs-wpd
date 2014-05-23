@@ -12,18 +12,8 @@ Listing all sub pages from here.
 ! Deployed
 |- 
 | landing page
-|
+| [https://github.com/webplatform/www.webplatform.org (project on github)]
 | [http://webplatform.org/ webplatform.org/]
-| yes
-|-
-| Stewards pages
-|
-| [http://webplatform.org/stewards/ webplatform.org/stewards/]
-| yes
-|-
-| Logo page
-|
-| [http://webplatform.org/logo/ webplatform.org/logo/]
 | yes
 |-
 | wiki
@@ -31,15 +21,10 @@ Listing all sub pages from here.
 | [http://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
 | yes
 |-
-| forums
-| [http://www.question2answer.org/ Question2Answer]
-| [http://talk.webplatform.org/forums/ talk.webplatform.org/forums/]
-| no, removed
-|-
-| IRC
-| [http://qwebirc.org/ qwebirc]
-| [http://talk.webplatform.org/chat/ talk.webplatform.org/chat/]
-| no, removed
+| IRC logger
+| [http://classam.github.io/pierc/ Lumberjack (now called Pierc)]
+| [http://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
+| yes
 |-
 | metrics
 | [http://piwik.org/ Piwik]
@@ -56,23 +41,13 @@ Listing all sub pages from here.
 | [http://code.webplatform.org/ code.webplatform.org/]
 | yes
 |-
-| Learning Management System
-| [http://moodle.org/ Moodle]
-| [http://teach.webplatform.org/ teach.webplatform.org/]
-| no
-|-
-| Event calendar
-| 
-| [http://events.webplatform.org/ events.webplatform.org/]
-| no
-|-
-| Test management
-| 
-| [http://tests.webplatform.org/ tests.webplatform.org/]
-| no
-|-
 | Project management and bugs
 | [http://www.thebuggenie.com/ The Bug Genie]
 | [http://project.webplatform.org/ project.webplatform.org/]
+| yes
+|-
+| Accounts
+| [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
+| [https://accounts.webplatform.org/ accounts.webplatform.org/]
 | yes
 |}
