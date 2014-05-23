@@ -48,6 +48,6 @@ Listing all sub pages from here.
 |-
 | Accounts
 | [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
-| [https://accounts.webplatform.org/ accounts.webplatform.org/]
-| yes
+| 
+| no
 |}
