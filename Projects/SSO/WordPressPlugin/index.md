@@ -12,6 +12,7 @@ See the following hooks:
 * How to find user, Create one if inexistent
 * How to start a session
 
+
 = Tests =
 
 == On login attempt, send to RP ==
@@ -26,9 +27,10 @@ function prout( )
 }
 </syntaxhighlight>
 
+
 == Unsorted pointers ==
 
-* http://codex.wordpress.org/Function_Reference/wp_set_auth_cookie
+* [http://codex.wordpress.org/Function_Reference/wp_set_auth_cookie wp_set_auth_cookie]
 * [http://core.trac.wordpress.org/browser/tags/3.9.1/src/wp-includes/pluggable.php#L0  set_current_user hoook]
 * http://wordpress.stackexchange.com/questions/83985/auto-log-in-hook-is-requiring-a-page-refresh
 * https://codex.wordpress.org/Plugin_API/Action_Reference
