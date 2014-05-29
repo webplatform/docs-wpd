@@ -18,3 +18,6 @@ $wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://ssl.webplatform.org/v1
 $wgWebPlatformAuth['methods']['authorize']     = 'authorization';
 $wgWebPlatformAuth['methods']['token']         = 'token';
 </syntaxhighlight>
+
+== Links ==
+* [http://www.mediawiki.org/wiki/Manual:How_to_debug How to debug MW]
