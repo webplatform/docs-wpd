@@ -7,7 +7,7 @@
 
 == Configuration sample ==
 
-To use our Accounts server, you have to ask us [mailto:team-webplatform-systems@w3.org] to add your webapp to our OAuth Resource Server.
+To use our Accounts server, you have to ask us [mailto:team-webplatform-systems@w3.org on the team-webplatform-systems mailing list] to add your webapp to our OAuth Resource Server.
 
 <syntaxhighlight>
 require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
