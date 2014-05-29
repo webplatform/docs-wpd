@@ -2,8 +2,6 @@
 
 Not done yet. Taking notes.
 
-See the following hooks:
-* [https://github.com/WordPress/WordPress/blob/master/wp-login.php#L37 login_head]
 
 = To do =
 
