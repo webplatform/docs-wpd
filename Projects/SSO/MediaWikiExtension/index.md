@@ -3,7 +3,7 @@
 == Repositories ==
 
 * [https://github.com/webplatform/mediawiki-fxa-sso GitHub]
-* [https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FWebPlatformAuth gitblit], [https://gerrit.wikimedia.org/r/#/admin/projects/mediawiki/extensions/WebPlatformAuth config]
+* Wikimedia Gerrit ([https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FWebPlatformAuth gitblit],  [https://gerrit.wikimedia.org/r/#/admin/projects/mediawiki/extensions/WebPlatformAuth clone project])
 
 == Configuration sample ==
 
