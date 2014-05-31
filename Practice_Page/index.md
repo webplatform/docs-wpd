@@ -33,6 +33,10 @@
 |Description=getting to know WPD editing
 |Code=alert('Hello world!');
 |LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
+}}{{Single Example
+|Language=JavaScript
+|Description=Foo the Bar Baz, boy.
+|Code=console.log("foo");
 }}
 }}
 {{Notes_Section
