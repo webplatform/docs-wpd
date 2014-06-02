@@ -63,6 +63,13 @@ Based on the data received from the profile server, we initialize a session loca
 * Create a new user if not
 * Start local session, cookies, etc.
 
+Also, from the state key, we can resume where we were by retrieving what was stored originally in Memcache. Once the handshake is finished, we delete the content of that state.
+
+In the case of mediawiki, we are storing the redirect url and looks like this:
+
+<syntaxhighlight>{return_to: 'http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows'}</syntaxhighlight>
+
+Based on that information, we issue a redirect and the user is back where he was.
 
 == SSO and remembering ==
 
