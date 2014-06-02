@@ -1,5 +1,7 @@
 = MediaWiki SSO using Firefox Accounts =
 
+This page describes various details on how to install and find code specific to WebPlatform.org SSO installation related to MediaWiki. To have an higher level description of how we implemented it, see [[WPD:Projects/SSO/How_we_implemented_it]].
+
 == Repositories ==
 
 * [https://github.com/webplatform/mediawiki-fxa-sso GitHub]
