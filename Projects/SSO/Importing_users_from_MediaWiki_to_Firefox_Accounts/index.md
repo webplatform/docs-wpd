@@ -19,6 +19,7 @@ See canonical version in this [https://gist.github.com/WebPlatformDocs/5543e6314
 See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-mediawiki_sql_query-md REAMDE in original gist]
 
 * Run this query from MySQL Workbench.
+
 <syntaxhighlight>
     SELECT
       CONVERT(user_name USING utf8),
@@ -29,7 +30,8 @@ See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-medi
       user
     ORDER BY user_id
     limit 40000;
-<syntaxhighlight>
+</syntaxhighlight>
+
 * Export the result in a file `users.csv`, it’ll be used to import
 * Make sure the output is a CSV file 
 ** one entry per line
