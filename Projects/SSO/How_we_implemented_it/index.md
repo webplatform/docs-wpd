@@ -28,7 +28,7 @@ Based on that we have to make a under the hood request back to the OAuth server,
 
 This call is from the backend server (i.e. MediaWiki in PHP) that isn’t visible from the web browser.
 
-Using the POST https://oauth.accounts.webplatform.org/v1/authorization we send a set of data
+Behind the scene (not visible in the browser), we send a POST to the endpoint along with some private data:
 
 * client key
 * client secret
@@ -40,7 +40,7 @@ More details about that part in [[#SSO and remembering]]
 
 With a bearer token, wen can read from our first OAuth protected API: The profile server.
 
-**NOTE** Anybody who has an OAuth Bearer token could eventually act as the user. At the time, the only protected service is the profile server, but we might want to protect other components later down the road.
+'''NOTE''' Anybody who has an OAuth Bearer token could eventually act as the user. At the time, the only protected service is the profile server, but we might want to protect other components later down the road.
 
 
 === 4. Reading data from the profile server ===
@@ -65,8 +65,6 @@ Based on the data received from the profile server, we initialize a session loca
 
 Also, from the state key, we can resume where we were by retrieving what was stored originally in Memcache. Once the handshake is finished, we delete the content of that state.
 
-In the case of mediawiki, we are storing the redirect url and looks like this:
-
 <syntaxhighlight>{return_to: 'http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows'}</syntaxhighlight>
 
 Based on that information, we issue a redirect and the user is back where he was.
@@ -75,7 +73,7 @@ Based on that information, we issue a redirect and the user is back where he was
 
 Provided we would have a way to store the user Bearer token somewhere and that other WebPlatform client application would be able to retrieve it, we would be able to have this password less login.
 
-Since the Bearer token has a long enough lifetime that we could store it and retrieve it internally at will and create pasword less login for all other applications.
+Since the Bearer token has a long enough lifetime that we could store it and retrieve it internally at will and create password less login for all other applications.
 
 This key has a lot of value for potential attackers because it is the only key that would allow to impersonate anybody. This is why we should make sure it isn’t accessible publicly.
 
