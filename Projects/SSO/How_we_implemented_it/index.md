@@ -8,7 +8,9 @@ It is meant to give a high level overview of the parts without going too much in
 
 === 1. From a page, when you click login ===
 
-Generate a link that summarize where you were ("state"), store that to memcache, go to the authentication with client key ("client") so you see where to login, you would see "Sign in to WebPlatform Test" (see attachment: sso_steps_login.png).
+Generate a link that summarize where you were ("state"), store that to memcache, go to the authentication with client key ("client") so you see where to login, you would see "Sign in to WebPlatform Test".
+
+[[File:sso_steps_login_dialog.png]]
 
 Once it worked (or after creating an account) it sends you to the callback. The callback is defined in the OAuth server configuration —not in the URL, like it is in most case, and the reason of security breach.
 
