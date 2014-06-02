@@ -48,8 +48,10 @@ The idea is that we would like to not change behavior for users when they login 
 * we do not want to change FxA too much (i.e. not break updates).
 * since the [https://github.com/mozilla/fxa-auth-server/wiki/onepw-protocol#login-obtaining-the-sessiontoken way to validate user uses cryptography based on the email], we cannot just fake emails in the field, we will need it at many places such as confirming the user email and it would be a too big change
 
+
 '''Proposed solution'''
-Since we already implemented to accept username in [[#Accept username field, and allow to force creation date]], we can create a set of API mirroring the original, but to find by username instead.
+
+Since we already implemented to accept username in [[#Accept username field, and allow to force creation date]], we can create a set of API mirroring the original, but to find by username.
 
 What we can do:
 * Create a distinct:
