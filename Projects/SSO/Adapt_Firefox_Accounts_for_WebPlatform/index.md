@@ -30,7 +30,7 @@ We forked the following components based on recommended version/tags from the Mo
 
 == Changes ==
 
-=== Accept username field, and allow to force creation date ==
+=== Accept username field, and allow to force creation date ===
 
 # Accept two fields [username, fullName] and allow forcing createdAt
 ## [https://github.com/webplatform/fxa-auth-server/issues/1 fxa-auth-server issue #1], patch [[File:fxa-auth-server-patch-0001-Adressing-1-for-fxa-auth-server.txt]]
@@ -44,11 +44,11 @@ We forked the following components based on recommended version/tags from the Mo
 
 The idea is that we would like to not change behavior for users when they login with their username. 
 
-==== Limitations ====
+'''Limitations'''
 * we do not want to change FxA too much (i.e. not break updates).
-* since the way to validate user uses cryptography based on the email, we cannot just fake emails in the field, we will need it at many places such as confirming the user email and it would be a too big change
+* since the [https://github.com/mozilla/fxa-auth-server/wiki/onepw-protocol#login-obtaining-the-sessiontoken way to validate user uses cryptography based on the email], we cannot just fake emails in the field, we will need it at many places such as confirming the user email and it would be a too big change
 
-==== Proposed solution ====
+'''Proposed solution'''
 Since we already implemented to accept username in [[#Accept username field, and allow to force creation date]], we can create a set of API mirroring the original, but to find by username instead.
 
 What we can do:
