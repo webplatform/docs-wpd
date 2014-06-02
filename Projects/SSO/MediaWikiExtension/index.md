@@ -14,7 +14,7 @@ require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
 $wgWebPlatformAuth['client']['id']             = '...';
 $wgWebPlatformAuth['client']['secret']         = '...';
 $wgWebPlatformAuth['endpoints']['fxa_oauth']   = 'https://oauth.accounts.webplatform.org/v1/';
-$wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://ssl.webplatform.org/v1/';
+$wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://profile.accounts.webplatform.org/v1/';
 $wgWebPlatformAuth['methods']['authorize']     = 'authorization';
 $wgWebPlatformAuth['methods']['token']         = 'token';
 </syntaxhighlight>
