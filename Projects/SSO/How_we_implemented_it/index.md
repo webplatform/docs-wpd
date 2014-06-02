@@ -4,6 +4,8 @@ The objective of this document is to describe the various moving parts involved 
 
 It is meant to give a high level overview of the parts without going too much in the code.
 
+Services refered to as FxA stands for Firefox Accounts, and we describe in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]] how we adapted it to our needs.
+
 == Steps ==
 
 === 1. From a page, when you click login ===
