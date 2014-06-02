@@ -14,7 +14,7 @@ See canonical version in this [https://gist.github.com/WebPlatformDocs/5543e6314
 * Go a folder up, create a new one and paste the following in it
 
 
-== 1. Import mediawiki Users ==
+== 1. Export MediaWiki Users ==
 
 See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-mediawiki_sql_query-md REAMDE in original gist]
 
@@ -37,18 +37,37 @@ See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-medi
 ** one entry per line
 ** Fields in this order:  username, realname, email, creation date
 
+Should look like...
+<syntaxhighlight>
+WikiSysop,,team-webplatform-admin@w3.org,"2012-05-29 17:37:32"
+NoEmailUser,"Eliot Graff",,"2012-06-26 00:17:47"
+</syntaxhighlight>
+
 == 2. Create file run.js ==
 
 See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-run-js run.js in original gist]
 
 <syntaxhighlight>
+
+/**
+ * Import MediaWiki accounts file to run
+ *
+ * To use within fxa-auth-server deployment.
+ *
+ * Based on work pushed in https://github.com/mozilla/fxa-auth-server/pull/711
+ *
+ * See documentation at http://docs.webplatform.org/wiki/WPD:Projects/SSO/Importing_users_from_MediaWiki_to_Firefox_Accounts
+ *
+ * @author David Kirstein <frozenice@frozenice.de> (http://webplatform.org)
+ * @author Renoir Boulanger <renoir@w3.org>
+ */
+
 var fs = require('fs');
 var Q = require('q');
 var csv = require('csv-streamify');
 var sleep = require('sleep');
 var AccountCreator = require('./accountscreator');
 
-// this would be in AccountCreator, it needs to return a promise
 function doSomethingWithLine(line) {
   var deferred = Q.denodeify(function(line){
     try {
@@ -70,7 +89,7 @@ var workItems = [], errors = [];
 
 parser.on('readable', function() {
   var line = parser.read(); // line is an array of fields
-  sleep.usleep(200 * 1000); // sleep 100 ms
+  sleep.usleep(100 * 1000); // sleep 100 ms
   var promise = doSomethingWithLine(line);
   promise.done(function onFulfilled() {
     // Nothing
@@ -106,6 +125,8 @@ See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-acco
  *
  * Based on work pushed in https://github.com/mozilla/fxa-auth-server/pull/711
  *
+ * See documentation at http://docs.webplatform.org/wiki/WPD:Projects/SSO/Importing_users_from_MediaWiki_to_Firefox_Accounts
+ * 
  * @author Renoir Boulanger <renoir@w3.org>
  */
 
