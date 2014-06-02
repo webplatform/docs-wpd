@@ -34,30 +34,28 @@ Using the POST https://oauth.accounts.webplatform.org/v1/authorization we send a
 
 It returns to you a "Bearer token" that we will use to send to the profile server.
 
-This is also where we could add what’s missing for [#SSO and remembering]. See what i’d do here in [#SSO and remembering]
+More details about that part in [[#SSO and remembering]]
 
-With a bearer token, wen can read from our first OAuth protected API: The profile server
+With a bearer token, wen can read from our first OAuth protected API: The profile server.
+
+**NOTE** Anybody who has an OAuth Bearer token could eventually act as the user. At the time, the only protected service is the profile server, but we might want to protect other components later down the road.
 
 
 === 4. Reading data from the profile server ===
 
-Anybody with a Bearer token can ask details of a user, its a specific HTTP call and you provide that token along the way, you basically end up with something in return or an error.
-
 In our case, that's what we want all client applications (WebPlatform live wiki, WebPlatform test wiki, Annotator, etc) wants to start from.
 
-Otherwise, we woule have to start all over again. My suggestion described at [#SSO and remembering] could resume from that step and save us the hassle to ask users to login from each client web application.
+Otherwise, we would have to start all over again. My suggestion described at [[#SSO and remembering]] could resume from that step and save us the hassle to ask users to login from each client web application.
 
 Assuming we have a valid Bearer token, we would get a JSON object looking like this:
 
-<syntaxhighlight>  
-{username: 'renoirb', fullName: 'Renoir Boulanger', email: 'renoir@w3.org'}
-</syntaxhighlight>
+<syntaxhighlight>{username: 'jdoe', fullName: 'John Doe', email: 'hi@example.org'}</syntaxhighlight>
 
-We can now start the local session.
+We can now start the session in the browser.
 
 === 5. Initialize local web application session ===
 
-Based on the data received from the profile server, we intialize a session locally.
+Based on the data received from the profile server, we initialize a session locally.
 
 * Check if it can find a user matching the given username
 * Create a new user if not
@@ -66,12 +64,15 @@ Based on the data received from the profile server, we intialize a session local
 
 == SSO and remembering ==
 
-Provided we would have a way to store the user Bearer token somewhere and that other WebPlatform client application would be able to retrieve it, we would be able to have this passwordless login.
+Provided we would have a way to store the user Bearer token somewhere and that other WebPlatform client application would be able to retrieve it, we would be able to have this password less login.
 
-By adding a routine to save to memcache what we get at step 3 [#How SSO is implemented], we could have all other clients web apps to start from step 4.
+Since the Bearer token has a long enough lifetime that we could store it and retrieve it internally at will and create pasword less login for all other applications.
 
-What it does:
-* Create a predictable key name for memcache
-* Store to memcache
-* Adjust MediaWiki extension to retrieve it
+This key has a lot of value for potential attackers because it is the only key that would allow to impersonate anybody. This is why we should make sure it isn’t accessible publicly.
+
+By adding a routine to save to memcache what we get at [[#3. Register authorization token]], we could have all other clients web apps to start from [[#4. Reading data from the profile server]].
+
+Steps:
+* Create a predictable key name and store it to memcache
+* Adjust MediaWiki Extension —and eventually other client web applications— to retrieve it
 * Make sure that memcache isn’t accessible publicly!
