@@ -203,11 +203,12 @@ See original [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-
 
 <syntaxhighlight>
 {
-  "name": "Import WebPlatform users",
+  "name": "mediawiki-to-fxa-user-importer",
   "version": "0.0.1",
   "dependencies": {
+    "q": "~1.0.0",
     "csv-streamify":"~1.0.0",
-    "gulp": "~3.6.2"
+    "sleep": "~1.1.5"
   }
 }
 </syntaxhighlight>
