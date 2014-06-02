@@ -2,7 +2,7 @@
 
 === Summary ===
 
-Firefox Accounts ("FxA") is an Identity Provider system made by Mozilla that has been rolled out with Firefox 29. It will eventually be the centerpiece for their Marketplace and other services, the first components are about authentication, and to serve as a Resource Provider.
+Firefox Accounts ("FxA") is an Identity Provider system made by Mozilla that has been rolled out with Firefox 29 released in May 2014. It will eventually be the centerpiece for their Marketplace and other services, the first components are about authentication, and to serve as a Resource Provider.
 
 WebPlatform is using its own fork of FxA to serve as a SSO and this document describes the changes that has been made to it.
 
