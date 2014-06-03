@@ -30,7 +30,7 @@ See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-medi
     FROM
       user
     ORDER BY user_id
-    limit 40000;
+    LIMIT 40000;
 </syntaxhighlight>
 
 * Export the result in a file `users.csv`, it’ll be used to import
