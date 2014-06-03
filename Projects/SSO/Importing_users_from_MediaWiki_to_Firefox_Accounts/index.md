@@ -69,17 +69,13 @@ var sleep = require('sleep');
 var AccountCreator = require('./accountscreator');
 
 function doSomethingWithLine(line) {
-  var deferred = Q.denodeify(function(line){
     try {
       var payload = new AccountCreator(line);
     } catch (err) {
-      throw err;
+      return Q.reject(err);
     }
 
     return payload.makePromiseToCreate();
-  });
-
-  return deferred(line);
 }
 
 var fstream = fs.createReadStream('users.csv');
