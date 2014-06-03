@@ -25,7 +25,8 @@ See also [https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-medi
       CONVERT(user_name USING utf8),
       CONVERT(user_real_name USING utf8),
       CONVERT(user_email USING utf8),
-      CONVERT(user_registration, DATETIME)
+      CONVERT(user_registration, DATETIME),
+      user_id
     FROM
       user
     ORDER BY user_id
