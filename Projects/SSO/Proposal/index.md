@@ -1,6 +1,7 @@
 ==Goals==
 * Annotation on WPD by signing into MW
-* Annotation on specs without a pop-up
+* Annotation on specs, using WPD account, without a pop-up
+* Use same account on various WPD web applications (i.e. test wiki, issue tracker, blog, etc)
 
 ==Known limitations==
 *  Users who opt-in to third-party cookie blocking cannot log in from the sidebar if it is served from its own domain
