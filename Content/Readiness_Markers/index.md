@@ -18,7 +18,23 @@ A document should be marked Almost Complete if it's 80% ready, but still needs s
 A document should be marked In Progress if work on it has officially begun, but it's not close to being ready yet. This marker will tell developers who may stumble across the page — hey, don't trust this documentation yet: It's not a reliable source of information, it's a page that's being heavily rewritten. Any page that's more than 10%, but less than 80% done should be marked In Progress. It doesn't matter whether there is active work being done on it currently or not. 
 
 ===Coming Later===
-A document should be marked Coming Later when it's just an idea. This can be used when someone has created a page, with a URL and a title, but not much else. It should also be used when content is imported from an outside source, but has not been looked at by WPD contributors or restructured for our system yet. 
+A document should be marked Coming Later when it's just an idea. This can be used when someone has created a page, with a URL and a title, but not much else. It should also be used when content is imported from an outside source, but has not been looked at by WPD contributors or restructured for our system yet.
+
+===Out of Date===
+A document should only be marked Out of Date if it was previously marked "Ready to Use" or "Almost Done", but is no longer accurate due to changes in the standards or implementations discussed.  Whenever possible, a document should be edited to update it instead of marking it out-of-date.
+
+===Unreviewed=== 
+A document is unreviewed if it has not had a state value assigned.  This value should not be set manually.
+
+==Statistics==
+
+Current numbers of articles with each status:
+*Ready to Use: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Ready to Use}}}}  {{#ask: [[State::Ready to Use]] | format=count}} articles])
+*Almost Done: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Almost Done}}}}  {{#ask: [[State::Almost Done]] | format=count}} articles])
+*In Progress: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:In Progress}}}}  {{#ask: [[State::In Progress]] | format=count}} articles])
+*Coming Later: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Coming Later}}}}  {{#ask: [[State::Coming Later]] | format=count}} articles])
+*Out of Date: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Out of Date}}}}  {{#ask: [[State::Out of Date]] | format=count}} articles])
+*Unreviewed: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Unreviewed}}}}  {{#ask: [[State::Unreviewed]] | format=count}} articles])
 
 ==Implementation==
 
