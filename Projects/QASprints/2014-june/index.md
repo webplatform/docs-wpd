@@ -119,6 +119,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 # frozenice (HTML & DOM)
 # Michaela (CSS & HTML)
 # Paulv
+# emerson (HTML/CSS/DOM)
 
 <!-- Your name here... -->
 
