@@ -106,18 +106,18 @@ An example with a custom title and existing flag information will look like
 
 '''Please add your name to this list if you're willing to contribute.'''  The amount of work that can be done will depend on the number of people we have.  There are 4400+ articles to review, it would be nice to have 20+ people tackling them; more people means fewer articles each.  However, we are not trying to solicit brand new contributors for this, like in a DocSprint.  Participants must be familiar with the mediawiki structure and understand the content quality expectations.
 
-If you indicate topic areas you are comfortable, with, I'll try to make most of your assigned articles in that domain, but there will be some overlap and I'm assigning things alphabetically (by file path) since that's how search results are ordered.
+If you indicate topic areas you are comfortable with, I'll try to make most of your assigned articles in that domain, but there will be some overlap and I'm assigning things alphabetically (by file path) since that's how search results are ordered.
 
-# shepazu  (SVG)
+# shepazu  (SVG, etc)
 # renoirb
 # jensimmons (CSS)
 # julee
 # eliot (Javascript)
-# AmeliaBR (SVG)
+# AmeliaBR (SVG, whatever's needed)
 # eliezerb
 # garbee
 # frozenice (HTML & DOM)
-# Michaela
+# Michaela (CSS & HTML)
 
 <!-- Your name here... -->
 
