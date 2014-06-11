@@ -120,7 +120,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 # Michaela (CSS & HTML)
 # Paulv
 # emerson (HTML/CSS/DOM)
-
+# brianjhong (HTML & CSS)
 <!-- Your name here... -->
 
 ==Plan of Attack==
