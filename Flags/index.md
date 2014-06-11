@@ -1,3 +1,5 @@
+{{Note | title=This content is out of date | Please see the [[WPD:Content/Readiness_Markers | Readiness Markers page]] for current information on how to mark a page as needing work.}}
+
 At WPD we use a system of Flags to mark articles that need work done on them. This helps the community keep track of what needs to be done and create automatic lists of things to do.
 
 Flags are used in conjunction with Editorial templates to provide more details. Whereas flags are used to mark high-level issues and allow editors to locate articles that require specific kinds of work, Editorial notes are used to describe what specifically sections of the page require.
@@ -22,7 +24,7 @@ These articles mark work items that an article needs to bring it up to our quali
 
 Different flags have different guidelines for when they should be used, and for if they should have editorial notes used along with them. '''Be sure to read the notes on each flag before using it.'''
 
-{{TODO | Create the bolded flags (the ones that are not yet created)}}
+{{TODO | Remove/archive out-of-date material, re-write page to focus on the automatically generated flags that are still in use.}}
 
 ===Content quality (high-level)===
 * [[WPD:Flags/Stub|Stub]]
