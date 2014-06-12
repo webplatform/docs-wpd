@@ -122,6 +122,8 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 # emerson (HTML/CSS/DOM)
 # brianjhong (HTML & CSS)
 # Rob^_^ (any)
+# Hiroki
+# Roberto
 <!-- Your name here... -->
 
 ==Plan of Attack==
