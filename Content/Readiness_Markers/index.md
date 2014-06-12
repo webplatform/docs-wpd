@@ -19,10 +19,10 @@ This state was called Almost Done / Almost Complete in earlier discussions of th
 ===In Progress===
 A document should be marked In Progress if work on it has officially begun, but it's not close to being ready yet. This marker will tell developers who may stumble across the page — hey, don't trust this documentation yet: It's not a reliable source of information, it's a page that's being heavily rewritten. Any page that's more than 10%, but less than 80% done should be marked In Progress. It doesn't matter whether there is active work being done on it currently or not. 
 
-===Needs Work===
-A document should be marked Needs Work when it's just an idea. This can be used when someone has created a page, with a URL and a title, maybe a "stub" summary, but not much else. It should also be used when content is imported from an outside source, but has not been looked at by WPD contributors or restructured for our system yet.
+===Not Ready===
+A document should be marked Not Ready when it's just an idea. This can be used when someone has created a page, with a URL and a title, maybe a "stub" summary, but not much else. It should also be used when content is imported from an outside source, but has not been looked at by WPD contributors or restructured for our system yet.
 
-This state was called Coming Later in earlier discussions of the readiness states.
+This state was called Coming Later in earlier discussions of the readiness states, and may still be renamed.
 
 ===Out of Date===
 A document should only be marked Out of Date if it was previously marked "Ready to Use" or "Almost Done", but is no longer accurate due to changes in the standards or implementations discussed.  Whenever possible, a document should be edited to update it instead of marking it out-of-date.
@@ -36,10 +36,10 @@ Current numbers of articles with each status:
 *Ready to Use: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Ready to Use}}}}  {{#ask: [[State::Ready to Use]] | format=count}} articles])
 *Almost Ready: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Almost Ready}}}}  {{#ask: [[State::Almost Ready]] | format=count}} articles])
 *In Progress: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:In Progress}}}}  {{#ask: [[State::In Progress]] | format=count}} articles])
-*Needs Work: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Needs Work}}}}  {{#ask: [[State::Needs Work]] | format=count}} articles])
+*Not Ready: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Not Ready}}}}  {{#ask: [[State::Not Ready]] | format=count}} articles])
 *Out of Date: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Out of Date}}}}  {{#ask: [[State::Out of Date]] | format=count}} articles])
 *Unreviewed: ([{{fullurl:Special:SearchByProperty|property=State&value={{urlencode:Unreviewed}}}}  {{#ask: [[State::Unreviewed]] | format=count}} articles])
-*Other values: ([{{fullurl:Special:SearchByProperty|property={{urlencode:Has improper value for}}State&value=State}}  {{#ask: [[Has improper value for::State]] | format=count}} articles])
+*Other values: ([{{fullurl:Special:SearchByProperty|property={{urlencode:Has improper value for}}&value=State}}  {{#ask: [[Has improper value for::State]] | format=count}} articles])
 
 ==Implementation==
 
@@ -67,6 +67,8 @@ The state value is printed to the page in the following format by the Flags temp
 </div>
 </syntaxhighlight>
 
-The "note" class is responsible for the current yellow-box display.  The "readiness-state" and state-specific class will be used for the final CSS.  The state-specific classes are created from the property values by replacing spaces with "_", so they are: "Ready_to_Use", "Almost_Ready", "In_Progress", "Needs_Work", "Out_of_Date".  (The "Unreviewed" value currently never results in a div being added to the page.)
+The "note" class is responsible for the current yellow-box display (and will probably be removed once the final design is ready).  
+
+The "readiness-state" and state-specific class will be used for the final CSS.  The state-specific classes are created from the property values by replacing spaces with "_", so they are: "Ready_to_Use", "Almost_Ready", "In_Progress", "Not_Ready", "Out_of_Date".  (The "Unreviewed" value currently never results in a div being added to the page.)
 
 You can find the latest discussion about (and examples of) the proposed design for the markers on the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform email list].
