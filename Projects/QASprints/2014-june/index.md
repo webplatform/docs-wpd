@@ -138,89 +138,89 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 
 ==Article Blocks==
 
-The following article lists have been assigned to each volunteer:
+The following articles have been assigned to each volunteer by breaking the alphabetical search results into blocks of 275 articles each:
 
-; First 
+; renoirb
 :* [[/WPD:Editors Guide/step 2 communicate with the online community/ko]] to [[apis/filesystem/Entry/isDirectory]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=0&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; Second
+; garbee
 :* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=275&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 3
+; eliot
 :* [[apis/navigation timing/PerformanceTiming/fetchStart]] to [[apis/webrtc/RTCPeerConnection/icechange]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=550&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 4
+; Paulv
 :* [[apis/webrtc/RTCPeerConnection/identityresult]] to [[concepts/ux/user experience design]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=825&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 6
+; brianjhong
 :* [[concepts/ux/what does a good web page need]] to [[css/functions/translateY()]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1100&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 7
+; Michaela
 :* [[css/functions/translateZ()]] to [[css/properties/min-height]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1375&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 8
+; jensimmons
 :* [[css/properties/min-width]] to [[dom/Document/close]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1650&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 9
+; emerson
 :* [[dom/Document/cookie]] to [[dom/HTMLElement/clientLeft]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1925&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 10
+; frozenice
 :* [[dom/HTMLElement/clientTop]] to [[dom/MouseEvent/layerX]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 11
+; Rob^_^
 :* [[dom/MouseEvent/layerY]] to [[dom/constants/DOM exception error codes]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2475&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 12
+; julee
 :* [[dom/constants/HTTP response headers]] to [[html/attributes/valueType]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2750&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 13
+; Hiroki
 :* [[html/attributes/vcard name]] to [[javascript/Date/constructor]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3025&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 14
+; Roberto
 :* [[javascript/Date/getDate]] to [[javascript/operators/logical and]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3300&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 15
+; Eliezerb
 :* [[javascript/operators/logical not]] to [[svg/methods/inverse]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3575&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 16
+; AmeliaBR
 :* [[svg/methods/item]] to [[svg/properties/type (SVGTransform)]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3850&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; 5
+; shepazu
 :* [[svg/properties/unitType]] to [[tutorials/workers basics]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3125&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; leftovers (if you haven't had enough, take care of these extras:)
+; leftovers (if you haven't had enough, take care of these 12 pages)
 :* [[tutorials/working with objects in JavaScript]] and beyond
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4400&limit=275&po={{urlencode:?State 
 ?State Details
