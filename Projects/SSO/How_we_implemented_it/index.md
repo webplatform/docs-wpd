@@ -32,9 +32,9 @@ An entry in the OAuth server looks like this:
   ]
 </syntaxHighlight>
 
-* '''id''': Is a 8 byte hexadecimal string that you will need to have on the client configuration
-* '''secret''': Is a 32 byte hexadecimal string that you will also need on the client configuration.
-* '''redirectUri''': Is where you should send the users to when they successfully authenticated. 
+* <tt>id</tt>: Is a 8 byte hexadecimal string that you will need to have on the client configuration
+* <tt>secret</tt>: Is a 32 byte hexadecimal string that you will also need on the client configuration.
+* <tt>redirectUri</tt>: Is where you should send the users to when they successfully authenticated. 
 
 
 === 2. Configure client ===
@@ -66,13 +66,15 @@ Most of these requests aren’t made through the browser but through a server-si
 === 1. From a page, when you click login ===
 
 The web application generates and sends to an URI, it holds a few details:
-* The client identifier ("client_id")
-* What the application wants ("scope")
+* The client identifier ("<tt>client_id</tt>")
+* What the application wants ("<tt>scope</tt>")
 * What state it was in ("state"), this is a random key used to store inside a keystore such as memcache so we can retrieve the state data after the authentication process.
 
 Since the OAuth server knows who is the client, it adjusts the title to "Sign in to WebPlatform Test".
 
 [[File:sso_steps_login_dialog.png]]
+
+'''NOTE''' In the screenshot above, you see ''scope=profile'', since the snapshot, we changed the scope name to use the name ''session'' because we needed to differentiate web application that will use OAuth to create local sessions. The profile scope might be used for other purposes later down the road.
 
 Once the authentication worked (maybe the user had to create an account first) the OAuth server sends you to the <tt>callbackUri</tt>. 
 
