@@ -140,10 +140,82 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 
 The following article lists have been assigned to each volunteer:
 
-; First name
+; First 
 :* [[/WPD:Editors Guide/step 2 communicate with the online community/ko]] to [[apis/filesystem/Entry/isDirectory]]
-:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=0&limit=275&po={{urlencode:? State ?State Details}}&mainlabel={{urlencode:File Path}}&intro={{urlencode:Here are your assigned articles:}}&outro={{urlencode:Thanks for helping with the QASprint!}}&default={{urlencode:There was an error with the search...}}&class={{urlencode:sortable wikitable smwtable}} }} search page]
-:* [http://docs.webplatform.org/w/index.php?title=Special%3AAsk&q=%5B%5BState%3A%3A%2B%5D%5D&po=%3FState%0D%0A%3FState+Details%0D%0A&eq=yes&p%5Bformat%5D=broadtable&sort_num=&order_num=ASC&p%5Blimit%5D=275&p%5Boffset%5D=0&p%5Blink%5D=all&p%5Bsort%5D=&p%5Bheaders%5D=show&p%5Bmainlabel%5D=&p%5Bintro%5D=&p%5Boutro%5D=&p%5Bsearchlabel%5D=Tthanks+for+helping+with+the+QASprint%21&p%5Bdefault%5D=%28something+is+wrong+with+the+search%29&p%5Bclass%5D=sortable+wikitable+smwtable&eq=yes# search page]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=0&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; Second
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=275&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 3
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=550&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 4
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=825&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 6
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1100&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 7
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1375&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 8
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1650&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 9
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1925&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 10
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 11
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2475&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 12
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2750&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 13
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3025&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 14
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3300&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 15
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3575&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 16
+:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3850&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+
 
 ==Plan of Attack==
 
