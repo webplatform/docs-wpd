@@ -151,68 +151,78 @@ The following article lists have been assigned to each volunteer:
 ?State Details
 }} }} search page]
 ; 3
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[apis/navigation timing/PerformanceTiming/fetchStart]] to [[apis/webrtc/RTCPeerConnection/icechange]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=550&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 4
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[apis/webrtc/RTCPeerConnection/identityresult]] to [[concepts/ux/user experience design]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=825&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 6
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[concepts/ux/what does a good web page need]] to [[css/functions/translateY()]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1100&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 7
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[css/functions/translateZ()]] to [[css/properties/min-height]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1375&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 8
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[css/properties/min-width]] to [[dom/Document/close]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1650&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 9
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[dom/Document/cookie]] to [[dom/HTMLElement/clientLeft]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1925&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 10
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[dom/HTMLElement/clientTop]] to [[dom/MouseEvent/layerX]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 11
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[dom/MouseEvent/layerY]] to [[dom/constants/DOM exception error codes]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2475&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 12
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[dom/constants/HTTP response headers]] to [[html/attributes/valueType]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2750&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 13
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[html/attributes/vcard name]] to [[javascript/Date/constructor]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3025&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 14
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[javascript/Date/getDate]] to [[javascript/operators/logical and]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3300&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 15
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[javascript/operators/logical not]] to [[svg/methods/inverse]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3575&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; 16
-:* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
+:* [[svg/methods/item]] to [[svg/properties/type (SVGTransform)]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3850&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; 5
+:* [[svg/properties/unitType]] to [[tutorials/workers basics]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3125&limit=275&po={{urlencode:?State 
+?State Details
+}} }} search page]
+; leftovers (if you haven't had enough, take care of these extras:)
+:* [[tutorials/working with objects in JavaScript]] and beyond
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4400&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 
