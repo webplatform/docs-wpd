@@ -25,14 +25,14 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 # Does the page have an editing form?
 #;	NO:	
 #:*		follow basic templates to-do list.  
-#:*		Readiness = COMING LATER.   
+#:*		Readiness = NOT READY.   
 # Is the page in a language other than English?
 #;	YES:  leave Readiness = UNREVIEWED
 # Is the page an obvious mistake or deletion candidate?
 #;	YES:  
 #:*		add an explanation to the Details field (the text box under the Readiness State selector in the form), if it isn't already there
 #:*		delete all content from the page if it is particularly objectionable (It would be preferable if you don't delete the page even if you have permission, as this will throw off the search listings used to assign articles)
-#:*		leave Readiness = UNREVIEWED
+#:*		Readiness = NOT READY
 # Is this a DOM method page?  
 #;	YES:	
 #:*		follow DOM method to-do list.
@@ -48,7 +48,7 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 #:*		Compatibility
 #;  ''For TUTORIAL/CONCEPT pages:''  
 #:   Is this obviously a stub page without much content?
-#;	YES: Readiness = COMING LATER
+#;	YES: Readiness = NOT READY
 # Is there a good summary?
 #;	NO: Readiness = IN PROGRESS
 # Is there obvious bias towards one software (IE, Firefox)?  
@@ -87,27 +87,25 @@ For pages that don't currently have a page template/default form (the "Edit" but
 
 # Make sure that the first line in the code is the <code><nowiki>{{Page Title}}</nowiki></code> template.
 # If the page currently has an h1 heading (surrounded by one '=' on either side), add it as a parameter to the template, like <code><nowiki>{{Page Title | Text to use as title}}</nowiki></code>; delete it from the main text and don't include the `=` in the template parameter value.
-# Manually add the line <code>{{!}}State=Coming Later</code> to the <code><nowiki>{{Flags}}</nowiki></code> template (or one of the other state values, although I'm fairly certain any pages that don't have default forms will be "Coming Later").  
-#* If the flags template isn't there, add it as <code><nowiki>{{Flags|State=Coming Later}}</nowiki></code>.  
+# Manually add the line <code>{{!}}State=Not Ready</code> to the <code><nowiki>{{Flags}}</nowiki></code> template (or one of the other state values, although I'm fairly certain any pages that don't have default forms will be "Not Ready").  
+#* If the flags template isn't there, add it as <code><nowiki>{{Flags|State=Not Ready}}</nowiki></code>.  
 #* If there is a Flags template, be sure not to delete any existing parameters.
 
 The bare minimum will look like
 <pre>
    {{Page Title}}
-   {{Flags|State=Coming Later}}
+   {{Flags|State=Not Ready}}
 </pre>
 
 An example with a custom title and existing flag information will look like
 <pre>
    {{Page Title|multiply()}}
    {{Flags
-   |State=Coming Later
+   |State=Not Ready
    |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
    |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
    }}
 </pre>
-
-
 
 
 ==List of Volunteers==
