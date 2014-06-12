@@ -228,18 +228,14 @@ In run time order...
 
 ==== 1. Sign in to ("A") ====
 
-In our case, let’s connect through the staging ("A") wiki:
-
-<syntaxHighlight>http://docs.mroftalpbew.org/wiki/Main_Page</syntaxHighlight>
+In our case, let’s connect through the staging ("A") wiki http://docs.mroftalpbew.org/wiki/Main_Page
 
 Complete signin in process through the accounts server ("C"), and you should get back to the staging wiki with a session opened.
 
 
 ==== 2. Go to ("B"), another web app that also uses the accounts server ====
 
-In this example, let’s use the test ("B") wiki:
-
-<syntaxHighlight>http://docs.webplatform.org/test/Main_Page</syntaxHighlight>
+In this example, let’s use the test ("B") wiki http://docs.webplatform.org/test/Main_Page
 
 The following JavaScript MUST happen.
 
@@ -279,11 +275,21 @@ An endpoint accepts requests only from a limited set of IP addresses (only inter
 
     GET https://profile.accounts.webplatform.org/v1/session/recover?sessionToken=e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f
 
-The `session/recover` makes database queries similar to:
+The profile server endpoint at <tt>session/recover</tt> makes database queries similar to:
 
     SELECT HEX(s.uid) AS uid, a.normalizedEmail AS email, a.username AS username, a.fullName AS fullName FROM sessionTokens AS s, accounts AS a WHERE s.uid = a.uid AND tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
 
-Returns a JSON object:
+The database should either return an empty result, or user data:
+
+    +----------------------------------+----------------+----------+--------------+
+    | uid                              | email          | username | fullName     |
+    +----------------------------------+----------------+----------+--------------+
+    | 1F13A5DF833343AB937A25621AC85ECF | hi@example.org | jdoe     | John Doe     |
+    +----------------------------------+----------------+----------+--------------+
+
+==== 5. Returning the data to the server ====
+
+If the web application could get a response from <tt>session/recover</tt>, and finds a result, it returns a JSON object similar to:
 
     {username: 'jdoe', fullName: 'John Doe', email: 'hi@example.org'}
 
