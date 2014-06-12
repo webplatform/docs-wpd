@@ -165,6 +165,8 @@ Based on that information, we issue a redirect and the user is back where he was
 
 == SSO and remembering ==
 
+=== SSO and remembering, proposal 1 ===
+
 Provided we would have a way to store the user Bearer token somewhere and that other WebPlatform client application would be able to retrieve it, we would be able to have this password less login.
 
 Since the Bearer token has a long enough lifetime that we could store it and retrieve it internally at will and create password less login for all other applications.
@@ -177,3 +179,112 @@ Steps:
 * Create a predictable key name and store it to memcache
 * Adjust MediaWiki Extension —and eventually other client web applications— to retrieve it
 * Make sure that memcache isn’t accessible publicly!
+
+=== SSO and remembering, proposal 2 ===
+
+'''Story''': A user clicks on login on an SSO enabled webapp. Once the OAuth handshake finished, the session is opened on the accounts.webplatform.org server.
+
+How to get to know, somewhere else, that that handshake worked.
+
+In run time order...
+
+==== FxA needs the following code ====
+
+===== 0.1. In fxa-content-server, add =====
+
+<syntaxHighlight>
+      // WebPlatform Specific ===============================
+      // file: app/scripts/views/base.js
+      // line: 40
+      var fxaC = this.fxaClient;
+      function readAndReplyHasSession( e ) {
+        var b = window.localStorage.getItem('__fxa_session');
+        var sessionData = JSON.parse(b);
+
+        fxaC.isSignedIn(sessionData.sessionToken)
+            .done(
+              function( promised ){
+                e.source.postMessage({hasSession: promised, sessionToken: sessionData.sessionToken || null}, e.origin);
+              }
+            );
+      }
+      window.addEventListener("message", readAndReplyHasSession, false);
+      // /WebPlatform Specific ==============================
+</syntaxHighlight>
+
+===== 0.2. And adjust the CSP policies =====
+
+(Not ready yet)
+
+<syntaxHighlight>
+      // WebPlatform Specific ===============================
+      // file: server/bin/fxa-content-server.js
+      // line: 62
+      // Adjust helmet to accept xss from specific hosts
+      // see: https://github.com/evilpacket/helmet
+      //app.use(helmet.xframe('allow-from', 'http://docs.webplatform.org'));
+      // /WebPlatform Specific ==============================
+</syntaxHighlight>
+
+==== 1. Sign in to ("A") ====
+
+In our case, let’s connect through the staging ("A") wiki:
+
+<syntaxHighlight>http://docs.mroftalpbew.org/wiki/Main_Page</syntaxHighlight>
+
+Complete signin in process through the accounts server ("C"), and you should get back to the staging wiki with a session opened.
+
+
+==== 2. Go to ("B"), another web app that also uses the accounts server ====
+
+In this example, let’s use the test ("B") wiki:
+
+<syntaxHighlight>http://docs.webplatform.org/test/Main_Page</syntaxHighlight>
+
+The following JavaScript MUST happen.
+
+===== 2.1. From B, prepare to receive message from C popup =====
+
+This is where we listen to what we get from the accounts server, validate if a session exists, and trigger the calls to the profile server with the received data. (TODO)
+
+    window.addEventListener("message", function(returned){console.log(returned.data)}, false);
+
+===== 2.2. From B, open a popup to ("C") =====
+
+    var popup = window.open('https://accounts.webplatform.org', 'authchecker', "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");
+
+'''NOTE''' Ideally, it should be an iframe but we need to adjust Content Security Policies (TODO).
+
+===== 2.3. From B, Send trigger to ask message to the C window =====
+
+Since C already has event listener described in 0.1, we should be able to send the following trigger:
+
+    popup.postMessage("hi", "https://accounts.webplatform.org");
+
+'''NOTE''' At the moment, we are sending a post message with random data, we might change the trigger mechanism later.
+
+==== 3. From B, you should get back a response coming form C ====
+
+Provided a session is already open, we should get something similar to:
+
+    {hasSession: true, sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
+
+If there is no session in the accounts server ("C"), we would get:
+
+    {hasSession: false, sessionToken: null}
+
+==== 4. With a sessionToken, we can read data from the profile server ====
+
+An endpoint accepts requests only from a limited set of IP addresses (only internal to WebPlatform servers), with a sessionToken (TODO)
+
+    GET https://profile.accounts.webplatform.org/v1/session/recover?sessionToken=e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f
+
+The `session/recover` makes database queries similar to:
+
+    SELECT HEX(tokenId), HEX(uid), createdAt from sessionTokens WHERE tokenData = UNHEX('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
+
+Returns a JSON object:
+
+    {username: 'jdoe', fullName: 'John Doe', email: 'hi@example.org'}
+
+In the case of an invalid/expired sessionToken, nothing/an error should be returned. TODO
