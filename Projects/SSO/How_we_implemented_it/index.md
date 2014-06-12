@@ -83,8 +83,12 @@ Once the authentication worked (maybe the user had to create an account first) t
 
 From that callback, we get two keys from the server and it allows your local web application to finish handshake.
 
+The callback URI might look like this:
+
+<syntaxHighlight>http://docs.webplatform.org/test/Special:AccountsHandler/callback?code=SOMETHING_LONG&state=5a72cd23b1b5feb8</syntaxHighlight>
+
 * <tt>state</tt>: Is that string we gave in the previous step, we get it back so we can resume where we were before the authentication process. If the state data (e.g. previous page visited) was serialized and sent to Memcache, we can ask it once again and resume.
-* <tt>code</tt>: This is a one-time token that we can use to get an OAuth2 Token.
+* <tt>code</tt>: This is a one-time token that we can use to get an OAuth2 Token. In this example, its "SOMETHING_LONG"
 
 Based on the received data, we can make some a few calls to retrieve and store the required data.
 
@@ -93,19 +97,19 @@ Based on the received data, we can make some a few calls to retrieve and store t
 
 This call is from the backend server (i.e. MediaWiki in PHP) that isn’t visible from the web browser.
 
-Behind the scene (not visible in the browser), we send a POST to the endpoint along with some private data:
+The call to get the token contains the following data:
 
-* client key
-* client secret
-* code
+* <tt>client_id</tt>: The identifier we configured in both OAuth server and the client
+* <tt>client secret</tt>: The shared secret
+* <tt>code</tt>: The temporary token to get in exchange our OAuth2 Bearer token.
 
-To get a token, we send a POST request similar to this cURL call:
+The request is similar to this cURL call:
 
 <syntaxHighlight>
 curl -XPOST -H 'Content-Type: application/json' 'https://oauth.accounts.webplatform.org/v1/token' -d '{"client_id":"7e7e11299d95d789","client_secret":"a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa","code":"SOMETHING_LONG"}'
 </syntaxHighlight>
 
-We get in exchange something similar to this
+We get in exchange the Bearer token in a response similar to this:
 
 <syntaxHighlight>
 {"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31","token_type":"bearer","scope":"session"}
@@ -122,20 +126,27 @@ In our case, that's what we want all client applications (WebPlatform test wiki,
 
 Otherwise, we would have to start all over again. My suggestion described at [[#SSO and remembering]] could resume from that step and save us the hassle to ask users to login from each client web application.
 
-Assuming we have a valid Bearer token, we can get the data we need through an HTTP call similar to this:
+Each requests made to an OAuth2 protected API has to be made accompanied with the bearer token in the request header. 
+
+Assuming our web application has a valid Bearer token, we can get the account data we need to start a session through the profile server. 
+
+The call to the profile server can be done like this through cURL:
 
 <syntaxHighlight>
-curl -v -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" "https://profile.accounts.webplatform.org/v1/session/read"
+curl  -H 'Content-Type: application/json' -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" 'https://profile.accounts.webplatform.org/v1/session/read'
 </syntaxHighlight>
 
-In return we get a JSON object looking like this:
+'''NOTE''' Sending headers is something quite natural, in fact, the web browsers does this for us all the time. When we request web pages on a website that has cookies —either for tracking, and/or to keep your current session— we are sending them for each element of the page, including images and assets. This is on the web server to take care to give a different document if he sees fit. In the case of an OAuth2 Bearer token, its is of the utmost importance to have it sent only through SSL, and ideally always outside of the reach of the web browser because it is basically a key to get information on your account, without asking your permission.
+If the profile server accepted our Bearer token, we should get a JSON object looking like this:
 
 <syntaxhighlight>{username: 'jdoe', fullName: 'John Doe', email: 'hi@example.org'}</syntaxhighlight>
 
-We can now start the session in the browser.
+We can now start the session in the client web application.
 
 
 === 5. Initialize local web application session ===
+
+Since each web application can have different database, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user. 
 
 Based on the data received from the profile server, we initialize a session locally.
 
