@@ -60,23 +60,33 @@ While configuration can be different depending on the client extension, a few en
 * <tt>POST https://oauth.accounts.webplatform.org/v1/token</tt>
 * <tt>GET https://profile.accounts.webplatform.org/v1/session/read</tt>, with scope 'session'
 
+Most of these requests aren’t made through the browser but through a server-side HTTP client. In the MediaWiki extension, we are using Guzzle. Even though the calls are aimed at endpoints under SSL, it feels safer to have those requests made outside of the reach of the visitor web browser.
+
+
 === 1. From a page, when you click login ===
 
-Generate a link that summarize where you were ("state"), store that to memcache, go to the authentication with client key ("client") so you see where to login, you would see "Sign in to WebPlatform Test".
+The web application generates and sends to an URI, it holds a few details:
+* The client identifier ("client_id")
+* What the application wants ("scope")
+* What state it was in ("state"), this is a random key used to store inside a keystore such as memcache so we can retrieve the state data after the authentication process.
+
+Since the OAuth server knows who is the client, it adjusts the title to "Sign in to WebPlatform Test".
 
 [[File:sso_steps_login_dialog.png]]
 
-Once it worked (or after creating an account) it sends you to the callback. The callback is defined in the OAuth server configuration —not in the URL, like it is in most case, and the reason of security breach.
+Once the authentication worked (maybe the user had to create an account first) the OAuth server sends you to the <tt>callbackUri</tt>. 
+
+'''NOTE''' Compared to common OAuth2 server implementation, in Mozilla Firefox Accounts OAuth server, the callback is configured in the server configuration. In various OAuth2 implementation, the callback was also sent  through the OAuth signin and was the reason of a security breach.
 
 
-=== 2. Redirected to web app callback url ===
+=== 2. Redirected the callback URI ===
 
 From that callback, we get two keys from the server and it allows your local web application to finish handshake.
 
-* State key: Is part of the url, so we can resume where we were. In our case, it will be able to read from memcache later
-* Code: A string that is not, yet, an OAuth token. But allows you to continue the handshake.
+* <tt>state</tt>: Is that string we gave in the previous step, we get it back so we can resume where we were before the authentication process. If the state data (e.g. previous page visited) was serialized and sent to Memcache, we can ask it once again and resume.
+* <tt>code</tt>: This is a one-time token that we can use to get an OAuth2 Token.
 
-Based on that we have to make a under the hood request back to the OAuth server, to register authorization.
+Based on the received data, we can make some a few calls to retrieve and store the required data.
 
 
 === 3. Register authorization token ===
@@ -89,22 +99,36 @@ Behind the scene (not visible in the browser), we send a POST to the endpoint al
 * client secret
 * code
 
-It returns to you a "Bearer token" that we will use to send to the profile server.
+To get a token, we send a POST request similar to this cURL call:
 
-More details about that part in [[#SSO and remembering]]
+<syntaxHighlight>
+curl -XPOST -H 'Content-Type: application/json' 'https://oauth.accounts.webplatform.org/v1/token' -d '{"client_id":"7e7e11299d95d789","client_secret":"a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa","code":"SOMETHING_LONG"}'
+</syntaxHighlight>
 
-With a bearer token, wen can read from our first OAuth protected API: The profile server.
+We get in exchange something similar to this
+
+<syntaxHighlight>
+{"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31","token_type":"bearer","scope":"session"}
+</syntaxHighlight>
+
+The '''access_token''' is what we needed to get our user data from the our OAuth2 protected API: The profile server.
 
 '''NOTE''' Anybody who has an OAuth Bearer token could eventually act as the user. At the time, the only protected service is the profile server, but we might want to protect other components later down the road.
 
 
 === 4. Reading data from the profile server ===
 
-In our case, that's what we want all client applications (WebPlatform live wiki, WebPlatform test wiki, Annotator, etc) wants to start from.
+In our case, that's what we want all client applications (WebPlatform test wiki, Annotator, etc) wants to start from.
 
 Otherwise, we would have to start all over again. My suggestion described at [[#SSO and remembering]] could resume from that step and save us the hassle to ask users to login from each client web application.
 
-Assuming we have a valid Bearer token, we would get a JSON object looking like this:
+Assuming we have a valid Bearer token, we can get the data we need through an HTTP call similar to this:
+
+<syntaxHighlight>
+curl -v -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" "https://profile.accounts.webplatform.org/v1/session/read"
+</syntaxHighlight>
+
+In return we get a JSON object looking like this:
 
 <syntaxhighlight>{username: 'jdoe', fullName: 'John Doe', email: 'hi@example.org'}</syntaxhighlight>
 
