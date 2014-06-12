@@ -110,7 +110,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 
 # shepazu  (SVG, etc)
 # renoirb
-# jensimmons (CSS)
+# jensimmons (CSS & HTML)
 # julee
 # eliot (Javascript)
 # AmeliaBR (SVG, whatever's needed)
