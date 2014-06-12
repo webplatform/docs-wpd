@@ -281,7 +281,7 @@ An endpoint accepts requests only from a limited set of IP addresses (only inter
 
 The `session/recover` makes database queries similar to:
 
-    SELECT HEX(tokenId), HEX(uid), createdAt from sessionTokens WHERE tokenData = UNHEX('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
+    SELECT HEX(s.uid) AS uid, a.normalizedEmail AS email, a.username AS username, a.fullName AS fullName FROM sessionTokens AS s, accounts AS a WHERE s.uid = a.uid AND tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
 
 Returns a JSON object:
 
