@@ -215,7 +215,7 @@ The following articles have been assigned to each volunteer by breaking the alph
 }} }} search page]
 ; shepazu
 :* [[svg/properties/unitType]] to [[tutorials/workers basics]]
-:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3125&limit=275&po={{urlencode:?State 
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4125&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 ; leftovers (if you haven't had enough, take care of these 12 pages)
