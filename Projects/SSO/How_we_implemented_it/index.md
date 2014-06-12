@@ -1,12 +1,64 @@
 = How we implemented SSO =
 
-The objective of this document is to describe the various moving parts involved in creating SSO for WebPlatform.org
+== Summary ==
 
-It is meant to give a high level overview of the parts without going too much in the code.
+The objective of this document is to describe the various moving parts involved in creating SSO for WebPlatform.org. It is meant to give a high level overview of the moving parts parts.
 
-Services refered to as FxA stands for Firefox Accounts, and we describe in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]] how we adapted it to our needs.
+The authentication portal is using our own fork of Mozilla Firefox Accounts deployed on WebPlatform.org infrastructure. Details of the adaptations are described in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]].
+
 
 == Steps ==
+
+=== 1. Configure the OAuth server to accept requests from a client ===
+
+In OAuth terminolgy, a client is a consumer that is authorized to rely on the OAuth server. A client can be, in our case, a web application.
+
+In this example, we are allowing WebPlatform Docs test wiki to use the accounts server to authenticate users.
+
+Client configuration is described in the project documentation available at [https://github.com/webplatform/fxa-oauth-server/blob/master/docs/clients.md docs/clients.md].
+
+An entry in the OAuth server looks like this:
+
+<syntaxHighlight>
+  "clients": [
+    {
+       "id": "7e7e11299d95d789",
+       "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+       "name": "WebPlatform Test",
+       "image_uri": "...",
+       "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
+       "whitelisted": true
+    }
+  ]
+</syntaxHighlight>
+
+'''id''': Is a 8 byte hexadecimal string that you will need to have on the client configuration
+'''secret''': Is a 32 byte hexadecimal string that you will also need on the client configuration.
+'''redirectUri''': Is where you should send the users to when they successfully authenticated. 
+
+
+=== 2. Configure client ===
+
+Configuring a client to use our OAuth server can be different depending on how the extension implements OAuth2. In the previous example, we are connecting to a MediaWiki installation that has an extension (see [[WPD:Projects/SSO/MediaWikiExtension]]) that expects we send users to '''Special::AccountsHandler/callback''' after a successful authentication.
+
+A configuration for a client has similar parameters:
+
+<syntaxHighlight>
+require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
+$wgWebPlatformAuth['client']['id']             = '7e7e11299d95d789';
+$wgWebPlatformAuth['client']['secret']         = 'a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa';
+$wgWebPlatformAuth['endpoints']['fxa_oauth']   = 'https://oauth.accounts.webplatform.org/v1/';
+$wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://profile.accounts.webplatform.org/v1/';
+$wgWebPlatformAuth['methods']['authorize']     = 'authorization';
+$wgWebPlatformAuth['methods']['token']         = 'token';
+</syntaxHighlight>
+
+While configuration can be different depending on the client extension, a few endpoints are required to be used in our installation.
+
+* <tt>GET https://oauth.accounts.webplatform.org/v1/authorization</tt>
+* <tt>POST https://oauth.accounts.webplatform.org/v1/authorization</tt>
+* <tt>POST https://oauth.accounts.webplatform.org/v1/token</tt>
+* <tt>GET https://profile.accounts.webplatform.org/v1/session/read</tt>, with scope 'session'
 
 === 1. From a page, when you click login ===
 
@@ -25,6 +77,7 @@ From that callback, we get two keys from the server and it allows your local web
 * Code: A string that is not, yet, an OAuth token. But allows you to continue the handshake.
 
 Based on that we have to make a under the hood request back to the OAuth server, to register authorization.
+
 
 === 3. Register authorization token ===
 
@@ -57,6 +110,7 @@ Assuming we have a valid Bearer token, we would get a JSON object looking like t
 
 We can now start the session in the browser.
 
+
 === 5. Initialize local web application session ===
 
 Based on the data received from the profile server, we initialize a session locally.
@@ -70,6 +124,7 @@ Also, from the state key, we can resume where we were by retrieving what was sto
 <syntaxhighlight>{return_to: 'http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows'}</syntaxhighlight>
 
 Based on that information, we issue a redirect and the user is back where he was.
+
 
 == SSO and remembering ==
 
