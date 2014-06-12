@@ -198,6 +198,7 @@ The following is described in run time order:
       // WebPlatform Specific ===============================
       // file: app/scripts/views/base.js
       // line: 40
+      // See: http://docs.webplatform.org/wiki/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering.2C_proposal_2
       var fxaC = this.fxaClient;
       function readAndReplyHasSession( e ) {
         var b = window.localStorage.getItem('__fxa_session');
