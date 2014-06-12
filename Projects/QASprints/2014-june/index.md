@@ -112,7 +112,9 @@ An example with a custom title and existing flag information will look like
 
 ==List of Volunteers==
 
-'''Please add your name to this list if you're willing to contribute.'''  The amount of work that can be done will depend on the number of people we have.  There are 4400+ articles to review, it would be nice to have 20+ people tackling them; more people means fewer articles each.  However, we are not trying to solicit brand new contributors for this, like in a DocSprint.  Participants must be familiar with the mediawiki structure and understand the content quality expectations.
+'''Thanks for everyone who volunteered.'''  If anyone else wants to help, get in touch with one of the people on the list and ask them if they need help on their assigned articles.
+
+<del>'''Please add your name to this list if you're willing to contribute.'''  The amount of work that can be done will depend on the number of people we have.  There are 4400+ articles to review, it would be nice to have 20+ people tackling them; more people means fewer articles each.  However, we are not trying to solicit brand new contributors for this, like in a DocSprint.  Participants must be familiar with the mediawiki structure and understand the content quality expectations.</del>
 
 If you indicate topic areas you are comfortable with, I'll try to make most of your assigned articles in that domain, but there will be some overlap and I'm assigning things alphabetically (by file path) since that's how search results are ordered.
 
@@ -134,13 +136,22 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 # Roberto
 <!-- Your name here... -->
 
+==Article Blocks==
+
+The following article lists have been assigned to each volunteer:
+
+; First name
+:* [[/WPD:Editors Guide/step 2 communicate with the online community/ko]] to [[apis/filesystem/Entry/isDirectory]]
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=0&limit=275&po={{urlencode:? State ?State Details}}&mainlabel={{urlencode:File Path}}&intro={{urlencode:Here are your assigned articles:}}&outro={{urlencode:Thanks for helping with the QASprint!}}&default={{urlencode:There was an error with the search...}}&class={{urlencode:sortable wikitable smwtable}} }} search page]
+:* [http://docs.webplatform.org/w/index.php?title=Special%3AAsk&q=%5B%5BState%3A%3A%2B%5D%5D&po=%3FState%0D%0A%3FState+Details%0D%0A&eq=yes&p%5Bformat%5D=broadtable&sort_num=&order_num=ASC&p%5Blimit%5D=275&p%5Boffset%5D=0&p%5Blink%5D=all&p%5Bsort%5D=&p%5Bheaders%5D=show&p%5Bmainlabel%5D=&p%5Bintro%5D=&p%5Boutro%5D=&p%5Bsearchlabel%5D=Tthanks+for+helping+with+the+QASprint%21&p%5Bdefault%5D=%28something+is+wrong+with+the+search%29&p%5Bclass%5D=sortable+wikitable+smwtable&eq=yes# search page]
+
 ==Plan of Attack==
 
-Articles will be assigned based on contiguous alphabetical chunks.  I (Amelia) will send out a link to the search page with the articles you are responsible for.  If you need help, [[WPD:Community#Chat_with_us_on_IRC | ask on IRC ]].  If you can't complete your assigned tasks, send a note to the email list clearly indicating what range of articles still needs to be done, so that other people can take over.
+If you need help, [[WPD:Community#Chat_with_us_on_IRC | ask on IRC ]].  If you can't complete your assigned tasks, send a note to the email list clearly indicating what range of articles still needs to be done, so that other people can take over.
 
 ==Timeline==
 
-* Comments and volunteers ASAP
+* <del>Comments and volunteers ASAP</del>
 * Articles to be assigned Thursday June 12, 2014
 * Work completed by July 1
 
