@@ -186,7 +186,9 @@ Steps:
 
 How to get to know, somewhere else, that that handshake worked.
 
-In run time order...
+The workflow in this code proposal should be run before [[#1. From a page, when you click login]]
+
+The following is described in run time order:
 
 ==== FxA needs the following code ====
 
