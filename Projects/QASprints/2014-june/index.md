@@ -22,14 +22,21 @@ The following is a list of tasks which have been suggested for this review.  <!-
 We have a lot of pages to get through, so this checklist has been designed to make the assessment quick and consistent.  Follow the decision tree until you reach a readiness state.  For some pages there are extra to-do lists, given below.
 
 ===Decision Tree for all pages===
-# Is this a DOM method page?  
-#;	YES:	
-#:*		follow DOM method to-do list.
-#:*		continue with step 3.
 # Does the page have an editing form?
 #;	NO:	
 #:*		follow basic templates to-do list.  
-#:*		Readiness = COMING LATER.  
+#:*		Readiness = COMING LATER.   
+# Is the page in a language other than English?
+#;	YES:  leave Readiness = UNREVIEWED
+# Is the page an obvious mistake or deletion candidate?
+#;	YES:  
+#:*		add an explanation to the Details field (the text box under the Readiness State selector in the form), if it isn't already there
+#:*		delete all content from the page if it is particularly objectionable (It would be preferable if you don't delete the page even if you have permission, as this will throw off the search listings used to assign articles)
+#:*		leave Readiness = UNREVIEWED
+# Is this a DOM method page?  
+#;	YES:	
+#:*		follow DOM method to-do list.
+#:*		continue with the checklist.
 # Is there substantial content on the page?
 #; ''For REFERENCE DOCS:'' 
 #: Are there fewer than 3 of the following sections?
@@ -52,7 +59,7 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 #; ''For REFERENCE DOCS:'' 
 #:   How many of the sections from (3) are missing?
 #;	2-3 sections missing: Readiness = IN PROGRESS
-#;	1 section missing: Readiness = ALMOST DONE
+#;	1 section missing: Readiness = ALMOST READY
 #;	All sections included: continue to next step
 #;   ''For TUTORIALS/CONCEPT pages:''
 #:   Are there signs that this is half-done?
@@ -63,7 +70,7 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 # Are there any other problems you can see at a glance?  
 #* Could there obviously be better/more detailed explanations? 
 #* Do you have any concerns about whether the content is accurate and up-to-date?
-#;	YES: Readiness = ALMOST DONE
+#;	YES: Readiness = ALMOST READY
 #;	NO, everything looks good: Readiness = READY TO USE
 
 ===DOM Method To-Do List===
@@ -72,13 +79,14 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 # Continue with the readiness checklist
 
 ===Standardization Status To-Do List===
-# In the edit form, ensure that the value for Standardization Status matches the most recent value in the specifications listing.
+# In the edit form, ensure that the value for Standardization Status matches the most recent value in the Specifications table.
 # Continue with the readiness checklist
 
 ===Basic Templates To-Do List===
 For pages that don't currently have a page template/default form (the "Edit" button opens a text box):
 
-# Make sure that the first line in the code is the <code><nowiki>{{Page Title}}</nowiki></code> template; if the page currently has an h1 heading (surrounded by one '=' on either side) that is different from the last part of the file path, add it as a parameter to the template, like <code><nowiki>{{Page Title | Text to use as title}}</nowiki></code>
+# Make sure that the first line in the code is the <code><nowiki>{{Page Title}}</nowiki></code> template.
+# If the page currently has an h1 heading (surrounded by one '=' on either side), add it as a parameter to the template, like <code><nowiki>{{Page Title | Text to use as title}}</nowiki></code>; delete it from the main text and don't include the `=` in the template parameter value.
 # Manually add the line <code>{{!}}State=Coming Later</code> to the <code><nowiki>{{Flags}}</nowiki></code> template (or one of the other state values, although I'm fairly certain any pages that don't have default forms will be "Coming Later").  
 #* If the flags template isn't there, add it as <code><nowiki>{{Flags|State=Coming Later}}</nowiki></code>.  
 #* If there is a Flags template, be sure not to delete any existing parameters.
