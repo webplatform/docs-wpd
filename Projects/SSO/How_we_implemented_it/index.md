@@ -32,9 +32,9 @@ An entry in the OAuth server looks like this:
   ]
 </syntaxHighlight>
 
-'''id''': Is a 8 byte hexadecimal string that you will need to have on the client configuration
-'''secret''': Is a 32 byte hexadecimal string that you will also need on the client configuration.
-'''redirectUri''': Is where you should send the users to when they successfully authenticated. 
+* '''id''': Is a 8 byte hexadecimal string that you will need to have on the client configuration
+* '''secret''': Is a 32 byte hexadecimal string that you will also need on the client configuration.
+* '''redirectUri''': Is where you should send the users to when they successfully authenticated. 
 
 
 === 2. Configure client ===
