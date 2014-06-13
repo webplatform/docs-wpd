@@ -57,7 +57,7 @@ An client entry looks like this:
 * <tt>secret</tt>: Is a 32 byte hexadecimal string that you will also need on the client configuration.
 * <tt>redirectUri</tt>: Is where you should send the users to when they successfully authenticated.
 
-To continue with our example, we are connecting to a MediaWiki installation that has the [[WPD:Projects/SSO/MediaWikiExtension WebPlatformAuth Extension]] available. In the case of that particular extension, it expects that we send authenticated users back to '''Special::AccountsHandler/callback'''.
+To continue with our example, we are connecting to a MediaWiki installation that has the [[WPD:Projects/SSO/MediaWikiExtension]] available. In the case of that particular extension, it expects that we send authenticated users back to '''Special::AccountsHandler/callback'''.
 
 
 === 2. Configure client ===
