@@ -202,9 +202,11 @@ We can now start the session in the client web application.
 
 === 8. Initialize local web application session ===
 
+''NOTE'' In the case of the <tt>callbackUri</tt> detected a <tt>sessionToken</tt> parameter in its URL instead of OAuth’s <tt>code</tt>, <tt>state</tt>, the web application will then handle local actions from here. To read more about this possibility, refer to [[#SSO and remembering]], at the step [[#4. With a sessionToken, we can read data from the profile server]]
+
 One of the key behavior in a SSO system is that each configured application relies on an authority to provide common user data (e.g. email, username, fullName), but also to confirm if it can start a session locally and overriding its own user validation system.
 
-Regardless of whether we got the data directy through the profile server at <tt>/session/read</tt>  or <tt>/session/recover</tt>, it MUST have the same data for the same user.
+Regardless of whether we got the data from the profile server with OAuth protected <tt>/v1/session/read</tt> OR <tt>/v1/session/recover?sessionToken=...</tt>, it MUST have the same data for the same user.
 
 <syntaxHighlight>
   {"username": "jdoe",
@@ -230,6 +232,10 @@ In the case of MediaWiki, we currently store the previous page the user visited 
     {"return_to":"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
 
 Based on that information, we issue a redirect and the user is back where he was.
+
+
+----
+
 
 
 == SSO and remembering ==
@@ -370,14 +376,23 @@ If there is no session, or in case of failure, we would get:
 
 Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
 
+This is where the non blocking JavaScript module finish its lifecycle.  Upon detecting an object that has <tt>hasSession: true</tt> AND a 64 character long string for <tt>sessionToken</tt>, it MUST send an Ajax POST to the local web application <tt>callbackUri</tt> with the token.
+
 
 ==== 4. With a sessionToken, we can read data from the profile server ====
 
+The following happens at [[#8. Initialize local web application session]] when we detect a <tt>sessionToken</tt>
+
 This endpoint will be available ONLY through the internal network of WebPlatform and the W3C.
 
-Based with the data we recieved, we can resume at step [[#8. Initialize local web application session]] by making through the backend a request to the profile server to <tt>/session/recover?sessionToken=...</tt>.
+Compared to a call with an OAuth Authorization token, we are going to call a different endpoint that will correlate the data attached to the user session.
+
+The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover?sessionToken=...</tt>.
 
     curl 'https://profile.accounts.webplatform.org/v1/session/recover?sessionToken=e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f'
+
+''NOTE'' This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
+
 
 ===== 4.1. Under the hood =====
 
