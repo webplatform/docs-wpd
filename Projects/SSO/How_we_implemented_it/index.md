@@ -221,12 +221,16 @@ The following is described in run time order:
 
 <syntaxHighlight>
       // WebPlatform Specific ===============================
-      // file: server/bin/fxa-content-server.js
-      // line: 62
-      // Adjust helmet to accept xss from specific hosts
-      // see: https://github.com/evilpacket/helmet
-      //app.use(helmet.xframe('allow-from', 'http://docs.webplatform.org'));
-      // /WebPlatform Specific ==============================
+  // File: server/bin/fxa-content-server.js
+  // Line: 62
+  // Adjust helmet to accept xss from specific hosts
+  // see: https://github.com/evilpacket/helmet
+  // Comment, this:
+  //app.use(helmet.xframe('deny'));
+  // Instead:
+  app.use(helmet.xframe('allow-from', 'http://webplatform.org'));
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.fastly.com"]}));
+  // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
 ==== 1. Sign in to ("A") ====
@@ -260,16 +264,11 @@ This is where we listen to what we get from the accounts server, validate if a s
 
 Create the iframe
 
-    $('body').append($('<iframe src="https://accounts.webplatform.org" id="authChecker"></iframe>'));
+    $('body').append($('<iframe src="https://accounts.webplatform.org" id="authChecker" frameborder="0" height="0" width="0"></iframe>'));
 
 For this to work, we have to make sure that the Content server sends appropriate CSP headers
 
-  // File: server/bin/fxa-content-server.js
-  // Line: 62
-  // Comment:
-  //app.use(helmet.xframe('deny'));
-  // Use instead:
-  app.use(helmet.xframe('allow-from', 'http://webplatform.org'));
+  // See 0.2
   app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.fastly.com"]}));
 
 
