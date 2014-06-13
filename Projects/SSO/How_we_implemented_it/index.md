@@ -120,7 +120,7 @@ Since the OAuth server knows who is the client, it adjusts the title to "Sign in
 
 '''NOTE''' In the screenshot above, you see ''scope=profile''. Since that snapshot, we changed the scope name to  ''session'' because we needed to differentiate web application that will use OAuth to create local sessions from future use cases.
 
-Once the authentication worked the accounts server sends you to the <tt>callbackUri</tt>(<tt>Special:AccountsHandler/callback</tt>).
+Once the authentication worked the accounts server sends you to the <tt>callbackUri</tt> (e.g. <tt>Special:AccountsHandler/callback</tt> for Media Wiki).
 
 
 === 5. Redirected the callback URI ===
