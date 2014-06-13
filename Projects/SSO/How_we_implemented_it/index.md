@@ -2,13 +2,13 @@
 
 == Summary ==
 
-The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give a high level overview of the various moving parts parts.
+The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give a high level overview of the various moving parts.
 
 The authentication portal is using our own fork of Mozilla Firefox Accounts ("FxA") deployed on WebPlatform.org infrastructure. Details of the adaptations are described in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]].
 
 === Stories ===
 
-The present document describe how we adress a set of user stories but it should be noted that the final result is expected to use the SSO accross ALL WebPlatform.org services and participating W3C Specifications.
+The present document describe how we address a set of user stories but it should be noted that the final result is expected to use the SSO across ALL WebPlatform.org services and participating W3C Specifications.
 
 * As a non authenticated person, I want to edit in the [http://docs.webplatform.org/wiki/css/properties/border a page on docs.webplatform.org/wiki/] ("A").
 * As a non authenticated person, I want to add annotations on a participating [http://www.w3.org/2014/annotation/experiment/webaudio.html W3C spec that supports annotations] ("B")
@@ -110,7 +110,7 @@ The MediaWiki extension detects the click and sends you to '''Special:AccountsHa
 The web application generates and sends user to the OAuth authentication endpoint, with some data:
 * The client identifier ("<tt>client_id</tt>")
 * What the application wants ("<tt>scope</tt>")
-* What state it was in ("state"), this is a random key used to store inside a keystore such as memcache so we can retrieve the state data after the authentication process.
+* What state it was in ("<tt>state</tt>"), this is a random key used to store inside a keystore such as memcache so we can retrieve the state data after the authentication process.
 
 '''NOTE''' In Mozilla Firefox Accounts, the <tt>callbackUri</tt> is configured in the server configuration directly. This is considered safer to trust only the configuration file in contrast to common OAuth2 server implementation where they also want the <tt>callbackUri</tt> as part of the first redirect. This is a way to address a security breach in original OAuth2 specification.
 
