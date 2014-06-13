@@ -229,7 +229,7 @@ The following is described in run time order:
   //app.use(helmet.xframe('deny'));
   // Instead:
   app.use(helmet.xframe('allow-from', 'http://webplatform.org'));
-  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.fastly.com"]}));
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.fastly.com"]}));
   // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
