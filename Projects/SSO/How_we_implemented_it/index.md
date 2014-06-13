@@ -248,19 +248,46 @@ This is where we listen to what we get from the accounts server, validate if a s
 
     window.addEventListener("message", function(returned){console.log(returned.data)}, false);
 
-===== 2.2. From B, open a popup to ("C") =====
+===== 2.2. From B, open a popup/iframe to ("C") =====
+
+'''Variant 1: Popup window'''
 
     var popup = window.open('https://accounts.webplatform.org', 'authchecker', "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");
 
 '''NOTE''' Ideally, it should be an iframe but we need to adjust Content Security Policies (TODO).
 
+'''Variant 2: iframe'''
+
+Create the iframe
+
+    $('body').append($('<iframe src="https://accounts.webplatform.org" id="authChecker"></iframe>'));
+
+For this to work, we have to make sure that the Content server sends appropriate CSP headers
+
+  // File: server/bin/fxa-content-server.js
+  // Line: 62
+  // Comment:
+  //app.use(helmet.xframe('deny'));
+  // Use instead:
+  app.use(helmet.xframe('allow-from', 'http://webplatform.org'));
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.fastly.com"]}));
+
+
 ===== 2.3. From B, Send trigger to ask message to the C window =====
 
 Since C already has event listener described in 0.1, we should be able to send the following trigger:
 
+'''NOTE''' At the moment, we are sending a post message with random data, we might change the trigger mechanism later.
+
+'''Variant 1: Popup window'''
+
     popup.postMessage("hi", "https://accounts.webplatform.org");
 
-'''NOTE''' At the moment, we are sending a post message with random data, we might change the trigger mechanism later.
+'''Variant 2: iframe'''
+
+    $('#authChecker')[0].contentWindow.postMessage('hi', 'https://accounts.webplatform.org');
+
+
 
 ==== 3. From B, you should get back a response coming form C ====
 
