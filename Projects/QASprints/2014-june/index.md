@@ -132,6 +132,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 # Rob^_^ (any)
 # Hiroki
 # Roberto
+# caraya (late addition, may be able to help out with other people's article blocks)
 <!-- Your name here... -->
 
 ==Article Blocks==
@@ -218,8 +219,8 @@ The following articles have been assigned to each volunteer by breaking the alph
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4125&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
-; leftovers (if you haven't had enough, take care of these 12 pages)
-:* [[tutorials/working with objects in JavaScript]] and beyond
+; caraya
+:* [[tutorials/working with objects in JavaScript]] to [[xslt]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4400&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
