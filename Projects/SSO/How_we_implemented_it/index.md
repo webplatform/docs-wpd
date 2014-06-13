@@ -220,7 +220,7 @@ The following is described in run time order:
 (Not ready yet)
 
 <syntaxHighlight>
-      // WebPlatform Specific ===============================
+  // WebPlatform Specific ===============================
   // File: server/bin/fxa-content-server.js
   // Line: 62
   // Adjust helmet to accept xss from specific hosts
