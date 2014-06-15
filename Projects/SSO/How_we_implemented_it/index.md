@@ -422,3 +422,13 @@ If the web application could get a response from <tt>session/recover</tt>, and f
 That is what we expect to get to successfully resume [[#8. Initialize local web application session]].
 
 In the case of an invalid or expired sessionToken, nothing/an error should be returned.
+
+
+== Improvements ==
+
+=== Recovering session data ===
+
+Instead of reading and trusting a "hidden" or limited accessibility endpoint <tt>GET /v1/session/recover?sessionToken=...</tt>, we could make it behave in a similar way as an OAuth protected endpoint
+
+* The GET could be anonymous <tt>GET /v1/session/recover</tt>, but require a <tt>X-Session-Token: ...</tt> header
+* The Response could be signed with shared secret using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto] module —also, its already in use across FxA.
