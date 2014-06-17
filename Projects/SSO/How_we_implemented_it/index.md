@@ -206,7 +206,7 @@ We can now start the session in the client web application.
 
 One of the key behavior in a SSO system is that each configured application relies on an authority to provide common user data (e.g. email, username, fullName), but also to confirm if it can start a session locally and overriding its own user validation system.
 
-Regardless of whether we got the data from the profile server with OAuth protected <tt>/v1/session/read</tt> OR <tt>/v1/session/recover?sessionToken=...</tt>, it MUST have the same data for the same user.
+Regardless of whether we got the data from the profile server with OAuth protected <tt>/v1/session/read</tt> OR <tt>/v1/session/recover</tt>, it MUST have the same data for the same user.
 
 <syntaxHighlight>
   {"username": "jdoe",
@@ -275,7 +275,7 @@ In either case, we first need to discover whether a session is already opened us
 The workflow in this code proposal should be run before [[#4. From a page, when you click login]].
 
 The following is separated in two parts:
-* Detecting a sessino through a non blocking JavaScript detection module
+* Detecting a session through a non blocking JavaScript detection module
 * Creating a local session (by resuming from [[#8. Initialize local web application session]])
 
 ==== Code to add ====
@@ -387,9 +387,9 @@ This endpoint will be available ONLY through the internal network of WebPlatform
 
 Compared to a call with an OAuth Authorization token, we are going to call a different endpoint that will correlate the data attached to the user session.
 
-The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover?sessionToken=...</tt>.
+The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover</tt> and requires an "Authorization" header similar to OAuth, but with a Session token instead.
 
-    curl 'https://profile.accounts.webplatform.org/v1/session/recover?sessionToken=e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f'
+    curl -v -H 'Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f' 'https://profile.accounts.webplatform.org/v1/session/recover'
 
 ''NOTE'' This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
 
