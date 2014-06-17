@@ -324,6 +324,27 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
   // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
+===== 0.2. JavaScript client to handle automatic signin =====
+
+- Make sure it works without any library; to be deployed on all SSO relying parties
+- See [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
+- Handle creation of iframe and the <tt>postMessage()</tt>
+- Handle reply from cross-frame request
+- Cross-frame response, validate returned values has keys: <tt>[hasSession, sessionToken]</tt>
+- Make async call to local <tt>callback?sessionToken=...</tt>
+- Make call to local web App callback with <tt>?sessionToken=...</tt> 
+- If return response of local callback is successful, reload page
+- Provide init() a closure to tell whether it already has a session opened
+
+    window.sso.init(function(){ 
+                                /* provide a closure that 
+                                   will tell the JavaScript 
+                                   handler whether the current 
+                                   visitor has a session or 
+                                   not */ 
+    });
+
+
 ==== 1. Sign in to ("D") ====
 
 In our case, let’s use the [http://docs.mroftalpbew.org/wiki/Main_Page WebPlatform Docs Staging wiki] ("D")
@@ -343,6 +364,8 @@ This is where we listen to what we get from the accounts server, validate if a s
 
     window.addEventListener("message", function(returned){console.log(returned.data)}, false);
 
+NOTE: This is handled in file [[0.2. JavaScript client to handle automatic signin]]
+
 ===== 2.2. From B, open a iframe to ("C") =====
 
 For this to work, we have to make sure that the Content server sends appropriate CSP headers on the FxA content server.
@@ -354,6 +377,7 @@ Create the iframe
 
     var authChecker=document.createElement('iframe');authChecker.src='https://accounts.webplatform.org/';authChecker.frameworder=0;authChecker.width=0;authChecker.height=0;authChecker.id='authChecker';document.body.appendChild(authChecker);
 
+NOTE: This is handled in file [[0.2. JavaScript client to handle automatic signin]].
 
 ===== 2.3. From B, Send trigger to ask confirmation from the iframe =====
 
@@ -363,6 +387,7 @@ To do so, we are sending a request for confirmation, like this:
 
     authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
 
+NOTE: This is handled in file [[0.2. JavaScript client to handle automatic signin]]. The trigger would be lauched from <tt>window.sso.init(/* closure to detect if already a session*/)</tt>
 
 ==== 3. From B, handle the response from the iframe ====
 
@@ -378,6 +403,7 @@ Since the iframe and the communication would had failed from any non trusted sou
 
 This is where the non blocking JavaScript module finish its lifecycle.  Upon detecting an object that has <tt>hasSession: true</tt> AND a 64 character long string for <tt>sessionToken</tt>, it MUST send an Ajax POST to the local web application <tt>callbackUri</tt> with the token.
 
+NOTE: This is know to bring a problem. The isussue is that if we use an unaltered sessionToken as the sole proof, anybody could know this and hijack a session on the relying party. This needs to be improved.
 
 ==== 4. With a sessionToken, we can read data from the profile server ====
 
@@ -423,7 +449,20 @@ If the web application could get a response from <tt>session/recover</tt>, and f
 
 That is what we expect to get to successfully resume [[#8. Initialize local web application session]].
 
-In the case of an invalid or expired sessionToken, nothing/an error should be returned.
+In the case of an invalid or expired sessionToken, an error should be returned.
+
+Here are the HTTP Response body the endpoint would return:
+* 200 OK, with JSON object containing data when session exist (shown above)
+* 410 GONE, with error JSON object, when session doesn’t exist
+* 401 UNAUTHORIZED, with error JSON object, when request is malformed
+
+The backend MUST:
+
+* Expect async call at .../callback?sessionToken=... GET, to make an internal call to profile server
+* Can be made before OAuth2 process when .../callback?code=aa&state=bb, but would act on <tt>?sessionToken=cc</tt>
+* Handle all status code returns logic from profile server, start a session
+* Return no body in response (should be async), if successful, return 200 to trigger reload page from JavaScript[0]
+* (Later) Validate if profile server Response JSON object pass JWT validation
 
 
 == Improvements ==
