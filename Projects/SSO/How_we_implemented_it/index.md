@@ -326,16 +326,23 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
 
 ===== 0.2. JavaScript client to handle automatic signin =====
 
-- Make sure it works without any library; to be deployed on all SSO relying parties
-- See [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
-- Handle creation of iframe and the <tt>postMessage()</tt>
-- Handle reply from cross-frame request
-- Cross-frame response, validate returned values has keys: <tt>[hasSession, sessionToken]</tt>
-- Make async call to local <tt>callback?sessionToken=...</tt>
-- Make call to local web App callback with <tt>?sessionToken=...</tt> 
-- If return response of local callback is successful, reload page
-- Provide init() a closure to tell whether it already has a session opened
+* Make sure it doesnt try to do things if local web app already has a session
+* Make sure it works without any external library; to be deployed on all SSO relying parties
+* See [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
+* Handle creation of iframe and the <tt>postMessage()</tt>
+* Handle reply from cross-frame request
+* Cross-frame response, validate returned values has keys: <tt>[hasSession, sessionToken]</tt>
+* Make async call to local <tt>callback?sessionToken=...</tt>
+* Make call to local web App callback with <tt>?sessionToken=...</tt> 
+* If return response of local callback is successful, reload page
+* Provide init() a closure to tell whether it already has a session opened
 
+It exposes two methods to the <tt>window.sso</tt> object:
+
+* window.sso.init(closure) (see below)
+* window.sso.doCheck(), to trigger the communication
+
+<syntaxHighlight>
     window.sso.init(function(){ 
                                 /* provide a closure that 
                                    will tell the JavaScript 
@@ -343,7 +350,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
                                    visitor has a session or 
                                    not */ 
     });
-
+</syntaxHighlight>
 
 ==== 1. Sign in to ("D") ====
 
@@ -387,7 +394,7 @@ To do so, we are sending a request for confirmation, like this:
 
     authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
 
-NOTE: This is handled in file [[0.2. JavaScript client to handle automatic signin]]. The trigger would be lauched from <tt>window.sso.init(/* closure to detect if already a session*/)</tt>
+NOTE: This is handled in file [[0.2. JavaScript client to handle automatic signin]]. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
 
 ==== 3. From B, handle the response from the iframe ====
 
