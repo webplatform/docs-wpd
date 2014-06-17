@@ -428,6 +428,10 @@ The special endpoint, only available through a limited set of IP address answers
 
 ''NOTE'' This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
 
+Here are the HTTP Response body the endpoint would return:
+* 200 OK, with JSON object containing data when session exist (shown above)
+* 410 GONE, with error JSON object, when session doesn’t exist
+* 401 UNAUTHORIZED, with error JSON object, when request is malformed
 
 ===== 4.1. Under the hood =====
 
@@ -456,12 +460,8 @@ If the web application could get a response from <tt>session/recover</tt>, and f
 
 That is what we expect to get to successfully resume [[#8. Initialize local web application session]].
 
-In the case of an invalid or expired sessionToken, an error should be returned.
+In the case of an invalid or expired sessionToken, an error should be returned. See possible errors at [[#4. With a sessionToken, we can read data from the profile server]]
 
-Here are the HTTP Response body the endpoint would return:
-* 200 OK, with JSON object containing data when session exist (shown above)
-* 410 GONE, with error JSON object, when session doesn’t exist
-* 401 UNAUTHORIZED, with error JSON object, when request is malformed
 
 The backend MUST:
 
