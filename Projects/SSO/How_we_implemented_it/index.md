@@ -428,7 +428,7 @@ In the case of an invalid or expired sessionToken, nothing/an error should be re
 
 === Recovering session data ===
 
-Instead of reading and trusting a "hidden" or limited accessibility endpoint <tt>GET /v1/session/recover?sessionToken=...</tt>, we could make it behave in a similar way as an OAuth protected endpoint
+Instead of reading and trusting a "hidden" or limited accessibility endpoint <tt>GET /v1/session/recover?sessionToken=...</tt>, we will mimick a GET request like it would be with a Bearer token... but with a session
 
-* The GET could be anonymous <tt>GET /v1/session/recover</tt>, w/ <tt>Authorize: Token ...</tt> header
+* <tt>GET /v1/session/recover</tt> is anonymous, w/ <tt>Authorize: Session ...</tt> header
 * (later) The Response could be signed with shared secret using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto] module —also, its already in use across FxA.
