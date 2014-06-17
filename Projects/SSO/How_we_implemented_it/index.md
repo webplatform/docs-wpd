@@ -326,16 +326,19 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
 
 ===== 0.3. JavaScript client to handle automatic signin =====
 
-* Make sure it doesnt try to do things if local web app already has a session
+Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
+
+What it should handle:
+
+* Make sure it doesn't try to do things if local web app already has a session
+* Provide <tt>init()</tt> a closure to tell whether it already has a session opened
 * Make sure it works without any external library; to be deployed on all SSO relying parties
-* See [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
 * Handle creation of iframe and the <tt>postMessage()</tt>
 * Handle reply from cross-frame request
 * Cross-frame response, validate returned values has keys: <tt>[hasSession, sessionToken]</tt>
 * Make async call to local <tt>callback?sessionToken=...</tt>
 * Make call to local web App callback with <tt>?sessionToken=...</tt> 
 * If return response of local callback is successful, reload page
-* Provide init() a closure to tell whether it already has a session opened
 
 It exposes two methods to the <tt>window.sso</tt> object:
 
