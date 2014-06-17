@@ -389,14 +389,16 @@ Compared to a call with an OAuth Authorization token, we are going to call a dif
 
 The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover</tt> and requires an "Authorization" header similar to OAuth, but with a Session token instead.
 
-    curl -v -H 'Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f' 'https://profile.accounts.webplatform.org/v1/session/recover'
+    curl -v -H 'Content-Type: application/json' \
+         -H "Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f" \
+         'https://profile.accounts.webplatform.org/v1/session/recover'
 
 ''NOTE'' This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
 
 
 ===== 4.1. Under the hood =====
 
-Under the hood, the profile server endpoint at <tt>session/recover</tt> makes database queries similar to:
+Under the hood, the profile server endpoint at <tt>GET /v1/session/recover</tt> makes database queries similar to:
 
     SELECT HEX(s.uid) AS uid, a.normalizedEmail AS email, a.username AS username, a.fullName AS fullName FROM sessionTokens AS s, accounts AS a WHERE s.uid = a.uid AND tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
 
