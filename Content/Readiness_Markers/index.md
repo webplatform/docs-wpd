@@ -67,8 +67,6 @@ The state value is printed to the page in the following format by the Flags temp
 </div>
 </syntaxhighlight>
 
-The "note" class is responsible for the current yellow-box display (and will probably be removed once the final design is ready).  
-
 The "readiness-state" and state-specific class will be used for the final CSS.  The state-specific classes are created from the property values by replacing spaces with "_", so they are: "Ready_to_Use", "Almost_Ready", "In_Progress", "Not_Ready", "Out_of_Date".  (The "Unreviewed" value currently never results in a div being added to the page.)
 
 You can find the latest discussion about (and examples of) the proposed design for the markers on the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform email list].
