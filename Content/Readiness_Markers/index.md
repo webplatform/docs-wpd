@@ -61,7 +61,7 @@ The flags property is still used for the automatically-set flags Needs Summary, 
 The state value is printed to the page in the following format by the Flags template:
 
 <syntaxhighlight>
-<div class="note readiness-state Almost_Ready"> 
+<div class="readiness-state Almost_Ready"> 
 <p>This article is <a href="/wiki/Property:State" title="Property:State">Almost Ready.</a>
 </p>
 </div>
