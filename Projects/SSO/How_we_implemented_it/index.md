@@ -479,7 +479,69 @@ The backend MUST:
 
 === Recovering session data ===
 
-Instead of reading and trusting a "hidden" or limited accessibility endpoint <tt>GET /v1/session/recover?sessionToken=...</tt>, we will mimick a GET request like it would be with a Bearer token... but with a session
+This change proposal is about making sure the exchanged information is encoded in ways that only the intended audience can use.
 
-* <tt>GET /v1/session/recover</tt> is anonymous, w/ <tt>Authorize: Session ...</tt> header
-* (later) The Response could be signed with shared secret using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto] module —also, its already in use across FxA.
+==== Original steps ====
+
+Here are the original steps, and the illustration of the discovered problems.
+
+* In the accounts server:
+** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
+** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)
+* Through JavaScript, on a web application relying on the SSO:
+** Check if web application has a session locally, if not, continue
+** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
+** Use <tt>iframe.postMessage(/*...*/)</tt> to request a response from the accounts sever
+** Make a <tt>GET</tt> request to the current web app callback with a "sessionToken" query parameter (e.g. <tt>/wiki/Special:AccountsHandler?sessionToken=himom</tt>)
+* In the backend code
+** Accept <tt>GET</tt> requests with a "sessionToken" query parameter
+** Pass the "sessionToken" string to an off-the-band HTTP call to the profile server
+** Read a JSON object with the user data
+** Create a session without further validation
+
+By doing that, there is no way to double check whether or not this request to the callback is by the legitimate user or not.
+
+''Problem'': ANYBODY who got access to a sessionToken, could become that user. And that is as long as the victim keeps his session opened on the accounts server.
+
+This security issue is no different than any web application that doesn’t use SSL. After all, the way for a web server to differentiate a visitor from another is basically a set of cookies and one of them serves as a session token.
+
+One obvious solution is to have SSL across the whole site, but its not always possible. We cannot always force the user to go back and forth from SSL if they are OK without it. But we cannot leave such powerful data in the clear either.
+
+==== Proposed solution steps ====
+
+Differences are shown in '''bold'''.
+
+* In the accounts server:
+** '''Encode the sessionToken in some way with a shared secret key (e.g. using HMAC256)'''
+** '''Save the encoded sessionToken in a new variable "<tt>encodedPacket</tt>" in SessionStorage'''
+** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
+** <s>Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)</s>
+** '''Create an event handler that replies with a JSON object that reads the current <tt>encodedPacket</tt> value in SessionStorage (e.g. "<tt>{encodedPacket: "b113a9666bc7b51625e997c3e73d4696aab7be61e0573e3041da488fad8cd2b1", digest: "hmac256"}</tt>")'''
+* Through JavaScript, on a web application relying on the SSO:
+** Check if web application has a session locally, if not, continue
+** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
+** Use <tt>iframe.postMessage(/*...*/)</tt> to request a response from the accounts sever
+** <s>Make a <tt>GET</tt> request to the current web app callback with a "sessionToken" query parameter (e.g. <tt>/wiki/Special:AccountsHandler?sessionToken=himom</tt>)</s>
+** '''Make a <tt>POST</tt> request to the current web app callback with a "recoveryPayload" member that contains what we received from the accounts server'''
+* In the backend code
+** <s>Accept <tt>GET</tt> requests with a "sessionToken" query parameter</s>
+** '''Accept <tt>POST</tt> requests with a  "recoveryPayload" member'''
+** '''If the payload makes any sense, continue'''
+** Pass the <s>"sessionToken"</s> '''"recoveryPayload"''' string to an off-the-band HTTP call to the profile server
+** Read a JSON object with the user data
+** Create a session without further validation
+
+
+'''Advantages''':
+* Only the encoded packet will be communicated across frames
+* If a relying party doesn’t use SSL, the data will need to be decoded to be useful
+* Whether or not the session had a "man in the middle", the attacker will
+** still need to get the secret key to unpack the encoded "recoveryPayload" contents.
+** not get a chance to get anything useful from the JavaScript call to the call back GET parameters
+* Each backend application will have to unpack the recoveryPayload, validate if it makes sense BEFORE communicating with the profile.accounts.webplatform.org endpoint.
+
+
+''Nice to have'':
+* Sign the response from the profile server using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto]
+* Validate on the backend whether the response from the profile server is valid
+* Have SSL everywhere
