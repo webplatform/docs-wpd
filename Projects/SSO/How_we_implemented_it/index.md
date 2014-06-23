@@ -526,7 +526,7 @@ Differences are shown in '''bold'''.
 * In the backend code
 ** <s>Accept <tt>GET</tt> requests with a "sessionToken" query parameter</s>
 ** '''Accept <tt>POST</tt> requests with a  "recoveryPayload" member'''
-** '''If the payload makes any sense, continue'''
+** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, continue'''
 ** Pass the <s>"sessionToken"</s> '''"recoveryPayload"''' string to an off-the-band HTTP call to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
