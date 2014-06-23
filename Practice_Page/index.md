@@ -1,5 +1,6 @@
 {{Page_Title|The famous CSS 'practice' property}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 |High-level issues=Stub, Needs Flags
 }}
