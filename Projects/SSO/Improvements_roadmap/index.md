@@ -33,7 +33,8 @@ To solve the possible exploit, let’s revisit the original steps described in [
 * In the backend code (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]):
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter<s>, make sure it’s 64 hexadecimal characters</s>
 ** <s>Rename the "recoveryPayload" as "sessionToken"</s>
-** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, has a member called "sessionToken" of 64 hexadecimal characters, continue'''
+** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, has a property called "sessionToken", continue'''
+** '''If the sessionToken property is 64 hexadecimal characters, use it for the next step'''
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
