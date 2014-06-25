@@ -1,6 +1,6 @@
 = Improvements roadmap =
 
-The steps described in [[WPD:SSO/How we implemented it]] can be improved, this page describes some proposals.
+The steps described in [[WPD:Projects/SSO/How we implemented it]] can be improved, this page describes some proposals.
 
 == Recovering session data ==
 
