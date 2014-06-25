@@ -20,6 +20,8 @@ The present document describe how we address a set of user stories but it should
 
 === Workflows ===
 
+Repeating what was described in [[WPD:Projects/SSO/Login Workflows]], to be detailed in this page.
+
 In order to fulfill the given [[#Stories]], we needed to implement a SSO solution covers the following:
 * Get authenticated through a single authority (see [[#Delegating authentication]])
 * [[#Read user data]] from an API, 
