@@ -30,7 +30,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 ** Use <tt>postMessage</tt> to communicate through the iframe opened to the accounts server
 ** Handle response from <tt>postMessage</tt>, use the returned data (i.e. <s><tt>sessionToken</tt></s> '''<tt>encodedPacket</tt> JSON object''' value) into a POST body member called "recoveryPayload"
 ** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
-* In the backend code (detailled in (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]])):
+* In the backend code (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]):
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter<s>, make sure it’s 64 hexadecimal characters</s>
 ** <s>Rename the "recoveryPayload" as "sessionToken"</s>
 ** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, has a member called "sessionToken" of 64 hexadecimal characters, continue'''
