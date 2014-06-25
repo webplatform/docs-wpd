@@ -40,6 +40,8 @@ Popup may be needed?
 
 === Starting a session by communicating with accounts server ===
 
+'''NOTE''': This workflow is subject to change, the details is described in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
+
 * In the accounts server:
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
 ** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}</tt>)
