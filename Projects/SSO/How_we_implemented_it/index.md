@@ -400,7 +400,7 @@ This is where we listen to what we get from the accounts server, validate if a s
 
     window.addEventListener("message", function(returned){console.log(returned.data)}, false);
 
-NOTE: This is handled in file [[#0.3. JavaScript client to handle automatic signin]]
+NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]]
 
 ===== 2.2. From B, open a iframe to ("C") =====
 
@@ -413,7 +413,7 @@ Create the iframe
 
     var authChecker=document.createElement('iframe');authChecker.src='https://accounts.webplatform.org/';authChecker.frameworder=0;authChecker.width=0;authChecker.height=0;authChecker.id='authChecker';document.body.appendChild(authChecker);
 
-NOTE: This is handled in file [[#0.3. JavaScript client to handle automatic signin]] at the <tt>window.sso.init(closure)</tt>.
+NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]] at the <tt>window.sso.init(closure, '/wiki/Special:AccountsHandler/callback')</tt>.
 
 ===== 2.3. From B, Send trigger to ask confirmation from the iframe =====
 
@@ -423,7 +423,7 @@ To do so, we are sending a request for confirmation, like this:
 
     authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
 
-NOTE: This is handled in file [[#0.3. JavaScript client to handle automatic signin]]. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
+NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]]. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
 
 ==== 3. From B, handle the response from the iframe ====
 
