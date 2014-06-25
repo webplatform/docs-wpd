@@ -38,6 +38,18 @@ Popup may be needed?
 
 == How the code has to behave ==
 
+=== Functionnal workflows ===
+
+Those are the functional requirements to enable SSO. Each workflow is detailed in [[WPD:Projects/SSO/How we implemented it]]
+
+In order to fulfill the given [[[[WPD:Projects/SSO/How we implemented it#Stories]] and workflows, we needed to implement a SSO solution covers the following:
+
+* Get authenticated through a single authority (see [[[[WPD:Projects/SSO/How we implemented it#Delegating authentication]])
+* [[#Read user data]] from an API, 
+* Let each configured web applications to detect a session on the authority (see [[[[WPD:Projects/SSO/How we implemented it#SSO and remembering]])
+* handle their local users and session (see [[[[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]), and
+* Detect automatically if there is a session in the accounts server, and start it automatically (see [[[[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]])
+
 === Starting a session by communicating with accounts server ===
 
 This section covers what the ''front-end'' does to detect if a session is opened on the accounts server. To see the ''back-end'' part, refer to [[WPD:Projects/SSO/How we implemented it#1.2 Possibility: Resuming a session confirmed by the accounts server]], detailled in the section [[WPD:Projects/SSO/How we implemented it#SSO and remembering]]
