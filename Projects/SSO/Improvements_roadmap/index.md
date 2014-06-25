@@ -23,7 +23,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 ** '''Save the encoded sessionToken in a LocalStorage variable "<tt>recoveryPayload</tt>" (e.g. localStorage has: <tt>{recoveryPayload: {packet: "b113a9666bc7b51625e997c3e73d4696aab7be61e0573e3041da488fad8cd2b1", digest: "hmac256"}}</tt>)'''
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
 ** <s>Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}</tt>)</s>
-** '''Create an event handler that replies with a JSON object that reads the current <tt>encodedPacket</tt> value in SessionStorage''' 
+** '''Create an event handler that replies with a JSON object that reads the current <tt>recoveryPayload</tt> value in SessionStorage''' 
 * Through JavaScript, on a web application relying on the SSO (details in [[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]]):
 ** Check if web application has a session locally, if not, continue
 ** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
