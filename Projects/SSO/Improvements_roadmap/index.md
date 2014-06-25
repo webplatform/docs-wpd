@@ -16,7 +16,7 @@ One obvious solution is to have SSL across the whole site, but its not always po
 
 === Proposed solution steps ===
 
-To solve the possible exploit, let’s revisit the original steps described in [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]]. Differences are shown in '''bold'''.
+To solve the possible exploit, let’s revisit the original steps described in [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]]. Differences are shown in '''bold''', removed steps has been <s>crossed out</s>.
 
 * In the accounts server:
 ** '''Encode the sessionToken in some way with a shared secret key (e.g. using HMAC256)'''
