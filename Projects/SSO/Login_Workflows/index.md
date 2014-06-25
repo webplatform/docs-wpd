@@ -51,7 +51,7 @@ This section covers what the ''front-end'' does to detect if a session is opened
 ** Use <tt>postMessage</tt> to communicate through the iframe opened to the accounts server
 ** Handle response from <tt>postMessage</tt>, use the returned data (i.e. <tt>sessionToken</tt> value) into a POST body member called "recoveryPayload"
 ** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
-* In the backend code
+* In the backend code (detailled in (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]))
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter, make sure it’s 64 hexadecimal characters.
 ** Rename the "recoveryPayload" as "sessionToken"
 ** Make an off-the-band call over SSL to the profile server
