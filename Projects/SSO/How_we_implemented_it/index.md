@@ -525,7 +525,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
       // WebPlatform Specific ===============================
       // file: app/scripts/views/base.js
       // line: 40
-      // See: http://docs.webplatform.org/wiki/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering.2C_proposal_2
+      // See: http://docs.webplatform.org/wiki/WPD:Projects/SSO/How_we_implemented_it#JavaScript_shared_module:_Detect_and_start_automatically_a_session
       var fxaC = this.fxaClient;
       function readAndReplyHasSession( e ) {
         var b = window.localStorage.getItem('__fxa_session');
@@ -534,7 +534,9 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
         fxaC.isSignedIn(sessionData.sessionToken)
             .done(
               function( promised ){
-                e.source.postMessage({hasSession: promised, sessionToken: sessionData.sessionToken || null}, e.origin);
+                // Will eventually change, as decribed in 
+                //   http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Recovering_session_data
+                e.source.postMessage({hasSession: promised, recoveryPayload: sessionData.sessionToken || null}, e.origin);
               }
             );
       }
@@ -557,7 +559,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
   // Comment, this:
   //app.use(helmet.xframe('deny'));
   // Instead:
-  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.fastly.com", "*.w3.org"]}));
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.fastly.net", "*.w3.org"]}));
   // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
