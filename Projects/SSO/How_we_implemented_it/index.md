@@ -251,16 +251,17 @@ One of the key behavior in a SSO system is that each configured application reli
 
 === 0. Preamble ===
 
-The following MUST be done in each relying parties who wants to use the SSO. 
+The following MUST be done in the backend code answering at the what is refered to as "'''callback'''" (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) on each relying parties who wants to use the SSO. 
 
-It facilitates the following use-cases:
+It handles the following steps:
 * Read data from profile server
 * Find matching user, and/or create a new one
 * Start a session
+* Return a status code for the [[#JavaScript shared module: Detect and start automatically a session]] 
 
-There are two ways to complete the use-cases:
-* Completing an OAuth2 handshake by recieving two GET parameters <tt>code, state</tt> (see also [[#Delegating authentication]])
-* Resuming a session confirmed by the [https://accounts.webplatform.org/ accounts server] by recieving a POST parameter <tt>recoveryPayload</tt>.
+This component answers in two different scenarios:
+* GET request with two parameters (e.g. <tt>/wiki/Special:AccountsHandler/callback?code=aaa&state=bbb</tt>), "[[#1.1 Possibility: Completing an OAuth2 handshake]]"
+* POST request with <tt>recoveryPayload</tt> data, "[[#1.2 Possibility: Resuming a session confirmed by the accounts server]]".
 
 In both ''Behavior forks'', the returned data from the profile server MUST be in the following format:
 
@@ -273,7 +274,7 @@ In both ''Behavior forks'', the returned data from the profile server MUST be in
 
 Since each web application can have different database and ways to refer to a given user, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
 
-Based on the data received from the profile server (see [[#Read user data]]), we initialize a session locally.
+Based on the data received from the profile server, we initialize a session locally.
 
 
 === 1. Behavior forks ===
