@@ -20,20 +20,20 @@ To solve the possible exploit, let’s revisit the original steps described in [
 
 * In the accounts server:
 ** '''Encode the sessionToken in some way with a shared secret key (e.g. using HMAC256)'''
-** '''Save the encoded sessionToken in a LocalStorage variable "<tt>recoveryPayload</tt>" (e.g. localStorage has: <tt>{recoveryPayload: {packet: "b113a9666bc7b51625e997c3e73d4696aab7be61e0573e3041da488fad8cd2b1", digest: "hmac256"}}</tt>)'''
+** '''Save the encoded sessionToken in a LocalStorage variable "<tt>recoveryPayload</tt>", but instead of a 64 characters long HEX string, <tt>recoveryPayload</tt> will a JSON object (e.g. <tt>{recoveryPayload: {packet: "400f7e4dec8b2ce819dca0d8cd71532dee0019028e5716c033a5214e5957dd95d4214aef29f4b95cf4cf1548ca9658578c138f05eacb550bcf47158d5523b4ee", digest: "HMAC;SHA512"}}</tt>) (NOTE: The secret key of this example is "himom")'''
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
-** <s>Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}</tt>)</s>
-** '''Create an event handler that replies with a JSON object that reads the current <tt>recoveryPayload</tt> value in localStorage''' 
+** <s>Create an event handler that replies with a JSON object that reads the sessionToken in current localStorage. (Note that in the returned object, we rename the key ''sessionToken'' to ''recoveryPayload'') (e.g. <tt>{recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f", hasSession: true}</tt>)</s>
+** '''Create an event handler that replies with a JSON object that reads the current <tt>recoveryPayload</tt> value in localStorage. (e.g. <tt>{recoveryPayload: {packet: "b113a9666bc7b51625e997c3e73d4696aab7be61e0573e3041da488fad8cd2b1", digest: "hmac256"}, hasSession: true}</tt>)''' 
 * Through JavaScript, on a web application relying on the SSO (details in [[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]]):
 ** Check if web application has a session locally, if not, continue
 ** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
 ** Use <tt>postMessage</tt> to communicate through the iframe opened to the accounts server
-** Handle response from <tt>postMessage</tt>, use the returned data (i.e. <s><tt>sessionToken</tt></s> '''<tt>recoveryPayload</tt> JSON object''' value) into a POST body member called "recoveryPayload"
-** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
+** Handle response from <tt>postMessage</tt>, use the returned data (i.e. <s><tt>sessionToken</tt></s> '''<tt>recoveryPayload</tt>''' value) into a POST body member called "recoveryPayload"
+** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with  "recoveryPayload" '''that has to get url encoded'''
 * In the backend code (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]):
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter<s>, make sure it’s 64 hexadecimal characters</s>
 ** <s>Rename the "recoveryPayload" as "sessionToken"</s>
-** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, has a property called "sessionToken", continue'''
+** '''Decode the urlencoded "recoveryPayload" blob, then unpack the data using the shared secret key. If the payload makes any sense, has a property called "sessionToken", continue'''
 ** '''If the sessionToken property is 64 hexadecimal characters, use it for the next step'''
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
