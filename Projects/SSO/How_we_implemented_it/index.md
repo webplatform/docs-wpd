@@ -355,8 +355,11 @@ This is specific to each web application, for MediaWiki you can refer to [[WPD:P
 
 This step is required by the [[#JavaScript shared module: Detect and start automatically a session]] so it knows whether it should reload or not the page and let the user use the current site as an authenticated user.
 
-* <tt>200</tt>: All went fine, reload!
+* <tt>204</tt>: All went fine, reload!
 * <tt>4xx</tt>: Stop there, no valid session was found
+* <tt>5xx</tt>: Stop there, an unexpected error happened
+
+If the status is not an error (e.g. 4xx, 5xx), we can send an error message in the response body with a Content-type of <tt>text/plain</tt>.
 
 ----
 
