@@ -70,5 +70,6 @@ This section covers what the ''front-end'' does to detect if a session is opened
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
+** Return an HTTP status code: <tt>204</tt> if it worked, <tt>4xx</tt> if it didn’t, <tt>5xx</tt> if an unexpected backend error happened.
 
 '''NOTE''': This workflow is subject to change, the details is described in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
