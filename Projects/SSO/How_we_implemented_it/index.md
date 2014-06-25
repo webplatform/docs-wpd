@@ -23,8 +23,8 @@ The present document describe how we address a set of user stories but it should
 In order to fulfill the given [[#Stories]], we needed to implement a SSO solution covers the following:
 * Get authenticated through a single authority (see [[#Delegating authentication]])
 * [[#Read user data]] from an API, 
-* Let each configured web applications to detect a session on the authority (see [[#SSO and remembering]]) and,
-* handle their local users and session (see [[#Initialize local web application session]])
+* Let each configured web applications to detect a session on the authority (see [[#SSO and remembering]])
+* handle their local users and session (see [[#Initialize local web application session]]), and
 * Detect automatically if there is a session in the accounts server, and start it automatically (see [[#JavaScript shared module: Detect and start automatically a session]])
 
 
