@@ -38,6 +38,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
+** Return an HTTP status code: <tt>204</tt> if it worked, <tt>4xx</tt> if it didn’t, <tt>5xx</tt> if an unexpected backend error happened.
 
 '''Pros''':
 * Only the encoded packet will be communicated across frames
