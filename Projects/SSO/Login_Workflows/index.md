@@ -1,3 +1,5 @@
+= Login workflows =
+
 Both of these scenarios assume that the Annotator sidebar is loaded on the target page load via an explicit script reference; both use the same instance of Hypothes.is Annotator, hosted on WebPlatform.org (specifically, notes.webplatform.org).
 
 == User facing ==
@@ -34,9 +36,9 @@ No popup needed?
 
 Popup may be needed?
 
-== How the code show behave ==
+== How the code has to behave ==
 
-==== Starting a session by communicating with accounts server ====
+=== Starting a session by communicating with accounts server ===
 
 * In the accounts server:
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
