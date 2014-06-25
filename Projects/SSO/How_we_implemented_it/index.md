@@ -2,9 +2,10 @@
 
 == Summary ==
 
-The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give a high level overview of the various moving parts.
+The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give an idea of the various moving parts. If you want to see the high level description, refer to [[WPD:Projects/SSO/Login Workflows]]
 
 The authentication portal is using our own fork of Mozilla Firefox Accounts ("FxA") deployed on WebPlatform.org infrastructure. Details of the adaptations are described in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]].
+
 
 === Stories ===
 
@@ -17,20 +18,29 @@ The present document describe how we address a set of user stories but it should
 * As a non authenticated visitor, I want to start a session and be allowed to perform [A, B, C, D] without authenticating myself more than once
 
 
-== Using OAuth2 to start a session ==
+== Workflows ==
 
-=== 0. Premise ===
+In order to fulfill the given [[#Stories]], we needed to implement a SSO solution that allows multiple web applications ("client", or "Relying parties") to
+* Get authenticated through a single authority (see [[#Delegating authentication]])
+* [[#Read user data]] from an API, 
+* Let each configured web applications to detect a session on the authority (see [[#SSO and remembering]) and,
+* handle their local users and session (see [[#Initialize local web application session]])
 
-In order to fulfill the given [[#Stories]], we needed to implement a SSO solution that allows multiple web applications ("client") communicate to the accounts server, provide a single authority resource to feed relying clients with centralized user data, and let each configured web applications to handle their local users and sessions.
 
-In this implementation we are passing through authentication to get an OAuth2 Bearer token so that we can get data on the behalf of the authenticated user.
+=== Delegating authentication ===
+
+This step is meant to address the '''Get authenticated through a single authority''' workflow.
+
+==== 0. Preamble ====
+
+In this implementation we are passing through authentication to get an OAuth2 Bearer authorization token so that we can get data on the behalf of the authenticated user.
 
 The following makes use of the generated Authorization token to read a profile server and read associated user data (i.e. email address, full name, username, etc.) that will be used in all web applications.
 
 ''NOTE'' At the moment, the Authorization token is used only once. In future development, we might want to add features and will need to store securely that token to make other actions on the behalf of the user.
 
 
-=== 1. Configure the OAuth server to accept requests from a client ===
+==== 1. Configure the OAuth server to accept requests from a client ====
 
 In OAuth terminology, a client is a consumer that is authorized to rely on the OAuth server. A client can be a web application, but its not only limited to that.
 
@@ -60,7 +70,7 @@ An client entry looks like this:
 To continue with our example, we are connecting to a MediaWiki installation that has the [[WPD:Projects/SSO/MediaWikiExtension]] available. In the case of that particular extension, it expects that we send authenticated users back to '''Special::AccountsHandler/callback'''.
 
 
-=== 2. Configure client ===
+==== 2. Configure client ====
 
 Configuring a client to use our OAuth server can be different depending on how the extension implements OAuth2.
 
@@ -96,21 +106,23 @@ Most of these requests aren’t made through the browser but through a server-si
 ''NOTE'' Even though the calls are aimed at endpoints under SSL, it feels safer to have those requests made outside of the reach of the visitor web browser.
 
 
-=== 3. Possibility: Detected a session ===
+==== 3. Possibility: Detected a session ====
 
-On page load, a non blocking JavaScript module attempts to read from the accounts server to see whether a session is already opened or not. The outline of what’s happening is described in [[#SSO and remembering]].
+On page load, a non blocking JavaScript module attempts to read from the [https://accounts.webplatform.org/ accounts server] to see whether a session is already opened or not. 
+
+The outline of what’s happening is described in [[#SSO and remembering]].
 
 If no session is detected, the module does nothing.
 
 
-=== 4. From a page, when you click login ===
+==== 4. From a page, when you click login ====
 
 The MediaWiki extension detects the click and sends you to '''Special:AccountsHandler/start'''. Its an internal process to generate a redirect to the OAuth2 authentication flow.
 
 The web application generates and sends user to the OAuth authentication endpoint, with some data:
 * The client identifier ("<tt>client_id</tt>")
 * What the application wants ("<tt>scope</tt>")
-* What state it was in ("<tt>state</tt>"), this is a random key used to store inside a keystore such as memcache so we can retrieve the state data after the authentication process.
+* What state it was in ("<tt>state</tt>"), this is a random key used to store inside a key store such as Memcache so we can retrieve the state data after the authentication process.
 
 '''NOTE''' In Mozilla Firefox Accounts, the <tt>callbackUri</tt> is configured in the server configuration directly. This is considered safer to trust only the configuration file in contrast to common OAuth2 server implementation where they also want the <tt>callbackUri</tt> as part of the first redirect. This is a way to address a security breach in original OAuth2 specification.
 
@@ -120,10 +132,10 @@ Since the OAuth server knows who is the client, it adjusts the title to "Sign in
 
 '''NOTE''' In the screenshot above, you see ''scope=profile''. Since that snapshot, we changed the scope name to  ''session'' because we needed to differentiate web application that will use OAuth to create local sessions from future use cases.
 
-Once the authentication worked the accounts server sends you to the <tt>callbackUri</tt> (e.g. <tt>Special:AccountsHandler/callback</tt> for Media Wiki).
+Once the authentication worked the [https://accounts.webplatform.org/ accounts server] sends you to the <tt>callbackUri</tt> (e.g. <tt>Special:AccountsHandler/callback</tt> for Media Wiki).
 
 
-=== 5. Redirected the callback URI ===
+==== 5. Redirected the callback URI ====
 
 From that callback, we get two keys:
 
@@ -136,7 +148,7 @@ The callback URI looks like this:
 Based on the received data, we can continue with the OAuth2 handshake.
 
 
-=== 6. Get an Authorization token ===
+==== 6. Get an Authorization token ====
 
 From the <tt>callbackUri</tt> handler, with the expected data (<tt>state</tt>, <tt>code</tt>) we make a few HTTP calls server to server (i.e. invisible to the web browser).
 
@@ -172,21 +184,43 @@ At the time, the only protected service is the profile server, but we might want
 '''NOTE''' An OAuth Authorization token is basically a key to make actions on the behalf of a valid user. In this regard, it is of the utmost importance to have it sent only through SSL, and, ideally, always outside of the reach of the web browser.
 
 
-=== 7. Reading from the profile server ===
+==== 7. Read user data ====
 
-Assuming our web application has a valid Authorization token, we can get the account data we need from the profile server.
+Continued in [[#Read user data]], and then [[#Initialize local web application session]] workflow.
 
-Each requests made to an OAuth2 protected API such as the profile server has to be made accompanied with the Authorization token in the HTTP request header.
 
-The call looks like this using cURL:
 
+=== Read user data ===
+
+This step is meant to address the '''Read user data through an API''' workflow.
+
+Assuming our web application has a valid ''Authorization token'', OR ''session token'', we can get the account data we need from the profile server.
+
+The profile server '''MUST return the same data''' regardless of whether it got an ''Authorization token'' or a ''session token''.
+
+The Profile server has two distinct methods to provide user data. 
+* One to ''read'' the user data for the first time, requiring a valid OAuth2 Authorization token
+* One to ''recover'' the user data, meaning the server already has a session opened on the [https://accounts.webplatform.org/ accounts server] and we want to use the same data.
+
+To read more about recovering a session, refer to [[#SSO and remembering]] workflow.
+
+The call to the profile server looks like the following cURL calls:
+
+'''With an Authorization token''':
 <syntaxHighlight>
 curl -H 'Content-Type: application/json' \
      -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
      'https://profile.accounts.webplatform.org/v1/session/read'
 </syntaxHighlight>
 
-If the profile server accepted our Authorization token, we should get a JSON object looking like this:
+'''With a session token''':
+<syntaxHighlight>
+    curl -v -H 'Content-Type: application/json' \
+         -H "Authorization: Session 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
+         'https://profile.accounts.webplatform.org/v1/session/recover'
+</syntaxHighlight>
+
+If the profile server accepted either methods, we get a JSON object looking like this:
 
 <syntaxHighlight>
   {"username": "jdoe",
@@ -200,71 +234,138 @@ We can now start the session in the client web application.
 '''NOTE''' Authorization headers is functionally the same as what the web browser does with cookies. In fact, during a browsing session that has cookies, they are sent along with every HTTP requests. And that is, regardless of whether its an image, a CSS file, or a web page. The cookie is therefore a way to tell the application server to tell who the visitor is and potentially change the returned resource.
 
 
-=== 8. Initialize local web application session ===
 
-''NOTE'' In the case of the <tt>callbackUri</tt> detected a <tt>sessionToken</tt> parameter in its URL instead of OAuth’s <tt>code</tt>, <tt>state</tt>, the web application will then handle local actions from here. To read more about this possibility, refer to [[#SSO and remembering]], at the step [[#4. With a sessionToken, we can read data from the profile server]]
+=== Initialize local web application session ===
+
+This step is meant to address the '''handle their local users and session''' workflow and what the backend code MUST implement.
 
 One of the key behavior in a SSO system is that each configured application relies on an authority to provide common user data (e.g. email, username, fullName), but also to confirm if it can start a session locally and overriding its own user validation system.
 
-Regardless of whether we got the data from the profile server with OAuth protected <tt>/v1/session/read</tt> OR <tt>/v1/session/recover</tt>, it MUST have the same data for the same user.
+==== 0. Preamble ====
+
+The following MUST be done in each relying parties who wants to use the SSO. 
+
+It facilitates the following use-cases:
+* Read data from profile server
+* Find matching user, and/or create a new one
+* Start a session
+
+There are two ways to complete the use-cases:
+* Completing an OAuth2 handshake by recieving two GET parameters <tt>code, state</tt> (see also [[#Delegating authentication]])
+* Resuming a session confirmed by the [https://accounts.webplatform.org/ accounts server] by recieving a POST parameter <tt>recoveryPayload</tt>.
+
+In both ''Behavior forks'', the returned data from the profile server MUST be in the following format:
 
 <syntaxHighlight>
-  {"username": "jdoe",
-   "fullName": "John Doe",
-   "email": "hi@example.org",
-   "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+    {"username": "jdoe",
+     "fullName": "John Doe",
+     "email": "hi@example.org",
+     "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
 
-The profile server fills the purpose of providing that user data, and the Accounts server to confirm that the request is legitimate.
+Since each web application can have different database and ways to refer to a given user, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
 
-Since each web application can have different database, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
+Based on the data received from the profile server (see [[#Read user data]]), we initialize a session locally.
 
-Based on the data received from the profile server, we initialize a session locally.
 
-* Check if it can find a user matching the given username
-* Create a new user if not
-* Start local session, cookies, etc.
+==== 1. Behavior forks ====
 
-Also, from the state key we had earlier, we can resume where we were by retrieving what was stored originally in Memcache.
+Here is how the backend code MUST behave in both cases.
 
-In the case of MediaWiki, we currently store the previous page the user visited and would look like this:
+The steps are basically the same, but acts differently depending of what initiated the process.
+
+Here are the differences in both cases.
+
+===== 1.1 Possibility: Completing an OAuth2 handshake =====
+
+This section covers what the backend does when it got called during an OAuth2 workflow during [[#Delegating authentication]] and mentionned in [[#5. Redirected the callback URI]].
+
+In this case, we are provided with TWO keys through a <tt>GET</tt> request to our callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>)
+
+* <tt>code</tt>: The one-time token that is the last step to get an Authorization token
+* <tt>state</tt>: A key identifier that we got when we saved away in a key store (e.g. Memcache) the state before signing in.
+
+====== 1.1.1 Get an OAuth2 authorization token ======
+
+With the <tt>code</tt> in hand, we can [[#6. Get an Authorization token]], then ask the profile server the user data.
+
+As described in [[#6. Get an Authorization token]], we should be able to [[#Read user data]] using the OAuth2 method.
+
+====== 1.1.2 Read data from profile server ======
+
+Alrady described in the parent section.
+
+====== 1.1.3 Find matching user, and/or create a new one ======
+
+Alrady described in the parent section.
+
+====== 1.1.4 Start a session ======
+
+Alrady described in the parent section.
+
+====== 1.1.5 Resume previous state ======
+
+During previous OAuth2 workflow steps, we saved some data in a key store ("state") and we can use it to send the user where he was in.
+
+In the case of the [[WPD:Projects/SSO/MediaWikiExtension]], we currently store the previous page the user visited and would look like this:
 
     {"return_to":"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
 
 Based on that information, we issue a redirect and the user is back where he was.
 
 
-----
+===== 1.2 Possibility: Resuming a session confirmed by the accounts server  =====
+
+This section covers what the backend does when we detected a session through the frontend discovery mechanism [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]].
+
+In this case, we are provided with ONE key through a <tt>POST</tt> request to our callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>)
+
+* <tt>recoveryPayload</tt>: Containing the data used to ask the profile server
+
+'''NOTE''' This step is currently getting directly the <tt>sessionToken</tt> and will eventually changed, see reasons in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
+
+====== 1.2.1 Make a request with the recieved data ======
+
+As described in [[#SSO and remembering]], in the step [[#4. Read data from the profile server with a recoveryPayload]], we should be able to [[#Read user data]] in the same way.
+
+====== 1.2.1 Read data from profile server ======
+
+Alrady described in the parent section.
+
+====== 1.2.2 Find matching user, and/or create a new one ======
+
+Alrady described in the parent section.
+
+====== 1.2.3 Start a session ======
+
+Alrady described in the parent section.
 
 
 
-== SSO and remembering ==
+=== SSO and remembering ===
 
-As described in [[#Stories]], the following describes how we can get the same data from [[#Using OAuth2 to start a session]], but without asking for the user to authenticate again.
+As described in [[#Stories]], the following describes how we can get the same data from [[#Read user data]], but without asking for the user to authenticate again.
 
 To illustrate, we are going to show what happens when we:
 
 * Authenticate from a [http://www.w3.org/2014/annotation/experiment/webaudio.html W3C spec] ("B")
 * Want to use experiment with Docs features in the [http://docs.webplatform.org/test/css/properties/border "test" wiki at docs.webplatform.org/test/] ("C").
 
-Which, both, are the first using our new Accounts system.
-
 To have the system to not ask the user to authenticate again we needed to find a way to check if a session is opened, and get the user data so I can create a local session from that trusted source.
 
-Most of the following would happen at [[#3. Possibility: Detected a session]] during [[#Using OAuth2 to start a session]] with a non blocking JavaScript module #TODO.
-
-
+Most of the following would happen at [[#3. Possibility: Detected a session]] then [[#Read user data]] using a common, non blocking JavaScript module that handles the checks and makes the local web application to actually start a session automatically for the user.
 
 === SSO and remembering, proposal 1 ===
 
 While the original design of Firefox Accounts OAuth server was to remember if a user previously authenticated, that functionality is not implemented yet.
 
-The issue is known and documented [https://github.com/mozilla/fxa-content-server/issues/1195 in their GitHub issue #1195].
+The issue is known and documented [https://github.com/mozilla/fxa-content-server/issues/1195 in their GitHub issue tracker #1195].
 
 In the eventuality of the Firefox Accounts OAuth server changes its behavior, we will still need a non-blocking JavaScript module to check whether a session is already opened.
 
-
 === SSO and remembering, proposal 2 ===
+
+This is what’s currently implemented. Ideally it should leverage what’s proposed in the previous section. A high level description is available at [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]]
 
 While this implementation proposal is some sort of workaround, it is designed to provide the same data we would get if the issue [[#SSO and remembering, proposal 1]].
 
@@ -275,12 +376,15 @@ In either case, we first need to discover whether a session is already opened us
 The workflow in this code proposal should be run before [[#4. From a page, when you click login]].
 
 The following is separated in two parts:
-* Detecting a session through a non blocking JavaScript detection module
-* Creating a local session (by resuming from [[#8. Initialize local web application session]])
+* Detecting a session through a non blocking JavaScript detection module (see [[#JavaScript shared module: Detect and start automatically a session]], in [[#SSO and remembering]])
+* Creating a local session (by resuming from [[#Initialize local web application session]])
 
-==== Code to add ====
+==== JavaScript shared module: Detect and start automatically a session ====
 
-The following code will handle the missing behavior we need to enable our feature.
+The following describes the behavior of a non blocking JavaScript module meant to detect and start automatically a session for the user.
+
+Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
+
 
 ===== 0.1. Event handler to validate a session =====
 
@@ -326,47 +430,59 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
 
 ===== 0.3. JavaScript client to handle automatic signin =====
 
-Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
-
 What it should handle:
 
 * Make sure it doesn't try to do things if local web app already has a session
-* Provide <tt>init()</tt> a closure to tell whether it already has a session opened
+* Provide a way to tell whether it already has a session opened
 * Make sure it works without any external library; to be deployed on all SSO relying parties
 * Handle creation of iframe and the <tt>postMessage()</tt>
 * Handle reply from cross-frame request
 * Cross-frame response, validate returned values has keys: <tt>[hasSession, sessionToken]</tt>
-* Make async call to local <tt>callback?sessionToken=...</tt>
-* Make call to local web App callback with <tt>?sessionToken=...</tt> 
+* Make async call to local web application callback through POST
 * If return response of local callback is successful, reload page
 
 It exposes two methods to the <tt>window.sso</tt> object:
 
-* window.sso.init(closure) (see below)
-* window.sso.doCheck(), to trigger the communication
+* <tt>window.sso.init(hasSessionClosure, localCallbackEndpoint);</tt> To initialize (see below)
+* <tt>window.sso.doCheck()</tt>, to bootstrap the process (should be done once the iframe is loaded).
 
 <syntaxHighlight>
-    window.sso.init(function(){ 
-                                /* provide a closure that 
-                                   will tell the JavaScript 
-                                   handler whether the current 
-                                   visitor has a session or 
-                                   not */ 
-    });
+    window.sso.init( 
+      function () { 
+        /* provide a closure that 
+           will tell the JavaScript 
+           handler whether the current 
+           visitor has a session or 
+           not */ 
+      }, 
+      '/wiki/Special:AccountsHandler/callback'
+    );
 </syntaxHighlight>
+
+Once the iframe is loaded:
+
+<syntaxHighlight>
+    window.sso.doCheck();
+</syntaxHighlight>
+
+'''In this current scenario, there were no session started, we would continue on the next step'''
+
+'''NOTE'': If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at [[#Initialize local web application session]].
+
 
 ==== 1. Sign in to ("D") ====
 
-In our case, let’s use the [http://docs.mroftalpbew.org/wiki/Main_Page WebPlatform Docs Staging wiki] ("D")
+Continuing our scenario, let’s use the [http://docs.mroftalpbew.org/wiki/Main_Page WebPlatform Docs Staging wiki] ("D")
 
-Complete signin in process through the accounts server, and you should get back to the staging wiki —note the word webplatform spelled backwards in the domain name— with a session opened.
+Complete signin in process through the accounts server (the OAuth way), and you should get back to the staging wiki with a session opened.
 
+'''NOTE''': Once you passed this step, you can see on the [https://accounts.webplatform.org/ accounts server] that it no loger prompts you to authenticate.
 
 ==== 2. Go to ("B"), another web app that also uses the accounts server ====
 
-In this example, we will want to add a comment on a [http://www.w3.org/2014/annotation/experiment/webaudio.html W3C spec that supports annotations] ("B")
+Continuing our scenario, we will want to add a comment on a [http://www.w3.org/2014/annotation/experiment/webaudio.html W3C spec that supports annotations] ("B")
 
-The following JavaScript MUST happen.
+The following JavaScript happen.
 
 ===== 2.1. From B, prepare to handle confirmation =====
 
@@ -403,11 +519,11 @@ NOTE: This is handled in file [[#0.3. JavaScript client to handle automatic sign
 
 Provided a session is already open, we should get something similar to:
 
-    {hasSession: true, sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
+    {hasSession: true, recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
 
 If there is no session, or in case of failure, we would get:
 
-    {hasSession: false, sessionToken: null}
+    {hasSession: false, recoveryPayload: null}
 
 Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
 
@@ -415,9 +531,9 @@ This is where the non blocking JavaScript module finish its lifecycle.  Upon det
 
 NOTE: This is know to bring a problem. The isussue is that if we use an unaltered sessionToken as the sole proof, anybody could know this and hijack a session on the relying party. This needs to be improved.
 
-==== 4. With a sessionToken, we can read data from the profile server ====
+==== 4. Read data from the profile server with a recoveryPayload ====
 
-The following happens at [[#8. Initialize local web application session]] when we detect a <tt>sessionToken</tt>
+The following happens at [[#Initialize local web application session]].
 
 This endpoint will be available ONLY through the internal network of WebPlatform and the W3C.
 
@@ -452,7 +568,7 @@ The database should either return an empty result, or user data:
 
 ==== 5. Returning the data to the server ====
 
-If the web application could get a response from <tt>session/recover</tt>, and finds a result, it returns a JSON object similar to:
+If the web application could get a response from <tt>session/recover</tt>, and finds a result, it returns a JSON object:
 
 <syntaxHighlight>
   {"username": "jdoe",
@@ -461,87 +577,6 @@ If the web application could get a response from <tt>session/recover</tt>, and f
    "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
 
-That is what we expect to get to successfully resume [[#8. Initialize local web application session]].
+In the case of an invalid or expired sessionToken, an error should be returned. See possible errors at [[#4. Read data from the profile server with a recoveryPayload]]
 
-In the case of an invalid or expired sessionToken, an error should be returned. See possible errors at [[#4. With a sessionToken, we can read data from the profile server]]
-
-
-The backend MUST:
-
-* Expect async call at .../callback?sessionToken=... GET, to make an internal call to profile server
-* Can be made before OAuth2 process when .../callback?code=aa&state=bb, but would act on <tt>?sessionToken=cc</tt>
-* Handle all status code returns logic from profile server, start a session
-* Return no body in response (should be async), if successful, return 200 to trigger reload page from JavaScript[0]
-* (Later) Validate if profile server Response JSON object pass JWT validation
-
-
-== Improvements ==
-
-=== Recovering session data ===
-
-This change proposal is about making sure the exchanged information is encoded in ways that only the intended audience can use.
-
-==== Original steps ====
-
-Here are the original steps, and the illustration of the discovered problems.
-
-* In the accounts server:
-** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
-** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)
-* Through JavaScript, on a web application relying on the SSO:
-** Check if web application has a session locally, if not, continue
-** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
-** Use <tt>iframe.postMessage(/*...*/)</tt> to request a response from the accounts sever
-** Make a <tt>GET</tt> request to the current web app callback with a "sessionToken" query parameter (e.g. <tt>/wiki/Special:AccountsHandler?sessionToken=himom</tt>)
-* In the backend code
-** Accept <tt>GET</tt> requests with a "sessionToken" query parameter
-** Pass the "sessionToken" string to an off-the-band HTTP call to the profile server
-** Read a JSON object with the user data
-** Create a session without further validation
-
-By doing that, there is no way to double check whether or not this request to the callback is by the legitimate user or not.
-
-''Problem'': ANYBODY who got access to a sessionToken, could become that user. And that is as long as the victim keeps his session opened on the accounts server.
-
-This security issue is no different than any web application that doesn’t use SSL. After all, the way for a web server to differentiate a visitor from another is basically a set of cookies and one of them serves as a session token.
-
-One obvious solution is to have SSL across the whole site, but its not always possible. We cannot always force the user to go back and forth from SSL if they are OK without it. But we cannot leave such powerful data in the clear either.
-
-==== Proposed solution steps ====
-
-Differences are shown in '''bold'''.
-
-* In the accounts server:
-** '''Encode the sessionToken in some way with a shared secret key (e.g. using HMAC256)'''
-** '''Save the encoded sessionToken in a new variable "<tt>encodedPacket</tt>" in SessionStorage'''
-** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
-** <s>Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)</s>
-** '''Create an event handler that replies with a JSON object that reads the current <tt>encodedPacket</tt> value in SessionStorage (e.g. <tt>{encodedPacket: "b113a9666bc7b51625e997c3e73d4696aab7be61e0573e3041da488fad8cd2b1", digest: "hmac256"}</tt>)'''
-* Through JavaScript, on a web application relying on the SSO:
-** Check if web application has a session locally, if not, continue
-** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
-** Use <tt>iframe.postMessage(/*...*/)</tt> to request a response from the accounts sever
-** <s>Make a <tt>GET</tt> request to the current web app callback with a "sessionToken" query parameter (e.g. <tt>/wiki/Special:AccountsHandler?sessionToken=himom</tt>)</s>
-** '''Make a <tt>POST</tt> request to the current web app callback with a "recoveryPayload" member that contains what we received from the accounts server'''
-* In the backend code
-** <s>Accept <tt>GET</tt> requests with a "sessionToken" query parameter</s>
-** '''Accept <tt>POST</tt> requests with a  "recoveryPayload" member'''
-** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, continue'''
-** Pass the <s>"sessionToken"</s> '''"recoveryPayload"''' string to an off-the-band HTTP call to the profile server
-** Read a JSON object with the user data
-** Create a session without further validation
-
-
-'''Advantages''':
-* Only the encoded packet will be communicated across frames
-* If a relying party doesn’t use SSL, the data will need to be decoded to be useful
-* Whether or not the session had a "man in the middle", the attacker will
-** still need to get the secret key to unpack the encoded "recoveryPayload" contents.
-** not get a chance to get anything useful from the JavaScript call to the call back GET parameters
-* Each backend application will have to unpack the recoveryPayload, validate if it makes sense BEFORE communicating with the profile.accounts.webplatform.org endpoint.
-
-
-'''Nice to have''':
-* Sign the response from the profile server using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto]
-* Validate on the backend whether the response from the profile server is valid
-* Have SSL everywhere
+To finalize the steps, the backend MUST comply to what’s described in [[#Initialize local web application session]].
