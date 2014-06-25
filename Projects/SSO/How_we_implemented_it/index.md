@@ -418,7 +418,7 @@ NOTE: This is handled in file [[#JavaScript shared module: Detect and start auto
 For this to work, we have to make sure that the Content server sends appropriate CSP headers on the FxA content server.
 
     // See 0.2
-    app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.fastly.com", "*.w3.org"]}));
+    app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.global.ssl.fastly.net", "*.w3.org"]}));
 
 Create the iframe
 
@@ -559,7 +559,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
   // Comment, this:
   //app.use(helmet.xframe('deny'));
   // Instead:
-  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.fastly.net", "*.w3.org"]}));
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.global.ssl.fastly.net", "*.w3.org"]}));
   // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
