@@ -108,7 +108,7 @@ Most of these requests aren’t made through the browser but through a server-si
 
 ==== 3. Possibility: Detected a session ====
 
-On page load, a non blocking JavaScript module attempts to read from the [https://accounts.webplatform.org/ accounts server] to see whether a session is already opened or not. 
+On page load, a non blocking [[#JavaScript shared module: Detect and start automatically a session]] attempts to read from the [https://accounts.webplatform.org/ accounts server] to see whether a session is already opened or not. 
 
 The outline of what’s happening is described in [[#SSO and remembering]].
 
@@ -353,7 +353,7 @@ To illustrate, we are going to show what happens when we:
 
 To have the system to not ask the user to authenticate again we needed to find a way to check if a session is opened, and get the user data so I can create a local session from that trusted source.
 
-Most of the following would happen at [[#3. Possibility: Detected a session]] then [[#Read user data]] using a common, non blocking JavaScript module that handles the checks and makes the local web application to actually start a session automatically for the user.
+Most of the following would happen at [[#3. Possibility: Detected a session]] then [[#Read user data]] using a common, non blocking [[#JavaScript shared module: Detect and start automatically a session]] that handles the checks and makes the local web application to actually start a session automatically for the user.
 
 === SSO and remembering, proposal 1 ===
 
@@ -361,7 +361,7 @@ While the original design of Firefox Accounts OAuth server was to remember if a 
 
 The issue is known and documented [https://github.com/mozilla/fxa-content-server/issues/1195 in their GitHub issue tracker #1195].
 
-In the eventuality of the Firefox Accounts OAuth server changes its behavior, we will still need a non-blocking JavaScript module to check whether a session is already opened.
+In the eventuality of the Firefox Accounts OAuth server changes its behavior, we will still need a non-blocking [[#JavaScript shared module: Detect and start automatically a session]] to check whether a session is already opened.
 
 === SSO and remembering, proposal 2 ===
 
@@ -527,7 +527,7 @@ If there is no session, or in case of failure, we would get:
 
 Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
 
-This is where the non blocking JavaScript module finish its lifecycle.  Upon detecting an object that has <tt>hasSession: true</tt> AND a 64 character long string for <tt>sessionToken</tt>, it MUST send an Ajax POST to the local web application <tt>callbackUri</tt> with the token.
+This is where the non blocking [[#JavaScript shared module: Detect and start automatically a session]] finish its lifecycle.  Upon detecting an object that has <tt>hasSession: true</tt> AND a 64 character long string for <tt>sessionToken</tt>, it MUST send an Ajax POST to the local web application <tt>callbackUri</tt> with the token.
 
 NOTE: This is know to bring a problem. The isussue is that if we use an unaltered sessionToken as the sole proof, anybody could know this and hijack a session on the relying party. This needs to be improved.
 
