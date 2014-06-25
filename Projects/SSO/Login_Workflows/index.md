@@ -51,6 +51,7 @@ Popup may be needed?
 ** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
 * In the backend code
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter, make sure it’s 64 hexadecimal characters.
-** Pass the "recoveryPayload" string to an off-the-band HTTP call to the profile server
+** Rename the "recoveryPayload" as "sessionToken"
+** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
