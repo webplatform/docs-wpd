@@ -23,7 +23,7 @@ The present document describe how we address a set of user stories but it should
 In order to fulfill the given [[#Stories]], we needed to implement a SSO solution that allows multiple web applications ("client", or "Relying parties") to
 * Get authenticated through a single authority (see [[#Delegating authentication]])
 * [[#Read user data]] from an API, 
-* Let each configured web applications to detect a session on the authority (see [[#SSO and remembering]) and,
+* Let each configured web applications to detect a session on the authority (see [[#SSO and remembering]]) and,
 * handle their local users and session (see [[#Initialize local web application session]])
 
 
