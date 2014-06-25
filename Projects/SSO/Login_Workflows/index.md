@@ -1,6 +1,9 @@
 Both of these scenarios assume that the Annotator sidebar is loaded on the target page load via an explicit script reference; both use the same instance of Hypothes.is Annotator, hosted on WebPlatform.org (specifically, notes.webplatform.org).
 
-==WebPlatform.org==
+== User facing ==
+
+=== WebPlatform.org ===
+
 # User arrives on content page ''X'' on WebPlatform.org
 #* User wishes to edit or annotate page
 # User clicks login link
@@ -16,7 +19,9 @@ Both of these scenarios assume that the Annotator sidebar is loaded on the targe
 
 No popup needed?
 
-==W3C Specs==
+
+=== W3C Specs ===
+
 # User arrives on specification page ''Y'' on W3.org
 #* User wishes to annotate specification
 # User clicks login link in Annotator sidebar
@@ -28,3 +33,22 @@ No popup needed?
 # User now able to annotate specification page ''Y''
 
 Popup may be needed?
+
+== How the code show behave ==
+
+==== Starting a session by communicating with accounts server ====
+
+* In the accounts server:
+** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
+** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)
+* Through JavaScript, on a web application relying on the SSO:
+** Check if web application has a session locally, if not, continue
+** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
+** Use <tt>postMessage</tt> to communicate through the iframe opened to the accounts server
+** Handle response from <tt>postMessage</tt>, use the returned data into a POST body member called "recoveryPayload"
+** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
+* In the backend code
+** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter, make sure it’s 64 hexadecimal characters.
+** Pass the "recoveryPayload" string to an off-the-band HTTP call to the profile server
+** Read a JSON object with the user data
+** Create a session without further validation
