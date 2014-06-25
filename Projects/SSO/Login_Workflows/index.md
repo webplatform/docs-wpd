@@ -40,7 +40,7 @@ Popup may be needed?
 
 === Starting a session by communicating with accounts server ===
 
-'''NOTE''': This workflow is subject to change, the details is described in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
+This section covers what the ''front-end'' does to detect if a session is opened on the accounts server. To see the ''back-end'' part, refer to [[WPD:Projects/SSO/How we implemented it#1.2 Possibility: Resuming a session confirmed by the accounts server]]
 
 * In the accounts server:
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
@@ -57,3 +57,5 @@ Popup may be needed?
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
+
+'''NOTE''': This workflow is subject to change, the details is described in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
