@@ -40,12 +40,12 @@ Popup may be needed?
 
 * In the accounts server:
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
-** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "himom"}</tt>)
+** Create an event handler that replies with a JSON object that reads the current sessionToken in SessionStorage (e.g. <tt>{sessionToken: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}</tt>)
 * Through JavaScript, on a web application relying on the SSO:
 ** Check if web application has a session locally, if not, continue
 ** Create a communication channel as an hidden iframe, if the accounts server doesn’t forbid due to CSP policy, continue.
 ** Use <tt>postMessage</tt> to communicate through the iframe opened to the accounts server
-** Handle response from <tt>postMessage</tt>, use the returned data into a POST body member called "recoveryPayload"
+** Handle response from <tt>postMessage</tt>, use the returned data (i.e. <tt>sessionToken</tt> value) into a POST body member called "recoveryPayload"
 ** Make a <tt>POST</tt> request to the current web app callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) with "recoveryPayload"
 * In the backend code
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter, make sure it’s 64 hexadecimal characters.
