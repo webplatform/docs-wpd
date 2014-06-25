@@ -33,7 +33,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 * In the backend code (details in [[WPD:Projects/SSO/How we implemented it#Initialize local web application session]]):
 ** Accept <tt>POST</tt> requests with a "recoveryPayload" parameter<s>, make sure it’s 64 hexadecimal characters</s>
 ** <s>Rename the "recoveryPayload" as "sessionToken"</s>
-** '''Unpack the "recoveryPayload" data using the shared secret key —that is NEVER communicated—. If the payload makes any sense, has a property called "sessionToken", continue'''
+** '''Unpack the "recoveryPayload" data using the shared secret key. If the payload makes any sense, has a property called "sessionToken", continue'''
 ** '''If the sessionToken property is 64 hexadecimal characters, use it for the next step'''
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
@@ -44,7 +44,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 * Only the encoded packet will be communicated across frames
 * If a relying party doesn’t use SSL, the data will need to be decoded to be useful
 * Whether or not the session had a "man in the middle", the attacker will
-** still need to get the secret key to unpack the encoded "recoveryPayload" contents.
+** still need to get the secret key  —that is NEVER communicated in the process— to unpack the encoded "recoveryPayload" contents.
 ** not get a chance to get anything useful from the JavaScript call to the call back GET parameters
 * Each backend application will have to unpack the recoveryPayload, validate if it makes sense BEFORE communicating with the profile.accounts.webplatform.org endpoint.
 
