@@ -38,7 +38,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 ** Read a JSON object with the user data
 ** Create a session without further validation
 
-'''Advantages''':
+'''Pros''':
 * Only the encoded packet will be communicated across frames
 * If a relying party doesn’t use SSL, the data will need to be decoded to be useful
 * Whether or not the session had a "man in the middle", the attacker will
