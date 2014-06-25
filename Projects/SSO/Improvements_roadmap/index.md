@@ -54,7 +54,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 
 == Leveraging completely OAuth2 ==
 
-While the original design of Firefox Accounts OAuth server was to remember if a user previously authenticated, that functionality is not implemented yet.
+The current implementation described at [[WPD:Projects/SSO/How we implemented it#SSO and remembering]] doesn’t use OAuth2 token in all communications. While the original design of Firefox Accounts OAuth server was to remember if a user previously authenticated, that functionality is not implemented yet.
 
 The issue is known and documented [https://github.com/mozilla/fxa-content-server/issues/1195 in their GitHub issue tracker #1195].
 
