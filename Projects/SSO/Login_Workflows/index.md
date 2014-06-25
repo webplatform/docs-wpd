@@ -40,7 +40,7 @@ Popup may be needed?
 
 === Starting a session by communicating with accounts server ===
 
-This section covers what the ''front-end'' does to detect if a session is opened on the accounts server. To see the ''back-end'' part, refer to [[WPD:Projects/SSO/How we implemented it#1.2 Possibility: Resuming a session confirmed by the accounts server]], detailled in the section [[WPD:Projects/SSO/How we implemented it#SSO and remembering, proposal 2]]
+This section covers what the ''front-end'' does to detect if a session is opened on the accounts server. To see the ''back-end'' part, refer to [[WPD:Projects/SSO/How we implemented it#1.2 Possibility: Resuming a session confirmed by the accounts server]], detailled in the section [[WPD:Projects/SSO/How we implemented it#SSO and remembering]]
 
 * In the accounts server:
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
