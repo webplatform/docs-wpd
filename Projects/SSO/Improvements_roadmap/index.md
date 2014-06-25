@@ -19,9 +19,9 @@ One obvious solution is to have SSL across the whole site, but its not always po
 To solve the possible exploit, let’s revisit the original steps described in [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]]. Differences are shown in '''bold''', removed steps has been <s>crossed out</s>.
 
 * In the accounts server:
-** '''Add a library within the fxa-content-server server process, that is not going to be public (e.g. in a secret project in Gerrit), to manage the encoding'''
+** '''Add a library within the fxa-content-server server node process, in which the code isn’t going to be publicly available (e.g. in a secret project in Gerrit), to manage the encoding''' (#TODO)
 ** '''Encode the sessionToken in some way with a shared secret key (e.g. using AES)'''
-** '''Save the encoded sessionToken in a LocalStorage variable "<tt>recoveryPayload</tt>", but instead of a 64 characters long HEX string, <tt>recoveryPayload</tt> will a JSON object (e.g. <tt>{recoveryPayload: {packet: "400f7e4dec8b2ce819dca0d8cd71532dee0019028e5716c033a5214e5957dd95d4214aef29f4b95cf4cf1548ca9658578c138f05eacb550bcf47158d5523b4ee", cipherId: 1}}</tt>) (NOTE: The secret key of this example is "himom")'''
+** '''Save the encoded sessionToken in a LocalStorage variable "<tt>recoveryPayload</tt>", but instead of a 64 characters long HEX string, <tt>recoveryPayload</tt> will a JSON object (e.g. <tt>{recoveryPayload: {packet: "...", cipherId: 1}}</tt>)'''
 ** Accept framing (i.e. accept to create iframe from other domain names that we control) through appropriate CSP policies.
 ** <s>Create an event handler that replies with a JSON object that reads the sessionToken in current localStorage. (Note that in the returned object, we rename the key ''sessionToken'' to ''recoveryPayload'') (e.g. <tt>{recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f", hasSession: true}</tt>)</s>
 ** '''Create an event handler that replies with a JSON object that reads the current <tt>recoveryPayload</tt> value in localStorage. (e.g. <tt>{recoveryPayload: {packet: "...", cipherId: 1}, hasSession: true}</tt>)''' 
