@@ -298,19 +298,19 @@ In this case, we are provided with TWO keys through a <tt>GET</tt> request to ou
 
 With the <tt>code</tt> in hand, we can [[#6. Get an Authorization token]], then ask the profile server the user data.
 
-As described in [[#6. Get an Authorization token]], we should be able to [[#Read user data]] using the OAuth2 method.
+As described in [[#6. Get an Authorization token]].
 
 ===== 1.1.2 Read data from profile server =====
 
-Alrady described in the parent section.
+As described in [[#Read user data]] ''With an Authorization token'' (OAuth2).
 
 ===== 1.1.3 Find matching user, and/or create a new one =====
 
-Alrady described in the parent section.
+This is specific to each web application, for MediaWiki you can refer to [[WPD:Projects/SSO/MediaWikiExtension]].
 
 ===== 1.1.4 Start a session =====
 
-Alrady described in the parent section.
+This is specific to each web application, for MediaWiki you can refer to [[WPD:Projects/SSO/MediaWikiExtension]].
 
 ===== 1.1.5 Resume previous state =====
 
@@ -335,20 +335,26 @@ In this case, we are provided with ONE key through a <tt>POST</tt> request to ou
 
 ===== 1.2.1 Make a request with the recieved data =====
 
-As described in [[#SSO and remembering]], in the step [[#4. Read data from the profile server with a recoveryPayload]], we should be able to [[#Read user data]] in the same way.
+As described in [[#SSO and remembering]], in the step [[#4. Read data from the profile server with a recoveryPayload]].
 
 ===== 1.2.1 Read data from profile server =====
 
-Alrady described in the parent section.
+As described in [[#Read user data]] ''With a session token''.
 
 ===== 1.2.2 Find matching user, and/or create a new one =====
 
-Alrady described in the parent section.
+This is specific to each web application, for MediaWiki you can refer to [[WPD:Projects/SSO/MediaWikiExtension]].
 
 ===== 1.2.3 Start a session =====
 
-Alrady described in the parent section.
+This is specific to each web application, for MediaWiki you can refer to [[WPD:Projects/SSO/MediaWikiExtension]].
 
+===== 1.2.4 Return an HTTP response =====
+
+This step is required by the [[#JavaScript shared module: Detect and start automatically a session]] so it knows whether it should reload or not the page and let the user use the current site as an authenticated user.
+
+* <tt>200</tt>: All went fine, reload!
+* <tt>4xx</tt>: Stop there, no valid session was found
 
 ----
 
