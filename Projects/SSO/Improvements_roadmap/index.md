@@ -38,7 +38,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 ** Make an off-the-band call over SSL to the profile server
 ** Read a JSON object with the user data
 ** Create a session without further validation
-** Return an HTTP status code: <tt>204</tt> if it worked, <tt>4xx</tt> if it didn’t, <tt>5xx</tt> if an unexpected backend error happened. (see [[[[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]])
+** Return an HTTP status code: <tt>204</tt> if it worked, <tt>4xx</tt> if it didn’t, <tt>5xx</tt> if an unexpected backend error happened. (see [[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]])
 
 '''Pros''':
 * Only the encoded packet will be communicated across frames
