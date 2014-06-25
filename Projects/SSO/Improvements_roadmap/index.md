@@ -50,3 +50,16 @@ To solve the possible exploit, let’s revisit the original steps described in [
 * Sign the response from the profile server using JWT format, see [https://github.com/mozilla/jwcrypto jwcrypto]
 * Validate on the backend whether the response from the profile server is valid
 * Have SSL everywhere
+
+
+== Leveraging completely OAuth2 ==
+
+While the original design of Firefox Accounts OAuth server was to remember if a user previously authenticated, that functionality is not implemented yet.
+
+The issue is known and documented [https://github.com/mozilla/fxa-content-server/issues/1195 in their GitHub issue tracker #1195].
+
+In the eventuality of the Firefox Accounts OAuth server changes its behavior, we still need a non-blocking [[WPD:Projects/SSO/How we implemented it#JavaScript shared module: Detect and start automatically a session]] to check whether a session is already opened.
+
+=== Proposed solution ===
+
+TBD
