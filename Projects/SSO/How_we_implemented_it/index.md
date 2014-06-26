@@ -512,7 +512,7 @@ This step is meant to address the '''Detect automatically if there is a session 
 
 It describes the behavior of a non blocking JavaScript module meant to detect and start automatically a session for the user.
 
-Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16.js#file-ssohandler-js JavaScript SsoHandler class in this gist]
+Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16 JavaScript SsoHandler class in this gist]
 
 
 === 1. Event handler to validate a session ===
