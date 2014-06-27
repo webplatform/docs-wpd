@@ -1,7 +1,7 @@
 =WebPlatform.org community events=
 
 ==Upcoming Events== 
-* '''8-OCT-2014'''— 2nd Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands.
+* '''8-OCT-2014'''— 2nd Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. ([[User:Paulv|Paul Verbeek]])
 * '''Date TBD'''—TENTATIVE: Doc Sprint @ New York, USA (Patrick D'Souza)
 
 Jump to [[#Past Events|Past Events]]
@@ -17,7 +17,7 @@ We once polled our contributors and users to learn how we can improve the site, 
 * '''11-MAY-2014'''— Doc Sprint @ Beyond Tellerrand in Düsseldorf, Germany [http://lanyrd.com/2014/wpds-dusseldorf/ Registration] [http://2014.beyondtellerrand.com/side-events/#wpds @btconf event page] ([[User:Klickass|Andre Jay Meissner]], Adobe)
 * '''11-MAR-2014'''— Doc Sprint @ Fluent2014 in San Francisco, USA (Julee Burdekin, Adobe)
 * '''2-NOV-2013''': Web Platform Doc Sprint @ U Washington [https://www.eventbrite.com/event/8903872723/ Registration] (Millo & [[User:Eliot-MSFT|Eliot]] )
-* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] (Paul Verbeek)
+* '''12-OCT-2013'''— Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. [http://web-platform-doc-sprint-amsterdam.eventbrite.com/ Registration] [http://fronteers.nl/bijeenkomsten/2013/web-platform-doc-sprint-in-amsterdam Fronteers event page] [http://blog.webplatform.org/2013/09/web-platform-doc-sprint-amsterdam-october-12/ blog post] ([[User:Paulv|Paul Verbeek]])
 * '''28-AUG-2013'''— Web Platform Doc Sprint hosted by Adobe at Frontend Conference Zurich, Switzerland. [http://wpds-zurich.eventbrite.com/ Registration] [http://2013.frontendconf.ch/workshops/ FrontendconfCH event page] ([[User:Klickass|Andre Jay Meissner]], Adobe)
 * '''24-JUL-2013'''—TENTATIVE: Web Platform Wednesday? @ [http://www.oscon.com/oscon2013 OSCon, Portland, OR] (Doug Schepers)
 * '''25-JUL-2013'''—[http://www.oscon.com/oscon2013/public/schedule/detail/29099 OSCON: Doug, Janet & Eliot talking about Web Platform 5:00pm]
