@@ -144,86 +144,103 @@ The following articles have been assigned to each volunteer by breaking the alph
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=0&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::<apis/filesystem/Entry/isDirectory]]| format=count}}
 ; garbee
 :* [[apis/filesystem/Entry/isFile]] to [[apis/navigation timing/PerformanceTiming/domainLookupStart]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=275&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>apis/filesystem/Entry/isFile]] [[Path::<apis/navigation timing/PerformanceTiming/domainLookupStart]]| format=count}}
 ; eliot
 :* [[apis/navigation timing/PerformanceTiming/fetchStart]] to [[apis/webrtc/RTCPeerConnection/icechange]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=550&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>apis/navigation timing/PerformanceTiming/fetchStart]] [[Path::<apis/webrtc/RTCPeerConnection/icechange]]| format=count}}
 ; Paulv
 :* [[apis/webrtc/RTCPeerConnection/identityresult]] to [[concepts/ux/user experience design]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=825&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>apis/webrtc/RTCPeerConnection/identityresult]] [[Path::<concepts/ux/user experience design]]| format=count}}
 ; brianjhong
 :* [[concepts/ux/what does a good web page need]] to [[css/functions/translateY()]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1100&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>concepts/ux/what does a good web page need]] [[Path::<css/functions/translateY()]]| format=count}}
 ; Michaela
 :* [[css/functions/translateZ()]] to [[css/properties/min-height]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1375&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>css/functions/translateZ()]] [[Path::<css/properties/min-height]]| format=count}}
 ; jensimmons
 :* [[css/properties/min-width]] to [[dom/Document/close]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1650&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>css/properties/min-width]] [[Path::<dom/Document/close]]| format=count}}
 ; emerson
 :* [[dom/Document/cookie]] to [[dom/HTMLElement/clientLeft]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=1925&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/Document/cookie]] [[Path::<dom/HTMLElement/clientLeft]]| format=count}}
 ; frozenice
 :* [[dom/HTMLElement/clientTop]] to [[dom/MouseEvent/layerX]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/HTMLElement/clientTop]] [[Path::<dom/MouseEvent/layerX]]| format=count}}
 ; Rob^_^
 :* [[dom/MouseEvent/layerY]] to [[dom/constants/DOM exception error codes]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2475&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/MouseEvent/layerY]] [[Path::<dom/constants/DOM exception error codes]]| format=count}}
 ; julee
 :* [[dom/constants/HTTP response headers]] to [[html/attributes/valueType]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2750&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/constants/HTTP response headers]] [[Path::<html/attributes/valueType]]| format=count}}
 ; Hiroki
 :* [[html/attributes/vcard name]] to [[javascript/Date/constructor]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3025&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>html/attributes/vcard name]] [[Path::<javascript/Date/constructor]]| format=count}}
 ; Roberto
 :* [[javascript/Date/getDate]] to [[javascript/operators/logical and]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3300&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>javascript/Date/getDate]] [[Path::<javascript/operators/logical and]]| format=count}}
 ; Eliezerb
 :* [[javascript/operators/logical not]] to [[svg/methods/inverse]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3575&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>javascript/operators/logical not]] [[Path::<svg/methods/inverse]]| format=count}}
 ; AmeliaBR
 :* [[svg/methods/item]] to [[svg/properties/type (SVGTransform)]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=3850&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>svg/methods/item]] [[Path::<svg/properties/type (SVGTransform)]]| format=count}}
 ; shepazu
 :* [[svg/properties/unitType]] to [[tutorials/workers basics]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4125&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>svg/properties/unitType]] [[Path::<tutorials/workers basics]]| format=count}}
 ; caraya
 :* [[tutorials/working with objects in JavaScript]] to [[xslt]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=4400&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
+:* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>tutorials/working with objects in JavaScript]] | format=count}}
 
 
 ==Plan of Attack==
