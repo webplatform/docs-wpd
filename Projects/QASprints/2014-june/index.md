@@ -151,7 +151,7 @@ The following articles have been assigned to each volunteer by breaking the alph
 ?State Details
 }} }} search page]
 :* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>apis/filesystem/Entry/isFile]] [[Path::<apis/navigation timing/PerformanceTiming/domainLookupStart]]| format=count}}
-; eliot
+; eliot <ins>and Dave Gash</ins>
 :* [[apis/navigation timing/PerformanceTiming/fetchStart]] to [[apis/webrtc/RTCPeerConnection/icechange]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=550&limit=275&po={{urlencode:?State 
 ?State Details
@@ -187,7 +187,7 @@ The following articles have been assigned to each volunteer by breaking the alph
 ?State Details
 }} }} search page]
 :* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/Document/cookie]] [[Path::<dom/HTMLElement/clientLeft]]| format=count}}
-; frozenice
+; <del>frozenice</del> ''needs a volunteer''
 :* [[dom/HTMLElement/clientTop]] to [[dom/MouseEvent/layerX]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
 ?State Details
