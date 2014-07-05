@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Projects/QASprints/2014-june]]
