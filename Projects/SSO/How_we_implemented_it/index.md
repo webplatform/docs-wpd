@@ -54,18 +54,16 @@ In this example, we are going to show how the [http://docs.webplatform.org/test/
 
 Client configuration is described in the project documentation available in the  [https://github.com/webplatform/fxa-oauth-server/blob/master/docs/clients.md WebPlatform's fork of FxA OAuth Server in ''docs/clients.md''].
 
-An client entry looks like this:
+Within FxA OAuth server configuration, a <tt>client: [/* array of clients */]</tt> entry looks like this:
 
 <syntaxHighlight lang="javascript">
-{ /* Other configuration data */
-  "clients": [{
-    "id": "7e7e11299d95d789",
-    "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
-    "name": "WebPlatform Test",
-    "image_uri": "...",
-    "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
-    "whitelisted": true
-  }]
+{
+  "id": "7e7e11299d95d789",
+  "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+  "name": "WebPlatform Test",
+  "image_uri": "...",
+  "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
+  "whitelisted": true
 }
 </syntaxHighlight>
 
