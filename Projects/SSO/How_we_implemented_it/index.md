@@ -57,16 +57,16 @@ Client configuration is described in the project documentation available in the 
 An client entry looks like this:
 
 <syntaxHighlight lang="javascript">
-  "clients": [
-    {
-       "id": "7e7e11299d95d789",
-       "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
-       "name": "WebPlatform Test",
-       "image_uri": "...",
-       "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
-       "whitelisted": true
-    }
-  ]
+{ /* Other configuration data */
+  "clients": [{
+    "id": "7e7e11299d95d789",
+    "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+    "name": "WebPlatform Test",
+    "image_uri": "...",
+    "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
+    "whitelisted": true
+  }]
+}
 </syntaxHighlight>
 
 * <tt>id</tt>: Is a 8 byte hexadecimal string that you will need to have on the client configuration
@@ -167,20 +167,19 @@ The call to get the Authorization token contains:
 The request is similar to this cURL call:
 
 <syntaxHighlight lang="bash">
-curl -XPOST \
-    -H 'Content-Type: application/json' \
-    'https://oauth.accounts.webplatform.org/v1/token' \
-    -d '{"client_id":"7e7e11299d95d789",
-         "client_secret":"a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
-         "code":"SOMETHING_LONG"}'
+curl -XPOST -H 'Content-Type: application/json' \
+     'https://oauth.accounts.webplatform.org/v1/token' \
+     -d '{"client_id":"7e7e11299d95d789",
+          "client_secret":"a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+          "code":"SOMETHING_LONG"}'
 </syntaxHighlight>
 
 We get in exchange the Authorization token in a response that looks like this:
 
 <syntaxHighlight lang="javascript">
-  {"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31",
-   "token_type":"bearer",
-   "scope":"session"}
+{"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31",
+ "token_type":"bearer",
+ "scope":"session"}
 </syntaxHighlight>
 
 The <tt>access_token</tt> is what we needed to act on the behalf of the logged in user.
@@ -223,18 +222,18 @@ curl -H 'Content-Type: application/json' \
 
 '''With a session token''':
 <syntaxHighlight lang="bash">
-    curl -v -H 'Content-Type: application/json' \
-         -H "Authorization: Session 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
-         'https://profile.accounts.webplatform.org/v1/session/recover'
+curl -v -H 'Content-Type: application/json' \
+        -H "Authorization: Session 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
+        'https://profile.accounts.webplatform.org/v1/session/recover'
 </syntaxHighlight>
 
 If the profile server accepted either methods, we get a JSON object looking like this:
 
 <syntaxHighlight lang="javascript">
-  {"username": "jdoe",
-   "fullName": "John Doe",
-   "email": "hi@example.org",
-   "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+{"username": "jdoe",
+ "fullName": "John Doe",
+ "email": "hi@example.org",
+ "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
 
 We can now start the session in the client web application.
@@ -268,10 +267,10 @@ This component answers in two different scenarios:
 In both ''Behavior forks'', the returned data from the profile server MUST be in the following format:
 
 <syntaxHighlight lang="javascript">
-    {"username": "jdoe",
-     "fullName": "John Doe",
-     "email": "hi@example.org",
-     "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+{"username": "jdoe",
+ "fullName": "John Doe",
+ "email": "hi@example.org",
+ "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
 
 Since each web application can have different database and ways to refer to a given user, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
@@ -321,7 +320,7 @@ During previous OAuth2 workflow steps, we saved some data in a key store ("state
 In the case of the [[WPD:Projects/SSO/MediaWikiExtension]], we currently store the previous page the user visited and would look like this:
 
 <syntaxHighlight  lang="javascript>  
-    {"return_to":"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
+{"return_to":"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
 </syntaxHighlight>
 
 Based on that information, we issue a redirect and the user is back where he was.
@@ -412,7 +411,7 @@ The following JavaScript happen.
 This is where we listen to what we get from the accounts server, validate if a session exists, and trigger the calls to the profile server and handle the returned data.
 
 <syntaxHighlight lang="javascript">
-    window.addEventListener("message", function(returned){console.log(returned.data)}, false);
+window.addEventListener("message", function(returned){console.log(returned.data)}, false);
 </syntaxHighlight>
 
 NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]]
@@ -640,4 +639,4 @@ Once the iframe is loaded:
 window.sso.doCheck();
 </syntaxHighlight>
 
-'''NOTE'': If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at [[#Initialize local web application session]].
+'''NOTE''': If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at [[#Initialize local web application session]].
