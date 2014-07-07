@@ -589,6 +589,7 @@ It exposes two methods to the <tt>window.sso</tt> object:
            handler whether the current 
            visitor has a session or 
            not */ 
+           return false; /* false === no session, please start the checks! */
       }, 
       '/wiki/Special:AccountsHandler/callback'
     );
