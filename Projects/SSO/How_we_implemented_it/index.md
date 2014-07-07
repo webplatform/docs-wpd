@@ -56,7 +56,7 @@ Client configuration is described in the project documentation available in the 
 
 An client entry looks like this:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
   "clients": [
     {
        "id": "7e7e11299d95d789",
@@ -90,7 +90,7 @@ In the case of our implementation, we also added (<tt>fxa_profile</tt>) so that 
 
 Our MediaWiki extension has similar configuration in its <tt>Settings.php</tt> file:
 
-<syntaxHighlight>
+<syntaxHighlight lang="php">
 require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
 $wgWebPlatformAuth['client']['id']             = '7e7e11299d95d789';
 $wgWebPlatformAuth['client']['secret']         = 'a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa';
@@ -166,7 +166,7 @@ The call to get the Authorization token contains:
 
 The request is similar to this cURL call:
 
-<syntaxHighlight>
+<syntaxHighlight lang="bash">
 curl -XPOST \
     -H 'Content-Type: application/json' \
     'https://oauth.accounts.webplatform.org/v1/token' \
@@ -177,7 +177,7 @@ curl -XPOST \
 
 We get in exchange the Authorization token in a response that looks like this:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
   {"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31",
    "token_type":"bearer",
    "scope":"session"}
@@ -215,14 +215,14 @@ To read more about recovering a session, refer to [[#SSO and remembering]] workf
 The call to the profile server looks like the following cURL calls:
 
 '''With an Authorization token''':
-<syntaxHighlight>
+<syntaxHighlight lang="bash">
 curl -H 'Content-Type: application/json' \
      -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
      'https://profile.accounts.webplatform.org/v1/session/read'
 </syntaxHighlight>
 
 '''With a session token''':
-<syntaxHighlight>
+<syntaxHighlight lang="bash">
     curl -v -H 'Content-Type: application/json' \
          -H "Authorization: Session 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
          'https://profile.accounts.webplatform.org/v1/session/recover'
@@ -230,7 +230,7 @@ curl -H 'Content-Type: application/json' \
 
 If the profile server accepted either methods, we get a JSON object looking like this:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
   {"username": "jdoe",
    "fullName": "John Doe",
    "email": "hi@example.org",
@@ -267,7 +267,7 @@ This component answers in two different scenarios:
 
 In both ''Behavior forks'', the returned data from the profile server MUST be in the following format:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
     {"username": "jdoe",
      "fullName": "John Doe",
      "email": "hi@example.org",
@@ -491,7 +491,7 @@ The database should either return an empty result, or user data:
 
 If the web application could get a response from <tt>session/recover</tt>, and finds a result, it returns a JSON object:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
   {"username": "jdoe",
    "fullName": "John Doe",
    "email": "hi@example.org",
@@ -521,7 +521,7 @@ Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d
 
 In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.com/webplatform/fxa-content-server/blob/webplatform-customizations/app/scripts/views/base.js app/scripts/views/base.js]
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
       // WebPlatform Specific ===============================
       // file: app/scripts/views/base.js
       // line: 40
@@ -550,7 +550,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
 
 In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.com/webplatform/fxa-content-server/blob/webplatform-customizations/server/bin/fxa-content-server.js server/bin/fxa-content-server.js]
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
   // WebPlatform Specific ===============================
   // File: server/bin/fxa-content-server.js
   // Line: 62
@@ -581,15 +581,21 @@ It exposes two methods to the <tt>window.sso</tt> object:
 * <tt>window.sso.init(hasSessionClosure, localCallbackEndpoint);</tt> To initialize (see below)
 * <tt>window.sso.doCheck()</tt>, to bootstrap the process (should be done once the iframe is loaded).
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
     window.sso.init( 
       function () { 
-        /* provide a closure that 
+        /* 
+           Provide a closure that 
            will tell the JavaScript 
            handler whether the current 
            visitor has a session or 
-           not */ 
-           return false; /* false === no session, please start the checks! */
+           not.
+
+           MUST RETURN bool
+ 
+           false === no session, please start the checks
+         */ 
+        return false;
       }, 
       '/wiki/Special:AccountsHandler/callback'
     );
@@ -597,7 +603,7 @@ It exposes two methods to the <tt>window.sso</tt> object:
 
 Once the iframe is loaded:
 
-<syntaxHighlight>
+<syntaxHighlight lang="javascript">
     window.sso.doCheck();
 </syntaxHighlight>
 
