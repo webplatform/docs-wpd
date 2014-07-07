@@ -436,7 +436,7 @@ NOTE: This is handled in file [[#JavaScript shared module: Detect and start auto
 
 <syntaxHighlight lang="javascript">
 window.sso.init(closure, '/wiki/Special:AccountsHandler/callback');
-</syntaxHilight>
+</syntaxHighlight>
 
 ===== 2.3. From B, Send trigger to ask confirmation from the iframe =====
 
@@ -537,9 +537,7 @@ In the case of an invalid or expired sessionToken, an error should be returned. 
 
 The rest MUST comply to what’s described in [[#Initialize local web application session]].
 
-
 ----
-
 
 == JavaScript shared module: Detect and start automatically a session ==
 
@@ -547,7 +545,7 @@ This step is meant to address the '''Detect automatically if there is a session 
 
 It describes the behavior of a non blocking JavaScript module meant to detect and start automatically a session for the user.
 
-Client code is available in  [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16 JavaScript SsoHandler class in this gist]
+Client code is available in [https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16 JavaScript SsoHandler class in this gist]
 
 
 === 1. Event handler to validate a session ===
@@ -598,7 +596,7 @@ In our own fork and branch of <tt>fxa-content-server</tt>, in [https://github.co
   // /WebPlatform Specific ==============================
 </syntaxHighlight>
 
-=== 3. JavaScript client to handle automatic signin ===
+=== 3. JavaScript client to handle automatic sign in ===
 
 This section describes what the module actually does.
 
