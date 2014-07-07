@@ -432,7 +432,11 @@ Create the iframe
     var authChecker=document.createElement('iframe');authChecker.src='https://accounts.webplatform.org/';authChecker.frameworder=0;authChecker.width=0;authChecker.height=0;authChecker.id='authChecker';document.body.appendChild(authChecker);
 </syntaxHighlight>
 
-NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]] at the <tt>window.sso.init(closure, '/wiki/Special:AccountsHandler/callback')</tt>.
+NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]] at the 
+
+<syntaxHighlight lang="javascript">
+window.sso.init(closure, '/wiki/Special:AccountsHandler/callback');
+</syntaxHilight>
 
 ===== 2.3. From B, Send trigger to ask confirmation from the iframe =====
 
@@ -441,7 +445,7 @@ Since the iframe has reloaded fully the document and would behave the same as if
 To do so, we are sending a request for confirmation, like this:
 
 <syntaxHighlight lang="javascript">
-    authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
+authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
 </syntaxHighlight>
 
 NOTE: This is handled in file [[#JavaScript shared module: Detect and start automatically a session]]. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
@@ -451,13 +455,15 @@ NOTE: This is handled in file [[#JavaScript shared module: Detect and start auto
 Provided a session is already open, we should get something similar to:
 
 <syntaxHighlight lang="javascript">
-    {hasSession: true, recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
+{hasSession: true,
+ recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
 </syntaxHighlight>
 
 If there is no session, or in case of failure, we would get:
 
 <syntaxHighlight lang="javascript">
-    {hasSession: false, recoveryPayload: null}
+{hasSession: false,
+ recoveryPayload: null}
 </syntaxHighlight>
 
 Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
@@ -477,9 +483,9 @@ Compared to a call with an OAuth Authorization token, we are going to call a dif
 The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover</tt> and requires an "Authorization" header similar to OAuth, but with a Session token instead.
 
 <syntaxHighlight lang="bash">
-    curl -v -H 'Content-Type: application/json' \
-         -H "Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f" \
-         'https://profile.accounts.webplatform.org/v1/session/recover'
+curl -v -H 'Content-Type: application/json' \
+        -H "Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f" \
+        'https://profile.accounts.webplatform.org/v1/session/recover'
 </syntaxHighlight>
 
 ''NOTE'' This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
@@ -494,7 +500,18 @@ Here are the HTTP Response body the endpoint would return:
 Under the hood, the profile server endpoint at <tt>GET /v1/session/recover</tt> makes database queries similar to:
 
 <syntaxHighlight lang="mysql">
-    SELECT HEX(s.uid) AS uid, a.normalizedEmail AS email, a.username AS username, a.fullName AS fullName FROM sessionTokens AS s, accounts AS a WHERE s.uid = a.uid AND tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
+SELECT 
+  HEX(s.uid) AS uid,
+  a.normalizedEmail AS email, 
+  a.username AS username,
+  a.fullName AS fullName 
+FROM 
+  sessionTokens AS s,
+  accounts AS a 
+WHERE 
+  s.uid = a.uid 
+AND
+  tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
 </syntaxHighlight>
 
 The database should either return an empty result, or user data:
@@ -609,7 +626,7 @@ It exposes two methods to the <tt>window.sso</tt> object:
            visitor has a session or 
            not.
 
-           MUST RETURN bool
+           MUST RETURN a bool
  
            false === no session, please start the checks
          */ 
@@ -622,7 +639,7 @@ It exposes two methods to the <tt>window.sso</tt> object:
 Once the iframe is loaded:
 
 <syntaxHighlight lang="javascript">
-    window.sso.doCheck();
+window.sso.doCheck();
 </syntaxHighlight>
 
 '''NOTE'': If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at [[#Initialize local web application session]].
