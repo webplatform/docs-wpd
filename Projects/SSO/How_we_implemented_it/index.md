@@ -148,7 +148,7 @@ From that callback, we get two keys:
 
 The callback URI looks like this:
 
-<nowiki>/wiki/Special:AccountsHandler/callbackcode=SOMETHING_LONG&state=5a72cd23b1b5feb8</nowiki>
+    <nowiki>/wiki/Special:AccountsHandler/callback?code=SOMETHING_LONG&state=5a72cd23b1b5feb8</nowiki>
 
 Based on the received data, we can continue with the OAuth2 handshake.
 
