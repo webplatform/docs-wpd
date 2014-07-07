@@ -187,7 +187,7 @@ The following articles have been assigned to each volunteer by breaking the alph
 ?State Details
 }} }} search page]
 :* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/Document/cookie]] [[Path::<dom/HTMLElement/clientLeft]]| format=count}}
-; <del>frozenice</del> ''needs a volunteer''
+; <del>frozenice</del> <del>''needs a volunteer''</del> AmeliaBR 
 :* [[dom/HTMLElement/clientTop]] to [[dom/MouseEvent/layerX]]
 :* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2200&limit=275&po={{urlencode:?State 
 ?State Details
