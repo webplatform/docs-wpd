@@ -149,7 +149,9 @@ From that callback, we get two keys:
 * <tt>code</tt>: This is a one-time token that we can use to get an OAuth2 Token. In this example, its "SOMETHING_LONG"
 
 The callback URI looks like this:
-    <nowiki>http://docs.webplatform.org/test/Special:AccountsHandler/callbackcode=SOMETHING_LONG&state=5a72cd23b1b5feb8</nowiki>
+
+    https://hostname/wiki/Special:AccountsHandler/callbackcode=SOMETHING_LONG&state=5a72cd23b1b5feb8
+
 
 Based on the received data, we can continue with the OAuth2 handshake.
 
@@ -319,8 +321,8 @@ During previous OAuth2 workflow steps, we saved some data in a key store ("state
 
 In the case of the [[WPD:Projects/SSO/MediaWikiExtension]], we currently store the previous page the user visited and would look like this:
 
-<syntaxHighlight  lang="javascript>  
-{"return_to":"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
+<syntaxHighlight lang="javascript>
+{return_to:"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
 </syntaxHighlight>
 
 Based on that information, we issue a redirect and the user is back where he was.
