@@ -22,10 +22,14 @@ The following is a list of tasks which have been suggested for this review.  <!-
 We have a lot of pages to get through, so this checklist has been designed to make the assessment quick and consistent.  Follow the decision tree until you reach a readiness state.  For some pages there are extra to-do lists, given below.
 
 ===Decision Tree for all pages===
-# Does the page have an editing form?
+# Does the page have an editing form?  
 #;	NO:	
 #:*		follow basic templates to-do list.  
-#:*		Readiness = NOT READY.   
+#:*		Readiness = NOT READY.  
+# '''Is there a title at the top of the page?'''
+#;	NO:	
+#:*		follow basic templates to-do list, using the "Edit Source" button to get to the template code.  
+#:*		continue with rest of checklist
 # Is the page in a language other than English?
 #;	YES:  leave Readiness = UNREVIEWED
 # Is the page an obvious mistake or deletion candidate?
