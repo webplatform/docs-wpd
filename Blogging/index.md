@@ -37,6 +37,31 @@ WPD will use a centralized editorial calendar, (https://www.google.com/calendar/
 | author(s)
 | status
 |-
+| ??, 2014
+| Implementation tables
+| Doug
+| proposed
+|-
+| 30 May, 2014
+| Doc sprint, Dusseldorf
+| Jay Meissner
+| published
+|-
+| 9 April, 2014
+| New home page
+| Jen Simmons
+| published
+|-
+| 4 March, 2014
+| WPD Doc Sprint, Fluent conference
+| Julee
+| published
+|-
+| 26 February, 2014
+| WPW, week 3. What kind of developer are you?
+| Julee
+| published
+|-
 | 17 February, 2014
 | WPD Doc Sprint, Fluent conference
 | Julee
@@ -45,7 +70,7 @@ WPD will use a centralized editorial calendar, (https://www.google.com/calendar/
 | 7 February, 2014
 | JavaScript reference import
 | Max Polk
-| in edit
+| published
 |-
 | 7 November, 2013
 | Seattle Doc Sprint, U of Washington
