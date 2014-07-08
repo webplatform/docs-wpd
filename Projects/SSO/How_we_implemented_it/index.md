@@ -222,8 +222,15 @@ curl -H 'Content-Type: application/json' \
 '''With a session token''':
 <syntaxHighlight lang="bash">
 curl -v -H 'Content-Type: application/json' \
-        -H "Authorization: Session 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
+        -H "Authorization: Session 095dc99de03e99c6d93211aced561c6a28800cdd20fe2ff55ef4626401a04045" \
         'https://profile.accounts.webplatform.org/v1/session/recover'
+</syntaxHighlight>
+
+'''NOTE'''; The <tt>sessionToken</tt> is available from the [https://accounts.webplatform.org/settings Accounts server settings view] only once a user is logged in. To access the <tt>sessionToken</tt> you have to read through ''localStorage API'' like so:
+
+<syntaxHighlight lang="javascript">
+var obj = JSON.parse(window.localStorage.getItem('__fxa_session')) || {};
+console.log(obj); // if there is a session, a key called sessionToken will have what we need
 </syntaxHighlight>
 
 If the profile server accepted either methods, we get a JSON object looking like this:
@@ -335,7 +342,7 @@ In this case, we are provided with ONE key through a <tt>POST</tt> request to ou
 
 '''NOTE''' This step is currently getting directly the <tt>sessionToken</tt> and will eventually changed, see reasons in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
 
-===== 1.2.1 Make a request with the recieved data =====
+===== 1.2.1 Make a request with the received data =====
 
 As described in [[#SSO and remembering]], in the step [[#4. Read data from the profile server with a recoveryPayload]].
 
@@ -359,7 +366,7 @@ This step is required by the [[#JavaScript shared module: Detect and start autom
 * <tt>4xx</tt>: Stop there, no valid session was found
 * <tt>5xx</tt>: Stop there, an unexpected error happened
 
-If the status is not an error (e.g. 4xx, 5xx), we can send an error message in the response body with a Content-type of <tt>text/plain</tt>.
+If the status is not an error (e.g. 4xx, 5xx), we can send an error message in the response body with a <tt>Content-type: text/plain</tt> HTTP header.
 
 ----
 
@@ -531,7 +538,7 @@ If the web application could get a response from <tt>session/recover</tt>, and f
    "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
 
-In the case of an invalid or expired sessionToken, an error should be returned. See possible errors at [[#4. Read data from the profile server with a recoveryPayload]]
+In the case of an invalid or expired <tt>sessionToken</tt>, an error should be returned. See possible errors at [[#4. Read data from the profile server with a recoveryPayload]]
 
 The rest MUST comply to what’s described in [[#Initialize local web application session]].
 
