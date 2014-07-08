@@ -1,4 +1,13 @@
-<pre>
+{{Page Title|2014-07-08 Community Meeting}}
+== Presents ==
+* Amelia
+* Doug
+* Eliot
+* Jen
+* Julee
+* Renoir (scribe)
+
+== Minutes ==
 scribenick: renoirb
 eliot: AmeliaBR: Quick recap of where we're are.
 Amelia: Accepted proposal to be leading topic of QASprint/2014-july
@@ -72,4 +81,3 @@ Garbee, no need to update amelia
 Also, I updated Eliot as an administrator
 shepazu: Just to add another aspect, Amelia correctly diagnosed an issue on the compatibility tables
 ... renoir sent an email describing the issue and the planned work to resolve the problem
-</pre>
