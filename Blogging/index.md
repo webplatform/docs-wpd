@@ -32,11 +32,6 @@ WPD will use a centralized editorial calendar, (https://www.google.com/calendar/
 ! author
 ! status
 |-
-| date
-| topic
-| author(s)
-| status
-|-
 | ??, 2014
 | Implementation tables
 | Doug
