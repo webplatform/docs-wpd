@@ -71,7 +71,7 @@ Within FxA OAuth server configuration, a <tt>client: [/* array of clients */]</t
 * <tt>secret</tt>: Is a 32 byte hexadecimal string that you will also need on the client configuration.
 * <tt>redirectUri</tt>: Is where you should send the users to when they successfully authenticated.
 
-To continue with our example, we are connecting to a MediaWiki installation that has the [[WPD:Projects/SSO/MediaWikiExtension]] available. In the case of that particular extension, it expects that we send authenticated users back to '''Special::AccountsHandler/callback'''.
+To continue with our example, we are connecting to a MediaWiki installation that has the [[WPD:Projects/SSO/MediaWikiExtension]] available. In the case of that particular extension, it expects that we send authenticated users back to <nowiki><tt>Special:AccountsHandler/callback</tt></nowiki>.
 
 
 === 2. Configure client ===
@@ -121,7 +121,7 @@ If no session is detected, the module does nothing.
 
 === 4. From a page, when you click login ===
 
-The MediaWiki extension detects the click and sends you to '''Special:AccountsHandler/start'''. Its an internal process to generate a redirect to the OAuth2 authentication flow.
+The MediaWiki extension detects the click and sends you to <nowiki><tt>Special:AccountsHandler/start</tt></nowiki>. Its an internal process to generate a redirect to the OAuth2 authentication flow.
 
 The web application generates and sends user to the OAuth authentication endpoint, with some data:
 * The client identifier ("<tt>client_id</tt>")
@@ -136,7 +136,7 @@ Since the OAuth server knows who is the client, it adjusts the title to "Sign in
 
 '''NOTE''' In the screenshot above, you see ''scope=profile''. Since that snapshot, we changed the scope name to  ''session'' because we needed to differentiate web application that will use OAuth to create local sessions from future use cases.
 
-Once the authentication worked the [https://accounts.webplatform.org/ accounts server] sends you to the <tt>callbackUri</tt> (e.g. <tt>Special:AccountsHandler/callback</tt> for Media Wiki).
+Once the authentication worked the [https://accounts.webplatform.org/ accounts server] sends you to the <tt>callbackUri</tt> (e.g. <nowiki><tt>Special:AccountsHandler/callback</tt></nowiki> for Media Wiki).
 
 
 === 5. Redirected the callback URI ===
@@ -148,7 +148,7 @@ From that callback, we get two keys:
 
 The callback URI looks like this:
 
-    <nowiki>/wiki/Special:AccountsHandler/callback?code=SOMETHING_LONG&state=5a72cd23b1b5feb8</nowiki>
+<nowiki><code>/wiki/Special:AccountsHandler/callback?code=SOMETHING_LONG&state=5a72cd23b1b5feb8</code></nowiki>
 
 Based on the received data, we can continue with the OAuth2 handshake.
 
@@ -251,7 +251,7 @@ One of the key behavior in a SSO system is that each configured application reli
 
 === 0. Preamble ===
 
-The following MUST be done in the backend code answering at the what is refered to as "'''callback'''" (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>) on each relying parties who wants to use the SSO. 
+The following MUST be done in the backend code answering at the what is refered to as "'''callback'''" (e.g. <nowiki><tt>Special:AccountsHandler/callback</tt></nowiki>) on each relying parties who wants to use the SSO. 
 
 It handles the following steps:
 * Read data from profile server
@@ -260,7 +260,7 @@ It handles the following steps:
 * Return a status code for the [[#JavaScript shared module: Detect and start automatically a session]] 
 
 This component answers in two different scenarios:
-* GET request with two parameters (e.g. <tt>/wiki/Special:AccountsHandler/callback?code=aaa&state=bbb</tt>), "[[#1.1 Possibility: Completing an OAuth2 handshake]]"
+* GET request with two parameters (e.g. <nowiki><tt>Special:AccountsHandler/callback?code=aaa&state=bbb</tt></nowiki>), "[[#1.1 Possibility: Completing an OAuth2 handshake]]"
 * POST request with <tt>recoveryPayload</tt> data, "[[#1.2 Possibility: Resuming a session confirmed by the accounts server]]".
 
 In both ''Behavior forks'', the returned data from the profile server MUST be in the following format:
@@ -289,7 +289,7 @@ Here are the differences in both cases.
 
 This section covers what the backend does when it got called during an OAuth2 workflow during [[#Delegating authentication]] and mentionned in [[#5. Redirected the callback URI]].
 
-In this case, we are provided with TWO keys through a <tt>GET</tt> request to our callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>)
+In this case, we are provided with TWO keys through a <tt>GET</tt> request to our callback (e.g. <nowiki><tt>Special:AccountsHandler/callback</tt></nowiki>)
 
 * <tt>code</tt>: The one-time token that is the last step to get an Authorization token
 * <tt>state</tt>: A key identifier that we got when we saved away in a key store (e.g. Memcache) the state before signing in.
@@ -329,7 +329,7 @@ Based on that information, we issue a redirect and the user is back where he was
 
 This section covers what the backend does when we detected a session through the frontend discovery mechanism [[WPD:Projects/SSO/Login Workflows#Starting a session by communicating with accounts server]].
 
-In this case, we are provided with ONE key through a <tt>POST</tt> request to our callback (e.g. <tt>/wiki/Special:AccountsHandler/callback</tt>)
+In this case, we are provided with ONE key through a <tt>POST</tt> request to our callback (e.g. <nowiki><tt>Special:AccountsHandler/callback</tt></nowiki>)
 
 * <tt>recoveryPayload</tt>: Containing the data used to ask the profile server
 
