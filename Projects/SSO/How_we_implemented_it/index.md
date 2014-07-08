@@ -220,18 +220,23 @@ curl -H 'Content-Type: application/json' \
 </syntaxHighlight>
 
 '''With a session token''':
+
+'''NOTE'''; The <tt>sessionToken</tt> is available from the [https://accounts.webplatform.org/settings Accounts server settings view] only once a user is logged in. To access it, we are using cross-frame communication and read the token from localStorage API.
+
+<syntaxHighlight lang="javascript">
+// URI https://accounts.webplatform.org/settings
+var obj = JSON.parse(window.localStorage.getItem('__fxa_session')) || {};
+console.log(obj); // if there is a session, obj.sessionToken will have what we need
+</syntaxHighlight>
+
+Use the <tt>obj.sessionToken</tt> after <tt>Session</tt> in the following cURL:
+
 <syntaxHighlight lang="bash">
 curl -v -H 'Content-Type: application/json' \
         -H "Authorization: Session 095dc99de03e99c6d93211aced561c6a28800cdd20fe2ff55ef4626401a04045" \
         'https://profile.accounts.webplatform.org/v1/session/recover'
 </syntaxHighlight>
 
-'''NOTE'''; The <tt>sessionToken</tt> is available from the [https://accounts.webplatform.org/settings Accounts server settings view] only once a user is logged in. To access the <tt>sessionToken</tt> you have to read through ''localStorage API'' like so:
-
-<syntaxHighlight lang="javascript">
-var obj = JSON.parse(window.localStorage.getItem('__fxa_session')) || {};
-console.log(obj); // if there is a session, a key called sessionToken will have what we need
-</syntaxHighlight>
 
 If the profile server accepted either methods, we get a JSON object looking like this:
 
