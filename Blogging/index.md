@@ -20,6 +20,14 @@ WPD uses a number of social media channels to promote a blog, including Twitter,
 ===Creating a blog post===
 You can create a blog post in a text editor and deliver the content to the person coordinating the blog. If you expect to create more than a single blog, you can request permissions to the blog authoring system (WordPress) in WPD. If you have permissions, you must log in before you can create or edit a blog. The link to sign in is in the Meta block on any blog page, at the bottom of the list of months in the Archive section. Once you log in, you are directed to the WordPress dashboard. Click the Posts link and icon, and you can edit or create new posts from there. Note that each blog post must be approved by at least one member of the community who is not an author of that blog post before it is published.
 
+===Creating buzz===
+You know the parable: if a tree falls in the woods and nobody sees it, does it make a sound? Well, we want the effect of our announcements to be deafening. Once you see your blog post published, try to use these mechanisms to get the word out:
+*Tweet a link (or have someone tweet) from @webplatform (~6k followers), using a Piwik tracking url 
+*Retweet from @w3c (~60k followers) and other Team accounts and partners (e.g. members, stewards, etc.) 
+*Retweet again in a different timezone cycle (or make follow-up tweets) 
+*Engage people who ask questions or make comments on Twitter 
+ 
+
 ===Calendar of blog posts===
 Creating a calendar of blog posts is a bit tricky—we want to keep the line of communication fresh and ongoing, yet we should not dilute any one message with a torrent of other content. The blog should contain at least one new post per week, generally a few more. The calendar should have a good mix of the types of content listed above, but we should also weight posts to the types favored by the community through feedback, volume of readers, and rating.
 
