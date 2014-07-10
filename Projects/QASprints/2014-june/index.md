@@ -205,7 +205,7 @@ The following articles have been assigned to each volunteer by breaking the alph
 :* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/MouseEvent/layerY]] [[Path::<dom/constants/DOM exception error codes]]| format=count}}
 ; julee
 :* [[dom/constants/HTTP response headers]] to [[html/attributes/valueType]]
-:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2750&limit=275&po={{urlencode:?State 
+:* [{{fullurl:Special:Ask|q={{urlencode:[[State::+]]}}&offset=2751&limit=275&po={{urlencode:?State 
 ?State Details
 }} }} search page]
 :* # completed: {{#ask: [[State::!Unreviewed]] [[Path::>dom/constants/HTTP response headers]] [[Path::<html/attributes/valueType]]| format=count}}
