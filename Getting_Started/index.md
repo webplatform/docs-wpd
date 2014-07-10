@@ -1,5 +1,5 @@
 =Start contributing content=
-Anyone can contribute to the WebPlatform.org wiki. '''First''', read the [[WPD:Editors_Guide|Editor's Guide]] to learn how to set up your account, find information about how we work, and get the details about editing content. Then, come back here and dig in!
+Anyone can contribute to the WebPlatform.org wiki. '''First''', read the [[WPD:Contributors_Guide|Contributor's Guide]] to learn how to set up your account, find information about how we work, and get the details about editing content. Then, come back here and dig in!
 
 This page provides lists of pages that need your help; these are broken out by task. Scroll down the page to find a task you would like to perform. In the table for each task, click the link to a page that needs the work. 
 
