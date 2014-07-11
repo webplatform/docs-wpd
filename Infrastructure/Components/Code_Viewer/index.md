@@ -1,6 +1,6 @@
 Among Web Platform Docs features is a live code viewer and pastebin. It allows us to keep in one place all code samples.
 
-The webapp we are using for this is [http://lea.verou.me Lea Verou]'s [http://dabblet.com/ Dabblet].
+The webapp we are using for this is [http://lea.verou.me Lea Verou]'s [http://dabblet.com/ Dabblet] available at [http://code.webplatform.org/ '''code.webplatform.org'''] and keeps the code in a [https://gist.github.com/WebPlatformDocs dedicated GitHub Gists repository].
 
 ==Features==
 * Provides a live preview of input HTML, CSS, SVG, JavaScript, etc. ''(mostly done)''
