@@ -1,11 +1,14 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section}}
 {{Basic Page}}
 ==Introduction==
 
-Webplatform.org uses the [https://www.w3.org/Bugs/Public/ W3C's public bug], project and issue Tracking Service, using the open-source [http://www.bugzilla.org/ bugzilla] platform. We use this tool for bugs about infrastructure problems, administrative issues, and the like. Problems about the content and that are found in the topics within the WPD content library should be flagged in the topic and fixed by and within the community. 
+Webplatform.org uses the [http://project.webplatform.org/ Its own project management system], using the open-source [http://www.thebuggenie.com/ The Bug Genie] software. We use this tool for bugs about infrastructure problems, administrative issues, and the like. Problems about the content and that are found in the topics within the WPD content library should be flagged in the topic and fixed by and within the community. 
 
-While the W3C maintains a [https://www.w3.org/Bugs/Public/page.cgi?id=quicksearch.html page with help topics], this page is a rudimentary getting started.
-
+<!--
 ==Categorizing bugs==
 
 You can begin a search for any bugs from [https://www.w3.org/Bugs/Public/query.cgi https://www.w3.org/Bugs/Public/query.cgi]. You can toggle between simple and advanced search by using the tabs on the page. The simple search will scour a product for strings, and the advanced search has pretty powerful capability pivoting on a number of factors. Note that the built-in functionality via the links at the bottom of the page vary depending on whether you're using simple or advanced search.
@@ -87,21 +90,23 @@ Bugzilla uses the following criteria for categorizing bugs. Use the product in t
 | List of bugs blocked by this bug
 | 
 |}
+-->
 
-==Creating a bug==
-To create a new bug, just click ''New'' on one of the Bugzilla pages. When you create a new bug, you must select ''webplatform.org'' as the product. The form that follows contains the fields listed above. The Component and Summary fields are mandatory.
+==Creating an issue==
+To create a new issue, just click ''Report an issue'' on one of the Project pages (e.g. [http://project.webplatform.org/content Content project]). 
 
-==Commenting on a bug==
+==Commenting on an issue==
 
-Once a bug is open, you merely add a comment in the Comment field and then click ''Save changes''. Bugzilla saves the comments in order. You can comment in general on the bug or reply to a specific comment already in the bug's history. 
+Once an issue is open, you merely add a comment in the Comment field and then click ''Save changes''. You can comment in general on the bug or reply to a specific comment already in the issue history. 
 
-==Resolving bugs==
+==Resolving issues==
 
 To resolve a bug, merely change the status to ''RESOLVED''. A new dropdown menu appears listing choices for how the bug was resolved. After making the selection and adding any appropriate comments, save changes.
 
 ==Access and permissions==
 
-The WPD Bugzilla database is open only to those who have a current W3C account. This includes W3C staff members, WPD stewards, members of working groups, and members of W3C Community Groups. WPD is looking at ways that this database may be opened to the public in the future.
+The [http://project.webplatform.org/ WPD Project manager] is accessible to anybody who wants to create an account on the system.
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
