@@ -1,4 +1,4 @@
-{{Flag
+{{Flags
 |State=Out of Date
 }}
 ==Work Items==
