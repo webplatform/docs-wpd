@@ -1,8 +1,9 @@
-{{Page_Title}}
+{{Page_Title|Reporting an issue}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|How to report a bug or an issue to participate}}
 {{Basic Page}}
 ==Introduction==
 
