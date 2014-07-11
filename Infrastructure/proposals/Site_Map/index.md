@@ -1,3 +1,6 @@
+{{Flags
+|State=Out of Date
+}}
 ==Landing Page==
 WebPlatform.org
 
