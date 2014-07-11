@@ -1,6 +1,6 @@
-One planned feature of Web Platform Docs is a live code viewer and pastebin. 
+Among Web Platform Docs features is a live code viewer and pastebin. It allows us to keep in one place all code samples.
 
-The webapp we are using for this is [http://dabblet.com/ Dabblet], which will be integrated into the site.
+The webapp we are using for this is [http://lea.verou.me Lea Verou]'s [http://dabblet.com/ Dabblet].
 
 ==Features==
 * Provides a live preview of input HTML, CSS, SVG, JavaScript, etc. ''(mostly done)''
@@ -13,7 +13,7 @@ Because integration has many aspects, we will roll out full support for this fea
 ===Roadmap===
 ====Phase 1: Static Live Code Viewer====
 
-'''Status:''' ''partially done'' (still need to remove github features)
+'''Status:''' ''Done''
 
 ====Phase 2: Open Examples from Wiki====
 
@@ -28,8 +28,6 @@ Because integration has many aspects, we will roll out full support for this fea
 '''Status:''' ''not started''
 
 ===Other Tasks===
-* Single Sign-On
-* Theming to match WebPlatform.org
 
 ==Technical Requirements==
 ===Dedicated Subdomain===
