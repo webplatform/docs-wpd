@@ -1,0 +1,1 @@
+#REDIRECT [[WPD:Infrastructure/procedures/Design changes guide]]
