@@ -3,9 +3,13 @@ Among Web Platform Docs features is a live code viewer and pastebin. It allows u
 The webapp we are using for this is [http://lea.verou.me Lea Verou]'s [http://dabblet.com/ Dabblet] available at [http://code.webplatform.org/ '''code.webplatform.org'''] and keeps the code in a [https://gist.github.com/WebPlatformDocs dedicated GitHub Gists repository].
 
 ==Features==
-* Provides a live preview of input HTML, CSS, SVG, JavaScript, etc. ''(mostly done)''
+* Provides a live preview of input HTML, CSS, SVG, JavaScript
 * Allows users to share code snippets with each other, as a pastebin ''(mostly done, still replies on GitHub)''
 * Provides a way to open example code from the wiki in live example without copy-paste ''(some progress, not done)''
+
+==Needs improvement==
+* Cannot work directly with raw HTML file and HTTP headers
+* Find way to add another file and define its content-type
 
 ==Integration==
 Because integration has many aspects, we will roll out full support for this feature in several steps.
