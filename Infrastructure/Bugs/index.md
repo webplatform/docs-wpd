@@ -96,9 +96,12 @@ Bugzilla uses the following criteria for categorizing bugs. Use the product in t
 ==Creating an issue==
 To create a new issue, just click ''Report an issue'' on one of the Project pages (e.g. [http://project.webplatform.org/content Content project]). 
 
+==Listing issues==
+Each project has their own issue lists. If, for example, you want to follow and resolve any content related issues. You can keep a bookmark to [http://project.webplatform.org/content Content dashboard on the ''Project'' tracker], and maybe [http://project.webplatform.org/content/issues/open bookmark the ''opened issues'' list] too.
+
 ==Commenting on an issue==
 
-Once an issue is open, you merely add a comment in the Comment field and then click ''Save changes''. You can comment in general on the bug or reply to a specific comment already in the issue history. 
+Once an issue is open, you can add a comment in the Comment field and then click ''Save changes''. You can comment in general on the bug or reply to a specific comment already in the issue history. 
 
 ==Resolving issues==
 
