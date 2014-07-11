@@ -1,6 +1,5 @@
-{{Flags
-|State=Out of Date
-}}
+{{Note|This page describes the initial plan for webplatform.org, most content is deprecated}}
+
 ==Landing Page==
 WebPlatform.org
 
