@@ -52,6 +52,14 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Test
+|URL=http://docs.webplatform.org/w/index.php?title=WPD:Practice_Page&action=formedit
+|Status=test mode
+|Relevant_changes=none
+}}{{Related Specification
+|Name=Another test
+|URL=http://docs.webplatform.org/
+|Status=test mode 2
+|Relevant_changes=none 2
 }}
 }}
 {{Compatibility_Section
