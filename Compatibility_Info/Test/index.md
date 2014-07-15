@@ -1,7 +1,7 @@
 ==Compatibility quick-view==
 
 ===border-radius as list (partial)===
-<compatability topic="css" type="property" feature="css/border-radius" format="table">'border-radius' test</compatability>
+<compatability topic="css" type="property" feature="border-radius" format="list">'border-radius'</compatability>
 
 ===inline-block as list (supported)===
 <compatability topic="css" type="property" feature="inline-block" format="list">inline-block</compatability>
