@@ -50,7 +50,9 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Import_Notes=This is important!
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Test
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
