@@ -9,8 +9,6 @@
 {{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences. '''Hari:Om'''. I am trying text editting, enabled in this scrollable area, in which word wrapping is also possible.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
-
-*Use <code>&lt;syntaxhighlight&gt;</code> only for stand-alone code blocks; for inline terms use the <code>&lt;code&gt;</code> tag (as used in this list item).
 }}
 {{CSS Property
 |Initial value=Test
