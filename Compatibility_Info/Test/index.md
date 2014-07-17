@@ -1,16 +1,16 @@
 ==Compatibility quick-view==
 
 ===border-radius as list (partial)===
-<compatibility topic="css" type="property" feature="border-radius" format="list">'border-radius'</compatibility>
+<compatibility topic="css" type="property" feature="border-radius" format="table">'border-radius'</compatibility>
 
 ===inline-block as list (supported)===
-<compatibility topic="css" type="property" feature="inline-block" format="list">inline-block</compatibility>
+<compatibility topic="css" type="property" feature="inline-block" format="table">inline-block</compatibility>
 
 ===font-size as list (unknown)===
-<compatibility topic="css" type="property" feature="font-size" format="list">font-size</compatibility>
+<compatibility topic="css" type="property" feature="font-size" format="table">font-size</compatibility>
 
 ===css-regions as list (unsupported)===
-<compatibility topic="css" type="property" feature="css-regions" format="list">css-regions</compatibility>
+<compatibility topic="css" type="property" feature="css-regions" format="table">css-regions</compatibility>
 
 ==Compatibility tables==
 
