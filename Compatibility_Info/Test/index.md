@@ -1,27 +1,27 @@
 ==Compatibility quick-view==
 
 ===border-radius as list (partial)===
-<compatability topic="css" type="property" feature="border-radius" format="list">'border-radius'</compatability>
+<compatibility topic="css" type="property" feature="border-radius" format="list">'border-radius'</compatibility>
 
 ===inline-block as list (supported)===
-<compatability topic="css" type="property" feature="inline-block" format="list">inline-block</compatability>
+<compatibility topic="css" type="property" feature="inline-block" format="list">inline-block</compatibility>
 
 ===font-size as list (unknown)===
-<compatability topic="css" type="property" feature="font-size" format="list">font-size</compatability>
+<compatibility topic="css" type="property" feature="font-size" format="list">font-size</compatibility>
 
 ===css-regions as list (unsupported)===
-<compatability topic="css" type="property" feature="css-regions" format="list">css-regions</compatability>
+<compatibility topic="css" type="property" feature="css-regions" format="list">css-regions</compatibility>
 
 ==Compatibility tables==
 
 ===border-radius===
-<compatability topic="css" type="property" feature="border-radius">border-radius</compatability>
+<compatibility topic="css" type="property" feature="border-radius">border-radius</compatibility>
 
 ===inline-block===
-<compatability topic="css" type="property" feature="inline-block">inline-block</compatability>
+<compatibility topic="css" type="property" feature="inline-block">inline-block</compatibility>
 
 ===font-size===
-<compatability topic="css" type="property" feature="font-size">font-size</compatability>
+<compatibility topic="css" type="property" feature="font-size">font-size</compatibility>
 
 ===css-regions (unsupported)===
-<compatability topic="css" type="property" feature="css-regions">css-regions</compatability>
+<compatibility topic="css" type="property" feature="css-regions">css-regions</compatibility>
