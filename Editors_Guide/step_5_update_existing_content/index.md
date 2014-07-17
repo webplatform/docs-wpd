@@ -32,7 +32,7 @@ Article types should be consistently titled, each according to its content's pri
 Follow these title conventions for specific article types:
 * Use gerunds (words ending in the -ing suffix) for articles with tutorial, task, procedure, and process content.
 ** Examples: 
-*** Using the <audio> tag
+*** Using the <code><audio></code> tag
 *** Drawing on the canvas
 *** Styling UI elements with CSS
 *** Interpreting getLocation() data 
