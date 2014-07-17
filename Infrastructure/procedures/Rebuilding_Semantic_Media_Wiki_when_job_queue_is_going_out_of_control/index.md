@@ -1,6 +1,6 @@
 = Rebuilding SMW when job queue is going out of control =
 
-== Symtom ==
+== Symptom ==
 When the job queue seems to always have more and more jobs ("SMWUpdateJob") to do and the job runner ("maintenance/runJobs.php") has more than one running for long periods. It means that the extension needs to rebuild the data from scratch.
 
 '''How to validate if it apply?'''
