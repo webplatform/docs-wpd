@@ -73,3 +73,7 @@ This section covers what the ''front-end'' does to detect if a session is opened
 ** Return an HTTP status code: <tt>204</tt> if it worked, <tt>4xx</tt> if it didn’t, <tt>5xx</tt> if an unexpected backend error happened. (see [[WPD:Projects/SSO/How we implemented it#1.2.4 Return an HTTP response]])
 
 '''NOTE''': This workflow is subject to change, the details is described in [[WPD:Projects/SSO/Improvements roadmap#Recovering session data]].
+
+== Reference ==
+
+* [http://www.whatcodecraves.com/posts/2012/01/11/backbonejs-sessions-and-authentication Sessions and authentication] describes how a session works, you can ignore what is specific to backbone.
