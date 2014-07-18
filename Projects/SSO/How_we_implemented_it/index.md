@@ -2,7 +2,9 @@
 
 == Summary ==
 
-The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give an idea of the various moving parts. If you want to see the high level description, refer to [[WPD:Projects/SSO/Login Workflows]]
+The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give an idea of the various moving parts. 
+
+If you want to see the high level description, refer to [[WPD:Projects/SSO/Login Workflows]] or if you want a shorter version, go to [[WPD:Projects/SSO/OAuth2_handshake_process_in_a_few_cURL_calls]].
 
 The authentication portal is using our own fork of Mozilla Firefox Accounts ("FxA") deployed on WebPlatform.org infrastructure. Details of the adaptations are described in [[WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform]].
 
