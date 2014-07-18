@@ -75,11 +75,12 @@ The request is very similar as [[#1. Get handshake starting point details step 1
 redirected around. Remember that this URL is called by the relying site
 and the browser follows the <code>Location:</code> response header.
 
-
 <syntaxHighlight lang="bash">
   curl -v
 'https://oauth.accounts.webplatform.org/v1/authorization?scope=session&action=signin&state=8888&client_id=e2aa7a52c84b396d'
 </syntaxHighlight>
+
+'''NOTE''': That the scope, state, and action can by anything. Those are simply declared at the beginning of the proces, and adds entropy to the crypto stuff happening behind the scenes.  The <code>action=signin</code> is a helper for the accounts server to know if we want to login or register. As for the <code>scope=session</code>, you can ask anything, only <code>session</code> will allow you to get things back in the end anyway.
 
 In the response...
 
