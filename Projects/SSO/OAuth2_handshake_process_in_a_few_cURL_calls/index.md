@@ -29,8 +29,9 @@ If you have no web server on your own machine, it will just hang, but will have 
 
 Here are the steps of the OAuth handshake all through cURL. Except the login, that will make you use your own web browser and [https://accounts.webplatform.org/ account details], of course.
 
-Also, if we want to have a "[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]" and prevent us to ask for a password again, I pointed out where we could make it happen. Unfortunately for us, its not possible as it is right now.
-
+<div class="notes">
+Also, if we want to have a [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]] and prevent us to ask for a password again, I pointed out where we could make it happen. Unfortunately for us, its not possible as it is right now.
+</div>
 
 === 1. Get handshake starting point details ===
 
@@ -49,30 +50,30 @@ you ask for name, image to represent that service, etc.
   "redirect_uri":"https://notes.webplatform.org/login"}
 </syntaxHighlight>
 
-Note that it gives the `redirect_uri`. As in, we don’t trust ANY data sent by the client, we’ll send it there ourselves.
+Note that it gives the <code>redirect_uri</code>. As in, we don’t trust ANY data sent by the client, we’ll send it there ourselves.
 
 
 
 === 2. Start the handshake ===
 
-This step makes your browser go around through Response `Location: ...`
-redirect.
+This step makes your browser go around through Response <code>Location: </code>
+and change the browser location address.
 
 An important aspect is that this HTTP call allows you to ask what you
-need ("scope"), and how to get back where you were afterwards ("state").
+need ("<code>scope</code>"), and how to get back where you were afterwards ("<code>state</code>").
 
 The state identifier is useful because since you are leaving your own
 application you might want to save the state somewhere else (e.g.
-Memcached) and give a key ("state") so we can resume it later.
+Memcached) and give a key ("<code>state</code>") so we can resume it later.
 
 The scope is a coma separated list of things the api exposes. This is
 very liberal, but this is how relying parties and providers gets ask the
 user to approve what he’s letting the APIs to communicate about him. In
 our case, our SSO accepts "session", we might have more later.
 
-The request is very similar as step 1, but this time, we will get
-redirected around. Remember that this URL is called by the reyling site
-and the browser follows the Location: redirects.
+The request is very similar as [[#1. Get handshake starting point details step 1]], but this time, we will get
+redirected around. Remember that this URL is called by the relying site
+and the browser follows the <code>Location:</code> response header.
 
 
 <syntaxHighlight lang="bash">
@@ -101,7 +102,7 @@ Location is there, let’s copy that, and paste it in your own web
 browser. You will need to sign-in.
 
 <div class="notes">
-This is where the current version of FxA that we are using is incomplete. If that part was complete, it would "remember" you signed in already and we would already get to step 4 with a code in hand!
+Instead of doing like [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]], if [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform our version of FxA] [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Leveraging_completely_OAuth2 had handled remember session], we could get right through. If that part was complete, it would "remember" you signed in already and we would already get to step 4 with a code in hand!
 </div>
 
 
@@ -149,7 +150,7 @@ We get the token:
   "scope":"session"}
 </syntaxHighlight>
 
-NOTE: The token is invalid (i changed numbers), you will have to get your own ;)
+'''NOTE''': That bearer token is invalid (i changed it), you will have to get your own ;)
 
 
 === 5. Ask stuff to an OAuth2 protected API ===
