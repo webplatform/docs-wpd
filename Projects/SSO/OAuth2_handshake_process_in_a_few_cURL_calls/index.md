@@ -48,7 +48,7 @@ you ask for name, image to represent that service, etc.
 
 And the response body:
 
-<syntaxHighlight lang="bas">
+<syntaxHighlight lang="bash">
  {"name":"Annotator (local)",
   "image_uri":"...",
   "redirect_uri":"http://127.0.0.1:5000/login"}
