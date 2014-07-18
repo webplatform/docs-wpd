@@ -60,8 +60,7 @@ Note that it gives the <code>redirect_uri</code>. As in, we don’t trust ANY da
 
 === 2. Start the handshake ===
 
-This step makes your browser go around through Response <code>Location: </code> header
- and change the browser location to that address.
+This step makes your browser go around through Response <code>Location: </code> header and change the browser location to that address.
 
 An important aspect is that this HTTP call allows you to ask what you
 need ("<code>scope</code>"), and how to get back where you were afterwards ("<code>state</code>").
