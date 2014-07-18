@@ -43,9 +43,12 @@ Its a way to know if the service exists for the relying party, it lets
 you ask for name, image to represent that service, etc.
 
 <syntaxHighlight lang="bash">
-  curl -v
-'https://oauth.accounts.webplatform.org/v1/client/e2aa7a52c84b396d'
+  curl 'https://oauth.accounts.webplatform.org/v1/client/e2aa7a52c84b396d'
+</syntaxHighlight>
 
+And the response body:
+
+<syntaxHighlight lang="bas">
  {"name":"Annotator (local)",
   "image_uri":"...",
   "redirect_uri":"http://127.0.0.1:5000/login"}
@@ -57,8 +60,8 @@ Note that it gives the <code>redirect_uri</code>. As in, we don’t trust ANY da
 
 === 2. Start the handshake ===
 
-This step makes your browser go around through Response <code>Location: </code>
-and change the browser location address.
+This step makes your browser go around through Response <code>Location: </code> header
+ and change the browser location to that address.
 
 An important aspect is that this HTTP call allows you to ask what you
 need ("<code>scope</code>"), and how to get back where you were afterwards ("<code>state</code>").
@@ -77,13 +80,12 @@ redirected around. Remember that this URL is called by the relying site
 and the browser follows the <code>Location:</code> response header.
 
 <syntaxHighlight lang="bash">
-  curl -v
-'https://oauth.accounts.webplatform.org/v1/authorization?scope=session&action=signin&state=8888&client_id=e2aa7a52c84b396d'
+  curl -v 'https://oauth.accounts.webplatform.org/v1/authorization?scope=session&action=signin&state=8888&client_id=e2aa7a52c84b396d'
 </syntaxHighlight>
 
 '''NOTE''': That the scope, state, and action can by anything. Those are simply declared at the beginning of the proces, and adds entropy to the crypto stuff happening behind the scenes.  The <code>action=signin</code> is a helper for the accounts server to know if we want to login or register. As for the <code>scope=session</code>, you can ask anything, only <code>session</code> will allow you to get things back in the end anyway.
 
-In the response...
+In the response headers...
 
 <syntaxHighlight lang="bash">
 < HTTP/1.1 302 Moved Temporarily
@@ -132,22 +134,22 @@ Like previously said about the feature miss. We wouldn’t had needed to ask the
 
 === 4. Exchange the code for what we need ===
 
-This is done by the backend when he got the GET request. Its an
-important concept because we are sending around the client secret. Even
-though we are using SSL, we want to be sure that the client_secret is
-not sent everywhere around.
+This is done by the backend of the relying party site. The <code>callback_uri</code> expects
+a <code>GET</code> request with a <code>&code=...</code> string that it’ll communicate '''Off the band''' (i.e. from the web app server to the OAuth server, without passing through the visitor web browser).
+
+Its an important concept because we are sending around the client secret. Even though we are using SSL, we want to be sure that the client_secret is sent to the network as less as possible. In this case, only registered relying parties and OAuth servers will see this data being passed around.
 
 <syntaxHighlight lang="bash">
   curl -v -XPOST
     -H 'Content-Type: application/json'
     'https://oauth.accounts.webplatform.org/v1/token'
     -d '{"client_id":"e2aa7a52c84b396d", \
-        "client_secret":"e2d1f060cb9e15e7452fe907abb214d32290df72bf954a6149de966378b996fb",
+        "client_secret":"e2d1f060cb9e15e7452fe907abb214d32290df72bf954a6149de966378b996fb", \
          "code":"a6373251b8a61808633cfe32f3518b01bad01a9010d3c18ed2072d5335b421bb"}'
 </syntaxHighlight>
 
 
-We get the token:
+We get the token we wanted in the response body:
 
 <syntaxHighlight lang="javascript"> 
 {"access_token":"f787622b3a7f818bceb9a7793f77afb669d72579325a7a9a3c853e540e5f5544",
@@ -163,11 +165,11 @@ We get the token:
 So far, only a few are available, the profile server which gives us back data for our own users.
 
 <syntaxHighlight lang="bash">
-  curl -H "Authorization: Bearer f787622b3a7f818bceb9a7793f77afb669d72579325a7a9a3c853e540e5f5544"
-      'https://profile.accounts.webplatform.org/v1/session/read'
+  curl -H "Authorization: Bearer f787622b3a7f818bceb9a7793f77afb669d72579325a7a9a3c853e540e5f5544"\
+      "https://profile.accounts.webplatform.org/v1/session/read"
 </syntaxHighlight>
 
-And the response would look like this:
+And the response body would look like this:
 
 <syntaxHighlight lang="javascript">
 {"username": "jdoe",
