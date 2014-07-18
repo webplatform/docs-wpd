@@ -104,7 +104,7 @@ Location is there, let’s copy that, and paste it in your own web
 browser. You will need to sign-in.
 
 <div class="note">
-Instead of doing like [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]], if [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform our version of FxA] [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Leveraging_completely_OAuth2 had handled remember session], we could get right through. If that part was complete, it would "remember" you signed in already and we would already get to step 4 with a code in hand!
+Instead of doing like [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]], if [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform our version of FxA] [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Leveraging_completely_OAuth2 had handled remember session], we could get right through. If that part was complete, it would "remember" you signed in already and we would already get to [[#4. Exchange the code for what we need]] with a code in hand!
 </div>
 
 
