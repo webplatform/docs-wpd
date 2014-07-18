@@ -163,8 +163,15 @@ We get the token:
 So far, only a few are available, the profile server which gives us back data for our own users.
 
 <syntaxHighlight lang="bash">
-  curl -v
-    -H "Authorization: Bearer
-f787622b3a7f818bceb9a7793f77afb669d72579325a7a9a3c853e540e5f5544"
-    'https://profile.accounts.webplatform.org/v1/session/read'
+  curl -H "Authorization: Bearer f787622b3a7f818bceb9a7793f77afb669d72579325a7a9a3c853e540e5f5544"
+      'https://profile.accounts.webplatform.org/v1/session/read'
+</syntaxHighlight>
+
+And the response would look like this:
+
+<syntaxHighlight lang="javascript">
+{"username": "jdoe",
+ "fullName": "John Doe",
+ "email": "hi@example.org",
+ "uid": "3E09D6DF843341BC921A25423AB83BAF" }
 </syntaxHighlight>
