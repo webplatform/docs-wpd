@@ -6,6 +6,7 @@ The following describes the steps to retrieve your own profile user data from ou
 
 It doesn’t matter that we expose some secrets in this web page, all you will get access from this process is your own data anyway.
 
+There is also a longer, in depth, version available at [[WPD:Projects/SSO/How_we_implemented_it]]
 
 === Requirements ===
 # An account created on [https://accounts.webplatform.org/ accounts.webplatform.org]
