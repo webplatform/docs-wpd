@@ -30,7 +30,7 @@ If you have no web server on your own machine, it will just hang, but will have 
 
 Here are the steps of the OAuth handshake all through cURL. Except the login, that will make you use your own web browser and [https://accounts.webplatform.org/ account details], of course.
 
-<div class="notes">
+<div class="note">
 Also, if we want to have a [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]] and prevent us to ask for a password again, I pointed out where we could make it happen. Unfortunately for us, its not possible as it is right now.
 </div>
 
@@ -103,7 +103,7 @@ https://accounts.webplatform.org/oauth/signin?scope=session&state=8888&client_id
 Location is there, let’s copy that, and paste it in your own web
 browser. You will need to sign-in.
 
-<div class="notes">
+<div class="note">
 Instead of doing like [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering remember my session]], if [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform our version of FxA] [http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Leveraging_completely_OAuth2 had handled remember session], we could get right through. If that part was complete, it would "remember" you signed in already and we would already get to step 4 with a code in hand!
 </div>
 
@@ -125,7 +125,7 @@ Once its done, you should be redirected with a <code>code=...</code> visible in 
 
 '''NOTE''': The code is no longer valid (its a one time, remember), you will have to get your own.
 
-<div class="notes">
+<div class="note">
 Like previously said about the feature miss. We wouldn’t had needed to ask the user to login if it was complete, we would have had gotten back to the initiating web app, the notes server here, the code and could start a session in his own web app.
 </div>
 
