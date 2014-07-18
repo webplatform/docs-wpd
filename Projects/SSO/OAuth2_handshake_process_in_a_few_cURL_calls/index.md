@@ -117,9 +117,10 @@ Use your web browser, and sign in.
 
   https://accounts.webplatform.org/oauth/signin?scope=session&state=8888&client_id=e2aa7a52c84b396d
 
+'''NOTE''': Replace "WebPlatform Test", in the following image, for "Annotator (local)"
+
 [[File:sso_steps_login_dialog.png]]
 
-'''NOTE''': Imagine you see at on the login prompt "Annotator (local)" instead.
 
 Once its done, you should be redirected with a <code>code=...</code> visible in the address bar:
 
