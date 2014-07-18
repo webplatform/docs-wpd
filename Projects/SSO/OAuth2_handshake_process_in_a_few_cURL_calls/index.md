@@ -110,12 +110,14 @@ Instead of doing like [[WPD:Projects/SSO/How_we_implemented_it#SSO_and_rememberi
 
 === 3. Go to the Location and ask the code ===
 
-Go there, and sign in.
+Use your web browser, and sign in.
 
   https://accounts.webplatform.org/oauth/signin?scope=session&state=8888&client_id=e2aa7a52c84b396d
 
-Once its done, you should be redirected with a code=... visible in the
-address bar:
+[[File:sso_steps_login_dialog.png]]
+
+
+Once its done, you should be redirected with a <code>code=...</code> visible in the address bar:
 
   https://notes.webplatform.org/login?state=8888&code=a6373251b8a61808633cfe32f3518b01bad01a9010d3c18ed2072d5335b421bb
 
