@@ -46,9 +46,9 @@ you ask for name, image to represent that service, etc.
   curl -v
 'https://oauth.accounts.webplatform.org/v1/client/e2aa7a52c84b396d'
 
- {"name":"WebPlatform Notes",
+ {"name":"Annotator (local)",
   "image_uri":"...",
-  "redirect_uri":"https://notes.webplatform.org/login"}
+  "redirect_uri":"http://127.0.0.1:5000/login"}
 </syntaxHighlight>
 
 Note that it gives the <code>redirect_uri</code>. As in, we don’t trust ANY data sent by the client, we’ll send it there ourselves.
@@ -117,10 +117,11 @@ Use your web browser, and sign in.
 
 [[File:sso_steps_login_dialog.png]]
 
+'''NOTE''': Imagine you see at on the login prompt "Annotator (local)" instead.
 
 Once its done, you should be redirected with a <code>code=...</code> visible in the address bar:
 
-  https://notes.webplatform.org/login?state=8888&code=a6373251b8a61808633cfe32f3518b01bad01a9010d3c18ed2072d5335b421bb
+  http://127.0.0.1:5000/login?state=8888&code=a6373251b8a61808633cfe32f3518b01bad01a9010d3c18ed2072d5335b421bb
 
 '''NOTE''': The code is no longer valid (its a one time, remember), you will have to get your own.
 
