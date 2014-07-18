@@ -1,4 +1,4 @@
-== Description ==
+= OAuth2 handshake process in a few cURL calls =
 
 What is the OAuth2 handshake after all?  It seems magical, but in fact, it can be reproduced by a few command line calls.
 
