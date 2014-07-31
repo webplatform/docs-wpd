@@ -113,6 +113,8 @@ If you include certain characters in your article, like the pipe character, the 
 | &#125; || Right curly bracket || &amp;#125;
 |-
 | &#124; || Pipe || &amp;#124;
+|-
+| &#39; || Apostrophe || &amp;#124;
 |}
 
 =Unclosed brackets=
