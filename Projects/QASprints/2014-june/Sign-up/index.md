@@ -6,6 +6,8 @@ We're in the final stretch, and to make sure everything gets done, I've broken t
 
 On a roll?  Come back and sign up for another!  Let's get these done, so we can concentrate on the more interesting stuff!  Just remember to refresh this page before editing it, in case someone else has signed up in the meantime.
 
+''You don't have to be an expert in a topic to assess the article readiness.  Focus on whether the information is there and properly organized.  If an article is complete, but you're not sure whether it is accurate and up-to-date, leave it as Almost Ready instead of Ready to Use, and add an editorial note saying "requires technical review".''
+
 # ''Your name here''
 #* [[ apis/NodeList/length ]]
 #* [[ apis/ambient light ]]
