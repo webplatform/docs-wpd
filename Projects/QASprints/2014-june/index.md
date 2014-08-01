@@ -5,6 +5,23 @@ As part of the progression of Webplatform.org to Beta stage (see the [[WPD:Proje
 
 As this will require a manual review of every page by experienced contributors, this is also a good time to do other quick and simple clean-up and quality assurance (QA) tasks that can only be done manually.
 
+==UPDATE==
+We're in the final stretch, and to make sure everything gets done, I've broken the remaining articles into the bite-size lists, available on a separate sign-up page:  
+
+[[WPD:Projects/QASprints/2014-june/Sign-up |  <span style="font-size:larger;font-weight:bold">Sign up here</span> ]]
+
+'''If you can work on a batch of articles, edit the sign-up page to put your name above the article list''' (in the place that currently says "Your name here").  Please don't sign up until you're ready to sit down and start working!  That way, whoever has the time can get the work done.
+
+There are 80 batches, each with about 15-20 articles; I tried to split them at logical topic changes.  The more you can do the better, but even if you only do one batch that's a big help.   If you haven't already been working on the QA review, scroll down this page for information on what to do.
+
+==Progress==
+
+Current Article Count:
+* Needs Review:  {{#ask: [[State::Unreviewed]] | format=count}} articles
+* Readiness Assessed: {{#ask: [[State::!Unreviewed]] | format=count}} articles
+
+(You can see the counts by readiness state, with links to all articles given that state, on the [[Property:State]] page.)
+
 ==Review Tasks==
 
 The following is a list of tasks which have been suggested for this review.  <!-- Any additions/concerns should be posted to the mailing list or discussed on IRC.  A final version will be agreed on hopefully in the 3 June 2014 teleconference (and if not, by the following week). -->
@@ -140,6 +157,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 <!-- Your name here... -->
 
 ==Article Blocks==
+<ins>  See the update above for information about the new article blocks, or go to the [[WPD:Projects/QASprints/2014-june/Sign-up |sign-up page]] to claim your block.</ins>
 
 The following articles have been assigned to each volunteer by breaking the alphabetical search results into blocks of 275 articles each:
 
@@ -255,12 +273,4 @@ If you need help, [[WPD:Community#Chat_with_us_on_IRC | ask on IRC ]].  If you c
 
 * <del>Comments and volunteers ASAP</del>
 * Articles to be assigned Thursday June 12, 2014
-* Work completed by July 1
-
-==Progress==
-
-Current Article Count:
-* Needs Review:  {{#ask: [[State::Unreviewed]] | format=count}} articles
-* Readiness Assessed: {{#ask: [[State::!Unreviewed]] | format=count}} articles
-
-(You can see the counts by readiness state, with links to all articles given that state, on the [[Property:State]] page.)
+* Work completed <del>by July 1</del><ins> as soon as possible</ins>
