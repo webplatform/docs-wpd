@@ -1,5 +1,6 @@
 = Description =
-A set of custom adapted mini extensions that are part of WebPlatform Docs wiki skin. Since they are small one file extensions, we bundled them together.
+
+This page describes how to use MediaWiki Vagrant workspace and a set of scripts to reproduce docs.webplatform.org MediaWiki installation. It doesn’t include the actual database, but rather the full set of dependencies and customizations.
 
 == Status: In progress ==
 See related changesets in the main extension+skin and the vagrant workspace
