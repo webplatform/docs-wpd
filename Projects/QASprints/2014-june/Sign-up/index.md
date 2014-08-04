@@ -1330,7 +1330,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/operators/bitwise xor ]]
 #*[[ javascript/operators/bitwise xor assignment ]]
 #*[[ javascript/operators/comma ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/operators/comparison ]]
 #*[[ javascript/operators/compound assignment ]]
 #*[[ javascript/operators/conditional ternary ]]
