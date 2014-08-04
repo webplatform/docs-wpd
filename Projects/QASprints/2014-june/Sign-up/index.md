@@ -1342,7 +1342,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/operators/instanceof ]]
 #*[[ javascript/operators/left shift assignment ]]
 #*[[ javascript/operators/logical and ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ svg/properties/valueAsString ]]
 #*[[ svg/properties/valueInSpecifiedUnits ]]
 #*[[ svg/properties/values ]]
