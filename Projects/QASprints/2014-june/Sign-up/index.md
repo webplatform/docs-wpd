@@ -1314,7 +1314,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/isNaN ]]
 #*[[ javascript/methods ]]
 #*[[ javascript/null ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/objects ]]
 #*[[ javascript/operators ]]
 #*[[ javascript/operators/addition ]]
@@ -1330,7 +1330,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/operators/bitwise xor ]]
 #*[[ javascript/operators/bitwise xor assignment ]]
 #*[[ javascript/operators/comma ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/operators/comparison ]]
 #*[[ javascript/operators/compound assignment ]]
 #*[[ javascript/operators/conditional ternary ]]
