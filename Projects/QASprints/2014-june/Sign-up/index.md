@@ -8,7 +8,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 
 ''You don't have to be an expert in a topic to assess the article readiness.  Focus on whether the information is there and properly organized.  If an article is complete, but you're not sure whether it is accurate and up-to-date, leave it as Almost Ready instead of Ready to Use, and add an editorial note saying "requires technical review".''
 
-# ''Your name here''
+# Hiroki
 #* [[ apis/NodeList/length ]]
 #* [[ apis/ambient light ]]
 #* [[ apis/appcache ]]
