@@ -1294,7 +1294,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Uint8Array/length ]]
 #*[[ javascript/Uint8Array/set ]]
 #*[[ javascript/Uint8Array/subarray ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/arguments ]]
 #*[[ javascript/arguments/0 n Properties ]]
 #*[[ javascript/arguments/callee ]]
@@ -1314,7 +1314,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/isNaN ]]
 #*[[ javascript/methods ]]
 #*[[ javascript/null ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/objects ]]
 #*[[ javascript/operators ]]
 #*[[ javascript/operators/addition ]]
