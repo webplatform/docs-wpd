@@ -1275,7 +1275,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Uint16Array/length ]]
 #*[[ javascript/Uint16Array/set ]]
 #*[[ javascript/Uint16Array/subarray ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Uint32Array ]]
 #*[[ javascript/Uint32Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Uint32Array/buffer ]]
@@ -1294,7 +1294,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Uint8Array/length ]]
 #*[[ javascript/Uint8Array/set ]]
 #*[[ javascript/Uint8Array/subarray ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/arguments ]]
 #*[[ javascript/arguments/0 n Properties ]]
 #*[[ javascript/arguments/callee ]]
