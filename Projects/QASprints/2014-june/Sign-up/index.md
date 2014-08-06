@@ -1257,7 +1257,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/String/slice ]]
 #*[[ javascript/String/split ]]
 #*[[ javascript/String/substr ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/String/substring ]]
 #*[[ javascript/String/toLocaleLowerCase ]]
 #*[[ javascript/String/toLocaleUpperCase ]]
@@ -1275,7 +1275,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Uint16Array/length ]]
 #*[[ javascript/Uint16Array/set ]]
 #*[[ javascript/Uint16Array/subarray ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Uint32Array ]]
 #*[[ javascript/Uint32Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Uint32Array/buffer ]]
