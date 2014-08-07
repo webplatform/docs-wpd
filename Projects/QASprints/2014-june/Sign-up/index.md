@@ -1238,7 +1238,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/RegExp/lastParen ]]
 #*[[ javascript/RegExp/leftContext ]]
 #*[[ javascript/RegExp/rightContext ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/String ]]
 #*[[ javascript/String/HTML Tag Methods ]]
 #*[[ javascript/String/charAt ]]
@@ -1257,7 +1257,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/String/slice ]]
 #*[[ javascript/String/split ]]
 #*[[ javascript/String/substr ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/String/substring ]]
 #*[[ javascript/String/toLocaleLowerCase ]]
 #*[[ javascript/String/toLocaleUpperCase ]]
