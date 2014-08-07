@@ -964,7 +964,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/HTMLElement/applicationName ]]
 #*[[ dom/HTMLElement/attribute ]]
 #*[[ dom/HTMLElement/blur ]]
-# ''Your name here''
+# iecustomizer (Rob^_^)
 #*[[ dom/HTMLElement/canHaveHTML ]]
 #*[[ dom/HTMLElement/cellIndex ]]
 #*[[ dom/HTMLElement/className ]]
@@ -981,7 +981,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/WheelEvent/deltaY ]]
 #*[[ dom/WheelEvent/deltaZ ]]
 #*[[ dom/WheelEvent/initWheelEvent ]]
-# ''Your name here''
+# iecustomizer (Rob^_^)
 #*[[ dom/Window ]]
 #*[[ dom/Window/URL ]]
 #*[[ dom/Window/XMLHttpRequest ]]
@@ -997,7 +997,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/Window/defaultStatus ]]
 #*[[ dom/Window/frames ]]
 #*[[ dom/Window/getComputedStyle ]]
-# ''Your name here''
+# iecustomizer (Rob^_^)
 #*[[ dom/Window/getSelection ]]
 #*[[ dom/Window/indexedDB ]]
 #*[[ dom/Window/innerHeight ]]
@@ -1015,7 +1015,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/Window/scroll ]]
 #*[[ dom/Window/scrollBy ]]
 #*[[ dom/Window/scrollTo ]]
-# ''Your name here''
+# iecustomizer (Rob^_^)
 #*[[ dom/Window/setImmediate ]]
 #*[[ dom/Window/setInterval ]]
 #*[[ dom/Window/setTimeout ]]
