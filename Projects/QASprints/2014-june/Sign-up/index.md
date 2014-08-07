@@ -1216,7 +1216,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Object/getOwnPropertyNames ]]
 #*[[ javascript/Object/getPrototypeOf ]]
 #*[[ javascript/Object/hasOwnProperty ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Object/isExtensible ]]
 #*[[ javascript/Object/isFrozen ]]
 #*[[ javascript/Object/isPrototypeOf ]]
@@ -1238,7 +1238,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/RegExp/lastParen ]]
 #*[[ javascript/RegExp/leftContext ]]
 #*[[ javascript/RegExp/rightContext ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/String ]]
 #*[[ javascript/String/HTML Tag Methods ]]
 #*[[ javascript/String/charAt ]]
