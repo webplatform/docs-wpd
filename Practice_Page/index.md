@@ -65,8 +65,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=http://html5rocks.com
+|HTML5Rocks_link=
 }}
