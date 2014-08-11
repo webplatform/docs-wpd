@@ -1196,7 +1196,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Math/sqrt ]]
 #*[[ javascript/Math/tan ]]
 #*[[ javascript/NaN ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Number ]]
 #*[[ javascript/Number/constants ]]
 #*[[ javascript/Number/constructor ]]
@@ -1216,7 +1216,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Object/getOwnPropertyNames ]]
 #*[[ javascript/Object/getPrototypeOf ]]
 #*[[ javascript/Object/hasOwnProperty ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Object/isExtensible ]]
 #*[[ javascript/Object/isFrozen ]]
 #*[[ javascript/Object/isPrototypeOf ]]
