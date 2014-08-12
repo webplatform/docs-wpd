@@ -41,18 +41,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Language=JavaScript
 |Description=Foo the Bar Baz, boy.
 |Code=console.log("foo");
-}}{{Single Example
-|Language=HTML
-|Description=Test
-|Code=<picture>
-  <source
-    media="(min-width: 1024px)"
-    srcset="opera-fullshot.jpg">
-<img
-  src="opera-closeup.jpg" alt="The Oslo Opera House">
-</picture>
-
-
 }}
 }}
 {{Notes_Section
