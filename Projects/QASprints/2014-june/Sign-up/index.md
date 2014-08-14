@@ -1178,7 +1178,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Math/abs ]]
 #*[[ javascript/Math/acos ]]
 #*[[ javascript/Math/asin ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Math/atan ]]
 #*[[ javascript/Math/atan2 ]]
 #*[[ javascript/Math/ceil ]]
@@ -1196,7 +1196,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Math/sqrt ]]
 #*[[ javascript/Math/tan ]]
 #*[[ javascript/NaN ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Number ]]
 #*[[ javascript/Number/constants ]]
 #*[[ javascript/Number/constructor ]]
