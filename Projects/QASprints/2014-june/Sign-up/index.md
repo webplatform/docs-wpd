@@ -1161,7 +1161,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Int32Array/length ]]
 #*[[ javascript/Int32Array/set ]]
 #*[[ javascript/Int32Array/subarray ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Int8Array ]]
 #*[[ javascript/Int8Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Int8Array/buffer ]]
@@ -1178,7 +1178,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Math/abs ]]
 #*[[ javascript/Math/acos ]]
 #*[[ javascript/Math/asin ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Math/atan ]]
 #*[[ javascript/Math/atan2 ]]
 #*[[ javascript/Math/ceil ]]
