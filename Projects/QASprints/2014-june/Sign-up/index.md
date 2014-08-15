@@ -1123,7 +1123,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Float32Array/length ]]
 #*[[ javascript/Float32Array/set ]]
 #*[[ javascript/Float32Array/subarray ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Float64Array ]]
 #*[[ javascript/Float64Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Float64Array/buffer ]]
@@ -1142,7 +1142,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Function/length ]]
 #*[[ javascript/Global ]]
 #*[[ javascript/Infinity ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Int16Array ]]
 #*[[ javascript/Int16Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Int16Array/buffer ]]
