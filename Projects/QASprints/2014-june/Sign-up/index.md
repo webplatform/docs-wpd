@@ -1072,7 +1072,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Date/getUTCMonth ]]
 #*[[ javascript/Date/getUTCSeconds ]]
 #*[[ javascript/Date/getYear ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Date/now ]]
 #*[[ javascript/Date/parse ]]
 #*[[ javascript/Date/prototype ]]
@@ -1102,7 +1102,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Date/toTimeString ]]
 #*[[ javascript/Date/toUTCString ]]
 #*[[ javascript/Date/valueOf ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Error ]]
 #*[[ javascript/Error/constructor ]]
 #*[[ javascript/Error/description ]]
