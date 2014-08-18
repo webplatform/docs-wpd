@@ -1102,7 +1102,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Date/toTimeString ]]
 #*[[ javascript/Date/toUTCString ]]
 #*[[ javascript/Date/valueOf ]]
-# ''Your name here''
+# Dave Gash
 #*[[ javascript/Error ]]
 #*[[ javascript/Error/constructor ]]
 #*[[ javascript/Error/description ]]
@@ -1123,7 +1123,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Float32Array/length ]]
 #*[[ javascript/Float32Array/set ]]
 #*[[ javascript/Float32Array/subarray ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Float64Array ]]
 #*[[ javascript/Float64Array/BYTES PER ELEMENT ]]
 #*[[ javascript/Float64Array/buffer ]]
