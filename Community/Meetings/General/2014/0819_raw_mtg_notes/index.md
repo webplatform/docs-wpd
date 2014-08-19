@@ -1,4 +1,6 @@
-Chair: shepazu
+= 2014-08-19 Community meeting =
+
+* Chair: shepazu
 * On the phone call: Dave Gash, Eliot, Jen
 * On IRC: Eliezerb
 * scribe: RenoirB
