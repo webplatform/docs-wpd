@@ -948,7 +948,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/HTMLBodyElement ]]
 #*[[ dom/HTMLButtonElement ]]
 #*[[ dom/HTMLCanvasElement ]]
-# ''Your name here''
+# Dave Gash
 #*[[ dom/HTMLCollection ]]
 #*[[ dom/HTMLCollection/item ]]
 #*[[ dom/HTMLCollection/length ]]
@@ -1031,7 +1031,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/clientInformation ]]
 #*[[ dom/constants ]]
 #*[[ dom/constants/DOM exception error codes ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ dom/processingInstruction ]]
 #*[[ dom/shadowdom ]]
 #*[[ dom/shadowdom/ShadowRoot ]]
