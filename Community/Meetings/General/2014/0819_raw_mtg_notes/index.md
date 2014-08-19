@@ -30,7 +30,7 @@ shepazu   : Should we resume WPW on first week of september?
 
 Eliot: Sounds like a good blog post. Who is volunteering to write it up
 
-**ACTION** Shepazu to write the comeback of WPW blog post
+''ACTION'' Shepazu to write the comeback of WPW blog post
 
 Jen: Can we talk about the Readiness markers?
 
@@ -38,7 +38,7 @@ Jen: Can we talk about the Readiness markers?
 
 shepazu [agrees]
 
-**ACTION** Jen to write an email to ask the community to work on the CSS readiness flag visual component
+''ACTION'' Jen to write an email to ask the community to work on the CSS readiness flag visual component
 
 shepazu: is there anything else about HTML  or the readiness markers bugs?
 
@@ -58,7 +58,7 @@ shepazu: Amelia or Jen, do you want to update on the issue tracker progress?
 
 Jen: I can talk about it. We should set some time to talk about it in a separate meeting sometime next week.
 
-**ACTION** Jen to plan a meeting on the project progress
+''ACTION'' Jen to plan a meeting on the project progress
 
 === TOPIC: Doug’s trip to London for SVG WG and Conference ===
 
@@ -81,7 +81,7 @@ Dave: Eliot and me we discussed recently. Give  n that Rob^_^ (a contributor who
 
 shepazu: Maybe Dave you could prioritize the HTML pages?
 
-**ACTION** Have Dave assess the work required to improve noticably the quality of the HTML pages for the joint event.
+''ACTION'' Have Dave assess the work required to improve noticably the quality of the HTML pages for the joint event.
 
 shepazu: anything else?
 
