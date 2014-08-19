@@ -1031,7 +1031,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/clientInformation ]]
 #*[[ dom/constants ]]
 #*[[ dom/constants/DOM exception error codes ]]
-# ''Your name here''
+# Dave Gash
 #*[[ dom/processingInstruction ]]
 #*[[ dom/shadowdom ]]
 #*[[ dom/shadowdom/ShadowRoot ]]
@@ -1048,7 +1048,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/shadowdom/ShadowRoot/removeStyleSheet ]]
 #*[[ dom/shadowdom/ShadowRoot/resetStyleInheritance ]]
 #*[[ dom/shadowdom/ShadowRoot/styleSheets ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ dom/tutorials ]]
 #*[[ edge case ]]
 #*[[ em ]]
