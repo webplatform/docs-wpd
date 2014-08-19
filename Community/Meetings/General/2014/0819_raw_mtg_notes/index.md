@@ -23,7 +23,7 @@ shepazu: We are to announce W3C’s HTML5 recommendation status
 ... it might be a good idea if we try to have a concerted effort toward HTML until October 28 (ish) so we can 
 announce our pages in the same time as the W3C spec announcement
 
-... do anybody agrees [Jen agreed] 
+Jen [agrees]
 
 ... can you, Jen, work with Pearl to work toward that goal
 
@@ -35,7 +35,7 @@ Eliot squeals with delight at WPW coming back!!!!!!!
 
 shepazu   : Should we resume WPW on first week of september?
 
-... agrees: Eliot
+Eliot [agrees]
 
 Eliot: Sounds like a good blog post. Who is volunteering to write it up
 
