@@ -110,7 +110,7 @@ shepazu: how about we m  ake a joint announcement of the three:
 * WebPlatformDocs 2nd anniversary
 * HTML documentation status
 
-Dave: Eliot and me we discussed recently. Give  n that Rob^_^ (a contributor who is taking care of readiness sprint) to work (Rob and Dave) to focus on the pages.
+Dave: Eliot and me we discussed recently. Give  n that Rob^_^ (a contributor who is taking care of that particular section in the [[WPD:Projects/QASprints/2014-june]] QA sprint) to work (Rob and Dave) to focus on the pages.
 
 ... i’m looking a t about 5w of work for completion on the pages.
 
