@@ -1048,7 +1048,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/shadowdom/ShadowRoot/removeStyleSheet ]]
 #*[[ dom/shadowdom/ShadowRoot/resetStyleInheritance ]]
 #*[[ dom/shadowdom/ShadowRoot/styleSheets ]]
-# ''Your name here''
+# Dave Gash
 #*[[ dom/tutorials ]]
 #*[[ edge case ]]
 #*[[ em ]]
@@ -1072,7 +1072,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ javascript/Date/getUTCMonth ]]
 #*[[ javascript/Date/getUTCSeconds ]]
 #*[[ javascript/Date/getYear ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ javascript/Date/now ]]
 #*[[ javascript/Date/parse ]]
 #*[[ javascript/Date/prototype ]]
