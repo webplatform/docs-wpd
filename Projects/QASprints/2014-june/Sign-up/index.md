@@ -896,7 +896,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/exclusions/ms-wrap-through ]]
 #*[[ css/properties/object-fit ]]
 #*[[ css/properties/opacity ]]
-# ''Your name here''
+# Dave Gash
 #*[[ dom/Event/currentTarget ]]
 #*[[ dom/Event/cut ]]
 #*[[ dom/Event/dataavailable ]]
@@ -914,7 +914,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/Event/preventDefault ]]
 #*[[ dom/Event/stopImmediatePropagation ]]
 #*[[ dom/Event/stopPropagation ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ dom/Event/target ]]
 #*[[ dom/Event/timeStamp ]]
 #*[[ dom/Event/type ]]
