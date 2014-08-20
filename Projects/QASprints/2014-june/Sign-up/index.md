@@ -914,7 +914,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/Event/preventDefault ]]
 #*[[ dom/Event/stopImmediatePropagation ]]
 #*[[ dom/Event/stopPropagation ]]
-# ''Your name here''
+# Dave Gash
 #*[[ dom/Event/target ]]
 #*[[ dom/Event/timeStamp ]]
 #*[[ dom/Event/type ]]
@@ -931,7 +931,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/FocusEvent/initFocusEvent ]]
 #*[[ dom/FormData ]]
 #*[[ dom/FormData/append ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ dom/HTMLAllCollection ]]
 #*[[ dom/HTMLAnchorElement ]]
 #*[[ dom/HTMLAnchorElement/select ]]
