@@ -876,7 +876,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/screen/systemYDPI ]]
 #*[[ css/cssom/screen/updateInterval ]]
 #*[[ css/cssom/screen/width ]]
-# ''Your name here''
+# Dave Gash
 #*[[ css/cssom/styleSheet/deleteRule ]]
 #*[[ css/cssom/styleSheet/insertRule ]]
 #*[[ css/cssom/styleSheet/ownerNode ]]
@@ -896,7 +896,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/exclusions/ms-wrap-through ]]
 #*[[ css/properties/object-fit ]]
 #*[[ css/properties/opacity ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ dom/Event/currentTarget ]]
 #*[[ dom/Event/cut ]]
 #*[[ dom/Event/dataavailable ]]
