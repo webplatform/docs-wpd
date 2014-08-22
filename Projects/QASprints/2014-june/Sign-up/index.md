@@ -842,7 +842,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/properties/posTop ]]
 #*[[ css/cssom/properties/posWidth ]]
 #*[[ css/cssom/properties/pseudoClass ]]
-# ''Your name here''
+# Dave Gash
 #*[[ css/cssom/properties/selector ]]
 #*[[ css/cssom/properties/selectorText ]]
 #*[[ css/cssom/properties/sheet ]]
@@ -858,7 +858,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/rules ]]
 #*[[ css/cssom/rules/item ]]
 #*[[ css/cssom/runtimeStyle ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ css/cssom/screen ]]
 #*[[ css/cssom/screen/availHeight ]]
 #*[[ css/cssom/screen/availWidth ]]
