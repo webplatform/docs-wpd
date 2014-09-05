@@ -815,7 +815,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/MSCSSMatrix/properties/m42 ]]
 #*[[ css/cssom/MSCSSMatrix/properties/m43 ]]
 #*[[ css/cssom/MSCSSMatrix/properties/m44 ]]
-# ''Your name here''
+# Dave Gash
 #*[[ css/cssom/currentStyle ]]
 #*[[ css/cssom/imports ]]
 #*[[ css/cssom/methods ]]
@@ -829,7 +829,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/page ]]
 #*[[ css/cssom/pages ]]
 #*[[ css/cssom/pages/item ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ css/cssom/properties/pixelHeight ]]
 #*[[ css/cssom/properties/pixelLeft ]]
 #*[[ css/cssom/properties/pixelRight ]]
