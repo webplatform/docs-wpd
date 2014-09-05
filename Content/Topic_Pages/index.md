@@ -25,9 +25,10 @@ Where "/WPD:Example_Pages/" is the prefix of the URL to list the descendants of.
 We installed the SubPageList extension to help with this.
 
 The code snippet you'll probably use most often is this: 
-<pre>
-{{#subpages: | kidsonly=Yes}}
-</pre>
+<syntaxHighlight lang="html5">
+<splist />
+</syntaxHighlight>
+<!-- renoirb 20140905: See if this is still working {{#subpages: | kidsonly=Yes}} -->
 
 The first parameter is omitted because it's the URL to list sub-pages of, and if you omit it it defaults to the current page.
 
