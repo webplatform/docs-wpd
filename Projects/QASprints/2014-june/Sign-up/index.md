@@ -786,7 +786,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/ClientRect/left ]]
 #*[[ css/cssom/ClientRect/right ]]
 #*[[ css/cssom/ClientRect/top ]]
-# ''Your name here''
+# Dave Gash
 #*[[ css/cssom/MSCSSMatrix/methods/rotateAxisAngle ]]
 #*[[ css/cssom/MSCSSMatrix/methods/scale ]]
 #*[[ css/cssom/MSCSSMatrix/methods/setMatrixValue ]]
@@ -815,7 +815,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/MSCSSMatrix/properties/m42 ]]
 #*[[ css/cssom/MSCSSMatrix/properties/m43 ]]
 #*[[ css/cssom/MSCSSMatrix/properties/m44 ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ css/cssom/currentStyle ]]
 #*[[ css/cssom/imports ]]
 #*[[ css/cssom/methods ]]
