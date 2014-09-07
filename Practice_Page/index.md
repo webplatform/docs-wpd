@@ -1,4 +1,4 @@
-{{Page_Title|The famous CSS 'practice' property}}
+{{Page_Title|The infamous CSS 'practice' property}}
 {{Flags
 |State=In Progress
 |Checked_Out=No
