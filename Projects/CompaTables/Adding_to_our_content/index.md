@@ -12,11 +12,16 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 
 === Templates changed ===
 
-* '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
+* '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
+** [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]; [[css/properties/align-content]], in [[css/properties]]
 * '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
+** [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]; [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
 * '''CSS_Function''', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
+** [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]; [[css/functions/brightness]], [[css/functions]]
 * '''CSS_At_Rule''', in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
+** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules ]; [[css/atrules/@page]], [[css/atrules/@import]]
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form]
+** [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
  
 === Templates that has been emptied ===
 For possible depreciation.
@@ -29,17 +34,10 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] 
 
 
-== Typical pages per section ==
-* [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules ]; [[css/atrules/@page]], [[css/atrules/@import]]
-* [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]; [[css/properties/align-content]], in [[css/properties]]
-* [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]; [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
-* [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]; [[css/functions/brightness]], [[css/functions]]
-* [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
-
 == TODO ==
 
 === Reminders ===
-* '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature is hardcoded at "media-queries"
+* '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 
 === Stack in progress ===
 * [http://docs.webplatform.org/wiki/Form:API_Object_Method API_Object_Method], [[apis/css-regions/Region/getComputedRegionStyle]], category [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]
