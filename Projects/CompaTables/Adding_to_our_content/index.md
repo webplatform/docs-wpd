@@ -4,21 +4,28 @@
 
 Which MediaWiki templates are involved to display the compatibility tables data.
 
-== Where it has been done ==
-Instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use the Compatibility Template] at '''How to use'''. Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
+== What has been done ==
+
+For instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use the Compatibility Template] at '''How to use'''. 
+
+* Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
+
+=== Templates changed ===
 
 * '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
 * '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form] ''IMPORTANT:'' Refactor the Form and View Templates!
 * '''CSS_Function''', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
 * '''CSS_At_Rule''', in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
 
-== Related Templates ==
-Other templates that was used to show compatibility tables. So far, only '''Compatibility_Section''' Template has been muted.
+=== Templates that has been emptied ===
+For possible depreciation.
 
-== Muted ==
 The [http://docs.webplatform.org/wiki/Template:Compatibility_Section Compatibility_Section template] has been purposefully muted so we can add the compat data only where we want.
 
 See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
+
+==== Maybe? ====
+* [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] 
 
 == Where we *WANT* them ==
 * [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules ]; [[css/atrules/@page]], [[css/atrules/@import]]
@@ -33,10 +40,9 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 
 === Not muted, yet ===
 Should we mute them from the template, or their call?
-* [[Template:Compatibility_Form_Section]]  
+* [[Template:Compatibility_Form_Section]]
 * [[Template:Compatibility_Section]]
 * [[Template:Compatibility_Table]]
-* [[Template:Compatibility_Section]]
 * [[Template:Compat_Unknown]]
 
 === Where they *might not* make sense to be ===
