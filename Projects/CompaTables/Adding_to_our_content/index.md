@@ -57,15 +57,15 @@ Should we mute them from the template, or their call?
 
 The template [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] has been removed from 
 
-* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form],
-* [http://docs.webplatform.org/wiki/Form:CSS_Function Form],
-* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
+* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
+* [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
+* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
 
 === Templates to refactor ===
 
-* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form],
-* [http://docs.webplatform.org/wiki/Form:CSS_Function Form],
-* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
+* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
+* [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
+* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
 
 === Basic pages, do we really want a compat there? ===
 
