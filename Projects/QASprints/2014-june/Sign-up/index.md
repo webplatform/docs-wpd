@@ -776,7 +776,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/mobile web/mobile javascript best practices ]]
 #*[[ concepts/mobile web/mobile web ]]
 #*[[ concepts/mobile web/responsive design ]]
-# ''Your name here''
+# Dave Gash
 #*[[ css/cssom/CSSStyleDeclaration/getPropertyValue ]]
 #*[[ css/cssom/CSSStyleDeclaration/item ]]
 #*[[ css/cssom/CSSStyleDeclaration/removeProperty ]]
@@ -786,7 +786,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ css/cssom/ClientRect/left ]]
 #*[[ css/cssom/ClientRect/right ]]
 #*[[ css/cssom/ClientRect/top ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ css/cssom/MSCSSMatrix/methods/rotateAxisAngle ]]
 #*[[ css/cssom/MSCSSMatrix/methods/scale ]]
 #*[[ css/cssom/MSCSSMatrix/methods/setMatrixValue ]]
