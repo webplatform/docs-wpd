@@ -763,7 +763,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/ia and usability ]]
 #*[[ concepts/information architecture ]]
 #*[[ concepts/information architecture/content research ]]
-# ''Your name here''
+# Dave Gash
 #*[[ concepts/information architecture/planning a website ]]
 #*[[ concepts/information architecture/scoping and user research ]]
 #*[[ concepts/internationalization ]]
@@ -776,7 +776,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/mobile web/mobile javascript best practices ]]
 #*[[ concepts/mobile web/mobile web ]]
 #*[[ concepts/mobile web/responsive design ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ css/cssom/CSSStyleDeclaration/getPropertyValue ]]
 #*[[ css/cssom/CSSStyleDeclaration/item ]]
 #*[[ css/cssom/CSSStyleDeclaration/removeProperty ]]
