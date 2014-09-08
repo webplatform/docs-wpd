@@ -31,7 +31,8 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 == TODO ==
 
 === Basic pages, do we really want a compat there? ===
- [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
+
+[http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
 
 === Remove "Compatibility_Section" hardcoded template ===
 See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
