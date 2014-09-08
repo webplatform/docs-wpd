@@ -34,7 +34,10 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 
 [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
 
-=== Remove "Compatibility_Section" hardcoded template ===
+=== Ensure the Template:Compatibility_Section is muted ===
+
+The [http://docs.webplatform.org/wiki/Template:Compatibility_Section Compatibility_Section template] has been purposefully muted so we can add the compat data only where we want.
+
 See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
 
 == Special cases ==
