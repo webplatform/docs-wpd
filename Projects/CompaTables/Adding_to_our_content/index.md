@@ -13,6 +13,8 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 * [[Template:Compatibility_Section]]
 * [[Template:Compat_Unknown]]
 
+== Where we *WANT* them ==
+
 === Forms ===
 * [http://docs.webplatform.org/wiki/Form:API_Object_Method API_Object_Method], [[apis/css-regions/Region/getComputedRegionStyle]], category [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]
 * [http://docs.webplatform.org/wiki/Form:API_Object Form:API_Object], [[apis/css-regions/Region]], category [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]
@@ -21,6 +23,10 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 * [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector], [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]], category [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]
 * [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule], [[css/atrules/@page]], [[css/atrules/@import]], category [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules ]
 * [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature], [[css/media_queries/height]], [[css/media_queries/orientation]] , category [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category:CSS_Media_Feature]
+
+== Where they *might not* make sense to be ==
+* In [[guides/advanced_selectors_guide]], via [http://docs.webplatform.org/wiki/Form:Guide Form:Guide], category [http://docs.webplatform.org/wiki/Category:Guides Category:Guides]
+* In [[tutorials/inheritance_and_cascade]], via [http://docs.webplatform.org/wiki/Form:Tutorial Form:Tutorial], category [http://docs.webplatform.org/wiki/Category:Tutorials Category:Tutorials]
 
 == TODO ==
 * [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
