@@ -4,9 +4,18 @@
 
 Which MediaWiki templates are involved to display the compatibility tables data.
 
-== Templates/Forms *WIP* ==
+== Where it has been done ==
+* '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
 
-=== Templates ===
+== Related Templates ==
+Other templates that was used to show compatibility tables. So far, only '''Compatibility_Section''' Template has been muted.
+
+== Muted ===
+The [http://docs.webplatform.org/wiki/Template:Compatibility_Section Compatibility_Section template] has been purposefully muted so we can add the compat data only where we want.
+
+See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
+
+=== Not, yet, muted ===
 * [[Template:Compatibility_Form_Section]]  
 * [[Template:Compatibility_Section]]
 * [[Template:Compatibility_Table]]
@@ -28,20 +37,12 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 * In [[guides/advanced_selectors_guide]], via [http://docs.webplatform.org/wiki/Form:Guide Form:Guide], category [http://docs.webplatform.org/wiki/Category:Guides Category:Guides]
 * In [[tutorials/inheritance_and_cascade]], via [http://docs.webplatform.org/wiki/Form:Tutorial Form:Tutorial], category [http://docs.webplatform.org/wiki/Category:Tutorials Category:Tutorials]
 
-== Where it has been done ==
-* '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
 
 == TODO ==
 
 === Basic pages, do we really want a compat there? ===
 
 [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
-
-=== Ensure the Template:Compatibility_Section is muted ===
-
-The [http://docs.webplatform.org/wiki/Template:Compatibility_Section Compatibility_Section template] has been purposefully muted so we can add the compat data only where we want.
-
-See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
 
 == Special cases ==
 === Multiple forms ===
