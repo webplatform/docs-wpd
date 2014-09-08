@@ -14,17 +14,17 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 * [[Template:Compat_Unknown]]
 
 === Forms ===
-* [[Form:API_Object_Method]], [[apis/css-regions/Region/getComputedRegionStyle]], category [[Category:API_Object_Methods]]
-* [[Form:API_Object]], [[apis/css-regions/Region]], category [[Category:API_Objects]]
-* [[Form:CSS_Function]], [[css/functions/brightness]], in [[css/functions]], category [[Category:CSS_Functions]]
-* [[Form:CSS_Property]], [[css/properties/align-content]], in [[css/properties]], category [[Category:CSS_Properties]]
-* [[Form:CSS_Selector]], [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]], category [[Category:CSS_Selectors]]
-* [[Form:CSS_At_Rule]]
-* [[Form:Basic]]
+* [http://docs.webplatform.org/wiki/Form:API_Object_Method], [[apis/css-regions/Region/getComputedRegionStyle]], category [[Category:API_Object_Methods]]
+* [http://docs.webplatform.org/wiki/Form:API_Object], [[apis/css-regions/Region]], category [[Category:API_Objects]]
+* [http://docs.webplatform.org/wiki/Form:CSS_Function], [[css/functions/brightness]], in [[css/functions]], category [[Category:CSS_Functions]]
+* [http://docs.webplatform.org/wiki/Form:CSS_Property], [[css/properties/align-content]], in [[css/properties]], category [[Category:CSS_Properties]]
+* [http://docs.webplatform.org/wiki/Form:CSS_Selector], [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]], category [[Category:CSS_Selectors]]
+* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule]
+* [http://docs.webplatform.org/wiki/Form:Basic]
 
 
 === TODO ==
-* [[Form:CSS_Media_Feature]]
+* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature]
 
 == Special cases ==
 === Multiple forms ===
