@@ -42,7 +42,6 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 === Stack in progress ===
 * [http://docs.webplatform.org/wiki/Form:API_Object_Method API_Object_Method], [[apis/css-regions/Region/getComputedRegionStyle]], category [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]
 * [http://docs.webplatform.org/wiki/Form:API_Object Form:API_Object], [[apis/css-regions/Region]], category [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]
-* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature], [[css/media_queries/height]], [[css/media_queries/orientation]] , category [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category:CSS_Media_Feature]
 
 
 == Former Compatibility table template ==
@@ -64,12 +63,14 @@ The template [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Secti
 * [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
 * [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
 * [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
+* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature]
 
 === Templates to refactor ===
 
 * [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
 * [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
 * [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
+* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature]
 
 === Basic pages, do we really want a compat there? ===
 
