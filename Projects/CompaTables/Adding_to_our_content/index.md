@@ -5,7 +5,7 @@
 Which MediaWiki templates are involved to display the compatibility tables data.
 
 == Where it has been done ==
-Instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use the Compatibility Template] at '''How to use'''.
+Instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use the Compatibility Template] at '''How to use'''. Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
 
 * '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
 * '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form] ''IMPORTANT:'' Refactor the Form and View Templates!
