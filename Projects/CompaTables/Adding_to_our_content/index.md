@@ -29,8 +29,12 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 * In [[tutorials/inheritance_and_cascade]], via [http://docs.webplatform.org/wiki/Form:Tutorial Form:Tutorial], category [http://docs.webplatform.org/wiki/Category:Tutorials Category:Tutorials]
 
 == TODO ==
-* [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
 
+=== Basic pages, do we really want a compat there? ===
+ [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
+
+=== Remove "Compatibility_Section" hardcoded template ===
+See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility+Section&namespace=0 using Template:Compatibility_Section in an hardcoded fashion].
 
 == Special cases ==
 === Multiple forms ===
