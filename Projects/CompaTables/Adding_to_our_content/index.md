@@ -6,8 +6,8 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 
 == Where it has been done ==
 * '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form]
-* '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property Form] ''IMPORTANT:'' Refactor the Form and View Templates!
-
+* '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form] ''IMPORTANT:'' Refactor the Form and View Templates!
+* '''CSS_Function''', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
 
 == Related Templates ==
 Other templates that was used to show compatibility tables. So far, only '''Compatibility_Section''' Template has been muted.
