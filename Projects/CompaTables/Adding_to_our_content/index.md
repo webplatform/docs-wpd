@@ -19,9 +19,13 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 * '''CSS_Function''', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
 ** [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]; [[css/functions/brightness]], [[css/functions]]
 * '''CSS_At_Rule''', in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules ]; [[css/atrules/@page]], [[css/atrules/@import]]
+** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules]; [[css/atrules/@page]], [[css/atrules/@import]]
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form]
 ** [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
+
+
+* '''API_Object_Method''', in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
+**  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]; [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]]
  
 === Templates that has been emptied ===
 For possible depreciation.
@@ -40,7 +44,6 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 
 === Stack in progress ===
-* [http://docs.webplatform.org/wiki/Form:API_Object_Method API_Object_Method], [[apis/css-regions/Region/getComputedRegionStyle]], category [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]
 * [http://docs.webplatform.org/wiki/Form:API_Object Form:API_Object], [[apis/css-regions/Region]], category [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]
 
 
@@ -60,17 +63,10 @@ Should we mute them from the template, or their call?
 
 The template [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] has been removed from 
 
-* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
-* [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
-* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
-* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature]
-
-=== Templates to refactor ===
-
-* [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form:CSS_At_Rule],
-* [http://docs.webplatform.org/wiki/Form:CSS_Function Form:CSS_Function],
-* [http://docs.webplatform.org/wiki/Form:CSS_Selector Form:CSS_Selector]
-* [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form:CSS_Media_Feature]
+* '''CSS_Selector''':  [http://docs.webplatform.org/wiki/Form:CSS_Selector Form], [http://docs.webplatform.org/wiki/Template:CSS_Selector Template] +Refactor
+* '''CSS_Function''':  [http://docs.webplatform.org/wiki/Form:CSS_Function Form], [http://docs.webplatform.org/wiki/Template:CSS_Function Template] +Refactor
+* '''CSS_Media_Feature''':  [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template] +Refactor
+* '''CSS_At_Rule''':  [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form], [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template]  +Refactor
 
 === Basic pages, do we really want a compat there? ===
 
