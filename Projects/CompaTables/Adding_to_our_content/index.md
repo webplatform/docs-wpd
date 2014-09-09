@@ -22,7 +22,7 @@ You should see a block similar to the following on each sections:
 
   <nowiki>{{Compatibility</nowiki>
   |topic=webapi
-  |feature={{#titleparts:{{PAGENAME}}||-1}}
+  |feature=<nowiki>{{#titleparts:{{PAGENAME}}||-1}}</nowiki>
   |format=table
   <nowiki>}}</nowiki>
 
