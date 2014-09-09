@@ -712,7 +712,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ character encoding ]]
 #*[[ character set ]]
 #*[[ code position ]]
-# ''Your name here''
+# Dave Gash
 #*[[ concepts/Detecting device and browser ]]
 #*[[ concepts/IA ]]
 #*[[ concepts/Internet and Web/How does the Internet Work ]]
@@ -730,7 +730,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/Internet and Web/the history of the web/tr ]]
 #*[[ concepts/Internet and Web/webrtc ]]
 #*[[ concepts/IntrotoArt ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ concepts/Pointer Events ]]
 #*[[ concepts/accessibility ]]
 #*[[ concepts/accessibility/accessibility basics ]]
