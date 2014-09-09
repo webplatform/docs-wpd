@@ -26,7 +26,7 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 ** '''topic page:'''
 ** '''example pages:''' [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
 
-* '''CSS_Function'', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
+* '''CSS_Function''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]
 ** '''topic page:'''
 ** '''example pages:''' [[css/functions/brightness]], [[css/functions]]
@@ -41,7 +41,7 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 ** '''topic page:'''
 ** '''example pages:''' [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
 
-* '''API_Object_Method'', using ''topic="webapi"'', in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
+* '''API_Object_Method''', using ''topic="webapi"'', in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
 ** '''category:'''  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]
 ** '''topic page:'''
 ** '''example pages:''' [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]], [[apis/file/FileReader/abort]]
