@@ -16,6 +16,18 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 * Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
 
 === Templates changed ===
+Each of them has <nowiki>{{Compatibility_Form_Section}}</nowiki> replaced by the new '''Compatibility''' template in both ''Form'' and ''Template'' ... templates.
+
+You should see a block similar to the following on each sections:
+
+<code><nowiki>
+{{Compatibility
+|topic=webapi
+|feature={{#titleparts:{{PAGENAME}}||-1}}
+|format=table
+}}
+</nowiki></code>
+
 * '''CSS_Property''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
 ** '''topic page:''' [[css/properties]]
