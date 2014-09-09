@@ -12,7 +12,7 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 * Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
 
 === Templates changed ===
-Each of them has <nowiki>{{Compatibility_Form_Section}}</nowiki> replaced by the new '''Compatibility''' template in both ''Form'' and ''Template'' ... templates.
+Each of them might have had a <nowiki>{{Compatibility_Form_Section}}</nowiki> (at least in the Form) and we removed it. Instead we made sure the Template had the new <nowiki>{{Compatibility}}</nowiki> template in both ''Form'' and ''Template'' ... templates.
 
 You should see a block similar to the following on each sections:
 
