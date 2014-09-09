@@ -133,3 +133,14 @@ Pages that has more than one form
 Like it is done at [[concepts/Internet_and_Web]]
 
   <nowiki>{{Special:PrefixIndex/concepts/Internet_and_Web/|hideredirects=1|stripprefix=1}}</nowiki>
+
+=== Listing index based on SMW properties ===
+
+Like it is done at [[html]]
+
+<code><nowiki>
+{{Page_Index_Listing
+|query = [[Category:HTML]][[Category:Markup Attributes]][[Path::~html/*]]
+[[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
+}}
+</nowiki></code>
