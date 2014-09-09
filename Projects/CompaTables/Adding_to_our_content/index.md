@@ -1,9 +1,5 @@
 = Adding to our Docs pages =
 
-== Change summary note ==
-
-  <nowiki>Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]</nowiki>
-
 == Summary ==
 
 Which MediaWiki templates are involved to display the compatibility tables data.
@@ -119,3 +115,16 @@ Should we mute them from the template, or their call?
 === Multiple forms ===
 Pages that has more than one form
 * [[css/media_queries/device-height]], listed from [[css/mediaqueries]]
+
+
+== Pastebin ==
+
+=== When changing page for this project ===
+
+  <nowiki>Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]</nowiki>
+
+=== Listing pages based on URL prefix ===
+
+Like it is done at [[concepts/Internet_and_Web]]
+
+  <nowiki>{{Special:PrefixIndex/concepts/Internet_and_Web/|hideredirects=1|stripprefix=1}}</nowiki>
