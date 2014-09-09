@@ -67,6 +67,10 @@ You should see a block similar to the following on each sections:
 ** '''topic page:''' [[javascript]]
 ** '''example pages:''' [[javascript/Date/getSeconds]], [[javascript/Array]], [[javascript/Uint16Array/set]], [[javascript/unescape]]
  
+* '''Markup_Structure''', using ''topic="html"'', in [http://docs.webplatform.org/wiki/Template:Markup_Structure Markup_Structure template], [http://docs.webplatform.org/wiki/Form:Markup_Structure Markup_Structure form template]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Structures Category:Markup_Structures]
+** '''example pages:''' [[html/entities]]
+
 === Templates that has been emptied ===
 For depreciation.
 
