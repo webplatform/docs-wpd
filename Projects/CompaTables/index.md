@@ -40,6 +40,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 
 === See also ===
 * [https://github.com/dontcallmedom/canmymobilebrowser Can My Mobile Browser] by Dominique Hazael-Massieux, [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html in April 2013, Re: Automatic Data CanIUse Prototype] in file [https://github.com/dontcallmedom/canmymobilebrowser/blob/master/build.py build.py] (yet to be documented)
+* Query the ''data.json'' file through the command line [[WPD:Projects/CompaTables/Reading_the_data.json_file]]
 
 === Testing the Compatable feature our pages ===
 * [[WPD:Compatibility_Info/Test]]
