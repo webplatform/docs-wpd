@@ -1,5 +1,9 @@
 = Adding to our Docs pages =
 
+== Change summary note ==
+
+  Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]
+
 == Summary ==
 
 Which MediaWiki templates are involved to display the compatibility tables data.
@@ -22,10 +26,11 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 ** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules]; [[css/atrules/@page]], [[css/atrules/@import]]
 * '''CSS_Media_Feature''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form]
 ** [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
-
-
 * '''API_Object_Method''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
 **  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]; [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]], [[apis/file/FileReader/abort]]
+* '''API_Object''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object Form], [http://docs.webplatform.org/wiki/Template:API_Object Template]
+** [[Category:API_Objects]]; [[apis/css-regions/Region]], [[dom/EventTarget]], [[dom/Error]]
+
  
 === Templates that has been emptied ===
 For possible depreciation.
@@ -44,8 +49,7 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 
 === Stack in progress ===
-* [http://docs.webplatform.org/wiki/Form:API_Object Form:API_Object], [[apis/css-regions/Region]], category [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]
-
+* '''API_Object_Property''', [http://docs.webplatform.org/wiki/Form:API_Object_Property Form], [http://docs.webplatform.org/wiki/Template:API_Object_Property Template], [[Category:API_Object_Properties]]; [[apis/css-regions/Region/regionOverset]]
 
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
