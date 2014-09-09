@@ -2,7 +2,7 @@
 
 == Change summary note ==
 
-  Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]
+  <nowiki>Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]</nowiki>
 
 == Summary ==
 
