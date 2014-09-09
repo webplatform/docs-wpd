@@ -108,8 +108,9 @@ Should we mute them from the template, or their call?
 * '''CSS_Function''':  [http://docs.webplatform.org/wiki/Form:CSS_Function Form], [http://docs.webplatform.org/wiki/Template:CSS_Function Template], need improvements in template+form
 * '''CSS_Media_Feature''':  [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], need improvements in template+form
 * '''CSS_At_Rule''':  [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form], [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], need improvements in template+form
-* In [[html/apis]], the APIs subsection is hardcoded and doesn’t list what we have. Should we just move that to JavaScript?
-* In [[html/entities]], its the *only* one using [http://docs.webplatform.org/wiki/Template:Markup_Structure Markup_Structure template] and [http://docs.webplatform.org/wiki/Form:Markup_Structure Markup_Structure form template]. Refactor  [[html/entities]] as basic page instead?
+* In [[html/apis]], the APIs subsection is hardcoded and doesn’t list what we have. Should we just move that to JavaScript?  (NOTE: I didn’t added compatibility)
+* In [[html/entities]], its the *only* one using [http://docs.webplatform.org/wiki/Template:Markup_Structure Markup_Structure template] and [http://docs.webplatform.org/wiki/Form:Markup_Structure Markup_Structure form template]. Refactor  [[html/entities]] as basic page instead?  (NOTE: I didn’t added compatibility)
+* In [[html/data_types]], it feels empty. Should we really keep that section? (NOTE: I didn’t added compatibility)
 
 === Basic pages, do we really want a compat there? ===
 
