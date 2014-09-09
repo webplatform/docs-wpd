@@ -80,8 +80,6 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 
 The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] should be removed from all templates as they are being replaced with the new [http://docs.webplatform.org/wiki/Template:Compatibility Compatibility template] 
 
-==== Maybe? ====
-* [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Compatibility_Form_Section template] 
 
 
 == TODO ==
@@ -110,6 +108,8 @@ Should we mute them from the template, or their call?
 * '''CSS_Function''':  [http://docs.webplatform.org/wiki/Form:CSS_Function Form], [http://docs.webplatform.org/wiki/Template:CSS_Function Template], need improvements in template+form
 * '''CSS_Media_Feature''':  [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], need improvements in template+form
 * '''CSS_At_Rule''':  [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form], [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], need improvements in template+form
+* In [[html/apis]], the APIs subsection is hardcoded and doesn’t list what we have. Should we just move that to JavaScript?
+
 
 === Basic pages, do we really want a compat there? ===
 
