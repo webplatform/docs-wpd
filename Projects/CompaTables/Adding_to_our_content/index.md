@@ -121,7 +121,7 @@ Should we mute them from the template, or their call?
 * In [[html/data_types]], it feels empty. Should we really keep that section, or merge with [http://docs.webplatform.org/wiki/Category:Data_Type Category:Data_Type] ? (NOTE: I didn’t added compatibility)
 * In [[svg/attributes]], listing is hardcoded, but could use SMW
 * Is it relevant that [[svg/attributes/baseline-shift]] is listed in DOM?
-
+* Do we really want [[svg/methods]] and [[svg/properties]] are empty, do we really want to list methods on SVG elements, or just have them part of the DOM.
 === Basic pages, do we really want a compat there? ===
 
 [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
