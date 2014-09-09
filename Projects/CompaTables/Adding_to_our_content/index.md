@@ -95,7 +95,7 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 
 * '''Markup_Attribute''', using ''topic="..."'', in [http://docs.webplatform.org/wiki/Form:Markup_Attribute Form], [http://docs.webplatform.org/wiki/Template:Markup_Attribute Template]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Attributes Category:Markup_Attributes]
-** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[attributes/placeholder]]
+** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[html/attributes/placeholder]]
 
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
