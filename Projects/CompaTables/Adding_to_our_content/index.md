@@ -29,7 +29,7 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 * '''API_Object_Method''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
 **  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]; [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]], [[apis/file/FileReader/abort]]
 * '''API_Object''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object Form], [http://docs.webplatform.org/wiki/Template:API_Object Template]
-** [[Category:API_Objects]]; [[apis/css-regions/Region]], [[dom/EventTarget]], [[dom/Error]]
+** [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]; [[apis/css-regions/Region]], [[dom/EventTarget]], [[dom/Error]]
 
  
 === Templates that has been emptied ===
