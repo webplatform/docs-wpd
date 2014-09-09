@@ -138,9 +138,9 @@ Like it is done at [[concepts/Internet_and_Web]]
 
 Like it is done at [[html]]
 
-<code><nowiki>
-{{Page_Index_Listing
-|query = [[Category:HTML]][[Category:Markup Attributes]][[Path::~html/*]]
-[[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
-}}
-</nowiki></code>
+  <nowiki>
+  {{Page_Index_Listing
+  |query = [[Category:HTML]][[Category:Markup Attributes]][[Path::~html/*]]
+  [[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
+  }}
+  </nowiki>
