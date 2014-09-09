@@ -730,7 +730,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/Internet and Web/the history of the web/tr ]]
 #*[[ concepts/Internet and Web/webrtc ]]
 #*[[ concepts/IntrotoArt ]]
-# ''Your name here''
+# Dave Gash
 #*[[ concepts/Pointer Events ]]
 #*[[ concepts/accessibility ]]
 #*[[ concepts/accessibility/accessibility basics ]]
@@ -746,7 +746,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/accessibility/seo ]]
 #*[[ concepts/accessibility/testing process ]]
 #*[[ concepts/accessibility/testing tools ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ concepts/an introduction to web design ]]
 #*[[ concepts/color theory ]]
 #*[[ concepts/color theory/color schemes and mockups ]]
