@@ -66,10 +66,10 @@ You should see a block similar to the following on each sections:
 ** '''topic page:'''
 ** '''example pages:''' [[apis/css-regions/Region/regionOverset]], [[apis/webaudio/AudioBufferSourceNode/buffer]]
 
-* '''JS_Basic''', using ''topic="javascript"'', in [http://docs.webplatform.org/wiki/Template:JS_Object_Listing JS_Object_Listing template] and JavaScript global [http://docs.webplatform.org/wiki/Form:JS_Basic]
+* '''JS_Basic''', using ''topic="javascript"'', in [http://docs.webplatform.org/wiki/Template:JS_Object_Listing JS_Object_Listing template] and JavaScript global [http://docs.webplatform.org/wiki/Form:JS_Basic JS_Basic form template]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:JS_Method Category:JS_Method], [http://docs.webplatform.org/wiki/Category:JS_Object Category:JS_Object], [http://docs.webplatform.org/wiki/Category:JS_Function Category:JS_Function], [http://docs.webplatform.org/wiki/Category:JS_Property Category:JS_Property]
 ** '''topic page:''' [[javascript]]
-** '''example pages:''' [[javascript/Date/getSeconds]], [[javascript/Array]], [[javascript/Uint16Array/set]]
+** '''example pages:''' [[javascript/Date/getSeconds]], [[javascript/Array]], [[javascript/Uint16Array/set]], [[javascript/unescape]]
  
 === Templates that has been emptied ===
 For depreciation.
