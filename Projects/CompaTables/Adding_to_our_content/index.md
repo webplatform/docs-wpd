@@ -17,7 +17,9 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 === Templates changed ===
 
 * '''CSS_Property''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]; [[css/properties/align-content]], in [[css/properties]]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
+** '''topic page:''' [[css/properties]]
+** '''example pages:''' [[css/properties/align-content]]
 * '''CSS_Selector''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
 ** [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]; [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
 * '''CSS_Function''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
