@@ -746,7 +746,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ concepts/accessibility/seo ]]
 #*[[ concepts/accessibility/testing process ]]
 #*[[ concepts/accessibility/testing tools ]]
-# Dave Gash'
+# Dave Gash
 #*[[ concepts/an introduction to web design ]]
 #*[[ concepts/color theory ]]
 #*[[ concepts/color theory/color schemes and mockups ]]
