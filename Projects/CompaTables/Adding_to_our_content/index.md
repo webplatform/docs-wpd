@@ -15,7 +15,47 @@ For instructions on how to set in place, refer to [http://docs.webplatform.org/w
 * Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
 
 === Templates changed ===
-a
+
+* '''CSS_Property''', using <code><nowiki>{Compatibility|feature="css"}</nowiki></code>, in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
+** '''topic page:''' [[css/properties]]
+** '''example pages:''' [[css/properties/align-content]]
+* '''CSS_Selector''', using <code><nowiki>{{Compatibility|topic="css"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]; [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
+* '''CSS_Function'', using <code><nowiki>{Compatibility|topic="css"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]; [[css/functions/brightness]], [[css/functions]]
+* '''CSS_At_Rule''', using <code><nowiki>{{Compatibility|topic="css"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules]; [[css/atrules/@page]], [[css/atrules/@import]]
+* '''CSS_Media_Feature''', using <code><nowiki>{{Compatibility|feature="css"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
+* '''API_Object_Method'', using <code><nowiki>{{Compatibility|topic="webapi"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+**  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]; [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]], [[apis/file/FileReader/abort]]
+* '''API_Object''', using <code><nowiki>{{Compatibility|topic="webapi"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Form:API_Object Form], [http://docs.webplatform.org/wiki/Template:API_Object Template]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]; [[apis/css-regions/Region]], [[dom/EventTarget]], [[dom/Error]]
+* '''API_Object_Property''', using <code><nowiki>{{Compatibility|topic="webapi"}}</nowiki></code>, in [http://docs.webplatform.org/wiki/Form:API_Object_Property Form], [http://docs.webplatform.org/wiki/Template:API_Object_Property Template]
+** '''category:'''
+** '''topic page:'''
+** '''example pages:'''
+** [http://docs.webplatform.org/wiki/Category:API_Object_Properties Category:API_Object_Properties]; [[apis/css-regions/Region/regionOverset]], [[http://docs.webplatform.org/wiki/apis/webaudio/AudioBufferSourceNode/buffer]]
+
  
 === Templates that has been emptied ===
 For possible depreciation.
@@ -34,7 +74,6 @@ See list of pages [http://docs.webplatform.org/w/index.php?title=Special%3AWhatL
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 
 === Stack in progress ===
-* '''API_Object_Property''', [http://docs.webplatform.org/wiki/Form:API_Object_Property Form], [http://docs.webplatform.org/wiki/Template:API_Object_Property Template], [[Category:API_Object_Properties]]; [[apis/css-regions/Region/regionOverset]]
 
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
