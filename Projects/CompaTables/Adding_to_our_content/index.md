@@ -10,29 +10,12 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 
 == What has been done ==
 
-For instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use the Compatibility Template] at '''How to use'''. 
+For instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use Template:Compatibility] at '''How to use'''.
 
 * Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
 
 === Templates changed ===
-
-* '''CSS_Property''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
-** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
-** '''topic page:''' [[css/properties]]
-** '''example pages:''' [[css/properties/align-content]]
-* '''CSS_Selector''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]; [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
-* '''CSS_Function''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]; [[css/functions/brightness]], [[css/functions]]
-* '''CSS_At_Rule''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules]; [[css/atrules/@page]], [[css/atrules/@import]]
-* '''CSS_Media_Feature''', as "css", in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form]
-** [http://docs.webplatform.org/wiki/Category:CSS_Media_Feature Category CSS_Media_Feature]; [[css/media_queries/device-width]], [[css/media_queries/color]], [[css/media_queries/height]]
-* '''API_Object_Method''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object_Method Form], [http://docs.webplatform.org/wiki/Template:API_Object_Method Template]
-**  [http://docs.webplatform.org/wiki/Category:API_Object_Methods Category:API_Object_Methods]; [[apis/css-regions/Region/getComputedRegionStyle]], [[dom/Document/createTreeWalker]], [[apis/web-messaging/MessagePort/close]], [[apis/file/FileReader/abort]]
-* '''API_Object''', as "webapi", in [http://docs.webplatform.org/wiki/Form:API_Object Form], [http://docs.webplatform.org/wiki/Template:API_Object Template]
-** [http://docs.webplatform.org/wiki/Category:API_Objects Category:API_Objects]; [[apis/css-regions/Region]], [[dom/EventTarget]], [[dom/Error]]
-
+a
  
 === Templates that has been emptied ===
 For possible depreciation.
