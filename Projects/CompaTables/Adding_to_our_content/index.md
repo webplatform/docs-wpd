@@ -89,6 +89,14 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 
 === Stack in progress ===
 
+* '''Markup Element''', using ''topic="..."'', in [http://docs.webplatform.org/wiki/Form:Markup_Element Form], [http://docs.webplatform.org/wiki/Template:Markup_Element Template]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Elements Category:Markup_Elements]
+** '''example pages:''' [[html/elements/option]], [[html/elements/noScript]]
+
+* '''Markup_Attribute''', using ''topic="..."'', in [http://docs.webplatform.org/wiki/Form:Markup_Attribute Form], [http://docs.webplatform.org/wiki/Template:Markup_Attribute Template]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Attributes Category:Markup_Attributes]
+** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[attributes/placeholder]]
+
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Section Template:Compatibility_Section]  '''MUTED'''
