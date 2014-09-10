@@ -663,7 +663,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/properties/XMLDocument ]]
 #*[[ apis/xhr/properties/XMLNS attribute ]]
 #*[[ apis/xhr/properties/contentType ]]
-# ''Your name here''
+# Dave Gash
 #*[[ aria ]]
 #*[[ aria/attributes/aria-activedescendant ]]
 #*[[ aria/attributes/aria-busy ]]
@@ -677,7 +677,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ aria/attributes/aria-hidden ]]
 #*[[ aria/attributes/aria-invalid ]]
 #*[[ aria/attributes/aria-labelledby ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ aria/attributes/aria-level ]]
 #*[[ aria/attributes/aria-live ]]
 #*[[ aria/attributes/aria-multiselectable ]]
