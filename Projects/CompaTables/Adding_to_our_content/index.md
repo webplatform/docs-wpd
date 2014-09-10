@@ -67,9 +67,18 @@ You should see a block similar to the following on each sections:
 ** '''topic page:''' [[javascript]]
 ** '''example pages:''' [[javascript/Date/getSeconds]], [[javascript/Array]], [[javascript/Uint16Array/set]], [[javascript/unescape]]
  
-* '''Markup_Structure''', using ''topic="html"'', in [http://docs.webplatform.org/wiki/Template:Markup_Structure Markup_Structure template], [http://docs.webplatform.org/wiki/Form:Markup_Structure Markup_Structure form template]
+* '''Markup_Structure''', in [http://docs.webplatform.org/wiki/Template:Markup_Structure Markup_Structure template], [http://docs.webplatform.org/wiki/Form:Markup_Structure Markup_Structure form template]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Structures Category:Markup_Structures]
 ** '''example pages:''' [[html/entities]]
+
+* '''Markup Element''', in [http://docs.webplatform.org/wiki/Form:Markup_Element Form], [http://docs.webplatform.org/wiki/Template:Markup_Element Template]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Elements Category:Markup_Elements]
+** '''topic page:''' [[svg/elements]], [[html/elements]]
+** '''example pages:''' [[Meta:HTML/Elements/div]], [[html/elements/div]], [[html/elements/option]], [[html/elements/noScript]], [[svg/elements/feFuncB]], [[svg/elements/a]]
+
+* '''Markup_Attribute''', in [http://docs.webplatform.org/wiki/Form:Markup_Attribute Form], [http://docs.webplatform.org/wiki/Template:Markup_Attribute Template]
+** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Attributes Category:Markup_Attributes]
+** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[html/attributes/placeholder]]
 
 === Templates that has been emptied ===
 For depreciation.
@@ -86,16 +95,6 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 
 === Reminders ===
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
-
-=== Stack in progress ===
-
-* '''Markup Element''', using ''topic="..."'', in [http://docs.webplatform.org/wiki/Form:Markup_Element Form], [http://docs.webplatform.org/wiki/Template:Markup_Element Template]
-** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Elements Category:Markup_Elements]
-** '''example pages:''' [[html/elements/option]], [[html/elements/noScript]]
-
-* '''Markup_Attribute''', using ''topic="..."'', in [http://docs.webplatform.org/wiki/Form:Markup_Attribute Form], [http://docs.webplatform.org/wiki/Template:Markup_Attribute Template]
-** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Attributes Category:Markup_Attributes]
-** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[html/attributes/placeholder]]
 
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
