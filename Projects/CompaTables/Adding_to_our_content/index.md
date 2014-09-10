@@ -101,16 +101,18 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Section Template:Compatibility_Section]  '''MUTED'''
+** Muted Template:Compatibility_Section ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Section&diff=69331&oldid=69329 diff])
+* [http://docs.webplatform.org/wiki/Template:Compatibility_Table Template:Compatibility_Table]  '''MUTED'''
+** Muted Template:Compatibility_Table ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Table&diff=69713&oldid=34693 diff])
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] ''REMOVED from Form Templates''
-* [http://docs.webplatform.org/wiki/Template:Compatibility_Table Template:Compatibility_Table]
 * [http://docs.webplatform.org/wiki/Template:Compat_Unknown Template:Compat_Unknown]
 
 == Where they *might not* make sense to have a Compatibility table ==
 * In [[guides/advanced_selectors_guide]], via [http://docs.webplatform.org/wiki/Form:Guide Form:Guide], category [http://docs.webplatform.org/wiki/Category:Guides Category:Guides]
 * In [[tutorials/inheritance_and_cascade]], via [http://docs.webplatform.org/wiki/Form:Tutorial Form:Tutorial], category [http://docs.webplatform.org/wiki/Category:Tutorials Category:Tutorials]
 
-== Questions ==
 
+== Questions ==
 === Things to improve ===
 
 * '''CSS_Selector''':  [http://docs.webplatform.org/wiki/Form:CSS_Selector Form], [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], need improvements in template+form
@@ -124,6 +126,7 @@ Should we mute them from the template, or their call?
 * Is it relevant that [[svg/attributes/baseline-shift]] is listed in DOM?
 * Do we really want [[svg/methods]], [[svg/events]] and [[svg/properties]] are (mostly) empty, do we really want to list stuff that is related to the DOM on SVG elements specifically. Should we just merge them instead?
 * In [[mathml]], we have [[mathml/elements]], but no [[mathml/attributes]] at all.
+
 
 === Basic pages, do we really want a compat there? ===
 
