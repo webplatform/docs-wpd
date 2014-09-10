@@ -1,41 +1,32 @@
 = Deploying code bases =
 
+The site is using various softwares, each of them are synced from the deployment server to their dedicated VMs.
+
+
 == Summary ==
 
 There's four current code bases, run via '''sudo salt-run deploy.run <codebase>''':
 
 ;code.root: /srv/code/root - the document root.
-;code.docs_current: /srv/code/docs/current - the version of MediaWiki that runs the site.
-;code.docs_test: /srv/code/docs/current - a version of MediaWiki that can be used to test changes.
-;code.docs_settings: /srv/code/docs - the shared configuration files between test and current. This code base is automatically deployed with docs_current and docs_test, but can be deployed separately, if wanted.
+;code.docs_nextgen: /srv/code/docs/nextgen/mediawiki - the version of MediaWiki that runs the site
 ;code.nonshared: /srv/code/nonshared - static content that is specific to domains.
 ;code.piwik: /srv/code/piwik - the location of the site metrics software.
 ;code.qwebirc: /srv/code/qwebirc - the location of the IRC browser client software.
 ;code.blog: /srv/code/blog/current - the location of the wordpress software.
 ;code.talk: /srv/code/talk/forums/current - the location of questions2answers software.
-;code.all: This will deploy all of the above code bases. This is incredibly dangerous to use. It's meant for deploying new application servers and should likely not be used for any other purpose.
 
-Each code base is stored in the salt repository on the deployment system (15.185.100.127 - we need a DNS entry for this), at ''/srv/salt/code''. To make a change, using robots.txt in the root code base:
+Each code base is stored in the salt repository on the deployment VM (''deployment.webplatform.org'') in a dedicated folder within ''/srv/code''.
 
-# cd /srv/code/root
+<!-- TO BE UPDATED
+# cd /srv/code/www
 # <edit robots.txt>
-# git commit -a -m 'my message here'
+# git commit -am 'my commit message'
 #* Every code base is version controlled, please version control your changes.
 # sudo salt-run deploy.run code.root
 
 The process is the same for all code bases. There's a few notes for the docs code base, though: there's a couple weird exceptions to how the repositories are versioned. The MediaWiki extensions are submodules of the git repo. It's proper to update the submodule version in the parent repo, then have git update the submodule. One extension (SemanticForms) is using svn, rather than git, since it hasn't migrated yet.
 
 For all repos where it's possible (like docs), it's always best to update upstream, then pull your changes in to the local repos. Local changes are dangerous.
-
-=== Adding MediaWiki Extensions ===
-
-Setting up extensions works the same as deploying settings: 
-
-* rsyncing the directory
-** install the extension to ''code/docs/current/extensions''
-** do a deploy
-**: ''git commit -a -m "Made a test change to the root repo"''
-**: ''sudo salt-run deploy.run code.docs_current''
 
 ==== Git ====
 
@@ -45,11 +36,6 @@ It's best if the extensions are added as git submodules, since the rest of the e
 
 For example:
  ''laner@deployment:/srv/code/docs/current$ git submodule add https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AdminLinks.git extensions/AdminLinks''
-
-==== SVN ====
-
-Otherwise, use SVN to load the extension onto the deployment server:
-* ''svn co <url> <location>''
 
 ==== Updating the Database ====
 Sometimes an extension will require updating the databases. To do this, change your permissions to root, and run:
@@ -73,6 +59,7 @@ It's possible to test changes on docs.webplatform.org/test prior to deploying th
 # The MediaWiki configuration is shared between test and wiki in Settings.php. Both test and wiki have exclusive configuration files as well. If you wish to add settings or extensions to test, you should edit TestSettings.php. Ensure you move your changes from TestSettings.php to Settings.php when done testing.
 
 Best practice is to deploy the changes to test and test them out before deploying them to wiki.
+-->
 
 == Adding a new code base ==
 
@@ -134,9 +121,3 @@ To deploy:
 Such as 
 
  sudo salt-run deploy.run code.nonshared
-
-== Error Logs ==
-
-All servers and applications have combined error logs on the deployment host at:
-
- /mnt/logs/error.log
