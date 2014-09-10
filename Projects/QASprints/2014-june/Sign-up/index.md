@@ -649,7 +649,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/events/load ]]
 #*[[ apis/xhr/events/progress ]]
 #*[[ apis/xhr/events/timeout ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/xhr/methods ]]
 #*[[ apis/xhr/methods/open (XDomainRequest) ]]
 #*[[ apis/xhr/methods/parseFromString ]]
@@ -663,7 +663,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/properties/XMLDocument ]]
 #*[[ apis/xhr/properties/XMLNS attribute ]]
 #*[[ apis/xhr/properties/contentType ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ aria ]]
 #*[[ aria/attributes/aria-activedescendant ]]
 #*[[ aria/attributes/aria-busy ]]
