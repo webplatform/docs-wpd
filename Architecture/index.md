@@ -4,17 +4,16 @@
 {{Note | '''''IMPORTANT''''': Content below this box is old. Please refer to [[WPD:Content/Topic_Hierarchy]] and [[WPD:Getting_Started]] for the latest best practices.
 }}
 
-
 {{Ask_us}}
 
 * [[WPD:Architecture/Topics|Topics]]
 
 ==Site Structure==
-The root of the wiki is <code>/docs</code>. This is the wiki where all documentation will exist, and it is collaborative.
+The root of the wiki is <code>docs.webplatform.org/wiki/</code>. This is the wiki where all documentation will exist, and it is collaborative.
 
-The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[HTML/Attributes/href|http://webplatform.org/docs/html/attributes/href]]</code>. 
+The structure of the wiki is broken down into technology, characteristic, and article name. For example, the URL for the <code>href</code> attribute in HTML is <code>[[html/attributes/href]]</code>. 
 
-Article names are case-sensitive (e.g. <code>getAttribute</code>). but the proposal is to use lowercase names for the hierarchy (e.g. ''html'' instead of ''HTML''). Alternately, we could use uppercase page titles, such as <code>[[HTML/Attributes/href|http://webplatform.org/docs/HTML/Attributes/href]]</code>, but this seems error-prone. 
+Article names are case-sensitive (e.g. <code>getAttribute</code>). but the proposal is to use lowercase names for the hierarchy (e.g. ''html'' instead of ''HTML''). 
 
 ===Proposed Site Structure===
 
@@ -191,25 +190,25 @@ These are types of reference pages we need for the site's information architectu
 
 '''Note:''' These are basic primitives that need unique templates in MediaWiki; having a unique template allows us to perform queries and aggregations, and supplements the page hierarchy architecture structure as a method of categorization; another way of categorizing them is through MediaWiki categories that can be added to each page. There may be some templates that only reuse the same basic elements as other pages, such as page name, summary, syntax, and example; it is still useful to have unique templates for them for purposes of organization and querying.
 
-* [[WPD:Architecture/Common Aspects|Common Aspects]] which are included in all reference pages (transclusion?)
-* [[WPD:Architecture/Element Reference|Markup Element Reference]]
+* [[WPD:Architecture/Common Aspects]] which are included in all reference pages (transclusion?)
+* [[WPD:Architecture/Element Reference]]
 ** Examples: elements for HTML, SVG, MathML
-* [[WPD:Architecture/Attribute Reference|Attribute Reference]]
+* [[WPD:Architecture/Attribute Reference]]
 ** Examples: attributes for HTML, SVG, and MathML elements
-* [[WPD:Architecture/Markup Structure|Markup Structure]]
+* [[WPD:Architecture/Markup Structure]]
 ** Examples: Doctypes, comments, CDATA sections, entities (?)
-* [[WPD:Architecture/JavaScript Statements|JavaScript Statements]]
+* [[WPD:Architecture/JavaScript Statements]]
 ** Subcategories: Control structures, declarations
-* [[WPD:Architecture/JavaScript Operator|JavaScript Operator]]
-* [[WPD:Architecture/Regex metacharacter|Regex metacharacter]]
+* [[WPD:Architecture/JavaScript Operator]]
+* [[WPD:Architecture/Regex metacharacter]]
 ** Subcategories: Expressions (character classes, grouping etc), Quantifiers, Anchors, Assertions, Flags
-* [[WPD:Architecture/Object|API Object Reference]]
-** [[WPD:Architecture/Object Method Reference|API Object Method Reference]]
-** [[WPD:Architecture/Object property Reference|API Object Property Reference]]
-* [[WPD:Architecture/Data type|Data type Reference]]
+* [[WPD:Architecture/Object]]
+** [[WPD:Architecture/Object Method Reference]]
+** [[WPD:Architecture/Object property Reference]]
+* [[WPD:Architecture/Data type]]
 ** CSS Property types, HTML and SVG attribute value types
 ** In JS, every primitive also corresponds to an object. E.g. there are numbers and Number objects. Will they both be described by the same page or different pages?
-* [[WPD:Architecture/Constants|Constants]]
+* [[WPD:Architecture/Constants]]
 ** This might be for constants in APIs, but also might include things like a table of color names, ascii entity codes, etc.
 * [[WPD:Architecture/CSS @rule Reference|CSS @rule Reference]]
 * [[WPD:Architecture/CSS Selector Reference|CSS Selector Reference]]
@@ -219,11 +218,11 @@ These are types of reference pages we need for the site's information architectu
 * [[WPD:Architecture/CSS Keyword Reference|CSS Keyword Reference]]
 * [[WPD:Architecture/CSS Media Features|CSS Media Features]]
 ** for media queries, import rules, style declarations
-* [[WPD:Architecture/Event Reference|Event Reference]]
-* [[WPD:Architecture/Protocol Reference|Protocol Reference]]
-* [[WPD:Architecture/Tutorial|Tutorial]]
-* [[WPD:Architecture/Media_Content|Media Content]]
-* [[WPD:Architecture/Glossary|Glossary]]
+* [[WPD:Architecture/Event Reference]]
+* [[WPD:Architecture/Protocol Reference]]
+* [[WPD:Architecture/Tutorial]]
+* [[WPD:Architecture/Media_Content]]
+* [[WPD:Architecture/Glossary]]
 
 ==Article Naming Conventions==
 Suggested Titling/Naming Convention for Article Types (Dave Gash).
