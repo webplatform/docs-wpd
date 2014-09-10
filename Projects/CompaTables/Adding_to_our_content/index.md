@@ -22,22 +22,22 @@ You should see a block similar to the following on each sections:
 
 ''NOTE'': the ''topic='' argument is optional (e.g. <nowiki>{{Compatibility}}</nowiki>), refer to [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility documentation], it should describe how to use more in depth.
  
-* '''CSS_Property''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
+* '''CSS_Property''', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
 ** '''topic page:''' [[css/properties]]
 ** '''example pages:''' [[css/properties/align-content]],  [[css/properties/border-radius]]
 
-* '''CSS_Selector''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
+* '''CSS_Selector''', in [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], [http://docs.webplatform.org/wiki/Form:CSS_Selector Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Selectors Category:CSS_Selectors]
 ** '''topic page:'''
 ** '''example pages:''' [[css/selectors/attributes/hyphen]], [[css/selectors/combinators/general_sibling]], [[css/selectors/attributes/existence]]
 
-* '''CSS_Function''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
+* '''CSS_Function''', in [http://docs.webplatform.org/wiki/Template:CSS_Function Template], [http://docs.webplatform.org/wiki/Form:CSS_Function Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Functions Category:CSS_Functions]
 ** '''topic page:'''
 ** '''example pages:''' [[css/functions/brightness]], [[css/functions]]
 
-* '''CSS_At_Rule''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
+* '''CSS_At_Rule''', in [http://docs.webplatform.org/wiki/Template:CSS_At_Rule Template], [http://docs.webplatform.org/wiki/Form:CSS_At_Rule Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_At_Rules Category:CSS_At_Rules]
 ** '''topic page:'''
 ** '''example pages:''' [[css/atrules/@page]], [[css/atrules/@import]]
