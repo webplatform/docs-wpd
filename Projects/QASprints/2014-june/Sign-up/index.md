@@ -712,7 +712,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ character encoding ]]
 #*[[ character set ]]
 #*[[ code position ]]
-# Dave Gash -- '''DONE---
+# Dave Gash -- '''DONE'''
 #*[[ concepts/Detecting device and browser ]]
 #*[[ concepts/IA ]]
 #*[[ concepts/Internet and Web/How does the Internet Work ]]
