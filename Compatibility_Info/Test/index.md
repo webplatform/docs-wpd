@@ -1,5 +1,13 @@
 ==Compatibility quick-view==
 
+===Called by a MediaWiki Template ===
+See [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility] for usage details.
+
+{{Compatibility
+|feature=border-radius
+|topic=css
+}}
+
 ===border-radius as list (partial)===
 <compatibility topic="css" type="property" feature="border-radius" format="table">'border-radius'</compatibility>
 
