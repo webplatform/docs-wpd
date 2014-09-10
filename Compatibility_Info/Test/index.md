@@ -1,7 +1,7 @@
 ==Compatibility quick-view==
 
 ===Called by a MediaWiki Template ===
-See [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility] for usage details.
+See [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility documentation] for usage details.
 
 {{Compatibility
 |feature=border-radius
