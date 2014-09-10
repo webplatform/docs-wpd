@@ -17,11 +17,11 @@ Each of them might have had a <nowiki>{{Compatibility_Form_Section}}</nowiki> (a
 You should see a block similar to the following on each sections:
 
   <nowiki>{{Compatibility</nowiki>
-  |topic=webapi
-  |feature=<nowiki>{{#titleparts:{{PAGENAME}}||-1}}</nowiki>
-  |format=table
+  |topic=css
   <nowiki>}}</nowiki>
 
+''NOTE'': the ''topic='' argument is optional (e.g. <nowiki>{{Compatibility}}</nowiki>), refer to [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility documentation], it should describe how to use more in depth.
+ 
 * '''CSS_Property''', using ''topic="css"'', in [http://docs.webplatform.org/wiki/Template:CSS_Property Template], [http://docs.webplatform.org/wiki/Form:CSS_Property  Form]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:CSS_Properties Category:CSS_Properties]
 ** '''topic page:''' [[css/properties]]
