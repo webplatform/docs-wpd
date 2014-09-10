@@ -78,7 +78,7 @@ You should see a block similar to the following on each sections:
 
 * '''Markup_Attribute''', in [http://docs.webplatform.org/wiki/Form:Markup_Attribute Form], [http://docs.webplatform.org/wiki/Template:Markup_Attribute Template]
 ** '''category:''' [http://docs.webplatform.org/wiki/Category:Markup_Attributes Category:Markup_Attributes]
-** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[html/attributes/placeholder]]
+** '''example pages:''' [[html/attributes/autocomplete]], [[html/attributes/altdom/alt]], [[html/attributes/colSpan]], [[html/attributes/placeholder]], [[svg/attributes/baseline-shift]], [[svg/attributes/fill-rule]]
 
 === Templates that has been emptied ===
 For depreciation.
