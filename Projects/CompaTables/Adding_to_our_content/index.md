@@ -100,10 +100,8 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 
 == Former Compatibility table template ==
 Should we mute them from the template, or their call?
-* [http://docs.webplatform.org/wiki/Template:Compatibility_Section Template:Compatibility_Section]  '''MUTED'''
-** Muted Template:Compatibility_Section ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Section&diff=69331&oldid=69329 diff])
-* [http://docs.webplatform.org/wiki/Template:Compatibility_Table Template:Compatibility_Table]  '''MUTED'''
-** Muted Template:Compatibility_Table ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Table&diff=69713&oldid=34693 diff])
+* [http://docs.webplatform.org/wiki/Template:Compatibility_Section Template:Compatibility_Section]  '''MUTED'''  ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Section&diff=69331&oldid=69329 diff])
+* [http://docs.webplatform.org/wiki/Template:Compatibility_Table Template:Compatibility_Table]  '''MUTED''' ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Table&diff=69713&oldid=34693 diff])
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] ''REMOVED from Form Templates''
 * [http://docs.webplatform.org/wiki/Template:Compat_Unknown Template:Compat_Unknown]
 
