@@ -694,7 +694,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ aria/attributes/aria-valuemin ]]
 #*[[ aria/attributes/aria-valuenow ]]
 #*[[ aria/attributes/x-ms-aria-flowfrom ]]
-# ''Your name here''
+# Dave Gash
 #*[[ ascender ]]
 #*[[ baseline ]]
 #*[[ blowout ]]
@@ -712,7 +712,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ character encoding ]]
 #*[[ character set ]]
 #*[[ code position ]]
-# Dave Gash
+# Dave Gash -- '''DONE---
 #*[[ concepts/Detecting device and browser ]]
 #*[[ concepts/IA ]]
 #*[[ concepts/Internet and Web/How does the Internet Work ]]
