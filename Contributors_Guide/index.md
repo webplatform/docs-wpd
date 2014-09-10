@@ -119,6 +119,7 @@ Begin reviewing, marking, and editing pages using these resources:
 
 :&nbsp;
 
-==Ancient Thing Jen Found==
-Is this supposed to be retired? I like this:
+==Ancient Things Found==
+* Is this supposed to be retired? I like this:
 http://docs.webplatform.org/wiki/Meta:Editors_Guide
+* This should be reworked but its good: [[WPD:WPD:Contributors_Guide/reviewer_checklist]] (was in Meta: namespace too)
