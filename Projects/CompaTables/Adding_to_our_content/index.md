@@ -124,7 +124,7 @@ Should we mute them from the template, or their call?
 * Is it relevant that [[svg/attributes/baseline-shift]] is listed in DOM?
 * Do we really want [[svg/methods]], [[svg/events]] and [[svg/properties]] are (mostly) empty, do we really want to list stuff that is related to the DOM on SVG elements specifically. Should we just merge them instead?
 * In [[mathml]], we have [[mathml/elements]], but no [[mathml/attributes]] at all.
-
+* See if we can get good data from [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility_Section&namespace=0 the pages that has a "Compatibility Section" along with data]
 
 === Basic pages, do we really want a compat there? ===
 
