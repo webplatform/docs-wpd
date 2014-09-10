@@ -121,6 +121,8 @@ Should we mute them from the template, or their call?
 * In [[svg/attributes]], listing is hardcoded, but could use SMW
 * Is it relevant that [[svg/attributes/baseline-shift]] is listed in DOM?
 * Do we really want [[svg/methods]], [[svg/events]] and [[svg/properties]] are (mostly) empty, do we really want to list stuff that is related to the DOM on SVG elements specifically. Should we just merge them instead?
+* In [[mathml]], we have [[mathml/elements]], but no [[mathml/attributes]] at all.
+
 === Basic pages, do we really want a compat there? ===
 
 [http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
