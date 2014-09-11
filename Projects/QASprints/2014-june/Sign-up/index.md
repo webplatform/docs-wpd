@@ -596,7 +596,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/websocket/WebSocket/readyState ]]
 #*[[ apis/websocket/WebSocket/send ]]
 #*[[ apis/websocket/WebSocket/url ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/workers ]]
 #*[[ apis/workers/Worker ]]
 #*[[ apis/workers/Worker/onerror ]]
@@ -615,7 +615,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/workers/WorkerLocation ]]
 #*[[ apis/workers/WorkerLocation/href ]]
 #*[[ apis/workers/WorkerNavigator ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/xhr ]]
 #*[[ apis/xhr/XMLHttpRequest ]]
 #*[[ apis/xhr/XMLHttpRequest/abort ]]
