@@ -615,7 +615,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/workers/WorkerLocation ]]
 #*[[ apis/workers/WorkerLocation/href ]]
 #*[[ apis/workers/WorkerNavigator ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/xhr ]]
 #*[[ apis/xhr/XMLHttpRequest ]]
 #*[[ apis/xhr/XMLHttpRequest/abort ]]
@@ -632,7 +632,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/XMLHttpRequest/readyState ]]
 #*[[ apis/xhr/XMLHttpRequest/readystatechange ]]
 #*[[ apis/xhr/XMLHttpRequest/response ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/xhr/XMLHttpRequest/responseText ]]
 #*[[ apis/xhr/XMLHttpRequest/responseType ]]
 #*[[ apis/xhr/XMLHttpRequest/responseXML ]]
