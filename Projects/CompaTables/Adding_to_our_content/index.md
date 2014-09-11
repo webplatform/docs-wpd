@@ -89,6 +89,13 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 
 == TODO ==
 
+=== Next steps ===
+Rough estimate of tasks to do:
+* Document how to add data in [https://github.com/webplatform/compatibility-data our compatibility-data GitHub project]
+* Ensure manual JSON input is valid and doesn’t break, tool to minify the file (for deployment)
+* Automate deployment on Merge to master
+* Clear appropriate caches (Varnish, Memcached, Redis, et al.)
+
 === Reminders ===
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 * In all [[javascript]] pages, the Compatibility inclusion is made through ''Template:JS_Topics'' and should be moved somewhere that is used only within the new JavaScript docs pages.
