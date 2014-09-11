@@ -1,5 +1,10 @@
 = Adding to our Docs pages =
 
+'''Status:''' Completed; Available on all documentation pages
+'''See in action:''' Take a look at all ''example pages'' listed in [[#Templates changed]].
+'''Next steps:'' TBD
+
+'
 == Summary ==
 
 Which MediaWiki templates are involved to display the compatibility tables data.
@@ -8,17 +13,8 @@ Which MediaWiki templates are involved to display the compatibility tables data.
 
 For instructions on how to set in place, refer to [http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use Template:Compatibility] at '''How to use'''.
 
-=== To do ===
-* Remove the <nowiki>{{Compatibility_Form_Section}}</nowiki> in the Form view, if you see any.
-
 === Templates changed ===
 Each of them might have had a <nowiki>{{Compatibility_Form_Section}}</nowiki> (at least in the Form) and we removed it. Instead we made sure the Template had the new <nowiki>{{Compatibility}}</nowiki> template in both ''Form'' and ''Template'' ... templates.
-
-You should see a block similar to the following on each sections:
-
-  <nowiki>{{Compatibility</nowiki>
-  |topic=css
-  <nowiki>}}</nowiki>
 
 ''NOTE'': the ''topic='' argument is optional (e.g. <nowiki>{{Compatibility}}</nowiki>), refer to [http://docs.webplatform.org/wiki/Template:Compatibility Template:Compatibility documentation], it should describe how to use more in depth.
  
@@ -97,22 +93,23 @@ The [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Templa
 === Reminders ===
 * '''CSS_Media_Feature''', in [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], has feature hardcoded at "media-queries"
 * In all [[javascript]] pages, the Compatibility inclusion is made through ''Template:JS_Topics'' and should be moved somewhere that is used only within the new JavaScript docs pages.
+* Page [[css/media_queries/device-height]] has more than one form , listed from [[css/mediaqueries]]
 
-== Former Compatibility table template ==
-Should we mute them from the template, or their call?
+=== Former Compatibility table template ===
+
+Should we mute them from the template, or their call? Decision: remove from page, or empty.
+
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Section Template:Compatibility_Section]  '''MUTED'''  ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Section&diff=69331&oldid=69329 diff])
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Table Template:Compatibility_Table]  '''MUTED''' ([http://docs.webplatform.org/w/index.php?title=Template%3ACompatibility_Table&diff=69713&oldid=34693 diff])
 * [http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section Template:Compatibility_Form_Section] ''REMOVED from Form Templates''
 * [http://docs.webplatform.org/wiki/Template:Compat_Unknown Template:Compat_Unknown]
 
-== Where they *might not* make sense to have a Compatibility table ==
+=== Where they *might not* make sense to have a Compatibility table? ===
+Should we?
 * In [[guides/advanced_selectors_guide]], via [http://docs.webplatform.org/wiki/Form:Guide Form:Guide], category [http://docs.webplatform.org/wiki/Category:Guides Category:Guides]
 * In [[tutorials/inheritance_and_cascade]], via [http://docs.webplatform.org/wiki/Form:Tutorial Form:Tutorial], category [http://docs.webplatform.org/wiki/Category:Tutorials Category:Tutorials]
 
-
-== Questions ==
 === Things to improve ===
-
 * '''CSS_Selector''':  [http://docs.webplatform.org/wiki/Form:CSS_Selector Form], [http://docs.webplatform.org/wiki/Template:CSS_Selector Template], need improvements in template+form
 * '''CSS_Function''':  [http://docs.webplatform.org/wiki/Form:CSS_Function Form], [http://docs.webplatform.org/wiki/Template:CSS_Function Template], need improvements in template+form
 * '''CSS_Media_Feature''':  [http://docs.webplatform.org/wiki/Form:CSS_Media_Feature Form], [http://docs.webplatform.org/wiki/Template:CSS_Media_Feature Template], need improvements in template+form
@@ -125,15 +122,6 @@ Should we mute them from the template, or their call?
 * Do we really want [[svg/methods]], [[svg/events]] and [[svg/properties]] are (mostly) empty, do we really want to list stuff that is related to the DOM on SVG elements specifically. Should we just merge them instead?
 * In [[mathml]], we have [[mathml/elements]], but no [[mathml/attributes]] at all.
 * See if we can get good data from [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility_Section&namespace=0 the pages that has a "Compatibility Section" along with data]
-
-=== Basic pages, do we really want a compat there? ===
-
-[http://docs.webplatform.org/wiki/Form:Basic Form:Basic]
-
-== Special cases ==
-=== Multiple forms ===
-Pages that has more than one form
-* [[css/media_queries/device-height]], listed from [[css/mediaqueries]]
 
 
 == Pastebin ==
