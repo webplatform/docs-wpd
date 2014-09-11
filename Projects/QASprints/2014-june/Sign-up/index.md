@@ -632,7 +632,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/XMLHttpRequest/readyState ]]
 #*[[ apis/xhr/XMLHttpRequest/readystatechange ]]
 #*[[ apis/xhr/XMLHttpRequest/response ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/xhr/XMLHttpRequest/responseText ]]
 #*[[ apis/xhr/XMLHttpRequest/responseType ]]
 #*[[ apis/xhr/XMLHttpRequest/responseXML ]]
@@ -649,7 +649,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/xhr/events/load ]]
 #*[[ apis/xhr/events/progress ]]
 #*[[ apis/xhr/events/timeout ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/xhr/methods ]]
 #*[[ apis/xhr/methods/open (XDomainRequest) ]]
 #*[[ apis/xhr/methods/parseFromString ]]
