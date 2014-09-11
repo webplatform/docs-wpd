@@ -1,10 +1,9 @@
 = Adding to our Docs pages =
 
-'''Status:''' Completed; Available on all documentation pages
-'''See in action:''' Take a look at all ''example pages'' listed in [[#Templates changed]].
-'''Next steps:'' TBD
+* '''Status:''' Completed; Available on all documentation pages
+* '''See in action:''' Take a look at all ''example pages'' listed in [[#Templates changed]]
+* '''Next steps:'' TBD
 
-'
 == Summary ==
 
 Which MediaWiki templates are involved to display the compatibility tables data.
