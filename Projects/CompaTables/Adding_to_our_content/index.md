@@ -2,7 +2,7 @@
 
 * '''Status:''' Completed; Available on all documentation pages
 * '''See in action:''' Take a look at all ''example pages'' listed in [[#Templates changed]]
-* '''Next steps:'' TBD
+* '''Next steps:''' TBD, see [[#TODO]]
 
 == Summary ==
 
