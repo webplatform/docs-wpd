@@ -559,7 +559,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/webrtc/RTCPeerConnection/onopen ]]
 #*[[ apis/webrtc/RTCPeerConnection/onremovestream ]]
 #*[[ apis/webrtc/RTCPeerConnection/onstatechange ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/webrtc/RTCPeerConnection/open ]]
 #*[[ apis/webrtc/RTCPeerConnection/peerIdentity ]]
 #*[[ apis/webrtc/RTCPeerConnection/readyState ]]
@@ -575,7 +575,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/webrtc/RTCSessionDescription ]]
 #*[[ apis/webrtc/RTCSessionDescription/sdp ]]
 #*[[ apis/webrtc/RTCSessionDescription/type ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/websocket ]]
 #*[[ apis/websocket/CloseEvent ]]
 #*[[ apis/websocket/CloseEvent/code ]]
