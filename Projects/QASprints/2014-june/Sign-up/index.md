@@ -575,7 +575,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/webrtc/RTCSessionDescription ]]
 #*[[ apis/webrtc/RTCSessionDescription/sdp ]]
 #*[[ apis/webrtc/RTCSessionDescription/type ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/websocket ]]
 #*[[ apis/websocket/CloseEvent ]]
 #*[[ apis/websocket/CloseEvent/code ]]
@@ -596,7 +596,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/websocket/WebSocket/readyState ]]
 #*[[ apis/websocket/WebSocket/send ]]
 #*[[ apis/websocket/WebSocket/url ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/workers ]]
 #*[[ apis/workers/Worker ]]
 #*[[ apis/workers/Worker/onerror ]]
