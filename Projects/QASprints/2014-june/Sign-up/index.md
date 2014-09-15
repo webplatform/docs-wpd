@@ -500,7 +500,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media capture and streams/MediaStreamTrack/enabled ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/id ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/kind ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/media capture and streams/MediaStreamTrack/label ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/mute ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/muted ]]
@@ -518,7 +518,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media capture and streams/MediaStreamTrack/stop ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/unmute ]]
 #*[[ apis/media capture and streams/ended ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/media recorder ]]
 #*[[ apis/media recorder/MediaRecorder ]]
 #*[[ apis/media source extensions ]]
