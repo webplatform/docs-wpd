@@ -518,7 +518,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media capture and streams/MediaStreamTrack/stop ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/unmute ]]
 #*[[ apis/media capture and streams/ended ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/media recorder ]]
 #*[[ apis/media recorder/MediaRecorder ]]
 #*[[ apis/media source extensions ]]
@@ -529,7 +529,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media source extensions/VideoPlaybackQuality ]]
 #*[[ apis/media source extensions/VideoPlaybackQuality/creationTime ]]
 #*[[ apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/navigation timing ]]
 #*[[ apis/navigation timing/Performance ]]
 #*[[ apis/navigation timing/Performance/navigation ]]
