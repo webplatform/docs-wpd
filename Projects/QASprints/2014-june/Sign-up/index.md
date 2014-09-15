@@ -529,7 +529,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media source extensions/VideoPlaybackQuality ]]
 #*[[ apis/media source extensions/VideoPlaybackQuality/creationTime ]]
 #*[[ apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/navigation timing ]]
 #*[[ apis/navigation timing/Performance ]]
 #*[[ apis/navigation timing/Performance/navigation ]]
@@ -545,7 +545,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/navigation timing/PerformanceTiming/domInteractive ]]
 #*[[ apis/navigation timing/PerformanceTiming/domLoading ]]
 #*[[ apis/navigation timing/PerformanceTiming/domainLookupEnd ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/webrtc/RTCPeerConnection/localDescription ]]
 #*[[ apis/webrtc/RTCPeerConnection/localStreams ]]
 #*[[ apis/webrtc/RTCPeerConnection/negotiationneeded ]]
