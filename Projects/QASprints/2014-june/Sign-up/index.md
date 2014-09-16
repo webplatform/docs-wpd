@@ -460,7 +460,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBVersionChangeRequest/onblocked ]]
 #*[[ apis/indexeddb/indexedDB ]]
 #*[[ apis/indexeddb/indexedDB/open ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/internationalization ]]
 #*[[ apis/internationalization/Intl ]]
 #*[[ apis/internationalization/Intl/Collator ]]
@@ -469,7 +469,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/json ]]
 #*[[ apis/json/parse ]]
 #*[[ apis/json/stringify ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/location ]]
 #*[[ apis/location/assign ]]
 #*[[ apis/location/hash ]]
