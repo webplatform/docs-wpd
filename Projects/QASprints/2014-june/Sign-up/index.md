@@ -482,7 +482,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/location/reload ]]
 #*[[ apis/location/replace ]]
 #*[[ apis/location/search ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/media capture and streams ]]
 #*[[ apis/media capture and streams/MediaStream ]]
 #*[[ apis/media capture and streams/MediaStream/addtrack ]]
@@ -500,7 +500,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/media capture and streams/MediaStreamTrack/enabled ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/id ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/kind ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/media capture and streams/MediaStreamTrack/label ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/mute ]]
 #*[[ apis/media capture and streams/MediaStreamTrack/muted ]]
