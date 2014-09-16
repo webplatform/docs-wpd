@@ -448,7 +448,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBTransaction/db ]]
 #*[[ apis/indexeddb/IDBTransaction/error ]]
 #*[[ apis/indexeddb/IDBTransaction/mode ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/indexeddb/IDBTransaction/objectStore ]]
 #*[[ apis/indexeddb/IDBTransaction/onabort ]]
 #*[[ apis/indexeddb/IDBTransaction/oncomplete ]]
@@ -460,7 +460,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBVersionChangeRequest/onblocked ]]
 #*[[ apis/indexeddb/indexedDB ]]
 #*[[ apis/indexeddb/indexedDB/open ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/internationalization ]]
 #*[[ apis/internationalization/Intl ]]
 #*[[ apis/internationalization/Intl/Collator ]]
