@@ -469,7 +469,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/json ]]
 #*[[ apis/json/parse ]]
 #*[[ apis/json/stringify ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/location ]]
 #*[[ apis/location/assign ]]
 #*[[ apis/location/hash ]]
@@ -482,7 +482,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/location/reload ]]
 #*[[ apis/location/replace ]]
 #*[[ apis/location/search ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/media capture and streams ]]
 #*[[ apis/media capture and streams/MediaStream ]]
 #*[[ apis/media capture and streams/MediaStream/addtrack ]]
