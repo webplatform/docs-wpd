@@ -434,7 +434,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBOpenDBRequest ]]
 #*[[ apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded ]]
 #*[[ apis/indexeddb/IDBOpenDBRequest/onblocked ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/indexeddb/IDBRequest ]]
 #*[[ apis/indexeddb/IDBRequest/error ]]
 #*[[ apis/indexeddb/IDBRequest/onerror ]]
@@ -448,7 +448,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBTransaction/db ]]
 #*[[ apis/indexeddb/IDBTransaction/error ]]
 #*[[ apis/indexeddb/IDBTransaction/mode ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb/IDBTransaction/objectStore ]]
 #*[[ apis/indexeddb/IDBTransaction/onabort ]]
 #*[[ apis/indexeddb/IDBTransaction/oncomplete ]]
