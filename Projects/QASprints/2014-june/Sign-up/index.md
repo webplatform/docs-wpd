@@ -419,7 +419,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBObjectStore/autoIncrement ]]
 #*[[ apis/indexeddb/IDBObjectStore/clear ]]
 #*[[ apis/indexeddb/IDBObjectStore/count ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/indexeddb/IDBObjectStore/createIndex ]]
 #*[[ apis/indexeddb/IDBObjectStore/delete ]]
 #*[[ apis/indexeddb/IDBObjectStore/deleteIndex ]]
@@ -434,7 +434,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBOpenDBRequest ]]
 #*[[ apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded ]]
 #*[[ apis/indexeddb/IDBOpenDBRequest/onblocked ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb/IDBRequest ]]
 #*[[ apis/indexeddb/IDBRequest/error ]]
 #*[[ apis/indexeddb/IDBRequest/onerror ]]
