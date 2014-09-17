@@ -382,7 +382,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBDatabase/close ]]
 #*[[ apis/indexeddb/IDBDatabase/createObjectStore ]]
 #*[[ apis/indexeddb/IDBDatabase/deleteObjectStore ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/indexeddb/IDBDatabase/name ]]
 #*[[ apis/indexeddb/IDBDatabase/objectStoreNames ]]
 #*[[ apis/indexeddb/IDBDatabase/setVersion ]]
@@ -401,7 +401,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBIndex/keyPath ]]
 #*[[ apis/indexeddb/IDBIndex/multiEntry ]]
 #*[[ apis/indexeddb/IDBIndex/name ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb/IDBIndex/objectStore ]]
 #*[[ apis/indexeddb/IDBIndex/openCursor ]]
 #*[[ apis/indexeddb/IDBIndex/openKeyCursor ]]
