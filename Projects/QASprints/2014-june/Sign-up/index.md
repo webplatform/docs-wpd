@@ -401,7 +401,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBIndex/keyPath ]]
 #*[[ apis/indexeddb/IDBIndex/multiEntry ]]
 #*[[ apis/indexeddb/IDBIndex/name ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/indexeddb/IDBIndex/objectStore ]]
 #*[[ apis/indexeddb/IDBIndex/openCursor ]]
 #*[[ apis/indexeddb/IDBIndex/openKeyCursor ]]
@@ -419,7 +419,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBObjectStore/autoIncrement ]]
 #*[[ apis/indexeddb/IDBObjectStore/clear ]]
 #*[[ apis/indexeddb/IDBObjectStore/count ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb/IDBObjectStore/createIndex ]]
 #*[[ apis/indexeddb/IDBObjectStore/delete ]]
 #*[[ apis/indexeddb/IDBObjectStore/deleteIndex ]]
