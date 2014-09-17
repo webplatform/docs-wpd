@@ -352,7 +352,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/image capture/ImageCapture/videoStreamTrack ]]
 #*[[ apis/image capture/PhotoSettings ]]
 #*[[ apis/image capture/PhotoSettings/autoExposureMode ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/image capture/PhotoSettings/autoWhiteBalanceMode ]]
 #*[[ apis/image capture/PhotoSettings/brightness ]]
 #*[[ apis/image capture/PhotoSettings/contrast ]]
@@ -365,7 +365,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/image capture/PhotoSettings/sharpness ]]
 #*[[ apis/image capture/PhotoSettings/whiteBalanceMode ]]
 #*[[ apis/image capture/PhotoSettingsOptions ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb ]]
 #*[[ apis/indexeddb/IDBCursor ]]
 #*[[ apis/indexeddb/IDBCursor/advance ]]
