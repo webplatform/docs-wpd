@@ -365,7 +365,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/image capture/PhotoSettings/sharpness ]]
 #*[[ apis/image capture/PhotoSettings/whiteBalanceMode ]]
 #*[[ apis/image capture/PhotoSettingsOptions ]]
-# ''Your name here''
+# DAve Gash
 #*[[ apis/indexeddb ]]
 #*[[ apis/indexeddb/IDBCursor ]]
 #*[[ apis/indexeddb/IDBCursor/advance ]]
@@ -382,7 +382,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/indexeddb/IDBDatabase/close ]]
 #*[[ apis/indexeddb/IDBDatabase/createObjectStore ]]
 #*[[ apis/indexeddb/IDBDatabase/deleteObjectStore ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/indexeddb/IDBDatabase/name ]]
 #*[[ apis/indexeddb/IDBDatabase/objectStoreNames ]]
 #*[[ apis/indexeddb/IDBDatabase/setVersion ]]
