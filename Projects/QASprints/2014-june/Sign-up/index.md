@@ -365,7 +365,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/image capture/PhotoSettings/sharpness ]]
 #*[[ apis/image capture/PhotoSettings/whiteBalanceMode ]]
 #*[[ apis/image capture/PhotoSettingsOptions ]]
-# DAve Gash
+# Dave Gash
 #*[[ apis/indexeddb ]]
 #*[[ apis/indexeddb/IDBCursor ]]
 #*[[ apis/indexeddb/IDBCursor/advance ]]
