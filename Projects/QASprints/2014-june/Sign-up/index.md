@@ -338,7 +338,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/geolocation/PositionOptions/enableHighAccuracy ]]
 #*[[ apis/geolocation/PositionOptions/maximumAge ]]
 #*[[ apis/geolocation/PositionOptions/timeout ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/image capture ]]
 #*[[ apis/image capture/ImageCapture ]]
 #*[[ apis/image capture/ImageCapture/getFrame ]]
@@ -352,7 +352,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/image capture/ImageCapture/videoStreamTrack ]]
 #*[[ apis/image capture/PhotoSettings ]]
 #*[[ apis/image capture/PhotoSettings/autoExposureMode ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/image capture/PhotoSettings/autoWhiteBalanceMode ]]
 #*[[ apis/image capture/PhotoSettings/brightness ]]
 #*[[ apis/image capture/PhotoSettings/contrast ]]
