@@ -303,7 +303,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/filesystem/MetadataCallback/handleEvent ]]
 #*[[ apis/filesystem/VoidCallback ]]
 #*[[ apis/filesystem/VoidCallback/handleEvent ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/gamepad ]]
 #*[[ apis/gamepad/Gamepad ]]
 #*[[ apis/gamepad/Gamepad/axes ]]
@@ -313,7 +313,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/gamepad/Gamepad/timestamp ]]
 #*[[ apis/gamepad/GamepadEvent ]]
 #*[[ apis/gamepad/GamepadEvent/gamepad ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/geolocation ]]
 #*[[ apis/geolocation/Coordinates ]]
 #*[[ apis/geolocation/Coordinates/accuracy ]]
