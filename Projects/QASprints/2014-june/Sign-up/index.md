@@ -326,7 +326,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/geolocation/Geolocation ]]
 #*[[ apis/geolocation/Geolocation/clearWatch ]]
 #*[[ apis/geolocation/Geolocation/getCurrentPosition ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/geolocation/Geolocation/watchPosition ]]
 #*[[ apis/geolocation/Position ]]
 #*[[ apis/geolocation/Position/coords ]]
@@ -338,7 +338,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/geolocation/PositionOptions/enableHighAccuracy ]]
 #*[[ apis/geolocation/PositionOptions/maximumAge ]]
 #*[[ apis/geolocation/PositionOptions/timeout ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/image capture ]]
 #*[[ apis/image capture/ImageCapture ]]
 #*[[ apis/image capture/ImageCapture/getFrame ]]
