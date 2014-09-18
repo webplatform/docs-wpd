@@ -313,7 +313,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/gamepad/Gamepad/timestamp ]]
 #*[[ apis/gamepad/GamepadEvent ]]
 #*[[ apis/gamepad/GamepadEvent/gamepad ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/geolocation ]]
 #*[[ apis/geolocation/Coordinates ]]
 #*[[ apis/geolocation/Coordinates/accuracy ]]
@@ -326,7 +326,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/geolocation/Geolocation ]]
 #*[[ apis/geolocation/Geolocation/clearWatch ]]
 #*[[ apis/geolocation/Geolocation/getCurrentPosition ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/geolocation/Geolocation/watchPosition ]]
 #*[[ apis/geolocation/Position ]]
 #*[[ apis/geolocation/Position/coords ]]
