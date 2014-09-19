@@ -245,7 +245,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/filesystem/DirectoryReaderSync/readEntries ]]
 #*[[ apis/filesystem/EntriesCallback ]]
 #*[[ apis/filesystem/EntriesCallback/handleEvent ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/filesystem/Entry ]]
 #*[[ apis/filesystem/Entry/copyTo ]]
 #*[[ apis/filesystem/Entry/filesystem ]]
@@ -259,7 +259,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/filesystem/Entry/toURL ]]
 #*[[ apis/filesystem/EntryCallback ]]
 #*[[ apis/filesystem/EntryCallback/handleEvent ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/filesystem/EntrySync ]]
 #*[[ apis/filesystem/EntrySync/copyTo ]]
 #*[[ apis/filesystem/EntrySync/filesystem ]]
