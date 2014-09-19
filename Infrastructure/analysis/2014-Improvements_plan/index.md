@@ -42,13 +42,11 @@ Infrastructure improvements that we can make to improve the site reliability
 
 == Also ==
 
-* Talk with NewRelic and SOASTA —met at velocity— if they can sponsor us
-free server usage monitoring
+* Talk with NewRelic and SOASTA —met at velocity— if they can sponsor us free server usage monitoring
 * Talked w/ NGINX a senior contributor:
-** Site load w/ MediaWiki; set it in between Varnish and Apache helps
-with load
+** Site load w/ MediaWiki; set it in between Varnish and Apache helps with load
 ** Will start thread to get integration patterns
 * MediaWiki has also some improvements:
 ** The slowest component being the "Parser", they are now recommending
 ** Templates managed by Lua (a language)
-** Use new Template parser web service [http://www.mediawiki.org/wiki/Lua_scripting Lua, Scibunto], Parsoid. [http://blog.wikimedia.org/2013/03/04/parsoid-how-wikipedia-catches-up-with-the-web See this post]
+** Use new Template parser web service [http://www.mediawiki.org/wiki/Lua_scripting Lua, Scibunto], Parsoid [http://blog.wikimedia.org/2013/03/04/parsoid-how-wikipedia-catches-up-with-the-web See this post]
