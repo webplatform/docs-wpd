@@ -9,11 +9,8 @@ Infrastructure improvements that we can make to improve the site reliability
 * Isolated all minor customizations (and skin) into one extension
 * Created a separate database server, only MW is using it (the heaviest)
 * Compatibility tables are deployed
-** When access <code>Special:Compatables?topic=css...&action=purge</code> it also
-purges memcache/redis
-** Big memory usage was caused by data.json being called more than once
-at EVERY requests (MW arch problem, error somewhere?) — fixed by caching
-it in memcached/redis
+** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges memcache/redis
+** Big memory usage was caused by data.json being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by caching it in memcached/redis
 
 
 
