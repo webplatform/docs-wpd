@@ -9,9 +9,9 @@ Infrastructure improvements that we can make to improve the site reliability
 * Isolated all minor customizations (and skin) into one extension
 * Created a separate database server, only MW is using it (the heaviest)
 * Compatibility tables are deployed
-** When access Special:Compatables?topic=css...&action=purge it also
+  * When access Special:Compatables?topic=css...&action=purge it also
 purges memcache/redis
-** Big memory usage was caused by data.json being called more than once
+  * Big memory usage was caused by data.json being called more than once
 at EVERY requests (MW arch problem, error somewhere?) — fixed by caching
 it in memcached/redis
 
@@ -34,13 +34,13 @@ it in memcached/redis
 * Error pages when communication problem (other "guru meditation" left)
 * Rework Varnish files: compression is not working from fastly, fix ESI
 * Set in place Redis instead of MediaWiki
-** Find how to tweak memory usage to optimize resources
-** Will also be used by: Blog, MediaWiki, Logging management, etc.
-** Configure TwMemProxy (Nutcracker [3])
+  * Find how to tweak memory usage to optimize resources 
+  * Will also be used by: Blog, MediaWiki, Logging management, etc.
+  * Configure TwMemProxy (Nutcracker [3])
 * Set in place ElasticSearch, many benefits
-** besides notes, will be used by monitoring
-** found a MW extension to query it
-** Compatibility data; Find way to import source file and expose it as an API
+  * besides notes, will be used by monitoring
+  * found a MW extension to query it
+  * Compatibility data; Find way to import source file and expose it as an API
 
 
 == Also ==
