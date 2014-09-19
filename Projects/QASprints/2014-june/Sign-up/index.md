@@ -212,7 +212,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/file/FileList/length ]]
 #*[[ apis/file/FileReader ]]
 #*[[ apis/file/FileReader/abort ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/file/FileReader/readAsArrayBuffer ]]
 #*[[ apis/file/FileReader/readAsDataURL ]]
 #*[[ apis/file/FileReader/readAsText ]]
@@ -227,7 +227,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/file/URL ]]
 #*[[ apis/file/URL/createObjectURL ]]
 #*[[ apis/file/URL/revokeObjectURL ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/filesystem ]]
 #*[[ apis/filesystem/DirectoryEntry ]]
 #*[[ apis/filesystem/DirectoryEntry/createReader ]]
