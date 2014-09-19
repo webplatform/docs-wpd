@@ -33,7 +33,7 @@ Infrastructure improvements that we can make to improve the site reliability
 * Set in place Redis instead of Memcache
 ** Find how to tweak memory usage to optimize resources 
 ** Will also be used by: Blog, MediaWiki, Logging management, etc.
-** Configure TwMemProxy (Nutcracker [3])
+** Configure TwMemProxy (a.k.a. Nutcracker)
 * Set in place ElasticSearch, many benefits
 ** besides notes, will be used by monitoring
 ** found a MW extension to query it
