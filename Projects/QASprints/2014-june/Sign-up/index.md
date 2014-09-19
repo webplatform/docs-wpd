@@ -227,7 +227,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/file/URL ]]
 #*[[ apis/file/URL/createObjectURL ]]
 #*[[ apis/file/URL/revokeObjectURL ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/filesystem ]]
 #*[[ apis/filesystem/DirectoryEntry ]]
 #*[[ apis/filesystem/DirectoryEntry/createReader ]]
@@ -245,7 +245,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/filesystem/DirectoryReaderSync/readEntries ]]
 #*[[ apis/filesystem/EntriesCallback ]]
 #*[[ apis/filesystem/EntriesCallback/handleEvent ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/filesystem/Entry ]]
 #*[[ apis/filesystem/Entry/copyTo ]]
 #*[[ apis/filesystem/Entry/filesystem ]]
