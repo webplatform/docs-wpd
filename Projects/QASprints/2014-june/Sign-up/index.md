@@ -93,7 +93,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/battery status/BatteryManager/onlevelchange ]]
 #*[[ apis/battery status/NavigatorBattery ]]
 #*[[ apis/battery status/NavigatorBattery/battery ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/canvas ]]
 #*[[ apis/canvas/CanvasGradient ]]
 #*[[ apis/canvas/CanvasGradient/addColorStop ]]
@@ -114,7 +114,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/createPattern ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/createRadialGradient ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/canvas/CanvasRenderingContext2D/drawImage ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/ellipse ]]
