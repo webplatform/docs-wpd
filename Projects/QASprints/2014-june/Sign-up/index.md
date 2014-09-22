@@ -135,7 +135,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/lineWidth ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/miterLimit ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/moveTo ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/canvas/CanvasRenderingContext2D/putImageData ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/quadraticCurveTo ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/rect ]]
@@ -159,7 +159,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/textBaseline ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/transform ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/translate ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/canvas/ImageData ]]
 #*[[ apis/canvas/ImageData/data ]]
 #*[[ apis/canvas/ImageData/height ]]
