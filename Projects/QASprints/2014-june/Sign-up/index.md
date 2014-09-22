@@ -159,7 +159,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/textBaseline ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/transform ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/translate ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/canvas/ImageData ]]
 #*[[ apis/canvas/ImageData/data ]]
 #*[[ apis/canvas/ImageData/height ]]
@@ -178,7 +178,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/TextMetrics/ideographicBaseline ]]
 #*[[ apis/canvas/TextMetrics/measureText ]]
 #*[[ apis/canvas/TextMetrics/width ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/css-regions ]]
 #*[[ apis/css-regions/CSSRegionStyleRule ]]
 #*[[ apis/css-regions/NamedFlow ]]
