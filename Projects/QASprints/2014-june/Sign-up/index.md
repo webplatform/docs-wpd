@@ -197,7 +197,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/css-regions/Region/getRegionFlowRanges ]]
 #*[[ apis/css-regions/Region/regionOverset ]]
 #*[[ apis/device orientation ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/file ]]
 #*[[ apis/file api ]]
 #*[[ apis/file/Blob ]]
@@ -212,7 +212,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/file/FileList/length ]]
 #*[[ apis/file/FileReader ]]
 #*[[ apis/file/FileReader/abort ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/file/FileReader/readAsArrayBuffer ]]
 #*[[ apis/file/FileReader/readAsDataURL ]]
 #*[[ apis/file/FileReader/readAsText ]]
