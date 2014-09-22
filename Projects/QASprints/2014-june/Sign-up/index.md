@@ -178,7 +178,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/TextMetrics/ideographicBaseline ]]
 #*[[ apis/canvas/TextMetrics/measureText ]]
 #*[[ apis/canvas/TextMetrics/width ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/css-regions ]]
 #*[[ apis/css-regions/CSSRegionStyleRule ]]
 #*[[ apis/css-regions/NamedFlow ]]
@@ -197,7 +197,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/css-regions/Region/getRegionFlowRanges ]]
 #*[[ apis/css-regions/Region/regionOverset ]]
 #*[[ apis/device orientation ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/file ]]
 #*[[ apis/file api ]]
 #*[[ apis/file/Blob ]]
