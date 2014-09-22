@@ -76,7 +76,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/audio-video/audio ]]
 #*[[ apis/audio-video/track ]]
 #*[[ apis/audio-video/video ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/battery status ]]
 #*[[ apis/battery status/BatteryManager ]]
 #*[[ apis/battery status/BatteryManager/charging ]]
@@ -93,7 +93,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/battery status/BatteryManager/onlevelchange ]]
 #*[[ apis/battery status/NavigatorBattery ]]
 #*[[ apis/battery status/NavigatorBattery/battery ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/canvas ]]
 #*[[ apis/canvas/CanvasGradient ]]
 #*[[ apis/canvas/CanvasGradient/addColorStop ]]
