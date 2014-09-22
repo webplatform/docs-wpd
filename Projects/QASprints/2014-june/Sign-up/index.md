@@ -114,7 +114,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/createPattern ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/createRadialGradient ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/canvas/CanvasRenderingContext2D/drawImage ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/ellipse ]]
@@ -135,7 +135,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/canvas/CanvasRenderingContext2D/lineWidth ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/miterLimit ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/moveTo ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/canvas/CanvasRenderingContext2D/putImageData ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/quadraticCurveTo ]]
 #*[[ apis/canvas/CanvasRenderingContext2D/rect ]]
