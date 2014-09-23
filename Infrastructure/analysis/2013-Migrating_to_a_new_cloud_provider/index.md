@@ -7,7 +7,7 @@ While we were running on original deployment infrastructure, configuration was b
 
 If you are searching for detailed technical requirements, they are [[WPD:Infrastructure/analysis/2013-Hardware and software requirements]]
 
-__TOC__ this is bullshit
+__TOC__
 
 == Phases ==
 Broken down into phases... is this what u do
