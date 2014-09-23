@@ -61,7 +61,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/audio-video/TextTrackCue/text ]]
 #*[[ apis/audio-video/TextTrackCue/track ]]
 #*[[ apis/audio-video/TextTrackCue/vertical ]]
-# ''Your name here''
+# Dave Gash
 #*[[ apis/audio-video/TextTrackCueList ]]
 #*[[ apis/audio-video/TextTrackCueList/getCueById ]]
 #*[[ apis/audio-video/TextTrackCueList/length ]]
@@ -76,7 +76,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ apis/audio-video/audio ]]
 #*[[ apis/audio-video/track ]]
 #*[[ apis/audio-video/video ]]
-# Dave Gash
+# Dave Gash -- '''DONE'''
 #*[[ apis/battery status ]]
 #*[[ apis/battery status/BatteryManager ]]
 #*[[ apis/battery status/BatteryManager/charging ]]
