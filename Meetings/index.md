@@ -1,6 +1,6 @@
 Web Platform community meetings occur every week on [http://everytimezone.com/#2014-2-25,1800 Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT]. 
 
-{{Note|1=[http://docs.webplatform.org/wiki/WPD:Content_Meetings The Content Meetings] are currently where we're convening. }}
+{{Note|1=[http://docs.webplatform.org/wiki/WPD:Community/Meetings/Content Content programming meeting] are currently where we're convening. }}
 
 '''The rest of this information is out-of-date and maintained for archival purposes only.'''  Agendas and minutes for current meetings are distributed via the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform email list].
 
