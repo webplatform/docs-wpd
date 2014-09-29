@@ -19,6 +19,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 
 === Work done ===
 * Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#Work done]]
+* Sprint 2014-09, Compatibility data extension deployed [https://github.com/webplatform/mediawiki/tree/master/extensions/Compatables See code in '''webplatform/mediawiki/../Compatables''' MediaWiki extension]
 
 === To fix or improve ===
 * See Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#To fix or improve]]
