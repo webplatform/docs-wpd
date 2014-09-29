@@ -21,7 +21,8 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#Work done]]
 * Aug. 2014; Imported all content from MDN, published on github [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''']
 * Sept. 2014; Compatibility data extension deployed [https://github.com/webplatform/mediawiki/tree/master/extensions/Compatables See code in '''webplatform/mediawiki/../Compatables''' MediaWiki extension]
-
+** MediaWiki template we are using within our content is [http://docs.webplatform.org/wiki/Template:Compatibility ''Template:Compatibility''] 
+** Notes on where we installed the template calls in [[WPD:Projects/CompaTables/Adding_to_our_content]]
 
 === To fix or improve ===
 * See [[WPD:Projects/CompaTables/201403-sprint#To fix or improve]]
