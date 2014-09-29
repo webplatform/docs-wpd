@@ -54,18 +54,15 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * [http://www.w3.org/Mobile/mobile-web-app-state/ W3C Mobile "web app state"] maintained by Dominique Hazael-Massieux
 
 === Mail threads ===
-* [http://lists.w3.org/Archives/Public/public-webplatform/2014Feb/0051.html Feb 2014, Compat Table Progress]
-* [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0165.html Jan 2014, Converting MDN Compat Data to JSON]
-* [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0017.html Jan 2014, Converting MDN Compat Data to JSON]
-** [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0030.html Jan 2014, Re: Converting MDN Compat Data to JSON]
+
 * [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0027.html WebPlatform Browser Support Info]
 ** [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0029.html WebPlatform Browser Support Info]
-* [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct 2013, WebPlatform Browser Support Info]
+* [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct. 17 2013, WebPlatform Browser Support Info]
 * [http://lists.w3.org/Archives/Public/public-webplatform/2013Mar/0345.html March 2013,  Re: Automatic Data CanIUse Prototype]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0016.html April 2013,  Re: Automatic Data CanIUse Prototype]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0024.html April 2013, Re: Automatic Data CanIUse Prototype] answer by Dominique Hazael-Massieux
-* [http://lists.w3.org/Archives/Public/public-webplatform-tests/2013OctDec/0000.html Oct. 17 2013, WebPlatform Browser Support Info]
-* [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0017.html Jan. 11 2014, Converting MDN Compat Data to JSON]
+* [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0017.html Jan 2014, Converting MDN Compat Data to JSON]
+** [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0030.html Jan 2014, Re: Converting MDN Compat Data to JSON]
 * [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0136.html Jan. 27 2014, MDN Compat data project w/ Jeremie Patronnier]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0165.html Jan. 30 2014]
 ** [http://lists.w3.org/Archives/Public/public-webplatform/2014Jan/0130.html Jan. 27 2014, by Janet]
