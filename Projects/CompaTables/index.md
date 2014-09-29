@@ -31,13 +31,13 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 == Related ==
 
 === Published data  ===
-==== Current normalized data ====
-* Generated from [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], published at [http://docs.webplatform.org/compat/compat-mdn.json compat/compat-mdn.json]
+* Generated from [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer]
+** Available as [http://docs.webplatform.org/compat/data.json compat/data.json], 
+** Also available in "human-friendly" format as  [http://docs.webplatform.org/compat/data-human.json compat/data-human.json]
 
-==== Original data format ====
-* Directly from caniuse, [http://docs.webplatform.org/compat/data.json data.json]
 
 === Code repositories ===
+* [https://github.com/webplatform/compatibility-data Compatibility data]
 * [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer], by [[User:frozenice]] and [[User:renoirb]]
 * [https://github.com/webplatform/mediawiki WebPlatform mediawiki repository], in '''extensions/CompaTables''', by ''[http://www.mediawiki.org/wiki/User:Aaron_Schulz Aaron Schulz]'', [[User:shepazu]] and [[User:Renoirb]]
 * [http://webplatform.github.io/browser-compat-model/ Data Model for User Agent Testing], by [[User:Ronaldmansveld]] and [http://blog.tobie.me/ Tobie Langel]
