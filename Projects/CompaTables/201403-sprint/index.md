@@ -23,13 +23,6 @@ Sprint report, extending documentation at [[WPD:Projects/CompaTables]]
 
 == To fix or improve ==
 
-==== Figure out where ====
-* How we want to display the available prefixes? [[#Prefixes, potential resources]]
-
-==== mdn-compat-importer ====
-* Scrape content from MDN, not complete; blocker [https://github.com/webplatform/mdn-compat-importer/issues/3 see issue #3]
-* Ensure browser are sorted in alphebetical order and ensure features are matching accordingly
-
 ==== CompaTables MediaWiki Extension ====
 * List view format (format=list) is not using latest ''[[#Current normalized data]]'' 
 * Table view format 
