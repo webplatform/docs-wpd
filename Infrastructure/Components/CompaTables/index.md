@@ -4,12 +4,6 @@ A MediaWiki extension to read data from a JSON object into human readable HTML t
 This page describes the use of the data we publish, 
 
 
-== Logistics ==
-* '''Project page''':  See  [[WPD:Projects/CompaTables]]
-* '''How we added to our content''': [[WPD:Projects/CompaTables/Adding_to_our_content]]
-* '''Implementation details''':  See  [[WPD:Infrastructure/Components/CompaTables]]
-* '''Add data''': Make a [https://github.com/webplatform/compatibility-data ''pull requests'' in '''compatibility-data''' repo]
-* '''Found bug in visualisation''': Create an issue in [https://github.com/webplatform/mediawiki/issues/new?title=Table%20display%20issue%20in%20URL%20&labels=CompaTables&assignee=renoirb&body=URL:%20Insert%20address%20where%20you%20found%20the%20problem the CompaTables Extension project issue tracker]
 
 == FAQ ==
 
@@ -29,3 +23,7 @@ If you are command line inclined, you can also make queries to it using ''[https
 === Can I improve the data? ===
 
 Sure!  At this time, we published our raw compatibility data as [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''' on GitHub]. The manual edition is a temporary process until we improve it.
+
+
+== Also related ==
+* '''Project page''':  see [[WPD:Projects/CompaTables]]
