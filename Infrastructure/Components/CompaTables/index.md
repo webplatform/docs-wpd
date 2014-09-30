@@ -15,7 +15,7 @@ What generates the data is inside the "'''contents'''" section where we separate
 
 You can safely ignore the following keys: "breadcrumb", "jsonselect", and "notes". They were created for maintenance and might be removed in a near future.
 
-<syntaxHighlight lang="js">
+<syntaxHighlight lang="javascript">
 {
   "data": {
     "css": {
