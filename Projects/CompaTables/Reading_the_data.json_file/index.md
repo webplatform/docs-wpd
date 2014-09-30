@@ -1,12 +1,15 @@
+= Reading the JSON file =
+
+Some examples on how you can read the data using ''underscore-cli''.
 
 == Query using the terminal ==
-
-=== Using underscore-cli utility ===
-
-''NOTE'' To do this, you need NodeJS, NPM, and the Underscore-cli module and use the command line.
+The compatibility data can be read either from the published location [http://docs.webplatform.org/compat/data.json docs.webplatform.org/compat/data.json] or through the [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''' project on GitHub]. The latter provides the ''underscore-cli'' dependency out of the box.
 
 <syntaxHighlight lang="bash">
-curl http://docs.webplatform.org/compat/data.json | underscore select ':root > .data > .css > .cursor'
+git clone https://github.com/webplatform/compatibility-data.git
+cd compatibility-data
+npm install
+cat data-human.json | underscore extract 'data.css.cursor'
 [
   {
     "breadcrumb": ["css", "cursor"],
