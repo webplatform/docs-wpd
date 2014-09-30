@@ -60,17 +60,23 @@ You can safely ignore the following keys: "breadcrumb", "jsonselect", and "notes
 Based on [https://github.com/Fyrd/caniuse/blob/master/CONTRIBUTING.md#supported-changes caniuse.com's] model:
 
 {|
-|'''y'''|(Y)es, supported by default
+|'''y'''
+|(Y)es, supported by default
 |-
-|'''a'''|(A)lmost supported (aka Partial support)
+|'''a'''
+|(A)lmost supported (aka Partial support)
 |-
-|'''n'''|(N)o support, or disabled by default
+|'''n'''
+|(N)o support, or disabled by default
 |-
-|'''p'''|No support, but has (P)olyfill
+|'''p'''
+|No support, but has (P)olyfill
 |-
-|'''u'''|Support ''is'' (u)nknown
+|'''u'''
+|Support ''is'' (u)nknown
 |-
-|'''x'''|Requires prefi(x) to work
+|'''x'''
+|Requires prefi(x) to work
 |}
 
 
