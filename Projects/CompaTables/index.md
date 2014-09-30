@@ -9,15 +9,9 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 * [[WPD:Compatibility_Info]]
 * [[WPD:Compatibility_Info/Phase_1]]
 * [[WPD:Compatibility_Info/Phase_2]]
+* [[WPD:Infrastructure/Components/CompaTables]]
 
-== Agenda ==
-
-# Analyze [[#Work done]] and [[#To fix or improve]]
-# '''Next milestone'''; determine what is ready, and missing to make our first release into the production wiki.
-# Validate to adjust status on [[WPD:Compatibility_Info/Phase_1]], and [[WPD:Compatibility_Info/Phase_2]]
-# Technical chat: '''What's to be done''' and who can do what
-
-=== Work done ===
+== Past sprints ==
 * Sprint 2014-03, see [[WPD:Projects/CompaTables/201403-sprint#Work done]]
 * Aug. 2014; Imported all content from MDN, published on github [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''']
 * Sept. 2014
@@ -32,6 +26,7 @@ To read more about the plans and objectives you can see in the [[#Resources]], r
 
 === Published data  ===
 * Generated from [https://github.com/webplatform/mdn-compat-importer  MDN Compat Importer]
+* Data is available as [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''' on GitHub]
 ** Available as [http://docs.webplatform.org/compat/data.json compat/data.json], 
 ** Also available in "human-friendly" format as  [http://docs.webplatform.org/compat/data-human.json compat/data-human.json]
 
