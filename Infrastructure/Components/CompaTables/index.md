@@ -8,7 +8,7 @@ This page describes the use of the data we publish, the format we are using, and
 == FAQ ==
 
 
-== Where is the data coming from? ==
+=== Where is the data coming from? ===
 The data was originally polled from [http://developer.mozilla.org Mozilla Developer Network ("MDN")] as a one time import. The data was read using an [https://github.com/webplatform/mdn-compat-importer importer we made for this purpose (code on GitHub)]. We converted into a JSON file that we used as a starting point.
 
 At this time we are maintaining this data in [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''' on GitHub].
