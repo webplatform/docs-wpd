@@ -9,11 +9,11 @@ This page describes the use of the data we publish, the format we are using, and
 
 === What is the format of the data? ===
 
-Here is one entry sample. The "''css''" key is what we refer to as a ''topic'', and "''border''" is what we call a ''feature''.
+Here is one entry sample. To represent this sample we could annotate it as <code>feature="css" topic="border"</code>.
 
-What generates the data is inside the "'''contents'''" section where we separate by "''mobile''" and "''desktop''".
+What generates the HTML table is inside "'''contents'''" section where we separate by "''mobile''" and "''desktop''" browser types. In each browser types, we list a sub feature description as the key. This feature description (e.g. "Basic support") is freeform text and anything can be used to describe.
 
-You can safely ignore the following keys: "breadcrumb", "jsonselect", and "notes". They were created for maintenance and might be removed in a near future.
+You can safely ignore the "breadcrumb", "jsonselect", and "notes" keys. They were created for maintenance and might be removed in a near future.
 
 <syntaxHighlight lang="javascript">
 {
@@ -55,7 +55,7 @@ You can safely ignore the following keys: "breadcrumb", "jsonselect", and "notes
 </syntaxHighlight>
 
 
-==== Support level values legend ====
+=== Support level values legend ===
 
 Based on [https://github.com/Fyrd/caniuse/blob/master/CONTRIBUTING.md#supported-changes caniuse.com's] model:
 
