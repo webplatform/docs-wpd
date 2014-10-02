@@ -13,6 +13,16 @@ The data was originally polled from [http://developer.mozilla.org Mozilla Develo
 
 At this time we are maintaining this data in [https://github.com/webplatform/compatibility-data '''webplatform/compatibility-data''' on GitHub].
 
+=== The compatibility data has been changed since I maintained it in the wiki (where is it?)  ===
+When you added data to the document you are talking about, did you see the warning about our intention to not maintain compatibility data in the wiki?
+
+You do not see the previous compatibility table based on the wiki source because we separated the way of storing the data, and how to generate the tables from the wiki content.
+
+The compatibility data you see in [https://github.com/webplatform/compatibility-data GitHub/webplatform/compatibility-data repo] as a big JSON file has been scraped from MDN, as a one time import, a few weeks ago.
+
+The objective of this is to ease the maintenance of the data, and eventually, remove the need to maintain manually. Our end goal is to feed data from browser builds test runs coming from [https://github.com/w3c/web-platform-test GitHub/w3c/web-platform-test] tests which will give us great compat data accuracy.
+
+
 
 === What is the format of the data? ===
 Here is one entry sample. To represent this sample we could annotate it as <code>feature="css" topic="border"</code>.
