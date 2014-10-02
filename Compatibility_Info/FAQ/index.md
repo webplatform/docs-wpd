@@ -1,4 +1,4 @@
-= Frequently Asked Question =
+= Frequently Asked Questions ("FAQ") =
 Questions we have been asked about our use of the Compatibility data and tables in our content.
 
 == Where is the data coming from? ==
