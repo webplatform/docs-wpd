@@ -15,7 +15,7 @@ Scared you'll make a mistake? Try our [[WPD:Practice_Page|practice page]]. You c
 
 Web Platform Docs currently uses MediaWiki, the same software that drives Wikipedia. If you are trying to format something, this [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax cheat sheet] might be helpful.
 
-<h3>Step 3: Join the Group Email List and Introduce Yourself.</h3>
+<h3>Step 3: Join the Group Email List and Introduce Yourself. </h3>
 
 Next, sign up for our group email. This is where everyone who's involved talks to each other. Join the list by emailing an empty message with the subject “subscribe” to [mailto:public-webplatform-request@w3.org public-webplatform-request] from the email address you'd like to use. 
 
