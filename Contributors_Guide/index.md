@@ -6,7 +6,7 @@ Web Platform Docs are only as good as our contributors make them. And anyone can
 <h2>Where To Start</h2>
 
 <h3>Step 1: Get an Account.</h3>
-<p>Anyone is welcome to make changes to the pages on [[Main_Page|docs.webplatform.org]]. First, [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup create an account]. Then [http://docs.webplatform.org/w/index.php?title=Special:UserLogin log in] and edit pages. It's that easy.</p>
+<p>Anyone is welcome to make changes to the pages on [[Main_Page|docs.webplatform.org]]. First, [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup create an account]. Then [http://docs.webplatform.org/w/index.php?title=Special:UserLogin log in] and edit pages. It's that easy. </p>
 
 <h3>Step 2: Make a Change.</h3>
 Do you see a mistake on a page that needs to be fixed? Something that can could be written better? Information that's inaccurate or old? Well, jump in — go ahead and change the page. Really. Just fix it. We need lots of people contributing more than we need perfection.
