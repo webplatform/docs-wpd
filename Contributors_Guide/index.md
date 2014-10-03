@@ -1,7 +1,7 @@
 =Contribute To Web Platform Docs=
 
 {{Languages}}
-Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.
+Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved. 
 
 <h2>Where To Start</h2>
 
