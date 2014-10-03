@@ -12,6 +12,9 @@
 I am trying text editing, enabled in this scrollable area, in which word wrapping is also possible.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
+
+One two three four. 
+
 }}
 {{CSS Property
 |Initial value=Test
