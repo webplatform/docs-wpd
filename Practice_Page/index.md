@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences. '''Hari:Om'''. Click the <b>Consequence</b> button to edit with consequences. 
+{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences. '''Hari:Om'''. Click the <b>Consequence</b> button to edit with consequences. If you do not see the <b>Consequence</b> button, you may need to to adjust your permissions. 
 
 I am trying text editing, enabled in this scrollable area, in which word wrapping is also possible.
 
