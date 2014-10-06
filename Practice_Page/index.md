@@ -35,7 +35,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}{{Single Example
 |Language=JavaScript
 |Description=getting to know WPD editing
-|Code=alert('Hello world!');
+|Code=alert('Hello worldu!');
 |LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
 }}{{Single Example
 |Language=JavaScript
