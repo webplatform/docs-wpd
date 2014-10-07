@@ -127,3 +127,4 @@ For content pages (that is, pages in the default namespace) that do not have a m
 {{TODO | Create a Media Content page type}}
 {{TODO | Create a Protocol page type}}
 {{TODO | Create a Javascript Object page type}}
+{{TODO | Create a Javascript Enum page type?}}
