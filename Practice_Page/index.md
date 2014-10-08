@@ -1,6 +1,7 @@
 {{Page_Title|The infamous CSS 'practice' property}}
 {{Flags
 |State=In Progress
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Stub, Needs Flags
 }}
@@ -9,6 +10,11 @@
 {{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences. '''Hari:Om'''. I am trying text editing, enabled in this scrollable area, in which word wrapping is also possible.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
+
+{| 
+| *Category* || *Definition* || *Applies To...*
+|- 
+|}
 }}
 {{CSS Property
 |Initial value=Test
@@ -18,6 +24,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Computed value=As specified
 |Animatable=Yes
 |CSS object model property=practice
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=none
 |Description=you start here
@@ -32,6 +39,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
   /* make sure to practice HTML regularly */
   practice: weekly;
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=getting to know WPD editing
@@ -41,6 +49,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Language=JavaScript
 |Description=Foo the Bar Baz, boy.
 |Code=console.log("foo");
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -52,15 +61,11 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Performance
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
@@ -68,4 +73,11 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
