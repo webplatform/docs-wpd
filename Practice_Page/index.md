@@ -11,10 +11,10 @@
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
 
-{| 
+{{| 
 | *Category* || *Definition* || *Applies To...*
 |- 
-|}
+|}}
 }}
 {{CSS Property
 |Initial value=Test
