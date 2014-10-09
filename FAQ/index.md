@@ -6,7 +6,7 @@ No, Web Platform Docs is not a content aggregation site. While the stewards have
 
 ===What principles guide the management of the site?===
 
-The webplatform.org's [[Three Pillars of the WebPlatform Site|WPD:Pillars]] lists a small number of principles intended to guide the development and maintenance of the site. 
+The webplatform.org's [[WPD:Pillars|Three Pillars of the WebPlatform Site]] lists a small number of principles intended to guide the development and maintenance of the site. 
 
 ===Who writes the content on the site?===
 Web Platform Docs is a collaborative wiki, in the same vein as Wikipedia. Anyone is allowed to edit it and improve it. If you're interested in helping out, please see the [[WPD:Getting_Started|getting started guide]].
