@@ -30,7 +30,7 @@ webplatform.org is completely built on open source technologies.
 
 Web Platform Docs uses MediaWiki (which also powers Wikipedia) to run. It uses the Semantic MediaWiki and Semantic Forms extensions to apply more structure to the content and make it easier to edit.
 
-Our Blog is built on WordPress.
+Our blog is built on WordPress.
 
 ===What's the difference between Web Platform Docs and WebPlatform.org?===
 Web Platform Docs is a sub-component of the larger webplatform.org site, and is focused specifically on high-quality documentation for the Open Web Platform. Over time, webplatform.org will grow to encompass additional functionality.
