@@ -68,7 +68,7 @@ See above. We plan to concentrate mostly on client-side technologies like HTML, 
 
 If we tried to cover all server-side languages in depth, as well as all client side languages, the site would just become unmaintainable. Plus there are really good resources out there already for a lot of server-side languages.
 
-However, because they are useful concepts, we do plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
+However, because they are useful concepts, we plan to include very basic introductory information on server-side languages, then link off to other sites for more in-depth coverage.
 
 See the article on [[server-side_languages|server-side languages]] for more details.
 
