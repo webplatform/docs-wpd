@@ -46,7 +46,7 @@ Web Platform Docs is an effort to create a single authoritative and comprehensiv
 
 ===Why/how did you choose the browsers listed in the browser compatibility tables?===
 
-There are so many browsers available that we could have listed in our browser compatibility tables, but we had to narrow down the list. We couldn't possibly list them all and hope to keep the information up to date and error free. Some browsers are big in certain countries/locales but not so useful from a worldwide point of view. And functionality to allow people to enter new browser support info into the tables would have been complicated and error-prone (we did look into this).
+There are so many browsers available that we could have listed in our browser compatibility tables, but we had to narrow down the list. We couldn't possibly list them all and hope to keep the information up to date and error free. Some browsers are big in certain countries/locales but not so useful from a worldwide point of view. And functionality to allow people to enter new browser support info into the tables would have been complicated and error-prone. (We did look into this.)
 
 We chose our final list based on the browsers we thought would be the most common options developers worldwide would want to know about/test against. Bear in mind that webplatform.org does not specialize in testing/compatibility. There are specialized websites such as [http://caniuse.com caniuse.com], [http://mobilehtml5.org/ mobilehtml5.org] and [http://www.quirksmode.org/compatibility.html quirksmode.org] that specialize in such data.
 
