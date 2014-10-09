@@ -19,7 +19,7 @@ Web Platform Docs currently uses MediaWiki, the same software that drives Wikipe
 
 Next, sign up for our group email. This is where everyone who's involved talks to each other. Join the list by emailing an empty message with the subject “subscribe” to [mailto:public-webplatform-request@w3.org public-webplatform-request] from the email address you'd like to use. 
 
-If you never been in touch with mailing lists, take note of the following. Mailing lists at w3.org are handled with two addresses, one that has the word <tt>-request</tt>, that is a self-service bot, and the main mailing list. You just need to remember that the conversation happens on [mailto:public-webplatform@w3.org public-webplatform] (i.e. without -request).
+If you've never used a mailing list, take note of the following. Mailing lists at w3.org are handled with two addresses, one that has the word <tt>-request</tt>, that is a self-service bot, and the main mailing list. You just need to remember that the conversation happens on [mailto:public-webplatform@w3.org public-webplatform] (i.e. without -request).
 
 Once you are on the list, please email the group and introduce yourself. Who are you? What would you like to contribute? Are you unsure of what to work on — that's fine. Reach out to us, and we'll be happy to find something for you. Do have have a suggestion on how WPD can be better? We'd love to hear it.
 
