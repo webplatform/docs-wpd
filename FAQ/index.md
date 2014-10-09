@@ -74,9 +74,9 @@ See the article on [[server-side_languages|server-side languages]] for more deta
 
 ===How does webplatform.org influence W3C specifications?===
 
-At the current time there is no formal connection between the two. However, W3C does anticipate that greater community involvement in W3C via webplatform.org will be a net benefit for all, through discussions and feedback.
+Currently, there is no formal connection between the two. However, W3C anticipates that greater community involvement in W3C via webplatform.org will be a net benefit for all, through discussions and feedback.
 
-If you are interested in developing use cases and requirements for new Web technology, please consider starting a [http://www.w3.org/community/ W3C Community Group]. Community Groups are free to anyone and provide additional services for specification development, notably a patent policy designed to help make Web technology Royalty-Free for all.
+If you are interested in developing use cases and requirements for new Web technology, please consider starting a [http://www.w3.org/community/ W3C Community Group]. Community Groups are free to anyone and provide additional services for specification development, notably a patent policy designed to help make Web technology royalty-free for all.
 
 ===Can I translate articles on WPD?===
 
