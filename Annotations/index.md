@@ -7,6 +7,42 @@ We want to enable annotations on W3C specifications and on WebPlatform.org, as a
 
 The specific implementation we want to use will be based on the [http://okfnlabs.org/annotator/ Annotator project], as implemented and enhanced by [http://hypothes.is/ Hypothes.is], with an eye towards standardization informed by the [http://w3.org/community/openannotation/ W3C Open Annotation Community Group].
 
+==Status==
+* [https://notes.webplatform.org/stream Notes.WebPlatform.org] is deployed with latest version (df4392a)
+* Accounts server is deployed and working
+
+===SSO===
+* Basic architecture done?
+* Mixed results:
+** Works in wiki by itself on Chrome, Opera, and mostly in Firefox
+** Does not work in Safari, even with HTTPS and SSL; doesn't retain session when navigating to new page (maybe needs HTTPS, not HTTP in a hidden iframe)
+* In combination with Wiki and Annotator:
+** '''Blocking Issue:''' In Firefox, causes wiki (and browser) to lock up when authenticating (see [http://docs.webplatform.org/test/Main_Page Test wiki])
+
+===Specs===
+* Seems to work, except for IE
+
+===Wiki===
+* Annotator works in wiki on Chrome, Opera
+* '''Blocking Issue:''' Causes wiki (and browser) to lock up when authenticating (see [http://docs.webplatform.org/test/Main_Page Test wiki]]
+
+===Internet Explorer===
+* Once connected to accounts; Wiki, notes, session state don’t sync
+* Annotation sidebar buttons aren’t shown properly
+* Cannot add/see annotations on a page
+* Accounts server communication takes time. ''This is specific to Mozilla FxA and not the accounts server. Renoir will do that right after webplatformstaging.org is ready.''
+
+Randall has provided a script "patch", but we're not sure how and where to deploy it.
+
+ window.hypothesisConfig = function () {
+   return {
+     app: jQuery('link[type="application/annotator+html"]').attr('href'),
+     Heatmap: {container: '.annotator-frame'},
+     Toolbar: {container: '.annotator-frame'},
+     DomTextMapper: {skip: true}
+   };
+ };
+
 ==Requirements==
 * Credentials for identity: WebPlatform.org username and password
 * Adding and searching custom tags
