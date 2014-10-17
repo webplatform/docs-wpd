@@ -1032,7 +1032,7 @@ On a roll?  Come back and sign up for another!  Let's get these done, so we can 
 #*[[ dom/constants ]]
 #*[[ dom/constants/DOM exception error codes ]]
 # Dave Gash -- '''DONE'''
-#*[[ dom/processingInstruction ]]
+#*[[ dom/ProcessingInstruction ]]
 #*[[ dom/shadowdom ]]
 #*[[ dom/shadowdom/ShadowRoot ]]
 #*[[ dom/shadowdom/ShadowRoot/activeElement ]]
