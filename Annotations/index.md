@@ -21,6 +21,7 @@ The specific implementation we want to use will be based on the [http://okfnlabs
 
 ===Specs===
 * Seems to work, except for IE
+====Email Notifications====
 * E-mail notifications is currently disabled
 
 ===Wiki===
