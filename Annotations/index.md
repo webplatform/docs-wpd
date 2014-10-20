@@ -21,8 +21,9 @@ The specific implementation we want to use will be based on the [http://okfnlabs
 
 ===Specs===
 * Seems to work, except for IE
+
 ====Email Notifications====
-* E-mail notifications is currently disabled
+* E-mail notifications of annotations are currently disabled, and should be enabled before deployment for W3C specs
 
 ===Wiki===
 * Annotator works in wiki on Chrome, Opera
