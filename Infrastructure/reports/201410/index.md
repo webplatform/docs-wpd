@@ -13,13 +13,14 @@ This sprint is about refactoring the full server infrastructure to ease the main
 # Setup a staging version of the site that replicates everything in a separate OpenStack project. Any component of the site could be used by adding 'staging' to it.
 # Set in place a system that "listens" to given GitHub repository to update the related component. See [[#Automatic updates]]
 
-In other words; webplatform''Staging''.org is ''one'' "sandbox", anybody could build another full server stack of our site on the side too. 
+In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not touch live "production" site), anybody could build another full server stack of our site on the side too. 
 
 == Progress ==
 
 === What’s done ===
 
 * Most of the infrastructure
+** Improved Fastly error messages, pointing to '''status.webplatform.org''' and the mailing list [http://www.webplatformstaging.org/errors/500.html see error page sample here]
 * web apps:
 ** WordPress ([http://blog.webplatformstaging.org/2014/09/2nd-doc-sprint-in-amsterdam/ see], [https://github.com/webplatform/webplatform-wordpress-theme GitHub repo.])
 ** BugGenie ([https://project.webplatformstaging.org/content/issues/open see], [https://github.com/webplatform/thebuggenie/tree/webplatform-customizations GitHub repo.])
