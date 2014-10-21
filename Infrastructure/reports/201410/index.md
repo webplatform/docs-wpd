@@ -42,4 +42,5 @@ Private data/passwords will be kept private to key contributors, of course.
 ** webat25.org
 ** drafts.webplatform.org
 ** Firefox Accounts ([https://accounts.webplatform.org/ see], [https://github.com/webplatform?query=fxa GitHub repo.])
+** Notes server ([https://notes.webplatform.org/ see])
 * Set in place automation
