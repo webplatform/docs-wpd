@@ -11,7 +11,8 @@ Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oc
 # IE, when loading annotation sidebar, disable strong anchoring  
 ## '''DONE''' Overload an alternate [https://notes.webplatform.org/assets/notes-server/scripts/spec_embed.js embed.js in notes-server]
 ## '''DONE''' Make sure the spec calls an alternate `embed.js`  
-##  Ability to login, we don’t even see "Sign in" link [[File:20141022-IE11-cannot-login.png]]
+##  Ability to login, we don’t even see "Sign in" ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
+##  Do not see speech bubble and tools ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
 # Public annotation should show up, even when visitor isn’t logged in  
 # On a spec, when there’s an annotation, send an email to the archive  
 ## Use email specified in the HTML, e.g. <code><a rel="reply-to"  href="mailto:public-audio-comments@w3.org">foo</a></code>
