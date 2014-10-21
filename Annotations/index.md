@@ -8,19 +8,13 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 
 Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oct. 23 2014
 
-1. IE, when loading annotation sidebar, disable strong anchoring  
-1.1 Overload an alternate embed.js in notes server in [0]  
-1.2 Make sure the spec calls the alternate `embed.js`  
-
-2. Public annotation should show up, even when visitor isn’t logged in  
-
-3. On a spec, when there’s an annotation, send an email to the archive  
-
-3.1 Use email specified in the HTML, e.g. `<a rel="reply-to"  
-href="mailto:public-audio-comments@w3.org">foo</a>`  
-
-4. Safari, on a spec, when init SSO, if a cookie is already set; do not  
-to try recover session. (temporary solution)  
+# IE, when loading annotation sidebar, disable strong anchoring  
+## Overload an alternate embed.js in notes server in [0]  
+## Make sure the spec calls the alternate `embed.js`  
+# Public annotation should show up, even when visitor isn’t logged in  
+# On a spec, when there’s an annotation, send an email to the archive  
+## Use email specified in the HTML, e.g. <code><a rel="reply-to"  href="mailto:public-audio-comments@w3.org">foo</a></code>
+# Safari, on a spec, when init SSO, if a cookie is already set; do not to try recover session. (temporary solution)  
 
 
 == Background ==
