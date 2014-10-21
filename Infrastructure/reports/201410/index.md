@@ -19,8 +19,8 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 
 === What’s done ===
 
-* Most of the infrastructure
-** Improved Fastly error messages, pointing to '''status.webplatform.org''' and the mailing list [http://www.webplatformstaging.org/errors/500.html see error page sample here]
+* Most of the infrastructure is now using more recent versions of servers and services (see [#What’s missing])
+* Improved Fastly error messages, pointing to '''status.webplatform.org''' and the mailing list [http://www.webplatformstaging.org/errors/500.html see error page sample here]
 * web apps:
 ** WordPress ([http://blog.webplatformstaging.org/2014/09/2nd-doc-sprint-in-amsterdam/ see], [https://github.com/webplatform/webplatform-wordpress-theme GitHub repo.])
 ** BugGenie ([https://project.webplatformstaging.org/content/issues/open see], [https://github.com/webplatform/thebuggenie/tree/webplatform-customizations GitHub repo.])
@@ -32,7 +32,7 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 === What’s missing ===
 
 * Database cluster
-* Redis/Memcache
+* Redis/Memcache configuration
 * Server statistics (ganglia)
 * Server logging
 * Last VM types to upgrade (the more recent ones, should be easy)
