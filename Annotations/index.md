@@ -42,7 +42,7 @@ The specific implementation we want to use will be based on the [http://okfnlabs
 
 ===Wiki===
 * Annotator works in wiki on Chrome, Opera
-* '''Blocking Issue:''' Causes wiki (and browser) to lock up when authenticating (see [http://docs.webplatform.org/test/Main_Page Test wiki]]
+* '''Blocking Issue:''' Causes wiki (and browser) to lock up when authenticating (see [http://docs.webplatform.org/test/Main_Page Test wiki])
 
 ===Internet Explorer===
 * Once connected to accounts; Wiki, notes, session state don’t sync
@@ -52,6 +52,7 @@ The specific implementation we want to use will be based on the [http://okfnlabs
 
 Randall has provided a script "patch", but we're not sure how and where to deploy it.
 
+<syntaxHighlight lang="javascript">
  window.hypothesisConfig = function () {
    return {
      app: jQuery('link[type="application/annotator+html"]').attr('href'),
@@ -60,6 +61,7 @@ Randall has provided a script "patch", but we're not sure how and where to deplo
      DomTextMapper: {skip: true}
    };
  };
+</syntaxHighlight>
 
 ==Requirements==
 * Credentials for identity: WebPlatform.org username and password
