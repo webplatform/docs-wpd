@@ -9,8 +9,9 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oct. 23 2014
 
 # IE, when loading annotation sidebar, disable strong anchoring  
-## Overload an alternate embed.js in notes server in [0]  
-## Make sure the spec calls the alternate `embed.js`  
+## '''DONE''' Overload an alternate [https://notes.webplatform.org/assets/notes-server/scripts/spec_embed.js embed.js in notes-server]
+## '''DONE''' Make sure the spec calls an alternate `embed.js`  
+##  Ability to login, we don’t even see "Sign in" link [[File:20141022-IE11-cannot-login.png]]
 # Public annotation should show up, even when visitor isn’t logged in  
 # On a spec, when there’s an annotation, send an email to the archive  
 ## Use email specified in the HTML, e.g. <code><a rel="reply-to"  href="mailto:public-audio-comments@w3.org">foo</a></code>
