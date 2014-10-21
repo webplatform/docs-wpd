@@ -1,4 +1,4 @@
-= October 2014 sprint =
+= October 2014 sprint report =
 
 This sprint is about refactoring the full server infrastructure to ease the maintenance work and automate what’s possible.
 
