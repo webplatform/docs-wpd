@@ -1,5 +1,7 @@
 = October 2014 sprint =
 
+This sprint is about refactoring the full server infrastructure to ease the maintenance work and automate what’s possible.
+
 == Objectives ==
 
 # Every VMs w/ up to date softwares (database server, linux, etc)
@@ -41,6 +43,7 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox", anybody could b
 ** drafts.webplatform.org
 ** Firefox Accounts ([https://accounts.webplatform.org/ see], [https://github.com/webplatform?query=fxa GitHub repo.])
 ** Notes server ([https://notes.webplatform.org/ see])
+** Bots to log '''webplatform''' and '''webspecs''' freenode IRC channels
 * Set in place automation
 
 
