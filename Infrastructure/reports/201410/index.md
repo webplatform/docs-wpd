@@ -21,12 +21,11 @@ Private data/passwords will be kept private to key contributors, of course.
 
 * Most of the infrastructure
 * web apps:
-** WordPress
-** BugGenie
-** MediaWiki
-** Firefox Accounts
-** Piwik
-** Specs
+** WordPress ([http://blog.webplatformstaging.org/2014/09/2nd-doc-sprint-in-amsterdam/ see], [https://github.com/webplatform/webplatform-wordpress-theme GitHub repo.])
+** BugGenie ([https://project.webplatformstaging.org/content/issues/open see], [https://github.com/webplatform/thebuggenie/tree/webplatform-customizations GitHub repo.])
+** MediaWiki ([https://docs.webplatformstaging.org/wiki/css/properties/border-collapse see], [https://github.com/webplatform/mediawiki-core/tree/1.24wmf16-wpd GitHub repo.], [https://github.com/webplatform/mediawiki-fxa-sso MediaWiki FxA client repo], [https://github.com/webplatform/mediawiki skin and custom extensions])
+** Piwik ([http://stats.webplatformstaging.org/ see])
+** Specs ([https://specs.webplatformstaging.org/ see])
 
 
 === What’s missing ===
@@ -42,4 +41,5 @@ Private data/passwords will be kept private to key contributors, of course.
 * Missing web apps;
 ** webat25.org
 ** drafts.webplatform.org
+** Firefox Accounts ([https://accounts.webplatform.org/ see], [https://github.com/webplatform?query=fxa GitHub repo.])
 * Set in place automation
