@@ -59,6 +59,7 @@ For each web application:
 * Make sure the web app looks fine with the current CSS
 * Make sure the configuration is adjusted by salt stack, nothing manual
 * Make sure the theme doesn’t refer to production site, but current deployment
+* Make sure that the assets are protocol relative (i.e. if site over SSL, call images and other assets through SSL too, keeping the bar "green")
 
 Later, we’ll have a system that listens and updates the site automatically.
 
