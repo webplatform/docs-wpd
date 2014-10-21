@@ -1,6 +1,27 @@
+= Annotations =
+
 This is a scratch space for adding annotations to WebPlatform.org and to W3C specifications.
 
 ''This page is itself actively being annotated using the existing Hypothes.is annotation extension and server. To see the annotations,  [http://hypothes.is/alpha/ install the extension or bookmarklet].''
+
+== Current deliverables ==
+
+Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oct. 23 2014
+
+1. IE, when loading annotation sidebar, disable strong anchoring  
+1.1 Overload an alternate embed.js in notes server in [0]  
+1.2 Make sure the spec calls the alternate `embed.js`  
+
+2. Public annotation should show up, even when visitor isn’t logged in  
+
+3. On a spec, when there’s an annotation, send an email to the archive  
+
+3.1 Use email specified in the HTML, e.g. `<a rel="reply-to"  
+href="mailto:public-audio-comments@w3.org">foo</a>`  
+
+4. Safari, on a spec, when init SSO, if a cookie is already set; do not  
+to try recover session. (temporary solution)  
+
 
 == Background ==
 We want to enable annotations on W3C specifications and on WebPlatform.org, as a way to provide feedback into specs and documentation.
