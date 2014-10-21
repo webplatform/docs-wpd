@@ -44,6 +44,7 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox", anybody could b
 ** Firefox Accounts ([https://accounts.webplatform.org/ see], [https://github.com/webplatform?query=fxa GitHub repo.])
 ** Notes server ([https://notes.webplatform.org/ see])
 ** Bots to log '''webplatform''' and '''webspecs''' freenode IRC channels
+* Make sure that all web apps deployment are set to not accept index robots
 * Set in place automation, see [[#Automatic updates]]
 
 
