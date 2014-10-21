@@ -58,6 +58,7 @@ For each web application:
 * Get anything that’s not source-controlled in our code, make it as a patch on top of the original code
 * Make sure the web app looks fine with the current CSS
 * Make sure the configuration is adjusted by salt stack, nothing manual
+* Make sure the theme doesn’t refer to production site, but current deployment
 
 Later, we’ll have a system that listens and updates the site automatically.
 
