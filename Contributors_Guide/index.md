@@ -25,11 +25,7 @@ Once you are on the list, please email the group and introduce yourself. Who are
 
 You can read the archives and learn more about how the email list works  [http://lists.w3.org/Archives/Public/public-webplatform on the ''lists.w3.org/Archives/Public/public-webplatform''] archive site.
 
-<h2>What's Next</h2>
-(Currently in progress...)
-
-<hr>
-==Things Jen is Gathering to Consider Putting here==
+<h2>What Next?</h2>
 
 Begin reviewing, marking, and editing pages using these resources:
 * Go to the [[WPD:Getting_Started| Getting Started page]] to find lists of pages that need specific attention.
