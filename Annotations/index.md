@@ -12,7 +12,7 @@ Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oc
 ## '''DONE''' Ability to make an annotation
 ## '''DONE''' Ability to login, we don’t even see "Sign in" ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
 ##  Do not see speech bubble and tools ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
-# Public annotation should show up, even when visitor isn’t logged in  
+# '''DONE''' Public annotation should show up, even when visitor isn’t logged in  
 # On a spec, when there’s an annotation, send an email to the archive  
 ## Use email specified in the HTML, e.g. <code><a rel="reply-to"  href="mailto:public-audio-comments@w3.org">foo</a></code>
 # Safari, on a spec, when init SSO, if a cookie is already set; do not to try recover session. (temporary solution)  
