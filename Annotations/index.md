@@ -8,7 +8,7 @@ This is a scratch space for adding annotations to WebPlatform.org and to W3C spe
 
 Agreed by Dan W., Doug S., Randall L., Renoir B., expected to be delivered by Oct. 23 2014
 
-# Make it work under IE 
+# '''DONE''' Make it work under IE, see [https://github.com/webplatform/notes-server/issues/16  notes-server #16]
 ## '''DONE''' Ability to make an annotation
 ## '''DONE''' Ability to login, we don’t even see "Sign in" ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
 ## '''DONE''' Do not see speech bubble and tools ([https://docs.webplatform.org/wiki/File:20141022-IE11-cannot-login.png see screenshot])
