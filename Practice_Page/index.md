@@ -10,8 +10,6 @@
 {{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet WikiMedia formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences. '''Hari:Om'''. I am trying text editing, enabled in this scrollable area, in which word wrapping is also possible.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
-
-
 }}
 {{CSS Property
 |Initial value=Test
@@ -40,7 +38,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}{{Single Example
 |Language=JavaScript
 |Description=getting to know WPD editing
-|Code=alert('Hello worldu!');
+|Code=alert('Hello world!');
 |LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
 }}{{Single Example
 |Language=JavaScript
