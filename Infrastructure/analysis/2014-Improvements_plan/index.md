@@ -18,6 +18,8 @@ To reach this goal, we want to set in place the following changes:
 
 
 === Expected outcome ===
+
+* Before deploying to production, every components until next should be running fine on ''webplatformstaging.org''
 * Deploy automatically on git push (GitHub hooks) on master branch
 * Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
 
@@ -39,6 +41,15 @@ To reach this goal, we want to set in place the following changes:
 ** Last sprint version is deployed
 ** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges memcache/redis
 ** Big memory usage was caused by data.json being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND data.json in Memcached
+* Blog
+** Upgraded to latest version
+** Improved deployment using git
+** Reworked GitHub project [https://github.com/webplatform/webplatform-wordpress-theme WebPlatform WordPress theme] to manage theme and plugin configuration through Git. See article: [http://blog.g-design.net/post/60019471157/managing-and-deploying-wordpress-with-git Managing and deploying WordPress with Git].
+* Piwik
+** Upgraded piwik version
+* Bug Genie (project)
+** Improved deployment using git
+** Reworked skin, forked project and changed theme to match our site theme (there are no real templating, or theme support)
 * Improve error pages
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
 ** Make Fastly redirect to a static page on salt-master when no IP responds, message: "server maintenance in progress"
