@@ -6,7 +6,13 @@ Infrastructure improvement plans, what’s planned and what’s done.
 
 The objective of this sprint is to have a separation between ''development'' (e.g. a local Vagrant VM, or code checkout), ''staging'' (i.e. a full deployment) and ''production'' (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
 
-To reach this goal, we want to set in place the following changes:
+=== Expected outcome ===
+
+* Before deploying to production, every components until next should be running fine on ''webplatformstaging.org''
+* Deploy automatically on git push (GitHub hooks) on master branch
+* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
+
+=== Tasks summary ===
 
 * Publish to the public all our deployment scripts, without passwords or private data
 * System listens to given git repos, send event to salt reactor
@@ -17,14 +23,11 @@ To reach this goal, we want to set in place the following changes:
 * Self-contained environment at every level; In other words, staging MUST NOT use the production
 
 
-=== Expected outcome ===
-
-* Before deploying to production, every components until next should be running fine on ''webplatformstaging.org''
-* Deploy automatically on git push (GitHub hooks) on master branch
-* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
 
 
-== Done ==
+== Tasks ==
+
+=== Done ===
 
 What has been done and is deployable on staging at this moment.
 
@@ -73,7 +76,11 @@ What has been done and is deployable on staging at this moment.
 ** postgres
 ** redis
 
-== To do ==
+
+=== To do ===
+
+What’s missing to complete this sprint.
+
 * Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
 ** account
 ** webat
@@ -105,10 +112,13 @@ What has been done and is deployable on staging at this moment.
 * SSL
 ** blog
 ** project
-* Make fastly VCL to point to salt master with basic "server mainteanance in progress" page if origin is unresponsive
+* Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
+
+
 
 == Next ==
 
+What should be done once the previous requisites are met.
 
 * Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
 ** source
