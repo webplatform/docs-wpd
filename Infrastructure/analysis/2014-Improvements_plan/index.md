@@ -31,7 +31,7 @@ The objective of this sprint is to have a separation between ''development'' (e.
 
 What has been done and is deployable on staging at this moment.
 
-* In deployment process (will improve system and refactor after the rest is ready)
+* Temporarily disabled (will improve system and refactor after the rest is ready)
 ** Disabled centralized log
 ** Disabled Ganglia graphs
 * MediaWiki
@@ -76,7 +76,6 @@ What has been done and is deployable on staging at this moment.
 ** postgres
 ** redis
 
-
 === To do ===
 
 What’s missing to complete this sprint.
@@ -85,6 +84,12 @@ What’s missing to complete this sprint.
 ** account
 ** webat
 ** mail
+* Create new VM type:
+** Discourse forum using Docker, but to use postgres server VM
+* postgres
+** Make backup works like MySQL
+* mysql
+** Send backups to DreamObjects after a month, purge local copy
 * Make relying service to rely on local instance instead of hardcoded server from production:
 ** E-mail relay configurations
 ** Accounts system
