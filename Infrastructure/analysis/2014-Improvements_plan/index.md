@@ -2,6 +2,26 @@
 
 Infrastructure improvement plans, what’s planned and what’s done.
 
+== Goals ==
+
+The objective of this sprint is to have a separation between ''development'' (e.g. a local Vagrant VM, or code checkout), ''staging'' (i.e. a full deployment) and ''production'' (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
+
+To reach this goal, we want to set in place the following changes:
+
+* Publish to the public all our deployment scripts, without passwords or private data
+* System listens to given git repos, send event to salt reactor
+* Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive
+* Salt reactor launch rsync when changes are detected
+* Ensure all components works on '''webplatformSTAGING.org''' AND '''webplatform.org''' top level domains, without configuration switch
+* Ensure all VM are on Ubuntu 14.04 LTS
+* Self-contained environment at every level; In other words, staging MUST NOT use the production
+
+
+=== Expected outcome ===
+* Deploy automatically on git push (GitHub hooks) on master branch
+* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
+
+
 == Done ==
 
 * In deployment process (will improve system and refactor after the rest is ready)
@@ -22,21 +42,25 @@ Infrastructure improvement plans, what’s planned and what’s done.
 * Improve error pages
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
 ** Make Fastly redirect to a static page on salt-master when no IP responds, message: "server maintenance in progress"
-
+* Upgraded to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
+** notes
+** bots
+** db
+** app
+** blog
+** project
+** memcached
+** backup
+** elasticsearch
+** piwik
+* Decomissioned VM types
+** storage (we rely on DreamObjects instead of our own)
+** monitor (we will refactor the monitoring and log management in the next steps)
+* New VM types
+** postgres
+** redis
 
 == To do ==
-
-Objective;
-
-* Deploy automatically on git push (GitHub hooks) on master branch
-* System listens to given git repos, send event to salt reactor
-* Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive
-* Salt reactor launch rsync when changes are detected
-* Ensure all components works on '''webplatformSTAGING.org''' AND '''webplatform.org''' top level domains, without configuration switch
-* Ensure all VM are on Ubuntu 14.04 LTS
-
-
-=== Tasks details ===
 * Nutcracker Redis port forward on different ports, depending of its purpose
 ** Session storage, use default port; TCP 6379, forward to redis-sessions*
 ** Job queue, use default port +1; TCP 6380, forward to redis-jobs*
