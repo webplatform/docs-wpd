@@ -26,6 +26,8 @@ To reach this goal, we want to set in place the following changes:
 
 == Done ==
 
+What has been done and is deployable on staging at this moment.
+
 * In deployment process (will improve system and refactor after the rest is ready)
 ** Disabled centralized log
 ** Disabled Ganglia graphs
@@ -72,6 +74,13 @@ To reach this goal, we want to set in place the following changes:
 ** redis
 
 == To do ==
+* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
+** account
+** webat
+** mail
+* Make relying service to rely on local instance instead of hardcoded server from production:
+** E-mail relay configurations
+** Accounts system
 * Nutcracker Redis port forward on different ports, depending of its purpose
 ** Session storage, use default port; TCP 6379, forward to redis-sessions*
 ** Job queue, use default port +1; TCP 6380, forward to redis-jobs*
@@ -87,9 +96,6 @@ To reach this goal, we want to set in place the following changes:
 ** Ensure redis-jobs* is used for jobs
 * MediaWiki:
 ** Hardcoded method in template to redirect to preferred top level domain name. See <code>WebPlatformTemplate::getTld()</code>
-* Mail relay
-** To support webplatformstaging, only works on one domain
-** Ensure every components use local mail server relative to where they are (its currently hardcoded)
 * Database cluster
 ** Migrate all databases into new cluster using MariaDB 10.1
 ** Setup replication
@@ -99,14 +105,12 @@ To reach this goal, we want to set in place the following changes:
 * SSL
 ** blog
 ** project
-* Make fastly VCL to point to salt master with basic "server mainteannce in progress" page if origin is unresponsive
+* Make fastly VCL to point to salt master with basic "server mainteanance in progress" page if origin is unresponsive
 
 == Next ==
 
+
 * Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
-** account
-** webat
-** mail
 ** source
 * Improve error pages
 ** Create human comprehensible explanation messages for each of them
