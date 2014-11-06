@@ -92,7 +92,7 @@ To reach this goal, we want to set in place the following changes:
 
 == Next ==
 
-* Rebuild VMs to new Ubuntu version (no config refactor yet):
+* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
 ** account
 ** webat
 ** mail
