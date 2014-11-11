@@ -62,7 +62,8 @@ What has been done and is deployable on staging at this moment.
 ** Made an extension that contains all copy-pasted micro-extensions, and theme
 ** Migrated all images and fonts to use www.webplatform.org instead (eventually CSS/JS will also be removed)
 
-* Made an extension for upcoming single sign on (Non MediaWiki specific code will be factored out as dependency. Allowing to re-use in other PHP components)
+* WebPlatform Accounts
+** MediaWiki Extension; is currently specific to MediaWiki (should be refactored to have core of the feature as independend PHP compoponent)
 
 * MediaWiki Compatibility tables extension
 ** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges keystore copy
@@ -81,7 +82,7 @@ What has been done and is deployable on staging at this moment.
 * Improve error pages
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
 
-* Upgraded to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
+* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services for each VM types;
 ** notes
 ** bots
 ** db
@@ -101,7 +102,7 @@ What has been done and is deployable on staging at this moment.
 
 What’s missing to complete this sprint.
 
-* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services:
+* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
 ** account
 ** webat
 ** mail
@@ -117,7 +118,6 @@ What’s missing to complete this sprint.
 ** Fastly to force SSL
 
 * MediaWiki:
-** Hardcoded method in template to redirect to preferred top level domain name. See <code>WebPlatformTemplate::getTld()</code>
 ** document how to upgrade version
 ** delete unused css/js/misc assets moved to www.webplatform.org
 
@@ -182,17 +182,27 @@ What’s missing to complete this sprint.
 
 What should be done once the previous requisites are met.
 
+* WebPlatform Accounts
+** Create shared component (i.e. using composer) 
+** Factor out specific to MediaWiki as an extension, use new shared PHP component 
+
 * On [db, postgres] VM types:
 ** Send backups to DreamObjects after a month, purge local copy
-* Make secondary sections of the site under SSL
-** blog
-** project
+
 * Setup alerts (aremysitesup is insufficient)
 * Rework Varnish files: compression is not working from Fastly, fix ESI
 * Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
-* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
+* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services for each VM types;
 ** source
-* Improve error pages when communication problem (other "guru meditation" left)
+
+* Improve Fastly service configs:
+** ''www.webplatform.org'' fastly service to be completely cookie less, hold DreamObject images (instead of static.webplatform.org)
+** Deprecate ''static.webplatform.org'' fastly service
+** Each services to use consistent ''static error pages''
+** Each services to use to a minimum Fastly web UI and instead use source-controlled VCL files
+** See if Fastly VCL supports to include secondary VCL to hold private data
+
+* Improve ''static error pages'' when communication problem (other "guru meditation" left)
 ** Create human comprehensible explanation messages for each of them
 ** See [http://docs.fastly.com/guides/backend-servers/503-error-explanations Fastly specific errors documentation]
 ** See sample [http://www.webplatformstaging.org/errors/503.html 503 error page static version]
