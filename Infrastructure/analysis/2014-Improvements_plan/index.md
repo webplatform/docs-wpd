@@ -62,12 +62,9 @@ What has been done and is deployable on staging at this moment.
 ** Made an extension that contains all copy-pasted micro-extensions, and theme
 ** Migrated all images and fonts to use www.webplatform.org instead (eventually CSS/JS will also be removed)
 
-* WebPlatform Accounts
-** MediaWiki Extension; is currently specific to MediaWiki (should be refactored to have core of the feature as independend PHP compoponent)
-
 * MediaWiki Compatibility tables extension
 ** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges keystore copy
-** Big memory usage was caused by ''data.json'' being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND data.json in configurable keystore
+** Big memory usage was caused by ''data.json'' being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND ''data.json'' in configurable Keystore
 
 * Blog
 ** Upgraded version (WordPress)
@@ -117,14 +114,13 @@ What’s missing to complete this sprint.
 ** Support SSL (almost done)
 ** Fastly to force SSL
 
-* MediaWiki:
-** document how to upgrade version
-** delete unused css/js/misc assets moved to www.webplatform.org
-
 * Database cluster, VM types [db, postgres]: 
 ** Migrate all databases into new cluster using MariaDB 10.1
 ** Setup replication
 ** Ensure every components gets the list of IP addresses of the database servers through Salt stack
+
+* On postgresql VM type:
+** Make backup works like MySQL
 
 * On every VM types; Make X service to rely on local VM type instance instead of an hardcoded setting pointing to production:
 ** emails
@@ -134,8 +130,6 @@ What’s missing to complete this sprint.
 ** Discourse forum using Docker, but to use postgres server VM
 ** postgresql
 
-* On postgresql VM type:
-** Make backup works like MySQL
 
 * Figure out which '''Keystore mechanism''' (Redis, or Memcache, or Redis + Memcache) to use:
 ** Must support SSL between web app and clients (and authentication?)
@@ -185,6 +179,10 @@ What should be done once the previous requisites are met.
 * WebPlatform Accounts
 ** Create shared component (i.e. using composer) 
 ** Factor out specific to MediaWiki as an extension, use new shared PHP component 
+
+* MediaWiki:
+** document how to upgrade version
+** delete unused css/js/misc assets moved to www.webplatform.org
 
 * On [db, postgres] VM types:
 ** Send backups to DreamObjects after a month, purge local copy
