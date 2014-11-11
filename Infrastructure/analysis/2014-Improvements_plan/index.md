@@ -1,16 +1,21 @@
 = Sept.-Dec. 2014 Improvement plans =
 
-Infrastructure improvement plans, what’s planned and what’s done.
+Infrastructure improvement plans, what’s planned and the big picture.
 
-== Goals ==
 
-The objective of this sprint is to have a separation between ''development'' (e.g. a local Vagrant VM, or code checkout), ''staging'' (i.e. a full deployment) and ''production'' (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
+== Goal ==
+
+The goal of this sprint is to have a separation between ''development'' (e.g. a local Vagrant VM, or code checkout), ''staging'' (i.e. a full deployment) and ''production'' (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
+
 
 === Expected outcome ===
 
 * Before deploying to production, every components until next should be running fine on ''webplatformstaging.org''
-* Deploy automatically on git push (GitHub hooks) on master branch
+* Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)
+* Self-contained environment at every level; In other words, staging MUST NOT use the production
 * Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
+* Harmonize configuration settings across the softwares, automate the settings based on current known data, do not rely on internal DNS
+
 
 === Tasks summary ===
 
@@ -18,11 +23,9 @@ The objective of this sprint is to have a separation between ''development'' (e.
 * System listens to given git repos, send event to salt reactor
 * Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive
 * Salt reactor launch rsync when changes are detected
-* Ensure all components works on '''webplatformSTAGING.org''' AND '''webplatform.org''' top level domains, without configuration switch
+* Ensure all components works on BOTH '''webplatform.org''' AND '''webplatformSTAGING.org''' top level domains, ''without configuration switches''
 * Ensure all VM are on Ubuntu 14.04 LTS
-* Self-contained environment at every level; In other words, staging MUST NOT use the production
-
-
+* Ensure all dead code is moved without breaking features
 
 
 == Tasks ==
@@ -31,33 +34,53 @@ The objective of this sprint is to have a separation between ''development'' (e.
 
 What has been done and is deployable on staging at this moment.
 
-* Temporarily disabled (will improve system and refactor after the rest is ready)
+* Decommissioned global system features (will improve system and refactor after the rest is ready):
 ** Disabled centralized log
 ** Disabled Ganglia graphs
+
+* Decommissioned VM types:
+** storage (we rely on DreamObjects instead of our own)
+** monitor (we will refactor the monitoring and log management in the next steps)
+
+* Decommissioned features, see for migration/replacement:
+** TO DISCUSS: MediaWiki ''Social Profile'' extension (e.g. [[User:Shepazu]]), was the only extension left requiring storage VM type. Agreed to decomission, but leaves a white space. SOLUTION? Re-enable, edit extension to use only one image as a 1px gif.
+
+* Homepage:
+** Can be configured (switch <code>@site.tld</code> in ''docpad.js'') to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding.
+** Supports SSL
+** Fastly forces SSL
+** Upgraded version (DocPad)
+
 * MediaWiki
-** Upgraded to a more recent version
-** Improved deployment to exclusively use git submodules (until composer is supported)
+** Upgraded version
+** Supports SSL
+** Fastly forces SSL
+** Improved deployment using git
+** Deployment to exclusively use git submodules (until composer is supported)
+** Can be configured (switch <code>siteTopLevelDomain</code>, in ''LocalSettings.php'') to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Improved configuration system to use Salt stack provided values (no manual edition anymore)
 ** Made an extension that contains all copy-pasted micro-extensions, and theme
-* Made an extension for upcoming single sign on (Non MediaWiki specific code will be factored out as dependency. Allowing to re-use in other PHP components)
 ** Migrated all images and fonts to use www.webplatform.org instead (eventually CSS/JS will also be removed)
-** Supports SSL
+
+* Made an extension for upcoming single sign on (Non MediaWiki specific code will be factored out as dependency. Allowing to re-use in other PHP components)
+
 * MediaWiki Compatibility tables extension
-** Last sprint version is deployed
-** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges memcache/redis
-** Big memory usage was caused by data.json being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND data.json in Memcached
+** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges keystore copy
+** Big memory usage was caused by ''data.json'' being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND data.json in configurable keystore
+
 * Blog
-** Upgraded to latest version
+** Upgraded version (WordPress)
 ** Improved deployment using git
-** Reworked GitHub project [https://github.com/webplatform/webplatform-wordpress-theme WebPlatform WordPress theme] to manage theme and plugin configuration through Git. See article: [http://blog.g-design.net/post/60019471157/managing-and-deploying-wordpress-with-git Managing and deploying WordPress with Git].
+** Reworked skin (see [https://github.com/webplatform/webplatform-wordpress-theme WebPlatform WordPress theme repo]) to manage theme and plugin configuration through Git. See article: [http://blog.g-design.net/post/60019471157/managing-and-deploying-wordpress-with-git Managing and deploying WordPress with Git].
+
 * Piwik
-** Upgraded piwik version
-* Bug Genie (project)
+** Upgraded version
 ** Improved deployment using git
-** Reworked skin, forked project and changed theme to match our site theme (there are no real templating, or theme support)
+** Reworked skin, forked project and changed theme to match our site theme (there are no real template system nor theme support)
+
 * Improve error pages
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
-** Make Fastly redirect to a static page on salt-master when no IP responds, message: "server maintenance in progress"
+
 * Upgraded to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
 ** notes
 ** bots
@@ -65,13 +88,11 @@ What has been done and is deployable on staging at this moment.
 ** app
 ** blog
 ** project
-** memcached
+** memcache
 ** backup
 ** elasticsearch
 ** piwik
-* Decomissioned VM types
-** storage (we rely on DreamObjects instead of our own)
-** monitor (we will refactor the monitoring and log management in the next steps)
+
 * New VM types
 ** postgres
 ** redis
@@ -80,44 +101,80 @@ What has been done and is deployable on staging at this moment.
 
 What’s missing to complete this sprint.
 
-* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
+* Upgrade to latest Ubuntu 14.04 LTS version, and their configured services:
 ** account
 ** webat
 ** mail
-* Create new VM type:
-** Discourse forum using Docker, but to use postgres server VM
-* postgres
-** Make backup works like MySQL
-* mysql
-** Send backups to DreamObjects after a month, purge local copy
-* Make relying service to rely on local instance instead of hardcoded server from production:
-** E-mail relay configurations
-** Accounts system
-* Nutcracker Redis port forward on different ports, depending of its purpose
-** Session storage, use default port; TCP 6379, forward to redis-sessions*
-** Job queue, use default port +1; TCP 6380, forward to redis-jobs*
-* For every PHP nodes (app*, project*, blog*, notes*, piwik*, webat*)
-** Ensure Nutcracker forwards both Redis and Memcached ports to the memcache*, redis* nodes
-** Ensure Redis is used everywhere for session handling through local nutcracker Redis port
-** Redis, test <code>session.save_handler</code>
-<syntaxHighlight>
-      session.save_handler = redis
-      session.save_path = "tcp://localhost:6379"
-</syntaxHighlight>
-** Ensure Memcached is used everywhere for page cache
-** Ensure redis-jobs* is used for jobs
+
+* Blog:
+** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+** Support SSL (almost done)
+** Fastly to force SSL
+
+* BugGenie:
+** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+** Support SSL (almost done)
+** Fastly to force SSL
+
 * MediaWiki:
 ** Hardcoded method in template to redirect to preferred top level domain name. See <code>WebPlatformTemplate::getTld()</code>
-* Database cluster
+** document how to upgrade version
+** delete unused css/js/misc assets moved to www.webplatform.org
+
+* Database cluster, VM types [db, postgres]: 
 ** Migrate all databases into new cluster using MariaDB 10.1
 ** Setup replication
 ** Ensure every components gets the list of IP addresses of the database servers through Salt stack
+
+* On every VM types; Make X service to rely on local VM type instance instead of an hardcoded setting pointing to production:
+** emails
+** Accounts system
+
+* Create new VM types:
+** Discourse forum using Docker, but to use postgres server VM
+** postgresql
+
+* On postgresql VM type:
+** Make backup works like MySQL
+
+* Figure out which '''Keystore mechanism''' (Redis, or Memcache, or Redis + Memcache) to use:
+** Must support SSL between web app and clients (and authentication?)
+** Each web app runtime origin VM types (e.g. app, project, etc) should have ONE '''Keystore broker client''' (e.g. Nutcracker, MCRouter)
+** Be consistent on the keystore system to use per use-case
+** Most popular use-case  (i.e. will be used most) will use default port number
+** Use-case 1: Session storage (most popular)
+** Use-case 3: Message queue for logs to pass through LogStash (second popular)
+** Use-case 2: MediaWiki Jobs
+** Use-case 4: Keystore (e.g. various components in MediaWiki, etc)
+
+* On every PHP VM types; [app, project, blog, notes, piwik, webat], ensure:
+** MCRouter forwards to Memcache [roles:session, roles:keystore] clusters
+** Monit watches local MCRouter
+** MediaWiki config points to local MCRouter ports
+** MediaWiki config points to role:jobs redis cluster
+** Ensure Redis is used everywhere for session handling through local nutcracker Redis port
+** Set <code>session.save_handler</code> correctly and consistently
+
 * Automatic deployment
 ** Create typical deployment package (i.e. commands to run to get all dependencies, make a zip file, unpack on every servers)
-* SSL
-** blog
-** project
-* Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
+
+* Improve centralized logging
+** LogStash to process logs
+** Log rotation, and create archive files every year to prevent disk filling
+
+* Improve system stats
+** Graphana to get system metrics
+** Attempt to merge data from ganglia into Graphana so we do not lose previous data
+
+* Set in place Monit to ensure+enforce critical services are up
+** ensure MySQL servers are up on db VM types
+** ensure MySQL server are accessible on app*, project*, blog*, piwik* nodes
+** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* nodes
+** ensure local redis, memcache ports is up and nutcracker is running on app*, project*, blog*, piwik* nodes 
+** ensure NGINX HTTP server is up on accounts* nodes
+** ensure ElasticSearch is up on elastic* nodes
+** ensure memcached is up on memcache* nodes
+** ensure redis is up on redis* nodes
 
 
 
@@ -125,9 +182,17 @@ What’s missing to complete this sprint.
 
 What should be done once the previous requisites are met.
 
+* On [db, postgres] VM types:
+** Send backups to DreamObjects after a month, purge local copy
+* Make secondary sections of the site under SSL
+** blog
+** project
+* Setup alerts (aremysitesup is insufficient)
+* Rework Varnish files: compression is not working from Fastly, fix ESI
+* Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
 * Upgrade to latest Ubuntu 14.04 LTS version, and their configured services for each VM types;
 ** source
-* Improve error pages
+* Improve error pages when communication problem (other "guru meditation" left)
 ** Create human comprehensible explanation messages for each of them
 ** See [http://docs.fastly.com/guides/backend-servers/503-error-explanations Fastly specific errors documentation]
 ** See sample [http://www.webplatformstaging.org/errors/503.html 503 error page static version]
@@ -141,22 +206,4 @@ What should be done once the previous requisites are met.
 ** 503 No Healthy Backends; When no backend server are’t "healthy"
 ** 503 All Backends Failed or Unhealthy; When ALL backends aren’t "healthy"
 ** 503 Backend Read Error; When backend server takes too long to respond
-** 503 Backend Write Error; 
-* Setup alerts (aremysitesup is insufficient)
-* Improve centralized logging
-** LogStash to process logs
-** Log rotation, and create archive files every year to prevent disk filling
-* Improve system stats
-** Graphana to get system metrics
-** Attempt to merge data from ganglia into Graphana so we do not lose previous data
-* Set in place Monit to ensure+enforce critical services are up
-** ensure MySQL servers are up on db* nodes
-** ensure MySQL server are accessible on app*, project*, blog*, piwik* nodes
-** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* nodes
-** ensure local redis, memcache ports is up and nutcracker is running on app*, project*, blog*, piwik* nodes 
-** ensure NGINX HTTP server is up on accounts* nodes
-** ensure ElasticSearch is up on elastic* nodes
-** ensure memcached is up on memcache* nodes
-** ensure redis is up on redis* nodes
-* Error pages when communication problem (other "guru meditation" left)
-* Rework Varnish files: compression is not working from Fastly, fix ESI
+** 503 Backend Write Error;
