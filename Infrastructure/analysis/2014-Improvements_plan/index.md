@@ -61,6 +61,7 @@ What has been done and is deployable on staging at this moment.
 ** Improved configuration system to use Salt stack provided values (no manual edition anymore)
 ** Made an extension that contains all copy-pasted micro-extensions, and theme
 ** Migrated all images and fonts to use www.webplatform.org instead (eventually CSS/JS will also be removed)
+** Have Salt Stack generate config automatically: database, sessions
 
 * MediaWiki Compatibility tables extension
 ** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges keystore copy
@@ -95,6 +96,11 @@ What has been done and is deployable on staging at this moment.
 ** postgres
 ** redis
 
+* Ways to define role of a VM type
+** Use of Salt mine to store static data such as internal IP addresse for automatic configuration generation
+** Parse the VM name and make it as a role (e.g. ''redis-jobs1'', has roles: [redis, jobs]) so we can target secondary service allocation based on the role and not exclusively on the hostname
+
+
 === To do ===
 
 What’s missing to complete this sprint.
@@ -108,11 +114,18 @@ What’s missing to complete this sprint.
 ** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Support SSL (almost done)
 ** Fastly to force SSL
+** Have Salt Stack generate config automatically: database, sessions
 
 * BugGenie:
 ** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Support SSL (almost done)
 ** Fastly to force SSL
+** Have Salt Stack generate config automatically: database, sessions
+
+* Piwik
+** Have Salt Stack generate config automatically: database, sessions
+** Support SSL
+** Figure out whether to use NGINX or Fastly
 
 * Database cluster, VM types [db, postgres]: 
 ** Migrate all databases into new cluster using MariaDB 10.1
