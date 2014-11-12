@@ -10,22 +10,22 @@ The goal of this sprint is to have a separation between ''development'' (e.g. a 
 
 === Expected outcome ===
 
-* Before deploying to production, every components until next should be running fine on ''webplatformstaging.org''
+* Before deploying to production, every components MUST be running fine on ''webplatformSTAGING.org''
 * Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)
-* Self-contained environment at every level; In other words, staging MUST NOT use the production
-* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformstaging.org''' (staging).
-* Harmonize configuration settings across the softwares, automate the settings based on current known data, do not rely on internal DNS
-
+* Self-contained environment at every level; e.g, ''staging'' MUST NOT use any resources from ''production''
+* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformSTAGING.org''' (staging).
+* Harmonize configuration settings across the softwares, automate them based on known data facts, do not rely on internal DNS
+* Remove anything that isn’t used anymore, and simplify system as much as possible
 
 === Tasks summary ===
 
-* Publish to the public all our deployment scripts, without passwords or private data
-* System listens to given git repos, send event to salt reactor
-* Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive
+* Publish to the public all our deployment scripts, with correct author attribution, without passwords nor private data
+* Set in place a system that will update code automatically when a contributor push on watched Git repos
+* Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive, deploy archive
 * Salt reactor launch rsync when changes are detected
 * Ensure all components works on BOTH '''webplatform.org''' AND '''webplatformSTAGING.org''' top level domains, ''without configuration switches''
 * Ensure all VM are on Ubuntu 14.04 LTS
-* Ensure all dead code is moved without breaking features
+* Make sure every components are working as it should
 
 
 == Tasks ==
