@@ -116,10 +116,10 @@ What’s missing to complete this sprint.
 ** Have Salt Stack generate config automatically: database, sessions
 
 * NGINX:
-** Make sure that every vhosts has appropriate 5xx error page messages
+** Make sure that every vhosts has [http://stackoverflow.com/questions/7796237/custom-bad-gateway-page-with-nginx appropriate 5xx error page]
 
 * Apache:
-** Make sure that every vhosts has appropriate 5xx error page messages
+** Make sure that every vhosts has appropriate 5xx error page
 
 * BugGenie:
 ** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
