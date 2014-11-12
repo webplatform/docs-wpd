@@ -42,9 +42,6 @@ What has been done and is deployable on staging at this moment.
 ** storage (we rely on DreamObjects instead of our own)
 ** monitor (we will refactor the monitoring and log management in the next steps)
 
-* Decommissioned features, see for migration/replacement:
-** TO DISCUSS: MediaWiki ''Social Profile'' extension (e.g. [[User:Shepazu]]), was the only extension left requiring storage VM type. Agreed to decomission, but leaves a white space. SOLUTION? Re-enable, edit extension to use only one image as a 1px gif.
-
 * Homepage:
 ** Can be configured (switch <code>@site.tld</code> in ''docpad.js'') to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding.
 ** Supports SSL
@@ -52,6 +49,8 @@ What has been done and is deployable on staging at this moment.
 ** Upgraded version (DocPad)
 
 * MediaWiki
+** Enabled back planned for deprecation extension [http://www.mediawiki.org/wiki/Extension:SocialProfile SocialProfile Extension], see [https://github.com/webplatform/mediawiki/issues/19 issue #19]. Disabled explicitly uploads, serve an empty 1x1 gif.
+** Ability to disable completely Piwik tracking
 ** Upgraded version
 ** Supports SSL
 ** Fastly forces SSL
