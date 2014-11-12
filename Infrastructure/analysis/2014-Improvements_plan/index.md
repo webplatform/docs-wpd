@@ -115,6 +115,12 @@ What’s missing to complete this sprint.
 ** Fastly to force SSL
 ** Have Salt Stack generate config automatically: database, sessions
 
+* NGINX:
+** Make sure that every vhosts has appropriate 5xx error page messages
+
+* Apache:
+** Make sure that every vhosts has appropriate 5xx error page messages
+
 * BugGenie:
 ** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Support SSL (almost done)
