@@ -179,6 +179,7 @@ What’s missing to complete this sprint.
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 
 * Set in place Monit to ensure+enforce critical services are up
+** Notes to [http://mmonit.com/wiki/MMonit/Setup make monit respawn], [http://mmonit.com/wiki/Monit/FAQ Monit FAQ], [http://mmonit.com/wiki/Monit/ConfigurationExamples Configuration examples]
 ** ensure MySQL servers are up on db VM types
 ** ensure MySQL server are accessible on app*, project*, blog*, piwik* nodes
 ** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* nodes
