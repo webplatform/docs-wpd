@@ -73,13 +73,14 @@ What has been done and is deployable on staging at this moment.
 ** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Have Salt Stack generate config automatically: database, sessions
 * Stats web app:
-** Upgraded version (WordPress)
+** Upgraded version (Piwik)
 ** Improved deployment using git
 ** Reworked skin, forked project and changed theme to match our site theme (there are no real template system nor theme support)
 
 * Project web app:
-* Upgraded BugGenie version (BugGenie branch-32)
+** Upgraded BugGenie version (BugGenie branch-32)
 ** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+
 * Improve error pages:
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
 
