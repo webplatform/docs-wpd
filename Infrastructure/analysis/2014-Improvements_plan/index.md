@@ -48,7 +48,7 @@ What has been done and is deployable on staging at this moment.
 ** Fastly forces SSL
 ** Upgraded version (DocPad)
 
-* MediaWiki
+* Wiki web app:
 ** Enabled back planned for deprecation extension [http://www.mediawiki.org/wiki/Extension:SocialProfile SocialProfile Extension], see [https://github.com/webplatform/mediawiki/issues/19 issue #19]. Disabled explicitly uploads, serve an empty 1x1 gif.
 ** Ability to disable completely Piwik tracking
 ** Upgraded version
@@ -62,21 +62,25 @@ What has been done and is deployable on staging at this moment.
 ** Migrated all images and fonts to use www.webplatform.org instead (eventually CSS/JS will also be removed)
 ** Have Salt Stack generate config automatically: database, sessions
 
-* MediaWiki Compatibility tables extension
+* Wiki Compatibility tables extension:
 ** When access <code>Special:Compatables?topic=css...&action=purge</code> it also purges keystore copy
 ** Big memory usage was caused by ''data.json'' being called more than once at EVERY requests (MW arch problem, error somewhere?) — fixed by saving generated HTML AND ''data.json'' in configurable Keystore
 
-* Blog
+* Blog web app:
 ** Upgraded version (WordPress)
 ** Improved deployment using git
 ** Reworked skin (see [https://github.com/webplatform/webplatform-wordpress-theme WebPlatform WordPress theme repo]) to manage theme and plugin configuration through Git. See article: [http://blog.g-design.net/post/60019471157/managing-and-deploying-wordpress-with-git Managing and deploying WordPress with Git].
-
-* Piwik
-** Upgraded version
+** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+** Have Salt Stack generate config automatically: database, sessions
+* Stats web app:
+** Upgraded version (WordPress)
 ** Improved deployment using git
 ** Reworked skin, forked project and changed theme to match our site theme (there are no real template system nor theme support)
 
-* Improve error pages
+* Project web app:
+* Upgraded BugGenie version (BugGenie branch-32)
+** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+* Improve error pages:
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
 
 * '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services for each VM types;
@@ -93,11 +97,21 @@ What has been done and is deployable on staging at this moment.
 
 * New VM types
 ** postgres
-** redis
 
 * Ways to define role of a VM type
 ** Use of Salt mine to store static data such as internal IP addresse for automatic configuration generation
-** Parse the VM name and make it as a role (e.g. ''redis-jobs1'', has roles: [redis, jobs]) so we can target secondary service allocation based on the role and not exclusively on the hostname
+** Parse the VM name and make it as a role (e.g. ''memcache-jobs1'', has roles: [memcache, jobs]) so we can target secondary service allocation based on the role and not exclusively on the hostname
+
+* Change Salt stack behavior:
+** Create a grain to learn in which deployment level (e.g. "staging") we are in
+** Create a grain to learn what are the roles the VM has (e.g. [salt])
+
+* Service resiliency subsystem "Monit":
+** '''Purpose''': Ensure critical services are up
+** Ensure common service is running: nscd, salt-minion
+
+
+-----
 
 
 === To do ===
@@ -109,97 +123,104 @@ What’s missing to complete this sprint.
 ** webat
 ** mail
 
-* Blog:
-** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+* Automatic deployment:
+** '''Purpose''': Ease to have contributors to see their work online
+** Create typical deployment package (i.e. commands to run to get all dependencies, make a zip file, unpack on every servers)
+
+* Un hardcode deployment level (e.g. "staging"):
+** '''Purpose:''' Make X service to rely on local VM type instance instead of an hardcoded setting pointing to production:
+** Use new ''Salt grain "salt-call grains.get level"'' instead.
+** How to find <code>cd /srv/salt; grep -rli 'staging' .</code>, or with a ''#TODO'' note.
+** emails
+** Accounts system
+
+* Database cluster, VM types [db, postgres]: 
+** Migrate all databases into new cluster using MariaDB 10.1
+** Ensure every components gets the list of IP addresses of the database servers through Salt stack
+** Setup replication
+
+* Keystore clusters (Memcached):
+** Ensure only local network can connect
+** Ensure only through SSL
+** Each web app runtime origin VM types should have a '''Keystore broker client''' (e.g. MCRouter)
+
+* Configure MCrouter:
+** See [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
+** Separate port number per use-case, most popular (i.e. will be used most) will use default port number
+** Use-case 1: Session storage (most popular)
+** Use-case 2: MediaWiki Jobs
+** Use-case 4: Keystore (e.g. various components in MediaWiki, etc)
+** Set <code>session.save_handler</code> correctly and consistently
+
+* WebAt25 web app:
+** Config points to local MCRouter port
+
+* Blog web app:
 ** Support SSL (almost done)
 ** Fastly to force SSL
 ** Have Salt Stack generate config automatically: database, sessions
+** Config points to local MCRouter port
 
-* NGINX:
-** Make sure that every vhosts has [http://stackoverflow.com/questions/7796237/custom-bad-gateway-page-with-nginx appropriate 5xx error page]
+* Project web app:
+** Support SSL (almost done)
+** Fastly to force SSL
+** Have Salt Stack generate config automatically: database, sessions
+** Config points to local MCRouter port
+
+* Stats web app:
+** Support SSL
+** Have Salt Stack generate config automatically: database, sessions
+** Figure out whether to use NGINX or Fastly
+** Config points to local MCRouter port
 
 * Apache:
 ** Make sure that every vhosts has appropriate 5xx error page
 
-* BugGenie:
-** Skin can be configured (switch <code>TBD</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
-** Support SSL (almost done)
-** Fastly to force SSL
-** Have Salt Stack generate config automatically: database, sessions
-
-* Piwik
-** Have Salt Stack generate config automatically: database, sessions
-** Support SSL
-** Figure out whether to use NGINX or Fastly
-
-* Database cluster, VM types [db, postgres]: 
-** Migrate all databases into new cluster using MariaDB 10.1
-** Setup replication
-** Ensure every components gets the list of IP addresses of the database servers through Salt stack
-
 * On postgresql VM type:
 ** Make backup works like MySQL
-
-* On every VM types; Make X service to rely on local VM type instance instead of an hardcoded setting pointing to production:
-** emails
-** Accounts system
 
 * Create new VM types:
 ** Discourse forum using Docker, but to use postgres server VM
 ** postgresql
 
-
-* Figure out which '''Keystore mechanism''' (Redis, or Memcache, or Redis + Memcache) to use:
-** Must support SSL between web app and clients (and authentication?)
-** Each web app runtime origin VM types (e.g. app, project, etc) should have ONE '''Keystore broker client''' (e.g. Nutcracker, MCRouter)
-** Be consistent on the keystore system to use per use-case
-** Most popular use-case  (i.e. will be used most) will use default port number
-** Use-case 1: Session storage (most popular)
-** Use-case 3: Message queue for logs to pass through LogStash (second popular)
-** Use-case 2: MediaWiki Jobs
-** Use-case 4: Keystore (e.g. various components in MediaWiki, etc)
-
-* On every PHP VM types; [app, project, blog, notes, piwik, webat], ensure:
-** MCRouter forwards to Memcache [roles:session, roles:keystore] clusters
-** Monit watches local MCRouter
-** MediaWiki config points to local MCRouter ports
-** MediaWiki config points to role:jobs redis cluster
-** Ensure Redis is used everywhere for session handling through local nutcracker Redis port
-** Set <code>session.save_handler</code> correctly and consistently
-
-* Automatic deployment
-** Create typical deployment package (i.e. commands to run to get all dependencies, make a zip file, unpack on every servers)
-
-* Improve centralized logging
+* Centralized logging:
+** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
 ** LogStash to process logs
 ** Log rotation, and create archive files every year to prevent disk filling
 
-* Improve system stats
+* Improve system stats:
+** '''Purpose''': Get system health data as graph, over time 
+** Set in place statsd, fluentd, monit and other system health graph tools
 ** Graphana to get system metrics
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 
-* Set in place Monit to ensure+enforce critical services are up
+* Service resiliency subsystem "Monit":
+** '''Purpose''': Ensure critical services are up
 ** Notes to [http://mmonit.com/wiki/MMonit/Setup make monit respawn], [http://mmonit.com/wiki/Monit/FAQ Monit FAQ], [http://mmonit.com/wiki/Monit/ConfigurationExamples Configuration examples]
 ** ensure MySQL servers are up on db VM types
-** ensure MySQL server are accessible on app*, project*, blog*, piwik* nodes
-** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* nodes
-** ensure local redis, memcache ports is up and nutcracker is running on app*, project*, blog*, piwik* nodes 
-** ensure NGINX HTTP server is up on accounts* nodes
-** ensure ElasticSearch is up on elastic* nodes
-** ensure memcached is up on memcache* nodes
-** ensure redis is up on redis* nodes
+** ensure MySQL server are accessible on app*, project*, blog*, piwik* VM types
+** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
+** ensure MCRouter is running on app*, project*, blog*, piwik*  VM types
+** ensure NGINX HTTP server is up on accounts*  VM types
+** ensure ElasticSearch is up on elastic*  VM types
+** ensure Memcached is up on memcache*  VM types
 
-
+-----
 
 == Next ==
 
 What should be done once the previous requisites are met.
 
-* WebPlatform Accounts
+* NGINX:
+** Make sure that every vhosts has [http://stackoverflow.com/questions/7796237/custom-bad-gateway-page-with-nginx appropriate 5xx error page]
+** Move all web apps that can run properly under HHVM/php-fpm, NGINX as the frontend
+** Serve as frontend to counter-balance apache2’s mod-prefork and older PHP code memory issues
+
+* Accounts web app:
 ** Create shared component (i.e. using composer) 
 ** Factor out specific to MediaWiki as an extension, use new shared PHP component 
 
-* MediaWiki:
+* Wiki web app:
 ** document how to upgrade version
 ** delete unused css/js/misc assets moved to www.webplatform.org
 
