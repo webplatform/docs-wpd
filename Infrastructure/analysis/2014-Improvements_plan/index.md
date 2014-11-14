@@ -112,7 +112,7 @@ What has been done and is deployable on staging at this moment.
 ** Ensure common service is running: nscd, salt-minion
 
 
------
+<!--  -----------------------------------------------------------  -->
 
 
 === To do ===
@@ -123,6 +123,8 @@ What’s missing to complete this sprint.
 ** account
 ** webat
 ** mail
+
+* Remove redis VM type, we will exclusively use Memcached
 
 * Automatic deployment:
 ** '''Purpose''': Ease to have contributors to see their work online
@@ -141,12 +143,13 @@ What’s missing to complete this sprint.
 ** Setup replication
 
 * Keystore clusters (Memcached):
+** '''Purpose:''' Each cluster fills a role, depending of the life expectancy of the stored data (e.g. sessions should not be cleared, page cache might)
 ** Ensure only local network can connect
 ** Ensure only through SSL
 ** Each web app runtime origin VM types should have a '''Keystore broker client''' (e.g. MCRouter)
 
-* Configure MCrouter:
-** See [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
+* Configure '''Keystore broker client''' (MCrouter):
+** '''Purpose:''' Have everything locally is much quicker, this component keeps a local cache, see  [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
 ** Separate port number per use-case, most popular (i.e. will be used most) will use default port number
 ** Use-case 1: Session storage (most popular)
 ** Use-case 2: MediaWiki Jobs
@@ -159,30 +162,26 @@ What’s missing to complete this sprint.
 * Blog web app:
 ** Support SSL (almost done)
 ** Fastly to force SSL
-** Have Salt Stack generate config automatically: database, sessions
 ** Config points to local MCRouter port
+** Config points automatically to database IP
 
 * Project web app:
 ** Support SSL (almost done)
 ** Fastly to force SSL
-** Have Salt Stack generate config automatically: database, sessions
 ** Config points to local MCRouter port
+** Config points automatically to database IP
 
 * Stats web app:
 ** Support SSL
-** Have Salt Stack generate config automatically: database, sessions
 ** Figure out whether to use NGINX or Fastly
 ** Config points to local MCRouter port
+** Config points automatically to database IP
 
 * Apache:
 ** Make sure that every vhosts has appropriate 5xx error page
 
 * On postgresql VM type:
 ** Make backup works like MySQL
-
-* Create new VM types:
-** Discourse forum using Docker, but to use postgres server VM
-** postgresql
 
 * Centralized logging:
 ** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
@@ -206,11 +205,21 @@ What’s missing to complete this sprint.
 ** ensure ElasticSearch is up on elastic*  VM types
 ** ensure Memcached is up on memcache*  VM types
 
------
+
+<!--  -----------------------------------------------------------  -->
+
 
 == Next ==
 
 What should be done once the previous requisites are met.
+
+* Docker VM type:
+** To host Discourse, and other things TBD such as preparing web app archives
+
+* Discourse web app:
+** Support SSL
+** Config points to local MCRouter port
+** Config points automatically to database IP
 
 * NGINX:
 ** Make sure that every vhosts has [http://stackoverflow.com/questions/7796237/custom-bad-gateway-page-with-nginx appropriate 5xx error page]
