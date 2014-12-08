@@ -72,14 +72,20 @@ What has been done and is deployable on staging at this moment.
 ** Reworked skin (see [https://github.com/webplatform/webplatform-wordpress-theme WebPlatform WordPress theme repo]) to manage theme and plugin configuration through Git. See article: [http://blog.g-design.net/post/60019471157/managing-and-deploying-wordpress-with-git Managing and deploying WordPress with Git].
 ** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Have Salt Stack generate config automatically: database, sessions
+
 * Stats web app:
 ** Upgraded version (Piwik)
 ** Improved deployment using git
 ** Reworked skin, forked project and changed theme to match our site theme (there are no real template system nor theme support)
+** Support SSL
+** Fastly to force SSL
+** Config to use database table for sessions (the only one supported off-the-shelf by Piwik so far)
 
 * Project web app:
 ** Upgraded BugGenie version (BugGenie branch-32)
 ** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
+** Support SSL
+** Fastly to force SSL
 
 * Improve error pages:
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
@@ -145,6 +151,10 @@ What has been done and is deployable on staging at this moment.
 
 What’s missing to complete this sprint to have something better than what we have in production, but with latest version.
 
+* '''Misc. issues''':
+* ''Blog'' see [http://project.webplatform.org/infrastructure/issues/89 WordPress login problem w/ Fastly, issue 89], ensure it works w/ new theme structure. currently broken.
+** ''Setup logrotate for non typical logs'': [ mw-logs, fastly, remote logs ]
+
 * '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
 ** account
 ** mail
@@ -156,13 +166,10 @@ What’s missing to complete this sprint to have something better than what we h
 ** Config points automatically to database IP
 
 * Project web app:
-** Support SSL
-** Fastly to force SSL
+** Config points to local Nutcracker port
 ** Config points automatically to database IP
 
 * Stats web app:
-** Support SSL
-** Config points to local Nutcracker port
 ** Config points automatically to database IP
 
 * Automatic deployment:
