@@ -111,11 +111,6 @@ What has been done and is deployable on staging at this moment.
 ** '''Purpose''': Ensure critical services are up
 ** Ensure common service is running: salt-minion, ssh
 
-* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
-** account
-** webat
-** mail
-
 * Remove redis VM type, we will exclusively use Memcached
 
 * Keystore clusters (Memcached):
@@ -149,6 +144,10 @@ What has been done and is deployable on staging at this moment.
 === To do ===
 
 What’s missing to complete this sprint to have something better than what we have in production, but with latest version.
+
+* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
+** account
+** mail
 
 * Blog web app:
 ** Support SSL
