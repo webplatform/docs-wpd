@@ -109,15 +109,7 @@ What has been done and is deployable on staging at this moment.
 
 * Service resiliency subsystem "Monit":
 ** '''Purpose''': Ensure critical services are up
-** Ensure common service is running: nscd, salt-minion
-
-
-<!--  -----------------------------------------------------------  -->
-
-
-=== To do ===
-
-What’s missing to complete this sprint.
+** Ensure common service is running: salt-minion, ssh
 
 * '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
 ** account
@@ -125,6 +117,54 @@ What’s missing to complete this sprint.
 ** mail
 
 * Remove redis VM type, we will exclusively use Memcached
+
+* Keystore clusters (Memcached):
+** '''Purpose:''' Each cluster fills a role, depending of the life expectancy of the stored data (e.g. sessions should not be cleared, page cache might)
+** Ensure only local network can connect
+** Each web app runtime origin VM types should have a '''Keystore broker client''' (e.g. Nutcracker)
+
+* Configure '''Keystore broker client''' (Nutcracker):
+** '''Purpose:''' Have everything locally is much quicker, this component keeps a local cache, see  [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
+** Separate port number per use-case, most popular (i.e. will be used most) will use default port number
+** Use-case 1: Session storage (most popular)
+** Use-case 2: Keystore (e.g. various components in MediaWiki, etc)
+** Set <code>session.save_handler</code> correctly and consistently
+
+* Service resiliency subsystem "Monit":
+** '''Purpose''': Ensure critical services are up
+** ensure MySQL servers are up on db VM types
+** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
+** ensure Nutcracker is running on app*, project*, blog*, piwik*  VM types
+** ensure NGINX HTTP server is up on accounts*  VM types
+** ensure ElasticSearch is up on elastic*  VM types
+** ensure Memcached is up on memcache*  VM types
+
+* NGINX:
+** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
+
+
+<!--  -----------------------------------------------------------  -->
+
+
+=== To do ===
+
+What’s missing to complete this sprint to have something better than what we have in production, but with latest version.
+
+* Blog web app:
+** Support SSL
+** Fastly to force SSL
+** Config W3TotalCache to use local Nutcracker port
+** Config points automatically to database IP
+
+* Project web app:
+** Support SSL
+** Fastly to force SSL
+** Config points automatically to database IP
+
+* Stats web app:
+** Support SSL
+** Config points to local Nutcracker port
+** Config points automatically to database IP
 
 * Automatic deployment:
 ** '''Purpose''': Ease to have contributors to see their work online
@@ -141,69 +181,13 @@ What’s missing to complete this sprint.
 ** Migrate all databases into new cluster using MariaDB 10.1
 ** Ensure every components gets the list of IP addresses of the database servers through Salt stack
 ** Setup replication
-
-* Keystore clusters (Memcached):
-** '''Purpose:''' Each cluster fills a role, depending of the life expectancy of the stored data (e.g. sessions should not be cleared, page cache might)
-** Ensure only local network can connect
-** Ensure only through SSL
-** Each web app runtime origin VM types should have a '''Keystore broker client''' (e.g. MCRouter)
-
-* Configure '''Keystore broker client''' (MCrouter):
-** '''Purpose:''' Have everything locally is much quicker, this component keeps a local cache, see  [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
-** Separate port number per use-case, most popular (i.e. will be used most) will use default port number
-** Use-case 1: Session storage (most popular)
-** Use-case 2: MediaWiki Jobs
-** Use-case 4: Keystore (e.g. various components in MediaWiki, etc)
-** Set <code>session.save_handler</code> correctly and consistently
-
-* WebAt25 web app:
-** Config points to local MCRouter port
-
-* Blog web app:
-** Support SSL (almost done)
-** Fastly to force SSL
-** Config points to local MCRouter port
-** Config points automatically to database IP
-
-* Project web app:
-** Support SSL (almost done)
-** Fastly to force SSL
-** Config points to local MCRouter port
-** Config points automatically to database IP
-
-* Stats web app:
-** Support SSL
-** Figure out whether to use NGINX or Fastly
-** Config points to local MCRouter port
-** Config points automatically to database IP
+** Automatic backups, sends to DreamObjects bucket
 
 * Apache:
-** Make sure that every vhosts has appropriate 5xx error page
+** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
 
-* On postgresql VM type:
-** Make backup works like MySQL
-
-* Centralized logging:
-** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
-** LogStash to process logs
-** Log rotation, and create archive files every year to prevent disk filling
-
-* Improve system stats:
-** '''Purpose''': Get system health data as graph, over time 
-** Set in place statsd, fluentd, monit and other system health graph tools
-** Graphana to get system metrics
-** Attempt to merge data from ganglia into Graphana so we do not lose previous data
-
-* Service resiliency subsystem "Monit":
-** '''Purpose''': Ensure critical services are up
-** Notes to [http://mmonit.com/wiki/MMonit/Setup make monit respawn], [http://mmonit.com/wiki/Monit/FAQ Monit FAQ], [http://mmonit.com/wiki/Monit/ConfigurationExamples Configuration examples]
-** ensure MySQL servers are up on db VM types
-** ensure MySQL server are accessible on app*, project*, blog*, piwik* VM types
-** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
-** ensure MCRouter is running on app*, project*, blog*, piwik*  VM types
-** ensure NGINX HTTP server is up on accounts*  VM types
-** ensure ElasticSearch is up on elastic*  VM types
-** ensure Memcached is up on memcache*  VM types
+* On elastic VM type:
+** Automatic backups, sends to DreamObjects bucket
 
 
 <!--  -----------------------------------------------------------  -->
@@ -213,6 +197,26 @@ What’s missing to complete this sprint.
 
 What should be done once the previous requisites are met.
 
+
+* Service resiliency subsystem "Monit":
+** '''Purpose''': Ensure critical services are up
+** Notes to [http://mmonit.com/wiki/MMonit/Setup make monit respawn], [http://mmonit.com/wiki/Monit/FAQ Monit FAQ], [http://mmonit.com/wiki/Monit/ConfigurationExamples Configuration examples]
+** ensure MySQL server are accessible on app*, project*, blog*, piwik* VM types
+** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
+** ensure [ssh, salt-minion] are always running on every nodes
+** ensure alert email is configured depending of environment
+** ensure disk usage alerts are in place
+
+* Improve system stats:
+** '''Purpose''': Get system health data as graph, over time 
+** Set in place statsd, fluentd, monit and other system health graph tools
+** Graphana to get system metrics
+** Attempt to merge data from ganglia into Graphana so we do not lose previous data
+
+* Centralized logging:
+** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
+** LogStash to process logs
+** Log rotation, and create archive files every year to prevent disk filling
 * Docker VM type:
 ** To host Discourse, and other things TBD such as preparing web app archives
 
@@ -222,7 +226,6 @@ What should be done once the previous requisites are met.
 ** Config points automatically to database IP
 
 * NGINX:
-** Make sure that every vhosts has [http://stackoverflow.com/questions/7796237/custom-bad-gateway-page-with-nginx appropriate 5xx error page]
 ** Move all web apps that can run properly under HHVM/php-fpm, NGINX as the frontend
 ** Serve as frontend to counter-balance apache2’s mod-prefork and older PHP code memory issues
 
