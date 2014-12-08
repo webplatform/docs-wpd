@@ -203,8 +203,9 @@ What should be done once the previous requisites are met.
 ** ensure MySQL server are accessible on app*, project*, blog*, piwik* VM types
 ** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
 ** ensure [ssh, salt-minion] are always running on every nodes
-** ensure alert email is configured depending of environment
+** ensure alert email config and destination is configured depending of staging/production
 ** ensure disk usage alerts are in place
+** ensure resolv.conf works
 
 * Improve system stats:
 ** '''Purpose''': Get system health data as graph, over time 
