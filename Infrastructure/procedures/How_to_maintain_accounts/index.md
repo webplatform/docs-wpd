@@ -4,7 +4,7 @@ Here are a few commands we can do to check what’s happening in the accounts sy
 
 == Database queries ==
 
-=== Is a user activated? ==
+=== Is a user activated? ===
 
   SELECT HEX(uid),HEX(emailCode),email,fullName FROM accounts WHERE emailVerified = 0 AND email LIKE '%@w3.org%';
 
