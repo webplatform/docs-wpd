@@ -44,7 +44,6 @@ Please read the [[WPD:Pillars|Pillars]] document for our overall guiding princip
 * [[WPD:Community/Community Events|Community Events]]
 * [[WPD:Community/Contributor Recognition|Contributor Recognition]]
 * [[WPD:Community/Meetings|Meetings]]
-* [[WPD:Community/Social Profile|Social Profile]]
 * [[WPD:Community/Survey|Survey]]
 * [[WPD:Community/Task_Force|Task Forces]]
 
