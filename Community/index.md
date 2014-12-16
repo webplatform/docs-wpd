@@ -14,6 +14,7 @@ I want to remove some of the things that are listed below that are no longer act
 The WebPlatform.org online community uses IRC and mailing lists extensively. Connect to the WebPlatform channel with an IRC client using these settings
 * Server: Freenode (irc.freenode.net)
 * Channel: #webplatform
+* [http://www.webplatform.org/talk/chatlogs IRC Channel log viewer]
 
 [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions] or [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients|use an irc client]]. Log in to the IRC channel during scheduled [[WPD:Community/Meetings| meetings]] or anytime you want to share ideas or ask questions.
 
