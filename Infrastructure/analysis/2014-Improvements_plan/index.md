@@ -10,7 +10,8 @@ The goal of this sprint is to have a separation between ''development'' (e.g. a 
 
 === Expected outcome ===
 
-* Before deploying to production, every components MUST be running fine on ''webplatformSTAGING.org''
+* Have a COMPLETELY INDEPENDENT set of Virtual Machines to serve the FULL public facing webplatform.org components (i.e. blog, docs, project.webplatform.org)
+* Before deploying to production, every components MUST be running fine on ''webplatformSTAGING.org'' (a.k.a. "'''staging'''")
 * Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)
 * Self-contained environment at every level; e.g, ''staging'' MUST NOT use any resources from ''production''
 * Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformSTAGING.org''' (staging).
