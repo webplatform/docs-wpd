@@ -176,6 +176,10 @@ What’s missing to complete this sprint to have something better than what we h
 * Automatic deployment:
 ** '''Purpose''': Ease to have contributors to see their work online
 ** Create typical deployment package (i.e. commands to run to get all dependencies, make a zip file, unpack on every servers)
+** Homepage, see: [http://project.webplatform.org/infrastructure/issues/99 Story 99; Automating deployment of Home page]
+** Project, see: [http://project.webplatform.org/infrastructure/issues/81 Story 81; Automating deployment of Project Management tool] (postpone?)
+** Wiki, see: [http://project.webplatform.org/infrastructure/issues/79 Story 79; Automating deployment of Wiki]
+** Blog, see: [http://project.webplatform.org/infrastructure/issues/80 Story 80; Automating deployment of Blog]
 
 * Un hardcode deployment level (e.g. "staging"):
 ** '''Purpose:''' Make X service to rely on local VM type instance instead of an hardcoded setting pointing to production:
