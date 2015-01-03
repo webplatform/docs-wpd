@@ -36,7 +36,7 @@ Note: If you are new to using IRC, check out this [http://richard.esplins.org/si
 
 ===IRC Channel logs===
 
-We have a bot who takes care of logging the conversations and they are available at [http://www.webplatform.org/talk/chatlogs/ '''Chatlogs'''].
+We have a bot who takes care of logging the conversations and they are available at [http://www.webplatform.org/talk/chatlogs/ '''www.webplatform.org/talk/chatlogs'''].
 
 
 ==Join the public-webplatform@w3.org mailing list==
