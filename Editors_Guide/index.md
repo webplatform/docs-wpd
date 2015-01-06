@@ -1,1 +1,1 @@
-#REDIRECT [[Meta:Contributors Guide]]
+#REDIRECT [[WPD:Contributors_Guide]]
