@@ -24,6 +24,6 @@ This page is an informal list of key contributors. Anyone who's made more than a
 |-
 | David Kirstein || [[User:Frozenice|Frozenice]] || frozenice@frozenice.de || fr0zenice || [http://batix.de Batix] || Template Corps Member || volunteer backend/frontend admin, tell me if something breaks!
 |-
-| [https://renoirboulanger.com/#is RenoirBoulanger.com] || [[User:Renoirb]] || renoir@w3.org || renoirb || [http://w3.org/ W3C] || W3C Team member, Web developer and Operations engineer, volunteers whenever possible || Works full time on WebPlatform.org since Aug. 2013
+| [https://renoirboulanger.com/#is RenoirBoulanger.com] || [[User:Renoirb]] || renoir@w3.org || renoirb || [http://w3.org/ W3C] || W3C Team member, Assigned to work full time WebPlatform.org as Developer and Operations engineer || Contributes since Aug. 2013, volunteers whenever possible
 |-
 | Agustín Alvia || [[User:Agustin|Agustin]] || --|| -- ||  || --||
