@@ -23,6 +23,8 @@ This page is an informal list of key contributors. Anyone who's made more than a
 | Scott Rowe || [[User:Scottrowe|Scottrowe]] || scottrowe@google.com || scottrowe || [http://www.google.com/ Google] || Contributor || Content, content, content.
 |-
 | David Kirstein || [[User:Frozenice|Frozenice]] || frozenice@frozenice.de || fr0zenice || [http://batix.de Batix] || Template Corps Member || volunteer backend/frontend admin, tell me if something breaks!
+|-
+| Renoir Boulanger || [[User:Renoirb|Frozenice]] || renoir@w3.org || renoirb || [https://renoirboulanger.com/#is RenoirBoulanger.com] || W3C Team member, Developer and Operations engineer || Works full time on WebPlatform.org since Aug. 2013
 
 |-
 | Agustín Alvia || [[User:Agustin|Agustin]] || --|| -- ||  || --||
