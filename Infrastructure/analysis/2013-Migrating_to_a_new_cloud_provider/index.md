@@ -10,8 +10,6 @@ If you are searching for detailed technical requirements, they are [[WPD:Infrast
 __TOC__
 
 == Phases ==
-Broken down into phases... is this what u do
-
 
 === Phase 0: Prepare upcoming migration ===
 
