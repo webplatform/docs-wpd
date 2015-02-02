@@ -16,6 +16,7 @@ Currently, only registered account holders can view pages on the wiki.
 * [[Special:UserLogin|UserLogin]] allows ''bureaucrats'' to create accounts
 * [[Special:RequestAccount|Request Account]] allows users to ask for an account
 * [[Special:ConfirmAccounts|Confirm Accounts]] allows ''bureaucrats'' to approve requested accounts
+* [[WPD:Admin/Autoconfirm|Autoconfirm]] allows Admins to override spam controls for known users
 
 ==Content Management==
 * [[Special:ReplaceText]] allows admins to search and replace across multiple pages on the wiki using regular expressions. See [http://www.mediawiki.org/wiki/Extension:Replace_Text#Usage usage instructions] for more details.
