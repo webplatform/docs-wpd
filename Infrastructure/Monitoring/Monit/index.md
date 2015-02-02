@@ -5,8 +5,8 @@
 Monit is a server monitoring system that ensures that their services are running or enforce them to run. 
 
 Monit has two components:
-* **monit**, an open-source agent with internal reporting
-* **M/Monit**, a paid software that *monit* can push updates to
+* '''monit''', an open-source agent with internal reporting
+* '''M/Monit''', a paid software that ''monit'' can push updates to
 
 === How does it look like ===
 Here are screenshots of how the reporting looks like on our infrastructure
