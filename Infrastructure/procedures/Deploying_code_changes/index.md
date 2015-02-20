@@ -71,7 +71,6 @@ It's possible to test changes on docs.webplatform.org/test prior to deploying th
 # The MediaWiki configuration is shared between test and wiki in Settings.php. Both test and wiki have exclusive configuration files as well. If you wish to add settings or extensions to test, you should edit TestSettings.php. Ensure you move your changes from TestSettings.php to Settings.php when done testing.
 
 Best practice is to deploy the changes to test and test them out before deploying them to wiki.
--->
 
 == Adding a new code base ==
 
@@ -133,6 +132,8 @@ To deploy:
 Such as 
 
  sudo salt-run deploy.run code.nonshared
+
+-->
 
 
 
