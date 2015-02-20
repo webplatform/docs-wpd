@@ -13,7 +13,7 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 == Level ==
 
-level by a setting in <code>/etc/salt/grains</code> at boot time.
+level by a setting in <code>/etc/salt/grains</code> at the time we create the VM.
 
 
 == Deploy ==
