@@ -93,10 +93,6 @@ While its not the case at the moment, the objective behind the the role name "ma
 * '''What does it do?''':
 ** "Meta" role, other configuration could use it as an indice to know which one is the entry point
 
-=== Also related ===
-
-* [https://gist.github.com/WebPlatformDocs/780307ff289864ba02f5#file-salt-master-conf Salt Master Monit config]
-
 
 == db ==
 
@@ -115,7 +111,6 @@ As of when this document was written, it’s a known fact that while we do have 
 === Also related ===
 * [https://renoirboulanger.com/blog/2015/01/create-mariadb-cluster-replication-ssl-salt-stack Create a MariaDB cluster with replication over SSL] has been written to describe how to create a VM
 * [[WPD:Infrastructure/procedures/Managing_MySQL_replication]]
-* [https://gist.github.com/WebPlatformDocs/780307ff289864ba02f5#file-salt-master-conf Salt Master Monit config]
 
 === Design decisions ===
 * We do not forbid database writes on ANY db server and that even though we may have one VM with the role masterdb because we want to be able to quickly change master.
@@ -166,6 +161,9 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have a DNS reverse lookup''':
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
+
+=== Design decisions ===
+* [https://github.com/webplatform/ops/issues/115 webplatform/ops#115]: While at the moment we do expose an HTTP server through NGINX to the public, this VM will be eventually not visible. It is planned that we get the IP address it uses to make a new set of hostnames and create a "round robin" (i.e. a DNS name that has more than one IP address) and create a NGINX frontend proxy. This new proxy would serve content from internal backends to the public without exposing 
 
 == memcache ==
 
