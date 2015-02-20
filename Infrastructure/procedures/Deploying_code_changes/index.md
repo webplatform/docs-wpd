@@ -31,7 +31,7 @@ To update a webapp, run the following commands. Salt will know which VM has to g
 
 === Screenshot ===
 
-[[File:screenshot-wpd-deploy-project-run.png|300px]]
+[[File:screenshot-wpd-deploy-project-run.png]]
 
 <!-- TO BE UPDATED
 # cd /srv/code/www
