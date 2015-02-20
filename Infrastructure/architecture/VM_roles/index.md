@@ -4,6 +4,8 @@ In order to have a fully functional site we need to have at least one VM for eac
 
 The following list is in order of importance based on the fact that the ones below would generally rely on the ones over them; 
 
+
+
 == source ==
 
 This VM is used to mirror every dependencies we are using. While most of the repositories are open to the public, some of them aren’t.
@@ -34,6 +36,10 @@ Before the infrastructure rework sprint of January 2015, the salt master was the
 ** ''SSH jump box'': SSH Access to every VM is made through that VM. A banner on login gives the current environment 'level', and ssh configuration to use
 ** ''rsync'' (through an 'xinetd' service), each VM can pull files from it. Including backups
 
+=== Also related ===
+
+* [https://gist.github.com/WebPlatformDocs/01c09df78f05612c281f Gist containing every essential bootstrap script]. Note that our salt states stores the same files in ''_utils'' the Gist here should only be a canonical version.
+
 === How to use ===
 
 To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privilegied reports such as service health and usage reports.  
@@ -46,9 +52,11 @@ To view the internal only reports, configure one of your web browser to use your
 * ''Email reports'': ''http://mail/cgi-bin/mailgraph.cgi'', only on ''mail'' VMs using [http://mailgraph.schweikert.ch/ ''Mailgraph'']
 * ''Monit VM dashboard view'': ''http://admin:password@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
 
+
+
 == mail ==
 
-Every VMs has ''exim4'' configured to send mail to the VM that has the "mail"" role.
+Every VMs has ''exim4'' configured to send mail to the VM that has the "mail" role.
 
 According to email server management best practices, it would be better to have two. Having only one is OK.
 
@@ -59,7 +67,7 @@ According to email server management best practices, it would be better to have 
 * '''Must it have a DNS reverse lookup''':
 ** ''mail.webplatform.org''
 ** ''mail2.webplatform.org''
-** ''mail.webplatformstaging''
+** ''mail.webplatformstaging.org''
 ** ''mail2.webplatformstaging.org''
 * '''Must it have publicly opened ports?''':
 ** 25 (ensure Postfix only authorizes our machines to relay email!!)
@@ -67,6 +75,8 @@ According to email server management best practices, it would be better to have 
 ** SMTP relay (using Postfix) to the outside world
 ** OpenDKIM to sign emails before sending them
 ** Mailgraph
+
+
 
 == masterdb ==
 
@@ -82,6 +92,8 @@ While its not the case at the moment, the objective behind the the role name "ma
 * '''Must it have publicly opened ports?''': No
 * '''What does it do?''':
 ** "Meta" role, other configuration could use it as an indice to know which one is the entry point
+
+
 
 == db ==
 
