@@ -2,31 +2,32 @@
 
 Each VM has code and configuration deployed to them depending on the <code>role</code> and <code>level</code> (e.g. ''production'') its been assigned to it.
 
-In order to have a functional site, we need to have at least one VM filling each roles described in [[#Required roles]]
+In order to have a functional site, we need to have at least one VM filling each roles described in [[WPD:Infrastructure/architecture/VM_roles]]
 
 == Roles ==
 
-The roles of a VM is defined by its name, more than one role can be assigned on a single VM. This page will give the recommended  
+The roles of a VM is defined by its name, more than one role can be assigned on a single VM.
+
+Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy [[#Roles that runs web apps]].
+
 
 == Level ==
 
 level by a setting in <code>/etc/salt/grains</code> at boot time.
 
 
+== Deploy ==
 
-== Summary ==
+To update a web app code, run:
 
+;app:<code>wpd-deploy app</code> <nowiki>[''/srv/code/www/repo'', ''/srv/code/compat/repo'', ''/srv/code/dabblet/repo'', ''/srv/code/wiki/repo'']</nowiki>
+;blog:<code>wpd-deploy blog</code> <nowiki>[''/srv/code/blog/repo'']</nowiki>
+;notes:<code>wpd-deploy notes</code><nowiki>[''/srv/code/notes-server/repo'']</nowiki>
+;piwik:<code>wpd-deploy piwik</code><nowiki>[''/srv/code/piwik/repo'']</nowiki>
+;project:<code>wpd-deploy project</code><nowiki>[''/srv/code/buggenie/repo'']</nowiki>
+;accounts:<code>wpd-deploy accounts</code>
 
-
-;code.root: /srv/code/root - the document root.
-;code.docs_nextgen: /srv/code/docs/nextgen/mediawiki - the version of MediaWiki that runs the site
-;code.nonshared: /srv/code/nonshared - static content that is specific to domains.
-;code.piwik: /srv/code/piwik - the location of the site metrics software.
-;code.qwebirc: /srv/code/qwebirc - the location of the IRC browser client software.
-;code.blog: /srv/code/blog/current - the location of the wordpress software.
-;code.talk: /srv/code/talk/forums/current - the location of questions2answers software.
-
-Each code base is stored in the salt repository on the deployment VM (''deployment.webplatform.org'') in a dedicated folder within ''/srv/code''.
+Each code role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code''. 
 
 <!-- TO BE UPDATED
 # cd /srv/code/www
@@ -135,7 +136,7 @@ Such as
 
 
 
-== Required roles ==
+== Roles that runs web apps ==
 
 Web apps would run on VMs that has the following roles:
 
