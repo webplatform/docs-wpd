@@ -2,6 +2,8 @@
 
 Each VM has code and configuration deployed to them depending on the <code>role</code> and <code>level</code> (e.g. ''production'') its been assigned to it.
 
+In order to have a functional site, we need to have at least one VM filling each roles described in [[#Required roles]]
+
 == Roles ==
 
 The roles of a VM is defined by its name, more than one role can be assigned on a single VM. This page will give the recommended  
@@ -11,19 +13,6 @@ The roles of a VM is defined by its name, more than one role can be assigned on 
 level by a setting in <code>/etc/salt/grains</code> at boot time.
 
 
-== Required VMs ==
-
-In order to have a fully functional site we need to have at least one VM for each of the following roles.
-
-* <code>sessions</code>
-* <code>app</code>
-* <code>blog</code>
-* <code>bots</code>
-* <code>db</code>
-* <code>memcache</code>
-* <code>project</code>
-* <code>notes</code>
-* <code>mail</code>
 
 == Summary ==
 
@@ -143,3 +132,18 @@ To deploy:
 Such as 
 
  sudo salt-run deploy.run code.nonshared
+
+
+
+== Required roles ==
+
+Web apps would run on VMs that has the following roles:
+
+;'''app''': wiki, homepage, chatlogs viewer, compatibility tables data, dabblet
+;'''piwik''': piwik
+;'''notes''': hypothesis
+;'''project''': project
+;'''blog''': blog
+;'''accounts''': Accounts sytem
+
+To get a full detail of what tasks each roles fills, refer to [[WPD:Infrastructure/architecture/VM_roles]].
