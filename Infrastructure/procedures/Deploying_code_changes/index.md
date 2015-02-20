@@ -18,16 +18,17 @@ level by a setting in <code>/etc/salt/grains</code> at boot time.
 
 == Deploy ==
 
+Each role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. Note that ''wpd-deploy foo'' '''ISN’T LIMITED''' to the code in ''/srv/code'', always check the state state definition (e.g. ''/srv/salt/vm/foo.sls'' in this example).
+
 To update a web app code, run:
 
-;app:<code>wpd-deploy app</code> <nowiki>[''/srv/code/www/repo'', ''/srv/code/compat/repo'', ''/srv/code/dabblet/repo'', ''/srv/code/wiki/repo'']</nowiki>
-;blog:<code>wpd-deploy blog</code> <nowiki>[''/srv/code/blog/repo'']</nowiki>
-;notes:<code>wpd-deploy notes</code><nowiki>[''/srv/code/notes-server/repo'']</nowiki>
-;piwik:<code>wpd-deploy piwik</code><nowiki>[''/srv/code/piwik/repo'']</nowiki>
-;project:<code>wpd-deploy project</code><nowiki>[''/srv/code/buggenie/repo'']</nowiki>
+;app:<code>wpd-deploy app</code>&nbsp;&nbsp;<nowiki>[''/srv/code/www/repo'', ''/srv/code/compat/repo'', ''/srv/code/dabblet/repo'', ''/srv/code/wiki/repo'']</nowiki>
+;blog:<code>wpd-deploy blog</code>&nbsp;&nbsp;<nowiki>[''/srv/code/blog/repo'']</nowiki>
+;notes:<code>wpd-deploy notes</code>&nbsp;&nbsp;<nowiki>[''/srv/code/notes-server/repo'']</nowiki>
+;piwik:<code>wpd-deploy piwik</code>&nbsp;&nbsp;<nowiki>[''/srv/code/piwik/repo'']</nowiki>
+;project:<code>wpd-deploy project</code>&nbsp;&nbsp;<nowiki>[''/srv/code/buggenie/repo'']</nowiki>
 ;accounts:<code>wpd-deploy accounts</code>
 
-Each code role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/$roleName/repo'' (e.g. ''/srv/code/blog/repo''). 
 
 <!-- TO BE UPDATED
 # cd /srv/code/www
