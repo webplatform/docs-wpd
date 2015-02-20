@@ -27,7 +27,7 @@ To update a web app code, run:
 ;project:<code>wpd-deploy project</code><nowiki>[''/srv/code/buggenie/repo'']</nowiki>
 ;accounts:<code>wpd-deploy accounts</code>
 
-Each code role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code''. 
+Each code role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/$roleName/repo'' (e.g. ''/srv/code/blog/repo''). 
 
 <!-- TO BE UPDATED
 # cd /srv/code/www
