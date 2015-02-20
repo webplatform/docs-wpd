@@ -1,11 +1,33 @@
-= Deploying code bases =
+= Deploying code =
 
-The site is using various softwares, each of them are synced from the deployment server to their dedicated VMs.
+Each VM has code and configuration deployed to them depending on the <code>role</code> and <code>level</code> (e.g. ''production'') its been assigned to it.
 
+== Roles ==
+
+The roles of a VM is defined by its name, more than one role can be assigned on a single VM. This page will give the recommended  
+
+== Level ==
+
+level by a setting in <code>/etc/salt/grains</code> at boot time.
+
+
+== Required VMs ==
+
+In order to have a fully functional site we need to have at least one VM for each of the following roles.
+
+* <code>sessions</code>
+* <code>app</code>
+* <code>blog</code>
+* <code>bots</code>
+* <code>db</code>
+* <code>memcache</code>
+* <code>project</code>
+* <code>notes</code>
+* <code>mail</code>
 
 == Summary ==
 
-There's four current code bases, run via '''sudo salt-run deploy.run <codebase>''':
+
 
 ;code.root: /srv/code/root - the document root.
 ;code.docs_nextgen: /srv/code/docs/nextgen/mediawiki - the version of MediaWiki that runs the site
