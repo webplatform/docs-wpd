@@ -20,7 +20,7 @@ level by a setting in <code>/etc/salt/grains</code> at boot time.
 
 Each role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. Note that ''wpd-deploy foo'' '''ISN’T LIMITED''' to the code in ''/srv/code'', always check the state state definition (e.g. ''/srv/salt/vm/foo.sls'' in this example).
 
-To update a web app code, run:
+To update a webapp, run the following commands. Salt will know which VM has to get the code:
 
 ;app:<code>wpd-deploy app</code>&nbsp;&nbsp;<nowiki>[''/srv/code/www/repo'', ''/srv/code/compat/repo'', ''/srv/code/dabblet/repo'', ''/srv/code/wiki/repo'']</nowiki>
 ;blog:<code>wpd-deploy blog</code>&nbsp;&nbsp;<nowiki>[''/srv/code/blog/repo'']</nowiki>
