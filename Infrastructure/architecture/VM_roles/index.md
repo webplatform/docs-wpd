@@ -24,9 +24,9 @@ Note that although we could have a staging ''source'' VM (i.e. ''source.webplatf
 Before the infrastructure rework sprint of January 2015, the salt master was the only VM that must not be deleted. Since then its possible to create a fresh VM and apply a set of scripts to have a new master. The procedure to create a salt master is in [[WPD:Infrastructure/architecture/The_salt_master]].
 
 * '''How many required''': Only one
-* '''Must it have a public IP address?'': yes
-* '''Expected public hostname'': salt.webplatform.org
-* '''Must it have a Volume''': ''yes''  (to store the backups and other work files)
+* '''Must it have a public IP address?''': yes
+* '''Expected public hostname''': salt.webplatform.org
+* '''Must it have a Volume''': yes  (to store the backups and other work files)
 * '''Must it have a DNS reverse lookup''': No
 * '''What does it do?''':
 ** ''DNS server'' (using 'gdnsd'), every other VM has ''/etc/resolv.conf'' pointing to the salt master
@@ -81,7 +81,7 @@ While its not the case at the moment, the objective behind the the role name "ma
 * '''Must it have a DNS reverse lookup''': No
 * '''Must it have publicly opened ports?''': No
 * '''What does it do?''':
-* Meta role, other configuration could use it as an indice to know which one is the entry point
+** "Meta" role, other configuration could use it as an indice to know which one is the entry point
 
 == db ==
 
@@ -95,12 +95,12 @@ As of when this document was written, it’s a known fact that while we do have 
 * '''Must it have a DNS reverse lookup''': No
 * '''Must it have publicly opened ports?''': No
 * '''What does it do?''':
-* MariaDB server
-* MariaDB replication (when applicable)
+** MariaDB server
+** MariaDB replication (when applicable)
 
-=== Procedures ===
+=== Also related ===
 * [https://renoirboulanger.com/blog/2015/01/create-mariadb-cluster-replication-ssl-salt-stack Create a MariaDB cluster with replication over SSL] has been written to describe how to create a VM
-
+* [[WPD:Infrastructure/procedures/Managing_MySQL_replication|Managing MySQL replication]]
 
 == sessions ==
 
