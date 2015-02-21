@@ -1,3 +1,4 @@
+{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 = Roles and environment level =
 
 Each VM has code and configuration deployed to them depending on two factors; ''role'' and environment ''level''. 
@@ -6,8 +7,6 @@ Each VM has code and configuration deployed to them depending on two factors; ''
 ;level: will ensure deployment specific details (e.g. passwords, keys, SSL certificates, top level domain name, etc) are applied.
 
 This document describes how we define what configuration and code will be applied on a given VM.
-
-{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 
 == Roles ==
 
