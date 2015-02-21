@@ -1,19 +1,52 @@
 = Deploying code =
 
-Each VM has code and configuration deployed to them depending on the <code>role</code> and <code>level</code> (e.g. ''production'') its been assigned to it.
+Each VM has code and configuration deployed to them depending on two factors; ''role'' and environment ''level''. 
 
-In order to have a functional site, we need to have at least one VM filling each roles described in [[WPD:Infrastructure/architecture/VM_roles]]
+;role: defines what gets deployed (e.g. service package, web application, etc).
+;level: will ensure deployment specific details (e.g. passwords, keys, SSL certificates, top level domain name, etc) are applied.
+
+To have a functional deployment, there has to be at least a number of vital VMs. Those requirements are described in [[WPD:Infrastructure/architecture/VM_roles]].
+
 
 == Roles ==
 
-The roles of a VM is defined by its name, more than one role can be assigned on a single VM.
+The roles of a VM is defined by its name, more than one role can be assigned on a single VM. 
+
+What applies roles is defined in <code>/srv/salt/vm/rolename.sls</code>.
 
 Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy [[#Roles that runs web apps]].
 
+For an example of a VM with two roles that doesn’t deploy a web application you can look at a the combo "'''db5-masterdb'''" would have both role of database server ("''db''", in <code>/srv/salt/vm/db.sls</code>) and the web apps should use that particular VM private IP address to use as main database server ("''masterdb''", in <code>/srv/salt/vm/masterdb.sls</code>).  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
 == Level ==
 
-level by a setting in <code>/etc/salt/grains</code> at the time we create the VM.
+The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
+
+== Booting a VM ==
+
+To boot a VM, its better to use the salt master and issue a command that looks like this:
+
+  nova boot --image Ubuntu-14.04-Trusty --user-data /srv/opsconfigs/userdata.txt --key_name renoirb-staging --flavor lightspeed --security-groups default,frontend app1
+
+The previous command assumes that DreamCompute dashboard has some of your own SSH public keys. Normally I recommend that it has two keys, one per deployment level. 
+
+''ProTip'': I prefer to use salt master hosted SSH keys with passphrase in DreamCompute, in the end of ''highstate'', the new VM will have my personal SSH public key installed anyway. Sending a local workstation public SSH key to a VM that would not get public Internet access before having run ''highstate'' is kinda useless if I need to SSH to it.
+
+Here is what I normally do to boot a VM:
+
+  salt-key -y -a app1
+  salt app1 pkg.upgrade
+  salt app1 grains.get level
+  salt app1 state.highstate
+
+The four previous commands do things I want to do manually just before configuring other components to use the new VM I just created;
+
+# add the new VM to the salt master
+# ensure packages are to the latest version
+# check the value of ''level'' grain to confirm it has the level I expect
+# run ''state.highstate'', and go get some water (it takes some time to run)
+
+'''Remember''' most important commands are already described in the salt master in <code>/srv/salt/README.md</code>.
 
 
 == Deploy ==
