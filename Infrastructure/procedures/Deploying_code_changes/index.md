@@ -3,6 +3,10 @@
 
 This document is a short summary on how to boot a VM and deploy web apps to run on them.
 
+At the beginning, webplatform.org infrastructure was deploying code based on ''rsync'' from the salt master. This is going to change.
+
+The process of deploying is going to change into something that will allow us to ensure that we can revert to the same state the web app was built from without any risks of broken external dependencies. [https://github.com/webplatform/ops/issues?milestone=1 see the project ''webplatform/ops' milestone''] that has this objective.
+
 == Booting a VM ==
 
 To boot a VM, its better to use the salt master and issue a command that looks like this:
