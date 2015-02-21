@@ -1,10 +1,11 @@
+<noinclude>
 = Architecture =
 Documents describing current infrastructure details, design decisions and how to maintain
 
 = Contents =
 <splist />
-
-<onlyinclude>
+<noinclude>
+<includeonly>
 <div style="float:right;width:50%;word-wrap:break-word;clear:both;">
 === Infrastructure architecture sub navigation ===
 
@@ -13,4 +14,4 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/architecture/VM_roles|VM Roles and their definitions]].
 * [[WPD:Infrastructure/architecture/The_salt_master|The salt master]]
 </div>
-</onlyinclude>
+</includeonly>
