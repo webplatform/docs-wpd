@@ -1,4 +1,4 @@
-{{:WPD:Infrastructure/architecture/Architecture_submenu}}
+{{:WPD:Infrastructure/architecture}}
 = VM Roles =
 
 In order to have a fully functional site we need to have at least one VM for each of the following roles. Some VMs can fill more than one role.
