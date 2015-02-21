@@ -96,6 +96,8 @@ To update a webapp, run the following commands. Salt will know which VM has to g
 ;project:<code>wpd-deploy project</code>&nbsp;&nbsp;<nowiki>[''/srv/code/buggenie/repo'']</nowiki>
 ;accounts:<code>wpd-deploy accounts</code>
 
+The detail of what each roles does is described in [[WPD:Infrastructure/architecture/VM_roles]].
+
 === Screenshot ===
 
 [[File:screenshot-wpd-deploy-project-run.png]]
@@ -205,18 +207,3 @@ Such as
  sudo salt-run deploy.run code.nonshared
 
 -->
-
-
-
-== Roles that runs web apps ==
-
-Web apps would run on VMs that has the following roles:
-
-;'''app''': wiki, homepage, chatlog viewer, compatibility tables data, dabblet
-;'''piwik''': piwik
-;'''notes''': hypothesis
-;'''project''': project
-;'''blog''': blog
-;'''accounts''': Accounts sytem
-
-To get a full detail of what tasks each roles fills, refer to [[WPD:Infrastructure/architecture/VM_roles]].
