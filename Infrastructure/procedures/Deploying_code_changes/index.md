@@ -57,7 +57,7 @@ Which is basically what the following command do;
 The latter is an alias for the comfort of everyday use and can be done without being root.
 
 
-== Deploy ==
+== Deploying/updating a web app ==
 
 Each role name states are defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. 
 
