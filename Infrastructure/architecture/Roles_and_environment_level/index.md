@@ -7,10 +7,7 @@ Each VM has code and configuration deployed to them depending on two factors; ''
 
 This document describes how we define what configuration and code will be applied on a given VM.
 
-=== See also ===
-
-* '''How to deploy web applications''', go to [[WPD:Infrastructure/procedures/Deploying_code_changes]].
-* '''Role specific deployment definitions''', go to [[WPD:Infrastructure/architecture/VM_roles]].
+{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 
 == Roles ==
 
