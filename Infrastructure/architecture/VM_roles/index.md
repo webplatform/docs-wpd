@@ -2,7 +2,7 @@
 
 In order to have a fully functional site we need to have at least one VM for each of the following roles. Some VMs can fill more than one role.
 
-The following list is in order of importance based on the fact that the ones below would generally rely on the ones over them; 
+The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them'''; 
 
 
 
@@ -251,14 +251,3 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have a DNS reverse lookup''':
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
-
-
-== Which VM has which role? ==
-
-You can get to know which roles are assigned per VM by running the following command:
-
-    salt \* grains.get roles
-
-== A sample cluster ==
-
-The following is a set of VMs showing the roles they are filling.
