@@ -2,8 +2,9 @@
 
 In order to have a fully functional site we need to have at least one VM for each of the following roles. Some VMs can fill more than one role.
 
-The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them'''; 
+'''NOTE''' Details on how roles are defined is covered in [[WPD:Infrastructure/procedures/Deploying_code_changes]].
 
+The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them'''; 
 
 
 == source ==
