@@ -18,10 +18,31 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
+Getting the roles of a VM:
+
+  salt db\* grains.get roles
+  db1-masterdb:
+    - db
+    - masterdb
+  db2:
+    - db
+
+Updating packages only on VMs of a given role:
+
+  salt db\* pkg.upgrade
+
 
 == Level ==
 
 The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
+
+Getting the level that the VM knows it has would be done like this:
+
+  salt project grains.get level
+  project:
+    production
+
+''NOTE'' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
 
 
 == Booting a VM ==
