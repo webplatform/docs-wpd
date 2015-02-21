@@ -1,8 +1,7 @@
+{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 = Deploying code =
 
 This document is a short summary on how to boot a VM and deploy web apps to run on them.
-
-{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 
 == Booting a VM ==
 
