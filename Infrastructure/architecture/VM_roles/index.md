@@ -254,3 +254,47 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have a DNS reverse lookup''':
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
+
+
+== piwik ==
+
+* '''How many required''':
+* '''Must it have a public IP address?''':
+* '''Expected public hostname''':
+* '''Must it have a Volume''':
+* '''Must it have a DNS reverse lookup''':
+* '''Must it have publicly opened ports?''':
+* '''What does it do?''':
+
+
+== nginx ==
+
+* '''How many required''':
+* '''Must it have a public IP address?''':
+* '''Expected public hostname''':
+* '''Must it have a Volume''':
+* '''Must it have a DNS reverse lookup''':
+* '''Must it have publicly opened ports?''':
+* '''What does it do?''':
+
+
+== specs ==
+
+* '''How many required''':
+* '''Must it have a public IP address?''':
+* '''Expected public hostname''':
+* '''Must it have a Volume''':
+* '''Must it have a DNS reverse lookup''':
+* '''Must it have publicly opened ports?''':
+* '''What does it do?''':
+
+
+== hhvmbackend ==
+
+* '''How many required''':
+* '''Must it have a public IP address?''':
+* '''Expected public hostname''':
+* '''Must it have a Volume''':
+* '''Must it have a DNS reverse lookup''':
+* '''Must it have publicly opened ports?''':
+* '''What does it do?''':
