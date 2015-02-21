@@ -1,4 +1,4 @@
-{{:WPD:Infrastructure/architecture/Architecture_submenu}}
+{{:WPD:Infrastructure/architecture}}
 = Roles and environment level =
 
 Each VM has code and configuration deployed to them depending on two factors; ''role'' and environment ''level''. 
