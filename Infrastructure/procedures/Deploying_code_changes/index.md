@@ -2,12 +2,7 @@
 
 This document is a short summary on how to boot a VM and deploy web apps to run on them.
 
-This document illustrate how to update a given ''web application''. 
-
-=== See also ===
-
-* '''How we define what configuration and code will be applied''', go to [[WPD:Infrastructure/architecture/Roles_and_environment_level]].
-* '''Role specific deployment definitions''', go to [[WPD:Infrastructure/architecture/VM_roles]].
+{{:WPD:Infrastructure/architecture/Architecture_submenu}}
 
 == Booting a VM ==
 
