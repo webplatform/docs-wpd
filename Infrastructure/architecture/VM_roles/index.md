@@ -82,9 +82,7 @@ According to email server management best practices, it would be better to have 
 
 There must only one that has both ''db'' AND ''masterdb'' (e.g. '''db1-masterdb'''). Note that the number isn’t important, just that by convention the lower number is the one we use as a master to send writes to. 
 
-While its not the case at the moment, the objective behind the the role name "master" was to have a way to recognize which should be considered as an entry point within a cluster (e.g. elasticsearch, postgresql, mail).
-
-* '''How many required''': One or more
+* '''How many required''': One
 * '''Must it have a public IP address?''': N/A
 * '''Expected public hostname''': N/A
 * '''Must it have a Volume''': yes (not vital, very useful in need of recovery)
@@ -93,10 +91,13 @@ While its not the case at the moment, the objective behind the the role name "ma
 * '''What does it do?''':
 ** "Meta" role, other configuration could use it as an indice to know which one is the entry point
 
+=== Design decisions ===
+* While its not the case at the moment, the objective behind the the role name "master" was to have a way to recognize which should be considered as an entry point within a cluster (e.g. elasticsearch, postgresql, mail). The name "masterdb" could be renamed "master" and the states configuration should be adjusted to allow other services to use this pattern.
+
 
 == db ==
 
-As of when this document was written, it’s a known fact that while we do have two database servers, only one is used by all our web applications.  The other database server is only used as a hot backup with replication over SSL setup. All reads and writes are sent to the only VM that has both ''db'' and ''masterdb'' roles.
+The first database server we originally had was MySQL 5.1 and the VM had a name starting by ''db''. 
 
 * '''How many required''': One or more
 * '''Must it have a public IP address?''': No
@@ -105,7 +106,7 @@ As of when this document was written, it’s a known fact that while we do have 
 * '''Must it have a DNS reverse lookup''': No
 * '''Must it have publicly opened ports?''': No
 * '''What does it do?''':
-** MariaDB server
+** MariaDB server v 10.x
 ** MariaDB replication (when applicable)
 
 === Also related ===
@@ -113,6 +114,8 @@ As of when this document was written, it’s a known fact that while we do have 
 * [[WPD:Infrastructure/procedures/Managing_MySQL_replication]]
 
 === Design decisions ===
+* As of the time this was written, it’s a known fact that while we do have two database servers, only one is used by all our web applications.  The other database server is only used as a hot backup with replication over SSL setup. All reads and writes are sent to the only VM that has both ''db'' and ''masterdb'' roles.
+* The upcoming infrastructure changes would have to be more specific as we’ll also need to have a PostgreSQL cluster and we’ll have to create a different role name for the different vendor.
 * We do not forbid database writes on ANY db server and that even though we may have one VM with the role masterdb because we want to be able to quickly change master.
 * It is planned to use new replication features such as ones that we can send writes to any nodes and the replication will be made consistent everywhere. This has to be tested first though.
 
