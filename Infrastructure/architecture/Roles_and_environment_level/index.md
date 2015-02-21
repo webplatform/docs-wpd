@@ -1,0 +1,29 @@
+= Roles and environment level =
+
+Each VM has code and configuration deployed to them depending on two factors; ''role'' and environment ''level''. 
+
+;role: defines what gets deployed (e.g. service package, web application, etc).
+;level: will ensure deployment specific details (e.g. passwords, keys, SSL certificates, top level domain name, etc) are applied.
+
+This document describes how we define what configuration and code will be applied on a given VM.
+
+=== See also ===
+
+* '''How to deploy web applications''', go to [[WPD:Infrastructure/procedures/Deploying_code_changes]].
+* '''Role specific deployment definitions''', go to [[WPD:Infrastructure/architecture/VM_roles]].
+
+== Roles ==
+
+The roles of a VM is defined by its name, more than one role can be assigned on a single VM. 
+
+Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy [[#Roles that runs web apps]].
+
+For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
+
+== Level ==
+
+The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
+
+Getting the level that the VM knows it has would be done like this:
+
+''NOTE'' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
