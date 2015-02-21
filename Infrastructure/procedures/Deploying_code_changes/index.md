@@ -5,22 +5,24 @@ Each VM has code and configuration deployed to them depending on two factors; ''
 ;role: defines what gets deployed (e.g. service package, web application, etc).
 ;level: will ensure deployment specific details (e.g. passwords, keys, SSL certificates, top level domain name, etc) are applied.
 
-To have a functional deployment, there has to be at least a number of vital VMs. Those requirements are described in [[WPD:Infrastructure/architecture/VM_roles]].
+This documents illustrates how to update a given ''web application''. 
+
+Service specific code deployment are described along with the description of the minimum required VMs to be running in the [[WPD:Infrastructure/architecture/VM_roles]] page.
 
 
 == Roles ==
 
 The roles of a VM is defined by its name, more than one role can be assigned on a single VM. 
 
-What applies roles is defined in <code>/srv/salt/vm/rolename.sls</code>.
-
 Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy [[#Roles that runs web apps]].
 
-For an example of a VM with two roles that doesn’t deploy a web application you can look at a the combo "'''db5-masterdb'''" would have both role of database server ("''db''", in <code>/srv/salt/vm/db.sls</code>) and the web apps should use that particular VM private IP address to use as main database server ("''masterdb''", in <code>/srv/salt/vm/masterdb.sls</code>).  Another example would be a VM with the name "''notes''" which installs hypothesis.
+For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
+
 
 == Level ==
 
 The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
+
 
 == Booting a VM ==
 
