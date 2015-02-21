@@ -29,7 +29,13 @@ Getting the roles of a VM:
 
 Updating packages only on VMs of a given role:
 
-  salt db\* pkg.upgrade
+  salt app\* state.sls code
+
+Which is basically what the following command do;
+
+  wpd-deploy app
+
+The latter is an alias for the comfort of everyday use and can be done without being root.
 
 
 == Level ==
