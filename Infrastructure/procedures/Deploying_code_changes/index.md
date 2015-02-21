@@ -18,35 +18,11 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
-Getting the roles of a VM:
-
-  salt db\* grains.get roles
-  db1-masterdb:
-    - db
-    - masterdb
-  db2:
-    - db
-
-Updating packages only on VMs of a given role:
-
-  salt app\* state.sls code
-
-Which is basically what the following command do;
-
-  wpd-deploy app
-
-The latter is an alias for the comfort of everyday use and can be done without being root.
-
-
 == Level ==
 
 The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
 
 Getting the level that the VM knows it has would be done like this:
-
-  salt project grains.get level
-  project:
-    production
 
 ''NOTE'' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
 
@@ -64,23 +40,52 @@ The previous command assumes that DreamCompute dashboard has some of your own SS
 Here is what I normally do to boot a VM:
 
   salt-key -y -a app1
-  salt app1 pkg.upgrade
   salt app1 grains.get level
   salt app1 state.highstate
 
 The four previous commands do things I want to do manually just before configuring other components to use the new VM I just created;
 
 # add the new VM to the salt master
-# ensure packages are to the latest version
 # check the value of ''level'' grain to confirm it has the level I expect
 # run ''state.highstate'', and go get some water (it takes some time to run)
 
 '''Remember''' most important commands are already described in the salt master in <code>/srv/salt/README.md</code>.
 
+=== Typical commands ===
+
+You can get to know which level a VM is configured by running;
+
+  salt project grains.get level
+  project:
+    production
+
+To work with a VM, you can target actions based on their roles;
+
+Getting the roles of a VM:
+
+  salt db\* grains.get roles
+  db1-masterdb:
+    - db
+    - masterdb
+  db2:
+    - db
+
+Deploying code on VMs of a given role:
+
+  salt app\* state.sls code
+
+Which is basically what the following command do;
+
+  wpd-deploy app
+
+The latter is an alias for the comfort of everyday use and can be done without being root.
+
 
 == Deploy ==
 
-Each role name is defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. Note that ''wpd-deploy foo'' '''ISN’T LIMITED''' to the code in ''/srv/code'', always check the state state definition (e.g. ''/srv/salt/vm/foo.sls'' in this example).
+Each role name states are defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. 
+
+'''NOTE''' the command ''wpd-deploy foo'' '''ISN’T LIMITED''' to copying files from folders in ''/srv/code/foo/bar'', its also about ensuring that some configuration are applied.  Its prudent to double check what will happen always check the matching state (e.g.  ''wpd-deploy foo'') in the matching ''sls'' file (e.g. ''/srv/salt/vm/foo.sls'')
 
 To update a webapp, run the following commands. Salt will know which VM has to get the code:
 
@@ -207,7 +212,7 @@ Such as
 
 Web apps would run on VMs that has the following roles:
 
-;'''app''': wiki, homepage, chatlogs viewer, compatibility tables data, dabblet
+;'''app''': wiki, homepage, chatlog viewer, compatibility tables data, dabblet
 ;'''piwik''': piwik
 ;'''notes''': hypothesis
 ;'''project''': project
