@@ -3,9 +3,35 @@
 
 This document describes how to apply code changes on managed web applications that runs ''webplatform.org''.
 
-At the beginning, webplatform.org infrastructure was deploying code only through based on ''rsync'' from the salt master. This is going to change.
+The way we update code is handled from the salt master and apply changes where it applies.
 
 The process of deploying is going to change into something that will allow us to ensure that we can revert to the same state the web app was built from without any risks of broken external dependencies. [https://github.com/webplatform/ops/issues?milestone=1 see the project ''webplatform/ops'' milestone] that has this objective.
+
+
+== Procedure ==
+
+In order to have a consistent system, we handle everything from [[WPD:Infrastructure/architecture/The_salt_master]] and '''EVERYTHING''' ''is'' source controlled.
+
+We every aspect of the infrastructure from the salt master, such as; booting a new VM, installing a web application, updating packages, etc.
+
+The site runs with a set of VMs, their purpose is visible based on their name. The name of the VM can be seen as a list of roles separated by dashes, and with a numeric index. With some exceptions, ANY VM is built in a way so we can scale by adding more than one. The exceptions are: ''backup'', ''salt'' and ''masterdb''.
+
+A typical cluster would have the following VMs:
+
+* app1, app2, app3, app4-jobrunner
+* backup
+* blog
+* project
+* sessions1
+* memcache-alpha1
+* accounts
+* elastic
+* db1-masterdb, db2
+* notes
+* piwik
+* mail
+* redis-alpha1
+* salt
 
 == Booting a VM ==
 
@@ -15,21 +41,21 @@ To boot a VM, its better to use the salt master and issue a command that looks l
 
 The previous command assumes that DreamCompute dashboard has some of your own SSH public keys. Normally I recommend that it has two keys, one per deployment level. 
 
-''ProTip'': I prefer to use salt master hosted SSH keys with passphrase in DreamCompute, in the end of ''highstate'', the new VM will have my personal SSH public key installed anyway. Sending a local workstation public SSH key to a VM that would not get public Internet access before having run ''highstate'' is kinda useless if I need to SSH to it.
+'''Tip''': Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in '''/srv/private/pillars/sshkeys/'' on the salt master.
 
-Here is what I normally do to boot a VM:
+Now that a VM is booted, here’s how we initiate it;
 
   salt-key -y -a app1
   salt app1 grains.get level
   salt app1 state.highstate
 
-The four previous commands do things I want to do manually just before configuring other components to use the new VM I just created;
+The four previous commands do the following;
 
 # add the new VM to the salt master
-# check the value of ''level'' grain to confirm it has the level I expect
+# Its a sanity check to see what’s the value of ''level'' grain (e.g. staging, production) to confirm it has what we expect
 # run ''state.highstate'', and go get some water (it takes some time to run)
 
-'''Remember''' most important commands are already described in the salt master in <code>/srv/salt/README.md</code>.
+'''Tip''' most important commands are available in <code>/srv/salt/README.md</code> on the salt master.
 
 === Typical commands ===
 
@@ -49,6 +75,8 @@ Getting the roles of a VM:
     - masterdb
   db2:
     - db
+
+'''Note''' the number are only there to allow us to quickly differentiate them, you should see here that the role names doesn’t have numbers in them. 
 
 Deploying code on VMs of a given role:
 
