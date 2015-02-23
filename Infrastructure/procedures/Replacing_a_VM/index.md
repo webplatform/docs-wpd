@@ -9,7 +9,7 @@ Replacing a VM useful when we feel a VM has been compromised, or broken.  Since 
 
 == Procedure ==
 
-In this exercise we will replace a functioning app2 VM with a bigger one.
+In this exercise we will replace a app2 VM a bigger one.
 
 Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption.
 
