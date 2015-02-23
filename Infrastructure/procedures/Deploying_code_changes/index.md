@@ -3,7 +3,7 @@
 
 This document describes how to apply code changes on managed web applications that runs ''webplatform.org''.
 
-The way we update code is handled from the salt master and apply changes where it applies. To see the detail of what every VM has in common, refer to [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM|Base configuration of a VM]].
+The way we update code is handled from the salt master and apply changes where it applies. To see the detail of what every VM has in common, refer to [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]].
 
 The process of deploying is going to change into something that will allow us to ensure that we can revert to the same state the web app was built from without any risks of broken external dependencies. [https://github.com/webplatform/ops/issues?milestone=1 see the project ''webplatform/ops'' milestone] that has this objective.
 
@@ -12,7 +12,7 @@ The process of deploying is going to change into something that will allow us to
 
 This procedure will take into account that you have an existing set of VMs already installed  [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]] and managed by the [[WPD:Infrastructure/architecture/The_salt_master]].
 
-To learn how to replace a VM, refer to [[WPD:Infrastructure/procedures/Replacing_a_VM|'''Replacing a VM''' procedure]]
+To learn how to replace a VM, refer to [[WPD:Infrastructure/procedures/Replacing_a_VM]]
 
 === Typical commands ===
 
