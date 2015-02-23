@@ -1,3 +1,4 @@
+{{:WPD:Infrastructure/architecture}}
 = The Salt Master =
 
 [[WPD:Infrastructure/procedures/Deploying_code_changes|Deploying code changes on the site]] is made through a VM, named "salt" we refer to this machine as the "Salt Master" we generally connect through SSH at the name '''salt.webplatform.org'''.
