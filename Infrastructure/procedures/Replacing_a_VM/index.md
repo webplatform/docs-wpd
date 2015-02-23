@@ -10,10 +10,11 @@ Replacing a VM useful when we feel a VM has been compromised, or broken.  Since 
 
 == Introduction ==
 
-WebPlatform infrastructure is designed to run on the "cloud" with a set of VMs that can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster].  Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by  ''[http://www.dreamhost.com/ DreamHost]''.
- 
-In this exercise we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
+In this procedure we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
 
+WebPlatform infrastructure is designed to run on the "cloud" with a set of VMs that can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
+
+Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]'''.
 
 == Procedure ==
 
