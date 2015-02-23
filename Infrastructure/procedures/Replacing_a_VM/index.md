@@ -7,9 +7,15 @@ Replacing a VM useful when we feel a VM has been compromised, or broken.  Since 
 
 '''Note'''; the output of the commands shown here were done from the staging deployment level.
 
-== Procedure ==
 
-In this exercise we will replace a app2 VM a bigger one.
+== Introduction ==
+
+WebPlatform infrastructure is designed to run on the "cloud" with a set of VMs that can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster].  Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by  ''[http://www.dreamhost.com/ DreamHost]''.
+ 
+In this exercise we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
+
+
+== Procedure ==
 
 Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption.
 
