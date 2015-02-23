@@ -1,9 +1,9 @@
 {{:WPD:Infrastructure/architecture}}
 = Replacing a VM =
 
-This document describes how to replace any VM in an existing deployment (e.g. production) with a new one and install/apply required web application and configurations in a consistent manner.
+This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one and install/apply required web application and configurations in a consistent manner.
 
-Replacing a VM useful when we feel a VM has been compromised, or broken.  Since '''EVERYTHING''' is managed through source control, including what configures the salt master, every VM is designed to be replaceable parts of a cluster.
+Replacing a VM useful when we feel a VM has been compromised, or broken.  Since '''EVERYTHING''' is managed through source control, including what configures the salt master itself, every VM is designed to be replaceable parts of a cluster.
 
 '''Note'''; the output of the commands shown here were done from the staging deployment level.
 
