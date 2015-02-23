@@ -12,6 +12,7 @@ Documents describing current infrastructure details, design decisions and how to
 === Infrastructure architecture sub navigation ===
 
 * [[WPD:Infrastructure/procedures/Deploying_code_changes|Deploying code changes]]
+
 <splist/>
 
 </div>
