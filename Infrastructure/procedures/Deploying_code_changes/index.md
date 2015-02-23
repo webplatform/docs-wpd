@@ -12,11 +12,7 @@ The process of deploying is going to change into something that will allow us to
 
 This procedure will take into account that you have an existing set of VMs already installed  [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]] and managed by the [[WPD:Infrastructure/architecture/The_salt_master]].
 
-The following will show you how we can replace an existing VM that we want to replace with a new one.
-
 == Booting a VM ==
-
-Let’s replace a app1 with a brand new instance.
 
 To To boot a VM, its better to use the salt master and issue a '''nova''':
 
