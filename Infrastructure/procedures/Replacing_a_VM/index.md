@@ -29,8 +29,6 @@ We know that ''app2'' has two IP addresses assigned
 * private: ''10.10.10.215''
 * public: ''173.236.254.224''. If we look at the ''Fastly'' dashboard, we should have this IP in; ''docs (staging)'', ''www (staging)'', ''code (staging)'' services.
 
-'''Reminder''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
-
 What is the flavor (i.e. Size of RAM and number of CPUs)  app2 has?
 
   nova show app2|grep flavor
