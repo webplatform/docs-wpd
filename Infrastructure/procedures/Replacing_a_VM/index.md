@@ -212,7 +212,7 @@ If you are testing a new configuration or plugin, it might be prudent to ensure 
 
 You can do so by following the next steps with another IP address, or use the OpenStack Horizon Dashboard the site is running on. Technically each VM requires first to have a public IP address so that a proxy (in most case; Fastly) can serve from it.
 
-Remember that each web app is deployed based on the role name, you can get them in [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app|Deploying code changes at ''Deploying/updating a web app]].
+Remember that each web app is deployed based on the role name, you can get them in [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app]].
 
 == Prepare to flip the Floating IP address ==
 
