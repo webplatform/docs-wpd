@@ -68,6 +68,8 @@ Notice a few details:
 
 '''Tip''' Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in ''/srv/private/pillars/sshkeys/'' on the salt master.
 
+'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master.
+
 === Wait until the VM is ready ===
 
 The ''cloud-init'' script we gave at ''/srv/opsconfigs/userdata.txt'' does also ensure the VM will have the lastest version of everything, plus salt stack minion installed.
@@ -120,8 +122,43 @@ We are ready!
 
   salt app2 state.highstate
 
-Go drink a glass of water.
+Go drink a glass of water. It takes a while.
 
+== Flip the floating IP ==
 
-   
-'''Tip''' most important commands are available in <code>/srv/salt/README.md</code> on the salt master.
+Let’s get the network adapter details of our new VM. 
+
+'''Note''' you might get two entries if you didn’t delete yet the old VM, the new VM should be the one that has only a private IP address.
+
+  nova list | grep app2
+  | ... | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.218 |
+  | ... | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.215, 173.236.254.224 |
+
+Remember when we asked app2 what was their public and private IP addresses.
+
+Old app2 has:
+* 10.10.10.215 (private)
+* 173.236.254.224 (public, that we’ll give to the new app2)
+
+New app2 has:
+* 10.10.10.218 (private)
+
+Let’s do the switch. 
+
+The following commands in the order in which we need the proper values. Each field are generally hexadecimal strings of about 64 characters and dashes. In this example, they are replaced as "foo" and "bar" to illustrate their appropriate positions.
+
+* Get the '''id'' of the floating IP we need. Fields from this command are in the order: id, fixed IP address, Floating IP address, port Id. We only care about the id, here: '''foo'''.
+
+  neutron floatingip-list | grep 173.236.254.224
+  | foo |  10.10.10.215   |  173.236.254.224  |    |
+
+* We also need what’s called the port id identifier. Its the first column, here: "bar".
+
+        neutron port-list | grep 10.10.10.218
+        | bar |      | fa:16:3e:c1:6c:a0 | {"subnet_id": "...", "ip_address": "10.10.10.218"}
+
+* We do have what we need to assign, enter them in this order:
+
+        neutron floatingip-associate --fixed-ip-address 10.10.10.218 foo bar
+
+The new vm ''app2'' has now the public IP and the old VM is not used anymore
