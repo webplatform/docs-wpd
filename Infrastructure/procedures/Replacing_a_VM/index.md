@@ -66,6 +66,8 @@ Notice a few details:
 ;<code>--key_name renoirb-staging</code>: assumes you would have your own passphrase protected SSH public key  in the OpenStack Horizon dashboard
 ;<code>--security-groups default,frontend</code>: Are the firewall rules managed by OpenStack, make sure they exists in the OpenStack Horizon dashboard
 
+'''Tip''' Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in ''/srv/private/pillars/sshkeys/'' on the salt master.
+
 === Wait until the VM is ready ===
 
 The ''cloud-init'' script we gave at ''/srv/opsconfigs/userdata.txt'' does also ensure the VM will have the lastest version of everything, plus salt stack minion installed.
@@ -102,3 +104,24 @@ Then, wait a few seconds. You can see if the VM is ready by issuing a ''test.ver
   salt app2 test.version
 
 ''Note'' Accepting a new VM to the salt master is very quick. Sometimes it takes more time to get a response because the salt master might have a few automated scripts to run. Those scripts are called '''Salt Reactor''' (see ''<code>/srv/salt/reactor/reactions/*.sls</code>'') that are configured to run when a VM has been added.
+
+
+=== The VM is ready ===
+
+Once the "test.version" test answers quickly, we are ready to continue.  Before going any further, always run a sanity check if the VM has the essential "level" grain at the value. In our case, we should get "staging".
+
+  salt app2 grains.get level
+  app2:
+     staging
+
+We are ready! 
+
+'''Tip''' every salt commands are run from their targeted minion (in this example; ''app2''). It means that if we lose SSH connection from the master will not break the salt run. In fact the command waits for the execution to complete as a comfort for us.
+
+  salt app2 state.highstate
+
+Go drink a glass of water.
+
+
+   
+'''Tip''' most important commands are available in <code>/srv/salt/README.md</code> on the salt master.
