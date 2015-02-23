@@ -76,7 +76,7 @@ The ''cloud-init'' script we gave at ''/srv/opsconfigs/userdata.txt'' does also 
 
 That way, all we have to do is to check from the salt master if we can see it.
 
-  salt-keysalt-key
+  salt-key
   Accepted Keys:
     accounts
     app1
