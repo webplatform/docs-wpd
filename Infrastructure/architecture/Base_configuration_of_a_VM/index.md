@@ -1,3 +1,4 @@
+{{:WPD:Infrastructure/architecture}}
 = Base configuration of a VM =
 
 Here is a few details that every VMs has in common
