@@ -12,29 +12,7 @@ The process of deploying is going to change into something that will allow us to
 
 This procedure will take into account that you have an existing set of VMs already installed  [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]] and managed by the [[WPD:Infrastructure/architecture/The_salt_master]].
 
-== Booting a VM ==
-
-To To boot a VM, its better to use the salt master and issue a '''nova''':
-
-  nova boot --image Ubuntu-14.04-Trusty --user-data /srv/opsconfigs/userdata.txt --key_name renoirb-staging --flavor lightspeed --security-groups default,frontend app1
-
-The previous command assumes that DreamCompute dashboard has some of your own SSH public keys. Normally I recommend that it has two keys, one per deployment level. 
-
-'''Tip''' Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in ''/srv/private/pillars/sshkeys/'' on the salt master.
-
-Now that a VM is booted, here’s how we initiate it;
-
-  salt-key -y -a app1
-  salt app1 grains.get level
-  salt app1 state.highstate
-
-The four previous commands do the following;
-
-# add the new VM to the salt master
-# Its a sanity check to see what’s the value of ''level'' grain (e.g. staging, production) to confirm it has what we expect
-# run ''state.highstate'', and go get some water (it takes some time to run)
-
-'''Tip''' most important commands are available in <code>/srv/salt/README.md</code> on the salt master.
+To learn how to replace a VM, refer to [[WPD:Infrastructure/procedures/Replacing_a_VM|'''Replacing a VM''' procedure]]
 
 === Typical commands ===
 
