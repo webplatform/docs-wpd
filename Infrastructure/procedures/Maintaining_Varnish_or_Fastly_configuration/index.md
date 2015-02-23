@@ -1,6 +1,10 @@
 {{:WPD:Infrastructure/architecture}}
 = Maintaining Varnish/Fastly configuration =
 
+The following summarizes how to manage our Varnish caching service served by our friends at [https://fastly.com Fastly]. Note that the documentation describes how Varnish works but also how to manage Fastly very own Varnish cluster so we don’t have to.
+
+== Abastract ==
+
 If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
 
 This page is about keeping notes on current Varnish configuration files and notes to help maintaining an appropriate caching strategy. 
