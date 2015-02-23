@@ -124,11 +124,59 @@ We are ready!
 
 Go drink a glass of water. It takes a while.
 
-== Flip the floating IP ==
+== Apply configuration and code packages ==
 
-Let’s get the network adapter details of our new VM. 
+@@TODO adjust once we harmonized the way to install web apps.
+
+To apply configuration according to current set of VMs we have do the following.
+
+'''Tip''' always make sure every VM are "awake" and replies to ping commands before running them. You can run the following commands a few times, sometimes some might been sleepy.
+
+  salt-run manage.status
+  down:
+  up:
+    - accounts
+    - app1
+    - app2
+    - app3
+    - backup
+    - blog
+    - db1-masterdb
+    - elastic
+    - mail
+    - memcache-alpha1
+    - notes
+    - piwik
+    - project
+    - redis-alpha1
+    - salt
+    - sessions1
+
+Now let’s deploy the code and apply regenerate configuration files
+
+  wpd-deploy app
+
+This commands ensures that configuration files are applied on top of each web app with the current configuration.  This ensure that can minimize hardcoded information.
+
+The output should look like this;
+
+[[File:Running_wpd-deploy.png]]
+
+== Testing before flipping the switch? ==
+
+If you are testing a new configuration or plugin, it might be prudent to ensure that what you’ve worked on works before making it visible through the sites (i.e. '''webplatformstaging.org''' or '''webplatform.org'''). To do we can map a temporary public IP address and add it to your local '''hosts''' file.
+
+You can do so by following the next steps with another IP address, or use the OpenStack Horizon Dashboard the site is running on. Technically each VM requires first to have a public IP address so that a proxy (in most case; Fastly) can serve from it.
+
+Remember that each web app is deployed based on the role name, you can get them in [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app|Deploying code changes at ''Deploying/updating a web app]].
+
+== Prepare to flip the Floating IP address ==
+
+Let’s get the network adapter details of our new VM. This procedure will take into account that we didn’t test with another temporary IP address.
 
 '''Note''' you might get two entries if you didn’t delete yet the old VM, the new VM should be the one that has only a private IP address.
+
+* We first need to know what is the private IP address of our VMs
 
   nova list | grep app2
   | ... | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.218 |
@@ -143,7 +191,8 @@ Old app2 has:
 New app2 has:
 * 10.10.10.218 (private)
 
-Let’s do the switch. 
+
+== Flipping the floating IP ==
 
 The following commands in the order in which we need the proper values. Each field are generally hexadecimal strings of about 64 characters and dashes. In this example, they are replaced as "foo" and "bar" to illustrate their appropriate positions.
 
@@ -154,11 +203,11 @@ The following commands in the order in which we need the proper values. Each fie
 
 * We also need what’s called the port id identifier. Its the first column, here: "bar".
 
-        neutron port-list | grep 10.10.10.218
-        | bar |      | fa:16:3e:c1:6c:a0 | {"subnet_id": "...", "ip_address": "10.10.10.218"}
+  neutron port-list | grep 10.10.10.218
+  | bar |      | fa:16:3e:c1:6c:a0 | {"subnet_id": "...", "ip_address": "10.10.10.218"}
 
 * We do have what we need to assign, enter them in this order:
 
-        neutron floatingip-associate --fixed-ip-address 10.10.10.218 foo bar
+  neutron floatingip-associate --fixed-ip-address 10.10.10.218 foo bar
 
 The new vm ''app2'' has now the public IP and the old VM is not used anymore
