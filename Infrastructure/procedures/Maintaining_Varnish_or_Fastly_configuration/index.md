@@ -1,4 +1,5 @@
-== Summary ==
+{{:WPD:Infrastructure/architecture}}
+= Maintaining Varnish/Fastly configuration =
 
 If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
 
