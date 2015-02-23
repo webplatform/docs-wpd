@@ -15,6 +15,8 @@ Technically OpenStack allows us to "resize" a VM and after a few minutes get the
 
 Since we have either Fastly or a NGINX proxy in front of most web applications, the fact that a VM isn’t live doesn’t break the site as the frontends already takes care of asking other VMs in the same cluster.
 
+'''Reminder''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
+
 You will see that the new VM is taken into account only when we apply the public IP address to it.
 
 === Get the details of one VM ===
@@ -26,6 +28,8 @@ We know that ''app2'' has two IP addresses assigned
 
 * private: ''10.10.10.215''
 * public: ''173.236.254.224''. If we look at the ''Fastly'' dashboard, we should have this IP in; ''docs (staging)'', ''www (staging)'', ''code (staging)'' services.
+
+'''Reminder''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
 
 What is the flavor (i.e. Size of RAM and number of CPUs)  app2 has?
 
