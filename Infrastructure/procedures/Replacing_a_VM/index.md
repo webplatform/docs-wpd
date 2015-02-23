@@ -136,10 +136,18 @@ The essential pillars to look for are the following:
 * <code>/srv/private/pillar/accounts/staging_oauth.sls</code>
 * <code>/srv/pillar/infra/staging.sls</code>
 
-The rule of thum is that what’s in '''/srv/pillar''' MUST have NO private. All private data is stored in '''/srv/private''' and have its own separate repository that only trusted people should have access.
+'''Tip''' if you are in "production" level, just look at the files with '''production''' instead.
+
+The rule of thumb is that what’s in '''/srv/pillar''' MUST have nothing private as its publicly visible on GitHub @@TODO set pillars github repo.
+
+All private data is stored in '''/srv/private''' and have its own separate Git repository that only trusted people should have access.
 
 Here are a few situations where you have to update contents in one of those files:
 
+=== Infra pillar ===
+
+The configurations in '''/srv/pillar/infra/''' are mostly about what’s the current IP address to use for a given use. Each configuration file (in '''/srv/salt/code/files''') gets the exact IP it need from there.
+ 
 * Adding/Removing a VM with the '''memcached''' role
 * Adding/Removing a VM with the '''sessions''' role
 * Adding/Removing a VM with the '''redis''' role
@@ -148,7 +156,14 @@ Here are a few situations where you have to update contents in one of those file
 * Adding/Removing a VM with the '''mail''' role
 * Update the internal DNS zone ('''gdnsd_timestamp'''). Most useful if you change any of the above
 
-'''Tip''' if you are in "production" level, just look at the files with '''production''' instead.
+=== Accounts pillar ===
+
+This is where we store the private data. Database passwords, external providers API keys and so on.  The convention is to have a specific set per environment level so we keep a separate deployment and can throughly test every layers somewhere safe before affecting the live site.
+
+* Every password and private keys are stored in '''/srv/private/pillar/accounts/staging.sls'''.
+* Accounts system OAuth2 relying parties client configurations and private keys are in '''/srv/private/pillar/accounts/staging_oauth.sls'''.
+
+With this, it will be possible to change service passwords across only by changing the private pillar and the service itself. Each relying web application will read the new password from there.
 
 
 == Apply configuration and code packages ==
