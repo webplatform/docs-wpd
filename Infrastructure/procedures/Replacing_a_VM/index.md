@@ -7,7 +7,17 @@ This kind of action is most useful when we feel a VM has been compromised, or br
 
 '''Note'''; the output of the commands shown here were done from the staging deployment level.
 
-Get the details of one VM;
+== Procedure ==
+
+In this exercise we will replace a functioning app2 VM with a bigger one.
+
+Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption.
+
+Since we have either Fastly or a NGINX proxy in front of most web applications, the fact that a VM isn’t live doesn’t break the site as the frontends already takes care of asking other VMs in the same cluster.
+
+You will see that the new VM is taken into account only when we apply the public IP address to it.
+
+=== Get the details of one VM ===
 
   nova list | grep app2
   | ... | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.215, 173.236.254.224 |
@@ -22,6 +32,7 @@ What is the flavor (i.e. Size of RAM and number of CPUs)  app2 has?
   nova show app2|grep flavor
   | flavor                               | supersonic (200)                                                       |
 
+
 What ''supersonic'' has (showing only some here);
 
   nova flavor-list
@@ -32,3 +43,62 @@ What ''supersonic'' has (showing only some here);
   | 200 | supersonic | 2048      | 80   | 0         |      | 1     | 1.0         | True      |
   | 300 | lightspeed | 4096      | 80   | 0         |      | 2     | 1.0         | True      |
   +-----+------------+-----------+------+-----------+------+-------+-------------+-----------+
+
+
+=== Prepare to replace app2 ===
+  
+Since we are going to delete ''app2'' here, we can remove it from our salt master and boot a new one.
+
+  salt-key -y -d app2
+
+The VM ''app2'' still has its public IP address, we only removed it from salt so we can use that name again.
+
+Let’s not delete the VM right away. Unless, of course, the VM in question has "flapping" services (i.e. on-off) and breaks the live site.
+
+
+=== Create a new VM ===
+
+ nova boot --image Ubuntu-14.04-Trusty --user-data /srv/opsconfigs/userdata.txt --key_name renoirb-staging --flavor lightspeed --security-groups default,frontend app2
+
+Notice a few details:
+
+;<code>/srv/opsconfigs/userdata.txt</code>: is a configuration file that gets adjusted by the salt master from the salt master itself. It enforces a few details such as DNS and the IP address of the salt master
+;<code>--key_name renoirb-staging</code>: assumes you would have your own passphrase protected SSH public key  in the OpenStack Horizon dashboard
+;<code>--security-groups default,frontend</code>: Are the firewall rules managed by OpenStack, make sure they exists in the OpenStack Horizon dashboard
+
+=== Wait until the VM is ready ===
+
+The ''cloud-init'' script we gave at ''/srv/opsconfigs/userdata.txt'' does also ensure the VM will have the lastest version of everything, plus salt stack minion installed.
+
+That way, all we have to do is to check from the salt master if we can see it.
+
+  salt-keysalt-key
+  Accepted Keys:
+    accounts
+    app1
+    app3
+    backup
+    blog
+    db1-masterdb
+    elastic
+    mail
+    memcache-alpha1
+    notes
+    piwik
+    project
+    redis-alpha1
+    salt
+    sessions1
+  Unaccepted Keys:
+    app2
+  Rejected Keys:
+
+We should see '''app2''' in '''Unaccepted Keys''', we can accept the new VM like this:
+
+  salt-key -y -a app2
+
+Then, wait a few seconds. You can see if the VM is ready by issuing a ''test.version'' command.
+
+  salt app2 test.version
+
+''Note'' Accepting a new VM to the salt master is very quick. Sometimes it takes more time to get a response because the salt master might have a few automated scripts to run. Those scripts are called '''Salt Reactor''' (see ''<code>/srv/salt/reactor/reactions/*.sls</code>'') that are configured to run when a VM has been added.
