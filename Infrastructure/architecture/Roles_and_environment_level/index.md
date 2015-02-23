@@ -16,6 +16,8 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
+'''Continue reading about roles in [[[WPD:Infrastructure/architecture/VM_roles]]'''
+
 == Level ==
 
 The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
