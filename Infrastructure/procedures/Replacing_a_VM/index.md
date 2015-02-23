@@ -1,9 +1,9 @@
 {{:WPD:Infrastructure/architecture}}
 = Replacing a VM =
 
-This document will describe how you can replace any VM in an existing deployment (e.g. production) with a new one.
+This document describes how to replace any VM in an existing deployment (e.g. production) with a new one and install/apply required web application and configurations in a consistent manner.
 
-This kind of action is most useful when we feel a VM has been compromised, or broken. Every VM, including the salt master, is designed to be replaceable parts of a cluster.
+Replacing a VM useful when we feel a VM has been compromised, or broken.  Since '''EVERYTHING''' is managed through source control, including what configures the salt master, every VM is designed to be replaceable parts of a cluster.
 
 '''Note'''; the output of the commands shown here were done from the staging deployment level.
 
@@ -123,6 +123,33 @@ We are ready!
   salt app2 state.highstate
 
 Go drink a glass of water. It takes a while.
+
+== Replacing something else than app2? ==
+
+Replacing a ''web app runner'' role VM such as ''app'', ''piwik'', ''project'', or ''notes'' is pretty straight forward.
+
+In other cases, we need also to update the a few pillars of the current environment. 
+
+The essential pillars to look for are the following:
+
+* <code>/srv/private/pillar/accounts/staging.sls</code>
+* <code>/srv/private/pillar/accounts/staging_oauth.sls</code>
+* <code>/srv/pillar/infra/staging.sls</code>
+
+The rule of thum is that what’s in '''/srv/pillar''' MUST have NO private. All private data is stored in '''/srv/private''' and have its own separate repository that only trusted people should have access.
+
+Here are a few situations where you have to update contents in one of those files:
+
+* Adding/Removing a VM with the '''memcached''' role
+* Adding/Removing a VM with the '''sessions''' role
+* Adding/Removing a VM with the '''redis''' role
+* Adding/Removing a VM with the '''db''' role
+* Adding/Removing a VM with the '''elastic''' role
+* Adding/Removing a VM with the '''mail''' role
+* Update the internal DNS zone ('''gdnsd_timestamp'''). Most useful if you change any of the above
+
+'''Tip''' if you are in "production" level, just look at the files with '''production''' instead.
+
 
 == Apply configuration and code packages ==
 
