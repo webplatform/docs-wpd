@@ -29,15 +29,56 @@ Getting the VM’s ''roles'' can be done like this:
 
 Making an action only on VMs that has a given role can be done like this:
 
-  salt -G 'roles:redis' test.version
-  redis-alpha1:
-    2014.7.1
-  redis-alpha2:
-    2014.7.1
-  redis-alpha3:
-    2014.7.1
-  redis-bravo1:
-    2014.7.1
+  salt -G 'roles:nginx' nginx.status
+  specs-nginx:
+    ----------
+    accepted:
+        3052
+    active connections:
+        1
+    handled:
+        3052
+    reading:
+        0
+    requests:
+        3045
+    waiting:
+        0
+    writing:
+        1
+  accounts-nginx:
+    ----------
+    accepted:
+        3057
+    active connections:
+        2
+    handled:
+        3012
+    reading:
+        0
+    requests:
+        3015
+    waiting:
+        0
+    writing:
+        1
+  notes-nginx:
+    ----------
+    accepted:
+        3057
+    active connections:
+        2
+    handled:
+        3012
+    reading:
+        0
+    requests:
+        3015
+    waiting:
+        0
+    writing:
+        1
+
 
 '''Continue reading about roles in [[WPD:Infrastructure/architecture/VM_roles]]'''
 
