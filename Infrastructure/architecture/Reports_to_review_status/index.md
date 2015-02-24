@@ -122,7 +122,7 @@ There are a few variants we can get data;
     Uptime:
         11191
 
-== MySQL/MariaDB replication status ==
+== MySQL/MariaDB ==
 
 We can check what’s the state of the MySQL server by issuing the following commands. They are available through [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.mysql.html#salt.modules.mysql.get_slave_status ''Salt Stack'' '''mysql''' module]
 
