@@ -12,7 +12,7 @@ Using our ''Salt Stack'' [https://github.com/webplatform/states states], rebuild
 
 '''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures (i.e. the  [https://github.com/webplatform/states states]) from the salt master, every VM can therefore be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
 
-Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]'''.
+Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]''' and the configuration is managed by a software called [http://saltstack.com/ Salt Stack].
 
 == Procedure ==
 
