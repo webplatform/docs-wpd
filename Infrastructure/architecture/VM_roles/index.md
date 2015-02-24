@@ -41,20 +41,6 @@ Before the infrastructure rework sprint of January 2015, the salt master was the
 * [https://gist.github.com/WebPlatformDocs/01c09df78f05612c281f Gist containing every essential bootstrap script]. (take the contents of the Gist as a snapshot. @@TODO, put link to authoritative version here)
 * [https://gist.github.com/WebPlatformDocs/780307ff289864ba02f5#file-salt-master-conf Salt Master Monit config]  (take the contents of the Gist as a snapshot. @@TODO, put link to authoritative version here)
 
-=== How to use ===
-
-To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
-
-To view the internal only reports, configure one of your web browser to use your local computer as a proxy through the SSH tunnel we will create.
-
-  ssh salt.webplatform.org -C -D 1080
-
-'''Reports view''':
-* ''Email reports'': ''http://mail/cgi-bin/mailgraph.cgi'', only on ''mail'' VMs using [http://mailgraph.schweikert.ch/ ''Mailgraph'']
-* ''Monit VM dashboard view'': ''http://admin:password@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
-
-
-
 == mail ==
 
 Every VMs has ''exim4'' configured to send mail to the VM that has the "mail" role.
