@@ -3,14 +3,14 @@
 
 This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one, install/update targeted web application and apply current configurations. All of that is done in a way that we can replace a faulty VM without affecting the site uptime.
 
-Using our ''Salt Stack'' "states", rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
+Using our ''Salt Stack'' [https://github.com/webplatform/states states], rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
 
 '''Note'''; the output of the commands shown in this document were done from the staging deployment level.
 
 
 == Introduction ==
 
-'''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures the salt master itself, every VM can therefore be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
+'''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures (i.e. the  [https://github.com/webplatform/states states]) from the salt master, every VM can therefore be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
 
 Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]'''.
 
