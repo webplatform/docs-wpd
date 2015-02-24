@@ -12,28 +12,18 @@ The process of deploying is going to change into something that will allow us to
 
 This procedure will take into account that you have an existing set of VMs already installed  [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]] and managed by the [[WPD:Infrastructure/architecture/The_salt_master]].
 
-To learn how to replace a VM, refer to [[WPD:Infrastructure/procedures/Replacing_a_VM]]
+* First, make sure the role you want to target touches the VMs you want
 
-=== Typical commands ===
+  salt app\* grains.get roles
+  app1-jobrunner:
+    - app
+    - jobrunner
+  app2:
+    - app
+  app3:
+    - app
 
-You can get to know which level a VM is configured by running;
-
-  salt project grains.get level
-  project:
-    production
-
-To work with a VM, you can target actions based on their roles;
-
-Getting the roles of a VM:
-
-  salt db\* grains.get roles
-  db1-masterdb:
-    - db
-    - masterdb
-  db2:
-    - db
-
-'''Note''' the number are only there to allow us to quickly differentiate them, you should see here that the role names doesn’t have numbers in them. 
+=== Running a code update ===
 
 Deploying code on VMs of a given role:
 
@@ -44,6 +34,10 @@ Which is basically what the following command do;
   wpd-deploy app
 
 The latter is an alias for the comfort of everyday use and can be done without being root.
+
+Output should look like this;
+
+[[File:Running_wpd-deploy.png]]
 
 
 == Deploying/updating a web app ==
@@ -61,17 +55,8 @@ To update a webapp, run the following commands. Salt will know which VM has to g
 ;project:<code>wpd-deploy project</code>&nbsp;&nbsp;<nowiki>[''/srv/code/buggenie/repo'']</nowiki>
 ;accounts:<code>wpd-deploy accounts</code>
 
-=== Running a code update ===
-
-You can run the command as a normal user like so;
-
-  wpd-deploy app
-
-Output should look like this;
-
-[[File:Running_wpd-deploy.png]]
-
 == Related ==
 
 * The detail of what each roles does is described in [[WPD:Infrastructure/architecture/VM_roles]].
 * How to replace a VM has details on how to deploy code too [[WPD:Infrastructure/procedures/Replacing_a_VM]].
+* To know what code is going to be deployed, refer to [[WPD:Infrastructure/architecture/Roles_and_environment_level]]
