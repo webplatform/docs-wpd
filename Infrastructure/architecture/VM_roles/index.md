@@ -110,19 +110,6 @@ The first database server we originally had was MySQL 5.1 and the VM had a name 
 * It is planned to use new replication features such as ones that we can send writes to any nodes and the replication will be made consistent everywhere. This has to be tested first though.
 
 
-=== Changing MariaDB replication master ===
-Quoting what I wrote on [https://renoirboulanger.com/blog/2015/01/create-mariadb-cluster-replication-ssl-salt-stack/ a blog post I wrote on January 2015: Create a MariaDB cluster with replication over SSL]:
-
-* From the masterdb MySQL server, in a command line session
-* Lock writes on masterdb databases <code>FLUSH TABLES WITH READ LOCK;</code> (make sure this session stays open, the lock only lasts with the session you used to write it. See [https://mariadb.com/kb/en/mariadb/flush-tables-for-export/ MariaDB flush tables pages])
-* From a secondary MySQL server; Wait replication to catch up <code>SHOW SLAVE STATUS\G</code>
-* Remove replication configuration 
-* Tell all web apps to use new database master (from the salt master, change the '''infra:hosts_entries:masterdb''' key in  '''/srv/pillar/infra/production.sls''' (or '''/srv/pillar/infra/staging.sls''' for staging).
-* From the masterdb; remove database lock by closing the session opened earlier
-* Setup new replication configuration to use new master
-
-@@TODO, Make a more precise procedure with new setup and how to manage.
-
 
 == sessions ==
 
