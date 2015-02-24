@@ -325,7 +325,7 @@ Alternately, you can add to your '''~/.ssh/config''' file the following line wit
  Host staging.wpdn
    Hostname salt.webplatformstaging.org
    ProxyCommand none
-   DynamicForward 1081
+   DynamicForward 1080
  Host *.staging.wpdn
    ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p staging.wpdn
 
