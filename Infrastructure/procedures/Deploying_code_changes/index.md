@@ -31,6 +31,10 @@ Deploying code on VMs of a given role:
 
   salt app\* state.sls code
 
+You can also target the same set of VM using salt ''grains'' targetting variant;
+
+  salt -G 'roles:app' state.sls code
+
 Which is basically what the following command do;
 
   wpd-deploy app
