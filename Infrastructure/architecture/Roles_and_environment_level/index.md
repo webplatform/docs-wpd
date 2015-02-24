@@ -52,3 +52,32 @@ Getting the ''environment level'' name that the VM knows it has can be done like
     staging
 
 '''Tip''' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
+
+
+= Related =
+
+== How salt detects the roles? ==
+
+In the  [https://github.com/webplatform/states states] code, generally available in the salt master ''/srv/salt/'' in the ''_grains/purpose.py''. The code looks like this.
+
+<syntaxHighlight lang=python>
+#!/usr/bin/env python
+
+import socket
+from string import digits
+
+hostname = socket.gethostname().translate(None, digits)
+
+def roles():
+        '''
+        Parse the host hostname and creates a list of roles
+
+        Based on the hostname (without domain name), should return:
+
+                salt            -> grain:roles: ["salt"]
+                redis-jobs1     -> grain:roles: ["redis","jobs"]
+
+        '''
+        dataObject = {'roles': hostname.split('-')}
+        return dataObject
+</syntaxHighlight>
