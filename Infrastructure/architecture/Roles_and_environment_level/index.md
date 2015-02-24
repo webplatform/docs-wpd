@@ -22,8 +22,12 @@ For an example of a VM with two roles that doesn’t deploy a web application co
 
 == Level ==
 
-The level is defined as a <code>key: value</code> string, such as "<code>level: production</code>" in <code>/etc/salt/grains</code>. That file is created when the VM is created using the salt master managed <code>/srv/opsconfig/userdata.txt</code> '''cloud-init'' boot script.  
+The "''environment level''" is defined as a <code>key: value</code> string (e.g. "level: production") in <code>/etc/salt/grains</code>. That file is created when the VM is created using the salt master managed <code>/srv/opsconfig/userdata.txt</code> '''cloud-init'' boot script.  
 
-Getting the level that the VM knows it has would be done like this:
+Getting the ''environment level'' name that the VM knows it has would be done like this:
+
+  salt vmname grains.get level
+  vmname:
+    staging
 
 '''Tip''' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
