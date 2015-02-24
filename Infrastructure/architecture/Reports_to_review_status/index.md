@@ -166,8 +166,6 @@ We can check what’s the state of the MySQL server by issuing the following com
       ----------
       Command:
           Connect
-      Host:
-
       Id:
           3
       Info:
@@ -192,9 +190,9 @@ Here are a few possibly useful commands to pick from;
   salt db2 mysql.get_slave_status
   salt -G 'roles:masterdb' mysql.get_master_status
   salt -G 'roles:db' mysql.status
- 
-== MediaWiki ==
 
+
+== MediaWiki ==
 
 Some reports can be gathered from the MediaWiki API. Here’s a list of a few useful ones. If you want to change the way they are displayed, you can change the ''&format='' URL fragment (ref: [https://www.mediawiki.org/wiki/API:Main_page#The_format ''MediaWiki.org'' documentation].
 
@@ -207,6 +205,8 @@ Some reports can be gathered from the MediaWiki API. Here’s a list of a few us
 === User creation log ===
 
 As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accounts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
+
+* [https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=logevents&letype=newusers&lelimit=50&leprop=user|timestamp list new users (through the API)]
 
 [[File:20150106-account-creation-log-api.png]]
 
