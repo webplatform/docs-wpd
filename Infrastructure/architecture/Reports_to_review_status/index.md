@@ -183,7 +183,7 @@ We can check what’s the state of the MySQL server by issuing the following com
       db:
           None
 
-=== Other reports commands available on MySQL servers through Salt stack  ===
+=== Misc. reports available on MySQL servers through Salt stack  ===
 
 Here are a few possibly useful commands to pick from;
 
@@ -195,19 +195,18 @@ Here are a few possibly useful commands to pick from;
  
 == MediaWiki ==
 
-=== Various useful reports we can get through the API ===
 
-* [https://docs.webplatform.org/w/api.php?action=query&prop=contributors&continue=&titles=css/properties/border Contributors on '''css/properties/border'' page]
+Some reports can be gathered from the MediaWiki API. Here’s a list of a few useful ones. If you want to change the way they are displayed, you can change the ''&format='' URL fragment (ref: [https://www.mediawiki.org/wiki/API:Main_page#The_format ''MediaWiki.org'' documentation].
+
+=== Misc. reports ===
+
+* [https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&prop=contributors&continue=&titles=css/properties/border Contributors on '''css/properties/border''' page (through the API)]
 * [https://docs.webplatform.org/wiki/Special:Contributions/Renoirb Contributions made by a specific user]
-* [https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=users&ususers=Renoirb&usprop=blockinfo|groups|editcount|emailable More details about a user]
+* [https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=users&ususers=Renoirb&usprop=blockinfo|groups|editcount|emailable More details about a user (through the API)]
 
 === User creation log ===
 
-As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accouts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
-
-The following links gives an example on how to get the ''User creation log'' from MediaWiki, you can get different formats by changing the ''&format='' fragment, ref: [https://www.mediawiki.org/wiki/API:Main_page#The_format ''MediaWiki.org'', the format URL fragment].
-
-* https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=logevents&letype=newusers&lelimit=50&leprop=user|timestamp
+As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accounts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
 
 [[File:20150106-account-creation-log-api.png]]
 
