@@ -38,6 +38,10 @@ To access/overwrite the file in Fastly, go to:
 
 ==== Wizard to add a backend host ====
 
+While describing how to debug an issue we had with Semantic MediaWiki, I described how to change which public IPs would be proxyed by Fastly.
+
+The screenshot below is described in [[WPD:Infrastructure/procedures/Rebuilding_Semantic_Media_Wiki_when_job_queue_is_going_out_of_control]]
+
 [[File:fastly-docs-service-hosts-screenshot.png]]
 
 === Current Fastly configuration ===
