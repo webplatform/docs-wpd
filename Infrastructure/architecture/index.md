@@ -10,6 +10,7 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/procedures/Deploying_code_changes|Deploying code changes]]
 * [[WPD:Infrastructure/procedures/Replacing_a_VM|Replacing a VM]]
 * [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration|Maintaining Fastly configuration]]
+* [[WPD:Infrastructure/procedures/Managing_MySQL_replication|Managing MySQL replication]]
 
 </noinclude><includeonly>
 <div style="float:right;width:50%;word-wrap:break-word;clear:both;">
@@ -22,6 +23,7 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/procedures/Deploying_code_changes|Deploying code changes]]
 * [[WPD:Infrastructure/procedures/Replacing_a_VM|Replacing a VM]]
 * [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration|Maintaining Fastly configuration]]
+* [[WPD:Infrastructure/procedures/Managing_MySQL_replication|Managing MySQL replication]]
 
 </div>
 </includeonly>
