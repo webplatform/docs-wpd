@@ -1,5 +1,5 @@
 {{:WPD:Infrastructure/architecture}}
-= Reports to review status health =
+= Reports to review status =
 
 From the  [[WPD:Infrastructure/architecture/The_salt_master|The Salt Master]] we can get various system health status. This document describes how to access them.
 
