@@ -195,6 +195,12 @@ Here are a few possibly useful commands to pick from;
  
 == MediaWiki ==
 
+=== Various useful reports we can get through the API ===
+
+* [https://docs.webplatform.org/w/api.php?action=query&prop=contributors&continue=&titles=css/properties/border Contributors on '''css/properties/border'' page]
+* [https://docs.webplatform.org/wiki/Special:Contributions/Renoirb Contributions made by a specific user]
+* [https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=users&ususers=Renoirb&usprop=blockinfo|groups|editcount|emailable More details about a user]
+
 === User creation log ===
 
 As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accouts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
