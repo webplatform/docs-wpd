@@ -122,7 +122,79 @@ There are a few variants we can get data;
     Uptime:
         11191
 
-== MediaWiki user creation log ==
+=== MySQL/MariaDB replication status ===
+
+We can check what’s the state of the MySQL server by issuing the following commands. They are available through [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.mysql.html#salt.modules.mysql.get_slave_status ''Salt Stack'' '''mysql''' module]
+
+==== Get replication status ====
+
+  salt db2 mysql.get_slave_status
+  db2:
+    ----------
+    Connect_Retry:
+        10
+    Master_Host:
+        masterdb.local.wpdn
+    Master_SSL_Allowed:
+        Yes
+    Master_SSL_CA_File:
+        /etc/mysql/ca-cert.pem
+    Master_SSL_Cert:
+        /etc/mysql/client-cert.pem
+    Master_SSL_Crl:
+        /etc/mysql/ca-cert.pem
+    Master_SSL_Key:
+        /etc/mysql/client-key.pem
+  // ... truncated  
+ 
+==== Get replication master status ====
+
+  salt -G 'roles:masterdb' mysql.get_master_status
+  db1-masterdb:
+    ----------
+    File:
+        mariadbrepl-bin.000093
+    Position:
+        32058870
+  // ... truncated
+
+==== Get process list ====
+
+  salt -G 'roles:db' mysql.processlist
+  db2:
+    |_
+      ----------
+      Command:
+          Connect
+      Host:
+
+      Id:
+          3
+      Info:
+          None
+      Progress:
+          0.0
+      State:
+          Slave has read all relay log; waiting for the slave I/O thread to update it
+      Time:
+          1
+      User:
+          system user
+      db:
+          None
+
+==== Other reports commands available on MySQL servers through Salt stack  ====
+
+Here are a few possibly useful commands to pick from;
+
+'''Note''' its even possible to work on grants/privileges, add/delete databases. Note that if you do so, you MUST make sure that you do it ONLY on the salt master.
+
+  salt db2 mysql.get_slave_status
+  salt -G 'roles:masterdb' mysql.get_master_status
+  salt -G 'roles:db' mysql.status
+  salt -G 'roles:db' mysql.query mydb "SHOW STATUS WHERE `variable_name` IN('Threads_connected','Connections','Connection_errors_tcpwrap','Connection_errors_peer_address','Connection_errors_max_connections');"
+
+=== MediaWiki user creation log ===
 
 As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accouts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
 
