@@ -331,6 +331,16 @@ Alternately, you can add to your '''~/.ssh/config''' file the following line wit
 
 '''Note''' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
 
+To connect to the salt master, you’d have to do this instead and all will be setup automatically:
+
+  ssh production.wpdn
+
+You can even connect to a VM directly using the salt master as a ''Jump Box''
+
+  ssh app1.production.wpdn
+
+To use the proxy, you need at least one SSH connection established to the infrastructure.
+
 '''IMPORTANT''' Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
 
 
