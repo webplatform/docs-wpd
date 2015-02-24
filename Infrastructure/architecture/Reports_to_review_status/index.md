@@ -132,6 +132,14 @@ The following links gives an example on how to get the ''User creation log'' fro
 
 [[File:20150106-account-creation-log-api.png]]
 
+=== MediaWiki; what’s the IP address of a given user? ===
+
+In case of need to review how our infrastructure is being abused, we can get to know the IP address of visitors so that we can effectively ban them.
+
+To do so, we are using the [https://www.mediawiki.org/wiki/Extension:CheckUser ''MediaWiki CheckUser'' Extension]. Only users of the wiki with sysop privileges can review this information.
+
+[[File:20150108-visualizing-visitor-IP-vs-users.png]]
+
 == Read reports from a VM through private network ==
 
 To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
