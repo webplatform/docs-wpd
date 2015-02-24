@@ -24,4 +24,4 @@ The level is defined as a simple "<code>level: production</code>" line in <code>
 
 Getting the level that the VM knows it has would be done like this:
 
-''NOTE'' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
+'''Tip''' Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
