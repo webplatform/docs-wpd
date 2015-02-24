@@ -12,6 +12,8 @@ The process of deploying is going to change into something that will allow us to
 
 This procedure will take into account that you have an existing set of VMs already installed  [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM]] and managed by the [[WPD:Infrastructure/architecture/The_salt_master]].
 
+In this example we’ll update the code on all VMs that fills the ''role'' of '''app'''.
+
 * First, make sure the role you want to target touches the VMs you want
 
   salt app\* grains.get roles
