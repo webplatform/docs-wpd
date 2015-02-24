@@ -22,7 +22,7 @@ For an example of a VM with two roles that doesn’t deploy a web application co
 
 == Level ==
 
-The level is defined as a simple "<code>level: production</code>" line in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master using.
+The level is defined as a <code>key: value</code> string, such as "<code>level: production</code>" in <code>/etc/salt/grains</code>. That file is created when the VM boots for the first time from the salt master created it.
 
 Getting the level that the VM knows it has would be done like this:
 
