@@ -1,9 +1,9 @@
 {{:WPD:Infrastructure/architecture}}
 = Replacing a VM =
 
-This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one and install/apply required web application and configurations so we could replace a component that is faulty without affecting the site uptime.
+This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one, install/apply required web application and applicable configurations. All of that is done in a way that we can replace a faluty VM without affecting the site uptime.
 
-Replacing a VM is something very common and can be useful in many situations. The fact that rebuilding a VM is a set of commands makes it very cheap to rebuild and gives us the insurance that we didn’t left something behind that could break the site.
+Replacing a VM is something very common. The fact that rebuilding a VM is a set of commands makes it very cheap to rebuild and gives us the insurance that we didn’t left something behind that could break the site.
 
 '''Note'''; the output of the commands shown in this document were done from the staging deployment level.
 
