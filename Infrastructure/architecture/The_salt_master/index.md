@@ -9,54 +9,103 @@ Commands that can be done from the salt master VM in the terminal.
 
 == Getting to know the status of a php5-fpm backend ==
 
-  curl http://piwik/fcgi-status
-  pool:                 www
-  process manager:      dynamic
-  start time:           20/Feb/2015:14:09:09 -0500
-  start since:          346509
-  accepted conn:        2910
-  listen queue:         0
-  max listen queue:     0
-  listen queue len:     128
-  idle processes:       5
-  active processes:     1
-  total processes:      6
-  max active processes: 3
-  max children reached: 0
-  slow requests:        0
+You can make a basic ''GET /fcgi-status'' to any VMs that has '''php5-fpm''' running. (@@TODO make a role to get all of them and remove the need to guess)
+
+There are a few variants we can get data;
+
+* Simple report
+
+  curl piwik/fcgi-status
+
+* A more detailed version
 
   curl piwik/fcgi-status?full
-  pool:                 www
-  process manager:      dynamic
-  start time:           20/Feb/2015:14:09:09 -0500
-  start since:          346688
-  accepted conn:        2913
-  listen queue:         0
-  max listen queue:     0
-  listen queue len:     128
-  idle processes:       5
-  active processes:     1
-  total processes:      6
-  max active processes: 3
-  max children reached: 0
-  slow requests:        0
-  
-  ************************
-  pid:                  19439
-  state:                Idle
-  start time:           20/Feb/2015:14:09:09 -0500
-  start since:          346688
-  requests:             490
-  request duration:     221937
-  request method:       -
-  request URI:          -
-  content length:       0
-  user:                 -
-  script:               -
-  last request cpu:     72.09
-  last request memory:  5242880
-  ...
 
+[[File:nginx_fastcgi_status_full.png]]
+[[File:nginx_fastcgi_status.png]]
+
+'''Note''' that in this example I used an SSH tunnel ''-L 8080:piwik:80''.
+
+== Getting to know the status of an NGINX web server ==
+
+* From the local network
+
+  curl piwik/nginx-status
+  Active connections: 1
+  server accepts handled requests
+   3031 3031 3024
+  Reading: 0 Writing: 1 Waiting: 0
+
+* From salt
+
+  salt piwik nginx.status
+  piwik:
+    ----------
+    accepted:
+        3030
+    active connections:
+        1
+    handled:
+        3030
+    reading:
+        0
+    requests:
+        3023
+    waiting:
+        0
+    writing:
+        1
+  
+
+== Getting to know the status of an Apache2 web server ==
+
+* From salt
+
+  salt app\* apache.server_status
+  app3:
+    ----------
+    BusyWorkers:
+        3
+    BytesPerReq:
+        865.907
+    BytesPerSec:
+        3152.89
+    CPULoad:
+        0.300867
+    IdleWorkers:
+        16
+    ReqPerSec:
+        3.64114
+    Scoreboard:
+        ----------
+        .:
+            45
+        C:
+            2
+        D:
+            0
+        G:
+            0
+        I:
+            0
+        K:
+            0
+        L:
+            0
+        R:
+            0
+        S:
+            0
+        W:
+            1
+        _:
+            16
+    Total Accesses:
+        40748
+    Total kBytes:
+        34457
+    Uptime:
+        11191
 
 == Read reports from other VMs through private network ==
 
