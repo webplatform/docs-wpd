@@ -117,7 +117,7 @@ Quoting what I wrote on [https://renoirboulanger.com/blog/2015/01/create-mariadb
 * Lock writes on masterdb databases <code>FLUSH TABLES WITH READ LOCK;</code> (make sure this session stays open, the lock only lasts with the session you used to write it. See [https://mariadb.com/kb/en/mariadb/flush-tables-for-export/ MariaDB flush tables pages])
 * From a secondary MySQL server; Wait replication to catch up <code>SHOW SLAVE STATUS\G</code>
 * Remove replication configuration 
-* Tell all web apps to use new database master (from the salt master, change the '''infra:hosts_entries:masterdb'' key in  '''/srv/pillar/infra/production.sls''' (or '''/srv/pillar/infra/staging.sls''' for staging).
+* Tell all web apps to use new database master (from the salt master, change the '''infra:hosts_entries:masterdb''' key in  '''/srv/pillar/infra/production.sls''' (or '''/srv/pillar/infra/staging.sls''' for staging).
 * From the masterdb; remove database lock by closing the session opened earlier
 * Setup new replication configuration to use new master
 
