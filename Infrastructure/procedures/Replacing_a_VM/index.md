@@ -56,11 +56,11 @@ What ''supersonic'' has (showing only some here);
 
 === Prepare to replace app2 ===
   
-Since we are going to delete ''app2'' here, we can remove it from our salt master and boot a new one.
+Let’s remove app2 from the salt master
 
   salt-key -y -d app2
 
-The VM ''app2'' still has its public IP address, we only removed it from salt so we can use that name again.
+The current ''app2'' VM still has its public IP address, we didn’t delete it, we only did remove it from salt. Benefit here is that we will refer to our new VM as ''app2'' without conflicts. 
 
 Let’s not delete the VM right away. Unless, of course, the VM in question has "flapping" services (i.e. on-off) and breaks the live site.
 
@@ -262,3 +262,19 @@ The following commands in the order in which we need the proper values. Each fie
   neutron floatingip-associate --fixed-ip-address 10.10.10.218 foo bar
 
 The new vm ''app2'' has now the public IP and the old VM is not used anymore
+
+== Delete the old app2 VM ==
+
+Now that we have two app2 VMs in our OpenStack cluster, we cannot refer to the name to ''nova''.  Not a big deal, we can use the uuid string to refer to a VM. Note that I renamed the UUID here as "buzz" and "bizzz", they won’t look like this in a real deployment.
+
+Since we already know that we just changed the Floating IP to the ''app2'' VM we want to keep, it means that we know which one to delete.
+
+  nova list | grep app2
+  | buzz | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.215 |
+  | bizzz | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.218, 173.236.254.224 |
+
+We can delete the VM
+
+  nova delete buzz
+
+We are done!
