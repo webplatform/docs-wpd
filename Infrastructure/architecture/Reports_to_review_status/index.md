@@ -335,4 +335,6 @@ Alternately, you can add to your '''~/.ssh/config''' file the following line wit
  Host *.staging.wpdn
    ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p staging.wpdn
 
-'''Note'' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. This block might be outdated, make sure you always keep your configuration based on what the salt master gives you at connection time as this block might be outdated.
+'''Note'' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
+
+'''IMPORTANT''' Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
