@@ -20,7 +20,7 @@ Here is a preview of how a Monit status report looks like.
 
 
 
-== ''M/Monit'' ===
+== ''M/Monit'' ==
 
 Those arescreenshots of '''M/Monit''' while I was testing out the feature differences between the paid app (''M/Monit'') and what comes in the open source version.
 
