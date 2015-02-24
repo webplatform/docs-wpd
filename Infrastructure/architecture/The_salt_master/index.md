@@ -3,9 +3,9 @@
 
 [[WPD:Infrastructure/procedures/Deploying_code_changes|Deploying code changes on the site]] is made through a VM, named "salt" we refer to this machine as the "Salt Master" we generally connect through SSH at the name '''salt.webplatform.org'''.
 
-The software we use for configuration management is called "[http://saltstack.com/ Salt Stack]", we refer to the machine that has a copy of all the configuration files
+The software we use for configuration management is called '''[http://saltstack.com/ Salt Stack]''', we refer to the machine that has a copy of all the configuration files.
 
-Commands that can be done from the salt master VM in the terminal.
+Commands that can be done from the salt master VM in the terminal, but some could also be visualized from within your local web browser through [[#Read reports from a VM through private network]].
 
 == Getting to know the status of a php5-fpm backend ==
 
@@ -24,7 +24,7 @@ There are a few variants we can get data;
 [[File:nginx_fastcgi_status_full.png]]
 [[File:nginx_fastcgi_status.png]]
 
-'''Note''' that in this example I used an SSH tunnel ''-L 8080:piwik:80'', but it could have been done through [[#Read reports from other VMs through private network]].
+'''Note''' that in this example I used an SSH tunnel ''-L 8080:piwik:80'', but it could have been done through [[#Read reports from a VM through private network]].
 
 == Getting to know the status of an NGINX web server ==
 
@@ -107,7 +107,7 @@ There are a few variants we can get data;
     Uptime:
         11191
 
-== Read reports from other VMs through private network ==
+== Read reports from a VM through private network ==
 
 To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
 
