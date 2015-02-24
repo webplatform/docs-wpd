@@ -2,9 +2,9 @@
 
 == What is Monit ==
 
-Monit is a server monitoring system that ensures that their services are running or enforce them to run. 
+ [http://mmonit.com/monit/ Monit] is a server monitoring system that ensures that their services are running or enforce them to run. 
 
-Monit has two components:
+ [http://mmonit.com/monit/ Monit] has two components:
 * '''monit''', an open-source agent with internal reporting
 * '''M/Monit''', a paid software that ''monit'' can push updates to
 
