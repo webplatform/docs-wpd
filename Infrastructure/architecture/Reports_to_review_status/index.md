@@ -317,13 +317,7 @@ To view the internal only reports, configure one of your web browser to use your
 
   ssh salt.webplatform.org -C -D 1080
 
-Once connected, you have to configure a web browser to use your new ''OpenSSH'' '''Dynamic''' SOCKS proxy. 
-
-In modern Firefox version, you can do that by going into '''Preferences''', '''Advanced''', '''Network''' tab, then '''Connection''' button. You’ll see a window similar to below. Adjust accordingly.
-
-[[File:201502-Firefox-Network-settings.png]]
- 
-To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding SSH Port forwarding help pages on '''help.ubuntu.com''']
+=== Setting automatically a SOCKS proxy in your SSH configuration ===
 
 Alternately, you can add to your '''~/.ssh/config''' file the following line within the appropriate '''Host''' block.
 
@@ -338,3 +332,14 @@ Alternately, you can add to your '''~/.ssh/config''' file the following line wit
 '''Note''' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
 
 '''IMPORTANT''' Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
+
+
+=== Configuring a web browser to use the proxy ===
+
+Once connected, you have to configure a web browser to use your new '''DynamicForward''' SOCKS proxy. 
+
+In modern Firefox version, you can do that by going into '''Preferences''', '''Advanced''', '''Network''' tab, then '''Connection''' button. You’ll see a window similar to below. Adjust accordingly.
+
+[[File:201502-Firefox-Network-settings.png]]
+ 
+To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding SSH Port forwarding help pages on '''help.ubuntu.com''']
