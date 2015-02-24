@@ -192,8 +192,7 @@ Here are a few possibly useful commands to pick from;
   salt db2 mysql.get_slave_status
   salt -G 'roles:masterdb' mysql.get_master_status
   salt -G 'roles:db' mysql.status
-  salt -G 'roles:db' mysql.query mydb "SHOW STATUS WHERE `variable_name` IN('Threads_connected','Connections','Connection_errors_tcpwrap','Connection_errors_peer_address','Connection_errors_max_connections');"
-
+ 
 == MediaWiki ==
 
 === User creation log ===
