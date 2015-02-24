@@ -9,7 +9,7 @@ __TOC__
 
 == How many emails has been sent ==
 
-We can visualize how many emails are being sent to our mail server. It should display the number of refusals (e.g. somebody outside our network trying to use us) over time.
+We have  [http://mailgraph.schweikert.ch/ ''Mailgraph''] installed on all ''mail'' VMs. With it, we can visualize how many emails are being sent to our mail server. It should display the number of refusals (e.g. somebody outside our network trying to use us) over time.
 
 From the browser, through [[#Read reports from a VM through private network]].
 
@@ -317,9 +317,10 @@ To view the internal only reports, configure one of your web browser to use your
 
   ssh salt.webplatform.org -C -D 1080
 
-=== Available reports ===
+Once connected, you have to configure a web browser to use your new ''OpenSSH'' '''Dynamic''' SOCKS proxy. 
 
-* ''Email reports'': ''http://mail/cgi-bin/mailgraph.cgi'', only on ''mail'' VMs using [http://mailgraph.schweikert.ch/ ''Mailgraph'']
-* ''Monit VM dashboard view'': ''http://monit:p4ssword@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
-* '''NGINX''' server status, from a VM that runs NGINX: e.g. ''http://piwik/nginx-status''
-* '''php5-fpm''' status, from a VM that runs ''php5-fpm'': ''http://piwik/fcgi-status''
+In modern Firefox version, you can do that by going into '''Preferences''', '''Advanced''', '''Network''' tab, then '''Connection''' button. You’ll see a window similar to below. Adjust accordingly.
+
+[[File:201502-Firefox-Network-settings.png]]
+ 
+To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [http://lifehacker.com/237227/geek-to-live--encrypt-your-web-browsing-session-with-an-ssh-socks-proxy fully detailed article published on LifeHacker]
