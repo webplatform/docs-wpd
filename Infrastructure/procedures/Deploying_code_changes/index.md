@@ -61,8 +61,17 @@ To update a webapp, run the following commands. Salt will know which VM has to g
 ;project:<code>wpd-deploy project</code>&nbsp;&nbsp;<nowiki>[''/srv/code/buggenie/repo'']</nowiki>
 ;accounts:<code>wpd-deploy accounts</code>
 
-The detail of what each roles does is described in [[WPD:Infrastructure/architecture/VM_roles]].
+=== Running a code update ===
 
-=== Screenshot ===
+You can run the command as a normal user like so;
 
-[[File:screenshot-wpd-deploy-project-run.png]]
+  wpd-deploy app
+
+Output should look like this;
+
+[[File:Running_wpd-deploy.png]]
+
+== Related ==
+
+* The detail of what each roles does is described in [[WPD:Infrastructure/architecture/VM_roles]].
+* How to replace a VM has details on how to deploy code too [[WPD:Infrastructure/procedures/Replacing_a_VM]].
