@@ -24,7 +24,7 @@ There are a few variants we can get data;
 [[File:nginx_fastcgi_status_full.png]]
 [[File:nginx_fastcgi_status.png]]
 
-'''Note''' that in this example I used an SSH tunnel ''-L 8080:piwik:80''.
+'''Note''' that in this example I used an SSH tunnel ''-L 8080:piwik:80'', but it could have been done through [[#Read reports from other VMs through private network]].
 
 == Getting to know the status of an NGINX web server ==
 
@@ -119,3 +119,5 @@ To view the internal only reports, configure one of your web browser to use your
 
 * ''Email reports'': ''http://mail/cgi-bin/mailgraph.cgi'', only on ''mail'' VMs using [http://mailgraph.schweikert.ch/ ''Mailgraph'']
 * ''Monit VM dashboard view'': ''http://admin:password@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
+* '''NGINX''' server status, from a VM that runs NGINX: e.g. ''http://piwik/nginx-status''
+* '''php5-fpm''' status, from a VM that runs ''php5-fpm'': ''http://piwik/fcgi-status''
