@@ -122,11 +122,11 @@ There are a few variants we can get data;
     Uptime:
         11191
 
-=== MySQL/MariaDB replication status ===
+== MySQL/MariaDB replication status ==
 
 We can check what’s the state of the MySQL server by issuing the following commands. They are available through [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.mysql.html#salt.modules.mysql.get_slave_status ''Salt Stack'' '''mysql''' module]
 
-==== Get replication status ====
+=== Get replication status ===
 
   salt db2 mysql.get_slave_status
   db2:
@@ -147,7 +147,7 @@ We can check what’s the state of the MySQL server by issuing the following com
         /etc/mysql/client-key.pem
   // ... truncated  
  
-==== Get replication master status ====
+=== Get replication master status ===
 
   salt -G 'roles:masterdb' mysql.get_master_status
   db1-masterdb:
@@ -158,7 +158,7 @@ We can check what’s the state of the MySQL server by issuing the following com
         32058870
   // ... truncated
 
-==== Get process list ====
+=== Get process list ===
 
   salt -G 'roles:db' mysql.processlist
   db2:
@@ -183,7 +183,7 @@ We can check what’s the state of the MySQL server by issuing the following com
       db:
           None
 
-==== Other reports commands available on MySQL servers through Salt stack  ====
+=== Other reports commands available on MySQL servers through Salt stack  ===
 
 Here are a few possibly useful commands to pick from;
 
@@ -194,7 +194,9 @@ Here are a few possibly useful commands to pick from;
   salt -G 'roles:db' mysql.status
   salt -G 'roles:db' mysql.query mydb "SHOW STATUS WHERE `variable_name` IN('Threads_connected','Connections','Connection_errors_tcpwrap','Connection_errors_peer_address','Connection_errors_max_connections');"
 
-=== MediaWiki user creation log ===
+== MediaWiki ==
+
+=== User creation log ===
 
 As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accouts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
 
@@ -204,7 +206,7 @@ The following links gives an example on how to get the ''User creation log'' fro
 
 [[File:20150106-account-creation-log-api.png]]
 
-=== MediaWiki; what’s the IP address of a given user? ===
+=== What’s the IP address of a given user? ==
 
 In case of need to review how our infrastructure is being abused, we can get to know the IP address of visitors so that we can effectively ban them.
 
