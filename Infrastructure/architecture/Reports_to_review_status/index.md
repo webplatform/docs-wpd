@@ -3,6 +3,8 @@
 
 From the  [[WPD:Infrastructure/architecture/The_salt_master|The Salt Master]] we can get various system health status. This document describes how to access them.
 
+__TOC__
+
 = Reports =
 
 == How many emails has been sent ==
@@ -119,6 +121,16 @@ There are a few variants we can get data;
         34457
     Uptime:
         11191
+
+== MediaWiki user creation log ==
+
+As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accouts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
+
+The following links gives an example on how to get the ''User creation log'' from MediaWiki, you can get different formats by changing the ''&format='' fragment, ref: [https://www.mediawiki.org/wiki/API:Main_page#The_format ''MediaWiki.org'', the format URL fragment].
+
+* https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=logevents&letype=newusers&lelimit=50&leprop=user|timestamp
+
+[[File:20150106-account-creation-log-api.png]]
 
 == Read reports from a VM through private network ==
 
