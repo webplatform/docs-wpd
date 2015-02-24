@@ -266,16 +266,19 @@ Once connected through ssh with the proxy described, you can connect like this:
 
   http://monit:p4ssword@sessions1:2812/
 
-The password is not "password", you’ll have to look at '''/srv/private/pillar/accounts/''' file yourself at '''accounts:monit:admin_password'''.
+Which should look like this;
+
+[[File:20150224-monit-status-preview.png]]
+
+==== Monit password ====
+
+The password is not "p4ssword", you’ll have to look at '''/srv/private/pillar/accounts/''' file yourself at '''accounts:monit:admin_password''' or in the VM itself at '''/etc/monit/conf.d/defaults.conf'''.
 
 An alternate way to get to know the password is to use salt like this:
 
   salt-call pillar.get accounts:monit:admin_password
   local:
     p4ssword
-
-[[File:20150224-monit-status-preview.png]]
-
 
 == Read reports from a VM through private network ==
 
