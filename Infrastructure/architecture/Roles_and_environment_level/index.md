@@ -48,38 +48,7 @@ The following command gives the a NGINX status view each VM that has ''nginx'' a
         0
     writing:
         1
-  accounts-nginx:
-    ----------
-    accepted:
-        3057
-    active connections:
-        2
-    handled:
-        3012
-    reading:
-        0
-    requests:
-        3015
-    waiting:
-        0
-    writing:
-        1
-  notes-nginx:
-    ----------
-    accepted:
-        3057
-    active connections:
-        2
-    handled:
-        3012
-    reading:
-        0
-    requests:
-        3015
-    waiting:
-        0
-    writing:
-        1
+  ...
 
 
 '''Continue reading about roles in [[WPD:Infrastructure/architecture/VM_roles]]'''
