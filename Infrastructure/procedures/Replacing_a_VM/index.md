@@ -1,22 +1,22 @@
 {{:WPD:Infrastructure/architecture}}
 = Replacing a VM =
 
-This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one and install/apply required web application and configurations in a consistent manner.
+This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one and install/apply required web application and configurations so we could replace a component that is faulty without affecting the site uptime.
 
-Replacing a VM useful when we feel a VM has been compromised, or broken.  Since '''EVERYTHING''' is managed through source control, including what configures the salt master itself, every VM is designed to be replaceable parts of a cluster.
+Replacing a VM is something very common and can be useful in many situations. The fact that rebuilding a VM is a set of commands makes it very cheap to rebuild and gives us the insurance that we didn’t left something behind that could break the site.
 
-'''Note'''; the output of the commands shown here were done from the staging deployment level.
+'''Note'''; the output of the commands shown in this document were done from the staging deployment level.
 
 
 == Introduction ==
 
-In this procedure we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
-
-WebPlatform infrastructure is designed to run on the "cloud" with a set of VMs that can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
+'''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures the salt master itself, every VM can therefore be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
 
 Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]'''.
 
 == Procedure ==
+
+In this procedure we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
 
 Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption.
 
@@ -24,7 +24,7 @@ Since we have either Fastly or a NGINX proxy in front of most web applications, 
 
 '''Reminder''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
 
-You will see that the new VM is taken into account only when we apply the public IP address to it.
+In the end of this document, we will should be able to swap two VMs without interruptions.
 
 === Get the details of one VM ===
 
