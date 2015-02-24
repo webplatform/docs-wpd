@@ -323,4 +323,16 @@ In modern Firefox version, you can do that by going into '''Preferences''', '''A
 
 [[File:201502-Firefox-Network-settings.png]]
  
-To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [http://lifehacker.com/237227/geek-to-live--encrypt-your-web-browsing-session-with-an-ssh-socks-proxy fully detailed article published on LifeHacker]
+To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding SSH Port forwarding help pages on '''help.ubuntu.com''']
+
+Alternately, you can add to your '''~/.ssh/config''' file the following line within the appropriate ''''Host''' block.
+
+ ### WPD Staging
+ Host staging.wpdn
+   Hostname salt.webplatformstaging.org
+   ProxyCommand none
+   DynamicForward 1081
+ Host *.staging.wpdn
+   ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p staging.wpdn
+
+'''Note'' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. This block might be outdated, make sure you always keep your configuration based on what the salt master gives you at connection time as this block might be outdated.
