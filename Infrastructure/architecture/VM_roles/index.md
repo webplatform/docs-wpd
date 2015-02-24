@@ -43,7 +43,7 @@ Before the infrastructure rework sprint of January 2015, the salt master was the
 
 === How to use ===
 
-To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privilegied reports such as service health and usage reports.  
+To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
 
 To view the internal only reports, configure one of your web browser to use your local computer as a proxy through the SSH tunnel we will create.
 
