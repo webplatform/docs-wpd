@@ -18,7 +18,7 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
-The piece of code that makes the parsing is managed by a small piece of Python code in <code>/srv/salt/_grains/purpose.py</code> that parses the name.
+The piece of code that makes the parsing is managed by a small piece of Python code in <code>/srv/salt/_grains/purpose.py</code> (see below) that parses the name.
 
 Getting the VM’s ''roles'' can be done like this:
 
