@@ -36,10 +36,14 @@ Before the infrastructure rework sprint of January 2015, the salt master was the
 ** ''SSH jump box'': SSH Access to every VM is made through that VM. A banner on login gives the current environment 'level', and ssh configuration to use
 ** ''rsync'' (through an 'xinetd' service), each VM can pull files from it. Including backups
 
+=== Design decisions ===
+* The salt master was originally a VM that we had to pray to keep running. From now on everything under '''/srv/''' should be managed in a git repository. If its managed by something not obvious, there’s should be a '''README.md''' file @@TODO, ensure the file is present.
+ 
 === Also related ===
 
 * [https://gist.github.com/WebPlatformDocs/01c09df78f05612c281f Gist containing every essential bootstrap script]. (take the contents of the Gist as a snapshot. @@TODO, put link to authoritative version here)
 * [https://gist.github.com/WebPlatformDocs/780307ff289864ba02f5#file-salt-master-conf Salt Master Monit config]  (take the contents of the Gist as a snapshot. @@TODO, put link to authoritative version here)
+* [[WPD:Infrastructure/architecture/The_salt_master]]
 
 == mail ==
 
