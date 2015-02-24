@@ -247,9 +247,7 @@ New app2 has:
 
 The following commands in the order in which we need the proper values. Each field are generally hexadecimal strings of about 64 characters and dashes. In this example, they are replaced as "foo" and "bar" to illustrate their appropriate positions.
 
-* Get the '''id'' of the floating IP we need. Fields from this command are in the order: id, fixed IP address, Floating IP address, port Id. We only care about the id, here: '''foo'''.
-
-@@TODO double check how to remove a floating IP port.
+* Get the '''id''' of the floating IP we need. Fields from this command are in the order: id, fixed IP address, Floating IP address, port Id. We only care about the id, here: '''foo'''.
 
   neutron floatingip-list | grep 173.236.254.224
   | foo |  10.10.10.215   |  173.236.254.224  |    |
