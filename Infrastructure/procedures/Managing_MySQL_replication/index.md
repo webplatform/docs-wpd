@@ -1,7 +1,8 @@
+{{:WPD:Infrastructure/architecture}}
 = Managing MySQL Replication over SSL =
 
 == Summary ==
-How to manage communication and replication between MySQL servers across data centers.
+How to manage communication and replication between MySQL servers across data-centers.
 
 === Conventions ===
 This document will follow those facts as a convention.
@@ -17,9 +18,10 @@ This document will follow those facts as a convention.
 # On db2,  Unlock databases
 
 === Memory dump, using Salt stack ===
+
 * [http://docs.saltstack.com/ref/modules/all/salt.modules.tls.html TLS salt module]
 
-    salt 'db1*' tls.create_ca 'mysql' days=730 CN='db1.webplatform.org' O='W3C' OU='WebPlatform Docs' emailAddress='EMAIL'
+    salt 'db1*' tls.create_ca 'mysql' days=730 CN='db1-masterdb.production.wpdn' O='W3C' OU='WebPlatform Docs' emailAddress='EMAIL'
 
 
 == Checks ==
@@ -33,6 +35,22 @@ Connect to the MySQL server in question and check if <code>have_ssl</code> is to
     +---------------+-------+
     | have_ssl      | YES   |
     +---------------+-------+
+
+
+== Procedures ==
+
+=== Changing MariaDB replication master ===
+Quoting what I wrote on [https://renoirboulanger.com/blog/2015/01/create-mariadb-cluster-replication-ssl-salt-stack/ a blog post I wrote on January 2015: Create a MariaDB cluster with replication over SSL]:
+
+* From the masterdb MySQL server, in a command line session
+* Lock writes on masterdb databases <code>FLUSH TABLES WITH READ LOCK;</code> (make sure this session stays open, the lock only lasts with the session you used to write it. See [https://mariadb.com/kb/en/mariadb/flush-tables-for-export/ MariaDB flush tables pages])
+* From a secondary MySQL server; Wait replication to catch up <code>SHOW SLAVE STATUS\G</code>
+* Remove replication configuration 
+* Tell all web apps to use new database master (from the salt master, change the '''infra:hosts_entries:masterdb''' key in  '''/srv/pillar/infra/production.sls''' (or '''/srv/pillar/infra/staging.sls''' for staging).
+* From the masterdb; remove database lock by closing the session opened earlier
+* Setup new replication configuration to use new master
+
+@@TODO, Make a more precise procedure with new setup and how to manage.
 
 
 == References ==
