@@ -7,6 +7,19 @@ The software we use for configuration management is called '''[http://saltstack.
 
 Commands that can be done from the salt master VM in the terminal, but some could also be visualized from within your local web browser through [[#Read reports from a VM through private network]].
 
+== How many emails has been sent ==
+
+We can visualize how many emails are being sent to our mail server. It should display the number of refusals (e.g. somebody outside our network trying to use us) over time.
+
+From the browser, through [[#Read reports from a VM through private network]].
+
+  http://mail/cgi-bin/mailgraph.cgi
+
+Should look like this:
+[[File:20150104_mailgraph_day.png]]
+
+'''Note''' that this screenshot was made to illustrate a crisis we’ve had but you can see notes that should illustrate what we can get from the reports.
+
 == Getting to know the status of a php5-fpm backend ==
 
 You can make a basic ''GET /fcgi-status'' to any VMs that has '''php5-fpm''' running. (@@TODO make a role to get all of them and remove the need to guess)
