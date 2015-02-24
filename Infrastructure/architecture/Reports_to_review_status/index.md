@@ -220,9 +220,13 @@ To do so, we are using the [https://www.mediawiki.org/wiki/Extension:CheckUser '
 
 == Using Monit ==
 
+Monit is a software that you can configure to check if a service is accessible or running and how it can make sure its up automatically for you.
+
+'''More about Monit in [[WPD:Infrastructure/Monitoring/Monit]]'''
+
 === From the salt master ===
 
-We can get '''monit''' reports from the salt master like this
+We can get '''monit''' reports '''from the salt master''' like this
 
   salt -G 'roles:app' monit.summary
   app2-jobrunner:
@@ -256,6 +260,31 @@ We can get '''monit''' reports from the salt master like this
     System:
         ----------
         app1.production.wpdn:
+            Running
+
+Or from the same VM:
+
+  sudo salt-call monit.summary
+  [INFO    ] Executing command 'monit summary' in directory '/root'
+  local:
+    ----------
+    Process:
+        ----------
+        exim4:
+            Running
+        gdnsd:
+            Running
+        openssh-server:
+            Running
+        salt-master:
+            Running
+        salt-minion:
+            Running
+        syslog-ng:
+            Running
+    System:
+        ----------
+        salt.production.wpdn:
             Running
 
 === From the web frontend ===
