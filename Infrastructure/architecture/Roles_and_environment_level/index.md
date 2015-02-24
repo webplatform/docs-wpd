@@ -32,6 +32,12 @@ Making an action only on VMs that has a given role can be done like this:
   salt -G 'roles:redis' test.version
   redis-alpha1:
     2014.7.1
+  redis-alpha2:
+    2014.7.1
+  redis-alpha3:
+    2014.7.1
+  redis-bravo1:
+    2014.7.1
 
 '''Continue reading about roles in [[WPD:Infrastructure/architecture/VM_roles]]'''
 
