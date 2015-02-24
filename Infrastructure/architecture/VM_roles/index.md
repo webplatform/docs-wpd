@@ -164,30 +164,43 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have a DNS reverse lookup''':
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
+** OAuth2 server ("fxa-oauth-server")
+** Internal auth API server ("fxa-auth-server")
+** Profile server ("fxa-profile-server")
+** Auth server frontend ("fxa-content-server")
 
 === Design decisions ===
 * [https://github.com/webplatform/ops/issues/115 webplatform/ops#115]: While at the moment we do expose an HTTP server through NGINX to the public, this VM will be eventually not visible. It is planned that we get the IP address it uses to make a new set of hostnames and create a "round robin" (i.e. a DNS name that has more than one IP address) and create a NGINX frontend proxy. This new proxy would serve content from internal backends to the public without exposing 
 
 == memcache ==
 
-* '''How many required''':
-* '''Must it have a public IP address?''':
-* '''Expected public hostname''':
-* '''Must it have a Volume''':
-* '''Must it have a DNS reverse lookup''':
-* '''Must it have publicly opened ports?''':
+* '''How many required''': More than one
+* '''Must it have a public IP address?''': No
+* '''Expected public hostname''': N/A
+* '''Must it have a Volume''': N/A
+* '''Must it have a DNS reverse lookup''': N/A
+* '''Must it have publicly opened ports?''': N/A
 * '''What does it do?''':
+** Memcached server
+
+=== Design decisions ===
+* Memcached is an extremely simple API. Although we can enforce SSL certificate validation, it is not done by default and it also has no authentication. The practice is to ensure that only nodes that should have access can make commands to it. The way to do is to either use Security Groups from the cloud provider, or firewall rules inside the VM.
+* Create a Memcache cluster per use case. For example we could have a memcached cluster for sessions, and another one to cache heavy pages.  If we need to purge the heavy pages cache we can send a purge command to all nodes from that cluster without worrying to destroy every user sessions.
 
 
 == elastic ==
 
-* '''How many required''':
-* '''Must it have a public IP address?''':
-* '''Expected public hostname''':
-* '''Must it have a Volume''':
-* '''Must it have a DNS reverse lookup''':
-* '''Must it have publicly opened ports?''':
+* '''How many required''': One or more
+* '''Must it have a public IP address?''': No
+* '''Expected public hostname''': N/A
+* '''Must it have a Volume''': N/A
+* '''Must it have a DNS reverse lookup''': N/A
+* '''Must it have publicly opened ports?''':  N/A
 * '''What does it do?''':
+** Elasticsearch server
+
+=== Design decisions ===
+* ElasticSearch doesn’t have authentication. If we are to expose it to the public, it MUST be from an API that would forbid dangerous commands. Something not done yet; It’ll be eventually required.
 
 
 == app ==
