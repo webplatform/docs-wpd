@@ -218,6 +218,65 @@ To do so, we are using the [https://www.mediawiki.org/wiki/Extension:CheckUser '
 
 [[File:20150108-visualizing-visitor-IP-vs-users.png]]
 
+== Using Monit ==
+
+=== From the salt master ===
+
+We can get '''monit''' reports from the salt master like this
+
+  salt -G 'roles:app' monit.summary
+  app2-jobrunner:
+    ----------
+    Process:
+        ----------
+        apache2:
+            Running
+        nutcracker:
+            Running
+        openssh-server:
+            Running
+        salt-minion:
+            Running
+    System:
+        ----------
+        app2-jobrunner.production.wpdn:
+            Running
+  app1:
+    ----------
+    Process:
+        ----------
+        apache2:
+            Running
+        nutcracker:
+            Running
+        openssh-server:
+            Running
+        salt-minion:
+            Running
+    System:
+        ----------
+        app1.production.wpdn:
+            Running
+
+=== From the web frontend ===
+
+To do this, you need to create a SOCKS proxy like its described in [[#Read reports from a VM through private network]]
+
+Once connected through ssh with the proxy described, you can connect like this:
+
+  http://monit:p4ssword@sessions1:2812/
+
+The password is not "password", you’ll have to look at '''/srv/private/pillar/accounts/''' file yourself at '''accounts:monit:admin_password'''.
+
+An alternate way to get to know the password is to use salt like this:
+
+  salt-call pillar.get accounts:monit:admin_password
+  local:
+    p4ssword
+
+[[File:20150224-monit-status-preview.png]]
+
+
 == Read reports from a VM through private network ==
 
 To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
@@ -229,6 +288,6 @@ To view the internal only reports, configure one of your web browser to use your
 === Available reports ===
 
 * ''Email reports'': ''http://mail/cgi-bin/mailgraph.cgi'', only on ''mail'' VMs using [http://mailgraph.schweikert.ch/ ''Mailgraph'']
-* ''Monit VM dashboard view'': ''http://admin:password@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
+* ''Monit VM dashboard view'': ''http://monit:p4ssword@app1:2812/''  (all VMs has this available), using [http://mmonit.com/monit/ Monit]
 * '''NGINX''' server status, from a VM that runs NGINX: e.g. ''http://piwik/nginx-status''
 * '''php5-fpm''' status, from a VM that runs ''php5-fpm'': ''http://piwik/fcgi-status''
