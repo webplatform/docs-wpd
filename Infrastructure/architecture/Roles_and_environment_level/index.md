@@ -12,6 +12,8 @@ This document describes how we define what configuration and code will be applie
 
 The roles of a VM is defined by its name, more than one role can be assigned on a single VM. 
 
+Roles are parsed from the name as a list of role names separated by dashes, minus any number it might find.  If you have a VM name '''redis-alpha1''', the roles will therefore be: <nowiki>["redis","alpha"]</nowiki>
+
 Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy, refer to the section  [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app|Deploying and/or updating a web app in '''Deploying code changes'']].
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
