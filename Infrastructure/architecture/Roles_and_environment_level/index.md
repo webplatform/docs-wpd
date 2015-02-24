@@ -18,13 +18,28 @@ Some roles are made to ensure configuration based on design decisions (e.g. dete
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
+The piece of code that makes the parsing is managed by a small piece of Python code in <code>/srv/salt/_grains/purpose.py</code> that parses the name.
+
+Getting the VM’s ''roles'' can be done like this:
+
+  salt db5-masterdb grains.get roles
+  db5-masterdb:
+    - db
+    - masterdb
+
+Making an action only on VMs that has a given role can be done like this:
+
+  salt -G 'roles:redis' test.version
+  redis-alpha1:
+    2014.7.1
+
 '''Continue reading about roles in [[WPD:Infrastructure/architecture/VM_roles]]'''
 
 == Level ==
 
 The "''environment level''" is defined as a <code>key: value</code> string (e.g. "level: production") in <code>/etc/salt/grains</code>. That file is created when the VM is created using the salt master managed <code>/srv/opsconfig/userdata.txt</code> '''cloud-init'' boot script.  
 
-Getting the ''environment level'' name that the VM knows it has would be done like this:
+Getting the ''environment level'' name that the VM knows it has can be done like this:
 
   salt vmname grains.get level
   vmname:
