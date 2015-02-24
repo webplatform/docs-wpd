@@ -36,6 +36,9 @@ To access/overwrite the file in Fastly, go to:
 * Configure tab on top, Configure button
 * VCL on the left
 
+==== Wizard to add a backend host ====
+
+[[File:fastly-docs-service-hosts-screenshot.png]]
 
 === Current Fastly configuration ===
 Make the content of snippet as a file and upload it to the Fastly control pannel.
