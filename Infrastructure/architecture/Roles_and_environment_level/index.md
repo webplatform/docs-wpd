@@ -29,7 +29,7 @@ Getting the VM’s ''roles'' can be done like this:
 
 Making an action only on VMs that has a given role can be done in one command.
 
-The following command gives the a NGINX status view each VM that has ''nginx'' as a role through [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.nginx.html#salt.modules.nginx.status ''Salt Stack'' '''nginx.status'' module], more reports are available in [[WPD:Infrastructure/architecture/Reports_to_review_status]]
+The following command gives the a NGINX status view each VM that has ''nginx'' as a role through [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.nginx.html#salt.modules.nginx.status ''Salt Stack'' '''nginx.status''' module], more reports are available in [[WPD:Infrastructure/architecture/Reports_to_review_status]]
 
   salt -G 'roles:nginx' nginx.status
   specs-nginx:
