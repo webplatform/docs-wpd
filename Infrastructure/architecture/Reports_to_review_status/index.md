@@ -187,7 +187,7 @@ We can check what’s the state of the MySQL server by issuing the following com
 
 Here are a few possibly useful commands to pick from;
 
-'''Note''' its even possible to work on grants/privileges, add/delete databases. Note that if you do so, you MUST make sure that you do it ONLY on the salt master.
+'''Note''' its even possible to work on grants/privileges, add/delete databases. Note that if you do so, you MUST make sure that you do it ONLY on the salt master. To learn more, refer to [http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.mysql.html#salt.modules.mysql.get_slave_status ''Salt Stack'' documentation at '''mysql''' module].
 
   salt db2 mysql.get_slave_status
   salt -G 'roles:masterdb' mysql.get_master_status
@@ -206,7 +206,7 @@ The following links gives an example on how to get the ''User creation log'' fro
 
 [[File:20150106-account-creation-log-api.png]]
 
-=== What’s the IP address of a given user? ==
+=== What’s the IP address of a given user? ===
 
 In case of need to review how our infrastructure is being abused, we can get to know the IP address of visitors so that we can effectively ban them.
 
