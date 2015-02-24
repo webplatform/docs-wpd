@@ -1,7 +1,7 @@
 {{:WPD:Infrastructure/architecture}}
 = Reports to review status =
 
-From the  [[WPD:Infrastructure/architecture/The Salt Master]] we can get various system health status. This document describes how to access them.
+From the  [[WPD:Infrastructure/architecture/The_Salt_Master]] we can get various system health status. This document describes how to access them.
 
 = Reports =
 
