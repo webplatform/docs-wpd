@@ -18,7 +18,7 @@ Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computin
 
 In this procedure we will replace a app2 VM with another that has more ''vRAM'' and ''vCPU''.
 
-Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption. Regardless of whether or not our current OpenStack host supports resizing or not, for the purpose of this article, we’ll walk through the steps.
+Technically OpenStack allows us to "resize" a VM and after a few minutes get the new capacity. Depending of the OpenStack deployment, its even possible to make such resizes without interruption. For the purpose of this tutorial, we’ll walk through the steps of replacing a VM regardless of whether or not our current OpenStack host supports resizing.
 
 Since we have either Fastly or a NGINX proxy in front of most web applications, the fact that a VM isn’t live doesn’t break the site as the frontends already takes care of asking other VMs in the same cluster.
 
