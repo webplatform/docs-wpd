@@ -5,12 +5,12 @@ This document describes how to replace any VM in an existing deployment (e.g. st
 
 Using our ''Salt Stack'' [https://github.com/webplatform/states states], rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
 
-'''Note'''; the output of the commands shown in this document were done from the staging deployment level.
+'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master.
 
 
 == Introduction ==
 
-'''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures (i.e. the  [https://github.com/webplatform/states states]) from the salt master, every VM can therefore be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
+'''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures (i.e. the  [https://github.com/webplatform/states states]) from the VM acting as a ''salt-master'', every VM can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
 
 Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]''' and the configuration is managed by a software called [http://saltstack.com/ Salt Stack].
 
@@ -22,9 +22,12 @@ Technically OpenStack allows us to "resize" a VM and after a few minutes get the
 
 Since we have either Fastly or a NGINX proxy in front of most web applications, the fact that a VM isn’t live doesn’t break the site as the frontends already takes care of asking other VMs in the same cluster.
 
-'''Reminder''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
-
 In the end of this document, we will should be able to swap two VMs without interruptions.
+
+
+'''About Fastly/Varnish''' if you need to work with Fastly/Varnish, refer to [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration]]
+
+'''Note'''; the output of the commands shown in this document were done from the staging deployment level.
 
 === Get the details of one VM ===
 
@@ -36,7 +39,7 @@ We know that ''app2'' has two IP addresses assigned
 * private: ''10.10.10.215''
 * public: ''173.236.254.224''. If we look at the ''Fastly'' dashboard, we should have this IP in; ''docs (staging)'', ''www (staging)'', ''code (staging)'' services.
 
-What is the flavor (i.e. Size of RAM and number of CPUs)  app2 has?
+What is the flavor (i.e. Size of RAM and number of CPUs)  ''app2'' has?
 
   nova show app2|grep flavor
   | flavor                               | supersonic (200)                                                       |
@@ -56,16 +59,18 @@ What ''supersonic'' has (showing only some here);
 
 === Prepare to replace app2 ===
   
-Let’s remove app2 from the salt master
+Let’s unregister ''app2''’s ''salt-minion'' from the ''salt-master''
 
   salt-key -y -d app2
 
-The current ''app2'' VM still has its public IP address, we didn’t delete it, we only did remove it from salt. Benefit here is that we will refer to our new VM as ''app2'' without conflicts. 
+''app2'' still has its public IP address —we didn’t delete it— we only did remove it from the ''salt-master''. Benefit here is that we will refer to our new VM as ''app2'' without conflicts when interacting via the ''salt'' commands. 
 
-Let’s not delete the VM right away. Unless, of course, the VM in question has "flapping" services (i.e. on-off) and breaks the live site.
+'''Tip''' Unless the VM in question is "''flapping''" (inconsistently breaks the site), we could delete the faulty VM right away. If that VM is behind a proxy such as ''Fastly'' or part of a NGINX backends, other servers will take the load until a new one is in place.
 
 
 === Create a new VM ===
+
+Boot a new VM;
 
  nova boot --image Ubuntu-14.04-Trusty --user-data /srv/opsconfigs/userdata.txt --key_name renoirb-staging --flavor lightspeed --security-groups default,frontend app2
 
@@ -77,7 +82,6 @@ Notice a few details:
 
 '''Tip''' Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in ''/srv/private/pillars/sshkeys/'' on the salt master.
 
-'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master.
 
 === Wait until the VM is ready ===
 
