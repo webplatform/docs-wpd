@@ -249,6 +249,8 @@ The following commands in the order in which we need the proper values. Each fie
 
 * Get the '''id''' of the floating IP we need. Fields from this command are in the order: id, fixed IP address, Floating IP address, port Id. We only care about the id, here: '''foo'''.
 
+@@TODO: Validate if I didn’t forget to show how to dissociate an existing port.
+
   neutron floatingip-list | grep 173.236.254.224
   | foo |  10.10.10.215   |  173.236.254.224  |    |
 
@@ -265,13 +267,13 @@ The new vm ''app2'' has now the public IP and the old VM is not used anymore
 
 == Delete the old app2 VM ==
 
-Now that we have two app2 VMs in our OpenStack cluster, we cannot refer to the name to ''nova''.  Not a big deal, we can use the uuid string to refer to a VM. Note that I renamed the UUID here as "buzz" and "bizzz", they won’t look like this in a real deployment.
+Now that we have two app2 VMs in our OpenStack cluster, we cannot refer to the name to ''nova''.  Not a big deal, we can use the uuid string to refer to a VM. Note that I renamed the UUID here as "buzz" and "bizz", they won’t look like this in a real deployment.
 
 Since we already know that we just changed the Floating IP to the ''app2'' VM we want to keep, it means that we know which one to delete.
 
   nova list | grep app2
   | buzz | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.215 |
-  | bizzz | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.218, 173.236.254.224 |
+  | bizz | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.218, 173.236.254.224 |
 
 We can delete the VM
 
