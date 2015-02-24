@@ -321,13 +321,13 @@ To view the internal only reports, configure one of your web browser to use your
 
 Alternately, you can add to your '''~/.ssh/config''' file the following line within the appropriate '''Host''' block.
 
- ### WPD Staging
- Host staging.wpdn
-   Hostname salt.webplatformstaging.org
+ ### WPD Production
+ Host production.wpdn
+   Hostname salt.webplatform.org
    ProxyCommand none
    DynamicForward 1080
- Host *.staging.wpdn
-   ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p staging.wpdn
+ Host *.production.wpdn
+   ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p production.wpdn
 
 '''Note''' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
 
