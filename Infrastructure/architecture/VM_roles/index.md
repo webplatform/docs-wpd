@@ -7,6 +7,13 @@ The '''following list is in order of importance''' based on the fact '''that the
 
 == Network diagram overview ==
 
+=== Former configuration ===
+
+@@TODO make variant of ''Future configuration'' to illustrate difference.
+
+
+=== Future configuration ===
+
 [[File:Component-diagram-internal.png]]
 
 
