@@ -203,6 +203,9 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
 
+=== Design decisions ===
+* Originally made to run all web apps when we launched in 2012: mediawiki, blog and later were TheBugGenie and so on. After some time Ryan decided to move the blog to one VM and with other speed problems to create another VM for BugGenie. This is why we have that many VMs nowadays.
+
 
 == blog ==
 
