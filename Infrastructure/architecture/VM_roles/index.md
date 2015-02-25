@@ -53,7 +53,8 @@ Before the infrastructure rework sprint of January 2015, the salt master was the
 
 === Design decisions ===
 * The salt master was originally a VM that we had to pray to keep running. From now on everything under '''/srv/''' should be managed in a git repository. If its managed by something not obvious, there’s should be a '''README.md''' file @@TODO, ensure the file is present.
- 
+
+
 === Also related ===
 
 * [https://gist.github.com/WebPlatformDocs/01c09df78f05612c281f Gist containing every essential bootstrap script]. (take the contents of the Gist as a snapshot. @@TODO, put link to authoritative version here)
