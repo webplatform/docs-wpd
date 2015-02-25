@@ -10,6 +10,8 @@
 
 === Future configuration ===
 
+In order to allow us to support more than one backend server and a simplified frontend configuration scheme, we are going to create a cluster of NGINX servers that’ll serve every requests.  While some components are served by Fastly and others aren’t, the NGINX cluster will serve all of them regardless.
+
 [[File:Component-diagram-internal.png]]
 
 
