@@ -232,6 +232,11 @@ This VM is only accessible from internal network which is sensible considering i
 * '''Must it have a DNS reverse lookup''':
 * '''Must it have publicly opened ports?''':
 * '''What does it do?''':
+** Runs The Bug Genie
+
+=== Design Decisions ===
+* VM created to host exclusively Bug Genie project management.
+* Bug Genie will eventually be phased out in favor to something else.
 
 
 == notes ==
