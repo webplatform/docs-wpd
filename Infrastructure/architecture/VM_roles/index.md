@@ -5,6 +5,12 @@ In order to have a fully functional site we need to have at least one VM for eac
 
 The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them'''; 
 
+== Network diagram overview ==
+
+[[File:Component-diagram-internal.png]]
+
+
+= Roles =
 
 == source ==
 
