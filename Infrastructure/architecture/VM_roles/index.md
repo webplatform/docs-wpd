@@ -31,7 +31,7 @@ Note that although we could have a staging ''source'' VM (i.e. ''source.webplatf
 * '''Must it have a Volume''': ''yes''  (to store the code repositories)
 * '''Must it have a DNS reverse lookup''': No
 * '''What does it do?''':
-** ''Source code hosting'' through git, using Gitolite
+** ''Source code hosting'' through git, using Gitolite. We might soon either use back Gerrit or Phabricator
 
 
 == salt ==
