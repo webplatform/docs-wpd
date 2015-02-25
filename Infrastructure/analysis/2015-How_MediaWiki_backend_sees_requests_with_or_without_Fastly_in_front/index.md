@@ -51,7 +51,6 @@ USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (K
 DNT: 1
 REFERER: https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/VM_roles
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
@@ -113,7 +112,6 @@ REFERER: https://docs.webplatform.org/w/index.php?title=Special:UserLogin&return
 ACCEPT-ENCODING: gzip, deflate
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: _pk_ref.1.6aa5=%5B%22%22%2C%22%22%2C1424138557%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FPublic%2Fpublic-webplatform%2F2015Feb%2F0003.html%22%5D; _pk_id.1.6aa5=f60e7f3954913aa0.1420732750.108.1424138557.1424116005.; _pk_ref.9.6aa5=%5B%22%22%2C%22%22%2C1424182609%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FTeam%2Fw3t-sys%2F2015JanFeb%2F0093.html%22%5D; _pk_id.9.6aa5=ea6c3462853cd2d6.1421114716.7.1424182620.1422055058.; wptestwiki_session=37ad13fe80ea727fdbb89a1870dbb29c; wptestwikiUserID=150; wptestwikiUserName=Renoirb; _pk_ref.1.db2a=%5B%22%22%2C%22%22%2C1424897026%2C%22http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dhtml%7Btouch-action%3Anone%3B%7D%22%5D; wpwikiUserName=Renoirb; wpwiki_session=mf5fir53lg7c2ao641o9pfjmn3; wpwikiLoggedOut=1424900841; _pk_id.1.db2a=e07e1a4d4c024be6.1424134581.36.1424900895.1424887118.; _pk_ses.1.db2a=*
-FASTLY-DEBUG: true
 [caches] main: MemcachedPeclBagOStuff, message: MemcachedPeclBagOStuff, parser: MemcachedPeclBagOStuff
 [caches] LocalisationCache: using store LCStoreDB
 Fully initialised
@@ -142,7 +140,6 @@ REFERER: https://docs.webplatform.org/w/index.php?title=Special:UserLogin&return
 ACCEPT-ENCODING: gzip, deflate, sdch
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: _pk_ref.1.6aa5=%5B%22%22%2C%22%22%2C1424138557%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FPublic%2Fpublic-webplatform%2F2015Feb%2F0003.html%22%5D; _pk_id.1.6aa5=f60e7f3954913aa0.1420732750.108.1424138557.1424116005.; _pk_ref.9.6aa5=%5B%22%22%2C%22%22%2C1424182609%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FTeam%2Fw3t-sys%2F2015JanFeb%2F0093.html%22%5D; _pk_id.9.6aa5=ea6c3462853cd2d6.1421114716.7.1424182620.1422055058.; wptestwiki_session=37ad13fe80ea727fdbb89a1870dbb29c; wptestwikiUserID=150; wptestwikiUserName=Renoirb; _pk_ref.1.db2a=%5B%22%22%2C%22%22%2C1424897026%2C%22http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dhtml%7Btouch-action%3Anone%3B%7D%22%5D; wpwikiLoggedOut=1424900841; _pk_id.1.db2a=e07e1a4d4c024be6.1424134581.36.1424900895.1424887118.; _pk_ses.1.db2a=*; wpwikiUserID=10080; wpwikiUserName=Renoirb; wpwiki_session=dcdcmaq5g1d067e87sr2beslr7
-FASTLY-DEBUG: true
 [caches] main: MemcachedPeclBagOStuff, message: MemcachedPeclBagOStuff, parser: MemcachedPeclBagOStuff
 [caches] LocalisationCache: using store LCStoreDB
 Fully initialised
@@ -185,7 +182,6 @@ CONTENT-TYPE: multipart/form-data; boundary=----WebKitFormBoundary0HGHKqUos8MAYr
 DNT: 1
 REFERER: https://docs.webplatform.org/w/index.php?title=WPD:Infrastructure/architecture/VM_roles&action=edit
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
@@ -281,7 +277,6 @@ USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (K
 DNT: 1
 REFERER: https://docs.webplatform.org/w/index.php?title=WPD:Infrastructure/architecture/VM_roles&action=edit
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
@@ -354,7 +349,6 @@ REFERER: https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/VM_ro
 ACCEPT-ENCODING: gzip, deflate, sdch
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: _pk_ref.1.6aa5=%5B%22%22%2C%22%22%2C1424138557%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FPublic%2Fpublic-webplatform%2F2015Feb%2F0003.html%22%5D; _pk_id.1.6aa5=f60e7f3954913aa0.1420732750.108.1424138557.1424116005.; _pk_ref.9.6aa5=%5B%22%22%2C%22%22%2C1424182609%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FTeam%2Fw3t-sys%2F2015JanFeb%2F0093.html%22%5D; _pk_id.9.6aa5=ea6c3462853cd2d6.1421114716.7.1424182620.1422055058.; wptestwiki_session=37ad13fe80ea727fdbb89a1870dbb29c; wptestwikiUserID=150; wptestwikiUserName=Renoirb; _pk_ref.1.db2a=%5B%22%22%2C%22%22%2C1424897026%2C%22http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dhtml%7Btouch-action%3Anone%3B%7D%22%5D; wpwikiLoggedOut=1424900841; wpwikiUserID=10080; wpwikiUserName=Renoirb; wpwiki_session=dcdcmaq5g1d067e87sr2beslr7; _pk_id.1.db2a=e07e1a4d4c024be6.1424134581.36.1424901013.1424887118.; _pk_ses.1.db2a=*
-FASTLY-DEBUG: true
 [caches] main: MemcachedPeclBagOStuff, message: MemcachedPeclBagOStuff, parser: MemcachedPeclBagOStuff
 [caches] LocalisationCache: using store LCStoreDB
 Fully initialised
@@ -394,7 +388,6 @@ USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (K
 DNT: 1
 REFERER: https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/VM_roles
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
@@ -450,7 +443,6 @@ REFERER: https://docs.webplatform.org/wiki/Main_Page
 ACCEPT-ENCODING: gzip, deflate, sdch
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: _pk_ref.1.6aa5=%5B%22%22%2C%22%22%2C1424138557%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FPublic%2Fpublic-webplatform%2F2015Feb%2F0003.html%22%5D; _pk_id.1.6aa5=f60e7f3954913aa0.1420732750.108.1424138557.1424116005.; _pk_ref.9.6aa5=%5B%22%22%2C%22%22%2C1424182609%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FTeam%2Fw3t-sys%2F2015JanFeb%2F0093.html%22%5D; _pk_id.9.6aa5=ea6c3462853cd2d6.1421114716.7.1424182620.1422055058.; wptestwiki_session=37ad13fe80ea727fdbb89a1870dbb29c; wptestwikiUserID=150; wptestwikiUserName=Renoirb; _pk_ref.1.db2a=%5B%22%22%2C%22%22%2C1424897026%2C%22http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dhtml%7Btouch-action%3Anone%3B%7D%22%5D; wpwikiLoggedOut=1424900841; wpwikiUserID=10080; wpwikiUserName=Renoirb; wpwiki_session=dcdcmaq5g1d067e87sr2beslr7; _pk_id.1.db2a=e07e1a4d4c024be6.1424134581.36.1424901018.1424887118.; _pk_ses.1.db2a=*
-FASTLY-DEBUG: true
 [caches] main: MemcachedPeclBagOStuff, message: MemcachedPeclBagOStuff, parser: MemcachedPeclBagOStuff
 [caches] LocalisationCache: using store LCStoreDB
 Fully initialised
@@ -483,7 +475,6 @@ REFERER: https://docs.webplatform.org/w/index.php?title=Special:UserLogout&retur
 ACCEPT-ENCODING: gzip, deflate, sdch
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: _pk_ref.1.6aa5=%5B%22%22%2C%22%22%2C1424138557%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FPublic%2Fpublic-webplatform%2F2015Feb%2F0003.html%22%5D; _pk_id.1.6aa5=f60e7f3954913aa0.1420732750.108.1424138557.1424116005.; _pk_ref.9.6aa5=%5B%22%22%2C%22%22%2C1424182609%2C%22https%3A%2F%2Flists.w3.org%2FArchives%2FTeam%2Fw3t-sys%2F2015JanFeb%2F0093.html%22%5D; _pk_id.9.6aa5=ea6c3462853cd2d6.1421114716.7.1424182620.1422055058.; wptestwiki_session=37ad13fe80ea727fdbb89a1870dbb29c; wptestwikiUserID=150; wptestwikiUserName=Renoirb; _pk_ref.1.db2a=%5B%22%22%2C%22%22%2C1424897026%2C%22http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dhtml%7Btouch-action%3Anone%3B%7D%22%5D; wpwikiUserName=Renoirb; wpwiki_session=dcdcmaq5g1d067e87sr2beslr7; wpwikiLoggedOut=1424901020; _pk_id.1.db2a=e07e1a4d4c024be6.1424134581.36.1424901022.1424887118.; _pk_ses.1.db2a=*
-FASTLY-DEBUG: true
 [caches] main: MemcachedPeclBagOStuff, message: MemcachedPeclBagOStuff, parser: MemcachedPeclBagOStuff
 [caches] LocalisationCache: using store LCStoreDB
 Fully initialised
@@ -519,7 +510,6 @@ DNT: 1
 REFERER: https://docs.webplatform.org/wiki/Main_Page
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
 COOKIE: wpwikiLoggedOut=1424902515; wpwikiUserID=10080; wpwikiUserName=Renoirb; wpwiki_session=bc1ec4fbf11d31c6907ceb23b70f2d06; _pk_id.1.db2a=29c40a6dea503cbe.1424901216.1.1424905230.1424901216.; _pk_ses.1.db2a=*
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
@@ -559,7 +549,6 @@ USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (K
 DNT: 1
 REFERER: https://docs.webplatform.org/w/index.php?title=Special:UserLogout&returnto=Main+Page
 ACCEPT-LANGUAGE: fr-CA,fr;q=0.8,fr-FR;q=0.6,en-US;q=0.4,en;q=0.2
-FASTLY-DEBUG: true
 FASTLY-CLIENT-IP: 173.178.131.111
 X-FORWARDED-HOST: docs.webplatform.org
 X-FORWARDED-SERVER: www.webplatform.org
