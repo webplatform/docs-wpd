@@ -78,7 +78,7 @@ According to email server management best practices, it would be better to have 
 * '''What does it do?''':
 ** SMTP relay (using Postfix) to the outside world
 ** OpenDKIM to sign emails before sending them
-** Mailgraph
+** Mailgraph, creates rrd graphs to visualize the email traffic
 
 
 == masterdb ==
@@ -121,7 +121,7 @@ The first database server we originally had was MySQL 5.1 and the VM had a name 
 * The upcoming infrastructure changes would have to be more specific as we’ll also need to have a PostgreSQL cluster and we’ll have to create a different role name for the different vendor.
 * We do not forbid database writes on ANY db server and that even though we may have one VM with the role masterdb because we want to be able to quickly change master.
 * It is planned to use new replication features such as ones that we can send writes to any nodes and the replication will be made consistent everywhere. This has to be tested first though.
-
+* At the beginning this VM was running on Ubuntu 10.04 with MySQL 5.1
 
 
 == sessions ==
@@ -144,15 +144,17 @@ This VM is only accessible from internal network which is sensible considering i
 * The objective of the ''sessions'' VM is to store only user session data in a key store (redis, memcached, etc) so we do not mix general use object cache web applications would make.
 * Note that there’s no enforcement, authentications, checks for who and what we send at the moment of writing of this document
 * Each web app VM will eventually run a proxy to the sessions storage this VM provides with a software called ''Nutcracker'' (a.k.a. [https://github.com/twitter/twemproxy/ TwEmProxy]) 
+* As with other keystore VMs such as the ones with roles '''redis''' and '''memcache''', the port should be the default value from the VM itself. Each client VM to sessions will also expose the default port as if it was local.
+
 
 == accounts ==
 
-* '''How many required''':
-* '''Must it have a public IP address?''':
+* '''How many required''': 1
+* '''Must it have a public IP address?''': Yes (for now, until we make it behind NGINX)
 * '''Expected public hostname''':
-* '''Must it have a Volume''':
-* '''Must it have a DNS reverse lookup''':
-* '''Must it have publicly opened ports?''':
+* '''Must it have a Volume''': N/A
+* '''Must it have a DNS reverse lookup''': N/A
+* '''Must it have publicly opened ports?''': N/A
 * '''What does it do?''':
 ** OAuth2 server ("fxa-oauth-server")
 ** Internal auth API server ("fxa-auth-server")
