@@ -1,9 +1,6 @@
 {{:WPD:Infrastructure/architecture}}
 = VM Roles =
 
-In order to have a fully functional site we need to have at least one VM for each of the following roles. Some VMs can fill more than one role.
-
-The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them'''; 
 
 == Network diagram overview ==
 
@@ -11,13 +8,16 @@ The '''following list is in order of importance''' based on the fact '''that the
 
 @@TODO make variant of ''Future configuration'' to illustrate difference.
 
-
 === Future configuration ===
 
 [[File:Component-diagram-internal.png]]
 
 
 = Roles =
+
+In order to have a fully functional site we need to have at least one VM for each of the following roles. Some VMs can fill more than one role.
+
+The '''following list is in order of importance''' based on the fact '''that the ones below would generally rely on the ones over them''';
 
 == source ==
 
