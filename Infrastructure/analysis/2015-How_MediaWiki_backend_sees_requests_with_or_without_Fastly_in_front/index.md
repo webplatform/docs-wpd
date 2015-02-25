@@ -4,7 +4,7 @@ This page shows two equivalent browsing sessions. One was made with Fastly, and 
 
 == Go to Edit Form ==
 === Without Fastly ===
-<code>
+<syntaxHighlight lang="text">
 Start request GET /w/index.php?title=Special:UserLogin&returnto=WPD%3AInfrastructure%2Farchitecture%2FVM+roles
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -31,10 +31,10 @@ Parser: using preprocessor: Preprocessor_DOM
 Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
 OutputPage::sendCacheControl: private caching;  **
 Request ended normally
-</code>
+</syntaxHighlight>
 
 === With Fastly ===
-<code>
+<SyntaxHighlight  lang="text">
 Start request GET /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&action=edit
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -84,4 +84,4 @@ Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/arch
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 OutputPage::sendCacheControl: private caching;  **
 Request ended normally
-</code>
+</SyntaxHighlight>
