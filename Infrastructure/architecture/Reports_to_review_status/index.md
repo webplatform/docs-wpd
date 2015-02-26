@@ -311,45 +311,4 @@ An alternate way to get to know the password is to use salt like this:
 
 == Read reports from a VM through private network ==
 
-To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
-
-To view the internal only reports, configure one of your web browser to use your local computer as a proxy through the SSH tunnel we will create.
-
-  ssh salt.webplatform.org -C -D 1080
-
-=== Setting automatically a SOCKS proxy in your SSH configuration ===
-
-Alternately, you can add to your '''~/.ssh/config''' file the following line within the appropriate '''Host''' block.
-
- ### WPD Production
- Host production.wpdn
-   Hostname salt.webplatform.org
-   ProxyCommand none
-   DynamicForward 1080
- Host *.production.wpdn
-   ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p production.wpdn
-
-'''Note''' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
-
-To connect to the salt master, you’d have to do this instead and all will be setup automatically:
-
-  ssh production.wpdn
-
-You can even connect to a VM directly using the salt master as a ''Jump Box''
-
-  ssh app1.production.wpdn
-
-To use the proxy, you need at least one SSH connection established to the infrastructure.
-
-'''IMPORTANT''' Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
-
-
-=== Configuring a web browser to use the proxy ===
-
-Once connected, you have to configure a web browser to use your new '''DynamicForward''' SOCKS proxy. 
-
-In modern Firefox version, you can do that by going into '''Preferences''', '''Advanced''', '''Network''' tab, then '''Connection''' button. You’ll see a window similar to below. Adjust accordingly.
-
-[[File:201502-Firefox-Network-settings.png]]
- 
-To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding SSH Port forwarding help pages on '''help.ubuntu.com''']
+To view the internal only reports, you need to setup your local machine to pass through our ''Jumpbox''. The instructions are available in [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH|Accessing a VM using SSH in '''Base configuration of a VM'''']]
