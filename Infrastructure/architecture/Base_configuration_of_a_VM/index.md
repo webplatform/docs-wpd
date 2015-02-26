@@ -13,4 +13,59 @@ Here is a few details that every VMs has in common
 
 == Accessing a VM using SSH ==
 
-stub.
+To work on any VM on WebPlatform architecture, you have to have one of the site operators to add your SSH public key. Once you have access, you’ll be able to jump to the VMs you are granted access through what’s called a '''SSH Jumpbox'''.
+
+One of the common use-case for this setup is to gain access to [[WPD:Infrastructure/architecture/Reports_to_review_status]], or to make some random checks.
+
+The following will explain how you can install on your local machine the configuration you need to connect to the VMs through SSH.
+
+=== How it works ===
+
+In summary, a ''SSH Jumpbox'' is basically a way to refer to a VM within a private network using a publicly available SSH server acting as a proxy.
+
+To work on a cluster on a given level, you can use the salt master as a SOCKS proxy to view privileged reports such as service health and usage reports.  
+
+To view the internal only reports, configure one of your web browser to use your local computer as a proxy through the SSH tunnel we will create.
+
+  ssh salt.webplatform.org -C -D 1080
+
+This would allow you to connect only to the salt master and have a SOCKS proxy. To access all VMs and simplify the commands to use, read on.
+
+=== Setting automatically a SOCKS proxy in your SSH configuration ===
+
+A reliable solution is to setup your local ssh client to do things for you automatically.
+
+Those things can be done in '''~/.ssh/config''' file the following line within the appropriate '''Host''' block. Or using PuTTY, if you use Windows.
+
+ ### WPD Production
+ Host production.wpdn
+   Hostname salt.webplatform.org
+   ProxyCommand none
+   DynamicForward 1080
+ Host *.production.wpdn
+   ProxyCommand ssh -e @ -o StrictHostKeyChecking=no -a -W %h:%p production.wpdn
+
+'''Note''' this block is an example of what you can use to have a '''DynamicForward''' automatically installed. 
+
+To connect to the salt master, you’d have to do this instead and all will be setup automatically:
+
+  ssh production.wpdn
+
+You can even connect to a VM directly using the salt master as a ''Jump Box''
+
+  ssh app1.production.wpdn
+
+To use the proxy, you need at least one SSH connection established to the infrastructure.
+
+'''IMPORTANT''' Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
+
+
+=== Configuring a web browser to use the proxy ===
+
+Once connected, you have to configure a web browser to use your new '''DynamicForward''' SOCKS proxy. 
+
+In modern Firefox version, you can do that by going into '''Preferences''', '''Advanced''', '''Network''' tab, then '''Connection''' button. You’ll see a window similar to below. Adjust accordingly.
+
+[[File:201502-Firefox-Network-settings.png]]
+ 
+To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding SSH Port forwarding help pages on '''help.ubuntu.com''']
