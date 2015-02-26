@@ -39,6 +39,7 @@ At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''bl
 
 * Listens on default port on private IPv4 interface of their respective service
 * No web app should call them directly, use Nutcracker as a proxy instead
+* VMs with role ''sessions'' are separate from the other keystores by design so we can purge data from any other clusters without destroying our user sessions
 
 == Accessing a VM using SSH ==
 
