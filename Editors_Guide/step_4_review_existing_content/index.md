@@ -1,6 +1,6 @@
 {{Page_Title|Step 4: Review existing content}}
 {{Flags
-|State=
+|State=Out of Date
 |Editorial notes=
 |Checked_Out=No
 }}
