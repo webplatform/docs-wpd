@@ -80,7 +80,6 @@ Begin reviewing, marking, and editing pages using these resources:
     <div class="inner">
         <h3 style='min-height:30px'>[[WPD:Editors_Guide/step_4_review_existing_content|Review existing content]]</h3>
             <ul>
-            <li>[[WPD:Editors_Guide/step_4_review_existing_content#IAdd comments to sections|Add comments]]</li>
             <li>[[WPD:Editors_Guide/step_4_review_existing_content#How to add a flag|Add flags]]</li>
         </ul>
      </div>
