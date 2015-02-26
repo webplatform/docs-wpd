@@ -4,7 +4,8 @@
 Here is a few details that every VMs has in common
 
 * Ubuntu 14.04 LTS
-* Each VM has a full name describing its role and environment level known internally pointing to private IPs.
+* Each VM has a full name describing its role and environment level known internally pointing to private IPs (e.g. ''app3-jobrunner.production.wpdn'').
+* The mail relay (e.g. ''mail.webplatform.org'') takes care of converting to publicly addressable origin but has headers to know which VM sent the message
 * Apt has automatic security updates enabled
 * IPv6 is supported by DreamCompute, but disabled for the moment
 * Private IPv4 networking enabled at ''security groups'' levels accross VMs, adresses are in <code>10.10.10.0/24</code> range (e.g. ''10.10.10.2'').
