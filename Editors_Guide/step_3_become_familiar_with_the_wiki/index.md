@@ -1,5 +1,7 @@
 {{Page_Title|Editor's Guide: Step 3: Become familiar with the wiki}}
 {{Flags
+|State=Out of Date
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|This is Step 3 of the [[WPD:Editors_Guide|Editor's Guide]].}}
@@ -18,7 +20,11 @@ Begin reviewing, marking, and editing pages using these resources:
 ===Explore the web development docs===
 * Join [[Meta:web_platform_wednesday|Web Platform Wednesdays]] to help with the current content drive.
 * Visit the [[Main_Page| WebPlatform Home page]] to start reviewing existing documentation.
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
