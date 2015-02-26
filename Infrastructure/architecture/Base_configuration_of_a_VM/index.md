@@ -4,8 +4,9 @@
 Here is a few details that every VMs has in common
 
 * Ubuntu 14.04 LTS
-* Automatic security updates
-* IPv6 disabled
+* Each VM has a full name describing its role and environment level known internally pointing to private IPs.
+* Apt has automatic security updates enabled
+* IPv6 is supported by DreamCompute, but disabled for the moment
 * Private IPv4 networking enabled at ''security groups'' levels accross VMs, adresses are in <code>10.10.10.0/24</code> range (e.g. ''10.10.10.2'').
 * Nothing is exposed publicly except the bare minimum
 * Access to ANY VM is only made through the salt master acting as a '''JumpBox''', see [[#Accessing_a_VM_using_SSH|Accessing a VM using SSH]]
