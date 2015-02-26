@@ -1,3 +1,4 @@
+__INDEX__
 {{:WPD:Infrastructure/architecture}}
 = Roles and environment level =
 
