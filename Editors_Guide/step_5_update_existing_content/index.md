@@ -1,7 +1,7 @@
 {{Page_Title|Step 5: Update existing content}}
 {{Flags
 |State=Out of Date
-|Editorial notes=
+|Editorial notes=Need to create a NEW Page for this Editor's Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag splist (et al.) to display a list of sub pages, find a link, if this page exists already.
 |Checked_Out=No
 }}
 {{Summary_Section|MediaWiki syntax and the Web Platform style guide.}}
@@ -18,8 +18,6 @@ For help with  specific coding issues, see:
 * [[WPD:Style_Guide/Gotchas|Common gotchas for editors]]
 
 Check out the [[WPD:Manual_Of_Style/Sample_best_practices| Samples best practices page]] to see guidelines when authoring pages with code examples.
-
-** [COMMENT:] Need to create a NEW Page for this Editor's Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag &#60;subpages /&#62; to display a list of sub pages. Or find the link, if this page exists already.
 
 ===Follow the WebPlatform style guide===
 WebPlatform.org is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to the conventions outlined in this Editor's Guide. Articles that do not sufficiently adhere to the guidelines will be tagged with the relevant markers, and they may be deleted over time if they are not improved.
