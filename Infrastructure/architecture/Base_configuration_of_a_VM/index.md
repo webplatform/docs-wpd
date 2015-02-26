@@ -32,6 +32,10 @@ At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''bl
 * Nutcracker acts as a Redis and Memcached proxy on every VMs of the roles listed above
 * Nutcracker configuration is managed by salt, lists of nodes are in ''/srv/pillar/infra/staging.sls'' with pillar keys ''infra:sessions_redis'', ''infra:sessions_memcache'', ''infra:alpha_redis'', ''infra:alpha_memcache'', list them like this: <code>salt app\* pillar.get infra:sessions_redis</code>.
 
+=== VMs with either redis or memcache or session roles ===
+
+* Listens on default port on private IPv4 interface of their respective service
+* No web app should call them directly, use Nutcracker as a proxy instead
 
 == Accessing a VM using SSH ==
 
