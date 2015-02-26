@@ -1,5 +1,7 @@
 {{Page_Title|Step 6: Author or upload new content}}
 {{Flags
+|State=Out of Date
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|This is Step 6 of the [[WPD:Editors_Guide|Editor's Guide]].}}
@@ -115,13 +117,16 @@ When you see this error, click the Save page button again. In most cases, simply
 ===Add exceptions===
 If you want to mention any outstanding issues, items or questions about the page, add the following tag on the page with a message:
 
-<nowiki>
-{{TODO | [This is a description of items still missing on this page.] }}</nowiki> 
+<nowiki>{{TODO | [This is a description of items still missing on this page.] }}</nowiki> 
 
 ===Get additional information about how templates work===
 This wiki uses templates to format and standardize page content. Although it is not necessary for contributing, you can get the granular details about how the wiki works behind the scenes. 
-* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]]. 
-{{Notes_Section}}
+* If you want to delve into how the templates work, check out the [[WPD:Implementation_Patterns| Implementation Patterns page]].
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
