@@ -1,7 +1,7 @@
 {{Page_Title|Step 6: Author or upload new content}}
 {{Flags
 |State=Out of Date
-|Editorial notes=
+|Editorial notes=Update documentation about Compability
 |Checked_Out=No
 }}
 {{Summary_Section|This is Step 6 of the [[WPD:Editors_Guide|Editor's Guide]].}}
