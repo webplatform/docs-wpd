@@ -28,13 +28,13 @@ You can read the archives and learn more about how the email list works  [http:/
 <h2>What Next?</h2>
 
 Begin reviewing, marking, and editing pages using these resources:
-* Go to the [[WPD:Getting_Started| Getting Started page]] to find lists of pages that need specific attention.
-* Join [[Meta:web_platform_wednesday|Web Platform Wednesdays]] to help with the current content drive.
+* Go to the [[WPD:Getting_Started|Getting Started page]] to find lists of pages that need specific attention
 
 ===Understand the WebPlatform project's mission and policies===
+
 * Watch the [http://www.youtube.com/watch?feature=player_embedded&v=Ug6XAw6hzaw| shorter project overview video] or the [https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/ longer project video] to learn about the goals of the WebPlatform wiki.
 * Read the [[WPD:FAQ| FAQ]] and [[WPD:Policy| Policy page]] to learn more about the project.
-* Check out the [[WPD:Project_Status| Project Status page]] to learn about recent initiatives. 
+* Check out the [[WPD:Project| Project page]] to learn about recent initiatives. 
 
 <hr>
 
