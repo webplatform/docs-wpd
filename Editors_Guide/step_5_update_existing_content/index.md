@@ -1,5 +1,7 @@
 {{Page_Title|Step 5: Update existing content}}
 {{Flags
+|State=Out of Date
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|MediaWiki syntax and the Web Platform style guide.}}
@@ -169,7 +171,11 @@ Different types of articles have different types of sections. For an article to 
 
 ===Blogging guidelines===
 To contribute to the WPD blog efforts, please see the [[WPD:Blogging | Blogging ]] topic.
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
