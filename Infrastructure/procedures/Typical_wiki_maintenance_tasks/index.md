@@ -1,1 +1,0 @@
-#REDIRECT [[WPD:Infrastructure/procedures/Typical wiki maintenance tasks]]
