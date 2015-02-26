@@ -14,7 +14,7 @@ Documents describing current infrastructure details, design decisions and how to
 
 </noinclude><includeonly>
 <div style="float:right;width:50%;word-wrap:break-word;clear:both;">
-=== Infrastructure architecture sub navigation ===
+=== [[WPD:Infrastructure/architecture|WebPlatform server Infrastructure architecture menu]] ===
 
 <splist parent=WPD:Infrastructure/architecture />
 
