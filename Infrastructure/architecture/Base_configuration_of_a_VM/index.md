@@ -30,7 +30,10 @@ At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''bl
 
 * Every web app configuration (e.g. ''/srv/salt/code/files/wiki/Settings.php.jinja'') uses Redis and Memcached as if it was local
 * Nutcracker acts as a Redis and Memcached proxy on every VMs of the roles listed above
-* Nutcracker configuration is managed by salt, lists of nodes are in ''/srv/pillar/infra/staging.sls'' with pillar keys ''infra:sessions_redis'', ''infra:sessions_memcache'', ''infra:alpha_redis'', ''infra:alpha_memcache'', list them like this: <code>salt app\* pillar.get infra:sessions_redis</code>.
+* Nutcracker configuration is managed by salt, lists of nodes are in ''/srv/pillar/infra/staging.sls'' with pillar keys ''infra:sessions_redis'', ''infra:sessions_memcache'', ''infra:alpha_redis'', ''infra:alpha_memcache'', list them like this:
+  salt app\* pillar.get infra:sessions_redis
+* Only Sessions data MUST be sent to localhost keystore at default port number, configured at both web app level and/or backend configuration itself (e.g. ''php.ini'')
+* Other keystore caches uses a different port, ending by '''55''' (e.g. Memcached 127.0.0.1:11255, Redis 127.0.0.1:6355) local nutcracker proxy 
 
 === VMs with either redis or memcache or session roles ===
 
