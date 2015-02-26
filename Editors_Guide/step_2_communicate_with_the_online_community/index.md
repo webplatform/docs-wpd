@@ -10,12 +10,10 @@
 The WebPlatform.org online community uses IRC and mailing lists extensively. Connect to the WebPlatform channel with an IRC client using these settings
 * Server: Freenode (irc.freenode.net)
 * Channel: #webplatform
-* Read past conversations on our [http://www.webplatform.org/talk/chatlogs/ IRC chatroom viewer].
 
 [http://webchat.freenode.net/?channels=#webplatform Log in using a browser and ask the team questions] or [[WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients|use an irc client]]. Log in to the IRC channel during scheduled [[WPD:Community/Meetings| meetings]] or anytime you want to share ideas or ask questions.
 
 Note: If you are new to using IRC, check out this [http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/ helpful guide].
-
 
 === IRC hours ===
 
