@@ -5,8 +5,6 @@ Here is a few details that every VMs has in common
 
 * Ubuntu 14.04 LTS
 * Each VM has a full name describing its role and environment level known internally pointing to private IPs (e.g. ''app3-jobrunner.production.wpdn'').
-* The mail relay (e.g. ''mail.webplatform.org'') takes care of converting to publicly addressable origin but has headers to know which VM sent the message
-* Every VM (except ''mail'') has local ''exim4'' configured to send email through the ''email relay'' (''mail.webplatform.org'') allowing us to have only one mail server to maintain.
 * Apt has automatic security updates enabled
 * IPv6 is supported by DreamCompute, but disabled for the moment
 * Private IPv4 networking enabled at ''security groups'' levels accross VMs, adresses are in <code>10.10.10.0/24</code> range (e.g. ''10.10.10.2'').
@@ -15,6 +13,25 @@ Here is a few details that every VMs has in common
 * Get to know what was the ''cloud-init'' "userdata" scripts given at creation time <code>curl http://169.254.169.254/openstack/2013-10-17/user_data</code>
 * The names will define what softwares and web apps are going to be deployed, for more information about how it works see [[WPD:Infrastructure/architecture/Roles_and_environment_level|'''Roles and environment level''']]
 * Monit has automatic service checks definitions installed through Salt stack. [[WPD:Infrastructure/Monitoring/Monit|More about '''Monit''']] and about how to [[WPD:Infrastructure/architecture/Reports_to_review_status#Using_Monit|get Monit reports]].
+
+
+=== Every VMs, except mail ===
+
+* Uses locally configured ''exim4'' to send email through the ''email relay'' (''mail.webplatform.org'') allowing us to have only one mail server to maintain.
+
+
+=== Mail ===
+
+* The mail relay (e.g. ''mail.webplatform.org'') takes care of converting to publicly addressable origin but has headers to know which VM sent the message
+
+=== Every VMs that runs backend ===
+
+At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''blog'''. But eventually it’ll be attached differently.
+
+* Every web app configuration (e.g. ''/srv/salt/code/files/wiki/Settings.php.jinja'') uses Redis and Memcached as if it was local
+* Nutcracker acts as a Redis and Memcached proxy on every VMs of the roles listed above
+* Nutcracker configuration is managed by salt, lists of nodes are in ''/srv/pillar/infra/staging.sls'' with pillar keys ''infra:sessions_redis'', ''infra:sessions_memcache'', ''infra:alpha_redis'', ''infra:alpha_memcache'', list them like this: <code>salt app\* pillar.get infra:sessions_redis</code>.
+
 
 == Accessing a VM using SSH ==
 
