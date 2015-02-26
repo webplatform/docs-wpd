@@ -1,5 +1,7 @@
 {{Page_Title|Step 4: Review existing content}}
 {{Flags
+|State=
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|This is Step 4 of the [[WPD:Editors_Guide|Editor's Guide]].}}
@@ -12,12 +14,10 @@ If you're not sure whether to fix something or how, you can at least set a flag 
 
 For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [[WPD:Getting_Started#Review_content|Review content]] in the [[WPD:Getting_Started|Getting Started guide]].
 
-===Add comments to sections===
-* Add a comment by hovering your mouse over the relevant section heading and clicking the Add comment text that appears. Posting comments on specific article sections helps others see exactly what needs to be fixed.
-[[Image:add_comment.png|alt=Screenshot of the Add Comment interface]]
 ===Flag issues to identify pages with broken links, spelling, product bias, and other problems===
 * Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 [[Image:edit_interface.png|alt=Screenshot of the editing interface]]
+
 ===Mark articles that need revisions by checking the corresponding check boxes===
 In this wiki, we use flags to mark articles that require fixes or additional work. By flagging pages, you are helping the community track issues. Flags are set up to automatically create lists of tasks to accomplish.
 
@@ -76,8 +76,12 @@ See [[WPD:Editors Guide/step 2 communicate with the online community| Step 2 of 
 
 ==Check the topics and topic clusters==
 
-While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance. 
-{{Notes_Section}}
+While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [[WPD:Editors Guide/step 6 author or upload new content#Topics_and_topic_clusters|Topics and topic clusters]] for guidance.
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
