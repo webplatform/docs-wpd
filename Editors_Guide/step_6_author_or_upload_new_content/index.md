@@ -38,6 +38,12 @@ For example, a page with the URL: eventsource_basics can have an internal title:
 * Before moving existing pages, identify [http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace pages that contain links to the existing document] and then update the links in those pages to use the new URL you have just created.
 
 ===Check features for cross browser compatibility===
+
+''Note'' This feature has been reworked, refer to [[Template:Compability]] to learn how you can include table in a page.
+
+
+<!-- 
+===Check features for cross browser compatibility===
 Compatibility tables provide details about which CSS, HTML, and JavaScript  features and APIs are supported by which browsers, itemized by browser version. These tables are built into the templates with the header: Compatibility (with separate sections for desktop and mobile). Here is a screenshot of a compatibility table:
 
 [[Image:compatibility_table.png|alt=Screenshot of a compatibility table.]]
@@ -64,6 +70,7 @@ To see an example of a multiple row Compatibility Information table, check out t
 Additional rows should be sorted by name.  Use the drag handles to the right of the "Remove" button to move an item up or down in the table.
 
 There is a third table in the compatibility section for Compatibility Notes.  Use this to cover anything that cannot be covered just by indicating yes/no  and a version number.
+-->
 
 ===Topics and topic clusters===
 
