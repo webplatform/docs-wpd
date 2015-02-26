@@ -39,7 +39,7 @@ For example, a page with the URL: eventsource_basics can have an internal title:
 
 ===Check features for cross browser compatibility===
 
-''Note'' This feature has been reworked, refer to [[Template:Compability]] to learn how you can include table in a page.
+''Note'' This feature has been reworked, refer to [https://docs.webplatform.org/wiki/Template:Compatibility the Compability template]] to learn how you can include table in a page.
 
 
 <!-- 
