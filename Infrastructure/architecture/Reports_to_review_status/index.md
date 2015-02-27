@@ -32,9 +32,13 @@ There are a few variants we can get data;
 
   curl piwik/php-status
 
-* A more detailed version
+* A more detailed report of each worker process
 
   curl piwik/php-status?full
+
+* "Ping" check if ''php5-fpm'' connection is accessible from NGINX
+
+  curl piwik/php-ping
 
 [[File:nginx_fastcgi_status_full.png]]
 [[File:nginx_fastcgi_status.png]]
@@ -121,6 +125,16 @@ There are a few variants we can get data;
         34457
     Uptime:
         11191
+
+== Nutcracker ==
+
+Nutcracker should run on any VM that runs a backend.
+
+You can query its status from the VM itself, through the localhost loopback (only!) by doing a ''GET'' request like this:
+
+  curl localhost:22222 | python -m json.tool
+
+
 
 == MySQL/MariaDB ==
 
