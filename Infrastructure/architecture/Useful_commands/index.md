@@ -27,7 +27,7 @@ Since everything should be managed through salt, but we are in a situation where
 
   salt app\* service.reload apache2
 
-=== Create a database, a user, and set privileges ===
+=== Create a database, a user, set new privileges and update a web application ===
 
 Since our site runs on existing databases our states don’t affect the database servers directly.
 
