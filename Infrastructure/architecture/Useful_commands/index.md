@@ -8,6 +8,10 @@ Most of the commands should be done through the salt states in ''/srv/salt'', bu
 
 == Using salt from ==
 
+=== Remove a file ===
+
+  salt \* file.remove /etc/monit/conf.d/exim4.conf
+
 === Remove a user ===
 
   salt \* user.delete foobar remove=True force=True
@@ -32,7 +36,7 @@ In this example, we’ll  create a new database for our WordPress blog instance 
 
 * Create a new database
 
-        salt -G 'roles:masterdb' mysql.db_create wpblog utf8 utf8_general_ci
+  salt -G 'roles:masterdb' mysql.db_create wpblog utf8 utf8_general_ci
 
 * Import the backup
 
@@ -42,9 +46,11 @@ In this example, we’ll  create a new database for our WordPress blog instance 
 
 * Add database user and privileges
 
-        salt -G 'roles:masterdb' mysql.user_create user_blog '%' somepassword
-        salt -G 'roles:masterdb' mysql.grant_add 'ALL' 'wpblog.*' 'user_blog' '%'
+  salt -G 'roles:masterdb' mysql.user_create user_blog '%' somepassword
+  salt -G 'roles:masterdb' mysql.grant_add 'ALL' 'wpblog.*' 'user_blog' '%'
 
 * Change the database details you just created in the pillar file. If the command was run from production, the file to change would be '''/srv/private/pillars/accounts/production.sls'''
 
-* Run ''wpd-deploy blog'', it’ll make the configuration file to be applied on top of the web app configuration
+* Make the configuration file to be applied on top of the web app configuration
+
+  wpd-deploy blog
