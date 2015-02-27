@@ -24,12 +24,12 @@ Here is a few details that every VMs has in common
 
 * The mail relay (e.g. ''mail.webplatform.org'') takes care of converting to publicly addressable origin but has headers to know which VM sent the message
 
-=== Every VMs that runs frontend role ===
+=== Every VMs that has frontend role ===
 
 * At this time they have the name ''nginx'' in them, they should be renamed ''frontend'' as its what they’ll do. Besides VMs with the ''backend'' role will also have NGINX to serve internally static assets for the frontend so it would make more sense to remove potential confusion with the software name
 
 
-=== Every VMs that runs backend ===
+=== Every VMs with a backend ===
 
 At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''blog'''. But eventually it’ll be attached differently.
 
@@ -39,6 +39,7 @@ At this time its the VM with roles: '''app''', '''project''', '''piwik''', '''bl
   salt app\* pillar.get infra:sessions_redis
 * Only Sessions data MUST be sent to localhost keystore at default port number, configured at both web app level and/or backend configuration itself (e.g. ''php.ini'')
 * Other keystore caches uses a different port, ending by '''55''' (e.g. Memcached 127.0.0.1:11255, Redis 127.0.0.1:6355) local nutcracker proxy 
+* Should have a minimal NGINX server to serve static assets as part of the web software package its serving as a backend. The ''frontend'' VMs will poll static assets from there.
 
 === VMs with either redis or memcache or session roles ===
 
