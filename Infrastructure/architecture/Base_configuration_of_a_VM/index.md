@@ -15,14 +15,19 @@ Here is a few details that every VMs has in common
 * Monit has automatic service checks definitions installed through Salt stack. [[WPD:Infrastructure/Monitoring/Monit|More about '''Monit''']] and about how to [[WPD:Infrastructure/architecture/Reports_to_review_status#Using_Monit|get Monit reports]].
 
 
-=== Every VMs, except mail ===
+=== Every VMs, except ones with the mail role ===
 
 * Uses locally configured ''exim4'' to send email through the ''email relay'' (''mail.webplatform.org'') allowing us to have only one mail server to maintain.
 
 
-=== Mail ===
+=== Only VMs with mail role ===
 
 * The mail relay (e.g. ''mail.webplatform.org'') takes care of converting to publicly addressable origin but has headers to know which VM sent the message
+
+=== Every VMs that runs frontend role ===
+
+* At this time they have the name ''nginx'' in them, they should be renamed ''frontend'' as its what they’ll do. Besides VMs with the ''backend'' role will also have NGINX to serve internally static assets for the frontend so it would make more sense to remove potential confusion with the software name
+
 
 === Every VMs that runs backend ===
 
