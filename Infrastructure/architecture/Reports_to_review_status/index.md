@@ -20,7 +20,7 @@ Should look like this:
 [[File:20150106_mailgraph_day.png]]
 [[File:20150104_mailgraph_day.png]]
 
-'''Note''' that this screenshot was made to illustrate a crisis we’ve had but you can see notes that should illustrate what we can get from the reports.
+'''Note''' please disregard the address in the screenshot, it has been taken during deployment scripts has been set in place.
 
 == Getting to know the status of a php5-fpm backend ==
 
