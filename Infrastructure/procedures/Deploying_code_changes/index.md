@@ -14,7 +14,7 @@ This procedure will take into account that you have an existing set of VMs alrea
 
 In this example we’ll update the code on all VMs that fills the ''role'' of '''app'''.
 
-'''Related'''; if you want to see how to update a database password, you can also look at [[WPD:Infrastructure/architecture/Useful_commands#Create a database, a user, set new privileges and update a web application]]
+'''Related'''; if you want to see how to update a database password and apply the changes to a managed web application, go to [[WPD:Infrastructure/architecture/Useful_commands#Create a database, a user, set new privileges and update a web application]]
 
 * First, make sure the role you want to target touches the VMs you want
 
