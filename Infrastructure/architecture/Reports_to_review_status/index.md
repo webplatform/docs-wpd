@@ -165,6 +165,13 @@ You can query its status from the VM itself, through the localhost loopback (onl
 
 '''Note''' the output has been truncated to only one backend to illustrate what data the call provides.
 
+* Use salt to get data
+
+  salt -C 'G@roles:app or G@roles:blog or G@roles:piwik or G@roles:project' cmd.run 'curl -s localhost:22222'
+
+Notice how I am targeting the minions using [http://docs.saltstack.com/en/latest/topics/targeting/compound.html Salt Compound matcher] and asking it to give me Nutcracker status data.
+
+Eventually we could use similar mechanism to gather status on services to learn how the server is going.
 
 == MySQL/MariaDB ==
 
