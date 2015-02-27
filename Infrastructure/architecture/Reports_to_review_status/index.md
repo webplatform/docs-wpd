@@ -12,8 +12,7 @@ __TOC__
 We have  [http://mailgraph.schweikert.ch/ ''Mailgraph''] installed on all ''mail'' VMs. With it, we can visualize how many emails are being sent to our mail server. It should display the number of refusals (e.g. somebody outside our network trying to use us) over time.
 
 From the browser, through [[#Read reports from a VM through private network]].
-app2:
-    {"service":"nutcracker", "source":"app2", "version":"0.3.0", "uptime":11019, "timestamp":1425066154, "alpha_memcache": {"client_eof":3041, "client_err":0, "client_connections":1, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.175": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"sessions_redis": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.177:6379": {"server_eof":1, "server_err":0, "server_timedout":0, "server_connections":0, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"alpha_redis": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.179:6379": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"sessions_memcache": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.177": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}}}
+
   http://mail/cgi-bin/mailgraph.cgi
 
 Should look like this:
@@ -169,10 +168,8 @@ You can query its status from the VM itself, through the localhost loopback (onl
 * Use salt to get data
 
   salt -C 'G@roles:app or G@roles:blog or G@roles:piwik or G@roles:project' cmd.run 'curl -s localhost:22222'
+  // Data will be similar to the previous example
 
-<syntaxHighlight lang="javascript">
-    {"service":"nutcracker", "source":"app2", "version":"0.3.0", "uptime":11019, "timestamp":1425066154, "alpha_memcache": {"client_eof":3041, "client_err":0, "client_connections":1, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.175": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"sessions_redis": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.177:6379": {"server_eof":1, "server_err":0, "server_timedout":0, "server_connections":0, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"alpha_redis": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.179:6379": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}},"sessions_memcache": {"client_eof":0, "client_err":0, "client_connections":0, "server_ejects":0, "forward_error":0, "fragments":0, "10.10.10.177": {"server_eof":0, "server_err":0, "server_timedout":0, "server_connections":1, "server_ejected_at":0, "requests":0, "request_bytes":0, "responses":0, "response_bytes":0, "in_queue":0, "in_queue_bytes":0, "out_queue":0, "out_queue_bytes":0}}}
-</syntaxHighlight>
 
 Notice how I am targeting the minions using [http://docs.saltstack.com/en/latest/topics/targeting/compound.html Salt Compound matcher] and asking it to give me Nutcracker status data.
 
