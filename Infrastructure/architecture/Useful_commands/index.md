@@ -6,7 +6,9 @@ A few salt commands listed by their use.
 Most of the commands should be done through the salt states in ''/srv/salt'', but sometimes we have no choice but to act quickly.
 
 
-== Using salt from ==
+== Using salt from the ''salt master'' ==
+
+Since everything should be managed through salt, but we are in a situation where we might not want to change the states, we can do the following commands.
 
 === Remove a file ===
 
