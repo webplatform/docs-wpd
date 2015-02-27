@@ -133,7 +133,37 @@ Nutcracker should run on any VM that runs a backend.
 You can query its status from the VM itself, through the localhost loopback (only!) by doing a ''GET'' request like this:
 
   curl localhost:22222 | python -m json.tool
+  {
+    "sessions_redis": {
+        "10.10.10.177:6379": {
+            "in_queue": 0,
+            "in_queue_bytes": 0,
+            "out_queue": 0,
+            "out_queue_bytes": 0,
+            "request_bytes": 2681,
+            "requests": 28,
+            "response_bytes": 713,
+            "responses": 27,
+            "server_connections": 0,
+            "server_ejected_at": 0,
+            "server_eof": 1,
+            "server_err": 0,
+            "server_timedout": 1
+        },
+        "client_connections": 0,
+        "client_eof": 0,
+        "client_err": 14,
+        "forward_error": 1,
+        "fragments": 0,
+        "server_ejects": 0
+    },
+    "source": "app1",
+    "timestamp": 1425064419,
+    "uptime": 9285,
+    "version": "0.3.0"
+  }
 
+'''Note''' the output has been truncated to only one backend to illustrate what data the call provides.
 
 
 == MySQL/MariaDB ==
