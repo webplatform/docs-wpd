@@ -24,17 +24,17 @@ Should look like this:
 
 == Getting to know the status of a php5-fpm backend ==
 
-You can make a basic ''GET /fcgi-status'' to any VMs that has '''php5-fpm''' running. (@@TODO make a role to get all of them and remove the need to guess)
+You can make a basic ''GET /php-status'' to any VMs that has '''php5-fpm''' running. (@@TODO make a role to get all of them and remove the need to guess)
 
 There are a few variants we can get data;
 
 * Simple report
 
-  curl piwik/fcgi-status
+  curl piwik/php-status
 
 * A more detailed version
 
-  curl piwik/fcgi-status?full
+  curl piwik/php-status?full
 
 [[File:nginx_fastcgi_status_full.png]]
 [[File:nginx_fastcgi_status.png]]
