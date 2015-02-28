@@ -75,9 +75,11 @@ The following details of the output means "''all is OK!''"
 ** the other VMs with the role db (the ones that doesn’t have "masterdb" in their name) should catch up automatically with the replication
 * Change the database details you just created in the pillar file. If the command was run from production, the file to change would be '''/srv/private/pillars/accounts/production.sls'''
 
-* Make the configuration file to be applied on top of the web app configuration
+* Make the configuration file to be applied on top of the web app configuration. 
 
   wpd-deploy blog
+
+It should look like in this image, with all "green", but of course with the mention of "blog" instead of "app".
 
 [[File:Running_wpd-deploy.png]]
 
