@@ -1,1 +1,1 @@
-See the [http://www.webplatform.org/logo/ Web Platform logo page] for details on the logo and its usage, as well as sample logo badges.
+See the [https://www.webplatform.org/logo/ Web Platform logo page] for details on the logo and its usage, as well as sample logo badges.
