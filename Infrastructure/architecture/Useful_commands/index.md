@@ -3,7 +3,7 @@
 
 A few "one off" commands using salt stack listed by their potential use.
 
-Maintenance should be done through the state system. But sometimes we still need "one off" commands on servers themselves and it would be creating cruft to have them in the state system.
+Maintenance should be done through the state system. But sometimes we still need "one off" commands on servers themselves and it would be creating cruft to have them in the state scripts.
 
 == Using salt from the ''salt master'' ==
 
