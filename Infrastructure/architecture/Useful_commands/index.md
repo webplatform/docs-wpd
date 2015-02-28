@@ -1,10 +1,9 @@
 {{:WPD:Infrastructure/architecture}}
 = Useful commands =
 
-A few salt commands listed by their use.
+A few "one off" commands using salt stack listed by their potential use.
 
-Most of the commands should be done through the salt states in ''/srv/salt'', but sometimes we have no choice but to act quickly.
-
+Maintenance should be done through the state system. But sometimes we still need "one off" commands on servers themselves and it would be creating cruft to have them in the state system.
 
 == Using salt from the ''salt master'' ==
 
