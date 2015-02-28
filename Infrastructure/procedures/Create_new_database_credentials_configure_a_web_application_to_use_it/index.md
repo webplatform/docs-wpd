@@ -78,28 +78,9 @@ The following details of the output means "''all is OK!''"
 * Make the configuration file to be applied on top of the web app configuration
 
   wpd-deploy blog
-  Going to update roles for:
-  blog:
-     - blog
-  Deploying...
-  blog:
-    Name: rsync -a --delete --no-perms --password-file=/etc/codesync.secret codesync@salt::code/packages/apt/ /srv/webplatform/apt/ - Function: cmd.run - Result: Changed
-    Name: rsync -a --delete --no-perms --password-file=/etc/codesync.secret codesync@salt::code/www/repo/out/errors/ /srv/webplatform/errors/ - Function: cmd.run
-   - Result: Changed
-    Name: rsync -a  --exclude '.git' --no-perms --password-file=/etc/codesync.secret codesync@salt::code/blog/repo/ /srv/webplatform/blog/ - Function: cmd.run - Result: Changed
-    Name: /srv/webplatform/blog - Function: file.directory - Result: Changed
-    Name: /srv/webplatform/blog/local.php - Function: file.managed - Result: Changed
-    Name: rsync -a --delete --no-perms --password-file=/etc/codesync.secret codesync@salt::code/packages/certificates/production/ /etc/ssl/webplatform/ - Function: cmd.run - Result: Changed
-    Name: /etc/ssl/webplatform - Function: file.directory - Result: Changed
-    Name: /var/www - Function: file.directory - Result: Changed
-  
-  Summary
-  ------------
-  Succeeded: 8 (changed=8)
-  Failed:    0
-  ------------
-  Total states run:     8
 
-* Last step is to apply ''state.highstate''
+[[File:Running_wpd-deploy.png]]
+
+* Last step is to apply ''state.highstate''. Its OK to run it more than once, the configuration are written to enforce a state and can be applied in any order, the important is to get all "green".
 
   salt blog state.highstate
