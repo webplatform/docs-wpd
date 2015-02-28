@@ -253,8 +253,6 @@ The following commands in the order in which we need the proper values. Each fie
 
 * Get the '''id''' of the floating IP we need. Fields from this command are in the order: id, fixed IP address, Floating IP address, port Id. We only care about the id, here: '''foo'''.
 
-@@TODO: Validate if I didn’t forget to show how to dissociate an existing port.
-
   neutron floatingip-list | grep 173.236.254.224
   | foo |  10.10.10.215   |  173.236.254.224  |    |
 
