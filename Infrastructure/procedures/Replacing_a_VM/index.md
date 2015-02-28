@@ -3,16 +3,16 @@
 
 This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one, install/update targeted web application and apply current configurations. All of that is done in a way that we can replace a faulty VM without affecting the site uptime.
 
-Using our ''Salt Stack'' [https://github.com/webplatform/states states], rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
+Using our ''Salt Stack'' (not published yet, see ''/srv/salt''), rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
 
-'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master and they are also visible from our  [https://github.com/webplatform/states states] repository on GitHub.
+'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master and they are also visible from our states repository on GitHub (not published yet, see ''/srv/salt'').
 
 
 == Introduction ==
 
 '''EVERYTHING''' in WebPlatform infrastructure is managed through source control, including what configures (i.e. the  [https://github.com/webplatform/states states]) from the VM acting as a ''salt-master'', every VM can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [http://www.openstack.org/ OpenStack cluster]. Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the ''OpenStack'' components are.
 
-Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]''' and the configuration is managed by a software called [http://saltstack.com/ Salt Stack].
+Our infrastructure runs currently on '''[http://www.dreamhost.com/cloud/computing/ DreamCompute]''', a managed OpenStack cluster graciously sponsored to us by '''[http://www.dreamhost.com/ DreamHost]''' and the configuration is managed by a software called '''[http://saltstack.com/ Salt Stack]'''.
 
 == Procedure ==
 
