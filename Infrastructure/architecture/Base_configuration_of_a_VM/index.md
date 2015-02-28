@@ -10,7 +10,7 @@ Here is a few details that every VMs has in common
 * Nothing is exposed to the public ''Floating IPs'', except the bare minimum (e.g. TCP 80, 443 on web servers). Security groups are selectively opening ports to enforce the policy
 * Access to ANY VM is only made through the salt master acting as a ''Jump box'', see [[#Accessing_a_VM_using_SSH|Accessing a VM using SSH]]
 * Every VM is booted from a basic Ubuntu 14.04 LTS image. A minimal ''cloud-init'' script installs ''salt-minion'' and makes it poke the ''salt master''.
-* Each VM can consult their initial ''cloud-init'' script using OpenStack internal API by doing: <code>curl http://169.254.169.254/openstack/2013-10-17/user_data</code>
+* Each VM can consult their initial ''cloud-init'' script using OpenStack internal API by doing: <code><nowiki>curl http://169.254.169.254/openstack/2013-10-17/user_data</nowiki></code>
 * The VM name define what softwares, services, and  web apps deployed on them. For more details about it, refer to the section about "roles" at [[WPD:Infrastructure/architecture/Roles_and_environment_level|'''Roles and environment level''']]
 * Monit has automatic service checks definitions installed through Salt stack. [[WPD:Infrastructure/Monitoring/Monit|More about '''Monit''']] and about how to [[WPD:Infrastructure/architecture/Reports_to_review_status#Using_Monit|get Monit reports]].
 * Each VM has a full name describing its role and environment level known internally pointing to private IPs (e.g. ''app3-jobrunner.production.wpdn'').
