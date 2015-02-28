@@ -74,7 +74,7 @@ The following details of the output means "''all is OK!''"
 ** import the database into the server (e.g. '''mysql wpblog < wpblog.sql''')
 ** the other VMs with the role db (the ones that doesn’t have "masterdb" in their name) should catch up automatically with the replication
 * Change the database details you just created in the pillar file. If the command was run from production, the file to change would be '''/srv/private/pillars/accounts/production.sls'''
-
+* To review what’s going to be applied will be ''/srv/salt/vm/blog.sls''. That is because the role we are working on at this moment is "blog". If you want to review why, take a look at the [[WPD:Infrastructure/architecture/Roles_and_environment_level|section about roles]] and the [[WPD:Infrastructure/architecture/VM_roles|details of each roles]]. 
 * Make the configuration file to be applied on top of the web app configuration. 
 
   wpd-deploy blog
