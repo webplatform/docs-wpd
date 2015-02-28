@@ -1,12 +1,13 @@
 {{:WPD:Infrastructure/architecture}}
 = Create new database credentials and configure a web application to use it =
 
-Since our site runs on existing databases our states don’t affect the database servers directly.
+The concept of states are ideal to manage many aspects of a running system. But one of the "gray zones" are about database credentials, or whether or not we should send commands to set database credentials at every deployment system "apply configuration" run. For this reason we do not enforce them in the salt states.
+ 
+But what if we want to change the database details? Here’s how.
 
-But if it happens that its been decided to change database details.
+In this example, we’ll  create a new database for our WordPress blog instance, import an existing snapshot and apply the new database configuration and deploy it. In this tutorial we will focus solely on the use of the deployment system ("salt stack") and the deployment itself.
 
-In this example, we’ll  create a new database for our WordPress blog instance and we’ll focus on the commands to issue using salt, where to change the configuration and what will make the webapp to have the new settings applied.
-
+== Procedure ==
 
 * Create a new database
 
