@@ -1,5 +1,27 @@
 = Maintaining ElasticSearch cluster =
-== Backup and restore ==
+
+
+== How backups are made ==
+
+Our ElasticSearch cluster backup is currently done through '''type: fs''', each '''elastic''' VM mounts an NFS share up to the '''backup''' VM.
+
+* '''backup''' VM exposes through NFS <code>backup:/srv/exports/elasticsearch</code>
+* '''elastic''' VMs sees '''backup'''’s NFS mount point at <code>/mnt/backup/elasticsearch/nfsshared</code>
+* ElasticSearch has it configured so that it saves snapshot at <code>/mnt/backup/elasticsearch/nfsshared</code>
+* Every '''elastic''' VMs shares <code>/mnt/backup/elasticsearch/nfsshared</code> — This is what the '''type: fs''' ElasticSearch snapshot requires
+* '''backup''' VM has a cronjob to create a snapshot at midnight EST (<code>PUT /_snapshot/nfsshared/production</code>)
+* The snapshot name is based on the deployment level (e.g. "'''level: staging'''"), we would see "staging" in stead of "production" as the snapshot name. — We have ONE '''backup''' VM per deployment.
+* '''backup''' VM has another cronjob to create an archive of the elastic VMs NFS’ mount points and stores it along with what’s stored in '''backup'''’s <code>/mnt/backup</code> backups archive folder
+
+It means that, in '''production''' level on the March 11 2015, the following would happen:
+# at midnight, the '''backup''' VM issues an HTTP request to '''elastic''' VM to make a snapshot
+# ElasticSearch will save the snapshot from any '''elastic''' VM as <code>/mnt/backup/elasticsearch/nfsshared/snapshot-production</code> — any elastic VM has the same folder anyway
+# at 1 am, the '''backup''' VM has a cronjob to create an archive
+## the '''backup''' VM makes an archive of the full <code>/srv/exports/elasticsearch/nfsshared</code> — therefore including any other snapshots the cluster might have
+## the '''backup''' VM then saves the archive at <code>/mnt/backup/elasticsearch-snapshot-20150311.tar.gz</code> — along with other backups the VM stores.
+
+== Misc tasks ==
+=== Backup and restore ===
 
 ElasticSearch backup are referred to as "snapshots".
 
@@ -10,8 +32,6 @@ Its a two step process;
 
 A drawback with the '''type = fs''' storage is that every ES nodes MUST have access to the same folder through network mount.
 This is why we will use another mechanism as soon as possible, the ideal would be to send to a DreamObject bucket directly.
-
-=== Typical procedure ===
 
 First, we have to setup a snapshot location.
 
@@ -59,7 +79,7 @@ Check a snapshot status:
 
 
 
-=== Use a plugin to store backups to a Swift endpoint automatically ===
+==== Use a plugin to store backups to a Swift endpoint automatically ====
 
 This option would be perfect as we wouldn’t need to sync to DreamObjects later like we need to do with the rest.
 
@@ -68,14 +88,16 @@ This has to be done, refer to {{OperationsTask|120}}. Until then, we’ll stick 
 
 
 
-=== Related reference ===
+==== Related reference ====
 
 * http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html
 * https://github.com/wikimedia/search-repository-swift
 
 
 
-== Poking around a cluster ==
+=== How to get system status/health ===
+
+Since everything is made through HTTP calls, here are a few we can make.
 
     curl localhost:9200/_cluster/stats?pretty
     curl localhost:9200/_cluster/health?pretty
@@ -84,11 +106,19 @@ This has to be done, refer to {{OperationsTask|120}}. Until then, we’ll stick 
     curl localhost:9200/_nodes/_local?pretty > nodes_details.json
 
 
-== Plugins ==
+=== Plugins ===
 
-=== Plugins basics ===
+ElasticSearch has many plugins available, we aren’t using any yet.
 
-To install, you can run from one node. Technically if we use in production, we’ll ensure they are installed.
+=== Example on how to install a plugin ===
+
+One of the plugins ElasticSearch has is "Marvel", a status dashboard to show the cluster health using Kibana. Kibana is an open source project that’s made to create graphs based on data we can feed it.
+
+The following will show how to install "Marvel" as an example on how to install and use an ElasticSearch plugin.
+
+To install, you can run from any '''elastic'' node.
+
+Technically if we use in production, we’ll ensure they are installed but its out of the scope of this quick procedure.
 
     root@elastic1:~# /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
 
@@ -122,23 +152,3 @@ Some key documentation pages to read, takes more or less two hours to read.
 * http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/distributed-docs.html
 * http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/_scale_horizontally.html
 * http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/_coping_with_failure.html
-
-
-== How backups are made ==
-
-Our ElasticSearch cluster backup is currently done through '''type: fs''', each '''elastic''' VM mounts an NFS share up to the '''backup''' VM.
-
-* '''backup''' VM exposes through NFS <code>backup:/srv/exports/elasticsearch</code>
-* '''elastic''' VMs sees '''backup'''’s NFS mount point at <code>/mnt/backup/elasticsearch/nfsshared</code>
-* ElasticSearch has it configured so that it saves snapshot at <code>/mnt/backup/elasticsearch/nfsshared</code>
-* Every '''elastic''' VMs shares <code>/mnt/backup/elasticsearch/nfsshared</code> — This is what the '''type: fs''' ElasticSearch snapshot requires
-* '''backup''' VM has a cronjob to create a snapshot at midnight EST (<code>PUT /_snapshot/nfsshared/production</code>)
-* The snapshot name is based on the deployment level (e.g. "'''level: staging'''"), we would see "staging" in stead of "production" as the snapshot name. — We have ONE '''backup''' VM per deployment.
-* '''backup''' VM has another cronjob to create an archive of the elastic VMs NFS’ mount points and stores it along with what’s stored in '''backup'''’s <code>/mnt/backup</code> backups archive folder
-
-It means that, in '''production''' level on the March 11 2015, the following would happen:
-# at midnight, the '''backup''' VM issues an HTTP request to '''elastic''' VM to make a snapshot
-# ElasticSearch will save the snapshot from any '''elastic''' VM as <code>/mnt/backup/elasticsearch/nfsshared/snapshot-production</code> — any elastic VM has the same folder anyway
-# at 1 am, the '''backup''' VM has a cronjob to create an archive
-## the '''backup''' VM makes an archive of the full <code>/srv/exports/elasticsearch/nfsshared</code> — therefore including any other snapshots the cluster might have
-## the '''backup''' VM then saves the archive at <code>/mnt/backup/elasticsearch-snapshot-20150311.tar.gz</code> — along with other backups the VM stores.
