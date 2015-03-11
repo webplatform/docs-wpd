@@ -75,12 +75,13 @@ This option would be perfect as we wouldn’t need to sync to DreamObjects later
 
 Our ElasticSearch cluster backup is currently done through '''type: fs''', each '''elastic''' VM mounts an NFS share up to the '''backup''' VM.
 
- then creates an archive from the place it exposes to '''elastic''' VMs that he has locally at <code>/srv/exports/elasticsearch/nfsshared/snapshot-production</code>
-
-* '''backup''' VM exposes through NFS <code>backup:/srv/exports/elasticsearch</code> and '''elastic''' sees it at <code>/mnt/backup/elasticsearch/nfsshared</code>
-* '''elastic''' VMs has an NFS mount point at <code>/mnt/backup/elasticsearch/nfsshared</code>, and elasticsearch has it configured so that it saves snapshot at this location. Every elastic VMs shares the same folder — This is what the '''type: fs''' ElasticSearch snapshot requires.
-* '''backup''' VM has a cronjob to create a snapshot at midnight EST (<code>PUT /_snapshot/nfsshared/production</code>). Note that if the VM were in '''level: staging''' environment, we would see "staging" in stead of "production" as the snapshot name)
-* '''backup''' VM has another cronjob to create an archive of the elastic VMs NFS’ mount points and stores it along with what’s stored in '''backup'''’s <code>/mnt/backup</code> storage.
+* '''backup''' VM exposes through NFS <code>backup:/srv/exports/elasticsearch</code>
+* '''elastic''' VMs sees '''backup'''’s NFS mount point at <code>/mnt/backup/elasticsearch/nfsshared</code>
+* ElasticSearch has it configured so that it saves snapshot at <code>/mnt/backup/elasticsearch/nfsshared</code>
+* Every '''elastic''' VMs shares <code>/mnt/backup/elasticsearch/nfsshared</code> — This is what the '''type: fs''' ElasticSearch snapshot requires
+* '''backup''' VM has a cronjob to create a snapshot at midnight EST (<code>PUT /_snapshot/nfsshared/production</code>)
+* The snapshot name is based on the deployment level (e.g. "'''level: staging'''"), we would see "staging" in stead of "production" as the snapshot name. — We have ONE '''backup''' VM per deployment.
+* '''backup''' VM has another cronjob to create an archive of the elastic VMs NFS’ mount points and stores it along with what’s stored in '''backup'''’s <code>/mnt/backup</code> backups archive folder
 
 It means that, in '''production''' level on the March 11 2015, the following would happen:
 # at midnight, the '''backup''' VM issues an HTTP request to '''elastic''' VM to make a snapshot
