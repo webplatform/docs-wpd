@@ -1,5 +1,15 @@
 = Maintaining ElasticSearch cluster =
 
+== How to get system status/health ==
+
+Since everything is made through HTTP calls, here are a few we can make.
+
+    curl localhost:9200/_cluster/stats?pretty
+    curl localhost:9200/_cluster/health?pretty
+    curl localhost:9200/_cluster/state?pretty
+    <nowiki>curl 'http://localhost:9200/_cluster/health?wait_for_status=green&timeout=50s'</nowiki>
+    curl localhost:9200/_nodes/_local?pretty > nodes_details.json
+
 
 == How backups are made ==
 
@@ -19,6 +29,8 @@ It means that, in '''production''' level on the March 11 2015, the following wou
 # at 1 am, the '''backup''' VM has a cronjob to create an archive
 ## the '''backup''' VM makes an archive of the full <code>/srv/exports/elasticsearch/nfsshared</code> — therefore including any other snapshots the cluster might have
 ## the '''backup''' VM then saves the archive at <code>/mnt/backup/elasticsearch-snapshot-20150311.tar.gz</code> — along with other backups the VM stores.
+
+
 
 == Misc tasks ==
 === Backup and restore ===
@@ -94,18 +106,6 @@ This has to be done, refer to {{OperationsTask|120}}. Until then, we’ll stick 
 * https://github.com/wikimedia/search-repository-swift
 
 
-
-=== How to get system status/health ===
-
-Since everything is made through HTTP calls, here are a few we can make.
-
-    curl localhost:9200/_cluster/stats?pretty
-    curl localhost:9200/_cluster/health?pretty
-    curl localhost:9200/_cluster/state?pretty
-    <nowiki>curl 'http://localhost:9200/_cluster/health?wait_for_status=green&timeout=50s'</nowiki>
-    curl localhost:9200/_nodes/_local?pretty > nodes_details.json
-
-
 === Plugins ===
 
 ElasticSearch has many plugins available, we aren’t using any yet.
@@ -142,10 +142,9 @@ Once you have a web browser setup, you can go to "<nowiki>http://elastic1:9200/_
 * http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-service.html
 * http://www.xmsxmx.com/elasticsearch-cluster-configuration-best-practices/
 
+==== Understanding how ElasticSearch works ====
 
-=== Understanding how ElasticSearch works ===
-
-Some key documentation pages to read, takes more or less two hours to read.
+A ''must-read'' list to help understand how ElasticSearch works. It takes more or less two hours.
 
 * http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/distributed-search.html
 * http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/distrib-read.html
