@@ -104,6 +104,8 @@ Accessing, you can connect through an SSH proxy as its [[WPD:Infrastructure/arch
 
     http://elastic3:9200/_plugin/marvel/
 
+[[Image:elasticsearch-cluster-status-201503.png]]
+
 === Related reference ===
 
 * http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-plugins.html
