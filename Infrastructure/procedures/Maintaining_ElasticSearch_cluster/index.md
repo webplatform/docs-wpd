@@ -1,5 +1,7 @@
 = Maintaining ElasticSearch cluster =
 
+To get details about how a node is installed, refer to [[WPD:Infrastructure/architecture/VM_roles#elastic]]
+
 == How to get system status/health ==
 
 Since everything is made through HTTP calls, here are a few we can make.
