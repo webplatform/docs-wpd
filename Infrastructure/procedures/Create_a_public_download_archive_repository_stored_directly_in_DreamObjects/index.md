@@ -1,7 +1,9 @@
 = Create a public download archive repository stored directly in DreamObjects =
-'''Status: INCOMPLETE'''
 
-The purpose of this procedure is twofold:
+'''Status: INCOMPLETE''', see [https://github.com/webplatform/ops/issues/121 '''webplatform/ops#121]
+
+The purpose is twofold:
+
 # Allow download of packages in a public repository so that anybody could download archives the infrastructure generates for its maintenance
 # Leverage our provider infrastructure so we do not move around archives but fetch them from a common location
 
