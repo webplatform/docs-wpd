@@ -2,14 +2,14 @@
 == Backup and restore ==
 === Summary ===
 
-ElasticSearch backup are refered to as "snapshots".
+ElasticSearch backup are referred to as "snapshots".
 
 Its a two step process;
 
 1. where to store the snapshot. It can be locally (type: fs) or using a plugin
 2. make an API call to either create a new snapshot, or restore
 
-A drawback with the `fs` storage is that every ES nodes MUST have access to the same folder through network mount.
+A drawback with the '''type = fs''' storage is that every ES nodes MUST have access to the same folder through network mount.
 This is why we will use another mechanism as soon as possible, the ideal would be to send to a DreamObject bucket directly.
 
 
@@ -18,9 +18,13 @@ This is why we will use another mechanism as soon as possible, the ideal would b
 
 First, we have to setup a snapshot location.
 
-    curl -XPUT localhost:9200/_snapshot/nfsshared -d '{"type": "fs", "settings": {"location": "/mnt/backup/elasticsearch/nfsshared", "compress": true}}'
+    curl -XPUT localhost:9200/_snapshot/nfsshared -d '{
+      "type": "fs", 
+      "settings": {
+          "location": "/mnt/backup/elasticsearch/nfsshared",
+          "compress": true}}'
 
-Idea is that we create (HTTP PUT) a new `_snapshot` location with alias `nfsshared` that’ll read/write in `/mnt/backup/elasticsearch/nfsshared`.
+Idea is that we create (HTTP PUT) a new '''_snapshot''' location with alias '''nfsshared''' that’ll read/write in '''/mnt/backup/elasticsearch/nfsshared'''.
 
 Inquire about existing snapshots:
 
@@ -84,7 +88,7 @@ This option would be perfect as we wouldn’t need to sync to DreamObjects later
     curl localhost:9200/_cluster/stats?pretty
     curl localhost:9200/_cluster/health?pretty
     curl localhost:9200/_cluster/state?pretty
-    curl 'http://localhost:9200/_cluster/health?wait_for_status=green&timeout=50s'
+    <nowiki>curl 'http://localhost:9200/_cluster/health?wait_for_status=green&timeout=50s'</nowiki>
     curl localhost:9200/_nodes/_local?pretty > nodes_details.json
 
 
