@@ -1,7 +1,6 @@
 = Create a public download archive repository stored directly in DreamObjects =
 
-'''Status: INCOMPLETE''', see [https://github.com/webplatform/ops/issues/121 '''webplatform/ops#121]
-{{OperationsTask|121}}
+'''Status: INCOMPLETE''', {{OperationsTask|121}}
 
 The purpose is twofold:
 
