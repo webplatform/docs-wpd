@@ -84,6 +84,29 @@ According to email server management best practices, it would be better to have 
 ** Mailgraph, creates rrd graphs to visualize the email traffic
 
 
+== backup ==
+
+The VM that gathers backups from every other VMs.
+
+* '''How many required''': Only one
+* '''Must it have a public IP address?''': No
+* '''Expected public hostname''': N/A
+* '''Must it have a Volume''': yes (not vital, very useful in need of recovery)
+* '''Must it have a DNS reverse lookup''': No
+* '''Must it have publicly opened ports?''': No
+* '''What does it do?''':
+** rsync data from other VMs to keep backups (cronjob made by root)
+** shares through NFS snapshots for ElasticSearch
+
+=== Design decisions ===
+
+ElasticSearch snapshot setup requires we have a network mount point. While we previously had a GlusterFS cluster that could have been used for that purpose, we decided to change our setup to stop using it. We therefore needed, again, to setup network share. This time It has been decided to use NFS from the backup VM and potentially share through it only what’s required to facilitate backups but not as a main way to gather data when generating web pages.
+
+=== Also related ===
+
+* [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster#How_backups_are_made|ElasticSearch cluster; How backups are made]]
+
+
 == masterdb ==
 
 There must only one that has both ''db'' AND ''masterdb'' (e.g. '''db1-masterdb'''). Note that the number isn’t important, just that by convention the lower number is the one we use as a master to send writes to. 
