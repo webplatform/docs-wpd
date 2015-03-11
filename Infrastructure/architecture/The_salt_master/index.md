@@ -34,7 +34,7 @@ MediaWiki config has a line '''$wpdUdp2logDest = 'salt:8420';''' and other direc
 Each VM, except the salt master itself, should have a file in `/etc/rsyslog.d/60-local1.conf` for this purpose.
 The salt master is using syslog-ng to receive and write the log messages from the minions.
 
-Setup is not fully trusted/reliable yet. I’m affraid we are losing packets due to many factors (if a minion VM doesnt find the salt master for any reason for example). This will be addressed in [https://github.com/webplatform/ops/issues/117 webplatform/ops#117].
+Setup is not fully trusted/reliable yet. I’m affraid we are losing packets due to many factors (if a minion VM doesnt find the salt master for any reason for example). This will be addressed, see {{OperationsTask|117}}
 
 
 === Sent by Fastly ===
