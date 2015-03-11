@@ -72,7 +72,7 @@ This option would be perfect as we wouldn’t need to sync to DreamObjects later
                  "swift_url": "https://objects.dreamhost.com:443/auth",
                  "swift_container": "elasticsearch-snapshots",
                  "swift_username": "wpd-ci:salt-master",
-                 "swift_password": "zSag2bJqO0zLByix5ApaN1cw9QhxIMsmRI-DYZ2X"}}'
+                 "swift_password": "..."}}'
 
 
 
