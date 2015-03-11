@@ -100,9 +100,9 @@ Note that its in YAML here by habit of the author and isn’t copy-pasateable, t
   </code>
 
 
-  ... or a similar VCL:
+... should generate a similar VCL configuration:
 
-  <syntaxHighlight lang="c">
+<syntaxHighlight lang="c">
   sub vcl_recv {
   #FASTLY recv
 
@@ -144,4 +144,4 @@ Note that its in YAML here by habit of the author and isn’t copy-pasateable, t
        return (deliver);
     }
   }
-  <syntaxHighlight>
+</syntaxHighlight>
