@@ -165,7 +165,10 @@ This VM is only accessible from internal network which is sensible considering i
 ** Auth server frontend ("fxa-content-server")
 
 === Design decisions ===
-* [https://github.com/webplatform/ops/issues/115 webplatform/ops#115]: While at the moment we do expose an HTTP server through NGINX to the public, this VM will be eventually not visible. It is planned that we get the IP address it uses to make a new set of hostnames and create a "round robin" (i.e. a DNS name that has more than one IP address) and create a NGINX frontend proxy. This new proxy would serve content from internal backends to the public without exposing 
+
+While at the moment we do expose an HTTP server through NGINX to the public, this VM will be eventually not visible.
+
+It is planned, in {{OperationsTask|115}}, that we get the IP address it uses to make a new set of hostnames and create a "round robin" (i.e. a DNS name that has more than one IP address) and create a NGINX frontend proxy. This new proxy would serve content from internal backends to the public without exposing 
 
 == memcache ==
 
