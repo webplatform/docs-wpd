@@ -89,8 +89,6 @@ It means that, in '''production''' level on the March 11 2015, the following wou
 ## the '''backup''' VM makes an archive of the full <code>/srv/exports/elasticsearch/nfsshared</code> — therefore including any other snapshots the cluster might have
 ## the '''backup''' VM then saves the archive at <code>/mnt/backup/elasticsearch-snapshot-20150311.tar.gz</code> — along with other backups the VM stores.
 
-from any ''elastic'' VM as 
-
 
 === Related reference ===
 
