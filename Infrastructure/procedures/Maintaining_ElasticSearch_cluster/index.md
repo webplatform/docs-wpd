@@ -59,17 +59,12 @@ Check a snapshot status:
 
 
 
-=== Backup to Swift using WikiMedia Swift ElasticSearch plugin ===
+=== Backup to a DreamObjects bucket directly ===
 
 This option would be perfect as we wouldn’t need to sync to DreamObjects later like we need to do with the rest.
 
-      cd /usr/share/elasticsearch
-      ./bin/plugin -i org.wikimedia.elasticsearch.swift/swift-repository-plugin/0.7
-      curl -XPUT localhost:9200/_snapshot/swift_backup -d '{"type": "swift", "settings":
-                 "swift_url": "https://objects.dreamhost.com:443/auth",
-                 "swift_container": "elasticsearch-snapshots",
-                 "swift_username": "wpd-ci:salt-201503",
-                 "swift_password": "..."}}'
+This has to be done, refer to the task [https://github.com/webplatform/ops/issues/120 '''webplatform/ops#120''']
+
 
 === How backups are made at the moment ===
 
