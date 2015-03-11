@@ -63,7 +63,7 @@ Check a snapshot status:
 
 This option would be perfect as we wouldn’t need to sync to DreamObjects later like we need to do with the rest.
 
-This has to be done, refer to the task [https://github.com/webplatform/ops/issues/120 '''webplatform/ops#120''']
+This has to be done, refer to {{OperationsTask|120}}
 
 
 === How backups are made at the moment ===
