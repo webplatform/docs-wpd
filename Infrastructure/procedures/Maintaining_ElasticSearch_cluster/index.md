@@ -71,7 +71,7 @@ This option would be perfect as we wouldn’t need to sync to DreamObjects later
       curl -XPUT localhost:9200/_snapshot/swift_backup -d '{"type": "swift", "settings":
                  "swift_url": "https://objects.dreamhost.com:443/auth",
                  "swift_container": "elasticsearch-snapshots",
-                 "swift_username": "wpd-ci:salt-master",
+                 "swift_username": "wpd-ci:salt-201503",
                  "swift_password": "..."}}'
 
 
@@ -98,13 +98,18 @@ This option would be perfect as we wouldn’t need to sync to DreamObjects later
 
 To install, you can run from one node. Technically if we use in production, we’ll ensure they are installed.
 
-    root@elastic3:~# /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
+    root@elastic1:~# /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
 
-Accessing, you can connect through an SSH proxy as its [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH|described in the 2015 architecture documentation sprint at "Accessing a VM using SSH"]]
+This particular plugin exposes a web application at '''hostname:9200/_plugin/marvel'''. Here it would be at '''elastic1:9200/_plugin/marvel'''.
 
-    http://elastic3:9200/_plugin/marvel/
+Since our network doesn’t expose everything to the public, if we want to see what it has we’ll have to make a web browser to pass through the salt master SOCKS proxy so we can have our local computer access the ''elastic1'' node as if we were in the same network.
 
-[[Image:elasticsearch-cluster-status-201503.png]]
+Details on how to access the dashboard is described in [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH]].
+
+Once you have a web browser setup, you can go to "<nowiki>http://elastic1:9200/_plugin/marvel/</nowiki>" and see the dashboard;
+
+[[File:elasticsearch-cluster-status-201503.png]]
+
 
 === Related reference ===
 
