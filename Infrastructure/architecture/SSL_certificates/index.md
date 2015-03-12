@@ -32,11 +32,11 @@ New convention is based on this '''certificates/foo/public_bar_bazz.pem'''
 
 Run
 
-<code>openssl x509 -text -in certificates/production/public_accounts_subdomains_201404.pem | grep 'DNS:'</code>
+  <nowiki>openssl x509 -text -in certificates/production/public_accounts_subdomains_201404.pem | grep 'DNS:'</nowiki>
 
 Will list them like this:
 
-<code>DNS:accounts.webplatform.org, DNS:webplatform.org, DNS:profile.accounts.webplatform.org, DNS:verifier.accounts.webplatform.org, DNS:certifier.accounts.web</code>
+  <nowiki>DNS:accounts.webplatform.org, DNS:webplatform.org, DNS:profile.accounts.webplatform.org, DNS:verifier.accounts.webplatform.org, DNS:certifier.accounts.web</nowiki>
 
 
 
