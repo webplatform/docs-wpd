@@ -44,15 +44,14 @@ Will list them like this:
 
   <nowiki>openssl s_client -connect 173.236.254.96:443 -servername accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text | grep 'DNS:'</nowiki>
 
+Where:
+
+; 173.236.254.96: is the IP address of the server you just deployed certificates
+; accounts.webplatform.org: is the domain name you want to test
+
 Should look like this:
 
   <nowiki>DNS:notes.webplatform.org, DNS:docs.webplatform.org, DNS:accounts.webplatform.org, DNS:specs.webplatform.org, DNS:www.webplatform.org, DNS:webplatform.org</nowiki>
-
-
-Where
-
-* ''173.236.254.96'' is the IP address of the server you just deployed certificates
-* ''api.accounts.webplatform.org'' is the domain name you want to test
 
 
 
