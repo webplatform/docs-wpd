@@ -14,7 +14,7 @@ It means that we’ll ensure that as few people as possible has access to the sa
 
 * The file is called '''certificates.tar.gz.gpg''' and its hosted in DreamObjects '''wpd-ci''' bucket.
 * The file gets download on the salt master at ''/srv/code/packages/''' where '''certificates.tar.gz.gpg''' is kept decrypted, and decompressed.
-* The file '''/srv/code/packages/certificates.README.md''' has a copy of this document in the wiki 
+* The file '''/srv/code/packages/certificates.README.md''' has a copy of this document in the wiki at https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/SSL_certificates
 
 ==  Certificates package convention ==
 
