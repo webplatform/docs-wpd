@@ -40,9 +40,14 @@ Will list them like this:
 
 
 
-## Testing certificate from the terminal
+== Testing certificate from the terminal ==
 
-  <nowiki>openssl s_client -connect 173.236.254.96:443 -servername api.accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text</nowiki>
+  <nowiki>openssl s_client -connect 173.236.254.96:443 -servername accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text | grep 'DNS:'</nowiki>
+
+Should look like this:
+
+  <nowiki>DNS:notes.webplatform.org, DNS:docs.webplatform.org, DNS:accounts.webplatform.org, DNS:specs.webplatform.org, DNS:www.webplatform.org, DNS:webplatform.org</nowiki>
+
 
 Where
 
