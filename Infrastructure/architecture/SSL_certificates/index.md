@@ -42,7 +42,7 @@ Will list them like this:
 
 ## Testing certificate from the terminal
 
-<code>openssl s_client -connect 173.236.254.96:443 -servername api.accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text</code>
+  <nowiki>openssl s_client -connect 173.236.254.96:443 -servername api.accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text</nowiki>
 
 Where
 
