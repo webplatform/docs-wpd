@@ -4,7 +4,7 @@ To manage our SSL certificates we copy around an encrypted file that holds our k
 
 == Design decisions ==
 
-; We do not want to have to enter a passphrase at every web server restart or server reboot; we are then stuck to copy around private keys and certificates that aren’t passphrase protected
+; We do not want to have to enter a passphrase at every web server restart or server reboot: we are then stuck to copy around private keys and certificates that aren’t passphrase protected
 ; We want to rebuild any VM at any time: We therefore need to make available the certificates so they can be rsync’ed at any time
 ; We want to have a quick VM creation process: That’s why we have salt, but we cannot encrypt/decrypt certificate archive at every time
 
