@@ -30,3 +30,15 @@ What we learned while running WPD in the last years:
 ** Features that arent’ really well documented (e.g. SVG)
 ** '''Emerging technologies''', recently spec'ed, and not much documentation about them
 ** Increase involvement from the standards people. Help them participate with us.
+* Two issues we have
+
+== ... ==
+* we have a lot of content but its not well organized nor curated
+* ''Documentation plan'':
+** Features that arent’ really well documented AND/OR emerging technologies that are newly spec’ed
+** Hire somebody to help curate and organize the site and do better organization
+** Focus on quality instead of quantity (and completeness?)
+** Set in place ways to extract out of standard documents to make it a base for documentation
+** Want to focus on 
+* In addition to doing documentation, we want to provide a way for developers to get more involved in the creation and standardization of technologies
+* ...
