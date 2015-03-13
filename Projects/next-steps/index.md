@@ -30,7 +30,8 @@ What we learned while running WPD in the last years:
 ** Features that arent’ really well documented (e.g. SVG, Accessibility experts)
 ** '''Emerging technologies''', recently spec'ed, and not much documentation about them
 ** Increase involvement from the standards people. Help them participate with us.
-
+* We havent got very much traffic because our focus was always into creating the content. We should focus less on the content, and more on the services.  Content isn’t unique, services can make a distinction.
+ 
 === Documentation plan ===
 * we have a lot of content but its not well organized nor curated
 * ''Documentation plan'':
