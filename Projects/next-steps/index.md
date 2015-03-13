@@ -39,6 +39,5 @@ What we learned while running WPD in the last years:
 ** Hire somebody to help curate and organize the site and do better organization
 ** Focus on quality instead of quantity (and completeness?)
 ** Set in place ways to extract out of standard documents to make it a base for documentation
-** Want to focus on 
+** @PIN compat data? 
 * In addition to doing documentation, we want to provide a way for developers to get more involved in the creation and standardization of technologies
-* ...
