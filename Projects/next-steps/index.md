@@ -30,9 +30,8 @@ What we learned while running WPD in the last years:
 ** Features that arent’ really well documented (e.g. SVG, Accessibility experts)
 ** '''Emerging technologies''', recently spec'ed, and not much documentation about them
 ** Increase involvement from the standards people. Help them participate with us.
-* Two issues we have
 
-== ... ==
+=== Documentation plan ===
 * we have a lot of content but its not well organized nor curated
 * ''Documentation plan'':
 ** Features that arent’ really well documented AND/OR emerging technologies that are newly spec’ed
@@ -40,5 +39,21 @@ What we learned while running WPD in the last years:
 ** Invite experts to help make exemplar pages, details, how tos. To make each pages useful for web developers
 ** Focus on quality instead of quantity (e.g. SVG, Accessibility)
 ** Set in place ways to extract out of standard documents to make it a base for documentation
-** @PIN compat data? 
+** @TODO compat data? 
 * In addition to doing documentation, we want to provide a way for developers to get more involved in the creation and standardization of technologies
+* We also learned that we can’t really count on long sustained efforts from volunteers
+* Regardless of whether or not we get steward support financially, convince them to make the editors ''also'' participate in documentation along with their work on standards
+
+
+=== Developer involvement plan ===
+* annotation system
+
+
+=== Infrastructure we have in place ===
+Elaborate on @TODO, in high level:
+* Which individual software we run, pieces involved, what needs each piece fulfills
+* Software we got rid of (web based IRC webclient, buggenie, etc)
+* New components (github, huboard)
+* We werent assured of long term free hosting form HP, thankfully DreamHost took charge of us
+* Automation improvements
+* Overview of lessons learned, and wins
