@@ -27,7 +27,7 @@ What we learned while running WPD in the last years:
 * We didn’t have much attraction of web developer as an audience (new audience, a success)
 * Bad thing is that we didn’t get much attraction from the standards community
 * Our content might need to do more curation, lets set priorities and  focus on them
-** Features that arent’ really well documented (e.g. SVG)
+** Features that arent’ really well documented (e.g. SVG, Accessibility experts)
 ** '''Emerging technologies''', recently spec'ed, and not much documentation about them
 ** Increase involvement from the standards people. Help them participate with us.
 * Two issues we have
@@ -37,7 +37,8 @@ What we learned while running WPD in the last years:
 * ''Documentation plan'':
 ** Features that arent’ really well documented AND/OR emerging technologies that are newly spec’ed
 ** Hire somebody to help curate and organize the site and do better organization
-** Focus on quality instead of quantity (and completeness?)
+** Invite experts to help make exemplar pages, details, how tos. To make each pages useful for web developers
+** Focus on quality instead of quantity (e.g. SVG, Accessibility)
 ** Set in place ways to extract out of standard documents to make it a base for documentation
 ** @PIN compat data? 
 * In addition to doing documentation, we want to provide a way for developers to get more involved in the creation and standardization of technologies
