@@ -13,8 +13,8 @@ We are using two email servers ("MTA"):
 
 === Useful commands ===
 
-; mailq: List messages in queue, bounces, frozen, deferred, etc.
-; postcat -q FOO: Display an email, use in conjunction with ''mailq'' to get "FOO'' ids
+; mailq: List messages in queue, bounces, frozen, deferred, etc along with an identifier
+; postcat -q FOO: Display an email, use in conjunction with ''mailq'' to get "FOO" identifier
 ; postfix check: Runs basic installation checks
 ; postconf: List all currently loaded configurations from ''main.cf''
 
