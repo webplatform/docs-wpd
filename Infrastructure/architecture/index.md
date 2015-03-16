@@ -13,6 +13,7 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/procedures/Managing_MySQL_replication|Managing MySQL replication]]
 * [[WPD:Infrastructure/procedures/Create_new_database_credentials_configure_a_web_application_to_use_it|Create new database credentials and configure a web application to use it]]
 * [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|Maintaining ElasticSearch cluster]]
+* [[WPD:Infrastructure/procedures/Maintaining_email_services|Maintaining email services]]
 
 </noinclude><includeonly>
 <div style="float:right;width:50%;word-wrap:break-word;clear:both;">
@@ -28,6 +29,7 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/procedures/Managing_MySQL_replication|Managing MySQL replication]]
 * [[WPD:Infrastructure/procedures/Create_new_database_credentials_configure_a_web_application_to_use_it|Create new database credentials and configure a web application to use it]]
 * [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|Maintaining ElasticSearch cluster]]
+* [[WPD:Infrastructure/procedures/Maintaining_email_services|Maintaining email services]]
 
 </div>
 </includeonly>
