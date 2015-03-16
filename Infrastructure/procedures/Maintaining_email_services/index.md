@@ -11,9 +11,11 @@ We are using two email servers ("MTA"):
 
 @TODO
 
-=== Run basic checks ===
+=== Useful commands ===
 
- postfix check
+; postfix check: Runs basic installation checks
+; postconf: List all currently loaded configurations from ''main.cf''
+
 
 === Useful links ===
 
