@@ -14,7 +14,7 @@ We are using two email servers ("MTA"):
 
 * [https://rtcamp.com/tutorials/mail/postfix-queue/|RTCamp tutorial on Postfix queue]
 * Postfix documentation
-** [http://www.postfix.org/local.8.html|Local delivery]
+** [http://www.postfix.org/local.8.html Local delivery]
 
 
 === TODO: Read and evaluate ===
