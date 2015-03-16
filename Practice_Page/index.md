@@ -1,7 +1,7 @@
-{{Page_Title|The infamous CSS 'practice' property}}
+{{Page_Title|CSS2.1 选择器}}
 {{Flags
 |State=In Progress
-|Editorial notes=
+|Editorial notes=选择器
 |Checked_Out=No
 |High-level issues=Stub, Needs Flags
 }}
