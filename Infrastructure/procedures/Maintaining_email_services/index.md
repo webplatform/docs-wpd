@@ -11,6 +11,10 @@ We are using two email servers ("MTA"):
 
 @TODO
 
+=== Run basic checks ===
+
+ postfix check
+
 === Useful links ===
 
 * [https://rtcamp.com/tutorials/mail/postfix-queue/ RTCamp tutorial on Postfix queue]
