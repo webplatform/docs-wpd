@@ -24,8 +24,9 @@ We are using two email servers ("MTA"):
 * [https://rtcamp.com/tutorials/mail/postfix-queue/ RTCamp tutorial on Postfix queue]
 * [http://tecadmin.net/setup-catch-all-email-account-in-postfix/ Setup catch-all accounts in Postfix] (useful for ''webplatformstaging.org'')
 * [http://www.postfix.org/postfix-manuals.html Postfix documentation]
+** [http://www.postfix.org/OVERVIEW.html '''Overview'''] — a ''MUST READ'', summarizes well how Postfix is designed
 ** [http://www.postfix.org/local.8.html Local delivery]
-
+** [http://www.postfix.org/FILTER_README.html Filter]
 
 === TODO: Read and evaluate ===
 
