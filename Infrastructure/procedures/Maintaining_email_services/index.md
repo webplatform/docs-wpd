@@ -33,6 +33,7 @@ We are using two email servers ("MTA"):
 * http://rimuhosting.com/support/settingupemail.jsp?mta=postfix&t=users
 * http://stackoverflow.com/questions/979320/postfix-virtual-parent-domain-matches-subdomains-i-dont-want-it/980382#980382
 * http://www.rwahyudi.com/linux/postfix-for-dev-setup-%E2%80%93-catch-all-email-and-forward-it-to-a-specific-address/
+* http://www.linuxquestions.org/questions/linux-server-73/email-forwarding-in-postfix-mail-server-4175414855/
 
 == Exim ==
 
