@@ -31,6 +31,7 @@ We are using two email servers ("MTA"):
 
 * http://www.akadia.com/services/postfix_mta.html
 * http://rimuhosting.com/support/settingupemail.jsp?mta=postfix&t=users
+* http://stackoverflow.com/questions/979320/postfix-virtual-parent-domain-matches-subdomains-i-dont-want-it/980382#980382
 
 == Exim ==
 
