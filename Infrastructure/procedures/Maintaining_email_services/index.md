@@ -22,6 +22,7 @@ We are using two email servers ("MTA"):
 === Useful links ===
 
 * [https://rtcamp.com/tutorials/mail/postfix-queue/ RTCamp tutorial on Postfix queue]
+* [http://tecadmin.net/setup-catch-all-email-account-in-postfix/ Setup catch-all accounts in Postfix] (useful for ''webplatformstaging.org'')
 * Postfix documentation
 ** [http://www.postfix.org/local.8.html Local delivery]
 
