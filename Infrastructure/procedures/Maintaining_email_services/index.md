@@ -14,9 +14,20 @@ We are using two email servers ("MTA"):
 === Useful commands ===
 
 ; mailq: List messages in queue, bounces, frozen, deferred, etc along with an identifier
+; postqueue -p: same as ''mailq'' but specific to Postfix
 ; postcat -q FOO: Display an email, use in conjunction with ''mailq'' to get "FOO" identifier
 ; postfix check: Runs basic installation checks
 ; postconf: List all currently loaded configurations from ''main.cf''
+;postmap -q 'root' hash:/etc/postfix/virtual && echo OK || echo 'No match found': Test if an email alias (e.g. root@webplatform.org) works (e.g. `root@webplatform.org` to send to `team-webplatform-foo@w3.org`)
+
+
+==== Purge messages according to a known pattern ====
+
+Not something to do liberally, only to known email messages patterns that you know are obsolete.
+
+A good time to use such command would be after a work session on a flapping service and all messages you see in the queue are byproduct of the issue you just fixed.
+
+  postqueue -p | grep ubuntu@webplatform.org | awk '{print $1}' | tr -d '*' | while read mid ; do postsuper -d $mid ; done
 
 
 === Useful links ===
@@ -39,3 +50,21 @@ We are using two email servers ("MTA"):
 == Exim ==
 
 @TODO
+
+;mailq: List the mail queue
+;exim -Mvb FOO: Read email body of email with id ''FOO''
+;exim -Mvh FOO: Read email header
+;exim -Mrm FOO: Delete email from queue
+; exim -q:Reprocess the queue
+;exim -qf:Reprocess the queue that has frozen messages
+
+
+==== Purge messages according to a known pattern ====
+
+Not something to do liberally, but can be handy.
+
+  exiqgrep -i | xargs exim -Mrm
+
+=== Useful links ===
+
+* http://www.electrictoolbox.com/exim-delete-message/
