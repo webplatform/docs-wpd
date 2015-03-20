@@ -18,22 +18,22 @@ Listing all sub pages from here.
 |-
 | wiki
 | [https://www.mediawiki.org/wiki/MediaWiki MediaWiki]
-| [http://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
+| [https://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
 | yes
 |-
 | IRC logger
 | [http://classam.github.io/pierc/ Lumberjack (now called Pierc)]
-| [http://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
+| [https://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
 | yes
 |-
 | metrics
 | [http://piwik.org/ Piwik]
-| [http://tracking.webplatform.org/ tracking.webplatform.org/]
+| [https://stats.webplatform.org/ stats.webplatform.org/]
 | yes
 |-
 | blog
 | [http://wordpress.org/ WordPress]
-| [http://blog.webplatform.org/ blog.webplatform.org/]
+| [https://blog.webplatform.org/ blog.webplatform.org/]
 | yes
 |-
 | Sandbox
@@ -43,11 +43,11 @@ Listing all sub pages from here.
 |-
 | Project management and bugs
 | [http://www.thebuggenie.com/ The Bug Genie]
-| [http://project.webplatform.org/ project.webplatform.org/]
+| [https://project.webplatform.org/ project.webplatform.org/]
 | yes
 |-
 | Accounts
 | [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
-| 
-| no
+| [https://accounts.webplatform.org/ accounts.webplatform.org/]
+| yes
 |}
