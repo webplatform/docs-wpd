@@ -18,7 +18,7 @@ We are using two email servers ("MTA"):
 ; postcat -q FOO: Display an email, use in conjunction with ''mailq'' to get "FOO" identifier
 ; postfix check: Runs basic installation checks
 ; postconf: List all currently loaded configurations from ''main.cf''
-;postmap -q 'root' hash:/etc/postfix/virtual && echo OK || echo 'No match found': Test if an email alias (e.g. root@webplatform.org) works (e.g. `root@webplatform.org` to send to `team-webplatform-foo@w3.org`)
+;<nowiki>postmap -q 'root' hash:/etc/postfix/virtual && echo OK || echo 'No match found'</nowiki>: Test if an email alias (e.g. root@webplatform.org) works (e.g. `root@webplatform.org` to send to `team-webplatform-foo@w3.org`)
 
 
 ==== Purge messages according to a known pattern ====
