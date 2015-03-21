@@ -118,7 +118,8 @@ root     32427  0.0  0.0   7640   916 pts/3    S+   02:02   0:00 grep --color=au
 * Go to the appropriate folder where MediaWiki is installed. We have more than one installation, in this situation the appropriate place is in <code>/srv/webplatform/wiki/current/</code>. Always refer to the Salt states on the deployment server in <code>/srv/salt</code>
 * Run the Semantic Media Wiki refreshData script, it might take a while. Expect about 20 minutes of time to wait.
 <syntaxHighlight>
-php /srv/webplatform/wiki/current/extensions/SemanticMediaWiki/maintenance/SMW_refreshData.php -v
+cd /srv/webplatform/wiki/wpwiki/mediawiki
+php extensions/SemanticMediaWiki/maintenance/SMW_refreshData.php -v
 ...
 (29477) Processing ID 29478 ...
 (29478) Processing ID 29479 ...
