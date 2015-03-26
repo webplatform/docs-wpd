@@ -10,6 +10,8 @@ Should cover;
 * Automation improvements
 * Overview of lessons learned, and wins
 
+On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|the 201410 report published last year]] and in the [[WPD:Infrastructure/analysis/2014-Improvements_plan|'''2014 Improvement plan''' page]].
+
 == Software we currently use ==
 
 
