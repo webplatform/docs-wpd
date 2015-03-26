@@ -78,13 +78,10 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 {| class="wikitable sortable" |
 ! Resource
 ! Software
-! Deployment repository
 ! Location
 |- 
 ! Operations issue tracker
 | GitHub "''webplatform/ops"'' project and [https://huboard.com/ Hubboard]
-| N/A
-| TODO
 | [https://huboard.com/webplatform/ops/#/ ''KanBan'' dashboard], [https://webplatform.github.io/ops webplatform.github.io/ops]
 |}
 
