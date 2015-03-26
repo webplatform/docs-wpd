@@ -49,6 +49,10 @@ INCOMPLETE
 * https://www.varnish-cache.org/trac/wiki/VCLExampleLongerCaching
 * http://stackoverflow.com/questions/10284813/howto-control-varnish-and-a-browser-using-cache-control-max-age-header-in-a-rai
 
+=== See also in our pages ===
+
+* [[WPD:Infrastructure/analysis/2015-How_MediaWiki_backend_sees_requests_with_or_without_Fastly_in_front|analysis; 2015, How MediaWiki backend sees requests with and without ''Fastly'' in front]]
+
 === Reference to review ===
 ==== MediaWiki ====
 * [http://www.mediawiki.org/wiki/Manual:Varnish_caching MediaWiki Varnish Caching]
