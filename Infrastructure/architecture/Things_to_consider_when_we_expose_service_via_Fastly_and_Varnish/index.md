@@ -47,3 +47,28 @@ INCOMPLETE
 * https://www.varnish-cache.org/docs/trunk/users-guide/increasing-your-hitrate.html#the-role-of-http-headers
 * https://www.varnish-cache.org/trac/wiki/VCLExampleLongerCaching
 * http://stackoverflow.com/questions/10284813/howto-control-varnish-and-a-browser-using-cache-control-max-age-header-in-a-rai
+
+=== Reference to review ===
+==== MediaWiki ====
+* [http://www.mediawiki.org/wiki/Manual:Varnish_caching MediaWiki Varnish Caching]
+* [http://labs.creativecommons.org/2011/03/18/caching-mediawiki-with-varnish/ Caching mediawiki with varnish]
+* [https://www.varnish-cache.org/lists/pipermail/varnish-misc/2012-January/021574.html Default VCL for MediaWiki]
+
+==== Varnish in general ====
+* [http://kly.no/varnish/regex.txt Regular expression Cheat sheet]
+* [https://www.varnish-cache.org/docs/2.1/genindex.html Varnish documentation]
+** [https://www.varnish-cache.org/docs/2.1/tutorial/vcl.html Varnish configuration language]
+** [https://www.varnish-cache.org/docs/2.1/tutorial/cookies.html Varnish tutorial cookies]
+* [https://www.varnish-software.com/static/book/Tuning.html?highlight=timeout Varnish book about tuning]
+
+==== ESI ====
+* [https://www.varnish-cache.org/trac/wiki/ESIfeatures Varnish ESI features]
+* [https://www.varnish-cache.org/docs/2.1/tutorial/esi.html Varnish 2.1 ESI doc]
+
+==== Misc. ====
+* [http://kly.no/posts/2010_01_08__Hitpass_objects_and_Varnish__.rst Varnish caching, definition of HIT, PASS and other caching lingo]
+* [http://docs.fastly.com/guides/21847086 Fastly: Caching tutorials]
+** [http://docs.fastly.com/guides/21835572/21744408 Fastly: Removing headers from backend response]
+** [http://docs.fastly.com/guides/21835572/23999817 Fastly: Adding and modifying headers]
+** [http://docs.fastly.com/guides/21847086/22257776 How to serve stale content in case of origin becoming unavailable]
+* [http://docs.fastly.com/guides/21847086/26628787 Fastly tutorial: Cache control]
