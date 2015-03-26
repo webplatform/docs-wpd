@@ -3,6 +3,7 @@
 
 The following summarizes how to manage our Varnish caching service served by our friends at [https://fastly.com Fastly]. Note that the documentation describes how Varnish works but also how to manage Fastly very own Varnish cluster so we don’t have to.
 
+This document is specific on how to maintain Varnish configuration at Fastly. Notes that describes the specifics of things we should keep in mind when configuring the cache should be moved to [[WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish|Things to consider when we expose service via Fastly and Varnish]]
 == Abastract ==
 
 If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
@@ -50,11 +51,6 @@ Make the content of snippet as a file and upload it to the Fastly control pannel
 Configuration files are stored on [https://github.com/webplatform/varnish-configs Github, in '''webplatform/varnish-configs''' project], the VCL file name should match the subdomain and also the service bane in Fastly dashboard.
 
 == Links ==
-=== MediaWiki ===
-* [http://www.mediawiki.org/wiki/Manual:Varnish_caching MediaWiki Varnish Caching]
-* [http://labs.creativecommons.org/2011/03/18/caching-mediawiki-with-varnish/ Caching mediawiki with varnish]
-* [https://www.varnish-cache.org/lists/pipermail/varnish-misc/2012-January/021574.html Default VCL for MediaWiki]
-
 
 === Fastly specific ===
 * [https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL- Fastly: How to mix and match Fastly VCL with custom VCL (Varnish configuration file)]
@@ -64,14 +60,3 @@ Configuration files are stored on [https://github.com/webplatform/varnish-config
 ** [http://docs.fastly.com/guides/21835572/23999817 Fastly: Adding and modifying headers]
 ** [http://docs.fastly.com/guides/21847086/22257776 How to serve stale content in case of origin becoming unavailable]
 * [http://docs.fastly.com/guides/21847086/26628787 Fastly tutorial: Cache control]
-
-=== Varnish in general ===
-* [http://kly.no/varnish/regex.txt Regular expression Cheat sheet]
-* [https://www.varnish-cache.org/docs/2.1/genindex.html Varnish documentation]
-** [https://www.varnish-cache.org/docs/2.1/tutorial/vcl.html Varnish configuration language]
-** [https://www.varnish-cache.org/docs/2.1/tutorial/cookies.html Varnish tutorial cookies]
-* [https://www.varnish-software.com/static/book/Tuning.html?highlight=timeout Varnish book about tuning]
-
-=== ESI ===
-* [https://www.varnish-cache.org/trac/wiki/ESIfeatures Varnish ESI features]
-* [https://www.varnish-cache.org/docs/2.1/tutorial/esi.html Varnish 2.1 ESI doc]
