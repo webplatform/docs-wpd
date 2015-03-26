@@ -31,6 +31,8 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 
 === What’s missing ===
 
+'''NOTE''': Outdated
+
 * Database cluster
 * Redis/Memcache configuration
 * Server statistics (ganglia)
