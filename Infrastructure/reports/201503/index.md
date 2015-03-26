@@ -1,9 +1,70 @@
 = March 2015 Infrastructure change log since 2013 =
 
+List of high level Infrastructure changes we’ve worked on in the last two years.
+
+Should cover;
+* Which individual software we run, pieces involved, what needs each piece fulfills
+* Software we got rid of (e.g. web based IRC client, GlusterFS, etc)
+* New components
+* We weren't assured of long term free hosting form HP, thankfully DreamHost took charge of us
+* Automation improvements
+* Overview of lessons learned, and wins
+
+== Software we currently use ==
+
+
+{| class="wikitable sortable" |
+! Resource
+! Software
+! Deployment repository
+! Location
+|- 
+| Home page
+| [https://docpad.org/|DocPad]
+| [https://github.com/webplatform/www.webplatform.org repository]
+| [http://webplatform.org/ webplatform.org/]
+|-
+| wiki ([[Special:Version|version]])
+| [https://www.mediawiki.org/wiki/MediaWiki MediaWiki]
+(using Wikimedia Foundation ("wmf/1.24wmfX") continuous release branches)
+| [https://github.com/webplatform/mediawiki repository]
+| [https://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
+|-
+| IRC logger
+| [http://classam.github.io/pierc/ Lumberjack (now called Pierc)]
+| TODO
+| [https://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
+|-
+| Analytics
+| [http://piwik.org/ Piwik]
+| TODO
+| [https://stats.webplatform.org/ stats.webplatform.org/]
+|-
+| Blog
+| [http://wordpress.org/ WordPress]
+| [https://github.com/webplatform/blog-service repository]
+| [https://blog.webplatform.org/ blog.webplatform.org/]
+|-
+| Code sandbox
+| [http://dabblet.com/ Dabblet]
+| [https://github.com/webplatform/dabblet repository]
+| [http://code.webplatform.org/ code.webplatform.org/]
+|-
+| Project management
+| [http://www.thebuggenie.com/ The Bug Genie]
+| [https://github.com/webplatform/thebuggenie repository]
+| [https://project.webplatform.org/ project.webplatform.org/]
+|-
+| Accounts
+| [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
+| TODO
+| [https://accounts.webplatform.org/ accounts.webplatform.org/]
+|}
+
 
 == 2013 ==
 
-* Installation of our own Analytics solution through Piwik
+* Installation of our own Analytics solution using '''Piwik''', at ''stats.webplatform.org''' 
 * Only one set of Virtual Machines (VMs) exposing live site, no room to work on improvements without risks of affecting live site
 * Deployment scripts were assuming exactly one deployment, making it hard to do gradual roll out
 * VMs were running with two different OS versions: Ubuntu 10.04 and 12.04 
@@ -22,7 +83,7 @@
 **# single table view: [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css| <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css</code>]
 **#single table view, "naked" alternate [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1</code>]
 **#manual table flush [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge</code>]
-** Work on Semantic MediaWiki template https://docs.webplatform.org/wiki/Template:Compatibility to allow embed in content
+** Work on Semantic MediaWiki template [https://docs.webplatform.org/wiki/Template:Compatibility| <nowiki>Template:Compatibility</nowiki>] to allow embed in content pages
 ** Creation of a GitHub repository to host compatibility data [https://github.com/webplatform/compatibility-data|on GitHub ''webplatform/compatibility-data'']
 **  Originally it was regenerating the HTML for EVERY page load based on a previous JSON source
 * Removed requirement of shared storage across VMs to use external DreamObjects storage (Swift) at DreamHost 
