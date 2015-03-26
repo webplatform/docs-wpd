@@ -19,9 +19,9 @@
 ** serve a copy of the generated HTML
 ** flush the generated HTML copy when JSON source is updated
 ** Alternate views and new supported actions:
-**# single table view: [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css| /wiki/Special:Compatables?feature=border-radius&format=table&topic=css]
-**#single table view, "naked" alternate [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1| /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1]
-**#manual table flush https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge
+**# single table view: [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css| <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css</code>]
+**#single table view, "naked" alternate [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1</code>]
+**#manual table flush [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge</code>]
 ** Work on Semantic MediaWiki template https://docs.webplatform.org/wiki/Template:Compatibility to allow embed in content
 ** Creation of a GitHub repository to host compatibility data [https://github.com/webplatform/compatibility-data|on GitHub ''webplatform/compatibility-data'']
 **  Originally it was regenerating the HTML for EVERY page load based on a previous JSON source
