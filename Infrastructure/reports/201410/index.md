@@ -27,12 +27,6 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 ** MediaWiki ([https://docs.webplatformstaging.org/wiki/css/properties/border-collapse see], [https://github.com/webplatform/mediawiki-core/tree/1.24wmf16-wpd GitHub repo.], [https://github.com/webplatform/mediawiki-fxa-sso MediaWiki FxA client repo], [https://github.com/webplatform/mediawiki skin and custom extensions])
 ** Piwik ([https://stats.webplatformstaging.org/ see])
 ** Specs ([https://specs.webplatformstaging.org/ see])
-
-
-=== What’s missing ===
-
-'''NOTE''': Outdated
-
 * Database cluster
 * Redis/Memcache configuration
 * Server statistics (ganglia)
@@ -41,13 +35,17 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 ** Mail
 ** Accounts
 ** Notes
-* Missing web apps;
-** webat25.org
-** drafts.webplatform.org
 ** Firefox Accounts ([https://accounts.webplatform.org/ see], [https://github.com/webplatform?query=fxa GitHub repo.])
 ** Notes server ([https://notes.webplatform.org/ see])
 ** Bots to log '''webplatform''' and '''webspecs''' freenode IRC channels
-* Make sure that all web apps deployment are set to not accept index robots
+
+
+=== What’s missing ===
+
+'''NOTE''': Outdated
+
+* Missing web apps;
+** webat25.org
 * Set in place automation, see [[#Automatic updates]]
 
 
