@@ -144,3 +144,17 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 == 2015 ==
 
 * '''March 2015'''; Finished up work planned in [[WPD:Infrastructure/reports/201410#Objectives|'''October 2014 sprint report''', according to the ''Objectives'']] ''and'' [[WPD:Infrastructure/analysis/2014-Improvements_plan|2014 '''Improvements plan''']] we set. Except for "automated deployment at Git push", something that’ll be done in a future sprint.
+* Created bootstrap scripts so we can rebuild "from scratch" —at ANY time— a new salt master (what’s taking care of orchestrating deployment).
+* Improved infrastructure maintenance documentation
+** [[WPD:Infrastructure/architecture|Architecture design]]
+*** [[WPD:Infrastructure/architecture/VM_roles|What roles each server fulfills and how to leverage it]]
+*** [[WPD:Infrastructure/architecture/The_salt_master|How the '''Salt Master''' is designed]]
+** [[WPD:Infrastructure/procedures/Deploying_code_changes|How we deploy code]]
+* [[WPD:Infrastructure/procedures/Replacing_a_VM|How to replace any VM]] (without downtime)
+* How caching is configured
+** [[WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration|How to maintain Varnish/Fastly caching configuration]], 
+** Documented what should be taken into account when working on the configuration in [[WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish|'''Things to consider when we work on Varnish configuration''']]
+* [[WPD:Infrastructure/procedures/Managing_MySQL_replication|How to manage MySQL/MariaDB replication]]
+* [[WPD:Infrastructure/procedures/Create_new_database_credentials_configure_a_web_application_to_use_it|How to change database configuration and ensure every affected web application gets the new passswords]]
+* [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|How to maintain our new ElasticSearch cluster]], including notes on how automatic backups are made
+* [[https://docs.webplatform.org/wiki/WPD:Infrastructure/procedures/Maintaining_email_services|How to '''Maintain email services''']]
