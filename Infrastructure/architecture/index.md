@@ -16,7 +16,7 @@ Documents describing current infrastructure details, design decisions and how to
 * [[WPD:Infrastructure/procedures/Maintaining_email_services|Maintaining email services]]
 
 </noinclude><includeonly>
-<div style="float:right;width:50%;word-wrap:break-word;clear:both;">
+<div style="float:right;width:33%;word-wrap:break-word;clear:both;">
 === [[WPD:Infrastructure/architecture|WebPlatform server Infrastructure architecture menu]] ===
 
 <splist parent=WPD:Infrastructure/architecture />
