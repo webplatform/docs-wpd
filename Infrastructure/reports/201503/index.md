@@ -14,68 +14,96 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 == Software we currently use ==
 
+=== Web applications we host ===
 
 {| class="wikitable sortable" |
 ! Resource
 ! Software
 ! Deployment repository
-! Project details page
 ! Location
 |- 
 ! Home page
 | [https://docpad.org/ DocPad]
 | [https://github.com/webplatform/www.webplatform.org repository]
-| TODO
 | [http://webplatform.org/ webplatform.org/]
 |-
 ! wiki ([[Special:Version|version]])
 | [https://www.mediawiki.org/wiki/MediaWiki MediaWiki] using Wikimedia Foundation ("wmf/1.24wmfX") continuous release branches
 | [https://github.com/webplatform/mediawiki repository]
-| TODO
 | [https://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
 |-
 ! IRC logger
 | [http://classam.github.io/pierc/ Lumberjack (now called Pierc)]
-| TODO
 | TODO
 | [https://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
 |-
 ! Analytics
 | [http://piwik.org/ Piwik]
 | TODO
-| TODO
 | [https://stats.webplatform.org/ stats.webplatform.org/]
 |-
 ! Blog
 | [http://wordpress.org/ WordPress]
 | [https://github.com/webplatform/blog-service repository]
-| TODO
 | [https://blog.webplatform.org/ blog.webplatform.org/]
 |-
 ! Code sandbox
 | [http://dabblet.com/ Dabblet]
 | [https://github.com/webplatform/dabblet repository]
-| TODO
 | [http://code.webplatform.org/ code.webplatform.org/]
 |-
 ! Project management
 | [http://www.thebuggenie.com/ The Bug Genie]
 | [https://github.com/webplatform/thebuggenie repository]
-| TODO
 | [https://project.webplatform.org/ project.webplatform.org/]
 |-
+! Accounts
+| [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
+| see [[WPD:Projects/SSO|SSO Project page]]
+| [https://accounts.webplatform.org/ accounts.webplatform.org/]
+|-
+! Hypothes.is
+| [https://www.hypothes.is/ Hypothes.is]
+| TODO
+| [https://notes.webplatform.org/ notes.webplatform.org/]
+|-
+! Discuss
+| [http://www.discourse.org/ Discourse]
+| TODO
+| [https://discuss.webplatform.org/ discuss.webplatform.org/]
+|}
+
+=== Web application that we rely on ===
+
+{| class="wikitable sortable" |
+! Resource
+! Software
+! Deployment repository
+! Location
+|- 
 ! Operations issue tracker
 | GitHub "''webplatform/ops"'' project and [https://huboard.com/ Hubboard]
 | N/A
 | TODO
 | [https://huboard.com/webplatform/ops/#/ ''KanBan'' dashboard], [https://webplatform.github.io/ops webplatform.github.io/ops]
-|-
-! Accounts
-| [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
-| TODO
-| [[WPD:Projects/SSO|SSO Project page]]
-| [https://accounts.webplatform.org/ accounts.webplatform.org/]
 |}
+
+=== Misc. ===
+
+;Memcached: A "keystore" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
+;Redis: Another "keystore" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily link Redis nodes through SSL and require passwords to be able to make reads and writes.
+;ElasticSearch: A "REST" web application on which we can index documents, and use as a search engine
+;MariaDB: A drop-in replacement to MySQL, in use by most components
+;Monit: A system that is made to help ensure vital services are up
+;NGINX: A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
+;Apache: The original web server software.
+;php-fpm: A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
+
+=== Software we are currently evaluating to use ===
+
+;Nutcracker: A "keystore" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
+;HHVM: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment
+;LogStash: A centralized log manager. It harmonizes, archives and process any log messages we send to it. Serves as an easy to use log search engine
 
 
 == 2013 ==
