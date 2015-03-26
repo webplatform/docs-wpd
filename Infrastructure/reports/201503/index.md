@@ -79,10 +79,22 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 ! Resource
 ! Software
 ! Location
+! Usage
 |- 
 ! Operations issue tracker
 | GitHub "''webplatform/ops"'' project and [https://huboard.com/ Hubboard]
 | [https://huboard.com/webplatform/ops/#/ ''KanBan'' dashboard], [https://webplatform.github.io/ops webplatform.github.io/ops]
+| A Dashboard utility to visualize in columns what’s next, what´s in progress, and what’s done.
+|- 
+! WebPlatformDocs GitHub account
+| GitHub 
+| [https://gist.github.com/WebPlatformDocs gist.github.com/WebPlatformDocs], [https://github.com/WebPlatformDocs github.com/WebPlatformDocs]
+| Store all ''code.webplatform.org'' gists in GitHub. This account was created before GitHub introduced "organizations".
+|- 
+! WebPlatform GitHub organization
+| GitHub
+| [https://github.com/WebPlatform github.com/WebPlatform]
+| An organization in which we store all repositories
 |}
 
 === Misc. ===
