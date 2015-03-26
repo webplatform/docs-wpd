@@ -43,6 +43,7 @@ INCOMPLETE
 
 == Reference == 
 
+* https://www.mnot.net/cache_docs/
 * http://www.fastly.com/blog/best-practices-for-using-the-vary-header/
 * https://www.varnish-cache.org/docs/trunk/users-guide/increasing-your-hitrate.html#the-role-of-http-headers
 * https://www.varnish-cache.org/trac/wiki/VCLExampleLongerCaching
