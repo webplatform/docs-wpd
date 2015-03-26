@@ -88,4 +88,4 @@ Elaborate on @TODO, in high level:
 ** Set in place image storage pulling files directly from DreamObjects
 * 2014
 ** Upgraded all VMs to use only Ubuntu 14.04
-** Pages are now served under SSL
+** Pages are now served under SSL.
