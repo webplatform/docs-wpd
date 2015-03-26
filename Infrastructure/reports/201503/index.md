@@ -107,6 +107,7 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 ;NGINX ''(new since 2014)'': A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
 ;Apache: The original web server software.
 ;php-fpm ''(new since 2014)'': A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
+;Ubuntu: We were originally using past "long time support" ("LTS") versions 10.04 and 12.04. All our infrastructure is now using latest LTS 14.04 
 
 === Software we are currently evaluating to use ===
 
@@ -117,6 +118,8 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 : A web application made to help organize software projects. It features an IRC bot from which we could monitor more than one IRC chat room (our chat bot is not maintained and doesn’t scale well). Also, we could Phabricator as a place to: store sensitive documents, mirror GIT/SVN/Mercurial repositories we rely on, host temporary Git/Mercurial stashes so we don’t risk losing them around, code "pastebin" so we don’t need to rely on GitHub gists, etc. See [http://phabricator.org/applications/ Phabricator applications list for more details]
 ; [https://www.docker.com/ Docker]: A system that allows us to create "executable" packages called "containers" out of any software or web application. At a first look, it looks like a VM, but its a very thin one that only does one job and removes the need to upgrade operating system packages and allow to roll back from any previous builds that had been made
 ; [http://deis.io/ Deis]: An "orchestration" system that automates the cycle of building Docker containers. It automates handling of subsystems such as load balancing, remove the need to hardcode web application related deployment scripts, archiving, etc.
+;CoreOS: TODO
+
 
 == 2013 ==
 
