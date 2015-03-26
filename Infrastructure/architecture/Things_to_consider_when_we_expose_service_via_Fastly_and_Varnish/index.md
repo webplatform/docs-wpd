@@ -1,3 +1,4 @@
+{{:WPD:Infrastructure/architecture}}
 = Things to consider when we expose service via Fastly and Varnish =
 
 INCOMPLETE
