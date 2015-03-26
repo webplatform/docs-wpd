@@ -143,4 +143,4 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 == 2015 ==
 
-* Finished up work planned in [[WPD:Infrastructure/reports/201410#Objectives|'''2014 Improvements plan''', according to the ''Objectives'' we set]]
+* '''March 2015'''; Finished up work planned in [[WPD:Infrastructure/reports/201410#Objectives|'''October 2014 sprint report''', according to the ''Objectives'']] ''and'' [[WPD:Infrastructure/analysis/2014-Improvements_plan|2014 '''Improvements plan''']] we set.
