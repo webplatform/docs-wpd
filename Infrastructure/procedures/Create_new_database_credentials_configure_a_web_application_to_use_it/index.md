@@ -1,6 +1,8 @@
 {{:WPD:Infrastructure/architecture}}
 = Create new database credentials and configure a web application to use it =
 
+... or '''"How to change database configuration and ensure every affected web application gets the new passswords"'''.
+
 The concept of states are ideal to manage many aspects of a running system. But one of the "gray zones" are about database credentials, or whether or not we should send commands to set database credentials at every deployment system "apply configuration" run. For this reason we do not enforce them in the salt states.
  
 But what if we want to change the database details? Here’s how.
