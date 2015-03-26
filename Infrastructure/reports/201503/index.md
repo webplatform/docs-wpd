@@ -63,8 +63,8 @@ Should cover;
 | [https://project.webplatform.org/ project.webplatform.org/]
 |-
 ! Operations issue tracker
-| GitHub [https://github.com/webplatform/ops/issues ''webplatform/ops'' project]
-| [https://github.com/webplatform/thebuggenie repository]
+| GitHub "''webplatform/ops"'' project and [https://huboard.com/ Hubboard]
+| N/A
 | TODO
 | [https://huboard.com/webplatform/ops/#/ ''KanBan'' dashboard], [https://webplatform.github.io/ops webplatform.github.io/ops]
 |-
