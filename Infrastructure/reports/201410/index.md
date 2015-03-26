@@ -42,10 +42,10 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 
 === What’s missing ===
 
-'''NOTE''': Outdated
+'''NOTE''': Project is completed. We will automate in the next steps.
 
 * Missing web apps;
-** webat25.org
+** webat25.org (won’t be migrated, we will convert as a static site by May 2015)
 * Set in place automation, see [[#Automatic updates]]
 
 
