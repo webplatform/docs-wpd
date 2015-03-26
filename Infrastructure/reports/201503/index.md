@@ -157,4 +157,4 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 * [[WPD:Infrastructure/procedures/Managing_MySQL_replication|How to manage MySQL/MariaDB replication]]
 * [[WPD:Infrastructure/procedures/Create_new_database_credentials_configure_a_web_application_to_use_it|How to change database configuration and ensure every affected web application gets the new passswords]]
 * [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|How to maintain our new ElasticSearch cluster]], including notes on how automatic backups are made
-* [[https://docs.webplatform.org/wiki/WPD:Infrastructure/procedures/Maintaining_email_services|How to '''Maintain email services''']]
+* [[WPD:Infrastructure/procedures/Maintaining_email_services|How to '''Maintain email services''']]
