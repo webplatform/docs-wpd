@@ -102,9 +102,8 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 ;[http://hhvm.com/ HHVM]: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment
 ;[http://logstash.net/ LogStash]: A centralized log manager. It harmonizes, archives and process any log messages we send to it. Serves as an easy to use log search engine
 ; [http://phabricator.org/ Phabricator]
-: A web application made to help organize software projects. It could make us \
-* replace our IRC Bot, 
-* gave a place where we store sensitive documents
+: A web application made to help organize software projects. It features an IRC bot from which we could monitor more than one IRC chat room (our chat bot is not maintained and doesn’t scale well). Also, we could Phabricator as a place to: store sensitive documents, mirror GIT/SVN/Mercurial repositories we rely on, host temporary Git/Mercurial stashes so we don’t risk losing them around, code "pastebin" so we don’t need to rely on GitHub gists, etc. See [http://phabricator.org/applications/ Phabricator applications list for more details]
+
 
 == 2013 ==
 
