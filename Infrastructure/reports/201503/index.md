@@ -140,3 +140,7 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 * Capability to update passwords/private keys across all web applications from one "private" configuration file
 * Setup of a "private" configuration system stored in a git repo
 * We will eventually publish all our deployment scripts to the public, except the "private" data files
+
+== 2015 ==
+
+* Finished up work planned in [[WPD:Infrastructure/reports/201410#Objectives|'''2014 Improvements plan''', according to the ''Objectives'' we set]]
