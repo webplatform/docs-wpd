@@ -4,6 +4,7 @@
 The following summarizes how to manage our Varnish caching service served by our friends at [https://fastly.com Fastly]. Note that the documentation describes how Varnish works but also how to manage Fastly very own Varnish cluster so we don’t have to.
 
 This document is specific on how to maintain Varnish configuration at Fastly. Notes that describes the specifics of things we should keep in mind when configuring the cache should be moved to [[WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish|Things to consider when we expose service via Fastly and Varnish]]
+
 == Abastract ==
 
 If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
@@ -29,6 +30,8 @@ Here are the specifics for MediaWiki
 * Delete all cookies, except: wpwikiUserID, wpwiki_session, wpwikiUserName, Token, LoggedOut, dismissSiteNotice
 * Only place to set cookies are when UserLogin, UserLogout
 
+'''Reminder''' more notes about specifics for each web application we deployed are noted in  [[WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish|'''Things to consider when we expose service via Fastly and Varnish''']]
+
 == Accessing VCL configuration from Fastly ==
 [[File:20131121-Fastly-vcl-buttons.png]]
 To access/overwrite the file in Fastly, go to:
@@ -50,13 +53,8 @@ Make the content of snippet as a file and upload it to the Fastly control pannel
 
 Configuration files are stored on [https://github.com/webplatform/varnish-configs Github, in '''webplatform/varnish-configs''' project], the VCL file name should match the subdomain and also the service bane in Fastly dashboard.
 
-== Links ==
+== Reference ==
 
-=== Fastly specific ===
 * [https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL- Fastly: How to mix and match Fastly VCL with custom VCL (Varnish configuration file)]
-* [http://kly.no/posts/2010_01_08__Hitpass_objects_and_Varnish__.rst Varnish caching, definition of HIT, PASS and other caching lingo]
-* [http://docs.fastly.com/guides/21847086 Fastly: Caching tutorials]
-** [http://docs.fastly.com/guides/21835572/21744408 Fastly: Removing headers from backend response]
-** [http://docs.fastly.com/guides/21835572/23999817 Fastly: Adding and modifying headers]
-** [http://docs.fastly.com/guides/21847086/22257776 How to serve stale content in case of origin becoming unavailable]
-* [http://docs.fastly.com/guides/21847086/26628787 Fastly tutorial: Cache control]
+* [https://github.com/webplatform/varnish-configs '''WebPlatform''' varnish-configs GitHub repository]
+* See also more notes on the topic at [[WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish|Things to consider when we expose service via Fastly and Varnish]]
