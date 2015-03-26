@@ -17,47 +17,61 @@ Should cover;
 ! Resource
 ! Software
 ! Deployment repository
+! Project details page
 ! Location
 |- 
-| Home page
-| [https://docpad.org/|DocPad]
+! Home page
+| [https://docpad.org/ DocPad]
 | [https://github.com/webplatform/www.webplatform.org repository]
+| TODO
 | [http://webplatform.org/ webplatform.org/]
 |-
-| wiki ([[Special:Version|version]])
-| [https://www.mediawiki.org/wiki/MediaWiki MediaWiki]
-(using Wikimedia Foundation ("wmf/1.24wmfX") continuous release branches)
+! wiki ([[Special:Version|version]])
+| [https://www.mediawiki.org/wiki/MediaWiki MediaWiki] using Wikimedia Foundation ("wmf/1.24wmfX") continuous release branches
 | [https://github.com/webplatform/mediawiki repository]
+| TODO
 | [https://docs.webplatform.org/wiki/ docs.webplatform.org/wiki/]
 |-
-| IRC logger
+! IRC logger
 | [http://classam.github.io/pierc/ Lumberjack (now called Pierc)]
+| TODO
 | TODO
 | [https://www.webplatform.org/talk/chatlogs/ www.webplatform.org/talk/chatlogs/]
 |-
-| Analytics
+! Analytics
 | [http://piwik.org/ Piwik]
+| TODO
 | TODO
 | [https://stats.webplatform.org/ stats.webplatform.org/]
 |-
-| Blog
+! Blog
 | [http://wordpress.org/ WordPress]
 | [https://github.com/webplatform/blog-service repository]
+| TODO
 | [https://blog.webplatform.org/ blog.webplatform.org/]
 |-
-| Code sandbox
+! Code sandbox
 | [http://dabblet.com/ Dabblet]
 | [https://github.com/webplatform/dabblet repository]
+| TODO
 | [http://code.webplatform.org/ code.webplatform.org/]
 |-
-| Project management
+! Project management
 | [http://www.thebuggenie.com/ The Bug Genie]
 | [https://github.com/webplatform/thebuggenie repository]
+| TODO
 | [https://project.webplatform.org/ project.webplatform.org/]
 |-
-| Accounts
+! Operations issue tracker
+| GitHub [https://github.com/webplatform/ops/issues ''webplatform/ops'' project]
+| [https://github.com/webplatform/thebuggenie repository]
+| TODO
+| [https://huboard.com/webplatform/ops/#/ ''KanBan'' dashboard], [https://webplatform.github.io/ops webplatform.github.io/ops]
+|-
+! Accounts
 | [https://wiki.mozilla.org/Identity/Firefox_Accounts Firefox Accounts]
 | TODO
+| [[WPD:Projects/SSO|SSO Project page]]
 | [https://accounts.webplatform.org/ accounts.webplatform.org/]
 |}
 
@@ -80,10 +94,10 @@ Should cover;
 ** serve a copy of the generated HTML
 ** flush the generated HTML copy when JSON source is updated
 ** Alternate views and new supported actions:
-**# single table view: [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css| <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css</code>]
-**#single table view, "naked" alternate [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1</code>]
-**#manual table flush [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge|<code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge</code>]
-** Work on Semantic MediaWiki template [https://docs.webplatform.org/wiki/Template:Compatibility| <nowiki>Template:Compatibility</nowiki>] to allow embed in content pages
+**# single table view: [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css</code>]
+**#single table view, "naked" alternate [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1 <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&foresi=1</code>]
+**#manual table flush [https://docs.webplatform.org/wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge <code>GET /wiki/Special:Compatables?feature=border-radius&format=table&topic=css&action=purge</code>]
+** Work on Semantic MediaWiki template [https://docs.webplatform.org/wiki/Template:Compatibility <nowiki>Template:Compatibility</nowiki>] to allow embed in content pages
 ** Creation of a GitHub repository to host compatibility data [https://github.com/webplatform/compatibility-data|on GitHub ''webplatform/compatibility-data'']
 **  Originally it was regenerating the HTML for EVERY page load based on a previous JSON source
 * Removed requirement of shared storage across VMs to use external DreamObjects storage (Swift) at DreamHost 
@@ -109,13 +123,13 @@ Should cover;
 ** see [[WPD:Projects/SSO|SSO Project page]]
 * Rework of how we deploy which now reads from a specifically crafted git repository and pull any plugins/extensions and gets configuration automatically applied
 ** Piwik (stats.webplatform.org), 
-** WordPress (blog.webplatform.org), [https://github.com/webplatform/blog-service| GitHub repo link]
-** MediaWiki (docs.webplatform.org), [https://github.com/webplatform/mediawiki| GitHub repo link]
+** WordPress (blog.webplatform.org)
+** MediaWiki (docs.webplatform.org)
 ** The IRC bot, 
-** BugGenie (project.webplatform.org), [https://github.com/webplatform/thebuggenie| GitHub repo link]
-** Annotation service (notes.webplatform.org), [https://github.com/webplatform/annotation-service| GitHub repo link]
+** BugGenie (project.webplatform.org)
+** Annotation service (notes.webplatform.org)
 ** Accounts service (accounts.webplatform.org), many repos refer to notes at [[WPD:Projects/SSO|SSO Project page]]
-** Homepage (www.webplatform.org), [https://github.com/webplatform/www.webplatform.org| GitHub repo link]
+** Homepage (www.webplatform.org)
 * Purchase of an EV SSL certificate with mention of "World Wide Web Consortium" to give a hint of the site maintainers
 * Purchase of an alternate domain name to replicate in full (!!) the server setup allowing us to test in isolation every components of the site
 * Reviewed every blog posts, and imported any images we were linking outside of our site 
