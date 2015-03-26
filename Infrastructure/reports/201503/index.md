@@ -87,14 +87,14 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 === Misc. ===
 
-;Memcached: A "keystore" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
-;Redis: Another "keystore" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily link Redis nodes through SSL and require passwords to be able to make reads and writes.
-;ElasticSearch: A "REST" web application on which we can index documents, and use as a search engine
-;MariaDB: A drop-in replacement to MySQL, in use by most components
-;Monit: A system that is made to help ensure vital services are up
-;NGINX: A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
+;Memcached ''(new since 2014)'': A "keystore" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
+;Redis ''(new since 2014)'': Another "keystore" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily link Redis nodes through SSL and require passwords to be able to make reads and writes.
+;ElasticSearch ''(new since 2014)'': A "REST" web application on which we can index documents, and use as a search engine
+;MariaDB ''(new since 2014)'': A drop-in replacement to MySQL, in use by most components
+;Monit ''(new since 2014)'': A system that is made to help ensure vital services are up
+;NGINX ''(new since 2014)'': A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
 ;Apache: The original web server software.
-;php-fpm: A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
+;php-fpm ''(new since 2014)'': A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
 
 === Software we are currently evaluating to use ===
 
