@@ -98,10 +98,12 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 === Software we are currently evaluating to use ===
 
-;Nutcracker: A "keystore" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
-;HHVM: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment
-;LogStash: A centralized log manager. It harmonizes, archives and process any log messages we send to it. Serves as an easy to use log search engine
-
+;[https://github.com/twitter/twemproxy Nutcracker]: A "keystore" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
+;[http://hhvm.com/ HHVM]: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment
+;[http://logstash.net/ LogStash]: A centralized log manager. It harmonizes, archives and process any log messages we send to it. Serves as an easy to use log search engine
+; [http://phabricator.org/ Phabricator]: A web application made to help organize software projects. It could make us 
+* replace our IRC Bot, 
+* gave a place where we store sensitive documents
 
 == 2013 ==
 
