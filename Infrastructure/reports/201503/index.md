@@ -107,7 +107,8 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 ;NGINX ''(new since 2014)'': A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
 ;Apache: The original web server software.
 ;php-fpm ''(new since 2014)'': A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
-;Ubuntu: We were originally using past "long time support" ("LTS") versions 10.04 and 12.04. All our infrastructure is now using latest LTS 14.04 
+;Ubuntu: We were originally running on two different versions of Ubuntu 10.04 and 12.04. While both are "Long Term Support" we weren’t running on the same version for every servers, and also had no automatic install of security updates. Since mid-2014 all servers uses the same version — Ubuntu 14.04 LTS — and automatic security updates
+
 
 === Software we are currently evaluating to use ===
 
@@ -121,12 +122,24 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 ;CoreOS: TODO
 
 
-== 2013 ==
+=== Conventions in place ===
 
-* Installation of our own Analytics solution using '''Piwik''', at ''stats.webplatform.org''' 
+Idea is that any service use default configuration as if its local, use of equivalent service to delegate/proxy to specialized set of servers
+
+;email: Each server uses ''localhost'' as their email server gateway, but the local email server then uses a specialized VM only for sending emails
+;memcached (still in evaluation): Each application server (i.e. a server that runs a web application backend technology such as ''PHP'' or ''Python'') acts as if ''Memcached'' is local, but in fact a service called ''Nutcracker'' (a.k.a. TwEmProxy) is configured to talk to more than one Memcached servers serving the purpose of keeping a local copy of the data.
+
+
+== Work done per year ==
+
+=== 2013 ===
+
+* ''Started working on WebPlatform on July 2013''
+* Installation '''Piwik''', at '''stats.webplatform.org''' to gather Analytics data 
 * Only one set of Virtual Machines (VMs) exposing live site, no room to work on improvements without risks of affecting live site
 * Deployment scripts were assuming exactly one deployment, making it hard to do gradual roll out
-* VMs were running with two different OS versions: Ubuntu 10.04 and 12.04 
+* In configuration files, every IP Addresses were scattered around and I had to search around to adjust changes so that the servers would get the information updated
+* VMs were running with two different OS versions: Ubuntu 10.04 and 12.04, no automatic installation of security patches
 * Setup of a private OpenStack at DreamHost ("DHO"; DreamHost OpenStack) cluster from a 4 blades server, server was lent by DreamHost
 * Server migration from HP Cloud into DHO [[WPD:Infrastructure/analysis/2013-Migrating_to_a_new_cloud_provider|2013 Migrating to a new Cloud Provider]]
 * Work on MySQL cluster so we could have off-site hot backup (i.e. database replication on a remote site, with logs transferred through SSL)
@@ -149,7 +162,7 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 * Set in place image storage pulling files directly from DreamObjects
 
 
-== 2014 ==
+=== 2014 ===
 
 * Upgraded all VMs to use only Ubuntu 14.04
 * Pages are now served under SSL
@@ -184,8 +197,18 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 * Setup of a "private" configuration system stored in a git repo
 * We will eventually publish all our deployment scripts to the public, except the "private" data files
 
-== 2015 ==
 
+=== 2015 ===
+
+* Renamed '''deployment.webplatform.org''' into '''salt.webplatform.org'''
+** Old '''deployment''' —in DHO cluster— was left to run everything in production, as long as it wasn’t ready to be moved to the new environment in DreamCompute
+** Created '''salt.webplatform.org''' —in DreamCompute cluster— so that we could create a complete deployment of every compoenents without affecting production
+** Used both environments simultaneously and could do gradual roll out of every components. Once a roll out was made, I stopped the old version in DHO cluster.
+* Set in place conventions to remove need to change configurations across environments, see [[#Conventions in place]]
+, either a basic VM in Virtual Box/VMWare Workstation, in production, staging 
+* Work done on "hardening" security on servers
+** Set in place automatic installation of security updates
+** The main deployment server ("salt.webplatform.org", a.k.a salt) is the only IP address we can connect through SSH, only way to access another server using salt as a proxy. Benefit is that to remove access to a user, we can remove his access on salt, everything else becomes inaccessible
 * '''March 2015'''; Finished up work planned in [[WPD:Infrastructure/reports/201410#Objectives|'''October 2014 sprint report''', according to the ''Objectives'']] ''and'' [[WPD:Infrastructure/analysis/2014-Improvements_plan|2014 '''Improvements plan''']] we set. Except for "automated deployment at Git push", something that’ll be done in a future sprint.
 * Created bootstrap scripts so we can rebuild "from scratch" —at ANY time— a new salt master (what’s taking care of orchestrating deployment).
 * Improved infrastructure maintenance documentation
