@@ -23,7 +23,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Data Type=none
 |Description=you start here
 }}{{CSS Property Value
-|Data Type=exampple
+|Data Type=example
 }}
 }}
 {{Examples_Section
