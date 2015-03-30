@@ -19,10 +19,11 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Computed value=As specified
 |Animatable=Yes
 |CSS object model property=practice
-|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=none
 |Description=you start here
+}}{{CSS Property Value
+|Data Type=exampple
 }}
 }}
 {{Examples_Section
@@ -34,7 +35,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
   /* make sure to practice HTML regularly */
   practice: weekly;
 }
-|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=getting to know WPD editing
@@ -44,7 +44,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Language=JavaScript
 |Description=Foo the Bar Baz, boy.
 |Code=console.log("foo");
-|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -58,16 +57,10 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}
 {{See_Also_Section
 |Topic_clusters=Performance
-|Manual_links=
-|External_links=
-|Manual_sections=
 }}
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
