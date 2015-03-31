@@ -280,3 +280,6 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Document expectations and endpoints along with links to documentation for each service
 ** Use deployment tests as monitoring? ref [http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/making-runbooks-more-useful-by-exposing-them-through-monitoring.html making "runbooks" more useful by exposing through monitoring]
 ** etc...
+
+* Helpers
+** Make server SSH MOTD point out links to maintenance documentation, [http://riltsken.github.io/devops/infrastructure/2014/03/16/how-server-message-of-the-day-improved-our-devops-team.html inspired by this ''blog post'']
