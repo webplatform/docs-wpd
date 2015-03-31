@@ -252,7 +252,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
 
 * Get system metrics
-** Leverage Monit system, push to [http://hekad.readthedocs.org Heka], ([https://github.com/renoirb/mmonit-mock-listener see this sandbox]?
+** Leverage Monit system, push to [http://hekad.readthedocs.org Heka]? ([https://github.com/renoirb/mmonit-mock-listener see this sandbox])
 ** Use NGINX status, ref [https://www.scalyr.com/community/guides/how-to-monitor-nginx-the-essential-guide How to monitor NGINX, the essential guide]
 ** Gather ElasticSearch metrics, see [https://github.com/abronner/elasticsearch-monitoring this repo]
 ** Get Inspiration from [http://www.lowlevelmanager.com/2014/07/monitorama-conference.html some notes from ''Monitorama'' conference] 
