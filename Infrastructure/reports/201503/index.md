@@ -171,7 +171,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Work on Semantic MediaWiki template [https://docs.webplatform.org/wiki/Template:Compatibility <nowiki>Template:Compatibility</nowiki>] to allow embed in content pages
 ** Creation of a GitHub repository to host compatibility data [https://github.com/webplatform/compatibility-data|on GitHub ''webplatform/compatibility-data'']
 **  Originally it was regenerating the HTML for EVERY page load based on a previous JSON source
-* Removed requirement of shared storage across VMs to use external DreamObjects storage (Swift) at DreamHost 
+* Removed requirement of shared storage across VMs (GlusterFS) and switched to use external DreamObjects storage (Swift) at DreamHost 
 * Set in place image storage pulling files directly from DreamObjects
 
 
@@ -209,6 +209,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 * Capability to update passwords/private keys across all web applications from one "private" configuration file
 * Setup of a "private" configuration system stored in a git repo
 * We will eventually publish all our deployment scripts to the public, except the "private" data files
+* Setup an NFS mount point so that ElasticSearch instances can do backups. Reviewed idea of not using inter instance storage, at least limit it only in the case of of backups... until we can store ElasticSearch snapshots through Swift/DreamObjects too, see {{OperationsTask|120}}
 
 
 === 2015 ===
