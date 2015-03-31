@@ -100,7 +100,7 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 === Misc. ===
 
 ;Ubuntu: We were originally running on two different versions of Ubuntu 10.04 and 12.04. While both are "Long Term Support" we weren’t running on the same version for every servers, and also had no automatic install of security updates. Since mid-2014 all servers uses the same version — Ubuntu 14.04 LTS — and automatic security updates
-;Memcached'': A "key store" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
+;Memcached: A "key store" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
 ;Redis ''(new since 2014)'': Another "key store" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily make Redis calls through SSL/TLS and require clients to authenticates. Also, we can configure MediaWiki to store async jobs over to Redis instead of a MySQL table. MediaWiki operations team lead said that tables is fine for heavy load. Unless we get wikipedia.org type of load.
 ;ElasticSearch ''(new since 2014)'': A "REST" web application on which we can index documents, and use as a search engine. We store annotations in it, and so we could configure MediaWiki so we improve search capabilities.
 ;MariaDB ''(new since 2014)'': A drop-in replacement to MySQL, in use by most of the infrastructure. We could also configure it to use ''Galera'' so we could send writes to any node in the cluster. Might be a next step.
