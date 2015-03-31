@@ -17,9 +17,11 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 
 == Progress ==
 
+'''NOTE''': Project is completed, see also detailed plans at [[WPD:Infrastructure/analysis/2014-Improvements_plan|''2014 Improvements plan'' document]]
+
 === What’s done ===
 
-* Most of the infrastructure is now using more recent versions of servers and services (see [#What’s missing])
+* Most of the infrastructure is now using more recent versions of servers and services (see [[#What’s missing]])
 * Improved Fastly error messages, pointing to '''status.webplatform.org''' and the mailing list [http://www.webplatformstaging.org/errors/500.html see error page sample here]
 * web apps:
 ** WordPress ([http://blog.webplatformstaging.org/2014/09/2nd-doc-sprint-in-amsterdam/ see], [https://github.com/webplatform/webplatform-wordpress-theme GitHub repo.])
@@ -42,7 +44,7 @@ In other words; webplatform''Staging''.org is ''one'' "sandbox" (i.e. do not tou
 
 === What’s missing ===
 
-'''NOTE''': Project is completed. We will automate in the next steps.
+'''NOTE''': Project is completed.
 
 * Missing web apps;
 ** webat25.org (won’t be migrated, we will convert as a static site by May 2015)
