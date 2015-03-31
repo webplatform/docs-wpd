@@ -92,9 +92,19 @@ What has been done and is deployable on staging at this moment.
 ** Create a grain to learn in which deployment level (e.g. "staging") we are in
 ** Create a grain to learn what are the roles the VM has (e.g. [salt])
 
-* Service resiliency subsystem "Monit":
+* Service resiliency subsystem "Monit" XXX:
 ** '''Purpose''': Ensure critical services are up
 ** Ensure common service is running: salt-minion, ssh
+** '''Purpose''': Ensure critical services are up
+** ensure MySQL servers are up on db VM types
+** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
+** ensure Nutcracker is running on app*, project*, blog*, piwik*  VM types
+** ensure NGINX HTTP server is up on accounts*  VM types
+** ensure ElasticSearch is up on elastic*  VM types
+** ensure Memcached is up on memcache*  VM types
+** ensure alert email config and destination is configured depending of staging/production
+** ensure disk usage alerts are in place
+
 
 * Key store clusters (Memcached, Redis):
 ** '''Purpose:''' Each cluster fills a role, depending of the life expectancy of the stored data (e.g. sessions should not be cleared, page cache might)
@@ -107,15 +117,6 @@ What has been done and is deployable on staging at this moment.
 ** Use-case 1: Session storage (most popular)
 ** Use-case 2: Keystore (e.g. various components in MediaWiki, etc)
 ** Set <code>session.save_handler</code> correctly and consistently
-
-* Service resiliency subsystem "Monit":
-** '''Purpose''': Ensure critical services are up
-** ensure MySQL servers are up on db VM types
-** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
-** ensure Nutcracker is running on app*, project*, blog*, piwik*  VM types
-** ensure NGINX HTTP server is up on accounts*  VM types
-** ensure ElasticSearch is up on elastic*  VM types
-** ensure Memcached is up on memcache*  VM types
 
 * NGINX:
 ** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
@@ -165,7 +166,6 @@ What’s missing to complete this sprint to have something better than what we h
 
 What should be done once the previous requisites are met.
 
-
 * '''Misc. issues''':
 ** ''Blog'' see [http://project.webplatform.org/infrastructure/issues/89 WordPress login problem w/ Fastly, issue 89], ensure it works w/ new theme structure. currently broken.
 
@@ -184,16 +184,6 @@ What should be done once the previous requisites are met.
 ** emails
 ** Accounts system
 
-* Service resiliency subsystem "Monit":
-** '''Purpose''': Ensure critical services are up
-** Notes to [http://mmonit.com/wiki/MMonit/Setup make monit respawn], [http://mmonit.com/wiki/Monit/FAQ Monit FAQ], [http://mmonit.com/wiki/Monit/ConfigurationExamples Configuration examples]
-** ensure MySQL server are accessible on app*, project*, blog*, piwik* VM types
-** ensure Apache HTTP server up on app*, project*, blog*, notes*, piwik*, webat* VM types
-** ensure [ssh, salt-minion] are always running on every nodes
-** ensure alert email config and destination is configured depending of staging/production
-** ensure disk usage alerts are in place
-** ensure resolv.conf works
-
 * Improve system stats:
 ** '''Purpose''': Get system health data as graph, over time 
 ** Set in place statsd, fluentd, monit and other system health graph tools
@@ -204,54 +194,6 @@ What should be done once the previous requisites are met.
 ** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
 ** LogStash to process logs
 ** Log rotation, and create archive files every year to prevent disk filling
-* Docker VM type:
-** To host Discourse, and other things TBD such as preparing web app archives
-
-* Discourse web app:
-** Support SSL
-** Config points to local MCRouter port
-** Config points automatically to database IP
-
-* NGINX:
-** Move all web apps that can run properly under HHVM/php-fpm, NGINX as the frontend
-** Serve as frontend to counter-balance apache2’s mod-prefork and older PHP code memory issues
-
 * Accounts web app:
-** Create shared component (i.e. using composer) 
-** Factor out specific to MediaWiki as an extension, use new shared PHP component 
-
-* Wiki web app:
-** document how to upgrade version
-** delete unused css/js/misc assets moved to www.webplatform.org
-
-* On [db, postgres] VM types:
-** Send backups to DreamObjects after a month, purge local copy
-
-* Setup alerts (aremysitesup is insufficient)
-
-* Rework Varnish files: compression is not working from Fastly, fix ESI
-
-* Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
-
-* Improve Fastly service configs:
-** ''www.webplatform.org'' fastly service to be completely cookie less, hold DreamObject images (instead of static.webplatform.org)
-** Deprecate ''static.webplatform.org'' fastly service
-** Each services to use consistent ''static error pages''
-** Each services to use to a minimum Fastly web UI and instead use source-controlled VCL files
-** See if Fastly VCL supports to include secondary VCL to hold private data
-
-* Improve ''static error pages'' when communication problem (other "guru meditation" left)
-** Create human comprehensible explanation messages for each of them
-** See [http://docs.fastly.com/guides/backend-servers/503-error-explanations Fastly specific errors documentation]
-** See sample [http://www.webplatformstaging.org/errors/503.html 503 error page static version]
-** Commited into GitHub www.webplatform.org project in [https://github.com/webplatform/www.webplatform.org/tree/master/src/documents/errors src/documents/errors]
-** Find how to configure Fastly for each of them (i.e. When Fastly is about to serve white page error, replace with ours)
-** Make static html page for each of them, commit into www.webplatform.org github repo
-** 503 Connection Refused,
-** 503 Network Unreachable; In case of a network outage between Fastly and DreamHost/iWeb networks
-** 503 Backend.max_conn Reached; When ALL backends cannot meet the demand
-** 503 Backend Is Unhealthy; When the only backend server isn’t "healthy"
-** 503 No Healthy Backends; When no backend server are’t "healthy"
-** 503 All Backends Failed or Unhealthy; When ALL backends aren’t "healthy"
-** 503 Backend Read Error; When backend server takes too long to respond
-** 503 Backend Write Error;
+** PHP relying client; Create shared component compatible with Composer
+** Factor out specific to MediaWiki as an extension, use new shared PHP component
