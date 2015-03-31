@@ -273,6 +273,10 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Project, see: [http://project.webplatform.org/infrastructure/issues/81 Story 81; Automating deployment of Project Management tool] (postpone?)
 ** Wiki, see: [http://project.webplatform.org/infrastructure/issues/79 Story 79; Automating deployment of Wiki]
 ** Blog, see: [http://project.webplatform.org/infrastructure/issues/80 Story 80; Automating deployment of Blog]
+** Mis. requirements:
+*** Handle dependencies, look at [https://gradle.org/ Graddle would do?]
+*** Make all web apps deployed through Docker?
+*** Figure out how we could test
 
 * Set in place deployment tests;
 ** Cover all edge-cases a backend served by Varnish must have
