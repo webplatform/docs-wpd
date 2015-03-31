@@ -128,7 +128,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 
 ;email: Each server uses ''localhost'' as their email server gateway, but the local email server then uses a specialized VM only for sending emails
 ;memcached (still in evaluation): Each application server (i.e. a server that runs a web application backend technology such as ''PHP'' or ''Python'') acts as if ''Memcached'' is local, but in fact a service called ''Nutcracker'' (a.k.a. TwEmProxy) is configured to talk to more than one Memcached servers serving the purpose of keeping a local copy of the data.
-;secrets, passwords ("accounts" pillars): Are stored in a separate set of (salt) pillars in ''/srv/private/pillar/accounts/production.sls'''  and (will be) hosted in a private Git repository at W3C. In there, we keep all API secrets, tokens, and passwords we need. Every configuration and services pulls information from there. To adjust, edit and commit the file then run a "highstate".  (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
+;secrets, passwords ("accounts" pillars): Are stored in a separate set of (salt) pillars in ''/srv/private/pillar/accounts/production.sls'' and (will be) hosted in a private Git repository at W3C. In there, we keep all API secrets, tokens, and passwords we need. Every configuration and services pulls information from there. To adjust, edit and commit the file then run a "highstate".  (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
 ;Deployment sensible variables... ("infra" pillars): Are stored in a centralized (salt) pillars in ''/srv/pillar/infra/production.sls''. In there, we list private IP addresses of database servers, ElasticSearch, etc. Every configuration file and states relies on it. To adjust, edit and commit the file, then run a "highstate". (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
 
 
@@ -215,7 +215,6 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Created '''salt.webplatform.org''' —in DreamCompute cluster— so that we could create a complete deployment of every compoenents without affecting production
 ** Used both environments simultaneously and could do gradual roll out of every components. Once a roll out was made, I stopped the old version in DHO cluster.
 * Set in place conventions to remove need to change configurations across environments, see [[#Conventions in place]]
-, either a basic VM in Virtual Box/VMWare Workstation, in production, staging 
 * Work done on "hardening" security on servers
 ** Set in place automatic installation of security updates
 ** The main deployment server ("salt.webplatform.org", a.k.a salt) is the only IP address we can connect through SSH, only way to access another server using salt as a proxy. Benefit is that to remove access to a user, we can remove his access on salt, everything else becomes inaccessible
