@@ -128,8 +128,11 @@ Idea is that any service use default configuration as if its local, use of equiv
 
 ;email: Each server uses ''localhost'' as their email server gateway, but the local email server then uses a specialized VM only for sending emails
 ;memcached (still in evaluation): Each application server (i.e. a server that runs a web application backend technology such as ''PHP'' or ''Python'') acts as if ''Memcached'' is local, but in fact a service called ''Nutcracker'' (a.k.a. TwEmProxy) is configured to talk to more than one Memcached servers serving the purpose of keeping a local copy of the data.
-;secrets, passwords ("accounts" pillars): Are stored in a separate set of (salt) pillars in ''/srv/private/pillar/accounts/production.sls'' and (will be) hosted in a private Git repository at W3C. In there, we keep all API secrets, tokens, and passwords we need. Every configuration and services pulls information from there. To adjust, edit and commit the file then run a "highstate".  (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
+;secrets, passwords ("accounts" pillars): Are stored in a separate set of (salt) pillars in ''/srv/private/pillar/accounts/production.sls'' and (will be) hosted in a private Git repository at W3C. In there, we keep all API secrets, tokens, and passwords we need. Every configuration and services pulls information from there. To adjust, edit and commit the file then run a "highstate".  (staging is at  '''/srv/private/pillar/accounts/staging.sls'')
 ;Deployment sensible variables... ("infra" pillars): Are stored in a centralized (salt) pillars in ''/srv/pillar/infra/production.sls''. In there, we list private IP addresses of database servers, ElasticSearch, etc. Every configuration file and states relies on it. To adjust, edit and commit the file, then run a "highstate". (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
+;ssh access: The only way to work on any is to pass through the salt master as a "jump box", see [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH|Accessing a VM using SSH]]
+;which level a VM is in?:The "level" grain exists to tell which configuration file to use in both ''/srv/pillar/infra/$level.sls'' AND in ''/srv/private/pillars/accounts/$level.sls''. To get which level, you can ask from the terminal <code>salt \* grains.get level</code>. Refer to 
+;which 
 
 
 === Lessons learned ===
@@ -233,3 +236,37 @@ Idea is that any service use default configuration as if its local, use of equiv
 * [[WPD:Infrastructure/procedures/Create_new_database_credentials_configure_a_web_application_to_use_it|How to change database configuration and ensure every affected web application gets the new passswords]]
 * [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|How to maintain our new ElasticSearch cluster]], including notes on how automatic backups are made
 * [[WPD:Infrastructure/procedures/Maintaining_email_services|How to '''Maintain email services''']]
+
+== Soon? ==
+
+* Improve stats:
+** '''Purpose''': Get system health data as graph, over time 
+** Set in place statsd, fluentd, monit and other system health graph tools
+** Get system metrics (Graphana?)
+** Get page load stats (i.e. what SOASTA does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
+** Attempt to merge data from ganglia into Graphana so we do not lose previous data
+
+
+* Centralized logging:
+** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
+** LogStash to process logs (and emails? see {{OperationsTask|127}})
+** Log rotation, and create archive files every year to prevent disk filling
+** Network traffic review tool [http://www.haka-security.org/hakabana.html HaKabana]; "Visualize Haka traffic in real-time using Kibana and Elasticsearch.", see {{OperationsTask|142}}
+
+* Accounts web app:
+** PHP relying client; Create shared component compatible with Composer
+** Factor out specific to MediaWiki as an extension, use new shared PHP component
+
+* Automatic deployment:
+** '''Purpose''': Ease to have contributors to see their work online
+** Create typical deployment package (i.e. commands to run to get all dependencies, make a zip file, unpack on every servers)
+** Homepage, see: [http://project.webplatform.org/infrastructure/issues/99 Story 99; Automating deployment of Home page]
+** Project, see: [http://project.webplatform.org/infrastructure/issues/81 Story 81; Automating deployment of Project Management tool] (postpone?)
+** Wiki, see: [http://project.webplatform.org/infrastructure/issues/79 Story 79; Automating deployment of Wiki]
+** Blog, see: [http://project.webplatform.org/infrastructure/issues/80 Story 80; Automating deployment of Blog]
+
+* Set in place deployment tests;
+** Cover all edge-cases a backend served by Varnish must have
+** Cover all edge-cases a request served by Varnish should have
+** Think of Behat/ReSpec for a server. See http://vincent.bernat.im/en/blog/2014-serverspec-test-infrastructure.html 
+** etc...
