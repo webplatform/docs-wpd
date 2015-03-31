@@ -249,7 +249,8 @@ Idea is that any service use default configuration as if its local, use of equiv
 *** [http://sensuapp.org Sensu]?
 ** Get page load stats (i.e. what SOASTA does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
-
+** Ability to snapshot a server state for future investigation? Ref; http://www.sysdig.org/
+** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
 
 * Centralized logging:
 ** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
@@ -274,4 +275,8 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Cover all edge-cases a backend served by Varnish must have
 ** Cover all edge-cases a request served by Varnish should have
 ** Think of Behat/ReSpec for a server. See {{OperationsTask|144}}
+
+* Monitoring and alerts
+** Document expectations and endpoints along with links to documentation for each service
+** Use deployment tests as monitoring? ref [http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/making-runbooks-more-useful-by-exposing-them-through-monitoring.html making "runbooks" more useful by exposing through monitoring]
 ** etc...
