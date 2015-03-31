@@ -1,33 +1,8 @@
 = Sept.-Dec. 2014 Improvement plans =
 
-Infrastructure improvement plans, what’s planned and the big picture.
+This sprint is about refactoring the server infrastructure to ease the maintenance work and automate what’s possible.
 
-
-== Goal ==
-
-The goal of this sprint is to have a separation between ''development'' (e.g. a local Vagrant VM, or code checkout), ''staging'' (i.e. a full deployment) and ''production'' (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
-
-
-=== Expected outcome ===
-
-* Have a COMPLETELY INDEPENDENT set of Virtual Machines to serve the FULL public facing webplatform.org components (i.e. blog, docs, project.webplatform.org)
-* Before deploying to production, every components MUST be running fine on ''webplatformSTAGING.org'' (a.k.a. "'''staging'''")
-* Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)
-* Self-contained environment at every level; e.g, ''staging'' MUST NOT use any resources from ''production''
-* Full clone of the site for each components; e.g. '''blog.webplatform.org''' (production), '''blog.webplatformSTAGING.org''' (staging).
-* Harmonize configuration settings across the softwares, automate them based on known data facts, do not rely on internal DNS
-* Remove anything that isn’t used anymore, and simplify system as much as possible
-
-=== Tasks summary ===
-
-* Publish to the public all our deployment scripts, with correct author attribution, without passwords nor private data
-* Set in place a system that will update code automatically when a contributor push on watched Git repos
-* Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive, deploy archive
-* Salt reactor launch rsync when changes are detected
-* Ensure all components works on BOTH '''webplatform.org''' AND '''webplatformSTAGING.org''' top level domains, ''without configuration switches''
-* Ensure all VM are on Ubuntu 14.04 LTS
-* Make sure every components are working as it should
-
+For the project summary, refer to [[WPD:Infrastructure/reports/201410|the 201410 report]]
 
 == Tasks ==
 
@@ -81,12 +56,14 @@ What has been done and is deployable on staging at this moment.
 ** Support SSL
 ** Fastly to force SSL
 ** Config to use database table for sessions (the only one supported off-the-shelf by Piwik so far)
+** Config points automatically to database and Memcached/Redis IPs
 
 * Project web app:
 ** Upgraded BugGenie version (BugGenie branch-32)
 ** Skin can be configured (switch <code>siteTopLevelDomain</code>) to specify which top level domain to use. Allowing local or staging deployments to keep consistent links without hardcoding
 ** Support SSL
 ** Fastly to force SSL
+** Config points automatically to database and Memcached IPs
 
 * Improve error pages:
 ** When backend server crash, before Fastly marks the backend "unhealthy", send link to status page (see [http://www.webplatformstaging.org/errors/503.html static version])
@@ -102,9 +79,10 @@ What has been done and is deployable on staging at this moment.
 ** backup
 ** elasticsearch
 ** piwik
+** source
+** account
+** mail
 
-* New VM types
-** postgres
 
 * Ways to define role of a VM type
 ** Use of Salt mine to store static data such as internal IP addresse for automatic configuration generation
@@ -118,14 +96,12 @@ What has been done and is deployable on staging at this moment.
 ** '''Purpose''': Ensure critical services are up
 ** Ensure common service is running: salt-minion, ssh
 
-* Remove redis VM type, we will exclusively use Memcached
-
-* Keystore clusters (Memcached):
+* Key store clusters (Memcached, Redis):
 ** '''Purpose:''' Each cluster fills a role, depending of the life expectancy of the stored data (e.g. sessions should not be cleared, page cache might)
 ** Ensure only local network can connect
 ** Each web app runtime origin VM types should have a '''Keystore broker client''' (e.g. Nutcracker)
 
-* Configure '''Keystore broker client''' (Nutcracker):
+* Configure '''Key store broker client''' (Nutcracker):
 ** '''Purpose:''' Have everything locally is much quicker, this component keeps a local cache, see  [https://code.facebook.com/posts/296442737213493/introducing-mcrouter-a-memcached-protocol-router-for-scaling-memcached-deployments/ MCRouter introduction]
 ** Separate port number per use-case, most popular (i.e. will be used most) will use default port number
 ** Use-case 1: Session storage (most popular)
@@ -144,6 +120,35 @@ What has been done and is deployable on staging at this moment.
 * NGINX:
 ** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
 
+** ''Setup logrotate for non typical logs'': \[mw-logs, fastly, remote logs\]
+
+* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
+
+* Blog web app:
+** Support SSL
+** Fastly to force SSL
+** Config W3TotalCache to use local Nutcracker port
+** Config points automatically to database IP
+
+
+* Database cluster, VM types [db]: 
+** Migrate all databases into new cluster using MariaDB 10.1
+** Ensure every components gets the list of IP addresses of the database servers through Salt stack
+** Setup replication
+** Automatic backups, sends to DreamObjects bucket
+
+* Apache:
+** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
+
+* On elastic VM type:
+** Automatic backups, sends to DreamObjects bucket
+
+
+
+
+
+
+
 
 <!--  -----------------------------------------------------------  -->
 
@@ -152,26 +157,17 @@ What has been done and is deployable on staging at this moment.
 
 What’s missing to complete this sprint to have something better than what we have in production, but with latest version.
 
+
+<!--  -----------------------------------------------------------  -->
+
+
+== Next ==
+
+What should be done once the previous requisites are met.
+
+
 * '''Misc. issues''':
-* ''Blog'' see [http://project.webplatform.org/infrastructure/issues/89 WordPress login problem w/ Fastly, issue 89], ensure it works w/ new theme structure. currently broken.
-** ''Setup logrotate for non typical logs'': [ mw-logs, fastly, remote logs ]
-
-* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services:
-** account
-** mail
-
-* Blog web app:
-** Support SSL
-** Fastly to force SSL
-** Config W3TotalCache to use local Nutcracker port
-** Config points automatically to database IP
-
-* Project web app:
-** Config points to local Nutcracker port
-** Config points automatically to database IP
-
-* Stats web app:
-** Config points automatically to database IP
+** ''Blog'' see [http://project.webplatform.org/infrastructure/issues/89 WordPress login problem w/ Fastly, issue 89], ensure it works w/ new theme structure. currently broken.
 
 * Automatic deployment:
 ** '''Purpose''': Ease to have contributors to see their work online
@@ -187,27 +183,6 @@ What’s missing to complete this sprint to have something better than what we h
 ** How to find <code>cd /srv/salt; grep -rli 'staging' .</code>, or with a ''#TODO'' note.
 ** emails
 ** Accounts system
-
-* Database cluster, VM types [db, postgres]: 
-** Migrate all databases into new cluster using MariaDB 10.1
-** Ensure every components gets the list of IP addresses of the database servers through Salt stack
-** Setup replication
-** Automatic backups, sends to DreamObjects bucket
-
-* Apache:
-** Make sure that every vhosts has error page; see <code>/srv/webplatform/errors</code>
-
-* On elastic VM type:
-** Automatic backups, sends to DreamObjects bucket
-
-
-<!--  -----------------------------------------------------------  -->
-
-
-== Next ==
-
-What should be done once the previous requisites are met.
-
 
 * Service resiliency subsystem "Monit":
 ** '''Purpose''': Ensure critical services are up
@@ -253,10 +228,10 @@ What should be done once the previous requisites are met.
 ** Send backups to DreamObjects after a month, purge local copy
 
 * Setup alerts (aremysitesup is insufficient)
+
 * Rework Varnish files: compression is not working from Fastly, fix ESI
+
 * Make Fastly VCL to point to salt master with basic "server maintenance in progress" page if origin is unresponsive
-* '''Upgrade to latest Ubuntu 14.04 LTS version''', and their configured services for each VM types;
-** source
 
 * Improve Fastly service configs:
 ** ''www.webplatform.org'' fastly service to be completely cookie less, hold DreamObject images (instead of static.webplatform.org)
