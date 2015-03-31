@@ -237,7 +237,10 @@ Idea is that any service use default configuration as if its local, use of equiv
 * [[WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster|How to maintain our new ElasticSearch cluster]], including notes on how automatic backups are made
 * [[WPD:Infrastructure/procedures/Maintaining_email_services|How to '''Maintain email services''']]
 
+
 == Soon? ==
+
+Some notes that were gathered around that aren’t been tried yet.
 
 * Improve stats:
 ** '''Purpose''': Get system health data as graph, over time 
