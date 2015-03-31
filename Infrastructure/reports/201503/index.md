@@ -99,27 +99,27 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 === Misc. ===
 
-;Memcached ''(new since 2014)'': A "keystore" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
-;Redis ''(new since 2014)'': Another "keystore" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily link Redis nodes through SSL and require passwords to be able to make reads and writes.
-;ElasticSearch ''(new since 2014)'': A "REST" web application on which we can index documents, and use as a search engine
-;MariaDB ''(new since 2014)'': A drop-in replacement to MySQL, in use by most components
-;Monit ''(new since 2014)'': A system that is made to help ensure vital services are up
-;NGINX ''(new since 2014)'': A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
-;Apache: The original web server software.
-;php-fpm ''(new since 2014)'': A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik
 ;Ubuntu: We were originally running on two different versions of Ubuntu 10.04 and 12.04. While both are "Long Term Support" we weren’t running on the same version for every servers, and also had no automatic install of security updates. Since mid-2014 all servers uses the same version — Ubuntu 14.04 LTS — and automatic security updates
+;Memcached'': A "key store" system that many web applications relies to keep the HTML that it generated, speeding up the page render. 
+;Redis ''(new since 2014)'': Another "key store" system similar to Memcached, but in use for storing session data so we can balance web application backend load across multiple web servers. Benefit of Redis over Memcached is that we can easily make Redis calls through SSL/TLS and require clients to authenticates. Also, we can configure MediaWiki to store async jobs over to Redis instead of a MySQL table. MediaWiki operations team lead said that tables is fine for heavy load. Unless we get wikipedia.org type of load.
+;ElasticSearch ''(new since 2014)'': A "REST" web application on which we can index documents, and use as a search engine. We store annotations in it, and so we could configure MediaWiki so we improve search capabilities.
+;MariaDB ''(new since 2014)'': A drop-in replacement to MySQL, in use by most of the infrastructure. We could also configure it to use ''Galera'' so we could send writes to any node in the cluster. Might be a next step.
+;Monit ''(new since 2014)'': A system that is made to help ensure vital services are up.
+;NGINX ''(new since 2014)'': A Web Server and Proxy software. We will eventually use NGINX instead of apache in a near future
+;Apache: The original web server software. Only MediaWiki has an hard requirement to it, until we change our configuration or that Semantic MediaWiki  (''"SMW"''') requirement changes. At this time, SMW requires PHP to be run through '''mpm-prefork''' which is, in contrast to multi-threaded servers, is asking to always keep up a set of processes to answer HTTP requests. It is said in SMW mailing list, this hard requirement might change soon.
+;php-fpm ''(new since 2014)'': A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik, other PHP web applications (except MediaWiki) could be migrated to it soon enough. Unless we could run everything that runs in ''php5-fpm'' to HHVM (see below) instead.
+
 
 
 === Software we are currently evaluating to use ===
 
-;[https://github.com/twitter/twemproxy Nutcracker]: A "keystore" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
-;[http://hhvm.com/ HHVM]: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment
+;[https://github.com/twitter/twemproxy Nutcracker]: A "key store" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
+;[http://hhvm.com/ HHVM]: A complete rewrite of the PHP execution environment with known improvements compared to php-fpm. We might migrate all compatible PHP web applications to this runtime environment.
 ;[http://logstash.net/ LogStash]: A centralized log manager. It harmonizes, archives and process any log messages we send to it. Serves as an easy to use log search engine
-; [http://phabricator.org/ Phabricator]
-: A web application made to help organize software projects. It features an IRC bot from which we could monitor more than one IRC chat room (our chat bot is not maintained and doesn’t scale well). Also, we could Phabricator as a place to: store sensitive documents, mirror GIT/SVN/Mercurial repositories we rely on, host temporary Git/Mercurial stashes so we don’t risk losing them around, code "pastebin" so we don’t need to rely on GitHub gists, etc. See [http://phabricator.org/applications/ Phabricator applications list for more details]
+; [http://phabricator.org/ Phabricator]: A web application made to help organize software projects. It features an IRC bot from which we could monitor more than one IRC chat room (our chat bot is not maintained and doesn’t scale well). Also, we could Phabricator as a place to: store sensitive documents, mirror GIT/SVN/Mercurial repositories we rely on, host temporary Git/Mercurial stashes so we don’t risk losing them around, code "pastebin" so we don’t need to rely on GitHub gists, etc. See [http://phabricator.org/applications/ Phabricator applications list for more details]
 ; [https://www.docker.com/ Docker]: A system that allows us to create "executable" packages called "containers" out of any software or web application. At a first look, it looks like a VM, but its a very thin one that only does one job and removes the need to upgrade operating system packages and allow to roll back from any previous builds that had been made
-; [http://deis.io/ Deis]: An "orchestration" system that automates the cycle of building Docker containers. It automates handling of subsystems such as load balancing, remove the need to hardcode web application related deployment scripts, archiving, etc.
-;CoreOS: TODO
+; [http://deis.io/ Deis]: An "orchestration" system that automates the cycle of building Docker containers. It automates handling of subsystems such as load balancing, remove the need to hardcode web application related deployment scripts, archiving, etc. With this, we could build on push anything that has a "''Dockerfile''" at the root of the project.  
+;CoreOS: A thin Linux distribution that has Docker preinstalled and a few other orchestration utilities to provide auto-discoverability and automatic scaling.
 
 
 === Conventions in place ===
@@ -130,12 +130,20 @@ Idea is that any service use default configuration as if its local, use of equiv
 ;memcached (still in evaluation): Each application server (i.e. a server that runs a web application backend technology such as ''PHP'' or ''Python'') acts as if ''Memcached'' is local, but in fact a service called ''Nutcracker'' (a.k.a. TwEmProxy) is configured to talk to more than one Memcached servers serving the purpose of keeping a local copy of the data.
 
 
+=== Lessons learned ===
+
+;In Varnish/Fastly, remove non needed cookies: Its important it is to configure Varnish to clean cookies it sends to our backend servers.  Otherwise we do not have cache at all. The cleaning must be done for each backend because, for example, WordPress cookies wouldn’t be the same as MediaWiki’s.  In order to not lose the subtleties, we published all Varnish VCLs into GitHub at [https://github.com/webplatform/varnish-configs webplatform/varnish-configs].
+;Use IP address instead of names, in web application configuration files: Name resolution can be costly. I learned that it speeds page render time when I explicitly set Database, Redis, Memcached, ElasticSearch IPs instead of names that we’d put in ''/etc/hosts''. Since we now manage every configuration file through salt since late 2014, we can now update easily this information automatically
+;To support multiple runtime backends ...: Its much easier to configure a public Front-end server to use directly a private-access-only backend that handles when to serve static files it already hosts and which files should pass through FastCGI, etc. Front-end nodes wouldn’t need to duplicate that part, but be responsible to balance the load and take care of both static files and in-memory page cache. Much like Varnish does.
+
+ 
+
 == Work done per year ==
 
 === 2013 ===
 
 * ''Started working on WebPlatform on July 2013''
-* Installation '''Piwik''', at '''stats.webplatform.org''' to gather Analytics data 
+* Setup analytics solution w/ '''Piwik''', at '''stats.webplatform.org'''
 * Only one set of Virtual Machines (VMs) exposing live site, no room to work on improvements without risks of affecting live site
 * Deployment scripts were assuming exactly one deployment, making it hard to do gradual roll out
 * In configuration files, every IP Addresses were scattered around and I had to search around to adjust changes so that the servers would get the information updated
