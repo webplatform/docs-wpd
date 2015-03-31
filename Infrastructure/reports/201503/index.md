@@ -248,6 +248,9 @@ Idea is that any service use default configuration as if its local, use of equiv
 *** [http://riemann.io/ Riemann]
 ** Get page load stats (i.e. what [http://www.soasta.com/ SOASTA] does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
+
+* Improve toolkit
+** Ability to debug a-la-firebug communication between backends w/ [https://blog.twitter.com/2012/distributed-systems-tracing-with-zipkin Zipkin], see [http://research.google.com/pubs/pub36356.html paper about ''distributed systems tracing'']
 ** Ability to snapshot a server state for future investigation? Ref; http://www.sysdig.org/
 ** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
 
