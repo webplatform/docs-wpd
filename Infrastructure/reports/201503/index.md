@@ -242,7 +242,11 @@ Idea is that any service use default configuration as if its local, use of equiv
 * Improve stats:
 ** '''Purpose''': Get system health data as graph, over time 
 ** Set in place statsd, fluentd, monit and other system health graph tools
-** Get system metrics (Graphana?)
+** Get system metrics
+** Candidates
+*** [http://grafana.org Graphana]?
+*** [http://hekad.readthedocs.org Heka] that gets updated by Monit?
+*** [http://sensuapp.org Sensu]?
 ** Get page load stats (i.e. what SOASTA does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 
@@ -252,6 +256,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** LogStash to process logs (and emails? see {{OperationsTask|127}})
 ** Log rotation, and create archive files every year to prevent disk filling
 ** Network traffic review tool [http://www.haka-security.org/hakabana.html HaKabana]; "Visualize Haka traffic in real-time using Kibana and Elasticsearch.", see {{OperationsTask|142}}
+
 
 * Accounts web app:
 ** PHP relying client; Create shared component compatible with Composer
