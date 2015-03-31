@@ -1,7 +1,7 @@
-{{Page_Title|CSS2.1 选择器}}
+{{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=选择器
+|Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=No
 |High-level issues=Stub, Needs Flags
 }}
