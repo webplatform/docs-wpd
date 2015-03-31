@@ -242,16 +242,19 @@ Idea is that any service use default configuration as if its local, use of equiv
 * Improve stats:
 ** '''Purpose''': Get system health data as graph, over time 
 ** Set in place statsd, fluentd, monit and other system health graph tools
-** Get system metrics
 ** Candidates
 *** [http://grafana.org Graphana]?
-*** [http://hekad.readthedocs.org Heka] that gets updated by Monit?
 *** [http://sensuapp.org Sensu]?
+*** [http://riemann.io/ Riemann]
 ** Get page load stats (i.e. what SOASTA does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 ** Ability to snapshot a server state for future investigation? Ref; http://www.sysdig.org/
 ** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
 
+* Get system metrics
+** Leverage Monit system, push to [http://hekad.readthedocs.org Heka]?
+** Use NGINX status, ref [https://www.scalyr.com/community/guides/how-to-monitor-nginx-the-essential-guide How to monitor NGINX, the essential guide]
+** Get Inspiration from [http://www.lowlevelmanager.com/2014/07/monitorama-conference.html some notes from ''Monitorama'' conference] 
 * Centralized logging:
 ** '''Purpose''': Aggregate and harmonize all log messages to see what happened (or happens)
 ** LogStash to process logs (and emails? see {{OperationsTask|127}})
