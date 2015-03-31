@@ -246,7 +246,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 *** [http://grafana.org Graphana]?
 *** [http://sensuapp.org Sensu]?
 *** [http://riemann.io/ Riemann]
-** Get page load stats (i.e. what SOASTA does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
+** Get page load stats (i.e. what [http://www.soasta.com/ SOASTA] does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 ** Ability to snapshot a server state for future investigation? Ref; http://www.sysdig.org/
 ** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
