@@ -280,6 +280,7 @@ Idea is that any service use default configuration as if its local, use of equiv
 ** Think of Behat/ReSpec for a server. See {{OperationsTask|144}}
 
 * Monitoring and alerts
+** Leverage LogStash as a Monitoring solution? Ref [http://www.nuxeo.com/blog/monitoring-nuxeo/ Monitoring at Nuxeo]
 ** Document expectations and endpoints along with links to documentation for each service
 ** Use deployment tests as monitoring? ref [http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/making-runbooks-more-useful-by-exposing-them-through-monitoring.html making "runbooks" more useful by exposing through monitoring]
 ** etc...
