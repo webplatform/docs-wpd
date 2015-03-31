@@ -268,5 +268,5 @@ Idea is that any service use default configuration as if its local, use of equiv
 * Set in place deployment tests;
 ** Cover all edge-cases a backend served by Varnish must have
 ** Cover all edge-cases a request served by Varnish should have
-** Think of Behat/ReSpec for a server. See http://vincent.bernat.im/en/blog/2014-serverspec-test-infrastructure.html 
+** Think of Behat/ReSpec for a server. See {{OperationsTask|144}}
 ** etc...
