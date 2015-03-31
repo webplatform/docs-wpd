@@ -261,7 +261,7 @@ Some notes that were gathered around that aren’t been tried yet.
 ** More food for thoughts ... [http://metrics20.org/ Metrics 2.0]
 
 * Get system metrics
-** Leverage Monit system, push to [http://hekad.readthedocs.org Heka]? ([https://github.com/renoirb/mmonit-mock-listener see this sandbox])
+** Leverage Monit system, push to [http://hekad.readthedocs.org Heka]? ([https://github.com/renoirb/mmonit-mock-listener see this sandbox]), or [https://github.com/lunich/monitrb use an existing one in ''Ruby'' that stores in MongoDB]
 ** Use NGINX status, ref [https://www.scalyr.com/community/guides/how-to-monitor-nginx-the-essential-guide How to monitor NGINX, the essential guide]
 ** Gather ElasticSearch metrics, see [https://github.com/abronner/elasticsearch-monitoring this repo]
 ** Get Inspiration from [http://www.lowlevelmanager.com/2014/07/monitorama-conference.html some notes from ''Monitorama'' conference] 
