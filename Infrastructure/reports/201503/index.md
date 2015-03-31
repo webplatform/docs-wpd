@@ -207,8 +207,8 @@ Idea is that any service use default configuration as if its local, use of equiv
 * "Inventory" system that keeps in memory the internal IP addresses of each infrastructure services: MySQL, Redis, Memcache, etc.
 * Generates automatically configuration file with credentials based on the servers that are up at that moment, IP address, Passwords, Private keys, etc
 * Capability to update passwords/private keys across all web applications from one "private" configuration file
-* Setup of a "private" configuration system stored in a git repo
-* We will eventually publish all our deployment scripts to the public, except the "private" data files
+* Setup of a "private" configuration system stored in a git repo, see {{OperationsTask|145}}
+* We will eventually publish all our deployment scripts to the public, except the "private" data files. Ref {{OperationsTask|48}}
 * Setup an NFS mount point so that ElasticSearch instances can do backups. Reviewed idea of not using inter instance storage, at least limit it only in the case of of backups... until we can store ElasticSearch snapshots through Swift/DreamObjects too, see {{OperationsTask|120}}
 
 
@@ -245,11 +245,13 @@ Some notes that were gathered around that aren’t been tried yet.
 
 * Improve stats:
 ** '''Purpose''': Get system health data as graph, over time 
-** Set in place statsd, fluentd, monit and other system health graph tools
-** Candidates
+** Some candidates
 *** [http://grafana.org Graphana]?
 *** [http://sensuapp.org Sensu]?
 *** [http://riemann.io/ Riemann]
+*** collectd
+*** fluentd 
+*** [https://github.com/python-diamond/Diamond Diamond]?
 ** Get page load stats (i.e. what [http://www.soasta.com/ SOASTA] does, but use open-source version; [http://www.lognormal.com/boomerang/doc/ Boomerang]), see {{OperationsTask|143}}
 ** Attempt to merge data from ganglia into Graphana so we do not lose previous data
 
@@ -295,7 +297,7 @@ Some notes that were gathered around that aren’t been tried yet.
 * Monitoring and alerts
 ** Leverage LogStash as a Monitoring solution? Ref [http://www.nuxeo.com/blog/monitoring-nuxeo/ Monitoring at Nuxeo]
 ** Document expectations and endpoints along with links to documentation for each service
-** Use deployment tests as monitoring? ref [http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/making-runbooks-more-useful-by-exposing-them-through-monitoring.html making "runbooks" more useful by exposing through monitoring]
+** Use deployment tests as monitoring? ref [http://riltsken.github.io/devops/infrastructure/monitoring/2014/04/19/making-runbooks-more-useful-by-exposing-them-through-monitoring.html making "run books" more useful by exposing through monitoring]
 ** etc...
 
 * Helpers
