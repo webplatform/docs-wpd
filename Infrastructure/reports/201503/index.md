@@ -126,13 +126,13 @@ On a related note, there are also notes in [[WPD:Infrastructure/reports/201410|t
 
 Idea is that any service use default configuration as if its local, use of equivalent service to delegate/proxy to specialized set of servers
 
+;What’s common on any VMs: Refer to [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM|architecture documentation at  '''Base configuration of a VM''']] 
 ;email: Each server uses ''localhost'' as their email server gateway, but the local email server then uses a specialized VM only for sending emails
 ;memcached (still in evaluation): Each application server (i.e. a server that runs a web application backend technology such as ''PHP'' or ''Python'') acts as if ''Memcached'' is local, but in fact a service called ''Nutcracker'' (a.k.a. TwEmProxy) is configured to talk to more than one Memcached servers serving the purpose of keeping a local copy of the data.
 ;secrets, passwords ("accounts" pillars): Are stored in a separate set of (salt) pillars in ''/srv/private/pillar/accounts/production.sls'' and (will be) hosted in a private Git repository at W3C. In there, we keep all API secrets, tokens, and passwords we need. Every configuration and services pulls information from there. To adjust, edit and commit the file then run a "highstate".  (staging is at  '''/srv/private/pillar/accounts/staging.sls'')
 ;Deployment sensible variables... ("infra" pillars): Are stored in a centralized (salt) pillars in ''/srv/pillar/infra/production.sls''. In there, we list private IP addresses of database servers, ElasticSearch, etc. Every configuration file and states relies on it. To adjust, edit and commit the file, then run a "highstate". (staging is at  '''/srv/private/pillars/accounts/staging.sls'')
 ;ssh access: The only way to work on any is to pass through the salt master as a "jump box", see [[WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH|Accessing a VM using SSH]]
-;which level a VM is in?:The "level" grain exists to tell which configuration file to use in both ''/srv/pillar/infra/$level.sls'' AND in ''/srv/private/pillars/accounts/$level.sls''. To get which level, you can ask from the terminal <code>salt \* grains.get level</code>. Refer to 
-;which 
+;which level a VM is in?:The "level" grain exists to tell which configuration file to use in both ''/srv/pillar/infra/$level.sls'' AND in ''/srv/private/pillars/accounts/$level.sls''. To get which level, you can ask from the terminal <code>salt \* grains.get level</code>. Refer to [[WPD:Infrastructure/architecture/Roles_and_environment_level|architecture documentation at '''Roles and Environment level''']]
 
 
 === Lessons learned ===
