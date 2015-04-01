@@ -3,9 +3,9 @@
 
 This document describes how to replace any VM in an existing deployment (e.g. staging) with a new one, install/update targeted web application and apply current configurations. All of that is done in a way that we can replace a faulty VM without affecting the site uptime.
 
-Using our ''Salt Stack'' (not published yet, see ''/srv/salt''), rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
+Using our ''Salt Stack'' (not published yet, see ''/srv/salt'' and {{OperationsTask|48}}), rebuilding a VM is reduced to a few commands and makes it cheap to replace any components which gives us the insurance that we can consistently have the same outcome.
 
-'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master and they are also visible from our states repository on GitHub (not published yet, see ''/srv/salt'').
+'''Remember''' most recurring commands are listed at the bottom of <code>/srv/salt/README.md</code> on the salt master.
 
 
 == Introduction ==
@@ -151,7 +151,7 @@ The essential pillars to look for are the following:
 
 '''Tip''' if you are in "production" level, just look at the files with '''production''' instead.
 
-The rule of thumb is that what’s in '''/srv/pillar''' MUST have nothing private as its publicly visible on GitHub @@TODO set pillars github repo.
+The rule of thumb is that what’s in '''/srv/pillar''' MUST have nothing private as its publicly visible on GitHub.
 
 All private data is stored in '''/srv/private''' and have its own separate Git repository that only trusted people should have access.
 
