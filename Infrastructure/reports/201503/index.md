@@ -302,3 +302,7 @@ Some notes that were gathered around that aren’t been tried yet.
 
 * Helpers
 ** Make server SSH MOTD point out links to maintenance documentation, [http://riltsken.github.io/devops/infrastructure/2014/03/16/how-server-message-of-the-day-improved-our-devops-team.html inspired by this ''blog post'']
+
+* Dashboard and status
+** [https://shopify.github.io/dashing Dashing]?
+** [https://github.com/cachethq Cachet]
