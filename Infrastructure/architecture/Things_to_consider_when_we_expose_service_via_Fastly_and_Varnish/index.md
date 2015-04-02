@@ -61,6 +61,8 @@ INCOMPLETE
 * [[WPD:Infrastructure/analysis/2015-How_MediaWiki_backend_sees_requests_with_or_without_Fastly_in_front|analysis; 2015, How MediaWiki backend sees requests with and without ''Fastly'' in front]]
 
 === Reference to review ===
+* https://www.mobify.com/blog/beginners-guide-to-http-cache-headers/
+
 ==== MediaWiki ====
 * [http://www.mediawiki.org/wiki/Manual:Varnish_caching MediaWiki Varnish Caching]
 * [http://labs.creativecommons.org/2011/03/18/caching-mediawiki-with-varnish/ Caching mediawiki with varnish]
