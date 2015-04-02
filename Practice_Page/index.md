@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Unreviewed
 |Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=No
-|High-level issues=Stub, Needs Flags
 }}
-{{Standardization_Status|De Facto Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
 
@@ -20,10 +19,11 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Animatable=Yes
 |CSS object model property=practice
 |Values={{CSS Property Value
-|Data Type=none
-|Description=you start here
+|Data Type=BIG_PICTURE
+|Description=A lot of description
 }}{{CSS Property Value
 |Data Type=Single_Example
+|Description=used
 }}
 }}
 {{Examples_Section
