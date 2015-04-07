@@ -1,7 +1,7 @@
 {{:WPD:Infrastructure/architecture}}
 = Things to consider when we expose service via Fastly and Varnish =
 
-INCOMPLETE
+Not finished, see also [http://github.com/webplatform/varnish-configs our GitHub '''webplatform/varnish-configs''' project]
 
 == Mind map ==
 
