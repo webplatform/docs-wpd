@@ -1,5 +1,7 @@
 {{Page_Title}}
-
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This page contains some quick guides to performing small maintenance tasks, which we thought were too small to put on their own separate pages.}}
 {{Basic Page}}
 ==Migrating a non-form-based page to use the proper form==
@@ -12,4 +14,12 @@ On Webplatform.org, all standard pages should be based on the correct form, but 
 # Save the page — this should convert it to being a form-based page.
 # Select "Edit" on this page, and you should now be able to use the form to edit the content on the previously-non-form-based page!
 # Copy your original content into the appropriate form fields.
+
+== Get statistics ==
+
+* [[Special:Statistics|Statistics Special page]]
 {{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+}}
