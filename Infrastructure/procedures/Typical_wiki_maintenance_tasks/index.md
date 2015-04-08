@@ -17,7 +17,13 @@ On Webplatform.org, all standard pages should be based on the correct form, but 
 
 == Get statistics ==
 
-* [[Special:Statistics|Statistics Special page]]
+* [[Special:Statistics|Statistics Special page]] or its command-line equivalent [https://www.mediawiki.org/wiki/Manual:ShowSiteStats.php ''showSiteStats'' maintenance script], e.g.  <code>php mediawiki/maintenance/showSiteStats.php</code>
+** Refresh site stats with [https://www.mediawiki.org/wiki/Manual:InitSiteStats.php ''InitSiteStats.php''], e.g.  <code>php mediawiki/maintenance/initSiteStats.php</code>
+
+=== Tools ===
+
+* https://meta.wikimedia.org/wiki/StatMediaWiki
+* https://www.mediawiki.org/wiki/Extension:Usage_Statistics
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
