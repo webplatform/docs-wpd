@@ -67,4 +67,5 @@ Not something to do liberally, but can be handy.
 
 === Useful links ===
 
+* [https://github.com/Exim/exim/wiki Wiki pages on the Exim GitHub project]
 * http://www.electrictoolbox.com/exim-delete-message/
