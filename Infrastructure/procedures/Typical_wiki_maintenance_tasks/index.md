@@ -20,10 +20,11 @@ On Webplatform.org, all standard pages should be based on the correct form, but 
 * [[Special:Statistics|Statistics Special page]] or its command-line equivalent [https://www.mediawiki.org/wiki/Manual:ShowSiteStats.php ''showSiteStats'' maintenance script], e.g.  <code>php mediawiki/maintenance/showSiteStats.php</code>
 ** Refresh site stats with [https://www.mediawiki.org/wiki/Manual:InitSiteStats.php ''InitSiteStats.php''], e.g.  <code>php mediawiki/maintenance/initSiteStats.php</code>
 
-=== Tools ===
+=== Other stats tools ===
 
-* https://meta.wikimedia.org/wiki/StatMediaWiki
+* https://meta.wikimedia.org/wiki/StatMediaWiki, has no docs, but some can be found [http://edutechwiki.unige.ch/en/StatMediaWiki in this wiki]
 * https://www.mediawiki.org/wiki/Extension:Usage_Statistics
+* https://meta.wikimedia.org/wiki/WikiXRay
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
