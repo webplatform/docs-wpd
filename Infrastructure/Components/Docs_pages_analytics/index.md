@@ -58,6 +58,10 @@ WikiMetrics is a sandbox we can import and run scripts to get usage statistics.
 
 TL;DR ... a way to get wiki activity reports and statistics, one has to run it inside a sandboxed MediaWiki installation in which we import a database snapshot from production so it can crunch metrics.
 
+Wikimetrics also helps to generate database queries that can be run to make reports
+
+[[File:wikimetrics-screenshot-namespaceedits.png|thumb|Sample database query]]
+
 * ''Freenode IRC'' channel: ''#wikimedia-analytics''
 * [http://www.mediawiki.org/wiki/Analytics/Wikimetrics project description page], see also [http://www.mediawiki.org/wiki/User_Metrics former project description page "''User Metrics''"]
 * [https://phabricator.wikimedia.org/tag/Analytics-Wikimetrics/ Wkimedia Phabricator KanBan board]
