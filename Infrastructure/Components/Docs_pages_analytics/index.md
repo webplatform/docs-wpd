@@ -53,6 +53,7 @@ Here are a few interesting ones:
 * [http://quarry.wmflabs.org/query/2930 New active users in Lativian Wikipedia]
 
 === [https://metrics.wmflabs.org/ WikiMetrics] ===
+[[File:wikimetrics-screenshot-namespaceedits.png|thumb|Sample database query]]
 
 WikiMetrics is a sandbox we can import and run scripts to get usage statistics.
 
@@ -60,7 +61,6 @@ TL;DR ... a way to get wiki activity reports and statistics, one has to run it i
 
 Wikimetrics also helps to generate database queries that can be run to make reports
 
-[[File:wikimetrics-screenshot-namespaceedits.png|thumb|Sample database query]]
 
 * ''Freenode IRC'' channel: ''#wikimedia-analytics''
 * [http://www.mediawiki.org/wiki/Analytics/Wikimetrics project description page], see also [http://www.mediawiki.org/wiki/User_Metrics former project description page "''User Metrics''"]
