@@ -25,7 +25,7 @@ See also the [https://meta.wikimedia.org/wiki/Talk:StatMediaWiki StatMediaWiki T
 
 === [http://reportcard.wmflabs.org/ Limn] (to be phased out by wmf) ===
 
-'''Outcome:''' After consultation with ''#wikimedia-analytics'' folks, Limn ([https://github.com/wikimedia/limn repo]) is a visualization tool, one has  to feed it with reports. In order to use it, we have to have crunched data. To get data, Wikimedia foundation uses ''wikimetrics'' and ''Quarry''.
+'''Outcome:''' After consultation with ''#wikimedia-analytics'' folks, Limn ([https://github.com/wikimedia/limn repo]) is a visualization tool, one has  to feed it with reports. In order to use it, we have to have crunched data, see [http://reportcard.wmflabs.org/datasources limn ''datasources'']. To get data, Wikimedia foundation uses ''wikimetrics'' and ''Quarry''.
 
 === [http://quarry.wmflabs.org/ Quarry] ===
 
