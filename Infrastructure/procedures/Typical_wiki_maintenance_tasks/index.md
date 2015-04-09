@@ -22,9 +22,25 @@ On Webplatform.org, all standard pages should be based on the correct form, but 
 
 === Other stats tools ===
 
-* https://meta.wikimedia.org/wiki/StatMediaWiki, has no docs, but some can be found [http://edutechwiki.unige.ch/en/StatMediaWiki in this wiki]
-* https://www.mediawiki.org/wiki/Extension:Usage_Statistics
+==== [https://meta.wikimedia.org/wiki/StatMediaWiki StatMediaWiki] ==== 
+
+'''Outcome:''' Couldn’t make something work in a reasonable time.
+
+TL;DR. Its a Python project can read from a database snapshot, crunch some data, and generate reports. Unfortunately, it has next to no docs, although I could get something at [http://edutechwiki.unige.ch/en/StatMediaWiki in this wiki]. 
+
+Unfortunately it seems the Python code is making database queries to MediaWiki database tables changed since the time ''StatMediaWiki'' was made and wasn’t completing execution. 
+
+See also the [https://meta.wikimedia.org/wiki/Talk:StatMediaWiki StatMediaWiki Talk page]
+
+==== [https://www.mediawiki.org/wiki/Extension:Usage_Statistics Usage Statistics Extension] ====
+
+'''Outcome:''' Couldn’t make it work due to incompatibility caused by some calls that were using deprecated methods.
+
+=== Also ===
+
 * https://meta.wikimedia.org/wiki/WikiXRay
+* https://www.mediawiki.org/wiki/Analytics/Wikistats
+* http://reportcard.wmflabs.org/ https://github.com/wikimedia/limn
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
