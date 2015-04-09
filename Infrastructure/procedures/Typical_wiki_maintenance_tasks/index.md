@@ -39,7 +39,7 @@ See also the [https://meta.wikimedia.org/wiki/Talk:StatMediaWiki StatMediaWiki T
 === Also ===
 
 * https://meta.wikimedia.org/wiki/WikiXRay
-* https://www.mediawiki.org/wiki/Analytics/Wikistats
+* https://www.mediawiki.org/wiki/Analytics/Wikistats https://stats.wikimedia.org/
 * http://reportcard.wmflabs.org/ https://github.com/wikimedia/limn
 {{Notes_Section}}
 {{Topics}}
