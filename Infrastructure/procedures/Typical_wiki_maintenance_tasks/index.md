@@ -49,7 +49,8 @@ Run database queries from the web browser.
 Here are a few interresting ones:
 * [http://quarry.wmflabs.org/query/3033 Catalan Wikipedia users who published more than one article]
 * [http://quarry.wmflabs.org/query/947 Files uploaded to two projects]
-* [http://quarry.wmflabs.org/query/3012 Most edited pages in Portugese version of Wikipedia] 
+* [http://quarry.wmflabs.org/query/3012 Most edited pages in Portugese Wikipedia] 
+* [http://quarry.wmflabs.org/query/2930 New active users in Lativian Wikipedia]
 
 ==== WikiMetrics ====
 
