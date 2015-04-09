@@ -38,19 +38,22 @@ See also the [https://meta.wikimedia.org/wiki/Talk:StatMediaWiki StatMediaWiki T
 
 ==== [http://reportcard.wmflabs.org/ Limn (to be phased out by wmf)] ====
 
-'''Outcome:''' After consultation with ''#wikimedia-analytics'' folks, [ https://github.com/wikimedia/limn Limn] is to be phased out.
+'''Outcome:''' After consultation with ''#wikimedia-analytics'' folks, Limn ([https://github.com/wikimedia/limn repo]) is to be phased out; they now use ''Quarry'', and ''wikimetrics''.
 
 ==== [http://quarry.wmflabs.org/ Quarry] ====
 
 Run database queries from the web browser. 
 
-Quarry ([https://github.com/wikimedia/analytics-quarry-web github/wikimedia/analytics-quarry-web]) is a tool written in Python that allows to make database queries from a web browser and expose publicly the results.
+''Quarry'' ([https://github.com/wikimedia/analytics-quarry-web repo]) is a tool written in Python that allows to make database queries from a web browser and expose publicly the results.
 
 Here are a few interresting ones:
 * [http://quarry.wmflabs.org/query/3033 Catalan Wikipedia users who published more than one article]
 * [http://quarry.wmflabs.org/query/947 Files uploaded to two projects]
 * [http://quarry.wmflabs.org/query/3012 Most edited pages in Portugese version of Wikipedia] 
 
+==== WikiMetrics ====
+
+WikiMetrics ([https://github.com/wikimedia/analytics-wikimetrics code]) is a sandbox we can import and run scripts to get usage statistics.
 
 === Also ===
 
