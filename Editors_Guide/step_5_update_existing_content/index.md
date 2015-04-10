@@ -109,7 +109,7 @@ The book titled: [http://www.amazon.com/Developing-Quality-Technical-Information
 The following principles guide our contributions to help achieve high quality in the information presented on this website.
 
 ===Ensure articles are vendor neutral===
-Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers. For a list of articles marked with the '''Not Neutral''' flag, see [[WPD:Getting_Started#Edit_content_for_neutrality|Edit content for neutrality].
+Content should be vendor neutral whenever possible. Where browser implementations vary, provide compatibility information for major browsers, or describe equivalent functionality in all major browsers. For a list of articles marked with the '''Not Neutral''' flag, see [[WPD:Getting_Started#Edit_content_for_neutrality|Edit content for neutrality]].
 
 ===Author content using a neutral voice===
 With the exception of tutorials and guides, content should maintain a neutral voice.  Because the site is a collaborative wiki, even tutorials and guides that are first authored with a specific voice can be expected to morph over time.
@@ -169,15 +169,8 @@ Different types of articles have different types of sections. For an article to 
 
 ===Blogging guidelines===
 To contribute to the WPD blog efforts, please see the [[WPD:Blogging | Blogging ]] topic.
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
