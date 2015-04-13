@@ -1,6 +1,6 @@
 = Docs pages analytics =
 
-'''INCOMPLETE'''
+'''INCOMPLETE''', see {{OperationsTask|149}}
 
 How to get data from MediaWiki.
 
