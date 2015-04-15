@@ -1,12 +1,12 @@
 {{Page_Title|dialog}}
 {{Flags
-|State=Unreviewed
+|State=In Progress
 |Editorial notes=Practice page
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|<dialog> tag defines a dialog box or window.}}
+{{Summary_Section|Defines a dialog box or other interactive component such as a window.}}
 {{CSS Property
 |Initial value=Test
 |Applies to=Everything
