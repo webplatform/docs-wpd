@@ -11,17 +11,11 @@
 |Initial value=Test
 |Applies to=Everything
 |Inherited=No
-|Media=visual
+|Media=all
 |Computed value=As specified
 |Animatable=Yes
 |CSS object model property=practice
-|Values={{CSS Property Value
-|Data Type=BIG_PICTURE
-|Description=A lot of description
-}}{{CSS Property Value
-|Data Type=Single_Example
-|Description=used
-}}{{CSS Property Value}}
+|Values=
 }}
 {{Examples_Section
 |Not_required=Yes
