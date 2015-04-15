@@ -1,15 +1,12 @@
-{{Page_Title}}
+{{Page_Title|dialog}}
 {{Flags
 |State=Unreviewed
-|Editorial notes=选择器 Bonne journée monsieur :)
-|Checked_Out=No
+|Editorial notes=Practice page
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
-
-This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
-}}
+{{Summary_Section|<dialog> tag defines a dialog box or window.}}
 {{CSS Property
 |Initial value=Test
 |Applies to=Everything
@@ -27,7 +24,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Language=CSS
 |Description=You can write an example in a fiddle playground, such as http://code.webplatform.org. Copy and paste the important lines of code, and link to the source code.
