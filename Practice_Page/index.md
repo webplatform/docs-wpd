@@ -21,7 +21,7 @@
 }}{{CSS Property Value
 |Data Type=Single_Example
 |Description=used
-}}
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=Yes
