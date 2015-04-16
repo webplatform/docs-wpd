@@ -20,13 +20,11 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <dialog> tag defines any interactive component such as a dialog box or window. The <dialog> tag is written as <dialog></dialog> with the content of the dialog box inserted between the opening and closing tags. Different styles can be added to enhance the presentation.
-|Notes=Examples of <dialog> include dialog box, inspector, or window. The <dialog> tag is new in HTML5.
-|Import_Notes=Supported Browsers
+|Usage=The <dialog> tag defines any interactive component such as a dialog box or window. The <dialog> tag is written as <dialog></dialog> with the content of the dialog box inserted between the opening and closing tags. Different styles can be added to enhance the presentation. Examples of <dialog> include dialog box, inspector, or window. 
 
-Google Chrome
-Opera Mini
-Safari
+Supported Browsers: Google Chrome, Opera Mini and 
+Safari.
+|Notes=The <dialog> tag is new in HTML5.
 }}
 {{Related_Specifications_Section
 |Specifications=
