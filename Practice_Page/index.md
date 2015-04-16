@@ -1,6 +1,5 @@
 {{Page_Title|dialog}}
 {{Flags
-|State=In Progress
 |Editorial notes=Practice page
 |Checked_Out=Yes
 }}
