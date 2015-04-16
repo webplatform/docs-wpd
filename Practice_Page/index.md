@@ -14,8 +14,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=<dialog open>
-  <p>Greetings, one and all!</p>
+|Code=<dialog open>
+  <p>Welcome to Webplatform!</p>
 </dialog>
 }}
 }}
