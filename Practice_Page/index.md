@@ -31,9 +31,9 @@ The <dialog> tag is new in HTML5.
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML, Performance
+|Topic_clusters=HTML
 }}
-{{Topics|Developer Tools, JS Basic}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 }}
