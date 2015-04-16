@@ -29,9 +29,14 @@
 }}
 }}
 {{Notes_Section
-|Usage=The  <dialog> element helps developers to create popup dialogs for web applications.
 |Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
-|Import_Notes=This is important!
+|Import_Notes=The  <dialog> element helps developers to create popup dialogs for web applications. 
+
+Syntax
+
+<dialog open>
+  <p>Welcome to Webplatform</p>
+</dialog>
 }}
 {{Related_Specifications_Section
 |Specifications=
