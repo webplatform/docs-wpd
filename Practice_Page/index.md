@@ -8,11 +8,6 @@
 {{API_Name}}
 {{Summary_Section|Defines a dialog box or other interactive component such as a window.}}
 {{CSS Property
-|Initial value=1
-|Media=all
-|Computed value=1
-|CSS object model property=1
-|CSS percentages=100
 |Values=
 }}
 {{Examples_Section
@@ -25,11 +20,12 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <dialog> tag defines any interactive component such as a dialog box or window. The <dialog> tag is written as <dialog></dialog> with the content of the dialog box inserted between the opening and closing tags. Different styles can be added to enhance the presentation. Examples of <dialog> include dialog box, inspector, or window. 
+|Notes=The <dialog> tag defines any interactive component such as a dialog box or window. The <dialog> tag is written as <dialog></dialog> with the content of the dialog box inserted between the opening and closing tags. Different styles can be added to enhance the presentation. Examples of <dialog> include dialog box, inspector, or window. 
 
 Supported Browsers: Google Chrome, Opera Mini and 
 Safari.
-|Notes=The <dialog> tag is new in HTML5.
+
+The <dialog> tag is new in HTML5.
 }}
 {{Related_Specifications_Section
 |Specifications=
