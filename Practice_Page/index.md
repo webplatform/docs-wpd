@@ -28,6 +28,11 @@
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Performance
+|Manual_sections=Supported Browsers
+
+Google Chrome
+Opera Mini
+Safari
 }}
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
