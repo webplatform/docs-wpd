@@ -8,6 +8,11 @@
 {{API_Name}}
 {{Summary_Section|Defines a dialog box or other interactive component such as a window.}}
 {{CSS Property
+|Initial value=1
+|Media=all
+|Computed value=1
+|CSS object model property=1
+|CSS percentages=100
 |Values=
 }}
 {{Examples_Section
