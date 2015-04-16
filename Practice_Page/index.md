@@ -21,22 +21,13 @@
 |Not_required=Yes
 |Examples={{Single Example
 |Language=HTML
-|Description=Examples of <dialog> usage includes a dialog box, inspector, or window.
-|Code=html {
-  /* make sure to practice HTML regularly */
-  practice: weekly;
-}
+|Description=<dialog open>
+  <p>Greetings, one and all!</p>
+</dialog>
 }}
 }}
 {{Notes_Section
-|Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
-|Import_Notes=The  <dialog> element helps developers to create popup dialogs for web applications. 
-
-Syntax
-
-<dialog open>
-  <p>Welcome to Webplatform</p>
-</dialog>
+|Import_Notes=The  <dialog> element helps developers to create popup dialogs for web applications.
 }}
 {{Related_Specifications_Section
 |Specifications=
