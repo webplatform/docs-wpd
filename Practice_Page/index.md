@@ -14,6 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=HTML code to open a dialog box
 |Code=<dialog open>
   <p>This is a dialog!</p>
 </dialog>
