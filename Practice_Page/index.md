@@ -8,17 +8,10 @@
 {{API_Name}}
 {{Summary_Section|Defines a dialog box or other interactive component such as a window.}}
 {{CSS Property
-|Initial value=Test
-|Applies to=Everything
-|Inherited=No
-|Media=all
-|Computed value=As specified
-|Animatable=Yes
-|CSS object model property=practice
 |Values=
 }}
 {{Examples_Section
-|Not_required=Yes
+|Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=<dialog open>
