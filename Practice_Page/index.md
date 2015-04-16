@@ -20,26 +20,16 @@
 {{Examples_Section
 |Not_required=Yes
 |Examples={{Single Example
-|Language=CSS
-|Description=You can write an example in a fiddle playground, such as http://code.webplatform.org. Copy and paste the important lines of code, and link to the source code.
+|Language=HTML
+|Description=Examples of <dialog> usage includes a dialog box, inspector, or window.
 |Code=html {
   /* make sure to practice HTML regularly */
   practice: weekly;
 }
-}}{{Single Example
-|Language=JavaScript
-|Description=getting to know WPD editing
-|Code=alert('Hello world!');
-|LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
-}}{{Single Example
-|Language=JavaScript
-|Description=Foo the Bar Baz, boy.
-|Code=console.log("foo");
 }}
 }}
 {{Notes_Section
-|Usage=Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heinous, send a note to 
-[mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
+|Usage=The  <dialog> element helps developers to create popup dialogs for web applications.
 |Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
 |Import_Notes=This is important!
 }}
