@@ -15,6 +15,7 @@ A link becomes active when it is clicked and the characteristics that are applie
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=Below is the example of a simple implementation.
 |Code=<!DOCTYPE html>
 <html>
 <head>
