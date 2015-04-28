@@ -68,7 +68,7 @@ The browser support tables (also called "compatibility tables" are a crucial fea
 
 Traffic is the biggest challenge for WebPlaform Docs.
 
-WE have fallen short of our aspirations, with the average monthly unique visitors at only 43.5K, and monthly unique pageviews at 111.6K. About half of these pageviews are for CSS topics, which we have put most of our energy into improving. Most of the rest of the traffic has been in HTML and tutorials. Notably, about 10% of our traffic has been on the well-crafted SVG tutorials. 
+We have fallen short of our aspirations, with the average monthly unique visitors at only 43.5K, and monthly unique pageviews at 111.6K. About half of these pageviews are for CSS topics, which we have put most of our energy into improving. Most of the rest of the traffic has been in HTML and tutorials. Notably, about 10% of our traffic has been on the well-crafted SVG tutorials. 
 
 There are many excellent competitors, such as MDN, and many sites with long-standing SEO on mature topics such as HTML and CSS. We have not invested in any advertising or other proactive SEO, and our page-rank is not nearly as high as more mature sites.
 
