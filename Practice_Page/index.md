@@ -1,81 +1,64 @@
-{{Page_Title|:active}}
+{{Page_Title}}
 {{Flags
-|Editorial notes=Practice page
-|Checked_Out=Yes
+|State=In Progress
+|Editorial notes=选择器 Bonne journée monsieur :)
+|Checked_Out=No
+|High-level issues=Stub, Needs Flags
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section|The :active selector is used to select and style the active link.
-A link becomes active when it is clicked and the characteristics that are applied remain for as long as the click is held.
+{{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
+
+This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
 }}
 {{CSS Property
-|Values=
+|Initial value=Test
+|Applies to=Everything
+|Inherited=No
+|Media=visual
+|Computed value=As specified
+|Animatable=Yes
+|CSS object model property=practice
+|Values={{CSS Property Value
+|Data Type=none
+|Description=you start here
+}}{{CSS Property Value
+|Data Type=Single_Example
+}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=Below is the example of a simple implementation.
-|Code=<!DOCTYPE html>
-<html>
-<head>
-<style>
-a:active {
-    background-color: purple;
+|Language=CSS
+|Description=You can write an example in a fiddle playground, such as http://code.webplatform.org. Copy and paste the important lines of code, and link to the source code.
+|Code=html {
+  /* make sure to practice HTML regularly */
+  practice: weekly;
 }
-</style>
-</head>
-<body>
-
-<a href="https://docs.webplatform.org/wiki/css/functions/blur</a>
-
-
-<p><b>Note:</b> The :active selector styles the active link with the color purple.</p>
-
-</body>
-</html>
 }}{{Single Example
-|Language=HTML
-|Description=The :active selector can be used on all elements, not only links. Below the lines become 'active' just by hovering.
-|Code=<!DOCTYPE html>
-<html>
-<head>
-<style>
-a.ex1:hover, a.ex1:active {color: yellow;}
-a.ex2:hover, a.ex2:active {font-size: 250%;}
-a.ex3:hover, a.ex3:active {background: blue;}
-a.ex4:hover, a.ex4:active {font-family: monospace;}
-a.ex5:visited, a.ex5:link {text-decoration: none;}
-a.ex5:hover, a.ex5:active {text-decoration: underline;}
-</style>
-</head>
-<body>
-
-<p>Mouse over the links to see them change layout.</p>
-
-<p><a class="ex1" href="default.asp">This link changes color</a></p>
-<p><a class="ex2" href="default.asp">This link changes font-size</a></p>
-<p><a class="ex3" href="default.asp">This link changes background-color</a></p>
-<p><a class="ex4" href="default.asp">This link changes font-family</a></p>
-<p><a class="ex5" href="default.asp">This link changes text-decoration</a></p>
-
-</body>
-</html>
-|LiveURL=https://code.webplatform.org/gist/c8bb944dbeddf68de2ec
+|Language=JavaScript
+|Description=getting to know WPD editing
+|Code=alert('Hello world!');
+|LiveURL=http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f
+}}{{Single Example
+|Language=JavaScript
+|Description=Foo the Bar Baz, boy.
+|Code=console.log("foo");
 }}
 }}
 {{Notes_Section
-|Notes=Note: :active MUST come after :hover (if present) in the CSS definition in order to be effective!
-
-Related selectors for links include the :link selector to style links to unvisited pages, the :visited selector to style links to visited pages, and the :hover selector to style links when you mouse over them.
+|Usage=Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heinous, send a note to 
+[mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
+|Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
+|Import_Notes=This is important!
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=Performance
 }}
-{{Topics|HTML}}
+{{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 }}
