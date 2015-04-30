@@ -19,7 +19,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 = a =
 ==section==
 * sub
-** sub
 
 
 {{CSS Property
