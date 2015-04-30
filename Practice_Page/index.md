@@ -13,7 +13,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
 
-{{Languages/ja}}
+{{Languages}}
 
 {{CSS Property
 |Initial value=Test
