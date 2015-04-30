@@ -17,7 +17,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 {{Languages}}
 
 = a =
-==section==
 
 
 {{CSS Property
