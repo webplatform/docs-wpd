@@ -50,7 +50,9 @@ Output should look like this;
 
 == Deploying/updating a web app ==
 
-Each role name states are defined in an ''sls'' file in <code>/srv/salt/vm</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. 
+ANY deployment is made through Salt Stack. The deployment code is publicly available on ''GitHub'' as  [https://github.com/webplatform/salt-states '''webplatform/salt-states'''].
+
+Each role name states are defined in an ''sls'' file in <code>/srv/salt/roles</code> (yeah, its a bad name, it’ll change!) and from there, you’ll see any rsync scripts it uses to copy code the salt master hosts in ''/srv/code/foo/repo''. 
 
 '''NOTE''' the command ''wpd-deploy foo'' '''ISN’T LIMITED''' to copying files from folders in ''/srv/code/foo/bar'', its also about ensuring that some configuration are applied.  Its prudent to double check what will happen always check the matching state (e.g.  ''wpd-deploy foo'') in the matching ''sls'' file (e.g. ''/srv/salt/vm/foo.sls'')
 
