@@ -70,7 +70,7 @@ Getting the ''environment level'' name that the VM knows it has can be done like
 
 == How salt detects the roles? ==
 
-In the  [https://github.com/webplatform/states states] code, generally available in the salt master <code>/srv/salt/_grains/purpose.py</code>. The code looks like this.
+In the  **[https://github.com/webplatform/salt-states salt-states]** code repository, generally available in the salt master <code>/srv/salt/_grains/purpose.py</code>. The code looks like this.
 
 <syntaxHighlight lang=python>
 #!/usr/bin/env python
