@@ -14,7 +14,7 @@ The roles of a VM is defined by its name, more than one role can be assigned on 
 
 Roles are parsed from the name as a list of role names separated by dashes, minus any number it might find.  If you have a VM name '''redis-alpha1''', the roles will therefore be: <nowiki>["redis","alpha"]</nowiki>
 
-Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy, refer to the section  [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app|Deploying and/or updating a web app in '''Deploying code changes'']].
+Some roles are made to ensure configuration based on design decisions (e.g. detect which database VM is the ones we should send writes to). Other roles are about the web application code we deploy, refer to the section  [[WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app|Deploying and/or updating a web app in '''Deploying code changes''']].
 
 For an example of a VM with two roles that doesn’t deploy a web application could be a VM with the name "'''db5-masterdb'''" which would be used as the main ("''masterdb''") database server ("''db''").  Another example would be a VM with the name "''notes''" which installs hypothesis.
 
@@ -55,7 +55,7 @@ The following command gives the a NGINX status view each VM that has ''nginx'' a
 
 == Level ==
 
-The "''environment level''" is defined as a <code>key: value</code> string (e.g. "level: production") in <code>/etc/salt/grains</code>. That file is created when the VM is created using the salt master managed <code>/srv/opsconfig/userdata.txt</code> '''cloud-init'' boot script.  
+The "''environment level''" is defined as a <code>key: value</code> string (e.g. "level: production") in <code>/etc/salt/grains</code>. That file is created when the VM is created using the salt master managed <code>/srv/opsconfig/userdata.txt</code> '''cloud-init''' boot script.  
 
 Getting the ''environment level'' name that the VM knows it has can be done like this:
 
@@ -70,7 +70,7 @@ Getting the ''environment level'' name that the VM knows it has can be done like
 
 == How salt detects the roles? ==
 
-In the  **[https://github.com/webplatform/salt-states salt-states]** code repository, generally available in the salt master <code>/srv/salt/_grains/purpose.py</code>. The code looks like this.
+In the  [https://github.com/webplatform/salt-states salt-states] code repository, generally available in the salt master <code>/srv/salt/_grains/purpose.py</code>. The code looks like this.
 
 <syntaxHighlight lang=python>
 #!/usr/bin/env python
