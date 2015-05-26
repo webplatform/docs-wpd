@@ -1,9 +1,8 @@
-{{Page_Title}}
+{{Page_Title|title}}
 {{Flags
 |State=In Progress
 |Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=No
-|High-level issues=Stub, Needs Flags
 }}
 {{Summary_Section|This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
 
