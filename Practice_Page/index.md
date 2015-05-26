@@ -1,4 +1,4 @@
-{{Page_Title|title}}
+{{Page_Title}}
 {{Flags
 |State=In Progress
 |Editorial notes=选择器 Bonne journée monsieur :)
