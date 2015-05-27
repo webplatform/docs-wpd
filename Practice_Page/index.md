@@ -70,7 +70,6 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 [mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
 |Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
 |Import_Notes=This is important!
-日本語版は作らないのでしょうか？
 }}
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
