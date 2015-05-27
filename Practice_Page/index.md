@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=No
 }}
