@@ -46,7 +46,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}{{Single Example
 |Language=JavaScript
 |Description=Foo the Bar Baz, boy.
-|Code=console.log("foo");
+|Code=console.log("foobar");
 }}
 }}
 
