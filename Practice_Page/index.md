@@ -10,7 +10,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 }}
 {{Basic Page}}
 {{Standardization_Status|De Facto Standard}}
-{{API_Name}}
+{{This is the api}}
 
 {{Languages}}
 
