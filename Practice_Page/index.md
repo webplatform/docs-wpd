@@ -36,7 +36,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Description=You can write an example in a fiddle playground, such as http://code.webplatform.org. Copy and paste the important lines of code, and link to the source code.
 |Code=html {
   /* make sure to practice HTML regularly */
-  practice: weekly;
+  practice: daily;
 }
 }}{{Single Example
 |Language=JavaScript
