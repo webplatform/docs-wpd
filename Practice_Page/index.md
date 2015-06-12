@@ -4,7 +4,7 @@
 |Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=Yes
 }}
-{{Summary_Section|練習This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
+{{Summary_Section|ページ練習This is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki "wiki" formatting]. Go ahead and click the <b>Edit</b> button to practice editing without consequences.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
 }}
