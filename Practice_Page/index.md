@@ -4,7 +4,7 @@
 |Editorial notes=选择器 Bonne journée monsieur :)
 |Checked_Out=Yes
 }}
-{{Summary_Section|ページ練習ああThis is a page where you can practice using this website, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki おいお、わおいｗ"wiki" formatting]. えｋぽうぇo ahead and click the <b>Edit</b> button to practice editing without consequences.
+{{Summary_Section|ページ練習ああThis is aおおおおお page where you can practice using this weおおおおbsite, and [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki おいお、わおいｗ"wiki" foああああrmaｐｐｐtting]. えｋぽうぇo ahead and click the <b>Edit</b> button to practice editing without consequences.
 
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
 }}
@@ -66,10 +66,10 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Notes_rows=
 }}
 {{Notes_Section
-|Usage=Uあああse practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heinous, send a note to 
+|Usage=Uあああse practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to 
 [mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
-|Notes=Animatable is set to 'Yes', because you sometimes need to animate yourself to practice.
-|Import_Notes=This is important!
+|Notes=Animatable is seさｓｓｓｓtice.
+|Import_Notes=This is important!ｊｊｊ
 }}
 {{Topics|Developer Tools, JS Basic}}
 {{External_Attribution
