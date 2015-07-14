@@ -4,6 +4,7 @@
 |Checked_Out=No
 }}
 {{Summary_Section|이것은 [[WPD:Editors_Guide|편집자 가이드]] Step 2 입니다.}}
+{{Languages}}
 {{Basic Page}}
 ==IRC 채널에서 대화에 참여하세요.==
 WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
