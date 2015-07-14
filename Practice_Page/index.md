@@ -66,7 +66,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 |Notes_rows=
 }}
 {{Notes_Section
-|Usage=Uあああse practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to 
+|Usage=Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to 
 [mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page public-webplatform@w3.org] and someone will fix or reset the page.
 |Notes=Animatable is seさｓｓｓｓtice.
 |Import_Notes=This is important!ｊｊｊ
