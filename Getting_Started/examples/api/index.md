@@ -6,138 +6,202 @@ title: WPD:Getting Started/examples/api
 <table class="sortable wikitable smwtable jquery-tablesorter" width="100%">
 <thead><tr><th class="Path headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Path</th>
 <th class="Summary headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Summary</th>
-<th class="Modification-date headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Modification date</th></tr></thead>
-<tbody><tr class="row-odd">
+<th class="Modification-date headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Modification date</th></tr></thead><tbody>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/audio-video/video" title="apis/audio-video/video">apis/audio-video/video</a></td>
+	<td class="Summary">HTML Video element allows creator of a HTML document or view of a Web Application to embed a video for display when a user visits the view or opens HTML document in a web browser.</td>
+	<td data-sort-value="2457140.3586343" class="Modification-date">27 April 2015 20:36:26</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/ScriptProcessorNode/onaudioprocess" title="apis/webaudio/ScriptProcessorNode/onaudioprocess">apis/webaudio/ScriptProcessorNode/onaudioprocess</a></td>
+	<td class="Summary">An event listener which is called periodically for audio processing. An event of type <a href="/wiki/apis/webaudio/AudioProcessingEvent" title="apis/webaudio/AudioProcessingEvent"><b>AudioProcessingEvent</b></a> will be passed to the event handler.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.326331" class="Modification-date">31 December 2014 19:49:55</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/ScriptProcessorNode/bufferSize" title="apis/webaudio/ScriptProcessorNode/bufferSize">apis/webaudio/ScriptProcessorNode/bufferSize</a></td>
+	<td class="Summary">The size of the buffer (in sample-frames) which needs to be processed each time <a href="/wiki/apis/webaudio/ScriptProcessorNode/onaudioprocess" title="apis/webaudio/ScriptProcessorNode/onaudioprocess"><b>onaudioprocess</b></a> is called. Legal values are 256, 512, 1024, 2048, 4096, 8192, and 16384.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.3257986" class="Modification-date">31 December 2014 19:49:09</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/OscillatorNode/setWaveTable" title="apis/webaudio/OscillatorNode/setWaveTable">apis/webaudio/OscillatorNode/setWaveTable</a></td>
+	<td class="Summary">Sets an arbitrary custom periodic waveform given a <a href="/wiki/apis/webaudio/WaveTable" title="apis/webaudio/WaveTable"><b>WaveTable</b></a>.
+<b>Not in spec; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.3040856" class="Modification-date">31 December 2014 19:17:53</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/OscillatorNode/playbackState" title="apis/webaudio/OscillatorNode/playbackState">apis/webaudio/OscillatorNode/playbackState</a></td>
+	<td class="Summary">The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.
+<b>Not in spec; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.3035301" class="Modification-date">31 December 2014 19:17:05</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioProcessingEvent/playbackTime" title="apis/webaudio/AudioProcessingEvent/playbackTime">apis/webaudio/AudioProcessingEvent/playbackTime</a></td>
+	<td class="Summary">The time when the audio will be played, in the same time coordinate system as <a href="/wiki/apis/webaudio/AudioContext/currentTime" title="apis/webaudio/AudioContext/currentTime"><b>AudioContext.currentTime</b></a>. <a href="/wiki/apis/webaudio/AudioProcessingEvent/playbackTime" title="apis/webaudio/AudioProcessingEvent/playbackTime"><b>playbackTime</b></a> allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2729977" class="Modification-date">31 December 2014 18:33:07</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioProcessingEvent/outputBuffer" title="apis/webaudio/AudioProcessingEvent/outputBuffer">apis/webaudio/AudioProcessingEvent/outputBuffer</a></td>
+	<td class="Summary">An <a href="/wiki/apis/webaudio/AudioBuffer" title="apis/webaudio/AudioBuffer"><b>AudioBuffer</b></a> where the output audio data should be written. It will have a number of channels equal to the <b>numberOfOutputChannels</b> parameter of the <a href="/wiki/apis/webaudio/AudioContext/createScriptProcessor" title="apis/webaudio/AudioContext/createScriptProcessor"><b>createScriptProcessor()</b></a> method. Script code within the scope of the <a href="/wiki/apis/webaudio/ScriptProcessorNode/onaudioprocess" title="apis/webaudio/ScriptProcessorNode/onaudioprocess"><b>onaudioprocess</b></a> function is expected to modify the <b>Float32Array</b> arrays representing channel data in this <a href="/wiki/apis/webaudio/AudioBuffer" title="apis/webaudio/AudioBuffer"><b>AudioBuffer</b></a>. Any script modifications to this <a href="/wiki/apis/webaudio/AudioBuffer" title="apis/webaudio/AudioBuffer"><b>AudioBuffer</b></a> outside of this scope will not produce any audible effects.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2724884" class="Modification-date">31 December 2014 18:32:23</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioProcessingEvent/node" title="apis/webaudio/AudioProcessingEvent/node">apis/webaudio/AudioProcessingEvent/node</a></td>
+	<td class="Summary">The <a href="/wiki/apis/webaudio/ScriptProcessorNode" title="apis/webaudio/ScriptProcessorNode"><b>ScriptProcessorNode</b></a> associated with this processing event.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2719444" class="Modification-date">31 December 2014 18:31:36</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioProcessingEvent/inputBuffer" title="apis/webaudio/AudioProcessingEvent/inputBuffer">apis/webaudio/AudioProcessingEvent/inputBuffer</a></td>
+	<td class="Summary">An <a href="/wiki/apis/webaudio/AudioBuffer" title="apis/webaudio/AudioBuffer"><b>AudioBuffer</b></a> containing the input audio data. It will have a number of channels equal to the <b>numberOfInputChannels</b> parameter of the <a href="/wiki/apis/webaudio/AudioContext/createScriptProcessor" title="apis/webaudio/AudioContext/createScriptProcessor"><b>createScriptProcessor()</b></a> method. This <a href="/wiki/apis/webaudio/AudioBuffer" title="apis/webaudio/AudioBuffer"><b>AudioBuffer</b></a> is only valid while in the scope of the <a href="/wiki/apis/webaudio/ScriptProcessorNode/onaudioprocess" title="apis/webaudio/ScriptProcessorNode/onaudioprocess"><b>onaudioprocess</b></a> function. Its values will be meaningless outside of this scope.
+<b>Deprecated; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2706829" class="Modification-date">31 December 2014 18:29:47</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioParam/minValue" title="apis/webaudio/AudioParam/minValue">apis/webaudio/AudioParam/minValue</a></td>
+	<td class="Summary">Nominal minimum value. The value attribute may be set lower than this value.
+<b>Not in spec; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2624884" class="Modification-date">31 December 2014 18:17:59</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioParam/maxValue" title="apis/webaudio/AudioParam/maxValue">apis/webaudio/AudioParam/maxValue</a></td>
+	<td class="Summary">Nominal maximum value. The value attribute may be set higher than this value.
+<b>Not in spec; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2618866" class="Modification-date">31 December 2014 18:17:07</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioParam/computedValue" title="apis/webaudio/AudioParam/computedValue">apis/webaudio/AudioParam/computedValue</a></td>
+	<td class="Summary">The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.
+<b>Not in spec; deletion candidate. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457023.2548264" class="Modification-date">31 December 2014 18:06:57</td>
+</tr>
+<tr class="row-odd">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioDestinationNode/numberOfChannels" title="apis/webaudio/AudioDestinationNode/numberOfChannels">apis/webaudio/AudioDestinationNode/numberOfChannels</a></td>
+	<td class="Summary">The number of channels of the destination's input. This value will default to 2, and may be set to any non-zero value less than or equal to <a href="/wiki/apis/webaudio/AudioDestinationNode/maxChannelCount" title="apis/webaudio/AudioDestinationNode/maxChannelCount"><b>maxChannelCount</b></a>. An exception will be thrown if this value is not within the valid range.
+<b>Not in spec; deletion candidate. Possibly confused with AudioBuffer/numberOfChannels. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457021.3915625" class="Modification-date">29 December 2014 21:23:51</td>
+</tr>
+<tr class="row-even">
+	<td class="Path"><a href="/wiki/apis/webaudio/AudioContext/createWaveTable" title="apis/webaudio/AudioContext/createWaveTable">apis/webaudio/AudioContext/createWaveTable</a></td>
+	<td class="Summary">Creates a <a href="/wiki/apis/webaudio/WaveTable" title="apis/webaudio/WaveTable"><b>WaveTable</b></a> representing a waveform containing arbitrary harmonic content. The real and imag parameters must be of type <b>Float32Array</b> of equal lengths greater than zero and less than or equal to 4096 or an exception will be thrown. These parameters specify the Fourier coefficients of a Fourier series representing the partials of a periodic waveform. The created <a href="/wiki/apis/webaudio/WaveTable" title="apis/webaudio/WaveTable"><b>WaveTable</b></a> will be used with an <a href="/wiki/apis/webaudio/OscillatorNode" title="apis/webaudio/OscillatorNode"><b>OscillatorNode</b></a> and will represent a normalized time-domain waveform having maximum absolute peak value of 1. Another way of saying this is that the generated waveform of an <a href="/wiki/apis/webaudio/OscillatorNode" title="apis/webaudio/OscillatorNode"><b>OscillatorNode</b></a> will have maximum peak value at 0dBFS. Conveniently, this corresponds to the full-range of the signal values used by the Web Audio API. Because the <a href="/wiki/apis/webaudio/WaveTable" title="apis/webaudio/WaveTable"><b>WaveTable</b></a> will be normalized on creation, the real and imag parameters represent relative values.
+<b>Out of date; removed from spec. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
+	<td data-sort-value="2457016.2891782" class="Modification-date">24 December 2014 18:56:25</td>
+</tr>
+<tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webaudio/AudioContext/activeSourceCount" title="apis/webaudio/AudioContext/activeSourceCount">apis/webaudio/AudioContext/activeSourceCount</a></td>
-	<td class="Summary">The number of [[apis/webaudio/AudioBufferSourceNode|'''AudioBufferSourceNode''']]s that are currently playing.
-
-'''Out of date; removed from spec. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''</td>
+	<td class="Summary">The number of <a href="/wiki/apis/webaudio/AudioBufferSourceNode" title="apis/webaudio/AudioBufferSourceNode"><b>AudioBufferSourceNode</b>s</a> that are currently playing.
+<b>Out of date; removed from spec. See <a rel="nofollow" class="external free" href="http://webaudio.github.io/web-audio-api/">http://webaudio.github.io/web-audio-api/</a>.</b></td>
 	<td data-sort-value="2457016.2525116" class="Modification-date">24 December 2014 18:03:37</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/VoidCallback/handleEvent" title="apis/filesystem/VoidCallback/handleEvent">apis/filesystem/VoidCallback/handleEvent</a></td>
 	<td class="Summary">Indicates success of an asynchronous method.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.245081" class="Modification-date">9 December 2014 17:52:55</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/MetadataCallback/handleEvent" title="apis/filesystem/MetadataCallback/handleEvent">apis/filesystem/MetadataCallback/handleEvent</a></td>
 	<td class="Summary">Used to supply file or directory metadata as a response to a user query.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2443634" class="Modification-date">9 December 2014 17:51:53</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/LocalFileSystemSync/requestFileSystemSync" title="apis/filesystem/LocalFileSystemSync/requestFileSystemSync">apis/filesystem/LocalFileSystemSync/requestFileSystemSync</a></td>
 	<td class="Summary">Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystemSync object from within a web worker using this global method, window.requestFileSystemSync().
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2434722" class="Modification-date">9 December 2014 17:50:36</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/LocalFileSystemSync/resolveLocalFileSystemSyncURL" title="apis/filesystem/LocalFileSystemSync/resolveLocalFileSystemSyncURL">apis/filesystem/LocalFileSystemSync/resolveLocalFileSystemSyncURL</a></td>
 	<td class="Summary">Allows the user to look up the Entry for a file or directory referred to by a local URL.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.243125" class="Modification-date">9 December 2014 17:50:06</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/LocalFileSystem/requestFileSystem" title="apis/filesystem/LocalFileSystem/requestFileSystem">apis/filesystem/LocalFileSystem/requestFileSystem</a></td>
 	<td class="Summary">Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystem object using this global method, window.requestFileSystem().
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2424074" class="Modification-date">9 December 2014 17:49:04</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/LocalFileSystem/resolveLocalFileSystemURL" title="apis/filesystem/LocalFileSystem/resolveLocalFileSystemURL">apis/filesystem/LocalFileSystem/resolveLocalFileSystemURL</a></td>
 	<td class="Summary">Allows the user to look up the Entry for a file or directory referred to by a local URL.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2419676" class="Modification-date">9 December 2014 17:48:26</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileWriterCallback/handleEvent" title="apis/filesystem/FileWriterCallback/handleEvent">apis/filesystem/FileWriterCallback/handleEvent</a></td>
 	<td class="Summary">Used to supply a FileWriter as a response to a user query.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2411574" class="Modification-date">9 December 2014 17:47:16</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileSystemSync/name" title="apis/filesystem/FileSystemSync/name">apis/filesystem/FileSystemSync/name</a></td>
 	<td class="Summary">The name of the file system. The specifics of naming filesystems is unspecified, but a name must be unique across the list of exposed file systems.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2402894" class="Modification-date">9 December 2014 17:46:01</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileSystemSync/root" title="apis/filesystem/FileSystemSync/root">apis/filesystem/FileSystemSync/root</a></td>
 	<td class="Summary">The root directory of the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2398264" class="Modification-date">9 December 2014 17:45:21</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileSystemCallback/handleEvent" title="apis/filesystem/FileSystemCallback/handleEvent">apis/filesystem/FileSystemCallback/handleEvent</a></td>
 	<td class="Summary">The file system was successfully obtained.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2384722" class="Modification-date">9 December 2014 17:43:24</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileSystem/name" title="apis/filesystem/FileSystem/name">apis/filesystem/FileSystem/name</a></td>
 	<td class="Summary">The name of the file system. The specifics of naming filesystems is unspecified, but a name must be unique across the list of exposed file systems.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2376389" class="Modification-date">9 December 2014 17:42:12</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileSystem/root" title="apis/filesystem/FileSystem/root">apis/filesystem/FileSystem/root</a></td>
 	<td class="Summary">The root directory of the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2373495" class="Modification-date">9 December 2014 17:41:47</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileEntrySync/createWriter" title="apis/filesystem/FileEntrySync/createWriter">apis/filesystem/FileEntrySync/createWriter</a></td>
 	<td class="Summary">Creates a new FileWriterSync associated with the file that this FileEntrySync represents.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2364005" class="Modification-date">9 December 2014 17:40:25</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileEntrySync/file" title="apis/filesystem/FileEntrySync/file">apis/filesystem/FileEntrySync/file</a></td>
 	<td class="Summary">Returns a File that represents the current state of the file that this FileEntrySync represents.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2360417" class="Modification-date">9 December 2014 17:39:54</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileEntry/createWriter" title="apis/filesystem/FileEntry/createWriter">apis/filesystem/FileEntry/createWriter</a></td>
 	<td class="Summary">Creates a new FileWriter associated with the file that this FileEntry represents.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2351042" class="Modification-date">9 December 2014 17:38:33</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileEntry/file" title="apis/filesystem/FileEntry/file">apis/filesystem/FileEntry/file</a></td>
 	<td class="Summary">Returns a File that represents the current state of the file that this FileEntry represents.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2348727" class="Modification-date">9 December 2014 17:38:13</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/FileCallback/handleEvent" title="apis/filesystem/FileCallback/handleEvent">apis/filesystem/FileCallback/handleEvent</a></td>
 	<td class="Summary">Used to supply a File as a response to a user query.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2337037" class="Modification-date">9 December 2014 17:36:32</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/ErrorCallback/handleEvent" title="apis/filesystem/ErrorCallback/handleEvent">apis/filesystem/ErrorCallback/handleEvent</a></td>
 	<td class="Summary">There was an error with the request. Details are provided by the err parameter.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2457001.2327083" class="Modification-date">9 December 2014 17:35:06</td>
 </tr>
 <tr class="row-even">
@@ -163,260 +227,223 @@ title: WPD:Getting Started/examples/api
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/filesystem" title="apis/filesystem/EntrySync/filesystem">apis/filesystem/EntrySync/filesystem</a></td>
 	<td class="Summary">The file system on which the EntrySync resides.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2559259" class="Modification-date">5 December 2014 18:08:32</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/fullPath" title="apis/filesystem/EntrySync/fullPath">apis/filesystem/EntrySync/fullPath</a></td>
 	<td class="Summary">The full absolute path from the root to the EntrySync.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2556829" class="Modification-date">5 December 2014 18:08:11</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/isDirectory" title="apis/filesystem/EntrySync/isDirectory">apis/filesystem/EntrySync/isDirectory</a></td>
 	<td class="Summary">True if the EntrySync is a directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2554282" class="Modification-date">5 December 2014 18:07:49</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/isFile" title="apis/filesystem/EntrySync/isFile">apis/filesystem/EntrySync/isFile</a></td>
 	<td class="Summary">True if the EntrySync is a file.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2552083" class="Modification-date">5 December 2014 18:07:30</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/name" title="apis/filesystem/EntrySync/name">apis/filesystem/EntrySync/name</a></td>
 	<td class="Summary">The name of the EntrySync, excluding the path leading to it.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2549537" class="Modification-date">5 December 2014 18:07:08</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/copyTo" title="apis/filesystem/EntrySync/copyTo">apis/filesystem/EntrySync/copyTo</a></td>
 	<td class="Summary">Copy an EntrySync to a different location on the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2546875" class="Modification-date">5 December 2014 18:06:45</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/getMetadata" title="apis/filesystem/EntrySync/getMetadata">apis/filesystem/EntrySync/getMetadata</a></td>
 	<td class="Summary">Look up metadata about this EntrySync.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.254375" class="Modification-date">5 December 2014 18:06:18</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/getParent" title="apis/filesystem/EntrySync/getParent">apis/filesystem/EntrySync/getParent</a></td>
 	<td class="Summary">Look up the parent DirectoryEntrySync containing this EntrySync. If this EntrySync is the root of its filesystem, its parent is itself.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2541204" class="Modification-date">5 December 2014 18:05:56</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/moveTo" title="apis/filesystem/EntrySync/moveTo">apis/filesystem/EntrySync/moveTo</a></td>
 	<td class="Summary">Move an EntrySync to a different location on the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2538079" class="Modification-date">5 December 2014 18:05:29</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/remove" title="apis/filesystem/EntrySync/remove">apis/filesystem/EntrySync/remove</a></td>
 	<td class="Summary">Deletes a file or directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2535301" class="Modification-date">5 December 2014 18:05:05</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntrySync/toURL" title="apis/filesystem/EntrySync/toURL">apis/filesystem/EntrySync/toURL</a></td>
 	<td class="Summary">Returns a URL that can be used to identify this EntrySync.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2532755" class="Modification-date">5 December 2014 18:04:43</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntryCallback/handleEvent" title="apis/filesystem/EntryCallback/handleEvent">apis/filesystem/EntryCallback/handleEvent</a></td>
 	<td class="Summary">Used to supply an Entry as a response to a user query.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2507292" class="Modification-date">5 December 2014 18:01:03</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/filesystem" title="apis/filesystem/Entry/filesystem">apis/filesystem/Entry/filesystem</a></td>
 	<td class="Summary">The file system on which the Entry resides.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2495718" class="Modification-date">5 December 2014 17:59:23</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/fullPath" title="apis/filesystem/Entry/fullPath">apis/filesystem/Entry/fullPath</a></td>
 	<td class="Summary">The full absolute path from the root to the Entry.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2493171" class="Modification-date">5 December 2014 17:59:01</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/isDirectory" title="apis/filesystem/Entry/isDirectory">apis/filesystem/Entry/isDirectory</a></td>
 	<td class="Summary">True if the Entry is a directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2490046" class="Modification-date">5 December 2014 17:58:34</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/isFile" title="apis/filesystem/Entry/isFile">apis/filesystem/Entry/isFile</a></td>
 	<td class="Summary">True if the Entry is a file.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2480787" class="Modification-date">5 December 2014 17:57:14</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/name" title="apis/filesystem/Entry/name">apis/filesystem/Entry/name</a></td>
 	<td class="Summary">The name of the Entry, excluding the path leading to it.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2477546" class="Modification-date">5 December 2014 17:56:46</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/copyTo" title="apis/filesystem/Entry/copyTo">apis/filesystem/Entry/copyTo</a></td>
 	<td class="Summary">Copy an Entry to a different location on the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2470255" class="Modification-date">5 December 2014 17:55:43</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/getMetadata" title="apis/filesystem/Entry/getMetadata">apis/filesystem/Entry/getMetadata</a></td>
 	<td class="Summary">Look up metadata about this Entry.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2467245" class="Modification-date">5 December 2014 17:55:17</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/getParent" title="apis/filesystem/Entry/getParent">apis/filesystem/Entry/getParent</a></td>
 	<td class="Summary">Look up the parent DirectoryEntry containing this Entry. If this Entry is the root of its filesystem, its parent is itself.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.246412" class="Modification-date">5 December 2014 17:54:50</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/moveTo" title="apis/filesystem/Entry/moveTo">apis/filesystem/Entry/moveTo</a></td>
 	<td class="Summary">Move an Entry to a different location on the file system.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2461227" class="Modification-date">5 December 2014 17:54:25</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/remove" title="apis/filesystem/Entry/remove">apis/filesystem/Entry/remove</a></td>
 	<td class="Summary">Deletes a file or directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2455903" class="Modification-date">5 December 2014 17:53:39</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/Entry/toURL" title="apis/filesystem/Entry/toURL">apis/filesystem/Entry/toURL</a></td>
 	<td class="Summary">Returns a URL that can be used to identify this Entry.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2451736" class="Modification-date">5 December 2014 17:53:03</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntry/createReader" title="apis/filesystem/DirectoryEntry/createReader">apis/filesystem/DirectoryEntry/createReader</a></td>
 	<td class="Summary">Creates a new DirectoryReader to read Entries from this Directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2219444" class="Modification-date">5 December 2014 17:19:36</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntry/getDirectory" title="apis/filesystem/DirectoryEntry/getDirectory">apis/filesystem/DirectoryEntry/getDirectory</a></td>
 	<td class="Summary">Creates or looks up a directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2217477" class="Modification-date">5 December 2014 17:19:19</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntry/getFile" title="apis/filesystem/DirectoryEntry/getFile">apis/filesystem/DirectoryEntry/getFile</a></td>
 	<td class="Summary">Creates or looks up a file.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2215046" class="Modification-date">5 December 2014 17:18:58</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntry/removeRecursively" title="apis/filesystem/DirectoryEntry/removeRecursively">apis/filesystem/DirectoryEntry/removeRecursively</a></td>
 	<td class="Summary">Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.221169" class="Modification-date">5 December 2014 17:18:29</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntrySync/createReader" title="apis/filesystem/DirectoryEntrySync/createReader">apis/filesystem/DirectoryEntrySync/createReader</a></td>
 	<td class="Summary">Creates a new DirectoryReaderSync to read EntrySyncs from this DirectorySync.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2202315" class="Modification-date">5 December 2014 17:17:08</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntrySync/getDirectory" title="apis/filesystem/DirectoryEntrySync/getDirectory">apis/filesystem/DirectoryEntrySync/getDirectory</a></td>
 	<td class="Summary">Creates or looks up a directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2199653" class="Modification-date">5 December 2014 17:16:45</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntrySync/getFile" title="apis/filesystem/DirectoryEntrySync/getFile">apis/filesystem/DirectoryEntrySync/getFile</a></td>
 	<td class="Summary">Creates or looks up a file.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2195255" class="Modification-date">5 December 2014 17:16:07</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryEntrySync/removeRecursively" title="apis/filesystem/DirectoryEntrySync/removeRecursively">apis/filesystem/DirectoryEntrySync/removeRecursively</a></td>
 	<td class="Summary">Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.219213" class="Modification-date">5 December 2014 17:15:40</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryReader/readEntries" title="apis/filesystem/DirectoryReader/readEntries">apis/filesystem/DirectoryReader/readEntries</a></td>
 	<td class="Summary">Read the next block of entries from this directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2185995" class="Modification-date">5 December 2014 17:14:47</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/filesystem/DirectoryReaderSync/readEntries" title="apis/filesystem/DirectoryReaderSync/readEntries">apis/filesystem/DirectoryReaderSync/readEntries</a></td>
 	<td class="Summary">Read the next block of entries from this directory.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2179282" class="Modification-date">5 December 2014 17:13:49</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/filesystem/EntriesCallback/handleEvent" title="apis/filesystem/EntriesCallback/handleEvent">apis/filesystem/EntriesCallback/handleEvent</a></td>
 	<td class="Summary">Used to supply an array of Entries as a response to a user query.
-
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''</td>
+<b>Out of date; feature discontinued. See <a rel="nofollow" class="external text" href="http://www.w3.org/TR/file-system-api/">http://www.w3.org/TR/file-system-api</a>.</b></td>
 	<td data-sort-value="2456997.2169097" class="Modification-date">5 December 2014 17:12:21</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/canvas/CanvasRenderingContext2D/ellipse" title="apis/canvas/CanvasRenderingContext2D/ellipse">apis/canvas/CanvasRenderingContext2D/ellipse</a></td>
 	<td class="Summary">Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.
-
-'''Experimental, subject to change or removal; deletion candidate.'''</td>
+<b>Experimental, subject to change or removal; deletion candidate.</b></td>
 	<td data-sort-value="2456988.3603935" class="Modification-date">26 November 2014 20:38:58</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing" title="apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing">apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing</a></td>
 	<td class="Summary">Draws a focus ring of the appropriate style along the intended path, following platform conventions.
-
-'''Removed from spec; deletion candidate.'''</td>
+<b>Removed from spec; deletion candidate.</b></td>
 	<td data-sort-value="2456988.3573727" class="Modification-date">26 November 2014 20:34:37</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing" title="apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing">apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing</a></td>
-	<td class="Summary">Draw a focus ring of the appropriate style along the intended path, and sets result to ''false''.
-
-'''Removed from spec; deletion candidate.'''</td>
+	<td class="Summary">Draw a focus ring of the appropriate style along the intended path, and sets result to <i>false</i>.
+<b>Removed from spec; deletion candidate.</b></td>
 	<td data-sort-value="2456988.3413194" class="Modification-date">26 November 2014 20:11:30</td>
 </tr>
 <tr class="row-odd">
@@ -462,7 +489,6 @@ title: WPD:Getting Started/examples/api
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/easing" title="apis/web animations/AnimationTimingProperties/easing">apis/web animations/AnimationTimingProperties/easing</a></td>
 	<td class="Summary">See the easing member of the AnimationTimingReadOnly interface.
-
 Unrecognized string values or values that correspond to a timing function that is not supported for the type of animation node to which this property is applied are treated as if the linear keyword was specified for the purpose of timing model calculations.</td>
 	<td data-sort-value="2456944.4773727" class="Modification-date">13 October 2014 23:27:25</td>
 </tr>
@@ -479,24 +505,21 @@ Unrecognized string values or values that correspond to a timing function that i
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/duration" title="apis/web animations/AnimationTimingProperties/duration">apis/web animations/AnimationTimingProperties/duration</a></td>
 	<td class="Summary">See the duration member of the AnimationTimingReadOnly interface.
-
 Real numbers less than zero, NaN values, and strings other than the lowercase value auto are treated the same as auto for the purpose of timing model calculations.</td>
 	<td data-sort-value="2456944.4762963" class="Modification-date">13 October 2014 23:25:52</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/interations" title="apis/web animations/AnimationTimingProperties/interations">apis/web animations/AnimationTimingProperties/interations</a></td>
 	<td class="Summary">See the iterations member of the AnimationTimingReadOnly interface.
-
 Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model calculations.</td>
 	<td data-sort-value="2456944.4758796" class="Modification-date">13 October 2014 23:25:16</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/iterationStart" title="apis/web animations/AnimationTimingProperties/iterationStart">apis/web animations/AnimationTimingProperties/iterationStart</a></td>
 	<td class="Summary">See the iterationStart member of the AnimationTimingReadOnly interface.
-
-Values less than zero are clamped to zero for the purpose of timing model calculations.
-
-Note that the value of iterations is effectively added to the iterationStart such that an animation node with an iterationStart of ‘0.5’ and iterations of ‘2’ would still repeat twice however it would begin and end half-way through the animation node’s iteration interval.
+<p>Values less than zero are clamped to zero for the purpose of timing model calculations.
+</p><p>Note that the value of iterations is effectively added to the iterationStart such that an animation node with an iterationStart of ‘0.5’ and iterations of ‘2’ would still repeat twice however it would begin and end half-way through the animation node’s iteration interval.
+</p>
 Setting the iterationStart to a value greater than or equal to one is typically only useful in combination with an animation effect that has an iteration composite operation of ‘accumulate’.</td>
 	<td data-sort-value="2456944.4754051" class="Modification-date">13 October 2014 23:24:35</td>
 </tr>
@@ -508,14 +531,12 @@ Setting the iterationStart to a value greater than or equal to one is typically 
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/endDelay" title="apis/web animations/AnimationTimingProperties/endDelay">apis/web animations/AnimationTimingProperties/endDelay</a></td>
 	<td class="Summary">The specified end delay.
-
 See the description of the endDelay attribute on the AnimationTiming interface.</td>
 	<td data-sort-value="2456944.4745602" class="Modification-date">13 October 2014 23:23:22</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingProperties/delay" title="apis/web animations/AnimationTimingProperties/delay">apis/web animations/AnimationTimingProperties/delay</a></td>
 	<td class="Summary">The specified start delay.
-
 See the description of the delay attribute on the AnimationTiming interface.</td>
 	<td data-sort-value="2456944.4740856" class="Modification-date">13 October 2014 23:22:41</td>
 </tr>
@@ -537,21 +558,21 @@ See the description of the delay attribute on the AnimationTiming interface.</td
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationNode/replace" title="apis/web animations/AnimationNode/replace">apis/web animations/AnimationNode/replace</a></td>
 	<td class="Summary">Replaces this AnimationNode with the passed in nodes.
-
-If there is no parent animation group, terminate these steps.
+<p>If there is no parent animation group, terminate these steps.
 If any of the animation nodes in nodes is an inclusive ancestor of the parent animation group throw a HierarchyRequestError exception and terminate these steps.
 Let reference child be the next sibling of this animation node not in nodes.
 Remove this animation node from its parent animation group.
+</p>
 Insert nodes before reference child.</td>
 	<td data-sort-value="2456940.6369676" class="Modification-date">10 October 2014 03:17:14</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationNode/after" title="apis/web animations/AnimationNode/after">apis/web animations/AnimationNode/after</a></td>
 	<td class="Summary">Inserts nodes after this animation node.
-
-If there is no parent animation group, terminate these steps.
+<p>If there is no parent animation group, terminate these steps.
 If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 Let reference child be the next sibling of this animation node not in nodes.
+</p>
 Insert nodes before reference child.</td>
 	<td data-sort-value="2456940.6271875" class="Modification-date">10 October 2014 03:03:09</td>
 </tr>
@@ -563,33 +584,32 @@ Insert nodes before reference child.</td>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationNode/before" title="apis/web animations/AnimationNode/before">apis/web animations/AnimationNode/before</a></td>
 	<td class="Summary">Inserts nodes before this animation node.
-
-If there is no parent animation group, terminate these steps.
+<p>If there is no parent animation group, terminate these steps.
 If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 Insert nodes before this animation node.
 Note that this definition precludes the following usage since node is an inclusive ancestor of itself:
+</p>
         node.before(node); // throws HierarchyRequestError</td>
 	<td data-sort-value="2456940.6241088" class="Modification-date">10 October 2014 02:58:43</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationNode/computedTiming" title="apis/web animations/AnimationNode/computedTiming">apis/web animations/AnimationNode/computedTiming</a></td>
 	<td class="Summary">Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
-
-Although several of the attributes of the this object are common to the AnimationTiming object returned by the timing attribute, they have the following differences:
-
-duration – returns the calculated value of the iteration duration. If timing.duration is the string auto or any unsupported value, this attribute will return the current calculated value of the intrinsic iteration duration.
+<p>Although several of the attributes of the this object are common to the AnimationTiming object returned by the timing attribute, they have the following differences:
+</p><p>duration – returns the calculated value of the iteration duration. If timing.duration is the string auto or any unsupported value, this attribute will return the current calculated value of the intrinsic iteration duration.
 fill – the auto value is replaced with the specific FillMode depending on the type of animation node (see §5.8.1 The FillMode enumeration).
+</p>
 easing – unrecognised or unsupported values are replaced with the string linear.</td>
 	<td data-sort-value="2456940.616956" class="Modification-date">10 October 2014 02:48:25</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationGroup/clone" title="apis/web animations/AnimationGroup/clone">apis/web animations/AnimationGroup/clone</a></td>
 	<td class="Summary">Creates a deep copy of this AnimationGroup object using the following procedure.
-
-Let source be this AnimationGroup object, the object to be cloned.
+<p>Let source be this AnimationGroup object, the object to be cloned.
 Let cloned timing be a new AnimationTimingProperties object whose members are assigned the value of the attribute with the same name on source.timing.
 Let cloned children be an empty sequence of AnimationNode objects.
 For each child in source.children, append the result of calling child.clone() to cloned children.
+</p>
 Return a new AnimationGroup object created by calling the AnimationGroup constructor with parameters AnimationGroup(cloned children, cloned timing).</td>
 	<td data-sort-value="2456940.6149421" class="Modification-date">10 October 2014 02:45:31</td>
 </tr>
@@ -658,26 +678,23 @@ Insert nodes before null.</td>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingReadOnly/iterations" title="apis/web animations/AnimationTimingReadOnly/iterations">apis/web animations/AnimationTimingReadOnly/iterations</a></td>
 	<td class="Summary">The animation node’s iteration count property.
-
 A real number greater than or equal to zero (including positive infinity) representing the number of times to repeat the animation node.</td>
 	<td data-sort-value="2456940.3649421" class="Modification-date">9 October 2014 20:45:31</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingReadOnly/iterationStart" title="apis/web animations/AnimationTimingReadOnly/iterationStart">apis/web animations/AnimationTimingReadOnly/iterationStart</a></td>
 	<td class="Summary">The animation node’s iteration start property.
-
 A finite real number greater than or equal to zero representing the number of iterations into the animation node at which to begin.</td>
 	<td data-sort-value="2456940.3606366" class="Modification-date">9 October 2014 20:39:19</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimingReadOnly/fill" title="apis/web animations/AnimationTimingReadOnly/fill">apis/web animations/AnimationTimingReadOnly/fill</a></td>
 	<td class="Summary">The fill mode as specified by one of the FillMode enumeration values.
-
-When performing timing calculations the special value auto is expanded to one of the fill modes recognized by the timing model as follows,
-
-If the animation node to which the fill mode is being is applied is an animation,
+<p>When performing timing calculations the special value auto is expanded to one of the fill modes recognized by the timing model as follows,
+</p><p>If the animation node to which the fill mode is being is applied is an animation,
 Use none as the fill mode.
 Otherwise,
+</p>
 Use both as the fill mode.</td>
 	<td data-sort-value="2456940.3591551" class="Modification-date">9 October 2014 20:37:11</td>
 </tr>
@@ -768,7 +785,7 @@ Use both as the fill mode.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimeline/play" title="apis/web animations/AnimationTimeline/play">apis/web animations/AnimationTimeline/play</a></td>
-	<td class="Summary">Creates a new [[apis/web_animations/AnimationPlayer|'''AnimationPlayer''']] object associated with this timeline that begins playback as soon as it is ready.</td>
+	<td class="Summary">Creates a new <a href="/wiki/apis/web_animations/AnimationPlayer" title="apis/web animations/AnimationPlayer"><b>AnimationPlayer</b></a> object associated with this timeline that begins playback as soon as it is ready.</td>
 	<td data-sort-value="2456939.4084375" class="Modification-date">8 October 2014 21:48:09</td>
 </tr>
 <tr class="row-even">
@@ -778,7 +795,7 @@ Use both as the fill mode.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationTimeline/getAnimationPlayers" title="apis/web animations/AnimationTimeline/getAnimationPlayers">apis/web animations/AnimationTimeline/getAnimationPlayers</a></td>
-	<td class="Summary">Returns the set of [[apis/web_animations/AnimationPlayer|'''Animation Player''']] objects associated with this timeline that have associated source content which is current or in effect.</td>
+	<td class="Summary">Returns the set of <a href="/wiki/apis/web_animations/AnimationPlayer" title="apis/web animations/AnimationPlayer"><b>Animation Player</b></a> objects associated with this timeline that have associated source content which is current or in effect.</td>
 	<td data-sort-value="2456938.900706" class="Modification-date">8 October 2014 09:37:01</td>
 </tr>
 <tr class="row-even">
@@ -799,8 +816,7 @@ Use both as the fill mode.</td>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/web_animations/AnimationPlayerEvent" title="apis/web animations/AnimationPlayerEvent">apis/web animations/AnimationPlayerEvent</a></td>
 	<td class="Summary">Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].
-
-http://www.w3.org/TR/dom/#constructing-events</td>
+<a rel="nofollow" class="external free" href="http://www.w3.org/TR/dom/#constructing-events">http://www.w3.org/TR/dom/#constructing-events</a></td>
 	<td data-sort-value="2456938.842963" class="Modification-date">8 October 2014 08:13:52</td>
 </tr>
 <tr class="row-even">
@@ -961,15 +977,13 @@ http://www.w3.org/TR/dom/#constructing-events</td>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/file/FileError" title="apis/file/FileError">apis/file/FileError</a></td>
 	<td class="Summary">Represents an error that occurs while using the FileReader interface.
-
-Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
+Obsolete per latest specification. Use <a href="/wiki/dom/DOMError" title="dom/DOMError">DOMError</a> instead.</td>
 	<td data-sort-value="2456923.2613426" class="Modification-date">22 September 2014 18:16:20</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/file/MSStreamError" title="apis/file/MSStreamError">apis/file/MSStreamError</a></td>
 	<td class="Summary">The MSStreamError object reports file-related errors asynchronously.
-
-Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
+Obsolete per latest specification. Use <a href="/wiki/dom/DOMError" title="dom/DOMError">DOMError</a> instead.</td>
 	<td data-sort-value="2456923.2552546" class="Modification-date">22 September 2014 18:07:34</td>
 </tr>
 <tr class="row-odd">
@@ -979,12 +993,12 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/file/MSStreamReader/onabort" title="apis/file/MSStreamReader/onabort">apis/file/MSStreamReader/onabort</a></td>
-	<td class="Summary">Indicates that the read has been aborted (for example, by calling '''abort()''').</td>
+	<td class="Summary">Indicates that the read has been aborted (for example, by calling <b>abort()</b>).</td>
 	<td data-sort-value="2456923.2545255" class="Modification-date">22 September 2014 18:06:31</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/file/MSStreamReader/readAsBlob" title="apis/file/MSStreamReader/readAsBlob">apis/file/MSStreamReader/readAsBlob</a></td>
-	<td class="Summary">Performs an asynchronous read of an [[apis/file/MSStream|MSStream]] object in order to create a [[apis/file/Blob|Blob]] object.</td>
+	<td class="Summary">Performs an asynchronous read of an <a href="/w/index.php?title=apis/file/MSStream&amp;action=edit&amp;redlink=1" class="new" title="apis/file/MSStream (page does not exist)">MSStream</a> object in order to create a <a href="/wiki/apis/file/Blob" title="apis/file/Blob">Blob</a> object.</td>
 	<td data-sort-value="2456923.2536458" class="Modification-date">22 September 2014 18:05:15</td>
 </tr>
 <tr class="row-even">
@@ -1174,7 +1188,7 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/indexeddb/IDBDatabase/setVersion" title="apis/indexeddb/IDBDatabase/setVersion">apis/indexeddb/IDBDatabase/setVersion</a></td>
-	<td class="Summary">Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/</td>
+	<td class="Summary">Deletion candidate. Not in spec: <a rel="nofollow" class="external free" href="http://www.w3.org/TR/IndexedDB/">http://www.w3.org/TR/IndexedDB/</a></td>
 	<td data-sort-value="2456918.3820602" class="Modification-date">17 September 2014 21:10:10</td>
 </tr>
 <tr class="row-even">
@@ -1389,7 +1403,7 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/indexeddb/indexedDB/open" title="apis/indexeddb/indexedDB/open">apis/indexeddb/indexedDB/open</a></td>
-	<td class="Summary">Opens a database. See [[apis/indexeddb/IDBFactory/open]]</td>
+	<td class="Summary">Opens a database. See <a href="/wiki/apis/indexeddb/IDBFactory/open" title="apis/indexeddb/IDBFactory/open">apis/indexeddb/IDBFactory/open</a></td>
 	<td data-sort-value="2456918.2081713" class="Modification-date">17 September 2014 16:59:46</td>
 </tr>
 <tr class="row-odd">
@@ -1584,65 +1598,64 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/localDescription" title="apis/webrtc/RTCPeerConnection/localDescription">apis/webrtc/RTCPeerConnection/localDescription</a></td>
-	<td class="Summary">Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] method along with any local candidate descriptions generated since the method was called.</td>
+	<td class="Summary">Returns the <a href="/wiki/apis/webrtc/RTCSessionDescription" title="apis/webrtc/RTCSessionDescription">RTCSessionDescription</a> most recently passed to the <a href="/wiki/apis/webrtc/RTCPeerConnection/setLocalDescription" title="apis/webrtc/RTCPeerConnection/setLocalDescription">setLocalDescription()</a> method along with any local candidate descriptions generated since the method was called.</td>
 	<td data-sort-value="2456916.3339699" class="Modification-date">15 September 2014 20:00:55</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/localStreams" title="apis/webrtc/RTCPeerConnection/localStreams">apis/webrtc/RTCPeerConnection/localStreams</a></td>
-	<td class="Summary">Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection with [[apis/webrtc/RTCPeerConnection/addStream|addStream()]].</td>
+	<td class="Summary">Returns an array of <a href="/wiki/apis/webrtc/MediaStream" title="apis/webrtc/MediaStream">MediaStream</a> objects added to the connection with <a href="/wiki/apis/webrtc/RTCPeerConnection/addStream" title="apis/webrtc/RTCPeerConnection/addStream">addStream()</a>.</td>
 	<td data-sort-value="2456916.3336574" class="Modification-date">15 September 2014 20:00:28</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/negotiationneeded" title="apis/webrtc/RTCPeerConnection/negotiationneeded">apis/webrtc/RTCPeerConnection/negotiationneeded</a></td>
 	<td class="Summary">The browser anticipates a session negotiation is required.
-It is triggered whenever [[apis/webrtc/RTCPeerConnection/addStream|addStream]], [[apis/webrtc/RTCPeerConnection/removeStream|removeStream]] or [[apis/webrtc/RTCPeerConnection/setIdentityProvider|setIdentityProvider]] methods were called successfully and [[apis/webrtc/RTCPeerConnection|RTCPeerConnection]] signalingState is &lt;code&gt;stable&lt;/code&gt; .</td>
+It is triggered whenever <a href="/wiki/apis/webrtc/RTCPeerConnection/addStream" title="apis/webrtc/RTCPeerConnection/addStream">addStream</a>, <a href="/wiki/apis/webrtc/RTCPeerConnection/removeStream" title="apis/webrtc/RTCPeerConnection/removeStream">removeStream</a> or <a href="/wiki/apis/webrtc/RTCPeerConnection/setIdentityProvider" title="apis/webrtc/RTCPeerConnection/setIdentityProvider">setIdentityProvider</a> methods were called successfully and <a href="/wiki/apis/webrtc/RTCPeerConnection" title="apis/webrtc/RTCPeerConnection">RTCPeerConnection</a> signalingState is <code>stable</code> .</td>
 	<td data-sort-value="2456916.333206" class="Modification-date">15 September 2014 19:59:49</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onaddstream" title="apis/webrtc/RTCPeerConnection/onaddstream">apis/webrtc/RTCPeerConnection/onaddstream</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/addstream|addstream]] event fired when [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]] is called.</td>
+	<td class="Summary">Handles the <a href="/w/index.php?title=apis/webrtc/RTCPeerConnection/addstream&amp;action=edit&amp;redlink=1" class="new" title="apis/webrtc/RTCPeerConnection/addstream (page does not exist)">addstream</a> event fired when <a href="/wiki/apis/webrtc/RTCPeerConnection/setRemoteDescription" title="apis/webrtc/RTCPeerConnection/setRemoteDescription">setRemoteDescription()</a> is called.</td>
 	<td data-sort-value="2456916.3215972" class="Modification-date">15 September 2014 19:43:06</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/ondatachannel" title="apis/webrtc/RTCPeerConnection/ondatachannel">apis/webrtc/RTCPeerConnection/ondatachannel</a></td>
-	<td class="Summary">Handles the '''datachannel''' event.</td>
+	<td class="Summary">Handles the <b>datachannel</b> event.</td>
 	<td data-sort-value="2456916.32125" class="Modification-date">15 September 2014 19:42:36</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/ongatheringchange" title="apis/webrtc/RTCPeerConnection/ongatheringchange">apis/webrtc/RTCPeerConnection/ongatheringchange</a></td>
-	<td class="Summary">Handles the '''gatheringchange''' event for a change to the [[apis/webrtc/RTCPeerConnection/iceGatheringState|iceGatheringState]] property.</td>
+	<td class="Summary">Handles the <b>gatheringchange</b> event for a change to the <a href="/wiki/apis/webrtc/RTCPeerConnection/iceGatheringState" title="apis/webrtc/RTCPeerConnection/iceGatheringState">iceGatheringState</a> property.</td>
 	<td data-sort-value="2456916.3207639" class="Modification-date">15 September 2014 19:41:54</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onicecandidate" title="apis/webrtc/RTCPeerConnection/onicecandidate">apis/webrtc/RTCPeerConnection/onicecandidate</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event for a change to the [[apis/webrtc/RTCPeerConnection/iceState]] property. It is called any time there is a new ICE candidate added to a previous offer or answer.</td>
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/icechange" title="apis/webrtc/RTCPeerConnection/icechange">icechange</a> event for a change to the <a href="/wiki/apis/webrtc/RTCPeerConnection/iceState" title="apis/webrtc/RTCPeerConnection/iceState">apis/webrtc/RTCPeerConnection/iceState</a> property. It is called any time there is a new ICE candidate added to a previous offer or answer.</td>
 	<td data-sort-value="2456916.3196296" class="Modification-date">15 September 2014 19:40:16</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onicechange" title="apis/webrtc/RTCPeerConnection/onicechange">apis/webrtc/RTCPeerConnection/onicechange</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/icechange|icechange]] event. It is called any time the [[apis/webrtc/RTCPeerConnection/iceState|iceState]]  changes.</td>
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/icechange" title="apis/webrtc/RTCPeerConnection/icechange">icechange</a> event. It is called any time the <a href="/wiki/apis/webrtc/RTCPeerConnection/iceState" title="apis/webrtc/RTCPeerConnection/iceState">iceState</a>  changes.</td>
 	<td data-sort-value="2456916.3192708" class="Modification-date">15 September 2014 19:39:45</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onidentityresult" title="apis/webrtc/RTCPeerConnection/onidentityresult">apis/webrtc/RTCPeerConnection/onidentityresult</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/identityresult|identityresult]] event for the success or failure of an identity verification.</td>
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/identityresult" title="apis/webrtc/RTCPeerConnection/identityresult">identityresult</a> event for the success or failure of an identity verification.</td>
 	<td data-sort-value="2456916.3187963" class="Modification-date">15 September 2014 19:39:04</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onnegotiationneeded" title="apis/webrtc/RTCPeerConnection/onnegotiationneeded">apis/webrtc/RTCPeerConnection/onnegotiationneeded</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/negotiationneeded|negotiationneeded]] event.</td>
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/negotiationneeded" title="apis/webrtc/RTCPeerConnection/negotiationneeded">negotiationneeded</a> event.</td>
 	<td data-sort-value="2456916.3180787" class="Modification-date">15 September 2014 19:38:02</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onopen" title="apis/webrtc/RTCPeerConnection/onopen">apis/webrtc/RTCPeerConnection/onopen</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/open|open]] event.
-
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/open" title="apis/webrtc/RTCPeerConnection/open">open</a> event.
 Testing.</td>
 	<td data-sort-value="2456916.3058449" class="Modification-date">15 September 2014 19:20:25</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/onstatechange" title="apis/webrtc/RTCPeerConnection/onstatechange">apis/webrtc/RTCPeerConnection/onstatechange</a></td>
-	<td class="Summary">Handles the [[apis/webrtc/RTCPeerConnection/statechange|statechange]] event for when the [[apis/webrtc/RTCPeerConnection/readyState|readyState]] property is changed, i.e. with a call to [[apis/webrtc/RTCPeerConnection/setLocalDescription|setLocalDescription()]] or [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]]. The event does not fire when a new RTCPeerConnection object is created.</td>
+	<td class="Summary">Handles the <a href="/wiki/apis/webrtc/RTCPeerConnection/statechange" title="apis/webrtc/RTCPeerConnection/statechange">statechange</a> event for when the <a href="/wiki/apis/webrtc/RTCPeerConnection/readyState" title="apis/webrtc/RTCPeerConnection/readyState">readyState</a> property is changed, i.e. with a call to <a href="/wiki/apis/webrtc/RTCPeerConnection/setLocalDescription" title="apis/webrtc/RTCPeerConnection/setLocalDescription">setLocalDescription()</a> or <a href="/wiki/apis/webrtc/RTCPeerConnection/setRemoteDescription" title="apis/webrtc/RTCPeerConnection/setRemoteDescription">setRemoteDescription()</a>. The event does not fire when a new RTCPeerConnection object is created.</td>
 	<td data-sort-value="2456916.3001273" class="Modification-date">15 September 2014 19:12:11</td>
 </tr>
 <tr class="row-odd">
@@ -1657,17 +1670,17 @@ Testing.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/remoteDescription" title="apis/webrtc/RTCPeerConnection/remoteDescription">apis/webrtc/RTCPeerConnection/remoteDescription</a></td>
-	<td class="Summary">Returns the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] most recently passed to the [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]] method along with any remote candidate descriptions supplied with [[apis/webrtc/RTCPeerConnection/addIceCandidate|addIceCandidate()]]. Returns null if the remote description has not been set.</td>
+	<td class="Summary">Returns the <a href="/wiki/apis/webrtc/RTCSessionDescription" title="apis/webrtc/RTCSessionDescription">RTCSessionDescription</a> most recently passed to the <a href="/wiki/apis/webrtc/RTCPeerConnection/setRemoteDescription" title="apis/webrtc/RTCPeerConnection/setRemoteDescription">setRemoteDescription()</a> method along with any remote candidate descriptions supplied with <a href="/wiki/apis/webrtc/RTCPeerConnection/addIceCandidate" title="apis/webrtc/RTCPeerConnection/addIceCandidate">addIceCandidate()</a>. Returns null if the remote description has not been set.</td>
 	<td data-sort-value="2456913.2701273" class="Modification-date">12 September 2014 18:28:59</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/remoteStreams" title="apis/webrtc/RTCPeerConnection/remoteStreams">apis/webrtc/RTCPeerConnection/remoteStreams</a></td>
-	<td class="Summary">Returns an array of [[apis/webrtc/MediaStream|MediaStream]] objects added to the connection by the remote peer. This array is updated when the [[apis/webrtc/RTCPeerConnection/onaddstream|addstream]] and [[apis/webrtc/RTCPeerConnection/removeStream|removestream]] events are fired.</td>
+	<td class="Summary">Returns an array of <a href="/wiki/apis/webrtc/MediaStream" title="apis/webrtc/MediaStream">MediaStream</a> objects added to the connection by the remote peer. This array is updated when the <a href="/wiki/apis/webrtc/RTCPeerConnection/onaddstream" title="apis/webrtc/RTCPeerConnection/onaddstream">addstream</a> and <a href="/wiki/apis/webrtc/RTCPeerConnection/removeStream" title="apis/webrtc/RTCPeerConnection/removeStream">removestream</a> events are fired.</td>
 	<td data-sort-value="2456913.2695255" class="Modification-date">12 September 2014 18:28:07</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/removeStream" title="apis/webrtc/RTCPeerConnection/removeStream">apis/webrtc/RTCPeerConnection/removeStream</a></td>
-	<td class="Summary">Removes the given stream from the [[apis/webrtc/RTCPeerConnection/localStreams|localStreams]] array in the RTCPeerConnection and fires the [[apis/webrtc/RTCPeerConnection/negotiationneeded|negotiationneeded]] event.</td>
+	<td class="Summary">Removes the given stream from the <a href="/wiki/apis/webrtc/RTCPeerConnection/localStreams" title="apis/webrtc/RTCPeerConnection/localStreams">localStreams</a> array in the RTCPeerConnection and fires the <a href="/wiki/apis/webrtc/RTCPeerConnection/negotiationneeded" title="apis/webrtc/RTCPeerConnection/negotiationneeded">negotiationneeded</a> event.</td>
 	<td data-sort-value="2456913.2678704" class="Modification-date">12 September 2014 18:25:44</td>
 </tr>
 <tr class="row-even">
@@ -1677,12 +1690,12 @@ Testing.</td>
 </tr>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/setLocalDescription" title="apis/webrtc/RTCPeerConnection/setLocalDescription">apis/webrtc/RTCPeerConnection/setLocalDescription</a></td>
-	<td class="Summary">Applies the supplied [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] to the local description.</td>
+	<td class="Summary">Applies the supplied <a href="/wiki/apis/webrtc/RTCSessionDescription" title="apis/webrtc/RTCSessionDescription">RTCSessionDescription</a> to the local description.</td>
 	<td data-sort-value="2456913.2655208" class="Modification-date">12 September 2014 18:22:21</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/setRemoteDescription" title="apis/webrtc/RTCPeerConnection/setRemoteDescription">apis/webrtc/RTCPeerConnection/setRemoteDescription</a></td>
-	<td class="Summary">Applies the supplied [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] to the remote description.</td>
+	<td class="Summary">Applies the supplied <a href="/wiki/apis/webrtc/RTCSessionDescription" title="apis/webrtc/RTCSessionDescription">RTCSessionDescription</a> to the remote description.</td>
 	<td data-sort-value="2456913.2650463" class="Modification-date">12 September 2014 18:21:40</td>
 </tr>
 <tr class="row-odd">
@@ -1918,15 +1931,15 @@ Testing.</td>
 <tr class="row-odd">
 	<td class="Path"><a href="/wiki/apis/webrtc/MediaStreamTrack/ended" title="apis/webrtc/MediaStreamTrack/ended">apis/webrtc/MediaStreamTrack/ended</a></td>
 	<td class="Summary">The MediaStreamTrack object's source will not provide data; this may be caused by the following:
-* the user has revoked permissions on the application
-* the source device has been disconnected
-* the remote peer has stopped sending data
-* the stop() method was invoked</td>
+<ul><li> the user has revoked permissions on the application</li>
+<li> the source device has been disconnected</li>
+<li> the remote peer has stopped sending data</li>
+<li> the stop() method was invoked</li></ul></td>
 	<td data-sort-value="2456840.3292245" class="Modification-date">1 July 2014 19:54:05</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/MediaStreamTrack/kind" title="apis/webrtc/MediaStreamTrack/kind">apis/webrtc/MediaStreamTrack/kind</a></td>
-	<td class="Summary">The value, either '''audio''' or '''video''' for the source of the track.</td>
+	<td class="Summary">The value, either <b>audio</b> or <b>video</b> for the source of the track.</td>
 	<td data-sort-value="2456840.3282639" class="Modification-date">1 July 2014 19:52:42</td>
 </tr>
 <tr class="row-odd">
@@ -2056,7 +2069,7 @@ Testing.</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCDataChannel/send" title="apis/webrtc/RTCDataChannel/send">apis/webrtc/RTCDataChannel/send</a></td>
-	<td class="Summary">Sends a message (''data'') on the RTCDataChannel’s underlying data transport.</td>
+	<td class="Summary">Sends a message (<i>data</i>) on the RTCDataChannel’s underlying data transport.</td>
 	<td data-sort-value="2456840.2663194" class="Modification-date">1 July 2014 18:23:30</td>
 </tr>
 <tr class="row-odd">
@@ -2096,7 +2109,7 @@ Testing.</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/apis/webrtc/RTCPeerConnection/getStats" title="apis/webrtc/RTCPeerConnection/getStats">apis/webrtc/RTCPeerConnection/getStats</a></td>
-	<td class="Summary">Retrieves status information for a given [[apis/webrtc/MediaStreamTrack|MediaStreamTrack]].</td>
+	<td class="Summary">Retrieves status information for a given <a href="/wiki/apis/webrtc/MediaStreamTrack" title="apis/webrtc/MediaStreamTrack">MediaStreamTrack</a>.</td>
 	<td data-sort-value="2456839.4584491" class="Modification-date">30 June 2014 23:00:10</td>
 </tr>
 <tr class="row-odd">
@@ -2176,7 +2189,7 @@ Testing.</td>
 </tr>
 <tr class="row-even">
 	<td class="Path"><a href="/wiki/css/media_queries/apis/properties/type" title="css/media queries/apis/properties/type">css/media queries/apis/properties/type</a></td>
-	<td class="Summary">Gets the media type of the object that displays the [[dom/Document|Document]] object</td>
+	<td class="Summary">Gets the media type of the object that displays the <a href="/wiki/dom/Document" title="dom/Document">Document</a> object</td>
 	<td data-sort-value="2456826.002037" class="Modification-date">17 June 2014 12:02:56</td>
 </tr>
 <tr class="row-odd">
@@ -2253,4 +2266,4 @@ Testing.</td>
 	<td class="Path"><a href="/wiki/apis/appcache/ApplicationCache/onchecking" title="apis/appcache/ApplicationCache/onchecking">apis/appcache/ApplicationCache/onchecking</a></td>
 	<td class="Summary">The user agent is checking for an update, or attempting to download the manifest for the first time. This is always the first event in the sequence.</td>
 	<td data-sort-value="2456365.3247454" class="Modification-date">13 March 2013 19:47:38</td>
-</tr></tbody></table>
+</tr></tbody><tfoot></tfoot></table>
