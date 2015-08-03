@@ -1,3 +1,5 @@
-==List of Subpages==
-
-{{Special:PrefixIndex/WPD:Example_Pages/}}
+---
+title: WPD:Example Pages
+---
+<h2><span class="mw-headline" id="List_of_Subpages">List of Subpages</span></h2>
+<table class="mw-prefixindex-list-table"><tr><td><a href="/wiki/WPD:Example_Pages/CSS" title="WPD:Example Pages/CSS">Example Pages/CSS</a></td><td><a href="/wiki/WPD:Example_Pages/DOM_Interface" title="WPD:Example Pages/DOM Interface">Example Pages/DOM Interface</a></td><td><a href="/wiki/WPD:Example_Pages/DOM_Interface_Leaf" title="WPD:Example Pages/DOM Interface Leaf">Example Pages/DOM Interface Leaf</a></td></tr><tr><td><a href="/wiki/WPD:Example_Pages/Event" title="WPD:Example Pages/Event">Example Pages/Event</a></td><td><a href="/wiki/WPD:Example_Pages/HTML_Element" title="WPD:Example Pages/HTML Element">Example Pages/HTML Element</a></td><td><a href="/wiki/WPD:Example_Pages/JavaScript_Object" title="WPD:Example Pages/JavaScript Object">Example Pages/JavaScript Object</a></td></tr><tr><td><a href="/wiki/WPD:Example_Pages/JavaScript_Object/Function" title="WPD:Example Pages/JavaScript Object/Function">Example Pages/JavaScript Object/Function</a></td><td><a href="/wiki/WPD:Example_Pages/JavaScript_keyword" title="WPD:Example Pages/JavaScript keyword">Example Pages/JavaScript keyword</a></td><td><a href="/wiki/WPD:Example_Pages/Tutorial_Page" title="WPD:Example Pages/Tutorial Page">Example Pages/Tutorial Page</a></td></tr></table>

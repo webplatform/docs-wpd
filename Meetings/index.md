@@ -1,23 +1,17 @@
-Web Platform community meetings occur every week on [http://everytimezone.com/#2014-2-25,1800 Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT]. 
-
-{{Note|1=[http://docs.webplatform.org/wiki/WPD:Community/Meetings/Content Content programming meeting] are currently where we're convening. }}
-
-'''The rest of this information is out-of-date and maintained for archival purposes only.'''  Agendas and minutes for current meetings are distributed via the [http://lists.w3.org/Archives/Public/public-webplatform/ webplatform email list].
-
-<!--
-==Telcon Info==
-'''Toll-free dial-in number (U.S. and Canada):''' +1(866) 243-6264 
-
-'''International dial-in number:''' (224) 357-2812
-
-'''Conference code:''' 6654824671 
-
-We simultaneously meet in the #webplatform-site IRC channel on irc.freenode.org. Afterwards we will send out minutes.
-
-Anyone can call in free of charge by using [http://www.skype.com Skype].
--->
-== Agenda 4 December 2012 ==
-
+---
+title: WPD:Meetings
+---
+<p>Web Platform community meetings occur every week on <a rel="nofollow" class="external text" href="http://everytimezone.com/#2014-2-25,1800">Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT</a>. 
+</p><p><br />
+</p>
+<div class="note">
+<p><b>Note</b>: <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/WPD:Community/Meetings/Content">Content programming meeting</a> are currently where we're convening.
+</p>
+</div>
+<p><br />
+<b>The rest of this information is out-of-date and maintained for archival purposes only.</b>  Agendas and minutes for current meetings are distributed via the <a rel="nofollow" class="external text" href="http://lists.w3.org/Archives/Public/public-webplatform/">webplatform email list</a>.
+</p>
+<h2><span class="mw-headline" id="Agenda_4_December_2012">Agenda 4 December 2012</span></h2>
 <ul>
 <li><p>Welcome</p></li>
 <li><p>Review of open action items</p>
@@ -42,19 +36,20 @@ Anyone can call in free of charge by using [http://www.skype.com Skype].
 </li>
 <li><p>Content Task Force summary</p></li>
 <li><p>How to deal with spam content</p></li>
-<li><p>What other root topic pages we want to link from the [[Main Page]]. We already have concepts, html, css, javascript, accessibility, svg. But we should probably have [[dom]] as a top level root page as well.</p></li>
+<li><p>What other root topic pages we want to link from the <a href="/wiki/Main_Page" title="Main Page">Main Page</a>. We already have concepts, html, css, javascript, accessibility, svg. But we should probably have <a href="/wiki/dom" title="dom">dom</a> as a top level root page as well.</p></li>
 <li><p>Updating main page and template. Chris has a few things he'd like to do that require this, but he just don't have the power.</p></li>
 <li><p>AOB</p></li>
 </ul>
+<h2><span class="mw-headline" id="Agenda_27_November_2012">Agenda 27 November 2012</span></h2>
+<ul><li> Welcome</li>
+<li> Triage of new bugs</li>
+<li> Review of open action items</li>
+<li> Content Task Force summary
+<ul><li> Next steps with Content Task Force</li></ul></li>
+<li> Issue / bug tracking</li>
+<li> Defining roles and milestones</li>
+<li> Discuss the DocSprint being held on the 12th of December.</li>
+<li> Anything else brought up during the conference.</li></ul>
 
-== Agenda 27 November 2012 ==
-
-* Welcome
-* Triage of new bugs
-* Review of open action items
-* Content Task Force summary
-** Next steps with Content Task Force
-* Issue / bug tracking
-* Defining roles and milestones
-* Discuss the DocSprint being held on the 12th of December.
-* Anything else brought up during the conference.
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:6179-0!*!0!!*!*!*!esi=1 and timestamp 20150731182942 and revision id 70442
+ -->

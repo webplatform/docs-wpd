@@ -1,227 +1,135 @@
-[http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes Previous meeting notes]
-
-== Presences ==
-* Renoir (scribe)
-* Doug
-* Eliot
-* Jen
-* Amelia
-* Elizer (on IRC only)
-* Frozenice (on IRC only)
-
-== Agenda ==
-* Compatibility Table Project
-* Flag templates
-* Web Platform Wednesday: SVG
-* Review of open action items
-* Amelia's introduction
-
-==  Compatibility Table project ==
-Doug: Renoir made a scrip that imports content from MDN and converts it to objects.
-
-... we have problem to get a portion of the data
-
-... [https://github.com/webplatform/mdn-compat-importer/issues/3 Issue has been raised, and contacted MDN on (see here in our own project GitHub repo)]
-
-... we contacted MDN, they cannot help us
-
-... we have something working but still have missing data
-
-... ptressel is currently working on an Apache Nutch scraping project that we can pass our importer against.
-
-... it will prevent to overload servers, and guarantee us to have as much data as possible
-
-... effectively going around the limitation problem
-
-Doug: Renoir is working on SSO stuff.
-
-... more on this later
-
-... hopefully next week Renoir will switch workpile back on CompatTable
-
-... and have it deployed on the main wiki
-
-Doug: Is asking about ... with @@
-
-... to write a blog post related to CompaTables
-
-... [logistics]
-
-ACTION: Doug to sync with Eliot about a Blog post announcing Compatibility tables
-
-[Doug giving context to Amelia]
-
-Renoir pointing to Amelia a test example at http://w3c-test.org/webstorage/storage_local_getitem.html
-
-Based off of https://github.com/w3c/web-platform-tests ^
-
-
-
-== TOPIC Flag and templates ==
-
-[asking if eliezerb is there, confirming]
-
-[+eliezerb: Yes!]
-
-[we'll add it to the meeting]
-
-Doug: We've had ability to add templates
-
-... flags on templates
-
-... do we know enough; How do we script against SMW so we can trigger flags on or off.
-
-... does anybody else can help on that
-
-
+---
+title: WPD:Community/Meetings/General/2014/0422 raw mtg notes
+---
+<p><a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes">Previous meeting notes</a>
+</p>
+<h2><span class="mw-headline" id="Presences">Presences</span></h2>
+<ul><li> Renoir (scribe)</li>
+<li> Doug</li>
+<li> Eliot</li>
+<li> Jen</li>
+<li> Amelia</li>
+<li> Elizer (on IRC only)</li>
+<li> Frozenice (on IRC only)</li></ul>
+<h2><span class="mw-headline" id="Agenda">Agenda</span></h2>
+<ul><li> Compatibility Table Project</li>
+<li> Flag templates</li>
+<li> Web Platform Wednesday: SVG</li>
+<li> Review of open action items</li>
+<li> Amelia's introduction</li></ul>
+<h2><span class="mw-headline" id="Compatibility_Table_project">Compatibility Table project</span></h2>
+<p>Doug: Renoir made a scrip that imports content from MDN and converts it to objects.
+</p><p>... we have problem to get a portion of the data
+</p><p>... <a rel="nofollow" class="external text" href="https://github.com/webplatform/mdn-compat-importer/issues/3">Issue has been raised, and contacted MDN on (see here in our own project GitHub repo)</a>
+</p><p>... we contacted MDN, they cannot help us
+</p><p>... we have something working but still have missing data
+</p><p>... ptressel is currently working on an Apache Nutch scraping project that we can pass our importer against.
+</p><p>... it will prevent to overload servers, and guarantee us to have as much data as possible
+</p><p>... effectively going around the limitation problem
+</p><p>Doug: Renoir is working on SSO stuff.
+</p><p>... more on this later
+</p><p>... hopefully next week Renoir will switch workpile back on CompatTable
+</p><p>... and have it deployed on the main wiki
+</p><p>Doug: Is asking about ... with @@
+</p><p>... to write a blog post related to CompaTables
+</p><p>... [logistics]
+</p><p>ACTION: Doug to sync with Eliot about a Blog post announcing Compatibility tables
+</p><p>[Doug giving context to Amelia]
+</p><p>Renoir pointing to Amelia a test example at <a rel="nofollow" class="external free" href="http://w3c-test.org/webstorage/storage_local_getitem.html">http://w3c-test.org/webstorage/storage_local_getitem.html</a>
+</p><p>Based off of <a rel="nofollow" class="external free" href="https://github.com/w3c/web-platform-tests">https://github.com/w3c/web-platform-tests</a> ^
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="TOPIC_Flag_and_templates">TOPIC Flag and templates</span></h2>
+<p>[asking if eliezerb is there, confirming]
+</p><p>[+eliezerb: Yes!]
+</p><p>[we'll add it to the meeting]
+</p><p>Doug: We've had ability to add templates
+</p><p>... flags on templates
+</p><p>... do we know enough; How do we script against SMW so we can trigger flags on or off.
+</p><p>... does anybody else can help on that
+</p><p><br />
 [Doug will talk with eliezerb about what we can do, and what is missing]
-
-Jen: [asks about how to use, and is offering to help]
-
-Doug: We have a solution. But the solution is that we are to remove the old flags, and put the new flags in. But 
+</p><p>Jen: [asks about how to use, and is offering to help]
+</p><p>Doug: We have a solution. But the solution is that we are to remove the old flags, and put the new flags in. But 
 they will all be unchecked
-
-... this is where the script will be usefull. To read what was the old flags, and activate on the new flag model
-
-... using a script
-
-Eliot: I think that this summarizes where we ended up with flags [http://lists.w3.org/Archives/Public/public-webplatform/2013Dec/0035.html in the mailing list archive, in December 2013]
-
-[+eliezerb: We have another mail comming, under renoirb review]
-
-[Jen is suggesting that we manually adjust flags on each page. It'll be a good way to also have an inventory of 
+</p><p>... this is where the script will be usefull. To read what was the old flags, and activate on the new flag model
+</p><p>... using a script
+</p><p>Eliot: I think that this summarizes where we ended up with flags <a rel="nofollow" class="external text" href="http://lists.w3.org/Archives/Public/public-webplatform/2013Dec/0035.html">in the mailing list archive, in December 2013</a>
+</p><p>[+eliezerb: We have another mail comming, under renoirb review]
+</p><p>[Jen is suggesting that we manually adjust flags on each page. It'll be a good way to also have an inventory of 
 what we have]
-
-Renoir: [Mentions to the conf call about the email that elizer sent Renoir]
-
-Jen: Suggesting to have a first pass
-
-
+</p><p>Renoir: [Mentions to the conf call about the email that elizer sent Renoir]
+</p><p>Jen: Suggesting to have a first pass
+</p><p><br />
 ... instead of a Google Docs, to have a mediawiki managed list of the pages
-
-... will be more useful in the long run
-
-... essentially to have a list of all pages in some way by readyness order
-
-Eliot: suggests that we have a "flagger" badge (or something else more clever) 
-
-... for those participating in the manual work.
-
-... There are 5 states, last would be "not marked yet" so we can use it as a TODO
-
-
+</p><p>... will be more useful in the long run
+</p><p>... essentially to have a list of all pages in some way by readyness order
+</p><p>Eliot: suggests that we have a "flagger" badge (or something else more clever) 
+</p><p>... for those participating in the manual work.
+</p><p>... There are 5 states, last would be "not marked yet" so we can use it as a TODO
+</p><p><br />
 [confirming the concept of Flags and how to list it]
-
-[Amelia says that she's been reading SMW lately]
-
-Doug: Asking Eliot about the current flags
-
-Eliot: The list of flags [http://lists.w3.org/Archives/Public/public-webplatform/2013Dec/0035.html is available from the mailing list archive]
-
-... will be very nice to have such "TODO"
-
-[Doug confirms]
-
-Project idea:  Walk through ALL CSS content, with a list view based on the "new" flag system, listing by "not 
+</p><p>[Amelia says that she's been reading SMW lately]
+</p><p>Doug: Asking Eliot about the current flags
+</p><p>Eliot: The list of flags <a rel="nofollow" class="external text" href="http://lists.w3.org/Archives/Public/public-webplatform/2013Dec/0035.html">is available from the mailing list archive</a>
+</p><p>... will be very nice to have such "TODO"
+</p><p>[Doug confirms]
+</p><p>Project idea:  Walk through ALL CSS content, with a list view based on the "new" flag system, listing by "not 
 flagged at all", then while walking through, contributors will be able to flag appropriately.
-
-
+</p><p><br />
 eliot, can you confirm ^
-
-just to be sure it makes sense
-
-[renoir asks Eliot to validate]
-
-Eliot: What we'll have is a set of "readiness" flags: ready to use, almost ready, etc.
-
-Jen: Design wise it will be more useful than a set of flages.
-
-Doug: Asking how do we execute on it
-
-Eliot: ...and then, we can add details in a comment box about what specific deficiencies are there.
-
-... suggesting that we could leverage the "dropdown" concept
-
-... and since its not a checkbox, we can state a default state. That's where we can say "not flagged at all" ... 
+</p><p>just to be sure it makes sense
+</p><p>[renoir asks Eliot to validate]
+</p><p>Eliot: What we'll have is a set of "readiness" flags: ready to use, almost ready, etc.
+</p><p>Jen: Design wise it will be more useful than a set of flages.
+</p><p>Doug: Asking how do we execute on it
+</p><p>Eliot: ...and then, we can add details in a comment box about what specific deficiencies are there.
+</p><p>... suggesting that we could leverage the "dropdown" concept
+</p><p>... and since its not a checkbox, we can state a default state. That's where we can say "not flagged at all" ... 
 as a TODO list.
-
-[Renoir summarizing the concepts to see agreements, all agreed]
-
-Jen: Wonders if we are actually using MW flags, or something that seems like it.
-
-AmeliaBR: could be an addition and not delete the old flags
-
-Doug: [Reminding about flags and the side effects]
-
-Jen: Strongly suggests to add the flags at the bottom (as metadata), maybe not render them, and stop using RED. 
+</p><p>[Renoir summarizing the concepts to see agreements, all agreed]
+</p><p>Jen: Wonders if we are actually using MW flags, or something that seems like it.
+</p><p>AmeliaBR: could be an addition and not delete the old flags
+</p><p>Doug: [Reminding about flags and the side effects]
+</p><p>Jen: Strongly suggests to add the flags at the bottom (as metadata), maybe not render them, and stop using RED. 
 Its metadata, not big warning.
-
-Doug: Confirming they should be at the bottom of both views, edit and view ... view.
-
-Jen: Asks that we can make sure we can list pages with same flags
-
-ACTION: To ensure that flag links leads to a page listing pages that has same flag on them
-
-+eliezerb: See [http://docs.webplatform.org/wiki/Special:SearchByProperty/Content_quality_flag/Incomplete List 
+</p><p>Doug: Confirming they should be at the bottom of both views, edit and view ... view.
+</p><p>Jen: Asks that we can make sure we can list pages with same flags
+</p><p>ACTION: To ensure that flag links leads to a page listing pages that has same flag on them
+</p><p>+eliezerb: See [<a rel="nofollow" class="external free" href="http://docs.webplatform.org/wiki/Special:SearchByProperty/Content_quality_flag/Incomplete">http://docs.webplatform.org/wiki/Special:SearchByProperty/Content_quality_flag/Incomplete</a> List 
 of flags link]
-
-... See also Frozenice's special form to list pages based on flags [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=formedit at "User:Frozenice/Customized_Lists_Test&action=formedit", use as example], or [http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&action=edit view the source]
-
-... or re-use the [http://docs.webplatform.org/wiki/Template:Configurable_Query "Template:Configurable_Query" template] as the content of a page with the query you want to see results.
-
-Doug: Suggesting to remove temporarily the flags (without deleting the data) and put the readyness
-
-... workflow. So later we can read the data from the former tags, remove the barrier of "red flags" for the 
+</p><p>... See also Frozenice's special form to list pages based on flags <a rel="nofollow" class="external text" href="http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&amp;action=formedit">at "User:Frozenice/Customized_Lists_Test&amp;action=formedit", use as example</a>, or <a rel="nofollow" class="external text" href="http://docs.webplatform.org/w/index.php?title=User:Frozenice/Customized_Lists_Test&amp;action=edit">view the source</a>
+</p><p>... or re-use the <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/Template:Configurable_Query">"Template:Configurable_Query" template</a> as the content of a page with the query you want to see results.
+</p><p>Doug: Suggesting to remove temporarily the flags (without deleting the data) and put the readyness
+</p><p>... workflow. So later we can read the data from the former tags, remove the barrier of "red flags" for the 
 short term, and later we'll script and re-use that data later on.
-
-... the idea is to remove the edition of them, just keep the data without displaying nor editing it
-
-... we'll query it later.
-
-... and focus on the readyness dropdown
-
-eliezerb, shepazu said he'd have a talk with you later.
-
-Eliot: Suggests shepazu to make an implementation proposal on the mailing list
-
-... Shepazu is asking Jen if she can.
-
-[Jen agrees]
-
-[Eliot: +1 to the efficacy of the new solution using readiness states
-
-Doug: We should have a way to query pages based on flags or other properties
-
-AmeliaBR: Example of flag search (this is linked from one of the help pages for beginners, shows all pages with 
-"Needs Summary"): [http://docs.webplatform.org/w/index.php?title=Special%3AAsk&q=%5B%5BContent_quality_flag%3A%3A~Needs+Summary%5D%5D%0D%0A++%5B%5BChecked_Out%3A%3Afalse%5D%5D&po=&eq=yes&p%5Bformat%5D=broadtable&sort_num=&order_num=ASC&p%5Blimit%5D=&p%5Boffset%5D=&p%5Blink%5D=all&p%5Bsort%5D=&p%5Bheaders%5D=show&p%5Bmainlabel%5D= Semantic MediaWiki Query Editor view]
-
-Renoir validated how to query, points out address and other know tools
-
-... [http://semantic-mediawiki.org/wiki/Ask_API Documentation page for Semantic MediaWik query API]
-
-... you can see [http://webplatform.frozenice.de/pageinfo.html frozenice's WPD stats info utility]
-
-... [http://webplatform.frozenice.de/pageinfo.html#css/properties/border-radius page example "border radius"]
-
-... Or see for a property possible values, e.g. [http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&value=Examples%20Best%20Practices Content_quality_flag], and query them [http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&value=Examples%20Best%20Practices from the Special:SearchByProperty view]
-
-Eliot:   Could do something like the W3C specs use. See this for the blue stripe: [http://www.w3.org/TR/html-polyglot/ in TR/html-polyglot, see the blue stripe]
-
-... Doug pulls foot from mouth
-
-
-
-== Quick status ==
-
-
-Jen worked on: Editor guide,
-
-... proposed changes for links
-
-... working on editing pages. Consolidating. Going to keep working.
-
-... deleting pages ultimately. Please provide feedback
-
-... some pages were moved and others moved twice, so we need to check on navigation links.
-
-... says if somebody can go to docsprint in europoe
+</p><p>... the idea is to remove the edition of them, just keep the data without displaying nor editing it
+</p><p>... we'll query it later.
+</p><p>... and focus on the readyness dropdown
+</p><p>eliezerb, shepazu said he'd have a talk with you later.
+</p><p>Eliot: Suggests shepazu to make an implementation proposal on the mailing list
+</p><p>... Shepazu is asking Jen if she can.
+</p><p>[Jen agrees]
+</p><p>[Eliot: +1 to the efficacy of the new solution using readiness states
+</p><p>Doug: We should have a way to query pages based on flags or other properties
+</p><p>AmeliaBR: Example of flag search (this is linked from one of the help pages for beginners, shows all pages with 
+"Needs Summary"): <a rel="nofollow" class="external text" href="http://docs.webplatform.org/w/index.php?title=Special%3AAsk&amp;q=%5B%5BContent_quality_flag%3A%3A~Needs+Summary%5D%5D%0D%0A++%5B%5BChecked_Out%3A%3Afalse%5D%5D&amp;po=&amp;eq=yes&amp;p%5Bformat%5D=broadtable&amp;sort_num=&amp;order_num=ASC&amp;p%5Blimit%5D=&amp;p%5Boffset%5D=&amp;p%5Blink%5D=all&amp;p%5Bsort%5D=&amp;p%5Bheaders%5D=show&amp;p%5Bmainlabel%5D=">Semantic MediaWiki Query Editor view</a>
+</p><p>Renoir validated how to query, points out address and other know tools
+</p><p>... <a rel="nofollow" class="external text" href="http://semantic-mediawiki.org/wiki/Ask_API">Documentation page for Semantic MediaWik query API</a>
+</p><p>... you can see <a rel="nofollow" class="external text" href="http://webplatform.frozenice.de/pageinfo.html">frozenice's WPD stats info utility</a>
+</p><p>... <a rel="nofollow" class="external text" href="http://webplatform.frozenice.de/pageinfo.html#css/properties/border-radius">page example "border radius"</a>
+</p><p>... Or see for a property possible values, e.g. <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&amp;value=Examples%20Best%20Practices">Content_quality_flag</a>, and query them <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/Special:SearchByProperty?property=Content_quality_flag&amp;value=Examples%20Best%20Practices">from the Special:SearchByProperty view</a>
+</p><p>Eliot:   Could do something like the W3C specs use. See this for the blue stripe: <a rel="nofollow" class="external text" href="http://www.w3.org/TR/html-polyglot/">in TR/html-polyglot, see the blue stripe</a>
+</p><p>... Doug pulls foot from mouth
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Quick_status">Quick status</span></h2>
+<p>Jen worked on: Editor guide,
+</p><p>... proposed changes for links
+</p><p>... working on editing pages. Consolidating. Going to keep working.
+</p><p>... deleting pages ultimately. Please provide feedback
+</p><p>... some pages were moved and others moved twice, so we need to check on navigation links.
+</p><p>... says if somebody can go to docsprint in europoe
+</p>
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:20125-0!*!*!!*!*!*!esi=1 and timestamp 20150731185147 and revision id 51866
+ -->

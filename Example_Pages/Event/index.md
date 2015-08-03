@@ -1,149 +1,222 @@
-'''This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.'''
+---
+title: WPD:Example Pages/Event
+---
+<p><b>This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.</b>
 Draws from:
-* https://developer.mozilla.org/en-US/docs/DOM/DOM_event_reference/mouseenter
-* https://developer.mozilla.org/en-US/docs/DOM/MouseEvent
-* http://msdn.microsoft.com/en-us/library/ie/ms536913%28v=vs.85%29.aspx
-
-==Summary==
-The <code>click</code> event type is dispatched when the user activates the primary pointer indicator (e.g., the left mouse button) on an element.
-
-==Syntax==
-{| class="wikitable"
-! 
-! Keyword
-! Sample Usage
-|-
-! Event Type
-| <code>click</code>
-| <code>object.addEventListener("click", handler, useCapture);</code>
-|-
-! Event Attribute
-| <code>onclick</code>
-| <code>&lt;element onclick = "handler(event)"&gt;</code>
-|-
-! Event Property
-| <code>onclick</code>
-| <code>object.onclick = handler;</code>
-|}
-
-==Event Properties==
-{| class="wikitable"
-! Interface
-| [[MouseEvent]]
-|-
-! Synchronous
-| Yes
-|-
-! Bubbles
-| No
-|-
-! Target
-| [[Element]]
-|-
-! Cancelable
-| No
-|-
-! Default action
-| None
-|}
-
-==Interface==
-The <code>click</code> event type uses the <code>MouseEvent</code> interface.
-
-'''''Implementation Note:''' begin transclusion of <code>MouseEvent</code> interface.''
-
-{| class="wikitable"
-! Property
-! Type
-! Description
-! Read only
-|-
-| screenX 
-| long
-| The X coordinate of the mouse pointer in global (screen) coordinates.
-| Yes
-|-
-| screenY
-| long
-| The Y coordinate of the mouse pointer in global (screen) coordinates.
-| Yes
-|-
-| clientX
-| long
-| The X coordinate of the mouse pointer in local (DOM content) coordinates.
-| Yes
-|-
-| clientY
-| long
-| The Y coordinate of the mouse pointer in local (DOM content) coordinates.
-| Yes
-|-
-| ctrlKey
-| boolean
-| true if the control key was down when the mouse event was fired.
-| Yes
-|-
-| shiftKey
-| boolean
-| true if the shift key was down when the mouse event was fired.
-| Yes
-|-
-| altKey
-| boolean
-| true if the alt key was down when the mouse event was fired.
-| Yes
-|-
-| metaKey
-| boolean
-| true if the meta key was down when the mouse event was fired.
-| Yes
-|-
-| button
-| unsigned short
-| The button number that was pressed when the mouse event was fired: Left button=0, middle button=1 (if present), right button=2. For mice configured for left handed use in which the button actions are reversed the values are instead read from right to left.
-| Yes
-|-
-| buttons 
-| unsigned short 	
-| The buttons being pressed when the mouse event was fired: Left button=1, Right button=2, Middle (wheel) button=4, 4th button (typically, "Browser Back" button)=8, 5th button (typically, "Browser Forward" button)=16. If two or more buttons are pressed, returns the logical sum of the values. E.g., if Left button and Right button are pressed, returns 3 (=1 <nowiki>|</nowiki> 2).
-| Yes
-|-
-| relatedTarget
-| nsIDOMEventTarget
-| The target to which the event applies.
-| Yes
-|-
-| mozPressure 
-  '''Non-standard'''
-| float
-| The amount of pressure applied to a touch or tablet device when generating the event; this value ranges between 0.0 (minimum pressure) and 1.0 (maximum pressure).
-| Yes
-|}
-
-===Methods===
- boolean getModifierState(in DOMString keyArg);
-
-====getModifierState()====
-Returns the current state of the specified modifier key. See the document of KeyboardEvent.getModifierState() for the detail. 
-
-'''DOM level 3 Requires Gecko 15.0'''?
-
- boolean getModifierState(
-   in DOMString keyArg
- );
-
-'''''Implementation Note:''' end transclusion of <code>MouseEvent</code> interface.''
-
-==Examples==
-[[Event/examples/click | View live examples]]
-
-===Example: Click Event Origin===
-This example uses the event object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of anchor elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the location of the window object.
-
-[[See live example]]
-
-<syntaxhighlight>
-<script type="text/javascript">
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="https://developer.mozilla.org/en-US/docs/DOM/DOM_event_reference/mouseenter">https://developer.mozilla.org/en-US/docs/DOM/DOM_event_reference/mouseenter</a></li>
+<li> <a rel="nofollow" class="external free" href="https://developer.mozilla.org/en-US/docs/DOM/MouseEvent">https://developer.mozilla.org/en-US/docs/DOM/MouseEvent</a></li>
+<li> <a rel="nofollow" class="external free" href="http://msdn.microsoft.com/en-us/library/ie/ms536913%28v=vs.85%29.aspx">http://msdn.microsoft.com/en-us/library/ie/ms536913%28v=vs.85%29.aspx</a></li></ul>
+<h2><span class="mw-headline" id="Summary">Summary</span></h2>
+<p>The <code>click</code> event type is dispatched when the user activates the primary pointer indicator (e.g., the left mouse button) on an element.
+</p>
+<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+<table class="wikitable">
+<tr>
+<th>
+</th>
+<th> Keyword
+</th>
+<th> Sample Usage
+</th></tr>
+<tr>
+<th> Event Type
+</th>
+<td> <code>click</code>
+</td>
+<td> <code>object.addEventListener("click", handler, useCapture);</code>
+</td></tr>
+<tr>
+<th> Event Attribute
+</th>
+<td> <code>onclick</code>
+</td>
+<td> <code>&lt;element onclick = "handler(event)"&gt;</code>
+</td></tr>
+<tr>
+<th> Event Property
+</th>
+<td> <code>onclick</code>
+</td>
+<td> <code>object.onclick = handler;</code>
+</td></tr></table>
+<h2><span class="mw-headline" id="Event_Properties">Event Properties</span></h2>
+<table class="wikitable">
+<tr>
+<th> Interface
+</th>
+<td> <a href="/w/index.php?title=MouseEvent&amp;action=edit&amp;redlink=1" class="new" title="MouseEvent (page does not exist)">MouseEvent</a>
+</td></tr>
+<tr>
+<th> Synchronous
+</th>
+<td> Yes
+</td></tr>
+<tr>
+<th> Bubbles
+</th>
+<td> No
+</td></tr>
+<tr>
+<th> Target
+</th>
+<td> <a href="/w/index.php?title=Element&amp;action=edit&amp;redlink=1" class="new" title="Element (page does not exist)">Element</a>
+</td></tr>
+<tr>
+<th> Cancelable
+</th>
+<td> No
+</td></tr>
+<tr>
+<th> Default action
+</th>
+<td> None
+</td></tr></table>
+<h2><span class="mw-headline" id="Interface">Interface</span></h2>
+<p>The <code>click</code> event type uses the <code>MouseEvent</code> interface.
+</p><p><i><b>Implementation Note:</b> begin transclusion of <code>MouseEvent</code> interface.</i>
+</p>
+<table class="wikitable">
+<tr>
+<th> Property
+</th>
+<th> Type
+</th>
+<th> Description
+</th>
+<th> Read only
+</th></tr>
+<tr>
+<td> screenX
+</td>
+<td> long
+</td>
+<td> The X coordinate of the mouse pointer in global (screen) coordinates.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> screenY
+</td>
+<td> long
+</td>
+<td> The Y coordinate of the mouse pointer in global (screen) coordinates.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> clientX
+</td>
+<td> long
+</td>
+<td> The X coordinate of the mouse pointer in local (DOM content) coordinates.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> clientY
+</td>
+<td> long
+</td>
+<td> The Y coordinate of the mouse pointer in local (DOM content) coordinates.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> ctrlKey
+</td>
+<td> boolean
+</td>
+<td> true if the control key was down when the mouse event was fired.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> shiftKey
+</td>
+<td> boolean
+</td>
+<td> true if the shift key was down when the mouse event was fired.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> altKey
+</td>
+<td> boolean
+</td>
+<td> true if the alt key was down when the mouse event was fired.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> metaKey
+</td>
+<td> boolean
+</td>
+<td> true if the meta key was down when the mouse event was fired.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> button
+</td>
+<td> unsigned short
+</td>
+<td> The button number that was pressed when the mouse event was fired: Left button=0, middle button=1 (if present), right button=2. For mice configured for left handed use in which the button actions are reversed the values are instead read from right to left.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> buttons
+</td>
+<td> unsigned short
+</td>
+<td> The buttons being pressed when the mouse event was fired: Left button=1, Right button=2, Middle (wheel) button=4, 4th button (typically, "Browser Back" button)=8, 5th button (typically, "Browser Forward" button)=16. If two or more buttons are pressed, returns the logical sum of the values. E.g., if Left button and Right button are pressed, returns 3 (=1 | 2).
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> relatedTarget
+</td>
+<td> nsIDOMEventTarget
+</td>
+<td> The target to which the event applies.
+</td>
+<td> Yes
+</td></tr>
+<tr>
+<td> mozPressure
+<pre> <b>Non-standard</b>
+</pre>
+</td>
+<td> float
+</td>
+<td> The amount of pressure applied to a touch or tablet device when generating the event; this value ranges between 0.0 (minimum pressure) and 1.0 (maximum pressure).
+</td>
+<td> Yes
+</td></tr></table>
+<h3><span class="mw-headline" id="Methods">Methods</span></h3>
+<pre>boolean getModifierState(in DOMString keyArg);
+</pre>
+<h4><span class="mw-headline" id="getModifierState.28.29">getModifierState()</span></h4>
+<p>Returns the current state of the specified modifier key. See the document of KeyboardEvent.getModifierState() for the detail. 
+</p><p><b>DOM level 3 Requires Gecko 15.0</b>?
+</p>
+<pre>boolean getModifierState(
+  in DOMString keyArg
+);
+</pre>
+<p><i><b>Implementation Note:</b> end transclusion of <code>MouseEvent</code> interface.</i>
+</p>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<p><a href="/w/index.php?title=Event/examples/click&amp;action=edit&amp;redlink=1" class="new" title="Event/examples/click (page does not exist)"> View live examples</a>
+</p>
+<h3><span class="mw-headline" id="Example:_Click_Event_Origin">Example: Click Event Origin</span></h3>
+<p>This example uses the event object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of anchor elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the location of the window object.
+</p><p><a href="/w/index.php?title=See_live_example&amp;action=edit&amp;redlink=1" class="new" title="See live example (page does not exist)">See live example</a>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">script</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;text/javascript&quot;</span>&gt;</span>
 /* This code cancels the event. If the click occurs in an anchor
    and the SHIFT key is down, the document is navigated. */
 function clickIt()  
@@ -151,103 +224,105 @@ function clickIt()
     var e = window.event.srcElement
     txtName.value = e.tagName;
     txtType.value = e.type;
-    if ((e.tagName == "A") && 
-        (window.event.shiftKey)) {
-        window.location.href = e.href;
+    if ((e.tagName == &quot;A&quot;) <span class="sc1">&amp;&amp; </span>
+<span class="sc1">        (window.event.shiftKey)) {</span>
+<span class="sc1">        window.location.href = e.href;</span>
     }
-    
+&#160;
     window.event.returnValue = false; 
 }
-</script>
-<body onclick="clickIt()">
-<p>To follow a link, click while pressing the SHIFT key.</p>
-<a href="about:blank">Click Here</a>
-<textarea name="txtName"></textarea> <textarea name="txtType"></textarea>
-</body>
-</syntaxhighlight>
-
-===Example: Binding the Click Event to Controls===
-This example shows how to bind the <code>click</code> event to grouped controls.
-
-[[See live example]]
-
-<syntaxhighlight>
-<head>
-<script type="text/javascript">
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">script</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">body</span> <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;clickIt()&quot;</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>To follow a link, click while pressing the SHIFT key.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;about:blank&quot;</span>&gt;</span>Click Here<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtName&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span> <span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtType&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">body</span>&gt;</span></pre></div></div>
+<h3><span class="mw-headline" id="Example:_Binding_the_Click_Event_to_Controls">Example: Binding the Click Event to Controls</span></h3>
+<p>This example shows how to bind the <code>click</code> event to grouped controls.
+</p><p><a href="/w/index.php?title=See_live_example&amp;action=edit&amp;redlink=1" class="new" title="See live example (page does not exist)">See live example</a>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">head</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">script</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;text/javascript&quot;</span>&gt;</span>
 function CookieGroup() 
 {
 txtOutput.value = window.event.srcElement.value;
 }
-</script>
-</head>
-<body>
-<!-- Controls are grouped by giving them the same NAME but unique IDs. -->
-<p>Grouped Radio Buttons<br>
-<input type="radio" 
-    name="rdoTest" 
-    id="Cookies" 
-    value="accept_cookies" 
-    checked 
-    onclick="CookieGroup()"><br>
-<input type="radio" 
-    name="rdoTest" 
-    id="NoCookies" 
-    value="refuse_cookies" 
-    onclick="CookieGroup()"><br>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">script</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">head</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">body</span>&gt;</span>
+<span class="sc-1">&lt;!-- Controls are grouped by giving them the same NAME but unique IDs. --&gt;</span>
+<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Grouped Radio Buttons<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
+<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest&quot;</span> </span>
+<span class="sc2">    <span class="kw3">id</span><span class="sy0">=</span><span class="st0">&quot;Cookies&quot;</span> </span>
+<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;accept_cookies&quot;</span> </span>
+<span class="sc2">    <span class="kw3">checked</span> </span>
+<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
+<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest&quot;</span> </span>
+<span class="sc2">    <span class="kw3">id</span><span class="sy0">=</span><span class="st0">&quot;NoCookies&quot;</span> </span>
+<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;refuse_cookies&quot;</span> </span>
+<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Ungrouped Radio Button<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
+<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest1&quot;</span> </span>
+<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;chocolate-chip_cookies&quot;</span> </span>
+<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Value of control on which the onclick event has fired<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtOutput&quot;</span> <span class="kw3">style</span><span class="sy0">=</span><span class="st0">&quot;width: 250px&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span> <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">body</span>&gt;</span></pre></div></div>
+<h2><span class="mw-headline" id="Usage">Usage</span></h2>
+<p>If the user clicks the left mouse button, the <code>click</code> event for an object occurs only if the mouse pointer is over the object and an <code>mousedown</code> and an <code>mouseup</code> event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no <code>click</code> event occurs.
+</p><p>The <code>click</code> event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the <code>click</code> event occurs after the <code>beforeupdate</code> and <code>afterupdate</code> events for the control group.
+</p><p>If the user clicks an object that can receive the input focus but does not already have the focus, the <code>focus</code> event occurs for that object before the <code>click</code> event. If the user double-clicks the left mouse button in a control, an <code>dblclick</code> event occurs immediately after the <code>click</code> event.
+</p><p>Although the <code>click</code> event is available on a large number of HTML elements, if a document is to be accessible to keyboard users, you should restrict its use to the a, input, area, and button elements. These elements automatically allow keyboard access through the TAB key, making documents that use the elements accessible to keyboard users. For more information, please see the section on writing accessible Dynamic HTML.
+</p><p>Initiates any action associated with the object. For example, if the user clicks an a object, the client loads the document specified by the href property. To cancel the default behavior, set the returnValue property of the event object to FALSE.
+</p><p>To invoke this event, do one of the following:
 </p>
-<p>Ungrouped Radio Button<br>
-<input type="radio" 
-    name="rdoTest1" 
-    value="chocolate-chip_cookies" 
-    onclick="CookieGroup()"><br>
+<ul><li> Click the object.</li>
+<li> Invoke the <code>click</code> method.</li>
+<li> Press the ENTER key in a form.</li>
+<li> Press the access key for a control.</li>
+<li> Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.</li></ul>
+<p><br />
 </p>
-<p>Value of control on which the onclick event has fired<br>
-<textarea name="txtOutput" style="width: 250px"></textarea> </p>
-</body>
-</syntaxhighlight>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<p>None.
+</p>
+<h2><span class="mw-headline" id="Specifications">Specifications</span></h2>
+<table class="wikitable">
 
-==Usage==
-If the user clicks the left mouse button, the <code>click</code> event for an object occurs only if the mouse pointer is over the object and an <code>mousedown</code> and an <code>mouseup</code> event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no <code>click</code> event occurs.
-
-The <code>click</code> event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the <code>click</code> event occurs after the <code>beforeupdate</code> and <code>afterupdate</code> events for the control group.
-
-If the user clicks an object that can receive the input focus but does not already have the focus, the <code>focus</code> event occurs for that object before the <code>click</code> event. If the user double-clicks the left mouse button in a control, an <code>dblclick</code> event occurs immediately after the <code>click</code> event.
-
-Although the <code>click</code> event is available on a large number of HTML elements, if a document is to be accessible to keyboard users, you should restrict its use to the a, input, area, and button elements. These elements automatically allow keyboard access through the TAB key, making documents that use the elements accessible to keyboard users. For more information, please see the section on writing accessible Dynamic HTML.
-
-Initiates any action associated with the object. For example, if the user clicks an a object, the client loads the document specified by the href property. To cancel the default behavior, set the returnValue property of the event object to FALSE.
-
-To invoke this event, do one of the following:
-
-* Click the object.
-* Invoke the <code>click</code> method.
-* Press the ENTER key in a form.
-* Press the access key for a control.
-* Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.
-
-
-
-==Notes==
-None.
-
-==Specifications==
-{| class="wikitable"
-|-
-! Specification !! Status !! Relevant changes
-|-
-| [[HTML5]] || Working Draft || ''list changes'' (onclick attribute)
-|-
-| [[DOM 3 Events: MouseEvent]] || Working Draft || ''list changes''
-|-
-| [[DOM Level 2: MouseEvent]] || Recommendation || Original DOM specification
-|-
-| [[HTML 4.01]] || Recommendation || Original onclick attribute specification
-|}
-
-
-==Browser Compatibility==
-
-===Desktop===
+<tr>
+<th> Specification </th>
+<th> Status </th>
+<th> Relevant changes
+</th></tr>
+<tr>
+<td> <a href="/w/index.php?title=HTML5&amp;action=edit&amp;redlink=1" class="new" title="HTML5 (page does not exist)">HTML5</a> </td>
+<td> Working Draft </td>
+<td> <i>list changes</i> (onclick attribute)
+</td></tr>
+<tr>
+<td> <a href="/w/index.php?title=DOM_3_Events:_MouseEvent&amp;action=edit&amp;redlink=1" class="new" title="DOM 3 Events: MouseEvent (page does not exist)">DOM 3 Events: MouseEvent</a> </td>
+<td> Working Draft </td>
+<td> <i>list changes</i>
+</td></tr>
+<tr>
+<td> <a href="/w/index.php?title=DOM_Level_2:_MouseEvent&amp;action=edit&amp;redlink=1" class="new" title="DOM Level 2: MouseEvent (page does not exist)">DOM Level 2: MouseEvent</a> </td>
+<td> Recommendation </td>
+<td> Original DOM specification
+</td></tr>
+<tr>
+<td> <a href="/w/index.php?title=HTML_4.01&amp;action=edit&amp;redlink=1" class="new" title="HTML 4.01 (page does not exist)">HTML 4.01</a> </td>
+<td> Recommendation </td>
+<td> Original onclick attribute specification
+</td></tr></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Browser_Compatibility">Browser Compatibility</span></h2>
+<h3><span class="mw-headline" id="Desktop">Desktop</span></h3>
 <div id="compat-desktop">
   <table class="compat-table">
        <tr>
@@ -260,18 +335,17 @@ None.
       </tr>
       <tr>
         <td>Basic support</td>
-        <td>5.0<br/>4.0 <span style='border:1px solid black; padding:2px'>-webkit</span></td>
-        <td>{{ CompatGeckoDesktop("1") }}</td>
+        <td>5.0<br />4.0 <span style="border:1px solid black; padding:2px">-webkit</span></td>
+        <td><a href="/w/index.php?title=Template:CompatGeckoDesktop(%221%22)&amp;action=edit&amp;redlink=1" class="new" title="Template:CompatGeckoDesktop(&quot;1&quot;) (page does not exist)">Template:CompatGeckoDesktop("1")</a></td>
         <td>5.5</td>
         <td>7.0</td>
         <td>1.0</td>
       </tr>
   </table>
 </div>
-
-'''''Implementation Note:''' The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.''
-
-===Mobile===
+<p><i><b>Implementation Note:</b> The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.</i>
+</p>
+<h3><span class="mw-headline" id="Mobile">Mobile</span></h3>
 <div id="compat-mobile">
   <table class="compat-table">
       <tr>
@@ -285,71 +359,83 @@ None.
       <tr>
         <td>Basic support</td>
         <td>1.0</td>
-        <td>{{ CompatGeckoMobile("1") }}</td>
+        <td><a href="/w/index.php?title=Template:CompatGeckoMobile(%221%22)&amp;action=edit&amp;redlink=1" class="new" title="Template:CompatGeckoMobile(&quot;1&quot;) (page does not exist)">Template:CompatGeckoMobile("1")</a></td>
         <td>1.0</td>
         <td>1.0</td>
         <td>1.0</td>
       </tr>
   </table>
 </div>
-
-===Compatibility Notes===
-
-{| class="wikitable"
-! Browser
-! Version
-! Note
-|-
-| Firefox
-| 15.0
-| Introduces the <code>buttons</code> attribute on attribute on Windows, Linux (GTK) and Mac. On Mac OS X 10.5, the <code>buttons</code> attribute always returns 0 because there is no platform API for implementing this feature.
-|-
-| Firefox
-| 15.0
-| On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.
-|-
-| Firefox
-| 15.0
-| On Linux (GTK), 4th button and 5th button are not supported. And also, <code>mouseup</code> event always have the releasing button information in this attribute value.
-|}
-
-==See Also==
-The [[DOM Reference]] and the [[DOM Event Reference]].
-
-===Related Event Properties===
-* <code>[[mouseenter]]</code>
-* <code>[[mouseleave]]</code>
-* <code>[[mousedown]]</code>
-* <code>[[mousemove]]</code>
-* <code>[[mousedown]]</code>
-* <code>[[mouseout]]</code>
-* <code>[[mouseover]]</code>
-* <code>[[mouseup]]</code>
-* <code>click</code>
-* <code>[[dblclick]]</code>
-
-===Related DOM Interfaces===
-* <code>[[Event]]</code>
-** <code>[[UIEvent]]</code>
-*** <code>[[MouseEvent]]</code>
-
-===Related DOM properties===
-* <code>[[DOM/element/properties/currentStyle | element.currentStyle]]</code>
-* <code>[[DOM/element/properties/defaults | element.defaults]]</code> [[Flag:Non-standard]] ''IE Only''
-
-===Allowed Elements===
-'''list elements? or list element groups?'''
-* All Core HTML elements
-* All Core SVG elements
-* any others in comma-separated list
-
-<details>
-	<summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
+<h3><span class="mw-headline" id="Compatibility_Notes">Compatibility Notes</span></h3>
+<table class="wikitable">
+<tr>
+<th> Browser
+</th>
+<th> Version
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td> Firefox
+</td>
+<td> 15.0
+</td>
+<td> Introduces the <code>buttons</code> attribute on attribute on Windows, Linux (GTK) and Mac. On Mac OS X 10.5, the <code>buttons</code> attribute always returns 0 because there is no platform API for implementing this feature.
+</td></tr>
+<tr>
+<td> Firefox
+</td>
+<td> 15.0
+</td>
+<td> On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.
+</td></tr>
+<tr>
+<td> Firefox
+</td>
+<td> 15.0
+</td>
+<td> On Linux (GTK), 4th button and 5th button are not supported. And also, <code>mouseup</code> event always have the releasing button information in this attribute value.
+</td></tr></table>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<p>The <a href="/w/index.php?title=DOM_Reference&amp;action=edit&amp;redlink=1" class="new" title="DOM Reference (page does not exist)">DOM Reference</a> and the <a href="/w/index.php?title=DOM_Event_Reference&amp;action=edit&amp;redlink=1" class="new" title="DOM Event Reference (page does not exist)">DOM Event Reference</a>.
+</p>
+<h3><span class="mw-headline" id="Related_Event_Properties">Related Event Properties</span></h3>
+<ul><li> <code><a href="/w/index.php?title=mouseenter&amp;action=edit&amp;redlink=1" class="new" title="mouseenter (page does not exist)">mouseenter</a></code></li>
+<li> <code><a href="/w/index.php?title=mouseleave&amp;action=edit&amp;redlink=1" class="new" title="mouseleave (page does not exist)">mouseleave</a></code></li>
+<li> <code><a href="/w/index.php?title=mousedown&amp;action=edit&amp;redlink=1" class="new" title="mousedown (page does not exist)">mousedown</a></code></li>
+<li> <code><a href="/w/index.php?title=mousemove&amp;action=edit&amp;redlink=1" class="new" title="mousemove (page does not exist)">mousemove</a></code></li>
+<li> <code><a href="/w/index.php?title=mousedown&amp;action=edit&amp;redlink=1" class="new" title="mousedown (page does not exist)">mousedown</a></code></li>
+<li> <code><a href="/w/index.php?title=mouseout&amp;action=edit&amp;redlink=1" class="new" title="mouseout (page does not exist)">mouseout</a></code></li>
+<li> <code><a href="/w/index.php?title=mouseover&amp;action=edit&amp;redlink=1" class="new" title="mouseover (page does not exist)">mouseover</a></code></li>
+<li> <code><a href="/w/index.php?title=mouseup&amp;action=edit&amp;redlink=1" class="new" title="mouseup (page does not exist)">mouseup</a></code></li>
+<li> <code>click</code></li>
+<li> <code><a href="/w/index.php?title=dblclick&amp;action=edit&amp;redlink=1" class="new" title="dblclick (page does not exist)">dblclick</a></code></li></ul>
+<h3><span class="mw-headline" id="Related_DOM_Interfaces">Related DOM Interfaces</span></h3>
+<ul><li> <code><a href="/w/index.php?title=Event&amp;action=edit&amp;redlink=1" class="new" title="Event (page does not exist)">Event</a></code>
+<ul><li> <code><a href="/w/index.php?title=UIEvent&amp;action=edit&amp;redlink=1" class="new" title="UIEvent (page does not exist)">UIEvent</a></code>
+<ul><li> <code><a href="/w/index.php?title=MouseEvent&amp;action=edit&amp;redlink=1" class="new" title="MouseEvent (page does not exist)">MouseEvent</a></code></li></ul></li></ul></li></ul>
+<h3><span class="mw-headline" id="Related_DOM_properties">Related DOM properties</span></h3>
+<ul><li> <code><a href="/w/index.php?title=DOM/element/properties/currentStyle&amp;action=edit&amp;redlink=1" class="new" title="DOM/element/properties/currentStyle (page does not exist)"> element.currentStyle</a></code></li>
+<li> <code><a href="/w/index.php?title=DOM/element/properties/defaults&amp;action=edit&amp;redlink=1" class="new" title="DOM/element/properties/defaults (page does not exist)"> element.defaults</a></code> <a href="/w/index.php?title=Flag:Non-standard&amp;action=edit&amp;redlink=1" class="new" title="Flag:Non-standard (page does not exist)">Flag:Non-standard</a> <i>IE Only</i></li></ul>
+<h3><span class="mw-headline" id="Allowed_Elements">Allowed Elements</span></h3>
+<p><b>list elements? or list element groups?</b>
+</p>
+<ul><li> All Core HTML elements</li>
+<li> All Core SVG elements</li>
+<li> any others in comma-separated list</li></ul>
+<p>&lt;details&gt;
+	&lt;summary&gt;This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.&lt;/summary&gt;
+</p>
 	<div>
-		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
-<a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
+<p>		Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
+&lt;a href="<a rel="nofollow" class="external free" href="http://developer.mozilla.org/foo">http://developer.mozilla.org/foo</a>" target="_blank"&gt;Foo&lt;/a&gt;
+</p>
 	</div>
 	<div>
-		Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+<p>		Portions of this content come from Foo.org: &lt;a href="<a rel="nofollow" class="external free" href="http://foo.org/baz">http://foo.org/baz</a>" target="_blank"&gt;Baz&lt;/a&gt;
+</p>
 	</div>
-</details>
+<p>&lt;/details&gt;
+</p>
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:203-0!*!0!!*!*!*!esi=1 and timestamp 20150731181529 and revision id 768
+ -->

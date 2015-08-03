@@ -1,3 +1,6 @@
+---
+title: WPD:Community/Meetings/General/2014/0131 raw mtg notes
+---
 <pre>
 julee
 9:02 can anyone scribe?
@@ -28,7 +31,7 @@ renoirb
 renoirb
 9:11 ACTION: Max to do the final import tonight
 9:11 ack next
-9:11 AGENDA: Blog posts from Max & Eliezer
+9:11 AGENDA: Blog posts from Max &amp; Eliezer
 renoirb
 9:11 Julee:  I saw the google docs you started
 renoirb
@@ -69,9 +72,9 @@ julee
 julee
 9:22 * JS Import
 ** Final import
-** Blog posts from Max & Eliezer
+** Blog posts from Max &amp; Eliezer
 * Preparing for Web Platform Wednesdays restart with JS content
-** Spreadsheet & landing page are done
+** Spreadsheet &amp; landing page are done
 ** We need another badge, no?
 9:22 Now: Golden standard
 9:23 shepazu [~shepazu@192.150.22.55] entered the room.
@@ -89,7 +92,7 @@ renoirb
 9:26 ... links and references
 9:27 ... so we need that ONE VOLUNTEER to make that example page
 9:27 ... and the community to review it
-9:28 ACTION: Somebody to find a volunteer for that Golden page :)
+9:28 ACTION: Somebody to find a volunteer for that Golden page&#160;:)
 9:28 shaunbak_ left the room (quit: Remote host closed the connection).
 renoirb
 9:29 Julee: Also we can accept people to volunteer on specific section of a content page
@@ -123,7 +126,7 @@ julee
 julee
 9:36 … I'm also fine tuning install, adjust apache servers between servers.
 9:36 julee: how long to get to HA 99%
-9:36 ?
+9:36&#160;?
 9:36 renoirb: right now it works well.
 9:37 … there's a lot of work to do.
 9:37 … there's also compatibility table work so I can't work on this all the time.
@@ -134,7 +137,7 @@ julee
 9:37 … I have to install tools to make sure.
 9:38 … wish I could have more reassurance.
 9:38 julee: if you install tools, you'll be able to predict better.
-9:38 renoirb : I see in current tools what's happening
+9:38 renoirb&#160;: I see in current tools what's happening
 9:38 … But when you see 503s, I need to adjust things.
 9:39 … Errors on servers are always going to be a 503 or whatever.
 9:41 ckwalsh [~ckwalsh@facebook/platform/ckwalsh] entered the room.
@@ -193,12 +196,12 @@ julee
 9:51 … there had been some discussions about how to represent it
 9:51 ptressel [~chatzilla@174-31-227-126.tukw.qwest.net] entered the room.
 julee
-9:51 … all we want is to import MDN & caniuse for now
+9:51 … all we want is to import MDN &amp; caniuse for now
 9:51 … eventually, data will come from Testthewebforward
 9:51 … Right now we have the code from Pat to build the HTML tables
 9:52 … We're about to start this taskforce
 9:52 … to use TestTWF
-9:52 … Need to not cut off data that we have from MDN & caniuse
+9:52 … Need to not cut off data that we have from MDN &amp; caniuse
 9:53 … ^ historical data
 9:53 … Testtwf will be additive
 9:53 … browser sniffing as well
@@ -220,8 +223,8 @@ julee
 9:57 What if Testtwf doesn't have test?
 9:57 Are we no longer going to take the contributed data from others and triangulate the data?
 9:57 renoirb: we'll do browser sniffing and push the results
-9:58 Julee: I gues there's already a taskforce & designs, I look forward toseeing some of this.
-9:58 Eliot: Testtwf : tests are donated
+9:58 Julee: I gues there's already a taskforce &amp; designs, I look forward toseeing some of this.
+9:58 Eliot: Testtwf&#160;: tests are donated
 9:59 … the goal is to use this test suite to validate
 9:59 … If no test, spec can't get to Recommendation phase without tests for each normative statement
 9:59 … 6 figures for HTML5 of tests
@@ -235,9 +238,9 @@ julee
 10:01 jen: hope we still have a human element, here
 10:01 eliot: Yes
 10:01 … And what if spec doesn't have tests
-10:02 jen: really is a resource : can I really use this right now
+10:02 jen: really is a resource&#160;: can I really use this right now
 10:02 … test harness is great, but when data is aggregated and triangulated, it gives a human reality check
-10:03 eliot: yes, but for the purpose of the compatibility table : it is about the data
+10:03 eliot: yes, but for the purpose of the compatibility table&#160;: it is about the data
 10:03 jen: that's not how folks use caniuse
 10:03 eliot: We're saying teh same thing
 10:03 jen: but maybe we have different definitions of whether something works
@@ -275,3 +278,6 @@ renoirb
 10:14 adjourned
 
 </pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:14986-0!*!*!*!*!*!*!esi=1 and timestamp 20150731185001 and revision id 45418
+ -->

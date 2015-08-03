@@ -1,3 +1,6 @@
+---
+title: WPD:Community/Meetings/General/2013/1206 raw mtg notes
+---
 <pre>
 eliezerb joined  ⇐ mstalfoort, chrismills and Garbee-Shop quit  ↔ paul_irish nipped out  
 
@@ -17,9 +20,9 @@ jensimmons joined (~jensimmon@drupal.org/user/140882/view)
 
  (phistuck) Hello!
 
- (phistuck) I am a boy. :)	
+ (phistuck) I am a boy.&#160;:)	
 
- (jensimmons) "The conference is restricted at this time"?
+ (jensimmons) &quot;The conference is restricted at this time&quot;?
 
  (jensimmons) I can't get into the conference call
 
@@ -33,7 +36,7 @@ jensimmons joined (~jensimmon@drupal.org/user/140882/view)
 
 jswisher joined (~jswisher@cpe-173-174-55-161.austin.res.rr.com)
 
- (phistuck) (It is pronounced like "feestook")
+ (phistuck) (It is pronounced like &quot;feestook&quot;)
 
 eliot joined us on the phone
 
@@ -55,9 +58,9 @@ Agenda:
 
 * David Singer has proposed a WebVTT content project
 
-TOPIC : Jen Simmons has a mock up of the HTML elements pages
+TOPIC&#160;: Jen Simmons has a mock up of the HTML elements pages
 
-jensimmons : this is the 2nd draft of how the html elements pages could display
+jensimmons&#160;: this is the 2nd draft of how the html elements pages could display
 
 ... this was put together with real content
 
@@ -109,7 +112,7 @@ Garbee-Shop joined (~Garbee@192.34.161.117)
 
 shepazu: part of the original mission, but...
 
-jensimmons: Max Polks suggested "Usage" instead of "Details"
+jensimmons: Max Polks suggested &quot;Usage&quot; instead of &quot;Details&quot;
 
 ... for me, it's more about real use, industry agreed upon suggestions
 
@@ -119,9 +122,9 @@ jensimmons: Max Polks suggested "Usage" instead of "Details"
 
  (jensimmons) ARIA roles
 
-... Details : could use a better word
+... Details&#160;: could use a better word
 
-... Max sent links to other sites, such as cheatsheets & another page.
+... Max sent links to other sites, such as cheatsheets &amp; another page.
 
 ... this section can be presented in more than one way. people who don't know what this means
 
@@ -137,7 +140,7 @@ shepazu: that's part of the compat. projects
 
 jensimmons: specs are listed on mdn, what specs should be listed?
 
- (phistuck) Though the obsolete/deprecated/outdated ones should be hidden by default with a "More specifications..." link
+ (phistuck) Though the obsolete/deprecated/outdated ones should be hidden by default with a &quot;More specifications...&quot; link
 
 ... history: when was something introduced, how things changed, what exactly changes, becomes less important 
 
@@ -145,7 +148,7 @@ eliezerb will reconnect
 
 ... as it gets more history
 
-... external links : should we do this is up for debate.
+... external links&#160;: should we do this is up for debate.
 
 ... we could decide an order...
 
@@ -153,7 +156,7 @@ shepazu: 1st: examples at the top: thinks there will be a lot, so other content 
 
 ... attribs should be above examples
 
-... understand why examples are high, but some of the specific details & syntax should be up there as well
+... understand why examples are high, but some of the specific details &amp; syntax should be up there as well
 
 ... even if it's a simple element
 
@@ -265,11 +268,11 @@ dsigner: there is material out there, so sooner is better, we're looking for WPD
 
 ... standardization questions, but really want to focus on the fact that we can have a11y now
 
-shepazu ; would love to host an example
+shepazu&#160;; would love to host an example
 
  (dsinger) Silvia Pfieffer
 
-dsinger : ^ ^ she will know
+dsinger&#160;: ^ ^ she will know
 
  (dsinger) Silvia has lots of examples
 
@@ -339,3 +342,6 @@ shepazu: yes, but still talking about how relationship will work
 
 shepazu: thanks for all the great work this week!
 </pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:12863-0!*!*!*!*!*!*!esi=1 and timestamp 20150731184857 and revision id 41907
+ -->

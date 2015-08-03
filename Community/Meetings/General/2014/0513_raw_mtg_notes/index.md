@@ -1,30 +1,29 @@
-Also [http://www.w3.org/mid/CAFDDJ7y0Q8n=0Jm9ySxTyyHsCXT7J+_boFUYE8UWGwwnbJJfeA@mail.gmail.com archived in the mailing list]
-
-== Presents ==
-
-On IRC, and call:
-* AmeliaBR (scribe)
-* renoirb
-* shepazu (chair)
-* Julee
-* Eliot
-* JenSimmons
-
-On IRC:
-* eliezerb
-* jswisher
-
-== Topics ==
-
-* Discussing scheduling of telecon re DocSprint Europe
-* Page formatting
-* Readiness markers
-
-== Notes ==
-
-=== Discussing scheduling of telecon re DocSprint Europe ===
+---
+title: WPD:Community/Meetings/General/2014/0513 raw mtg notes
+---
+<p>Also <a rel="nofollow" class="external text" href="http://www.w3.org/mid/CAFDDJ7y0Q8n=0Jm9ySxTyyHsCXT7J+_boFUYE8UWGwwnbJJfeA@mail.gmail.com">archived in the mailing list</a>
+</p>
+<h2><span class="mw-headline" id="Presents">Presents</span></h2>
+<p>On IRC, and call:
+</p>
+<ul><li> AmeliaBR (scribe)</li>
+<li> renoirb</li>
+<li> shepazu (chair)</li>
+<li> Julee</li>
+<li> Eliot</li>
+<li> JenSimmons</li></ul>
+<p>On IRC:
+</p>
+<ul><li> eliezerb</li>
+<li> jswisher</li></ul>
+<h2><span class="mw-headline" id="Topics">Topics</span></h2>
+<ul><li> Discussing scheduling of telecon re DocSprint Europe</li>
+<li> Page formatting</li>
+<li> Readiness markers</li></ul>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<h3><span class="mw-headline" id="Discussing_scheduling_of_telecon_re_DocSprint_Europe">Discussing scheduling of telecon re DocSprint Europe</span></h3>
 <pre>
-shepazu & Julee:  Discussing scheduling of telecon re DocSprint Europe
+shepazu &amp; Julee:  Discussing scheduling of telecon re DocSprint Europe
 ... was scheduled for Friday, but will try to reschedule
 eliot:  reminder that Jay had asked for suggestion of topics for DocSprint
 Julee:  Should anyone be working on the Javascript import review?
@@ -40,15 +39,14 @@ shepazu:  if SVG is main focus, need to make sure people are familiar
 ... will discuss further when everyone involved with DocSprint is available
 (i.e., rescheduled telcon)
 </pre>
-
-=== Page formatting ===
+<h3><span class="mw-headline" id="Page_formatting">Page formatting</span></h3>
 <pre>
 All agreed, minus sarcasm from shepazu, that tables are ugly and confusing
 Jen:  Should only have title, not path, should be list not table
-<AmeliaBR> http://docs.webplatform.org/wiki/css/properties
-<AmeliaBR> ^^Example of inline query structure
+&lt;AmeliaBR&gt; http://docs.webplatform.org/wiki/css/properties
+&lt;AmeliaBR&gt; ^^Example of inline query structure
 
-<AmeliaBR> Alternative result formats for queries:
+&lt;AmeliaBR&gt; Alternative result formats for queries:
 http://semantic-mediawiki.org/wiki/Help:Result_formats
 
 jensimmons: Would be nice to condense long lists as hierachy, possibly
@@ -60,37 +58,35 @@ shepazu:  is there someone else who can experiment with these queries to
 figure out better output?  Can we reach out beyond our usual core of
 contributors?
 
-<+eliezerb> AmeliaBR: I did some work with SMW Queries
+&lt;+eliezerb&gt; AmeliaBR: I did some work with SMW Queries
 
-<@shepazu> eliezerb, do you have time to help with this formatting issue?
+&lt;@shepazu&gt; eliezerb, do you have time to help with this formatting issue?
 
-<+eliezerb> shepazu: Yes, I just need to fresh my memory about those
+&lt;+eliezerb&gt; shepazu: Yes, I just need to fresh my memory about those
 queries, but I'm always here to help
 
-<+eliezerb> 
+&lt;+eliezerb&gt; 
 
-<@shepazu> eliezerb, let's talk after the call
+&lt;@shepazu&gt; eliezerb, let's talk after the call
 
-<+eliezerb> cool
+&lt;+eliezerb&gt; cool
 
-<eliot> Can I throw out there that this could be a list with more details
+&lt;eliot&gt; Can I throw out there that this could be a list with more details
 on hover or another means?
 
-<AmeliaBR> Plan would be (a)  replace index tables with query lists (b)
+&lt;AmeliaBR&gt; Plan would be (a)  replace index tables with query lists (b)
 examine more nuanced options when lists are really long
 </pre>
-
-=== Readiness markers ===
-
+<h3><span class="mw-headline" id="Readiness_markers">Readiness markers</span></h3>
 <pre>
 jensimmons:  discussing different sample images from emails she sent out
 
-<@renoirb> shepazu:
+&lt;@renoirb&gt; shepazu:
 http://www.w3.org/mid/CAB0bRKOCzGOzrHESCEgT2mNecvyOkQ+bU_19wvpWFPJeie2FHw@mail.gmail.com
 
-<@renoirb> is one of them
+&lt;@renoirb&gt; is one of them
 
-<@renoirb> This one has a lot of images
+&lt;@renoirb&gt; This one has a lot of images
 http://lists.w3.org/Archives/Public/public-webplatform/2014May/0044.html
 
 eliot: I find angled ribbon distracting
@@ -145,35 +141,35 @@ issues with yellow background
 
 ...could just swap purple and red from current colour scheme
 
-<@renoirb> +1 on colors choice to Jen. BTW, I like the color choice anyway
+&lt;@renoirb&gt; +1 on colors choice to Jen. BTW, I like the color choice anyway
 
 julee: we can always do something, then adjust based on feedback
 
-<@renoirb> Anyway, we aren't stuck on old IE versions so text and colors
+&lt;@renoirb&gt; Anyway, we aren't stuck on old IE versions so text and colors
 won't need images 
 
 shepazu: work on the design and layout first, changing colours later is easy
 
-jensimmons: worried about terms "coming later" is problematic, suggests
+jensimmons: worried about terms &quot;coming later&quot; is problematic, suggests
 that people shouldn't work on this
 
-AmeliaBR: "not started" might be confusing on an unreviewed import page
+AmeliaBR: &quot;not started&quot; might be confusing on an unreviewed import page
 
-* renoirb just thought about "needs some love"
+* renoirb just thought about &quot;needs some love&quot;
 
-<@renoirb> +1 "needs work"
+&lt;@renoirb&gt; +1 &quot;needs work&quot;
 
-shepazu:  "needs work"
+shepazu:  &quot;needs work&quot;
 
-<@renoirb> q+
+&lt;@renoirb&gt; q+
 
-jensimmons:  "needs work" is good, since it encourages contribution
+jensimmons:  &quot;needs work&quot; is good, since it encourages contribution
 
 shepazu:  sounds good for now, this isn't hard to change later
 
 ...given the prominence, is it clear that status refers to article not specs
 
-AmeliaBR:  example text box was "This article is..." but that's lost in
+AmeliaBR:  example text box was &quot;This article is...&quot; but that's lost in
 graphic examples
 
 renoirb: although we want to move warnings out of the way for good content,
@@ -196,9 +192,9 @@ future that might change
 
 (tangent on how to display compatibility info tabled until future)
 
-jensimmons: for now, let's use "Ready to Use"
+jensimmons: for now, let's use &quot;Ready to Use&quot;
 
-AmeliaBR: should we still put the template up for now, with a <div> for the
+AmeliaBR: should we still put the template up for now, with a &lt;div&gt; for the
 text?
 
 jensimmons:  Yes, add a line of html at a place where it makes sense as
@@ -206,7 +202,7 @@ plain text/screen reader/api
 
 renoirb: might be able to add info in http headers as well
 
-<@renoirb> ... I think its possible to query through PHP result of your
+&lt;@renoirb&gt; ... I think its possible to query through PHP result of your
 work AmeliaBR and i'd do HTTP headers.
 
 shepazu: Action to AmeliaBR: please go ahead with template to add this info
@@ -214,37 +210,37 @@ for jensimmons to use for styling
 
 shepazu: talking about scheduling template updates
 
-<+jensimmons> <div class=“readiness-marker”>This article is <a
-href=“”>Ready to Use</a></div>
+&lt;+jensimmons&gt; &lt;div class=“readiness-marker”&gt;This article is &lt;a
+href=“”&gt;Ready to Use&lt;/a&gt;&lt;/div&gt;
 
-<+jensimmons> That HTML should also be the fallback for any browsers that
+&lt;+jensimmons&gt; That HTML should also be the fallback for any browsers that
 can’t use the CSS we write to make the text verticle. Old IE, etc.
 
-<@renoirb> ... renoirb asks to know when, he'll take care of ensuring it
+&lt;@renoirb&gt; ... renoirb asks to know when, he'll take care of ensuring it
 doesnt blow the server 
 
-<@renoirb> note that the next site in /upgrade/ will possibly prevent
+&lt;@renoirb&gt; note that the next site in /upgrade/ will possibly prevent
 current problems
 
 shepazu:  IMPORTANT note: any changes to templates should be scheduled and
 renoirb should be warned, so that the server queue doesn't crash
 
-<@renoirb> Thanks for touching base with me AmeliaBR
+&lt;@renoirb&gt; Thanks for touching base with me AmeliaBR
 
 renoirb:  timing not essential, but I need to know.  Hopefully,  next
 server upgrade will take care of problem
 
-<@renoirb> server upgrade is basically MediaWiki+SMW software upgrade
+&lt;@renoirb&gt; server upgrade is basically MediaWiki+SMW software upgrade
 
-<@renoirb> (Ubuntu server version isn't related to the possible factor of
+&lt;@renoirb&gt; (Ubuntu server version isn't related to the possible factor of
 improvement on this particular issue)
 
-<@renoirb> SMW problem is basically: A widely used template called into
+&lt;@renoirb&gt; SMW problem is basically: A widely used template called into
 another page creates jobs inside mediawiki.  There is a bug in SMW when MW
 job queue is run that creates sub tasks... creating thousands and thousands
 of jobs.
 
-<@julee> Sorry. Have to run…
+&lt;@julee&gt; Sorry. Have to run…
 
 shepazu: Once we have readiness flags up, we will have to go through and
 set good pages to ready/almost done/etc.
@@ -277,30 +273,33 @@ main.  What is default?
 jensimmons: default should be nothing displays until the page status has
 been set.
 
-<@renoirb> We can dry run on the /upgrade/ wiki too
+&lt;@renoirb&gt; We can dry run on the /upgrade/ wiki too
 
 jensimmons: I will be working on the CSS
 
-<@renoirb> jensimmons, AmeliaBR ^
+&lt;@renoirb&gt; jensimmons, AmeliaBR ^
 
 Thanks renoirb.
 
-<@renoirb> I can make you admin there, or just drop the database and import
+&lt;@renoirb&gt; I can make you admin there, or just drop the database and import
 a new snapshot off of the live site.
 
-<+jensimmons> Thanks everyone!!!! I think this readiness state stuff is
+&lt;+jensimmons&gt; Thanks everyone!!!! I think this readiness state stuff is
 really good!
 
-<+jensimmons> I will help people understand WPD — how to use it, and how to
+&lt;+jensimmons&gt; I will help people understand WPD — how to use it, and how to
 help
 
-<@renoirb> Next time, AmeliaBR, i'll scribe
+&lt;@renoirb&gt; Next time, AmeliaBR, i'll scribe
 
-<AmeliaBR> renoirb:  whichever works for you (re upgrade wiki).  And I'll
+&lt;AmeliaBR&gt; renoirb:  whichever works for you (re upgrade wiki).  And I'll
 remind you if you're late next week!
 
-<@renoirb> np AmeliaBR.
+&lt;@renoirb&gt; np AmeliaBR.
 
-<@renoirb> I'm busy full time on authentication ATM, if you have technical
+&lt;@renoirb&gt; I'm busy full time on authentication ATM, if you have technical
 worries, just ping me
 </pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:22160-0!*!*!!*!*!*!esi=1 and timestamp 20150731185232 and revision id 54802
+ -->

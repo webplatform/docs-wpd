@@ -1,777 +1,1405 @@
-==Minimal Viable Product==
-This table tracks the tasks we want to complete before we launch webplatform.org and which ones are required to create a minimal viable product (MVP).  Current categories for tasks are: Content, Marketing, and Infrastructure.
+---
+title: WPD:Tasks
+---
+<h2><span class="mw-headline" id="Minimal_Viable_Product">Minimal Viable Product</span></h2>
+<p>This table tracks the tasks we want to complete before we launch webplatform.org and which ones are required to create a minimal viable product (MVP).  Current categories for tasks are: Content, Marketing, and Infrastructure.
+</p>
+<table class="wikitable sortable">
+<tr>
+<th> Category
+</th>
+<th> Topic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Target Time (weeks)
+</th>
+<th> Note
+</th>
+<th> Required
+</th></tr>
+<tr>
+<td> Infra
+</td>
+<td> Wiki Setup
+</td>
+<td> Ryan
+</td>
+<td> Done
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Marketing
+</td>
+<td> Skin
+</td>
+<td> Marketing taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Design">Design</a>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Content Migrated
+</td>
+<td> Content taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Content_Migration">Content Migration</a>. Requires MediaWiki component (some)
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Content Architecture
+</td>
+<td> Content taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Content_Architecture">Content Architecture</a>.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Original_Content
+</td>
+<td> Content taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Original_Content">Original Content</a>|
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Mobilize the MDN community to free up the content
+</td>
+<td> (Janet) Mozilla
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Get permissions from authors to migrate content from CC-BY-SA to CC-BY. <b>Move down to content taskforce.</b>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Twitter account @webplatform
+</td>
+<td> Doug
+</td>
+<td> Done
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Marketing
+</td>
+<td> Twitter policy
+</td>
+<td> Marketing taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Will be done by marketing team
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> IRC channel #webplatform
+</td>
+<td> Doug
+</td>
+<td> Done
+</td>
+<td>
+</td>
+<td> <b>Needs to be documented where it is.</b>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Web client (IRC)
+</td>
+<td> Doug
+</td>
+<td> Done (no skin)
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component. <b>Needs to be documented where it is</b>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Logging bot (IRC)
+</td>
+<td> Doug
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Community Organization
+</td>
+<td> Content taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Community_Organization">Community Organization</a>. See Art of Community
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Flags
+</td>
+<td> Content taskforce
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Page_Structure"> Page Structure</a> Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Comments
+</td>
+<td> Doug
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Clear URL structure
+</td>
+<td> Content taskforce
+</td>
+<td> largely done
+</td>
+<td>
+</td>
+<td> See below.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td>&#160;???
+</td>
+<td> Easy page creation
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> See <a href="#Page_Structure"> Page Structure</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Internationalization
+</td>
+<td> Doug (with support of Ryan, on behalf of W3C I18n team)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Language switching
+</td>
+<td> Ryan
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Sandbox (live viewer)
+</td>
+<td> Lea
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Forums (Q2A)
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires SSO, Skin. Will this hold up the launch?  Needs discussion first.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content?
+</td>
+<td> Teaching materials
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Moodle? Later
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Federated Login feature
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires MediaWiki component
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Required email address for accounts
+</td>
+<td> Doug
+</td>
+<td> Done
+</td>
+<td>
+</td>
+<td> Doesn't work as well as necessary.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Single sign in (SSO)
+</td>
+<td> (Doug*)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Case by case basis. This captures that the blog and wiki need to have their login integrated.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Blog
+</td>
+<td> (Doug)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Requires SSO, Skin. Requires MediaWiki component
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Email feedback account set up
+</td>
+<td> Doug
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Others: Twitter, blog, IRC, forums, comments in topics
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> How to use this site
+</td>
+<td> Lea &amp; Doug
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> How to help (includes migrating MDN)
+</td>
+<td> Janet. (In content taskforce)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Privacy policy
+</td>
+<td> Wendy
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Metrics and tracking
+</td>
+<td> Eliot (and Doug)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> (Google analytics? Adobe? Piwik?) Create Wiki page with policy about collecting and sharing metrics.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td>
+</td>
+<td> Metrics policy
+</td>
+<td> Wendy
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Accessibility
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> This needs to be broken down into separate things. Like ensuring the site is accessible, and content on accessibility
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Issue tracker (bugs)
+</td>
+<td> Eliot
+</td>
+<td> Done
+</td>
+<td>
+</td>
+<td> In W3C bugzilla. See <a rel="nofollow" class="external free" href="https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org">https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org</a>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Task-oriented Tutorials
+</td>
+<td> Content taskforce.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Small tutorials about how to, say, center content on the web platform.
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Fast.ly CDN
+</td>
+<td> Doug*, Ryan Lane to do actual work.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> System backup of site
+</td>
+<td> Doug*, Ryan Lane to do actual work.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Infra
+</td>
+<td> Deployment script for site
+</td>
+<td> Doug*, Ryan Lane to do actual work.
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td> Content
+</td>
+<td> Copyright
+</td>
+<td> Wendy
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Need to approve the terms by which people can use the content on WPD. Start with <a rel="nofollow" class="external text" href="https://www.w3.org/2011/docs/wiki/License_and_Reuse">the text on the W3C Wiki</a>.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td>&#160;???
+</td>
+<td> Figure out list of "early preview" people
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Ideally include people who will actually do <i>work</i>. Maybe give some of the people with invites a small number of invites? Have a gatekeeper of the actual signups.
+</td>
+<td> yes
+</td></tr>
+<tr>
+<td>&#160;???
+</td>
+<td> Finalize license of web platform logo
+</td>
+<td> Wendy (with Alex to help)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Marketing
+</td>
+<td> Organize pre-launch hackathon
+</td>
+<td> Alex (Coordinate with Eliot)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> Likely on west coast
+</td>
+<td>  yes
+</td></tr>
+<tr>
+<td> Marketing
+</td>
+<td> Organize post-announcement community engagement (and hackathon?)
+</td>
+<td> Peter (?)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>  yes
+</td></tr></table>
+<h2><span class="mw-headline" id="Subtopics">Subtopics</span></h2>
+<p>These are broken out from the top-level table.
+</p><p><br />
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Content_Migration">Content Migration</span></h3>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td>Figure out locations for all articles
+</td>
+<td>
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td> Blocked on finalizing the URL structure. First step is to break up the list of articles to set up. Then assign people to take responsibility for each section.
+</td></tr>
+<tr>
+<td> Migrate test article from MSDN
+</td>
+<td>
+</td>
+<td> Doug*, work will be done by Yaron
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Migrate existing articles
+</td>
+<td>
+</td>
+<td> Doug*, work will be done by Yaron
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">Figure out concrete MDN licensing flow
+</td>
+<td>New pages
+</td>
+<td> Janet
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Merging content in
+</td>
+<td> Janet
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>SA License
+</td>
+<td> Janet
+</td>
+<td>
+</td>
+<td>A manual attirbution block at bottom?
+</td></tr></table>
+<h3><span class="mw-headline" id="Content_Architecture">Content Architecture</span></h3>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td>Final URL structure/ content organization
+</td>
+<td>
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Create stub articles to fill out entire hierarchy
+</td>
+<td>
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Language dropdown
+</td>
+<td>
+</td>
+<td> Doug*, work done by Yaron
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Semantic mediawiki queries on listing/API summary pages to pull in all relevant attributes
+</td>
+<td>
+</td>
+<td> Alex*, work done by Yaron
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Placement of stewards' pages
+</td>
+<td>
+</td>
+<td> Doug
+</td>
+<td>
+</td>
+<td>Webplatform.org/stewards/steward_name
+</td></tr>
+<tr>
+<td>Indicating standards track APIs
+</td>
+<td>
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td> Just figuring out how to use tags/flags
+</td></tr></table>
+<h3><span class="mw-headline" id="Original_Content">Original Content</span></h3>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td>Comprehensive list of content needed
+</td>
+<td>
+</td>
+<td>Chris
+</td>
+<td>
+</td>
+<td>Based on Chris' [<a rel="nofollow" class="external text" href="https://www.w3.org/2011/docs/wiki/Content_requirements_master_list#Reference">earlier draft of the same</a>]. Ideally a roadmap of all the content we'll want to fill out over the years.
+</td></tr>
+<tr>
+<td>Home page
+</td>
+<td>
+</td>
+<td> Lea
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Section header pages
+</td>
+<td>
+</td>
+<td> Chris
+</td>
+<td>
+</td>
+<td> Pages like docs/css landing page, but also sub-pages like docs/css/properties. Some of these can be somewhat auto-generated (list of sub-pages, maybe like include tutorials). Will need some templates for it.
+</td></tr>
+<tr>
+<td>Marketing pages
+</td>
+<td>
+</td>
+<td> Wai (marketing taskforce)
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Create content for steward pages
+</td>
+<td>
+</td>
+<td> <i>Up to each steward</i>
+</td>
+<td>
+</td>
+<td>
+</td></tr></table>
+<h3><span class="mw-headline" id="Page_Structure">Page Structure</span></h3>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td rowspan="5">Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
+</td>
+<td> Make page mock-ups
+</td>
+<td> Doug ( with help from Lea)
+</td>
+<td>
+</td>
+<td> Blocks on finalizing the list of all page types (next row). See the list of page types in the 6 rows below.
+</td></tr>
+<tr>
+<td> Ensure we have all page types listed on <a href="/wiki/WPD:Architecture" title="WPD:Architecture">WPD:Architecture</a>
+</td>
+<td> Lea, with help from Doug
+</td>
+<td>
+</td>
+<td> Make sure to review the whole content architecture. Make sure to include all page types, including ones that don't have templates.
+</td></tr>
+<tr>
+<td> Make templates
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Make import script
+</td>
+<td> Yaron
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Figure out how to map existing content into the templates or page structure
+</td>
+<td> Yaron
+</td>
+<td>
+</td>
+<td> Chris figuring out where articles fit, Alex figuring out how the content fits in, and Yaron implementing
+</td></tr>
+<tr>
+<td rowspan="3"> Flags
+</td>
+<td>Making sure we have all of the flags we need.
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Finalize flags.
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Implement flags that can take a string value as well (e.g. merge candidate)
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="6">Multiple articles to display end state
+</td>
+<td>Simple CSS Property
+</td>
+<td> N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Complex CSS Property (CSS transforms)
+</td>
+<td> N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Guide article (Canvas)
+</td>
+<td> N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Large object: Document (lots of methods)
+</td>
+<td>N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>JS object or data type: Date
+</td>
+<td>N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Regular Expressions
+</td>
+<td>N/A
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">Figure out compatibility table design
+</td>
+<td> How it looks
+</td>
+<td> CJ
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> How it gets populated
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> How we maintain it
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td> Just in the best practices / style guide. In the long run may want to have it automated.
+</td></tr>
+<tr>
+<td>Templates/Properties/Categories
+</td>
+<td>
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td> Created based on our content organization
+</td></tr>
+<tr>
+<td> Create page forms for all page types.
+</td>
+<td>
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td> Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
+</td></tr>
+<tr>
+<td rowspan="3"> "New page" experience
+</td>
+<td>New page experience defined
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>New page experience defined for i18n
+</td>
+<td>  Doug
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>New page experience implemented
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr></table>
+<h3><span class="mw-headline" id="Community_Organization">Community Organization</span></h3>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td>Tighten up pillars doc
+</td>
+<td>
+</td>
+<td>Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Strengthen the overall guide (practical counterpart to pillars)
+</td>
+<td>
+</td>
+<td>Alex, b/c he knows what this one means.
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Beef up "Getting Started" guide
+</td>
+<td>
+</td>
+<td>Doug / Lea
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Create style guide for code examples
+</td>
+<td>
+</td>
+<td>Eliot
+</td>
+<td>In progress
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Finalize the Manual of Style (including sub pages)
+</td>
+<td>
+</td>
+<td> Alex
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Figure out about badges and community recognition
+</td>
+<td>
+</td>
+<td> Peter Lubbers
+</td>
+<td>
+</td>
+<td>
+</td></tr></table>
+<h3><span class="mw-headline" id="Design">Design</span></h3>
+<p><b>Handled by the marketing taskforce</b>
+</p>
+<table class="wikitable">
+<tr>
+<th> TOPIC
+</th>
+<th> Subtopic
+</th>
+<th> Owner
+</th>
+<th> Status
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td rowspan="12"> Design
+</td>
+<td> Attribution block final styling
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:attribution1.png%20">Open</a><a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:attribution2.png%20">Closed</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Links
+</td>
+<td> CJ
+</td>
+<td>
+</td>
+<td> Styling different for intra-page links, intra-wiki links, external links, and links to non-existing pages
+</td></tr>
+<tr>
+<td> Note callouts
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:notes.png%20">Example</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Language dropdown in header
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:language2.png%20">Open</a><a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:language.png%20">Closed</a>
+</td>
+<td> Shows current language; allows user to select new language; also allows authenticated user to create new translation
+</td></tr>
+<tr>
+<td> Search Box alignment
+</td>
+<td> CJ
+</td>
+<td> Done
+</td>
+<td> Size and position should align with other visual elements
+</td></tr>
+<tr>
+<td> <a href="/wiki/Template:CSS_Prefix" title="Template:CSS Prefix"> CSS Prefix</a> callouts need to be styled
+</td>
+<td> CJ
+</td>
+<td><a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:prefix.png%20">Example</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Design style guide
+</td>
+<td> CJ
+</td>
+<td><a href="/wiki/File:Web-Platform-Style-Guide-web-1.pdf" title="File:Web-Platform-Style-Guide-web-1.pdf">File:Web-Platform-Style-Guide-web-1.pdf</a>
+</td>
+<td> Provides guidlines for creating sub-properties like blog, IRC, etc.
+</td></tr>
+<tr>
+<td> Compatibility table styling
+</td>
+<td> CJ
+</td>
+<td><a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:prefix.png%20">Example</a>
+</td>
+<td> For an example, see <a href="/wiki/css/properties/font-size" title="css/properties/font-size">css/properties/font-size</a>
+</td></tr>
+<tr>
+<td> Stewards Page Design
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:Stewards_Page.png%20">Example</a>
+</td>
+<td> Extensible to work for each steward, unique page for each
+</td></tr>
+<tr>
+<td> Landing Page Design
+</td>
+<td> CJ
+</td>
+<td> <a href="/wiki/WPD:Design/Landing" title="WPD:Design/Landing">Examples</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Static Page Design
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:Static_Page_Blog.png%20">Blog Example</a><br />
+<p><a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:Static_Page_QA.png%20">Q/A Example</a>
+</p>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Styling for language tags in examples
+</td>
+<td> CJ
+</td>
+<td> <a rel="nofollow" class="external text" href="http://webplatform.org/docs/File:code_language.png%20">Example</a>
+</td>
+<td> See <a href="/wiki/css/properties/font-size" title="css/properties/font-size">css/properties/font-size</a> for an example.
+</td></tr>
+<tr>
+<td> Footer
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Community Badges
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="8"> Skin
+</td>
+<td> External attribution blocks use something equivalent to details/summary elements
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Make sure bolding looks right on Chrome
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Section editing
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> Username dropdown
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td> Needs down-arrow; item highlight; item should be whole area, not just text
+</td></tr>
+<tr>
+<td> <a href="/wiki/Template:Editorial" title="Template:Editorial"> Editorial</a> callouts should only show for logged-in users (via CSS)
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td> This should probably be as simple as having a <code>.editors-only { display:none}</code> rule in the CSS file, so we can create new templates that are hidden from readers easily.
+</td></tr>
+<tr>
+<td> Edit / watch button colors
+</td>
+<td> Doug*
+</td>
+<td>
+</td>
+<td> Edit button should be strongest
+</td></tr>
+<tr>
+<td> Syntax highlighting of examples with prism.js
+</td>
+<td> Lea
+</td>
+<td>
+</td>
+<td> Will need to modify <a href="/wiki/Template:Single_Example" title="Template:Single Example">Template:Single_Example</a>
+</td></tr>
+<tr>
+<td> Style the standardization flag.
+</td>
+<td> Doug
+</td>
+<td>
+</td>
+<td> <a href="/wiki/Template:Standardization_Status" title="Template:Standardization Status">Template:Standardization_Status</a>
+</td></tr></table>
 
-{| class="wikitable sortable"
-! Category
-! Topic
-! Owner
-! Status
-! Target Time (weeks)
-! Note
-! Required 
-|-
-| Infra
-| Wiki Setup
-| Ryan
-| Done                                         
-| 
-| Requires MediaWiki component
-| yes
-|-
-| Marketing
-| Skin
-| Marketing taskforce. 
-| 
-| 
-| See [[#Design|Design]]
-| yes
-|-
-| Content
-| Content Migrated
-| Content taskforce. 
-| 	
-| 
-| See [[#Content_Migration|Content Migration]]. Requires MediaWiki component (some) 
-| yes
-|-
-| Content
-| Content Architecture
-| Content taskforce. 
-|
-|
-| See [[#Content_Architecture|Content Architecture]].
-| yes
-|-
-| Content
-| Original_Content
-| Content taskforce. 
-| 
-|
-| See [[#Original_Content|Original Content]]| 	 
-|
-|-
-| Content
-| Mobilize the MDN community to free up the content
-| (Janet) Mozilla
-| 	
-| 
-| Get permissions from authors to migrate content from CC-BY-SA to CC-BY. '''Move down to content taskforce.'''
-|
-|-
-| Infra
-| Twitter account @webplatform
-| Doug
-| Done	
-| 
-| 
-| yes
-|-
-| Marketing
-| Twitter policy 
-| Marketing taskforce.
-| 	
-| 
-| Will be done by marketing team
-| yes
-|-
-| Infra
-| IRC channel #webplatform
-| Doug
-| Done
-| 
-| '''Needs to be documented where it is.'''
-| yes
-|-
-| Infra
-| Web client (IRC)
-| Doug 
-| Done (no skin)
-| 
-| Requires MediaWiki component. '''Needs to be documented where it is'''
-| 
-|-
-| Infra
-| Logging bot (IRC)
-| Doug
-| 	
-| 
-| Requires MediaWiki component
-| 
-|-
-| Content
-| Community Organization
-| Content taskforce. 
-| 
-| 
-| See [[#Community_Organization|Community Organization]]. See Art of Community	
-| yes
-|-
-| Content
-| Flags
-| Content taskforce
-| 	
-| 
-| See [[#Page_Structure| Page Structure]] Requires MediaWiki component
-| yes
-|-
-| Infra
-| Comments
-| Doug
-| 	
-| 
-| Requires MediaWiki component
-| yes
-|-
-| Content
-| Clear URL structure
-| Content taskforce
-| largely done	
-| 
-| See below.
-| yes
-|-
-| ???
-| Easy page creation
-| Alex
-| 	
-| 
-| See [[#Page_Structure| Page Structure]]
-| 
-|-
-| Infra
-| Internationalization
-| Doug (with support of Ryan, on behalf of W3C I18n team)
-| 
-| 
-| We need to have a mechanism, at least a plan for it, in the beginning. Requires MediaWiki component
-| yes
-|-
-| Infra
-| Language switching
-| Ryan
-| 
-| 
-| Requires MediaWiki component
-| yes
-|-
-| Infra
-| Sandbox (live viewer)
-| Lea
-| 	
-| 
-| 
-| 
-|-
-| Infra
-| Forums (Q2A)
-| Doug*
-| 
-| 
-| Requires SSO, Skin. Will this hold up the launch?  Needs discussion first.
-| yes
-|-
-| Content?
-| Teaching materials
-| Chris
-| 	
-| 
-| Moodle? Later
-| 
-|-
-| Infra
-| Federated Login feature
-| Doug*
-| 
-| 
-| Requires MediaWiki component
-| 
-|-
-| Infra
-| Required email address for accounts
-| Doug
-| Done	
-| 
-| Doesn't work as well as necessary.
-| yes
-|-
-| Infra
-| Single sign in (SSO)	
-| (Doug*)
-| 
-| 
-| Case by case basis. This captures that the blog and wiki need to have their login integrated.
-| yes
-|-
-| Infra
-| Blog
-| (Doug)
-| 
-| 
-| Requires SSO, Skin. Requires MediaWiki component
-| yes
-|-
-| Infra
-| Email feedback account set up
-| Doug
-|
-| 
-| Others: Twitter, blog, IRC, forums, comments in topics
-| yes
-|-
-| Content
-| How to use this site
-| Lea & Doug
-| 
-| 
-| 	
-| yes
-|-
-| Content
-| How to help (includes migrating MDN)
-| Janet. (In content taskforce)
-| 	
-| 
-| 
-| yes
-|-
-| Content
-| Privacy policy
-| Wendy
-| 	
-| 
-| 
-| yes
-|-
-| Infra
-| Metrics and tracking 
-| Eliot (and Doug)
-| 	
-| 
-| (Google analytics? Adobe? Piwik?) Create Wiki page with policy about collecting and sharing metrics.
-| yes
-|-
-| 
-| Metrics policy
-| Wendy
-| 	
-| 
-| 
-| yes
-|-
-| Infra
-| Accessibility
-| Chris
-| 	
-| 
-| This needs to be broken down into separate things. Like ensuring the site is accessible, and content on accessibility
-| yes
-|-
-| Infra
-| Issue tracker (bugs)
-| Eliot
-| Done
-| 
-| In W3C bugzilla. See [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org]
-| yes
-|-
-| Content
-| Task-oriented Tutorials
-| Content taskforce.
-| 	
-| 
-| Small tutorials about how to, say, center content on the web platform.
-| 
-|-
-| Infra
-| Fast.ly CDN
-| Doug*, Ryan Lane to do actual work.
-| 
-| 
-| 
-| yes
-|-
-| Infra
-| System backup of site
-| Doug*, Ryan Lane to do actual work.
-| 
-| 
-| 
-| yes
-|-
-| Infra
-| Deployment script for site
-| Doug*, Ryan Lane to do actual work.
-| 
-| 
-| 
-| yes
-|-
-| Content
-| Copyright
-| Wendy
-| 
-| 
-| Need to approve the terms by which people can use the content on WPD. Start with [https://www.w3.org/2011/docs/wiki/License_and_Reuse the text on the W3C Wiki].
-| yes
-|-
-| ???
-| Figure out list of "early preview" people
-| Alex
-|
-|
-| Ideally include people who will actually do ''work''. Maybe give some of the people with invites a small number of invites? Have a gatekeeper of the actual signups.
-| yes
-|-
-| ???
-| Finalize license of web platform logo
-| Wendy (with Alex to help)
-|
-|
-| 
-|
-|-
-| Marketing
-| Organize pre-launch hackathon
-| Alex (Coordinate with Eliot)
-|
-|
-| Likely on west coast
-|  yes
-|-
-| Marketing
-| Organize post-announcement community engagement (and hackathon?)
-| Peter (?)
-|
-|
-| 
-|  yes
-|}
-
-==Subtopics==
-
-These are broken out from the top-level table.
-
-
-
-
-===Content Migration===
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|Figure out locations for all articles
-|
-| Chris
-|
-| Blocked on finalizing the URL structure. First step is to break up the list of articles to set up. Then assign people to take responsibility for each section.
-|-
-| Migrate test article from MSDN
-|
-| Doug*, work will be done by Yaron 
-|
-| 
-|-
-|Migrate existing articles
-|
-| Doug*, work will be done by Yaron
-|
-|
-|-
-|rowspan="3"|Figure out concrete MDN licensing flow
-|New pages
-| Janet
-|
-|
-|-
-|Merging content in
-| Janet
-|
-|
-|-
-|SA License
-| Janet
-|
-|A manual attirbution block at bottom?
-|}
-
-===Content Architecture===
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|Final URL structure/ content organization
-|
-| Chris
-|
-|
-|-
-|Create stub articles to fill out entire hierarchy
-|
-| Chris
-|
-|
-|-
-|Language dropdown
-|
-| Doug*, work done by Yaron
-|
-|
-|-
-|Semantic mediawiki queries on listing/API summary pages to pull in all relevant attributes
-|
-| Alex*, work done by Yaron
-|
-|
-|-
-|Placement of stewards' pages
-|
-| Doug
-|
-|Webplatform.org/stewards/steward_name
-|-
-|Indicating standards track APIs
-|
-| Alex
-|
-| Just figuring out how to use tags/flags
-|}
-
-===Original Content===
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|Comprehensive list of content needed
-|
-|Chris
-|
-|Based on Chris' [[https://www.w3.org/2011/docs/wiki/Content_requirements_master_list#Reference earlier draft of the same]]. Ideally a roadmap of all the content we'll want to fill out over the years.
-|-
-|Home page
-|
-| Lea
-|
-|
-|-
-|Section header pages
-|
-| Chris
-|
-| Pages like docs/css landing page, but also sub-pages like docs/css/properties. Some of these can be somewhat auto-generated (list of sub-pages, maybe like include tutorials). Will need some templates for it.
-|-
-|Marketing pages
-|
-| Wai (marketing taskforce)
-|
-|
-|-
-|Create content for steward pages
-|
-| ''Up to each steward''
-|
-|
-|}
-
-===Page Structure===
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|rowspan="5"|Inspect MSDN/MDN content and make sure it's compatible, and how we want this site's content to end up
-| Make page mock-ups
-| Doug ( with help from Lea)
-| 
-| Blocks on finalizing the list of all page types (next row). See the list of page types in the 6 rows below.
-|- 
-| Ensure we have all page types listed on [[WPD:Architecture]]
-| Lea, with help from Doug
-| 
-| Make sure to review the whole content architecture. Make sure to include all page types, including ones that don't have templates.
-|-
-| Make templates
-| Alex
-|
-| 
-|-
-| Make import script
-| Yaron
-|
-| 
-|-
-| Figure out how to map existing content into the templates or page structure
-| Yaron
-|
-| Chris figuring out where articles fit, Alex figuring out how the content fits in, and Yaron implementing
-|-
-|rowspan="3" | Flags 
-|Making sure we have all of the flags we need.
-| Alex
-|
-|
-|-
-|Finalize flags.
-| Alex
-|
-|
-|-
-| Implement flags that can take a string value as well (e.g. merge candidate)
-| Alex
-|
-|
-|-
-|rowspan="6"|Multiple articles to display end state
-|Simple CSS Property
-| N/A
-|
-|
-|-
-|Complex CSS Property (CSS transforms)
-| N/A
-|
-|
-|-
-|Guide article (Canvas)
-| N/A
-|
-|
-|-
-|Large object: Document (lots of methods)
-|N/A
-|
-|
-|-
-|JS object or data type: Date
-|N/A
-|
-|
-|-
-|Regular Expressions
-|N/A
-|
-|
-|-
-|rowspan="3"|Figure out compatibility table design
-| How it looks
-| CJ 
-|
-| 
-|-
-| How it gets populated
-| Alex
-|
-| 
-|-
-| How we maintain it
-| Alex
-|
-| Just in the best practices / style guide. In the long run may want to have it automated.
-|-
-|Templates/Properties/Categories 
-|
-| Alex
-|
-| Created based on our content organization
-|-
-| Create page forms for all page types.
-|
-| Alex
-|
-| Page forms should transclude short summaries about best practices for each section, with pop-up links to more detail.
-|-
-|rowspan="3" | "New page" experience 
-|New page experience defined
-| Alex
-|
-| 
-|-
-|New page experience defined for i18n
-|  Doug
-|
-| 
-|-
-|New page experience implemented
-| Alex
-|
-| 
-|}
-
-===Community Organization===
-
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|Tighten up pillars doc
-|
-|Alex
-|
-|
-|-
-|Strengthen the overall guide (practical counterpart to pillars)
-|
-|Alex, b/c he knows what this one means.
-|
-|
-|-
-|Beef up "Getting Started" guide
-|
-|Doug / Lea
-|
-|
-|-
-|Create style guide for code examples
-|
-|Eliot
-|In progress
-|
-|-
-| Finalize the Manual of Style (including sub pages)
-|
-| Alex
-|
-|
-|-
-| Figure out about badges and community recognition
-|
-| Peter Lubbers
-|
-|
-|}
-
-===Design===
-'''Handled by the marketing taskforce'''
-{| class="wikitable"
-! TOPIC
-! Subtopic
-! Owner
-! Status
-! Note
-|-
-|rowspan="12"| Design
-| Attribution block final styling
-| CJ
-| [http://webplatform.org/docs/File:attribution1.png%20 Open][http://webplatform.org/docs/File:attribution2.png%20 Closed]
-| 
-|-
-| Links
-| CJ
-| 
-| Styling different for intra-page links, intra-wiki links, external links, and links to non-existing pages
-|-
-| Note callouts
-| CJ
-| [http://webplatform.org/docs/File:notes.png%20 Example]
-| 
-|-
-| Language dropdown in header
-| CJ
-| [http://webplatform.org/docs/File:language2.png%20 Open][http://webplatform.org/docs/File:language.png%20 Closed]
-| Shows current language; allows user to select new language; also allows authenticated user to create new translation
-|-
-| Search Box alignment
-| CJ
-| Done
-| Size and position should align with other visual elements 
-|-
-| [[Template:CSS_Prefix | CSS Prefix]] callouts need to be styled
-| CJ
-|[http://webplatform.org/docs/File:prefix.png%20 Example]
-|
-|-
-| Design style guide
-| CJ
-|[[File:Web-Platform-Style-Guide-web-1.pdf|Style Guide]]
-| Provides guidlines for creating sub-properties like blog, IRC, etc.
-|-
-| Compatibility table styling
-| CJ
-|[http://webplatform.org/docs/File:prefix.png%20 Example]
-| For an example, see [[css/properties/font-size]]
-|-
-| Stewards Page Design
-| CJ
-| [http://webplatform.org/docs/File:Stewards_Page.png%20 Example]
-| Extensible to work for each steward, unique page for each
-|-
-| Landing Page Design
-| CJ
-| [[WPD:Design/Landing|Examples]]
-| 
-|-
-| Static Page Design
-| CJ
-| [http://webplatform.org/docs/File:Static_Page_Blog.png%20 Blog Example]<br />
-[http://webplatform.org/docs/File:Static_Page_QA.png%20 Q/A Example]
-|
-|-
-| Styling for language tags in examples
-| CJ
-| [http://webplatform.org/docs/File:code_language.png%20 Example]
-| See [[css/properties/font-size]] for an example.
-|-
-| Footer
-| 
-| 
-| 
-|-
-| Community Badges
-| 
-| 
-| 
-|-
-|rowspan="8"| Skin
-| External attribution blocks use something equivalent to details/summary elements
-| Doug*
-| 
-| 
-|-
-| Make sure bolding looks right on Chrome
-| Doug*
-| 
-| 
-|-
-| Section editing
-| Doug*
-| 
-| 
-|-
-| Username dropdown
-| Doug*
-| 
-| Needs down-arrow; item highlight; item should be whole area, not just text
-|-
-| [[Template:Editorial | Editorial]] callouts should only show for logged-in users (via CSS)
-| Doug*
-| 
-| This should probably be as simple as having a <code>.editors-only { display:none}</code> rule in the CSS file, so we can create new templates that are hidden from readers easily.
-|-
-| Edit / watch button colors
-| Doug*
-| 
-| Edit button should be strongest
-|-
-| Syntax highlighting of examples with prism.js
-| Lea
-| 
-| Will need to modify [[Template:Single_Example]]
-|-
-| Style the standardization flag.
-| Doug
-| 
-| [[Template:Standardization_Status]]
-|}
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:193-0!*!0!!*!5!*!esi=1 and timestamp 20150731181412 and revision id 4607
+ -->

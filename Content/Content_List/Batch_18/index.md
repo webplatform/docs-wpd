@@ -1,34 +1,37 @@
-''This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.''
-
-==Page Category Migration Mapping CSS Property==
-
-===URL Mapping===
-''Input URL'':  http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx
-''Final URL'': http://webplatform.org/docs/css/properties/foo
-
-Note: the input URL does not contain any information required in output URL. The foo name comes from the <nowiki><h1> </nowiki>title on the input page, with the content "foo property".
-
-====Page Form====
-Use the [[Form:CSS_Property]] form.
-
-===Field values===
-====Flags====
-* Missing Relevant Sections
-* Data Not Semantic
-* Needs Flags
-* Content_Incomplete
-* Content_Not_Neutral
-* Content_Missing_Specification_Links
-* Examples_not_best_practices
-* Compatibility_missing
-
-====Standardization====
-Value: W3C Recommendation
-
-====Summary====
+---
+title: WPD:Content/Content List/Batch 18
+---
+<p><i>This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.</i>
+</p>
+<h2><span class="mw-headline" id="Page_Category_Migration_Mapping_CSS_Property">Page Category Migration Mapping CSS Property</span></h2>
+<h3><span class="mw-headline" id="URL_Mapping">URL Mapping</span></h3>
+<p><i>Input URL</i>:  <a rel="nofollow" class="external free" href="http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx</a>
+<i>Final URL</i>: <a rel="nofollow" class="external free" href="http://webplatform.org/docs/css/properties/foo">http://webplatform.org/docs/css/properties/foo</a>
+</p><p>Note: the input URL does not contain any information required in output URL. The foo name comes from the &lt;h1&gt; title on the input page, with the content "foo property".
+</p>
+<h4><span class="mw-headline" id="Page_Form">Page Form</span></h4>
+<p>Use the <a href="/wiki/Form:CSS_Property" title="Form:CSS Property">Form:CSS_Property</a> form.
+</p>
+<h3><span class="mw-headline" id="Field_values">Field values</span></h3>
+<h4><span class="mw-headline" id="Flags">Flags</span></h4>
+<ul><li> Missing Relevant Sections</li>
+<li> Data Not Semantic</li>
+<li> Needs Flags</li>
+<li> Content_Incomplete</li>
+<li> Content_Not_Neutral</li>
+<li> Content_Missing_Specification_Links</li>
+<li> Examples_not_best_practices</li>
+<li> Compatibility_missing</li></ul>
+<h4><span class="mw-headline" id="Standardization">Standardization</span></h4>
+<p>Value: W3C Recommendation
+</p>
+<h4><span class="mw-headline" id="Summary">Summary</span></h4>
 The first <p> element in the content
 
-====Initial value====
-From the "Initial Value table in CSS Information section
+<h4><span class="mw-headline" id="Initial_value">Initial value</span></h4>
+<p>From the "Initial Value table in CSS Information section
+</p>
+<i>... Documentation continues...'</i></p>
 
-''... Documentation continues...'''
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1004-0!*!0!!*!*!*!esi=1 and timestamp 20150731182315 and revision id 3377
+ -->
