@@ -1,5 +1,7 @@
 ---
 title: WPD:Community
+path: Community
+
 ---
 <h1><span class="mw-headline" id="Connect._Be_part_of_our_WPD_community.">Connect. Be part of our WPD community.</span></h1>
 <table class="nmbox languages" style="">
@@ -33,9 +35,8 @@ title: WPD:Community
 <hr />
 <h2><span class="mw-headline" id="Original_Page">Original Page</span></h2>
 <p>Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether you're just starting in your career or are already a seasoned web professional, we encourage you to <a href="/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community" title="WPD:Editors Guide/step 2 communicate with the online community">get involved with the community</a>.
-</p>
-<div class="MediaTransformError" style="width: 200px; height: 301px; display:inline-block;">Error creating thumbnail: File missing</div>
-<p>We might be a little bit messy right now, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
+</p><p><a href="/wiki/File:community_pic.jpeg" class="image"><img alt="community pic.jpeg" src="//static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg" width="200" height="301" srcset="//static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/300px-community_pic.jpeg 1.5x, //static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/400px-community_pic.jpeg 2x" /></a>
+</p><p>We might be a little bit messy right now, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
 </p><p>Please read the <a href="/wiki/WPD:Pillars" title="WPD:Pillars" class="mw-redirect">Pillars</a> document for our overall guiding principles and methods.
 </p>
 <h2><span class="mw-headline" id="Community_pages">Community pages</span></h2>
@@ -59,26 +60,5 @@ title: WPD:Community
 <li> Remix our <a rel="nofollow" class="external text" href="http://www.webplatform.org/logo">logo</a> and link back to our site</li>
 <li> Come to our <a href="/wiki/WPD:Community/Community_Events" title="WPD:Community/Community Events">Events</a> like Doc Sprints.</li></ul>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.235 seconds
-Real time usage: 2.198 seconds
-Preprocessor visited node count: 1248/1000000
-Preprocessor generated node count: 3300/1000000
-Post‐expand include size: 2696/2097152 bytes
-Template argument size: 299/2097152 bytes
-Highest expansion depth: 8/40
-Expensive parser function count: 60/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%  214.051      1 - -total
-100.00%  214.051      1 - Template:Languages
- 96.98%  207.588      1 - Template:nmbox
- 74.07%  158.556     60 - Template:Languages/Lang
- 11.74%   25.131      1 - Template:Languages/Title
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:318-0!*!0!!*!5!*!esi=1 and timestamp 20150731072009 and revision id 84280
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:318-0!*!0!!*!5!*!esi=1 and timestamp 20150810202443 and revision id 84280
  -->

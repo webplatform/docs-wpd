@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/Components/Docs pages analytics
+path: Infrastructure/Components/Docs_pages_analytics
+
 ---
 <h1><span class="mw-headline" id="Docs_pages_analytics">Docs pages analytics</span></h1>
 <p><b>INCOMPLETE</b>, see <i>WebPlatform GitHub operations issue tracker</i>, at <b><a rel="nofollow" class="external text" href="https://github.com/webplatform/ops/issues/149">webplatform/ops#149</a></b>
@@ -42,7 +44,7 @@ title: WPD:Infrastructure/Components/Docs pages analytics
 <li> <a rel="nofollow" class="external text" href="http://quarry.wmflabs.org/query/3012">Most edited pages in Portugese Wikipedia</a> </li>
 <li> <a rel="nofollow" class="external text" href="http://quarry.wmflabs.org/query/2930">New active users in Lativian Wikipedia</a></li></ul>
 <h3><span class="mw-headline" id="WikiMetrics"><a rel="nofollow" class="external text" href="https://metrics.wmflabs.org/">WikiMetrics</a></span></h3>
-<div class="thumb tright"><div class="thumbinner" style="width:302px;"><div class="MediaTransformError" style="width: 300px; height: 291px; display:inline-block;">Error creating thumbnail: File missing</div>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:wikimetrics-screenshot-namespaceedits.png" class="internal" title="Enlarge"></a></div>Sample database query</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:wikimetrics-screenshot-namespaceedits.png" class="image"><img alt="" src="//static.webplatform.org/w/thumb/d/de/wikimetrics-screenshot-namespaceedits.png/300px-wikimetrics-screenshot-namespaceedits.png" width="300" height="291" class="thumbimage" srcset="//static.webplatform.org/w/thumb/d/de/wikimetrics-screenshot-namespaceedits.png/450px-wikimetrics-screenshot-namespaceedits.png 1.5x, //static.webplatform.org/w/thumb/d/de/wikimetrics-screenshot-namespaceedits.png/600px-wikimetrics-screenshot-namespaceedits.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:wikimetrics-screenshot-namespaceedits.png" class="internal" title="Enlarge"></a></div>Sample database query</div></div></div>
 <p>WikiMetrics is a sandbox we can import and run scripts to get usage statistics.
 </p><p>TL;DR ... a way to get wiki activity reports and statistics, one has to run it inside a sandboxed MediaWiki installation in which we import a database snapshot from production so it can crunch metrics.
 </p><p>Wikimetrics also helps to generate database queries that can be run to make reports
@@ -53,5 +55,5 @@ title: WPD:Infrastructure/Components/Docs pages analytics
 <li> <a rel="nofollow" class="external text" href="https://phabricator.wikimedia.org/tag/Analytics-Wikimetrics/">Wkimedia Phabricator KanBan board</a></li>
 <li> <a rel="nofollow" class="external text" href="https://github.com/wikimedia/analytics-wikimetrics">code mirror on GitHub</a></li></ul>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:58645-0!*!*!!*!5!*!esi=1 and timestamp 20150731185946 and revision id 101404
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:58645-0!*!*!!*!5!*!esi=1 and timestamp 20150810202506 and revision id 101404
  -->

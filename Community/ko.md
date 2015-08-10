@@ -1,6 +1,7 @@
 ---
 title: WPD:Community/ko
 lang: ko
+path: Community/ko
 
 ---
 <h1><span class="mw-headline" id=".EC.BB.A4.EB.AE.A4.EB.8B.88.ED.8B.B0.EC.97.90_.EC.B0.B8.EC.97.AC.ED.95.98.EA.B8.B0">커뮤니티에 참여하기</span></h1>
@@ -10,9 +11,8 @@ lang: ko
 <td class="mbox-text"><b><a href="/wiki/WPD:Community" title="WPD:Community">English</a></b> &#160;&#8226;&#32;<span lang="ko"><strong class="selflink">한국어</strong></span></td>
 </tr></table>
 <p>웹 플랫폼 문서는 월드 와이드 웹 기술을 문서화하는 목적의 커뮤니티입니다. 웹 기술을 처음 시작하거나 또는 이미 웹 전문가든 상관없이, <a href="/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community" title="WPD:Editors Guide/step 2 communicate with the online community">커뮤니티에 참여</a>하기를 권장합니다.
-</p>
-<div class="MediaTransformError" style="width: 200px; height: 301px; display:inline-block;">Error creating thumbnail: File missing</div>
-<p>다소 혼란스러울 수 있지만, ​​우리는 아직 T-셔츠를 제작할 만큼 큰 커뮤니티가 아닙니다. ​​그러나 당신의 도움으로, 우리는 위대한 일을 할 수 있습니다!
+</p><p><a href="/wiki/File:community_pic.jpeg" class="image"><img alt="community pic.jpeg" src="//static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg" width="200" height="301" srcset="//static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/300px-community_pic.jpeg 1.5x, //static.webplatform.org/w/thumb/f/f7/community_pic.jpeg/400px-community_pic.jpeg 2x" /></a>
+</p><p>다소 혼란스러울 수 있지만, ​​우리는 아직 T-셔츠를 제작할 만큼 큰 커뮤니티가 아닙니다. ​​그러나 당신의 도움으로, 우리는 위대한 일을 할 수 있습니다!
 </p><p>커뮤니티 전반적인 원칙과 방법에 대해선 <a href="/wiki/WPD:Pillars" title="WPD:Pillars" class="mw-redirect">기둥</a> 문서를 참조하세요.
 </p>
 <h2><span class="mw-headline" id=".EC.BB.A4.EB.AE.A4.EB.8B.88.ED.8B.B0_.ED.8E.98.EC.9D.B4.EC.A7.80">커뮤니티 페이지</span></h2>
@@ -38,8 +38,8 @@ lang: ko
 
 <!-- 
 NewPP limit report
-CPU time usage: 0.211 seconds
-Real time usage: 1.815 seconds
+CPU time usage: 0.217 seconds
+Real time usage: 1.201 seconds
 Preprocessor visited node count: 1117/1000000
 Preprocessor generated node count: 3284/1000000
 Post‐expand include size: 2679/2097152 bytes
@@ -50,12 +50,12 @@ Expensive parser function count: 59/100
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  188.689      1 - -total
-100.00%  188.689      1 - Template:Languages
- 97.06%  183.150      1 - Template:nmbox
- 78.22%  147.596     60 - Template:Languages/Lang
-  6.64%   12.531      1 - Template:Languages/Title
+100.00%  197.689      1 - -total
+100.00%  197.689      1 - Template:Languages
+ 95.41%  188.616      1 - Template:nmbox
+ 75.99%  150.215     60 - Template:Languages/Lang
+  7.53%   14.891      1 - Template:Languages/Title
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:9048-0!*!0!!*!5!*!esi=1 and timestamp 20150731103855 and revision id 33325
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:9048-0!*!0!!*!5!*!esi=1 and timestamp 20150810093824 and revision id 33325
  -->
