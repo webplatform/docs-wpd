@@ -1,5 +1,7 @@
 ---
 title: WPD:External Attribution
+path: External_Attribution
+
 ---
 <p>Most articles automatically maintain a history of all edits and who made them. However, some articles are seeded with already-comprehensive content that comes from external sites. Maintaining a link to the original content helps give credit to those sites, maintain a historical link to the original copy in case it is necessary in the future, and in some cases it is required by the license of the original source.
 </p>
@@ -44,51 +46,44 @@ title: WPD:External Attribution
 </p>
 <h2><span class="mw-headline" id="Example_box">Example box</span></h2>
 <p>For articles with some CC-BY-SA content:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">details</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">summary</span>&gt;</span>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">summary</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>
+<pre class="language-html5" data-lang="html5">
+<details>
+  <summary>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.</summary>
+  <p>
     Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network:
-<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://developer.mozilla.org/foo&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span>Foo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-  <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>
-    Portions of this content come from Foo.org: <span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://foo.org/baz&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span>Baz<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-  <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">details</span>&gt;</span></pre></div></div>
-<p>For articles with no CC-BY-SA content:
+<a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
+  </p>
+  <p>
+    Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+  </p>
+<p></details>
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">details</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">summary</span>&gt;</span>This article contains content originally from external sources.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">summary</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>
+</pre>
+<p><br />
+For articles with no CC-BY-SA content:
+</p><p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+<details>
+  <summary>This article contains content originally from external sources.</summary>
+  <p>
     Portions of this content come from the Mozilla Developer Network:
-<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://developer.mozilla.org/foo&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span>Foo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-  <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-  <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>
-    Portions of this content come from Foo.org: <span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://foo.org/baz&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span>Baz<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-  <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">details</span>&gt;</span></pre></div></div>
+<a href="http://developer.mozilla.org/foo" target="_blank">Foo</a>
+  </p>
+  <p>
+    Portions of this content come from Foo.org: <a href="http://foo.org/baz" target="_blank">Baz</a>
+  </p>
+<p></details>
+</p>
+</pre>
+<p><br />
+</p>
 <div style="border:1px solid hsl(45, 100%, 40%); padding:5px; margin:5px; background-color:hsl(45, 88%, 94%); border-radius:5px">
 <p><b>TODO</b>:  some browsers don't support the details element, so we'll need a polyfill.
 </p>
 </div>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.043 seconds
-Real time usage: 0.047 seconds
-Preprocessor visited node count: 34/1000000
-Preprocessor generated node count: 94/1000000
-Post‐expand include size: 224/2097152 bytes
-Template argument size: 75/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    4.643      1 - -total
-100.00%    4.643      1 - Template:TODO
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:194-0!*!0!!*!*!*!esi=1 and timestamp 20150730202725 and revision id 67493
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:194-0!*!0!!*!*!*!esi=1 and timestamp 20150810195926 and revision id 67493
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Creating API pages
+path: Creating_API_pages
+
 ---
 <h1><span class="mw-headline" id="Creating_API_documentation_guide">Creating API documentation guide</span></h1>
 <p>This article explains how to add new API documentation pages to Web Platform Docs. It provides a process for adding several new pages -  as a branch - to the wiki. The discussion cites as an example the creation of  the <a href="/wiki/apis/webrtc" title="apis/webrtc">WebRTC API</a> pages.
@@ -231,7 +233,7 @@ Sample</pre>
 <!-- 
 NewPP limit report
 CPU time usage: 0.102 seconds
-Real time usage: 0.120 seconds
+Real time usage: 0.121 seconds
 Preprocessor visited node count: 245/1000000
 Preprocessor generated node count: 478/1000000
 Post‐expand include size: 2429/2097152 bytes
@@ -242,9 +244,9 @@ Expensive parser function count: 0/100
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   10.265      1 - -total
- 58.52%    6.007      9 - Template:TODO
+100.00%   11.120      1 - -total
+ 62.16%    6.912      9 - Template:TODO
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:6298-0!*!0!!*!*!*!esi=1 and timestamp 20150731110920 and revision id 71239
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:6298-0!*!0!!*!*!*!esi=1 and timestamp 20150809225543 and revision id 71239
  -->

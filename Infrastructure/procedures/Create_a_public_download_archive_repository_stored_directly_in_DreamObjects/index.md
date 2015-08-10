@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/procedures/Create a public download archive repository stored directly in DreamObjects
+path: Infrastructure/procedures/Create_a_public_download_archive_repository_stored_directly_in_DreamObjects
+
 ---
 <h1><span class="mw-headline" id="Create_a_public_download_archive_repository_stored_directly_in_DreamObjects">Create a public download archive repository stored directly in DreamObjects</span></h1>
 <p><b>Status: INCOMPLETE</b>, <i>WebPlatform GitHub operations issue tracker</i>, at <b><a rel="nofollow" class="external text" href="https://github.com/webplatform/ops/issues/121">webplatform/ops#121</a></b>
@@ -94,66 +96,51 @@ If you havent´t restarted a shell session, you can source the shell environment
 </pre>
 <p><br />
 ... should generate a similar VCL configuration:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="c source-c"><pre class="de1">  sub vcl_recv <span class="br0">&#123;</span>
-  <span class="co2">#FASTLY recv</span>
-&#160;
-     <span class="kw1">if</span> <span class="br0">&#40;</span><span class="sy0">!</span>req.<span class="me1">http</span>.<span class="me1">Fastly</span><span class="sy0">-</span>SSL<span class="br0">&#41;</span> <span class="br0">&#123;</span>
-       error <span class="nu0">801</span> <span class="st0">&quot;Force SSL&quot;</span><span class="sy0">;</span>
-     <span class="br0">&#125;</span>
-&#160;
-     <span class="kw1">if</span> <span class="br0">&#40;</span><span class="sy0">!</span>req.<span class="me1">http</span>.<span class="me1">Fastly</span><span class="sy0">-</span>FF<span class="br0">&#41;</span> <span class="br0">&#123;</span>
-       <span class="kw1">if</span> <span class="br0">&#40;</span>req.<span class="me1">http</span>.<span class="me1">X</span><span class="sy0">-</span>Forwarded<span class="sy0">-</span>For<span class="br0">&#41;</span> <span class="br0">&#123;</span>
-         set req.<span class="me1">http</span>.<span class="me1">Fastly</span><span class="sy0">-</span>Temp<span class="sy0">-</span>XFF <span class="sy0">=</span> req.<span class="me1">http</span>.<span class="me1">X</span><span class="sy0">-</span>Forwarded<span class="sy0">-</span>For <span class="st0">&quot;, &quot;</span> client.<span class="me1">ip</span><span class="sy0">;</span>
-       <span class="br0">&#125;</span> <span class="kw1">else</span> <span class="br0">&#123;</span>
-         set req.<span class="me1">http</span>.<span class="me1">Fastly</span><span class="sy0">-</span>Temp<span class="sy0">-</span>XFF <span class="sy0">=</span> client.<span class="me1">ip</span><span class="sy0">;</span>
-       <span class="br0">&#125;</span>
-     <span class="br0">&#125;</span> <span class="kw1">else</span> <span class="br0">&#123;</span>
-       set req.<span class="me1">http</span>.<span class="me1">Fastly</span><span class="sy0">-</span>Temp<span class="sy0">-</span>XFF <span class="sy0">=</span> req.<span class="me1">http</span>.<span class="me1">X</span><span class="sy0">-</span>Forwarded<span class="sy0">-</span>For<span class="sy0">;</span>
-     <span class="br0">&#125;</span>
-&#160;
-     set req.<span class="me1">grace</span> <span class="sy0">=</span> 3600s<span class="sy0">;</span>
-     set req.<span class="me1">http</span>.<span class="me1">host</span> <span class="sy0">=</span> <span class="st0">&quot;apt.objects.dreamhost.com&quot;</span><span class="sy0">;</span>
-&#160;
-     <span class="co2"># Remove ANY cookies, we dont need them at all!</span>
-     <span class="kw3">remove</span> req.<span class="me1">http</span>.<span class="me1">Cookie</span><span class="sy0">;</span>
-     <span class="co2"># Request Condition: If no file requested, make DirectoryIndex ish Prio: 10</span>
-     <span class="kw1">if</span><span class="br0">&#40;</span> req.<span class="me1">request</span> ~ <span class="st0">&quot;GET&quot;</span> <span class="sy0">&amp;&amp;</span> req.<span class="me1">url</span> ~ <span class="st0">&quot;^/$&quot;</span> <span class="br0">&#41;</span> <span class="br0">&#123;</span>
-        <span class="co2"># Header rewrite to get our own hardcoded directory index file.</span>
-        <span class="co2"># ... anyway we change directory contents very rarely.</span>
-        set req.<span class="me1">url</span> <span class="sy0">=</span> <span class="st0">&quot;/index.html&quot;</span><span class="sy0">;</span>
-     <span class="br0">&#125;</span>
-  <span class="br0">&#125;</span>
-&#160;
-  sub vcl_error <span class="br0">&#123;</span>
-  <span class="co2">#FASTLY error</span>
-&#160;
-    <span class="kw1">if</span> <span class="br0">&#40;</span>obj.<span class="me1">status</span> <span class="sy0">==</span> <span class="nu0">801</span><span class="br0">&#41;</span> <span class="br0">&#123;</span>
-       set obj.<span class="me1">status</span> <span class="sy0">=</span> <span class="nu0">301</span><span class="sy0">;</span>
-       set obj.<span class="me1">response</span> <span class="sy0">=</span> <span class="st0">&quot;Moved Permanently&quot;</span><span class="sy0">;</span>
-       set obj.<span class="me1">http</span>.<span class="me1">Location</span> <span class="sy0">=</span> <span class="st0">&quot;https://&quot;</span> req.<span class="me1">http</span>.<span class="me1">host</span> req.<span class="me1">url</span><span class="sy0">;</span>
-       synthetic <span class="br0">&#123;</span><span class="st0">&quot;&quot;</span><span class="br0">&#125;</span><span class="sy0">;</span>
-       <span class="kw1">return</span> <span class="br0">&#40;</span>deliver<span class="br0">&#41;</span><span class="sy0">;</span>
-    <span class="br0">&#125;</span>
-  <span class="br0">&#125;</span></pre></div></div>
+<pre class="language-c" data-lang="c">
+  sub vcl_recv {
+  #FASTLY recv
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.037 seconds
-Real time usage: 0.039 seconds
-Preprocessor visited node count: 32/1000000
-Preprocessor generated node count: 76/1000000
-Post‐expand include size: 125/2097152 bytes
-Template argument size: 6/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
+     if (!req.http.Fastly-SSL) {
+       error 801 "Force SSL";
+     }
 
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    5.081      1 - -total
-100.00%    5.081      1 - Template:OperationsTask
--->
+     if (!req.http.Fastly-FF) {
+       if (req.http.X-Forwarded-For) {
+         set req.http.Fastly-Temp-XFF = req.http.X-Forwarded-For ", " client.ip;
+       } else {
+         set req.http.Fastly-Temp-XFF = client.ip;
+       }
+     } else {
+       set req.http.Fastly-Temp-XFF = req.http.X-Forwarded-For;
+     }
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:58625-0!*!*!!*!*!*!esi=1 and timestamp 20150731183436 and revision id 101109
+     set req.grace = 3600s;
+     set req.http.host = "apt.objects.dreamhost.com";
+
+     # Remove ANY cookies, we dont need them at all!
+     remove req.http.Cookie;
+     # Request Condition: If no file requested, make DirectoryIndex ish Prio: 10
+     if( req.request ~ "GET" &amp;&amp; req.url ~ "^/$" ) {
+        # Header rewrite to get our own hardcoded directory index file.
+        # ... anyway we change directory contents very rarely.
+        set req.url = "/index.html";
+     }
+  }
+
+  sub vcl_error {
+  #FASTLY error
+
+    if (obj.status == 801) {
+       set obj.status = 301;
+       set obj.response = "Moved Permanently";
+       set obj.http.Location = "https://" req.http.host req.url;
+       synthetic {""};
+       return (deliver);
+    }
+  }
+</pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:58625-0!*!*!!*!*!*!esi=1 and timestamp 20150810200133 and revision id 101109
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Style Guide/Wiki markup crash course
+path: Style_Guide/Wiki_markup_crash_course
+
 ---
 <h1><span class="mw-headline" id="Media_Wiki_crash_course">Media Wiki crash course</span></h1>
 <p>WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopted certain conventions in the syntax that you should use when editing pages. This is the same wiki engine used by Wikipedia, and thus has the same basic coding characteristics. For general guidelines, see:
@@ -29,22 +31,5 @@ title: WPD:Style Guide/Wiki markup crash course
 <li> <a href="/wiki/WPD:Style_Guide/Lists" title="WPD:Style Guide/Lists">WPD:Style Guide/Lists</a> </li>
 <li> <a href="/wiki/WPD:Style_Guide/Gotchas" title="WPD:Style Guide/Gotchas">WPD:Style Guide/Gotchas</a> describing common Gotchas for WPD editors</li></ul>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.017 seconds
-Real time usage: 0.019 seconds
-Preprocessor visited node count: 10/1000000
-Preprocessor generated node count: 16/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:11207-0!*!0!!*!*!*!esi=1 and timestamp 20150731094814 and revision id 38467
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:11207-0!*!0!!*!*!*!esi=1 and timestamp 20150810200041 and revision id 38467
  -->

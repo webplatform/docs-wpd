@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/analysis/2015-How MediaWiki backend sees requests with or without Fastly in front
+path: Infrastructure/analysis/2015-How_MediaWiki_backend_sees_requests_with_or_without_Fastly_in_front
+
 ---
 <h1><span class="mw-headline" id="How_MediaWiki_backend_sees_an_HTTP_request._With_or_without_Fastly_in_front">How MediaWiki backend sees an HTTP request. With or without Fastly in front</span></h1>
 <p>This page shows two equivalent browsing sessions. One was made with Fastly, and the other without.
@@ -13,7 +15,8 @@ title: WPD:Infrastructure/analysis/2015-How MediaWiki backend sees requests with
 <h2><span class="mw-headline" id="Actions">Actions</span></h2>
 <h3><span class="mw-headline" id="Go_to_Edit_Form">Go to Edit Form</span></h3>
 <h4><span class="mw-headline" id="Without_Fastly">Without Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /w/index.php?title=Special:UserLogin&amp;returnto=WPD%3AInfrastructure%2Farchitecture%2FVM+roles
+<pre class="language-text" data-lang="text">
+Start request GET /w/index.php?title=Special:UserLogin&amp;returnto=WPD%3AInfrastructure%2Farchitecture%2FVM+roles
 HTTP HEADERS:
 HOST: docs.webplatform.org
 CONNECTION: keep-alive
@@ -37,9 +40,13 @@ Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getP
 Parser: using preprocessor: Preprocessor_DOM
 Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
 OutputPage::sendCacheControl: private caching;  **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
+<p><br />
+</p>
 <h4><span class="mw-headline" id="With_Fastly">With Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&amp;action=edit
+<pre class="language-text" data-lang="text">
+Start request GET /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&amp;action=edit
 HTTP HEADERS:
 HOST: docs.webplatform.org
 ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -86,12 +93,14 @@ Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/arch
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 OutputPage::sendCacheControl: private caching;  **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
 <p><br />
 </p>
 <h3><span class="mw-headline" id="Submit_Form.2C_view_page">Submit Form, view page</span></h3>
 <h4><span class="mw-headline" id="Without_Fastly_2">Without Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request POST /w/index.php?title=Special:UserLogin&amp;action=submitlogin&amp;type=login&amp;returnto=WPD:Infrastructure/architecture/VM+roles
+<pre class="language-text" data-lang="text">
+Start request POST /w/index.php?title=Special:UserLogin&amp;action=submitlogin&amp;type=login&amp;returnto=WPD:Infrastructure/architecture/VM+roles
 HTTP HEADERS:
 HOST: docs.webplatform.org
 CONNECTION: keep-alive
@@ -113,15 +122,15 @@ Connected to database 0 at 10.0.0.29
 MessageCache::load: Loading en... got from global cache
 IP: 173.178.131.111
 User: got user 10080 from cache
-[cookie] setcookie: &quot;wpwikiUserID&quot;, &quot;10080&quot;, &quot;1440452895&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiUserName&quot;, &quot;Renoirb&quot;, &quot;1440452895&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiToken&quot;, &quot;&quot;, &quot;1424814495&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
+[cookie] setcookie: "wpwikiUserID", "10080", "1440452895", "/", "", "1", "1"
+[cookie] setcookie: "wpwikiUserName", "Renoirb", "1440452895", "/", "", "1", "1"
+[cookie] setcookie: "wpwikiToken", "", "1424814495", "/", "", "1", "1"
 User: loading options for user 10080 from override cache.
 DatabaseBase::query: Writes done: UPDATE `user` SET user_touched = 'X')
 OutputPage::sendCacheControl: private caching;  **
 Request ended normally
-&#160;
-&#160;
+
+
 Start request GET /wiki/WPD:Infrastructure/architecture/VM_roles
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -160,9 +169,13 @@ Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getP
 Parser: using preprocessor: Preprocessor_DOM
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:48:20 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="With_Fastly_2">With Fastly</span></h3>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request POST /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&amp;action=submit
+<pre class="language-text" data-lang="text">
+Start request POST /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&amp;action=submit
 HTTP HEADERS:
 HOST: docs.webplatform.org
 CACHE-CONTROL: max-age=0
@@ -249,7 +262,7 @@ Saved in parser cache with key wpwiki:pcache:idhash:58597-0!*!0!!*!2!*!esi=1 and
 DatabaseBase::query: Writes done: UPDATE `page` SET page_touched = 'X'
 DatabaseBase::query: Writes done: UPDATE `page` SET page_links_updated = 'X'
 BacklinkCache::queryLinks: got results from DB
-[cookie] setcookie: &quot;wpwikiPostEditRevision100865&quot;, &quot;saved&quot;, &quot;1424906155&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;
+[cookie] setcookie: "wpwikiPostEditRevision100865", "saved", "1424906155", "/", "", "", ""
 OutputPage::sendCacheControl: private caching;  **
 DatabaseBase::query: Writes done: UPDATE `site_stats` SET ss_total_edits=ss_total_edits+N
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
@@ -258,8 +271,8 @@ BacklinkCache::partition: got from full result cache
 BacklinkCache::queryLinks: got results from DB
 BacklinkCache::partition: got from full result cache
 Request ended normally
-&#160;
-&#160;
+
+
 Start request GET /wiki/WPD:Infrastructure/architecture/VM_roles
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -322,12 +335,14 @@ Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/arch
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 Title::getRestrictionTypes: applicable restrictions to [[WPD:Infrastructure/architecture/VM roles]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 22:56:00 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
 <p><br />
 </p>
 <h3><span class="mw-headline" id="Go_to_Main_Page">Go to Main Page</span></h3>
 <h4><span class="mw-headline" id="Without_Fastly_3">Without Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /wiki/Main_Page
+<pre class="language-text" data-lang="text">
+Start request GET /wiki/Main_Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
 CONNECTION: keep-alive
@@ -364,9 +379,13 @@ Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,m
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:50:16 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
+<p><br />
+</p>
 <h4><span class="mw-headline" id="With_Fastly_3">With Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /wiki/Main_Page
+<pre class="language-text" data-lang="text">
+Start request GET /wiki/Main_Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
 ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -411,12 +430,14 @@ Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,m
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 22:56:00 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
 <p><br />
 </p>
 <h3><span class="mw-headline" id="Logout">Logout</span></h3>
 <h4><span class="mw-headline" id="Without_Fastly_4">Without Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /w/index.php?title=Special:UserLogout&amp;returnto=Main+Page
+<pre class="language-text" data-lang="text">
+Start request GET /w/index.php?title=Special:UserLogout&amp;returnto=Main+Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
 CONNECTION: keep-alive
@@ -436,18 +457,18 @@ User: loading options for user 10080 from override cache.
 User: logged in from session
 User: loading options for user 10080 from override cache.
 MessageCache::load: Loading en... got from global cache
-[cookie] setcookie: &quot;wpwikiUserID&quot;, &quot;&quot;, &quot;1424814620&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiToken&quot;, &quot;&quot;, &quot;1424814620&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;forceHTTPS&quot;, &quot;&quot;, &quot;1424814620&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiLoggedOut&quot;, &quot;1424901020&quot;, &quot;1424987420&quot;, &quot;/&quot;, &quot;&quot;, &quot;1&quot;, &quot;1&quot;
+[cookie] setcookie: "wpwikiUserID", "", "1424814620", "/", "", "1", "1"
+[cookie] setcookie: "wpwikiToken", "", "1424814620", "/", "", "1", "1"
+[cookie] setcookie: "forceHTTPS", "", "1424814620", "/", "", "", "1"
+[cookie] setcookie: "wpwikiLoggedOut", "1424901020", "1424987420", "/", "", "1", "1"
 Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
 Parser: using preprocessor: Preprocessor_DOM
 Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
 IP: 173.178.131.111
 OutputPage::sendCacheControl: private caching;  **
 Request ended normally
-&#160;
-&#160;
+
+
 Start request GET /wiki/Main_Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -480,9 +501,13 @@ Parser: using preprocessor: Preprocessor_DOM
 IP: 173.178.131.111
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:50:20 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
+<p><br />
+</p>
 <h4><span class="mw-headline" id="With_Fastly_4">With Fastly</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="text source-text"><pre class="de1">Start request GET /w/index.php?title=Special:UserLogout&amp;returnto=Main+Page
+<pre class="language-text" data-lang="text">
+Start request GET /w/index.php?title=Special:UserLogout&amp;returnto=Main+Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
 ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -510,18 +535,18 @@ User: loading options for user 10080 from override cache.
 User: logged in from session
 User: loading options for user 10080 from override cache.
 MessageCache::load: Loading en... got from global cache
-[cookie] setcookie: &quot;wpwikiUserID&quot;, &quot;&quot;, &quot;1424818845&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiToken&quot;, &quot;&quot;, &quot;1424818845&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;forceHTTPS&quot;, &quot;&quot;, &quot;1424818845&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;1&quot;
-[cookie] setcookie: &quot;wpwikiLoggedOut&quot;, &quot;1424905245&quot;, &quot;1424991645&quot;, &quot;/&quot;, &quot;&quot;, &quot;&quot;, &quot;1&quot;
+[cookie] setcookie: "wpwikiUserID", "", "1424818845", "/", "", "", "1"
+[cookie] setcookie: "wpwikiToken", "", "1424818845", "/", "", "", "1"
+[cookie] setcookie: "forceHTTPS", "", "1424818845", "/", "", "", "1"
+[cookie] setcookie: "wpwikiLoggedOut", "1424905245", "1424991645", "/", "", "", "1"
 Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
 Parser: using preprocessor: Preprocessor_DOM
 Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
 IP: 173.178.131.111
 OutputPage::sendCacheControl: private caching;  **
 Request ended normally
-&#160;
-&#160;
+
+
 Start request GET /wiki/Main_Page
 HTTP HEADERS:
 HOST: docs.webplatform.org
@@ -562,7 +587,8 @@ Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getP
 Parser: using preprocessor: Preprocessor_DOM
 Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
 OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 23:00:45 GMT **
-Request ended normally</pre></div></div>
+Request ended normally
+</pre>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:58614-0!*!*!!*!*!*!esi=1 and timestamp 20150731185807 and revision id 100883
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:58614-0!*!*!!*!*!*!esi=1 and timestamp 20150810200128 and revision id 100883
  -->

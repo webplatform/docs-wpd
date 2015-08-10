@@ -1,5 +1,7 @@
 ---
 title: WPD:Projects/SSO/WordPressPlugin
+path: Projects/SSO/WordPressPlugin
+
 ---
 <h1><span class="mw-headline" id="WordPress_plugin">WordPress plugin</span></h1>
 <p>Not done yet. Taking notes.
@@ -15,11 +17,15 @@ title: WPD:Projects/SSO/WordPressPlugin
 <h1><span class="mw-headline" id="Tests">Tests</span></h1>
 <h2><span class="mw-headline" id="On_login_attempt.2C_send_to_RP">On login attempt, send to RP</span></h2>
 <ul><li> <a rel="nofollow" class="external text" href="http://adambrown.info/p/wp_hooks/hook/login_head?version=3.9&amp;file=wp-login.php">login_head hook</a></li></ul>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">add_action( 'login_head', 'prout' );
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+add_action( 'login_head', 'prout' );
 function prout( )
 {
   header('Location: https://accounts.webplatform.org/oauth/signin');
-}</pre></div></div>
+}
+</pre>
 <p><br />
 </p>
 <h2><span class="mw-headline" id="Unsorted_pointers">Unsorted pointers</span></h2>
@@ -30,8 +36,8 @@ function prout( )
 
 <!-- 
 NewPP limit report
-CPU time usage: 0.015 seconds
-Real time usage: 0.015 seconds
+CPU time usage: 0.011 seconds
+Real time usage: 0.011 seconds
 Preprocessor visited node count: 27/1000000
 Preprocessor generated node count: 44/1000000
 Post‐expand include size: 0/2097152 bytes
@@ -45,5 +51,5 @@ Transclusion expansion time report (%,ms,calls,template)
 100.00%    0.000      1 - -total
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:23024-0!*!*!!*!*!*!esi=1 and timestamp 20150731111130 and revision id 55811
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:23024-0!*!*!!*!*!*!esi=1 and timestamp 20150810162009 and revision id 55811
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/procedures/Piwik Tracking code installation
+path: Infrastructure/procedures/Piwik_Tracking_code_installation
+
 ---
 <h2><span class="mw-headline" id="Summary">Summary</span></h2>
 <p>How is installed the tracking code throughout the web application.
@@ -34,28 +36,30 @@ title: WPD:Infrastructure/procedures/Piwik Tracking code installation
 <li> Visitor exclusion: None</li></ul>
 <h3><span class="mw-headline" id="Customizations">Customizations</span></h3>
 <h4><span class="mw-headline" id="MediaWiki_2">MediaWiki</span></h4>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">// In file Piwik.hooks.php, within AddPiwik method
-&#160;
-    $wgPiwikCustomJS[] = <span class="sc2">&lt;&lt;&lt;<span class="st0">'JS'</span></span>
-&#160;
-<span class="sc2">          <span class="sy0">//</span> Note from renoirb: Should be moved somewhere else soon</span>
-<span class="sc2">          jQuery<span class="br0">&#40;</span>document<span class="br0">&#41;</span>.ready<span class="br0">&#40;</span>function<span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span></span>
-<span class="sc2">              jQuery<span class="br0">&#40;</span><span class="st0">'body'</span><span class="br0">&#41;</span>.on<span class="br0">&#40;</span><span class="st0">'click'</span>, <span class="st0">'#ca-edit'</span>, function<span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span></span>
-<span class="sc2">                 if <span class="br0">&#40;</span>typeof _paq&#160;!<span class="sy0">==</span> <span class="st0">'undefined'</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></span>
-<span class="sc2">                    _paq.push<span class="br0">&#40;</span><span class="br0">&#91;</span><span class="st0">'trackGoal'</span>,<span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#41;</span>;<span class="sy0">//</span> Goal specific to edit a page</span>
-<span class="sc2">                 <span class="br0">&#125;</span></span>
-<span class="sc2">              <span class="br0">&#125;</span><span class="br0">&#41;</span>;</span>
-<span class="sc2">          <span class="br0">&#125;</span><span class="br0">&#41;</span>;</span>
-&#160;
-<span class="sc2">JS;</span>
-&#160;
-<span class="sc2">    <span class="sy0">//</span> Do NOT fail the attempt if it failed, please.</span>
-<span class="sc2">    try <span class="br0">&#123;</span></span>
-<span class="sc2">      if <span class="br0">&#40;</span> $wgUser-&gt;</span>isAnon() === false ) {
-        $userName = $wgUser-&gt;getName();
-        $wgPiwikCustomJS[] = '          _paq.push([&quot;setCustomVariable&quot;,1,&quot;username&quot;,&quot;'.$userName.'&quot;, &quot;visit&quot;]);'.PHP_EOL;
-      }
-    } catch(Exception $e) {  }</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+// In file Piwik.hooks.php, within AddPiwik method
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:10320-0!*!*!!*!*!*!esi=1 and timestamp 20150731184552 and revision id 40828
+    $wgPiwikCustomJS[] = <<<'JS'
+
+          // Note from renoirb: Should be moved somewhere else soon
+          jQuery(document).ready(function(){
+              jQuery('body').on('click', '#ca-edit', function(){
+                 if (typeof _paq&#160;!== 'undefined') {
+                    _paq.push(['trackGoal',1]);// Goal specific to edit a page
+                 }
+              });
+          });
+
+JS;
+
+    // Do NOT fail the attempt if it failed, please.
+    try {
+      if ( $wgUser->isAnon() === false ) {
+        $userName = $wgUser->getName();
+        $wgPiwikCustomJS[] = '          _paq.push(["setCustomVariable",1,"username","'.$userName.'", "visit"]);'.PHP_EOL;
+      }
+    } catch(Exception $e) {  }
+</pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:10320-0!*!*!!*!*!*!esi=1 and timestamp 20150810200035 and revision id 40828
  -->

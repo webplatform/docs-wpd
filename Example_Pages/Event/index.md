@@ -1,5 +1,7 @@
 ---
 title: WPD:Example Pages/Event
+path: Example_Pages/Event
+
 ---
 <p><b>This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.</b>
 Draws from:
@@ -215,8 +217,10 @@ Draws from:
 <h3><span class="mw-headline" id="Example:_Click_Event_Origin">Example: Click Event Origin</span></h3>
 <p>This example uses the event object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of anchor elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the location of the window object.
 </p><p><a href="/w/index.php?title=See_live_example&amp;action=edit&amp;redlink=1" class="new" title="See live example (page does not exist)">See live example</a>
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">script</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;text/javascript&quot;</span>&gt;</span>
+<pre class="language-html5" data-lang="html5">
+<script type="text/javascript">
 /* This code cancels the event. If the click occurs in an anchor
    and the SHIFT key is down, the document is navigated. */
 function clickIt()  
@@ -224,55 +228,65 @@ function clickIt()
     var e = window.event.srcElement
     txtName.value = e.tagName;
     txtType.value = e.type;
-    if ((e.tagName == &quot;A&quot;) <span class="sc1">&amp;&amp; </span>
-<span class="sc1">        (window.event.shiftKey)) {</span>
-<span class="sc1">        window.location.href = e.href;</span>
+    if ((e.tagName == "A") &amp;&amp; 
+        (window.event.shiftKey)) {
+        window.location.href = e.href;
     }
-&#160;
+    
     window.event.returnValue = false; 
 }
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">script</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">body</span> <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;clickIt()&quot;</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>To follow a link, click while pressing the SHIFT key.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;about:blank&quot;</span>&gt;</span>Click Here<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtName&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span> <span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtType&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">body</span>&gt;</span></pre></div></div>
+</script>
+<body onclick="clickIt()">
+<p>To follow a link, click while pressing the SHIFT key.</p>
+<p><a href="about:blank">Click Here</a>
+<textarea name="txtName"></textarea> <textarea name="txtType"></textarea>
+</body>
+</p>
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="Example:_Binding_the_Click_Event_to_Controls">Example: Binding the Click Event to Controls</span></h3>
 <p>This example shows how to bind the <code>click</code> event to grouped controls.
 </p><p><a href="/w/index.php?title=See_live_example&amp;action=edit&amp;redlink=1" class="new" title="See live example (page does not exist)">See live example</a>
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">head</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">script</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;text/javascript&quot;</span>&gt;</span>
+<pre class="language-html5" data-lang="html5">
+<head>
+<script type="text/javascript">
 function CookieGroup() 
 {
 txtOutput.value = window.event.srcElement.value;
 }
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">script</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">head</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">body</span>&gt;</span>
-<span class="sc-1">&lt;!-- Controls are grouped by giving them the same NAME but unique IDs. --&gt;</span>
-<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Grouped Radio Buttons<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
-<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest&quot;</span> </span>
-<span class="sc2">    <span class="kw3">id</span><span class="sy0">=</span><span class="st0">&quot;Cookies&quot;</span> </span>
-<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;accept_cookies&quot;</span> </span>
-<span class="sc2">    <span class="kw3">checked</span> </span>
-<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
-<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest&quot;</span> </span>
-<span class="sc2">    <span class="kw3">id</span><span class="sy0">=</span><span class="st0">&quot;NoCookies&quot;</span> </span>
-<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;refuse_cookies&quot;</span> </span>
-<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Ungrouped Radio Button<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">input</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">&quot;radio&quot;</span> </span>
-<span class="sc2">    <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;rdoTest1&quot;</span> </span>
-<span class="sc2">    <span class="kw3">value</span><span class="sy0">=</span><span class="st0">&quot;chocolate-chip_cookies&quot;</span> </span>
-<span class="sc2">    <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">&quot;CookieGroup()&quot;</span>&gt;&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Value of control on which the onclick event has fired<span class="sc2">&lt;<span class="kw2">br</span>&gt;</span>
-<span class="sc2">&lt;<span class="kw2">textarea</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">&quot;txtOutput&quot;</span> <span class="kw3">style</span><span class="sy0">=</span><span class="st0">&quot;width: 250px&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">textarea</span>&gt;</span> <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">body</span>&gt;</span></pre></div></div>
+</script>
+</head>
+<body>
+<!-- Controls are grouped by giving them the same NAME but unique IDs. -->
+<p>Grouped Radio Buttons<br>
+<input type="radio" 
+    name="rdoTest" 
+    id="Cookies" 
+    value="accept_cookies" 
+    checked 
+    onclick="CookieGroup()"><br>
+<input type="radio" 
+    name="rdoTest" 
+    id="NoCookies" 
+    value="refuse_cookies" 
+    onclick="CookieGroup()"><br>
+</p>
+<p>Ungrouped Radio Button<br>
+<input type="radio" 
+    name="rdoTest1" 
+    value="chocolate-chip_cookies" 
+    onclick="CookieGroup()"><br>
+</p>
+<p>Value of control on which the onclick event has fired<br>
+<textarea name="txtOutput" style="width: 250px"></textarea> </p>
+<p></body>
+</p>
+</pre>
+<p><br />
+</p>
 <h2><span class="mw-headline" id="Usage">Usage</span></h2>
 <p>If the user clicks the left mouse button, the <code>click</code> event for an object occurs only if the mouse pointer is over the object and an <code>mousedown</code> and an <code>mouseup</code> event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no <code>click</code> event occurs.
 </p><p>The <code>click</code> event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the <code>click</code> event occurs after the <code>beforeupdate</code> and <code>afterupdate</code> events for the control group.
@@ -437,5 +451,5 @@ txtOutput.value = window.event.srcElement.value;
 	</div>
 <p>&lt;/details&gt;
 </p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:203-0!*!0!!*!*!*!esi=1 and timestamp 20150731181529 and revision id 768
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:203-0!*!0!!*!*!*!esi=1 and timestamp 20150810195946 and revision id 768
  -->

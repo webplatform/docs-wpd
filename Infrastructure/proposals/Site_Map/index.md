@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/proposals/Site Map
+path: Infrastructure/proposals/Site_Map
+
 ---
 <p><br />
 </p>
@@ -323,5 +325,5 @@ title: WPD:Infrastructure/proposals/Site Map
 <li> live DOM viewer</li>
 <li> validation</li></ul>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:16-0!*!*!!*!*!*!esi=1 and timestamp 20150731181004 and revision id 62561
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:16-0!*!*!!*!*!*!esi=1 and timestamp 20150810195922 and revision id 62561
  -->

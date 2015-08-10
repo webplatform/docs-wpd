@@ -1,5 +1,7 @@
 ---
 title: WPD:Example Pages/CSS
+path: Example_Pages/CSS
+
 ---
 <p><b>This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.</b>
 </p><p>Based on: <a rel="nofollow" class="external free" href="https://developer.mozilla.org/en-US/docs/CSS/font-size">https://developer.mozilla.org/en-US/docs/CSS/font-size</a> and <a rel="nofollow" class="external free" href="http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx</a>
@@ -64,19 +66,27 @@ title: WPD:Example Pages/CSS
 <h2><span class="mw-headline" id="Examples">Examples</span></h2>
 <p><a href="/w/index.php?title=CSS/examples&amp;action=edit&amp;redlink=1" class="new" title="CSS/examples (page does not exist)"> View live examples</a>
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">/* LANGUAGE-TAG: CSS */
+<pre class="language-html5" data-lang="html5">
+/* LANGUAGE-TAG: CSS */
 /* Set paragraph text to be very large. */
 p { font-size: xx-large }
-&#160;
+ 
 /* Set h1 (level 1 heading) text to be 2.5 times the size
  * of the text around it. */
 h1 { font-size: 250% }
-&#160;
+ 
 /* Sets text enclosed within span tag to be 16px */
-span { font-size: 16px; }</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">//LANGUAGE-TAG: JavaScript
-var ele = document.getElementyById(&quot;my-paragraph&quot;);
-ele.style.fontSize = &quot;small&quot;;</pre></div></div>
+span { font-size: 16px; }
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+//LANGUAGE-TAG: JavaScript
+var ele = document.getElementyById("my-paragraph");
+ele.style.fontSize = "small";
+</pre>
+<p><br />
+</p>
 <h2><span class="mw-headline" id="Usage">Usage</span></h2>
 <p>There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
 </p>
@@ -93,18 +103,26 @@ Pixels
 <h3><span class="mw-headline" id="Ems">Ems</span></h3>
 <p>Another way of setting the font size is with <code>em</code> values. The size of an <code>em</code> value is dynamic. When defining the <code>font-size</code> property, an <code>em</code> is equal to the size of the font that applies to the parent of the element in question. If you haven't set the font size anywhere on the page, then it is the browser default, which is probably 16px. So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. Note that the value 2 is essentially a multiplier of the current <code>em</code> size.
 </p><p>In order to calculate the <code>em</code> equivalent for any pixel value required, you can use this formula:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="css source-css"><pre class="de1">em <span class="sy0">=</span> desired <span class="kw2">element</span> pixel <span class="kw5">value</span> / parent <span class="kw2">element</span> <span class="kw1">font-size</span> in pixels</pre></div></div>
-<p>For example, suppose the font-size of the body of the page is set to 1em, with the browser standard of 1em = 16px; if the font-size you want is 12px, then you should specify 0.75em (because 12/16 = 0.75). Similarly, if you want a font size of 10px, then specify 0.625em (10/16 = 0.625); for 22px, specify 1.375em (22/16).
+<pre class="language-css" data-lang="css">
+em = desired element pixel value / parent element font-size in pixels
+</pre>
+<p><br />
+For example, suppose the font-size of the body of the page is set to 1em, with the browser standard of 1em = 16px; if the font-size you want is 12px, then you should specify 0.75em (because 12/16 = 0.75). Similarly, if you want a font size of 10px, then specify 0.625em (10/16 = 0.625); for 22px, specify 1.375em (22/16).
 </p><p>A popular technique to use throughout the document is to set the the font-size of the body to 62.5% (that is 62.5% of the default of 16px), which equates to 10px, or 0.625em. Now you can set the font-size for any elements using em units, with an easy-to-remember conversion, by dividing the px value by 10. This way 6px = 0.6em, 8px = 0.8em, 12px = 1.2em, 14px = 1.4em, 16px = 1.6em. For example:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="css source-css"><pre class="de1">body <span class="br0">&#123;</span>
-  <span class="kw1">font-size</span><span class="sy0">:</span> <span class="re3">62.5%</span><span class="sy0">;</span> <span class="coMULTI">/* font-size 1em = 10px */</span>
-<span class="br0">&#125;</span>
-p <span class="br0">&#123;</span>
-  <span class="kw1">font-size</span><span class="sy0">:</span> <span class="re3">1.6em</span><span class="sy0">;</span> <span class="coMULTI">/* 1.6em = 16px */</span>
-<span class="br0">&#125;</span></pre></div></div>
-<p>The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
+<pre class="language-css" data-lang="css">
+body {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+p {
+  font-size: 1.6em; /* 1.6em = 16px */
+}
+</pre>
+<p><br />
+The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 </p>
 <h2><span class="mw-headline" id="Notes">Notes</span></h2>
 <p>The <code>em</code> and <code>ex</code> units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
@@ -236,5 +254,5 @@ p <span class="br0">&#123;</span>
 	</div>
 <p>&lt;/details&gt;
 </p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:195-0!*!0!!*!*!*!esi=1 and timestamp 20150731181434 and revision id 794
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:195-0!*!0!!*!*!*!esi=1 and timestamp 20150810195930 and revision id 794
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Style Guide/Gotchas
+path: Style_Guide/Gotchas
+
 ---
 <h1><span class="mw-headline" id="Gotchas">Gotchas</span></h1>
 <p>Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them, and MediaWiki markup is no exception. This article lists those that we've discovered as we build this site and work with content. Wherever possible, a work-around is provided.
@@ -52,28 +54,41 @@ if (moodQuery==checkin.mood&#124;&#124;moodQuery) handler(checkin);
 <p>But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
 </p><p>Parser functions also gaak when they encounter pipes. So, when you combine a parser function like #if with a table, you have to use the {{!}} template instead of pipes for the table.
 </p><p>Here's the normal #if syntax:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{{#if: condition | value | else-value}}</pre></div></div>
-<p>Here's the normal syntax for a table: 
+<pre class="language-html5" data-lang="html5">
+{{#if: condition | value | else-value}}
+</pre>
+<p><br />
+Here's the normal syntax for a table: 
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{| class=&quot;wikitable&quot;
+<pre class="language-html5" data-lang="html5">
+{| class="wikitable"
 ! Header-value 1
 ! Header-value-2
 |-
 | Row-value 1
 | Row-value-2
-|}</pre></div></div>
-<p>The problem is that in the #if block, every pipe character the rendering engine encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work. Here's an example where we use the {{!}} template hack:
+|}
+</pre>
+<p><br />
+The problem is that in the #if block, every pipe character the rendering engine encounters will be interpreted literally. So if you try to include pipe characters for the table syntax as part of the value or else-value, it just won't work. Here's an example where we use the {{!}} template hack:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{{#if: {{{Specifications|}}} | 
+<pre class="language-html5" data-lang="html5">
+{{#if: {{{Specifications|}}} | 
 ==Related Specifications==
-{{{!}} class=&quot;wikitable&quot;
+{{{!}} class="wikitable"
 ! Specification
 ! Status
 ! Related Changes
 {{!}}-
 {{{Specifications|}}}
-{{!}}} | }}</pre></div></div>
+{{!}}} | }}
+</pre>
+<p><br />
+</p>
 <h1><span class="mw-headline" id="Escaping_characters">Escaping characters</span></h1>
 <p>If you include certain characters in your article, like the pipe character, the Semantic MediaWiki will interpret these as part of the template processing instructions and the result is usually a break in the rendering at the point where the character appears. See <a href="#The_dreaded_pipe_character">The dreaded pipe character</a> above. For these characters, use their HTML entity tags, shown in this table.
 </p>
@@ -123,11 +138,16 @@ if (moodQuery==checkin.mood&#124;&#124;moodQuery) handler(checkin);
 <p>Certain links contain special characters, such as the equal sign (=) in a link to a YouTube video (for example, <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=me3BviH3nZc">http://www.youtube.com/watch?v=me3BviH3nZc</a>). When these links are inside other wiki references, such as the Note tag, the special character needs to be escaped. Two ways to do so are:
 </p>
 <ul><li> Replace every = with =, as in:</li></ul>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{{Note|[http://www.youtube.com/watch?v{{=}}me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}</pre></div></div>
-<p>OR
+<pre class="language-html5" data-lang="html5">
+{{Note|[http://www.youtube.com/watch?v{{=}}me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
+</pre>
+<p><br />
+OR
 </p>
 <ul><li> Prefix the note-text with 1=, as in:</li></ul>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+{{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
+</pre>
 <p><br />
 </p>
 <h1><span class="mw-headline" id="Spaces_in_template_calls">Spaces in template calls</span></h1>
@@ -148,8 +168,8 @@ if (moodQuery==checkin.mood&#124;&#124;moodQuery) handler(checkin);
 </p>
 <!-- 
 NewPP limit report
-CPU time usage: 0.129 seconds
-Real time usage: 1.336 seconds
+CPU time usage: 0.094 seconds
+Real time usage: 1.155 seconds
 Preprocessor visited node count: 303/1000000
 Preprocessor generated node count: 737/1000000
 Post‐expand include size: 40/2097152 bytes
@@ -160,10 +180,10 @@ Expensive parser function count: 0/100
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   37.095      1 - -total
- 38.00%   14.095      1 - Template:Page_Title
-  7.52%    2.790      1 - Template:=
+100.00%   23.374      1 - -total
+ 62.77%   14.671      1 - Template:Page_Title
+ 14.16%    3.310      1 - Template:=
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:1005-0!*!0!!*!5!*!esi=1 and timestamp 20150731030751 and revision id 66154
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1005-0!*!0!!*!5!*!esi=1 and timestamp 20150810155154 and revision id 66154
  -->

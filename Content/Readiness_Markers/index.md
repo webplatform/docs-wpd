@@ -1,5 +1,7 @@
 ---
 title: WPD:Content/Readiness Markers
+path: Content/Readiness_Markers
+
 ---
 <h1><span class="mw-headline" id="Readiness_Markers_.26_Editorial_Notes">Readiness Markers &amp; Editorial Notes</span></h1>
 <p>Readiness markers display information about the quality of an article at a glance.  They are visible to anyone arriving at the site, so that it is clear when work is not complete and caution should be used.  The readiness states are also available to be searched, so that site editors can keep track of work to be done.
@@ -32,12 +34,12 @@ title: WPD:Content/Readiness Markers
 <h2><span class="mw-headline" id="Statistics">Statistics</span></h2>
 <p>Current numbers of articles with each status:
 </p>
-<ul><li>Ready to Use: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Ready+to+Use">1633 articles</a>)</li>
+<ul><li>Ready to Use: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Ready+to+Use">1634 articles</a>)</li>
 <li>Almost Ready: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Almost+Ready">351 articles</a>)</li>
 <li>In Progress: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=In+Progress">850 articles</a>)</li>
 <li>Not Ready: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Not+Ready">1433 articles</a>)</li>
 <li>Out of Date: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Out+of+Date">100 articles</a>)</li>
-<li>Unreviewed: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Unreviewed">103 articles</a>)</li>
+<li>Unreviewed: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=State&amp;value=Unreviewed">107 articles</a>)</li>
 <li>Other values: (<a rel="nofollow" class="external text" href="//docs.webplatform.org/w/index.php?title=Special:SearchByProperty&amp;property=Has+improper+value+for&amp;value=State">22 articles</a>)</li></ul>
 <h2><span class="mw-headline" id="Implementation">Implementation</span></h2>
 <p>The readiness marker system is now live on the main wiki.  CSS styling still to come.  The implementation depends on the following templates and Semantic MediaWiki properties:
@@ -59,30 +61,17 @@ title: WPD:Content/Readiness Markers
 </p>
 <h2><span class="mw-headline" id="Design">Design</span></h2>
 <p>The state value is printed to the page in the following format by the Flags template:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;readiness-state Almost_Ready&quot;</span>&gt;</span> 
-<span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>This article is <span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;/wiki/Property:State&quot;</span> <span class="kw3">title</span><span class="sy0">=</span><span class="st0">&quot;Property:State&quot;</span>&gt;</span>Almost Ready.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span>
-<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></pre></div></div>
-<p>The "readiness-state" and state-specific class will be used for the final CSS.  The state-specific classes are created from the property values by replacing spaces with "_", so they are: "Ready_to_Use", "Almost_Ready", "In_Progress", "Not_Ready", "Out_of_Date".  (The "Unreviewed" value currently never results in a div being added to the page.)
+<pre class="language-html5" data-lang="html5">
+<div class="readiness-state Almost_Ready"> 
+<p>This article is <a href="/wiki/Property:State" title="Property:State">Almost Ready.</a>
+</p>
+</div>
+</pre>
+<p><br />
+The "readiness-state" and state-specific class will be used for the final CSS.  The state-specific classes are created from the property values by replacing spaces with "_", so they are: "Ready_to_Use", "Almost_Ready", "In_Progress", "Not_Ready", "Out_of_Date".  (The "Unreviewed" value currently never results in a div being added to the page.)
 </p><p>You can find the latest discussion about (and examples of) the proposed design for the markers on the <a rel="nofollow" class="external text" href="http://lists.w3.org/Archives/Public/public-webplatform/">webplatform email list</a>.
 </p>
-<!-- 
-NewPP limit report
-CPU time usage: 0.076 seconds
-Real time usage: 0.083 seconds
-Preprocessor visited node count: 108/1000000
-Preprocessor generated node count: 404/1000000
-Post‐expand include size: 805/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 3/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:22193-0!*!0!!*!*!*!esi=1 and timestamp 20150731163641 and revision id 58141
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:22193-0!*!0!!*!*!*!esi=1 and timestamp 20150810200053 and revision id 58141
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Getting Started
+path: Getting_Started
+
 ---
 <h1><span class="mw-headline" id="Start_contributing_content">Start contributing content</span></h1>
 <p>Anyone can contribute to the WebPlatform.org wiki. <b>First</b>, read the <a href="/wiki/WPD:Contributors_Guide" title="WPD:Contributors Guide">Contributor's Guide</a> to learn how to set up your account, find information about how we work, and get the details about editing content. Then, come back here and dig in!
@@ -106,7 +108,7 @@ The following criteria are applied:
 </p><p><br />
 </p>
 <h2><span class="mw-headline" id="Fill_in_missing_summaries">Fill in missing summaries</span></h2>
-<p>(906 results)
+<p>(904 results)
 </p><p>Every page should include a short summary that provides an overview of the article. Summaries are used in generated overview pages and descriptions in tables (like the tables in this guide). Writing a summary requires just writing a sentence or two in your own words. For source material, refer to the article itself or supporting material like specifications and external references. See <a href="/wiki/WPD:Editors_Guide/step_5_update_existing_content#Enter_helpful_article_summaries" title="WPD:Editors Guide/step 5 update existing content">Enter helpful article summaries</a> for more information.<br /><br />
 The following criteria are applied:
 </p><p><br />
@@ -411,8 +413,8 @@ The following criteria are applied:
 </p>
 <!-- 
 NewPP limit report
-CPU time usage: 0.766 seconds
-Real time usage: 1.062 seconds
+CPU time usage: 0.768 seconds
+Real time usage: 1.039 seconds
 Preprocessor visited node count: 4007/1000000
 Preprocessor generated node count: 3699/1000000
 Post‐expand include size: 66367/2097152 bytes
@@ -423,11 +425,11 @@ Expensive parser function count: 0/100
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  922.559      1 - -total
- 99.19%  915.117     20 - Template:Configurable_Query
- 15.46%  142.607     60 - Template:Trim
-  9.81%   90.462     60 - Template:Change_Separator
+100.00%  900.292      1 - -total
+ 99.20%  893.058     20 - Template:Configurable_Query
+ 15.68%  141.195     60 - Template:Trim
+  9.94%   89.471     60 - Template:Change_Separator
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:9-0!*!0!!*!*!*!esi=1 and timestamp 20150731022128 and revision id 62182
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:9-0!*!0!!*!*!*!esi=1 and timestamp 20150810083404 and revision id 62182
  -->

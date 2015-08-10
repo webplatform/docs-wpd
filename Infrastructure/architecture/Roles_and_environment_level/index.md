@@ -1,5 +1,7 @@
 ---
 title: WPD:Infrastructure/architecture/Roles and environment level
+path: Infrastructure/architecture/Roles_and_environment_level
+
 ---
 <div style="float:right;width:33%;word-wrap:break-word;clear:both;">
 <h3><span class="mw-headline" id="WebPlatform_server_Infrastructure_architecture_menu"><a href="/wiki/WPD:Infrastructure/architecture" title="WPD:Infrastructure/architecture">WebPlatform server Infrastructure architecture menu</a></span></h3>
@@ -83,26 +85,29 @@ title: WPD:Infrastructure/architecture/Roles and environment level
 <h1><span class="mw-headline" id="Related">Related</span></h1>
 <h2><span class="mw-headline" id="How_salt_detects_the_roles.3F">How salt detects the roles?</span></h2>
 <p>In the  <a rel="nofollow" class="external text" href="https://github.com/webplatform/salt-states">salt-states</a> code repository, generally available in the salt master <code>/srv/salt/_grains/purpose.py</code>. The code looks like this.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="python source-python"><pre class="de1"><span class="co1">#!/usr/bin/env python</span>
-&#160;
-<span class="kw1">import</span> <span class="kw3">socket</span>
-<span class="kw1">from</span> <span class="kw3">string</span> <span class="kw1">import</span> digits
-&#160;
-hostname <span class="sy0">=</span> <span class="kw3">socket</span>.<span class="me1">gethostname</span><span class="br0">&#40;</span><span class="br0">&#41;</span>.<span class="me1">translate</span><span class="br0">&#40;</span><span class="kw2">None</span><span class="sy0">,</span> digits<span class="br0">&#41;</span>
-&#160;
-<span class="kw1">def</span> roles<span class="br0">&#40;</span><span class="br0">&#41;</span>:
-        <span class="st0">'''
-        Parse the host hostname and creates a list of roles
-&#160;
-        Based on the hostname (without domain name), should return:
-&#160;
-                salt            -&gt; grain:roles: [&quot;salt&quot;]
-                redis-jobs1     -&gt; grain:roles: [&quot;redis&quot;,&quot;jobs&quot;]
-&#160;
-        '''</span>
-        dataObject <span class="sy0">=</span> <span class="br0">&#123;</span><span class="st0">'roles'</span>: hostname.<span class="me1">split</span><span class="br0">&#40;</span><span class="st0">'-'</span><span class="br0">&#41;</span><span class="br0">&#125;</span>
-        <span class="kw1">return</span> dataObject</pre></div></div>
+<pre class="language-python" data-lang="python">
+#!/usr/bin/env python
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:58599-0!*!0!!*!*!*!esi=1 and timestamp 20150731185717 and revision id 101523
+import socket
+from string import digits
+
+hostname = socket.gethostname().translate(None, digits)
+
+def roles():
+        '''
+        Parse the host hostname and creates a list of roles
+
+        Based on the hostname (without domain name), should return:
+
+                salt            -> grain:roles: ["salt"]
+                redis-jobs1     -> grain:roles: ["redis","jobs"]
+
+        '''
+        dataObject = {'roles': hostname.split('-')}
+        return dataObject
+</pre>
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:58599-0!*!0!!*!*!*!esi=1 and timestamp 20150810200123 and revision id 101523
  -->

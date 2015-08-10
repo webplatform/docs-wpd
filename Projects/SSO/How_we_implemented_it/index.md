@@ -1,5 +1,7 @@
 ---
 title: WPD:Projects/SSO/How we implemented it
+path: Projects/SSO/How_we_implemented_it
+
 ---
 <h1><span class="mw-headline" id="How_we_implemented_SSO">How we implemented SSO</span></h1>
 <p>The objective of this document is to describe how we implemented a SSO solution for WebPlatform.org. It is meant to give an idea of the various moving parts. 
@@ -45,15 +47,20 @@ title: WPD:Projects/SSO/How we implemented it
 </p><p>In this example, we are going to show how the <a rel="nofollow" class="external text" href="http://docs.webplatform.org/test/css/properties/border">WebPlatform Docs "test" wiki</a> ("C") gets data from the various layers.
 </p><p>Client configuration is described in the project documentation available in the  <a rel="nofollow" class="external text" href="https://github.com/webplatform/fxa-oauth-server/blob/master/docs/clients.md">WebPlatform's fork of FxA OAuth Server in <i>docs/clients.md</i></a>.
 </p><p>Within FxA OAuth server configuration, a <tt>client: [/* array of clients */]</tt> entry looks like this:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span>
-  <span class="st0">&quot;id&quot;</span><span class="sy0">:</span> <span class="st0">&quot;7e7e11299d95d789&quot;</span><span class="sy0">,</span>
-  <span class="st0">&quot;secret&quot;</span><span class="sy0">:</span> <span class="st0">&quot;a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa&quot;</span><span class="sy0">,</span>
-  <span class="st0">&quot;name&quot;</span><span class="sy0">:</span> <span class="st0">&quot;WebPlatform Test&quot;</span><span class="sy0">,</span>
-  <span class="st0">&quot;image_uri&quot;</span><span class="sy0">:</span> <span class="st0">&quot;...&quot;</span><span class="sy0">,</span>
-  <span class="st0">&quot;redirectUri&quot;</span><span class="sy0">:</span><span class="st0">&quot;http://docs.webplatform.org/test/Special:AccountsHandler/callback&quot;</span><span class="sy0">,</span>
-  <span class="st0">&quot;whitelisted&quot;</span><span class="sy0">:</span> <span class="kw2">true</span>
-<span class="br0">&#125;</span></pre></div></div>
+<pre class="language-javascript" data-lang="javascript">
+{
+  "id": "7e7e11299d95d789",
+  "secret": "a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+  "name": "WebPlatform Test",
+  "image_uri": "...",
+  "redirectUri":"http://docs.webplatform.org/test/Special:AccountsHandler/callback",
+  "whitelisted": true
+}
+</pre>
+<p><br />
+</p>
 <ul><li> <tt>id</tt>: Is a 8 byte hexadecimal string that you will need to have on the client configuration</li>
 <li> <tt>secret</tt>: Is a 32 byte hexadecimal string that you will also need on the client configuration.</li>
 <li> <tt>redirectUri</tt>: Is where you should send the users to when they successfully authenticated.</li></ul>
@@ -69,15 +76,19 @@ title: WPD:Projects/SSO/How we implemented it
 <li> Generate an Authorization token</li></ul>
 <p>In the case of our implementation, we also added (<tt>fxa_profile</tt>) so that we can read user data from somewhere.
 </p><p>Our MediaWiki extension has similar configuration in its <tt>Settings.php</tt> file:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="php source-php"><pre class="de1"><span class="kw1">require_once</span><span class="br0">&#40;</span> <span class="st0">&quot;<span class="es4">$IP</span>/extensions/WebPlatformAuth/WebPlatformAuth.php&quot;</span> <span class="br0">&#41;</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'client'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'id'</span><span class="br0">&#93;</span>             <span class="sy0">=</span> <span class="st_h">'7e7e11299d95d789'</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'client'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'secret'</span><span class="br0">&#93;</span>         <span class="sy0">=</span> <span class="st_h">'a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa'</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'endpoints'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'fxa_oauth'</span><span class="br0">&#93;</span>   <span class="sy0">=</span> <span class="st_h">'https://oauth.accounts.webplatform.org/v1/'</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'endpoints'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'fxa_profile'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="st_h">'https://profile.accounts.webplatform.org/v1/'</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'methods'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'authorize'</span><span class="br0">&#93;</span>     <span class="sy0">=</span> <span class="st_h">'authorization'</span><span class="sy0">;</span>
-<span class="re0">$wgWebPlatformAuth</span><span class="br0">&#91;</span><span class="st_h">'methods'</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'token'</span><span class="br0">&#93;</span>         <span class="sy0">=</span> <span class="st_h">'token'</span><span class="sy0">;</span></pre></div></div>
-<p>While configuration can be different depending on the client extension, a few endpoints are required to be used in our installation.
+<pre class="language-php" data-lang="php">
+require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
+$wgWebPlatformAuth['client']['id']             = '7e7e11299d95d789';
+$wgWebPlatformAuth['client']['secret']         = 'a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa';
+$wgWebPlatformAuth['endpoints']['fxa_oauth']   = 'https://oauth.accounts.webplatform.org/v1/';
+$wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://profile.accounts.webplatform.org/v1/';
+$wgWebPlatformAuth['methods']['authorize']     = 'authorization';
+$wgWebPlatformAuth['methods']['token']         = 'token';
+</pre>
+<p><br />
+While configuration can be different depending on the client extension, a few endpoints are required to be used in our installation.
 </p>
 <ul><li> <tt>GET <a rel="nofollow" class="external free" href="https://oauth.accounts.webplatform.org/v1/authorization">https://oauth.accounts.webplatform.org/v1/authorization</a></tt></li>
 <li> <tt>POST <a rel="nofollow" class="external free" href="https://oauth.accounts.webplatform.org/v1/authorization">https://oauth.accounts.webplatform.org/v1/authorization</a></tt></li>
@@ -125,18 +136,26 @@ title: WPD:Projects/SSO/How we implemented it
 <li> <tt>client secret</tt>: The shared secret</li>
 <li> <tt>code</tt>: The one-time code we got when redirected to the <tt>callbackUri</tt>.</li></ul>
 <p>The request is similar to this cURL call:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="bash source-bash"><pre class="de1">curl <span class="re5">-XPOST</span> <span class="re5">-H</span> <span class="st_h">'Content-Type: application/json'</span> \
-     <span class="st_h">'https://oauth.accounts.webplatform.org/v1/token'</span> \
-     <span class="re5">-d</span> <span class="st_h">'{&quot;client_id&quot;:&quot;7e7e11299d95d789&quot;,
-          &quot;client_secret&quot;:&quot;a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa&quot;,
-          &quot;code&quot;:&quot;SOMETHING_LONG&quot;}'</span></pre></div></div>
-<p>We get in exchange the Authorization token in a response that looks like this:
+<pre class="language-bash" data-lang="bash">
+curl -XPOST -H 'Content-Type: application/json' \
+     'https://oauth.accounts.webplatform.org/v1/token' \
+     -d '{"client_id":"7e7e11299d95d789",
+          "client_secret":"a331e8a8f3e553a430d7e5b904c6132b2722633af9f03128029201d24a97f2aa",
+          "code":"SOMETHING_LONG"}'
+</pre>
+<p><br />
+We get in exchange the Authorization token in a response that looks like this:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span><span class="st0">&quot;access_token&quot;</span><span class="sy0">:</span><span class="st0">&quot;6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;token_type&quot;</span><span class="sy0">:</span><span class="st0">&quot;bearer&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;scope&quot;</span><span class="sy0">:</span><span class="st0">&quot;session&quot;</span><span class="br0">&#125;</span></pre></div></div>
-<p>The <tt>access_token</tt> is what we needed to act on the behalf of the logged in user.
+<pre class="language-javascript" data-lang="javascript">
+{"access_token":"6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31",
+ "token_type":"bearer",
+ "scope":"session"}
+</pre>
+<p><br />
+The <tt>access_token</tt> is what we needed to act on the behalf of the logged in user.
 </p><p>At the time, the only protected service is the profile server, but we might want to protect other components later down the road.
 </p><p><b>NOTE</b> An OAuth Authorization token is basically a key to make actions on the behalf of a valid user. In this regard, it is of the utmost importance to have it sent only through SSL, and, ideally, always outside of the reach of the web browser.
 </p><p><br />
@@ -160,28 +179,42 @@ title: WPD:Projects/SSO/How we implemented it
 </p><p>The call to the profile server looks like the following cURL calls:
 </p><p><b>With an Authorization token</b>:
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="bash source-bash"><pre class="de1">curl <span class="re5">-H</span> <span class="st_h">'Content-Type: application/json'</span> \
-     <span class="re5">-H</span> <span class="st0">&quot;Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31&quot;</span> \
-     <span class="st_h">'https://profile.accounts.webplatform.org/v1/session/read'</span></pre></div></div>
-<p><b>With a session token</b>:
-</p><p><b>NOTE</b>; The <tt>sessionToken</tt> is available from the <a rel="nofollow" class="external text" href="https://accounts.webplatform.org/settings">Accounts server settings view</a> only once a user is logged in. To access it, we are using cross-frame communication and read the token from localStorage API.
-</p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="co1">// URI https://accounts.webplatform.org/settings</span>
-<span class="kw1">var</span> obj <span class="sy0">=</span> JSON.<span class="me1">parse</span><span class="br0">&#40;</span>window.<span class="me1">localStorage</span>.<span class="me1">getItem</span><span class="br0">&#40;</span><span class="st0">'__fxa_session'</span><span class="br0">&#41;</span><span class="br0">&#41;</span> <span class="sy0">||</span> <span class="br0">&#123;</span><span class="br0">&#125;</span><span class="sy0">;</span>
-console.<span class="me1">log</span><span class="br0">&#40;</span>obj<span class="br0">&#41;</span><span class="sy0">;</span> <span class="co1">// if there is a session, obj.sessionToken will have what we need</span></pre></div></div>
-<p>Use the <tt>obj.sessionToken</tt> after <tt>Session</tt> in the following cURL:
-</p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="bash source-bash"><pre class="de1">curl <span class="re5">-v</span> <span class="re5">-H</span> <span class="st_h">'Content-Type: application/json'</span> \
-        <span class="re5">-H</span> <span class="st0">&quot;Authorization: Session 095dc99de03e99c6d93211aced561c6a28800cdd20fe2ff55ef4626401a04045&quot;</span> \
-        <span class="st_h">'https://profile.accounts.webplatform.org/v1/session/recover'</span></pre></div></div>
+<pre class="language-bash" data-lang="bash">
+curl -H 'Content-Type: application/json' \
+     -H "Authorization: Bearer 6243bbcf3f1f451cc5b3f47e662568b90863995a4e675a3073eb72434ab2ba31" \
+     'https://profile.accounts.webplatform.org/v1/session/read'
+</pre>
 <p><br />
-If the profile server accepted either methods, we get a JSON object looking like this:
+<b>With a session token</b>:
+</p><p><b>NOTE</b>; The <tt>sessionToken</tt> is available from the <a rel="nofollow" class="external text" href="https://accounts.webplatform.org/settings">Accounts server settings view</a> only once a user is logged in. To access it, we are using cross-frame communication and read the token from localStorage API.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span><span class="st0">&quot;username&quot;</span><span class="sy0">:</span> <span class="st0">&quot;jdoe&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;fullName&quot;</span><span class="sy0">:</span> <span class="st0">&quot;John Doe&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;email&quot;</span><span class="sy0">:</span> <span class="st0">&quot;hi@example.org&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;uid&quot;</span><span class="sy0">:</span> <span class="st0">&quot;3E09D6DF843341BC921A25423AB83BAF&quot;</span> <span class="br0">&#125;</span></pre></div></div>
-<p>We can now start the session in the client web application.
+<pre class="language-javascript" data-lang="javascript">
+// URI https://accounts.webplatform.org/settings
+var obj = JSON.parse(window.localStorage.getItem('__fxa_session')) || {};
+console.log(obj); // if there is a session, obj.sessionToken will have what we need
+</pre>
+<p><br />
+Use the <tt>obj.sessionToken</tt> after <tt>Session</tt> in the following cURL:
+</p><p><br />
+</p>
+<pre class="language-bash" data-lang="bash">
+curl -v -H 'Content-Type: application/json' \
+        -H "Authorization: Session 095dc99de03e99c6d93211aced561c6a28800cdd20fe2ff55ef4626401a04045" \
+        'https://profile.accounts.webplatform.org/v1/session/recover'
+</pre>
+<p><br />
+</p><p>If the profile server accepted either methods, we get a JSON object looking like this:
+</p><p><br />
+</p>
+<pre class="language-javascript" data-lang="javascript">
+{"username": "jdoe",
+ "fullName": "John Doe",
+ "email": "hi@example.org",
+ "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+</pre>
+<p><br />
+We can now start the session in the client web application.
 </p><p><b>NOTE</b> Authorization headers is functionally the same as what the web browser does with cookies. In fact, during a browsing session that has cookies, they are sent along with every HTTP requests. And that is, regardless of whether its an image, a CSS file, or a web page. The cookie is therefore a way to tell the application server to tell who the visitor is and potentially change the returned resource.
 </p><p><br />
 </p>
@@ -205,12 +238,16 @@ If the profile server accepted either methods, we get a JSON object looking like
 <ul><li> GET request with two parameters (e.g. <tt>Special:AccountsHandler/callback?code=aaa&amp;state=bbb</tt>), "<a href="#1.1_Possibility:_Completing_an_OAuth2_handshake">#1.1 Possibility: Completing an OAuth2 handshake</a>"</li>
 <li> POST request with <tt>recoveryPayload</tt> data, "<a href="#1.2_Possibility:_Resuming_a_session_confirmed_by_the_accounts_server">#1.2 Possibility: Resuming a session confirmed by the accounts server</a>".</li></ul>
 <p>In both <i>Behavior forks</i>, the returned data from the profile server MUST be in the following format:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span><span class="st0">&quot;username&quot;</span><span class="sy0">:</span> <span class="st0">&quot;jdoe&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;fullName&quot;</span><span class="sy0">:</span> <span class="st0">&quot;John Doe&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;email&quot;</span><span class="sy0">:</span> <span class="st0">&quot;hi@example.org&quot;</span><span class="sy0">,</span>
- <span class="st0">&quot;uid&quot;</span><span class="sy0">:</span> <span class="st0">&quot;3E09D6DF843341BC921A25423AB83BAF&quot;</span> <span class="br0">&#125;</span></pre></div></div>
-<p>Since each web application can have different database and ways to refer to a given user, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
+<pre class="language-javascript" data-lang="javascript">
+{"username": "jdoe",
+ "fullName": "John Doe",
+ "email": "hi@example.org",
+ "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+</pre>
+<p><br />
+Since each web application can have different database and ways to refer to a given user, we are using this information to find if a user already exists in the local database, or we create one with the default details for the user.
 </p><p>Based on the data received from the profile server, we initialize a session locally.
 </p><p><br />
 </p>
@@ -241,9 +278,13 @@ If the profile server accepted either methods, we get a JSON object looking like
 <h5><span class="mw-headline" id="1.1.5_Resume_previous_state">1.1.5 Resume previous state</span></h5>
 <p>During previous OAuth2 workflow steps, we saved some data in a key store ("state") and we can use it to send the user where he was in.
 </p><p>In the case of the <a href="/wiki/WPD:Projects/SSO/MediaWikiExtension" title="WPD:Projects/SSO/MediaWikiExtension">WPD:Projects/SSO/MediaWikiExtension</a>, we currently store the previous page the user visited and would look like this:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{return_to:&quot;http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows&quot;}</pre></div></div>
-<p>Based on that information, we issue a redirect and the user is back where he was.
+<pre class="language-html5" data-lang="html5">
+{return_to:"http://docs.webplatform.org/wiki/WPD:Projects/SSO/Login_Workflows"}
+</pre>
+<p><br />
+Based on that information, we issue a redirect and the user is back where he was.
 </p><p><br />
 </p>
 <h4><span class="mw-headline" id="1.2_Possibility:_Resuming_a_session_confirmed_by_the_accounts_server">1.2 Possibility: Resuming a session confirmed by the accounts server</span></h4>
@@ -304,38 +345,67 @@ If the profile server accepted either methods, we get a JSON object looking like
 </p>
 <h5><span class="mw-headline" id="2.1._From_B.2C_prepare_to_handle_confirmation">2.1. From B, prepare to handle confirmation</span></h5>
 <p>This is where we listen to what we get from the accounts server, validate if a session exists, and trigger the calls to the profile server and handle the returned data.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">window.<span class="me1">addEventListener</span><span class="br0">&#40;</span><span class="st0">&quot;message&quot;</span><span class="sy0">,</span> <span class="kw1">function</span><span class="br0">&#40;</span>returned<span class="br0">&#41;</span><span class="br0">&#123;</span>console.<span class="me1">log</span><span class="br0">&#40;</span>returned.<span class="me1">data</span><span class="br0">&#41;</span><span class="br0">&#125;</span><span class="sy0">,</span> <span class="kw2">false</span><span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p>NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a>
+<pre class="language-javascript" data-lang="javascript">
+window.addEventListener("message", function(returned){console.log(returned.data)}, false);
+</pre>
+<p><br />
+NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a>
 </p>
 <h5><span class="mw-headline" id="2.2._From_B.2C_open_a_iframe_to_.28.22C.22.29">2.2. From B, open a iframe to ("C")</span></h5>
 <p>For this to work, we have to make sure that the Content server sends appropriate CSP headers on the FxA content server.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">    <span class="co1">// See 0.2</span>
-    app.<span class="me1">use</span><span class="br0">&#40;</span>helmet.<span class="me1">csp</span><span class="br0">&#40;</span><span class="br0">&#123;</span><span class="st0">&quot;script-src&quot;</span><span class="sy0">:</span><span class="br0">&#91;</span><span class="st0">&quot;'self'&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.webplatform.org&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.mroftalpbew.org&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.global.ssl.fastly.net&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.w3.org&quot;</span><span class="br0">&#93;</span><span class="br0">&#125;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p>Create the iframe
+<pre class="language-javascript" data-lang="javascript">
+    // See 0.2
+    app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.global.ssl.fastly.net", "*.w3.org"]}));
+</pre>
+<p><br />
+Create the iframe
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">    <span class="kw1">var</span> authChecker<span class="sy0">=</span>document.<span class="me1">createElement</span><span class="br0">&#40;</span><span class="st0">'iframe'</span><span class="br0">&#41;</span><span class="sy0">;</span>authChecker.<span class="me1">src</span><span class="sy0">=</span><span class="st0">'https://accounts.webplatform.org/'</span><span class="sy0">;</span>authChecker.<span class="me1">frameworder</span><span class="sy0">=</span><span class="nu0">0</span><span class="sy0">;</span>authChecker.<span class="me1">width</span><span class="sy0">=</span><span class="nu0">0</span><span class="sy0">;</span>authChecker.<span class="me1">height</span><span class="sy0">=</span><span class="nu0">0</span><span class="sy0">;</span>authChecker.<span class="me1">id</span><span class="sy0">=</span><span class="st0">'authChecker'</span><span class="sy0">;</span>document.<span class="me1">body</span>.<span class="me1">appendChild</span><span class="br0">&#40;</span>authChecker<span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p>NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a> at the 
+<pre class="language-javascript" data-lang="javascript">
+    var authChecker=document.createElement('iframe');authChecker.src='https://accounts.webplatform.org/';authChecker.frameworder=0;authChecker.width=0;authChecker.height=0;authChecker.id='authChecker';document.body.appendChild(authChecker);
+</pre>
+<p><br />
+NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a> at the 
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">window.<span class="me1">sso</span>.<span class="me1">init</span><span class="br0">&#40;</span>closure<span class="sy0">,</span> <span class="st0">'/wiki/Special:AccountsHandler/callback'</span><span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
+<pre class="language-javascript" data-lang="javascript">
+window.sso.init(closure, '/wiki/Special:AccountsHandler/callback');
+</pre>
+<p><br />
+</p>
 <h5><span class="mw-headline" id="2.3._From_B.2C_Send_trigger_to_ask_confirmation_from_the_iframe">2.3. From B, Send trigger to ask confirmation from the iframe</span></h5>
 <p>Since the iframe has reloaded fully the document and would behave the same as if the user went to <a rel="nofollow" class="external free" href="https://accounts.webplatform.org/">https://accounts.webplatform.org/</a> with an opened session, we can ask that iframe document to send us details of the session.
 </p><p>To do so, we are sending a request for confirmation, like this:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">authChecker.<span class="me1">contentWindow</span>.<span class="me1">postMessage</span><span class="br0">&#40;</span><span class="st0">'hi'</span><span class="sy0">,</span> <span class="st0">'https://accounts.webplatform.org/'</span><span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p>NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a>. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
+<pre class="language-javascript" data-lang="javascript">
+authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/');
+</pre>
+<p><br />
+NOTE: This is handled in file <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a>. The trigger would be lauched from <tt>window.sso.doCheck()</tt> and handles the next steps until the backend comes in.
 </p>
 <h4><span class="mw-headline" id="3._From_B.2C_handle_the_response_from_the_iframe">3. From B, handle the response from the iframe</span></h4>
 <p>Provided a session is already open, we should get something similar to:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span>hasSession<span class="sy0">:</span> <span class="kw2">true</span><span class="sy0">,</span>
- recoveryPayload<span class="sy0">:</span> <span class="st0">&quot;e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f&quot;</span><span class="br0">&#125;</span></pre></div></div>
-<p>If there is no session, or in case of failure, we would get:
+<pre class="language-javascript" data-lang="javascript">
+{hasSession: true,
+ recoveryPayload: "e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f"}
+</pre>
+<p><br />
+If there is no session, or in case of failure, we would get:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span>hasSession<span class="sy0">:</span> <span class="kw2">false</span><span class="sy0">,</span>
- recoveryPayload<span class="sy0">:</span> <span class="kw2">null</span><span class="br0">&#125;</span></pre></div></div>
-<p>Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
+<pre class="language-javascript" data-lang="javascript">
+{hasSession: false,
+ recoveryPayload: null}
+</pre>
+<p><br />
+Since the iframe and the communication would had failed from any non trusted source. If we are from a trusted source as described in 2.2, it is safe to assume that we are a legitimate relying party to the SSO system.
 </p><p>This is where the non blocking <a href="#JavaScript_shared_module:_Detect_and_start_automatically_a_session">#JavaScript shared module: Detect and start automatically a session</a> finish its lifecycle.  Upon detecting an object that has <tt>hasSession: true</tt> AND a 64 character long string for <tt>sessionToken</tt>, it MUST send an Ajax POST to the local web application <tt>callbackUri</tt> with the token.
 </p><p>NOTE: This is know to bring a problem. The isussue is that if we use an unaltered sessionToken as the sole proof, anybody could know this and hijack a session on the relying party. This needs to be improved.
 </p>
@@ -344,11 +414,15 @@ If the profile server accepted either methods, we get a JSON object looking like
 </p><p>This endpoint will be available ONLY through the internal network of WebPlatform and the W3C.
 </p><p>Compared to a call with an OAuth Authorization token, we are going to call a different endpoint that will correlate the data attached to the user session.
 </p><p>The special endpoint, only available through a limited set of IP address answers to <tt>/v1/session/recover</tt> and requires an "Authorization" header similar to OAuth, but with a Session token instead.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="bash source-bash"><pre class="de1">curl <span class="re5">-v</span> <span class="re5">-H</span> <span class="st_h">'Content-Type: application/json'</span> \
-        <span class="re5">-H</span> <span class="st0">&quot;Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f&quot;</span> \
-        <span class="st_h">'https://profile.accounts.webplatform.org/v1/session/recover'</span></pre></div></div>
-<p><i>NOTE</i> This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
+<pre class="language-bash" data-lang="bash">
+curl -v -H 'Content-Type: application/json' \
+        -H "Authorization: Session e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f" \
+        'https://profile.accounts.webplatform.org/v1/session/recover'
+</pre>
+<p><br />
+<i>NOTE</i> This endpoint is available at the moment but might not be accessible anymore by end of June 2014.
 </p><p>Here are the HTTP Response body the endpoint would return:
 </p>
 <ul><li> 200 OK, with JSON object containing data when session exist (shown above)</li>
@@ -356,20 +430,24 @@ If the profile server accepted either methods, we get a JSON object looking like
 <li> 401 UNAUTHORIZED, with error JSON object, when request is malformed</li></ul>
 <h5><span class="mw-headline" id="4.1._Under_the_hood">4.1. Under the hood</span></h5>
 <p>Under the hood, the profile server endpoint at <tt>GET /v1/session/recover</tt> makes database queries similar to:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="mysql source-mysql"><pre class="de1"><span class="kw1">SELECT</span> 
-  <span class="kw13">HEX</span><span class="br0">&#40;</span>s.uid<span class="br0">&#41;</span> <span class="kw1">AS</span> uid<span class="sy2">,</span>
-  a.normalizedEmail <span class="kw1">AS</span> email<span class="sy2">,</span> 
-  a.username <span class="kw1">AS</span> username<span class="sy2">,</span>
-  a.fullName <span class="kw1">AS</span> fullName 
-<span class="kw1">FROM</span> 
-  sessionTokens <span class="kw1">AS</span> s<span class="sy2">,</span>
-  accounts <span class="kw1">AS</span> a 
-<span class="kw1">WHERE</span> 
-  s.uid <span class="sy1">=</span> a.uid 
-<span class="kw10">AND</span>
-  tokenData <span class="sy1">=</span> <span class="kw13">unhex</span><span class="br0">&#40;</span><span class="st0">'e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f'</span><span class="br0">&#41;</span><span class="sy2">;</span></pre></div></div>
-<p>The database should either return an empty result, or user data:
+<pre class="language-mysql" data-lang="mysql">
+SELECT 
+  HEX(s.uid) AS uid,
+  a.normalizedEmail AS email, 
+  a.username AS username,
+  a.fullName AS fullName 
+FROM 
+  sessionTokens AS s,
+  accounts AS a 
+WHERE 
+  s.uid = a.uid 
+AND
+  tokenData = unhex('e73f75c00115f45416b121e274fd77b60376ce4084267ed76ce3ec7c0a9f4f1f');
+</pre>
+<p><br />
+The database should either return an empty result, or user data:
 </p>
 <pre>   +----------------------------------+----------------+----------+--------------+
    | uid                              | email          | username | fullName     |
@@ -379,12 +457,16 @@ If the profile server accepted either methods, we get a JSON object looking like
 </pre>
 <h4><span class="mw-headline" id="5._Returning_the_data_to_the_server">5. Returning the data to the server</span></h4>
 <p>If the web application could get a response from <tt>session/recover</tt>, and finds a result, it returns a JSON object:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">  <span class="br0">&#123;</span><span class="st0">&quot;username&quot;</span><span class="sy0">:</span> <span class="st0">&quot;jdoe&quot;</span><span class="sy0">,</span>
-   <span class="st0">&quot;fullName&quot;</span><span class="sy0">:</span> <span class="st0">&quot;John Doe&quot;</span><span class="sy0">,</span>
-   <span class="st0">&quot;email&quot;</span><span class="sy0">:</span> <span class="st0">&quot;hi@example.org&quot;</span><span class="sy0">,</span>
-   <span class="st0">&quot;uid&quot;</span><span class="sy0">:</span> <span class="st0">&quot;3E09D6DF843341BC921A25423AB83BAF&quot;</span> <span class="br0">&#125;</span></pre></div></div>
-<p>In the case of an invalid or expired <tt>sessionToken</tt>, an error should be returned. See possible errors at <a href="#4._Read_data_from_the_profile_server_with_a_recoveryPayload">#4. Read data from the profile server with a recoveryPayload</a>
+<pre class="language-javascript" data-lang="javascript">
+  {"username": "jdoe",
+   "fullName": "John Doe",
+   "email": "hi@example.org",
+   "uid": "3E09D6DF843341BC921A25423AB83BAF" }
+</pre>
+<p><br />
+In the case of an invalid or expired <tt>sessionToken</tt>, an error should be returned. See possible errors at <a href="#4._Read_data_from_the_profile_server_with_a_recoveryPayload">#4. Read data from the profile server with a recoveryPayload</a>
 </p><p>The rest MUST comply to what’s described in <a href="#Initialize_local_web_application_session">#Initialize local web application session</a>.
 </p>
 <hr />
@@ -397,41 +479,51 @@ If the profile server accepted either methods, we get a JSON object looking like
 <h3><span class="mw-headline" id="1._Event_handler_to_validate_a_session">1. Event handler to validate a session</span></h3>
 <p><b>NOTE</b>: This event handler is about answering what’s triggered bye the module and is installed in the accounts server code.
 </p><p>In our own fork and branch of <tt>fxa-content-server</tt>, in <a rel="nofollow" class="external text" href="https://github.com/webplatform/fxa-content-server/blob/webplatform-customizations/app/scripts/views/base.js">app/scripts/views/base.js</a>
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">      <span class="co1">// WebPlatform Specific ===============================</span>
-      <span class="co1">// file: app/scripts/views/base.js</span>
-      <span class="co1">// line: 40</span>
-      <span class="co1">// See: http://docs.webplatform.org/wiki/WPD:Projects/SSO/How_we_implemented_it#JavaScript_shared_module:_Detect_and_start_automatically_a_session</span>
-      <span class="kw1">var</span> fxaC <span class="sy0">=</span> <span class="kw1">this</span>.<span class="me1">fxaClient</span><span class="sy0">;</span>
-      <span class="kw1">function</span> readAndReplyHasSession<span class="br0">&#40;</span> e <span class="br0">&#41;</span> <span class="br0">&#123;</span>
-        <span class="kw1">var</span> b <span class="sy0">=</span> window.<span class="me1">localStorage</span>.<span class="me1">getItem</span><span class="br0">&#40;</span><span class="st0">'__fxa_session'</span><span class="br0">&#41;</span><span class="sy0">;</span>
-        <span class="kw1">var</span> sessionData <span class="sy0">=</span> JSON.<span class="me1">parse</span><span class="br0">&#40;</span>b<span class="br0">&#41;</span><span class="sy0">;</span>
-&#160;
-        fxaC.<span class="me1">isSignedIn</span><span class="br0">&#40;</span>sessionData.<span class="me1">sessionToken</span><span class="br0">&#41;</span>
-            .<span class="me1">done</span><span class="br0">&#40;</span>
-              <span class="kw1">function</span><span class="br0">&#40;</span> promised <span class="br0">&#41;</span><span class="br0">&#123;</span>
-                <span class="co1">// Will eventually change, as decribed in </span>
-                <span class="co1">//   http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Recovering_session_data</span>
-                e.<span class="me1">source</span>.<span class="me1">postMessage</span><span class="br0">&#40;</span><span class="br0">&#123;</span>hasSession<span class="sy0">:</span> promised<span class="sy0">,</span> recoveryPayload<span class="sy0">:</span> sessionData.<span class="me1">sessionToken</span> <span class="sy0">||</span> <span class="kw2">null</span><span class="br0">&#125;</span><span class="sy0">,</span> e.<span class="me1">origin</span><span class="br0">&#41;</span><span class="sy0">;</span>
-              <span class="br0">&#125;</span>
-            <span class="br0">&#41;</span><span class="sy0">;</span>
-      <span class="br0">&#125;</span>
-      window.<span class="me1">addEventListener</span><span class="br0">&#40;</span><span class="st0">&quot;message&quot;</span><span class="sy0">,</span> readAndReplyHasSession<span class="sy0">,</span> <span class="kw2">false</span><span class="br0">&#41;</span><span class="sy0">;</span>
-      <span class="co1">// /WebPlatform Specific ==============================</span></pre></div></div>
+<pre class="language-javascript" data-lang="javascript">
+      // WebPlatform Specific ===============================
+      // file: app/scripts/views/base.js
+      // line: 40
+      // See: http://docs.webplatform.org/wiki/WPD:Projects/SSO/How_we_implemented_it#JavaScript_shared_module:_Detect_and_start_automatically_a_session
+      var fxaC = this.fxaClient;
+      function readAndReplyHasSession( e ) {
+        var b = window.localStorage.getItem('__fxa_session');
+        var sessionData = JSON.parse(b);
+
+        fxaC.isSignedIn(sessionData.sessionToken)
+            .done(
+              function( promised ){
+                // Will eventually change, as decribed in 
+                //   http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Recovering_session_data
+                e.source.postMessage({hasSession: promised, recoveryPayload: sessionData.sessionToken || null}, e.origin);
+              }
+            );
+      }
+      window.addEventListener("message", readAndReplyHasSession, false);
+      // /WebPlatform Specific ==============================
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="2._And_adjust_the_CSP_policies">2. And adjust the CSP policies</span></h3>
 <p><b>NOTE</b>: The Content Security Policy changes here is about letting the module to communicate with the accounts server.
 </p><p>In our own fork and branch of <tt>fxa-content-server</tt>, in <a rel="nofollow" class="external text" href="https://github.com/webplatform/fxa-content-server/blob/webplatform-customizations/server/bin/fxa-content-server.js">server/bin/fxa-content-server.js</a>
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">  <span class="co1">// WebPlatform Specific ===============================</span>
-  <span class="co1">// File: server/bin/fxa-content-server.js</span>
-  <span class="co1">// Line: 62</span>
-  <span class="co1">// Adjust helmet to accept xss from specific hosts</span>
-  <span class="co1">// see: https://github.com/evilpacket/helmet</span>
-  <span class="co1">// Comment, this:</span>
-  <span class="co1">//app.use(helmet.xframe('deny'));</span>
-  <span class="co1">// Instead:</span>
-  app.<span class="me1">use</span><span class="br0">&#40;</span>helmet.<span class="me1">csp</span><span class="br0">&#40;</span><span class="br0">&#123;</span><span class="st0">&quot;script-src&quot;</span><span class="sy0">:</span><span class="br0">&#91;</span><span class="st0">&quot;'self'&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.webplatform.org&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.mroftalpbew.org&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.global.ssl.fastly.net&quot;</span><span class="sy0">,</span> <span class="st0">&quot;*.w3.org&quot;</span><span class="br0">&#93;</span><span class="br0">&#125;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span>
-  <span class="co1">// /WebPlatform Specific ==============================</span></pre></div></div>
+<pre class="language-javascript" data-lang="javascript">
+  // WebPlatform Specific ===============================
+  // File: server/bin/fxa-content-server.js
+  // Line: 62
+  // Adjust helmet to accept xss from specific hosts
+  // see: https://github.com/evilpacket/helmet
+  // Comment, this:
+  //app.use(helmet.xframe('deny'));
+  // Instead:
+  app.use(helmet.csp({"script-src":["'self'", "*.webplatform.org", "*.mroftalpbew.org", "*.global.ssl.fastly.net", "*.w3.org"]}));
+  // /WebPlatform Specific ==============================
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="3._JavaScript_client_to_handle_automatic_sign_in">3. JavaScript client to handle automatic sign in</span></h3>
 <p>This section describes what the module actually does.
 </p>
@@ -447,32 +539,41 @@ If the profile server accepted either methods, we get a JSON object looking like
 </p>
 <ul><li> <tt>window.sso.init(hasSessionClosure, localCallbackEndpoint);</tt> To initialize (see below)</li>
 <li> <tt>window.sso.doCheck()</tt>, to bootstrap the process (should be done once the iframe is loaded).</li></ul>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">    window.<span class="me1">sso</span>.<span class="me1">init</span><span class="br0">&#40;</span> 
-      <span class="kw1">function</span> <span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span> 
-        <span class="coMULTI">/* 
+<p><br />
+</p>
+<pre class="language-javascript" data-lang="javascript">
+    window.sso.init( 
+      function () { 
+        /* 
            Provide a closure that 
            will tell the JavaScript 
            handler whether the current 
            visitor has a session or 
            not.
-&#160;
+
            MUST RETURN a bool
-&#160;
+ 
            false === no session, please start the checks
-         */</span> 
-        <span class="kw1">return</span> <span class="kw2">false</span><span class="sy0">;</span>
-      <span class="br0">&#125;</span><span class="sy0">,</span> 
-      <span class="st0">'/wiki/Special:AccountsHandler/callback'</span>
-    <span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p>Once the iframe is loaded:
+         */ 
+        return false;
+      }, 
+      '/wiki/Special:AccountsHandler/callback'
+    );
+</pre>
+<p><br />
+Once the iframe is loaded:
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1">window.<span class="me1">sso</span>.<span class="me1">doCheck</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span></pre></div></div>
-<p><b>NOTE</b>: If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at <a href="#Initialize_local_web_application_session">#Initialize local web application session</a>.
+<pre class="language-javascript" data-lang="javascript">
+window.sso.doCheck();
+</pre>
+<p><br />
+<b>NOTE</b>: If we had a session, the communication triggered at <tt>window.sso.doCheck();</tt>, would had provided us the required data to start automatically and resume at <a href="#Initialize_local_web_application_session">#Initialize local web application session</a>.
 </p>
 <!-- 
 NewPP limit report
-CPU time usage: 0.373 seconds
-Real time usage: 1.721 seconds
+CPU time usage: 0.135 seconds
+Real time usage: 1.008 seconds
 Preprocessor visited node count: 383/1000000
 Preprocessor generated node count: 676/1000000
 Post‐expand include size: 0/2097152 bytes
@@ -486,5 +587,5 @@ Transclusion expansion time report (%,ms,calls,template)
 100.00%    0.000      1 - -total
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:23263-0!*!0!!*!5!*!esi=1 and timestamp 20150731111119 and revision id 71179
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:23263-0!*!0!!*!5!*!esi=1 and timestamp 20150810141208 and revision id 71179
  -->

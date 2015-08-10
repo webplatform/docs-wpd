@@ -1,5 +1,7 @@
 ---
 title: WPD:Example Pages/DOM Interface
+path: Example_Pages/DOM_Interface
+
 ---
 <p><b>This is a temporary page to pull together an example of what the ideal end state will be. It includes some content from MDN that is not compatible with the WPD license, and should be removed soon.</b>
 </p><p>Based on: <a rel="nofollow" class="external free" href="https://developer.mozilla.org/en-US/docs/DOM/Element">https://developer.mozilla.org/en-US/docs/DOM/Element</a> and <a rel="nofollow" class="external free" href="http://msdn.microsoft.com/en-us/library/ie/hh772117(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/ie/hh772117(v=vs.85).aspx</a>
@@ -70,10 +72,14 @@ title: WPD:Example Pages/DOM Interface
 <td>
 </td></tr></table>
 <h2><span class="mw-headline" id="Events">Events</span></h2>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">//LANGUAGE-TAG: JavaScript
+<pre class="language-html5" data-lang="html5">
+//LANGUAGE-TAG: JavaScript
 //Create a div and append it to the body.
-var oDiv=document.createElement(&quot;DIV&quot;);
-document.body.appendChild(oDiv);</pre></div></div>
+var oDiv=document.createElement("DIV");
+document.body.appendChild(oDiv);
+</pre>
+<p><br />
+</p>
 <h2><span class="mw-headline" id="Usage">Usage</span></h2>
 <p>If <code>child&lt;/child&gt; is a reference to an existing node in the document, &lt;code&gt;appendChild</code> moves it from its current position to the new position (i.e. there is no requirement to remove the node from its parent node before appending it to some other node).
 </p><p>This also means that a node can't be in two points of the document simultaneously. So if the node already has a parent, it is first removed, then appended at the new position.
@@ -186,5 +192,5 @@ document.body.appendChild(oDiv);</pre></div></div>
 	</div>
 <p>&lt;/details&gt;
 </p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:201-0!*!0!!*!*!*!esi=1 and timestamp 20150731181515 and revision id 661
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:201-0!*!0!!*!*!*!esi=1 and timestamp 20150810195941 and revision id 661
  -->

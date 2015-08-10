@@ -1,5 +1,7 @@
 ---
 title: WPD:Compatibility Info/FAQ
+path: Compatibility_Info/FAQ
+
 ---
 <h1><span class="mw-headline" id="Frequently_Asked_Questions_.28.22FAQ.22.29">Frequently Asked Questions ("FAQ")</span></h1>
 <p>Questions we have been asked about our use of the Compatibility data and tables in our content.
@@ -19,43 +21,46 @@ title: WPD:Compatibility Info/FAQ
 <p>Here is one entry sample. To represent this sample we could annotate it as <code>feature="css" topic="border"</code>.
 </p><p>What generates the HTML table is inside "<b>contents</b>" section where we separate by "<i>mobile</i>" and "<i>desktop</i>" browser types. In each browser types, we list a sub feature description as the key. This feature description (e.g. "Basic support") is freeform text and anything can be used to describe.
 </p><p>You can safely ignore the "breadcrumb", "jsonselect", and "notes" keys. They were created for maintenance and might be removed in a near future.
+</p><p><br />
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span>
-  <span class="st0">&quot;data&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-    <span class="st0">&quot;css&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-      <span class="st0">&quot;border&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-        <span class="st0">&quot;breadcrumb&quot;</span><span class="sy0">:</span> <span class="br0">&#91;</span><span class="st0">&quot;css&quot;</span><span class="sy0">,</span> <span class="st0">&quot;border&quot;</span><span class="br0">&#93;</span><span class="sy0">,</span>
-        <span class="st0">&quot;jsonselect&quot;</span><span class="sy0">:</span> <span class="st0">&quot;:root &gt; .data &gt; .css &gt; .border&quot;</span><span class="sy0">,</span>
-        <span class="st0">&quot;contents&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-          <span class="st0">&quot;desktop&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-            <span class="st0">&quot;Basic support&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-              <span class="st0">&quot;Chrome&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;1.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Firefox&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;notes&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;normal&quot;</span><span class="sy0">:</span> <span class="st0">&quot;1.0 (1.7 or earlier)&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span> <span class="st0">&quot;1.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Internet Explorer&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;4.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Opera&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;3.5&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Safari&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;notes&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;normal&quot;</span><span class="sy0">:</span> <span class="st0">&quot;1.0 (85)&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span> <span class="st0">&quot;1.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span>
-            <span class="br0">&#125;</span>
-          <span class="br0">&#125;</span><span class="sy0">,</span>
-          <span class="st0">&quot;mobile&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-            <span class="st0">&quot;Basic support&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span>
-              <span class="st0">&quot;Android&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;?&quot;</span><span class="sy0">:</span> <span class="st0">&quot;u&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Firefox Mobile&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;notes&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;normal&quot;</span><span class="sy0">:</span> <span class="st0">&quot;1.0 (1.9.2)&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span> <span class="st0">&quot;1.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;IE Phone&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;?&quot;</span><span class="sy0">:</span> <span class="st0">&quot;u&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Opera Mobile&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;?&quot;</span><span class="sy0">:</span> <span class="st0">&quot;u&quot;</span> <span class="br0">&#125;</span><span class="sy0">,</span>
-              <span class="st0">&quot;Safari Mobile&quot;</span><span class="sy0">:</span> <span class="br0">&#123;</span> <span class="st0">&quot;1.0&quot;</span><span class="sy0">:</span> <span class="st0">&quot;y&quot;</span> <span class="br0">&#125;</span>
-            <span class="br0">&#125;</span>
-          <span class="br0">&#125;</span>
-        <span class="br0">&#125;</span><span class="sy0">,</span>
-        <span class="st0">&quot;links&quot;</span><span class="sy0">:</span> <span class="br0">&#91;</span>
-          <span class="br0">&#123;</span>
-            <span class="st0">&quot;title&quot;</span><span class="sy0">:</span> <span class="st0">&quot;Original article on MDN in css border&quot;</span><span class="sy0">,</span>
-            <span class="st0">&quot;url&quot;</span><span class="sy0">:</span> <span class="st0">&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/border&quot;</span>
-          <span class="br0">&#125;</span>
-        <span class="br0">&#93;</span>
-      <span class="br0">&#125;</span>
-    <span class="br0">&#125;</span>
-  <span class="br0">&#125;</span>
-<span class="br0">&#125;</span></pre></div></div>
+<pre class="language-javascript" data-lang="javascript">
+{
+  "data": {
+    "css": {
+      "border": {
+        "breadcrumb": ["css", "border"],
+        "jsonselect": ":root > .data > .css > .border",
+        "contents": {
+          "desktop": {
+            "Basic support": {
+              "Chrome": { "1.0": "y" },
+              "Firefox": { "notes": { "normal": "1.0 (1.7 or earlier)" }, "1.0": "y" },
+              "Internet Explorer": { "4.0": "y" },
+              "Opera": { "3.5": "y" },
+              "Safari": { "notes": { "normal": "1.0 (85)" }, "1.0": "y" }
+            }
+          },
+          "mobile": {
+            "Basic support": {
+              "Android": { "?": "u" },
+              "Firefox Mobile": { "notes": { "normal": "1.0 (1.9.2)" }, "1.0": "y" },
+              "IE Phone": { "?": "u" },
+              "Opera Mobile": { "?": "u" },
+              "Safari Mobile": { "1.0": "y" }
+            }
+          }
+        },
+        "links": [
+          {
+            "title": "Original article on MDN in css border",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border"
+          }
+        ]
+      }
+    }
+  }
+}
+</pre>
 <p><br />
 </p>
 <h3><span class="mw-headline" id="Support_level_values_legend">Support level values legend</span></h3>
@@ -107,5 +112,22 @@ title: WPD:Compatibility Info/FAQ
 <h2><span class="mw-headline" id="Can_I_improve_the_data.3F">Can I improve the data?</span></h2>
 <p>Sure!  At this time, we published our raw compatibility data as <a rel="nofollow" class="external text" href="https://github.com/webplatform/compatibility-data"><b>webplatform/compatibility-data</b> on GitHub</a>. The manual edition is a temporary process until we improve it.
 </p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:30852-0!*!0!!*!*!*!esi=1 and timestamp 20150731185616 and revision id 70680
+<!-- 
+NewPP limit report
+CPU time usage: 0.024 seconds
+Real time usage: 0.025 seconds
+Preprocessor visited node count: 39/1000000
+Preprocessor generated node count: 56/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:30852-0!*!0!!*!*!*!esi=1 and timestamp 20150810001656 and revision id 70680
  -->

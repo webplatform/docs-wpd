@@ -1,5 +1,7 @@
 ---
 title: WPD:Style Guide
+path: Style_Guide
+
 ---
 <h1><span class="mw-headline" id="WPD_style_guide">WPD style guide</span></h1>
 <p>WebPlatform Docs (WPD) is intended to be a repository of high quality, reliable, and accessible information. For an article to be considered high quality, it should adhere to certain guidelines as posted here. Articles that do not sufficiently adhere to the guidelines should be tagged with the relevant markers, and may be deleted if they are not improved.
@@ -141,8 +143,8 @@ title: WPD:Style Guide
 
 <!-- 
 NewPP limit report
-CPU time usage: 0.045 seconds
-Real time usage: 0.047 seconds
+CPU time usage: 0.041 seconds
+Real time usage: 0.043 seconds
 Preprocessor visited node count: 130/1000000
 Preprocessor generated node count: 160/1000000
 Post‐expand include size: 0/2097152 bytes
@@ -156,5 +158,5 @@ Transclusion expansion time report (%,ms,calls,template)
 100.00%    0.000      1 - -total
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:14-0!*!0!!*!*!*!esi=1 and timestamp 20150731111049 and revision id 30135
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:14-0!*!0!!*!*!*!esi=1 and timestamp 20150809201255 and revision id 30135
  -->

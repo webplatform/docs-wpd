@@ -1,5 +1,7 @@
 ---
 title: WPD:Content/Topic Pages
+path: Content/Topic_Pages
+
 ---
 <p>We have a number of landing pages implied by the <a href="/wiki/WPD:Architecture" title="WPD:Architecture">WPD:Architecture</a>. Most of them are captured in this migration tracking spreadsheet: <a rel="nofollow" class="external free" href="https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c#gid=34">https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c#gid=34</a>
 </p><p>This page documents how to go about creating them.
@@ -22,8 +24,11 @@ title: WPD:Content/Topic Pages
 </p><p>We installed the SubPageList extension to help with this.
 </p><p>The code snippet you'll probably use most often is this: 
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;splist <span class="sy0">/</span>&gt;</span></pre></div></div>
-<p>The first parameter is omitted because it's the URL to list sub-pages of, and if you omit it it defaults to the current page.
+<pre class="language-html5" data-lang="html5">
+<splist />
+</pre>
+<p><br />
+The first parameter is omitted because it's the URL to list sub-pages of, and if you omit it it defaults to the current page.
 </p><p>You can read more at <a class="external free" href="http://www.mediawiki.org/wiki/Extension:SubPageList">http://www.mediawiki.org/wiki/Extension:SubPageList</a> .
 </p>
 <h2><span class="mw-headline" id="Query-generated">Query-generated</span></h2>
@@ -78,22 +83,5 @@ title: WPD:Content/Topic Pages
 <pre>{{Special:PrefixIndex/concepts/}}</pre>
 <p>It's a good tool for making sure that you don't miss any pages of a given topic, but I wouldn't recommend it for final presentation. Have we got some kind of tool to alert us to new pages being created, so we can make sure to add them to the landing pages?
 </p>
-<!-- 
-NewPP limit report
-CPU time usage: 0.025 seconds
-Real time usage: 0.027 seconds
-Preprocessor visited node count: 53/1000000
-Preprocessor generated node count: 144/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:1398-0!*!0!!*!*!*!esi=1 and timestamp 20150730230403 and revision id 101678
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1398-0!*!0!!*!*!*!esi=1 and timestamp 20150810195959 and revision id 101678
  -->

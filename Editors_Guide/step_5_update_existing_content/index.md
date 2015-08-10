@@ -1,5 +1,7 @@
 ---
 title: WPD:Editors Guide/step 5 update existing content
+path: Editors_Guide/step_5_update_existing_index
+
 ---
 <h1><span class="mw-headline" id="Step_5:_Update_existing_content">Step 5: Update existing content</span></h1>
 <div class="readiness-state Out_of_Date"> 
@@ -169,29 +171,5 @@ title: WPD:Editors Guide/step 5 update existing content
 </p>
 </div>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.092 seconds
-Real time usage: 0.107 seconds
-Preprocessor visited node count: 212/1000000
-Preprocessor generated node count: 894/1000000
-Post‐expand include size: 525/2097152 bytes
-Template argument size: 769/2097152 bytes
-Highest expansion depth: 4/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%   53.354      1 - -total
- 25.20%   13.446      1 - Template:Page_Title
- 25.11%   13.399      1 - Template:Flags
- 13.38%    7.139      1 - Template:External_Attribution
- 11.25%    6.004      1 - Template:Summary_Section
-  7.62%    4.067      1 - Template:Notes_Section
-  5.56%    2.964      1 - Template:Topics
-  4.90%    2.614      1 - Template:Basic_Page
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:7101-0!*!0!!*!*!*!esi=1 and timestamp 20150731174815 and revision id 101403
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:7101-0!*!0!!*!*!*!esi=1 and timestamp 20150810041905 and revision id 101403
  -->

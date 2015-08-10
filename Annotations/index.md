@@ -1,5 +1,7 @@
 ---
 title: WPD:Annotations
+path: Annotations
+
 ---
 <h1><span class="mw-headline" id="Annotations">Annotations</span></h1>
 <p>This is a scratch space for adding annotations to WebPlatform.org and to W3C specifications.
@@ -24,8 +26,16 @@ title: WPD:Annotations
 <ul><li> Credentials for identity on <b>accounts.webplatform.org</b> username and password</li>
 <li> To get Mailing list archive
 <ul><li> Documents must be hosted on "w3.org" or "specs.webplatform.org'"</li>
-<li> Must contain <div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;mailto:public-listname@w3.org&quot;</span> <span class="kw3">rel</span><span class="sy0">=</span><span class="st0">&quot;reply-to&quot;</span>&gt;</span>list name label<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre></div></div></li></ul></li>
-<li> To make annotations on more than one URI but for the same spec, use canonical <i>link</i> tag in <i>head</i> of Document, e.g. <div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;<span class="kw2">link</span> <span class="kw3">rel</span><span class="sy0">=</span><span class="st0">&quot;canonical&quot;</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://www.w3.org/TR/annotation-model/&quot;</span>&gt;</span></pre></div></div></li></ul>
+<li> Must contain </li></ul></li></ul>
+<pre class="language-html5" data-lang="html5">
+<a href="mailto:public-listname@w3.org" rel="reply-to">list name label</a>
+</pre>
+<ul><li> To make annotations on more than one URI but for the same spec, use canonical <i>link</i> tag in <i>head</i> of Document, e.g. </li></ul>
+<pre class="language-html5" data-lang="html5">
+<link rel="canonical" href="http://www.w3.org/TR/annotation-model/">
+</pre>
+<p><br />
+</p>
 <h2><span class="mw-headline" id="Interface">Interface</span></h2>
 <ul><li> Toggle annotation functionality on or off
 <ul><li> Can annotations be enabled without an extension, or must the user install an extension? Is there a script that could be hosted to do the same thing?</li></ul></li>
@@ -54,8 +64,8 @@ title: WPD:Annotations
 
 <!-- 
 NewPP limit report
-CPU time usage: 0.032 seconds
-Real time usage: 0.037 seconds
+CPU time usage: 0.019 seconds
+Real time usage: 0.021 seconds
 Preprocessor visited node count: 48/1000000
 Preprocessor generated node count: 76/1000000
 Post‐expand include size: 0/2097152 bytes
@@ -69,5 +79,5 @@ Transclusion expansion time report (%,ms,calls,template)
 100.00%    0.000      1 - -total
 -->
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:11827-0!*!0!!*!*!*!esi=1 and timestamp 20150730185052 and revision id 100278
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:11827-0!*!0!!*!*!*!esi=1 and timestamp 20150810164636 and revision id 100278
  -->

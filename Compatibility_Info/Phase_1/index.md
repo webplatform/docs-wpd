@@ -1,5 +1,7 @@
 ---
 title: WPD:Compatibility Info/Phase 1
+path: Compatibility_Info/Phase_1
+
 ---
 <h2><span class="mw-headline" id="Phase_1:_Integrate_automated_compatibility_tables_from_CanIUse_data">Phase 1: <i>Integrate automated compatibility tables from CanIUse data</span></h2></i>
 <ul><li> <b>Timeline:</b> March–April <strike>2013</strike> 2014</li>
@@ -12,8 +14,11 @@ title: WPD:Compatibility Info/Phase 1
 <li> We copied the data.json file to our shared data directory: <a rel="nofollow" class="external free" href="http://docs.webplatform.org/compat/data.json">http://docs.webplatform.org/compat/data.json</a>
 <ul><li> Currently, only CanIUse data is integrated into the shared data directory, but in later phases, we will integrate multiple sources of data, including QuirksMode and W3C Test Suites </li></ul></li>
 <li> We created a MediaWiki extension, <a href="/wiki/WPD:Infrastructure/Extensions/CompaTables" title="WPD:Infrastructure/Extensions/CompaTables" class="mw-redirect">CompaTables</a> to automatically display the data as a table
-<ol><li> Created a specific tag element that serves as placeholder for the table in the content. To use, add in a Wiki page using the following syntax: <div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"><span class="sc2">&lt;compatability feature<span class="sy0">=</span><span class="st0">&quot;border-radius&quot;</span> format<span class="sy0">=</span><span class="st0">&quot;table&quot;</span>&gt;&lt;<span class="sy0">/</span>compatability&gt;</span></pre></div></div></li>
-<li> format can be either: 'table', or 'list'</li>
+<ol><li> Created a specific tag element that serves as placeholder for the table in the content. To use, add in a Wiki page using the following syntax: </li></ol></li></ol>
+<pre class="language-html5" data-lang="html5">
+<compatability feature="border-radius" format="table"></compatability>
+</pre>
+<ol><li><ol><li> format can be either: 'table', or 'list'</li>
 <li> When this element is used in an article, we pull the data from the local repository, extract the data for the keyword indicated in the <b>feature</b> attribute, and format in into a table showing the first version supported for each browser </li></ol></li></ol>
 <h2><span class="mw-headline" id="Results">Results</span></h2>
 <p>The results are a table showing the compatibility tables for the feature indicated in the <b>feature</b> attribute; for example, the CSS property <i>border-radius</i>:
@@ -30,7 +35,8 @@ title: WPD:Compatibility Info/Phase 1
 <ol><li> Inside a wiki page behind Varnish, </li>
 <li> Generates ESI tag for varnish (in progress)</li>
 <li> Cache generated HTML inside Memcached, invalidate cache if source JSON file is changed</li></ol>
-<div class="MediaTransformError" style="width: 300px; height: 148px; display:inline-block;">Error creating thumbnail: File missing</div>
+<p><a href="/wiki/File:CompaTables_to_use_ESI_and_Memcached.png" class="image"><img alt="CompaTables to use ESI and Memcached.png" src="//static.webplatform.org/w/thumb/7/7b/CompaTables_to_use_ESI_and_Memcached.png/300px-CompaTables_to_use_ESI_and_Memcached.png" width="300" height="148" srcset="//static.webplatform.org/w/thumb/7/7b/CompaTables_to_use_ESI_and_Memcached.png/450px-CompaTables_to_use_ESI_and_Memcached.png 1.5x, //static.webplatform.org/w/thumb/7/7b/CompaTables_to_use_ESI_and_Memcached.png/600px-CompaTables_to_use_ESI_and_Memcached.png 2x" /></a>
+</p>
 <h3><span class="mw-headline" id="Feature_Coverage">Feature Coverage</span></h3>
 <p>The CanIUse data only focuses on newer features, not features that are consistently well-supported, so not every article has analogous information available.
 </p>
@@ -70,22 +76,5 @@ title: WPD:Compatibility Info/Phase 1
 <li> categorize and align data targets for optimal coverage</li>
 <li> improve table style, possibly with icons</li></ul>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.071 seconds
-Real time usage: 2.042 seconds
-Preprocessor visited node count: 55/1000000
-Preprocessor generated node count: 72/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:8030-0!*!0!!*!5!*!esi=1 and timestamp 20150731063424 and revision id 48931
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:8030-0!*!0!!*!5!*!esi=1 and timestamp 20150810200014 and revision id 48931
  -->

@@ -1,5 +1,7 @@
 ---
 title: WPD:Browser Testing/QuirksMode
+path: Browser_Testing/QuirksMode
+
 ---
 <h2><span class="mw-headline" id="QuirksMode_Browser_Compatibility_data_model">QuirksMode Browser Compatibility data model</span></h2>
 <h3><span class="mw-headline" id="Purpose">Purpose</span></h3>
@@ -109,73 +111,75 @@ title: WPD:Browser Testing/QuirksMode
 <li> The “Test page” link leads to the test page.</li>
 <li> Thus, if a user would request attributes[index] for IE 7 and 8 he would get all data except for the IE5.5 text. If he would leave out IE entirely he would not receive the IE5-7 and IE5.5 texts.</li></ul>
 <h2><span class="mw-headline" id="JSON_Example">JSON Example</span></h2>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">{
-   &quot;vh and vw&quot;: {
-	&quot;test&quot;: &quot;http://quirksmode.org/css/units-values/viewport.html&quot;,
-	&quot;spec&quot;: &quot;http://www.w3.org/TR/css3-values/#viewport-relative-lengths&quot;,
-	&quot;description&quot;: &quot;Percentages of the layout viewport width or height&quot;,
-	&quot;example&quot;: {
-		code: &quot;width: 50vw&quot;,
-		explanation: &quot;Element's width is 50% of layout viewport width&quot;
+<pre class="language-html5" data-lang="html5">
+{
+   "vh and vw": {
+	"test": "http://quirksmode.org/css/units-values/viewport.html",
+	"spec": "http://www.w3.org/TR/css3-values/#viewport-relative-lengths",
+	"description": "Percentages of the layout viewport width or height",
+	"example": {
+		code: "width: 50vw",
+		explanation: "Element's width is 50% of layout viewport width"
 	},
-	&quot;compatibility&quot;: {
-		&quot;desktop&quot;: {
-			&quot;IE7&quot;: &quot;No&quot;,
-			&quot;IE8&quot;: &quot;No&quot;,
-			&quot;IE9&quot;: &quot;Yes&quot;,
-			&quot;IE10&quot;: &quot;Yes&quot;
-			&quot;FF 19 Win&quot;: &quot;Yes&quot;,
-			&quot;FF 19 Mac&quot;: &quot;Yes&quot;,
-			&quot;Saf 6.0.2&quot;: &quot;Incomplete&quot;,
-			&quot;Chrome 25 Win&quot;: &quot;Incomplete&quot;,
-			&quot;Chrome 25 Mac&quot;: &quot;Incomplete&quot;,
-			&quot;Yandex 1.5 Mac&quot;: &quot;Incomplete&quot;,
-			&quot;Op 12.14 Win&quot;: &quot;No&quot;,
-			&quot;Op 12.14 Mac&quot;: &quot;No&quot;,
+	"compatibility": {
+		"desktop": {
+			"IE7": "No",
+			"IE8": "No",
+			"IE9": "Yes",
+			"IE10": "Yes"
+			"FF 19 Win": "Yes",
+			"FF 19 Mac": "Yes",
+			"Saf 6.0.2": "Incomplete",
+			"Chrome 25 Win": "Incomplete",
+			"Chrome 25 Mac": "Incomplete",
+			"Yandex 1.5 Mac": "Incomplete",
+			"Op 12.14 Win": "No",
+			"Op 12.14 Mac": "No",
 		},
-		&quot;mobile&quot;: {
-			&quot;iOS5&quot;: &quot;No&quot;,
-			&quot;iOS6&quot;: &quot;Incomplete&quot;,
-			&quot;Android 2&quot;: &quot;No&quot;,
-			&quot;Android 3&quot;: &quot;No&quot;,
-			&quot;Android 4&quot;: &quot;No&quot;,
-			&quot;Chrome 18 Android&quot;: &quot;No&quot;,
-			&quot;Chrome 25 Android&quot;: &quot;Incorrect&quot;,
-			&quot;Opera Mini&quot;: &quot;No&quot;,
-			&quot;Opera Mobile 12&quot;: &quot;No&quot;,
-			&quot;Opera Mobile 14&quot;: &quot;Buggy&quot;,
-			&quot;BB6&quot;: &quot;No&quot;,
-			&quot;BB7&quot;: &quot;No&quot;,
-			&quot;BB PB&quot;: &quot;No&quot;,
-			&quot;Nokia Xpress&quot;: &quot;No&quot;,
-			&quot;MeeGo&quot;: &quot;No&quot;,
-			&quot;Symbian Anna&quot;: &quot;No&quot;,
-			&quot;Symbian Belle&quot;: &quot;No&quot;,
-			&quot;UC&quot;: &quot;No&quot;,
-			&quot;NetFront&quot;: &quot;No&quot;,
-			&quot;Dolphin&quot;: &quot;Incorrect&quot;,
-			&quot;One&quot;: &quot;No&quot;,
-			&quot;Tizen&quot;: &quot;Incorrect&quot;,
-			&quot;IE9 WP&quot;: &quot;Incomplete&quot;,
-			&quot;IE10 WP&quot;: &quot;Yes&quot;
-			&quot;Firefox&quot;: &quot;No&quot;,
+		"mobile": {
+			"iOS5": "No",
+			"iOS6": "Incomplete",
+			"Android 2": "No",
+			"Android 3": "No",
+			"Android 4": "No",
+			"Chrome 18 Android": "No",
+			"Chrome 25 Android": "Incorrect",
+			"Opera Mini": "No",
+			"Opera Mobile 12": "No",
+			"Opera Mobile 14": "Buggy",
+			"BB6": "No",
+			"BB7": "No",
+			"BB PB": "No",
+			"Nokia Xpress": "No",
+			"MeeGo": "No",
+			"Symbian Anna": "No",
+			"Symbian Belle": "No",
+			"UC": "No",
+			"NetFront": "No",
+			"Dolphin": "Incorrect",
+			"One": "No",
+			"Tizen": "Incorrect",
+			"IE9 WP": "Incomplete",
+			"IE10 WP": "Yes"
+			"Firefox": "No",
 		}
 	},
-	&quot;notes&quot;: {
+	"notes": {
 		{
-			&quot;text&quot;: &quot;Widths not updated when the viewport changes, for instance by changing the orientation&quot;,
-			&quot;browsers&quot;: [&quot;Saf 6.0.2&quot;,&quot;Chrome 25 Win&quot;,&quot;Chrome 25 Mac&quot;,&quot;Yandex 1.5 Mac&quot;,&quot;iOS6&quot;,&quot;Chrome 25 Android&quot;,&quot;Tizen&quot;,&quot;IE9 WP&quot;]
+			"text": "Widths not updated when the viewport changes, for instance by changing the orientation",
+			"browsers": ["Saf 6.0.2","Chrome 25 Win","Chrome 25 Mac","Yandex 1.5 Mac","iOS6","Chrome 25 Android","Tizen","IE9 WP"]
 		},
 		{
-			&quot;text&quot;: &quot;Unit relative to the visual viewport, not to the layout viewport.&quot;,
-			&quot;browsers&quot;: [&quot;Chrome 25 Android&quot;,&quot;Dolphin&quot;,&quot;Tizen&quot;]
+			"text": "Unit relative to the visual viewport, not to the layout viewport.",
+			"browsers": ["Chrome 25 Android","Dolphin","Tizen"]
 		},
 		{
-			&quot;text&quot;: &quot;Weird numbers that bear no discernible relation to any viewport.&quot;,
-			&quot;browsers&quot;: [&quot;Opera 14&quot;]
+			"text": "Weird numbers that bear no discernible relation to any viewport.",
+			"browsers": ["Opera 14"]
 		},
 	}
-}</pre></div></div>
+}
+</pre>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:8152-0!*!*!!*!5!*!esi=1 and timestamp 20150731184041 and revision id 30687
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:8152-0!*!*!!*!5!*!esi=1 and timestamp 20150810200025 and revision id 30687
  -->

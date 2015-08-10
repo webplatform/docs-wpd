@@ -1,5 +1,7 @@
 ---
 title: WPD:Design/css property template
+path: Design/css_property_template
+
 ---
 <h1><span class="mw-headline" id="font-size">font-size</span></h1>
 <p>&lt;compatability topic="css" type="property" feature="font-size" format="list"&gt; &lt;/compatability&gt;
@@ -109,28 +111,62 @@ title: WPD:Design/css property template
 </td></tr></table>
 <h2><span class="mw-headline" id="Examples">Examples</span></h2>
 <h3><span class="mw-headline" id="absolute-size.09_examples">absolute-size	 examples</span></h3>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-size: small;</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-size: xx-large;</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+ font-size: small;
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+ font-size: xx-large;
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="relative-size_examples">relative-size examples</span></h3>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-sizes: larger;</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-sizes: smaller;</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+ font-sizes: larger;
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+ font-sizes: smaller;
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="length_examples">length examples</span></h3>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-size: 1.5em;</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> border-radius: 5px;</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+ font-size: 1.5em;
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+ border-radius: 5px;
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="percentage_examples">percentage examples</span></h3>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> font-size: 110%;</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1"> border-radius: 50%;</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+ font-size: 110%;
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+ border-radius: 50%;
+</pre>
+<p><br />
+</p>
 <h3><span class="mw-headline" id="Other_examples">Other examples</span></h3>
 <p>Redefine the typical <b>16px</b> default <b>medium</b> value as <b>10px</b>, then redefine other tags in proportion to the root:
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">html { font-size: 62.5%; } 
+<pre class="language-html5" data-lang="html5">
+html { font-size: 62.5%; } 
 /* 
 16 * 62.5% == 10 
 */
-&#160;
+
 h1 { font-size: 3.6rem }   /* 36px */
 h2 { font-size: 2.4rem }   /* 24px */
-p  { font-size: 1.4rem }   /* 14px */</pre></div></div>
+p  { font-size: 1.4rem }   /* 14px */
+</pre>
 <p><br />
 </p>
 <h2><span class="mw-headline" id="Usage">Usage</span></h2>
@@ -170,22 +206,5 @@ p  { font-size: 1.4rem }   /* 14px */</pre></div></div>
 </td></tr></table>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.092 seconds
-Real time usage: 0.097 seconds
-Preprocessor visited node count: 162/1000000
-Preprocessor generated node count: 286/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:8363-0!*!0!!*!*!*!esi=1 and timestamp 20150731113910 and revision id 33700
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:8363-0!*!0!!*!*!*!esi=1 and timestamp 20150810004122 and revision id 33700
  -->

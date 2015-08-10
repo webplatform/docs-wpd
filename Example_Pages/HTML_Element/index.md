@@ -1,5 +1,7 @@
 ---
 title: WPD:Example Pages/HTML Element
+path: Example_Pages/HTML_Element
+
 ---
 <p><b>This is a temporary page to pull together an example of what the ideal end state will be. This has been written by <a rel="nofollow" class="external text" href="http://webplatform.org/docs/User:Cmills">Chris Mills</a> to serve as a sample.</b>
 </p>
@@ -70,9 +72,17 @@ title: WPD:Example Pages/HTML Element
 <b>Chris - I don't think we need to show JS and CSS examples affecting simple HTML content. I think this just muddies the waters a bit, for people trying to learn these basic rudiments.</b>
 </p><p><a href="/w/index.php?title=HTML/examples&amp;action=edit&amp;redlink=1" class="new" title="HTML/examples (page does not exist)"> View live examples</a>
 </p>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">A useful HTML example that shows the element in context.</pre></div></div>
-<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="html5 source-html5"><pre class="de1">//LANGUAGE-TAG: JavaScript
-A useful JavaScript example that calls to the element.</pre></div></div>
+<pre class="language-html5" data-lang="html5">
+A useful HTML example that shows the element in context.
+</pre>
+<p><br />
+</p>
+<pre class="language-html5" data-lang="html5">
+//LANGUAGE-TAG: JavaScript
+A useful JavaScript example that calls to the element.
+</pre>
+<p><br />
+</p>
 <h2><span class="mw-headline" id="Best_practices">Best practices</span></h2>
 <ul><li> As said above, you should not align content with the <code>&lt;p&gt;</code> element's <code>align</code> attribute. Use the CSS <code>text-align</code> property instead.</li>
 <li> You should separate all paragraphs out by wrapping each of them in their own unique <code>&lt;p&gt;</code> element. Do not separate out paragraphs by other means, such as wrappign all your content in a <code>&lt;pre&gt;</code> element, or using multiple <code>&lt;br &gt;</code>tags.</li>
@@ -195,5 +205,5 @@ A useful JavaScript example that calls to the element.</pre></div></div>
 	</div>
 <p>&lt;/details&gt;
 </p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:200-0!*!0!!*!*!*!esi=1 and timestamp 20150731181506 and revision id 1667
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:200-0!*!0!!*!*!*!esi=1 and timestamp 20150810195936 and revision id 1667
  -->
