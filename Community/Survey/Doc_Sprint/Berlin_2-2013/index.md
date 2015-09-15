@@ -11,13 +11,13 @@ We received a total of 34 responses to our survey. That's 63% of the 54 doc spri
 
 ### <span>Doc sprint scoring and questions</span>
 
-![score 1.png](/assets/public/7/76/score_1.png)
+![score 1.png](/WPD/assets/public/7/76/score_1.png)
 
- ![score 2.png](/assets/public/8/8c/score_2.png)
+ ![score 2.png](/WPD/assets/public/8/8c/score_2.png)
 
-![score 3.png](/assets/public/e/ea/score_3.png)
+![score 3.png](/WPD/assets/public/e/ea/score_3.png)
 
- ![dsq 1.png](/assets/public/d/d5/dsq_1.png)
+ ![dsq 1.png](/WPD/assets/public/d/d5/dsq_1.png)
 
 #### <span>Other sources of hearing about the doc sprint</span>
 
@@ -25,15 +25,15 @@ We received a total of 34 responses to our survey. That's 63% of the 54 doc spri
 -   Friends
 -   Google Developers Group Meetup
 
-![dsq 2.png](/assets/public/4/4a/dsq_2.png)
+![dsq 2.png](/WPD/assets/public/4/4a/dsq_2.png)
 
 ### <span>Usability scoring and questions</span>
 
-![use 1.png](/assets/public/3/33/use_1.png)
+![use 1.png](/WPD/assets/public/3/33/use_1.png)
 
-![use 2.png](/assets/public/5/5e/use_2.png)
+![use 2.png](/WPD/assets/public/5/5e/use_2.png)
 
-![use 3.png](/assets/public/2/2e/use_3.png)
+![use 3.png](/WPD/assets/public/2/2e/use_3.png)
 
 #### <span>Which aspects of the site do we need to improve to make contributing easier and how should we improve them?</span>
 
@@ -65,35 +65,35 @@ We received a total of 34 responses to our survey. That's 63% of the 54 doc spri
 
 ### <span>Community questions</span>
 
-![com 2.png](/assets/public/8/85/com_2.png)
+![com 2.png](/WPD/assets/public/8/85/com_2.png)
 
-![dsq 3.png](/assets/public/e/ec/dsq_3.png)
+![dsq 3.png](/WPD/assets/public/e/ec/dsq_3.png)
 
 #### <span>In your own words about working with the community</span>
 
 -   Define User Experience as an evaluable process and spread the concept of UX into the world of web development.
 -   I think there is real need for a good documentation! I'm so tired of looking and reading that takes longer than coding and enjoying the work. Also, if I think about the editors of the future which could get semantic information about the language you're coding (think of autocompletion tuned up), is really exciting, isn't it?
 
- ![com 3.png](/assets/public/c/cc/com_3.png)
+ ![com 3.png](/WPD/assets/public/c/cc/com_3.png)
 
 ### <span>You and your work</span>
 
-![you a.png](/assets/public/1/1f/you_a.png)
+![you a.png](/WPD/assets/public/1/1f/you_a.png)
 
 #### <span>Other occupations</span>
 
 -   University Teacher and Mobile Developer
 -   uhm, almost everything :)
 
-![you b.png](/assets/public/3/3b/you_b.png)
+![you b.png](/WPD/assets/public/3/3b/you_b.png)
 
-![you 2.png](/assets/public/c/c7/you_2.png)
+![you 2.png](/WPD/assets/public/c/c7/you_2.png)
 
-![you 3.png](/assets/public/1/15/you_3.png)
+![you 3.png](/WPD/assets/public/1/15/you_3.png)
 
-![you 4.png](/assets/public/9/9b/you_4.png)
+![you 4.png](/WPD/assets/public/9/9b/you_4.png)
 
-![you 5.png](/assets/public/6/6d/you_5.png)
+![you 5.png](/WPD/assets/public/6/6d/you_5.png)
 
 ### <span>What else would you like to say?</span>
 

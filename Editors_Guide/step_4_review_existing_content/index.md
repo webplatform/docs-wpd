@@ -24,7 +24,7 @@ For lists of pages that have been identified as needing review (with the flag, "
 
 -   Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 
-![Screenshot of the editing interface](/assets/public/5/59/edit_interface.png)
+![Screenshot of the editing interface](/WPD/assets/public/5/59/edit_interface.png)
 
 ### <span>Mark articles that need revisions by checking the corresponding check boxes</span>
 

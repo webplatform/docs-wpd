@@ -15,4 +15,4 @@ Hi there...I'm the first (in progress) visual mockup for you to view. I am based
 
 I am special, but I do not yet include many page elements - se what I include and what I don't at the [Element List](/w/index.php?title=Element_List&action=edit&redlink=1) page.
 
-![Wiki Page.png](/assets/public/c/c2/Wiki_Page.png)
+![Wiki Page.png](/WPD/assets/public/c/c2/Wiki_Page.png)

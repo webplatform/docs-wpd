@@ -20,13 +20,13 @@ You can review the Monit report by following steps described in [Reports to revi
 
 Here is a preview of how a Monit status report looks like.
 
-![20150224-monit-status-preview.png](/assets/public/5/5d/20150224-monit-status-preview.png)
+![20150224-monit-status-preview.png](/WPD/assets/public/5/5d/20150224-monit-status-preview.png)
 
 ## <span>*M/Monit*</span>
 
 Those arescreenshots of **M/Monit** while I was testing out the feature differences between the paid app (*M/Monit*) and what comes in the open source version.
 
--   ![monit dashboard 201502 status.png](/assets/public/a/a1/monit_dashboard_201502_status.png)
--   ![monit dashboard 201502 stats.png](/assets/public/5/5b/monit_dashboard_201502_stats.png)
--   ![monit dashboard 201502 home.png](/assets/public/5/52/monit_dashboard_201502_home.png)
--   ![monit dashboard 201502 vm detail.png](/assets/public/f/f2/monit_dashboard_201502_vm_detail.png)
+-   ![monit dashboard 201502 status.png](/WPD/assets/public/a/a1/monit_dashboard_201502_status.png)
+-   ![monit dashboard 201502 stats.png](/WPD/assets/public/5/5b/monit_dashboard_201502_stats.png)
+-   ![monit dashboard 201502 home.png](/WPD/assets/public/5/52/monit_dashboard_201502_home.png)
+-   ![monit dashboard 201502 vm detail.png](/WPD/assets/public/f/f2/monit_dashboard_201502_vm_detail.png)

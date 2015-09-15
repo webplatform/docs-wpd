@@ -174,7 +174,7 @@ If the value is Almost, Incomplete, Alternative, Minimal, Incorrect or Buggy, th
 
 As an example, let’s take a look at the **attributes[index]** entry in the [current compatibility tables](http://www.quirksmode.org/dom/w3c_core.html#attributes).
 
-![QuirksMode-example.png](/assets/public/9/98/QuirksMode-example.png)
+![QuirksMode-example.png](/WPD/assets/public/9/98/QuirksMode-example.png)
 
 The method is attributes[index].
 

@@ -38,7 +38,7 @@ From the browser, through [\#Read reports from a VM through private network](#Re
 
 Should look like this:
 
-![20150106 mailgraph day.png](/assets/public/d/da/20150106_mailgraph_day.png)![20150104 mailgraph day.png](/assets/public/4/44/20150104_mailgraph_day.png)
+![20150106 mailgraph day.png](/WPD/assets/public/d/da/20150106_mailgraph_day.png)![20150104 mailgraph day.png](/WPD/assets/public/4/44/20150104_mailgraph_day.png)
 
 **Note** please disregard the address in the screenshot, it has been taken during deployment scripts has been set in place.
 
@@ -66,7 +66,7 @@ There are a few variants we can get data;
 
      curl piwik/php-ping
 
-![nginx fastcgi status full.png](/assets/public/3/3f/nginx_fastcgi_status_full.png)![nginx fastcgi status.png](/assets/public/f/f5/nginx_fastcgi_status.png)
+![nginx fastcgi status full.png](/WPD/assets/public/3/3f/nginx_fastcgi_status_full.png)![nginx fastcgi status.png](/WPD/assets/public/f/f5/nginx_fastcgi_status.png)
 
 **Note** that in this example I used an SSH tunnel *-L 8080:piwik:80*, but it could have been done through [\#Read reports from a VM through private network](#Read_reports_from_a_VM_through_private_network).
 
@@ -294,7 +294,7 @@ As long as we don’t have a separate accounts system in place for every compone
 
 -   [list new users (through the API)](https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=logevents&letype=newusers&lelimit=50&leprop=user%7Ctimestamp)
 
-![20150106-account-creation-log-api.png](/assets/public/d/d3/20150106-account-creation-log-api.png)
+![20150106-account-creation-log-api.png](/WPD/assets/public/d/d3/20150106-account-creation-log-api.png)
 
 ### <span>What’s the IP address of a given user?</span>
 
@@ -302,7 +302,7 @@ In case of need to review how our infrastructure is being abused, we can get to 
 
 To do so, we are using the [*MediaWiki CheckUser* Extension](https://www.mediawiki.org/wiki/Extension:CheckUser). Only users of the wiki with sysop privileges can review this information.
 
-![20150108-visualizing-visitor-IP-vs-users.png](/assets/public/a/a3/20150108-visualizing-visitor-IP-vs-users.png)
+![20150108-visualizing-visitor-IP-vs-users.png](/WPD/assets/public/a/a3/20150108-visualizing-visitor-IP-vs-users.png)
 
 ## <span>Using Monit</span>
 
@@ -383,7 +383,7 @@ Once connected through ssh with the proxy described, you can connect like this:
 
 Which should look like this;
 
-![20150224-monit-status-preview.png](/assets/public/5/5d/20150224-monit-status-preview.png)
+![20150224-monit-status-preview.png](/WPD/assets/public/5/5d/20150224-monit-status-preview.png)
 
 #### <span>Monit password</span>
 

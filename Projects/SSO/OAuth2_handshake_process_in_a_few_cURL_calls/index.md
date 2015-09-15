@@ -100,7 +100,7 @@ Use your web browser, and sign in.
 
 **NOTE**: Replace "WebPlatform Test", in the following image, for "Annotator (local)"
 
-![sso steps login dialog.png](/assets/public/3/31/sso_steps_login_dialog.png)
+![sso steps login dialog.png](/WPD/assets/public/3/31/sso_steps_login_dialog.png)
 
  Once its done, you should be redirected with a `code=...` visible in the address bar:
 

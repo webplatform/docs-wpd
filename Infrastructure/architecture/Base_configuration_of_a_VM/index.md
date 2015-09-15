@@ -126,6 +126,6 @@ Once connected, you have to configure a web browser to use your new **DynamicFor
 
 In modern Firefox version, you can do that by going into **Preferences**, **Advanced**, **Network** tab, then **Connection** button. You’ll see a window similar to below. Adjust accordingly.
 
-![201502-Firefox-Network-settings.png](/assets/public/e/ee/201502-Firefox-Network-settings.png)
+![201502-Firefox-Network-settings.png](/WPD/assets/public/e/ee/201502-Firefox-Network-settings.png)
 
 To learn how to configure your web browser to use SSH as a SOCKS proxy, you can view the [SSH Port forwarding help pages on **help.ubuntu.com**](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding)

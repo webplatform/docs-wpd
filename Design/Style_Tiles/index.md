@@ -19,12 +19,12 @@ The final decision by the Stewards was for a version of [Style 1](#Style_1) with
 
 The breadcrumbs should look like this example.
 
-![Style Tile 01.png](/assets/public/5/5b/Style_Tile_01.png)
+![Style Tile 01.png](/WPD/assets/public/5/5b/Style_Tile_01.png)
 
 ## <span>Style 2</span>
 
-![Style Tile 02.png](/assets/public/e/e1/Style_Tile_02.png)
+![Style Tile 02.png](/WPD/assets/public/e/e1/Style_Tile_02.png)
 
 ## <span>Style 3</span>
 
-![Style Tile 03.png](/assets/public/d/d9/Style_Tile_03.png)
+![Style Tile 03.png](/WPD/assets/public/d/d9/Style_Tile_03.png)

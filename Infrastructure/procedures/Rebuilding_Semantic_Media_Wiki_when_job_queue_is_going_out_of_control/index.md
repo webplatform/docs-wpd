@@ -61,7 +61,7 @@ if ( !$wgCommandLineMode ) {
 -   Not all app servers are used full time by the caching layer, Fastly (Varnish). You can see that in [Fastly admin panel](https://app.fastly.com/), in the "Hosts" within "Configure" for the appropriate service. Current configuration is that two `app*` VMs have the load in equal portions (200), the 3rd VM is exposed as a backup load (190, see B, in attached image). The 3rd is ready if the two first ones can't serve all requests.
 -   The cronjobs are run from a 4th app server that is not exposed at all. In the *app server VM listing* below, it's currently "app5".
 
-![fastly-docs-service-hosts-screenshot.png](/assets/public/f/fb/fastly-docs-service-hosts-screenshot.png)
+![fastly-docs-service-hosts-screenshot.png](/WPD/assets/public/f/fb/fastly-docs-service-hosts-screenshot.png)
 
 -   '*app server VM listing*. To know which VMs are `app*` servers, run the following.
 

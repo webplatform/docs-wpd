@@ -81,7 +81,7 @@ uri: 'WPD:Community/ko'
 </table>
 웹 플랫폼 문서는 월드 와이드 웹 기술을 문서화하는 목적의 커뮤니티입니다. 웹 기술을 처음 시작하거나 또는 이미 웹 전문가든 상관없이, [커뮤니티에 참여](/WPD:Editors_Guide/step_2_communicate_with_the_online_community)하기를 권장합니다.
 
-![community pic.jpeg](/assets/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg)
+![community pic.jpeg](/WPD/assets/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg)
 
 다소 혼란스러울 수 있지만, ​​우리는 아직 T-셔츠를 제작할 만큼 큰 커뮤니티가 아닙니다. ​​그러나 당신의 도움으로, 우리는 위대한 일을 할 수 있습니다!
 

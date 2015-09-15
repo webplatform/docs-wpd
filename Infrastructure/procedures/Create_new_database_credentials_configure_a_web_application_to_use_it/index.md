@@ -116,7 +116,7 @@ The following details of the output means "*all is OK!*"
 
 It should look like in this image, with all "green", but of course with the mention of "blog" instead of "app".
 
-![Running wpd-deploy.png](/assets/public/0/0d/Running_wpd-deploy.png)
+![Running wpd-deploy.png](/WPD/assets/public/0/0d/Running_wpd-deploy.png)
 
 -   Last step is to apply *state.highstate*. Its OK to run it more than once, the configuration are written to enforce a state and can be applied in any order, the important is to get all "green".
 

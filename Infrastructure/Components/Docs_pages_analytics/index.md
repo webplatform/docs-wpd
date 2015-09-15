@@ -63,7 +63,7 @@ Here are a few interesting ones:
 
 Sample database query
 
-![](/assets/thumb/d/de/wikimetrics-screenshot-namespaceedits.png/300px-wikimetrics-screenshot-namespaceedits.png)
+![](/WPD/assets/thumb/d/de/wikimetrics-screenshot-namespaceedits.png/300px-wikimetrics-screenshot-namespaceedits.png)
 
 WikiMetrics is a sandbox we can import and run scripts to get usage statistics.
 

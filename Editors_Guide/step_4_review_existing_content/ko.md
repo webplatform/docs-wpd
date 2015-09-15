@@ -24,13 +24,13 @@ uri: 'WPD:Editors Guide/step 4 review existing content/ko'
 
 -   제목 관련 부분에 마우스를 가져 가면 나타나는 Add Comment 텍스트를 클릭하여 의견을 추가합니다. 특정 문서 섹션에 대한 의견을 게시하면 다른 사람이 수정이 필요한 부분을 정확히 확인할 수 있습니다.
 
-![Screenshot of the Add Comment interface](/assets/public/4/46/add_comment.png)
+![Screenshot of the Add Comment interface](/WPD/assets/public/4/46/add_comment.png)
 
 ### <span>끊어진 링크, 맞춤법, 제품 보정 값 그리고 다른 문제들을 식별하기 위한 플래그 이슈</span>
 
 -   문서의 오른쪽 상단 모서리에 있는 Edit 버튼을 클릭하고 플래그 이슈를 설정하기 위한 체크 박스에 액세스 하기위해 Edit를 선택합니다.
 
-![Screenshot of the editing interface](/assets/public/5/59/edit_interface.png)
+![Screenshot of the editing interface](/WPD/assets/public/5/59/edit_interface.png)
 
 ### <span>해당 체크 박스를 선택하여 수정이 필요한 문서로 표시하기</span>
 
