@@ -1,32 +1,99 @@
 ---
-title: WPD:Editors Guide/step 2 communicate with the online community/ko
+title: Step 2: 온라인 커뮤니티에서 교류하기
 lang: ko
+summary: '이것은 편집자 가이드 Step 2 입니다.'
+tags:
+  - Basic
+  - Pages
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'WPD:Editors Guide/step 2 communicate with the online community/af'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ar'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ast'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/az'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/bcc'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/bg'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/br'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ca'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/cs'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/da'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/de'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/diq'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/el'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/eo'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/es'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/fa'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/fi'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/fr'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/gl'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/gu'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/he'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/hu'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/hy'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/id'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/it'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ja'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ka'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/kk'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/km'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ksh'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/kw'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/mk'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ml'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/mr'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ms'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/nl'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/no'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/oc'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/pl'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/pt'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/pt-br'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ro'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ru'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/si'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/sk'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/sl'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/sq'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/sr'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/sv'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/ta'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/th'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/tr'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/uk'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/vi'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/yue'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/zh'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/zh-hans'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/zh-hant'
+    - 'WPD:Editors Guide/step 2 communicate with the online community/zh-tw'
+uri: 'WPD:Editors Guide/step 2 communicate with the online community/ko'
 
 ---
-<h1><span class="mw-headline" id="Step_2:_.EC.98.A8.EB.9D.BC.EC.9D.B8_.EC.BB.A4.EB.AE.A4.EB.8B.88.ED.8B.B0.EC.97.90.EC.84.9C_.EA.B5.90.EB.A5.98.ED.95.98.EA.B8.B0">Step 2: 온라인 커뮤니티에서 교류하기</span></h1>
-<h2><span class="mw-headline" id="Summary">Summary</span></h2>
-<p>이것은 <a href="/wiki/WPD:Editors_Guide" title="WPD:Editors Guide" class="mw-redirect">편집자 가이드</a> Step 2 입니다.
-</p>
-<table class="nmbox languages" style="">
-<tr>
-<th class="mbox-image" style=""> <b>언어:</b></th>
-<td class="mbox-text"><b><a href="/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community" title="WPD:Editors Guide/step 2 communicate with the online community">English</a></b> &#160;&#8226;&#32;<span lang="ko"><strong class="selflink">한국어</strong></span></td>
-</tr></table>
-<h2><span class="mw-headline" id="IRC_.EC.B1.84.EB.84.90.EC.97.90.EC.84.9C_.EB.8C.80.ED.99.94.EC.97.90_.EC.B0.B8.EC.97.AC.ED.95.98.EC.84.B8.EC.9A.94.">IRC 채널에서 대화에 참여하세요.</span></h2>
-<p>WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
-</p>
-<ul><li> Server: Freenode (irc.freenode.net)</li>
-<li> Channel: #webplatform</li></ul>
-<h2><span class="mw-headline" id="Page_moved">Page moved</span></h2>
-<p>The content of this page is planned to be restructured. If you are translating this article, please refer to <a href="/wiki/WPD:Contributors_Guide" title="WPD:Contributors Guide">WPD:Contributors_Guide</a>
-</p><p><br />
-</p><p><br />
-</p>
-<div class="attribution">
-<p><br />
-</p><p><br />
-</p>
-</div>
+## <span>Summary</span>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:58692-0!*!0!!*!*!*!esi=1 and timestamp 20150731190009 and revision id 101653
- -->
+이것은 편집자 가이드 Step 2 입니다.
+
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
+**언어:**
+
+</th>
+<td class="mbox-text">
+**[English](/WPD:Editors_Guide/step_2_communicate_with_the_online_community)**  • <span lang="ko">**한국어**</span>
+
+</td>
+</tr>
+</table>
+## <span>IRC 채널에서 대화에 참여하세요.</span>
+
+WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
+
+-   Server: Freenode (irc.freenode.net)
+-   Channel: \#webplatform
+
+## <span>Page moved</span>
+
+The content of this page is planned to be restructured. If you are translating this article, please refer to [WPD:Contributors\_Guide](/WPD:Contributors_Guide)
+

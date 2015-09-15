@@ -1,151 +1,3057 @@
 ---
-title: WPD:Content/CSS/property data
+title: property data
+uri: 'WPD:Content/CSS/property data'
+
 ---
 <table class="wikitable sortable">
 <tr>
-<th> Property Name
+<th>
+Property Name
 </th>
-<th> Values
+<th>
+Values
 </th>
-<th> Mozilla Values
+<th>
+Mozilla Values
 </th>
-<th> Opera Values
+<th>
+Opera Values
 </th>
-<th> IE Values
+<th>
+IE Values
 </th>
-<th> Webkit Values
+<th>
+Webkit Values
 </th>
-<th> Initial value
+<th>
+Initial value
 </th>
-<th> Applies to
+<th>
+Applies to
 </th>
-<th> Inherited
+<th>
+Inherited
 </th>
-<th> Animatable
+<th>
+Animatable
 </th>
-<th> Percentages
+<th>
+Percentages
 </th>
-<th> Media groups
+<th>
+Media groups
 </th>
-<th> Computed value
+<th>
+Computed value
 </th>
-<th> Mozilla
+<th>
+Mozilla
 </th>
-<th> Presto
+<th>
+Presto
 </th>
-<th> Trident
+<th>
+Trident
 </th>
-<th> Webkit
-</th></tr>
+<th>
+Webkit
+</th>
+</tr>
 <tr>
-<td> accelerator
+<td>
+accelerator
+</td>
+<td>
+false ; true
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+false
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+both
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+align-content
+</td>
+<td>
+flex-start ; flex-end ; center ; space-between ; space-around ; stretch
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+stretch
+</td>
+<td>
+multi-line flex containers
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+align-items
+</td>
+<td>
+flex-start ; flex-end ; center ; baseline ; stretch
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+stretch
+</td>
+<td>
+flex containers
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+align-self
+</td>
+<td>
+auto ; flex-start ; flex-end ; center ; baseline ; stretch
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+auto
+</td>
+<td>
+flex items
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+auto computes to parent's align-items; otherwise as specified
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+alignment-adjust
+</td>
+<td>
+\<length\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+auto
+</td>
+<td>
+inline-level elements
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+refers to the 'line-height' of the element
+</td>
+<td>
+</td>
+<td>
+see text
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+alignment-baseline
+</td>
+<td>
+baseline ; use-script ; before-edge ; text-before-edge ; after-edge ; text-after-edge ; central ; middle ; ideographic ; alphabetic ; hanging ; mathematical
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+baseline
+</td>
+<td>
+inline-level elements
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+all
+</td>
+<td>
+initial ; inherit ; default
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+animation
+</td>
+<td>
+"\<single-animation\> [ ë
+</td>
+<td>
+í \<single-animation\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-delay
+</td>
+<td>
+"<time> [ </time>
+</td>
+<td>
+\<time\>]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0s
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-direction
+</td>
+<td>
+"\<single-animation-direction\> [ ë
+</td>
+<td>
+í \<single-animation-direction\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+normal
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-duration
+</td>
+<td>
+"\<time\> [
+</td>
+<td>
+\<time\>]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0s
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-fill-mode
+</td>
+<td>
+"\<single-animation-fill-mode\> [ ë
+</td>
+<td>
+í \<single-animation-fill-mode\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-iteration-count
+</td>
+<td>
+"\<single-animation-iteration-count\> [ ë
+</td>
+<td>
+í \<single-animation-iteration-count\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+1
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-name
+</td>
+<td>
+"\<single-animation-name\> [ ë
+</td>
+<td>
+í \<single-animation-name\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-play-state
+</td>
+<td>
+"\<single-animation-play-state\> [ ë
+</td>
+<td>
+í \<single-animation-play-state\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+running
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+animation-timing-function
+</td>
+<td>
+"\<single-timing-function\> [ ë
+</td>
+<td>
+í \<single-timing-function\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+ease
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+appearance
+</td>
+<td>
+normal ; icon ; window ; desktop ; workspace ; document ; tooltip ; dialog ; button ; push-button ; hyperlink ; radio-button ; checkbox ; menu-item ; tab ; menu ; menubar ; pull-down-menu ; pop-up-menu ; list-menu ; radio-group ; checkbox-group ; outline-tree ; range ; field ; combo-box ; signature ; password
+</td>
+<td>
+none ; button ; button-arrow-down ; button-arrow-next ; button-arrow-previous ; button-arrow-up ; button-bevel ; button-focus ; caret ; checkbox ; checkbox-container ; checkbox-label ; checkboxmenuitem ; dualbutton ; groupbox ; listbox ; listitem ; menuarrow ; menubar ; menucheckbox ; menuitem ; menuitemtext ; menulist ; menulist-button ; menulist-text ; menulist-textfield ; menupopup ; menuradio ; menuseparator ; meterbar ; meterchunk ; progressbar ; progressbar-vertical ; radio ; radio-container ; radio-label ; radiomenuitem ; resizer ; resizerpanel ; scale-horizontal ; scalethembend ; scalethumb-horizontal ; scalethumbstart ; scalethumbtick ; scalethumb-vertical ; scale-vertical ; scrollbarbutton-down ; scrollbarbutton-left ; scrollbarbutton-right ; scrollbarbutton-up ; scrollbarthumb-horizontal ; scrollbarthumb-vertical ; scrollbartrack-horizontal ; scrollbartrack-vertical ; searchfield ; separator ; sheet ; spinner ; spinner-downbutton ; spinner-textfield ; spinner-upbutton ; splitter ; statusbar ; statusbarpanel ; tab ; tabpanel ; tabpanels ; tab-scroll-arrow-back ; tab-scroll-arrow-forward ; textfield ; textfield-multiline ; toolbar ; toolbarbutton ; toobarbutton-dropdown ; toolbargripper ; toolbox ; tooltip ; treeheader ; treeheadercell ; treeheadersortarrow ; treeitem ; treeline ; treetwisty ; treetwistyopen ; treeview ; -moz-mac-unified-toolbar ; -moz-win-borderless-glass ; -moz-win-browsertabbar-toolbox ; -moz-win-communicationstext ; -moz-win-communications-toolbox ; -moz-win-exclude-glass ; -moz-win-glass ; -moz-win-mediatext ; -moz-win-media-toolbox ; -moz-window-button-box ; -moz-window-button-box-maximized ; -moz-window-button-close ; -moz-window-button-maximize ; -moz-window-button-minimize ; -moz-window-button-restore ; -moz-window-frame-bottom ; -moz-window-frame-left ; -moz-window-frame-right ; -moz-window-titlebar ; -moz-window-titlebar-maximized
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+button-bevel ; caps-lock-indicator ; caret ; checkbox ; listbox ; listitem ; menulist ; menulist-button ; menulist-text ; menulist-textfield ; push-button ; radio ; scrollbarbutton-down ; scrollbarbutton-left ; scrollbarbutton-right ; scrollbarbutton-up ; scrollbargripper-horizontal ; scrollbargripper-vertical ; scrollbarthumb-horizontal ; scrollbarthumb-vertical ; scrollbartrack-horizontal ; scrollbartrack-vertical ; searchfield ; searchfield-cancel-button ; searchfield-decoration ; searchfield-results-button ; searchfield-results-decoration ; slider-horizontal ; sliderthumb-horizontal ; sliderthumb-vertical ; slider-vertical ; square-button ; textarea ; textfield
+</td>
+<td>
+normal
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-moz
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+aspect-ratio
+</td>
+<td>
+none ; \<number\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+audio-level
+</td>
+<td>
+\<number\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+1
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+azimuth
+</td>
+<td>
+[[ left-side ; far-left ; left ; center-left ; center ; center-right ; right ; far-right ; right-side ]
+</td>
+<td>
+leftwards ; rightwards
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+center
+</td>
+<td>
+</td>
+<td>
+yes
+</td>
+<td>
+"yes
+</td>
+<td>
+as an \<angle\>"
+</td>
+<td>
+</td>
+<td>
+aural
+</td>
+<td>
+normalized \<angle\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+backface-visibility
+</td>
+<td>
+visible ; hidden
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+visible
+</td>
+<td>
+transformable elements
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-moz
+</td>
+<td>
+</td>
+<td>
+both
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+background
+</td>
+<td>
+"[ \<bg-layer\>
+</td>
+<td>
+]\* \<final-bg-layer\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+see individual properties
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-attachment
+</td>
+<td>
+"\<attachment\> [
+</td>
+<td>
+\<attachment\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+scroll
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-clip
+</td>
+<td>
+"\<box\> [
+</td>
+<td>
+\<box\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+border-box
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+</tr>
+<tr>
+<td>
+background-color
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+transparent
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<color\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-composite
+</td>
+<td>
+border ; clear ; copy ; destination-atop ; destination-in ; destination-out ; destination-over ; highlight ; padding ; plus-darker ; plus-lighter ; source-atop ; source-in ; source-out ; source-over ; xor
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+source-over
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+background-image
+</td>
+<td>
+"\<bg-image\> [
+</td>
+<td>
+\<bg-image\> ]\* "
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-inline-policy
+</td>
+<td>
+bounding-box ; continuous ; each-box
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+continuous
+</td>
+<td>
+inline-level elements
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-moz
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+background-origin
+</td>
+<td>
+"\<box\> [
+</td>
+<td>
+\<box\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+padding-box
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+</tr>
+<tr>
+<td>
+background-position
+</td>
+<td>
+"\<position\> [
+</td>
+<td>
+\<position\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0% 0%
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as repeatable list of simple list of \<length\>
+</td>
+<td>
+\<percentage\>
+</td>
+<td>
+or calc"
+</td>
+<td>
+refer to size of background positioning area minus size of background image; see text
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-position-x
+</td>
+<td>
+\<percentage\> | left ; center ; right
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0%
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as repeatable list of simple list of \<length\>
+</td>
+<td>
+\<percentage\>
+</td>
+<td>
+or calc"
+</td>
+<td>
+refer to size of background positioning area minus size of background image; see text
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+both
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-position-y
+</td>
+<td>
+\<percentage\> | top ; center ; bottom
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0%
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as repeatable list of simple list of \<length\>
+</td>
+<td>
+\<percentage\>
+</td>
+<td>
+or calc"
+</td>
+<td>
+refer to size of background positioning area minus size of background image; see text
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+both
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-repeat
+</td>
+<td>
+"\<repeat-style\> [
+</td>
+<td>
+\<repeat-style\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+repeat
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+background-size
+</td>
+<td>
+"\<bg-size\> [
+</td>
+<td>
+\<bg-size\> ]\*"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+auto
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+</tr>
+<tr>
+<td>
+baseline-shift
+</td>
+<td>
+\<length\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+baseline
+</td>
+<td>
+inline-level elements
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
+refers to the 'line-height' of the element
+</td>
+<td>
+</td>
+<td>
+see text
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+behavior
+</td>
+<td>
+none ; \<url\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+both
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+binding
+</td>
+<td>
+none ; \<url\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+all elements (but not pseudo-elements)
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-moz
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+bleed
+</td>
+<td>
+\<length\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+6pt
+</td>
+<td>
+paged content
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+absolute length
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+block-progression
+</td>
+<td>
+tb ; rl ; bt ; lr
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+tb
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-ms
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+bookmark-label
+</td>
+<td>
+none ; \<integer\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+bookmark-level
+</td>
+<td>
+\<string\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+content()
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+bookmark-state
+</td>
+<td>
+open ; closed
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+open
+</td>
+<td>
+block-level elements
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+bookmark-target
+</td>
+<td>
+none ; \<url\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+border
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+border-after
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-after-color
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+currentColor
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<color\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+the computed value of color
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-after-style
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-after-width
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+medium
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<length\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-before
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-before-color
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+currentColor
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<color\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+the computed value of color
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-before-style
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-before-width
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+medium
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<length\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-webkit
+</td>
+</tr>
+<tr>
+<td>
+border-bottom
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+see individual properties
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+see individual properties
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-color
+</td>
+<td>
+\<color\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+currentColor
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<color\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+the computed value of color
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-colors
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+the computed value of color
+</td>
+<td>
+-moz
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-left-radius
+</td>
+<td>
+\<percentage\> ]{1
+</td>
+<td>
+2}"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a simple list of \<length\>
+</td>
+<td>
+\<percentage\>
+</td>
+<td>
+or calc"
+</td>
+<td>
+refer to the corresponding dimension of the border box
+</td>
+<td>
+</td>
+<td>
+two absolute lengths or percentages
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-right-radius
+</td>
+<td>
+\<percentage\> ]{1
+</td>
+<td>
+2}"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+0
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a simple list of \<length\>
+</td>
+<td>
+\<percentage\>
+</td>
+<td>
+or calc"
+</td>
+<td>
+refer to the corresponding dimension of the border box
+</td>
+<td>
+</td>
+<td>
+two absolute lengths or percentages
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+both
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-style
+</td>
+<td>
+\<border-style\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+none
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+no
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+border-bottom-width
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+medium
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+"yes
+</td>
+<td>
+as a \<length\>"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+</tr>
+<tr>
+<td>
+border-clip
+</td>
+<td>
+\<percentage\> | \<fraction\> ]+
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+normal
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+border-clip-bottom
+</td>
+<td>
+\<percentage\> | \<fraction\> ]+
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+normal
+</td>
+<td>
+</td>
+<td>
+no
+</td>
+<td>
+ ??
+</td>
+<td>
 </td>
-<td> false&#160;; true
+<td>
+</td>
+<td>
+"ënormalí
+</td>
+<td>
+or a list consisting of absolute lengths
+</td>
+<td>
+or percentages as specified"
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+border-clip-left
+</td>
+<td>
+\<percentage\> | \<fraction\> ]+
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+normal
 </td>
 <td>
 </td>
-<td> false
+<td>
+no
 </td>
 <td>
+ ??
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
+"ënormalí
 </td>
 <td>
+or a list consisting of absolute lengths
 </td>
 <td>
+or percentages as specified"
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> align-content
+<td>
+border-clip-right
+</td>
+<td>
+\<percentage\> | \<fraction\> ]+
 </td>
-<td> flex-start&#160;; flex-end&#160;; center&#160;; space-between&#160;; space-around&#160;; stretch
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
 <td>
+normal
 </td>
 <td>
 </td>
 <td>
+no
 </td>
-<td> stretch
+<td>
+ ??
 </td>
-<td> multi-line flex containers
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
+"ënormalí
 </td>
 <td>
+or a list consisting of absolute lengths
 </td>
 <td>
+or percentages as specified"
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> align-items
+<td>
+border-clip-top
+</td>
+<td>
+\<percentage\> | \<fraction\> ]+
+</td>
+<td>
 </td>
-<td> flex-start&#160;; flex-end&#160;; center&#160;; baseline&#160;; stretch
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
 <td>
+normal
 </td>
 <td>
 </td>
 <td>
+no
 </td>
-<td> stretch
+<td>
+ ??
 </td>
-<td> flex containers
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
+"ënormalí
 </td>
 <td>
+or a list consisting of absolute lengths
 </td>
 <td>
+or percentages as specified"
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> align-self
+<td>
+border-collapse
+</td>
+<td>
+collapse ; separate
 </td>
-<td> auto&#160;; flex-start&#160;; flex-end&#160;; center&#160;; baseline&#160;; stretch
+<td>
 </td>
 <td>
 </td>
@@ -154,33 +3060,45 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+separate
 </td>
-<td> auto
+<td>
+table' and 'inline-table' elements
 </td>
-<td> flex items
+<td>
+yes
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> auto computes to parent's align-items; otherwise as specified
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> alignment-adjust
+<td>
+border-color
+</td>
+<td>
+"\<color\>{1
 </td>
-<td> &lt;length&gt;
+<td>
+4}"
 </td>
 <td>
 </td>
@@ -190,32 +3108,44 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> auto
+<td>
+see individual properties
 </td>
-<td> inline-level elements
+<td>
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
+see individual properties
 </td>
-<td> refers to the 'line-height' of the element
+<td>
 </td>
 <td>
 </td>
-<td> see text
+<td>
+see individual properties
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> alignment-baseline
+<td>
+border-corner-shape
+</td>
+<td>
 </td>
-<td> baseline&#160;; use-script&#160;; before-edge&#160;; text-before-edge&#160;; after-edge&#160;; text-after-edge&#160;; central&#160;; middle&#160;; ideographic&#160;; alphabetic&#160;; hanging&#160;; mathematical
+<td>
 </td>
 <td>
 </td>
@@ -225,13 +3155,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> baseline
+<td>
 </td>
-<td> inline-level elements
+<td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -243,14 +3175,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> all
+<td>
+border-end
+</td>
+<td>
+\<border-width\>
+</td>
+<td>
+\<border-style\>
 </td>
-<td> initial&#160;; inherit&#160;; default
+<td>
+\<color\>
 </td>
 <td>
 </td>
@@ -260,71 +3199,90 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
+see individual properties
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> see individual properties
+<td>
+no
 </td>
-<td> see individual properties
+<td>
+see individual properties
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> see individual properties
+<td>
+see individual properties
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> animation
+<td>
+border-end-color
+</td>
+<td>
+\<color\>
 </td>
-<td> "&lt;single-animation&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-animation&gt; ]*"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+currentColor
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> see individual properties
+<td>
+as a \<color\>"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
+the computed value of color
 </td>
-<td> see individual properties
+<td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-delay
+<td>
+border-end-style
 </td>
-<td> "<time> [
+<td>
+\<border-style\>
 </td>
-<td>  &lt;time&gt;]*"
+<td>
 </td>
 <td>
 </td>
@@ -333,72 +3291,87 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+none
 </td>
-<td> 0s
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-direction
+<td>
+border-end-width
 </td>
-<td> "&lt;single-animation-direction&gt; [ ë
+<td>
+\<border-width\>
+</td>
+<td>
 </td>
-<td> í &lt;single-animation-direction&gt; ]*"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+medium
 </td>
 <td>
 </td>
-<td> normal
+<td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> no
+<td>
+as a \<length\>"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
 </td>
 <td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-duration
+<td>
+border-fit
 </td>
-<td> "&lt;time&gt; [
+<td>
 </td>
-<td>  &lt;time&gt;]*"
+<td>
 </td>
 <td>
 </td>
@@ -408,13 +3381,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0s
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+ ??
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -422,36 +3397,44 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-fill-mode
+<td>
+border-horizontal-spacing
+</td>
+<td>
+\<length\>
 </td>
-<td> "&lt;single-animation-fill-mode&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-animation-fill-mode&gt; ]*"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+0
 </td>
 <td>
 </td>
-<td> none
+<td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> no
+<td>
+as a \<length\>"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -459,20 +3442,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-iteration-count
+<td>
+border-image
 </td>
-<td> "&lt;single-animation-iteration-count&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-animation-iteration-count&gt; ]*"
+<td>
 </td>
 <td>
 </td>
@@ -482,34 +3466,40 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 1
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+-o
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
+<td>
+both
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-name
+<td>
+border-image-outset
 </td>
-<td> "&lt;single-animation-name&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-animation-name&gt; ]*"
+<td>
 </td>
 <td>
 </td>
@@ -519,34 +3509,38 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-play-state
+<td>
+border-image-repeat
 </td>
-<td> "&lt;single-animation-play-state&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-animation-play-state&gt; ]*"
+<td>
 </td>
 <td>
 </td>
@@ -556,34 +3550,39 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> running
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> animation-timing-function
+<td>
+border-image-slice
 </td>
-<td> "&lt;single-timing-function&gt; [ ë
+<td>
 </td>
-<td> í &lt;single-timing-function&gt; ]*"
+<td>
 </td>
 <td>
 </td>
@@ -593,87 +3592,76 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> ease
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> appearance
-</td>
-<td> normal&#160;; icon&#160;; window&#160;; desktop&#160;; workspace&#160;; document&#160;; tooltip&#160;; dialog&#160;; button&#160;; push-button&#160;; hyperlink&#160;; radio-button&#160;; checkbox&#160;; menu-item&#160;; tab&#160;; menu&#160;; menubar&#160;; pull-down-menu&#160;; pop-up-menu&#160;; list-menu&#160;; radio-group&#160;; checkbox-group&#160;; outline-tree&#160;; range&#160;; field&#160;; combo-box&#160;; signature&#160;; password
-</td>
-<td> none&#160;; button&#160;; button-arrow-down&#160;; button-arrow-next&#160;; button-arrow-previous&#160;; button-arrow-up&#160;; button-bevel&#160;; button-focus&#160;; caret&#160;; checkbox&#160;; checkbox-container&#160;; checkbox-label&#160;; checkboxmenuitem&#160;; dualbutton&#160;; groupbox&#160;; listbox&#160;; listitem&#160;; menuarrow&#160;; menubar&#160;; menucheckbox&#160;; menuitem&#160;; menuitemtext&#160;; menulist&#160;; menulist-button&#160;; menulist-text&#160;; menulist-textfield&#160;; menupopup&#160;; menuradio&#160;; menuseparator&#160;; meterbar&#160;; meterchunk&#160;; progressbar&#160;; progressbar-vertical&#160;; radio&#160;; radio-container&#160;; radio-label&#160;; radiomenuitem&#160;; resizer&#160;; resizerpanel&#160;; scale-horizontal&#160;; scalethembend&#160;; scalethumb-horizontal&#160;; scalethumbstart&#160;; scalethumbtick&#160;; scalethumb-vertical&#160;; scale-vertical&#160;; scrollbarbutton-down&#160;; scrollbarbutton-left&#160;; scrollbarbutton-right&#160;; scrollbarbutton-up&#160;; scrollbarthumb-horizontal&#160;; scrollbarthumb-vertical&#160;; scrollbartrack-horizontal&#160;; scrollbartrack-vertical&#160;; searchfield&#160;; separator&#160;; sheet&#160;; spinner&#160;; spinner-downbutton&#160;; spinner-textfield&#160;; spinner-upbutton&#160;; splitter&#160;; statusbar&#160;; statusbarpanel&#160;; tab&#160;; tabpanel&#160;; tabpanels&#160;; tab-scroll-arrow-back&#160;; tab-scroll-arrow-forward&#160;; textfield&#160;; textfield-multiline&#160;; toolbar&#160;; toolbarbutton&#160;; toobarbutton-dropdown&#160;; toolbargripper&#160;; toolbox&#160;; tooltip&#160;; treeheader&#160;; treeheadercell&#160;; treeheadersortarrow&#160;; treeitem&#160;; treeline&#160;; treetwisty&#160;; treetwistyopen&#160;; treeview&#160;; -moz-mac-unified-toolbar&#160;; -moz-win-borderless-glass&#160;; -moz-win-browsertabbar-toolbox&#160;; -moz-win-communicationstext&#160;; -moz-win-communications-toolbox&#160;; -moz-win-exclude-glass&#160;; -moz-win-glass&#160;; -moz-win-mediatext&#160;; -moz-win-media-toolbox&#160;; -moz-window-button-box&#160;; -moz-window-button-box-maximized&#160;; -moz-window-button-close&#160;; -moz-window-button-maximize&#160;; -moz-window-button-minimize&#160;; -moz-window-button-restore&#160;; -moz-window-frame-bottom&#160;; -moz-window-frame-left&#160;; -moz-window-frame-right&#160;; -moz-window-titlebar&#160;; -moz-window-titlebar-maximized
-</td>
 <td>
+border-image-source
 </td>
 <td>
-</td>
-<td> button-bevel&#160;; caps-lock-indicator&#160;; caret&#160;; checkbox&#160;; listbox&#160;; listitem&#160;; menulist&#160;; menulist-button&#160;; menulist-text&#160;; menulist-textfield&#160;; push-button&#160;; radio&#160;; scrollbarbutton-down&#160;; scrollbarbutton-left&#160;; scrollbarbutton-right&#160;; scrollbarbutton-up&#160;; scrollbargripper-horizontal&#160;; scrollbargripper-vertical&#160;; scrollbarthumb-horizontal&#160;; scrollbarthumb-vertical&#160;; scrollbartrack-horizontal&#160;; scrollbartrack-vertical&#160;; searchfield&#160;; searchfield-cancel-button&#160;; searchfield-decoration&#160;; searchfield-results-button&#160;; searchfield-results-decoration&#160;; slider-horizontal&#160;; sliderthumb-horizontal&#160;; sliderthumb-vertical&#160;; slider-vertical&#160;; square-button&#160;; textarea&#160;; textfield
-</td>
-<td> normal
 </td>
 <td>
 </td>
-<td> no
-</td>
-<td> no
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> aspect-ratio
-</td>
-<td> none&#160;; &lt;number&gt;
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-image-width
 </td>
 <td>
 </td>
@@ -683,122 +3671,144 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> audio-level
+<td>
 </td>
-<td> &lt;number&gt;
+<td>
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> 1
+<td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-left
 </td>
 <td>
+\<border-width\>
 </td>
 <td>
+\<border-style\>
 </td>
 <td>
+\<color\>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> azimuth
 </td>
-<td> [[ left-side&#160;; far-left&#160;; left&#160;; center-left&#160;; center&#160;; center-right&#160;; right&#160;; far-right&#160;; right-side ] </td>
-<td> leftwards&#160;; rightwards
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
-<td> center
+<td>
+no
 </td>
 <td>
+see individual properties
 </td>
-<td> yes
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as an &lt;angle&gt;"
+<td>
+see individual properties
 </td>
 <td>
+x
 </td>
-<td> aural
+<td>
+x
 </td>
-<td> normalized &lt;angle&gt;
+<td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-left-color
 </td>
 <td>
+\<color\>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> backface-visibility
 </td>
-<td> visible&#160;; hidden
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+currentColor
 </td>
 <td>
 </td>
-<td> visible
+<td>
+no
 </td>
-<td> transformable elements
+<td>
+"yes
 </td>
-<td> no
+<td>
+as a \<color\>"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
+the computed value of color
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> background
+<td>
+border-left-colors
 </td>
-<td> "[ &lt;bg-layer&gt;
+<td>
+none
 </td>
-<td>  ]* &lt;final-bg-layer&gt;"
+<td>
 </td>
 <td>
 </td>
@@ -807,35 +3817,41 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+none
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
+the computed value of color
 </td>
-<td> see individual properties
+<td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-attachment
+<td>
+border-left-style
 </td>
-<td> "&lt;attachment&gt; [
+<td>
+\<border-style\>
 </td>
-<td>  &lt;attachment&gt; ]*"
+<td>
 </td>
 <td>
 </td>
@@ -844,337 +3860,344 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+none
 </td>
-<td> scroll
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-clip
-</td>
-<td> "&lt;box&gt; [
-</td>
-<td>  &lt;box&gt; ]*"
-</td>
 <td>
+border-left-width
 </td>
 <td>
+\<border-width\>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> border-box
 </td>
 <td>
-</td>
-<td> no
-</td>
-<td> no
 </td>
 <td>
 </td>
 <td>
+medium
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> both
-</td></tr>
-<tr>
-<td> background-color
-</td>
-<td> &lt;color&gt;
 </td>
 <td>
+no
 </td>
 <td>
+"yes
 </td>
 <td>
+as a \<length\>"
 </td>
 <td>
 </td>
-<td> transparent
-</td>
 <td>
-</td>
-<td> no
 </td>
-<td> "yes
-</td>
-<td>  as a &lt;color&gt;"
-</td>
 <td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
-</td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-composite
-</td>
-<td> border&#160;; clear&#160;; copy&#160;; destination-atop&#160;; destination-in&#160;; destination-out&#160;; destination-over&#160;; highlight&#160;; padding&#160;; plus-darker&#160;; plus-lighter&#160;; source-atop&#160;; source-in&#160;; source-out&#160;; source-over&#160;; xor
-</td>
 <td>
+border-radius
 </td>
 <td>
+"
 </td>
+</tr>
+<tr>
 <td>
+\<percentage\> ]{1
 </td>
 <td>
+\<percentage\> ]{1
 </td>
-<td> source-over
-</td>
 <td>
-</td>
-<td> no
+4} ]? "
 </td>
-<td> no
-</td>
 <td>
+\<percentage\> ]{1
 </td>
 <td>
+\<percentage\> ]{1
 </td>
 <td>
+4} ]?"
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> background-image
-</td>
-<td> "&lt;bg-image&gt; [
 </td>
-<td>  &lt;bg-image&gt; ]* "
+<td>
+see individual properties
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+see individual properties
 </td>
 <td>
+refer to the corresponding dimension of the border box
 </td>
-<td> none
+<td>
 </td>
 <td>
+see individual properties
 </td>
-<td> no
+<td>
+x
 </td>
-<td> no
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
+</tr>
+<tr>
 <td>
+border-right
 </td>
-<td> x
+<td>
+\<border-width\>
 </td>
-<td> x
+<td>
+\<border-style\>
 </td>
-<td> x
+<td>
+\<color\>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> background-inline-policy
+<td>
 </td>
-<td> bounding-box&#160;; continuous&#160;; each-box
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
-<td> continuous
+<td>
+no
 </td>
-<td> inline-level elements
+<td>
+see individual properties
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-right-color
 </td>
 <td>
-</td></tr>
-<tr>
-<td> background-origin
+\<color\>
 </td>
-<td> "&lt;box&gt; [
+<td>
 </td>
-<td>  &lt;box&gt; ]*"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+currentColor
 </td>
 <td>
 </td>
-<td> padding-box
+<td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> no
+<td>
+as a \<color\>"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
+the computed value of color
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> background-position
-</td>
-<td> "&lt;position&gt; [
-</td>
-<td>  &lt;position&gt; ]*"
-</td>
 <td>
+border-right-colors
 </td>
 <td>
+none
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> 0% 0%
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
+none
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as repeatable list of simple list of &lt;length&gt;
+<td>
+no
 </td>
-<td>  &lt;percentage&gt;
+<td>
+no
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to size of background positioning area minus size of background image; see text
+<td>
 </td>
 <td>
+the computed value of color
 </td>
 <td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-position-x
-</td>
-<td> &lt;percentage&gt; | left&#160;; center&#160;; right
-</td>
 <td>
+border-right-style
 </td>
 <td>
+\<border-style\>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> 0%
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
+none
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as repeatable list of simple list of &lt;length&gt;
+<td>
+no
 </td>
-<td>  &lt;percentage&gt;
+<td>
+no
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to size of background positioning area minus size of background image; see text
+<td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-position-y
-</td>
-<td> &lt;percentage&gt; | top&#160;; center&#160;; bottom
+<td>
+border-right-width
 </td>
 <td>
+\<border-width\>
 </td>
 <td>
 </td>
@@ -1182,147 +4205,149 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0%
+<td>
 </td>
 <td>
+medium
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
+no
 </td>
-<td>  as repeatable list of simple list of &lt;length&gt;
+<td>
+"yes
 </td>
-<td>  &lt;percentage&gt;
+<td>
+as a \<length\>"
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to size of background positioning area minus size of background image; see text
+<td>
 </td>
 <td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> background-repeat
-</td>
-<td> "&lt;repeat-style&gt; [
-</td>
-<td>  &lt;repeat-style&gt; ]*"
-</td>
 <td>
+border-spacing
 </td>
 <td>
+\<length\> \<length\>?
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> repeat
-</td>
 <td>
-</td>
-<td> no
 </td>
-<td> no
-</td>
 <td>
 </td>
 <td>
+0
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> background-size
+table' and 'inline-table' elements
 </td>
-<td> "&lt;bg-size&gt; [
-</td>
-<td>  &lt;bg-size&gt; ]*"
-</td>
 <td>
+yes
 </td>
 <td>
+"yes
 </td>
 <td>
+as a simple list of \<length\>"
 </td>
 <td>
 </td>
-<td> auto
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
+x
 </td>
-<td>&#160;??
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-start
 </td>
-<td> x
+<td>
+\<border-width\>
 </td>
-<td> x
+<td>
+\<border-style\>
 </td>
-<td> x
+<td>
+\<color\>
 </td>
-<td> both
-</td></tr>
-<tr>
-<td> baseline-shift
+<td>
 </td>
-<td> &lt;length&gt;
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
-<td> baseline
+<td>
+no
 </td>
-<td> inline-level elements
+<td>
+see individual properties
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
-<td> refers to the 'line-height' of the element
+<td>
+see individual properties
 </td>
 <td>
+-moz
 </td>
-<td> see text
+<td>
 </td>
 <td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
+</tr>
+<tr>
+<td>
+border-start-color
 </td>
 <td>
-</td></tr>
-<tr>
-<td> behavior
+\<color\>
 </td>
-<td> none&#160;; &lt;url&gt;
+<td>
 </td>
 <td>
 </td>
@@ -1331,33 +4356,43 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+currentColor
 </td>
-<td> none
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
+"yes
 </td>
-<td> no
+<td>
+as a \<color\>"
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+the computed value of color
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> binding
+<td>
+border-start-style
 </td>
-<td> none&#160;; &lt;url&gt;
+<td>
+\<border-style\>
 </td>
 <td>
 </td>
@@ -1367,13 +4402,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
+none
 </td>
-<td> all elements (but not pseudo-elements)
+<td>
 </td>
-<td> no
+<td>
+no
 </td>
-<td> no
+<td>
+no
 </td>
 <td>
 </td>
@@ -1381,20 +4419,23 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> bleed
+-webkit
 </td>
-<td> &lt;length&gt;
+</tr>
+<tr>
+<td>
+border-start-width
 </td>
 <td>
+\<border-width\>
 </td>
 <td>
 </td>
@@ -1402,83 +4443,102 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 6pt
+<td>
 </td>
-<td> paged content
+<td>
+medium
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
+no
 </td>
 <td>
+"yes
 </td>
 <td>
+as a \<length\>"
 </td>
-<td> absolute length
+<td>
 </td>
 <td>
 </td>
 <td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
 </td>
 <td>
+-moz
 </td>
 <td>
-</td></tr>
-<tr>
-<td> block-progression
 </td>
-<td> tb&#160;; rl&#160;; bt&#160;; lr
+<td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+border-style
 </td>
 <td>
+"border-style\>{1
 </td>
 <td>
+4}"
 </td>
-<td> tb
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> bookmark-label
 </td>
-<td> none&#160;; &lt;integer&gt;
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-top
 </td>
-<td> none
+<td>
+\<border-width\>
 </td>
 <td>
+\<border-style\>
 </td>
-<td> no
+<td>
+\<color\>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
@@ -1487,33 +4547,42 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
-</td></tr>
-<tr>
-<td> bookmark-level
+see individual properties
 </td>
-<td> &lt;string&gt;
+<td>
 </td>
 <td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> content()
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> no
+</tr>
+<tr>
+<td>
+border-top-color
 </td>
-<td> no
+<td>
+\<color\>
 </td>
 <td>
 </td>
@@ -1524,35 +4593,45 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+currentColor
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> bookmark-state
+no
 </td>
-<td> open&#160;; closed
+<td>
+"yes
 </td>
 <td>
+as a \<color\>"
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+the computed value of color
 </td>
-<td> open
+<td>
+x
 </td>
-<td> block-level elements
+<td>
+x
 </td>
-<td> no
+<td>
+x
 </td>
-<td> no
+<td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-top-colors
 </td>
 <td>
+none
 </td>
 <td>
 </td>
@@ -1563,157 +4642,176 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> bookmark-target
+none
 </td>
-<td> none&#160;; &lt;url&gt;
+<td>
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> none
+<td>
+the computed value of color
 </td>
 <td>
+-moz
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+border-top-left-radius
 </td>
 <td>
+\<percentage\> ]{1
 </td>
 <td>
+2}"
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
+0
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> see individual properties
+<td>
+as a simple list of \<length\>
 </td>
 <td>
+\<percentage\>
 </td>
-<td> no
+<td>
+or calc"
 </td>
-<td> see individual properties
+<td>
+refer to the corresponding dimension of the border box
 </td>
 <td>
 </td>
 <td>
+two absolute lengths or percentages
 </td>
-<td> see individual properties
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+both
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-after
-</td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
-</td>
 <td>
+border-top-right-radius
 </td>
 <td>
+\<percentage\> ]{1
 </td>
 <td>
+2}"
 </td>
 <td>
-</td>
-<td> see individual properties
 </td>
 <td>
 </td>
-<td> no
-</td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
+0
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
+no
 </td>
 <td>
+"yes
 </td>
 <td>
+as a simple list of \<length\>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-after-color
+<td>
+\<percentage\>
 </td>
-<td> &lt;color&gt;
+<td>
+or calc"
 </td>
 <td>
+refer to the corresponding dimension of the border box
 </td>
 <td>
 </td>
 <td>
+two absolute lengths or percentages
 </td>
 <td>
+x
 </td>
-<td> currentColor
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> no
+<td>
+both
 </td>
-<td> "yes
+</tr>
+<tr>
+<td>
+border-top-style
 </td>
-<td>  as a &lt;color&gt;"
+<td>
+\<border-style\>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
 <td>
 </td>
 <td>
+none
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-after-style
+<td>
+no
 </td>
-<td> &lt;border-style&gt;
+<td>
+no
 </td>
 <td>
 </td>
@@ -1722,16 +4820,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> none
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> no
+<td>
+x
 </td>
-<td> no
+</tr>
+<tr>
+<td>
+border-top-width
 </td>
 <td>
+\<border-width\>
 </td>
 <td>
 </td>
@@ -1742,37 +4848,46 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+medium
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-after-width
+<td>
 </td>
-<td> &lt;border-width&gt;
+<td>
+no
 </td>
 <td>
+"yes
 </td>
 <td>
+as a \<length\>"
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> medium
+<td>
+absolute length; ë0í if the border style is ënoneí or ëhiddení
 </td>
 <td>
+x
 </td>
-<td> no
+<td>
+x
 </td>
-<td> "yes
+<td>
+x
 </td>
-<td>  as a &lt;length&gt;"
+<td>
+x
 </td>
+</tr>
+<tr>
 <td>
+border-vertical-spacing
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
 </td>
 <td>
 </td>
@@ -1780,73 +4895,83 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-before
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
+no
 </td>
 <td>
+ ??
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+border-width
 </td>
-<td> see individual properties
+<td>
+"\<border-width\>{1
 </td>
 <td>
+4}"
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-before-color
+<td>
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
+see individual properties
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+see individual properties
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
+x
 </td>
-<td>  as a &lt;color&gt;"
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> the computed value of color
+</tr>
+<tr>
+<td>
+bottom
 </td>
 <td>
 </td>
@@ -1854,47 +4979,53 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> border-before-style
+<td>
 </td>
-<td> &lt;border-style&gt;
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+"yes
 </td>
-<td> none
+<td>
+as a \<length\>
 </td>
 <td>
+\<percentage\>
 </td>
-<td> no
+<td>
+or calc"
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-before-width
+<td>
+box-align
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -1904,36 +5035,40 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
+no
 </td>
-<td> "yes
+<td>
+no
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom
+<td>
+box-decoration-break
+</td>
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -1943,32 +5078,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
+no
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom-color
+<td>
+box-direction
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -1978,36 +5116,34 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom-colors
-</td>
-<td> none
-</td>
 <td>
+box-flex
 </td>
 <td>
 </td>
@@ -2015,36 +5151,38 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-bottom-left-radius
 </td>
-<td> &lt;percentage&gt; ]{1
+<td>
 </td>
-<td> 2}"
+<td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+box-flex-group
 </td>
 <td>
 </td>
@@ -2052,42 +5190,38 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a simple list of &lt;length&gt;
+<td>
 </td>
-<td>  &lt;percentage&gt;
+<td>
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to the corresponding dimension of the border box
+<td>
 </td>
 <td>
 </td>
-<td> two absolute lengths or percentages
+<td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom-right-radius
-</td>
-<td> &lt;percentage&gt; ]{1
-</td>
-<td> 2}"
-</td>
 <td>
+box-lines
 </td>
 <td>
 </td>
@@ -2095,38 +5229,41 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a simple list of &lt;length&gt;
+<td>
 </td>
-<td>  &lt;percentage&gt;
+<td>
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to the corresponding dimension of the border box
+<td>
 </td>
 <td>
 </td>
-<td> two absolute lengths or percentages
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom-style
+<td>
+box-ordinal-group
+</td>
+<td>
 </td>
-<td> &lt;border-style&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2136,32 +5273,34 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-bottom-width
+<td>
+box-orient
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2171,50 +5310,46 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-clip
-</td>
-<td> &lt;percentage&gt; | &lt;fraction&gt; ]+
-</td>
 <td>
+box-pack
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> normal
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
@@ -2229,37 +5364,39 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-clip-bottom
+-moz
 </td>
-<td> &lt;percentage&gt; | &lt;fraction&gt; ]+
+<td>
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+box-reflect
 </td>
 <td>
 </td>
-<td> normal
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> "ënormalí
+<td>
 </td>
-<td>  or a list consisting of absolute lengths
+<td>
 </td>
-<td>  or percentages as specified"
+<td>
 </td>
 <td>
 </td>
@@ -2268,52 +5405,57 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-clip-left
 </td>
-<td> &lt;percentage&gt; | &lt;fraction&gt; ]+
+<td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+box-shadow
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> normal
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> "ënormalí
+<td>
 </td>
-<td>  or a list consisting of absolute lengths
+<td>
 </td>
-<td>  or percentages as specified"
+<td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-clip-right
+x
 </td>
-<td> &lt;percentage&gt; | &lt;fraction&gt; ]+
+<td>
+both
 </td>
+</tr>
+<tr>
 <td>
+box-sizing
 </td>
 <td>
 </td>
@@ -2321,36 +5463,42 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> normal
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> "ënormalí
+<td>
 </td>
-<td>  or a list consisting of absolute lengths
+<td>
 </td>
-<td>  or percentages as specified"
+<td>
 </td>
 <td>
+-moz
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+both
+</td>
+</tr>
 <tr>
-<td> border-clip-top
+<td>
+box-snap
 </td>
-<td> &lt;percentage&gt; | &lt;fraction&gt; ]+
+<td>
 </td>
 <td>
 </td>
@@ -2360,36 +5508,36 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> normal
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> "ënormalí
+<td>
 </td>
-<td>  or a list consisting of absolute lengths
+<td>
 </td>
-<td>  or percentages as specified"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+break-after
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-collapse
 </td>
-<td> collapse&#160;; separate
+<td>
 </td>
 <td>
 </td>
@@ -2399,13 +5547,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> separate
+<td>
 </td>
-<td> table' and 'inline-table' elements
+<td>
 </td>
-<td> yes
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2413,20 +5561,22 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-color
+<td>
+break-before
 </td>
-<td> "&lt;color&gt;{1
+<td>
 </td>
-<td> 4}"
+<td>
 </td>
 <td>
 </td>
@@ -2436,30 +5586,32 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-corner-shape
+<td>
+break-inside
 </td>
 <td>
 </td>
@@ -2475,9 +5627,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2488,17 +5640,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> border-end
+<td>
+caption-side
+</td>
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2508,32 +5664,36 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-end-color
+<td>
+chains
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2543,34 +5703,36 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-end-style
+<td>
+child-align
+</td>
+<td>
 </td>
-<td> &lt;border-style&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2580,13 +5742,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2594,18 +5756,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-end-width
+<td>
+clear
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2615,32 +5777,38 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-fit
+<td>
+clear-after
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2656,9 +5824,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
@@ -2672,12 +5840,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-horizontal-spacing
+<td>
+clear-side
 </td>
-<td> &lt;length&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2687,15 +5855,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
@@ -2709,10 +5877,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-image
+<td>
+clip
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2728,26 +5898,32 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> -o
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-image-outset
+<td>
+clip-path
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2763,7 +5939,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2773,16 +5949,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-image-repeat
+<td>
+clip-rule
 </td>
 <td>
 </td>
@@ -2798,9 +5977,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
+</td>
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2808,16 +5989,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-image-slice
+<td>
+color
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2833,7 +6019,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2842,17 +6028,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-image-source
+<td>
+color-correction
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2868,9 +6060,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -2878,16 +6070,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-image-width
+<td>
+color-interpolation
 </td>
 <td>
 </td>
@@ -2903,7 +6096,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -2913,20 +6108,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-left
+<td>
+color-interpolation-filters
+</td>
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2936,32 +6132,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-left-color
+<td>
+color-profile
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -2971,34 +6170,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-left-colors
+<td>
+color-rendering
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
@@ -3008,32 +6208,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> border-left-style
+<td>
+column-axis
 </td>
-<td> &lt;border-style&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3043,13 +6246,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3057,18 +6260,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> border-left-width
+<td>
+-webkit
 </td>
-<td> &lt;border-width&gt;
+</tr>
+<tr>
+<td>
+column-break-after
 </td>
 <td>
 </td>
@@ -3078,47 +6282,41 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> border-radius
+<td>
+-webkit
 </td>
-<td> "
-</td></tr>
+</tr>
 <tr>
-<td> &lt;percentage&gt; ]{1
-</td>
-<td> &lt;percentage&gt; ]{1
-</td>
-<td> 4} ]?  "
+<td>
+column-break-before
 </td>
-<td> &lt;percentage&gt; ]{1
+<td>
 </td>
-<td> &lt;percentage&gt; ]{1
+<td>
 </td>
-<td> 4} ]?"
+<td>
 </td>
 <td>
 </td>
@@ -3126,34 +6324,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> refer to the corresponding dimension of the border box
+<td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-right
+<td>
+column-break-inside
+</td>
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3163,32 +6362,33 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-right-color
+<td>
+column-count
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3198,34 +6398,37 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-right-colors
+<td>
+column-fill
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
@@ -3235,32 +6438,38 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> border-right-style
+<td>
+column-gap
 </td>
-<td> &lt;border-style&gt;
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -3270,13 +6479,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3284,18 +6493,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-right-width
+<td>
+column-rule
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3305,34 +6517,37 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-spacing
+<td>
+column-rule-color
 </td>
-<td> &lt;length&gt; &lt;length&gt;?
+<td>
 </td>
 <td>
 </td>
@@ -3342,15 +6557,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
-<td> table' and 'inline-table' elements
+<td>
 </td>
-<td> yes
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a simple list of &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
@@ -3358,20 +6573,23 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-start
+<td>
+column-rule-style
+</td>
+<td>
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3381,32 +6599,35 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-start-color
+<td>
+column-rule-width
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3416,34 +6637,39 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-start-style
+<td>
+column-span
+</td>
+<td>
 </td>
-<td> &lt;border-style&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3453,13 +6679,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3467,18 +6693,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-start-width
+<td>
+column-width
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3488,36 +6717,39 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-style
+<td>
+columns
 </td>
-<td> "border-style&gt;{1
+<td>
 </td>
-<td> 4}"
+<td>
 </td>
 <td>
 </td>
@@ -3527,13 +6759,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
@@ -3541,20 +6773,23 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-top
+<td>
+content
 </td>
-<td> &lt;border-width&gt; </td>
-<td> &lt;border-style&gt; </td>
-<td> &lt;color&gt;
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -3564,32 +6799,36 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-top-color
+<td>
+content-zoom-boundary
 </td>
-<td> &lt;color&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3599,36 +6838,33 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> currentColor
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;color&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-top-colors
-</td>
-<td> none
-</td>
 <td>
+content-zoom-boundary-max
 </td>
 <td>
 </td>
@@ -3636,36 +6872,37 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> the computed value of color
+<td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> border-top-left-radius
 </td>
-<td> &lt;percentage&gt; ]{1
+<td>
+-ms
 </td>
-<td> 2}"
+<td>
 </td>
+</tr>
+<tr>
 <td>
+content-zoom-boundary-min
 </td>
 <td>
 </td>
@@ -3673,42 +6910,37 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a simple list of &lt;length&gt;
+<td>
 </td>
-<td>  &lt;percentage&gt;
+<td>
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to the corresponding dimension of the border box
+<td>
 </td>
 <td>
 </td>
-<td> two absolute lengths or percentages
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-top-right-radius
-</td>
-<td> &lt;percentage&gt; ]{1
-</td>
-<td> 2}"
-</td>
 <td>
+content-zoom-chaining
 </td>
 <td>
 </td>
@@ -3716,38 +6948,41 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> 0
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a simple list of &lt;length&gt;
+<td>
 </td>
-<td>  &lt;percentage&gt;
+<td>
 </td>
-<td>  or calc"
+<td>
 </td>
-<td> refer to the corresponding dimension of the border box
+<td>
 </td>
 <td>
 </td>
-<td> two absolute lengths or percentages
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> border-top-style
+<td>
+content-zooming
 </td>
-<td> &lt;border-style&gt;
+<td>
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -3757,13 +6992,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> none
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3771,18 +7006,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-top-width
+<td>
+content-zoom-limit
 </td>
-<td> &lt;border-width&gt;
+<td>
 </td>
 <td>
 </td>
@@ -3792,32 +7028,33 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> medium
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;"
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> absolute length; ë0í if the border style is ënoneí or ëhiddení
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> border-vertical-spacing
+<td>
+content-zoom-limit-max
 </td>
 <td>
 </td>
@@ -3833,9 +7070,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
+</td>
+<td>
 </td>
-<td>&#160;??
+<td>
 </td>
 <td>
 </td>
@@ -3846,17 +7085,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> border-width
+<td>
+content-zoom-limit-min
 </td>
-<td> "&lt;border-width&gt;{1
+<td>
 </td>
-<td> 4}"
+<td>
 </td>
 <td>
 </td>
@@ -3866,13 +7106,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> see individual properties
+<td>
 </td>
 <td>
 </td>
@@ -3880,18 +7120,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> bottom
-</td>
 <td>
+content-zoom-snap
 </td>
 <td>
 </td>
@@ -3905,15 +7144,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
-</td>
-<td> "yes
+<td>
 </td>
-<td>  as a &lt;length&gt;
+<td>
 </td>
-<td>  &lt;percentage&gt;
+<td>
 </td>
-<td>  or calc"
+<td>
 </td>
 <td>
 </td>
@@ -3921,16 +7158,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> box-align
+<td>
+content-zoom-snap-points
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -3946,9 +7186,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3956,16 +7196,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-decoration-break
+<td>
+content-zoom-snap-type
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -3981,7 +7224,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -3993,14 +7236,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-direction
+<td>
+counter-increment
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4025,17 +7271,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-flex
+<td>
+counter-reset
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4060,17 +7312,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-flex-group
+<td>
+counter-set
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4096,16 +7354,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-lines
+<td>
+cue
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4132,15 +7392,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-ordinal-group
+<td>
+cue-after
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4166,16 +7429,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-orient
+<td>
+cue-before
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4201,16 +7467,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-pack
+<td>
+cursor
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4235,17 +7504,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-reflect
+<td>
+dashboard-region
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4276,11 +7551,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> box-shadow
+<td>
+device-pixel-ratio
 </td>
 <td>
 </td>
@@ -4306,16 +7582,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+</td>
+<td>
+-o
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> box-sizing
+<td>
+direction
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4340,17 +7621,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -moz
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> box-snap
+<td>
+display
 </td>
 <td>
 </td>
@@ -4377,15 +7662,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> break-after
+<td>
+display-align
 </td>
 <td>
 </td>
@@ -4413,16 +7704,20 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> break-before
+<td>
+dominant-baseline
 </td>
 <td>
+auto ; use-script ; no-change ; reset-size ; alphabetic ; hanging ; ideographic ; mathematical ; central ; middle ; text-after-edge ; text-before-edge
 </td>
 <td>
 </td>
@@ -4433,12 +7728,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+auto
 </td>
 <td>
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
@@ -4448,16 +7746,22 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> break-inside
+<td>
+drop-initial-after-adjust
 </td>
 <td>
+† after-edge ; text-after-edge ; ideographic ; alphabetic ; hanging ; mathematical ; \<percentage\> | \<length\>
 </td>
 <td>
 </td>
@@ -4468,14 +7772,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+text-after-edge
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
+refer to combined line height size as provided by drop-initial-value
 </td>
 <td>
 </td>
@@ -4483,14 +7792,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> caption-side
+<td>
+drop-initial-after-align
+</td>
+<td>
+\<'alignment-baseline'\>
 </td>
 <td>
 </td>
@@ -4501,12 +7815,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+baseline
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
@@ -4516,18 +7834,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> chains
+<td>
+drop-initial-before-adjust
 </td>
 <td>
+\<length\>
 </td>
 <td>
 </td>
@@ -4538,14 +7857,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+text-before-edge
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
+refers to combined line height size as provided by drop-initial-value
 </td>
 <td>
 </td>
@@ -4558,11 +7882,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> child-align
+<td>
+drop-initial-before-align
 </td>
 <td>
+caps-height ; \<'alignment-baseline'\>
 </td>
 <td>
 </td>
@@ -4573,12 +7900,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+caps-height
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
@@ -4593,11 +7924,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> clear
+<td>
+drop-initial-size
 </td>
 <td>
+\<length\> | \<percentage\>
 </td>
 <td>
 </td>
@@ -4608,31 +7942,39 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+auto
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
+refers to combined line height size as provided by drop-initial-value
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> x
+<td>
+</td>
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> clear-after
+<td>
+drop-initial-value
 </td>
 <td>
+initial ; \<integer\>
 </td>
 <td>
 </td>
@@ -4643,12 +7985,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+initial
 </td>
 <td>
+ ::first-letter pseudo element
 </td>
 <td>
+no
 </td>
 <td>
+no
 </td>
 <td>
 </td>
@@ -4663,9 +8009,11 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> clear-side
+<td>
+elevation
 </td>
 <td>
 </td>
@@ -4698,9 +8046,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> clip
+<td>
+empty-cells
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4725,17 +8077,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> clip-path
+<td>
+enable-background
 </td>
 <td>
 </td>
@@ -4763,14 +8119,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
+</td>
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> clip-rule
+<td>
+fill
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4797,15 +8160,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> color
+<td>
+fill-opacity
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4831,16 +8199,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> color-correction
+<td>
+fill-rule
 </td>
 <td>
 </td>
@@ -4869,13 +8240,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+<td>
+x
+</td>
+</tr>
 <tr>
-<td> color-interpolation
+<td>
+filter
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4900,17 +8278,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
 <td>
+both
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> color-interpolation-filters
+<td>
+flex
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4938,14 +8322,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+both
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> color-profile
+<td>
+flex-align
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -4974,13 +8362,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> color-rendering
+<td>
+flex-basis
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5012,10 +8403,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> column-axis
+<td>
+flex-direction
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5044,13 +8437,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-break-after
+<td>
+flex-flow
 </td>
 <td>
 </td>
@@ -5081,11 +8476,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
-<td> -webkit
-</td></tr>
+<td>
+-webkit
+</td>
+</tr>
 <tr>
-<td> column-break-before
+<td>
+flex-grow
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5117,10 +8518,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-break-inside
+<td>
+flex-item-align
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5149,13 +8552,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-count
+<td>
+flex-line-pack
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5183,14 +8589,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-fill
+<td>
+flex-negative
 </td>
 <td>
 </td>
@@ -5218,14 +8625,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> column-gap
+<td>
+flex-order
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5253,14 +8665,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-rule
+<td>
+flex-pack
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5288,14 +8703,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-rule-color
+<td>
+flex-positive
 </td>
 <td>
 </td>
@@ -5323,14 +8739,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+</td>
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-rule-style
+<td>
+flex-preferred-size
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5358,14 +8779,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-rule-width
+<td>
+flex-shrink
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5393,14 +8817,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-span
+<td>
+flex-wrap
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -5428,16 +8854,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> column-width
-</td>
 <td>
+float
 </td>
 <td>
 </td>
@@ -5462,21 +8888,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> columns
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+float-displace
 </td>
 <td>
 </td>
@@ -5498,14 +8926,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> content
+<td>
 </td>
 <td>
 </td>
@@ -5513,7 +8938,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+float-edge
 </td>
 <td>
 </td>
@@ -5531,18 +8959,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> content-zoom-boundary
+<td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -5550,7 +8976,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+float-offset
 </td>
 <td>
 </td>
@@ -5570,12 +8999,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-boundary-max
 </td>
 <td>
 </td>
@@ -5587,7 +9013,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+flood-color
 </td>
 <td>
 </td>
@@ -5605,12 +9034,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-boundary-min
 </td>
 <td>
 </td>
@@ -5619,12 +9045,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+flood-opacity
 </td>
 <td>
 </td>
@@ -5640,12 +9072,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-chaining
 </td>
 <td>
 </td>
@@ -5656,12 +9085,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+flow
 </td>
 <td>
 </td>
@@ -5675,12 +9110,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zooming
 </td>
 <td>
 </td>
@@ -5698,7 +9130,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+flow-from
 </td>
 <td>
 </td>
@@ -5710,12 +9145,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-limit
 </td>
 <td>
 </td>
@@ -5732,10 +9164,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+flow-into
 </td>
 <td>
 </td>
@@ -5745,12 +9181,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-limit-max
 </td>
 <td>
 </td>
@@ -5769,10 +9202,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+font
 </td>
 <td>
 </td>
@@ -5780,12 +9217,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-limit-min
 </td>
 <td>
 </td>
@@ -5802,25 +9236,29 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+font-family
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-snap
 </td>
 <td>
 </td>
@@ -5839,23 +9277,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+font-feature-settings
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-snap-points
 </td>
 <td>
 </td>
@@ -5876,21 +9318,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+font-kerning
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> content-zoom-snap-type
 </td>
 <td>
 </td>
@@ -5919,13 +9364,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -ms
+</tr>
+<tr>
+<td>
+font-langauge-override
 </td>
 <td>
-</td></tr>
-<tr>
-<td> counter-increment
 </td>
 <td>
 </td>
@@ -5950,19 +9396,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> counter-reset
-</td>
 <td>
+font-size
 </td>
 <td>
 </td>
@@ -5985,29 +9430,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> counter-set
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+font-size-adjust
 </td>
 <td>
 </td>
@@ -6028,23 +9469,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> cue
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+font-size-delta
 </td>
 <td>
 </td>
@@ -6057,15 +9500,10 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> cue-after
 </td>
 <td>
 </td>
@@ -6082,8 +9520,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+font-smoothing
 </td>
 <td>
 </td>
@@ -6093,14 +9535,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> cue-before
 </td>
 <td>
 </td>
@@ -6121,21 +9558,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+font-stretch
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> cursor
 </td>
 <td>
 </td>
@@ -6154,25 +9590,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td>
-<td> x
+x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> dashboard-region
-</td>
 <td>
+font-style
 </td>
 <td>
 </td>
@@ -6199,19 +9630,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> device-pixel-ratio
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+font-synthesis
 </td>
 <td>
 </td>
@@ -6233,14 +9666,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -o
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> direction
 </td>
 <td>
 </td>
@@ -6250,7 +9678,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+font-variant
 </td>
 <td>
 </td>
@@ -6265,18 +9696,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> display
-</td>
 <td>
 </td>
 <td>
@@ -6288,30 +9708,26 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+font-variant-alternates
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> display-align
-</td>
 <td>
 </td>
 <td>
@@ -6338,16 +9754,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
+</tr>
+<tr>
 <td>
+font-variant-caps
 </td>
 <td>
-</td></tr>
-<tr>
-<td> dominant-baseline
 </td>
-<td> auto&#160;; use-script&#160;; no-change&#160;; reset-size&#160;; alphabetic&#160;; hanging&#160;; ideographic&#160;; mathematical&#160;; central&#160;; middle&#160;; text-after-edge&#160;; text-before-edge
+<td>
 </td>
 <td>
 </td>
@@ -6357,13 +9773,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> auto
+<td>
 </td>
 <td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
@@ -6373,35 +9789,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> drop-initial-after-adjust
-</td>
-<td>† after-edge&#160;; text-after-edge&#160;; ideographic&#160;; alphabetic&#160;; hanging&#160;; mathematical&#160;; &lt;percentage&gt; | &lt;length&gt;
-</td>
 <td>
+font-variant-east-asian
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> text-after-edge
 </td>
-<td>&#160;::first-letter pseudo element
-</td>
-<td> no
-</td>
-<td> no
-</td>
-<td> refer to combined line height size as provided by drop-initial-value
-</td>
 <td>
 </td>
 <td>
@@ -6413,11 +9815,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> drop-initial-after-align
-</td>
-<td> &lt;'alignment-baseline'&gt;
 </td>
 <td>
 </td>
@@ -6427,15 +9824,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> baseline
-</td>
-<td>&#160;::first-letter pseudo element
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
+</tr>
+<tr>
 <td>
+font-variant-ligatures
 </td>
 <td>
 </td>
@@ -6448,11 +9846,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> drop-initial-before-adjust
 </td>
-<td> &lt;length&gt;
+<td>
 </td>
 <td>
 </td>
@@ -6462,17 +9857,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> text-before-edge
+<td>
 </td>
-<td>&#160;::first-letter pseudo element
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> refers to combined line height size as provided by drop-initial-value
+<td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+font-variant-numeric
 </td>
 <td>
 </td>
@@ -6483,11 +9882,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> drop-initial-before-align
 </td>
-<td> caps-height&#160;; &lt;'alignment-baseline'&gt;
+<td>
 </td>
 <td>
 </td>
@@ -6497,19 +9893,22 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> caps-height
+<td>
 </td>
-<td>&#160;::first-letter pseudo element
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+font-variant-position
 </td>
 <td>
 </td>
@@ -6518,11 +9917,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> drop-initial-size
 </td>
-<td> &lt;length&gt; | &lt;percentage&gt;
+<td>
 </td>
 <td>
 </td>
@@ -6532,32 +9928,32 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> auto
+<td>
 </td>
-<td>&#160;::first-letter pseudo element
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> refers to combined line height size as provided by drop-initial-value
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+font-weight
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> drop-initial-value
 </td>
-<td> initial&#160;; &lt;integer&gt;
+<td>
 </td>
 <td>
 </td>
@@ -6567,30 +9963,34 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> initial
+<td>
 </td>
-<td>&#160;::first-letter pseudo element
+<td>
 </td>
-<td> no
+<td>
 </td>
-<td> no
+<td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+force-broken-image-icon
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> elevation
 </td>
 <td>
 </td>
@@ -6613,6 +10013,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -6620,12 +10021,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+format-detection
 </td>
 <td>
-</td></tr>
-<tr>
-<td> empty-cells
 </td>
 <td>
 </td>
@@ -6651,18 +10052,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> enable-background
-</td>
 <td>
+glyph-orientation-horizontal
 </td>
 <td>
 </td>
@@ -6688,24 +10088,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> fill
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+glyph-orientation-vertical
 </td>
 <td>
 </td>
@@ -6722,15 +10119,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> fill-opacity
 </td>
 <td>
 </td>
@@ -6743,12 +10131,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+grid-area
 </td>
 <td>
 </td>
@@ -6757,16 +10151,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> fill-rule
-</td>
 <td>
 </td>
 <td>
@@ -6791,16 +10176,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
-</td>
-<td> x
+grid-auto-columns
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> filter
+<td>
 </td>
 <td>
 </td>
@@ -6826,18 +10207,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> flex
-</td>
 <td>
+grid-auto-flow
 </td>
 <td>
 </td>
@@ -6864,19 +10243,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> both
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> flex-align
+<td>
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-auto-rows
 </td>
 <td>
 </td>
@@ -6900,12 +10277,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-basis
 </td>
 <td>
 </td>
@@ -6913,7 +10287,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-cell
 </td>
 <td>
 </td>
@@ -6938,9 +10315,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-direction
 </td>
 <td>
 </td>
@@ -6950,7 +10324,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-column
 </td>
 <td>
 </td>
@@ -6970,12 +10347,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> flex-flow
+<td>
 </td>
 <td>
 </td>
@@ -6984,10 +10358,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+grid-column-align
 </td>
 <td>
 </td>
@@ -7005,12 +10384,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> flex-grow
+<td>
 </td>
 <td>
 </td>
@@ -7021,10 +10397,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-column-position
 </td>
 <td>
 </td>
@@ -7043,9 +10423,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-item-align
 </td>
 <td>
 </td>
@@ -7061,7 +10438,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-column-sizing
 </td>
 <td>
 </td>
@@ -7075,12 +10455,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-line-pack
 </td>
 <td>
 </td>
@@ -7098,7 +10475,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-column-span
 </td>
 <td>
 </td>
@@ -7110,12 +10490,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-negative
 </td>
 <td>
 </td>
@@ -7132,10 +10509,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-columns
 </td>
 <td>
 </td>
@@ -7145,12 +10526,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-order
 </td>
 <td>
 </td>
@@ -7169,10 +10547,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+grid-definition-columns
 </td>
 <td>
 </td>
@@ -7180,12 +10563,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-pack
 </td>
 <td>
 </td>
@@ -7209,18 +10589,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-definition-rows
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-positive
 </td>
 <td>
 </td>
@@ -7246,16 +10626,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-flow
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-preferred-size
 </td>
 <td>
 </td>
@@ -7283,14 +10663,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-layer
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-shrink
 </td>
 <td>
 </td>
@@ -7317,15 +10697,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-row
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flex-wrap
 </td>
 <td>
 </td>
@@ -7354,15 +10735,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
-<td> -ms
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> float
-</td>
 <td>
+grid-row-align
 </td>
 <td>
 </td>
@@ -7385,18 +10766,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> float-displace
-</td>
 <td>
 </td>
 <td>
@@ -7404,10 +10774,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-rows
 </td>
 <td>
 </td>
@@ -7428,9 +10802,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> float-edge
 </td>
 <td>
 </td>
@@ -7441,10 +10812,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+grid-row-sizing
 </td>
 <td>
 </td>
@@ -7456,16 +10832,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> float-offset
 </td>
 <td>
 </td>
@@ -7483,7 +10854,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-row-span
 </td>
 <td>
 </td>
@@ -7498,9 +10872,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flood-color
 </td>
 <td>
 </td>
@@ -7517,26 +10888,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+grid-span
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> flood-opacity
-</td>
 <td>
 </td>
 <td>
@@ -7562,17 +10928,11 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> flow
-</td>
 <td>
+grid-template
 </td>
 <td>
 </td>
@@ -7603,13 +10963,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> flow-from
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+hanging-punctuation
 </td>
 <td>
 </td>
@@ -7635,12 +10995,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> flow-into
 </td>
 <td>
 </td>
@@ -7648,7 +11003,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+height
 </td>
 <td>
 </td>
@@ -7669,25 +11027,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+high-contrast-adjust
 </td>
 <td>
 </td>
@@ -7700,18 +11060,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> font-family
-</td>
 <td>
 </td>
 <td>
@@ -7729,23 +11078,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+highlight
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> font-feature-settings
 </td>
 <td>
 </td>
@@ -7771,18 +11113,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
+<td>
 </td>
 <td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> font-kerning
-</td>
 <td>
+hyphenate-character
 </td>
 <td>
 </td>
@@ -7811,17 +11152,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> font-langauge-override
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+hyphenate-limit-after
 </td>
 <td>
 </td>
@@ -7841,16 +11181,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-size
 </td>
 <td>
 </td>
@@ -7859,8 +11194,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+hyphenate-limit-before
 </td>
 <td>
 </td>
@@ -7875,18 +11214,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> font-size-adjust
-</td>
 <td>
 </td>
 <td>
@@ -7904,23 +11232,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+hyphenate-limit-chars
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
-</td></tr>
-<tr>
-<td> font-size-delta
 </td>
 <td>
 </td>
@@ -7943,19 +11268,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+hyphenate-limit-last
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> font-smoothing
 </td>
 <td>
 </td>
@@ -7985,12 +11309,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+hyphenate-limit-lines
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> font-stretch
+<td>
 </td>
 <td>
 </td>
@@ -8016,18 +11340,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
+-ms
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> font-style
-</td>
 <td>
+hyphenate-limit-zone
 </td>
 <td>
 </td>
@@ -8050,17 +11374,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> font-synthesis
 </td>
 <td>
 </td>
@@ -8069,10 +11382,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+hyphens
 </td>
 <td>
 </td>
@@ -8093,23 +11410,26 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-variant
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+icon
 </td>
 <td>
 </td>
@@ -8120,17 +11440,10 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> font-variant-alternates
+<td>
 </td>
 <td>
 </td>
@@ -8150,7 +11463,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+image-orientation
 </td>
 <td>
 </td>
@@ -8163,9 +11479,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-variant-caps
 </td>
 <td>
 </td>
@@ -8187,7 +11500,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+image-region
 </td>
 <td>
 </td>
@@ -8198,9 +11514,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-variant-east-asian
 </td>
 <td>
 </td>
@@ -8217,6 +11530,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -8224,7 +11538,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+image-rendering
 </td>
 <td>
 </td>
@@ -8233,9 +11550,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-variant-ligatures
 </td>
 <td>
 </td>
@@ -8254,23 +11568,26 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+image-resolution
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> font-variant-numeric
+<td>
 </td>
 <td>
 </td>
@@ -8298,14 +11615,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+ime-mode
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-variant-position
 </td>
 <td>
 </td>
@@ -8328,19 +11645,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+indent-edge-reset
 </td>
 <td>
-</td></tr>
-<tr>
-<td> font-weight
 </td>
 <td>
 </td>
@@ -8366,18 +11685,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> force-broken-image-icon
-</td>
 <td>
+inline-box-align
 </td>
 <td>
 </td>
@@ -8400,23 +11717,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> format-detection
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+interpolation-mode
 </td>
 <td>
 </td>
@@ -8440,22 +11755,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> glyph-orientation-horizontal
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+justify-content
 </td>
 <td>
 </td>
@@ -8472,16 +11786,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> glyph-orientation-vertical
-</td>
 <td>
 </td>
 <td>
@@ -8497,8 +11802,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+justify-items
 </td>
 <td>
 </td>
@@ -8508,14 +11817,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> grid-area
+<td>
 </td>
 <td>
 </td>
@@ -8537,7 +11841,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+justify-self
 </td>
 <td>
 </td>
@@ -8548,9 +11855,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-auto-columns
 </td>
 <td>
 </td>
@@ -8574,7 +11878,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+kerning
 </td>
 <td>
 </td>
@@ -8583,9 +11890,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-auto-flow
 </td>
 <td>
 </td>
@@ -8608,19 +11912,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+layout-flow
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-auto-rows
 </td>
 <td>
 </td>
@@ -8645,17 +11951,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+layout-grid
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-cell
 </td>
 <td>
 </td>
@@ -8682,15 +11989,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+layout-grid-char
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-column
 </td>
 <td>
 </td>
@@ -8719,15 +12027,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
-<td> -ms
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> grid-column-align
-</td>
 <td>
+layout-grid-line
 </td>
 <td>
 </td>
@@ -8755,18 +12062,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> grid-column-position
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+layout-grid-measure
 </td>
 <td>
 </td>
@@ -8793,9 +12099,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-column-sizing
 </td>
 <td>
 </td>
@@ -8803,7 +12106,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+layout-grid-mode
 </td>
 <td>
 </td>
@@ -8828,19 +12134,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-column-span
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+layout-grid-type
 </td>
 <td>
 </td>
@@ -8859,13 +12166,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-columns
 </td>
 <td>
 </td>
@@ -8876,10 +12178,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+left
 </td>
 <td>
 </td>
@@ -8894,13 +12200,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> grid-definition-columns
 </td>
 <td>
 </td>
@@ -8913,14 +12212,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+letter-spacing
 </td>
 <td>
 </td>
@@ -8933,9 +12239,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-definition-rows
 </td>
 <td>
 </td>
@@ -8950,14 +12253,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+lighting-color
 </td>
 <td>
 </td>
@@ -8968,9 +12278,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-flow
 </td>
 <td>
 </td>
@@ -8989,12 +12296,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+line-align
 </td>
 <td>
 </td>
@@ -9003,9 +12316,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-layer
 </td>
 <td>
 </td>
@@ -9030,17 +12340,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+line-box-contain
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> grid-row
 </td>
 <td>
 </td>
@@ -9069,15 +12378,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -ms
-</td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> grid-row-align
-</td>
 <td>
+line-break
 </td>
 <td>
 </td>
@@ -9105,18 +12411,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> grid-rows
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+line-clamp
 </td>
 <td>
 </td>
@@ -9139,14 +12445,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> grid-row-sizing
-</td>
 <td>
 </td>
 <td>
@@ -9156,8 +12455,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+line-grid
 </td>
 <td>
 </td>
@@ -9178,9 +12481,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-row-span
 </td>
 <td>
 </td>
@@ -9193,8 +12493,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+line-height
 </td>
 <td>
 </td>
@@ -9209,13 +12513,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-span
 </td>
 <td>
 </td>
@@ -9226,14 +12525,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+line-increment
 </td>
 <td>
 </td>
@@ -9248,9 +12554,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> grid-template
 </td>
 <td>
 </td>
@@ -9265,12 +12568,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+line-slack
 </td>
 <td>
 </td>
@@ -9283,9 +12590,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> hanging-punctuation
 </td>
 <td>
 </td>
@@ -9307,7 +12611,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+line-snap
 </td>
 <td>
 </td>
@@ -9318,9 +12625,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> height
 </td>
 <td>
 </td>
@@ -9343,19 +12647,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
-</td>
-<td> x
-</td>
-<td> x
+line-stacking
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> high-contrast-adjust
+<td>
 </td>
 <td>
 </td>
@@ -9385,12 +12686,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+</tr>
+<tr>
+<td>
+line-stacking-ruby
 </td>
 <td>
-</td></tr>
-<tr>
-<td> highlight
 </td>
 <td>
 </td>
@@ -9422,12 +12723,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> hyphenate-character
-</td>
 <td>
+line-stacking-shift
 </td>
 <td>
 </td>
@@ -9456,17 +12755,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> hyphenate-limit-after
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+line-stacking-strategy
 </td>
 <td>
 </td>
@@ -9491,11 +12788,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> hyphenate-limit-before
 </td>
 <td>
 </td>
@@ -9505,7 +12797,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+list-style
 </td>
 <td>
 </td>
@@ -9526,25 +12821,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> hyphenate-limit-chars
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+list-style-image
 </td>
 <td>
 </td>
@@ -9560,12 +12857,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> hyphenate-limit-last
 </td>
 <td>
 </td>
@@ -9576,14 +12868,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+list-style-position
 </td>
 <td>
 </td>
@@ -9598,9 +12897,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> hyphenate-limit-lines
 </td>
 <td>
 </td>
@@ -9613,14 +12909,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+list-style-type
 </td>
 <td>
 </td>
@@ -9629,13 +12932,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> hyphenate-limit-zone
 </td>
 <td>
 </td>
@@ -9654,23 +12950,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+locale
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> hyphens
 </td>
 <td>
 </td>
@@ -9695,19 +12993,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
-<td> -ms
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> icon
-</td>
 <td>
+logical-height
 </td>
 <td>
 </td>
@@ -9738,13 +13033,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> image-orientation
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+logical-width
 </td>
 <td>
 </td>
@@ -9773,15 +13069,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> image-region
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+margin
 </td>
 <td>
 </td>
@@ -9801,26 +13098,28 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> image-rendering
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+margin-after
 </td>
 <td>
 </td>
@@ -9835,17 +13134,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> image-resolution
 </td>
 <td>
 </td>
@@ -9862,8 +13152,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+margin-after-collapse
 </td>
 <td>
 </td>
@@ -9878,9 +13172,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> ime-mode
 </td>
 <td>
 </td>
@@ -9899,23 +13190,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+margin-before
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
-</td>
-<td> both
 </td>
 <td>
-</td></tr>
-<tr>
-<td> indent-edge-reset
 </td>
 <td>
 </td>
@@ -9940,17 +13228,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+margin-before-collapse
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> inline-box-align
 </td>
 <td>
 </td>
@@ -9977,15 +13266,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+margin-bottom
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> interpolation-mode
 </td>
 <td>
 </td>
@@ -10008,19 +13298,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -ms
+</tr>
+<tr>
+<td>
+margin-bottom-collapse
 </td>
 <td>
-</td></tr>
-<tr>
-<td> justify-content
 </td>
 <td>
 </td>
@@ -10051,11 +13345,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> justify-items
+<td>
+margin-collapse
 </td>
 <td>
 </td>
@@ -10088,9 +13383,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> justify-self
+<td>
+margin-end
 </td>
 <td>
 </td>
@@ -10117,15 +13415,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> kerning
+<td>
+margin-left
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -10150,17 +13454,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> layout-flow
+<td>
+margin-right
 </td>
 <td>
 </td>
@@ -10187,15 +13495,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> layout-grid
+<td>
+margin-start
 </td>
 <td>
 </td>
@@ -10222,15 +13536,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> layout-grid-char
+<td>
+margin-top
 </td>
 <td>
 </td>
@@ -10257,15 +13575,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> layout-grid-line
+<td>
+margin-top-collapse
 </td>
 <td>
 </td>
@@ -10295,12 +13619,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> layout-grid-measure
+<td>
+marker
 </td>
 <td>
 </td>
@@ -10329,13 +13656,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> layout-grid-mode
+<td>
+marker-attachment
 </td>
 <td>
 </td>
@@ -10365,12 +13697,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> layout-grid-type
+<td>
+marker-end
 </td>
 <td>
 </td>
@@ -10399,13 +13733,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> both
+<td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> left
+<td>
+marker-mid
 </td>
 <td>
 </td>
@@ -10431,18 +13770,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> letter-spacing
+<td>
+x
 </td>
+</tr>
+<tr>
 <td>
+marker-offset
 </td>
 <td>
 </td>
@@ -10466,20 +13808,20 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> lighting-color
+<td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+marker-start
 </td>
 <td>
 </td>
@@ -10503,20 +13845,23 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> line-align
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+marks
 </td>
 <td>
 </td>
@@ -10542,10 +13887,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-box-contain
+<td>
 </td>
 <td>
 </td>
@@ -10553,7 +13895,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+marquee
 </td>
 <td>
 </td>
@@ -10577,10 +13922,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-break
+<td>
 </td>
 <td>
 </td>
@@ -10589,8 +13931,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+marquee-direction
 </td>
 <td>
 </td>
@@ -10610,12 +13956,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-clamp
+<td>
 </td>
 <td>
 </td>
@@ -10626,8 +13969,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+marquee-increment
 </td>
 <td>
 </td>
@@ -10647,10 +13994,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-grid
+<td>
 </td>
 <td>
 </td>
@@ -10663,8 +14007,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+marquee-loop
 </td>
 <td>
 </td>
@@ -10682,10 +14030,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-height
+<td>
 </td>
 <td>
 </td>
@@ -10701,7 +14046,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+marquee-play-count
 </td>
 <td>
 </td>
@@ -10711,16 +14059,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> line-increment
+<td>
 </td>
 <td>
 </td>
@@ -10738,7 +14083,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+marquee-repetition
 </td>
 <td>
 </td>
@@ -10748,14 +14096,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> line-slack
 </td>
 <td>
 </td>
@@ -10774,8 +14119,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+marquee-speed
 </td>
 <td>
 </td>
@@ -10788,9 +14137,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> line-snap
 </td>
 <td>
 </td>
@@ -10811,8 +14157,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+marquee-style
 </td>
 <td>
 </td>
@@ -10822,10 +14172,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> line-stacking
+<td>
 </td>
 <td>
 </td>
@@ -10848,8 +14195,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask
 </td>
 <td>
 </td>
@@ -10858,9 +14209,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> line-stacking-ruby
 </td>
 <td>
 </td>
@@ -10881,21 +14229,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
+</tr>
+<tr>
 <td>
+mask-attachment
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> line-stacking-shift
 </td>
 <td>
 </td>
@@ -10922,15 +14273,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-box-image
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> line-stacking-strategy
 </td>
 <td>
 </td>
@@ -10959,13 +14311,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-box-image-outset
 </td>
 <td>
-</td></tr>
-<tr>
-<td> list-style
 </td>
 <td>
 </td>
@@ -10991,18 +14344,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> list-style-image
-</td>
 <td>
+mask-box-image-repeat
 </td>
 <td>
 </td>
@@ -11025,17 +14377,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> list-style-position
 </td>
 <td>
 </td>
@@ -11046,8 +14387,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-box-image-slice
 </td>
 <td>
 </td>
@@ -11060,18 +14405,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> list-style-type
-</td>
 <td>
 </td>
 <td>
@@ -11091,22 +14425,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-box-image-source
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> locale
-</td>
 <td>
 </td>
 <td>
@@ -11136,13 +14463,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> logical-height
-</td>
 <td>
+mask-box-image-width
 </td>
 <td>
 </td>
@@ -11171,17 +14497,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> logical-width
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-clip
 </td>
 <td>
 </td>
@@ -11206,11 +14531,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin
 </td>
 <td>
 </td>
@@ -11219,8 +14539,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-composite
 </td>
 <td>
 </td>
@@ -11235,17 +14559,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> margin-after
 </td>
 <td>
 </td>
@@ -11264,8 +14577,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-image
 </td>
 <td>
 </td>
@@ -11276,11 +14593,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-after-collapse
 </td>
 <td>
 </td>
@@ -11303,19 +14615,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-origin
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-before
 </td>
 <td>
 </td>
@@ -11342,16 +14653,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-position
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-before-collapse
-</td>
 <td>
 </td>
 <td>
@@ -11381,13 +14691,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> margin-bottom
-</td>
 <td>
+mask-position-x
 </td>
 <td>
 </td>
@@ -11410,17 +14719,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> margin-bottom-collapse
 </td>
 <td>
 </td>
@@ -11431,8 +14729,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-position-y
 </td>
 <td>
 </td>
@@ -11451,11 +14753,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-collapse
 </td>
 <td>
 </td>
@@ -11470,8 +14767,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-repeat
 </td>
 <td>
 </td>
@@ -11487,11 +14788,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-end
-</td>
 <td>
 </td>
 <td>
@@ -11509,24 +14805,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-repeat-x
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-left
-</td>
 <td>
 </td>
 <td>
@@ -11550,19 +14843,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
+-webkit
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> margin-right
-</td>
 <td>
+mask-repeat-y
 </td>
 <td>
 </td>
@@ -11585,18 +14871,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> margin-start
-</td>
 <td>
 </td>
 <td>
@@ -11606,8 +14881,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+mask-size
 </td>
 <td>
 </td>
@@ -11621,16 +14900,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> margin-top
 </td>
 <td>
 </td>
@@ -11647,8 +14919,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+match-nearest-mail-blockquote-color
 </td>
 <td>
 </td>
@@ -11656,17 +14932,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> margin-top-collapse
-</td>
 <td>
 </td>
 <td>
@@ -11692,15 +14957,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+max-height
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> marker
 </td>
 <td>
 </td>
@@ -11725,19 +14989,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> marker-attachment
-</td>
 <td>
+max-lines
 </td>
 <td>
 </td>
@@ -11768,13 +15034,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> marker-end
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+max-logical-height
 </td>
 <td>
 </td>
@@ -11797,15 +15063,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> marker-mid
 </td>
 <td>
 </td>
@@ -11816,8 +15073,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+max-logical-width
 </td>
 <td>
 </td>
@@ -11832,16 +15093,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> marker-offset
-</td>
 <td>
 </td>
 <td>
@@ -11859,8 +15111,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+max-width
 </td>
 <td>
 </td>
@@ -11873,9 +15129,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> marker-start
 </td>
 <td>
 </td>
@@ -11890,27 +15143,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+min-height
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> marks
 </td>
 <td>
 </td>
@@ -11933,19 +15184,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+min-logical-height
 </td>
 <td>
-</td></tr>
-<tr>
-<td> marquee
 </td>
 <td>
 </td>
@@ -11976,13 +15231,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> marquee-direction
-</td>
 <td>
+min-logical-width
 </td>
 <td>
 </td>
@@ -12012,16 +15266,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> marquee-increment
-</td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+min-width
 </td>
 <td>
 </td>
@@ -12046,21 +15299,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> marquee-loop
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+nav-down
 </td>
 <td>
 </td>
@@ -12083,21 +15338,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> marquee-play-count
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+nav-index
 </td>
 <td>
 </td>
@@ -12118,9 +15374,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> marquee-repetition
 </td>
 <td>
 </td>
@@ -12129,12 +15382,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+nav-left
 </td>
 <td>
 </td>
@@ -12151,11 +15408,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> marquee-speed
 </td>
 <td>
 </td>
@@ -12168,12 +15420,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+nav-right
 </td>
 <td>
 </td>
@@ -12186,11 +15442,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> marquee-style
 </td>
 <td>
 </td>
@@ -12207,12 +15458,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+nav-up
 </td>
 <td>
 </td>
@@ -12222,11 +15477,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask
-</td>
 <td>
 </td>
 <td>
@@ -12246,21 +15496,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
-</td>
-<td> x
+nbsp-mode
 </td>
-<td> x
-</td>
-<td> both
-</td></tr>
-<tr>
-<td> mask-attachment
+<td>
 </td>
 <td>
 </td>
@@ -12291,13 +15538,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> mask-box-image
-</td>
 <td>
+object-fit
 </td>
 <td>
 </td>
@@ -12326,17 +15572,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-o
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-box-image-outset
-</td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+object-position
 </td>
 <td>
 </td>
@@ -12361,21 +15606,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-box-image-repeat
 </td>
 <td>
 </td>
 <td>
+-o
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+offset
 </td>
 <td>
 </td>
@@ -12396,11 +15640,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-box-image-slice
 </td>
 <td>
 </td>
@@ -12414,7 +15653,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+offset-after
 </td>
 <td>
 </td>
@@ -12431,11 +15673,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-box-image-source
 </td>
 <td>
 </td>
@@ -12453,7 +15690,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+offset-before
 </td>
 <td>
 </td>
@@ -12467,11 +15707,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-box-image-width
-</td>
 <td>
 </td>
 <td>
@@ -12492,7 +15727,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+offset-end
 </td>
 <td>
 </td>
@@ -12501,11 +15739,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-clip
 </td>
 <td>
 </td>
@@ -12531,16 +15764,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+offset-start
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-composite
 </td>
 <td>
 </td>
@@ -12570,12 +15801,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+opacity
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-image
+<td>
 </td>
 <td>
 </td>
@@ -12600,19 +15831,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> mask-origin
-</td>
 <td>
+order
 </td>
 <td>
 </td>
@@ -12642,16 +15875,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-position
-</td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+orient
 </td>
 <td>
 </td>
@@ -12676,13 +15908,9 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-position-x
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -12690,7 +15918,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+orphans
 </td>
 <td>
 </td>
@@ -12711,25 +15942,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-position-y
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+outline
 </td>
 <td>
 </td>
@@ -12746,11 +15979,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-repeat
 </td>
 <td>
 </td>
@@ -12761,14 +15989,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+outline-color
 </td>
 <td>
 </td>
@@ -12782,11 +16017,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-repeat-x
-</td>
 <td>
 </td>
 <td>
@@ -12800,14 +16030,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+outline-offset
 </td>
 <td>
 </td>
@@ -12816,11 +16053,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-repeat-y
 </td>
 <td>
 </td>
@@ -12839,23 +16071,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+outline-radius
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> mask-size
 </td>
 <td>
 </td>
@@ -12878,6 +16111,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -12885,12 +16119,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+outline-radius-bottomleft
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> match-nearest-mail-blockquote-color
+<td>
 </td>
 <td>
 </td>
@@ -12915,6 +16149,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -12922,12 +16157,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> max-height
-</td>
 <td>
+outline-radius-bottomright
 </td>
 <td>
 </td>
@@ -12951,20 +16184,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> max-lines
-</td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -12972,7 +16195,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+outline-radius-topleft
 </td>
 <td>
 </td>
@@ -12993,15 +16219,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> max-logical-height
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -13009,7 +16233,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+outline-radius-topright
 </td>
 <td>
 </td>
@@ -13027,11 +16254,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> max-logical-width
-</td>
 <td>
 </td>
 <td>
@@ -13041,6 +16263,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -13048,7 +16271,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+outline-style
 </td>
 <td>
 </td>
@@ -13061,11 +16287,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> max-width
 </td>
 <td>
 </td>
@@ -13080,28 +16301,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+outline-width
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> min-height
-</td>
 <td>
 </td>
 <td>
@@ -13125,19 +16342,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> min-logical-height
-</td>
 <td>
+overflow
 </td>
 <td>
 </td>
@@ -13164,19 +16383,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> min-logical-width
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+overflow-scrolling
 </td>
 <td>
 </td>
@@ -13201,11 +16422,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> min-width
 </td>
 <td>
 </td>
@@ -13214,8 +16430,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+overflow-style
 </td>
 <td>
 </td>
@@ -13230,18 +16450,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> nav-down
-</td>
 <td>
 </td>
 <td>
@@ -13257,25 +16466,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+overflow-wrap
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> nav-index
 </td>
 <td>
 </td>
@@ -13299,18 +16507,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+overflow-x
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> nav-left
 </td>
 <td>
 </td>
@@ -13329,23 +16537,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+overflow-y
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> nav-right
 </td>
 <td>
 </td>
@@ -13366,21 +16578,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
 <td>
+x
 </td>
-<td> x
+</tr>
+<tr>
+<td>
+padding
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> nav-up
 </td>
 <td>
 </td>
@@ -13403,19 +16619,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
+</tr>
+<tr>
 <td>
+padding-after
 </td>
 <td>
-</td></tr>
-<tr>
-<td> nbsp-mode
 </td>
 <td>
 </td>
@@ -13446,11 +16666,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> object-fit
+<td>
+padding-before
 </td>
 <td>
 </td>
@@ -13478,14 +16699,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -o
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> object-position
+<td>
+padding-bottom
 </td>
 <td>
 </td>
@@ -13512,15 +16736,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -o
+<td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> offset
+<td>
+padding-end
 </td>
 <td>
 </td>
@@ -13547,15 +16777,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> offset-after
+<td>
+padding-left
 </td>
 <td>
 </td>
@@ -13582,15 +16816,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> offset-before
+<td>
+padding-right
 </td>
 <td>
 </td>
@@ -13617,15 +16857,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> offset-end
+<td>
+padding-start
 </td>
 <td>
 </td>
@@ -13652,15 +16898,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
+-webkit
+</td>
+</tr>
 <tr>
-<td> offset-start
+<td>
+padding-top
 </td>
 <td>
 </td>
@@ -13687,15 +16937,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> opacity
+<td>
+page
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -13721,16 +16979,19 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> order
+<td>
+page-break-after
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -13755,19 +17016,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> orient
-</td>
 <td>
+page-break-before
 </td>
 <td>
 </td>
@@ -13791,22 +17054,24 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
-<tr>
-<td> orphans
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+page-break-inside
 </td>
 <td>
 </td>
@@ -13825,18 +17090,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> outline
-</td>
 <td>
 </td>
 <td>
@@ -13844,14 +17098,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+page-policy
 </td>
 <td>
 </td>
@@ -13860,17 +17121,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> outline-color
 </td>
 <td>
 </td>
@@ -13896,18 +17146,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> outline-offset
-</td>
 <td>
+pause
 </td>
 <td>
 </td>
@@ -13931,26 +17173,21 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> outline-radius
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+pause-after
 </td>
 <td>
 </td>
@@ -13965,17 +17202,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> outline-radius-bottomleft
 </td>
 <td>
 </td>
@@ -13984,12 +17216,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+pause-before
 </td>
 <td>
 </td>
@@ -14001,16 +17237,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> outline-radius-bottomright
 </td>
 <td>
 </td>
@@ -14023,29 +17254,28 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+perspective
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> outline-radius-topleft
 </td>
 <td>
 </td>
@@ -14060,27 +17290,28 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+perspective-origin
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> outline-radius-topright
 </td>
 <td>
 </td>
@@ -14099,23 +17330,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
-<td> -moz
-</td>
+</tr>
+<tr>
 <td>
+perspective-origin-x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> outline-style
 </td>
 <td>
 </td>
@@ -14140,19 +17372,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
+<td>
+both
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> outline-width
-</td>
 <td>
+perspective-origin-y
 </td>
 <td>
 </td>
@@ -14175,17 +17405,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> overflow
 </td>
 <td>
 </td>
@@ -14194,10 +17413,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+phonemes
 </td>
 <td>
 </td>
@@ -14210,18 +17434,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> overflow-scrolling
-</td>
 <td>
 </td>
 <td>
@@ -14237,12 +17450,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+pitch
 </td>
 <td>
 </td>
@@ -14251,11 +17468,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> overflow-style
 </td>
 <td>
 </td>
@@ -14281,16 +17493,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+pitch-range
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> overflow-wrap
 </td>
 <td>
 </td>
@@ -14320,12 +17530,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+play-during
 </td>
 <td>
-</td></tr>
-<tr>
-<td> overflow-x
 </td>
 <td>
 </td>
@@ -14351,18 +17561,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> overflow-y
-</td>
 <td>
+pointer-events
 </td>
 <td>
 </td>
@@ -14385,29 +17593,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> both
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> padding
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+position
 </td>
 <td>
 </td>
@@ -14421,17 +17625,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> padding-after
-</td>
 <td>
 </td>
 <td>
@@ -14445,14 +17638,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+presentation-level
 </td>
 <td>
 </td>
@@ -14461,11 +17661,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> padding-before
 </td>
 <td>
 </td>
@@ -14491,16 +17686,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+print-color-adjust
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> padding-bottom
 </td>
 <td>
 </td>
@@ -14525,19 +17718,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> padding-end
-</td>
 <td>
+progress-appearance
 </td>
 <td>
 </td>
@@ -14560,25 +17750,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> padding-left
-</td>
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+quotes
 </td>
 <td>
 </td>
@@ -14595,17 +17782,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> padding-right
 </td>
 <td>
 </td>
@@ -14616,32 +17792,28 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+region-break-after
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> padding-start
-</td>
 <td>
 </td>
 <td>
@@ -14666,16 +17838,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+region-break-before
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> padding-top
+<td>
 </td>
 <td>
 </td>
@@ -14701,18 +17872,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> page
-</td>
 <td>
+region-break-inside
 </td>
 <td>
 </td>
@@ -14741,17 +17911,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> page-break-after
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+region-overflow
 </td>
 <td>
 </td>
@@ -14770,18 +17939,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> page-break-before
-</td>
 <td>
 </td>
 <td>
@@ -14795,8 +17953,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+resize
 </td>
 <td>
 </td>
@@ -14805,18 +17967,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> page-break-inside
-</td>
 <td>
 </td>
 <td>
@@ -14834,25 +17985,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> page-policy
-</td>
 <td>
+rest
 </td>
 <td>
 </td>
@@ -14883,13 +18028,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pause
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+rest-after
 </td>
 <td>
 </td>
@@ -14913,14 +18058,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pause-after
 </td>
 <td>
 </td>
@@ -14928,7 +18068,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+rest-before
 </td>
 <td>
 </td>
@@ -14947,15 +18090,10 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pause-before
 </td>
 <td>
 </td>
@@ -14967,7 +18105,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+richness
 </td>
 <td>
 </td>
@@ -14983,14 +18124,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> perspective
 </td>
 <td>
 </td>
@@ -15006,7 +18142,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+right
 </td>
 <td>
 </td>
@@ -15015,18 +18154,9 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> perspective-origin
-</td>
 <td>
 </td>
 <td>
@@ -15042,25 +18172,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+rotation
 </td>
-<td> -moz
-</td>
 <td>
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> perspective-origin-x
 </td>
 <td>
 </td>
@@ -15090,14 +18218,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> perspective-origin-y
-</td>
 <td>
+rotation-point
 </td>
 <td>
 </td>
@@ -15124,13 +18250,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> phonemes
 </td>
 <td>
 </td>
@@ -15138,7 +18257,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+rtl-ordering
 </td>
 <td>
 </td>
@@ -15158,14 +18280,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -xv
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pitch
 </td>
 <td>
 </td>
@@ -15176,8 +18293,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+ruby-align
 </td>
 <td>
 </td>
@@ -15198,9 +18319,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pitch-range
 </td>
 <td>
 </td>
@@ -15211,10 +18329,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+ruby-overhang
 </td>
 <td>
 </td>
@@ -15233,9 +18355,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> play-during
 </td>
 <td>
 </td>
@@ -15248,10 +18367,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+ruby-position
 </td>
 <td>
 </td>
@@ -15268,9 +18391,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> pointer-events
 </td>
 <td>
 </td>
@@ -15285,27 +18405,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+ruby-span
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> position
 </td>
 <td>
 </td>
@@ -15331,18 +18444,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> presentation-level
-</td>
 <td>
+scrollbar-3dlight-color
 </td>
 <td>
 </td>
@@ -15373,13 +18480,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> print-color-adjust
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-arrow-color
 </td>
 <td>
 </td>
@@ -15406,19 +18514,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> progress-appearance
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-base-color
 </td>
 <td>
 </td>
@@ -15439,13 +18546,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> quotes
 </td>
 <td>
 </td>
@@ -15454,10 +18556,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-darkshadow-color
 </td>
 <td>
 </td>
@@ -15470,17 +18576,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> region-break-after
 </td>
 <td>
 </td>
@@ -15499,10 +18594,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-face-color
 </td>
 <td>
 </td>
@@ -15511,11 +18610,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> region-break-before
 </td>
 <td>
 </td>
@@ -15538,19 +18632,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-highlight-color
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> region-break-inside
 </td>
 <td>
 </td>
@@ -15577,15 +18670,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+scrollbar-shadow-color
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> region-overflow
+<td>
 </td>
 <td>
 </td>
@@ -15614,13 +18708,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> resize
+<td>
+scrollbar-track-color
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -15646,16 +18743,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> rest
+<td>
+scroll-boundary
 </td>
 <td>
 </td>
@@ -15686,11 +18784,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> rest-after
+<td>
+scroll-boundary-bottom
 </td>
 <td>
 </td>
@@ -15721,11 +18822,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> rest-before
+<td>
+scroll-boundary-left
 </td>
 <td>
 </td>
@@ -15756,11 +18860,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> richness
+<td>
+scroll-boundary-right
 </td>
 <td>
 </td>
@@ -15791,11 +18898,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> right
+<td>
+scroll-boundary-top
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -15821,16 +18933,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-ms
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> rotation
+<td>
+scroll-chaining
 </td>
 <td>
 </td>
@@ -15861,11 +18974,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> rotation-point
+<td>
+scroll-limit
 </td>
 <td>
 </td>
@@ -15896,11 +19012,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> rtl-ordering
+<td>
+scroll-limit-x-max
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -15929,13 +19050,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> ruby-align
+<td>
+scroll-limit-x-min
 </td>
 <td>
 </td>
@@ -15965,12 +19087,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> ruby-overhang
+<td>
+scroll-limit-y-max
 </td>
 <td>
 </td>
@@ -16000,12 +19125,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> ruby-position
+<td>
+scroll-limit-y-min
 </td>
 <td>
 </td>
@@ -16035,12 +19163,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> ruby-span
+<td>
+scroll-rails
 </td>
 <td>
 </td>
@@ -16071,11 +19202,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-3dlight-color
+<td>
+scroll-snap-points-x
 </td>
 <td>
 </td>
@@ -16105,12 +19239,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-arrow-color
+<td>
+scroll-snap-points-y
 </td>
 <td>
 </td>
@@ -16140,12 +19277,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-base-color
+<td>
+scroll-snap-type
 </td>
 <td>
 </td>
@@ -16175,12 +19315,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-darkshadow-color
+<td>
+scroll-snap-x
 </td>
 <td>
 </td>
@@ -16210,12 +19353,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-face-color
+<td>
+scroll-snap-y
 </td>
 <td>
 </td>
@@ -16245,12 +19391,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-highlight-color
+<td>
+scroll-translation
 </td>
 <td>
 </td>
@@ -16280,12 +19429,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-ms
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-shadow-color
+<td>
+shape-image-threshold
 </td>
 <td>
 </td>
@@ -16315,12 +19467,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scrollbar-track-color
+<td>
+shape-inside
 </td>
 <td>
 </td>
@@ -16350,12 +19504,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scroll-boundary
+<td>
+shape-outside
 </td>
 <td>
 </td>
@@ -16385,12 +19541,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scroll-boundary-bottom
+<td>
+shape-padding
 </td>
 <td>
 </td>
@@ -16420,12 +19578,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scroll-boundary-left
+<td>
+shape-rendering
 </td>
 <td>
 </td>
@@ -16454,13 +19614,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> scroll-boundary-right
+<td>
+size
 </td>
 <td>
 </td>
@@ -16489,13 +19653,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+x
+</td>
+</tr>
 <tr>
-<td> scroll-boundary-top
+<td>
+solid-color
 </td>
 <td>
 </td>
@@ -16524,13 +19692,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scroll-chaining
+<td>
+solid-opacity
 </td>
 <td>
 </td>
@@ -16559,13 +19730,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
+</td>
+</tr>
 <tr>
-<td> scroll-limit
+<td>
+speak
 </td>
 <td>
 </td>
@@ -16594,15 +19768,17 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-limit-x-max
+x
 </td>
+</tr>
+<tr>
 <td>
+speak-as
 </td>
 <td>
 </td>
@@ -16630,16 +19806,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-limit-x-min
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+speak-header
 </td>
 <td>
 </td>
@@ -16665,18 +19841,18 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-limit-y-max
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+speak-numeral
 </td>
 <td>
 </td>
@@ -16700,12 +19876,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-limit-y-min
 </td>
 <td>
 </td>
@@ -16713,7 +19886,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+speak-punctuation
 </td>
 <td>
 </td>
@@ -16735,12 +19911,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-rails
 </td>
 <td>
 </td>
@@ -16750,7 +19923,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+speech-rate
 </td>
 <td>
 </td>
@@ -16770,12 +19946,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-snap-points-x
 </td>
 <td>
 </td>
@@ -16787,7 +19960,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+src
 </td>
 <td>
 </td>
@@ -16805,26 +19981,30 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-snap-points-y
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stack-sizing
 </td>
 <td>
 </td>
@@ -16840,12 +20020,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-snap-type
 </td>
 <td>
 </td>
@@ -16854,6 +20031,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -16861,7 +20039,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+stop-color
 </td>
 <td>
 </td>
@@ -16875,12 +20056,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-snap-x
 </td>
 <td>
 </td>
@@ -16893,12 +20071,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stop-opacity
 </td>
 <td>
 </td>
@@ -16910,12 +20094,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-snap-y
 </td>
 <td>
 </td>
@@ -16930,12 +20111,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stress
 </td>
 <td>
 </td>
@@ -16945,12 +20132,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> scroll-translation
 </td>
 <td>
 </td>
@@ -16972,7 +20156,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+string-set
 </td>
 <td>
 </td>
@@ -16980,12 +20167,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> shape-image-threshold
 </td>
 <td>
 </td>
@@ -17009,7 +20193,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+stroke
 </td>
 <td>
 </td>
@@ -17018,9 +20205,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> shape-inside
 </td>
 <td>
 </td>
@@ -17041,21 +20225,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-dasharray
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> shape-outside
 </td>
 <td>
 </td>
@@ -17078,19 +20265,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-dashoffset
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> shape-padding
 </td>
 <td>
 </td>
@@ -17115,17 +20305,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-linecap
 </td>
 <td>
-</td></tr>
-<tr>
-<td> shape-rendering
 </td>
 <td>
 </td>
@@ -17152,17 +20345,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
 <td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> size
-</td>
 <td>
+stroke-linejoin
 </td>
 <td>
 </td>
@@ -17187,23 +20381,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> solid-color
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-miterlimit
 </td>
 <td>
 </td>
@@ -17222,27 +20415,28 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> solid-opacity
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-opacity
 </td>
 <td>
 </td>
@@ -17258,14 +20452,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> speak
 </td>
 <td>
 </td>
@@ -17276,12 +20465,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+stroke-width
 </td>
 <td>
 </td>
@@ -17292,16 +20487,9 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> speak-as
-</td>
 <td>
 </td>
 <td>
@@ -17317,12 +20505,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+svg-shadow
 </td>
 <td>
 </td>
@@ -17333,9 +20527,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> speak-header
 </td>
 <td>
 </td>
@@ -17358,8 +20549,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+table-baseline
 </td>
 <td>
 </td>
@@ -17368,9 +20563,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> speak-numeral
 </td>
 <td>
 </td>
@@ -17391,21 +20583,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-o
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+table-layout
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> speak-punctuation
 </td>
 <td>
 </td>
@@ -17426,21 +20619,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+tab-size
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> speech-rate
 </td>
 <td>
 </td>
@@ -17465,17 +20662,19 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-o
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+tap-highlight-color
 </td>
 <td>
-</td></tr>
-<tr>
-<td> src
 </td>
 <td>
 </td>
@@ -17501,18 +20700,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> stack-sizing
-</td>
 <td>
+text-align
 </td>
 <td>
 </td>
@@ -17536,22 +20734,24 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
-<tr>
-<td> stop-color
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-align-last
 </td>
 <td>
 </td>
@@ -17572,16 +20772,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stop-opacity
-</td>
 <td>
 </td>
 <td>
@@ -17591,10 +20782,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-anchor
 </td>
 <td>
 </td>
@@ -17608,15 +20803,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stress
-</td>
 <td>
 </td>
 <td>
@@ -17632,12 +20818,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-autospace
 </td>
 <td>
 </td>
@@ -17648,9 +20840,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> string-set
 </td>
 <td>
 </td>
@@ -17671,10 +20860,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-blink
 </td>
 <td>
 </td>
@@ -17683,9 +20876,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> stroke
 </td>
 <td>
 </td>
@@ -17704,6 +20894,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -17711,16 +20902,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
-</td>
-<td> x
+text-combine
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stroke-dasharray
+<td>
 </td>
 <td>
 </td>
@@ -17748,16 +20935,15 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> stroke-dashoffset
-</td>
 <td>
+text-combine-horizontal
 </td>
 <td>
 </td>
@@ -17783,15 +20969,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stroke-linecap
-</td>
 <td>
 </td>
 <td>
@@ -17800,7 +20977,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-combine-mode
 </td>
 <td>
 </td>
@@ -17817,15 +20997,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stroke-linejoin
 </td>
 <td>
 </td>
@@ -17843,7 +21014,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-decoration
 </td>
 <td>
 </td>
@@ -17852,16 +21026,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> stroke-miterlimit
-</td>
 <td>
 </td>
 <td>
@@ -17879,23 +21044,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
-</td>
-<td> x
+text-decoration-color
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> stroke-opacity
+<td>
 </td>
 <td>
 </td>
@@ -17923,16 +21088,14 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> stroke-width
-</td>
 <td>
+text-decoration-in-effect
 </td>
 <td>
 </td>
@@ -17957,16 +21120,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> svg-shadow
-</td>
 <td>
 </td>
 <td>
@@ -17974,8 +21128,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-decoration-line
 </td>
 <td>
 </td>
@@ -17996,11 +21154,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> table-baseline
 </td>
 <td>
 </td>
@@ -18014,7 +21167,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-decoration-skip
 </td>
 <td>
 </td>
@@ -18028,14 +21184,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -o
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> table-layout
 </td>
 <td>
 </td>
@@ -18053,25 +21204,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-decoration-style
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> tab-size
-</td>
 <td>
 </td>
 <td>
@@ -18098,14 +21241,12 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -o
-</td>
+</tr>
+<tr>
 <td>
+text-emphasis
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> tap-highlight-color
+<td>
 </td>
 <td>
 </td>
@@ -18136,13 +21277,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> text-align
-</td>
 <td>
+text-emphasis-color
 </td>
 <td>
 </td>
@@ -18165,17 +21305,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-align-last
 </td>
 <td>
 </td>
@@ -18186,8 +21315,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-emphasis-position
 </td>
 <td>
 </td>
@@ -18204,13 +21337,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> both
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-anchor
 </td>
 <td>
 </td>
@@ -18225,8 +21353,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-emphasis-skip
 </td>
 <td>
 </td>
@@ -18237,15 +21369,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-autospace
 </td>
 <td>
 </td>
@@ -18269,18 +21392,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-emphasis-style
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> both
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-blink
 </td>
 <td>
 </td>
@@ -18305,17 +21426,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-fill-color
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-combine
 </td>
 <td>
 </td>
@@ -18346,13 +21466,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> text-combine-horizontal
-</td>
 <td>
+text-height
 </td>
 <td>
 </td>
@@ -18383,13 +21502,13 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-combine-mode
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-indent
 </td>
 <td>
 </td>
@@ -18416,17 +21535,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-decoration
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-justify
 </td>
 <td>
 </td>
@@ -18445,17 +21568,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-decoration-color
 </td>
 <td>
 </td>
@@ -18468,10 +21580,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-justify-trim
 </td>
 <td>
 </td>
@@ -18488,9 +21604,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-decoration-in-effect
 </td>
 <td>
 </td>
@@ -18505,10 +21618,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-kashida
 </td>
 <td>
 </td>
@@ -18521,11 +21638,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-decoration-line
 </td>
 <td>
 </td>
@@ -18544,10 +21656,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-kashida-space
 </td>
 <td>
 </td>
@@ -18558,9 +21674,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-decoration-skip
 </td>
 <td>
 </td>
@@ -18581,10 +21694,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-line-through
 </td>
 <td>
 </td>
@@ -18593,9 +21710,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-decoration-style
 </td>
 <td>
 </td>
@@ -18620,17 +21734,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-line-through-color
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-emphasis
 </td>
 <td>
 </td>
@@ -18657,16 +21772,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-line-through-mode
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-emphasis-color
-</td>
 <td>
 </td>
 <td>
@@ -18696,13 +21810,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> text-emphasis-position
-</td>
 <td>
+text-line-through-style
 </td>
 <td>
 </td>
@@ -18731,17 +21844,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-emphasis-skip
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-line-through-width
 </td>
 <td>
 </td>
@@ -18768,17 +21880,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-emphasis-style
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-orientation
 </td>
 <td>
 </td>
@@ -18802,11 +21915,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-fill-color
-</td>
 <td>
 </td>
 <td>
@@ -18816,8 +21924,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-overflow
 </td>
 <td>
 </td>
@@ -18836,11 +21948,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-height
 </td>
 <td>
 </td>
@@ -18849,14 +21956,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-overflow-ellipsis
 </td>
 <td>
 </td>
@@ -18873,9 +21987,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-indent
 </td>
 <td>
 </td>
@@ -18888,12 +21999,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-overflow-mode
 </td>
 <td>
 </td>
@@ -18901,16 +22016,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-justify
+<td>
 </td>
 <td>
 </td>
@@ -18929,23 +22037,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-overline
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> both
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-justify-trim
 </td>
 <td>
 </td>
@@ -18970,17 +22079,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-overline-color
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-kashida
 </td>
 <td>
 </td>
@@ -19007,15 +22117,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-overline-mode
 </td>
-<td> x
+<td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-kashida-space
 </td>
 <td>
 </td>
@@ -19044,13 +22155,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> both
+</tr>
+<tr>
+<td>
+text-overline-style
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-line-through
 </td>
 <td>
 </td>
@@ -19081,13 +22193,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> text-line-through-color
-</td>
 <td>
+text-overline-width
 </td>
 <td>
 </td>
@@ -19116,17 +22227,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-line-through-mode
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-rendering
 </td>
 <td>
 </td>
@@ -19151,21 +22261,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-line-through-style
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-security
 </td>
 <td>
 </td>
@@ -19187,11 +22297,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-line-through-width
-</td>
 <td>
 </td>
 <td>
@@ -19203,8 +22308,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-shadow
 </td>
 <td>
 </td>
@@ -19222,10 +22331,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-orientation
+<td>
 </td>
 <td>
 </td>
@@ -19234,14 +22340,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-size-adjust
 </td>
 <td>
 </td>
@@ -19257,10 +22370,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-overflow
+<td>
 </td>
 <td>
 </td>
@@ -19275,10 +22385,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-space-collapse
 </td>
 <td>
 </td>
@@ -19286,16 +22401,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> both
+<td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-overflow-ellipsis
+<td>
 </td>
 <td>
 </td>
@@ -19315,7 +22427,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-spacing
 </td>
 <td>
 </td>
@@ -19323,14 +22438,11 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-overflow-mode
 </td>
 <td>
 </td>
@@ -19352,20 +22464,20 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+text-stroke
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-overline
 </td>
 <td>
 </td>
@@ -19388,8 +22500,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-stroke-color
 </td>
 <td>
 </td>
@@ -19397,11 +22513,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-overline-color
-</td>
 <td>
 </td>
 <td>
@@ -19427,15 +22538,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+text-stroke-width
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-overline-mode
 </td>
 <td>
 </td>
@@ -19466,13 +22576,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> text-overline-style
-</td>
 <td>
+text-transform
 </td>
 <td>
 </td>
@@ -19499,19 +22608,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-overline-width
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-underline
 </td>
 <td>
 </td>
@@ -19536,11 +22647,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-rendering
 </td>
 <td>
 </td>
@@ -19549,8 +22655,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-underline-color
 </td>
 <td>
 </td>
@@ -19568,14 +22678,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-security
 </td>
 <td>
 </td>
@@ -19590,8 +22693,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-underline-mode
 </td>
 <td>
 </td>
@@ -19607,11 +22714,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-shadow
-</td>
 <td>
 </td>
 <td>
@@ -19629,23 +22731,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-underline-position
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-size-adjust
 </td>
 <td>
 </td>
@@ -19672,17 +22767,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
 </td>
-<td> -ms
-</td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> text-space-collapse
-</td>
 <td>
+text-underline-style
 </td>
 <td>
 </td>
@@ -19713,13 +22805,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-spacing
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-underline-width
 </td>
 <td>
 </td>
@@ -19748,15 +22841,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-stroke
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+text-wrap
 </td>
 <td>
 </td>
@@ -19781,11 +22875,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-stroke-color
 </td>
 <td>
 </td>
@@ -19795,7 +22884,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+top
 </td>
 <td>
 </td>
@@ -19816,25 +22908,27 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-stroke-width
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+touch-action
 </td>
 <td>
 </td>
@@ -19852,11 +22946,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> text-transform
-</td>
 <td>
 </td>
 <td>
@@ -19870,28 +22959,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+touch-callout
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-underline
-</td>
 <td>
 </td>
 <td>
@@ -19917,15 +22999,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+touch-select
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-underline-color
 </td>
 <td>
 </td>
@@ -19954,15 +23035,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> text-underline-mode
-</td>
 <td>
+transform
 </td>
 <td>
 </td>
@@ -19989,19 +23069,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
+-o
 </td>
-<td> x
-</td></tr>
-<tr>
-<td> text-underline-position
-</td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transform-origin
 </td>
 <td>
 </td>
@@ -20024,23 +23106,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> both
 </td>
 <td>
-</td></tr>
-<tr>
-<td> text-underline-style
 </td>
 <td>
+-moz
 </td>
 <td>
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transform-origin-x
 </td>
 <td>
 </td>
@@ -20061,11 +23145,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-underline-width
 </td>
 <td>
 </td>
@@ -20076,10 +23155,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transform-origin-y
 </td>
 <td>
 </td>
@@ -20096,11 +23180,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> text-wrap
 </td>
 <td>
 </td>
@@ -20115,10 +23194,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transform-origin-z
 </td>
 <td>
 </td>
@@ -20133,9 +23217,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> top
 </td>
 <td>
 </td>
@@ -20152,26 +23233,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transform-style
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> touch-action
-</td>
 <td>
 </td>
 <td>
@@ -20193,19 +23268,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
-<td> -ms
+</tr>
+<tr>
+<td>
+transition
 </td>
 <td>
-</td></tr>
-<tr>
-<td> touch-callout
 </td>
 <td>
 </td>
@@ -20230,19 +23308,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> touch-select
-</td>
 <td>
+transition-delay
 </td>
 <td>
 </td>
@@ -20269,19 +23349,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
+-moz
 </td>
 <td>
-</td></tr>
-<tr>
-<td> transform
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transition-duration
 </td>
 <td>
 </td>
@@ -20300,18 +23382,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
-</td>
-<td> -o
 </td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transform-origin
-</td>
 <td>
 </td>
 <td>
@@ -20319,14 +23390,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transition-property
 </td>
 <td>
 </td>
@@ -20336,17 +23414,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -moz
-</td>
-<td> -o
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transform-origin-x
-</td>
 <td>
 </td>
 <td>
@@ -20364,23 +23431,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+transition-repeat-count
 </td>
 <td>
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transform-origin-y
 </td>
 <td>
 </td>
@@ -20410,14 +23477,13 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> both
+<td>
+-webkit
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> transform-origin-z
-</td>
 <td>
+transition-timing-function
 </td>
 <td>
 </td>
@@ -20444,21 +23510,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> both
+-moz
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transform-style
-</td>
 <td>
+-o
 </td>
 <td>
+both
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+unicode-bidi
 </td>
 <td>
 </td>
@@ -20475,18 +23541,9 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transition
-</td>
 <td>
 </td>
 <td>
@@ -20494,14 +23551,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+unicode-range
 </td>
 <td>
 </td>
@@ -20510,17 +23574,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
-</td>
-<td> -o
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transition-delay
 </td>
 <td>
 </td>
@@ -20543,21 +23596,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
-</td>
-<td> -moz
-</td>
-<td> -o
-</td>
-<td> both
+x
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> transition-duration
-</td>
 <td>
+user-drag
 </td>
 <td>
 </td>
@@ -20580,18 +23627,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
-</td>
-<td> -o
-</td>
-<td> both
 </td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transition-property
-</td>
 <td>
 </td>
 <td>
@@ -20601,8 +23637,12 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+user-focus
 </td>
 <td>
 </td>
@@ -20615,17 +23655,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
-</td>
-<td> -o
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transition-repeat-count
 </td>
 <td>
 </td>
@@ -20640,6 +23669,7 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -20647,7 +23677,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+user-input
 </td>
 <td>
 </td>
@@ -20656,11 +23689,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> transition-timing-function
 </td>
 <td>
 </td>
@@ -20679,25 +23707,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
-<td> -o
-</td>
-<td> both
-</td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> unicode-bidi
-</td>
 <td>
+user-modify
 </td>
 <td>
 </td>
@@ -20720,29 +23741,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> unicode-range
-</td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+user-select
 </td>
 <td>
 </td>
@@ -20759,13 +23774,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> user-drag
 </td>
 <td>
 </td>
@@ -20776,14 +23784,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
+-webkit
 </td>
+</tr>
+<tr>
 <td>
+vector-effect
 </td>
 <td>
 </td>
@@ -20796,11 +23810,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> user-focus
 </td>
 <td>
 </td>
@@ -20817,25 +23826,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+vertical-align
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> user-input
 </td>
 <td>
 </td>
@@ -20854,23 +23863,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -moz
-</td>
+</tr>
+<tr>
 <td>
+viewport-fill
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> user-modify
 </td>
 <td>
 </td>
@@ -20895,19 +23906,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
+x
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -webkit
-</td></tr>
+</tr>
 <tr>
-<td> user-select
-</td>
 <td>
+viewport-fill-opacity
 </td>
 <td>
 </td>
@@ -20930,27 +23938,22 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -moz
 </td>
 <td>
 </td>
-<td> -ms
-</td>
-<td> -webkit
-</td></tr>
-<tr>
-<td> vector-effect
-</td>
 <td>
 </td>
 <td>
+x
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+visibility
 </td>
 <td>
 </td>
@@ -20968,14 +23971,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
 <td>
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> vertical-align
 </td>
 <td>
 </td>
@@ -20984,14 +23980,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+voice-balance
 </td>
 <td>
 </td>
@@ -21000,17 +24003,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> viewport-fill
 </td>
 <td>
 </td>
@@ -21031,21 +24023,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-duration
 </td>
-<td> x
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> viewport-fill-opacity
 </td>
 <td>
 </td>
@@ -21070,17 +24061,18 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
-<td> x
+<td>
 </td>
+</tr>
+<tr>
 <td>
+voice-family
 </td>
 <td>
-</td></tr>
-<tr>
-<td> visibility
 </td>
 <td>
 </td>
@@ -21106,18 +24098,17 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
 </td>
-<td> x
+<td>
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> voice-balance
-</td>
 <td>
+voice-pitch
 </td>
 <td>
 </td>
@@ -21142,21 +24133,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -xv
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-duration
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-pitch-range
 </td>
 <td>
 </td>
@@ -21178,24 +24168,23 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -xv
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-family
 </td>
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-range
 </td>
 <td>
 </td>
@@ -21212,15 +24201,10 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-pitch
 </td>
 <td>
 </td>
@@ -21234,7 +24218,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-rate
 </td>
 <td>
 </td>
@@ -21248,14 +24235,9 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -xv
-</td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-pitch-range
 </td>
 <td>
 </td>
@@ -21268,12 +24250,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-stress
 </td>
 <td>
 </td>
@@ -21282,15 +24268,10 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -xv
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-range
 </td>
 <td>
 </td>
@@ -21307,12 +24288,16 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+voice-volumn
 </td>
 <td>
 </td>
@@ -21323,9 +24308,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-rate
 </td>
 <td>
 </td>
@@ -21344,23 +24326,24 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-xv
 </td>
 <td>
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+volume
 </td>
 <td>
 </td>
-<td> -xv
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-stress
 </td>
 <td>
 </td>
@@ -21386,16 +24369,16 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+white-space
 </td>
-<td> -xv
+<td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> voice-volumn
 </td>
 <td>
 </td>
@@ -21416,21 +24399,25 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
-<td> -xv
+</tr>
+<tr>
+<td>
+widows
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> volume
 </td>
 <td>
 </td>
@@ -21453,19 +24440,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+width
 </td>
 <td>
-</td></tr>
-<tr>
-<td> white-space
 </td>
 <td>
 </td>
@@ -21490,19 +24481,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> widows
-</td>
 <td>
+window-shadow
 </td>
 <td>
 </td>
@@ -21525,21 +24518,11 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> x
 </td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> width
-</td>
 <td>
 </td>
 <td>
+-moz
 </td>
 <td>
 </td>
@@ -21547,7 +24530,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+word-break
 </td>
 <td>
 </td>
@@ -21561,17 +24547,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> window-shadow
-</td>
 <td>
 </td>
 <td>
@@ -21589,23 +24564,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+word-spacing
 </td>
 <td>
 </td>
-<td> -moz
-</td>
 <td>
 </td>
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> word-break
 </td>
 <td>
 </td>
@@ -21624,23 +24599,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
 <td>
+x
 </td>
+</tr>
+<tr>
 <td>
+word-wrap
 </td>
 <td>
-</td>
-<td> both
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> word-spacing
 </td>
 <td>
 </td>
@@ -21665,19 +24640,21 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+both
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> word-wrap
-</td>
 <td>
+wrap
 </td>
 <td>
 </td>
@@ -21701,17 +24678,6 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> x
-</td>
-<td> x
-</td>
-<td> both
-</td>
-<td> x
-</td></tr>
-<tr>
-<td> wrap
-</td>
 <td>
 </td>
 <td>
@@ -21722,7 +24688,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+wrap-flow
 </td>
 <td>
 </td>
@@ -21743,9 +24712,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> wrap-flow
 </td>
 <td>
 </td>
@@ -21756,10 +24722,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+wrap-margin
 </td>
 <td>
 </td>
@@ -21775,12 +24745,7 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> wrap-margin
 </td>
 <td>
 </td>
@@ -21795,10 +24760,14 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+wrap-padding
 </td>
 <td>
 </td>
@@ -21809,13 +24778,8 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td>
-<td> -ms
 </td>
 <td>
-</td></tr>
-<tr>
-<td> wrap-padding
 </td>
 <td>
 </td>
@@ -21837,7 +24801,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+wrap-through
 </td>
 <td>
 </td>
@@ -21848,9 +24815,6 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
-</td></tr>
-<tr>
-<td> wrap-through
 </td>
 <td>
 </td>
@@ -21871,21 +24835,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+-ms
 </td>
 <td>
 </td>
+</tr>
+<tr>
 <td>
+writing-mode
 </td>
 <td>
 </td>
 <td>
 </td>
-<td> -ms
-</td>
 <td>
-</td></tr>
-<tr>
-<td> writing-mode
 </td>
 <td>
 </td>
@@ -21908,19 +24871,20 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
 <td>
+both
 </td>
 <td>
-</td>
-<td> x
-</td>
-<td> both
+both
 </td>
-<td> both
-</td></tr>
+</tr>
 <tr>
-<td> z-index
+<td>
+z-index
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -21945,17 +24909,23 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> zoom
+<td>
+zoom
+</td>
+<td>
 </td>
 <td>
 </td>
@@ -21984,13 +24954,15 @@ title: WPD:Content/CSS/property data
 <td>
 </td>
 <td>
+both
 </td>
-<td> both
+<td>
+x
 </td>
-<td> x
-</td></tr>
+</tr>
 <tr>
-<td> zoom-animation
+<td>
+zoom-animation
 </td>
 <td>
 </td>
@@ -22020,10 +24992,10 @@ title: WPD:Content/CSS/property data
 </td>
 <td>
 </td>
-<td> -ms
+<td>
+-ms
 </td>
 <td>
-</td></tr></table></time>
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:9291-0!*!*!*!*!*!*!esi=1 and timestamp 20150731184307 and revision id 34496
- -->
+</td>
+</tr>
+</table>

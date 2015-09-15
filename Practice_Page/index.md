@@ -1,172 +1,202 @@
 ---
-title: WPD:Practice Page
+title: Practice Page
+code_samples:
+  - 'http://gist.github.com/286d4dbdf96f6fe42b0f'
+notes:
+  - "选择器 Bonne journée monsieur\_:)"
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`Test`'
+  'Applies to': Everything
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specifieda'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`practice`'
+readiness: 'In Progress'
+standardization_status: 'De Facto Standard'
+summary: "ページ練習ああThis is aおおおおお page where you can practice using this weおおおおbsite, and MediaWiki おいお、わおいｗ&quot;wiki&quot; foああああrmaｐｐｐtting. えｋぽうぇo ahead and click the Edit button to practice editing without consequences.\n"
+tags:
+  - Basic
+  - Pages
+  - CSS
+  - Properties
+  - Developer
+  - Tools
+  - JS
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'WPD:Practice Page/af'
+    - 'WPD:Practice Page/ar'
+    - 'WPD:Practice Page/ast'
+    - 'WPD:Practice Page/az'
+    - 'WPD:Practice Page/bcc'
+    - 'WPD:Practice Page/bg'
+    - 'WPD:Practice Page/br'
+    - 'WPD:Practice Page/ca'
+    - 'WPD:Practice Page/cs'
+    - 'WPD:Practice Page/da'
+    - 'WPD:Practice Page/de'
+    - 'WPD:Practice Page/diq'
+    - 'WPD:Practice Page/el'
+    - 'WPD:Practice Page/eo'
+    - 'WPD:Practice Page/es'
+    - 'WPD:Practice Page/fa'
+    - 'WPD:Practice Page/fi'
+    - 'WPD:Practice Page/fr'
+    - 'WPD:Practice Page/gl'
+    - 'WPD:Practice Page/gu'
+    - 'WPD:Practice Page/he'
+    - 'WPD:Practice Page/hu'
+    - 'WPD:Practice Page/hy'
+    - 'WPD:Practice Page/id'
+    - 'WPD:Practice Page/it'
+    - 'WPD:Practice Page/ja'
+    - 'WPD:Practice Page/ka'
+    - 'WPD:Practice Page/kk'
+    - 'WPD:Practice Page/km'
+    - 'WPD:Practice Page/ko'
+    - 'WPD:Practice Page/ksh'
+    - 'WPD:Practice Page/kw'
+    - 'WPD:Practice Page/mk'
+    - 'WPD:Practice Page/ml'
+    - 'WPD:Practice Page/mr'
+    - 'WPD:Practice Page/ms'
+    - 'WPD:Practice Page/nl'
+    - 'WPD:Practice Page/no'
+    - 'WPD:Practice Page/oc'
+    - 'WPD:Practice Page/pl'
+    - 'WPD:Practice Page/pt'
+    - 'WPD:Practice Page/pt-br'
+    - 'WPD:Practice Page/ro'
+    - 'WPD:Practice Page/ru'
+    - 'WPD:Practice Page/si'
+    - 'WPD:Practice Page/sk'
+    - 'WPD:Practice Page/sl'
+    - 'WPD:Practice Page/sq'
+    - 'WPD:Practice Page/sr'
+    - 'WPD:Practice Page/sv'
+    - 'WPD:Practice Page/ta'
+    - 'WPD:Practice Page/th'
+    - 'WPD:Practice Page/tr'
+    - 'WPD:Practice Page/uk'
+    - 'WPD:Practice Page/vi'
+    - 'WPD:Practice Page/yue'
+    - 'WPD:Practice Page/zh'
+    - 'WPD:Practice Page/zh-hans'
+    - 'WPD:Practice Page/zh-hant'
+    - 'WPD:Practice Page/zh-tw'
+    - 'Template:This is the api'
+uri: 'WPD:Practice Page'
+
 ---
-<h1><span class="mw-headline" id="Practice_Page">Practice Page</span></h1>
-<div class="readiness-state In_Progress"> 
-<p>This article is <a href="/wiki/Property:State" title="Property:State">In Progress.</a>
-</p>
-</div> 
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Summary">Summary</span></h2>
-<p>ページ練習ああThis is aおおおおお page where you can practice using this weおおおおbsite, and <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet">MediaWiki おいお、わおいｗ"wiki" foああああrmaｐｐｐtting</a>. えｋぽうぇo ahead and click the <b>Edit</b> button to practice editing without consequences.
-</p><p>This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
-</p><p><span class="standardization_status" title="De Facto Standard">De Facto Standard</span>
-<a href="/w/index.php?title=Template:This_is_the_api&amp;action=edit&amp;redlink=1" class="new" title="Template:This is the api (page does not exist)">Template:This is the api</a>
-</p>
-<table class="nmbox languages" style="">
+## <span>Summary</span>
+
+ページ練習ああThis is aおおおおお page where you can practice using this weおおおおbsite, and MediaWiki おいお、わおいｗ&quot;wiki&quot; foああああrmaｐｐｐtting. えｋぽうぇo ahead and click the Edit button to practice editing without consequences.
+
+This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
+
+[Template:This is the api](/w/index.php?title=Template:This_is_the_api&action=edit&redlink=1)
+
+<table class="nmbox languages" style>
 <tr>
-<th class="mbox-image" style=""> <b>Language:</b></th>
-<td class="mbox-text"><b><strong class="selflink">English</strong></b></td>
-</tr></table>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Overview_table">Overview table</span></h2>
-<table class="wikitable overview_table">
-<tr>
-<th> <a href="/wiki/css/concepts/initial_value" title="css/concepts/initial value"> Initial value</a>
+<th class="mbox-image" style>
+**Language:**
+
 </th>
-<td> <code>Test</code>
-</td></tr>
-<tr>
-<th> Applies to
-</th>
-<td> Everything
-</td></tr>
-<tr>
-<th> <a href="/wiki/css/concepts/inherited" title="css/concepts/inherited"> Inherited</a>
-</th>
-<td> No
-</td></tr>
-<tr>
-<th> Media
-</th>
-<td> visual
-</td></tr>
-<tr>
-<th> <a href="/wiki/css/concepts/computed_value" title="css/concepts/computed value"> Computed value</a>
-</th>
-<td> As specifieda
-</td></tr>
-<tr>
-<th> Animatable
-</th>
-<td> Yes
-</td></tr>
-<tr>
-<th> <a href="/wiki/css/concepts/cssom" title="css/concepts/cssom"> CSS Object Model Property</a>
-</th>
-<td> <code>practice</code>
-</td></tr></table>
-<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
-<h2><span class="mw-headline" id="Values">Values</span></h2>
-<div class="css-property">
-<dl><dt><b>none</b></dt>
-<dd><i>you start here</i></dd></dl>
-</div>
-<div class="css-property">
-<dl><dt><b>Single_Example</b></dt>
-<dd>'</dd></dl>
-</div>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Examples">Examples</span></h2>
-<p>You can write an example in a fiddle playground, such as <a rel="nofollow" class="external free" href="http://code.webplatform.org">http://code.webplatform.org</a>. Copy and paste the important lines of code, and link to the source code.
-</p>
-<div class="example" style="position:relative">
-<p><span class="language">CSS</span>
-</p>
-<pre>
+<td class="mbox-text">
+****English****
+
+</td>
+</tr>
+</table>
+
+## <span>Overview table</span>
+
+[Initial value](/css/concepts/initial_value)
+:   `Test`
+
+Applies to
+:   Everything
+
+[Inherited](/css/concepts/inherited)
+:   No
+
+Media
+:   visual
+
+[Computed value](/css/concepts/computed_value)
+:   As specifieda
+
+Animatable
+:   Yes
+
+[CSS Object Model Property](/css/concepts/cssom)
+:   `practice`
+
+## <span>Syntax</span>
+
+## <span>Values</span>
+
+none
+:   you start here
+
+Single\_Example
+:
+
+## <span>Examples</span>
+
+You can write an example in a fiddle playground, such as <http://code.webplatform.org>. Copy and paste the important lines of code, and link to the source code.
+
+``` css
 html {
   /* make sure to practice HTML regularly */
   practice: daily;
 }
-</pre>
-</div>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f">View live example</a>getting to know WPD editing
-</p>
-<div class="example" style="position:relative">
-<p><span class="language">JavaScript</span>
-</p>
-<pre>
+```
+
+getting to know WPD editing
+
+``` js
 alert('Hello world!');
-</pre>
-</div>
-<p>Foo the Bar Baz, boy.
-</p>
-<div class="example" style="position:relative">
-<p><span class="language">JavaScript</span>
-</p>
-<pre>
+```
+
+[View live example](http://code.webplatform.org/gist/286d4dbdf96f6fe42b0f)
+
+Foo the Bar Baz, boy.
+
+``` js
 console.log("foo");
-</pre>
-</div>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="See_also">See also</span></h2>
-<h3><span class="mw-headline" id="Related_articles">Related articles</span></h3>
-<h4><span class="mw-headline" id="Performance">Performance</span></h4>
-<ul><li> <a href="/wiki/apis/navigation_timing" title="apis/navigation timing">navigation timing</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/apis/resource_timing" title="apis/resource timing">resource timing</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/apis/user_timing" title="apis/user timing">user timing</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/dom/Document/hidden" title="dom/Document/hidden">hidden</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/dom/Document/visibilityState" title="dom/Document/visibilityState">visibilityState</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/dom/Document/visibilitychange" title="dom/Document/visibilitychange">visibilitychange</a></li></ul>
-<p><br />
-</p>
-<ul><li> <a href="/wiki/tutorials/mobile_opt_and_perf" title="tutorials/mobile opt and perf">HTML5 Techniques for Optimizing Mobile Performance</a></li></ul>
-<p><br />
-</p><p><br />
-</p>
-<h2><span class="mw-headline" id="Usage">Usage</span></h2>
-<p>Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to 
-<a rel="nofollow" class="external text" href="mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page">public-webplatform@w3.org</a> and someone will fix or reset the page.
-</p>
-<h2><span class="mw-headline" id="Notes">Notes</span></h2>
-<p>Animatable is seさｓｓｓｓtice.
-</p><p>This is important!ｊｊｊ
-</p>
-<div class="attribution">
-<p><br />
-</p><p><br />
-</p>
-</div>
+```
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.339 seconds
-Real time usage: 0.455 seconds
-Preprocessor visited node count: 1663/1000000
-Preprocessor generated node count: 5723/1000000
-Post‐expand include size: 12188/2097152 bytes
-Template argument size: 5220/2097152 bytes
-Highest expansion depth: 8/40
-Expensive parser function count: 60/100
--->
+## <span>See also</span>
 
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%  395.662      1 - -total
- 55.88%  221.113      1 - Template:Languages
- 54.74%  216.571      1 - Template:nmbox
- 41.51%  164.227     60 - Template:Languages/Lang
- 12.74%   50.421      1 - Template:CSS_Property
-  9.28%   36.706      1 - Template:See_Also_Section
-  7.06%   27.953      1 - Template:Languages/Title
-  5.39%   21.341      2 - Template:CSS_Property_Value
-  4.97%   19.655      1 - Template:Examples_Section
-  3.69%   14.594      3 - Template:Single_Example
--->
+### <span>Related articles</span>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:15957-0!*!0!!*!*!*!esi=1 and timestamp 20150731041718 and revision id 101645
- -->
+#### <span>Performance</span>
+
+-   [navigation timing](/apis/navigation_timing)
+
+-   [resource timing](/apis/resource_timing)
+
+-   [user timing](/apis/user_timing)
+
+-   [hidden](/dom/Document/hidden)
+
+-   [visibilityState](/dom/Document/visibilityState)
+
+-   [visibilitychange](/dom/Document/visibilitychange)
+
+-   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
+
+## <span>Usage</span>
+
+     Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to
+
+[public-webplatform@w3.org](mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page) and someone will fix or reset the page.
+
+## <span>Notes</span>
+
+Animatable is seさｓｓｓｓtice.
+
+This is important!ｊｊｊ

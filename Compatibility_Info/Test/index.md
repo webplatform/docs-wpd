@@ -1,86 +1,44 @@
 ---
-title: WPD/Compatibility_Info/Test
+title: Test
+uri: 'WPD:Compatibility Info/Test'
+
 ---
-<h2><span class="mw-headline" id="Compatibility_quick-view">Compatibility quick-view</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=1" title="Edit section: Compatibility quick-view">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<h3><span class="mw-headline" id="Called_by_a_MediaWiki_Template">Called by a MediaWiki Template</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=2" title="Edit section: Called by a MediaWiki Template">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>See <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/Template:Compatibility">Template:Compatibility documentation</a> for usage details.
-</p><p><br>
-</p>
-<h3><span class="mw-headline" id="border-radius_as_list_.28partial.29">border-radius as list (partial)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=3" title="Edit section: border-radius as list (partial)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=border-radius&amp;format=table&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-border-radius compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables:table:css:border-radius" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .border-radius" data-feature="border-radius" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=border-radius&amp;topic=css">Do you think this data can be improved? You can ask to add by <a href="https://github.com/webplatform/compatibility-data/issues/new?title=Please+improve+data+for+topic%3A+css%2C+feature%3A+border-radius&amp;labels=missing&amp;body=Insert+description+here">opening an issue</a> or <a href="https://github.com/webplatform/compatibility-data">make a pull request</a>.<section data-browser-type="desktop"><h3 id="Desktop">Desktop</h3><table class="compat-table compatibility"><thead><tr><th><abbr title="Desktop browser border-radius feature support">Features</abbr></th><th>Chrome</th><th>Firefox</th><th>Internet Explorer</th><th>Opera</th><th>Safari</th></tr></thead><tbody><tr><th>Basic support</th><td><dl><dt>4.0</dt><dd>Yes</dd><dt>0.2</dt><dd><abbr title="Requires script polyfill library to work" class="compat-prefix prefix">prefix</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd><dt>1.0</dt><dd><abbr title="Requires script polyfill library to work" class="compat-prefix prefix">prefix</abbr></dd></dl></td><td><dl><dt>9.0</dt><dd>Yes</dd></dl></td><td><dl><dt>10.5</dt><dd>Yes</dd></dl></td><td><dl><dt>5.0</dt><dd>Yes</dd><dt>3.0</dt><dd><abbr title="Requires script polyfill library to work" class="compat-prefix prefix">prefix</abbr></dd></dl></td></tr><tr><th>Elliptical borders</th><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Partial support</dd></dl></td></tr><tr><th>4 values for 4 corners</th><td><dl><dt>4.0</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt>5.0</dt><dd>Yes</dd></dl></td></tr><tr><th>Percentages</th><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd>Yes</dd></dl></td><td><dl><dt>11.5</dt><dd>Yes</dd></dl></td><td><dl><dt>5.1</dt><dd>Yes</dd></dl></td></tr></tbody></table></section><section data-browser-type="mobile"><h3 id="Mobile">Mobile</h3><table class="compat-table compatibility"><thead><tr><th><abbr title="Mobile browser border-radius feature support">Features</abbr></th><th>Android Browser</th><th>Opera Mini</th><th>Opera Mobile</th><th>iOS Safari</th></tr></thead><tbody><tr><th>Basic support</th><td><dl><dt>2.1</dt><dd><abbr title="Requires script polyfill library to work" class="compat-prefix prefix">prefix</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt>3.2</dt><dd><abbr title="Requires script polyfill library to work" class="compat-prefix prefix">prefix</abbr></dd></dl></td></tr><tr><th>Elliptical borders</th><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td></tr><tr><th>4 values for 4 corners</th><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td></tr><tr><th>Percentages</th><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr title="No support, or disabled by default" class="compat-shaded">none</abbr></dd></dl></td><td><dl><dt title="Version unknown" class="compat-shaded">?</dt><dd><abbr class="compat-shaded">Unknown</abbr></dd></dl></td></tr></tbody></table></section></div>
+## <span>Compatibility quick-view</span>
 
+### <span>Called by a MediaWiki Template</span>
 
-<p></p>
-<h3><span class="mw-headline" id="inline-block_as_list_.28supported.29">inline-block as list (supported)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=4" title="Edit section: inline-block as list (supported)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=inline-block&amp;format=table&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-inline-block compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables:table:css:inline-block" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .inline-block" data-feature="inline-block" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=inline-block&amp;topic=css"><div class="note"><p>There is no data available for topic "css", feature "inline-block". If you think that there should be data available, consider <a href="https://github.com/webplatform/compatibility-data/issues/new?title=No+data+available+for+topic%3A+css%2C+feature%3A+inline-block&amp;labels=missing&amp;body=Insert+details+here">opening an issue</a>.</p></div></div>
+See [Template:Compatibility documentation](http://docs.webplatform.org/wiki/Template:Compatibility) for usage details.
 
+### <span>border-radius as list (partial)</span>
 
-<p></p>
-<h3><span class="mw-headline" id="font-size_as_list_.28unknown.29">font-size as list (unknown)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=5" title="Edit section: font-size as list (unknown)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=font-size&amp;format=table&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-font-size compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables:table:css:font-size" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .font-size" data-feature="font-size" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=font-size&amp;topic=css">Do you think this data can be improved? You can ask to add by <a href="https://github.com/webplatform/compatibility-data/issues/new?title=Please+improve+data+for+topic%3A+css%2C+feature%3A+font-size&amp;labels=missing&amp;body=Insert+description+here">opening an issue</a> or <a href="https://github.com/webplatform/compatibility-data">make a pull request</a>.<section data-browser-type="desktop"><h3 id="Desktop-2">Desktop</h3><table class="compat-table compatibility"><thead><tr><th><abbr title="Desktop browser font-size feature support">Features</abbr></th><th>Chrome</th><th>Firefox</th><th>Internet Explorer</th><th>Opera</th><th>Safari</th></tr></thead><tbody><tr><th>Basic support</th><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td><td><dl><dt>5.5</dt><dd>Yes</dd></dl></td><td><dl><dt>7.0</dt><dd>Yes</dd></dl></td><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td></tr></tbody></table></section><section data-browser-type="mobile"><h3 id="Mobile-2">Mobile</h3><table class="compat-table compatibility"><thead><tr><th><abbr title="Mobile browser font-size feature support">Features</abbr></th><th>Android</th><th>Chrome for Android</th><th>Firefox Mobile</th><th>IE Mobile</th><th>Opera Mobile</th><th>Safari Mobile</th></tr></thead><tbody><tr><th>Basic support</th><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td><td><dl><dt>6.0</dt><dd>Yes</dd></dl></td><td><dl><dt>6.0</dt><dd>Yes</dd></dl></td><td><dl><dt>1.0</dt><dd>Yes</dd></dl></td></tr></tbody></table></section></div>
+<compat topic="css" feature="border-radius"></compat>
 
+### <span>inline-block as list (supported)</span>
 
-<p></p>
-<h3><span class="mw-headline" id="css-regions_as_list_.28unsupported.29">css-regions as list (unsupported)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=6" title="Edit section: css-regions as list (unsupported)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=css-regions&amp;format=table&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-css-regions compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables:table:css:css-regions" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .css-regions" data-feature="css-regions" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=css-regions&amp;topic=css"><div class="note"><p>There is no data available for topic "css", feature "css-regions". If you think that there should be data available, consider <a href="https://github.com/webplatform/compatibility-data/issues/new?title=No+data+available+for+topic%3A+css%2C+feature%3A+css-regions&amp;labels=missing&amp;body=Insert+details+here">opening an issue</a>.</p></div></div>
+<compat topic="css" feature="inline-block"></compat>
 
+### <span>font-size as list (unknown)</span>
 
-<p></p>
-<h2><span class="mw-headline" id="Compatibility_tables">Compatibility tables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=7" title="Edit section: Compatibility tables">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<h3><span class="mw-headline" id="border-radius">border-radius</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=8" title="Edit section: border-radius">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=border-radius&amp;format=&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-border-radius compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables::css:border-radius" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .border-radius" data-feature="border-radius" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=border-radius&amp;topic=css"><div class="note"><p>Requested table format "" is not supported.</p></div></div>
+<compat topic="css" feature="font-size"></compat>
 
+### <span>css-regions as list (unsupported)</span>
 
-<p></p>
-<h3><span class="mw-headline" id="inline-block">inline-block</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=9" title="Edit section: inline-block">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=inline-block&amp;format=&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-inline-block compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables::css:inline-block" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .inline-block" data-feature="inline-block" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=inline-block&amp;topic=css"><div class="note"><p>There is no data available for topic "css", feature "inline-block". If you think that there should be data available, consider <a href="https://github.com/webplatform/compatibility-data/issues/new?title=No+data+available+for+topic%3A+css%2C+feature%3A+inline-block&amp;labels=missing&amp;body=Insert+details+here">opening an issue</a>.</p></div></div>
+<compat topic="css" feature="css-regions"></compat>
 
+## <span>Compatibility tables</span>
 
-<p></p>
-<h3><span class="mw-headline" id="font-size">font-size</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=10" title="Edit section: font-size">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=font-size&amp;format=&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-font-size compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables::css:font-size" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .font-size" data-feature="font-size" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=font-size&amp;topic=css"><div class="note"><p>Requested table format "" is not supported.</p></div></div>
+### <span>border-radius</span>
 
+<compat topic="css" feature="border-radius"></compat>
 
-<p></p>
-<h3><span class="mw-headline" id="css-regions_.28unsupported.29">css-regions (unsupported)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=WPD:Compatibility_Info/Test&amp;action=edit&amp;section=11" title="Edit section: css-regions (unsupported)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>
-<!--esi
-<esi:include src="http://docs.webplatform.org/w/index.php?title=Special:Compatables&amp;topic=css&amp;feature=css-regions&amp;format=&amp;foresi=1" ttl="3600" />
--->
-<esi:remove>
-<nowiki></nowiki></esi:remove></p><div class="compat-parent compat-ng compat-css-regions compat-topic-css" data-comment="Generated on 2015-07-31T14:40:13-04:00" data-hash="a8e7c80f2847d4e535554f187d96d175" data-timestamp="Fri, 13 Mar 2015 15:55:22 GMT" data-cachekey="wpwiki:compatables::css:css-regions" data-source="https://docs.webplatform.org/compat/data.json" data-jsonselect=":root .css .css-regions" data-feature="css-regions" data-topic="css" data-canonical="/wiki/Special:Compatables?format=table&amp;feature=css-regions&amp;topic=css"><div class="note"><p>There is no data available for topic "css", feature "css-regions". If you think that there should be data available, consider <a href="https://github.com/webplatform/compatibility-data/issues/new?title=No+data+available+for+topic%3A+css%2C+feature%3A+css-regions&amp;labels=missing&amp;body=Insert+details+here">opening an issue</a>.</p></div></div>
+### <span>inline-block</span>
+
+<compat topic="css" feature="inline-block"></compat>
+
+### <span>font-size</span>
+
+<compat topic="css" feature="font-size"></compat>
+
+### <span>css-regions (unsupported)</span>
+
+<compat topic="css" feature="css-regions"></compat>

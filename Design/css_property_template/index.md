@@ -1,210 +1,188 @@
 ---
-title: WPD:Design/css property template
-path: Design/css_property_template
+title: font-size
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'css/data types/numeric'
+uri: 'WPD:Design/css property template'
 
 ---
-<h1><span class="mw-headline" id="font-size">font-size</span></h1>
-<p>&lt;compatability topic="css" type="property" feature="font-size" format="list"&gt; &lt;/compatability&gt;
-</p>
-<h2><span class="mw-headline" id="Summary">Summary</span></h2>
-<p><code>font-size</code> sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. <a href="/wiki/guides/css_text_styling_fundamentals" title="guides/css text styling fundamentals">CSS Text Styling Fundamentals</a> provides an overview.
-</p>
-<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+\<compatability topic="css" type="property" feature="font-size" format="list"\> \</compatability\>
+
+## <span>Summary</span>
+
+`font-size` sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [CSS Text Styling Fundamentals](/guides/css_text_styling_fundamentals) provides an overview.
+
+## <span>Syntax</span>
+
 <table class="wikitable template_test">
 <tr>
-<th> Property name
+<th>
+Property name
+
 </th>
-<th> Values
+<th>
+Values
+
 </th>
-<th> Example
-</th></tr>
-<tr>
-<th rowspan="4"> font-size
+<th>
+Example
+
 </th>
-<td> <a href="#absolute-size_value">absolute-size</a>
-</td>
-<td> <a href="#absolute-size_examples">font-size: small;</a>
-</td></tr>
+</tr>
 <tr>
-<td> <a href="#relative-size_value">relative-size</a>
+<th rowspan="4">
+font-size
+
+</th>
+<td>
+[absolute-size](#absolute-size_value)
+
 </td>
-<td> <a href="#relative-size_examples">font-size: larger;</a>
-</td></tr>
+<td>
+[font-size: small;](#absolute-size_examples)
+
+</td>
+</tr>
 <tr>
-<td> <a href="#length_value">length</a>
+<td>
+[relative-size](#relative-size_value)
+
 </td>
-<td> <a href="#length_examples">font-size: 1.5em;</a>
-</td></tr>
+<td>
+[font-size: larger;](#relative-size_examples)
+
+</td>
+</tr>
 <tr>
-<td> <a href="#percentage_value">percentage</a>
+<td>
+[length](#length_value)
+
 </td>
-<td> <a href="#percentage_examples">font-size: 110%;</a>
-</td></tr></table>
-<h2><span class="mw-headline" id="Values">Values</span></h2>
-<dl>
-<dt id="absolute-size_value" class="template_test">absolute-size</dt>
-<dd class="template_test">A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are <b>xx-small</b>, <b>x-small</b>, <b>small</b>, <b>medium</b>, <b>large</b>, <b>x-large</b>, and <b>xx-large</b>.
-<br />
-<b>Keywords:</b>
-<ul class="keywords">
-   <li><code class="value keyword">xx-small</code> 3/5 parent font-size</li>
-   <li><code class="value keyword">x-small</code> 3/4 parent font-size</li>
-   <li><code class="value keyword">small</code> 8/9 parent font-size</li>
-   <li><code class="value keyword">medium</code> 1 parent font-size</li>
-   <li><code class="value keyword">large</code> 6/5 parent font-size</li>
-   <li><code class="value keyword">x-large</code> 3/2 parent font-size</li>
-   <li><code class="value keyword">xx-large</code> 2/1 parent font-size</li>
-</ul>
-<p></dd>
-</p><p><dt id="relative-size_value" class="template_test">relative-size</dt>
-<dd class="template_test">A set of keywords interpreted relative to the parent element's <b>font-size</b> — either <b>smaller</b> or <b>larger</b>.
-<br />
-<b>Keywords:</b>
-</p>
-<ul class="keywords">
-    <li><code class="value keyword">smaller</code> 1 increment lower than parent font-size (e.g. if the parent font-size is <code>medium</code>, the <code>smaller</code> value would be interpreted as <code>small</code>)</li>
-   <li><code class="value keyword">larger</code>  1 increment higher than parent font-size (e.g. if the parent font-size is <code>medium</code>, the <code>larger</code> value would be interpreted as <code>large</code>)</li>
-</ul>
-<p></dd>
-</p><p><dt id="length_value" class="template_test">length</dt>
-<dd class="template_test">A positive numeric value followed by a string designating <a href="/wiki/css/data_types/length" title="css/data types/length">absolute or relative units of length</a>. Proportional <a href="/wiki/css/data_types/length" title="css/data types/length"><b>em</b> and <b>ex</b></a> measurements are based on the parent element's <b>font-size</b>, while <a href="/wiki/css/data_types/length" title="css/data types/length"><b>rem</b></a> measurements are based on that of the root element.</dd>
-</p><p><dt id="percentage_value" class="template_test">percentage</dt>
-<dd class="template_test">A positive integer followed by a percent (<a href="/w/index.php?title=css/data_types/numeric&amp;action=edit&amp;redlink=1" class="new" title="css/data types/numeric (page does not exist)"><b>%</b></a>), indicating a percentage of the parent element's <b>font-size</b>.</dd>
-</p>
-</dl>
-<h2><span class="mw-headline" id="Overview_table">Overview table</span></h2>
-<table class="wikitable">
+<td>
+[font-size: 1.5em;](#length_examples)
+
+</td>
+</tr>
 <tr>
-<td> Initial value
+<td>
+[percentage](#percentage_value)
+
 </td>
-<td> <code>medium</code>
-</td></tr>
-<tr>
-<td> Applies to
+<td>
+[font-size: 110%;](#percentage_examples)
+
 </td>
-<td> All elements
-</td></tr>
-<tr>
-<td> Inherited
-</td>
-<td>  Yes
-</td></tr>
-<tr>
-<td> Media
-</td>
-<td> visual
-</td></tr>
-<tr>
-<td> Computed value
-</td>
-<td> absolute size in <b>px</b> units
-</td></tr>
-<tr>
-<td> Animatable
-</td>
-<td> Yes
-</td></tr>
-<tr>
-<td> CSS Object Model Property
-</td>
-<td> <code>fontSize</code>
-</td></tr></table>
-<h2><span class="mw-headline" id="Examples">Examples</span></h2>
-<h3><span class="mw-headline" id="absolute-size.09_examples">absolute-size	 examples</span></h3>
-<pre class="language-html5" data-lang="html5">
+</tr>
+</table>
+## <span>Values</span>
+
+absolute-size
+:   A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are **xx-small**, **x-small**, **small**, **medium**, **large**, **x-large**, and **xx-large**.
+    **Keywords:**
+
+    -   `xx-small` 3/5 parent font-size
+    -   `x-small` 3/4 parent font-size
+    -   `small` 8/9 parent font-size
+    -   `medium` 1 parent font-size
+    -   `large` 6/5 parent font-size
+    -   `x-large` 3/2 parent font-size
+    -   `xx-large` 2/1 parent font-size
+
+relative-size
+:   A set of keywords interpreted relative to the parent element's **font-size** — either **smaller** or **larger**.
+    **Keywords:**
+
+    -   `smaller` 1 increment lower than parent font-size (e.g. if the parent font-size is `medium`, the `smaller` value would be interpreted as `small`)
+    -   `larger` 1 increment higher than parent font-size (e.g. if the parent font-size is `medium`, the `larger` value would be interpreted as `large`)
+
+length
+:   A positive numeric value followed by a string designating [absolute or relative units of length](/css/data_types/length). Proportional [**em** and **ex**](/css/data_types/length) measurements are based on the parent element's **font-size**, while [**rem**](/css/data_types/length) measurements are based on that of the root element.
+percentage
+:   A positive integer followed by a percent ([**%**](/w/index.php?title=css/data_types/numeric&action=edit&redlink=1)), indicating a percentage of the parent element's **font-size**.
+
+## <span>Overview table</span>
+
+||
+|Initial value|`medium`|
+|Applies to|All elements|
+|Inherited|Yes|
+|Media|visual|
+|Computed value|absolute size in **px** units|
+|Animatable|Yes|
+|CSS Object Model Property|`fontSize`|
+
+## <span>Examples</span>
+
+### <span>absolute-size examples</span>
+
+``` html
  font-size: small;
-</pre>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+``` html
  font-size: xx-large;
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="relative-size_examples">relative-size examples</span></h3>
-<pre class="language-html5" data-lang="html5">
+```
+
+### <span>relative-size examples</span>
+
+``` html
  font-sizes: larger;
-</pre>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+``` html
  font-sizes: smaller;
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="length_examples">length examples</span></h3>
-<pre class="language-html5" data-lang="html5">
+```
+
+### <span>length examples</span>
+
+``` html
  font-size: 1.5em;
-</pre>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+``` html
  border-radius: 5px;
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="percentage_examples">percentage examples</span></h3>
-<pre class="language-html5" data-lang="html5">
+```
+
+### <span>percentage examples</span>
+
+``` html
  font-size: 110%;
-</pre>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+``` html
  border-radius: 50%;
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="Other_examples">Other examples</span></h3>
-<p>Redefine the typical <b>16px</b> default <b>medium</b> value as <b>10px</b>, then redefine other tags in proportion to the root:
-</p>
-<pre class="language-html5" data-lang="html5">
-html { font-size: 62.5%; } 
-/* 
-16 * 62.5% == 10 
+```
+
+### <span>Other examples</span>
+
+Redefine the typical **16px** default **medium** value as **10px**, then redefine other tags in proportion to the root:
+
+``` html
+html { font-size: 62.5%; }
+/*
+16 * 62.5% == 10
 */
 
 h1 { font-size: 3.6rem }   /* 36px */
 h2 { font-size: 2.4rem }   /* 24px */
 p  { font-size: 1.4rem }   /* 14px */
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Usage">Usage</span></h2>
-<h2><span class="mw-headline" id="Notes">Notes</span></h2>
-<h2><span class="mw-headline" id="Compatibility">Compatibility</span></h2>
-<p>&lt;compatability topic="css" type="property" feature="font-size"&gt; &lt;/compatability&gt;
-</p>
-<h2><span class="mw-headline" id="Related_Specifications">Related Specifications</span></h2>
-<table class="wikitable">
-<tr>
-<th> Specification
-</th>
-<th> Status
-</th>
-<th> Related Changes
-</th></tr>
-<tr>
-<td> <a rel="nofollow" class="external text" href="http://www.w3.org/TR/css3-fonts/#font-size-prop">CSS Fonts Module Level 3</a>
-</td>
-<td> Working Draft
-</td>
-<td>
-</td></tr>
-<tr>
-<td> <a rel="nofollow" class="external text" href="http://www.w3.org/TR/css3-values/">CSS Values and Units Module Level 3</a>
-</td>
-<td> Candidate Recommendation
-</td>
-<td>
-</td></tr>
-<tr>
-<td> <a rel="nofollow" class="external text" href="http://www.w3.org/TR/CSS2/">Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</a>
-</td>
-<td> W3C Recommendation
-</td>
-<td>
-</td></tr></table>
-<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+```
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:8363-0!*!0!!*!*!*!esi=1 and timestamp 20150810004122 and revision id 33700
- -->
+## <span>Usage</span>
+
+## <span>Notes</span>
+
+## <span>Compatibility</span>
+
+\<compatability topic="css" type="property" feature="font-size"\> \</compatability\>
+
+## <span>Related Specifications</span>
+
+|Specification|Status|Related Changes|
+|:------------|:-----|:--------------|
+|[CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-size-prop)|Working Draft||
+|[CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)|Candidate Recommendation||
+|[Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS2/)|W3C Recommendation||
+
+## <span>See Also</span>

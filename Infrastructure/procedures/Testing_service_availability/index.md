@@ -1,74 +1,74 @@
 ---
-title: WPD:Infrastructure/procedures/Testing service availability
-path: Infrastructure/procedures/Testing_service_availability
+title: Testing service availability
+uri: 'WPD:Infrastructure/procedures/Testing service availability'
 
 ---
-<h2><span class="mw-headline" id="Summary">Summary</span></h2>
-<p>Collection of small shell scripts that will be used to test components of the infrastructure.
-</p>
-<h2><span class="mw-headline" id="By_technology">By technology</span></h2>
-<h3><span class="mw-headline" id="PHP_Memcache_library_connection_to_Memcache_cluster">PHP Memcache library connection to Memcache cluster</span></h3>
-<pre>   $params = array(
-            'class'      =&gt; 'MemcachedPeclBagOStuff',
-            'serializer' =&gt; 'php',
-            'servers'    =&gt; array(
-                    '10.1.1.1:11211',
-                    '10.2.2.2:11211',
-            ),
-            'timeout' =&gt; 250000,
-            'connect_timeout' =&gt; 300
-   );
-   $client = new Memcached;
-   $client-&gt;setOption( Memcached::OPT_CONNECT_TIMEOUT, $params['connect_timeout'] * 1000 );
-   $client-&gt;setOption( Memcached::OPT_SEND_TIMEOUT, $params['timeout'] );
-   $client-&gt;setOption( Memcached::OPT_RECV_TIMEOUT, $params['timeout'] );
-   $client-&gt;setOption( Memcached::OPT_POLL_TIMEOUT, $params['timeout'] / 1000 );
-   $client-&gt;setOption( Memcached::OPT_LIBKETAMA_COMPATIBLE, true );
-   $client-&gt;setOption( Memcached::OPT_SERIALIZER, Memcached::SERIALIZER_PHP );
-   //require('/srv/webplatform/wiki/current/includes/GlobalFunctions.php');
-   require('/srv/webplatform/wiki/current/includes/IP.php');
-   //require('/srv/webplatform/wiki/current/includes/objectcache/MemcachedPeclBagOStuff.php');
-   $servers = array();
-   foreach ( $params['servers'] as $host ) {
-       $servers[] = IP::splitHostAndPort( $host ); // (ip, port)
-   }
-   $client-&gt;addServers( $servers );
-   $tmp_object = new stdClass;
-   $tmp_object-&gt;str_attr = 'test';
-   $tmp_object-&gt;int_attr = 123;
-   $tmp_object-&gt;date = new DateTime();
-   $client-&gt;add('key1', $tmp_object, 10) or die ("Failed to save data at the server");
-   var_dump($client-&gt;get('key1'));
-   var_dump($client-&gt;get('wpwiki:user:stats:359'));
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="Website_vhost">Website vhost</span></h3>
-<ul><li> One per vhost</li>
-<li> Grep if a string exist</li>
-<li> Return non zero if it fails</li>
-<li> See for <a rel="nofollow" class="external text" href="http://nagiosplugins.org/man/check_http">Nagios check_http</a></li></ul>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+## <span>Summary</span>
+
+Collection of small shell scripts that will be used to test components of the infrastructure.
+
+## <span>By technology</span>
+
+### <span>PHP Memcache library connection to Memcache cluster</span>
+
+       $params = array(
+                'class'      => 'MemcachedPeclBagOStuff',
+                'serializer' => 'php',
+                'servers'    => array(
+                        '10.1.1.1:11211',
+                        '10.2.2.2:11211',
+                ),
+                'timeout' => 250000,
+                'connect_timeout' => 300
+       );
+       $client = new Memcached;
+       $client->setOption( Memcached::OPT_CONNECT_TIMEOUT, $params['connect_timeout'] * 1000 );
+       $client->setOption( Memcached::OPT_SEND_TIMEOUT, $params['timeout'] );
+       $client->setOption( Memcached::OPT_RECV_TIMEOUT, $params['timeout'] );
+       $client->setOption( Memcached::OPT_POLL_TIMEOUT, $params['timeout'] / 1000 );
+       $client->setOption( Memcached::OPT_LIBKETAMA_COMPATIBLE, true );
+       $client->setOption( Memcached::OPT_SERIALIZER, Memcached::SERIALIZER_PHP );
+       //require('/srv/webplatform/wiki/current/includes/GlobalFunctions.php');
+       require('/srv/webplatform/wiki/current/includes/IP.php');
+       //require('/srv/webplatform/wiki/current/includes/objectcache/MemcachedPeclBagOStuff.php');
+       $servers = array();
+       foreach ( $params['servers'] as $host ) {
+           $servers[] = IP::splitHostAndPort( $host ); // (ip, port)
+       }
+       $client->addServers( $servers );
+       $tmp_object = new stdClass;
+       $tmp_object->str_attr = 'test';
+       $tmp_object->int_attr = 123;
+       $tmp_object->date = new DateTime();
+       $client->add('key1', $tmp_object, 10) or die ("Failed to save data at the server");
+       var_dump($client->get('key1'));
+       var_dump($client->get('wpwiki:user:stats:359'));
+
+### <span>Website vhost</span>
+
+-   One per vhost
+-   Grep if a string exist
+-   Return non zero if it fails
+-   See for [Nagios check\_http](http://nagiosplugins.org/man/check_http)
+
+``` html
     #!/bin/bash
     curl -I -H 'Host: docs.webplatform.org' http://15.185.116.171/wiki/Main_Page?t=cli-renoirb
-</pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="Adding_pages_through_MediaWiki_API">Adding pages through MediaWiki API</span></h3>
-<p><b>Dependencies</b>:
-</p>
-<ul><li> Varnish configuration do not send cached documents as a reply to a POST request, see <a href="/wiki/WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration" title="WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration">WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration</a></li></ul>
-<p><br />
-</p>
-<pre class="language-bash" data-lang="bash">
+```
+
+### <span>Adding pages through MediaWiki API</span>
+
+**Dependencies**:
+
+-   Varnish configuration do not send cached documents as a reply to a POST request, see [WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration](/WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration)
+
+```
 #! /bin/sh
 #
 # author: Max Polk
 #
 echo "TEST connecting to a wiki and editing using the api.php interface"
- 
+
 # Edit these variables
 export WIKI_USERNAME='ZZZ'
 export WIKI_PASSWORD='ZZZ'
@@ -83,17 +83,17 @@ export SUMMARY='Automated test edit'
 export LOG_FILE='LOG.txt'
 export RESULT_FILE='RESULT.txt'
 export COOKIE_FILE='COOKIES.txt'
- 
+
 function append ()
 {
     echo "$1" >> "$LOG_FILE"
 }
- 
+
 function appendfile ()
 {
     cat "$1" >> "$LOG_FILE"
 }
- 
+
 function showbanner ()
 {
     echo
@@ -101,25 +101,25 @@ function showbanner ()
     echo "$1"
     echo "----------------------------------------------------------------------"
 }
- 
+
 function showoutput ()
 {
     cat "$LOG_FILE"
 }
- 
+
 #======================================================================
 # Login
 #======================================================================
- 
+
 # New log file for this request
 showbanner "Login request"
 echo -n > "$LOG_FILE"
- 
+
 # Empty the cookie file
 echo -n > "$COOKIE_FILE"
 append "EMPTIED cookie jar"
 append ""
- 
+
 # Post request
 append "POST to $WIKI_API"
 append ""
@@ -135,9 +135,9 @@ append ""
 appendfile "$RESULT_FILE"
 append ""
 append ""
- 
+
 # Verify last result
-if&#160;! grep -q '"result":"NeedToken"' "$RESULT_FILE"; then
+if ! grep -q '"result":"NeedToken"' "$RESULT_FILE"; then
     append ""
     append 'FAILURE, did not find: "result":"NeedToken"'
     append ""
@@ -155,15 +155,15 @@ append ""
 append "EXTRACTED TOKEN:"
 append "    $TOKEN"
 showoutput
- 
+
 #======================================================================
 # Verify login using login/token from previous output
 #======================================================================
- 
+
 # New log file for this request
 showbanner "Login verification"
 echo -n > "$LOG_FILE"
- 
+
 # Post verification
 append "POST to $WIKI_API"
 append ""
@@ -180,9 +180,9 @@ append ""
 appendfile "$RESULT_FILE"
 append ""
 append ""
- 
+
 # Verify last result
-if&#160;! grep -q '"result":"Success"' "$RESULT_FILE"; then
+if ! grep -q '"result":"Success"' "$RESULT_FILE"; then
     append ""
     append 'FAILURE, did not find: "result":"Success"'
     append ""
@@ -190,19 +190,19 @@ if&#160;! grep -q '"result":"Success"' "$RESULT_FILE"; then
     showoutput
     exit 1
 fi
- 
+
 append ""
 append "SUCCESSFULLY VERIFIED LOGIN"
 showoutput
- 
+
 #======================================================================
 # Get an edit token
 #======================================================================
- 
+
 # New log file for this request
 showbanner "Obtain edit token"
 echo -n > "$LOG_FILE"
- 
+
 # Query for edit token
 append "GET from $WIKI_API"
 append ""
@@ -214,24 +214,24 @@ append "    titles=${PAGE}"
 append "    format=json"
 append ""
 append "ACTUAL URL:"
-append "    ${WIKI_API}?action=query&amp;prop=info&amp;intoken=edit&amp;titles=${PAGE_URLENCODED}&amp;format=json"
+append "    ${WIKI_API}?action=query&prop=info&intoken=edit&titles=${PAGE_URLENCODED}&format=json"
 append ""
-curl -s --show-error -i "${WIKI_API}?action=query&amp;prop=info&amp;intoken=edit&amp;titles=${PAGE_URLENCODED}&amp;format=json" -b "$COOKIE_FILE" -c "$COOKIE_FILE" > "$RESULT_FILE"
+curl -s --show-error -i "${WIKI_API}?action=query&prop=info&intoken=edit&titles=${PAGE_URLENCODED}&format=json" -b "$COOKIE_FILE" -c "$COOKIE_FILE" > "$RESULT_FILE"
 append "HTTP dump:"
 append ""
 appendfile "$RESULT_FILE"
 append ""
 append ""
- 
+
 # Verify last result
-if&#160;! grep -q '{"query":{"pages"' "$RESULT_FILE"; then
+if ! grep -q '{"query":{"pages"' "$RESULT_FILE"; then
     append ""
     append 'FAILURE, did not find: {"query":{"pages"'
     append ""
     showoutput
     exit 1
 fi
- 
+
 # Get edit token from last result (unescape JSON "\\" into "\")
 export EDIT_TOKEN=$(grep "^{" "$RESULT_FILE" | sed 's/^.*"edittoken":"\([^"]*\)".*$/\1/' | sed 's/\\\\/\\/g')
 if [ -z "$EDIT_TOKEN" ]; then
@@ -242,15 +242,15 @@ append ""
 append "EXTRACTED EDIT TOKEN:"
 append "    $EDIT_TOKEN"
 showoutput
- 
+
 #======================================================================
 # Perform actual page edit
 #======================================================================
- 
+
 # New log file for this request
 showbanner "Perform page edit"
 echo -n > "$LOG_FILE"
- 
+
 # Post edit
 append "POST to $WIKI_API"
 append ""
@@ -270,9 +270,9 @@ append ""
 appendfile "$RESULT_FILE"
 append ""
 append ""
- 
+
 # Verify last result
-if&#160;! grep -q '"result":"Success"' "$RESULT_FILE"; then
+if ! grep -q '"result":"Success"' "$RESULT_FILE"; then
     append ""
     append 'FAILURE, did not find: "result":"Success"'
     append ""
@@ -280,17 +280,17 @@ if&#160;! grep -q '"result":"Success"' "$RESULT_FILE"; then
     showoutput
     exit 1
 fi
- 
+
 showoutput
- 
+
 #======================================================================
 # Logout
 #======================================================================
- 
+
 # New log file for this request
 showbanner "Logout"
 echo -n > "$LOG_FILE"
- 
+
 # Post logout
 append "POST to $WIKI_API"
 append ""
@@ -304,26 +304,23 @@ append ""
 appendfile "$RESULT_FILE"
 append ""
 append ""
- 
+
 # Verify last result
-if&#160;! grep -q "\[\]" "$RESULT_FILE"; then
+if ! grep -q "\[\]" "$RESULT_FILE"; then
     append ""
     append "FAILURE, did not find: \[\]"
     append ""
     showoutput
     exit 1
 fi
- 
+
 append ""
 append "SUCCESSFULLY LOGGED OUT"
 showoutput
- 
+
 #======================================================================
 # Success
 #======================================================================
- 
-showbanner "SUCCESS"
-</pre>
 
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:10368-0!*!0!!*!*!*!esi=1 and timestamp 20150810130444 and revision id 41291
- -->
+showbanner "SUCCESS"
+```

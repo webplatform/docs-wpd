@@ -1,15 +1,15 @@
 ---
-title: WPD:Browser Testing/Schema
-path: Browser_Testing/Schema
+title: Schema
+uri: 'WPD:Browser Testing/Schema'
 
 ---
-<p>Here is a sample schema:
-</p><p><i><b>Note:</b> this schema does not yet take into account different support statuses per OS for each browser.</i>
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+Here is a sample schema:
+
+***Note:** this schema does not yet take into account different support statuses per OS for each browser.*
+
+``` html
 {
-   "features"&#160;: {
+   "features" : {
       "(feature-name)": {
          "category": "(CSS, HTML, API, DOM, MathML, JS, ...)",
          "type": "(property, method, ...)",
@@ -24,7 +24,7 @@ path: Browser_Testing/Schema
          "notes": {
             "(ua-string)": {
                "(version-number)": "note"
-            }            
+            }
          }
       },
       "border-radius": {
@@ -110,7 +110,7 @@ path: Browser_Testing/Schema
             "firefox": {
                "3.6": "Used to treat percentage values as percentages of the width, for both axes",
                "3.6": "Non-standard longhand names (-moz-border-radius-topleft etc)"
-            },   
+            },
             "webkit": {
                "532.5": "Supports only one value in border-radius. For different radii, the longhands need to be used. don't support the slash / notation. If two values are specified, they are interpreted as horizontal and vertical radii for all four corners.",
                "532.5": "When the sum of two adjacent radii exceeds the length of the side they’re on, they are reduced to 0 instead of shrinking proportionally."
@@ -118,12 +118,9 @@ path: Browser_Testing/Schema
             "opera": {
                "11.6": "border-radius has no effect in replaced elements (like images)",
                "11.6": "Percentages are accepted in border-radius, but are treated incorrectly."
-            }  
+            }
          }
       }
    }
 }
-</pre>
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:8150-0!*!*!*!*!*!*!esi=1 and timestamp 20150810200019 and revision id 31236
- -->
+```

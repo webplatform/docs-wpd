@@ -1,74 +1,82 @@
 ---
-title: WPD:Infrastructure/reports/201410
+title: October 2014 sprint report
+uri: 'WPD:Infrastructure/reports/201410'
+
 ---
-<h1><span class="mw-headline" id="October_2014_sprint_report">October 2014 sprint report</span></h1>
-<p>This sprint is about refactoring the full server infrastructure to ease the maintenance work and automate what’s possible.
-</p><p>In order to get more details on the work that has been done, refer to <a href="/wiki/WPD:Infrastructure/analysis/2014-Improvements_plan" title="WPD:Infrastructure/analysis/2014-Improvements plan"><i>2014 Improvements plan</i> page</a>
-</p><p><br />
-</p>
-<h2><span class="mw-headline" id="Goal">Goal</span></h2>
-<p>The goal of this sprint is to have a separation between <i>development</i> (e.g. a local Vagrant VM, or code checkout), <i>staging</i> (i.e. a full deployment) and <i>production</i> (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
-</p>
-<h2><span class="mw-headline" id="Requirements">Requirements</span></h2>
-<ol><li> Every VMs w/ up to date softwares (database server, linux, etc)</li>
-<li> Every web application to work under SSL</li>
-<li> Every web applications are built on top of a Git release our customizations patched on top of them, see <a href="#Updating_the_web_applications">#Updating the web applications</a></li>
-<li> Refactor server configuration scripts in a way such that we can have a fully working clone of the production site. Without impacting it. </li>
-<li> Everything has to be public, except passwords and private keys</li>
-<li> Setup a system such that if a module gets merged to a specific branch triggers an automatic update of the code on the servers</li>
-<li> Setup a staging version of the site that replicates everything in a separate OpenStack project. Any component of the site could be used by adding 'staging' to it.</li>
-<li> Set in place a system that "listens" to given GitHub repository to update the related component. See <a href="#Automatic_updates">#Automatic updates</a></li></ol>
-<p>In other words, we should be able to work on anything in; webplatform<i>Staging</i>.org as a "sandbox" (i.e. do not touch live "production" site), which will allow anybody to replicate the full environment regardless of where its hosted or which top level domain name its being used.
-</p><p><br />
-</p>
-<h2><span class="mw-headline" id="Expected_outcome">Expected outcome</span></h2>
-<ul><li> Have a COMPLETELY INDEPENDENT set of Virtual Machines to serve the FULL public facing webplatform.org components (i.e. blog, docs, project.webplatform.org)</li>
-<li> Before deploying to production, every components MUST be running fine on <i>webplatformSTAGING.org</i> (a.k.a. "<b>staging</b>")</li>
-<li> Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)</li>
-<li> Self-contained environment at every level; e.g, <i>staging</i> MUST NOT use any resources from <i>production</i></li>
-<li> Full clone of the site for each components; e.g. <b>blog.webplatform.org</b> (production), <b>blog.webplatformSTAGING.org</b> (staging).</li>
-<li> Harmonize configuration settings across the softwares, automate them based on known data facts, do not rely on internal DNS</li>
-<li> Remove anything that isn’t used anymore, and simplify system as much as possible</li></ul>
-<h2><span class="mw-headline" id="Tasks_summary">Tasks summary</span></h2>
-<p>... tasks details are in <a href="/wiki/WPD:Infrastructure/analysis/2014-Improvements_plan" title="WPD:Infrastructure/analysis/2014-Improvements plan">WPD:Infrastructure/analysis/2014-Improvements_plan</a>
-</p>
-<ul><li> Publish to the public all our deployment scripts, with correct author attribution, without passwords nor private data</li>
-<li> Set in place a system that will update code automatically when a contributor push on watched Git repos</li>
-<li> Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive, deploy archive</li>
-<li> Salt reactor launch rsync when changes are detected</li>
-<li> Ensure all components works on BOTH <b>webplatform.org</b> AND <b>webplatformSTAGING.org</b> top level domains, <i>without configuration switches</i></li>
-<li> Ensure all VM are on Ubuntu 14.04 LTS</li>
-<li> Make sure every components are working as it should</li></ul>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Status">Status</span></h2>
-<p><b>NOTE</b>: Project is completed.
-</p>
-<ul><li> Missing web apps;
-<ul><li> webat25.org (won’t be migrated, we will convert as a static site by May 2015)</li></ul></li>
-<li> Set in place automation, see <a href="#Automatic_updates">#Automatic updates</a></li></ul>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Intervention_plan">Intervention plan</span></h2>
-<h3><span class="mw-headline" id="Updating_the_web_applications">Updating the web applications</span></h3>
-<p>For each web application:
-</p>
-<ul><li> Pick a version from GitHub, fork in our repo</li>
-<li> Get anything that’s not source-controlled in our code, make it as a patch on top of the original code</li>
-<li> Make sure the web app looks fine with the current CSS</li>
-<li> Make sure the configuration is adjusted by salt stack, nothing manual</li>
-<li> Make sure the theme doesn’t refer to production site, but current deployment</li>
-<li> Make sure that the assets are protocol relative (i.e. if site over SSL, call images and other assets through SSL too, keeping the bar "green")</li></ul>
-<p>Later, we’ll have a system that listens and updates the site automatically.
-</p>
-<h3><span class="mw-headline" id="Automatic_updates">Automatic updates</span></h3>
-<p>A system that listens to new version tags on given GitHub repositories.
-</p><p>Once a tag is made, the staging salt master should;
-</p>
-<ol><li> pull in the changes</li>
-<li> run any update scripts (sass, docpad, composer, etc)</li>
-<li> update all applicable web servers</li></ol>
-<p>More to come. This is the current next step.
-</p>
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:30970-0!*!0!!*!*!*!esi=1 and timestamp 20150731185631 and revision id 101347
- -->
+This sprint is about refactoring the full server infrastructure to ease the maintenance work and automate what’s possible.
+
+In order to get more details on the work that has been done, refer to [*2014 Improvements plan* page](/WPD:Infrastructure/analysis/2014-Improvements_plan)
+
+## <span>Goal</span>
+
+The goal of this sprint is to have a separation between *development* (e.g. a local Vagrant VM, or code checkout), *staging* (i.e. a full deployment) and *production* (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
+
+## <span>Requirements</span>
+
+1.  Every VMs w/ up to date softwares (database server, linux, etc)
+2.  Every web application to work under SSL
+3.  Every web applications are built on top of a Git release our customizations patched on top of them, see [\#Updating the web applications](#Updating_the_web_applications)
+4.  Refactor server configuration scripts in a way such that we can have a fully working clone of the production site. Without impacting it.
+5.  Everything has to be public, except passwords and private keys
+6.  Setup a system such that if a module gets merged to a specific branch triggers an automatic update of the code on the servers
+7.  Setup a staging version of the site that replicates everything in a separate OpenStack project. Any component of the site could be used by adding 'staging' to it.
+8.  Set in place a system that "listens" to given GitHub repository to update the related component. See [\#Automatic updates](#Automatic_updates)
+
+In other words, we should be able to work on anything in; webplatform*Staging*.org as a "sandbox" (i.e. do not touch live "production" site), which will allow anybody to replicate the full environment regardless of where its hosted or which top level domain name its being used.
+
+## <span>Expected outcome</span>
+
+-   Have a COMPLETELY INDEPENDENT set of Virtual Machines to serve the FULL public facing webplatform.org components (i.e. blog, docs, project.webplatform.org)
+-   Before deploying to production, every components MUST be running fine on *webplatformSTAGING.org* (a.k.a. "**staging**")
+-   Deploy automatically on git push (GitHub hooks) on master branch and/or a release tag (TBD)
+-   Self-contained environment at every level; e.g, *staging* MUST NOT use any resources from *production*
+-   Full clone of the site for each components; e.g. **blog.webplatform.org** (production), **blog.webplatformSTAGING.org** (staging).
+-   Harmonize configuration settings across the softwares, automate them based on known data facts, do not rely on internal DNS
+-   Remove anything that isn’t used anymore, and simplify system as much as possible
+
+## <span>Tasks summary</span>
+
+... tasks details are in [WPD:Infrastructure/analysis/2014-Improvements\_plan](/WPD:Infrastructure/analysis/2014-Improvements_plan)
+
+-   Publish to the public all our deployment scripts, with correct author attribution, without passwords nor private data
+-   Set in place a system that will update code automatically when a contributor push on watched Git repos
+-   Salt reactor pull, and run scripts (bower, grunt, composer, etc) and makes a zip archive, deploy archive
+-   Salt reactor launch rsync when changes are detected
+-   Ensure all components works on BOTH **webplatform.org** AND **webplatformSTAGING.org** top level domains, *without configuration switches*
+-   Ensure all VM are on Ubuntu 14.04 LTS
+-   Make sure every components are working as it should
+
+## <span>Status</span>
+
+**NOTE**: Project is completed.
+
+-   Missing web apps;
+    -   webat25.org (won’t be migrated, we will convert as a static site by May 2015)
+-   Set in place automation, see [\#Automatic updates](#Automatic_updates)
+
+## <span>Intervention plan</span>
+
+### <span>Updating the web applications</span>
+
+For each web application:
+
+-   Pick a version from GitHub, fork in our repo
+-   Get anything that’s not source-controlled in our code, make it as a patch on top of the original code
+-   Make sure the web app looks fine with the current CSS
+-   Make sure the configuration is adjusted by salt stack, nothing manual
+-   Make sure the theme doesn’t refer to production site, but current deployment
+-   Make sure that the assets are protocol relative (i.e. if site over SSL, call images and other assets through SSL too, keeping the bar "green")
+
+Later, we’ll have a system that listens and updates the site automatically.
+
+### <span>Automatic updates</span>
+
+A system that listens to new version tags on given GitHub repositories.
+
+Once a tag is made, the staging salt master should;
+
+1.  pull in the changes
+2.  run any update scripts (sass, docpad, composer, etc)
+3.  update all applicable web servers
+
+More to come. This is the current next step.

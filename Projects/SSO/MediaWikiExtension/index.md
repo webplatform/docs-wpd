@@ -1,19 +1,20 @@
 ---
-title: WPD:Projects/SSO/MediaWikiExtension
-path: Projects/SSO/MediaWikiExtension
+title: MediaWiki SSO using Firefox Accounts
+uri: 'WPD:Projects/SSO/MediaWikiExtension'
 
 ---
-<h1><span class="mw-headline" id="MediaWiki_SSO_using_Firefox_Accounts">MediaWiki SSO using Firefox Accounts</span></h1>
-<p>This page describes various details on how to install and find code specific to WebPlatform.org SSO installation related to MediaWiki. To have an higher level description of how we implemented it, see <a href="/wiki/WPD:Projects/SSO/How_we_implemented_it" title="WPD:Projects/SSO/How we implemented it">WPD:Projects/SSO/How_we_implemented_it</a>.
-</p>
-<h2><span class="mw-headline" id="Repositories">Repositories</span></h2>
-<ul><li> <a rel="nofollow" class="external text" href="https://github.com/webplatform/mediawiki-fxa-sso">GitHub</a></li>
-<li> Wikimedia Gerrit (<a rel="nofollow" class="external text" href="https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FWebPlatformAuth">gitblit</a>,  <a rel="nofollow" class="external text" href="https://gerrit.wikimedia.org/r/#/admin/projects/mediawiki/extensions/WebPlatformAuth">clone project</a>)</li></ul>
-<h2><span class="mw-headline" id="Configuration_sample">Configuration sample</span></h2>
-<p>To use our Accounts server, you have to ask us <a rel="nofollow" class="external text" href="mailto:team-webplatform-systems@w3.org">on the team-webplatform-systems mailing list</a> to add your webapp to our OAuth Resource Server.
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+This page describes various details on how to install and find code specific to WebPlatform.org SSO installation related to MediaWiki. To have an higher level description of how we implemented it, see [WPD:Projects/SSO/How\_we\_implemented\_it](/WPD:Projects/SSO/How_we_implemented_it).
+
+## <span>Repositories</span>
+
+-   [GitHub](https://github.com/webplatform/mediawiki-fxa-sso)
+-   Wikimedia Gerrit ([gitblit](https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FWebPlatformAuth), [clone project](https://gerrit.wikimedia.org/r/#/admin/projects/mediawiki/extensions/WebPlatformAuth))
+
+## <span>Configuration sample</span>
+
+To use our Accounts server, you have to ask us [on the team-webplatform-systems mailing list](mailto:team-webplatform-systems@w3.org) to add your webapp to our OAuth Resource Server.
+
+``` html
 require_once( "$IP/extensions/WebPlatformAuth/WebPlatformAuth.php" );
 $wgWebPlatformAuth['client']['id']             = '...';
 $wgWebPlatformAuth['client']['secret']         = '...';
@@ -21,28 +22,8 @@ $wgWebPlatformAuth['endpoints']['fxa_oauth']   = 'https://oauth.accounts.webplat
 $wgWebPlatformAuth['endpoints']['fxa_profile'] = 'https://profile.accounts.webplatform.org/v1/';
 $wgWebPlatformAuth['methods']['authorize']     = 'authorization';
 $wgWebPlatformAuth['methods']['token']         = 'token';
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="Links">Links</span></h2>
-<ul><li> <a class="external text" href="http://www.mediawiki.org/wiki/Manual:How_to_debug">How to debug MW</a></li></ul>
+```
 
-<!-- 
-NewPP limit report
-CPU time usage: 0.013 seconds
-Real time usage: 0.015 seconds
-Preprocessor visited node count: 23/1000000
-Preprocessor generated node count: 40/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
+## <span>Links</span>
 
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:22695-0!*!0!!*!*!*!esi=1 and timestamp 20150810161957 and revision id 56083
- -->
+-   [How to debug MW](http://www.mediawiki.org/wiki/Manual:How_to_debug)

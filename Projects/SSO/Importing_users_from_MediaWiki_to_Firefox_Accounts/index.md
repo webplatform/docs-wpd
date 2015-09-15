@@ -1,27 +1,28 @@
 ---
-title: WPD:Projects/SSO/Importing users from MediaWiki to Firefox Accounts
-path: Projects/SSO/Importing_users_from_MediaWiki_to_Firefox_Accounts
+title: Importing users from MediaWiki to Firefox Accounts
+uri: 'WPD:Projects/SSO/Importing users from MediaWiki to Firefox Accounts'
 
 ---
-<h1><span class="mw-headline" id="Importing_users_from_MediaWiki_to_Firefox_Accounts">Importing users from MediaWiki to Firefox Accounts</span></h1>
-<p>This page describes how to query MediaWiki database and run an import script to create accounts within our fork (<a href="/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform" title="WPD:Projects/SSO/Adapt Firefox Accounts for WebPlatform">WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform</a>) of Firefox Accounts ("FxA").
-</p><p>To have an higher level description of how we implemented it, see <a href="/wiki/WPD:Projects/SSO/How_we_implemented_it" title="WPD:Projects/SSO/How we implemented it">WPD:Projects/SSO/How_we_implemented_it</a>.
-</p><p>See canonical version in this <a rel="nofollow" class="external text" href="https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc">gist.github.com/WebPlatformDocs</a>
-</p>
-<h1><span class="mw-headline" id="Process">Process</span></h1>
-<ul><li> Requires NodeJS, NPM</li>
-<li> Clone <a rel="nofollow" class="external text" href="https://github.com/webplatform/fxa-auth-server">fxa-auth-server</a> in a folder of the same name</li>
-<li> Install dependencies in fxa-auth-server with <tt>npm install</tt></li>
-<li> Go a folder up, create a new one and paste the following in it</li></ul>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="1._Export_MediaWiki_Users">1. Export MediaWiki Users</span></h2>
-<p>See also <a rel="nofollow" class="external text" href="https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-mediawiki_sql_query-md">REAMDE in original gist</a>
-</p>
-<ul><li> Run this query from MySQL Workbench.</li></ul>
-<p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+This page describes how to query MediaWiki database and run an import script to create accounts within our fork ([WPD:Projects/SSO/Adapt\_Firefox\_Accounts\_for\_WebPlatform](/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform)) of Firefox Accounts ("FxA").
+
+To have an higher level description of how we implemented it, see [WPD:Projects/SSO/How\_we\_implemented\_it](/WPD:Projects/SSO/How_we_implemented_it).
+
+See canonical version in this [gist.github.com/WebPlatformDocs](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc)
+
+# <span>Process</span>
+
+-   Requires NodeJS, NPM
+-   Clone [fxa-auth-server](https://github.com/webplatform/fxa-auth-server) in a folder of the same name
+-   Install dependencies in fxa-auth-server with `npm install`
+-   Go a folder up, create a new one and paste the following in it
+
+## <span>1. Export MediaWiki Users</span>
+
+See also [REAMDE in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-mediawiki_sql_query-md)
+
+-   Run this query from MySQL Workbench.
+
+``` html
     SELECT
       CONVERT(user_name USING utf8),
       CONVERT(user_real_name USING utf8),
@@ -32,26 +33,25 @@ path: Projects/SSO/Importing_users_from_MediaWiki_to_Firefox_Accounts
       user
     ORDER BY user_id
     LIMIT 40000;
-</pre>
-<p><br />
-</p>
-<ul><li> Export the result in a file `users.csv`, it’ll be used to import</li>
-<li> Make sure the output is a CSV file 
-<ul><li> one entry per line</li>
-<li> Fields in this order:  username, realname, email, creation date</li></ul></li></ul>
-<p>Should look like...
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+-   Export the result in a file \`users.csv\`, it’ll be used to import
+-   Make sure the output is a CSV file
+    -   one entry per line
+    -   Fields in this order: username, realname, email, creation date
+
+Should look like...
+
+``` html
 WikiSysop,,team-webplatform-admin@w3.org,"2012-05-29 17:37:32"
 NoEmailUser,"Eliot Graff",,"2012-06-26 00:17:47"
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="2._Create_file_run.js">2. Create file run.js</span></h2>
-<p>See also <a rel="nofollow" class="external text" href="https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-run-js">run.js in original gist</a>
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+## <span>2. Create file run.js</span>
+
+See also [run.js in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-run-js)
+
+``` html
 /**
  * Import MediaWiki accounts file to run
  *
@@ -109,14 +109,13 @@ function waitForAllPromises() {
     console.error(errors);
   });
 }
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="3._Create_file_accountscreator.js">3. Create file accountscreator.js</span></h2>
-<p>See also <a rel="nofollow" class="external text" href="https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-accountscreator-js">accountscreator.js in original gist</a>
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+## <span>3. Create file accountscreator.js</span>
+
+See also [accountscreator.js in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-accountscreator-js)
+
+``` html
 /**
  * Import MediaWiki accounts
  *
@@ -125,7 +124,7 @@ function waitForAllPromises() {
  * Based on work pushed in https://github.com/mozilla/fxa-auth-server/pull/711
  *
  * See documentation at http://docs.webplatform.org/wiki/WPD:Projects/SSO/Importing_users_from_MediaWiki_to_Firefox_Accounts
- * 
+ *
  * @author Renoir Boulanger <renoir@w3.org>
  */
 
@@ -194,14 +193,13 @@ AccountCreator.prototype.makePromiseToCreate = function makePromiseToCreate () {
 };
 
 module.exports = AccountCreator;
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="4._Create_a_new_package.json">4. Create a new package.json</span></h2>
-<p>See original <a rel="nofollow" class="external text" href="https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-package-json">package.json gist</a>
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+## <span>4. Create a new package.json</span>
+
+See original [package.json gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-package-json)
+
+``` html
 {
   "name": "mediawiki-to-fxa-user-importer",
   "version": "0.0.1",
@@ -211,40 +209,18 @@ module.exports = AccountCreator;
     "sleep": "~1.1.5"
   }
 }
-</pre>
-<p><br />
-Run 
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+ Run
+
+``` html
 npm install
-</pre>
-<p><br />
-</p>
-<h2><span class="mw-headline" id="5._Run_import_script">5. Run import script</span></h2>
-<p>Note that this step can take some time. With ~39 000 users, it took a bit more than an hour to run in full.
-</p><p><br />
-</p>
-<pre class="language-html5" data-lang="html5">
+```
+
+## <span>5. Run import script</span>
+
+Note that this step can take some time. With \~39 000 users, it took a bit more than an hour to run in full.
+
+``` html
 node run.js
-</pre>
-
-<!-- 
-NewPP limit report
-CPU time usage: 0.022 seconds
-Real time usage: 0.023 seconds
-Preprocessor visited node count: 83/1000000
-Preprocessor generated node count: 172/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
-Highest expansion depth: 2/40
-Expensive parser function count: 0/100
--->
-
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.000      1 - -total
--->
-
-<!-- Saved in parser cache with key wpwiki:pcache:idhash:23275-0!*!0!!*!*!*!esi=1 and timestamp 20150810164749 and revision id 56281
- -->
+```
