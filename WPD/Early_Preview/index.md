@@ -7,7 +7,7 @@ Before we make a larger announcement, we want to invite a bunch of folks to an e
 
 To avoid spoiling the surprise, we'll limit the number of folks who can participate in the early preview. We'll make it so that the user accounts have to created by hand, and each person who wants an account will have to contact the Administrator (most likely Doug) and tell him how they found out about it before getting an account.
 
-## <span>Early Preview Process</span>
+## Early Preview Process
 
 1.  Check the [spreadsheet](https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdGFqdmNienVndXFKMzRGakZKWGtSRUE#gid=0) to see which folks you are listed as the sponsor of. If you see folks without a sponsor that you know **please sign up as their sponsor.**
 2.  Reach out to everyone that you are a sponsor with to brief them on the project (chat, phone calls, e-mail are all reasonable). Emphasize that it is confidential (and why!) until the alpha announcement, which will be soon. Keep things vague to start. Once they have expressed interest and committed to keeping it confidential for now, move on to the next step.

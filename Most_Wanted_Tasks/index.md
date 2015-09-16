@@ -13,7 +13,7 @@ todo_broken_links:
 uri: 'WPD:Most Wanted Tasks'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A quick list of things that could be done around the site.
 
@@ -23,11 +23,11 @@ Working on the Web Platform DocSprint in Mountain View (12/12/12)? Use this trac
 
 Thanks in advance for any task completed!
 
-### <span>Five-minute tasks</span>
+### Five-minute tasks
 
 -   Import an article or two worth of compatibility information from CoreMob's published compatibility table: <https://docs.google.com/spreadsheet/ccc?key=0AuIhlK0fCwP4dEFPR1pUWHk1QVczcV9xbFAtX19CMXc#gid=0>
 
-### <span>Half-hour tasks</span>
+### Half-hour tasks
 
 -   Help improve the JavaScript libraries page [bug 19834](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19834)
 
@@ -37,7 +37,7 @@ Thanks in advance for any task completed!
 
 -   Clean the HTML tutorials [bug 19720](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19720)
 
-### <span>Half-day tasks</span>
+### Half-day tasks
 
 -   Help improve HTML attribute pages [bug 19500](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19500)
 
@@ -57,27 +57,27 @@ Note: These tasks are under half day tasks, but individual edits would be **far*
 
 -   Expand Topics on almost every page. Every page should have multiple topics.
 
-### <span>Brainstorming</span>
+### Brainstorming
 
 -   Let's find a way to display CSS properties better [bug 19835](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19835)
 
-### <span>Always going</span>
+### Always going
 
 -   Clean up pages that do not have needed templates.
 
-## <span>Other tasks to choose from</span>
+## Other tasks to choose from
 
-## <span>Specific call to action: help clean up HTML element references</span>
+## Specific call to action: help clean up HTML element references
 
 I would like to call upon anyone interested to help start going through the HTML element reference pages and surrounding structures. I have written a detailed reference to creating/editing reference articles, which will help. See [Reference articles](/WPD:Content/Reference_articles).
 
-### <span>Things that need to be done</span>
+### Things that need to be done
 
 -   All HTML element reference pages (except the ones mentioned below). See <http://docs.webplatform.org/wiki/html/elements> for a list!
 -   Adding a table into the main content of each article to say what attributes they can take. See <http://docs.webplatform.org/wiki/html/attributes> for the list of links you can choose from!
 -   Linking up each HTML element page to its relevant DOM Interface. See <http://docs.webplatform.org/wiki/dom> for the full list.
 
-### <span>Things already done</span>
+### Things already done
 
 -   Changed link to HTML elements page on [main HTML page](/html) from <http://docs.webplatform.org/wiki/HTML/Elements> to <http://docs.webplatform.org/wiki/html/elements>.
 -   Kept list of subpages at <http://docs.webplatform.org/wiki/html/elements>, but moved useful content from <http://docs.webplatform.org/wiki/HTML/Elements> on to it.
@@ -85,17 +85,17 @@ I would like to call upon anyone interested to help start going through the HTML
 -   The [Paragraph element](/html/elements/p) page has been pretty much completed: you can use this for a reference when completing other reference pages.
 -   Help [Touch Pages](/w/index.php?title=WPD:Touch_Pages&action=edit&redlink=1) -- This is done 11/2/2012 EPG
 
-### <span>Pages being worked on</span>
+### Pages being worked on
 
 -   [Blockquote](/html/elements/blockquote) worked on by [Michelle Carlough](/User:Michistar)
 
 -   [ul](/html/elements/ul) worked on by [Michelle Carlough](/User:Michistar)
 
-#### <span>Completed pages</span>
+#### Completed pages
 
 -   [The paragraph element](/html/elements/p)
 
-### <span>[fr0zenice's](/User:Frozenice) notes on updating the paragraph element page</span>
+### [fr0zenice's](/User:Frozenice) notes on updating the paragraph element page
 
 -   check what the editor before me had done: <http://docs.webplatform.org/w/index.php?title=html%2Felements%2Fp&diff=13355&oldid=9438>
     -   summary, remarks and some other stuff as it seems
@@ -121,25 +121,25 @@ I would like to call upon anyone interested to help start going through the HTML
     -   cells become "{{!}} text" instead of "| text"
     -   pipes DO NOT need replacing in link-markups in tables, e.g. this is fine: "{{!}}Sets an [[dom/attributes|'''attribute''']] object node as part of the object."
 
-## <span>Specific call to action: help clean up DOM interface references</span>
+## Specific call to action: help clean up DOM interface references
 
 See <http://docs.webplatform.org/wiki/dom>
 
 TO BE WRITTEN!
 
-## <span>Specific call to action: help clean up HTML attribute references</span>
+## Specific call to action: help clean up HTML attribute references
 
 See <http://docs.webplatform.org/wiki/html/attributes>
 
 TO BE WRITTEN!
 
-## <span>Specific call to action: help clean up tutorials/concepts!</span>
+## Specific call to action: help clean up tutorials/concepts!
 
 I would like to call upon anyone who wants to help to start going through tutorials/concept articles, checking syntax, spelling, and grammar; making sure links and images work; and making improvements as you see fit.
 
 You can find a detailed guide to handling tutorials and concept articles at [Tutorials and concept articles](/WPD:Content/Tutorials_and_concept_articles). Follow the different steps on this page, and make sure everything looks ok, to go through a tutorial/concept successfully. Let [[Chris Mills know](mailto:cmills@opera.com)] if you have any problems, want your work checked, or have any suggestions about improving the process.
 
-## <span>Notes</span>
+## Notes
 
 Things should be placed at a conservative "best-guess" time-frame and try to fit in with what is specified on the Getting Started Guide.
 

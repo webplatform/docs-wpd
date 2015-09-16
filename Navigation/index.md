@@ -8,13 +8,13 @@ todo_broken_links:
 uri: 'WPD:Navigation'
 
 ---
-## <span>URLs</span>
+## URLs
 
 In addition to the [WebPlatform.org](http://webplatform.org) domain, we also have the domains [wpd.cc](http://wpd.cc), [WebPlatformDocs.org](http://webplatformdocs.org), and [WebPlatformDocs.com](http://webplatformdocs.com), which redirect to [WebPlatform.org/docs/](http://webplatform.org/docs/).
 
 The [WebPlatformDocs.org](http://webplatformdocs.org) and [WebPlatformDocs.com](http://webplatformdocs.com) domains are simply there to catch typos and people who hear "Web Platform Docs" and attempt to simply type the direct URL, and to a lesser extent, to prevent typosquatting; these domains are not intended to be published or promoted at all.
 
-### <span>Shortname: WPD</span>
+### Shortname: WPD
 
 The [wpd.cc](http://wpd.cc) domain, however, is meant to be part of our strategy. For link-sharing on Twitter or other character-limiting services, having a shortname like this will be useful (e.g. [wpd.cc/css/properties/border-radius](http://wpd.cc/css/properties/border-radius)); **WebPlatform.org/docs/** is 21 characters long, while **wpd.cc/** is only 7 characters long.
 
@@ -24,7 +24,7 @@ We may choose to have a "share" link (a la Web Intents) on each page, which may 
 
 We should evaluate what positive or negative effects this would have on site performance and on SEO.
 
-### <span>Internal Redirects</span>
+### Internal Redirects
 
 We may wish to set up shorter redirects for our "leaf" articles, such as those for CSS properties. For example, [WebPlatform.org/docs/border-radius](/w/index.php?title=border-radius&action=edit&redlink=1) could redirect to [WebPlatform.org/docs/css/properties/border-radius](/w/index.php?title=WebPlatform.org/docs/css/properties/border-radius&action=edit&redlink=1).
 
@@ -40,7 +40,7 @@ If we want to preserve some structure to our redirects, we could opt for somethi
 -   WebPlatform.org/docs/css/border-radius
 -   WebPlatform.org/docs/cssprops/border-radius
 
-## <span>Site Searches</span>
+## Site Searches
 
 Our site searches should have a progressive autosuggest/autofiltering mechanism, like [DocHub.io](http://dochub.io/). As the user types, a set of options are presented to them, based on the title of the article (which includes most or all keywords). This will satisfy most queries that a user might have if they already have an idea of what they are looking for, and bypasses the need to load a separate results page if the user is looking for a titled article.
 
@@ -48,11 +48,11 @@ If the user clicks on the "search" button, a traditional full-text search of art
 
 There could be some refinements on the results, however.
 
-### <span>Full-Text vs. Word-Start</span>
+### Full-Text vs. Word-Start
 
 There might be a picker control (checkbox, options) to allow the user to specify whether they want the typed string to come only at the beginning of the word, or if the string can occur anywhere in the title article. For example, with *full-text*, the string **for** would return both **format** and **transform**, where with *word-start*, the string **for** would return only **format**, not **transform**.
 
-### <span>Categorization</span>
+### Categorization
 
 Instead of requiring the user to first select a search category, as with DocHub, we might have categorized results from all topics (HTML, SVG, MathML, CSS, JavaScript, DOM, Events, and so on). For example, typing the word **for** might yield the following results:
 
@@ -121,17 +121,17 @@ Instead of requiring the user to first select a search category, as with DocHub,
 
 Each topic header might be collapsible or even removable from the results. This would make long results easier to view, search, and select. Alternately, the user could click upvote or downvote buttons for any given topic to set the preference to move those results up or down in future results.
 
-### <span>Toggling Topics</span>
+### Toggling Topics
 
 There might be a picker control (checkbox, options, selectbox) to allow the user to specify beforehand with topics (e.g. HTML, SVG, MathML, CSS, JavaScript, DOM, Events) they want to confine the search to. Given the value of page space and the clutter risk, however, the collapsible or removable results might be more effective as a UI. We might consider allowing users to set an persistent search preference to confine or order the results, but that doesn't seem like an important feature.
 
-## <span>Categories</span>
+## Categories
 
 Semantic MediaWiki has the ability to collect links to pages based on categories or tags, and we should expose that as widely as possible.
 
 For example, there should be a page with all articles including CSS properties, with a link to that page from each CSS property page. In addition, we might have finer-grained categories; for example, all article on the CSS property *font*, such as *font-size*, *font-weight*, etc. would be linked under the "Related Articles" section on each *font*-related property article.
 
-## <span>Breadcrumbs</span>
+## Breadcrumbs
 
 Because we are using a topical hierarchical site structure, with subpages of topics, we will have breadcrumbs at the top of the page to allow the user to return to the next-higher level of abstraction. (Note: these will be hierarchical breadcrumbs, not path-followed breadcrumbs.)
 

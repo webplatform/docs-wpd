@@ -8,11 +8,11 @@ tags:
 uri: 'WPD:Editors Guide/step 4 review existing content'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is Step 4 of the Editor's Guide.
 
-## <span>Step 4. Review existing content</span>
+## Step 4. Review existing content
 
 All of Web Platform Docs are in review at all times! Okay, seriously though, this means you should always have your editor's hat on when reading through these pages. When you see something that needs fixing, yup, fix it!
 
@@ -20,19 +20,19 @@ If you're not sure whether to fix something or how, you can at least set a flag 
 
 For lists of pages that have been identified as needing review (with the flag, "Needs Review"), see [Review content](/WPD:Getting_Started#Review_content) in the [Getting Started guide](/WPD:Getting_Started).
 
-### <span>Flag issues to identify pages with broken links, spelling, product bias, and other problems</span>
+### Flag issues to identify pages with broken links, spelling, product bias, and other problems
 
 -   Click the Edit button in the top right corner of the article and choose Edit to access the check boxes used to flag issues.
 
 ![Screenshot of the editing interface](/WPD/assets/public/5/59/edit_interface.png)
 
-### <span>Mark articles that need revisions by checking the corresponding check boxes</span>
+### Mark articles that need revisions by checking the corresponding check boxes
 
 In this wiki, we use flags to mark articles that require fixes or additional work. By flagging pages, you are helping the community track issues. Flags are set up to automatically create lists of tasks to accomplish.
 
 Flags are used in conjunction with comments to provide more details about the content to fix on a page. Flags are used to mark issues for an entire page; they enable editors to locate pages that require specific kinds of work. Comments are used to describe issues with a specific section of the page; they help editors quickly find the areas within a page to change.
 
-## <span>How to add a flag</span>
+## How to add a flag
 
 When you see an issue with a page, to add a flag, go to the page to be flagged and click on the Edit button to see the editing interface. This is essentially a form with check boxes and fields, including the text field that contains the page content.
 
@@ -44,7 +44,7 @@ For example, if you enabled the Merge Candidate check box and you are suggesting
 
     {{Editorial/Merge_Candidate|Other=css/atrules}}
 
-## <span>List of work item flags</span>
+## List of work item flags
 
 Flagged articles are automatically marked as work items, so that contributors can resolve issues and ensure the page meets the WebPlatform's quality standards. One of the primary goals of contributors is to fix the issues that the flags specify, and to eventually have no remaining work item flags to address.
 
@@ -52,7 +52,7 @@ Different flags use different guidelines that dictate when they should be applie
 
 Here is the full list of high and low priority flags used in the wiki:
 
-### <span>Content quality (high priority issues)</span>
+### Content quality (high priority issues)
 
 -   [Stub](/WPD:Flags/Stub)
 -   [Deletion Candidate](/WPD:Flags/Deletion_Candidate)
@@ -66,7 +66,7 @@ Here is the full list of high and low priority flags used in the wiki:
 -   [Data Not Semantic](/WPD:Flags/Data_Not_Semantic)
 -   [Unreviewed Import](/WPD:Flags/Unreviewed_Import)
 
-### <span>Content quality (low priority issues)</span>
+### Content quality (low priority issues)
 
 -   [Content Outdated](/WPD:Flags/Content_Outdated)
 -   [Content Incomplete](/WPD:Flags/Content_Incomplete)
@@ -81,13 +81,13 @@ Here is the full list of high and low priority flags used in the wiki:
 -   [Examples Errors](/WPD:Flags/Examples_Errors)
 -   [Examples Best Practices](/WPD:Flags/Examples_Best_Practices)
 
-### <span>Notify other editors about pages that require revisions</span>
+### Notify other editors about pages that require revisions
 
 -   Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the [the public-webplatform@w3.org mailing list](mailto:public-webplatform@w3.org), or post messages in the [forum](http://talk.webplatform.org/forums).
 
 See [Step 2 of the Editor's Guide](/WPD:Editors_Guide/step_2_communicate_with_the_online_community) for more details.
 
-## <span>Check the topics and topic clusters</span>
+## Check the topics and topic clusters
 
 While you're reviewing the content, take a sharp look at the topics and topic cluster tags assigned. In many cases these may not be applied properly, and it's difficult to tell if there is a problem. See [Topics and topic clusters](/WPD:Editors_Guide/step_6_author_or_upload_new_content#Topics_and_topic_clusters) for guidance.
 

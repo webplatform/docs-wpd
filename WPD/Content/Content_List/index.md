@@ -27,9 +27,9 @@ This is a list of all the existing content that has been donated to the webplatf
 
 5.  also need to proof/edit articles at some point
 
-## <span>Tutorials</span>
+## Tutorials
 
-### <span>ARTICLE BATCH 1</span>
+### ARTICLE BATCH 1
 
 **OWNER: CHRIS MILLS**
 
@@ -37,13 +37,13 @@ This is a list of all the existing content that has been donated to the webplatf
 
 -   Introductory text. We've already got [[Introduction to the Web Standards Curriculum](http://www.w3.org/community/webed/wiki/Introduction_to_the_Web_Standards_Curriculum)] (Opera), but this is hardly ideal, as it is specific for the web standards curriculum.
 
-#### <span>Introduction to the world of web standards</span>
+#### Introduction to the world of web standards
 
 -   [The history of the Internet and the web, and the evolution of web standards](http://www.w3.org/community/webed/wiki/The_history_of_the_Web) (Opera)
 -   [How does the Internet work](http://www.w3.org/community/webed/wiki/How_does_the_Internet_work)? (Opera)
 -   [The web standards model - HTML CSS and JavaScript](http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript) (Opera)
 
-#### <span>Web Design Concepts</span>
+#### Web Design Concepts
 
 -   Introduction to planning a web site
 -   Scoping and user research
@@ -57,18 +57,18 @@ This is a list of all the existing content that has been donated to the webplatf
 -   Mockups and prototypes
 -   User experience design
 
-### <span>ARTICLE BATCH 2</span>
+### ARTICLE BATCH 2
 
 **OWNER: CHRIS MILLS**
 
-#### <span>HTML beginnings</span>
+#### HTML beginnings
 
 -   [The basics of HTML](http://www.w3.org/community/webed/wiki/The_basics_of_HTML) (Opera)
 -   [Doctypes and markup styles](http://www.w3.org/community/webed/wiki/Doctypes_and_markup_styles) (Opera)
 -   [The HTML \<head\> element](http://www.w3.org/community/webed/wiki/The_HTML_head_element) (Opera)
 -   [More about the document \<head\>](http://www.w3.org/community/webed/wiki/More_about_the_document_head) (Opera)
 
-#### <span>The HTML body</span>
+#### The HTML body
 
 -   [Marking up textual content in HTML](http://www.w3.org/community/webed/wiki/Marking_up_textual_content_in_HTML) (Opera)
 -   [HTML Lists](http://www.w3.org/community/webed/wiki/HTML_lists) (Opera)
@@ -82,13 +82,13 @@ This is a list of all the existing content that has been donated to the webplatf
 -   [Creating multiple pages with navigation menus](http://www.w3.org/community/webed/wiki/Creating_multiple_pages_with_navigation_menus) (Opera)
 -   [Validating your HTML](http://www.w3.org/community/webed/wiki/Validating_your_HTML) (Opera)
 
-### <span>ARTICLE BATCH 3</span>
+### ARTICLE BATCH 3
 
 **OWNER: Eliot**
 
 **Notes: Someone with a good knowledge of accessibility should handle this section, preferably someone from WAI, like Shawn. The WAI should at least be consulted, as I believe they have done some work on working out a11y content for webplatform.org already.**
 
-#### <span>Accessibility</span>
+#### Accessibility
 
 We've already got
 
@@ -104,15 +104,15 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 5.  REAL A11Y TESTING WITH REAL PEOPLE, HOW TO PUT TOGETHER FOCUS GROUPS, WHAT TO LOOK FOR HERE
 6.  COMMON SENSE - SOLUTIONS FOR COMMON ACCESSIBILITY ISSUES - A ROADMAP FOR FIXING ISSUES. START WITH SEMANTIC HTML, THEN GO TO VIDEO AND AUDIO CONTENT, JAVASCRIPT, AJAX, ALTERNATIVES. }
 
-#### <span>Accessibility sources</span>
+#### Accessibility sources
 
 -   [Accessibility](http://www.w3.org/WAI/yourWAI) (W3C)
 
-### <span>ARTICLE BATCH 4</span>
+### ARTICLE BATCH 4
 
 **OWNER: CHRIS MILLS (Lea to help)**
 
-#### <span>CSS</span>
+#### CSS
 
 -   [What is CSS](https://developer.mozilla.org/en/CSS/Getting_Started/What_is_CSS) (Mozilla)
 -   [Why use CSS](https://developer.mozilla.org/en/CSS/Getting_Started/Why_use_CSS) (Mozilla)
@@ -135,13 +135,13 @@ But I THINK THIS NEEDS TO BE EXPANDED OUT TO SEVERAL ARTICLES, TO COVER DIFFEREN
 -   Border-image
 -   box-shadow
 
-### <span>ARTICLE BATCH 5</span>
+### ARTICLE BATCH 5
 
 **OWNER: CHRIS MILLS (Lea to help)**
 
 Notes: the owner of this batch should checkout the Adobe <http://beta.theexpressiveweb.com/> resource, to see what tutorials we can use from there. They are willing to donate those to the project/
 
-#### <span>CSS</span>
+#### CSS
 
 -   [Styling lists and links](http://www.w3.org/community/webed/wiki/Styling_lists_and_links) (Opera)
 -   [Lists](https://developer.mozilla.org/en/CSS/Getting_Started/Lists) (Mozilla)
@@ -169,17 +169,17 @@ Notes: the owner of this batch should checkout the Adobe <http://beta.theexpress
 8.  NEW CHAPTER - OPTIMIZING CSS (INCLUDE IDEAS FOR OPTIMIZING FOR MOBILE ETC.)
 9.  NEW CHAPTER - State in CSS (Lea)
 
-#### <span>Sources</span>
+#### Sources
 
 Adobe are willing to donate the great tutorials available at <http://beta.theexpressiveweb.com/>.
 
-### <span>ARTICLE BATCH 6</span>
+### ARTICLE BATCH 6
 
 **OWNER: PAUL IRISH**
 
 **Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.**
 
-#### <span>JavaScript</span>
+#### JavaScript
 
 The following is a list of proposed topics: there is still much that can be added here, but we wanted to get the initial idea posted and will continue to add/update.
 
@@ -226,13 +226,13 @@ The following is a list of proposed topics: there is still much that can be adde
 12. [Handling events with JavaScript](http://www.w3.org/wiki/Handling_events_with_JavaScript) (Opera) - duplicate of batch 8
     1.  Probably needs expanding
 
-### <span>ARTICLE BATCH 7</span>
+### ARTICLE BATCH 7
 
 **OWNER: ELIOT GRAFF (maybe break off the Canvas pieces)**
 
 **Notes: This batch may seem like a lot, but it is in fact not that big - many of these are just stubs.**
 
-#### <span>JavaScript</span>
+#### JavaScript
 
 1.  User interaction
     1.  Clicking buttons
@@ -314,13 +314,13 @@ The following is a list of proposed topics: there is still much that can be adde
     1.  Browser support
     2.  Cover additions...
 
-### <span>ARTICLE BATCH 8</span>
+### ARTICLE BATCH 8
 
 **OWNER: CHRIS MILLS (to likely find someone from Opera)**
 
 **Notes: Most of these will have been added in as part of one of the previous JS batches, but just give this a quick check to see if anything has been missed.**
 
-#### <span>JavaScript</span>
+#### JavaScript
 
 Opera has the following available:
 
@@ -340,7 +340,7 @@ Opera has the following available:
 14. NEW CHAPTER - OPTIMIZING JAVASCRIPT (INCLUDE IDEAS FOR OPTIMIZING FOR MOBILE ETC.)
 15. NEW CHAPTER - TOUCH EVENTS. THESE DEFINITELY NEED COVERAGE, AS THEY ARE GETTING VERY BIG THESE DAYS. TOUCH DEVICES ARE IMPORTANT.
 
-### <span>ARTICLE BATCH 9</span>
+### ARTICLE BATCH 9
 
 **OWNER: JANET SWISHER**
 
@@ -368,11 +368,11 @@ These are available from Mozilla:
 -   [A re-introduction to JavaScript](https://developer.mozilla.org/en/JavaScript/A_re-introduction_to_JavaScript) (1 page)
 -   [Introduction to object-oriented JavaScript](https://developer.mozilla.org/en/Introduction_to_Object-Oriented_JavaScript) (1 page)
 
-### <span>ARTICLE BATCH 10</span>
+### ARTICLE BATCH 10
 
 **OWNER: TOBIE LANGEL**
 
-#### <span>Facebook HTML5 API content</span>
+#### Facebook HTML5 API content
 
 -   [HTML5 Showcase](https://developers.facebook.com/html5/showcase/)
 -   [Building Web Apps](https://developers.facebook.com/html5/build/richui/)
@@ -386,11 +386,11 @@ These are available from Mozilla:
 -   [Testing Web Apps](https://developers.facebook.com/html5/test/)
 -   [Distributing Web Apps](https://developers.facebook.com/html5/distribution/)
 
-### <span>ARTICLE BATCH 11</span>
+### ARTICLE BATCH 11
 
 **OWNER: SCOTT ROWE**
 
-#### <span>Google HTML5 API content</span>
+#### Google HTML5 API content
 
 *Donated from <http://www.html5rocks.com/en/tutorials/>*
 
@@ -415,11 +415,11 @@ These are available from Mozilla:
 -   [Client-Side Storage](http://www.html5rocks.com/en/tutorials/offline/storage/)
 -   [Quick hits with the Flexible Box Model](http://www.html5rocks.com/en/tutorials/flexbox/quick/) - Out of date
 
-### <span>ARTICLE BATCH 12</span>
+### ARTICLE BATCH 12
 
 **OWNER: SCOTT ROWE**
 
-#### <span>Google HTML5 API content (donated from <http://www.html5rocks.com/en/tutorials/>)</span>
+#### Google HTML5 API content (donated from <http://www.html5rocks.com/en/tutorials/>)
 
 -   [Introducing WebSockets: Bringing Sockets to the Web](http://www.html5rocks.com/en/tutorials/websockets/basics/)
 -   [Stream Updates with Server-Sent Events](http://www.html5rocks.com/en/tutorials/eventsource/basics/)
@@ -442,11 +442,11 @@ These are available from Mozilla:
 -   [New Tricks in XMLHttpRequest2](http://www.html5rocks.com/tutorials/file/xhr2/)
 -   [Rendering HTML5 in older browsers with Google Chrome Frame](http://www.html5rocks.com/tutorials/google-chrome-frame/)
 
-### <span>ARTICLE BATCH 13</span>
+### ARTICLE BATCH 13
 
 **OWNER: SCOTT ROWE**
 
-#### <span>Google HTML5 API content (donated from <http://www.html5rocks.com/en/tutorials/>)</span>
+#### Google HTML5 API content (donated from <http://www.html5rocks.com/en/tutorials/>)
 
 -   [Working Off the Grid with HTML5 Offline](http://www.html5rocks.com/mobile/workingoffthegrid.html)
 -   [An Introduction to Shaders](http://www.html5rocks.com/tutorials/webgl/shaders/)
@@ -468,13 +468,13 @@ These are available from Mozilla:
 -   [Migrating your WebSQL DB to IndexedDB](http://www.html5rocks.com/tutorials/webdatabase/websql-indexeddb/)
 -   [Case Study: Building the Stanisław Lem Google doodle](http://www.html5rocks.com/tutorials/doodles/lem/)
 
-### <span>ARTICLE BATCH 14</span>
+### ARTICLE BATCH 14
 
 **OWNER: WAI SETO**
 
 **Notes: This section will be mostly stubs, and we really need someone to think carefully about what structure our mobile and device material should have.**
 
-#### <span>Mobile and devices</span>
+#### Mobile and devices
 
 We already have
 
@@ -511,18 +511,18 @@ OTHER THINGS TO ADD ELSEWHERE IN THE MATERIAL
 1.  WE SHOULD WRITE AN ARTICLE TITLED "ONE WEB, MANY DEVICES", PLACED INSIDE <http://www.w3.org/wiki/Web_Standards_Curriculum#Introduction_to_the_world_of_web_standards>
 2.  WE SHOULD ALSO SAY SOMETHING ABOUT SEMANTICS AND DIVERSE DEVICES IN <http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript>
 
-### <span>ARTICLE BATCH 15</span>
+### ARTICLE BATCH 15
 
 **OWNER: DOUG SCHEPERS (Doug to communicate with Jeremie, and SVG WG)**
 
-#### <span>SVG</span>
+#### SVG
 
 Source of inspiration :
 
 -   <http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html>
 -   <https://developer.mozilla.org/en/SVG/Tutorial>
 
-##### <span>SVG BASICS</span>
+##### SVG BASICS
 
 1.  *History and usage* : As for HTML, it could be good to start by giving some context: What is it, Where does it come, What is it made for, How is it different than HTML? ([Introduction](https://developer.mozilla.org/en/SVG/Tutorial/Introduction) from Mozilla)
 2.  *Syntax and deployment* : This part would introduce the basic syntax, the concept of viewport and absolute positioning and finally how to embed an SVG document inside other language (basically HTML and CSS). ([Simple example, basic properties, file types](https://developer.mozilla.org/en/SVG/Tutorial/Getting_Started) from Mozilla)
@@ -532,7 +532,7 @@ Source of inspiration :
 6.  *Styling SVG* : This is where we would detailed how to use presentation attributes and their CSS counterpart.
 7.  *Scripting SVG* : Where we could introduce the SVG DOM API.
 
-#### <span>Part 2 : SVG ADVANCED</span>
+#### Part 2 : SVG ADVANCED
 
 1.  *How to build Pathes* : To dig into the syntax of the d attribute on path elements ([Paths](https://developer.mozilla.org/en/SVG/Tutorial/Paths) from Mozilla)
 2.  *[Fills and strokes](https://developer.mozilla.org/en/SVG/Tutorial/Fills_and_Strokes)* (Mozilla)
@@ -545,14 +545,14 @@ Source of inspiration :
 9.  *[SVG fonts](https://developer.mozilla.org/en/SVG/Tutorial/SVG_Fonts)* (Mozilla)
 10. *[SVG image element](https://developer.mozilla.org/en/SVG/Tutorial/SVG_Image_Tag)* (Mozilla)
 
-#### <span>Other content sources</span>
+#### Other content sources
 
 Ex-Opera articles
 
 1.  [SVG Primer](http://www.w3.org/wiki/SVG_Primer) (written by David Storey, but unused)
 2.  [SVG Links](http://www.w3.org/wiki/SVG_Links) (written by David Storey, but unused)
 
-### <span>ARTICLE BATCH 16</span>
+### ARTICLE BATCH 16
 
 **OWNER: DOUG SCHEPERS (Doug to communicate with Jeremie, and SVG WG)**
 
@@ -577,17 +577,17 @@ Ex-Opera articles
 -   [Gandhi Quotes](http://svg-wow.org//blog/2010/10/05/gandhi-quotes)
 -   [Rotozoom video](http://svg-wow.org//blog/2011/03/28/rotozoom-video)
 
-### <span>ARTICLE BATCH 17</span>
+### ARTICLE BATCH 17
 
 **OWNER: PETER LUBBERS**
 
-#### <span>Supplementary articles</span>
+#### Supplementary articles
 
 -   [Getting your content online](http://www.w3.org/wiki/Getting_your_content_online) (Opera)
 -   [Common HTML entities used for typography](http://www.w3.org/wiki/Common_HTML_entities_used_for_typography) (Opera)
 -   [The Opera Web Standards Curriculum glossary](http://www.w3.org/wiki/The_web_standards_curriculum_glossary) (Opera) This is incomplete, and will be added to as time goes by.
 
-### <span>Internet Basics</span>
+### Internet Basics
 
 -   HTTP status codes
 -   MIME Types
@@ -604,87 +604,87 @@ Ex-Opera articles
 -   Basic security
 -   History of Internet and Web
 
-## <span>References</span>
+## References
 
-### <span>ARTICLE BATCH 18</span>
+### ARTICLE BATCH 18
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>HTML</span>
+#### HTML
 
 -   [HTML Reference](http://msdn.microsoft.com/en-US/library/ie/hh772960.aspx) (Microsoft)
 
 -   [HTML Reference](http://www.w3.org/community/webed/wiki/HTML) (W3C)
 
-### <span>ARTICLE BATCH 19</span>
+### ARTICLE BATCH 19
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>CSS</span>
+#### CSS
 
 -   [CSS Reference](http://msdn.microsoft.com/en-us/library/ie/ms531209(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 20</span>
+### ARTICLE BATCH 20
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>CSS</span>
+#### CSS
 
 -   [CSS Reference](http://www.w3.org/community/webed/wiki/CSS) (W3C)
 
-### <span>ARTICLE BATCH 21</span>
+### ARTICLE BATCH 21
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>Canvas</span>
+#### Canvas
 
 -   [CANVAS reference (element and 2D API)](http://msdn.microsoft.com/en-us/library/ie/hh771733(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 22</span>
+### ARTICLE BATCH 22
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>SVG</span>
+#### SVG
 
 -   [SVG reference](http://msdn.microsoft.com/en-us/library/ie/ff971903(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 23</span>
+### ARTICLE BATCH 23
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>DOM Transversal</span>
+#### DOM Transversal
 
 -   [DOM transversal reference](http://msdn.microsoft.com/en-us/library/ie/hh772120(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 24</span>
+### ARTICLE BATCH 24
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>DOM</span>
+#### DOM
 
 -   [DOM General reference](http://msdn.microsoft.com/en-us/library/ie/hh771916(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 25</span>
+### ARTICLE BATCH 25
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>DOM Events</span>
+#### DOM Events
 
 -   [DOM Events](http://msdn.microsoft.com/en-us/library/ie/hh771866(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 25A</span>
+### ARTICLE BATCH 25A
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>ARIA</span>
+#### ARIA
 
 -   [ARIA reference](http://msdn.microsoft.com/en-us/library/ie/hh801958(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 25B</span>
+### ARTICLE BATCH 25B
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>Web Apps</span>
+#### Web Apps
 
 -   [AppCache reference](http://msdn.microsoft.com/en-us/library/ie/hh673545(v=vs.85).aspx) (Microsoft)
 -   [File API reference](http://msdn.microsoft.com/en-us/library/ie/hh772315(v=vs.85).aspx) (Microsoft)
@@ -697,23 +697,23 @@ Ex-Opera articles
 -   [Web Storage reference](http://msdn.microsoft.com/en-US/library/ie/hh781511.aspx) (Microsoft)
 -   [XHR reference](http://msdn.microsoft.com/en-us/library/ie/hh772834(v=vs.85).aspx) (Microsoft)
 
-### <span>ARTICLE BATCH 25C</span>
+### ARTICLE BATCH 25C
 
 **OWNER: ELIOT GRAFF**
 
-#### <span>Media (Audio and Video)</span>
+#### Media (Audio and Video)
 
 -   [Media reference](http://msdn.microsoft.com/en-us/library/ie/hh772500(v=vs.85).aspx) (Microsoft)
 
-## <span>Curriculum structures</span>
+## Curriculum structures
 
 Seed content taken from [WaSP InterACT Curriculum structures](http://interact.webstandards.org/curriculum/). Most recent versions kept at [Overview of InterACT curriculum articles](http://www.w3.org/community/webed/wiki/Interact_Curriculum)
 
-### <span>ARTICLE BATCH 26</span>
+### ARTICLE BATCH 26
 
 **OWNER: DOUG SCHEPERS**
 
-#### <span>Basics and "soft" skills</span>
+#### Basics and "soft" skills
 
 -   [Internet Fundamentals](http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals)
 -   [Digital Design Production](http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production)
@@ -723,11 +723,11 @@ Seed content taken from [WaSP InterACT Curriculum structures](http://interact.we
 -   [Independent Study](http://www.w3.org/community/webed/wiki/Interact/Independent_Study)
 -   [Internship](http://www.w3.org/community/webed/wiki/Interact/Internship)
 
-### <span>ARTICLE BATCH 27</span>
+### ARTICLE BATCH 27
 
 **OWNER: DOUG SCHEPERS**
 
-#### <span>Web design</span>
+#### Web design
 
 -   [Web Design 1](http://www.w3.org/community/webed/wiki/Interact/Web_Design_1)
 -   [Web Design 2](http://www.w3.org/community/webed/wiki/Interact/Web_Design_2)
@@ -737,18 +737,18 @@ Seed content taken from [WaSP InterACT Curriculum structures](http://interact.we
 -   [Interaction Design 1](http://www.w3.org/community/webed/wiki/Interact/Interaction_Design_1)
 -   [Prototyping](http://www.w3.org/community/webed/wiki/Interact/Prototyping)
 
-### <span>ARTICLE BATCH 28</span>
+### ARTICLE BATCH 28
 
 **OWNER: DOUG SCHEPERS**
 
-#### <span>Web development</span>
+#### Web development
 
 -   [DOM Scripting 1](http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1)
 -   [Server-side Scripting 1](http://www.w3.org/community/webed/wiki/Interact/Server-Side_Scripting_1)
 
-## <span>Miscellaneous - not sure what to do with these yet</span>
+## Miscellaneous - not sure what to do with these yet
 
-### <span>ARTICLE BATCH 29</span>
+### ARTICLE BATCH 29
 
 **OWNER: DOM (Doug to followup with Dom)**
 

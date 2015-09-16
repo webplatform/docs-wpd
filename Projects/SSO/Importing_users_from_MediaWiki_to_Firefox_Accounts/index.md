@@ -9,14 +9,14 @@ To have an higher level description of how we implemented it, see [WPD:Projects/
 
 See canonical version in this [gist.github.com/WebPlatformDocs](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc)
 
-# <span>Process</span>
+# Process
 
 -   Requires NodeJS, NPM
 -   Clone [fxa-auth-server](https://github.com/webplatform/fxa-auth-server) in a folder of the same name
 -   Install dependencies in fxa-auth-server with `npm install`
 -   Go a folder up, create a new one and paste the following in it
 
-## <span>1. Export MediaWiki Users</span>
+## 1. Export MediaWiki Users
 
 See also [REAMDE in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-mediawiki_sql_query-md)
 
@@ -47,7 +47,7 @@ WikiSysop,,team-webplatform-admin@w3.org,"2012-05-29 17:37:32"
 NoEmailUser,"Eliot Graff",,"2012-06-26 00:17:47"
 ```
 
-## <span>2. Create file run.js</span>
+## 2. Create file run.js
 
 See also [run.js in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-run-js)
 
@@ -111,7 +111,7 @@ function waitForAllPromises() {
 }
 ```
 
-## <span>3. Create file accountscreator.js</span>
+## 3. Create file accountscreator.js
 
 See also [accountscreator.js in original gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-accountscreator-js)
 
@@ -195,7 +195,7 @@ AccountCreator.prototype.makePromiseToCreate = function makePromiseToCreate () {
 module.exports = AccountCreator;
 ```
 
-## <span>4. Create a new package.json</span>
+## 4. Create a new package.json
 
 See original [package.json gist](https://gist.github.com/WebPlatformDocs/5543e6314dde476283fc#file-package-json)
 
@@ -217,7 +217,7 @@ See original [package.json gist](https://gist.github.com/WebPlatformDocs/5543e63
 npm install
 ```
 
-## <span>5. Run import script</span>
+## 5. Run import script
 
 Note that this step can take some time. With \~39 000 users, it took a bit more than an hour to run in full.
 

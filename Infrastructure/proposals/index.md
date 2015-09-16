@@ -3,11 +3,11 @@ title: proposals
 uri: 'WPD:Infrastructure/proposals'
 
 ---
-## <span>Description</span>
+## Description
 
 Documenting processes in relation to the WPD infrastructure and maintaining it.
 
-## <span>Table of contents</span>
+## Table of contents
 
 Listing all sub pages from here.
 

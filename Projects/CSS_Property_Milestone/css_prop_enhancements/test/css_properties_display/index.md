@@ -17,13 +17,13 @@ tags:
 uri: 'WPD:Projects/CSS Property Milestone/css prop enhancements/test/css properties display'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the type of rendering box used for an element. In HTML, default display property values are based on behaviors listed in the HTML specifications or from the browser or user's default style sheet. The default value in XML is inline.
 
 In addition to specifying one of the many different display box types, setting the display value to none lets you turn off (hide) the display of an element. A display element set to none ensures all descendant elements are also hidden. In these situations, the document renders as though the element does not exist in the document tree.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `inline`
@@ -49,9 +49,9 @@ Animatable
 Percentages
 :    ???
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 display-value
 :   A keyword that defines the rendering type to apply to the element. Possible values are **none**, **inline**, **block**, **list-item**, **inline-block**, **inline-table**, **table**, **table-caption**, **table-cell**, **table-column**, **table-column-group**, **table-footer-group**, **table-header-group**, **table-row**, **table-row-group**, **flex**, **inline-flex**, **grid**, **inline-grid**, and **run-in**.
@@ -152,12 +152,12 @@ ruby-text-container
 -ms-inline-grid
 :   Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
 
-## <span>Examples</span>
+## Examples
 
 Change a `span`-element from its initial display `inline` to display as block-level element.
 
 ``` html
-<span>Some example text</span>
+Some example text
 <style>
   span {
     display: block;
@@ -199,7 +199,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Basic values in CSS 1
 
@@ -239,7 +239,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 
 -   run-in
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic Box Model](http://dev.w3.org/csswg/css3-box/#display)
 :   Working Draft
@@ -256,11 +256,11 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 [CSS Level 1](http://www.w3.org/TR/CSS1/#display)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -288,7 +288,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -328,7 +328,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -428,14 +428,14 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>External resources</span>
+### External resources
 
 -   Quirksmode: [The display property](http://www.quirksmode.org/css/display.html)
 -   Mozilla Developer Network: [CSS Reference: The display property](https://developer.mozilla.org/en-US/docs/CSS/display)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To render an element box's dimensions, yet have its contents be invisible, see the [visibility](/css/properties/visibility) property.
 
@@ -451,7 +451,7 @@ You can use `inline-block` to give an object a layout without specifying the obj
 
 The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as `display: table-cell` does not need to be contained within a block that is styled `display: table-row` to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 
-### <span>Rendering for floating or absolute positioned elements</span>
+### Rendering for floating or absolute positioned elements
 
 |Specified value|Computed value|
 |:--------------|:-------------|

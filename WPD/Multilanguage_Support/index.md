@@ -3,7 +3,7 @@ title: WPD:Multilanguage Support
 uri: 'WPD:Multilanguage Support'
 
 ---
-## <span>Design Goals</span>
+## Design Goals
 
 -   The default language of the site should be English
 -   There should be a single site hierarcy
@@ -20,7 +20,7 @@ uri: 'WPD:Multilanguage Support'
 -   Translations should use standard BCP 47 [primary language tags](http://www.w3.org/International/articles/language-tags/) (e.g. *zh* for Mandarin Chinese), though in rare cases extended language subtags may also be used (e.g. *zh-hans* for Simplified Chinese, or *az-Latn* for Azerbaijani written in Latin script rather than Arabic)
 -   We should consider whether language tags should appear by default in the URL, or if the language tag should only appear in the URL to force the user to a specific language version of an article
 
-## <span>Mechanism</span>
+## Mechanism
 
 This site will be using the MediaWiki convention of treating non-English articles (whether translations or original material) as **subpages** of the main article (which is assumed to be English). For example, the URL for the article on the CSS property `border-radius`, would be nested like so:
 
@@ -45,9 +45,9 @@ This mechanism applies not only to the final "leaf" node articles, those at the 
 
 This allows each language to reuse the same underlying information hierarchy and automatic semantic and structural mechanisms of the wiki system.
 
-## <span>User Experience</span>
+## User Experience
 
-### <span>Readers</span>
+### Readers
 
 Each article will feature a language picker (not flags, which are controversial), showing all available translations for that article. If the user picks a particular language, that is saved as a preference, and that language becomes that user's default until they actively pick another language.
 
@@ -55,23 +55,23 @@ From any given translated page, the user can always return to the main (English-
 
 **Open Question:** Is it okay for the language tag to always appear in the URL? This may be a technical problem with MediaWiki, or may be solved by server-based content-negotiation.
 
-#### <span>Search and Categories</span>
+#### Search and Categories
 
 By default, only the English-language versions of article should show up in search results or category pages. Users can select the languages they wish to receive search results in.
 
-### <span>Translators</span>
+### Translators
 
 We intend to provide infrastructure, resources, and rewards for translators to localize our articles. Many details of this still need to be discussed and decided.
 
 For each article, if there is not translation available, the user can select a language to translate into, and a subpage for that language will be created; optionally, a stub may be created from an automatic translation service, with the article automatically flagged as a stub.
 
-#### <span>Translation Teams</span>
+#### Translation Teams
 
 Once the site becomes known, we should actively recruit local Web developers to create translations for their language area. Some of these might come from W3C Members or W3C Offices, or from local offices of the Stewards; others may come from various Web developer communities.
 
 Organizationally, we could pick "Translation Team Leads" on a merit or reputation basis. In turn, these Team Leads will help coordination the localization efforts, coordinating with the WebPlatform leads and admins.
 
-### <span>Rewards</span>
+### Rewards
 
 **Community Service:** The simplest reward is providing a framework in which high-quality content and multiple translations can exist and thrive. This reward may be altruistic or enlightened self-interest.
 
@@ -81,15 +81,15 @@ Organizationally, we could pick "Translation Team Leads" on a merit or reputatio
 
 **Badges:** People should get special badges for a certain number of translations (or quantity of translation), for organizing localization sprints, and so on. They can display these badges on their user profile, or on their own site.
 
-#### <span>Template Translations</span>
+#### Template Translations
 
 Since the different Semantic Forms contain English-language terms for their output, we should localize these forms, if that's possible.
 
-## <span>Automatic Translation</span>
+## Automatic Translation
 
 The [Live Translate extension](http://www.mediawiki.org/wiki/Extension:Live_Translate) allows the user translate an article via Google's or Microsoft's machine-translation services. In light of the highly technical nature of our content, with Web development and design jargon, this is likely to produce adequate translations. However, we could install the extension, to make it available to readers for pages that haven't yet been localized, or for translators to use as a first-pass solution that they later rework.
 
-## <span>Notes</span>
+## Notes
 
 **Richard Ishida:**
 

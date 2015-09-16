@@ -3,7 +3,7 @@ title: Program Management
 uri: 'WPD:Community/Meetings/Program Management'
 
 ---
-## <span>Recurring Program Management</span>
+## Recurring Program Management
 
 We have a recurring program management meetings on Mondays:
 

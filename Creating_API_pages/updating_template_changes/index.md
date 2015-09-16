@@ -3,7 +3,7 @@ title: updating template changes
 uri: 'WPD:Creating API pages/updating template changes'
 
 ---
-## <span>Updating API\_Listing pages to use the new Template:Concept\_Listing</span>
+## Updating API\_Listing pages to use the new Template:Concept\_Listing
 
 We have created a Template:Concept\_Listing that can be called in any location on any page where you want to create a table of links and summaries. (However, it does not allow you to change where the table is produced on API\_Listing pages - see below.)
 

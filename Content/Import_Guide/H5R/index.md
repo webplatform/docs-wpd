@@ -5,7 +5,7 @@ uri: 'WPD:Content/Import Guide/H5R'
 ---
 These instructions are specific to importing content from [HTML5Rocks!](http://www.html5rocks.com/)
 
-## <span>Initial conversion</span>
+## Initial conversion
 
 Here's what you do to get the content into wiki format.
 
@@ -30,7 +30,7 @@ That gets the main content into a new page.
 
 *Note:* If the above converter won't load (we've been getting a 503 Bad Gateway error lately), try [this one](http://labs.seapine.com/htmltowiki.cgi). It's copy-and-paste only, but if it works, it works.
 
-## <span>Clean up</span>
+## Clean up
 
 There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 
@@ -42,7 +42,7 @@ There will be a lot of cruft - stuff that you'll delete or otherwise fix.
 6.  Remove any double line breaks except those meant to start a new paragraph.
 7.  Save the article and have a look.
 
-## <span>\<h2\>s with IDs</span>
+## \<h2\>s with IDs
 
 The converter should change HTML \<h2\> headings to double-equals wiki headings. However, many of our articles "deep link" to specific heading points in other articles. Those targets have IDs, and the IDs must be preserved for the links to continue to work. So after conversion, review the original article's source code for h2s with IDs. If you find any, change the converted double-equals headings *back* to standard HTML syntax and include the original ID. Thus:
 
@@ -54,7 +54,7 @@ becomes
 
 as it appeared in the original article.
 
-## <span>Fix broken links</span>
+## Fix broken links
 
 Check the content for links. They should be of the form:
 
@@ -68,7 +68,7 @@ Make sure that all URLs are fully qualified. External URLs will already be fully
     Corrected link:
     [http://www.html5rocks.com/tutorials/casestudies/onslaught/ Onslaught]
 
-## <span>iframe content</span>
+## iframe content
 
 Some of the articles we're migrating may have content that appears in an iframe. WikiMedia does not support iframes, so the best we can do is create a link to the content. In HTML5Rocks! usually the iframe has both code and layout from the playground. If the iframe contains a code sample, cut and paste the code sample into the article and put it in a `<pre>...</pre>` block. If the iframe contains a sample page (that runs some wiz-bang doohicky), create a link to the page and tell the user what's happening, something like this:
 
@@ -76,7 +76,7 @@ Some of the articles we're migrating may have content that appears in an iframe.
 
 See the [audio tag](http://docs.webplatform.org/wiki/tutorials/audio_tag) WPD article for examples of this workaround.
 
-## <span>Images</span>
+## Images
 
 Images: To get any images from the original article into your new version, you must save the images locally, fix the image references in your new code, and then upload them to your more-or-less finished product.
 
@@ -92,7 +92,7 @@ Use the file name and extension for the image as saved to your local drive. When
 
 After the file is uploaded, click the link at the bottom of the upload page to return to your original article. The image should appear in place of the red link. Repeat for each image.
 
-## <span>Filling in the boxes</span>
+## Filling in the boxes
 
 The next piece of work is to fill in the meta data and other form content for the article.
 
@@ -105,16 +105,16 @@ The next piece of work is to fill in the meta data and other form content for th
 5.  At the bottom, in the Topics section, check all that apply.
 6.  Under External Attribution, check whichever applies (HTML5Rocks! in this case), and provide the original link in the text box. **Important:** If the H5R URL contains "en/" in the path, remove it. That is, if the original article URL is `http://www.html5rocks.com/en/tutorials/eventsource/basics/`, change it to `http://www.html5rocks.com/tutorials/eventsource/basics/`.
 
-## <span>Author and publish date</span>
+## Author and publish date
 
 Enter the original author's name, their profile link, and the publish (and update) date(s) in the form fields. Delete the original info from the content box.
 
-## <span>Compatibility table</span>
+## Compatibility table
 
 In the Content field, move all the Supported Browser content down to the end of the content to make it easier to reference when you are filling out the compatibility table. Do not make manual tables; use the compatibility table buttons in the form. You can use the original author's info as reference, but it may be out of date. Always get the latest information from [caniuse.com](http://caniuse.com/).
 
 When you have the compatibility tables filled out, delete the original supported browsers info from the content box.
 
-## <span>Housekeeping</span>
+## Housekeeping
 
 When you've finished an article, fill in the Status column of the spreadsheet: provide a status and your initials (i.e. Done - sr). Other people may be converting some articles in the same list, so always check the status column before you begin.

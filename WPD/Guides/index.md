@@ -3,7 +3,7 @@ title: WPD:Guides
 uri: 'WPD:Guides'
 
 ---
-## <span>How to use the site</span>
+## How to use the site
 
 -   How to look up information on the site
     -   How the site is organized

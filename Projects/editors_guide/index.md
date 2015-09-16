@@ -7,33 +7,33 @@ tags:
 uri: 'WPD:Projects/editors guide'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Go to WPD:Editors Guide for the Editor's Guide, the result of this project.
 
 This is a proposed outline for consolidating dozens of pages under a guide to editing WPD. This will be a procedural guide, beginning with getting up and running on the site and communications channels, to reviewing content, to creating new content. All content currently available for assisting editors will be pulled into this guide, either by merging that content into this guide, or by reference. Comments welcome on this page or on the public-webplatform@w3.org email list.
 
-## <span>SEE FINAL</span>
+## SEE FINAL
 
 [WPD:Editors\_Guide](/WPD:Editors_Guide)
 
-## <span>Step 1: Register for a WebPlatform.org wiki account</span>
+## Step 1: Register for a WebPlatform.org wiki account
 
-### <span>Create an account with your email address, user name, and password.</span>
+### Create an account with your email address, user name, and password.
 
 -   <http://docs.webplatform.org/w/index.php?title*> Special:UserLogin&type\* signup
 
-### <span>Make sure to verify your account.</span>
+### Make sure to verify your account.
 
 -   The verification link is sent via email. If you don't see the message, check your spam folder.
 
-### <span>Log into the WebPlatform.org site.</span>
+### Log into the WebPlatform.org site.
 
 -   <http://webplatform.org>
 
-## <span>Step 2. Get ready to communicate with the online community</span>
+## Step 2. Get ready to communicate with the online community
 
-### <span>Join IRC channel.</span>
+### Join IRC channel.
 
 -   The WebPlatform.org online community uses IRC extensively. Log in and ask questions.
 -   <http://webchat.freenode.net/?channels=#webplatform>
@@ -53,18 +53,18 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
     -   <http://docs.webplatform.org/wiki/WPD:Meetings>
     -   <http://docs.webplatform.org/wiki/WPD:Content_Meetings>
 
-### <span>Join the public-webplatform@w3.org.</span>
+### Join the public-webplatform@w3.org.
 
 -   We announce initiatives and work out proposals on the W3.org mailing list. Subscribe to the w3.org mailing list.
     -   public-webplatform@w3.org
     -   <http://lists.w3.org/Archives/Public/public-webplatform/>
 
-### <span>Ask questions or help others in the forum.</span>
+### Ask questions or help others in the forum.
 
 -   <http://talk.webplatform.org/forums/>
     -   -   -   -   [COMMENT:] REALLY wish this was called "Forums" not Q&A - which sounds like an FAQ list to me. Is it possible to set up a forum channel for contributors to ask questions about editing or authoring content to the wiki? (Rather than just general web questions).
 
-### <span>Access the bug-tracking system.</span>
+### Access the bug-tracking system.
 
 -   <https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org> (external site)
     -   -   -   -   [COMMENT:] Recommend merging the information of these two pages.
@@ -73,15 +73,15 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
     -   -   -   -   [COMMENT:] [PULL CONTENT FROM: <http://docs.webplatform.org/wiki/WPD:Bugzilla_Guidelines>]
                 -   [COMMENT:] [PULL CONTENT FROM: <http://docs.webplatform.org/wiki/WPD:Filing_Bugs>]
 
-## <span>Step 3: Become familiar with the wiki</span>
+## Step 3: Become familiar with the wiki
 
-### <span>If you can't wait, start contributing.</span>
+### If you can't wait, start contributing.
 
 -   <http://docs.webplatform.org/wiki/WPD:Getting_Started>
 -   Make sure to use the reference resources in Step 5, below, to ensure you're using the correct markup and styles.
     -   -   -   -   [COMMENT:] The Getting Started page is the primary resource that contributors can use to edit the site. Make sure the Getting Started page links to the wiki syntax page. Make sure contributors understand Step 4, how to add comments and flag pages.
 
-### <span>Be sure to read the wiki philosophy to understand the mission.</span>
+### Be sure to read the wiki philosophy to understand the mission.
 
 -   Watch the project video to learn about the site's mission and goals.
     -   <https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA/> (29 min.)
@@ -99,35 +99,35 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
     -   <http://docs.webplatform.org/wiki/WPD:Task_Roadmap>
         -   -   -   [COMMENT:] Recommend updating the Policy page to begin with content in Pillars page, above the links.
 
-### <span>Explore the web development docs.</span>
+### Explore the web development docs.
 
 -   <http://docs.webplatform.org/wiki/Main_Page>
 
-## <span>Step 4. Review existing content</span>
+## Step 4. Review existing content
 
-### <span>Add comments to sections.</span>
+### Add comments to sections.
 
 -   Add a comment by hovering your mouse over the relevant section heading and click Add Comment. Leaving comments on articles helps others see exactly what needs to be fixed.
     -   -   -   -   [COMMENT:] Provide a screenshot?
 
-### <span>Flag issues: broken links, spelling, product bias, and more.</span>
+### Flag issues: broken links, spelling, product bias, and more.
 
 -   Click the Edit button in the top right corner of the article and choose Edit.
 
-### <span>Mark articles that need revisions by checking the corresponding checkboxes.</span>
+### Mark articles that need revisions by checking the corresponding checkboxes.
 
 -   <http://docs.webplatform.org/wiki/WPD:Flags>
 -   <http://docs.webplatform.org/wiki/WPD:Flags/Content_Grammar_Spelling>
 -   <http://docs.webplatform.org/wiki/Special:SearchByProperty/Content-20quality-20flag/Grammar-2FSpelling>
 
-### <span>Notify other editors about pages that require revisions.</span>
+### Notify other editors about pages that require revisions.
 
 -   Communicate with the WebPlatform.org online community to ask for clarification and help resolving issues. You can raise issues on IRC, send messages to the public-webplatform@w3.org mail list, or post to forums.
     -   -   -   -   [COMMENT:] This is a duplicate of Step 3, but I think it is OK to reiterate this.
 
-## <span>Step 5. Update existing content</span>
+## Step 5. Update existing content
 
-### <span>Become familiar with MediaWiki syntax conventions.</span>
+### Become familiar with MediaWiki syntax conventions.
 
 -   -   -   -   -   [COMMENT:] NEW Page/Section NEEDED that explains how we use the MediaWiki syntax, and lists all valide tags and macros for WPD pages.
                 -   [COMMENT:] [PULL OR POINT TO CONTENT FROM: <http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet>]
@@ -136,21 +136,21 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
                 -   [COMMENT:] Create a new page using above content: Getting started with MediaWiki syntax conventions.
                 -   [COMMENT:] [PULL CONTENT FROM: <http://docs.webplatform.org/wiki/WPD:Style_Guide> Use accepted wikitext syntax conventions]
 
-### <span>Read the guidelines and best practices for editing the text.</span>
+### Read the guidelines and best practices for editing the text.
 
 -   <http://docs.webplatform.org/wiki/WPD:Style_Guide>
     -   -   -   -   [COMMENT:] Delete Manual of Style and Style Manual, after resolving all links to Style\_Guide page. <http://docs.webplatform.org/wiki/WPD:Manual_Of_Style> and <http://docs.webplatform.org/wiki/WPD:Style_Manual>. Move out sections: syntax, common terms, images, etc.
 
-### <span>Read gotchas.</span>
+### Read gotchas.
 
 -   <http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas>
 
-### <span>Conform content to one style when editing.</span>
+### Conform content to one style when editing.
 
 -   WebPlatform.org uses the Yahoo Style Guide:
     -   <http://styleguide.yahoo.com/>
 
-### <span>Find content that needs your review.</span>
+### Find content that needs your review.
 
 -   Review recently edited articles.
     -   <http://docs.webplatform.org/wiki/Special:RecentChanges>
@@ -159,26 +159,26 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
     -   <http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks>
         -   -   -   [COMMENT:] Used for DocSprints, and to point contributors to a specific task, if they don't have one in mind.
 
-## <span>Step 6. Author or upload new content</span>
+## Step 6. Author or upload new content
 
-### <span>Refer to the Style\_Guide to determine if your content is appropriate for the wiki.</span>
+### Refer to the Style\_Guide to determine if your content is appropriate for the wiki.
 
 -   <http://docs.webplatform.org/wiki/WPD:Style_Guide>
 
-### <span>Let the team know that you are adding new content.</span>
+### Let the team know that you are adding new content.
 
 -   See Step 2 above.
 
-### <span>Before creating or moving pages, identify pages linked to existing docs.</span>
+### Before creating or moving pages, identify pages linked to existing docs.
 
 -   <http://docs.webplatform.org/w/index.php?title*> Special%3AWhatLinksHere&target\* Template%3ACompat+Unknown&namespace
 
-### <span>Select where to create the new page.</span>
+### Select where to create the new page.
 
 -   <http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy>
 -   <http://docs.webplatform.org/wiki/WPD:Architecture>
 
-### <span>Check features for cross browser compatibility.</span>
+### Check features for cross browser compatibility.
 
 -   Here are some good cross-compatibility resources:
     -   <http://caniuse.com/>
@@ -186,7 +186,7 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
 
     -   <http://www.quirksmode.org/compatibility.html>
 
-### <span>Visit the New Page center, choose a type (Tutorial) and click Create.</span>
+### Visit the New Page center, choose a type (Tutorial) and click Create.
 
 -   <http://docs.webplatform.org/wiki/WPD:New_Page>
 -   To author reference docs, create reference articles.
@@ -196,11 +196,11 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
     -   <http://docs.webplatform.org/wiki/WPD:Content/Tutorials_and_concept_articles>
     -   <http://docs.webplatform.org/wiki/WPD:Implementation_Patterns>
 
-## <span>Step 7. Prepare and upload assets for articles</span>
+## Step 7. Prepare and upload assets for articles
 
-### <span>[COMMENT:] section needs more work...</span>
+### [COMMENT:] section needs more work...
 
-### <span>Optimize files.</span>
+### Optimize files.
 
 -   Optimize PNG image files and resize to a maximum width of 650px. Some popular optimizers are:
     -   <http://www.pngoptimizer.com/>
@@ -208,16 +208,16 @@ This is a proposed outline for consolidating dozens of pages under a guide to ed
 
     -   <http://pixenate.com/>
 
-### <span>Name image file names descriptively.</span>
+### Name image file names descriptively.
 
 -   Right: chrome\_prefs.png, drop\_shadow.png, box\_model\_diagram.png
 -   Wrong: image 04.png, screenshot.png, figure10.png, code.png
 
-### <span>Use the Upload File page to upload the images.</span>
+### Use the Upload File page to upload the images.
 
 -   <http://docs.webplatform.org/wiki/Special:Upload>
 
-### <span>Add the link to an uploaded image in the article draft.</span>
+### Add the link to an uploaded image in the article draft.
 
 -   Enter the syntax to link the uploaded image file in the article: [[File:File.jpg]]
 

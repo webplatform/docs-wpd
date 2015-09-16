@@ -7,7 +7,7 @@ This document lists a small number of principles intended to guide the developme
 
 **Note:** This document draws from Wikipedia practices and the community is encouraged to continue to consider their best practices.
 
-## <span>Three Pillars of the WebPlatform Site</span>
+## Three Pillars of the WebPlatform Site
 
 The web developer site is founded on three pillars:
 
@@ -15,14 +15,14 @@ The web developer site is founded on three pillars:
 -   **[Inclusion](#Inclusion):** Ensure the site is inclusive and accessible to all.
 -   **[Consensus](#Consensus):** Rely on consensus and good-faith collaboration to develop content and community practices.
 
-## <span>Pragmatism</span>
+## Pragmatism
 
 -   Content will be relevant for Web developers and designers, emphasizing practical solutions for the web ecosystem as it currently exists.
 -   Content will be up-to-date.
 -   Authors will seek to build high-quality content that is trustworthy and accurate.
 -   The stability and implementation status of features will be clearly marked; however, there is no requirement that features be stable or widely deployed to be included.
 
-## <span>Inclusion</span>
+## Inclusion
 
 -   Content will be available at no cost.
 -   Content will be readable without requiring identifying information.
@@ -33,7 +33,7 @@ The web developer site is founded on three pillars:
 -   Content will be translated into as many languages as possible.
 -   Content will be available under a permissive copyright license to enable sharing and reuse.
 
-## <span>Consensus</span>
+## Consensus
 
 -   These principles are inspired by Wikipedia’s model, and are meant to change over time to best suit our community.
 -   Contributors will assume good faith on the part of other contributors and treat others with respect.

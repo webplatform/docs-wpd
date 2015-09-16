@@ -7,15 +7,15 @@ This flag should be checked for articles that have some content that is not comp
 
 **TODO**: Links to the other related flags
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once all sections have all of the relevant content as defined in the [WPD:Manual\_Of\_Style](/WPD:Manual_Of_Style) you may remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content is outdated using the associated editorial block: [Template:Editorial/Content\_Incomplete](/Template:Editorial/Content_Incomplete).
 

@@ -17,7 +17,7 @@ The tone for all communications is:
 
 **Anyone who does not meet these guidelines (either the letter or spirit) will have their posting privileges revoked immediately.**
 
-## <span>Web Platform Docs Blog</span>
+## Web Platform Docs Blog
 
 -   Anyone may propose a blog topic or blog post draft.
 -   Posts may be "signed" by any member of the community (with their permission, of course)
@@ -33,7 +33,7 @@ The tone for all communications is:
 
 For a detailed description of the blog requirements and publishing process, check out [Blogging](/WPD:Blogging).
 
-## <span>@WebPlatform Twitter handle</span>
+## @WebPlatform Twitter handle
 
 **Posters**: Doug, *others?*
 
@@ -44,7 +44,7 @@ For a detailed description of the blog requirements and publishing process, chec
     -   *This list will grow over time*
 -   **Every** proposed tweet **must** be posted to the **webplatform-site** IRC channel and receive at least one **SGTM** from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
 
-## <span>@webplatform on Google+</span>
+## @webplatform on Google+
 
 **Owner**: Doug
 
@@ -57,14 +57,14 @@ For a detailed description of the blog requirements and publishing process, chec
 -   Because Google+ allows longer or more in-depth discussions, often it is appropriate to extend shorter tweets into more substantial posts.
 -   **Every** proposed post and comment **must** be posted to the **webplatform-site** IRC channel and receive at least one **SGTM** from a trusted member of the community (e.g. an administrator). New post types or posts that are potentially controversial should seek more approval before posting.
 
-## <span>Adding new channels</span>
+## Adding new channels
 
 -   Every so often we may want to include more channels in our official line-up (e.g. a Facebook page). These need to be approved by the member-webdocs list.
 
-## <span>Handling unofficial channels</span>
+## Handling unofficial channels
 
 -   Although we encourage members of the community to share news about Web Platform Docs in their own ways, we require that **any unofficial channels be positioned in a way that makes it clear that they are not official.**
 
-## <span>Videos</span>
+## Videos
 
 Videos must always be approved by the member-webdocs list. They also must include the standard intro/outro.

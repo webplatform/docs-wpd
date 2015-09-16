@@ -5,28 +5,28 @@ uri: 'WPD:Annotations'
 ---
 This is a scratch space for adding annotations to WebPlatform.org and to W3C specifications.
 
-## <span>Background</span>
+## Background
 
 We want to enable annotations on W3C specifications and on WebPlatform.org, as a way to provide feedback into specs and documentation.
 
 The specific implementation we want to use will be based on the [Annotator project](http://okfnlabs.org/annotator/), as implemented and enhanced by [Hypothes.is](http://hypothes.is/), with an eye towards standardization informed by the [W3C Open Annotation Community Group](http://w3.org/community/openannotation/).
 
-## <span>Status</span>
+## Status
 
 -   [Notes.WebPlatform.org](https://notes.webplatform.org/) (a.k.a. "annotator") is deployed and running
 -   Accounts server who’s taking care of authentication and OAuth authorizations is deployed and running
 -   Annotations is enabled on those W3C specs:
     -   [Annotation Model](http://www.w3.org/TR/annotation-model/)
 
-### <span>Email Notifications</span>
+### Email Notifications
 
 -   E-mail notifications of annotations sent to W3C archive mailing list would work only when annotator is loaded on "w3.org" and "specs.webplatform.org".
 
-### <span>Current issues</span>
+### Current issues
 
 Refer to [webplatform/annotation-service issue tracker](https://github.com/webplatform/annotation-service/issues)
 
-## <span>Requirements to make annotations on specs</span>
+## Requirements to make annotations on specs
 
 -   Credentials for identity on **accounts.webplatform.org** username and password
 -   To get Mailing list archive
@@ -43,7 +43,7 @@ Refer to [webplatform/annotation-service issue tracker](https://github.com/webpl
 <link rel="canonical" href="http://www.w3.org/TR/annotation-model/">
 ```
 
-## <span>Interface</span>
+## Interface
 
 -   Toggle annotation functionality on or off
     -   Can annotations be enabled without an extension, or must the user install an extension? Is there a script that could be hosted to do the same thing?
@@ -67,7 +67,7 @@ Refer to [webplatform/annotation-service issue tracker](https://github.com/webpl
     -   **"implementation and test status"**
     -   **"documentation note or link"**
 
-## <span>Links</span>
+## Links
 
 -   [Scenarios](/WPD:Annotations/Scenarios)
 -   [Workflows](/WPD:Annotations/Workflows)

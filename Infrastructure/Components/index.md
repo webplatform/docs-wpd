@@ -3,11 +3,11 @@ title: Components
 uri: 'WPD:Infrastructure/Components'
 
 ---
-## <span>Description</span>
+## Description
 
 Describing how to deploy and configure site components such as code viewer, wiki, etc.
 
-## <span>Table of contents</span>
+## Table of contents
 
 -   [Code Viewer](/WPD:Infrastructure/Components/Code_Viewer)
 -   [CompaTables](/WPD:Infrastructure/Components/CompaTables)

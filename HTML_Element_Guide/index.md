@@ -3,14 +3,14 @@ title: HTML Element Guide
 uri: 'WPD:HTML Element Guide'
 
 ---
-### <span>Before you begin</span>
+### Before you begin
 
 Before you begin, you already should have:
 
 -   taken the steps to register for this site, communicate with the team, and work with the wiki. (Select ["Editing"](/WPD:Editors_Guide) from any page on the site.)
 -   ran through at least one basic contribution. (See how to [start contributing content](/WPD:Getting_Started), and cycle through one basic task, such as fixing a link or adding a summary to a page.)
 
-### <span>High-level steps</span>
+### High-level steps
 
 Below, Chris Mills runs through updating a property. But basically, you:
 
@@ -23,7 +23,7 @@ Below, Chris Mills runs through updating a property. But basically, you:
 -   remove any flags you think are no longer necessary
 -   let us know you've done a page and if you'd like a review
 
-## <span>Choosing an element to work on</span>
+## Choosing an element to work on
 
 So the first step is to have a look at which properties you would like to work on. I would suggest grabbing a group of related properties that would work well as unit to work on. So for example:
 
@@ -32,11 +32,11 @@ So the first step is to have a look at which properties you would like to work o
 -   td
 -   th
 
-## <span>Assigning you to work on your chosen properties</span>
+## Assigning you to work on your chosen properties
 
 Once you have grabbed some properties to work on, let us know, so we can track who is working on what, then work through each property until you have completed your set.
 
-## <span>Entering data on the page</span>
+## Entering data on the page
 
 Now you are ready to start gathering the data to enter into your page. I'd advise that you gather the data and record it offline first, just in case something stupid happens and you lose your edits. I'm not saying it *will* happen, but you never know with Wikis! So copy the following headings, put them into your text editor, then read below on how to fill them in.
 
@@ -54,13 +54,13 @@ Now you are ready to start gathering the data to enter into your page. I'd advis
 
 After collecting all the information, you'll then need to go through the different form fields in the edit page and fill each one in.
 
-### <span>Researching information</span>
+### Researching information
 
 You should research the information for your article and how to verify its correct, using trustworthy sites like MDN, caniuse, quirksmode and relevant HTML specs. Review existing documentation from other sources and then read the relevant specs. If the sources all agree then you can accept the information as correct, but if they disagree you should do original research or ask for help from more knowledgeable members.
 
 When you have finished writing a page, you should get someone else to review it to verify its quality.
 
-### <span>Putting information that applies to multiple elements in separate pages</span>
+### Putting information that applies to multiple elements in separate pages
 
 NOTE: One important thing you should consider when entering information into your property pages is whether any of that information also applies to other HTML elements. If it does, then you should consider putting that information into a separate page, whether it is a concept, attribute or whatever. This way, you can save others a lot of time and repetition.
 

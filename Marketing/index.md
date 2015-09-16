@@ -3,7 +3,7 @@ title: WPD:Marketing
 uri: 'WPD:Marketing'
 
 ---
-## <span>Promoting News and Events</span>
+## Promoting News and Events
 
 1.  Write a compelling blog article on WebPlatform.org
     -   Get feedback and approval on the post from the community and stewards on public-webplatform (see [blog posting guidelines](/WPD:Marketing/Posting_Guidelines))
@@ -14,7 +14,7 @@ uri: 'WPD:Marketing'
 5.  Engage people who ask questions or make comments on Twitter
 6.  Post to social media sites, such as Google+ and Facebook
 
-## <span>Channels</span>
+## Channels
 
 Promotion and marketing of the site.
 

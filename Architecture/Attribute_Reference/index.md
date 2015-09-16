@@ -9,38 +9,38 @@ uri: 'WPD:Architecture/Attribute Reference'
 ---
 **Note:** MSDN combines HTML attributes and their corresponding DOM properties into one topic; MDN documents these on the HTML element and DOM object pages.
 
-## <span>Syntax</span>
+## Syntax
 
-### <span>HTML</span>
+### HTML
 
 ` <element attr="val" ... >`
 
-### <span>JavaScript</span>
+### JavaScript
 
 ` val = obj.attr; `
 
-## <span>Property values</span>
+## Property values
 
 Type: some type
 
 Brief description
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, can be multiple paragraphs.
 
-### <span>(Arbitrary subheading)</span>
+### (Arbitrary subheading)
 
 More explanation.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

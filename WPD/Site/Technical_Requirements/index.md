@@ -3,7 +3,7 @@ title: Technical Requirements
 uri: 'WPD:Site/Technical Requirements'
 
 ---
-## <span>A Note on Priorities</span>
+## A Note on Priorities
 
 Each feature should be marked with a priority, to help determine which features are needed when evaluating a CMS.
 
@@ -11,7 +11,7 @@ Each feature should be marked with a priority, to help determine which features 
 -   **2:** Should have
 -   **3:** Nice to have
 
-### <span>Anti-features</span>
+### Anti-features
 
 If there is a feature that the CMS should not have, that should also be noted, for example:
 
@@ -21,7 +21,7 @@ Note, though, that most of these could be stated as "positive requirements":
 
     If uses markdown syntax, should use a familiar syntax such as MediaWiki's (1)
 
-## <span>Core Features</span>
+## Core Features
 
 -   Accessible:
     -   [WCAG 2.0](http://www.w3.org/TR/WCAG/) (content aspect)
@@ -42,7 +42,7 @@ Note, though, that most of these could be stated as "positive requirements":
 -   Customizable UI
 -   Mobile-friendly output **(2)**
 
-## <span>Permissions and Profiles</span>
+## Permissions and Profiles
 
 -   Editable by anyone with account **(1)**
     -   Should track content contributions **(1)**
@@ -50,7 +50,7 @@ Note, though, that most of these could be stated as "positive requirements":
     -   Should allow login through OAuth via other identity providers (including W3C) **(2)**
 -   Some pages can be "locked" **(1)** or have curated changes only **(2)**
 
-## <span>Navigation and Categorization</span>
+## Navigation and Categorization
 
 -   Tagging:
     -   must support the annotation or tagging of content to include it in different structures, rather than organizing it in rigid categories **(1)**
@@ -63,7 +63,7 @@ Note, though, that most of these could be stated as "positive requirements":
     -   autocomplete search bar (a la DocHub) **(2)**
     -   drill-downs from general topics to more specific, based on categories **(2)**
 
-## <span>Editing</span>
+## Editing
 
 -   Should have WYSIWYG editing **(2)**
 -   Custom markup and other code that the WYSIWYG doesn't do, for example being able to create a custom CSS layout for a particular article if needed. **(1)**
@@ -71,7 +71,7 @@ Note, though, that most of these could be stated as "positive requirements":
     -   Specific preferences for generated markup **(2)**
 -   Template system for different kinds of content (reference pages for elements, attributes, CSS properties, events, APIs, etc.) **(2)**
 
-## <span>Code and Examples</span>
+## Code and Examples
 
 -   Should be possible for the CMS to handle HTML5 as the standard language for all pages **(1)**
 -   embedding of code examples **(1)**
@@ -79,12 +79,12 @@ Note, though, that most of these could be stated as "positive requirements":
     -   start from numbers other than 1, to allow continuations of snippets **(2)**
 -   Embedding live demos like Canvas, SVG, HTML5 \<video\>, etc? **(1)**
 
-## <span>Content Management</span>
+## Content Management
 
 -   Include a "last updated" field in each article's footer **(1)**
 -   Public view of "stale" articles that haven't been updated in a while, and may need review **(2)**
 
-## <span>Advanced Features</span>
+## Advanced Features
 
 -   transclusion of content snippets **(2)**
     -   *The ability to define snippets of content to include directly in other pages. In practice this often allows tagging to work well, and makes changes to some kinds of formatting or content easier to accomplish.*
@@ -95,7 +95,7 @@ Note, though, that most of these could be stated as "positive requirements":
         -   *komoroske: Serving video also comes with potentially large bandwidth costs, which can be sidestepped by using YouTube/Vimeo*
 -   Per-page scripts **(2)**
 
-## <span>Extra Site Features</span>
+## Extra Site Features
 
 -   Executable code example editor (e.g. JSFiddle, JSBin, Dabblet) **(1)**
     -   Should be able to open all examples in editor **(2)**
@@ -104,20 +104,20 @@ Note, though, that most of these could be stated as "positive requirements":
 -   Forums **(2)**
 -   Surveys **(3)**
 
-## <span>APIs</span>
+## APIs
 
 -   Extractable pages for use remotely **(2)**
     -   Structured sections of page for customized extraction **(2)**
 -   Allow automated input of browser support based on tests or other external data **(2)**
 
-## <span>Metrics</span>
+## Metrics
 
 -   Feedback / rating for each article **(2)**
 -   Tracking searches and result selection **(3)**
 -   Usage data per site and per page **(2)**
 -   Tracking should only be in aggregate, not per user **(1)**
 
-## <span>Scaling</span>
+## Scaling
 
 -   Serving infrastructure can theoretically handle 10 million page views a month without problems **(1)**
 -   Serving infrastructure can easily scale to handle arbitrary load as the site gains in popularity **(2)**
@@ -125,7 +125,7 @@ Note, though, that most of these could be stated as "positive requirements":
 -   Cost structure allows 10 million page views for less than \$10,000/mo **(2)**
     -   *komoroske: I just picked an arbitrary number here. Just trying to express it should be reasonably cheap.*
 
-## <span>Support</span>
+## Support
 
 -   Support infrastructure to have site back up within an hour if any outages occur at any time **(1)**
 -   Support infrastructure in place to implement scaling as load increases over time **(2)**

@@ -3,22 +3,22 @@ title: old meetings
 uri: 'WPD:Community/Meetings/Analytics/old meetings'
 
 ---
-## <span>Agenda 2013-04-26</span>
+## Agenda 2013-04-26
 
 -   Collapse search project into this one?
 -   Are these all the projects we're working on: [Projects](/WPD:Community/Task_Force/Analytics#Projects)
 
-## <span>Agenda 2013-04-19</span>
+## Agenda 2013-04-19
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-### <span>TOPIC: topic hierarchy</span>
+### TOPIC: topic hierarchy
 
 Did a sitemap inventory here: <https://docs.google.com/spreadsheet/ccc?key=0AnXre3v9CjJXdHdKRlFZY2lRREkwVDNndDU5RWdzYnc>
 
 CORS is not supported. Will try JSONP
 
-### <span>TOPIC: how do we address bad URLs?</span>
+### TOPIC: how do we address bad URLs?
 
 Can't do it in the MW.
 
@@ -40,7 +40,7 @@ When will Ryan get to it?
 
  ACTION: Julee to follow up with Ryan on chron job.
 
-### <span>TOPIC: Update piwik?</span>
+### TOPIC: Update piwik?
 
 when can piwik update happen?
 
@@ -50,7 +50,7 @@ Boston's locked down, so Denis may not be available.
 
  patrickdsouza: we have two campaigns set up: html5weekly and adobe dev connection.
 
-### <span>TOPIC: google sitemap</span>
+### TOPIC: google sitemap
 
 did you look at google webmaster to see if site map is being indexed?
 
@@ -66,7 +66,7 @@ shepazu: sitemap is pending
 
 … promo when page view numbers jump to 5K
 
-### <span>TOPIC: ads?</span>
+### TOPIC: ads?
 
 for preferred landing pages...
 
@@ -76,7 +76,7 @@ Do do social media campaigns for Seasonal is hot topics, buzz words, new feature
 
 But we should work on organic first.
 
-## <span>TOPIC: Doug's great idea=</span>
+## TOPIC: Doug's great idea=
 
 DNTrack -\> site -\> notice to join JS project.
 
@@ -96,13 +96,13 @@ They'll get the pop-up for JS and get involved!
 
     vet with key stakeholders
 
-### <span>TOPIC: Search results are improved!</span>
+### TOPIC: Search results are improved!
 
 search results are looking better; denis did some work
 
 Whoa!! <http://docs.webplatform.org/w/index.php?search=font-size&fulltext=+&title=Special%3ASearch>
 
-## <span>ACTION ITEMS</span>
+## ACTION ITEMS
 
 -   email doug with our google id
 -   shepazu: submit Sitemap to google. [DONE]
@@ -113,25 +113,25 @@ Whoa!! <http://docs.webplatform.org/w/index.php?search=font-size&fulltext=+&titl
 -   in Piwik: remove ADC and keep html5weekly; add university, "news" email list, and for each social media channel, our blog, steward co. site posts, doc sprints, to id docs that were edited
 -   shepazu: JS post Monday, alert update, drm content, then notify patrick
 
-## <span>Agenda 2013-04-12</span>
+## Agenda 2013-04-12
 
-## <span>TOPICS</span>
+## TOPICS
 
-### <span>TOPIC: Sitemap</span>
+### TOPIC: Sitemap
 
-#### <span>Location</span>
+#### Location
 
 <http://www.webplatform.org/sitemaps/sitemap-index-wpwiki.xml>
 
-#### <span>Human-readble version</span>
+#### Human-readble version
 
 In progress: <https://docs.google.com/spreadsheet/ccc?key=0AnXre3v9CjJXdHdKRlFZY2lRREkwVDNndDU5RWdzYnc>
 
-#### <span>Open issues</span>
+#### Open issues
 
 <http://project.webplatform.org/analytics/issues/3> <http://project.webplatform.org/analytics/issues/2> <http://project.webplatform.org/analytics/issues/1> <http://project.webplatform.org/infrastructure/issues/10>
 
-#### <span>Discussion</span>
+#### Discussion
 
 Submitting a sitemap to Google is dependent on Ryan extracting the portions we want to expose to crawlers, see:
 
@@ -141,7 +141,7 @@ sitemap-wpwiki-NS\_0-0, sitemap-wpwiki-NS\_6-0, sitemap-wpwiki-NS\_14-0, sitemap
 
 We should put map in a user-friendly output and review site map for alignment with architecture
 
-### <span>TOPIC: Topic Clusters</span>
+### TOPIC: Topic Clusters
 
 Topic clusters, for example: <http://reference.sitepoint.com/css/background-color>
 
@@ -163,7 +163,7 @@ shepazu: it should be fairly easy to do. the actual HTML should come from a spec
 
 then the parser tag would output the ESI, pointing to the special page
 
-### <span>TOPIC: Analytics report</span>
+### TOPIC: Analytics report
 
 A Report / Overview page that bubbles up to general meeting
 
@@ -185,13 +185,13 @@ You can force it to give you 1K by changing the value in the URL
 
 … Ryan said you could do so with DB queries … but it's expensive
 
-## <span>TOPIC: campaign tracking & segmentation</span>
+## TOPIC: campaign tracking & segmentation
 
 patrickdsouza: add campaign tracking to pages before Doc Sprint, etc.
 
 patrickdsouza: we can compare different campaigns set a "docsprint" property on a page, and ID that page
 
-## <span>ACTIONS</span>
+## ACTIONS
 
 -   Julee to use sitemap to update [Topic hierarchy](/WPD:Content/Topic_Hierarchy)
 -   Make it clear that all promo emails should go out with piwik campaign \#

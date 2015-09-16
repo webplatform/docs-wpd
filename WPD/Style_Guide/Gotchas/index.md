@@ -9,7 +9,7 @@ uri: 'WPD:Style Guide/Gotchas'
 ---
 Gotchas, gaaks, traps, pratfalls, syntax errors - every language is full of them, and MediaWiki markup is no exception. This article lists those that we've discovered as we build this site and work with content. Wherever possible, a work-around is provided.
 
-# <span>The dreaded pipe character</span>
+# The dreaded pipe character
 
 > "You wanna come over? It's pipe night!" -Kramer on *Seinfeld*
 
@@ -37,11 +37,11 @@ Yes, you can get your content back. It's still there. Deep breath.
 
 **{{!}}** is a transclusion of a template named **!** which contains a single pipe character. Luckily, the rendering engine evaluatates template transclusions after producing the form, so the pipe character does not get interpreted as a parameter separator. The &\#124; escape is even stronger because only the browser will render the pipe character from it.
 
-## <span>Tables with pipe characters</span>
+## Tables with pipe characters
 
 To create tables, you have to avoid pipes completely. See [Tables](/WPD:Manual_Of_Style/Tables) for details.
 
-## <span>Pre sections with pipe characters</span>
+## Pre sections with pipe characters
 
 It's even worse to use pipes in an explicit \<pre\> section. The rendering engine is supposed to ignore everything in a \<pre\> section and reproduce it as is. But no. For this you have to use the **&\#124;** Here's an example:
 
@@ -61,7 +61,7 @@ In lines of code designated by a leading single space (implicit pre-formatted se
 
 And just to beat this topic to death, pipes in \<code\>-encoded text must also be substituted with the {{!}} template. The rendering engine treats such sections only for style considerations (with CSS), it still evaluates the characters.
 
-## <span>Parser functions with pipe characters</span>
+## Parser functions with pipe characters
 
 But wait, there's more! However, you don't have to worry about this unless you're editing the templates and forms used to build the wiki itself. You won't encounter parser functions, typically, in your day-to-day content editing.
 
@@ -99,7 +99,7 @@ Here's the normal \#if syntax:
 {{!}}} | }}
 ```
 
-# <span>Escaping characters</span>
+# Escaping characters
 
 If you include certain characters in your article, like the pipe character, the Semantic MediaWiki will interpret these as part of the template processing instructions and the result is usually a break in the rendering at the point where the character appears. See [The dreaded pipe character](#The_dreaded_pipe_character) above. For these characters, use their HTML entity tags, shown in this table.
 
@@ -112,7 +112,7 @@ If you include certain characters in your article, like the pipe character, the 
 |||Pipe|&\#124;|
 |'|Apostrophe|&\#124;|
 
-# <span>Unclosed brackets</span>
+# Unclosed brackets
 
 When you include either curly or straight brackets in your article, the wiki will choke if you don't pair a left bracket with a matching right bracket. The form will stop rendering and you'll see an error message like this:
 
@@ -120,7 +120,7 @@ When you include either curly or straight brackets in your article, the wiki wil
 
 If the text incudes a single bracket that should not be paired, as when the text describes a bracket character as part of a code example, use an HTML entity instead of the keyboard character. See [Escaping characters](#Escaping_characters) for more information.
 
-# <span>URL containing special characters in notes or other tags</span>
+# URL containing special characters in notes or other tags
 
 Certain links contain special characters, such as the equal sign (=) in a link to a YouTube video (for example, <http://www.youtube.com/watch?v=me3BviH3nZc>). When these links are inside other wiki references, such as the Note tag, the special character needs to be escaped. Two ways to do so are:
 
@@ -138,11 +138,11 @@ Certain links contain special characters, such as the equal sign (=) in a link t
 {{Note|1=[http://www.youtube.com/watch?v=me3BviH3nZc Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
 ```
 
-# <span>Spaces in template calls</span>
+# Spaces in template calls
 
 This applies only if you are editing the templates and forms used to build this wiki. MediaWiki is very weird about spaces. In particular, a line that starts with a single space is interpreted as a pre-formatted line of characters, and a group of such lines are then formatted as a \<pre\> block in the HTML output. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general **do not use spaces** around parameter values. Most of the times everything will work fine, but some times it will break without warning. See the [External Attribution Block template](/Template:External_Attribution_Block) for an example.
 
-# <span>HTML code</span>
+# HTML code
 
 Because HTML markup is interpreted by MediaWiki, you must enclose code examples that contain HTML markup in a `<syntaxhighlight>` block. See [Code syntax highlighting](/WPD:Style_Manual#Code_syntax_highlighting) in the style manual for details on using this tag.
 
@@ -154,7 +154,7 @@ To refer to a `<script>` element, use the following:
 
 Otherwise, the element is interpreted, and halts processing of the page.
 
-# <span>Leading colon in page name</span>
+# Leading colon in page name
 
 Pages with a leading colon in their name (e.g. [first-line](/Special:FormEdit/Method/first-line?redlink=1)) will display their h1 title incorrectly, because the first colon will be interpreted as starting a dl list.
 

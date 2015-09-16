@@ -7,11 +7,11 @@ tags:
 uri: 'WPD:Infrastructure/procedures/Typical wiki maintenance tasks'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains some quick guides to performing small maintenance tasks, which we thought were too small to put on their own separate pages.
 
-## <span>Migrating a non-form-based page to use the proper form</span>
+## Migrating a non-form-based page to use the proper form
 
 On Webplatform.org, all standard pages should be based on the correct form, but you may come across a page that has been created without using the correct section of [WPD:New\_Page](/WPD:New_Page). If you do come across such a page, you should follow these simple steps to fix it.
 

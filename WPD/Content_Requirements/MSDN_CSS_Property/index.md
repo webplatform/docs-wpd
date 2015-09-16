@@ -5,9 +5,9 @@ uri: 'WPD:Content Requirements/MSDN CSS Property'
 ---
 *This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.*
 
-## <span>Page Category Migration Mapping CSS Property</span>
+## Page Category Migration Mapping CSS Property
 
-### <span>URL Mapping</span>
+### URL Mapping
 
 *Input URL*: <http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx>
 
@@ -17,32 +17,32 @@ Note: the input URL does not contain any information required in output URL. The
 
 The url should not include the "property" suffix and should be lower-case with hypens separating the words, in line with the actual property-name in CSS (e.g. `font-size`, `background-position`)
 
-#### <span>Page Form</span>
+#### Page Form
 
 Use the [Form:CSS\_Property](/Form:CSS_Property) form.
 
-### <span>Field values</span>
+### Field values
 
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
 
 **Note**: All content should be run through an HTML-to-MediaWiki converter. All occurrences of vertical pipe must be replaced with {{!}} and all occurrences of equals should be replaced with {{=}}
 
-#### <span>Flags</span>
+#### Flags
 
     {{Flags
     |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
     |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
     }}
 
-#### <span>Standardization Status</span>
+#### Standardization Status
 
     {{Standardization_Status|}}
 
-#### <span>API Name</span>
+#### API Name
 
     {{API_Name}}
 
-#### <span>Summary</span>
+#### Summary
 
     {{Summary_Section|SUMMARY_INFORMATION}}
 
@@ -50,7 +50,7 @@ Where:
 
 -   **SUMMARY\_INFORMATION** is the first \<p\> element in the content
 
-#### <span>CSS Property</span>
+#### CSS Property
 
     {{CSS Property
     |Initial value=INITIAL_VALUE
@@ -84,7 +84,7 @@ Where:
 -   **HEADER\_VALUE** is the value of the header for that value in the source document
 -   **DESCRIPTION\_VALUE** is the value of the paragraph for that value in the source document
 
-#### <span>Examples Section</span>
+#### Examples Section
 
     {{Examples_Section
     |Not_required=No
@@ -110,7 +110,7 @@ Where:
 -   **CODE\_VALUE** is the unescaped value of the code from the example, following the general escaping rules for pipes and equals.
 -   **URL\_VALUE** is equal to the href of the link preceding the example in the source document
 
-#### <span>Notes</span>
+#### Notes
 
     {{Notes_Section
     |Notes=NOTES_VALUE
@@ -120,11 +120,11 @@ Where:
 
 -   **NOTES\_VALUE** is the content of the "Remarks" section in the source document
 
-#### <span>Topics</span>
+#### Topics
 
     {{Topics|CSS}}
 
-#### <span>External Attribution</span>
+#### External Attribution
 
     {{External_Attribution
     |Is_CC-BY-SA=No

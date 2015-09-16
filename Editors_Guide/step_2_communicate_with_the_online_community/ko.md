@@ -70,7 +70,7 @@ todo_broken_links:
 uri: 'WPD:Editors Guide/step 2 communicate with the online community/ko'
 
 ---
-## <span>Summary</span>
+## Summary
 
 이것은 편집자 가이드 Step 2 입니다.
 
@@ -86,14 +86,14 @@ uri: 'WPD:Editors Guide/step 2 communicate with the online community/ko'
 </td>
 </tr>
 </table>
-## <span>IRC 채널에서 대화에 참여하세요.</span>
+## IRC 채널에서 대화에 참여하세요.
 
 WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
 
 -   Server: Freenode (irc.freenode.net)
 -   Channel: \#webplatform
 
-## <span>Page moved</span>
+## Page moved
 
 The content of this page is planned to be restructured. If you are translating this article, please refer to [WPD:Contributors\_Guide](/WPD:Contributors_Guide)
 

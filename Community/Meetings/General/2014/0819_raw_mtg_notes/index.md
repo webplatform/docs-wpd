@@ -8,7 +8,7 @@ uri: 'WPD:Community/Meetings/General/2014/0819 raw mtg notes'
 -   On IRC: Eliezerb
 -   scribe: RenoirB
 
-## <span>AGENDA</span>
+## AGENDA
 
 -   HTML5 Section
 -   Readiness markers bugs
@@ -16,7 +16,7 @@ uri: 'WPD:Community/Meetings/General/2014/0819 raw mtg notes'
 -   Issue tracker progress
 -   Planning HTML5 Documentation sprints
 
-### <span>TOPIC: HTML5 section</span>
+### TOPIC: HTML5 section
 
 ... to make a joint announcement of W3C HTML5 publication, WPD 2nd anniversary and WPD HTML5 Documentation rollout
 
@@ -44,7 +44,7 @@ Eliot: Sounds like a good blog post. Who is volunteering to write it up
 
 *ACTION* Shepazu to write the comeback of WPW blog post
 
-### <span>TOPIC: Readiness markers bugs</span>
+### TOPIC: Readiness markers bugs
 
 Jen: Can we talk about the Readiness markers? Is there volunteers to improve CSS for the flags to make them better.
 
@@ -66,7 +66,7 @@ shepazu: is there anything else about HTML or the readiness markers bugs?
 
 ... 28th of October's annoucement that is
 
-### <span>TOPIC: Stability and system update</span>
+### TOPIC: Stability and system update
 
 renoirb: In order to improve the stability, I have to undertake upgrade of a few web applications that are
 
@@ -80,7 +80,7 @@ renoirb: In order to improve the stability, I have to undertake upgrade of a few
 
 ... That’s where I’m going to focus in the next days
 
-### <span>TOPIC: Issue tracker progress</span>
+### TOPIC: Issue tracker progress
 
 shepazu: Amelia or Jen, do you want to update on the issue tracker progress?
 
@@ -88,7 +88,7 @@ Jen: I can talk about it. We should set some time to talk about it in a separate
 
 *ACTION* Jen to plan a meeting on the project progress
 
-### <span>TOPIC: Doug’s trip to London for SVG WG and Conference</span>
+### TOPIC: Doug’s trip to London for SVG WG and Conference
 
 shepazu: We need a chair for the next 2-3 meetings, I’ll be back after labor day
 
@@ -102,7 +102,7 @@ shepazu: is there anything else we should focus on? [silence]
 
 Eliot: Paul are we to do something about the 2nd anniversary of WebPlatformDocs
 
-### <span>TOPIC: Planning HTML5 Documentation sprints</span>
+### TOPIC: Planning HTML5 Documentation sprints
 
 shepazu: how about we m ake a joint announcement of the three:
 

@@ -5,12 +5,12 @@ tags:
 uri: 'WPD:Design'
 
 ---
-## <span>Tutorials</span>
+## Tutorials
 
 -   [Design changes guide](http://docs.webplatform.org/wiki/WPD:Design_changes_guide)
 -   [A hitchhiker’s guide to skinning the Bug Genie](http://docs.webplatform.org/wiki/WPD:Skinning_the_bug_genie)
 
-## <span>Site</span>
+## Site
 
 -   [File:Web-Platform-Style-Guide-web-1.pdf](/File:Web-Platform-Style-Guide-web-1.pdf)
 
@@ -38,18 +38,18 @@ Site design considerations:
 -   [Checklist of Design Elements](/WPD:Design/Element_List)
 -   [Inspiration](/WPD:Design/Inspiration)
 
-## <span>Logo</span>
+## Logo
 
 -   See the [Web Platform logo page](http://www.webplatform.org/logo/) for details on the logo and its usage, the logo color palette, and sample logo badges and an interactive logo builder.
 -   [File:Web-Platform-Style-Guide-05.03.2012.pdf](/File:Web-Platform-Style-Guide-05.03.2012.pdf)
 
-## <span>Icons</span>
+## Icons
 
 -   [icons](/WPD:Design/icons)
 
-## <span>Colors</span>
+## Colors
 
-### <span>Logo colors</span>
+### Logo colors
 
 |Description|Hex|HSL|Preview|
 |:----------|:--|:--|:------|
@@ -63,7 +63,7 @@ Site design considerations:
 |Teal-orange joint (not in logo)|\#1f9374|hsl(164, 65%, 35%)||
 |Orange-purple joint (not in logo)|\#d75f1e|hsl(21, 75%, 48%)||
 
-### <span>Website colors</span>
+### Website colors
 
 |Description|Hex|HSL|Preview|
 |:----------|:--|:--|:------|

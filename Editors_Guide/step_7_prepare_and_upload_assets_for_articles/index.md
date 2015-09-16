@@ -7,13 +7,13 @@ tags:
 uri: 'WPD:Editors Guide/step 7 prepare and upload assets for articles'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is Step 7 of the Editor's Guide.
 
-## <span>Step 7. Prepare and upload assets for articles</span>
+## Step 7. Prepare and upload assets for articles
 
-### <span>Determine the ideal dimensions and quality settings for images</span>
+### Determine the ideal dimensions and quality settings for images
 
 When adding images to an article, there are many factors to consider. Specifically, take the time to consider:
 
@@ -28,7 +28,7 @@ You can prepare images before uploading them by using an image-editing program o
 
 **Note**: If an image absolutely must be much larger than 650 pixels wide, create and upload a smaller thumbnail image, add a link to the thumbnail image on the page, and then link it to a full size image hosted somewhere else on the Web.
 
-### <span>Save image files with descriptive names</span>
+### Save image files with descriptive names
 
 After you make changes to the file's dimensions, you can use the image-editing program or online resource to save a copy of the file to your desktop. Avoid using generic file names, such as: image 04.png, screenshot.png, figure10.jpg, or code.jpg.
 
@@ -41,7 +41,7 @@ Name exported image files descriptively, like this:
 
 Only use underscores (not spaces, dashes, or other punctuation) when naming files to be uploaded. Also avoid capitalization and use all lower case characters.
 
-### <span>Optimize image quality</span>
+### Optimize image quality
 
 Using an image-editing program or online resource, you can crop, resize, and export the resulting image file to compress it for display in a browser. Since desktop and mobile screens have a resolution of 72 ppi (pixels per inch), there is no need to upload files that have a higher resolution; doing so simply takes up more space and causes the files to take longer to load.
 
@@ -53,7 +53,7 @@ Follow these guidelines:
 
 -   If the image is photo-realistic, very detailed, or includes gradients, drop shadows, or continuous tones, (such as a digital photograph), save the file using the JPEG format with 70% quality.
 
-### <span>Online tools helpful for optimizing image files</span>
+### Online tools helpful for optimizing image files
 
 If you prefer, you can use an online image compression application (instead of using image-editing software installed on your machine) to edit, compress, and export optimized image files. Remember to save files with a maximum width of 650 pixels.
 
@@ -63,7 +63,7 @@ Some popular online image optimizers are:
 -   [Pixenate](http://pixenate.com/)
 -   [PNG Crush](http://pmt.sourceforge.net/pngcrush/)
 
-### <span>Upload the image asset files</span>
+### Upload the image asset files
 
 After cropping, resizing, compressing, exporting, and renaming the image file, it is ready to be saved to your desktop. Once the file is ready to go and saved to your machine, the next step involves uploading it:
 
@@ -75,7 +75,7 @@ After cropping, resizing, compressing, exporting, and renaming the image file, i
 
  If you have questions about a file you are trying to upload, see [Step 2 of the Editor's Guide](/WPD:Editors_Guide/step_2_communicate_with_the_online_community) to learn how to ask for help online.
 
-### <span>Add the link to an uploaded image in the article draft</span>
+### Add the link to an uploaded image in the article draft
 
 After you have uploaded the file to the wiki site, the last step involves adding a link to the file in the page you are editing or creating.
 
@@ -97,7 +97,7 @@ Read the section on accessibility below to learn about the alternate text you sh
 
 [[File:file\_name.png]]
 
-### <span>Make pages accessible: Add alternate text (Alt tags) to images</span>
+### Make pages accessible: Add alternate text (Alt tags) to images
 
 When you add links to uploaded image files, it is very important to include alternate text in pages and articles. Alternate text is stored in the alt attribute of HTML image tags, and it is used to describe the visual content for screen readers. Alt tag text also displays in some browsers when a visitor hovers their cursor over an image - to offer a text description for the graphic.
 

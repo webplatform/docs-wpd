@@ -3,7 +3,7 @@ title: Create new database credentials and configure a web application to use it
 uri: 'WPD:Infrastructure/procedures/Create new database credentials configure a web application to use it'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -32,7 +32,7 @@ But what if we want to change the database details? Here’s how.
 
 In this example, we’ll create a new database for our WordPress blog instance, import an existing snapshot and apply the new database configuration and deploy it. In this tutorial we will focus solely on the use of the deployment system ("salt stack") and the deployment itself.
 
-## <span>Procedure</span>
+## Procedure
 
 -   Create a new database
 

@@ -7,11 +7,11 @@ This sprint is about refactoring the full server infrastructure to ease the main
 
 In order to get more details on the work that has been done, refer to [*2014 Improvements plan* page](/WPD:Infrastructure/analysis/2014-Improvements_plan)
 
-## <span>Goal</span>
+## Goal
 
 The goal of this sprint is to have a separation between *development* (e.g. a local Vagrant VM, or code checkout), *staging* (i.e. a full deployment) and *production* (i.e. the live site) so we can test our changes in an environment without impacting the live "production" site.
 
-## <span>Requirements</span>
+## Requirements
 
 1.  Every VMs w/ up to date softwares (database server, linux, etc)
 2.  Every web application to work under SSL
@@ -24,7 +24,7 @@ The goal of this sprint is to have a separation between *development* (e.g. a lo
 
 In other words, we should be able to work on anything in; webplatform*Staging*.org as a "sandbox" (i.e. do not touch live "production" site), which will allow anybody to replicate the full environment regardless of where its hosted or which top level domain name its being used.
 
-## <span>Expected outcome</span>
+## Expected outcome
 
 -   Have a COMPLETELY INDEPENDENT set of Virtual Machines to serve the FULL public facing webplatform.org components (i.e. blog, docs, project.webplatform.org)
 -   Before deploying to production, every components MUST be running fine on *webplatformSTAGING.org* (a.k.a. "**staging**")
@@ -34,7 +34,7 @@ In other words, we should be able to work on anything in; webplatform*Staging*.o
 -   Harmonize configuration settings across the softwares, automate them based on known data facts, do not rely on internal DNS
 -   Remove anything that isn’t used anymore, and simplify system as much as possible
 
-## <span>Tasks summary</span>
+## Tasks summary
 
 ... tasks details are in [WPD:Infrastructure/analysis/2014-Improvements\_plan](/WPD:Infrastructure/analysis/2014-Improvements_plan)
 
@@ -46,7 +46,7 @@ In other words, we should be able to work on anything in; webplatform*Staging*.o
 -   Ensure all VM are on Ubuntu 14.04 LTS
 -   Make sure every components are working as it should
 
-## <span>Status</span>
+## Status
 
 **NOTE**: Project is completed.
 
@@ -54,9 +54,9 @@ In other words, we should be able to work on anything in; webplatform*Staging*.o
     -   webat25.org (won’t be migrated, we will convert as a static site by May 2015)
 -   Set in place automation, see [\#Automatic updates](#Automatic_updates)
 
-## <span>Intervention plan</span>
+## Intervention plan
 
-### <span>Updating the web applications</span>
+### Updating the web applications
 
 For each web application:
 
@@ -69,7 +69,7 @@ For each web application:
 
 Later, we’ll have a system that listens and updates the site automatically.
 
-### <span>Automatic updates</span>
+### Automatic updates
 
 A system that listens to new version tags on given GitHub repositories.
 

@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/analysis/2013-Usage and future state'
 ---
 **NOTE**: There is a *TLDR* version describing software and hardware requirement available [WPD:Infrastructure/analysis/2013-Hardware and software requirements](/WPD:Infrastructure/analysis/2013-Hardware_and_software_requirements)
 
-## <span>Introduction</span>
+## Introduction
 
 [WebPlatform Docs](http://webplatform.org/) is now close to a year old. The goal of this document is to describe the current health of the system and how we can make it better.
 
@@ -19,9 +19,9 @@ This document describes in depth the usage, statistics of the current infrastruc
 
 * * * * *
 
-## <span>1. Executive Summary</span>
+## 1. Executive Summary
 
-### <span>1.1. Usage comparison table</span>
+### 1.1. Usage comparison table
 
 <table>
 <caption>VMs usage comparsion</caption>
@@ -114,7 +114,7 @@ Note 4
 
 In Temporary environment, numbers may vary, we might want to always have a temporary environment running for common (non-local) development purposes.
 
-### <span>1.2. Some facts about the current environment</span>
+### 1.2. Some facts about the current environment
 
 -   Fastly is reporting 3.4 Million requests for the month of August 2013;
 -   Some VMs are used for development and should be removed or migrated to an isolated environment, see [\#3.1. Type of deployment](#3.1._Type_of_deployment);
@@ -122,7 +122,7 @@ In Temporary environment, numbers may vary, we might want to always have a tempo
 -   Everybody with a shared account can do everything with no real control in the privileges;
 -   4 VMs has to be Ubuntu 10.04, solely required for the instances described [\#2.2.1.1. MediaWiki, WordPress, Dabblet, Talk](#2.2.1.1._MediaWiki.2C_WordPress.2C_Dabblet.2C_Talk), to be solved in [\#3.2.1. Operating System version discrepancy to solve](#3.2.1._Operating_System_version_discrepancy_to_solve).
 
-### <span>1.3. Current environment summary</span>
+### 1.3. Current environment summary
 
 The following information summarizes the resources allocation used in the current environment.
 
@@ -143,7 +143,7 @@ Note 5 '**Important!'**
 
 The current environment on HPCloud has no isolated “staging”, nor “test” deployment environment (i.e. “Temporary environment”), see [\#3.2. Refactor overview](#3.2._Refactor_overview) for problems it might cause.
 
-### <span>1.4. Refactored infrastructure estimation summary</span>
+### 1.4. Refactored infrastructure estimation summary
 
 The following describes the estimated resources required to build the new infrastructure to be used by September 2014.
 
@@ -161,25 +161,25 @@ Note 2
 
 We might consider creating an always-running ‘Secondary environment’ for ad-hoc development.
 
-#### <span>Production environment</span>
+#### Production environment
 
 -   9-12 Public IP address;
 -   14-19 VMs;
     Note: some changes described in 3.2. Refactor overview might require to adjust the numbers;
 
-#### <span>Temporary environment</span>
+#### Temporary environment
 
 -   It should be possible to have more than one deployed “temporary” environment at a time (e.g. one for staging, one for test);
 -   Number is approximate as it might change depending of the feature to be deployed and tested (e.g. We want to test fault tolerance on the DB, we might only need one web application instance, and 5 database servers)
 -   \~9 Public IP Address;
 -   \~9 VMs;
 
-#### <span>Secondary environment</span>
+#### Secondary environment
 
 -   Represent a reduced version of the production environment, a secondary site replicating the production;
 -   Resource allocation is similar to a Temporary environment in terms of IP Addresses and VM quantities.
 
-### <span>1.5. Common services</span>
+### 1.5. Common services
 
 Although the current infrastructure includes the services in common enumerated below, the Refactored infrastructure will also include them.
 
@@ -190,15 +190,15 @@ Although the current infrastructure includes the services in common enumerated b
 
 * * * * *
 
-## <span>2. Current environment</span>
+## 2. Current environment
 
-### <span>2.2. Instance flavors</span>
+### 2.2. Instance flavors
 
 Even though the current infrastructure does not have an explicit categorization scheme, each instance is conceptually separated into the following categories. The new infrastructure will have a similar categorization.
 
-#### <span>2.2.1. Application services</span>
+#### 2.2.1. Application services
 
-##### <span>2.2.1.1. MediaWiki, WordPress, Dabblet, Talk</span>
+##### 2.2.1.1. MediaWiki, WordPress, Dabblet, Talk
 
 A generic profile server should serve only as a redundant HTTP app service. Each application server has a public IP address, but they are not broadcasted publicly in DNS records. Instead, it uses a third-party service (fastly) to balance the load.
 
@@ -272,7 +272,7 @@ A generic profile server should serve only as a redundant HTTP app service. Each
 </tbody>
 </table>
 
-##### <span>2.2.1.2. Monitor</span>
+##### 2.2.1.2. Monitor
 
 This instance provides a web frontend to ganglia reports, and publish them publicly.
 
@@ -315,7 +315,7 @@ This instance provides a web frontend to ganglia reports, and publish them publi
 </tbody>
 </table>
 
-##### <span>2.2.1.3. Piwik</span>
+##### 2.2.1.3. Piwik
 
 This instance provides piwik dashboard web front-end and tracking beacon.
 
@@ -370,7 +370,7 @@ This instance provides piwik dashboard web front-end and tracking beacon.
 </tbody>
 </table>
 
-##### <span>2.2.1.4. Project</span>
+##### 2.2.1.4. Project
 
 This node hosts a dedicated version of Bug Genie, available here.
 
@@ -417,7 +417,7 @@ This node hosts a dedicated version of Bug Genie, available here.
 </tbody>
 </table>
 
-##### <span>2.2.1.5. Code</span>
+##### 2.2.1.5. Code
 
 This node is not fully working at the moment and it was planned to host code repositories using Gerrit application server.
 
@@ -464,9 +464,9 @@ This node is not fully working at the moment and it was planned to host code rep
 </tbody>
 </table>
 
-#### <span>2.2.2. Infrastructure services</span>
+#### 2.2.2. Infrastructure services
 
-##### <span>2.2.2.1. Deployment</span>
+##### 2.2.2.1. Deployment
 
 This node is the central point of access, it manages the local datacenter. From it, is possible to apply configuration settings through a remote execution and configuration management system called Salt Stack.
 
@@ -518,7 +518,7 @@ This node is the central point of access, it manages the local datacenter. From 
 </tbody>
 </table>
 
-##### <span>2.2.2.2. Database</span>
+##### 2.2.2.2. Database
 
 This node type is a database cluster. The current setup has a master and a read-only node.
 
@@ -578,7 +578,7 @@ This node type is a database cluster. The current setup has a master and a read-
 </tbody>
 </table>
 
-##### <span>2.2.2.1. Memcache</span>
+##### 2.2.2.1. Memcache
 
 Current MediaWiki uses memcache services, but it is not validated whether it is used to its full potential.
 
@@ -633,7 +633,7 @@ Current MediaWiki uses memcache services, but it is not validated whether it is 
 </tbody>
 </table>
 
-##### <span>2.2.2.1. Storage</span>
+##### 2.2.2.1. Storage
 
 Currently, the storage is using GlusterFS as the system and many instances are using it as well.
 
@@ -695,9 +695,9 @@ Usage:
 </tbody>
 </table>
 
-#### <span>2.2.3. Process services</span>
+#### 2.2.3. Process services
 
-##### <span>2.2.3.1. Backup</span>
+##### 2.2.3.1. Backup
 
 <table>
 <caption>Node <code>backup</code></caption>
@@ -742,7 +742,7 @@ Usage:
 </tbody>
 </table>
 
-##### <span>2.2.3.2. Bots</span>
+##### 2.2.3.2. Bots
 
 This node is hosting a Python program called ‘Lumberjack’ that is acting as a IRC bot logging chat events on some channels.
 
@@ -791,19 +791,19 @@ This node is hosting a Python program called ‘Lumberjack’ that is acting as 
 
 * * * * *
 
-## <span>3. Refactored infrastructure</span>
+## 3. Refactored infrastructure
 
-### <span>3.1. Type of deployment</span>
+### 3.1. Type of deployment
 
 The objective is to enforce testing prior to applying it to the production environment.
 
 Although the production environment has fixed resources, the Staging/testing environment can be built on demand with flexible amount of IP/VMs to ensure the developed configuration works prior to apply it to production.
 
-#### <span>Production</span>
+#### Production
 
 Production environment is very important and it must be fully tested in Staging/Testing before make them available to the user.
 
-#### <span>Staging/testing</span>
+#### Staging/testing
 
 The objective of this server environment is to reproduce an isolated version of the production environment.
 
@@ -811,7 +811,7 @@ Therefore, the idea is to have the capability of a fully working and isolated en
 
 It is estimated that during a period of time, we might have 2 distinct deployments running for testing and acceptance testing prior to be applied in production.
 
-### <span>3.2. Refactor overview</span>
+### 3.2. Refactor overview
 
 -   Linux release: Ubuntu 12.04 LTS is planned to be used on ALL instances;
 -   Some other ideas to improve the infrastructure are described in [WPD:Infrastructure/priorities](/WPD:Infrastructure/priorities), although relevant to the project, they are considered out of scope of the present document;
@@ -820,11 +820,11 @@ It is estimated that during a period of time, we might have 2 distinct deploymen
     -   [\#INFR-40](http://project.webplatform.org/infrastructure/issues/INFR-40)
     -   [\#INFR-41](http://project.webplatform.org/infrastructure/issues/INFR-41)
 
-#### <span>3.2.1. Operating System version discrepancy to solve</span>
+#### 3.2.1. Operating System version discrepancy to solve
 
 The objective is to migrate the Operating System version to current Ubuntu LTS version. In the meantime, two LTS versions will be supported.
 
-#### <span>3.2.2. Misc. tasks</span>
+#### 3.2.2. Misc. tasks
 
 Some tasks might improve the overall performance of the system, they should be analyzed and reported into [the issue tracker](http://project.webplatform.org/infrastructure/issues)
 
@@ -847,7 +847,7 @@ Some tasks might improve the overall performance of the system, they should be a
 -   Use secondary partition for manifest storage mount as XFS for quick snapshots
 -   Ensure tracking code is installed through salt stack, and not manually (!)
 
-#### <span>3.2.3. To be analyzed</span>
+#### 3.2.3. To be analyzed
 
 -   Analyse whether we can MySQL server version (possible, would break things?)
     -   See [\#3.3.2.2. Database](#3.3.2.2._Database) notes
@@ -863,11 +863,11 @@ Some tasks might improve the overall performance of the system, they should be a
     -   Mailing testing utilities
 -   Mailing relay exit node
 
-### <span>3.3. Instance flavors</span>
+### 3.3. Instance flavors
 
 The architecture of the solution is going to be re-evaluated, as there are also other instances that do not need to be exactly the same.
 
-#### <span>3.3.1. Application servers</span>
+#### 3.3.1. Application servers
 
 An app server should have deployed one or more web application virtual host. This should not be impacted by whether application A is also present with application B on the same node. It is a current issue, which causes some false-positive errors in the logs and creates unneeded noise.
 
@@ -965,7 +965,7 @@ An app server should have deployed one or more web application virtual host. Thi
 </dd>
 </dl>
 
-#### <span>3.3.2. Infrastructure servers</span>
+#### 3.3.2. Infrastructure servers
 
 <dl>
 <dd>
@@ -987,7 +987,7 @@ The following is a sum of the described profiles below.
 </dd>
 </dl>
 
-##### <span>3.3.2.1. Deployment</span>
+##### 3.3.2.1. Deployment
 
 The objective of this instance is to be the only machine to connect to. Not only should it manage Nova and Salt stack commands, but also assist in other various tasks.
 
@@ -1013,7 +1013,7 @@ Assuming multi-site hosting system is built, we will use [Salt Stack’s ‘Synd
 </dd>
 </dl>
 
-##### <span>3.3.2.2. Database</span>
+##### 3.3.2.2. Database
 
 The current setup of 2 is estimated to be enough for our needs; however, it is also happens to be a bottleneck in some situations, as we only have 1 read-write AND 1 read-only machines (2 total).
 
@@ -1052,7 +1052,7 @@ The most of the current application stack do not necessarily have drop-in cachin
 </dd>
 </dl>
 
-##### <span>3.3.2.3. Memcache</span>
+##### 3.3.2.3. Memcache
 
 <dl>
 <dd>
@@ -1072,7 +1072,7 @@ The most of the current application stack do not necessarily have drop-in cachin
 </dd>
 </dl>
 
-##### <span>3.3.2.4. Storage</span>
+##### 3.3.2.4. Storage
 
 <dl>
 <dd>
@@ -1095,7 +1095,7 @@ The most of the current application stack do not necessarily have drop-in cachin
 </dd>
 </dl>
 
-#### <span>3.3.3. Process servers</span>
+#### 3.3.3. Process servers
 
 Similar to the Web application profile, a node providing a process service should be installable to any server without impacting or breaking other managed services.
 
@@ -1123,13 +1123,13 @@ Although the refactor will make sure the two profiles are independent and applic
 
 * * * * *
 
-## <span>4. Service provider infrastructure</span>
+## 4. Service provider infrastructure
 
 Although it might be impossible to the provider offer a fully featured Open Stack environment with Public facing web dashboard, we would appreciate to have access to bare-metal machines to your capabilities with the latest stable OpenStack version (Folsom, Grizzly).
 
 Our usage level does not require access to a web front end, nor a web control panel. Our infrastructure has already systems configured to communicate to OpenStack using the ‘nova’ utility.
 
-### <span>4.1. Questions</span>
+### 4.1. Questions
 
 Some details to clarify about what may be available within our upcoming provider infrastructure.
 

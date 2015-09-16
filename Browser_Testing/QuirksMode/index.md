@@ -3,21 +3,21 @@ title: QuirksMode
 uri: 'WPD:Browser Testing/QuirksMode'
 
 ---
-## <span>QuirksMode Browser Compatibility data model</span>
+## QuirksMode Browser Compatibility data model
 
-### <span>Purpose</span>
+### Purpose
 
 The browser compatibility tables on <http://quirksmode.org> have been the prime sources for browser incompatibility information for years now.
 
 This proposal aims at creating an API with which anyone can query the compatibility database and build their own compatibility tables.
 
-### <span>API</span>
+### API
 
 QuirksMode currently stores its data in HTML tables, and does not offer downloadable data or an API. This document describes the QuirksMode data model should work.
 
 The API should allow anyone to request compatibility information for one or more methods, properties, or CSS declarations in one or more browsers. A JSON file will be delivered, and it will be up to the owner of the requesting script to do something with this data.
 
-### <span>Data model</span>
+### Data model
 
 The “rows” consist of DOM methods and properties, as well as CSS declarations. The “columns” consist of browsers. In each intersection a compatibility status text is shown.
 
@@ -25,7 +25,7 @@ In addition, each method/property/declaration has one text that describes it, on
 
 Specific intersections may also have a related text. For instance, if attributes[index] in IE8 is judged “Incorrect,” a related text describes the exact problem. This text should be sent with the rest of the data whenever a user requests attributes[index] in IE8.
 
-#### <span>Methods, properties, and declarations</span>
+#### Methods, properties, and declarations
 
 In theory the compatibility tables contain all DOM methods and properties and all CSS declarations. (In practice they contain a subset of each; I haven’t bothered to test CSS margin, for instance.)
 
@@ -42,7 +42,7 @@ All methods, properties, and declarations should have the following related item
 -   a link to a test page
 -   (possibly links to related items; the current compatibility tables do not have this feature)
 
-#### <span>Browsers</span>
+#### Browsers
 
 The API should also allow users to request an arbitrary number of browsers.
 
@@ -50,7 +50,7 @@ To make it easier for the users to request related data, browsers, too, will be 
 
 These browser groups have to be defined. Currently the mobile tables show browser groups; “Opera Mobile”, “S60 WebKit” etc. but this scheme has to be extended considerably.
 
-#### <span>Compatibility data</span>
+#### Compatibility data
 
 At the intersection of each individual method, property, or declaration and each individual browser there is a compatibility text, which can have the following values:
 
@@ -170,7 +170,7 @@ If the value is Almost, Incomplete, Alternative, Minimal, Incorrect or Buggy, th
 
 (The values Yes, No, Untestable and Crash may also have such texts, but usually they’re pretty self-explanatory.)
 
-### <span>Example</span>
+### Example
 
 As an example, let’s take a look at the **attributes[index]** entry in the [current compatibility tables](http://www.quirksmode.org/dom/w3c_core.html#attributes).
 
@@ -188,7 +188,7 @@ The method is attributes[index].
 -   The “Test page” link leads to the test page.
 -   Thus, if a user would request attributes[index] for IE 7 and 8 he would get all data except for the IE5.5 text. If he would leave out IE entirely he would not receive the IE5-7 and IE5.5 texts.
 
-## <span>JSON Example</span>
+## JSON Example
 
 ``` html
 {

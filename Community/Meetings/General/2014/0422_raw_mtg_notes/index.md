@@ -5,7 +5,7 @@ uri: 'WPD:Community/Meetings/General/2014/0422 raw mtg notes'
 ---
 [Previous meeting notes](http://docs.webplatform.org/wiki/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes)
 
-## <span>Presences</span>
+## Presences
 
 -   Renoir (scribe)
 -   Doug
@@ -15,7 +15,7 @@ uri: 'WPD:Community/Meetings/General/2014/0422 raw mtg notes'
 -   Elizer (on IRC only)
 -   Frozenice (on IRC only)
 
-## <span>Agenda</span>
+## Agenda
 
 -   Compatibility Table Project
 -   Flag templates
@@ -23,7 +23,7 @@ uri: 'WPD:Community/Meetings/General/2014/0422 raw mtg notes'
 -   Review of open action items
 -   Amelia's introduction
 
-## <span>Compatibility Table project</span>
+## Compatibility Table project
 
 Doug: Renoir made a scrip that imports content from MDN and converts it to objects.
 
@@ -63,7 +63,7 @@ Renoir pointing to Amelia a test example at <http://w3c-test.org/webstorage/stor
 
 Based off of <https://github.com/w3c/web-platform-tests> \^
 
-## <span>TOPIC Flag and templates</span>
+## TOPIC Flag and templates
 
 [asking if eliezerb is there, confirming]
 
@@ -203,7 +203,7 @@ Eliot: Could do something like the W3C specs use. See this for the blue stripe: 
 
 ... Doug pulls foot from mouth
 
-## <span>Quick status</span>
+## Quick status
 
 Jen worked on: Editor guide,
 

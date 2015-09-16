@@ -5,40 +5,40 @@ uri: 'WPD:Content Requirements/MSDN DOM Method'
 ---
 *This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.*
 
-## <span>Page Category Migration Mapping DOM Method</span>
+## Page Category Migration Mapping DOM Method
 
-### <span>URL Mapping</span>
+### URL Mapping
 
 *URL mapping is handled in the spreadsheet*
 
-#### <span>Page Form</span>
+#### Page Form
 
 Use the [Form:API\_Object\_Method](/Form:API_Object_Method) form.
 
-## <span>API\_Object\_Method</span>
+## API\_Object\_Method
 
-### <span>Field values</span>
+### Field values
 
 The output of the script should be effectively the concatenation of the PRE blocks below, but where the values have been filled in as described.
 
 **Note**: All content should be run through an HTML-to-MediaWiki converter. All occurrences of vertical pipe must be replaced with {{!}} and all occurrences of equals should be replaced with {{=}}
 
-#### <span>Flags</span>
+#### Flags
 
     {{Flags
     |High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic
     |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
     }}
 
-#### <span>Standardization Status</span>
+#### Standardization Status
 
     {{Standardization_Status|}}
 
-#### <span>API Name</span>
+#### API Name
 
     {{API_Name}}
 
-#### <span>Summary</span>
+#### Summary
 
     {{Summary_Section|SUMMARY_INFORMATION}}
 
@@ -46,7 +46,7 @@ Where:
 
 -   **SUMMARY\_INFORMATION** is the first \<p\> element in the content
 
-#### <span>API Object Property</span>
+#### API Object Property
 
     {{API_Object_Method
     |Parameters=METHOD_PARAMETERS
@@ -85,7 +85,7 @@ Where:
 
 **Note**: There does not appear to be a way to figure this out from the attribute articles in MSDN, although the information must be held somewhere
 
-#### <span>Examples Section</span>
+#### Examples Section
 
     {{Examples_Section
     |Not_required=No
@@ -111,7 +111,7 @@ Where:
 -   **CODE\_VALUE** is the unescaped value of the code from the example, following the general escaping rules for pipes and equals.
 -   **URL\_VALUE** is equal to the href of the link preceding the example in the source document
 
-#### <span>Notes</span>
+#### Notes
 
     {{Notes_Section
     |Notes=NOTES_VALUE
@@ -121,11 +121,11 @@ Where:
 
 -   **NOTES\_VALUE** is the content of the "Remarks" section in the source document
 
-#### <span>Topics</span>
+#### Topics
 
     {{Topics|DOM}}
 
-#### <span>External Attribution</span>
+#### External Attribution
 
     {{External_Attribution
     |Is_CC-BY-SA=No

@@ -9,7 +9,7 @@ WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopt
 -   the [MediaWiki formatting guide](http://www.mediawiki.org/wiki/Help:Formatting)
 -   the [Media Wiki Help](http://www.mediawiki.org/wiki/Help:Contents) gives good detailed instructions
 
-## <span>Short version</span>
+## Short version
 
 -   (Almost) no tags needed
 -   \* and \# for bullets and numbers
@@ -26,7 +26,7 @@ WebPlatform Docs uses Semantic MediaWiki as its underlying engine, and has adopt
 -   Use proper list markup for complicated lists
 -   Use proper list markup for complicated lists
 
-## <span>Related tutorials</span>
+## Related tutorials
 
 For help with some specific WPD coding issues, see:
 

@@ -16,41 +16,41 @@ In W3C Specifications, this is called an *Object Attribute*; In JavaScript, it i
 
 -   Backlink to [Parent object](/w/index.php?title=Example_pages/API_Reference_page&action=edit&redlink=1) or parents
 
-## <span>Summary</span>
+## Summary
 
 Brief summary. A few sentences at most.
 
-## <span>Syntax</span>
+## Syntax
 
 `param1 = param2.propertyName` Syntax prototype should not have syntax-coloring, because it's not meant to be executed.
 
-## <span>Parameters</span>
+## Parameters
 
 param1
 :   definition of param1
 param2
 :   definition of param2
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, multiple paragraphs.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Browser compatibility</span>
+## Browser compatibility
 
 [Example pages/Common elements\#Browser\_compatibility](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>(See also)</span>
+## (See also)
 
 [Example pages/Common elements\#See\_also](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

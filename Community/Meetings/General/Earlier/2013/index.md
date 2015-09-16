@@ -8,20 +8,20 @@ todo_broken_links:
 uri: 'WPD:Community/Meetings/General/Earlier/2013'
 
 ---
-## <span>Earlier Web Platform general status meeting</span>
+## Earlier Web Platform general status meeting
 
 For the most recent notes on the webplatform.org general status meetings, go to [WPD:Community/Meetings/General](/WPD:Community/Meetings/General).
 
-## <span>Agenda 2013-12-06</span>
+## Agenda 2013-12-06
 
 -   Jen Simmons has a mock up of the HTML elements pages
 -   Max Polk has done the 3rd JS import
 -   Eliezer Bernart is on templates
 -   David Singer has proposed a WebVTT content project
 
-### <span>Raw meeting notes</span>
+### Raw meeting notes
 
-## <span>Agenda 2013-11-22</span>
+## Agenda 2013-11-22
 
 -   JS import
 -   HTML Elements
@@ -31,13 +31,13 @@ For the most recent notes on the webplatform.org general status meetings, go to 
 -   Migration
 -   Dave's working on DOM re-org
 
-### <span>Raw meeting notes</span>
+### Raw meeting notes
 
 [WPD:Community/Meetings/General/2013/1206\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2013/1206_raw_mtg_notes)
 
-## <span>Agenda 2013-11-08: Canceled due to lack of agenda</span>
+## Agenda 2013-11-08: Canceled due to lack of agenda
 
-## <span>Agenda 2013-11-01</span>
+## Agenda 2013-11-01
 
 -   Jen Simmons
 -   TPAC
@@ -47,13 +47,13 @@ For the most recent notes on the webplatform.org general status meetings, go to 
 -   Status on migration project
 -   Doug will be out the next two Fridays, should we meet anyway?
 
-### <span>Discussion</span>
+### Discussion
 
 julee, shepazu, peterlubbers, jswisher, scottrowe\_, jensimmons, renoirb, eliot, patrickdsouza, eliezerb are all on the line or on IRC
 
 scribenick: renoirb
 
-#### <span>TOPIC: Jen Simmons is contracting</span>
+#### TOPIC: Jen Simmons is contracting
 
 Good news: Jen Simmons is going to work for at least 6 months or so, starting part time, she is a developer/designer. she is going to be part time for a few weeks and then be full time after she finished her other already planned arrangements.
 
@@ -61,7 +61,7 @@ Jen had a chance to talk with a few folks at Html5DevConf, at Google. A lot to w
 
 Doug believes we should prioritize usability to the users (i.e. not a contributor). we should have a conversation about those on the list. We need to prioritize.
 
-#### <span>TOPIC: TPAC</span>
+#### TOPIC: TPAC
 
 TPAC is W3C's annual "all hands" face-to-face meeting. Where we gather (almost) all the groups in a big conference. This year it is in Shenzhen, China. Renoir, Doug and Eliott will be there. Doug and Renoir be there between 11/9-17. Eliott: 11/10-16.
 
@@ -77,7 +77,7 @@ Doug & Renoir will not be available for the next 2 General meetings, so Doug wil
 
 ACTION: While at TPAC, Doug will convey status on all pending projects before Friday General Meetings.
 
-#### <span>TOPIC: Migration</span>
+#### TOPIC: Migration
 
 Renoir has done a plan. <http://docs.webplatform.org/wiki/WPD:Infrastructure/analysis/2013-Migrating_to_a_new_cloud_provider>
 
@@ -95,7 +95,7 @@ Renoirb wants to make it clear that we MUST have a clone of the full production/
 
 ACTION: Doug will contact Dream host and get dates, today.
 
-#### <span>TOPIC: Compatibility tables</span>
+#### TOPIC: Compatibility tables
 
 Ronald Mansveld is working on the data model so all contributing sites can provide content according to the model.
 
@@ -115,7 +115,7 @@ Doug believes we can finish Compatibility tables by the end of TPAC and possibly
 
 ACTION: Doug will confirm dates with Ronald Mansveld & Aaron Schulz today.
 
-#### <span>TOPIC: CSS vs. Beta announcement</span>
+#### TOPIC: CSS vs. Beta announcement
 
 For the CSS properties project, Doug suggests we "Declare victory and go home"
 
@@ -137,7 +137,7 @@ Julee again mentioned that we need to have a timeline for the compatibility tabl
 
 (On the IRC, renoirb also suggests also this as a blog post: <http://lists.w3.org/Archives/Public/public-webplatform/2013Oct/0148.html>)
 
-#### <span>TOPIC: Next content project</span>
+#### TOPIC: Next content project
 
 We need to find what we work on during DocSprint and WPW.
 
@@ -159,7 +159,7 @@ Renoirb believes his community management dashboard would help.
 
 ACTION: Julee to send out notes so more folks can comment on the next content project.
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   While at TPAC, Doug will convey status on all pending projects before Friday General Meetings.
 -   Doug will contact Dream host and get dates, today.
@@ -167,9 +167,9 @@ ACTION: Julee to send out notes so more folks can comment on the next content pr
 -   Julee to send out notes so more folks can comment on the next content project.
 -   Doug will contact Max Polk today.
 
-## <span>Agenda 2013-10-25: Canceled due to lack of quorum</span>
+## Agenda 2013-10-25: Canceled due to lack of quorum
 
-## <span>Agenda 2013-10-18</span>
+## Agenda 2013-10-18
 
 -   CSS Properties Project
 
@@ -210,13 +210,13 @@ ACTION: Julee to send out notes so more folks can comment on the next content pr
     -   Pro: New York, baby!
     -   Con: We're not ready yet; let's get JavaScript imported and scoped first
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: CSS Properties Project</span>
+#### TOPIC: CSS Properties Project
 
 Last night we had one property unowned but vivienne (who was at Zurich's docsprint) took it (yay!!!) she's great, from Jay's group what we have outstanding are a few properties that Dave is working on. We're not going to do an example for knockout. We created a correct syntax example, but put a larger example on hold. All of the remainders will get live code examples at code.webplatform.org. clip-rule example, Doug is working on. We should be done mid next week (Dave is out next Wed-Fri). [much rejoicing]
 
-##### <span>Subtopic: Dependency on compatibility tables</span>
+##### Subtopic: Dependency on compatibility tables
 
 -   compatibility tables: first one is compat tables lots of activity about that this week, shepazu provided an update: at the doc sprint in amsterdam, we got to gether with PPK (he's from quirksmode, obviously) he invited the guy who does html5test.com he's been doing something like caniuse for something like ten years they're test driven what we want to do with this project is have a single data model that captures browser compat/test results for as much as we can we have permission to use MDN data, and because they are facts, we don't HAVE to attribute that use (but we plan to give attribution, just not changing the license on the articles that include it) Max Firdman (sp?) from MobileHtml5 wants to help too <http://mobilehtml5.org/> <http://html5test.com/> shepazu has a running prototype of a mediawiki extension that inserts compat information but it's a naive implementation and would cause caching problems html5test.com source code: <https://github.com/NielsLeenheer/html5test> the page would be constantly changing so it wouldn't be able to be cached by CDN I'm working on another approach renoirb has good ideas on that I got renewed energy from several people a guy named Ronald Manzfeld (sp?) stepped up and said, "if you need some server-side help, I could help" he got really into the idea of making the unified data model he started on that and has a first draft available. Niels Leenheer, guy behind html5test.com PPK, NIls (HTML5Test) and others are all on a new list: public-webplatform test. Ronald has been very active, interested in driving things forward we're also going to provide an aPI so others can get it (same API we will use) I think within a couple of weeks we'll have at least something workable
 
@@ -232,19 +232,19 @@ Do we have a plan for if someone finds an error in the data on WPD? The plan was
 
 what does a conteingency plan look like? if we run into problems with the extension I'm writing (I'm going to talk to trenoirb and ryanlane later today about that, by the way) one possible contingency is to make a script to use the API for MDN to pull out their compat information, and we write a script to inserts that compat information into our pages. not generate a new page, just edit the apges we have make sure it's not automatically generated at serve time. Even if it's not possible to fully automate, even if we can automate the hard parts, we might be able to make it feasible for a small number of volunteers to copy/paste/massage my point is mainly "just think scrappy" If full-automatic isn't easy, even semi-automatic is better than nothing.
 
-##### <span>Subtopic: Dependency on legacy MDN samples</span>
+##### Subtopic: Dependency on legacy MDN samples
 
 Some residual sections were imported (especially code examples, related pages and syntax) automatically. we had talked with renoirb about doing a bulk find/replace operation if we can't do it by script, we can probably do it manually--just need some volunteers Eliot: We're hoping to get confirmation today for a facilities reservation for University of Washington on 11/2 that sounds like a great project for students to tackle. [murmurs of agreement] if renoirb can run a script to at least identify pages that need this, that would be helpful, but he has a lot to tackle right now I have a lot of other things on my plate scottrowe\_: There's a lot on renoirb's plate, we should have a separate meeting to figure out prioritzation of infrastructure tassks renoirb: For now my focus is on migration ACTION: julee to write up bug (cc eliot) about investigating feasibility of finding pages that need old MSDN sections removed
 
-##### <span>Subtopic: Dependency on reviews by experts</span>
+##### Subtopic: Dependency on reviews by experts
 
 Review by experts & get them thinking about the project so they're ready to talk about the launch when it happens. Two categories: spec experts, and rockstars the former is for shepazu, the latter is for jkomoros ACTION: jkomoros to ask paul\_irish to do a spot check of WPD CSS properties
 
-##### <span>Subtopic: Dependency on launch plan</span>
+##### Subtopic: Dependency on launch plan
 
 jkomoros on that AI basic idea is a plan for a few weeks from now about blog post, who to get to support the launch. ACTION: jkomoros to create strawman launch plan (including relative timeline) What's the timeline? The long pole is the compat tables for now so that will depend on information from that taskforce about if they can do a quick and dirty import. So we're going to say we're dependent on that functionality, it's a good idea to have compat information, even if it's not the Super Awesome Amazing Automatic version We might have a contingency plan for CSS properties, even if the SAAA version isn't ready yet so let's get feedback from compat table group, and base dates on that.
 
-##### <span>Subtopic: Dependency on migration</span>
+##### Subtopic: Dependency on migration
 
 Doug earlier brought up: should we migrate before announcing? But says "no." The new provider is getting prepped to beta, a feature we could use at the end of the month I told renoirb to consider migration as top priority. Ideally ryan can help with it as well [09:41:14] Ryan\_Lane nods [09:41:14] \<Ryan\_Lane\> I can Since we're blocked on compat tables, at least starting the migration could be a good thing. One question is: if we finish before migration, do we wait for migration/ slash, is there enough bandwidth to do compat tables and migration? renoirb will advise on compat tables, but the two work streams don't overlap TOO much but I'll verify with Ronald ACTION: shepazu to verify with Ronald/renoirb that compat tables and migration work streams are independent.
 
@@ -254,23 +254,23 @@ The other question is the risk of the migration: Whether it will cause more prob
 
 Then, we can see how they interact.
 
-#### <span>TOPIC: JS project plan</span>
+#### TOPIC: JS project plan
 
 We could do a postmortem on CSS props project (even in email), figure out what worked and what didn't. Use that to inform a high-level plan of tackling JS project Doc Sprints lead to TONS of work getting done so JS project plan should incorporate a schedule of doc sprints that different folks could volunteer to run. About.com who is enthusiastic about JS topic in particular for their upcoming doc sprint. JS plan should be ready by December. During November, we should prep for this. ACTION: shepazue to work with Max Polk to make sure his migration is up to speed we got review from two different experts on the JS architecture ACTION: shepazu to forward e-mails from JS experts about architecture on to list ideally we'd run through a few WPW sprints before the doc sprint to make sure we're ready for the doc sprint WPW is an ongoing second tier to in person doc sprints so we should pay attention to that during planning.
 
-#### <span>TOPIC: WPD table at HTML5DevConf</span>
+#### TOPIC: WPD table at HTML5DevConf
 
 Shepazu got a table for W3C at the HTML5DevConf in SF next week we have me, Rebecca Hauk manning table but we need more volunteers we have some shirts and stickers, but we could use more swag. Shepazu has 3 free tickets for volunteers. We left a big pile of t-shirts in Amsertdam
 
-#### <span>TOPIC: PiWik reports for Doc Sprints</span>
+#### TOPIC: PiWik reports for Doc Sprints
 
 scottrowe\_ looked into generating the PiWik reports about doc sprint played around for awhile, but there's no way to scale this. We need to make some decsiions about what reports we're going to generate and provide steps for doc sprint owners and fix some things about piwik user interface but we should defer to analytics meeting.
 
-#### <span>TOPIC: Google contractor!</span>
+#### TOPIC: Google contractor!
 
 Alex will let us know if Google adds another contractor. Stay tuned…
 
-### <span>Action Items</span>
+### Action Items
 
 -   shepazu to send link to the public-webplatform-test list to main list [DONE]
 -   shepazu Talk to Ronald about perhaps doing a phased compat table approach, where we just do one data source to start (in order to move faster)
@@ -284,11 +284,11 @@ Alex will let us know if Google adds another contractor. Stay tuned…
 -   shepazu to work with Max Polk to make sure his migration is up to speed we got review from two different experts on the JS architecture
 -   shepazu to forward e-mails from JS experts about architecture on to list ideally we'd run through a few WPW sprints before the doc sprint to make sure we're ready for the doc sprint
 
-## <span>Agenda 2013-10-11: Canceled due to lack of quorum</span>
+## Agenda 2013-10-11: Canceled due to lack of quorum
 
-## <span>Agenda 2013-10-04</span>
+## Agenda 2013-10-04
 
-### <span>Agenda</span>
+### Agenda
 
 -   CSS Properties status
 
@@ -308,37 +308,37 @@ Alex will let us know if Google adds another contractor. Stay tuned…
 -   Change this meeting time/day?
 -   Anything else?
 
-#### <span>Topic: CSS property status</span>
+#### Topic: CSS property status
 
 scottrowe\_ emailed the list of 95 properties … the coordinators should contact those people individually … and if we can't get those people, we'll reassign them <http://docs.webplatform.org/wiki/WPD:Community/Meetings/General> while scott compiled the list of properties, Julee reconstructed a master list & categorized them according to status. She will put this in a google doc to manipulate it more easily we should still have TBDs on the wiki, so people can sign up… and it's out of date
 
 there are about 60 that need to be done, and 35 need review
 
-#### <span>Topic: Doing experimental properties</span>
+#### Topic: Doing experimental properties
 
 some have said we should only work on things that are not experimental, but there's value for us to do more cutting-edge stuff since we're closer to the development of the specs and implementations also good for SEO we need to be careful about updating examples The idea we had in mind is a mechanism. Isn't going to happen in the next 6 months for now maybe we could do this: W3C has a DB, with a unique URL for each spec, so we could come up with something where we are working off a draft version , script that trolls publications every day, sends an email w/ a list of specs that have changed, validated against URL ACTION: shepazu & eliot to brainstorm w/ Robin at TPAC
 
-#### <span>TOPIC: site stability</span>
+#### TOPIC: site stability
 
 Getting server & client-side errors on dabblet Are we doing any stability testing? ACTION: Renoir to write up his testing plan, and add all relevant systems to that plan, such as Dabblet instance julee: we could also ask the community to help with testing
 
-#### <span>Topic: Doc Sprint in a Box</span>
+#### Topic: Doc Sprint in a Box
 
 <https://docs.google.com/document/d/1fIDssDZln2Z_DrnKliT1ymZpn_OTqdYA7rVgMaTsSk4/edit> ACTION: Millo to review doc sprint in a box, add some comments, and update it based on what we've learned internally
 
 ACTION: scottrowe do an edit pass stripped down to its main purpose which is to have community members throw doc sprint ACTION: scottrowe to share with Patrick D'Souza for review
 
-#### <span>Topic: WPD Birthday next Tue: list activities/URLs</span>
+#### Topic: WPD Birthday next Tue: list activities/URLs
 
 doing it on OCtober 8 would be best, since it's the birthday, but we have no volunteers; maybe the WPD twitter account could be the lead, and eveyone else could retweet
 
 scottrowe\_ needs anecdotes, but I'll write the blog post ACTION: Julee to forward Scott's email & get them to commit to tweet & point to the blog post. We looked very much on the same page 1 yr ago: we should look that way now. ACTION: scottrowe\_ will write the blog post, hopefully by Thursday.
 
-#### <span>topic: Change this meeting time/day?</span>
+#### topic: Change this meeting time/day?
 
 ACTION: Julee to send a query email & ask if we should Change this meeting time/day?
 
-### <span>Action Items</span>
+### Action Items
 
 -   shepazu & eliot to brainstorm w/ Robin at TPAC
 -   Renoir to write up his testing plan, and add all relevant systems to that plan, such as Dabblet instance
@@ -349,9 +349,9 @@ ACTION: Julee to send a query email & ask if we should Change this meeting time/
 -   scottrowe\_ will write the blog post, hopefully by Thursday.
 -   Julee to send a query email & ask if we should Change this meeting time/day?
 
-## <span>Agenda 2013-09-27</span>
+## Agenda 2013-09-27
 
-### <span>Agenda</span>
+### Agenda
 
 -   Piwik and the Analytics is back on track!
     -   Analytics: Create a secret starting page that will help track activity during a doc sprint (TBD, probably next week)
@@ -363,25 +363,25 @@ ACTION: Julee to send a query email & ask if we should Change this meeting time/
     -   Goal is to have this done before the Amsterdam Doc Sprint, possibly even earlier.
 -   CSS properties tables
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: PiWik/ Analytics</span>
+#### TOPIC: PiWik/ Analytics
 
 Piwik and the Analytics are back on track. Two weeks ago Renoir deployed PiWik in a different way than before without going too deep, it was in the same way as before (Fastly), putting a different tracking code on all of the pages should have covered all of the pages, with the help of Patrick, create goals in the dashboard & campaigns. Now forwarding all of the e-mails to the analytics mailing list. Julee & Eliot filed a bug and I responded to an earlier filed one that represents requirements for the dashboard. At the analytics meeting next week we could consolidate requirements and finalize that list. All bugs & discussion is on <http://docs.webplatform.org/wiki/WPD:Requirements/Analytics> Renoirb gives a rough geolocation, might need to recrunch the database; some other work: a way to trigger conversions in the goals (like clicking on edit or save), will require adding JS if we get it in place before the docsprint, we can track progress. Scott\_rowe will show up at next analytics meeting to discuss.
 
 -   ACTION: Scott\_rowe to attend analytics meeting on Monday 4pm pdt
 
-#### <span>TOPIC: Infra: Changing datacenter?</span>
+#### TOPIC: Infra: Changing datacenter?
 
 No news. Worked with Doug on that. Didn't get any feedback from anyone yet, but time is passing working to rebuild the VM from scratch as much as renoir can in the same environment. We either need to move soon, or do the move next month Still trying to connect up with Dreamhost and other folks
 
-#### <span>TOPIC: Doc-Sprint-In-A-Boxathon scheduled for next wednesday</span>
+#### TOPIC: Doc-Sprint-In-A-Boxathon scheduled for next wednesday
 
 I asked Jay to take leadership of kicking this off I think that he is working on the general structure of the thing right now, Jay sent an e-mail about the timing, but also an e-mail from Scott and Peter where they had a draft docsprint in a box: a brain dump about all of the things we thought should be in there. Not intended to dictate the structure. just making sure that before the meeting we wrote down what we had learned from doing a few. Jay also had an idea of the structure he wanted.
 
 -   ACTION: scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm
 
-#### <span>TOPIC: CSS properties tables</span>
+#### TOPIC: CSS properties tables
 
 We discussed how to manage the tables. Also, coordinators need to verify that each property they are coordinator for is properly reflected in table. Julee & Eliot have done this. Chris Mills, Shepazu & Nic d'Costa needs to do this.
 
@@ -394,7 +394,7 @@ Creating a JS project in the project tracker and populating it makes sense for w
 
 -   ACTION: scottrowe\_ and julee to work at creating a new list of unfinished CSS properties
 
-### <span>Action Items</span>
+### Action Items
 
 -   Scott\_rowe to attend analytics meeting on Monday 4pm pdt [STATUS: Everyone was a no-show. Will happen next Monday, instead.]
 -   scottrowe to send an e-mail to the list to invite anyone who's interested to get involved with the docsprint in a box I think Jay sent an invite to Patrick, but we should confirm [DONE]
@@ -402,7 +402,7 @@ Creating a JS project in the project tracker and populating it makes sense for w
 -    ??? to contact Chris. [Resolved]
 -   scottrowe\_ and julee to work at creating a new list of unfinished CSS properties [DONE]
 
-## <span>Agenda 2013-09-20</span>
+## Agenda 2013-09-20
 
 Objective: Describe the current state of the project.
 
@@ -428,7 +428,7 @@ Note, the objective does not include making any decisions or otherwise taking an
 -   Next week's blog post author
 -   Anything else?
 
-## <span>Agenda 2013-08-23</span>
+## Agenda 2013-08-23
 
 -   Roll call
 -   Review of open action items
@@ -437,7 +437,7 @@ Note, the objective does not include making any decisions or otherwise taking an
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-## <span>Agenda 2013-08-16</span>
+## Agenda 2013-08-16
 
 -   Roll call
 -   Review of open action items
@@ -450,33 +450,33 @@ Note, the objective does not include making any decisions or otherwise taking an
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: WPW - how is it going?</span>
+#### TOPIC: WPW - how is it going?
 
 julee: We have three coordinators, but no contributors. A lot of people are busy or on vacation. Originally we had an optimistic schedule to be done by august after reviewing with a few folks, everyone thought that was way too optimistic especially given summer vacation period. We will put in a buffer week after labor day, & add incomplete properties back onto the pile. After the end of august, Microsoft will have some resources that we'll be adding to this one of my writers will be helping, another writer who hasn't worked on this yet will be helping as well. Google is working on a contractor as well, and scottrowe will be helping out with coordinating as well
 
 Bumping up the boolean values for things like animated values in the CSS properties template, and also Inherited field. Maybe Frozenice can ? ACTION: julee to reach out to frozenice assigning the "non-boolean properties for animatable, etc" template issue to him
 
-#### <span>TOPIC: Servers</span>
+#### TOPIC: Servers
 
 shepazu: We'll be talking to dreamhost later but ryan and renoirb think it's a good thing to have redundancy across hosts renoir contacted a few different hosts including Digital Ocean and iWeb the latter is based in Quebec so renoirb can talk to them in shepazu: Dreamhost asctually wants to be involved in the project as a steward \<patrickdsouza1\> renoirb: good to look at hosts in a different time zone like europe. \<renoirb\> iWeb data center: <http://iweb.com/green-data-centers> renoirb: I talked to them. The idea is a main one and another one that's latent, that we have a copy of everything; if we need to change we just flip a switch. Looked around for one with a good reptuation with multi site. iWeb's president is going to talk to us by Tuesday of next week We need to have a different company/place to back up stuff on a regular basis, but if you have multiple instances across diffferent companies, you have a huge latency issue. Ryan\_Lane has a preference towards openstack clouds, as its open source nature aligns well with our project if dreamhost can provide us with the different locations/datacenters, then is the secondary company just a single backup instance? We will roll out redundancy as needed the idea is to have redundancy between prod and test. Julee asked for an architecture document that describes our setup with a nice diagram, and references to justifing it.
 
-#### <span>TOPIC: Server status</span>
+#### TOPIC: Server status
 
 Also, server status page (going to be on our own sub-domain for sure): <http://webplatform.tumblr.com/>
 
-#### <span>TOPIC: Infrastructure meeting</span>
+#### TOPIC: Infrastructure meeting
 
 At infrastructure meeting, most of the discussion was about how to prioritize renoirb's work schedule; we're going to use projects.webplatform.org. Once community has a decision, having execution focused meetings is helpful to add it into the issue tracker (if there are issues that aren't recorded yet, we'll raise them there), executing on things that have already been decided in the community meetings or over e-mail on the list, taking the decisions from the group and parsing down into actionable things and track them in project.wwebplatofm.orgexposing it in the dashboards/reports, so the current health is viewable by anyone. Everyone is welcome at the infrastructure meeting, but because julee/shepazue/renoirb are full-time on this project, we'll take responsibility to keep track. 11am Pacific on Mondays, and we can move it if others want to attend regularly.
 
-#### <span>TOPIC: Communications plan</span>
+#### TOPIC: Communications plan
 
 There's been so much activity, I want to have people talk about what they're doing Renoirb got access to the social medial outlets, G+, twitter, FaceBook. Ideally we'd be able to automate publishing a post to all outlets, with a buffer system to space out updates too and space out updates on different channels. Updates should be scheduled to not only USA time but for those in Europe and the rest of the world and the status tumblr, when something happens that we want to talk about, the conversation wil lgo to the tumblr status regarding the policies, I think we should keep it the same: vendor neutral, information on status eliots blog proposal : how & why we blog; we'll have an editorial calendar; start looking for repeating blog posts; \<nicdaCosta\> with regards to tumblr and the new G+ community, is it necessary to have so many outlets? And would there be a given "purpose" for each outlet? WPD calendar in g+ may not be sufficient for an editorial calendar
 
 looking forward to seeing Coalie Mercier, from the W3C MarComm staff, her work & what she wants to do for the future we need a regular voice AI: R/S/J in project.wp.org, we could rename project community management; create tasks, give ownership, tag twitter, blogpost, whatever, infographics, etc.
 
-### <span>Action Items</span>
+### Action Items
 
 -   CARRIED FORWARD: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above. (Mostly done: Doug & Renoir to do.) (CARRY FORWARD)
 -   CARRIED FORWARD: shepazu make "can you tell if this page is ready for consumption or needs more work" an active question for css project reviewers. (CARRY FORWARD)
@@ -487,9 +487,9 @@ looking forward to seeing Coalie Mercier, from the W3C MarComm staff, her work &
 -   CARRY FORWARD: Shepazu & renoirb to review Lea's actions item and reassign and to reassign ownership of project.webplatform.org. (CARRIED FORWARD)
 -   R/S/J in project.wp.org, we could rename project community management; create tasks, give ownership, tag twitter, blogpost, whatever, infographics, etc.
 
-## <span>Agenda 2013-08-09 Meeting canceled due to lack of agenda</span>
+## Agenda 2013-08-09 Meeting canceled due to lack of agenda
 
-## <span>Agenda 2013-08-02</span>
+## Agenda 2013-08-02
 
 -   Roll call
 -   Welcome to Renoir!
@@ -512,9 +512,9 @@ looking forward to seeing Coalie Mercier, from the W3C MarComm staff, her work &
 -   SSL Certificate for TLD and sub-domains
 -   Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: Welcome to Renoir!</span>
+#### TOPIC: Welcome to Renoir!
 
 [much rejoicing]
 
@@ -526,13 +526,13 @@ We'll keep contracting with Ryan as we need him, given his expertise. Renoir has
 
 Official start date was August 1. Vacation to Paris for one week, August 30th
 
-#### <span>TOPIC: Lea is not at W3C</span>
+#### TOPIC: Lea is not at W3C
 
 Wednesday was Lea's last day at W3C. Lea had a great mix of design/front end skills. Renoir has some of those skills (mostly on development side). She didn't design icons, illustrations, etc, so as I'm looking for a new person we can focus on people with strong UX/UI skills, ooking at 10-12 candidates already. We have a job description on W3C's site. <http://www.w3.org/Consortium/Recruitment/#design-webplatform>
 
  ACTION ITEM: julee: We need someone to review Lea's actions item and reassign, and to reassign ownership of project.webplatform.org.
 
-#### <span>TOPIC: Action items cleanup</span>
+#### TOPIC: Action items cleanup
 
 -   Action items cleanup: Please search for your name on this page.
     -   It's probably associated with an action item. Either:
@@ -543,9 +543,9 @@ Wednesday was Lea's last day at W3C. Lea had a great mix of design/front end ski
 
 ACTION: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)".
 
-#### <span>TOPIC: WPW - how is it going?</span>
+#### TOPIC: WPW - how is it going?
 
-#### <span>SUBTOPIC: Endgame schedule</span>
+#### SUBTOPIC: Endgame schedule
 
 Non-content portion of the plan is probably doable. Need to confirm the compatibility table work.
 
@@ -569,7 +569,7 @@ ACTION: shepazu and julie to make a more concrete plan with nubmers about stewar
 
 ACTION: shepazu to reach out to other stewards to make sure they respond to the concrete plan asking for help.
 
-##### <span>SUBTOPIC: Flags</span>
+##### SUBTOPIC: Flags
 
 Lea & shepazu have the action item to actively ask reviewers:
 
@@ -581,21 +581,21 @@ So flags will be moved to a more discrete place.
 
 Lea has prototyped the flags. renoirb has extracted those, we're ready to put them in when we get the flag stuff done.
 
-#### <span>TOPIC: dreamhost</span>
+#### TOPIC: dreamhost
 
 Shepazu talked to dreamhost (at least one person there) at hosting the site. And possibly being an active steward.
 
 ACTION: renoirb: needs to be involved in the dreamhost conversations to make sure they have what we need.
 
-#### <span>TOPIC: Analytics meeting moving to Mondays</span>
+#### TOPIC: Analytics meeting moving to Mondays
 
 Analytics meeting is moving to Monday 4pmPDT / 7pmEDT.
 
-#### <span>TOPIC: Max's JS file import plan</span>
+#### TOPIC: Max's JS file import plan
 
 Max's JS file import plan ready for language expert reviews <http://docs.webplatform.org/wiki/WPD:Projects/javascript>
 
-#### <span>TOPIC: Google Calendar</span>
+#### TOPIC: Google Calendar
 
 Google calendar is up. This is most presently for folks to add the times where they're available to help with WPD, and when they're unavailable.
 
@@ -603,7 +603,7 @@ renoirb: can see the calendar there, no events
 
 <https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group>
 
-#### <span>TOPIC: proactive notification regarding system issues</span>
+#### TOPIC: proactive notification regarding system issues
 
 We're going to move to proactive notification regarding system issues
 
@@ -614,7 +614,7 @@ Renoir set up a system that will notify himself and Doug when the site is down.
 
 Low-hanging fruit to set up have a simple system that lets people know what the status is if it's going wrong. Something like status.webplatform.org, to say either it's a known outage or unknown.
 
-#### <span>TOPIC: Dev backlog</span>
+#### TOPIC: Dev backlog
 
 Dev backlog in a new Wiki namespace; e.g. WPD:Development/ProjectA
 
@@ -624,13 +624,13 @@ When your infra fails… it happens to also affect the status view.
 
 Please use project.webplatform.org when possible to create and track projects once they move from the proposals phase.
 
-#### <span>TOPIC: SSL Certificate for TLD and sub-domains</span>
+#### TOPIC: SSL Certificate for TLD and sub-domains
 
 No time to discuss SSL Certificate for TLD and sub-domains.
 
 renoirb & shepazu will take it off line.
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   CARRY FORWARD: Everyone to review the general meeting notes for actions assigned to them that aren't marked "(DONE)" and update with status as described above. (STATUS: Mostly done: Doug & Renoir to do.) (CARRIED FORWARD)
 
@@ -650,11 +650,11 @@ AI: renoirb: needs to be involved in the dreamhost conversations to make sure t
 -   renoir to look at server errors in more depth. (DONE: Got more confirmation last week; a hard confirmation. Working this afternoon to make the piwik switch today. Trying to recreate infrastructure locally to be able to test it. Succeeded in getting it running locally, will publish my workspace on github soon, so anyone else can build it completely after, of course, removing sensitive information and history
 -   CARRY FORWARD: shepazu to reach out to Julien and Rick Byers regarding JS plan. (STATUS: In progress: Shepazu reached out to rick byers, julien, and rick Waldron. Needs to pass info back to Max.)
 
-## <span>Agenda 2013-07-26 Meeting canceled due to lack of quorum</span>
+## Agenda 2013-07-26 Meeting canceled due to lack of quorum
 
-## <span>Agenda 2013-07-19 Meeting canceled due to lack of quorum</span>
+## Agenda 2013-07-19 Meeting canceled due to lack of quorum
 
-## <span>Agenda 2013-07-12</span>
+## Agenda 2013-07-12
 
 -   Roll call
 -   Review of open action items
@@ -680,15 +680,15 @@ AI: renoirb: needs to be involved in the dreamhost conversations to make sure t
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>Topic: Zurich docsprint</span>
+#### Topic: Zurich docsprint
 
 Jay asked for retweeting from various official twitter handles about the Zurich Docsprint.
 
 Please retweet and otherwise promote: here: <https://twitter.com/klick_ass/status/355063210086383619> +1/Share this:<https://plus.google.com/u/0/100575683580946332118/posts/EjJ9r6WCBXg> Repost here: <https://alpha.app.net/klick_ass/post/7550831>
 
-#### <span>Topic: Jirka's ITS project</span>
+#### Topic: Jirka's ITS project
 
 Jirka shared with us:
 
@@ -704,9 +704,9 @@ ITS is mostly attributes, with a few elements. It's a little bit tricky because 
 
 ITS probably will not require any templates than our current Element and Attribute templates.
 
-#### <span>Topic: CSS Properties project end game</span>
+#### Topic: CSS Properties project end game
 
-##### <span>Subtopic: Stuff to do before we are "done"</span>
+##### Subtopic: Stuff to do before we are "done"
 
 (See outline of things blocking us completing the project.)
 
@@ -724,7 +724,7 @@ Easiest fix: after pages have been updated and reviewed, search for MSDN links a
 
 ACTION ITEM: Julee to call out in property review checklist that people should verify MSDN examples, and either replace with better examples or move to code.webplatform.org. (DONE)
 
-##### <span>Subtopic: Visual indication that a page is "done"</span>
+##### Subtopic: Visual indication that a page is "done"
 
 How can the user tell if a page is ready for consumption or not. We're working on P2-P3 properties, but there are a bunch more. Want to make it clear to users which ones are vetted.
 
@@ -736,7 +736,7 @@ ACTION ITEM: Julee make sure editing guide is updated with new flag values, when
 
 ACTION ITEM: Lea & shepazu to figure out how to move current flags to new flag types and cc jkomoros and frozenice.
 
-##### <span>Subtopic: High level "expert" reviews</span>
+##### Subtopic: High level "expert" reviews
 
 We'd like to get feedback, fine touches, and the green light from CSS working group and other "famous devrel people".
 
@@ -744,7 +744,7 @@ ACTION ITEM: shepazu to contact CSS wg about reviewing "done" pages. ACTION ITEM
 
 ACTION ITEM: Lea to incorporate Chris Coyier's feeedback as appropriate.
 
-##### <span>Subtopic: System stability</span>
+##### Subtopic: System stability
 
 Julee & others are getting a lot of 503 issues.
 
@@ -758,7 +758,7 @@ Also leaverou reported a bug on production site. She can't deploy to test wiki, 
 
 ACTION ITEM: Lea to send infrastructure bug (can't deploy to test wiki, only production wiki) directly to Ryan. (DONE)
 
-##### <span>Subtopic: we need more coordinators</span>
+##### Subtopic: we need more coordinators
 
 Julee and shepazu cannot keep up with the contributors and properties. We need coordinators. So, every Tuesday, please volunteer. Eliot is busy until August. (Props to Eliot for calling in on vacation!)
 
@@ -772,7 +772,7 @@ Julee is manually going back to previous contributors and re-engaging.
 
 It's fine to have this problem NOW, but to make sure it doesn't happen in the future, we need to establish a mechanism.
 
-#### <span>Topic: JS import project</span>
+#### Topic: JS import project
 
 Max and Phistuck have been working out the final structure of the JS import. Let's get some JS experts who would be interested in reviewing the structure they're working out. Also, they might be at a blocking point; relying on naming convention for DOM, which I'm not sure if we settled or not. We need to sort out the details for the import.
 
@@ -784,7 +784,7 @@ ACTION ITEM: Julee to make sure we have one page where we solidify what Phistuck
 
 ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 
-### <span>Action Items</span>
+### Action Items
 
 -   shepazu to look into if we need separate HTMLElement and SVGElement templates for ITS project
 -   Jirka to create overview/tutorial on ITS.
@@ -804,7 +804,7 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 -   Julee to make sure we have one page where we solidify what Phistuck and Max want.(DONE)
 -   jswisher to reach out to Dave Brouant (DONE)
 
-## <span>Agenda 2013-06-28</span>
+## Agenda 2013-06-28
 
 -   Roll call
 -   Review of open action items
@@ -821,11 +821,11 @@ ACTION ITEM: jswisher to reach out to Dave Brouant (sp?)
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-#### <span>TOPIC: WPW - how is it going?</span>
+#### TOPIC: WPW - how is it going?
 
-##### <span>SUBTOPIC: Who will be a coordinator for the next 4 weeks?</span>
+##### SUBTOPIC: Who will be a coordinator for the next 4 weeks?
 
 People aren't officially signing up to be a coordinator, so Doug is basically signed up for all properties. We need people signed up to help. It's not that hard to coordinate. Just mark down when people volunteer, help them out. Recruit people actively, on the properties you're coordinating. It's too much for doug on his own; other people are helping out ad hoc, but aren't following through to make sure the contributor has actually completed the work. Alex signed up for last three weeks in July.
 
@@ -833,7 +833,7 @@ ACTION: julee to e-mail list to try to get others to coordinate. (DONE)
 
 We're still targeted for end of July for first round of P0 CSS properties. Don't want things to fall apart for lack of resources. There are enough volunteers that people can actually get this thing done. ACTION: Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
 
-##### <span>SUBTOPIC: How should we circle back around to folks who have previously showed interest?</span>
+##### SUBTOPIC: How should we circle back around to folks who have previously showed interest?
 
 Julee started a CRM spreadsheet
 
@@ -861,7 +861,7 @@ We could have a per-page thing and the overall site notice thing, profiling peop
 
 We should talk about all of these analytics in the analytics meeting. i'm going to make a note of these.
 
-##### <span>SUBTOPIC: What MBF for CSS properties?</span>
+##### SUBTOPIC: What MBF for CSS properties?
 
 compatibility tables data types & units done get the code samples switched from MSDN to code.webplatform.org
 
@@ -889,7 +889,7 @@ a launch plan make sure we're contextualizing what we consider this launch to be
 
 ACTION: jkomoros to help coordinate a launch plan once we decide to go forward with launch.
 
-#### <span>TOPIC: Max's JS file import</span>
+#### TOPIC: Max's JS file import
 
 <http://dev.maxpolk.org/msdnjs/index.php?title=Special:AllPages&from=Constants&to=Objects%2Farguments> Max has a link to first full upload: <http://dev.maxpolk.org/msdnjs/index.php?title=Special%3AAllPages&from=Objects%2Farguments&to=&namespace=0> <http://lists.w3.org/Archives/Public/public-webplatform/2013Jun/0075.html>
 
@@ -921,11 +921,11 @@ ACTION: Max to configure the project page with the tasks. ACTION: Julee to rally
 
 ACTION: shepazu and maxpolk to meet up in person to work on JS page organization
 
-#### <span>TOPIC: revamping flags!</span>
+#### TOPIC: revamping flags!
 
 Eliot provided last set of flags that we had settled on We should go ahead and do it; enough people concurred
 
-#### <span>TOPIC: Demian's Tech Centers - how is it going?</span>
+#### TOPIC: Demian's Tech Centers - how is it going?
 
 The general overview is that blackberry is paying for some time to use these tech centers in brazil (schools that are paid to do lab time, basically interns). 4 students who have signed on to take on editing/ css properties. Julee and I met with them last week, will meet again on Monday.
 
@@ -935,11 +935,11 @@ They have a separate table on WPW <http://docs.webplatform.org/wiki/Meta:web_pla
 
  They're mostly CS students, so maybe can help with infrastructure.
 
-#### <span>TOPIC: Anything new & notable?</span>
+#### TOPIC: Anything new & notable?
 
 (Blogs or other communications planned for next week?) ACTION: Eliot to write up blog post about Seattle Doc Sprint. (DONE)
 
-## <span>ACTION ITEMS</span>
+## ACTION ITEMS
 
 -   julee to e-mail list to try to get others to coordinate. (DONE)
 -   Eliot to move Seattle Doc Sprint properties to a new table on the WPW page. (DONE)
@@ -953,11 +953,11 @@ They have a separate table on WPW <http://docs.webplatform.org/wiki/Meta:web_pla
 -   Julee to rally an IA overview of Max's JS emails (in progress. PhishtucK is doing great.)
 -   shepazu and maxpolk to meet up in person to work on JS page organization
 
-## <span>Agenda 2013-06-21: Meeting canceled due to lack of quorum</span>
+## Agenda 2013-06-21: Meeting canceled due to lack of quorum
 
-## <span>Agenda 2013-06-14: Meeting canceled due to lack of quorum</span>
+## Agenda 2013-06-14: Meeting canceled due to lack of quorum
 
-## <span>Agenda 2013-06-07</span>
+## Agenda 2013-06-07
 
 -   Roll call
 -   Demian Borba of Blackberry and his university program.
@@ -970,9 +970,9 @@ They have a separate table on WPW <http://docs.webplatform.org/wiki/Meta:web_pla
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-### <span>DISCUSSION</span>
+### DISCUSSION
 
-#### <span>TOPIC: Demian Borba of Blackberry and his university program</span>
+#### TOPIC: Demian Borba of Blackberry and his university program
 
 Demian Borba has a webkit implementation in our phone
 
@@ -1011,7 +1011,7 @@ shepazu to reach out to Kuma ops (Aly) - DONE no reply yet
 
 julee to ask direct and actionable question on IRC at 11am - KINDA SORTA
 
-#### <span>TOPIC: WPW - how is it going?</span>
+#### TOPIC: WPW - how is it going?
 
 scott is working on video
 
@@ -1031,11 +1031,11 @@ we meant to put things together earlier, having a set plan in place will give us
 
 ..so folks can do it on Wednesday.
 
-#### <span>TOPIC: Japanese email list</span>
+#### TOPIC: Japanese email list
 
 julee: should we ask Hiroki Yamada to repost announcements to public-webplatform-jp@w3.org?
 
-#### <span>Topic: Naming Conventions</span>
+#### Topic: Naming Conventions
 
 julee\_: we should be consistent about where landing pages are located
 
@@ -1047,11 +1047,11 @@ Eliot: I'll do it
 
 shepazu: ben was also trying to link to the talk page for pointer events
 
-#### <span>Topic: Anything blocking you from creating great content?</span>
+#### Topic: Anything blocking you from creating great content?
 
 shepazu: We got an upgrade on MW; some folks have seen some weird quirks - please continue to report anything strange
 
-#### <span>TOPIC: Doc Sprints</span>
+#### TOPIC: Doc Sprints
 
 MS is having a Doc Sprint 6/22
 
@@ -1059,7 +1059,7 @@ Brazil Doc Sprint TBD
 
 <http://docs.webplatform.org/wiki/WPD:Community/Community_Events>
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   CARRIED FORWARD: shepazu to post on job sites and sysops lists
 -   shepazu & julee to do a promo check list, including concrete details on how stewards can propagate (Eliot is working on this)
@@ -1067,7 +1067,7 @@ Brazil Doc Sprint TBD
 -   shepazu to ask Hiroki to propagate announcements to the JP list
 -   We will blog and tweet WPW late Tuesday night
 
-## <span>Agenda 2013-05-31</span>
+## Agenda 2013-05-31
 
 -   Roll call
 -   Review of open action items
@@ -1079,13 +1079,13 @@ Brazil Doc Sprint TBD
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: DevOps</span>
+#### TOPIC: DevOps
 
 Recruiting is going slowly.
 
-#### <span>TOPIC WPW</span>
+#### TOPIC WPW
 
 coordinators should socialize the list each week
 
@@ -1129,7 +1129,7 @@ We also had major noise/spam issues right after launch. So, in us trying to cont
 
  IRC people don't like to be told what specifically to discuss. If you are too strict on things, you end up like \#html and people don't like you too much.
 
-#### <span>TOPC: Topic clusters done with instrux?</span>
+#### TOPC: Topic clusters done with instrux?
 
 scottrowe has the Action item to of a proposal to create a new set of topic clusters that are pertinent to the page type
 
@@ -1139,7 +1139,7 @@ How do we get a specific topic cluster type form field into each page type?
 
 scottrowe: we think we can do this, but in the short term, we'll have to have folks put manual links
 
-#### <span>TOPIC: WPW Video</span>
+#### TOPIC: WPW Video
 
 scottrowe has instrux in the video script
 
@@ -1151,7 +1151,7 @@ ACTION: scottrowe to derive a checklist from the video script for editing CSS pr
 
 ACTION: scottrowe will tape next week.
 
-#### <span>TOPIC: spam</span>
+#### TOPIC: spam
 
 600+ spam pages should Admins approve new user creation?
 
@@ -1167,14 +1167,14 @@ Garbee is working with MicroFormats on sharing stuff once they get their system 
 
 Jswisher said MDN watches the revisions feed and has a dedicated delete; switching to persona has helped - although it might be a temporary effect; Persona for auth is actually a pretty good helper. It, like oAuth, is harder to fake outright.
 
-### <span>Action Items</span>
+### Action Items
 
 -   shepazu to send email to most active users
 -   shepazu to reach out to Kuma ops (Aly).
 -   shepazu to post on job sites and sysops lists
 -   julee to ask direct and actionable question on IRC at 11am
 
-## <span>Agenda 2013-05-24</span>
+## Agenda 2013-05-24
 
 -   Roll call
 -   Review of open action items
@@ -1198,15 +1198,15 @@ Jswisher said MDN watches the revisions feed and has a dedicated delete; switchi
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for next week?)
 
-### <span>DISCUSSION</span>
+### DISCUSSION
 
-#### <span>TOPIC: Scott to do a video on how to do a CSS property</span>
+#### TOPIC: Scott to do a video on how to do a CSS property
 
 It would be cool if people could share tips about doing CSS properties for the video If we tell people to not fill in compat table information, make sure to emphasize the compat NOTES section Let's talk about more examples for video, too.
 
  We can easily do other ones in the future about how to edit wiki, contribute, etc
 
-#### <span>TOPIC: ToC</span>
+#### TOPIC: ToC
 
 mockup: <http://docs.webplatform.org/test/css/properties/border-radius>
 
@@ -1214,7 +1214,7 @@ Lea pulled ToC out to the side.
 
 Suggestions on how to make it better, but acceptable to deploy for now? Yes.
 
-#### <span>TOPIC: Web Platform Wednesdays</span>
+#### TOPIC: Web Platform Wednesdays
 
     http://docs.webplatform.org/wiki/Meta:web_platform_wednesday
 
@@ -1244,7 +1244,7 @@ We should get topic clusters determined more in advance? like two or three week 
 
 Leaverou will speak about WPW at <http://cssconf.com/>
 
-#### <span>TOPIC: landing page/home page for site</span>
+#### TOPIC: landing page/home page for site
 
 <https://docs.google.com/spreadsheet/ccc?key=0Ao_fDuA-PPFydE9vbkR4UWpPRHNjaGFxcjA5WXd5SVE#gid=0>
 
@@ -1252,17 +1252,17 @@ General idea: current goal is to get people active, so show community activity!
 
 Changes should be done incrementally.
 
-#### <span>TOPIC: Beta</span>
+#### TOPIC: Beta
 
 Connection errors on project.webplatform.org are preventing triaging of bugs.
 
 In order to easily and quickly view bugs for current milestone within each project's open bugs page, bugs that are not part of the beta should be set to postponed.
 
-#### <span>TOPIC: Embedding external pages in WPD</span>
+#### TOPIC: Embedding external pages in WPD
 
 it would be cool if we could add screencaps from other pages leaverou got this from the cubic-bezier page, somebody added screencaps from my tool cubic-bezier.com. She asked him if he thought it was a good idea to embed the tool (assuming I added media queries to make it look good on small viewports). She's wondering if it's possible and allowed.
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   julee to start thread on where new guides exist, where to link them to and what to call them (our Ed, Getting Started, WPW, and Coordinator's guides have confusing names and do not properly reference each other.) (DONE)
 -   Scott to do a video on how to edit a CSS properties page.
@@ -1278,9 +1278,9 @@ it would be cool if we could add screencaps from other pages leaverou got this f
 -   (CARRIED FORWARD) shepazu to ensure forums banner explicitly states it's for accessibility question only. (CARRIED FORWARD)
 -   (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPW ideally (CARRIED FORWARD)
 
-## <span>2013-05-17: Meeting canceled due to lack of quorum</span>
+## 2013-05-17: Meeting canceled due to lack of quorum
 
-## <span>Agenda 2013-05-10</span>
+## Agenda 2013-05-10
 
 -   Roll call
 -   Review of open action items
@@ -1309,19 +1309,19 @@ it would be cool if we could add screencaps from other pages leaverou got this f
 -   Anything blocking you from creating great content?
 -   Anything new & notable? (Blogs or other communications planned for this week?)
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-### <span>TOPIC: W3C accessibility folks to use our forums</span>
+### TOPIC: W3C accessibility folks to use our forums
 
 We need to ensure forums banner explicitly states it's for accessibility question only.
 
 There is a cost to everything we maintain. We'd de-emphasize it from the site (well, we already have). The accessibility people have a dedicated, funded person to fund the boards.
 
-### <span>TOPIC: WPD Wednesdays</span>
+### TOPIC: WPD Wednesdays
 
 <http://docs.webplatform.org/wiki/Meta:web_platform_wednesday>
 
-#### <span>WPDW Status</span>
+#### WPDW Status
 
 We're in good shape, 25 knocked out this week, someone committed for everything but outlines
 
@@ -1331,7 +1331,7 @@ Let's remember to send out inspirational articles when we blog about topics we'r
 
 Weekly cycle is over on Tuesday.
 
-#### <span>Do all pages need a different reviewer? At least a "peer" review?</span>
+#### Do all pages need a different reviewer? At least a "peer" review?
 
 Important that the person who reviews the page is not the person who worked on it.
 
@@ -1351,7 +1351,7 @@ Two different levels of review might make the procedure too long winded. Expert 
 
 some people have already spoken up and started contributing because this makes it easier. Don't take the work away from other people if you can help develop them. It will take some effort to get people into the habit of contributing and building up the contributor base
 
-#### <span>Coordinators responsibilities</span>
+#### Coordinators responsibilities
 
 Doug is working on a coordinator's guide
 
@@ -1373,13 +1373,13 @@ That's why we chose more properties this week, to keep shorthand/longhand sets t
 
 A lot of pages in mine that said, "just see short hand page". That's annoying to click through. Because we don't have transclusion, we should copy paste.
 
-### <span>TOPIC: Getting to beta</span>
+### TOPIC: Getting to beta
 
 <http://docs.webplatform.org/wiki/WPD:Community/Meetings/General#Project_Status>
 
 The project leads to review the criteria and update the bugs Extended deadline until mid week next week
 
-#### <span>Project Status</span>
+#### Project Status
 
 [Project Status Page for Getting to Beta](/WPD:Project_Status)
 
@@ -1401,7 +1401,7 @@ Bug count: 141
 |skin|Lea|17|Yes|Yes|
 |templates|jkoromo|7|dependency on content & ia beta definition|No|
 
-### <span>TOPIC: Onboarding</span>
+### TOPIC: Onboarding
 
 Need a stock response to people like Konstantinos who reach out to the list and want to join. And maybe a rotating member of the community team to send them?
 
@@ -1411,7 +1411,7 @@ people should feel comfortable to customize it.
 
 Tell them that wiki wednesday is a great way to get started
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   (CARRIED FORWARD) shepazu to revamp CSS WG e-mail to be call for contributors (DONE)
 -   (CARRIED FORWARD) leaverou to send out e-mail asking people to vote on which skin bugs are more important
@@ -1425,7 +1425,7 @@ Tell them that wiki wednesday is a great way to get started
 -   (CARRIED FORWARD) shepazu writes down "How to review a page" and the workflow, so coordinators and contributors know what to do and workflow for whole WPDW ideally (CARRIED FORWARD)
 -   Scott to write up quick guide on dealing with shorthand properties (ACTION evolved to: Scott to do a video on how to edit a CSS properties page)
 
-## <span>Agenda 2013-05-03</span>
+## Agenda 2013-05-03
 
 -   Roll call
 -   Review of open action items
@@ -1447,9 +1447,9 @@ Tell them that wiki wednesday is a great way to get started
             -   if you find blockers, file a bug, and broadcast it to the public list
 -   CSS Properties pages
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-### <span>TOPIC: Beta</span>
+### TOPIC: Beta
 
 <http://docs.webplatform.org/wiki/WPD:Community/Meetings/General> <http://docs.webplatform.org/wiki/WPD:Project_Status> <http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0370.html>
 
@@ -1493,7 +1493,7 @@ Infrastrucutre is Doug. Content is Scott, Chris, and Julee. Community is Janet f
 
 Right now, the site notice has a new call to action on JS.
 
-### <span>TOPIC: CSS Properties work</span>
+### TOPIC: CSS Properties work
 
 The CSS properties sheet is overwhelming folks. [Julee updated it](https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=17).
 
@@ -1501,11 +1501,11 @@ We need to ensure that new contributors are properly supported. [Plan to help co
 
 Everyone on this call who's not up for this, e-mail me specifically, otherwise you're on the hook for being an ambassador or greeter. Weekly content-wrangling events on IRC is being scheduled for the West coast first, as Scott and Julee have already volunteered as consistant facilitators. Please fill out [doodle poll](http://www.doodle.com/y4bdnrg4ycdk4i25)
 
-### <span>TOPIC: Forums</span>
+### TOPIC: Forums
 
 w3c accessibility folks want to use our forums. So, let's keep them open, we've already deemphasized them on the site and communications channels. But let's keep them open so accessibility folks can use it.
 
-## <span>ACTION ITEMS</span>
+## ACTION ITEMS
 
 -   Shepazu to mock up how project should be represented in the wiki (DONE)
 -   shepazu: update the site notice about the CSS Properties push and how to get started AND use the piwik tracking campaign code. (DONE)
@@ -1519,7 +1519,7 @@ w3c accessibility folks want to use our forums. So, let's keep them open, we've 
 -   (CARRIED FORWARD) leaverou: will follow up with Denis where global nav didn't get implemented.
 -   (CARRIED FORWARD) shepazu to work with lea to mock up what the improved flags will look like.
 
-## <span>Agenda 2013-04-26</span>
+## Agenda 2013-04-26
 
 -   Roll call
 -   Review of open action items.
@@ -1536,9 +1536,9 @@ Limited, but pointed feedback (from doc sprinters, others) suggests that these m
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-### <span>TOPIC: Appearance of content flags</span>
+### TOPIC: Appearance of content flags
 
 Limited, but pointed feedback (from doc sprinters, others) suggests red flags may be a deterrent to editing content. Consider toning them down?
 
@@ -1596,7 +1596,7 @@ I think a tooltip explanation on the page whee it happens and a longer explanati
 
 ... in other words, contributor goes to edit the page, see one banner, they click on that, then they see all flags as calls to action...
 
-### <span>Topic: DOM API reorganization proposal</span>
+### Topic: DOM API reorganization proposal
 
 <http://docs.webplatform.org/wiki/WPD:Projects/DOM_API_docs>
 
@@ -1632,9 +1632,9 @@ We do want our work on web platform to help people working on standards
 
 Not in URL structure, but in a separate experience
 
-### <span>Topic: Task force statuses</span>
+### Topic: Task force statuses
 
-#### <span>Community Development</span>
+#### Community Development
 
 we firmed up out plans for upcoming doc sprints
 
@@ -1660,13 +1660,13 @@ Have a disclaimer, if you want to discuss social aspects, here are some links fo
 
  the blog entry where we say "we realize these are controversial, this is the role we're trying to play"
 
-### <span>TOPIC: Status of CSS properties project</span>
+### TOPIC: Status of CSS properties project
 
 We're stalled on contributors to content. Not too much to review compared to content we need to create
 
 We might need to broaden our base to get more contributors
 
-### <span>TOPIC: compatibility tables</span>
+### TOPIC: compatibility tables
 
 <http://docs.webplatform.org/wiki/WPD:Compatibility_Info>
 
@@ -1688,7 +1688,7 @@ But how will we know it's good if they just make an assertion?
 
  We can have a way to put in unverified information, but it should be tagged that it needs tests
 
-## <span>ACTION ITEMS</span>
+## ACTION ITEMS
 
 -   julee to email project leads inviting them to Monday's meeting. (DONE)
 -   pending Alex's amazing, insightful review of the DOM API proposal, Scott to begin implementing (DONE)
@@ -1700,7 +1700,7 @@ But how will we know it's good if they just make an assertion?
 -   leaverou: will follow up with Denis where global nav didn't get implemented. (CARRY FORWARD)
 -   shepazu to work with lea to mock up what the improved flags will look like (CARRY FORWARD)
 
-## <span>Agenda 2013-04-19</span>
+## Agenda 2013-04-19
 
 -   Roll call
 -   Review of open action items
@@ -1715,9 +1715,9 @@ But how will we know it's good if they just make an assertion?
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-## <span>DISCUSSION</span>
+## DISCUSSION
 
-### <span>TOPIC: CSS Properties reviewers</span>
+### TOPIC: CSS Properties reviewers
 
 Doug and Chris Mills commented. Maybe have design experts join in, but unclear if they were to be SME to review content or the design of the pages. we did a couple of rounds on the template.
 
@@ -1729,7 +1729,7 @@ Joanie Rustalkin who helped design said we could contact her. She'd be an obviou
 
 The idea was to get feedback on the content. But Lea can review design and discuss with other designers, such as Chris Coyier.
 
-### <span>TOPIC: Compatibility tables</span>
+### TOPIC: Compatibility tables
 
 May be able to pull in data for mobile, too. <http://mobilehtml5.org/> <http://firt.mobi/about.php>
 
@@ -1737,9 +1737,9 @@ Any others?
 
 <http://html5test.com/results/desktop.html> Their methodology did not--ironically-seem test-based. Shepazu to contact them anyway.
 
-### <span>TOPIC: TF updates:</span>
+### TOPIC: TF updates:
 
-#### <span>Community</span>
+#### Community
 
 had a meeting last week
 
@@ -1751,7 +1751,7 @@ Established a regular meeting time. Tuesdays at 10am Pacific time.
 
 If we have an agenda, we'll use the time. Otherwise cancel instance.
 
-#### <span>Analytics</span>
+#### Analytics
 
 Topic clusters.
 
@@ -1761,7 +1761,7 @@ Setting up a human readable site map. We'll track campaign and emails.
 
 Our SEO: Setting it up. Next step is to optimize the content. We have this tracked in Bug Genie.
 
-#### <span>Program Management</span>
+#### Program Management
 
 Meetings 11am Pacific time on Mondays.
 
@@ -1773,7 +1773,7 @@ We also talked about BugGenie and how to get reporting done ACROSS projects.
 
 Hopefully, we can get away from meetings and get a dashboard look at status.
 
-### <span>TOPIC: URL structure DOM, JS, and topic clusters</span>
+### TOPIC: URL structure DOM, JS, and topic clusters
 
 URL/structure of DOM API docs.
 
@@ -1807,29 +1807,29 @@ There may be a passive-aggressive way to make them enter links: topic cluster UI
 
 <http://project.webplatform.org/content/issues/42>
 
-### <span>TOPIC: Session Bug</span>
+### TOPIC: Session Bug
 
 MIA Close it!
 
-### <span>TOPIC: Watch channel after tweeting</span>
+### TOPIC: Watch channel after tweeting
 
 When you tweet, don't forget to check conversation for follow-up!
 
-### <span>TOPIC: blogging about new SVG articles</span>
+### TOPIC: blogging about new SVG articles
 
 julee: I think Mike Sierra has moved to something else at Adobe. Finished out a bunch of SVG work. HTML5 weekly mentioned the articles.
 
-### <span>TOPIC: table styles</span>
+### TOPIC: table styles
 
 In some pages, there are tables without a class to target. If I style all tables inside the container, it'll have unforseen effects. Regarding the font, I am fine changing it. PErsonally, I think bitter looks better. Is there an automated way to add a class to tables that don't have one?
 
 A lot of tables were generated by authors and some use the pipe hack, so there are some issues with tables we generated.
 
-## <span>ACTION ITEMS</span>
+## ACTION ITEMS
 
 • leaverou: to talk with Chris Coyier regarding reviewing css properties template. (STATUS: Lea is at a conference right now, and will be mentioning WPD explicitly) • leaverou: will follow up with Denis where global nav didn't get implemented. (STATUS: carried forward) • shepazu: change the messaging on talk.webplatform.org. (STATUS: not sure that changing messaging is the right thing at this point. Shepazu to send an e-mail to ML) • Patrick: to give us optimal day and time to launch a blog post. (DONE) • Analytics TF: set up page optimization in the next two weeks. (likely won't happen right now, it's ongoing) • Project area leads: join next week's call so we can define what it means to be head of a task force. (STATUS: Meeting didn't happen, due to zakim snafu. Please join us next week.)
 
-## <span>Agenda 2013-04-12</span>
+## Agenda 2013-04-12
 
 -   Roll call
 -   Review of open action items
@@ -1855,25 +1855,25 @@ A lot of tables were generated by authors and some use the pipe hack, so there a
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: April 3 Doc Sprint</span>
+#### TOPIC: April 3 Doc Sprint
 
 It was great. Scott did a blog post about it.
 
-#### <span>TOPIC: A lot of meetings next week</span>
+#### TOPIC: A lot of meetings next week
 
 We should confirm that these meetings are productive: resulting in getting work done. If not, we should review.
 
-#### <span>TOPIC: Forums dependencies</span>
+#### TOPIC: Forums dependencies
 
-#### <span>TOPIC: \*</span>
+#### TOPIC: \*
 
 We want to [close down forums](http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0121.html), but we need to get some things done first. See dependencies:
 
 <http://project.webplatform.org/content/issues/40>
 
-#### <span>TOPIC: Translation URL schema</span>
+#### TOPIC: Translation URL schema
 
 We came close to a decision on the URL schema for other languages:
 
@@ -1885,11 +1885,11 @@ What we have now is almost the worst of both worlds. Bad design by W3C LOC exper
 
 Shepazu will follow up with Richard Ishida, W3C's internationalization and localization expert
 
-#### <span>TOPIC: Session bug is gone again!</span>
+#### TOPIC: Session bug is gone again!
 
 People haven't seen it, but let's give it a little more time to test. It was a token bug. There's a token that ID's the session, depending on the memcache. It wasn't able to find the session and the session was lost. Ryan removed single-signon, and changed the memcache server.
 
-#### <span>TOPIC: CSS Properties project</span>
+#### TOPIC: CSS Properties project
 
 Discuss sending out a "call for review". See [ <http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0148.html> thread].
 
@@ -1919,19 +1919,19 @@ shepazu: is concerned that we would make a call for review and problems that wou
 
 Julee will send out an email clarifying process.
 
-#### <span>TOPIC: Project.\* project</span>
+#### TOPIC: Project.\* project
 
 Garbee writing instrux. Having a state view of the beta is a dependency on reporting progress. This can be accomplished with a master project bucket.
 
 shepazu: julee & shepazu will follow up
 
-#### <span>TOPIC: Global nav project</span>
+#### TOPIC: Global nav project
 
 The [global nav](http://project.webplatform.org/content/issues/14) has not been implemented consistently. Forums closing has a dependencies on this project.
 
 Lea's out this week. She's going to point to WPD in her preso!
 
-#### <span>TOPIC: Beginners guide to web dev</span>
+#### TOPIC: Beginners guide to web dev
 
 Chris Mills created all of the landing pages and writing updated text for the landing page.
 
@@ -1941,7 +1941,7 @@ Chris Mills created all of the landing pages and writing updated text for the la
 
 Note we have commenting on the issue page! Try to move discussion about implementation to project.\* page.
 
-#### <span>TOPIC: Populating news email list with university</span>
+#### TOPIC: Populating news email list with university
 
 This is probably a comm & recruiting item. In the meantime, we're asking everyone to please gather university contacts to add to an announce email list.
 
@@ -1949,15 +1949,15 @@ ALSO: Fellowships, interships, mentoring programs for students: GSoC: we got rej
 
 Media Wiki has a mentoring program, can we add our project to their list? Julee will follow up. (DONE)
 
-#### <span>TOPIC: status of table styles</span>
+#### TOPIC: status of table styles
 
 Lea will incorporate scott's feedback.
 
-#### <span>TOPIC: W3C WG</span>
+#### TOPIC: W3C WG
 
 W3C WG is the week after next, may interfere with this meeting. Eliot and Shepazu will talk about presenting there.
 
-#### <span>TOPIC: Compatibility tables project</span>
+#### TOPIC: Compatibility tables project
 
 Shepazu has been working on extension with caniuse data; alexsis d. & ppk: quirks mode data is all HTML.
 
@@ -1969,11 +1969,11 @@ Need to work out a process for manual customization? (Maybe just the open text f
 
 Shooting for end of April to deploy on all ref pages.
 
-#### <span>TOPIC: WPD AS PLUGIN</span>
+#### TOPIC: WPD AS PLUGIN
 
 Tom Ortega wants to participate by investigate building plugins for standard editors: to have WPD be a plugin for these IDE. Julee referred him to frozenice as an initial contact.
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   shepazu will call in Richard Ishida, W3C's internationalization and localization expert (DONE)
 -   Julee to write a draft email outlining the process to use for CSS properties review as instructions for SMEs. (DONE <http://project.webplatform.org/content/issues/43>)
@@ -1983,7 +1983,7 @@ Tom Ortega wants to participate by investigate building plugins for standard edi
 -   Eliot & shepazu to talk re: presenting at W3C WGs. (DONE: saw no follow up from julee or scottrowe. check your inboxes.)
 -   shepazu to work with PPK/Verio/Alexis Deveria on public-webplatform-tests@w3.org (ON-GOING: shepazu: will report back if there's anything to report.)
 
-## <span>Agenda 2013-03-29</span>
+## Agenda 2013-03-29
 
 -   Roll call
 -   Review of open action items
@@ -2003,13 +2003,13 @@ Tom Ortega wants to participate by investigate building plugins for standard edi
 -   Any new or notable content to promote?
 -   Julee taking a personal day next Friday. Someone willing to run this meeting?
 
-### <span>DISCUSSIONS</span>
+### DISCUSSIONS
 
-#### <span>TOPIC: hiring a scribe</span>
+#### TOPIC: hiring a scribe
 
 shepazu proposes hiring a scribe shepazu will report back with more information
 
-#### <span>TOPIC: CSS properties project</span>
+#### TOPIC: CSS properties project
 
 ACTION (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG [STATUS: Prepared email. Do we have a systematic way of processing feedback? See 2013-04-12 meeting notes, above, for discussion.]
 
@@ -2021,23 +2021,23 @@ ACTION: shepazu to send out e-mail with process/plan for tech reviewers
 
 We would like to get spec authors more involved with the documentation, with the caveat that spec authors are not the ultimate responsible party, nor should beta criteria be dependent on spec author approval
 
-#### <span>TOPIC: DOM API pages</span>
+#### TOPIC: DOM API pages
 
 ACTION: Content Task Force Lead [scottrowe\_] should set up a meeting to talk about overall site organization and how we want to handle DOM API pages.
 
 scottrowe\_ volunteers to be CTL for DOM API pages, julee also volunteers
 
-#### <span>TOPIC: Edit Dismissible Alpha</span>
+#### TOPIC: Edit Dismissible Alpha
 
 Scott's an admin, but can't change the alpha note on the main page.
 
 ACTION: scottrowe\_ to follow up with Alex about editing the dismissible message.
 
-#### <span>TOPIC: Status on project.\*</span>
+#### TOPIC: Status on project.\*
 
 ACTION: shepazu and julee to coordinate with garbee on project buckets, testing (DONE)
 
-#### <span>TOPIC: Google Summer of Code</span>
+#### TOPIC: Google Summer of Code
 
 <http://docs.webplatform.org/wiki/WPD:GSoC>
 
@@ -2049,15 +2049,15 @@ Shepazu - will you also be working on <http://mobilehtml5.org/> to be implemente
 
 Millo, we're open to any data source that meets our criteria
 
-#### <span>TOPIC: Please respond to email re: IRC hours</span>
+#### TOPIC: Please respond to email re: IRC hours
 
 ACTION: If folks don't respond to email, Julee to set up an IRC calendar page (DONE)
 
-#### <span>TOPIC: API Project almost done!</span>
+#### TOPIC: API Project almost done!
 
 Scott will send out email when it's done.
 
-#### <span>TOPIC: Custom error pages!</span>
+#### TOPIC: Custom error pages!
 
 Lea did the error pages!
 
@@ -2065,13 +2065,13 @@ Lea did the error pages!
 
 <http://www.webplatform.org/errors/images/numbers.html>
 
-#### <span>TOPIC: Bug Genie skinning</span>
+#### TOPIC: Bug Genie skinning
 
 <http://project.webplatform.org/skin/issues/3>
 
 <http://project.webplatform.org/prmg/issues/PRMG-10>
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 -   (CARRIED OVER): shepazu to recruit volunteer reviewers from the public list for CSS WG (STATUS: Prepared email. Do we have a systematic way of processing feedback? See 2013-04-15 meeting notes, above, for discussion.)
 -   Julee to assign owners for properties after Doc Sprint. (DONE)
@@ -2085,7 +2085,7 @@ Lea did the error pages!
 -   shepazu and julee to coordinate with garbee on project buckets, testing (IN PROGRESS: also programming meeting is next Wednesday)
 -   If folks don't respond to email, Julee to set up an IRC calendar page [IRC hangout hours on IRC page](/WPD:Editors_Guide/step_2_communicate_with_the_online_community#IRC_hours) (DONE)
 
-## <span>Agenda 2013-03-22</span>
+## Agenda 2013-03-22
 
 -   Roll call
 -   Review of open action items
@@ -2101,23 +2101,23 @@ Lea did the error pages!
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>DISCUSSIONS</span>
+### DISCUSSIONS
 
-#### <span>TOPIC: CSS properties</span>
+#### TOPIC: CSS properties
 
 We will have a CSS property guide (<http://docs.webplatform.org/wiki/WPD:Proposals/CSS_Property_Milestone>) for the upcoming doc sprint.
 
 The last docsprint was successful with that. There are about 160 left, and only one docsprint coming up. So we need contributors and reviewers.
 
-#### <span>TOPIC: proposal vs. projects space</span>
+#### TOPIC: proposal vs. projects space
 
 Scott wants only 1 area. Does not see a difference between the two.
 
-#### <span>TOPIC: search</span>
+#### TOPIC: search
 
 Denis needs to confirm, but we might install a new extension based on Google search (temporarily)
 
-#### <span>TOPIC: session bug</span>
+#### TOPIC: session bug
 
 [Issue \#1](http://project.webplatform.org/infrastructure/issues/1) was reopened [Issue \#3, update error message](http://project.webplatform.org/infrastructure/issues/3) was closed [Issue \#2, page not refreshing](http://project.webplatform.org/infrastructure/issues/2) is not to be confused with [Issue \#1](http://project.webplatform.org/infrastructure/issues/1)
 
@@ -2139,7 +2139,7 @@ julee: I just got this error: "Oops! We seem to have a conflict. Please try savi
 
 Ryan\_Lane: that's not actually a session issue. That's an edit token issue. I'd need to see where the edit token is stored. I'd imagine memcache, but maybe not. I'm positive this could be fixed by ensuring logged in users always hit the same application server once they are logged in, but that's really just avoiding the real problem
 
-#### <span>TOPIC: 4/3 Doc Sprint</span>
+#### TOPIC: 4/3 Doc Sprint
 
 Peter already has secured facilities and catering. It's at Google's offices in SFL:
 
@@ -2150,31 +2150,31 @@ Peter already has secured facilities and catering. It's at Google's offices in S
 -   It starts at 9, but you can come early. I'll be there by 8, 8:30.
 -   We'll have schwag, a bunch of t-shirts
 
-#### <span>TOPIC: Dom API</span>
+#### TOPIC: Dom API
 
 A quick huddle to talk about overall site organization and how we want to handle DOM API pages. There are multiple ways to look at DOM. We want to entertain different viewpoints into the model, based on the way people experience it. We're not locked into a single hierarchy because this isn't a book. Only one URL structure, but maybe multiple views?
 
 We may begin talk at Doc Sprint or Content project area lead will set a meeting to discuss.
 
-#### <span>TOPIC: Dealing with "issues"</span>
+#### TOPIC: Dealing with "issues"
 
 A bunch of issues are sitting around. Let's get project owners and encourage triage and status on bugs, at the project level. Then these projects roll up in some way in summary.
 
 Minimally, we should get all issues in bug genie assigned (something that bugzilla requires).
 
-#### <span>TOPIC: 404 page</span>
+#### TOPIC: 404 page
 
 Lea agreed to look into the UX for 404 pages. She will design and will request fine tuning of content. <http://docs.webplatform.org/wiki/WPD:Projects/ErrorPages>
 
-#### <span>TOPIC: Code styles</span>
+#### TOPIC: Code styles
 
 shepazu hid code markup styling because it were ugly, but leaverou restyled and brought back. She added Prism.js. Before, the code examples had an indication of what language they were in, but the markup wasn't in the format prism expected. So, leaverou wrote some code to transform to the right format, so we now have nicely highlighted ones! It only works on samples with a language set.
 
-#### <span>TOPIC: Global navs</span>
+#### TOPIC: Global navs
 
 leaverou implemented the bottom global content navs! She is also willing to take up [Issue \#14](http://project.webplatform.org/content/issues/14):
 
-### <span>ACTION ITEMS</span>
+### ACTION ITEMS
 
 ACTION (CARRIED OVER): EVERYONE:
 
@@ -2202,7 +2202,7 @@ ACTION: Content Task Force Lead [TBD] should set up a meeting to talk about over
 
 ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for each project area, so we can get bug triaged and some movement. [DONE]
 
-## <span>Agenda 2013-03-15</span>
+## Agenda 2013-03-15
 
 -   Roll call
 -   Review of open action items
@@ -2237,9 +2237,9 @@ ACTION: Julee to send out e-mail asking for a lead, at least temporarily, for ea
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>Discussion</span>
+### Discussion
 
-#### <span>TOPIC: CSS Properties</span>
+#### TOPIC: CSS Properties
 
 ACTION: \* everyone:
 
@@ -2255,11 +2255,11 @@ For the beginning, the webkit team will likely just need a stable URL scheme and
 
 Eliot said that, unfortunately, someone who was going to join the project won't be able to join due to personal reasons. looking for someone to take his place, but no great options at the moment
 
-#### <span>TOPIC: Topic vs Topic Clusters</span>
+#### TOPIC: Topic vs Topic Clusters
 
 scottrowe\_ did docs on that. more usable and better-accessed during the getting started flow and editor's guide
 
-#### <span>TOPIC: Taxonomy of the site</span>
+#### TOPIC: Taxonomy of the site
 
 We still want to generate a sitemap. Doug and I spoke about this over e-mail to the list. Doug is going to get Julee access so she can experiment with generating a sitemap.
 
@@ -2283,7 +2283,7 @@ This conference is full, no more parties can be added.
 
 ACTION: Shepazu to allocate more spaces in future calls
 
-#### <span>TOPIC: URLs for translation</span>
+#### TOPIC: URLs for translation
 
 Some concern over current URL naming schema. We have a page that writes up how to do this. It's not a great process, but it is possible.
 
@@ -2299,13 +2299,13 @@ ACTION: shepazu to send localization guide to public lis ACTION: Julee to call i
 
 We will table the long-term solution for now
 
-#### <span>TOPIC: Search</span>
+#### TOPIC: Search
 
 Why we can't fix this part with duplicate results? the default search is bad for mediawiki. We thought we replaced it with Lucene. With the advanced search you can already include WPD pages
 
 ACTION: Denis and shepazu to talk about improving built-in search. (Did we replace default search with Lucene?) (Lea to shepazu: this might help: <http://www.mediawiki.org/wiki/Extension:SphinxSearch>)
 
-#### <span>TOPIC: Session bug status</span>
+#### TOPIC: Session bug status
 
 Feedback from users: it's still happening.
 
@@ -2313,7 +2313,7 @@ Denis talked to fastly guys two weeks ago. He said to change something in the co
 
 ACTION: Denis to continue debugging the session bug
 
-#### <span>TOPIC: Taskforces</span>
+#### TOPIC: Taskforces
 
 Do we want to report status here, or just in project.webplatform.org?
 
@@ -2321,7 +2321,7 @@ We can subscribe to updates from task forces via project.webplatform.org
 
 Also, cover highlights from the task teams in this weekly meeting.
 
-##### <span>SUBTOPIC: Community development task force</span>
+##### SUBTOPIC: Community development task force
 
 Not enough data from Feb 23rd DocSprint. Next DocSprint 4/3 around HTML5DevConf. They have on their conference webpage they have a signup for WPD. They have about 35 people signed up through EventBrite for conference website, and we have 70 or so on our site.
 
@@ -2333,11 +2333,11 @@ There are young CS students who are interested in getting involved in community.
 
 We are planning to have doc sprints on the east coast. One in Ohio this summer, and at least 2 doc sprints in NC (one in summer, one in fall) – NYC has been requested.
 
-##### <span>SUBTOPIC: Analytics task force</span>
+##### SUBTOPIC: Analytics task force
 
 We're having our first meeting this week.
 
-#### <span>TOPIC: Content completeness</span>
+#### TOPIC: Content completeness
 
 Now that we have project.webplatform.org, we'll build it into the workflow.
 
@@ -2347,7 +2347,7 @@ ACTION: julee to follow up with garbee on how to do workflows and forms in BG (D
 
 We talked yesterday about figuring out fields and milestones. Garbee has promised to document things about BG and has committed to do some videos. We may want to set up another session for other people.
 
-#### <span>TOPIC: Any new or notable content to promote?</span>
+#### TOPIC: Any new or notable content to promote?
 
 Adobe gave us some of Mike Sierra's times. He created several articles, one on transforms that's quite good. He's currently working on SVG I think that's notable and good to share. We've shared some of it and got a bunch of retweets. We should be more aggressive about tweeting out new batches of articles that we've created.
 
@@ -2369,11 +2369,11 @@ mozilla blog they have open badges 1.0 <https://blog.mozilla.org/blog/2013/03/14
 
  ACTION: Julee to add comm plan as a topic for the community taskforce. (DONE)
 
-#### <span>TOPIC: Kuma</span>
+#### TOPIC: Kuma
 
 Denis has been reviewing Kuma, made a local installation. So far, it's been easy to install. But he needs to figure out if it can be a good fit. Janet sent Denis some contacts, Kuma developers. They've been very helpful. This is background stuff, shouldn't affect any work going on.
 
-### <span>Actions</span>
+### Actions
 
 -   Denis to follow up with Julee about sitemap generation [DONE]
 -   Shepazu to allocate more spaces in future community meeting calls [DONE]
@@ -2386,11 +2386,11 @@ Denis has been reviewing Kuma, made a local installation. So far, it's been easy
 -   peterlubbers to invite people to the Google+ admins [DONE]
 -   Julee to add comm plan as a topic for the community taskforce [DONE]
 
-## <span>Agenda 2013-03-08</span>
+## Agenda 2013-03-08
 
 Meeting adjourned for lack of a quorum.
 
-## <span>Agenda 2013-03-01</span>
+## Agenda 2013-03-01
 
 -   Roll call
 -   Review of open action items
@@ -2410,7 +2410,7 @@ Meeting adjourned for lack of a quorum.
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>Doc Sprints</span>
+### Doc Sprints
 
 <http://docs.webplatform.org/wiki/WPD:Community/Community_Events>
 
@@ -2419,7 +2419,7 @@ Meeting adjourned for lack of a quorum.
 -   Possible Docsprint in Puget Sound Area Mid-April
 -   <http://openhelpconference.com/>
 
-### <span>Action items</span>
+### Action items
 
 -   JULEE will work on getting a burndown together [DONE]
 -   Julee - Setup Analytics project at project.webplatform.org [DONE]
@@ -2427,7 +2427,7 @@ Meeting adjourned for lack of a quorum.
 -   Julee to add agenda item for next week: Topic vs. Topic Clusters [DONE]
 -   Julee to add agenda item for next week: Getting SME to review content [DONE]
 
-## <span>Agenda 2013-02-15</span>
+## Agenda 2013-02-15
 
 -   Roll call
 -   Review of open action items
@@ -2445,9 +2445,9 @@ Meeting adjourned for lack of a quorum.
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>Summary</span>
+### Summary
 
-#### <span>CARRIED OVER FROM LAST WEEK</span>
+#### CARRIED OVER FROM LAST WEEK
 
 1. ACTION (carried forward): shepazu + denis to implement sitemap extension
 
@@ -2477,14 +2477,14 @@ Meeting adjourned for lack of a quorum.
 
 -   Ongoing. Has invited one person to take part (Rachel Andrew), who agreed to help out.
 
-#### <span>NEW ACTIONS FOR THIS WEEK</span>
+#### NEW ACTIONS FOR THIS WEEK
 
 -   ACTION: chrismills, make google spreadsheet just show p0-p2, css properties
 -   ACTION: chrismills: pull together 10-15 good CSS example pages and mail them around. People from different companies will then send these example pages to their resident CSS spec gurus, e.g Tab Atkins, Fantasai, Howcome, etc. and see what they think, as well as real world CSS gurus, e.g. Rachel Andrew, Chris Coyier, Peter Gasston, Dan Cederholm, Ethan Marcotte, Nicole Sullivan (their needs will be different.)
 -   ACTION: all, give Doug suggestions on what to add to WPD session him and Janet are doing at W3Conf
 -   ACTION: Scott to spruce up the APIs landing page
 
-## <span>Agenda 2013-02-01</span>
+## Agenda 2013-02-01
 
 -   Roll call
 -   Review of open action items
@@ -2502,7 +2502,7 @@ Meeting adjourned for lack of a quorum.
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote? Does someone want to write up a blog post for Web Audio API?
 
-### <span>Topics</span>
+### Topics
 
 -   TOPIC: CSS Properties project status
     -   SUBTOPIC: spec status value on exemplar page.
@@ -2546,7 +2546,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   TOPIC: New and notable activities on WPD?
     -   <https://github.com/webplatform/Shortlinks> - fr0zenice's shortlinks system for WPD
 
-### <span>ACTIONS</span>
+### ACTIONS
 
 -   ACTION (carried forward): shepazu + denis to implement sitemap extension: Concerns about current solution viability; looking for alternate.
 -   ACTION (carried forward): julee and garbee to look into installing meetbot: Garbee to try to work on it more on the weekend. (DONE)
@@ -2558,7 +2558,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   ACTION: Shepazu to investigate cloud infrastructure and latency as possible roots of session bug
 -   ACTION: cmills: recruit more participants to css properties project, augmenting tracking spreadsheet, actively tracking progress
 
-#### <span>Completed Actions</span>
+#### Completed Actions
 
 -   ACTION (carried forward): eliot to edit top level landing pages:DONE
 -   ACTION: Mike S to move his static font-size example into the appropriate Wiki page:DONE
@@ -2567,7 +2567,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   ACTION: Scott to add an instruction in the attribution template that says "hey - don't delete this or change this unless you have a really good reason":DONE
 -   ACTION: Doug, Denis, Lea, work on implementing first phase of Dabblet live coding examples:DONE
 
-## <span>Agenda 2013-01-25</span>
+## Agenda 2013-01-25
 
 -   Roll call
 -   Review of open action items
@@ -2584,7 +2584,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   Anything blocking you from creating great content?
 -   Any new or notable content to promote?
 
-### <span>Actions</span>
+### Actions
 
 -   ACTION: shepazu + denis to implement sitemap extension
 -   ACTION (carried forward): eliot to edit top level landing pages [DONE]
@@ -2599,7 +2599,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   ACTION: Doug, Denis, Lea, work on implementing first phase of Dabblet live coding examples
 -   ACTION: Doug to get together a task force to continue investigating an alternative to MW for our platform
 
-## <span>Agenda 2013-01-17</span>
+## Agenda 2013-01-17
 
 -   Roll call
 -   Review of open action items
@@ -2617,7 +2617,7 @@ need to identify content areas of priority, focus on areas that provide sense of
 -   Any new or notable content to promote?
 -   Need a new time for this meeting?
 
-### <span>Meeting Summary</span>
+### Meeting Summary
 
 -   Several folks weren't available to discuss open issues and action items.
 -   We talked about a Table of Contents or nav at the top of articles. There was a TOC in the skin, and also one based on a user preference. They conflicted, so we took it out of the skin but if no users have set the preference to show it, we could bring the skin TOC back. But the default ToC was ever styled since
@@ -2628,11 +2628,11 @@ someone had a plugin they wanted to use.
 -   Janet is going to FOSDEM. Anyone else?
 -   CSS properties proposal: about 2/3 thru prioritization of properties. Goal is to finish tomorrow, and work on a "representative" article. Then we need to create an author's guide based on the representative article. The property worked on previously was 'font-size'. Mike Sierra to work on making a "gold standard" example page, that others can use as a model. <http://docs.webplatform.org/wiki/css/properties/font-size>
 
-### <span>Actions</span>
+### Actions
 
 ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTION: Mike Sierra to work on making a "gold standard" example page, that others can use as a model. [DONE] LAST WEEK ACTION: Julee to update Topic Hierarchy and Architecture pages. UPDATE: need site map LAST WEEK ACTION: Eliot to do an editorial pass on the proposed top-level pages. [DONE] LAST WEEK ACTION: Julee to set up meetbot. UPDATE: Garbee now has action item. (DONE)
 
-## <span>Agenda 2013-01-10</span>
+## Agenda 2013-01-10
 
 -   Roll call
 -   Review of open action items
@@ -2650,9 +2650,9 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
 -   Status on Dabblet?
 -   Anything blocking you from creating great content?
 
-## <span>Meeting Summary</span>
+## Meeting Summary
 
-### <span>Discussion</span>
+### Discussion
 
 -   We're adding an API section to the topic landing pages. We need to include APIs and their icons on those pages. Seb is working on an icon, and Chris will put that in the landing page
 -   Concept\_Listing template is done
@@ -2678,7 +2678,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
 -   Alex gives us a tantalizing tease: join meeting next week for some good news.
 -   Everyone should feel free to add agenda items for these content meetings.
 
-## <span>Action Items</span>
+## Action Items
 
 -   ACTION: Julee to add to weekly agenda template: "Any new and notable content to promote?" UPDATE: DONE
 -   ACTION: Doug to add folks who responded to email thread as contributing bloggers.
@@ -2695,7 +2695,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
     -   For needing the UI updated to reflect the categories
 -   PREVIOUS ACTION: Garbee to send out his awesome task organization plan. UPDATE: sending it out today.
 
-## <span>Agenda 2012-12-13</span>
+## Agenda 2012-12-13
 
 -   Roll call
 -   Review of open action items
@@ -2707,9 +2707,9 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
     -   [Different ways to browse](http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0221.html)
 -   Anything blocking you from creating great content?
 
-## <span>Meeting summary</span>
+## Meeting summary
 
-### <span>Discussion</span>
+### Discussion
 
 -   Note that the [content bugs](https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513) are assigned to either Chris or Garbee. We wonder how do we spread these out to others? Maybe a larger issue than with just the content bugs?
 -   Discussed top-level pages sent out by Chris. We generally thought Chris's [proposed pages](http://lists.w3.org/Archives/Public/public-webplatform/2012Dec/0172.html) were excellent. Eliot volunteered to do an edit pass on the descriptions. [DONE]
@@ -2721,7 +2721,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
     -   The [session bug](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19390) that shepazu hopes will be resolved this weekend.
 -   The Content Task Force will not meet for the next two weeks. We will resume again 1/3/2013.
 
-### <span>Action Items</span>
+### Action Items
 
 -   Julee to update Topic Hierarchy and Architecture pages.
 -   Julee to send out an email discussing how we should "take" and re-assign bugs to even the work out more.
@@ -2737,7 +2737,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
 -   LAST WEEK ACTION: Garbee to send out his awesome task organization plan
     -   UPDATE: still working on it
 
-## <span>Agenda 2012-12-06</span>
+## Agenda 2012-12-06
 
 -   Roll call
 -   Review of open action items
@@ -2756,9 +2756,9 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
     -   Going? Going to be on IRC?
 -   [[bugs](https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496%7Ccontent)]: Content bugs in bugzilla need your input and resolution.
 
-## <span>Meeting summary</span>
+## Meeting summary
 
-### <span>Topics discussed</span>
+### Topics discussed
 
 -   We discussed the status on the project/program manager for the content tasks. Alex said he realized that the term "project manager" might have caused some confusion and may have implied too big a scope. Really, it's more about someone who just follows through on Action items. We're continuing to discuss this with those who have volunteered for the role.
 -   We discussed categorizing the features as stable, proprietary, experimental, and so on.We do have a page that calls out the different statuses: <http://docs.webplatform.org/wiki/Property:Standardization_Status>. We need to further discuss what are the appropriate categories for WPD. The <http://docs.webplatform.org/wiki/WPD:Pillars> page says that we should aim to be useful documentation for the web as it is, so categories such as "proprietary" are important, because we might document something that's useful but has legal restrictions. If there's something TOTALLY proprietary, we had talked about having that in a special vendor section as well
@@ -2776,11 +2776,11 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
 -   We talked about the coming DocSprint at Google. Several folks are going. Several suggestions regarding promoting, gathering like-skilled folks together via tweeting and other social channels. Also several folks are going to try to get editors' feedback about their experience of the site.
 -   We talked about the template corp and giving access to those who want to edit templates. But not on a one-off basis, more like giving group access.
 
-### <span>Decisions</span>
+### Decisions
 
 -   Until we have a project management system in place, plans, proposals, and scratch pad work should be kept as subpages: <http://docs.webplatform.org/wiki/WPD:Plans>. Not in Bugzilla, and not in another site, such as GitHub.
 
-### <span>Action items</span>
+### Action items
 
 -   Julee to find out how to add a meeting bot to the Content TF Meeting. (DONE)
 -   Julee to file a bug about the design of reference pages with a non-standard standardization status. (DONE)
@@ -2790,7 +2790,7 @@ ACTION: Julee to send out a Doodle poll to figure out a better time. [Done] ACTI
 
 Proposed next discussion topics
 
-## <span>Agenda 2012-11-28</span>
+## Agenda 2012-11-28
 
 -   Roll call
 -   Triage of new content architecture issues
@@ -2806,9 +2806,9 @@ Proposed next discussion topics
 -   [Task roadmap](/WPD:Task_Roadmap) includes content track, prioritizing content issues. (See email re: task roadmap for content, infrastructure and styling tasks from Chris Mills \<cmills@opera.com\>.)
 -   [[bugs](https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2496%7Ccontent)]: Content bugs in bugzilla need your input and resolution.
 
-## <span>Meeting summary</span>
+## Meeting summary
 
-### <span>Topics discussed</span>
+### Topics discussed
 
 -   We asked editors to review, update, address content bugs in the bug base: <https://www.w3.org/Bugs/Public/buglist.cgi?product=webplatform.org&component=content&resolution=---&list_id=2513>
 -   We pointed out the new task roadmap: <http://docs.webplatform.org/wiki/WPD:Task_Roadmap>, and related email, and asked for comments. It's a high-level view that's very readable. Editing it (e.g.: adding columns) might be a bit tricky.
@@ -2818,13 +2818,13 @@ Proposed next discussion topics
     -   What to do with lots of little bits of information, for example SVG attribute values or the HTML type element? For data modeling purposes, it might be best to create separate pages for each and then include them in the main page. What is best for folks importing, managing content? For the end-user?
 -   We need to change the meeting time.
 
-### <span>Decisions</span>
+### Decisions
 
 -   We will use bug base for tracking content areas that need to be created, such as DOM ranges.
 -   Until project management for whole project is resolved, we will call out high-level direction on WPD:Task\_Roadmap and track specific content issues in bug base.
 -   We will file content bugs on any additional open issues with the API.
 
-### <span>Action items</span>
+### Action items
 
 -   chrismills to set up a Doodle poll for next meeting times.
 -   garbee to write guidelines on creating content bugs.
@@ -2832,6 +2832,6 @@ Proposed next discussion topics
 -   Alex to write up a description of the project manager's role.
 -   All: review this summary to ensure accuracy.
 
-### <span>Proposed next discussion topics</span>
+### Proposed next discussion topics
 
 Address any open issues with concepts and tutorials pages.

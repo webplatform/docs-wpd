@@ -3,7 +3,7 @@ title: Things to consider when we expose service via Fastly and Varnish
 uri: 'WPD:Infrastructure/architecture/Things to consider when we expose service via Fastly and Varnish'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -26,7 +26,7 @@ uri: 'WPD:Infrastructure/architecture/Things to consider when we expose service 
 
 Not finished, see also [our GitHub **webplatform/varnish-configs** project](http://github.com/webplatform/varnish-configs)
 
-## <span>Mind map</span>
+## Mind map
 
 -   Check for specific headers the backend sends
     -   Vary
@@ -69,7 +69,7 @@ Not finished, see also [our GitHub **webplatform/varnish-configs** project](http
              `GET /w/index.php? … &action=edit …`
             :   Edit a page
 
-## <span>Caveats</span>
+## Caveats
 
 remove "Cookie" from backend’s Vary response header
 :   Vary header can create non-required alternate versions of a page render. Since Varnish already handles a request with a cookie, it doesn’t need to "vary on cookie". Only valid "Vary" we need for now is "Vary: Content-Encoding". If we were serving same page, but with different languages we could add also add "Accept-Language"
@@ -80,7 +80,7 @@ do some headers cleaning if a web application breaks caching
 remove non needed cookies from a request to a backend that doesn’t need them
 :   Its important it is to configure Varnish to clean cookies it sends to our backend servers. Otherwise we do not have cache at all. The cleaning must be done for each backend because, for example, WordPress cookies wouldn’t be the same as MediaWiki’s. In order to not lose the subtleties, we published all Varnish VCLs into GitHub at [webplatform/varnish-configs](https://github.com/webplatform/varnish-configs).
 
-## <span>Reference</span>
+## Reference
 
 -   <https://www.mnot.net/cache_docs/>
 -   <http://www.fastly.com/blog/best-practices-for-using-the-vary-header/>
@@ -88,21 +88,21 @@ remove non needed cookies from a request to a backend that doesn’t need them
 -   <https://www.varnish-cache.org/trac/wiki/VCLExampleLongerCaching>
 -   <http://stackoverflow.com/questions/10284813/howto-control-varnish-and-a-browser-using-cache-control-max-age-header-in-a-rai>
 
-### <span>See also in our pages</span>
+### See also in our pages
 
 -   [analysis; 2015, How MediaWiki backend sees requests with and without *Fastly* in front](/WPD:Infrastructure/analysis/2015-How_MediaWiki_backend_sees_requests_with_or_without_Fastly_in_front)
 
-### <span>Reference to review</span>
+### Reference to review
 
 -   <https://www.mobify.com/blog/beginners-guide-to-http-cache-headers/>
 
-#### <span>MediaWiki</span>
+#### MediaWiki
 
 -   [MediaWiki Varnish Caching](http://www.mediawiki.org/wiki/Manual:Varnish_caching)
 -   [Caching mediawiki with varnish](http://labs.creativecommons.org/2011/03/18/caching-mediawiki-with-varnish/)
 -   [Default VCL for MediaWiki](https://www.varnish-cache.org/lists/pipermail/varnish-misc/2012-January/021574.html)
 
-#### <span>Varnish in general</span>
+#### Varnish in general
 
 -   [Regular expression Cheat sheet](http://kly.no/varnish/regex.txt)
 -   [Varnish documentation](https://www.varnish-cache.org/docs/2.1/genindex.html)
@@ -110,12 +110,12 @@ remove non needed cookies from a request to a backend that doesn’t need them
     -   [Varnish tutorial cookies](https://www.varnish-cache.org/docs/2.1/tutorial/cookies.html)
 -   [Varnish book about tuning](https://www.varnish-software.com/static/book/Tuning.html?highlight=timeout)
 
-#### <span>ESI</span>
+#### ESI
 
 -   [Varnish ESI features](https://www.varnish-cache.org/trac/wiki/ESIfeatures)
 -   [Varnish 2.1 ESI doc](https://www.varnish-cache.org/docs/2.1/tutorial/esi.html)
 
-#### <span>Misc.</span>
+#### Misc.
 
 -   [Varnish caching, definition of HIT, PASS and other caching lingo](http://kly.no/posts/2010_01_08__Hitpass_objects_and_Varnish__.rst)
 -   [Fastly: Caching tutorials](http://docs.fastly.com/guides/21847086)

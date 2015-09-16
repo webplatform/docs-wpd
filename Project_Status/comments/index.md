@@ -7,7 +7,7 @@ todo_broken_links:
 uri: 'WPD:Project Status/comments'
 
 ---
-### <span>Comments on the "Goals for content" section of the [Project\_Status](/w/index.php?title=Project_Status&action=edit&redlink=1) page</span>
+### Comments on the "Goals for content" section of the [Project\_Status](/w/index.php?title=Project_Status&action=edit&redlink=1) page
 
 It should be **reasonably accurate**, with systems and standards being defined to establish it as a reliable and reusable reference for the community:
 

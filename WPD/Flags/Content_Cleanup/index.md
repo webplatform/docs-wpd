@@ -5,15 +5,15 @@ uri: 'WPD:Flags/Content Cleanup'
 ---
 This flag should be checked for articles that have unnecessary content (for example, discussion or rambling exposition) that should be cleaned up and removed. You should also mark the specific content that has the cleanup problems using the associated Editorial block.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once the entirety of the article has no extra content you may remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content has problems using the associated editorial block: [Template:Editorial/Content\_Cleanup](/Template:Editorial/Content_Cleanup).
 

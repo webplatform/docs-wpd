@@ -5,7 +5,7 @@ uri: 'WPD:Projects/CompaTables/Reading the data.json file'
 ---
 Some examples on how you can read the data using *underscore-cli*.
 
-## <span>Query using the terminal</span>
+## Query using the terminal
 
 The compatibility data can be read either from the published location [docs.webplatform.org/compat/data.json](http://docs.webplatform.org/compat/data.json) or through the [**webplatform/compatibility-data** project on GitHub](https://github.com/webplatform/compatibility-data). The latter provides the *underscore-cli* dependency out of the box.
 

@@ -9,7 +9,7 @@ If you want to see the high level description, refer to [WPD:Projects/SSO/Login 
 
 The authentication portal is using our own fork of Mozilla Firefox Accounts ("FxA") deployed on WebPlatform.org infrastructure. Details of the adaptations are described in [WPD:Projects/SSO/Adapt\_Firefox\_Accounts\_for\_WebPlatform](/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform).
 
-### <span>Stories</span>
+### Stories
 
 The present document describe how we address a set of user stories but it should be noted that the final result is expected to use the SSO across ALL WebPlatform.org services and participating W3C Specifications.
 
@@ -19,7 +19,7 @@ The present document describe how we address a set of user stories but it should
 -   As a non authenticated person, I want to be allowed to edit in the [WebPlatform Docs Staging wiki](http://docs.mroftalpbew.org/wiki/Main_Page) ("D") and see if the upcoming deployment will work
 -   As a non authenticated visitor, I want to start a session and be allowed to perform [A, B, C, D] without authenticating myself more than once
 
-### <span>Workflows</span>
+### Workflows
 
 Repeating what was described in [WPD:Projects/SSO/Login Workflows](/WPD:Projects/SSO/Login_Workflows), to be detailed in this page.
 
@@ -33,11 +33,11 @@ In order to fulfill the given [\#Stories](#Stories), we needed to implement a SS
 
 * * * * *
 
-## <span>Delegating authentication</span>
+## Delegating authentication
 
 This step is meant to address the **Get authenticated through a single authority** workflow.
 
-### <span>0. Preamble</span>
+### 0. Preamble
 
 In this implementation we are passing through authentication to get an OAuth2 Bearer authorization token so that we can get data on the behalf of the authenticated user.
 
@@ -45,7 +45,7 @@ The following makes use of the generated Authorization token to read a profile s
 
 *NOTE* At the moment, the Authorization token is used only once. In future development, we might want to add features and will need to store securely that token to make other actions on the behalf of the user.
 
-### <span>1. Configure the OAuth server to accept requests from a client</span>
+### 1. Configure the OAuth server to accept requests from a client
 
 In OAuth terminology, a client is a consumer that is authorized to rely on the OAuth server. A client can be a web application, but its not only limited to that.
 
@@ -72,7 +72,7 @@ Within FxA OAuth server configuration, a `client: [/* array of clients */]` entr
 
 To continue with our example, we are connecting to a MediaWiki installation that has the [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/MediaWikiExtension) available. In the case of that particular extension, it expects that we send authenticated users back to `Special:AccountsHandler/callback`.
 
-### <span>2. Configure client</span>
+### 2. Configure client
 
 Configuring a client to use our OAuth server can be different depending on how the extension implements OAuth2.
 
@@ -108,7 +108,7 @@ Most of these requests aren’t made through the browser but through a server-si
 
 *NOTE* Even though the calls are aimed at endpoints under SSL, it feels safer to have those requests made outside of the reach of the visitor web browser.
 
-### <span>3. Possibility: Detected a session</span>
+### 3. Possibility: Detected a session
 
 On page load, a non blocking [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session) attempts to read from the [accounts server](https://accounts.webplatform.org/) to see whether a session is already opened or not.
 
@@ -116,7 +116,7 @@ The outline of what’s happening is described in [\#SSO and remembering](#SSO_a
 
 If no session is detected, the module does nothing.
 
-### <span>4. From a page, when you click login</span>
+### 4. From a page, when you click login
 
 The MediaWiki extension detects the click and sends you to `Special:AccountsHandler/start`. Its an internal process to generate a redirect to the OAuth2 authentication flow.
 
@@ -136,7 +136,7 @@ Since the OAuth server knows who is the client, it adjusts the title to "Sign in
 
 Once the authentication worked the [accounts server](https://accounts.webplatform.org/) sends you to the `callbackUri` (e.g. `Special:AccountsHandler/callback` for Media Wiki).
 
-### <span>5. Redirected the callback URI</span>
+### 5. Redirected the callback URI
 
 From that callback, we get two keys:
 
@@ -149,7 +149,7 @@ The callback URI looks like this:
 
 Based on the received data, we can continue with the OAuth2 handshake.
 
-### <span>6. Get an Authorization token</span>
+### 6. Get an Authorization token
 
 From the `callbackUri` handler, with the expected data (`state`, `code`) we make a few HTTP calls server to server (i.e. invisible to the web browser).
 
@@ -183,13 +183,13 @@ At the time, the only protected service is the profile server, but we might want
 
 **NOTE** An OAuth Authorization token is basically a key to make actions on the behalf of a valid user. In this regard, it is of the utmost importance to have it sent only through SSL, and, ideally, always outside of the reach of the web browser.
 
-### <span>7. Finsish off things</span>
+### 7. Finsish off things
 
 Continued in [\#Read user data](#Read_user_data), and then [\#Initialize local web application session](#Initialize_local_web_application_session) workflow.
 
 * * * * *
 
-## <span>Read user data</span>
+## Read user data
 
 This step is meant to address the **Read user data through an API** workflow.
 
@@ -247,13 +247,13 @@ If the profile server accepted either methods, we get a JSON object looking like
 
 * * * * *
 
-## <span>Initialize local web application session</span>
+## Initialize local web application session
 
 This step is meant to address the **handle their local users and session** workflow and what the backend code MUST implement.
 
 One of the key behavior in a SSO system is that each configured application relies on an authority to provide common user data (e.g. email, username, fullName), but also to confirm if it can start a session locally and overriding its own user validation system.
 
-### <span>0. Preamble</span>
+### 0. Preamble
 
 The following MUST be done in the backend code answering at the what is refered to as "**callback**" (e.g. `Special:AccountsHandler/callback`) on each relying parties who wants to use the SSO.
 
@@ -282,7 +282,7 @@ In both *Behavior forks*, the returned data from the profile server MUST be in t
 
 Based on the data received from the profile server, we initialize a session locally.
 
-### <span>1. Behavior forks</span>
+### 1. Behavior forks
 
 Here is how the backend code MUST behave in both cases.
 
@@ -290,7 +290,7 @@ The steps are basically the same, but acts differently depending of what initiat
 
 Here are the differences in both cases.
 
-#### <span>1.1 Possibility: Completing an OAuth2 handshake</span>
+#### 1.1 Possibility: Completing an OAuth2 handshake
 
 This section covers what the backend does when it got called during an OAuth2 workflow during [\#Delegating authentication](#Delegating_authentication) and mentionned in [\#5. Redirected the callback URI](#5._Redirected_the_callback_URI).
 
@@ -299,25 +299,25 @@ In this case, we are provided with TWO keys through a `GET` request to our callb
 -   `code`: The one-time token that is the last step to get an Authorization token
 -   `state`: A key identifier that we got when we saved away in a key store (e.g. Memcache) the state before signing in.
 
-##### <span>1.1.1 Get an OAuth2 authorization token</span>
+##### 1.1.1 Get an OAuth2 authorization token
 
 With the `code` in hand, we can [\#6. Get an Authorization token](#6._Get_an_Authorization_token), then ask the profile server the user data.
 
 As described in [\#6. Get an Authorization token](#6._Get_an_Authorization_token).
 
-##### <span>1.1.2 Read data from profile server</span>
+##### 1.1.2 Read data from profile server
 
 As described in [\#Read user data](#Read_user_data) *With an Authorization token* (OAuth2).
 
-##### <span>1.1.3 Find matching user, and/or create a new one</span>
+##### 1.1.3 Find matching user, and/or create a new one
 
 This is specific to each web application, for MediaWiki you can refer to [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/MediaWikiExtension).
 
-##### <span>1.1.4 Start a session</span>
+##### 1.1.4 Start a session
 
 This is specific to each web application, for MediaWiki you can refer to [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/MediaWikiExtension).
 
-##### <span>1.1.5 Resume previous state</span>
+##### 1.1.5 Resume previous state
 
 During previous OAuth2 workflow steps, we saved some data in a key store ("state") and we can use it to send the user where he was in.
 
@@ -329,7 +329,7 @@ In the case of the [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/Media
 
  Based on that information, we issue a redirect and the user is back where he was.
 
-#### <span>1.2 Possibility: Resuming a session confirmed by the accounts server</span>
+#### 1.2 Possibility: Resuming a session confirmed by the accounts server
 
 This section covers what the backend does when we detected a session through the frontend discovery mechanism [WPD:Projects/SSO/Login Workflows\#Starting a session by communicating with accounts server](/WPD:Projects/SSO/Login_Workflows#Starting_a_session_by_communicating_with_accounts_server).
 
@@ -339,23 +339,23 @@ In this case, we are provided with ONE key through a `POST` request to our callb
 
 **NOTE** This step is currently getting directly the `sessionToken` and will eventually changed, see reasons in [WPD:Projects/SSO/Improvements roadmap\#Recovering session data](/WPD:Projects/SSO/Improvements_roadmap#Recovering_session_data).
 
-##### <span>1.2.1 Make a request with the received data</span>
+##### 1.2.1 Make a request with the received data
 
 As described in [\#SSO and remembering](#SSO_and_remembering), in the step [\#4. Read data from the profile server with a recoveryPayload](#4._Read_data_from_the_profile_server_with_a_recoveryPayload).
 
-##### <span>1.2.1 Read data from profile server</span>
+##### 1.2.1 Read data from profile server
 
 As described in [\#Read user data](#Read_user_data) *With a session token*.
 
-##### <span>1.2.2 Find matching user, and/or create a new one</span>
+##### 1.2.2 Find matching user, and/or create a new one
 
 This is specific to each web application, for MediaWiki you can refer to [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/MediaWikiExtension).
 
-##### <span>1.2.3 Start a session</span>
+##### 1.2.3 Start a session
 
 This is specific to each web application, for MediaWiki you can refer to [WPD:Projects/SSO/MediaWikiExtension](/WPD:Projects/SSO/MediaWikiExtension).
 
-##### <span>1.2.4 Return an HTTP response</span>
+##### 1.2.4 Return an HTTP response
 
 This step is required by the [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session) so it knows whether it should reload or not the page and let the user use the current site as an authenticated user.
 
@@ -367,7 +367,7 @@ If the status is not an error (e.g. 4xx, 5xx), we can send an error message in t
 
 * * * * *
 
-## <span>SSO and remembering</span>
+## SSO and remembering
 
 This step is meant to address the **Let each configured web applications to detect a session on the authority** workflow.
 
@@ -377,7 +377,7 @@ To have the system to not ask the user to authenticate again we needed to find a
 
 Most of the following would happen at [\#3. Possibility: Detected a session](#3._Possibility:_Detected_a_session) then [\#Read user data](#Read_user_data) using a [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session) that handles the checks and makes the local web application to [\#Initialize local web application session](#Initialize_local_web_application_session) automatically for the user.
 
-### <span>0. Preamble</span>
+### 0. Preamble
 
 This is what’s currently implemented. Ideally it should leverage what’s proposed in the previous section. A high level description is available at [WPD:Projects/SSO/Login Workflows\#Starting a session by communicating with accounts server](/WPD:Projects/SSO/Login_Workflows#Starting_a_session_by_communicating_with_accounts_server)
 
@@ -394,7 +394,7 @@ The following is separated in two parts:
 -   [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session)
 -   [\#Initialize local web application session](#Initialize_local_web_application_session)
 
-#### <span>1. Sign in to ("D")</span>
+#### 1. Sign in to ("D")
 
 Continuing our scenario, let’s use the [WebPlatform Docs Staging wiki](http://docs.mroftalpbew.org/wiki/Main_Page) ("D")
 
@@ -402,13 +402,13 @@ Complete signin in process through the accounts server (the OAuth way), and you 
 
 **NOTE**: Once you passed this step, you can see on the [accounts server](https://accounts.webplatform.org/) that it no loger prompts you to authenticate.
 
-#### <span>2. Go to ("B"), another web app that also uses the accounts server</span>
+#### 2. Go to ("B"), another web app that also uses the accounts server
 
 Continuing our scenario, we will want to add a comment on a [W3C spec that supports annotations](http://www.w3.org/2014/annotation/experiment/webaudio.html) ("B")
 
 The following JavaScript happen.
 
-##### <span>2.1. From B, prepare to handle confirmation</span>
+##### 2.1. From B, prepare to handle confirmation
 
 This is where we listen to what we get from the accounts server, validate if a session exists, and trigger the calls to the profile server and handle the returned data.
 
@@ -418,7 +418,7 @@ window.addEventListener("message", function(returned){console.log(returned.data)
 
  NOTE: This is handled in file [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session)
 
-##### <span>2.2. From B, open a iframe to ("C")</span>
+##### 2.2. From B, open a iframe to ("C")
 
 For this to work, we have to make sure that the Content server sends appropriate CSP headers on the FxA content server.
 
@@ -439,7 +439,7 @@ For this to work, we have to make sure that the Content server sends appropriate
 window.sso.init(closure, '/wiki/Special:AccountsHandler/callback');
 ```
 
-##### <span>2.3. From B, Send trigger to ask confirmation from the iframe</span>
+##### 2.3. From B, Send trigger to ask confirmation from the iframe
 
 Since the iframe has reloaded fully the document and would behave the same as if the user went to <https://accounts.webplatform.org/> with an opened session, we can ask that iframe document to send us details of the session.
 
@@ -451,7 +451,7 @@ authChecker.contentWindow.postMessage('hi', 'https://accounts.webplatform.org/')
 
  NOTE: This is handled in file [\#JavaScript shared module: Detect and start automatically a session](#JavaScript_shared_module:_Detect_and_start_automatically_a_session). The trigger would be lauched from `window.sso.doCheck()` and handles the next steps until the backend comes in.
 
-#### <span>3. From B, handle the response from the iframe</span>
+#### 3. From B, handle the response from the iframe
 
 Provided a session is already open, we should get something similar to:
 
@@ -473,7 +473,7 @@ This is where the non blocking [\#JavaScript shared module: Detect and start aut
 
 NOTE: This is know to bring a problem. The isussue is that if we use an unaltered sessionToken as the sole proof, anybody could know this and hijack a session on the relying party. This needs to be improved.
 
-#### <span>4. Read data from the profile server with a recoveryPayload</span>
+#### 4. Read data from the profile server with a recoveryPayload
 
 The following happens at [\#Initialize local web application session](#Initialize_local_web_application_session).
 
@@ -497,7 +497,7 @@ Here are the HTTP Response body the endpoint would return:
 -   410 GONE, with error JSON object, when session doesn’t exist
 -   401 UNAUTHORIZED, with error JSON object, when request is malformed
 
-##### <span>4.1. Under the hood</span>
+##### 4.1. Under the hood
 
 Under the hood, the profile server endpoint at `GET /v1/session/recover` makes database queries similar to:
 
@@ -524,7 +524,7 @@ AND
        | 3E09D6DF843341BC921A25423AB83BAF | hi@example.org | jdoe     | John Doe     |
        +----------------------------------+----------------+----------+--------------+
 
-#### <span>5. Returning the data to the server</span>
+#### 5. Returning the data to the server
 
 If the web application could get a response from `session/recover`, and finds a result, it returns a JSON object:
 
@@ -541,7 +541,7 @@ The rest MUST comply to what’s described in [\#Initialize local web applicatio
 
 * * * * *
 
-## <span>JavaScript shared module: Detect and start automatically a session</span>
+## JavaScript shared module: Detect and start automatically a session
 
 This step is meant to address the **Detect automatically if there is a session in the accounts server, and start it automatically** workflow.
 
@@ -549,7 +549,7 @@ It describes the behavior of a non blocking JavaScript module meant to detect an
 
 Client code is available in [JavaScript SsoHandler class in this gist](https://gist.github.com/WebPlatformDocs/fe3149c60d6ed95c7e16)
 
-### <span>1. Event handler to validate a session</span>
+### 1. Event handler to validate a session
 
 **NOTE**: This event handler is about answering what’s triggered bye the module and is installed in the accounts server code.
 
@@ -578,7 +578,7 @@ In our own fork and branch of `fxa-content-server`, in [app/scripts/views/base.j
       // /WebPlatform Specific ==============================
 ```
 
-### <span>2. And adjust the CSP policies</span>
+### 2. And adjust the CSP policies
 
 **NOTE**: The Content Security Policy changes here is about letting the module to communicate with the accounts server.
 
@@ -597,7 +597,7 @@ In our own fork and branch of `fxa-content-server`, in [server/bin/fxa-content-s
   // /WebPlatform Specific ==============================
 ```
 
-### <span>3. JavaScript client to handle automatic sign in</span>
+### 3. JavaScript client to handle automatic sign in
 
 This section describes what the module actually does.
 

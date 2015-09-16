@@ -21,11 +21,11 @@ todo_broken_links:
 uri: 'WPD:fontSizeProto'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the size of text.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
@@ -48,11 +48,11 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontSize`
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
-## <span>Examples</span>
+## Examples
 
 This interactive utility demonstrates absolute values applied to a block of text, and relative values applied to a span within the block:
 
@@ -62,13 +62,13 @@ This interactive utility demonstrates absolute values applied to a block of text
 
 ```
 
-## <span>Notes</span>
+## Notes
 
-## <span>Syntax</span>
+## Syntax
 
     font-size: absolute-size | relative-size | length | percentage
 
-## <span>values</span>
+## values
 
 -   *absolute-size*: A set of keywords indicating predefined font sizes that scale according to font setting preferences or the browser's default values. From small to large, possible values are:
     -   **xx-small**
@@ -90,11 +90,11 @@ A set of keywords interpreted relative to the parent element's **font-size**. Po
 
 -   *percentage*: A positive integer followed by a percent (**%**), indicating the proportion of the parent element's **font-size**.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -122,7 +122,7 @@ A set of keywords interpreted relative to the parent element's **font-size**. Po
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -162,7 +162,7 @@ A set of keywords interpreted relative to the parent element's **font-size**. Po
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -262,7 +262,7 @@ A set of keywords interpreted relative to the parent element's **font-size**. Po
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   **[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)**
 -   **[currentStyle](/css/cssom/currentStyle)**

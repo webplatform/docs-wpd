@@ -7,19 +7,19 @@ todo_broken_links:
 uri: 'WPD:Architecture/Event Reference'
 
 ---
-## <span>Syntax</span>
+## Syntax
 
-### <span>HTML / SVG / MathML</span>
+### HTML / SVG / MathML
 
 ` <element onclick="fnFoo()" ... >`
 
-### <span>JavaScript</span>
+### JavaScript
 
 ` el.addEventListener('click', fnFoo); `
 
 ` el.onclick = fnFoo; `
 
-## <span>Property values</span>
+## Property values
 
 -   Event Type (e.g. click)
 -   Interfaces (e.g. MouseEvent, including inherited interfaces, WheelEvent : MouseEvent)
@@ -36,22 +36,22 @@ uri: 'WPD:Architecture/Event Reference'
 
 Brief description
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, can be multiple paragraphs.
 
-### <span>(Arbitrary subheading)</span>
+### (Arbitrary subheading)
 
 More explanation.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

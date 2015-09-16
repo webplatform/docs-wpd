@@ -13,11 +13,11 @@ This group will determine the metrics for reporting the success of site visits. 
 -   What feedback are they giving us?
 -   How is social media campaign impacting visits and contributions?
 
-## <span>Meetings</span>
+## Meetings
 
 See [Analytics Task Force meetings](/WPD:Community/Meetings/Analytics)
 
-## <span>Contributors</span>
+## Contributors
 
 -   Doug
 -   Patrick
@@ -25,16 +25,16 @@ See [Analytics Task Force meetings](/WPD:Community/Meetings/Analytics)
 -   Julee
 -   Renoir
 
-## <span>Projects</span>
+## Projects
 
 Here's what we're working on.
 
-### <span>sitemap</span>
+### sitemap
 
-### <span>reporting dashboard</span>
+### reporting dashboard
 
-### <span>campaign management</span>
+### campaign management
 
-### <span>seo audit</span>
+### seo audit
 
-### <span>search</span>
+### search

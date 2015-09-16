@@ -3,7 +3,7 @@ title: Managing MySQL Replication over SSL
 uri: 'WPD:Infrastructure/procedures/Managing MySQL replication'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -24,17 +24,17 @@ uri: 'WPD:Infrastructure/procedures/Managing MySQL replication'
 -   [Maintaining ElasticSearch cluster](/WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster)
 -   [Maintaining email services](/WPD:Infrastructure/procedures/Maintaining_email_services)
 
-## <span>Summary</span>
+## Summary
 
 How to manage communication and replication between MySQL servers across data-centers.
 
-### <span>Conventions</span>
+### Conventions
 
 This document will follow those facts as a convention.
 
 -   Master MySQL server is known as *db1* and the replication is *db2*
 
-## <span>In a few bullet points</span>
+## In a few bullet points
 
 1.  In `/etc/mysql/my.cnf`, make sure that each node has 'ssl' alone, close to the SSL certificates
 2.  Create CA and self-signed certificates, see Salt TLS module ([salt.modules.tls](http://docs.saltstack.com/ref/modules/all/salt.modules.tls.html))
@@ -43,7 +43,7 @@ This document will follow those facts as a convention.
 5.  On db2, Dump database tables
 6.  On db2, Unlock databases
 
-### <span>Memory dump, using Salt stack</span>
+### Memory dump, using Salt stack
 
 -   [TLS salt module](http://docs.saltstack.com/ref/modules/all/salt.modules.tls.html)
 
@@ -51,9 +51,9 @@ This document will follow those facts as a convention.
 
        salt 'db1*' tls.create_ca 'mysql' days=730 CN='db1-masterdb.production.wpdn' O='W3C' OU='WebPlatform Docs' emailAddress='EMAIL'
 
-## <span>Checks</span>
+## Checks
 
-### <span>Checking if SSL is supported</span>
+### Checking if SSL is supported
 
 Connect to the MySQL server in question and check if `have_ssl` is to *YES*
 
@@ -64,9 +64,9 @@ Connect to the MySQL server in question and check if `have_ssl` is to *YES*
        | have_ssl      | YES   |
        +---------------+-------+
 
-## <span>Procedures</span>
+## Procedures
 
-### <span>Changing MariaDB replication master</span>
+### Changing MariaDB replication master
 
 Quoting what I wrote on [a blog post I wrote on January 2015: Create a MariaDB cluster with replication over SSL](https://renoirboulanger.com/blog/2015/01/create-mariadb-cluster-replication-ssl-salt-stack/):
 
@@ -80,7 +80,7 @@ Quoting what I wrote on [a blog post I wrote on January 2015: Create a MariaDB c
 
 @@TODO, Make a more precise procedure with new setup and how to manage.
 
-## <span>References</span>
+## References
 
 -   [How to setup MySQL Databaes replication with SSL on Debian](http://www.howtoforge.com/how-to-set-up-mysql-database-replication-with-ssl-encryption-on-debian-lenny)
 -   [Oracle reference: MySQL: 16.3.7. Setting Up Replication Using SSL](http://dev.mysql.com/doc/refman/5.1/en/replication-solutions-ssl.html)

@@ -5,43 +5,43 @@ tags:
 uri: 'WPD:Design/Mock-Up Stage 2'
 
 ---
-## <span>Authenticated User View</span>
+## Authenticated User View
 
 These are views of the page when the reader is authorized (signed in).
 
-### <span>Authenticated user</span>
+### Authenticated user
 
 Authenticated (signed in) user, default view.
 
 ![Wiki Page 0000 Authorized.png](/assets/public/c/cd/Wiki_Page_0000_Authorized.png)
 
-### <span>Authenticated user: Edit Dropdown</span>
+### Authenticated user: Edit Dropdown
 
 Authenticated user, with edit dropdown expanded.
 
 ![Wiki Page 0001 Authorized-EditExpanded.png](/assets/public/c/ca/Wiki_Page_0001_Authorized-EditExpanded.png)
 
-### <span>Authenticated user: Page Info Dropdown</span>
+### Authenticated user: Page Info Dropdown
 
 Authenticated user, with page info dropdown expanded.
 
 ![Wiki Page 0002 Authorized-PageInfoExpanded.png](/assets/public/b/bb/Wiki_Page_0002_Authorized-PageInfoExpanded.png)
 
-### <span>Authenticated user: Site Info Dropdown</span>
+### Authenticated user: Site Info Dropdown
 
 Authenticated user, with site info dropdown expanded.
 
 ![Wiki Page 0003 Authorized-SiteInfoExpanded.png](/assets/public/5/5e/Wiki_Page_0003_Authorized-SiteInfoExpanded.png)
 
-## <span>Unauthenticated User View</span>
+## Unauthenticated User View
 
-### <span>Unauthenticated user: Edit</span>
+### Unauthenticated user: Edit
 
 Unauthenticated (not signed in) User, default view.
 
 ![Wiki Page 0004 Unauthorized.png](/assets/public/b/be/Wiki_Page_0004_Unauthorized.png)
 
-### <span>Unauthenticated user: Edit Dropdown</span>
+### Unauthenticated user: Edit Dropdown
 
 Unauthenticated user, with edit dropdown expanded.
 

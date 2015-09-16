@@ -7,7 +7,7 @@ uri: 'WPD:Design/Inspiration'
 ---
 Here are some site features from various sites that might be good inspiration for our own site design.
 
-## <span>Adobe Web Platform Team Blog</span>
+## Adobe Web Platform Team Blog
 
 <http://blogs.adobe.com/webplatform/>
 
@@ -15,13 +15,13 @@ Nice body-text font, readable and friendly. [Ubuntu](http://font.ubuntu.com/) ty
 
 ![AdobeBlog.png](/assets/public/7/77/AdobeBlog.png)
 
-## <span>VoilaVie.fr</span>
+## VoilaVie.fr
 
 <http://www.voilavie.fr/view/2595>
 
 This site has several nice features:
 
-### <span>Shrinking Header</span>
+### Shrinking Header
 
 The header banner shrinks and retracts when the user scrolls down, changing the focus from the initial impression of site identity to an unobtrusive, utilitarian
 
@@ -33,13 +33,13 @@ Scrolled:
 
 ![Voilavie-scrolled.png](/assets/public/0/09/Voilavie-scrolled.png)
 
-### <span>Animated Scrolling Gallery Thumbnails</span>
+### Animated Scrolling Gallery Thumbnails
 
 Each gallery thumbnail consists of a picture and a caption; when the item is scrolled over, the caption title turns red, and the picture scrolls up to reveal the caption description.
 
       ![Voilavie-gallery.png](/assets/public/7/7f/Voilavie-gallery.png)![Voilavie-gallery-mouseover.png](/assets/public/a/a3/Voilavie-gallery-mouseover.png)
 
-## <span>BadassJS</span>
+## BadassJS
 
 <http://badassjs.com/>
 
@@ -47,11 +47,11 @@ A nice use of dropshadow on the content area, trendy floating folded banner, and
 
 ![Badassjs.png](/assets/public/3/35/Badassjs.png)
 
-## <span>HTML5Rocks</span>
+## HTML5Rocks
 
 <http://www.html5rocks.com/>
 
-### <span>Search & Navigation</span>
+### Search & Navigation
 
 Nice use of icons in full-width menu dropdown to indicate different technology categories. Also, nice layout and colors on menus.
 
@@ -61,13 +61,13 @@ Ability to filter list of articles by format, audience, technology or tags (woul
 
 ![Html5rocks-filters.png](/assets/public/7/76/Html5rocks-filters.png)
 
-### <span>Profile Page / Bio</span>
+### Profile Page / Bio
 
 Map of location, profile picture, list of contributions. (Our site should have a profile page for each contributor, but might have a "collection page" for all contributors in a team or employed by a specific organization.)
 
 ![Html5rocks-profile.png](/assets/public/4/4d/Html5rocks-profile.png)
 
-## <span>DocHub</span>
+## DocHub
 
 <http://dochub.io/>
 
@@ -75,7 +75,7 @@ Excellent autocomplete live-filtering search box. Simple, clear, non-distracting
 
 ![Dochub.png](/assets/public/3/33/Dochub.png)
 
-## <span>ReadTheDocs</span>
+## ReadTheDocs
 
 <http://readthedocs.org/docs/sublime-text-unofficial-documentation/en/latest/search_and_replace/search_and_replace.html>
 
@@ -85,7 +85,7 @@ For serial content, it's good to have a "previous" and "next" link, with page ti
 
 ![Readthedocs-sidebar.png](/assets/public/6/6f/Readthedocs-sidebar.png)
 
-## <span>The Django Book</span>
+## The Django Book
 
 <http://djangobook.com/en/2.0/chapter02/>
 
@@ -99,7 +99,7 @@ Some details about the comment system are on the help menu.
 
 ![Djangobook-about.png](/assets/public/e/e4/Djangobook-about.png)
 
-## <span>Inset Code Examples</span>
+## Inset Code Examples
 
 I think it would be clever to have the code examples inset, as if they were "behind" the page.
 
@@ -123,7 +123,7 @@ I think it would be clever to have the code examples inset, as if they were "beh
        }
     </style>
 
-## <span>HTML Dog</span>
+## HTML Dog
 
 <http://htmldog.com/>
 

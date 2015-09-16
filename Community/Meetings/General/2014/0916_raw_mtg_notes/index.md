@@ -3,7 +3,7 @@ title: WebPlatform Docs, weekly telcom meeting 2014-09-16 =
 uri: 'WPD:Community/Meetings/General/2014/0916 raw mtg notes'
 
 ---
-## <span>Presents</span>
+## Presents
 
 Almost-quorum of 4
 
@@ -12,14 +12,14 @@ Almost-quorum of 4
 -   Scribe: Amelia Bellamy-Royds (AmeliaBR)
 -   Chair: Doug Schepers (shepazu)
 
-## <span>Agenda</span>
+## Agenda
 
 -   Update on ongoing projects
 -   what's next for compatibility tables
 
-## <span>Log</span>
+## Log
 
-### <span>Update on ongoing projects</span>
+### Update on ongoing projects
 
        shepazu (chairing): schedule -- will be away later in the month, vacation
        plus speaking in Sao Paolo; original plan included a DocSprint, but the
@@ -86,7 +86,7 @@ Almost-quorum of 4
 
        ... Amelia, what else did we do last week?
 
-### <span>Compatibility tables</span>
+### Compatibility tables
 
        AmeliaBR: renoirb gave us an update on compatibility tables, he also sent
        some updates to the email list since then

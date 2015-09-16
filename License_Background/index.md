@@ -12,23 +12,23 @@ uri: 'WPD:License Background'
 ---
 WebPlatform content is freely available under the [Creative Commons CC BY 3.0 non-localized (CC-BY) license](http://creativecommons.org/licenses/by/3.0/), and example code is only available under [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). Contributors are asked to sign a [Contributor Agreement](/WPD:Contributor_Agreement) which includes copyright assignment, in order to make sure the content is free for reuse.
 
-## <span>Frequently Asked Questions</span>
+## Frequently Asked Questions
 
-### <span>Why offer the content for free?</span>
+### Why offer the content for free?
 
 The goal of WebPlatform is to spread high-quality information for designing or developing on the Web as to as broad an audience as possible, including reference material, tutorials, best practices, example code, and teaching materials related to Web development. Charging a fee for this content introduces a barrier to reuse, not only to those who can't afford it, but to those who have difficulty using licensed content due to internal policies.
 
 But if you would like to support the project, [become a sponsor](/w/index.php?title=become_a_sponsor&action=edit&redlink=1) or [donate](/w/index.php?title=donate&action=edit&redlink=1).
 
-### <span>Why Not Offer Multiple Licenses?</span>
+### Why Not Offer Multiple Licenses?
 
 WebPlatform content is only available under the [Creative Commons CC BY 3.0 non-localized (CC-BY) license](http://creativecommons.org/licenses/by/3.0/), and example code is only available under [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/), in order to provide a clear and simple reuse policy that is fair to both contributors and to people using the content.
 
-### <span>Why Creative Commons?</span>
+### Why Creative Commons?
 
 Creative Commons offers a well-understood, widely-used, well-researched set of licenses, which will encourage the widespread reuse of the content. People know and understand Creative Commons, and this aids our goal of a clear reuse policy.
 
-### <span>Why Attribution?</span>
+### Why Attribution?
 
 We chose an attribution-style license, rather than one which does not require attribution, to acknowledge the significant contributions of our community, and to let people know about the resources available at WebPlatform.org. We provide extensive [Attribution Chains]] and [Attribution Guidelines](/WPD:License_and_Reuse#How_should_I_attribute_the_project.3F) to make this easy to do.
 
@@ -39,7 +39,7 @@ This accomplishes several goals:
 3.  Attribution promotes our free resource and gives people an alternative to paying for information on developing and designing for the Open Web Platform.
 4.  Attribution makes it easier to track specific contributions and prevent abuse of the site.
 
-### <span>Why Not Non-Commercial?</span>
+### Why Not Non-Commercial?
 
 Non-commercial licenses have two problems:
 
@@ -50,13 +50,13 @@ Pragmatically, it is difficult, time-consuming, and expensive to attempt to enfo
 
 Finally, part of the success of W3C and of the Open Web Platform is that it actively encourages commercial use of these technologies, and competition, and a non-commercial clause in our license would violate the spirit of the Open Web.
 
-### <span>Why Not Share-Alike?</span>
+### Why Not Share-Alike?
 
 Share-alike clauses may have a chilling effect on reuse, much like non-commercial clauses. It is often unclear when or how you must share altered content, and many organizations have policies that restrict how information can be contributed back, or policies against using content with potential "legal strings" attached; sometimes share-alike clauses are considered “viral”, in that they infect larger projects that combine content from multiple sources, and the licenses may even be incompatible. In order not to cause confusion or introduce doubt about suitability from a legal perspective, we have chosen not to use a share-alike clause, but we do encourage reciprocal content contributions wherever possible.
 
 There is a risk with share-alike and non-commercial clauses that the content is used anyway, but without attribution, which is unfair to WebPlatform and to the readers of that reused content.
 
-### <span>Why do I have to assign my copyright to W3C?</span>
+### Why do I have to assign my copyright to W3C?
 
 Some community-contribution projects simply have contributors agree to license their contributions under a specific license (e.g. CC-BY 3.0); as these project mature, they may find that they need to change the license (for example, they may need to upgrade to the CC-BY 4.0 license), and it is difficult to track down the original contributors and to get them to agree to a license change.
 
@@ -68,6 +68,6 @@ W3C does not wish to claim exclusive rights to your content, so there is a speci
 
 We recognize that this will not be satisfactory for some potential contributors, who will not contribute under these terms, but we feel that the community is best served by the clearest possible legal arrangement that will encourage long-term stability and reuse of the project, and that enough contributors will agree to these terms that the quality and integrity of the project will not suffer.
 
-### <span>How do I control how people attribute my contributions?</span>
+### How do I control how people attribute my contributions?
 
 Each contributor has a profile page, on which you can place any information about yourself and share any details of your identity, so that the per-page [attribution chain](/w/index.php?title=attribution_chain&action=edit&redlink=1) will reflect this. Each page you contribute to will link back to your profile page in the change logs. People reusing this content will follow our [Attribution Guidelines](/w/index.php?title=License_and_Reuse&action=edit&redlink=1).

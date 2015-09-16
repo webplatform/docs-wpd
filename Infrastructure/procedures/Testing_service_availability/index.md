@@ -3,13 +3,13 @@ title: Testing service availability
 uri: 'WPD:Infrastructure/procedures/Testing service availability'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Collection of small shell scripts that will be used to test components of the infrastructure.
 
-## <span>By technology</span>
+## By technology
 
-### <span>PHP Memcache library connection to Memcache cluster</span>
+### PHP Memcache library connection to Memcache cluster
 
        $params = array(
                 'class'      => 'MemcachedPeclBagOStuff',
@@ -44,7 +44,7 @@ Collection of small shell scripts that will be used to test components of the in
        var_dump($client->get('key1'));
        var_dump($client->get('wpwiki:user:stats:359'));
 
-### <span>Website vhost</span>
+### Website vhost
 
 -   One per vhost
 -   Grep if a string exist
@@ -56,7 +56,7 @@ Collection of small shell scripts that will be used to test components of the in
     curl -I -H 'Host: docs.webplatform.org' http://15.185.116.171/wiki/Main_Page?t=cli-renoirb
 ```
 
-### <span>Adding pages through MediaWiki API</span>
+### Adding pages through MediaWiki API
 
 **Dependencies**:
 

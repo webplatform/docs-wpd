@@ -3,7 +3,7 @@ title: What’s next with the project?
 uri: 'WPD:Projects/next-steps'
 
 ---
-## <span>Agenda</span>
+## Agenda
 
 -   Infrastructure overview
 -   New services
@@ -11,16 +11,16 @@ uri: 'WPD:Projects/next-steps'
     -   specs
     -   discourse
 
-## <span>Topics</span>
+## Topics
 
-### <span>Specifiction</span>
+### Specifiction
 
 -   Domain name **talk.webplatform.org**
 -   action, ask Robin if he has preferences
 -   Remember that it might also be taken as a Q&A by the community and not spec centric
 -   Experimental features
 
-## <span>Scrachpad</span>
+## Scrachpad
 
 Ideas we want to propose that are one of WebPlatform/W3C strengths or things we have in place.
 
@@ -39,7 +39,7 @@ What we learned while running WPD in the last years:
     -   Increase involvement from the standards people. Help them participate with us.
 -   We havent got very much traffic because our focus was always into creating the content. We should focus less on the content, and more on the services. Content isn’t unique, services can make a distinction.
 
-### <span>Documentation plan</span>
+### Documentation plan
 
 -   we have a lot of content but its not well organized nor curated
 -   *Documentation plan*:
@@ -53,10 +53,10 @@ What we learned while running WPD in the last years:
 -   We also learned that we can’t really count on long sustained efforts from volunteers
 -   Regardless of whether or not we get steward support financially, convince them to make the editors *also* participate in documentation along with their work on standards
 
-### <span>Developer involvement plan</span>
+### Developer involvement plan
 
 -   annotation system
 
-### <span>Infrastructure we have in place</span>
+### Infrastructure we have in place
 
 Refer the [201503 report published in the **Infrastructure** section](/WPD:Infrastructure/reports/201503)

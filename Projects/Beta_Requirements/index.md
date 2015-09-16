@@ -7,15 +7,15 @@ tags:
 uri: 'WPD:Projects/Beta Requirements'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page is a brainstorm page for deciding on and listing the tasks that need to be done before we can move WebPlatform.org to beta stage.
 
 There are a number of tasks to do as we progress WPD through to the alpha and beta stages (we could call them alpha 2 and beta 1, perhaps, as alpha has already passed). The trouble we are getting right now is that there is so much work to do, that we are getting overwhelmed and as a result not as much is being done as we'd like. To combat this, we are going to follow a priority list, focusing on each smaller task in turn until we get it done, then moving on to the next, to make the work seem more maneageable
 
-# <span>Beta — May 1st 2013</span>
+# Beta — May 1st 2013
 
-## <span>Make sure the session issues are fixed</span>
+## Make sure the session issues are fixed
 
 -   Type: bug
 -   Owner: Doug
@@ -24,7 +24,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: This is quite simply, the most destructive bug we have. It annoys almost everyone who uses the site, and is really damaging our reputation
 -   Duration: hard to say
 
-## <span>Dabblet integration</span>
+## Dabblet integration
 
 -   Type: feature addition
 -   Owner: Doug
@@ -33,7 +33,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: We really would like to have live code examples running alongside our articles, and this is the mechanism to do it. This would be a huge plus to the site.
 -   Duration: hard to say
 
-## <span>Localisation framework</span>
+## Localisation framework
 
 -   Type: feature addition
 -   Owner: Doug
@@ -42,7 +42,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: A lot of people want to contribute to WPD not via new content, but by translations of existing content. We should give them a mechanism they can use to do this quickly, before they lose enthusiasm for the project.
 -   Duration: hard to say
 
-## <span>Add "WPD" inside article titles for better SEO</span>
+## Add "WPD" inside article titles for better SEO
 
 -   Type: feature addition
 -   Owner: Doug
@@ -51,7 +51,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: We want to emulate the SEO success MDN has had with having "MDN" in all page titles. You can search MDN: x in a search engine to bring up the MDN page on subject x, and this is awesome.
 -   Duration: should be pretty quick
 
-## <span>Add site wide navigation menu</span>
+## Add site wide navigation menu
 
 -   Type: feature addition
 -   Owner: Lea/Doug
@@ -60,7 +60,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: WPD currently has a lot of content, but it is quite hard to navigate through it. Adding a standard topic/category navigation menu to every page would make things much better in this regard
 -   Duration: hard to say
 
-## <span>CSS properties content task</span>
+## CSS properties content task
 
 -   Type: content
 -   Owner: Alex
@@ -69,7 +69,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: WPD has a lot of content that needs to be sorted, but CSS is higher priority. There are a relatively small number of CSS properties to handle, and we have a reasonably good base of articles already to build upon and sort out. CSs is also commonly sought after documentation. This all said, CSS properties are a good model island of documentation to start with, so we can then move on to others with confidence. And as a final plus, Alex has mentioned that the Google Chrome dev tools team are looking for a set of CSS articles to point to for the in-app documentation they are making available in their tool. If WPD CSS articles were available to use for this, it would be a huge plus
 -   Duration: three months
 
-## <span>API references</span>
+## API references
 
 -   Type: content
 -   Owner: Scott
@@ -78,9 +78,9 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: APIs would be a good set of documentation to go on to next — they already have a plan, and passionate project leader (Scott)
 -   Duration: three months, to run at least in part concurrently with the CSS properties task
 
-# <span>Beta 2 — August 1st 2013</span>
+# Beta 2 — August 1st 2013
 
-## <span>CSS: other reference articles</span>
+## CSS: other reference articles
 
 -   Type: content
 -   Owner: ???
@@ -89,7 +89,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: With the CSS property references out of the way, it would then make sense to sort out the other CSS references.
 -   Duration: one month
 
-## <span>CSS: tutorials</span>
+## CSS: tutorials
 
 -   Type: content
 -   Owner: ???
@@ -98,7 +98,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: Now moving on to the CSS tutorials/concepts
 -   Duration: three months
 
-## <span>HTML references</span>
+## HTML references
 
 -   Type: content
 -   Owner: ???
@@ -107,7 +107,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: HTML should be the next set of articles to move on to, as it is one of the central three most important web standards
 -   Duration: three months
 
-## <span>HTML tutorials</span>
+## HTML tutorials
 
 -   Type: content
 -   Owner: ???
@@ -116,7 +116,7 @@ There are a number of tasks to do as we progress WPD through to the alpha and be
 -   Priority justification: now moving on to HTML tutorials
 -   Duration: three months
 
-# <span>Gold — November 1st 2013</span>
+# Gold — November 1st 2013
 
 To do by the end of this phase:
 
@@ -125,15 +125,15 @@ To do by the end of this phase:
 -   DOM reference pages
 -   Beginners guide
 
-# <span>For later</span>
+# For later
 
 -   SVG
 -   General web concepts
 
-# <span>Level of content robustness we want to achieve (quality and quantity)</span>
+# Level of content robustness we want to achieve (quality and quantity)
 
 -   Stubs (at least) for all non-proprietary DOM methods/properties/objects, CSS properties (… more?)
 -   Complete, accurate compatibility tables on all CSS properties and DOM methods/properties on document, window, (… more?)
 -   50 localized articles (which implies we have a reasonable localization framework)
 
-# <span>Level of community engagement and satisfaction</span>
+# Level of community engagement and satisfaction

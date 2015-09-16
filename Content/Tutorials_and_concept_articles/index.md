@@ -7,11 +7,11 @@ tags:
 uri: 'WPD:Content/Tutorials and concept articles'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article provides a guide to editing and creating concept articles and tutorial articles. Following the steps below should give good results, but if you have any questions, feel free to share them on the mailing list or IRC or Q&amp;A (see our help page for more details.)
 
-## <span>1. Tutorial or concept — make a choice!</span>
+## 1. Tutorial or concept — make a choice!
 
 First you need to choose whether a concept or tutorial article would be best for what you want to write. Both are informative articles that teach the reader something, but there is a difference in style
 
@@ -22,7 +22,7 @@ If you are not sure which to choose, have a think about what subject or subjects
 
 **FOR EXISTING ARTICLES** if you think an existing article is in the wrong camp entirely, flag it with the **Move candidate** flag, and write an editorial note to suggest where to move it to.
 
-## <span>2. Make sure the subject matter or concept works for a single article</span>
+## 2. Make sure the subject matter or concept works for a single article
 
 Have a look at what you want to cover. Does it work in a single article, or do you need to add more? Do you need to split it up into multiple articles? Generally you want to aim for an amount of information that is easily digestible by an average person in one evening's reading, say 2-3 hours. If it is any larger then the average person will not bother to read it.
 
@@ -30,7 +30,7 @@ Have a look at what you want to cover. Does it work in a single article, or do y
 
 **FOR EXISTING ARTICLES** if you think an existing article is badly scoped, flag it with the **Merge candidate** or **Split candidate** flag, as appropriate, and write an editorial note to suggest what it should be merged with or split into.
 
-## <span>3. Make sure the article is (going to go) in the right location</span>
+## 3. Make sure the article is (going to go) in the right location
 
 You can find a guide to the site structure at [Topic Hierarchy](/WPD:Content/Topic_Hierarchy). All articles should fit into this somewhere. If you have any issues with this structure, please tell us!
 
@@ -44,7 +44,7 @@ That is the eventual idea anyhow!
 
 **FOR EXISTING ARTICLES** if you think an existing article wrongly placed, flag it with the **Move candidate** flag, and write an editorial note to suggest where to move it to.
 
-## <span>4. Create a new page (if needed)</span>
+## 4. Create a new page (if needed)
 
 To create a new page, use our [new page tool](/WPD:New_Page). For concepts, use the [concept](/WPD:New_Page#Concept) form, and for tutorials use the [tutorial](/WPD:New_Page#Tutorial) form. You need to make sure the concept/ or tutorial/ bit is kept at the front of the entry in the form field. To enter your chosen page name, use lower case only, and use spaces in between the words, not hyphens or anything else. Media wiki will resolve these to underscores.
 
@@ -54,7 +54,7 @@ When choosing a URL slug for your article, cut it down as much as possible, incl
 
 Press the relevant **Create…** button to create your new article.
 
-## <span>5. Make sure the article structure works</span>
+## 5. Make sure the article structure works
 
 An article should have the following
 
@@ -67,7 +67,7 @@ An article should have the following
 -   **Browser support**: Make a note of browser support for the feature or features covered in the article, even if it is just links to the relevant page on caniuse.com
 -   **Code examples**: we aren't 100% sure where to include these yet, but even so, create a code example or two to show the point of the article in action, if applicable.
 
-## <span>6. Make sure the fields in the edit form are filled in correctly</span>
+## 6. Make sure the fields in the edit form are filled in correctly
 
 In the article edit form, there are several form fields to fill in to create your article. Let's go through all of these now
 
@@ -88,13 +88,13 @@ In the article edit form, there are several form fields to fill in to create you
 
 **FOR EXISTING ARTICLES** Feel free to move stuff around to the right places, when fixing up an existing article.
 
-## <span>7. Try to get formatting and language done as well as possible</span>
+## 7. Try to get formatting and language done as well as possible
 
 You shouldn't let language and formatting perfection get in the way of writing a useful article, but we do urge you to try to get the language and formatting done to as good as degree as you can when submitting a new article of cleaning up an existing one. To find out more details, read our [Manual of style](/WPD:Manual_Of_Style) for lots of information on style of language, titles, etc.
 
 For syntax help, look at the [[Media Wiki formatting guide](http://www.mediawiki.org/wiki/Help:Formatting)]. If you encounter a weird problem when trying to get some syntax to work, see if you can find an answer in our [Gotchas page](/WPD:Manual_Of_Style/Gotchas).
 
-## <span>8. Other adjustments to be made</span>
+## 8. Other adjustments to be made
 
 The following is a list of other things that need to be checked through before the article is deemed complete.
 
@@ -104,11 +104,11 @@ The following is a list of other things that need to be checked through before t
 -   **Remove obvious biased or out of place language**: For example, if the article is talking about a feature only in the context of working in WebKit and includes WebKit-specific code, you should update the language and code to remove this bias. If there is language that says something like "To find more out about this subject, consult these other articles on MDN", then link to WPD articles instead, and update it.
 -   **Give the article a general update**: Have a read through and think about whether it is up-to-date, or whether any of the text, code examples, etc. need updating. Write new text and code examples to suit.
 
-## <span>9. Ask for an editor/proofer!</span>
+## 9. Ask for an editor/proofer!
 
 When you have written a new article, let us know about it, via the mailing list. It is also a good idea to ask for a proof reader to come on board to look over your work for you, and correct any errors. We all make mistakes!
 
-## <span>10. Record your progress in working on the article</span>
+## 10. Record your progress in working on the article
 
 When you are working on fixing up an article, it is a good idea to write who you are and what stage you have got to in the Editorial note box near the top of the edit form, so that others don't decided to take on the same work and start repeating what you have done.
 

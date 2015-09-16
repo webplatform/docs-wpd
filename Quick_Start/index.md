@@ -7,23 +7,23 @@ tags:
 uri: 'WPD:Quick Start'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article provides quick access to important Content to give you the &quot;lay of the land&quot; to start contributing as quickly as possible...
 
-## <span>[WebPlatform.org — Your Web, documented](http://www.webplatform.org/)</span>
+## [WebPlatform.org — Your Web, documented](http://www.webplatform.org/)
 
 We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
 
 **Related** ... [Web Platform stewards](http://webplatform.org/stewards/) 
 
-## <span>[Getting Started - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Getting_Started)</span>
+## [Getting Started - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Getting_Started)
 
 Anyone can contribute to WPD. To get started, you'll first need to register and verify your email address. There are many ways to contribute that take varying amounts of time and expertise. Often it's best to start with the simplest, fastest tasks and progress upwards from there as you gain expertise and experience. You can make meaningful contributions whether you have five minutes, half an hour, or half a day.
 
 **Related** ... [Most Wanted Tasks - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks)  [register](http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup) 
 
-## <span>[Most Wanted Tasks - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks)</span>
+## [Most Wanted Tasks - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Most_Wanted_Tasks)
 
 A quick list of things that could be done around the site.
 
@@ -31,29 +31,29 @@ Here is a great quick list of specific things that could be done around the site
 
 **Related** ... [Doc Sprint Task Tracker](https://docs.google.com/spreadsheet/ccc?key=0Aoc3F7WkVTNUdGg1UnVCakExMjZBUjIxYThGdTh5X2c#gid=8)  [Filing bugs](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)  [Getting Started - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Getting_Started) 
 
-## <span>[New Page - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:New_Page)</span>
+## [New Page - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:New_Page)
 
 Follow the steps below as you create new content pages. (Content pages are pages that live in the default namespace.) If your page is not a content page (for example, it lives in the WPD: namespace), just visit the URL you would like to exist and hit the 'Create' tab.
 
 **Related** ... [Style guide](http://docs.webplatform.org/wiki/WPD:Manual_Of_Style)  [Topic hierarchy](http://docs.webplatform.org/wiki/WPD:Content/Topic_Hierarchy)  [WPD:Creating\_API\_pages](http://docs.webplatform.org/wiki/WPD:Creating_API_pages) 
 
-## <span>[Policy/Pillars - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Pillars)</span>
+## [Policy/Pillars - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:Pillars)
 
 This document lists a small number of principles intended to guide the development and maintenance of the Web developer center. This is a living document that the community will develop over time. Because it expresses a small number of abstract guiding principles, it is expected to evolve slowly and only with the consensus of the community. The specific tactical details that describe how the community currently implement these ideals are covered in the management document.
 
 **Related** ... [Consensus - Rely on consensus and good-faith collaboration to develop content and community practices.](http://docs.webplatform.org/wiki/WPD:Pillars#Consensus)  [Inclusion](http://docs.webplatform.org/wiki/WPD:Pillars#Inclusion)  [Pragmatism](http://docs.webplatform.org/wiki/WPD:Pillars#Pragmatism) 
 
-## <span>[Help:Formatting - MediaWiki](http://www.mediawiki.org/wiki/Help:Formatting)</span>
+## [Help:Formatting - MediaWiki](http://www.mediawiki.org/wiki/Help:Formatting)
 
 You can format your text by using wiki markup. This consists of normal characters like asterisks, single quotes or equal signs which have a special function in the wiki, sometimes depending on their position. For example, to format a word in italic, you include it in two pairs of single quotes like *this*.
 
 **Related** ... [How Web Platform Docs uses Semantic Media Wiki](http://docs.webplatform.org/wiki/WPD:Implementation_Patterns)  [Images](http://www.mediawiki.org/wiki/Help:Images)  [Links](http://www.mediawiki.org/wiki/Help:Links)  [Wiki Syntax Errors (Gotchas)](http://docs.webplatform.org/wiki/WPD:Manual_Of_Style/Gotchas) 
 
-## <span>[FAQ - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:FAQ)</span>
+## [FAQ - WebPlatform Docs](http://docs.webplatform.org/wiki/WPD:FAQ)
 
 General info that might head off your questions...
 
-## <span>[Filing bugs](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)</span>
+## [Filing bugs](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)
 
 If you find an issue related to the content of the site (e.g. an article is incorrect or missing), you have a few choices:
 

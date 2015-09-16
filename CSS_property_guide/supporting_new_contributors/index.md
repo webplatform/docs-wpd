@@ -3,9 +3,9 @@ title: supporting new contributors
 uri: 'WPD:CSS property guide/supporting new contributors'
 
 ---
-## <span>How we support new contributors</span>
+## How we support new contributors
 
-### <span>Coordinators</span>
+### Coordinators
 
 When a new contributor volunteers, assign a coordinator who:
 
@@ -16,7 +16,7 @@ When a new contributor volunteers, assign a coordinator who:
 -   adds newcomer username to this page
 -   follow up with them in a couple of days to see if they were successful.
 
-### <span>Helping contributors with CSS properties page</span>
+### Helping contributors with CSS properties page
 
 1.  WebPlatform Wednesday we pick a bundle of CSS property articles for that week
 2.  To prevent people from being intimidated by a blank page, we create stubs for those articles, with the link to the specification where you will find the basic information to start from; I would hope we could automate this with a script (it would be nice to also insert the topic cluster)
@@ -46,7 +46,7 @@ Each contributor might sign up for one or more tasks for one or more articles; y
 
 Compatibility table information is not in this breakdown; we will soon have automated compatibility tables, so we should discourage people from trying to edit this manually for now.
 
-### <span>Help budding writers</span>
+### Help budding writers
 
 People think it's easy to just copy and paste. But actually, it's just as easy to think on your own. People just need to know how to proceed.
 

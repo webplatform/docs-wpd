@@ -5,9 +5,9 @@ uri: 'WPD:Projects/SSO/Login Workflows'
 ---
 Both of these scenarios assume that the Annotator sidebar is loaded on the target page load via an explicit script reference; both use the same instance of Hypothes.is Annotator, hosted on WebPlatform.org (specifically, notes.webplatform.org).
 
-## <span>User facing</span>
+## User facing
 
-### <span>WebPlatform.org</span>
+### WebPlatform.org
 
 1.  User arrives on content page *X* on WebPlatform.org
     -   User wishes to edit or annotate page
@@ -27,7 +27,7 @@ Both of these scenarios assume that the Annotator sidebar is loaded on the targe
 
 No popup needed?
 
-### <span>W3C Specs</span>
+### W3C Specs
 
 1.  User arrives on specification page *Y* on W3.org
     -   User wishes to annotate specification
@@ -43,9 +43,9 @@ No popup needed?
 
 Popup may be needed?
 
-## <span>How the code has to behave</span>
+## How the code has to behave
 
-### <span>Functionnal workflows</span>
+### Functionnal workflows
 
 Those are the functional requirements to enable SSO. Each workflow is detailed in [WPD:Projects/SSO/How we implemented it](/WPD:Projects/SSO/How_we_implemented_it)
 
@@ -57,7 +57,7 @@ In order to fulfill the given [WPD:Projects/SSO/How we implemented it\#Stories](
 -   handle their local users and session (see [WPD:Projects/SSO/How we implemented it\#Initialize local web application session](/WPD:Projects/SSO/How_we_implemented_it#Initialize_local_web_application_session)), and
 -   Detect automatically if there is a session in the accounts server, and start it automatically (see [[[WPD:Projects/SSO/How we implemented it\#JavaScript shared module: Detect and start automatically a session](/WPD:Projects/SSO/How_we_implemented_it#JavaScript_shared_module:_Detect_and_start_automatically_a_session))
 
-### <span>Starting a session by communicating with accounts server</span>
+### Starting a session by communicating with accounts server
 
 This section covers what the *front-end* does to detect if a session is opened on the accounts server. To see the *back-end* part, refer to [WPD:Projects/SSO/How we implemented it\#1.2 Possibility: Resuming a session confirmed by the accounts server](/WPD:Projects/SSO/How_we_implemented_it#1.2_Possibility:_Resuming_a_session_confirmed_by_the_accounts_server), detailed in the section [WPD:Projects/SSO/How we implemented it\#SSO and remembering](/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering)
 
@@ -80,6 +80,6 @@ This section covers what the *front-end* does to detect if a session is opened o
 
 **NOTE**: This workflow is subject to change, the details is described in [WPD:Projects/SSO/Improvements roadmap\#Recovering session data](/WPD:Projects/SSO/Improvements_roadmap#Recovering_session_data).
 
-## <span>Reference</span>
+## Reference
 
 -   [Sessions and authentication](http://www.whatcodecraves.com/posts/2012/01/11/backbonejs-sessions-and-authentication) describes how a session works, you can ignore what is specific to backbone.

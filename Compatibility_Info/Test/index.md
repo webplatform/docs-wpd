@@ -3,42 +3,42 @@ title: Test
 uri: 'WPD:Compatibility Info/Test'
 
 ---
-## <span>Compatibility quick-view</span>
+## Compatibility quick-view
 
-### <span>Called by a MediaWiki Template</span>
+### Called by a MediaWiki Template
 
 See [Template:Compatibility documentation](http://docs.webplatform.org/wiki/Template:Compatibility) for usage details.
 
-### <span>border-radius as list (partial)</span>
+### border-radius as list (partial)
 
 <compat topic="css" feature="border-radius"></compat>
 
-### <span>inline-block as list (supported)</span>
+### inline-block as list (supported)
 
 <compat topic="css" feature="inline-block"></compat>
 
-### <span>font-size as list (unknown)</span>
+### font-size as list (unknown)
 
 <compat topic="css" feature="font-size"></compat>
 
-### <span>css-regions as list (unsupported)</span>
+### css-regions as list (unsupported)
 
 <compat topic="css" feature="css-regions"></compat>
 
-## <span>Compatibility tables</span>
+## Compatibility tables
 
-### <span>border-radius</span>
+### border-radius
 
 <compat topic="css" feature="border-radius"></compat>
 
-### <span>inline-block</span>
+### inline-block
 
 <compat topic="css" feature="inline-block"></compat>
 
-### <span>font-size</span>
+### font-size
 
 <compat topic="css" feature="font-size"></compat>
 
-### <span>css-regions (unsupported)</span>
+### css-regions (unsupported)
 
 <compat topic="css" feature="css-regions"></compat>

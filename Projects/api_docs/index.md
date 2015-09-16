@@ -8,7 +8,7 @@ todo_broken_links:
 uri: 'WPD:Projects/api docs'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Some of the most immediately useful technical content that WPD can provide is for the new JavaScript APIs recently developed (or currently being developed) for web applications. These APIs provide new functionality that make web applications as robust and high-performing as desktop or native apps. By focusing on this area of technical content, we can establish WPD as the leading provider of reference information for modern web development.
 
@@ -24,7 +24,7 @@ This proposal outlines a strategy for building out the API documentation, consid
 -   Priorities and project management
 -   Additional documents
 
-## <span>Current state of the WPD API documentation</span>
+## Current state of the WPD API documentation
 
 With the launch of WPD in October 2012, we received a generous donation of API documentation from Microsoft; it included some 12 APIs: appcache, audio-video (media), canvas, file, geolocation, indexeddb, timing, web-messaging, web-storage, websocket, workers, and xhr. A review of this content revealled that it needed to be reorganized and ammended extensively. While this work began, some new API documentation was developed (mostly to prove the process for creating API documentation). The findings of these efforts are summarized in [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -68,11 +68,11 @@ The API document may or may not include code examples, and it may or may not hav
 |20|[gamepad](/apis/gamepad)|[Dave Gash](/User:Dgash)|Content complete|
 |21|[canvas](/apis/canvas) WebGL|[Scott Rowe](/User:Scottrowe)|Not started ([spec](https://www.khronos.org/registry/webgl/specs/1.0/WebGL))|
 
-## <span>On-going work</span>
+## On-going work
 
 Although the initial layout and development of these documents is complete, a great deal of work remains in developing code examples and reviewing the content. The following tables list the pages that need these pieces in order for the documentation to attain stardom. The lists are the results of queries for content with [flags](/WPD:Editors_Guide/step_4_review_existing_content#How_to_add_a_flag) that identify needed improvements; specifically, "Examples Needed" and "Needs Review."
 
-### <span>Examples development</span>
+### Examples development
 
 (375 results)
 
@@ -1602,7 +1602,7 @@ These pages need examples to thoroughly explain the documented API artifacts and
 </tbody>
 </table>
 
-### <span>Review content</span>
+### Review content
 
 (0 results)
 
@@ -1614,7 +1614,7 @@ These pages need to be reviewed by a community member familiar with the API and 
 
 Nothing found!
 
-## <span>DOM content</span>
+## DOM content
 
 Content identified here was originally considered part of the API project, but these APIs are actually DOM APIs, and should be considered in the scope of the DOM project (yet to be started).
 
@@ -1628,11 +1628,11 @@ Content identified here was originally considered part of the API project, but t
 |DOM|[Device Orientation](https://developer.mozilla.org/en-US/docs/Detecting_device_orientation)|MDN|Events that signal the device's orientation.|
 |DOM|[Shadow DOM](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html)|Dimitri's Blog|Tip of the Web Components iceberg; Scott is on the hook for this one.|
 
-## <span>Creating, updating, and importing content</span>
+## Creating, updating, and importing content
 
 Along with importing content from other sources, it is crucial that when you are working with existing content you check that content against the source specification. The document, [WPD:Creating\_API\_pages](/WPD:Creating_API_pages) has more information about editing API pages.
 
-## <span>Templates and forms</span>
+## Templates and forms
 
 Several issues with the current design and implementation of the templates and forms for use with the API documentation are noted in the "TODO" sections of the page, [WPD:Creating\_API\_pages](/WPD:Creating_API_pages). The issues are summarized as follows:
 
@@ -1643,6 +1643,6 @@ Several issues with the current design and implementation of the templates and f
 -   For the Syntax section in properties and methods, it is not clear that the way the form enforces the syntax works in all cases. It may be overly specific. We need a tiger team to look at this more carefully to determine if there is an issue.
 -   In the Event template it is not clear how the Overview Table gets populated. Looks like the Event template has not been completed. [Bug 20629](https://www.w3.org/Bugs/Public/show_bug.cgi?id=20629)
 
-## <span>Additional documents</span>
+## Additional documents
 
 The methodology for creating API pages is described in [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).

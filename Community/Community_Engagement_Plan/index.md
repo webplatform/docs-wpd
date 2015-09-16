@@ -7,7 +7,7 @@ A breakdown of the different audiences or constituencies, when we involve them, 
 
 Please insert a link to the working task force and their charter and next meetings here.
 
-## <span>Who to Engage</span>
+## Who to Engage
 
 -   Sponsoring Orgs
 -   Other W3C member orgs
@@ -17,7 +17,7 @@ Please insert a link to the working task force and their charter and next meetin
         -   leaders within different communities
     -   Individuals
 
-## <span>How to Engage</span>
+## How to Engage
 
 Basic principle:
 
@@ -57,7 +57,7 @@ Actions to take:
 
 </dd>
 </dl>
-## <span>When to Engage</span>
+## When to Engage
 
 -   Sneak Preview: Current stewards, invited opinion leaders, interested W3 members
     -   Purpose: work out bugs in site; get core participants familiar

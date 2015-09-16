@@ -11,6 +11,6 @@ Currently, the process for becoming a project lead is deliberately unstructured 
 
 We manage all of our projects on [project.webplatform.org](http://project.webplatform.org).
 
-## <span>Project Leads</span>
+## Project Leads
 
 We currently have several project leads. If you are have questions about a topic, or are interested in contributing substantially to that topic, feel free to contact these leads on [project.webplatform.org](http://project.webplatform.org).

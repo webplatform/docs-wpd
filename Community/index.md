@@ -79,7 +79,7 @@ I want to remove some of the things that are listed below that are no longer act
 
 * * * * *
 
-## <span>Chat with us on IRC</span>
+## Chat with us on IRC
 
 The WebPlatform.org online community uses IRC and mailing lists extensively. Connect to the WebPlatform channel with an IRC client using these settings
 
@@ -91,11 +91,11 @@ The WebPlatform.org online community uses IRC and mailing lists extensively. Con
 
 Note: If you are new to using IRC, check out this [helpful guide](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/).
 
-## <span>Join the public-webplatform@w3.org mailing list</span>
+## Join the public-webplatform@w3.org mailing list
 
 -   We announce initiatives and discuss proposals on the W3.org mailing list. [Subscribe](http://lists.w3.org/Archives/Public/public-webplatform/) to the w3.org mailing list to stay in touch.
 
-## <span>Access the bug-tracking system</span>
+## Access the bug-tracking system
 
 You can report and work on issues reported on our issue tracker at [project.webplatform.org](http://project.webplatform.org). Be sure to search for your issue before entering any new bugs.
 
@@ -103,7 +103,7 @@ To file a bug, log into the project space [project.webplatform.org](http://proje
 
 * * * * *
 
-## <span>Original Page</span>
+## Original Page
 
 Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether you're just starting in your career or are already a seasoned web professional, we encourage you to [get involved with the community](/WPD:Editors_Guide/step_2_communicate_with_the_online_community).
 
@@ -113,7 +113,7 @@ We might be a little bit messy right now, and we aren't quite big enough for our
 
 Please read the [Pillars](/WPD:Pillars) document for our overall guiding principles and methods.
 
-## <span>Community pages</span>
+## Community pages
 
 -   [Community Engagement Plan](/WPD:Community/Community_Engagement_Plan)
 -   [Community Events](/WPD:Community/Community_Events)
@@ -122,7 +122,7 @@ Please read the [Pillars](/WPD:Pillars) document for our overall guiding princip
 -   [Survey](/WPD:Community/Survey)
 -   [Task Forces](/WPD:Community/Task_Force)
 
-## <span>Help build the site</span>
+## Help build the site
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [Editor's Guide](/WPD:Editors_Guide).
 
@@ -130,7 +130,7 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 -   If you have a question about webplatform.org, please [look for an answer in the FAQ first](/WPD:FAQ).
 -   Round up more helpers and run a [Doc Sprint](/WPD:Doc_Sprint).
 
-## <span>Stay in touch</span>
+## Stay in touch
 
 -   [Subscribe](http://lists.w3.org/Archives/Public/public-webplatform/) to the w3.org mailing list to stay in touch.
 -   [Chat with other editors in IRC](/WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join_the_conversation_on_the_IRC_channel): we're on irc.freenode.org, the \#webplatform channel.

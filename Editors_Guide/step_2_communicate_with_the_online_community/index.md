@@ -78,11 +78,11 @@ translations:
 uri: 'WPD:Editors Guide/step 2 communicate with the online community'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is Step 2 of the Editor's Guide.
 
-## <span>Join the conversation on the IRC channel</span>
+## Join the conversation on the IRC channel
 
 The WebPlatform.org online community uses IRC and mailing lists extensively. Connect to the WebPlatform channel with an IRC client using these settings
 
@@ -93,7 +93,7 @@ The WebPlatform.org online community uses IRC and mailing lists extensively. Con
 
 Note: If you are new to using IRC, check out this [helpful guide](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/).
 
-### <span>IRC hours</span>
+### IRC hours
 
 <table class="wikitable" style="text-align: center; color: green; width:50%">
 <tr>
@@ -143,15 +143,15 @@ their hours
 </td>
 </tr>
 </table>
-### <span>IRC Channel logs</span>
+### IRC Channel logs
 
 We have a bot who takes care of logging the conversations and they are available at [**www.webplatform.org/talk/chatlogs**](http://www.webplatform.org/talk/chatlogs/).
 
-## <span>Join the public-webplatform@w3.org mailing list</span>
+## Join the public-webplatform@w3.org mailing list
 
 -   We announce initiatives and discuss proposals on the W3.org mailing list. [Subscribe](http://lists.w3.org/Archives/Public/public-webplatform/) to the w3.org mailing list to stay in touch.
 
-## <span>Access the bug-tracking system</span>
+## Access the bug-tracking system
 
 You can report and work on issues reported on our issue tracker at [project.webplatform.org](http://project.webplatform.org).
 

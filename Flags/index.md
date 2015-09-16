@@ -11,7 +11,7 @@ Flags are used in conjunction with Editorial templates to provide more details. 
 
 See more detail about each flag to see how it's used and what Editorial notes it should be used in conjunction with.
 
-## <span>How to add a flag</span>
+## How to add a flag
 
 To add a flag, go to the page to be flagged, and click **Edit**. You should see a form. (If you don't, the page might need to be converted to the Basic\_Page template.)
 
@@ -23,7 +23,7 @@ For example, if you choose Merge Candidate and want the page to be merged with <
 
     {{Editorial/Merge_Candidate|Other=css/atrules}}
 
-## <span>List of work item flags</span>
+## List of work item flags
 
 These articles mark work items that an article needs to bring it up to our quality standards. We seek to fix the issues that the flags address and get to zero work-item flags. Many of these flags are directly inspired by points in the [Style Manual](/WPD:Style_Manual).
 
@@ -31,7 +31,7 @@ Different flags have different guidelines for when they should be used, and for 
 
 **TODO**: Remove/archive out-of-date material, re-write page to focus on the automatically generated flags that are still in use.
 
-### <span>Content quality (high-level)</span>
+### Content quality (high-level)
 
 -   [Stub](/WPD:Flags/Stub)
 -   [Deletion\_Candidate](/WPD:Flags/Deletion_Candidate)
@@ -45,7 +45,7 @@ Different flags have different guidelines for when they should be used, and for 
 -   [Data\_Not\_Semantic](/WPD:Flags/Data_Not_Semantic)
 -   [Unreviewed\_Import](/WPD:Flags/Unreviewed_Import)
 
-### <span>Content quality (low-level)</span>
+### Content quality (low-level)
 
 -   [Content\_Outdated](/WPD:Flags/Content_Outdated)
 -   [Content\_Incomplete](/WPD:Flags/Content_Incomplete)
@@ -61,6 +61,6 @@ Different flags have different guidelines for when they should be used, and for 
 -   [Examples\_Errors](/WPD:Flags/Examples_Errors)
 -   [Examples\_Best\_Practices](/WPD:Flags/Examples_Best_Practices)
 
-## <span>Notes</span>
+## Notes
 
 See [Flag Notes](/WPD:Flags/Notes) for background details. and historical discussion.

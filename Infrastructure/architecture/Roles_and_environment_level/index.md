@@ -3,7 +3,7 @@ title: Roles and environment level
 uri: 'WPD:Infrastructure/architecture/Roles and environment level'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -33,7 +33,7 @@ level
 
 This document describes how we define what configuration and code will be applied on a given VM.
 
-## <span>Roles</span>
+## Roles
 
 The roles of a VM is defined by its name, more than one role can be assigned on a single VM.
 
@@ -77,7 +77,7 @@ The following command gives the a NGINX status view each VM that has *nginx* as 
 
 **Continue reading about roles in [WPD:Infrastructure/architecture/VM\_roles](/WPD:Infrastructure/architecture/VM_roles)**
 
-## <span>Level</span>
+## Level
 
 The "*environment level*" is defined as a `key: value` string (e.g. "level: production") in `/etc/salt/grains`. That file is created when the VM is created using the salt master managed `/srv/opsconfig/userdata.txt` **cloud-init** boot script.
 
@@ -89,9 +89,9 @@ Getting the *environment level* name that the VM knows it has can be done like t
 
 **Tip** Its a convention to keep in an OpenStack project ONLY contain ONE environment level. Mixing might cause to confusion and manipulation mistakes.
 
-# <span>Related</span>
+# Related
 
-## <span>How salt detects the roles?</span>
+## How salt detects the roles?
 
 In the [salt-states](https://github.com/webplatform/salt-states) code repository, generally available in the salt master `/srv/salt/_grains/purpose.py`. The code looks like this.
 

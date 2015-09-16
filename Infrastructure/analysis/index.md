@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/analysis'
 ---
 Documents describing projects and technical analysis to support them.
 
-# <span>Contents</span>
+# Contents
 
 -   [2013-Hardware and software requirements](/WPD:Infrastructure/analysis/2013-Hardware_and_software_requirements)
 -   [2013-Migrating to a new cloud provider](/WPD:Infrastructure/analysis/2013-Migrating_to_a_new_cloud_provider)

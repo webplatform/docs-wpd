@@ -20,15 +20,15 @@ uri: 'WPD:Projects/DOM API docs'
 ---
 This is the project page for the DOM API documentation on WPD.
 
-## <span>Purpose</span>
+## Purpose
 
 The purpose of this documentation is to describe the Document Object Model for developers of applications that work with DOM artifacts. It is not an architectural study of the DOM, nor is it intended to support the development of the DOM itself.
 
-## <span>Scope</span>
+## Scope
 
 This documentation will cover the programatic artifacts that provide an interface to the DOM, the APIs. This document does not cover the HTML elements or CSS artifacts that otherwise are considered part of the DOM. Nor does this project deal with the SVG or MathML content in WPD.
 
-## <span>Tasks</span>
+## Tasks
 
 The two primary tasks of this project are as follows:
 
@@ -36,15 +36,15 @@ The two primary tasks of this project are as follows:
 -   Remove and replace proprietary content with standard content.
 -   Fill in the pages with information currently missing.
 
-## <span>Reorganization</span>
+## Reorganization
 
 First, we have to reorganize our current content.
 
-### <span>Current organization variants</span>
+### Current organization variants
 
 Most of the problems with the way the content is currently organized boil down to the use of "interstials" - either as unnecessary namespace delineations or artificial subtree designations.
 
-#### <span>Optimum scheme</span>
+#### Optimum scheme
 
 Some of the [DOM](/dom) pages follow the very plain, short, and predictable delineation that we consider optimum:
 
@@ -52,7 +52,7 @@ Some of the [DOM](/dom) pages follow the very plain, short, and predictable deli
 
 Where \<member\> may be a property, event, or method. For example, [dom/Element/error](/dom/Element/error).
 
-#### <span>Weird subtrees</span>
+#### Weird subtrees
 
 Some pages are designated as subtrees of the dom/apis. These are:
 
@@ -61,7 +61,7 @@ Some pages are designated as subtrees of the dom/apis. These are:
 
 These subtree designations appear to be completely artificial, unlike the use of such designations in the [API Project](/WPD:Creating_API_pages), where API\_Listing pages described the common name of the API. Here, with no common API names required to distinguish the pages, these interstitials are unnecessary. The member pages of these dom "subtrees" invariably refer to their parent objects - HTMLElement, etc. - via the "Applies to" template (though these are not shown in the URL presently).
 
-#### <span>Interstitials</span>
+#### Interstitials
 
 Other pages are using "interstitials" to describe the namespace type, such as the "apis" interstitial, as follows:
 
@@ -88,7 +88,7 @@ Some pages have no interstitials at all.
 
 For example, [dom/gotpointercapture](/w/index.php?title=dom/gotpointercapture&action=edit&redlink=1).
 
-#### <span>Inheritance not in the URLs</span>
+#### Inheritance not in the URLs
 
 Inheritance is not described in the URLs of the pages. Most pages follow this organization:
 
@@ -96,7 +96,7 @@ Inheritance is not described in the URLs of the pages. Most pages follow this or
 
 For example, [dom/HTMLTrackElement](/dom/HTMLTrackElement) *not* [dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement](/w/index.php?title=dom/EventTarget/Node/Element/HTMLElement/HTMLTrackElement&action=edit&redlink=1). This is a good thing. As you can see, describing the inheritance model would make the URLs unnecessarily long without providing any useful information to the user.
 
-### <span>Organization solution</span>
+### Organization solution
 
 Proposed is the abolition of all "interstitials" and the assignment of all members to their encapsulating objects in the URLs. Even the "apis" interstitial is unnecessary (see below). To that, we would have the following first-tier designations.
 
@@ -104,7 +104,7 @@ Proposed is the abolition of all "interstitials" and the assignment of all membe
 
 Beneath that are the DOM objects; these are of two types, **events** and **event targets**.
 
-#### <span>Events</span>
+#### Events
 
 All of the event types are currently organized under dom/objects, i.e. dom/objects/PointerEvent and the actual events are organized under dom/events, i.e dom/events/pointerdown.
 
@@ -126,7 +126,7 @@ Eventually we need to add a field to the Event form to display the event type (s
 
 We also considered organizing events under their targets (i.e. dom/Element/pointerdown), but found namespace collisions (dom/Element/error property collides with dom/Element/error event). Besides, events properly belong to event types, not targets, in the DOM.
 
-#### <span>Event targets</span>
+#### Event targets
 
 Event targets are such objects as Document, Element, etc.
 
@@ -154,7 +154,7 @@ An "apis" interstitial is unnecessary. The DOM itself includes CSS, CSSOM, HTML 
 
 We propose to reorganize the DOM pages (estimated at roughly 1,129 pages) according to the guidelines above. Under these guidelines, all DOM pages would follow the URL structure, "dom/\<object\>/\<member\>" where \<member\> may be a property or method, or event.
 
-### <span>Reorganization procedure</span>
+### Reorganization procedure
 
 There are 1129 pages in the dom namespace.
 
@@ -174,7 +174,7 @@ For the dom/apis pages, most of these are part of the audio-video API, for examp
 
 The dom/traversal pages also need to be moved under their parent objects. For example [dom/traversal/methods/cloneContents](/w/index.php?title=dom/traversal/methods/cloneContents&action=edit&redlink=1) may need to move to dom/\<parentDOMobject\>/Range. Much of the work will be in figuring out to which DOM objects these traversal members belong. If the parent DOM object can't be determined, the traversal API might belong in the [apis](/apis) namespace. Luckily, there are no event pages under dom/traversal.
 
-#### <span>Script</span>
+#### Script
 
 It may be possible to do some of this moving with a script. People in the community might be able to lend a hand. [[[1]](http://docs.webplatform.org/wiki/User:Frozenice%7CFrozenice) (David Kirstein) is very knowledgeable about MediaWiki and Semantic MediaWiki, and he may be able to help automate this process.
 
@@ -190,11 +190,11 @@ From a first-impression, it seemed the script could apply the following process 
         -   Update the link to point to the page's new location.
 -   Otherwise, leave the page where it is
 
-#### <span>Manual moving</span>
+#### Manual moving
 
 Before moving a page, take note of the new URL, and update the links in all pages that link to the moved page. Leave no redirect.
 
-#### <span>Changing Inbound Links</span>
+#### Changing Inbound Links
 
 For each page that links to the page in question, all the links on that page to the new location. All the pages that link to the target page can be found consistently with the [Special:WhatLinksHere](/Special:WhatLinksHere) page. For example:
 
@@ -202,10 +202,10 @@ For each page that links to the page in question, all the links on that page to 
 
 We should leave no redirects, since page-level redirects, as opposed to server-level redirects, harm SEO.
 
-## <span>Amending the content</span>
+## Amending the content
 
 We'll deal with this after we get reorganized. To be continued...
 
-## <span>Unresolved issues</span>
+## Unresolved issues
 
 Need to identify the event type (i.e. KeyboardEvent) in the Event template, Overview table. ([bug](http://project.webplatform.org/tmpl/issues/7))

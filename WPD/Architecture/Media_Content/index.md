@@ -11,20 +11,20 @@ uri: 'WPD:Architecture/Media Content'
 -   Who posted resource
 -   License
 
-## <span>Accessibility</span>
+## Accessibility
 
 -   videos and audio can be included in site, but requires captions
 -   captions can be provided by poster or crowdsourced
 -   any video or audio assets will be tagged as "stubs"
     -   no incoming links, and demoted (or removed) search results until captions provided
 
-## <span>Inspiration</span>
+## Inspiration
 
-### <span>videolectures.net</span>
+### videolectures.net
 
 **Example:** <http://videolectures.net/w3cworkshop2011_andrae_interoperability/>
 
-#### <span>Features</span>
+#### Features
 
 -   great features!
 -   video side-by-side with image of slides
@@ -32,7 +32,7 @@ uri: 'WPD:Architecture/Media Content'
 -   short description of video
 -   "Turn out the lights" obscures other parts of page, highlights video and slides
 
-##### <span>Missing</span>
+##### Missing
 
 -   needs captioning
 -   URI should change with each index (e.g. as video plays, and when user clicks)

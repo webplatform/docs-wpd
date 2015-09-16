@@ -13,7 +13,7 @@ uri: 'WPD:Policy/Management'
 
 This document sets expectations about the organization and management of the Web Developer Center, and describes how the site implements the ideals described in the [Pillars](/WPD:Pillars). Like all parts of the site, this document is expected to evolve over time in accordance with the will of the community.
 
-## <span>Scope of Content on the Site</span>
+## Scope of Content on the Site
 
 -   The content to seed the site initially will be pragmatic content tailored towards an audience of web developers, from beginners to advanced. For example, the site may include reference documentation, tutorials, and general guides. Some of this material will be written from scratch, and some will be sourced from already existing resources, such as the Opera web standards curriculum.
 -   These items of content will deliberately be organized in a very granular, unstructured fashion, so they can be as useful to as many educators, students and other interested parties as possible.
@@ -21,7 +21,7 @@ This document sets expectations about the organization and management of the Web
 -   Over time the scope may change, for example to include groups like designers, marketing professionals and other non-developers who may be involved in a web project.
 -   The following content is currently out of scope: browser implementation documentation, specifications with no implementations.
 
-## <span>Content Organization</span>
+## Content Organization
 
 The content will cover the spectrum of open standards-based web development as completely as possible. We expect that the community will find ways to organize the content usefully for various levels of experience, types of content, and so on.
 
@@ -41,7 +41,7 @@ It is a goal that the different views provide useful information (e.g, “what w
 
 The site will support translations. A similar organization is encouraged for non-English language areas.
 
-## <span>Referencing system</span>
+## Referencing system
 
 The tagging system will also support a smart referencing system to make it easier to find related materials. Examples:
 
@@ -51,7 +51,7 @@ The tagging system will also support a smart referencing system to make it easie
 
 3. Code examples might be made available as standalone entities so that they could be transplanted into tutorials at appropriate places, but also just browsed on their own, without the tutorials.
 
-## <span>Contributions and Attribution</span>
+## Contributions and Attribution
 
 -   Contributors agree to license content they contribute, to be shared under the appropriate open license; initially, prose content and references will be licensed under CC-BY, and code examples will be made public domain under CC-0. Special dispensation may be made on a case-by-case basis for open content for which copyright assignment does not exist.
 -   People must have an account to edit the site, and must be logged in to do so.
@@ -60,7 +60,7 @@ The tagging system will also support a smart referencing system to make it easie
 -   Each contributor will have a profile page, which they can choose to populate or leave blank; profile pages will automatically include any affiliation and list of contributions.
 -   While users will be able to edit any content, we expect etiquette to govern interactions. For example, companies that include useful information about their products may prefer that their competitors do not make substantive edits to those contributions.
 
-## <span>Quality Assurance</span>
+## Quality Assurance
 
 -   Maintaining high quality is crucial for the success of the effort, and those who focus on updating articles to adhere to the [Manual of Style](/WPD:Manual_Of_Style) are valued members of the community.
 -   Pages can be annotated with tags to register instances where an article does not adhere to one of the [Manual of Style](/WPD:Manual_Of_Style) guidelines. This helps community members easily find articles that need attention, as well as communicate to readers that a page’s quality is not up to snuff. Helpful tags will be available, such as:

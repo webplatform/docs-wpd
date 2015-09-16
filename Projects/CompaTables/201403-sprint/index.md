@@ -5,7 +5,7 @@ uri: 'WPD:Projects/CompaTables/201403-sprint'
 ---
 Sprint report, extending documentation at [WPD:Projects/CompaTables](/WPD:Projects/CompaTables)
 
-## <span>Work done</span>
+## Work done
 
 **mdn-compat-importer**:
 
@@ -25,15 +25,15 @@ Sprint report, extending documentation at [WPD:Projects/CompaTables](/WPD:Projec
 -   Should not break current ESI support feature
 -   Rudimentary A11y markup (needs testing). Done according to [this WCAG1 checkpoint](http://www.w3.org/TR/WCAG10-HTML-TECHS/#identifying-table-rows-columns)
 
-## <span>To fix or improve</span>
+## To fix or improve
 
-#### <span>CompaTables MediaWiki Extension</span>
+#### CompaTables MediaWiki Extension
 
 -   List view format (format=list) is not using latest *[\#Current normalized data](#Current_normalized_data)*
 -   Table view format
     -   doesn't show prefix icons (e.g. -webkit)
 
-#### <span>ESI</span>
+#### ESI
 
 To use ESI, work has to be done on the servers. To summarize the findings, we cannot enable ESI tags on Fastly as it is at the moment due to a set of factors:
 

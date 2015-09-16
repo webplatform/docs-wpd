@@ -13,6 +13,6 @@ List subpages like this:
 
 -   [Page Name](/w/index.php?title=WPD:Plans/Page_Name&action=edit&redlink=1)
 
-## <span>Bugs</span>
+## Bugs
 
 -    ?

@@ -3,17 +3,17 @@ title: WPD:Copyright
 uri: 'WPD:Copyright'
 
 ---
-## <span>Copyrights</span>
+## Copyrights
 
 Material on the WebPlatform.org site is meant for public use. Content original to the site is licensed under a [Creative Commons Attribution License (CC-BY 3.0)](https://creativecommons.org/licenses/by/3.0/). That means you are free to share and remix, with attribution to the source. To attribute WebPlatform.org content, include a link such as "derived from material on \<a href="<http://docs.webplatform.org/>"\>WebPlatform.org\</a\>" and a link to the specific page.
 
 Some material on the site comes from other sources that have made it available under a share-alike license such as [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). In that case, WebPlatform.org maintains the share-alike term, meaning that you may use the material under the same terms: "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." That content is identified by notes at the bottom of the page. The page on [External Attribution](http://docs.webplatform.org/wiki/WPD:External_Attribution) describes in greater detail Site practices relating to externally attributed material.
 
-## <span>Contributing</span>
+## Contributing
 
 When you register to edit at WebPlatform.org, you agree to the [Web Platform Documentation Site Contributor Agreement](http://docs.webplatform.org/wiki/MediaWiki:Site-terms-of-service), agreeing to post only material you own or have rights to post and share. Material you contribute will be licensed CC-BY for others to use and remix.
 
-## <span>Reporting Copyright Infringement</span>
+## Reporting Copyright Infringement
 
 If you are or represent a copyright owner and material on WebPlatform.org infringes your copyrights, you may file a notification of claimed infringement under the Digital Millennium Copyright Act (DMCA).
 
@@ -35,6 +35,6 @@ Wendy Seltzer
 
  If you knowingly misrepresent that material or activity is infringing, you may be subject to liability for damages.
 
-## <span>Repeat Infringers</span>
+## Repeat Infringers
 
 It is site policy to terminate, in appropriate circumstances, the accounts of repeat infringers.

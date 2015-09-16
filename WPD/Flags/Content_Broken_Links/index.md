@@ -5,15 +5,15 @@ uri: 'WPD:Flags/Content Broken Links'
 ---
 This flag should be checked for articles that have links that do not work. There is an optional Editorial block associated that only needs to be used to mark off-wiki broken links (as on-wiki broken links render in red).
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once every link in the article is valid you can remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 If there are off-wiki links that are broken, use this editorial template: [Template:Editorial/Content\_Broken\_Links](/Template:Editorial/Content_Broken_Links).
 

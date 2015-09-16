@@ -23,19 +23,19 @@ todo_broken_links:
 uri: 'WPD:Architecture'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Here we describe how the site content is organized so that you can find it by following the path in the URL.
 
 **Note**: ***IMPORTANT***: Content below this box is old. Please refer to [WPD:Content/Topic\_Hierarchy](/WPD:Content/Topic_Hierarchy) and [WPD:Getting\_Started](/WPD:Getting_Started) for the latest best practices.
 
-# <span>Ask us!</span>
+# Ask us!
 
 If you have a question about how to contribute to webplatform.org, you'll find us chatting away at **irc.freenode.org** in the **\#webplatform** chat room. See [Help](/WPD:Help) for more information.
 
 -   [Topics](/WPD:Architecture/Topics)
 
-## <span>Site Structure</span>
+## Site Structure
 
 The root of the wiki is `docs.webplatform.org/wiki/`. This is the wiki where all documentation will exist, and it is collaborative.
 
@@ -43,7 +43,7 @@ The structure of the wiki is broken down into technology, characteristic, and ar
 
 Article names are case-sensitive (e.g. `getAttribute`). but the proposal is to use lowercase names for the hierarchy (e.g. *html* instead of *HTML*).
 
-### <span>Proposed Site Structure</span>
+### Proposed Site Structure
 
 See also [Topic Hierarchy](/WPD:Content/Topic_Hierarchy).
 
@@ -210,11 +210,11 @@ See also [Topic Hierarchy](/WPD:Content/Topic_Hierarchy).
         -   proprietary / mozilla / *foo*
     -   proprietary / *foo*
 
-### <span>Content Requirements</span>
+### Content Requirements
 
 See also the [Content Requirements](/WPD:Content_Requirements) page.
 
-## <span>Page Types</span>
+## Page Types
 
 These are types of reference pages we need for the site's information architecture.
 
@@ -254,17 +254,17 @@ These are types of reference pages we need for the site's information architectu
 -   [WPD:Architecture/Media\_Content](/WPD:Architecture/Media_Content)
 -   [WPD:Architecture/Glossary](/w/index.php?title=WPD:Architecture/Glossary&action=edit&redlink=1)
 
-## <span>Article Naming Conventions</span>
+## Article Naming Conventions
 
 Suggested Titling/Naming Convention for Article Types (Dave Gash).
 
 See [WPD:Manual\_Of\_Style\#Descriptive\_Titles Manual Of Style, Descriptive Titles](/WPD:Manual_Of_Style#Descriptive_Titles_Manual_Of_Style.2C_Descriptive_Titles)
 
-### <span>Notes</span>
+### Notes
 
 -   Should attributes in the same language that apply to different elements with different values for each have a different page, or should there be an aggregate page with multiple sections?
 
-## <span>Notes</span>
+## Notes
 
 -   We want aggregated pages, where content from other related pages is transcluded into a single page
     -   '**Example:'** the page for an interface will contain all the transcluded information from the individual method and property pages

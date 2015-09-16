@@ -11,7 +11,7 @@ uri: 'WPD:Flags/Notes'
 ---
 These are early notes about the Flags concept.
 
-## <span>List of Categorization Flags</span>
+## List of Categorization Flags
 
 **TODO**: These aren't implemented as "Flags" anymore, but normal form fields.
 
@@ -19,7 +19,7 @@ These are early notes about the Flags concept.
 
 These are flags that call out special status of articles. They do not represent work that must be done on the article, but rather properties of the things the article documents.
 
-### <span>Standardization Status</span>
+### Standardization Status
 
 -   W3C\_Editors\_Draft
 -   W3C\_Working\_Draft
@@ -31,7 +31,7 @@ These are flags that call out special status of articles. They do not represent 
 -   Experimental *For technologies that are not yet being standardized, don't have 2 or more compatible implementations, but aim to one day be a standard*
 -   *TODO: fill out this list with other standards bodies*
 
-### <span>Browser Support</span>
+### Browser Support
 
 Which browsers support this technology. 'Stable' means that that browser's most recent main release includes support. 'Preview' means that a preview release of that browser (e.g. a "Beta", "Alpha", or "Developer Preview") includes support. Only one of these tags should be included for each browser (and always the highest one).
 
@@ -46,39 +46,39 @@ Which browsers support this technology. 'Stable' means that that browser's most 
 -   Opera\_Preview
 -   Chrome\_Preview
 
-### <span>Prefixes</span>
+### Prefixes
 
 -   Prefix\_Everywhere *Every stable browser this ships in includes the prefix*
 -   Prefix\_Somewhere *At least one stable browser ships this without a prefix*
 -   Prefix\_Nowhere *No stable browser ships this with a prefix*
 
-## <span>Design</span>
+## Design
 
 [Flag appearance and icons](/WPD:Design/Flags)
 
 *These are even earlier notes:*
 
-## <span>Design exploration</span>
+## Design exploration
 
-### <span>Presentation</span>
+### Presentation
 
 Most warning templates are displayed as a banner, often at the top of a page before the content, but sometimes inline in the content itself. This is eye-catching, but can be distracting. The goal is to draw attention to the warning without detracting from the use of the page.
 
-#### <span>Presentation Proposal</span>
+#### Presentation Proposal
 
 One way to make is easy for people to assess the status easily is by having color-coded flags (e.g. CSS ribbons) with icon arranged along the top edge of the content area, each with a different indicator; mousing over these flags would raise a tooltip indicating the specific message.
 
 (See [Top Ribbons](http://schepers.cc/wpd/Ribbons_Web_Elements_Preview2.jpg) for a visual example of this type of flag, and [Flags Mock](http://schepers.cc/webplatform/flags.svg) for a mock of what this could look like on this site.)
 
-### <span>User Experience</span>
+### User Experience
 
 Traditionally, these flags are added by using a specific bit of Mediawiki markdown to the page. However, not everyone is familiar with the way to do this, and discovering the correct types of "content flags" is not obvious.
 
-#### <span>UX Proposal</span>
+#### UX Proposal
 
 Each page could feature a dropdown, with a Semantic Form backend, that automatically adds the appropriate flag template to the content (and also records who flagged it). This could look like a simple button that says "Flag this page", and expands into a set of options when pressed.
 
-## <span>Implementation</span>
+## Implementation
 
 You can see the current implementation of flags in the WPD wiki at the page [css/properties/font-size](/css/properties/font-size), and at its corresponding [edit form](http://webplatform.org/d/index.php?title=css/properties/font-size&action=formedit).
 
@@ -102,7 +102,7 @@ Property pages:
 
 And you can see one example of pages being aggregated by their flags, using a Semantic MediaWiki query, at [Stub pages](/w/index.php?title=Stub_pages&action=edit&redlink=1).
 
-## <span>Requirements</span>
+## Requirements
 
 *This is a section kept for historical purposes only* The specific implementation for this will require coordination between content needs, technical implementation abilities, and visual design. Here are the requirements that solutions should satisfy (in decreasing order of importance). Note that we're using "flags" as the catch-all term for these, but they might end up not being displayed that way.
 

@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/analysis/2013-Hardware and software requirements'
 ---
 Summarizing server requirements described in length in [WPD:Infrastructure/analysis/2013-Usage and future state](/WPD:Infrastructure/analysis/2013-Usage_and_future_state) and the execution plan is described in [WPD:Infrastructure/analysis/2013-Migrating to a new cloud provider](/WPD:Infrastructure/analysis/2013-Migrating_to_a_new_cloud_provider).
 
-## <span>Summary</span>
+## Summary
 
 We are using OpenStack hosted Virtual Machines (VM) as our main computing environment. Our VMs are configured using [Salt Stack](http://saltstack.com) to manage instance states and various aspects of OpenStack. Salt is similar to Puppet by managing machine state, but it also enables remote execution and can communicate with OpenStack services.
 
@@ -13,16 +13,16 @@ We require many servers to host our services (memcache, MySQL, NGINX, Varnish, A
 
 In terms of hosting and server infrastructure, we want to have more than one hosting provider, to enable redundancy and multiple site replication, and to showcase the power of OpenStack. In the short term, we need only a single major host.
 
-## <span>Requirements</span>
+## Requirements
 
-### <span>General</span>
+### General
 
 -   Open Stack service environment
 -   Access to Nova API
 -   Open to other managed PaaS service, if available. (e.g. managed *MySQL* or *Memcached* server)
 -   See also in [\#Current migration](#Current_migration) and [\#Future](#Future)
 
-### <span>Production environment</span>
+### Production environment
 
 These are our minimum requirements for the live site:
 
@@ -33,21 +33,21 @@ These are our minimum requirements for the live site:
     -   3x 1 vCPU, 2Gb vRAM
 -   11 IPv4 Public IP addresses
 
-### <span>Staging and testing environments</span>
+### Staging and testing environments
 
 In addition to the production environment, we want to have a testing and staging deployment running full time.
 
 These environments have the same requirements as the production environment, deployed in a separate network, but do not need guaranteed uptime.
 
-## <span>Our Infrastructure</span>
+## Our Infrastructure
 
 Every machine is managed by a set of states and pillars and admins manages the complete infrastructure through the Salt master.
 
 This is the current breakdown of machines per service type. Our plan is to eventually slim down the quantity of machines and merge some services together.
 
-### <span>Distribution by type</span>
+### Distribution by type
 
-#### <span>Infrastructure servers</span>
+#### Infrastructure servers
 
 -   Salt master (1 VM, Public IP)
 -   NOC nodes (2 VMs, 1 Public IP)
@@ -56,7 +56,7 @@ This is the current breakdown of machines per service type. Our plan is to event
 -   Storage (2 VMs)
 -   Backup (1 VM)
 
-#### <span>Frontend servers</span>
+#### Frontend servers
 
 HTTP servers hosting web application, most of them are behind [Fastly](http://fastly.com), using Varnish (see [WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration](/WPD:Infrastructure/procedures/Maintaining_Varnish_or_Fastly_configuration)).
 
@@ -65,9 +65,9 @@ HTTP servers hosting web application, most of them are behind [Fastly](http://fa
 -   App server (5 VMs, Public IP)
 -   Project management web app (1 VM, Public IP)
 
-## <span>Changes</span>
+## Changes
 
-### <span>Current migration</span>
+### Current migration
 
 What we would appreciate to have in a new environment.
 
@@ -76,7 +76,7 @@ What we would appreciate to have in a new environment.
 -   Routing to allow downloading from the Internet for the internal only machines
 -   Images of Ubuntu server 10.04.4 LTS and 12.04 LTS
 
-### <span>Future</span>
+### Future
 
 Upcoming, and nice to have for the current migration:
 
@@ -87,7 +87,7 @@ Upcoming, and nice to have for the current migration:
 -   Object storage service (Swift/Ceph or similar; not in use, but planned)
     -   Note: our server setup is using Gluster FS and we are considering switching to use OpenStack's Swift/Ceph to store our static assets.
 
-### <span>Next year</span>
+### Next year
 
 -   MySQL cluster to be upgraded, multiple site replication
 -   Implementing continuous deployment, configuring states on a local development machine using Vagrant/VirtualBox, test deployment script in staging/test, then deploy in production.

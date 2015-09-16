@@ -3,28 +3,28 @@ title: Survey
 uri: 'WPD:Community/Survey'
 
 ---
-## <span>Surveys</span>
+## Surveys
 
 We regularly poll our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve.
 
 Below are the surveys and responses we've received.
 
-### <span>Doc sprint surveys</span>
+### Doc sprint surveys
 
 These surveys are designed to learn how to improve the doc sprints.
 
-#### <span>San Francisco, April 3, 2013</span>
+#### San Francisco, April 3, 2013
 
 See the [Survey Results](http://goo.gl/CEs8y)! Thanks to all who responded!
 
-#### <span>Berlin, Feb. 8 & 9, 2013</span>
+#### Berlin, Feb. 8 & 9, 2013
 
 Survey [Results](/WPD:Community/Survey/Doc_Sprint/Berlin_2-2013).
 
-### <span>General surveys</span>
+### General surveys
 
 These are surveys that we run independently of doc sprints. Some never close.
 
-### <span>Verbatims</span>
+### Verbatims
 
 We also track raw comments from various sources [here](/WPD:Community/Survey/Verbatims).

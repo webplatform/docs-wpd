@@ -8,13 +8,13 @@ tags:
 uri: 'WPD:Content/coding guidelines/css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 These guidelines aim to produce consistent coding style throughout all CSS examples on WebPlatform Docs.
 
 This article is based on Idiomatic CSS, a repository created by Nicolas Gallagher: <https://github.com/necolas/idiomatic-css>
 
-## <span>General Principles</span>
+## General Principles
 
 > "Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec." - Idan Gazit
 
@@ -23,14 +23,14 @@ This article is based on Idiomatic CSS, a repository created by Nicolas Gallaghe
 -   Strictly enforce the agreed upon style.
 -   If in doubt when deciding upon a style, use existing, common patterns.
 
-## <span>Whitespace</span>
+## Whitespace
 
 Only one style should exist across the entire source of your code-base. Always be consistent in your use of whitespace. Use whitespace to improve readability.
 
 -   Use soft indents (spaces).
 -   Indent two spaces to maximize the amount of meaningful information per line.
 
-## <span>Comments</span>
+## Comments
 
 -   Place comments on a new line above their subject.
 -   Avoid end of line comments.
@@ -66,7 +66,7 @@ Only one style should exist across the entire source of your code-base. Always b
 /* Basic comment */
 ```
 
-## <span>Format</span>
+## Format
 
 -   Use one discrete selector per line in multi-selector rulesets.
 -   Include a single space before the opening brace of a ruleset.
@@ -97,7 +97,7 @@ Only one style should exist across the entire source of your code-base. Always b
 }
 ```
 
-### <span>Declaration order</span>
+### Declaration order
 
 Declarations should be ordered in accordance with a single principle. Structurally important properties are declared prior to all others:
 
@@ -150,7 +150,7 @@ Declarations should be ordered in accordance with a single principle. Structural
 
  Strict alphabetical ordering is also relatively popular, but the drawback is that it separates related properties. For example, position offsets are no longer grouped together and box-model properties can end up spread throughout a declaration block.
 
-### <span>Exceptions and slight deviations</span>
+### Exceptions and slight deviations
 
 Large blocks of single declarations can use a slightly different, single-line format. In this case, a space should be included after the opening brace and before the closing brace.
 
@@ -173,7 +173,7 @@ Large blocks of single declarations can use a slightly different, single-line fo
 }
 ```
 
-## <span>Naming</span>
+## Naming
 
 Naming is hard, but it is very important. It is a crucial part of the process of developing a maintainable code base, and ensuring that you have a relatively scalable interface between your HTML and CSS.
 
@@ -202,7 +202,7 @@ Naming is hard, but it is very important. It is a crucial part of the process of
 }
 ```
 
-## <span>Practical example</span>
+## Practical example
 
 ``` css
 /* ==========================================================================

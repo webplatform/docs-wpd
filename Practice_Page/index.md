@@ -90,7 +90,7 @@ todo_broken_links:
 uri: 'WPD:Practice Page'
 
 ---
-## <span>Summary</span>
+## Summary
 
 ページ練習ああThis is aおおおおお page where you can practice using this weおおおおbsite, and MediaWiki おいお、わおいｗ&quot;wiki&quot; foああああrmaｐｐｐtting. えｋぽうぇo ahead and click the Edit button to practice editing without consequences.
 
@@ -111,7 +111,7 @@ This makes it easier for me to do free flowing content editing, which I am unabl
 </tr>
 </table>
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `Test`
@@ -134,9 +134,9 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `practice`
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 none
 :   you start here
@@ -144,7 +144,7 @@ none
 Single\_Example
 :
 
-## <span>Examples</span>
+## Examples
 
 You can write an example in a fiddle playground, such as <http://code.webplatform.org>. Copy and paste the important lines of code, and link to the source code.
 
@@ -169,11 +169,11 @@ Foo the Bar Baz, boy.
 console.log("foo");
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -189,13 +189,13 @@ console.log("foo");
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-## <span>Usage</span>
+## Usage
 
      Use practice to learn new things and improve your skill. Go ahead and mess around. You can't hurt anything by editing. If you think you've done something heうぇｔｗinous, send a note to
 
 [public-webplatform@w3.org](mailto:public-webplatform@w3.org?subject=Possible_problem_with_practice_page) and someone will fix or reset the page.
 
-## <span>Notes</span>
+## Notes
 
 Animatable is seさｓｓｓｓtice.
 

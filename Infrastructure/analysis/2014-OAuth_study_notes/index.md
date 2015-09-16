@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/analysis/2014-OAuth study notes'
 ---
 See [annotations thread](http://notes.webplatform.org/stream?tags=gist-9837155).
 
-## <span>What is OAuth?</span>
+## What is OAuth?
 
 OAuth is a way to validate authenticity between various players in the context of multiple application communicating together. It is a framework to validate the rights ("grant") and how to request ("scope", "entitlements") for information ("resource") from one system to another.
 
@@ -38,19 +38,19 @@ While OpenID was about keeping authorization and user information. It doesn’t 
 -   To serve as a way to certify what is allowed to be done, before doing it. The part that is describing is referred to as "Scope" or "Entitlement" (link2)
 -   Ways to describe Scope/entitlement spec leaves it open ended. In the article (link2) they show various ways used by know websites.
 
-### <span>In other words</span>
+### In other words
 
 > The client application obtains a token (with user consent) with which the client application can act on behalf of a user. Note the important distinction: the application does not become the user. The application is simply able to indicate that it is acting on behalf of a user for a particular scope of activity.
 
 [annotation](http://notes.webplatform.org/a/D3xZP4xeTpiKDFHD_IGrFA), source: (link6)
 
-### <span>Compared to SAML</span>
+### Compared to SAML
 
 Both address the same problem, besides the fact that SAML is dating from 2005 and serves only to web applications. In other words, due to SAML design, a native mobile application cannot use it. Because back in 2005, nobody could expect the mobile bubble and the information exchange mechanism requires things that cannot be achieved.
 
 * * * * *
 
-## <span>How OAuth works</span>
+## How OAuth works
 
 Quoting the example given in (link8)
 
@@ -67,9 +67,9 @@ If you want to see different use-cases involving various Grant types, the slides
 
 * * * * *
 
-## <span>Facts</span>
+## Facts
 
-### <span>Scope</span>
+### Scope
 
 Has to be created and enforced among the ecosystem of the OAuth Service provider.
 
@@ -82,13 +82,13 @@ Note:
 -   Some documentation also refer this component as an "Entitlement" (are they synonyms?)
 -   In SAML, they also have concept of Tokens, but document how to represent it (link8)
 
-#### <span>In other words</span>
+#### In other words
 
 > (...) because OAuth uses both a client application credential (aka client identifier) and a token representing the user's scope of permission, service providers like banks, are able to set different access policies for client applications authorized by their customers.
 
 [annotation](http://notes.webplatform.org/a/cn5hB9q5SoC9BgnvmoKhdw), source: (link6)
 
-### <span>Grant types</span>
+### Grant types
 
 It is unclear in (link10) if he refers as "Flow" is actually what is now known as "Grant type". I assume that in since 2010 the terminology changed a bit.
 
@@ -102,7 +102,7 @@ Here is what (link10) described as flow, but summarizes well various "Grant type
 
 source (link10)
 
-### <span>*Service provider*, *Resource Server* and *Authorization Server*</span>
+### *Service provider*, *Resource Server* and *Authorization Server*
 
 There is more than one component
 
@@ -117,7 +117,7 @@ Although most of the services expos them as one, they are functionally different
 -   Resource Server ("RS")
 -   Authorization Server "AS")
 
-### <span>Tokens, and their lifetime</span>
+### Tokens, and their lifetime
 
 > (...) OAuth uses a code/refresh token/access token system that enables 3 possible session lifetimes for a single relationship (...)
 >
@@ -135,7 +135,7 @@ source: (link6)
 -   OAuth Grant
 -   Authorization
 
-### <span>SAML vs OAuth</span>
+### SAML vs OAuth
 
 This article (link7) went through to compare the terminology and the description of both technologies.
 
@@ -149,13 +149,13 @@ This article (link7) went through to compare the terminology and the description
 
 source: (link7)
 
-## <span>And now, for WebPlatform Docs use-cases</span>
+## And now, for WebPlatform Docs use-cases
 
 -   *MediaWiki OAuth Extension* on [github.com/wikimedia](https://github.com/wikimedia/mediawiki-extensions-OAuth) repository and [the official Gerrit repo](https://git.wikimedia.org/tree/mediawiki%2Fextensions%2FOAuth).
 
 * * * * *
 
-## <span>References</span>
+## References
 
 -   (link1) [Unofficial blog post about OAuth Connect](http://www.hongkiat.com/blog/oauth-connect/)
 -   (link2) [Unofficial blog post about OAuth Scope](http://brandur.org/oauth-scope) (unofficial article)

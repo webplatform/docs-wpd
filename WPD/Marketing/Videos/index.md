@@ -3,7 +3,7 @@ title: Videos
 uri: 'WPD:Marketing/Videos'
 
 ---
-## <span>Luminaries Videos</span>
+## Luminaries Videos
 
 Short description: Show many people that the industry respects e.g. Tim but also Vint Cerf, Bob Kahn and others representing ideally some of the stewards covering the below:
 
@@ -15,7 +15,7 @@ Short description: Show many people that the industry respects e.g. Tim but also
 -   All of us need to participate and can leave our mark
 -   Show them signing up to be part of this and contributing an article.
 
-## <span>Marketing-y Video</span>
+## Marketing-y Video
 
 *Low priority*
 

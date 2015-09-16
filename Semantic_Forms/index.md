@@ -3,11 +3,11 @@ title: WPD:Semantic Forms
 uri: 'WPD:Semantic Forms'
 
 ---
-### <span>What are Semantic Forms?</span>
+### What are Semantic Forms?
 
 Semantic Forms is a extension for MediaWiki that relies on Semantic MediaWiki to create form edits and define forms (which I will describe later). They appear over most pages on this wiki.
 
-### <span>Why isn't my page showing Semantic Forms?</span>
+### Why isn't my page showing Semantic Forms?
 
 Semantic Forms requires special Categories, defined by forms, that are used to query Semantics MediaWiki to allow the forms to exist. These Categories are written in the same style as typical MediaWiki syntax, such as [[Category:Markup Elements]].
 
@@ -43,7 +43,7 @@ The Categories must belong to one of the Forms, below is a compiled list of ever
 -   javascript global object
 -   javascript methods
 
-## <span>That Special Dance</span>
+## That Special Dance
 
 Here I will provide you simple step-by-step directions for allowing forms to exist on pages that do not have them.
 

@@ -7,7 +7,7 @@ uri: 'WPD:Example Pages/Tutorial Page'
 
 -   Links to subheadings within this article for ease of access
 
-## <span>Reference section</span>
+## Reference section
 
 Each tutorial article should contain a multi-faceted, useful reference section contaning a number of links:
 
@@ -18,11 +18,11 @@ Each tutorial article should contain a multi-faceted, useful reference section c
 -   Links to the relevant specs covering these features. Do we need these here too?
 -   Topic tags, which will link to other articles tagged with the same tag.
 
-## <span>Introduction</span>
+## Introduction
 
 Brief introduction to the topic in hand: the problem we are solving, the technique we are demonstrating, the widget we are coding, or the API or module feature we are explaining.
 
-## <span>Article body</span>
+## Article body
 
 The tutorial is a step-by-step description of a task or use case. The reader should be guided from the beginning through to completion. The introduction should make a promise of what will be accomplished, and the summary should recap what they have learned.
 
@@ -30,31 +30,31 @@ The complete meat of the article. We probably need to work out some sort of guid
 
 Theoretically, this will be the longest section of the tutorial, although it doesn't look it in this template.
 
-## <span>Summary</span>
+## Summary
 
 Summary saying what we learned, and any conclusions we can draw from the article.
 
-## <span>See Also</span>
+## See Also
 
 List of other topics that are relevant to the tutorial
 
-#### <span>Reference</span>
+#### Reference
 
 * * * * *
 
 List of reference topics
 
-#### <span>Conceptual Topics</span>
+#### Conceptual Topics
 
 * * * * *
 
 List of nonreference topics
 
-#### <span>External References</span>
+#### External References
 
 Resources from elsewhere on the web that might give useful information or further examples about the same topic, or which were used in the creation of this article (influences, or places where inspiration or material were drawn from)
 
-## <span>Footer</span>
+## Footer
 
 \<details\> \<summary\>This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.\</summary\>
 

@@ -3,7 +3,7 @@ title: Contributor Recognition
 uri: 'WPD:Community/Contributor Recognition'
 
 ---
-## <span>Types of Contributor Recognition Systems</span>
+## Types of Contributor Recognition Systems
 
 There are at least three types of recognition systems for community sites:
 
@@ -11,7 +11,7 @@ There are at least three types of recognition systems for community sites:
 -   Achievement recognition: Acknowledgement by some entity (organization, usually) that someone has met defined criteria of achievement. Think: Boy Scout or Girl Scout badges.
 -   Peer recognition: Acknowledgement by an individual of a contribution (singular or aggregate) by another individual in a community.
 
-### <span>Quantitative Recognition</span>
+### Quantitative Recognition
 
 MDN has not used quantitative recognition at all; they intend to add such features, but have not yet sketched a design.
 
@@ -47,7 +47,7 @@ A rather elaborate system for quantitative recognition was developed at Sun by P
 
 A large part of our recognition will be around the upcoming doc sprints. We should put in place an easy system for swag for major contributions (MDN does a great job with this). Besides that, the idea of some exclusive swag and an annual awards ceremony is also good as a long-term motivator. From talking to many possible contributors, it is clear that reputation and "soft" recognition is the most valuable. An example of that is to list all contributors in a blog post that recaps a doc sprint. Do we have a blog on the site?
 
-### <span>Achievement Recognition</span>
+### Achievement Recognition
 
 People should be given recognition for the skills they possess, as well as the contributions they have made to the site. So for contributions, you could have badges for
 
@@ -77,7 +77,7 @@ For WPD, open badges could be used to represent status or roles. In theory, they
 
 Mozilla Foundation is also working on defining badges to recognize skills and achievements related to ["webmaking"](http://erinknight.com/post/29830945702/webmaker-badges). WPD may want to eventually integrate with these on the content side. However, that doesn't relate directly to how WPD might use badges for community recognition.
 
-### <span>Peer Recognition</span>
+### Peer Recognition
 
 Wikipedia and other wiki communities use ["barn stars"](https://en.wikipedia.org/wiki/Wikipedia:Barnstars) for members to recognize good work by other members. See the link for examples of the types used in the Wikipedia community. Presumably, the infrastructure for these already exists in MediaWiki. WPD would need to decide what types of awards to use.
 
@@ -91,6 +91,6 @@ Wikipedia and other wiki communities use ["barn stars"](https://en.wikipedia.org
     personal profile (image, about, etc.) and that is something we should probably
     encourage because contributors will then more likely return.
 
-## <span>Other Resources</span>
+## Other Resources
 
 -   The book "Building Successful Online Communities" makes a number of "design claims" about feedback and reward systems. *([See notes](https://www.w3.org/2011/docs/wiki/Book_Notes))*

@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/architecture/SSL certificates'
 ---
 To manage our SSL certificates we copy around an encrypted file that holds our keys and certificates for our environments. Its maybe not the best method but we’ll keep it that way until we work on improving it.
 
-## <span>Design decisions</span>
+## Design decisions
 
  We do not want to have to enter a passphrase at every web server restart or server reboot
 :   we are then stuck to copy around private keys and certificates that aren’t passphrase protected
@@ -16,13 +16,13 @@ To manage our SSL certificates we copy around an encrypted file that holds our k
 
 It means that we’ll ensure that as few people as possible has access to the salt master as its where the certificates file is hosted decrypted.
 
-## <span>Where are the files</span>
+## Where are the files
 
 -   The file is called **certificates.tar.gz.gpg** and its hosted in DreamObjects **wpd-ci** bucket.
 -   The file gets download on the salt master at **/srv/code/packages/** where **certificates.tar.gz.gpg** is kept decrypted, and decompressed.
 -   The file **/srv/code/packages/certificates.README.md** has a copy of this document in the wiki at <https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/SSL_certificates>
 
-## <span>Certificates package convention</span>
+## Certificates package convention
 
 New convention is based on this **certificates/foo/public\_bar\_bazz.pem**
 
@@ -33,7 +33,7 @@ New convention is based on this **certificates/foo/public\_bar\_bazz.pem**
 -   *bazz* represents the private key that was used to generate the CSR
 -   The file MUST be decrypted and extracted on the salt master at **/srv/code/packages/certificates** so that deployment state at **code.certificates** copies it where its expected
 
-## <span>What’s the domain names for a certificate?</span>
+## What’s the domain names for a certificate?
 
 Run
 
@@ -43,7 +43,7 @@ Will list them like this:
 
      DNS:accounts.webplatform.org, DNS:webplatform.org, DNS:profile.accounts.webplatform.org, DNS:verifier.accounts.webplatform.org, DNS:certifier.accounts.web
 
-## <span>Testing certificate from the terminal</span>
+## Testing certificate from the terminal
 
      openssl s_client -connect 173.236.254.96:443 -servername accounts.webplatform.org -CApath /etc/ssl/certs/  < /dev/null | openssl x509 -text | grep 'DNS:'
 
@@ -58,7 +58,7 @@ Should look like this:
 
      DNS:notes.webplatform.org, DNS:docs.webplatform.org, DNS:accounts.webplatform.org, DNS:specs.webplatform.org, DNS:www.webplatform.org, DNS:webplatform.org
 
-## <span>Updating the certificate archive</span>
+## Updating the certificate archive
 
        tar cfz certificates.tar.gz certificates
        gpg -c certificates.tar.gz
@@ -67,7 +67,7 @@ Should look like this:
 
 Passphrase should be known by **renoirb** and **shepazu**.
 
-## <span>Extracting data</span>
+## Extracting data
 
 **Note**: this is done automatically at */srv/salt/\_utils/new-saltmaster-packages.sh* when we create a new salt master.
 

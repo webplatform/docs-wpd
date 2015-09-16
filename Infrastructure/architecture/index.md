@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/architecture'
 ---
 Documents describing current infrastructure details, design decisions and how to maintain
 
-# <span>Contents</span>
+# Contents
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -16,7 +16,7 @@ Documents describing current infrastructure details, design decisions and how to
 -   [Useful commands](/WPD:Infrastructure/architecture/Useful_commands)
 -   [VM roles](/WPD:Infrastructure/architecture/VM_roles)
 
-## <span>See also</span>
+## See also
 
 -   [Deploying code changes](/WPD:Infrastructure/procedures/Deploying_code_changes)
 -   [Replacing a VM](/WPD:Infrastructure/procedures/Replacing_a_VM)

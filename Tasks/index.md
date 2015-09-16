@@ -3,7 +3,7 @@ title: WPD:Tasks
 uri: 'WPD:Tasks'
 
 ---
-## <span>Minimal Viable Product</span>
+## Minimal Viable Product
 
 This table tracks the tasks we want to complete before we launch webplatform.org and which ones are required to create a minimal viable product (MVP). Current categories for tasks are: Content, Marketing, and Infrastructure.
 
@@ -52,11 +52,11 @@ This table tracks the tasks we want to complete before we launch webplatform.org
 |Marketing|Organize pre-launch hackathon|Alex (Coordinate with Eliot)|||Likely on west coast|yes|
 |Marketing|Organize post-announcement community engagement (and hackathon?)|Peter (?)||||yes|
 
-## <span>Subtopics</span>
+## Subtopics
 
 These are broken out from the top-level table.
 
-### <span>Content Migration</span>
+### Content Migration
 
 <table class="wikitable">
 <tr>
@@ -180,7 +180,7 @@ A manual attirbution block at bottom?
 </td>
 </tr>
 </table>
-### <span>Content Architecture</span>
+### Content Architecture
 
 |TOPIC|Subtopic|Owner|Status|Note|
 |:----|:-------|:----|:-----|:---|
@@ -191,7 +191,7 @@ A manual attirbution block at bottom?
 |Placement of stewards' pages||Doug||Webplatform.org/stewards/steward\_name|
 |Indicating standards track APIs||Alex||Just figuring out how to use tags/flags|
 
-### <span>Original Content</span>
+### Original Content
 
 |TOPIC|Subtopic|Owner|Status|Note|
 |:----|:-------|:----|:-----|:---|
@@ -201,7 +201,7 @@ A manual attirbution block at bottom?
 |Marketing pages||Wai (marketing taskforce)|||
 |Create content for steward pages||*Up to each steward*|||
 
-### <span>Page Structure</span>
+### Page Structure
 
 <table class="wikitable">
 <tr>
@@ -571,7 +571,7 @@ Alex
 </td>
 </tr>
 </table>
-### <span>Community Organization</span>
+### Community Organization
 
 |TOPIC|Subtopic|Owner|Status|Note|
 |:----|:-------|:----|:-----|:---|
@@ -582,7 +582,7 @@ Alex
 |Finalize the Manual of Style (including sub pages)||Alex|||
 |Figure out about badges and community recognition||Peter Lubbers|||
 
-### <span>Design</span>
+### Design
 
 **Handled by the marketing taskforce**
 

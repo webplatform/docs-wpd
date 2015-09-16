@@ -3,22 +3,22 @@ title: WebPlatform.org community events
 uri: 'WPD:Community/Community Events'
 
 ---
-## <span>Upcoming Events</span>
+## Upcoming Events
 
 -   **8-OCT-2014**— 2nd Web Platform Doc Sprint at Fronteers in Amsterdam, The Netherlands. ([Paul Verbeek](/User:Paulv))
 -   **Date TBD**—TENTATIVE: Doc Sprint @ New York, USA (Patrick D'Souza)
 
 Jump to [Past Events](#Past_Events)
 
-## <span>Doc-Sprint-In-A-Box</span>
+## Doc-Sprint-In-A-Box
 
 Here is a comprehensive guide on running your own (physical) Doc Sprint. Everything you need is right there! [Doc-Sprint-In-A-Box™](http://docs.webplatform.org/wiki/WPD:Doc_Sprint)
 
-## <span>Doc Sprint survey</span>
+## Doc Sprint survey
 
 We once polled our contributors and users to learn how we can improve the site, the doc sprints, and anything else the community needs us to improve. See the open surveys and responses on the [Survey page](/WPD:Community/Survey). Might not be super up-to-date but provides insights if you are planning on doing your own event.
 
-## <span>Past Events</span>
+## Past Events
 
 -   **11-MAY-2014**— Doc Sprint @ Beyond Tellerrand in Düsseldorf, Germany [Registration](http://lanyrd.com/2014/wpds-dusseldorf/) [@btconf event page](http://2014.beyondtellerrand.com/side-events/#wpds) ([Andre Jay Meissner](/User:Klickass), Adobe)
 -   **11-MAR-2014**— Doc Sprint @ Fluent2014 in San Francisco, USA (Julee Burdekin, Adobe)

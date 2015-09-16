@@ -3,7 +3,7 @@ title: Reports to review status
 uri: 'WPD:Infrastructure/architecture/Reports to review status'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   **Reports to review status**
@@ -26,9 +26,9 @@ uri: 'WPD:Infrastructure/architecture/Reports to review status'
 
 From the [The Salt Master](/WPD:Infrastructure/architecture/The_salt_master) we can get various system health status. This document describes how to access them.
 
-# <span>Reports</span>
+# Reports
 
-## <span>How many emails has been sent</span>
+## How many emails has been sent
 
 We have [*Mailgraph*](http://mailgraph.schweikert.ch/) installed on all *mail* VMs. With it, we can visualize how many emails are being sent to our mail server. It should display the number of refusals (e.g. somebody outside our network trying to use us) over time.
 
@@ -42,7 +42,7 @@ Should look like this:
 
 **Note** please disregard the address in the screenshot, it has been taken during deployment scripts has been set in place.
 
-## <span>Getting to know the status of a php5-fpm backend</span>
+## Getting to know the status of a php5-fpm backend
 
 You can make a basic *GET /php-status* to any VMs that has **php5-fpm** running. (@@TODO make a role to get all of them and remove the need to guess)
 
@@ -70,7 +70,7 @@ There are a few variants we can get data;
 
 **Note** that in this example I used an SSH tunnel *-L 8080:piwik:80*, but it could have been done through [\#Read reports from a VM through private network](#Read_reports_from_a_VM_through_private_network).
 
-## <span>Getting to know the status of an NGINX web server</span>
+## Getting to know the status of an NGINX web server
 
 -   From the local network
 
@@ -105,7 +105,7 @@ There are a few variants we can get data;
            1
 
 
-## <span>Getting to know the status of an Apache2 web server</span>
+## Getting to know the status of an Apache2 web server
 
 -   From salt
 
@@ -157,7 +157,7 @@ There are a few variants we can get data;
        Uptime:
            11191
 
-## <span>Nutcracker</span>
+## Nutcracker
 
 Nutcracker should run on any VM that runs a backend.
 
@@ -207,13 +207,13 @@ You can query its status from the VM itself, through the localhost loopback (onl
 
 Eventually we could use similar mechanism to gather status on services to learn how the server is going.
 
-## <span>MySQL/MariaDB</span>
+## MySQL/MariaDB
 
 We can check what’s the state of the MySQL server by issuing the following commands.
 
 They are available through [*Salt Stack* **mysql** module](http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.mysql.html#salt.modules.mysql.get_slave_status)
 
-### <span>Get replication status</span>
+### Get replication status
 
      salt db2 mysql.get_slave_status
      db2:
@@ -234,7 +234,7 @@ They are available through [*Salt Stack* **mysql** module](http://docs.saltstack
            /etc/mysql/client-key.pem
      // ... truncated
 
-### <span>Get replication master status</span>
+### Get replication master status
 
      salt -G 'roles:masterdb' mysql.get_master_status
      db1-masterdb:
@@ -245,7 +245,7 @@ They are available through [*Salt Stack* **mysql** module](http://docs.saltstack
            32058870
      // ... truncated
 
-### <span>Get process list</span>
+### Get process list
 
      salt -G 'roles:db' mysql.processlist
      db2:
@@ -268,7 +268,7 @@ They are available through [*Salt Stack* **mysql** module](http://docs.saltstack
          db:
              None
 
-### <span>Misc. reports available on MySQL servers through Salt stack</span>
+### Misc. reports available on MySQL servers through Salt stack
 
 Here are a few possibly useful commands to pick from;
 
@@ -278,17 +278,17 @@ Here are a few possibly useful commands to pick from;
      salt -G 'roles:masterdb' mysql.get_master_status
      salt -G 'roles:db' mysql.status
 
-## <span>MediaWiki</span>
+## MediaWiki
 
 Some reports can be gathered from the MediaWiki API. Here’s a list of a few useful ones. If you want to change the way they are displayed, you can change the *&format=* URL fragment (ref: [*MediaWiki.org* documentation](https://www.mediawiki.org/wiki/API:Main_page#The_format).
 
-### <span>Misc. reports</span>
+### Misc. reports
 
 -   [Contributors on **css/properties/border** page (through the API)](https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&prop=contributors&continue=&titles=css/properties/border)
 -   [Contributions made by a specific user](https://docs.webplatform.org/wiki/Special:Contributions/Renoirb)
 -   [More details about a user (through the API)](https://docs.webplatform.org/w/api.php?format=jsonfm&action=query&list=users&ususers=Renoirb&usprop=blockinfo%7Cgroups%7Ceditcount%7Cemailable)
 
-### <span>User creation log</span>
+### User creation log
 
 As long as we don’t have a separate accounts system in place for every components, including our wiki, we need to review in each web application the new accounts that are being created. If we have too many accounts created, it means that we might be under spambot attacks.
 
@@ -296,7 +296,7 @@ As long as we don’t have a separate accounts system in place for every compone
 
 ![20150106-account-creation-log-api.png](/WPD/assets/public/d/d3/20150106-account-creation-log-api.png)
 
-### <span>What’s the IP address of a given user?</span>
+### What’s the IP address of a given user?
 
 In case of need to review how our infrastructure is being abused, we can get to know the IP address of visitors so that we can effectively ban them.
 
@@ -304,13 +304,13 @@ To do so, we are using the [*MediaWiki CheckUser* Extension](https://www.mediawi
 
 ![20150108-visualizing-visitor-IP-vs-users.png](/WPD/assets/public/a/a3/20150108-visualizing-visitor-IP-vs-users.png)
 
-## <span>Using Monit</span>
+## Using Monit
 
 Monit is a software that you can configure to check if a service is accessible or running and how it can make sure its up automatically for you.
 
 **More about Monit in [WPD:Infrastructure/Monitoring/Monit](/WPD:Infrastructure/Monitoring/Monit)**
 
-### <span>From the salt master</span>
+### From the salt master
 
 We can get **monit** reports **from the salt master** like this
 
@@ -373,7 +373,7 @@ Or from the same VM:
            salt.production.wpdn:
                Running
 
-### <span>From the web frontend</span>
+### From the web frontend
 
 To do this, you need to create a SOCKS proxy like its described in [\#Read reports from a VM through private network](#Read_reports_from_a_VM_through_private_network)
 
@@ -385,7 +385,7 @@ Which should look like this;
 
 ![20150224-monit-status-preview.png](/WPD/assets/public/5/5d/20150224-monit-status-preview.png)
 
-#### <span>Monit password</span>
+#### Monit password
 
 The password is not "p4ssword", you’ll have to look at **/srv/private/pillar/accounts/** file yourself at **accounts:monit:admin\_password** or in the VM itself at **/etc/monit/conf.d/defaults.conf**.
 
@@ -395,6 +395,6 @@ An alternate way to get to know the password is to use salt like this:
      local:
        p4ssword
 
-## <span>Read reports from a VM through private network</span>
+## Read reports from a VM through private network
 
 To view the internal only reports, you need to setup your local machine to pass through our *Jumpbox*. The instructions are available in [Accessing a VM using SSH in **Base configuration of a VM'**](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH)

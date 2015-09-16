@@ -3,11 +3,11 @@ title: Tables
 uri: 'WPD:Style Guide/Tables'
 
 ---
-## <span>Syntax</span>
+## Syntax
 
 For consistency and compatibility of tables, please use the following table syntax styles. These rules are required to ensure that tables print correctly in all contexts, including when they are part of a form field.
 
-### <span>Normal pages</span>
+### Normal pages
 
     {|
     ! head 1
@@ -30,7 +30,7 @@ This results in the following table:
 |column a1|column a2|column a3|
 |column b1|column b2|column b3|
 
-### <span>Form-based pages</span>
+### Form-based pages
 
 Tables in a template or form-based page must use the ["pipe hack"](/WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character) instead of the `|` character:
 
@@ -52,7 +52,7 @@ Thus, the same table in a form would use the following (ugly) syntax:
     {{!}} column b3
     {{!}}}
 
-### <span>Do not do this!</span>
+### Do not do this!
 
 Do not use the single-line row syntax.
 
@@ -64,7 +64,7 @@ Do not use the single-line row syntax.
     | column b1 || column b2 || column b3
     |}
 
-## <span>Sortable tables</span>
+## Sortable tables
 
 MediaWiki has the ability to create [sortable tables](http://www.mediawiki.org/wiki/Help:Sorting), simply by adding the class `sortable`:
 
@@ -89,7 +89,7 @@ This results in the following table:
 |apple 1|peach 2|blueberry 3|
 |ape 1|dog 2|zebra 3|
 
-## <span>Other, less styled variant</span>
+## Other, less styled variant
 
 This variant has been found by mix-matching class names. Consider this as a hack if you really need to put data in a table without being forced to use first row as the table heading cell.
 

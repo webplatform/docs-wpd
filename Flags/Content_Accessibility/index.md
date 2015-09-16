@@ -5,15 +5,15 @@ uri: 'WPD:Flags/Content Accessibility'
 ---
 This flag should be checked for articles that do not follow all of the accessibility guidelines for the site. You should also mark the specific content that has the accessibility problems using the associated Editorial block.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once the entirety of the article follows all accessibility guidelines you may remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content has problems using the associated editorial block: [Template:Editorial/Accessibility](/Template:Editorial/Accessibility).
 

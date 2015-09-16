@@ -3,7 +3,7 @@ title: Base configuration of a VM
 uri: 'WPD:Infrastructure/architecture/Base configuration of a VM'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   **Base configuration of a VM**
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -38,19 +38,19 @@ Here is a few details that every VMs has in common
 -   Monit has automatic service checks definitions installed through Salt stack. [More about **Monit**](/WPD:Infrastructure/Monitoring/Monit) and about how to [get Monit reports](/WPD:Infrastructure/architecture/Reports_to_review_status#Using_Monit).
 -   Each VM has a full name describing its role and environment level known internally pointing to private IPs (e.g. *app3-jobrunner.production.wpdn*).
 
-### <span>Every VMs, except ones with the mail role</span>
+### Every VMs, except ones with the mail role
 
 -   Uses locally configured *exim4* to send email through the *email relay* (*mail.webplatform.org*) allowing us to have only one mail server to maintain.
 
-### <span>Only VMs with mail role</span>
+### Only VMs with mail role
 
 -   The mail relay (e.g. *mail.webplatform.org*) takes care of converting to publicly addressable origin but has headers to know which VM sent the message
 
-### <span>Every VMs that has frontend role</span>
+### Every VMs that has frontend role
 
 -   At this time they have the name *nginx* in them, they should be renamed *frontend* as its what they’ll do. Besides VMs with the *backend* role will also have NGINX to serve internally static assets for the frontend so it would make more sense to remove potential confusion with the software name
 
-### <span>Every VMs with a backend</span>
+### Every VMs with a backend
 
 At this time its the VM with roles: **app**, **project**, **piwik**, **blog**. But eventually it’ll be attached differently.
 
@@ -66,13 +66,13 @@ At this time its the VM with roles: **app**, **project**, **piwik**, **blog**. B
 -   Other keystore caches uses a different port, ending by **55** (e.g. Memcached 127.0.0.1:11255, Redis 127.0.0.1:6355) local nutcracker proxy
 -   Should have a minimal NGINX server to serve static assets as part of the web software package its serving as a backend. The *frontend* VMs will poll static assets from there.
 
-### <span>VMs with either redis or memcache or session roles</span>
+### VMs with either redis or memcache or session roles
 
 -   Listens on default port on private IPv4 interface of their respective service
 -   No web app should call them directly, use Nutcracker as a proxy instead
 -   VMs with role *sessions* are separate from the other keystores by design so we can purge data from any other clusters without destroying our user sessions
 
-## <span>Accessing a VM using SSH</span>
+## Accessing a VM using SSH
 
 To work on any VM on WebPlatform architecture, you have to have one of the site operators to add your SSH public key. Once you have access, you’ll be able to jump to the VMs you are granted access through what’s called a *SSH Jump box*.
 
@@ -80,7 +80,7 @@ One of the common use-case for this setup is to gain access to [WPD:Infrastructu
 
 The following will explain how you can install on your local machine the configuration you need to connect to the VMs through SSH.
 
-### <span>How it works</span>
+### How it works
 
 In summary, a *SSH Jump box* is basically a way to refer to a VM within a private network using a publicly available SSH server acting as a proxy.
 
@@ -92,7 +92,7 @@ To view the internal only reports, configure one of your web browser to use your
 
 This would allow you to connect only to the salt master and have a SOCKS proxy. To access all VMs and simplify the commands to use, read on.
 
-### <span>Setting automatically a SOCKS proxy in your SSH configuration</span>
+### Setting automatically a SOCKS proxy in your SSH configuration
 
 A reliable solution is to setup your local ssh client to do things for you automatically.
 
@@ -120,7 +120,7 @@ To use the proxy, you need at least one SSH connection established to the infras
 
 **IMPORTANT** Make sure you always use the connection block that the salt master provides you at connection time as this example here might become outdated.
 
-### <span>Configuring a web browser to use the proxy</span>
+### Configuring a web browser to use the proxy
 
 Once connected, you have to configure a web browser to use your new **DynamicForward** SOCKS proxy.
 

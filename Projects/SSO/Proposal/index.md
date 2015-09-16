@@ -3,33 +3,33 @@ title: Proposal
 uri: 'WPD:Projects/SSO/Proposal'
 
 ---
-## <span>Goals</span>
+## Goals
 
 -   Annotation on WPD by signing into MW
 -   Annotation on specs, using WPD account, without a pop-up
 -   Use same account on various WPD web applications (i.e. test wiki, issue tracker, blog, etc)
 
-## <span>Known limitations</span>
+## Known limitations
 
 -   Users who opt-in to third-party cookie blocking cannot log in from the sidebar if it is served from its own domain
     -   Safari blocks third-party cookies by default
 
 The hypothes.is Chrome extension requests permissions at install time to modify browser settings. Then it whitelists the Hypothes.is domain as a third-party cookie exception. This option is unavailable for the case of embedding the application directly.
 
-## <span>Possibilities</span>
+## Possibilities
 
-### <span>WPD</span>
+### WPD
 
 1.  No authentication UI in the sidebar. All authentication is done in MW. Hypothesis produces a plugin for the annotation sidebar which sniffs the MW authentication.
 
-### <span>Specs</span>
+### Specs
 
 1.  Authentication in the sidebar against MW API. Requires domain to be www.w3.org
 2.  Authentication in the sidebar against FxA OAuth API\*.
 
 The domain must be www.w3.org or the FxA OAuth server.
 
-## <span>Questions</span>
+## Questions
 
 Can we add reverse proxy routes for /notes on www.w3.org and wpd such that the iframe is always same domain? Our backend has no trouble with being served from two domains at once. This would be the simplest route because it means we can leave authentication in the sidebar for specs.
 
@@ -38,7 +38,7 @@ Example:
 -   w3.org/notes
 -   webplatform.org/notes
 
-## <span>Proposal</span>
+## Proposal
 
 -   Hypothesis develops MW authentication
     -   Front end: sniff the MW auth (used for WPD)
@@ -48,7 +48,7 @@ Example:
 
 **We will have pop-ups** on spec pages unless we put Hypothesis and MW (or FxA) on the same domain. Switching to FxA/OAuth does not change this.
 
-## <span>Estimates</span>
+## Estimates
 
 -   **MediaWiki front-end authentication sniffing:** 1-2 days
 -   **MediaWiki back-end authentication interop:** 1-2 days

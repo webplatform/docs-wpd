@@ -7,9 +7,9 @@ This sprint is about refactoring the server infrastructure to ease the maintenan
 
 For the project summary, refer to [the 201410 report](/WPD:Infrastructure/reports/201410)
 
-## <span>Tasks</span>
+## Tasks
 
-### <span>Done</span>
+### Done
 
 What has been done and is deployable on staging at this moment.
 

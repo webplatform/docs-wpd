@@ -14,18 +14,18 @@ It requires a set of components:
 -   [Firefox Accounts Profile server](https://github.com/mozilla/fxa-profile-server)
 -   [Firefox Accounts OAuth server](https://github.com/mozilla/fxa-oauth-server)
 
-# <span>Misc notes</span>
+# Misc notes
 
 -   <https://github.com/mozilla/fxa-oauth-server>
 -   <https://github.com/mozilla/fxa-oauth-server/wiki/oauth-design>
 
-## <span>OAuth terminology regarding grants/roles/entitlement</span>
+## OAuth terminology regarding grants/roles/entitlement
 
 > seanmonstar: ... the oauth spec uses "grant" where we use "code". OAuth server sends a code to app, and the app trades the "code" for a token.
 
-# <span>Procedure</span>
+# Procedure
 
-## <span>Install Firefox Content server</span>
+## Install Firefox Content server
 
 Basic system utilities
 
@@ -86,7 +86,7 @@ This command will take care to compile all assets into static ones, and make a l
 
 *NOTE* It has been validated with `zaach` that content-server requires nodejs. Therefore we cannot just use an HTTP server to serve file, they are not fully static.
 
-## <span>Install Firefox Account Authentication service</span>
+## Install Firefox Account Authentication service
 
 Clone the project
 
@@ -116,7 +116,7 @@ Notes about the keys:
 -   `contentServer`: Is the URL where the *fxa-content-server* is
 -   `templateServer`: Is, also, where the *fxa-content-server* is (in case you want a different address)
 
-## <span>Install OAuth service</span>
+## Install OAuth service
 
 Clone the project
 
@@ -140,7 +140,7 @@ Note that the `clients` array will ensure that the services are inserted in the 
 
 Note also the `whitelisted`, this property is useful to differentiate services that we want to pass through OAuth without asking each user to confirm the use. To learn more about generating keys, you can see it in the [fxa-oauth-server/doc/clients.md](https://github.com/mozilla/fxa-oauth-server/blob/master/docs/clients.md)
 
-## <span>Configure NGINX</span>
+## Configure NGINX
 
 Note, we are creating self-signed for the moment.
 
@@ -237,7 +237,7 @@ Return as normal user
 
     exit
 
-## <span>Create self-signed certificates</span>
+## Create self-signed certificates
 
 Paste our own self-signed CA authority (eventually will be real ones)
 

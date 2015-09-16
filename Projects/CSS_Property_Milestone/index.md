@@ -3,7 +3,7 @@ title: CSS Property Milestone
 uri: 'WPD:Projects/CSS Property Milestone'
 
 ---
-## <span>Background</span>
+## Background
 
 Although we have a good amount of contributors, the actual quality of documentation has not improved much in the past few months. This is primarily because the amount of work is so overwhelming that it's hard to dig in. We're trying to boil the ocean.
 
@@ -20,19 +20,19 @@ CSS properties is a great topic to focus on for our first milestone:
 
 It's always hard to prioritize, because it implicitly means that some things will be *de*prioritized. Hopefully the pros outweigh the negatives here.
 
-## <span>Milestone Goal</span>
+## Milestone Goal
 
 Documentation for all standards-track CSS properties is as comprehensive, correct, and helpful as--or better than--the current best sources for CSS property documentation.
 
-## <span>Design enhancements</span>
+## Design enhancements
 
 \<subpages/\>
 
-## <span>Editing guide</span>
+## Editing guide
 
 [CSS property guide](/WPD:CSS_property_guide)
 
-## <span>Project Plan</span>
+## Project Plan
 
 1.  Enumerate all CSS property articles to include in this milestone
 2.  Pick one representative property and make its documentation the ideal model of CSS reference documentation.
@@ -44,15 +44,15 @@ Documentation for all standards-track CSS properties is as comprehensive, correc
 
 While we're working on articles, there are a few best practices to keep in mind: after you think your article is done, e-mail the list for others to take a look and review it. You should follow the guidelines as closely as possible. If you discover places where the guidelines should be changed or added to, propose them to the group along with the specific motivating examples.
 
-## <span>CSS Properties in Milestone</span>
+## CSS Properties in Milestone
 
 <https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE> **Note**: this document is world-editable and doesn't even need a Google Account to use.
 
-## <span>Useful Resources</span>
+## Useful Resources
 
 -   <http://www.opera.com/docs/specs/presto2.12/css/properties/>
 
-## <span>Status</span>
+## Status
 
 |Status as of 2013-03-08|P0|P1|P2|Total|
 |:----------------------|:--|:--|:--|:----|

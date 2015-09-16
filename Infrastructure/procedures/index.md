@@ -3,11 +3,11 @@ title: procedures
 uri: 'WPD:Infrastructure/procedures'
 
 ---
-## <span>Description</span>
+## Description
 
 Documenting processes to guide others to contribute on the infrastructure.
 
-## <span>Table of contents</span>
+## Table of contents
 
 Listing all sub pages from here.
 

@@ -9,16 +9,16 @@ If there are two or more peers that should be merged, this flag should be set on
 
 If there is one primary article and one or more articles that are clearly of lesser quality, this flag should be set only on the other articles.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Develop which section of Manual of Style this is related to.
 
-## <span>Work Items</span>
+## Work Items
 
 If an article has this flag, anyone can start to work to merge the denoted articles. Once the content of all of the articles has been moved to a single article and location, you can delete the useless pages.
 
 If you add this flag, **you do not need to wait for permission**; this flag is mainly used as an "FYI" to others that someone is working on merging them.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 If you check off this flag you should include a [Template:Editorial/Merge\_Candidate](/Template:Editorial/Merge_Candidate) template in the body.

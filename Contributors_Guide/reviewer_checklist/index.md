@@ -5,7 +5,7 @@ tags:
 uri: 'WPD:WPD:Contributors Guide/reviewer checklist'
 
 ---
-## <span>Editing checklist</span>
+## Editing checklist
 
 -   Are all fields filled out, especially:
     -   Standardization status
@@ -36,7 +36,7 @@ uri: 'WPD:WPD:Contributors Guide/reviewer checklist'
     -   Is style maintained throughout page? Does it match style of related properties?
 -   Check the Needs Review checkbox
 
-## <span>Technical review checklist</span>
+## Technical review checklist
 
 -   Is article summary technically accurate and clear?
 -   Do values match the latest specification? Are the experimental features clearly marked?

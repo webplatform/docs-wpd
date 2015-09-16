@@ -13,7 +13,7 @@ To create a new page:
 
 **Note**: This page lists all page templates that currently exist. As we create more, we'll add them here.
 
-## <span>API Listing</span>
+## API Listing
 
 For pages that primarily list APIs, like apis/webrtc. See [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -22,7 +22,7 @@ For pages that primarily list APIs, like apis/webrtc. See [WPD:Creating\_API\_pa
 
 </form>
 
-## <span>API Object</span>
+## API Object
 
 If you're documenting an API, like `document`. Generally all pages in this type have a URL that contains `apis`, and has method and property pages that are sub-pages. The **Bar** API object of the **foo** API list would have the URL shown below. See [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -31,7 +31,7 @@ If you're documenting an API, like `document`. Generally all pages in this type 
 
 </form>
 
-## <span>API Object Method</span>
+## API Object Method
 
 If you're documenting a *method* of an API, like `appendChild`. Generally all pages in this type have a URL that contains `apis` and also includes the parent API Object. The **fuz** method of the **Bar** API object in the **foo** API list would have the URL shown below. See [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -40,7 +40,7 @@ If you're documenting a *method* of an API, like `appendChild`. Generally all pa
 
 </form>
 
-## <span>API Object Property</span>
+## API Object Property
 
 If you're documenting a *property* of an API, like `childNodes`. Generally all pages in this type have a URL that contains `apis` and also includes the parent API Object. The **baz** property of the **Bar** API object in the **foo** API list would have the URL shown below. See [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -49,11 +49,11 @@ If you're documenting a *property* of an API, like `childNodes`. Generally all p
 
 </form>
 
-## <span>API Object Event</span>
+## API Object Event
 
 Use the [Event](#Event) form, below. The **buz** event of the **Bar** API object in the **foo** API list would have the URL, **apis/foo/Bar/buz**. See [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
-## <span>Concept</span>
+## Concept
 
 For pages that are overviews of a basic concept, like CSS inheritance or float-based layout.
 
@@ -64,7 +64,7 @@ For pages that are overviews of a basic concept, like CSS inheritance or float-b
 
 </form>
 
-## <span>Constant</span>
+## Constant
 
 For pages that document a constant (for CSS, JavaScript, etc).
 
@@ -75,7 +75,7 @@ For pages that document a constant (for CSS, JavaScript, etc).
 
 </form>
 
-## <span>CSS At Rule</span>
+## CSS At Rule
 
 For pages that document a CSS At Rule (like @keyframes).
 
@@ -86,7 +86,7 @@ For pages that document a CSS At Rule (like @keyframes).
 
 </form>
 
-## <span>CSS Function</span>
+## CSS Function
 
 For pages that document a CSS function (like calc()).
 
@@ -97,7 +97,7 @@ For pages that document a CSS function (like calc()).
 
 </form>
 
-## <span>CSS Keyword</span>
+## CSS Keyword
 
 For pages that document a CSS keyword (like `inherit`).
 
@@ -108,7 +108,7 @@ For pages that document a CSS keyword (like `inherit`).
 
 </form>
 
-## <span>CSS Media Feature</span>
+## CSS Media Feature
 
 For pages that document a CSS media feature.
 
@@ -119,7 +119,7 @@ For pages that document a CSS media feature.
 
 </form>
 
-## <span>CSS Property</span>
+## CSS Property
 
 For pages that document a CSS property, like `font-size`. Generally, all pages that have a URL that begins with `/css/properties/` should live here.
 
@@ -128,7 +128,7 @@ For pages that document a CSS property, like `font-size`. Generally, all pages t
 
 </form>
 
-## <span>CSS Selector</span>
+## CSS Selector
 
 For pages that document a CSS selector (like the descendant selector). The URL should be a descriptive name since most of the selectors are illegal characters for MediaWiki URLs.
 
@@ -139,7 +139,7 @@ For pages that document a CSS selector (like the descendant selector). The URL s
 
 </form>
 
-## <span>Data Type</span>
+## Data Type
 
 For pages that document a data type (for CSS, JavaScript, etc).
 
@@ -150,7 +150,7 @@ For pages that document a data type (for CSS, JavaScript, etc).
 
 </form>
 
-## <span>Event</span>
+## Event
 
 For pages that document a DOM event, like `click` (dom/events/click) or an API object event like `ended` (apis/webrtc/MediaStream/ended). For information about documenting API object events, see [WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 
@@ -159,7 +159,7 @@ For pages that document a DOM event, like `click` (dom/events/click) or an API o
 
 </form>
 
-## <span>Guide</span>
+## Guide
 
 For pages that are guides to a given complex topic.
 
@@ -170,7 +170,7 @@ For pages that are guides to a given complex topic.
 
 </form>
 
-## <span>Glossary</span>
+## Glossary
 
 For pages that act as a collection of Glossary Items.
 
@@ -181,7 +181,7 @@ For pages that act as a collection of Glossary Items.
 
 </form>
 
-## <span>Glossary Item</span>
+## Glossary Item
 
 For pages that define a single term and its definition.
 
@@ -192,7 +192,7 @@ For pages that define a single term and its definition.
 
 </form>
 
-## <span>JavaScript Operator</span>
+## JavaScript Operator
 
 For pages that document a JavaScript operator, for example `+` or `.`. These normally live at URLs that begin with `js/operators/`. Note that you must use a readable long-form name as many of the actual values are illegal in URLs.
 
@@ -201,7 +201,7 @@ For pages that document a JavaScript operator, for example `+` or `.`. These nor
 
 </form>
 
-## <span>JavaScript Statement</span>
+## JavaScript Statement
 
 For pages that document a JavaScript statement, for example `for`, or `var`. Normally their URLs begin with `js/statements/`
 
@@ -210,7 +210,7 @@ For pages that document a JavaScript statement, for example `for`, or `var`. Nor
 
 </form>
 
-## <span>Markup Attribute</span>
+## Markup Attribute
 
 For pages that document a Markup attribute (of HTML, SVG, MathML or XML), for example `class` or `href`. These normally live at URLs with a prefix of `{xml,html,mathml,svg}/attributes/`.
 
@@ -219,7 +219,7 @@ For pages that document a Markup attribute (of HTML, SVG, MathML or XML), for ex
 
 </form>
 
-## <span>Markup Element</span>
+## Markup Element
 
 For pages that document a Markup Element (of HTML, SVG, MathML, or XML). For example, `canvas`, `div`, `circle`. These articles normally live at URLs with a prefix of `{xml,svg,html,mathml}/elements/`
 
@@ -228,7 +228,7 @@ For pages that document a Markup Element (of HTML, SVG, MathML, or XML). For exa
 
 </form>
 
-## <span>Markup Structure</span>
+## Markup Structure
 
 For pages that document a Markup structure (of HTML, SVG, or other types). For example, `CDATA`.
 
@@ -239,7 +239,7 @@ For pages that document a Markup structure (of HTML, SVG, or other types). For e
 
 </form>
 
-## <span>Regex Metacharacter</span>
+## Regex Metacharacter
 
 For pages that document a regex metacharacter, like `*` or `.`. Make sure to use a descriptive name, not the literal character (as those are often illegal page names).
 
@@ -250,7 +250,7 @@ For pages that document a regex metacharacter, like `*` or `.`. Make sure to use
 
 </form>
 
-## <span>Tutorial</span>
+## Tutorial
 
 For pages that cover a tutorial that walks users through a practical sequence of steps. Generally, these pages live at URLs that begin with `/tutorials`, although there may be redirects to them from other URLs in other sections.
 
@@ -259,7 +259,7 @@ For pages that cover a tutorial that walks users through a practical sequence of
 
 </form>
 
-## <span>Other/Basic</span>
+## Other/Basic
 
 For content pages (that is, pages in the default namespace) that do not have a more specific form to use.
 

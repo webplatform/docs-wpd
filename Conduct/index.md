@@ -6,7 +6,7 @@ uri: 'WPD:Conduct'
 -   We do not yet have a code of conduct for webplatform.org. Until we do, we expect to follow (roughly) the Wikipedia code of conduct — see <http://en.wikipedia.org/wiki/Wikipedia:Etiquette>. So also below for some guidance notes.
 -   Site administrators reserve the right to ban participation that they deem disruptive or offensive.
 
-## <span>General webplatform conduct goals</span>
+## General webplatform conduct goals
 
 In general, the goal of webplatform.org is that the community shall be self-policing and shall create a code of interactivity that reflects the cooperative nature of the site. To that extent:
 
@@ -16,7 +16,7 @@ In general, the goal of webplatform.org is that the community shall be self-poli
 -   We expect that Administrators will post relevant administrative information on a portion of the site.
 -   The community will have a means to contact Administrators to inform them of issues that require attention, including out of date content, offensive content, edit wars, etc.
 
-## <span>General notes about webplatform IRC/forum/mailing list conduct</span>
+## General notes about webplatform IRC/forum/mailing list conduct
 
 Throughout the webplatform site and related resources — including the Wiki, forums, chat, and other sections — we expect communication to be on topic, respectful and courteous at all times.
 

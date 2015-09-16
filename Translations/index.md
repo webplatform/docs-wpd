@@ -11,7 +11,7 @@ Web Platform Docs was originally using [MediaWiki features](http://www.mediawiki
 
 Specifically we use the [{{Languages}} template](http://www.mediawiki.org/wiki/Template:Languages), which creates a link to all translations of a page.
 
-## <span>Translating content instructions</span>
+## Translating content instructions
 
 WebPlatform.org has a MediaWiki extension installed that allows us to create translations of any pages we like. to do this, you simply need to:
 
@@ -31,7 +31,7 @@ PLEASE NOTE: If you want to use a language variant, for example "pt-br" for Braz
 
 ![A WebPlatform.org page showing that a Brazilian Portuguese translation is available.](/WPD/assets/public/a/af/translation2.jpg)
 
-## <span>Mechanism</span>
+## Mechanism
 
 This site will be using the MediaWiki convention of treating non-English articles (whether translations or original material) as **subpages** of the main article (which is assumed to be English). For example, the URL for the article on the CSS property `border-radius`, would be nested like so:
 
@@ -56,15 +56,15 @@ This mechanism applies not only to the final "leaf" node articles, those at the 
 
 This allows each language to reuse the same underlying information hierarchy and automatic semantic and structural mechanisms of the wiki system.
 
-### <span>Details</span>
+### Details
 
 For more details, see [multilanguage support](/WPD:Multilanguage_Support).
 
-### <span>Example</span>
+### Example
 
 As an example, see the [languages test page](/WPD:Languages).
 
-### <span>Bugs</span>
+### Bugs
 
 -   Currently, the displayed title of a translated article will be incorrect
 -   Languages template is not included by default
@@ -75,7 +75,7 @@ As an example, see the [languages test page](/WPD:Languages).
 -   No "*auto-translate'* option
 -   No **side-by-side** source-target page view
 
-## <span>Making translations</span>
+## Making translations
 
 If you are interested in providing translations for WPD, please follow the following steps:
 
@@ -84,7 +84,7 @@ If you are interested in providing translations for WPD, please follow the follo
 -   Please use the appropriate templates for the translated page (the same templates as the source page)
 -   Coordinate with other translators (especially the '*translation lead*)
 
-### <span>Translation leads</span>
+### Translation leads
 
 A '*translation lead* is the main coordinator for translations into any language. Some of their duties include:
 

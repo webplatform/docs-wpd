@@ -7,13 +7,13 @@ tags:
 uri: 'WPD:KnownIssues'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Known issues with webplatform.org.
 
 Here is a list of known issues on the site. They are in no particular order and time estimates to getting them fixed are not known. It is also not all inclusive. Please see the [bug tracker](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=webplatform.org) for a comprehensive list.
 
-## <span>Issues</span>
+## Issues
 
 -   Account status in the Q&A is bumpy. You can login and get your IP address shown and be contributing under WikiSysops or you can login and everything just works. You can also be in one state and randomly go to another.
 

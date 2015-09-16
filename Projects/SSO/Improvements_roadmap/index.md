@@ -5,11 +5,11 @@ uri: 'WPD:Projects/SSO/Improvements roadmap'
 ---
 The steps described in [WPD:Projects/SSO/How we implemented it](/WPD:Projects/SSO/How_we_implemented_it) can be improved, this page describes some proposals.
 
-## <span>Recovering session data</span>
+## Recovering session data
 
 This change proposal is about making sure the exchanged information is encoded in ways that only the intended audience can use.
 
-### <span>Problem in the original steps</span>
+### Problem in the original steps
 
 ANYBODY who got access to a sessionToken, could become that user. And that is as long as the victim keeps his session opened on the accounts server. Because there is no way to validate if the request is made from the legitimate user.
 
@@ -17,7 +17,7 @@ This security issue is no different than any web application that doesn’t use 
 
 One obvious solution is to have SSL across the whole site, but its not always possible. We cannot force the user to go back and forth from SSL if they are OK without it. But we cannot leave such powerful data without encoding it either.
 
-### <span>Proposed solution steps</span>
+### Proposed solution steps
 
 To solve the possible exploit, let’s revisit the original steps described in [WPD:Projects/SSO/Login Workflows\#Starting a session by communicating with accounts server](/WPD:Projects/SSO/Login_Workflows#Starting_a_session_by_communicating_with_accounts_server). Differences are shown in **bold**, removed steps has been ~~crossed out~~.
 
@@ -60,7 +60,7 @@ To solve the possible exploit, let’s revisit the original steps described in [
 -   Validate on the backend whether the response from the profile server is valid
 -   Have SSL everywhere
 
-## <span>Leveraging completely OAuth2</span>
+## Leveraging completely OAuth2
 
 The current implementation described at [WPD:Projects/SSO/How we implemented it\#SSO and remembering](/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering) doesn’t use OAuth2 token in all communications. While the original design of Firefox Accounts OAuth server was to remember if a user previously authenticated, that functionality is not implemented yet.
 
@@ -68,6 +68,6 @@ The issue is known and documented [in their GitHub issue tracker \#1195](https:/
 
 In the eventuality of the Firefox Accounts OAuth server changes its behavior, we still need a non-blocking [WPD:Projects/SSO/How we implemented it\#JavaScript shared module: Detect and start automatically a session](/WPD:Projects/SSO/How_we_implemented_it#JavaScript_shared_module:_Detect_and_start_automatically_a_session) to check whether a session is already opened.
 
-### <span>Proposed solution</span>
+### Proposed solution
 
 TBD

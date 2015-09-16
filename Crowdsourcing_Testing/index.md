@@ -26,14 +26,14 @@ This is a basic sketch-out of an idea for a crowdsourcing infrastructure (e.g. w
 
 I estimate this will take 2 people 6 weeks to build, with 0.5 FTE ongoing for future development and maintenance, decreasing over time, but required periodically. So, that means that it will take 4 people 12 weeks to build. But we can start simple and see how the prototyping goes.
 
-## <span>Specification and Testable Assertions page</span>
+## Specification and Testable Assertions page
 
 List of all relevant specifications
 
 -   each spec expands out into a list of all testable assertions and other testable characteristics, with indicator of number of tests on that assertion (submitted, reviewed, accepted)
     -   clicking on a testable assertion navigates to Testable Assertions page
 
-## <span>Testable Assertion page</span>
+## Testable Assertion page
 
 Info on a specific testable assertion, including:
 
@@ -44,7 +44,7 @@ Info on a specific testable assertion, including:
 -   button to create test for that assertion (navigates to Test Creation page)
 -   button to file bug on that testable assertion (navigates to Bug Report page)
 
-## <span>Test Creation page</span>
+## Test Creation page
 
 JSFiddle-like interface, with sections for markup (HTML, SVG, MathML, etc.), Javascript, CSS, and output
 
@@ -56,7 +56,7 @@ JSFiddle-like interface, with sections for markup (HTML, SVG, MathML, etc.), Jav
     -   Code is validated on submit, no vendor prefixes allowed
     -   Successful submission navigates to Test Review page
 
-## <span>Test Review page</span>
+## Test Review page
 
 Q&A forum (StackOverflow-like)
 
@@ -70,7 +70,7 @@ Q&A forum (StackOverflow-like)
         -   more user karma gives more weight to review, weighted by test difficulty
     -   once test reaches certain review threshold, submitted to WG for review and approval
 
-## <span>All Tests page</span>
+## All Tests page
 
 List of all submitted tests and their status
 
@@ -78,7 +78,7 @@ List of all submitted tests and their status
 -   clicking on a non-accepted test navigates to Test Review page
 -   clicking on an accepted test navigates to Accepted Test page
 
-## <span>Accepted Test page</span>
+## Accepted Test page
 
 Shows test
 
@@ -86,18 +86,18 @@ Shows test
 -   button to file bug on test (navigates to Test Review page)
 -   button to file bug on implementation (navigates to Bug Report page)
 
-## <span>Bug Report page</span>
+## Bug Report page
 
 -   Allows user to coment or file bug on spec, linking to testable assertion page
 -   Allows user to file bug on one or more implementations, by linking to a test
 
-## <span>User Profile page</span>
+## User Profile page
 
 -   list of links to all activity for tests, wiki, forums, bug reports, maybe W3C activity
 -   karma rating
 -   badges, so on
 
-## <span>Notes</span>
+## Notes
 
 -   Same kind of people who are likely to contribute to Web Platform Docs are likely to contribute tests or file bug reports
 -   See where we can integrate into Shepherd

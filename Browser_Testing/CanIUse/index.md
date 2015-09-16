@@ -3,15 +3,15 @@ title: CanIUse
 uri: 'WPD:Browser Testing/CanIUse'
 
 ---
-## <span>CanIUse Data Model</span>
+## CanIUse Data Model
 
 The features-json directory includes JSON files for every feature found on the caniuse.com website. Maintaining these files on GitHub allows anyone to update or contribute to the support data on the site.
 
-### <span>How it works</span>
+### How it works
 
 The data on the site is stored in a database. This data is periodically exported to the JSON files on GitHub. Once a change or new file here has been approved, it is integrated back into the database and the subsequent export files should be the same as the imported ones. Not too confusing, I hope. :)
 
-### <span>Supported changes</span>
+### Supported changes
 
 Currently the following feature information can be modified:
 
@@ -51,11 +51,11 @@ Currently the following feature information can be modified:
 -   **keywords** — Comma separated words that will match the feature in a search
 -   **shown** — Whether or not feature is ready to be shown on the site. This can be left as false if the support data or information for other fields is still being collected
 
-### <span>Adding a feature</span>
+### Adding a feature
 
 To add a feature, simply add another JSON file to the directory with the base file name as the feature ID (only alphanumeric characters and hyphens please). If you want to submit a feature but don't have all information available for it yet, make sure you set the "shown" flag to false.
 
-### <span>Unsupported changes</span>
+### Unsupported changes
 
 Currently it is not possible to:
 

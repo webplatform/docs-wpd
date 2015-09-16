@@ -7,7 +7,7 @@ tags:
 uri: 'WPD:Projects/CSS Property Milestone/css prop enhancements'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page is a suggested mockup of how a CSS property page should look. Compared to the original font-size property page, there are several enhancements that would need to be implemented, and here is a list of the most significant. They're broken down into 3 basic categories: SKIN requiring mostly modified CSS, TEMPLATE requiring a change in how content is generated and flows onto the final HTML page, and FORM for changes in the text-input UI.
 

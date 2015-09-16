@@ -3,37 +3,37 @@ title: Universities
 uri: 'WPD:Projects/Communications/Universities'
 
 ---
-## <span>Proposed path to adding university contacts to announcement email list</span>
+## Proposed path to adding university contacts to announcement email list
 
-### <span>email list</span>
+### email list
 
 public-webplatform-news@w3.org
 
-### <span>Tasks</span>
+### Tasks
 
 1.  Everyone provides 1 University or technical school contact.
 2.  Request that contact and the person at their department responsible for communications be added to a periodic newsletter.
 3.  Send out an email about 1/month w/ a Piwik campaign \# associated to it. (This means all links have a piwik \#.)
 
-## <span>Email to individual contacts</span>
+## Email to individual contacts
 
-### <span>Who sends email</span>
+### Who sends email
 
 Individuals with university contacts can send out an email, or they can pass the contact to us and we can send out the email.
 
-### <span>Draft email</span>
+### Draft email
 
-#### <span>Subject: WebPlatform.org is looking for students</span>
+#### Subject: WebPlatform.org is looking for students
 
-#### <span>cc-ing 1st degree contact</span>
+#### cc-ing 1st degree contact
 
-#### <span>body</span>
+#### body
 
 Dear So Andso:
 
 You were referred to us by [1st degree contact]. We'd like to get the word out to your students about WebPlatform.org -- where the community is documenting the web standards. This effort is comparable to the early stages of wikipedia. We have web and mobile experts contributing content and their time. WebPlatform.org is sponsored by companies such as W3C, Adobe, Apple, Facebook, Google, HP, Intel, Microsoft, Mozilla, Nokia, Opera.
 
-##### <span>What we have to offer your students</span>
+##### What we have to offer your students
 
 We'd like to include the upcoming generation of web professionals to:
 
@@ -47,7 +47,7 @@ We have immediate opportunities for volunteer writers, coders, designers, social
 
 We can also come to your university to present what we're doing at WebPlatform.org and to teach folks how to participate.
 
-##### <span>What we're looking for</span>
+##### What we're looking for
 
 We'd like to add you to our email list (public-webplatform-news@w3.org), to inform you of WebPlatform.org events and milestones. Would you please let us know if we can do so?
 
@@ -55,7 +55,7 @@ We'd appreciate you forwarding this email to the person responsible for communic
 
 Finally, if you know exceptional students who are working on front-end development (HTML, CSS, SVG, JavaScript) or LAMP development, would you kindly direct them to our [email list or IRC channel](http://docs.webplatform.org/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community)?
 
-## <span>Timeline</span>
+## Timeline
 
 -   2013-04-28 Email to contacts sent
 -   2013-04-30 Email list populated

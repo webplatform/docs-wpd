@@ -7,11 +7,11 @@ tags:
 uri: 'WPD:Manual Of Style/Code sample best practices'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Guidelines to follow for developing code samples in Web Platform Docs.
 
-## <span>Overview</span>
+## Overview
 
 This topic provides guidance for writing code and markup samples and snippets for documentation published to webplatform.org. It is meant to provide a quality bar for code samples and snippets, and to provide consistency of style across this documentation, not functionality. Sample code serves as a mini-portal to content. Developers use samples as documentation, and they almost always browse code before reading a topic fully. Because of its special regard, code requires special attention.
 
@@ -23,7 +23,7 @@ At the most basic level, effective code samples and snippets should follow these
 -   Ensure that the text leading up to the sample code has a clear description of what that code accomplishes. List any assumptions the code sample or snippet makes and state prerequisites clearly and completely in its description.
 -   List any requirements for each code sample or snippet in its description.
 
-## <span>Types of sample code</span>
+## Types of sample code
 
 Broadly speaking, there are two sizes for example code: code snippets and code samples.
 
@@ -40,7 +40,7 @@ When you approach a code sample, try to put yourself in the readers’ shoes. As
 -   “Can I cut-and-paste most of this into a webpage and successfully implement the code with minimal changes?”
 -   “Where do I go to learn more? What OTHER resources are easily available?”
 
-## <span>Best practices</span>
+## Best practices
 
 Creating code snippets or developing full samples share many best practices:
 
@@ -92,7 +92,7 @@ WPD uses some specific guidelines for JavaScript:
 -   All JSON structures should be well-formed and conform to the JSON specification <http://www.json.org>.
 -   Use `JSON.parse()` and `JSON.stringify()` to parse and serialize JSON strings.
 
-## <span>Creating a live code example</span>
+## Creating a live code example
 
 You can create a live code example on [code.webplatform.org](http://code.webplatform.org/) to add to your content. Live code can be a good addition to in-page snippets. To add code to code.webplatform.org and link to it, follow these steps.
 

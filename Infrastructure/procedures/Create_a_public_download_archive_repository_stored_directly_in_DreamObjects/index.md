@@ -12,14 +12,14 @@ The purpose is twofold:
 
 This would be ideal since we already use a Swift endpoint to store our backups, we could also have it store our web application and Debian (.deb) packages too.
 
-## <span>SCRATCHPAD</span>
+## SCRATCHPAD
 
 It assumes:
 
 1.  You have a Swift compatible Object storage
 2.  You have a Varnish frontend and can add your own VCL settings
 
-### <span>Create a bucket</span>
+### Create a bucket
 
 Make sure the bucket has defaults to public. In this example we’ll call the bucket "apt", along with a Swift key of the name "wpd-assets:wpd-assets-user" installed.
 
@@ -27,7 +27,7 @@ Also, the bucket will have an alias to be called as "apt.webplatform.org" in Dre
 
 Instead, it’ll use Varnish as a frontend to Proxy the requests for us and keep a cache for us in case the DreamObjects becomes unavailable.
 
-### <span>Install your bucket credentials in your shell environment</span>
+### Install your bucket credentials in your shell environment
 
 Generally in \`/etc/profile.d/\*.sh\`
 
@@ -38,7 +38,7 @@ Generally in \`/etc/profile.d/\*.sh\`
      export ST_USER="wpd-assets:wpd-assets-user"
      export ST_KEY="..."
 
-### <span>Configure from the Swift API to allow the public to read your bucket</span>
+### Configure from the Swift API to allow the public to read your bucket
 
 This requires python-swift client and your shell environment variables installed. If you havent´t restarted a shell session, you can source the shell environment variables yourself like so:
 
@@ -53,7 +53,7 @@ Technically the [OpenStack Swift documentation](http://docs.openstack.org/user-g
      swift post -m 'web-index: index.html' apt
      swift post -m 'web-listings: true' apt
 
-### <span>Configure your Varnish frontend</span>
+### Configure your Varnish frontend
 
 In the case of WebPlatform, we are using Fastly as a Varnish frontend server.
 

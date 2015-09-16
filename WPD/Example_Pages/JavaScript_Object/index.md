@@ -34,13 +34,13 @@ JavaScript `Date` objects let you work with dates and times.
 
 Enables basic storage and retrieval of dates and times.
 
-# <span>Overview table</span>
+# Overview table
 
 ||
 |Inherits from|[Function](/w/index.php?title=JS/Function&action=edit&redlink=1) (can be multiple links here)|
 |Descendents|any children|
 
-# <span>Constructor syntax</span>
+# Constructor syntax
 
     new Date()
     new Date(dateVal)
@@ -48,7 +48,7 @@ Enables basic storage and retrieval of dates and times.
 
 ***Implementation Note:** link from the syntax block to the individual parameters; if possible, autogenerate the constructor syntax.*
 
-## <span>Parameters</span>
+## Parameters
 
 dateVal
 :   If an integer value, it represents the number of milliseconds since 1 January 1970 00:00:00 UTC (Unix Epoch). If a string, dateVal is parsed according to the rules in Formatting Date and Time Strings (JavaScript). In Microsoft Internet Explorer, the *dateVal* argument can also be a VT\_DATE value as returned from some ActiveX objects.
@@ -67,9 +67,9 @@ second
 millisecond
 :   Optional. Integer value representing the millisecond segment (0-999) of a time reading.
 
-# <span>Usage</span>
+# Usage
 
-## <span>Constructor</span>
+## Constructor
 
 Note: Note that JavaScript Date objects can only be instantiated by calling JavaScript Date as a constructor: calling it as a regular function (i.e. without the new operator) will return a string rather than a Date object; unlike other JavaScript object types, JavaScript Date objects have no literal syntax.
 
@@ -77,7 +77,7 @@ If you supply no arguments, the constructor creates a JavaScript Date object for
 
 Invoking JavaScript Date in a non-constructor context (i.e., without the new operator) will return a string representing the current time.
 
-## <span>Date Instances</span>
+## Date Instances
 
 The JavaScript date is measured in milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript Date object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
 
@@ -93,9 +93,9 @@ The range of dates that can be represented in a Date object is approximately 285
 
 See Date and Time Calculations (JavaScript) for more information about how to use the Date object and related methods.
 
-# <span>Examples</span>
+# Examples
 
-## <span>Several ways to assign dates</span>
+## Several ways to assign dates
 
 The following examples show several ways to assign JavaScript dates:
 
@@ -104,7 +104,7 @@ The following examples show several ways to assign JavaScript dates:
     birthday = new Date(1995,11,17);
     birthday = new Date(1995,11,17,3,24,0);
 
-## <span>Calculating elapsed time</span>
+## Calculating elapsed time
 
 The following examples show how to determine the elapsed time between two JavaScript dates:
 
@@ -131,7 +131,7 @@ The following examples show how to determine the elapsed time between two JavaSc
 
     yourFunctionReturn = printElapsedTime(yourFunction);
 
-## <span>ISO 8601 formatted dates</span>
+## ISO 8601 formatted dates
 
 `Date.toISOString()` is now supported, so you can use that.
 
@@ -150,7 +150,7 @@ The following example demonstrates how to manually format a JavaScript date, in 
     var d = new Date();
     console.log(ISODateString(d)); // prints something like 2009-09-28T19:03:12Z
 
-# <span>Properties</span>
+# Properties
 
 [constructor property](/w/index.php?title=constructor_property&action=edit&redlink=1)
 :   Specifies the function that creates an object.
@@ -167,7 +167,7 @@ Properties inherited from [Function](/w/index.php?title=JS/Function&action=edit&
 
 ***Implementation Note:** Transclude property descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of property links.*
 
-# <span>Methods</span>
+# Methods
 
 [now](/w/index.php?title=JS/Date/now&action=edit&redlink=1)
 :   Returns the numeric value corresponding to the current time.
@@ -185,11 +185,11 @@ Methods inherited from [Function](/w/index.php?title=JS/Function&action=edit&red
 
 ***Implementation Note:** Transclude method descriptions from child pages. For each ancestor listed in the "Inherits from" of the Overview Table, there should be a generated list of method links.*
 
-# <span>Instances</span>
+# Instances
 
 Some correct and coherent explanation goes here.
 
-## <span>Instance Properties</span>
+## Instance Properties
 
 constructor
 :   Returns the function that created an instance. This is the Date constructor by default.
@@ -200,7 +200,7 @@ Properties inherited from [Object](/w/index.php?title=JS/Object&action=edit&redl
 
 ***Implementation Note:** Transclude property descriptions from child pages. There should be a generated list of property links for items inherited by instances from Object..*
 
-## <span>Instance Methods</span>
+## Instance Methods
 
 getDate
 :   Returns the day of the month (1-31) for the specified date according to local time.
@@ -219,37 +219,37 @@ Methods inherited from [Object](/w/index.php?title=JS/Object&action=edit&redlink
 
 ***Implementation Note:** Transclude method descriptions from child pages. There should be a generated list of method links for items inherited by instances from Object. Provide distinctive styling for "Deprecated", "Requires JavaScript*version*", and "Non-standard. Items with these flags should be called out in the Browser Compatibility table.*
 
-# <span>Notes</span>
+# Notes
 
-# <span>Specifications</span>
+# Specifications
 
 |Specification|Status|Relevant changes|
 |:------------|:-----|:---------------|
 |ECMA-262, 5.1 edition]| ???||
 
-# <span>Browser compatibility</span>
+# Browser compatibility
 
-## <span>Desktop</span>
+## Desktop
 
 |Feature|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari|
 |:------|:-----|:--------------|:----------------|:----|:-----|
 |Basic support|5.0|[Template:CompatGeckoDesktop("1")](/w/index.php?title=Template:CompatGeckoDesktop(%221%22)&action=edit&redlink=1)|5.5|7.0|1.0|
 
-## <span>Mobile</span>
+## Mobile
 
 |Feature|Android|Firefox Mobile (Gecko)|IE Phone|Opera Mobile|Safari Mobile|
 |:------|:------|:---------------------|:-------|:-----------|:------------|
 |Basic support|1.0|[Template:CompatGeckoMobile("1")](/w/index.php?title=Template:CompatGeckoMobile(%221%22)&action=edit&redlink=1)|6.0|6.0|1.0|
 
-# <span>See also</span>
+# See also
 
-## <span>Reference</span>
+## Reference
 
 -   [JavaScript Objects](/w/index.php?title=JavaScript_Objects&action=edit&redlink=1)
 -   [Formatting Date and Time Strings (JavaScript)](/w/index.php?title=Formatting_Date_and_Time_Strings_(JavaScript)&action=edit&redlink=1)
 -   [new Operator (JavaScript)](/w/index.php?title=new_Operator_(JavaScript)&action=edit&redlink=1)
 -   [var Statement (JavaScript)](/w/index.php?title=var_Statement_(JavaScript)&action=edit&redlink=1)
 
-## <span>Tutorial</span>
+## Tutorial
 
 -   [Working with Dates and Time in JavaScript](/w/index.php?title=Working_with_Dates_and_Time_in_JavaScript&action=edit&redlink=1)

@@ -7,7 +7,7 @@ tags:
 uri: 'WPD:Community/Mentor System'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Folowing on from our ideas about contributor recognition, we should also run a system whereby experts in different skills should act as mentors for those who want to learn.
 

@@ -3,7 +3,7 @@ title: Compatibility
 uri: 'WPD:Getting Started/Compatibility'
 
 ---
-## <span>Overview</span>
+## Overview
 
 The "Compatibility Information" tables detail which (CSS/HTML/JavaScript) features/APIs are supported by which browsers, as of which version. Tables for this information are built into the templates for those elements, etc., presented under "Browser Compatibility" (with separate tabs for desktop and mobile), and are automatically flagged as incomplete, which has them appear on a [centralized list](http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=).
 
@@ -15,7 +15,7 @@ We are generally most concerned initially with getting the newer features covere
 
  Background -- this starter guide assumes that you are already registered with WPD and can edit wiki markup. See the [main getting started guidelines](http://docs.webplatform.org/wiki/WPD:Getting_Started).
 
-## <span>The basic process flow (detailed below)</span>
+## The basic process flow (detailed below)
 
 -   locate and select an element that is missing Compatibility info
 -   check the item out for editing (tell others that you are working on it)
@@ -24,7 +24,7 @@ We are generally most concerned initially with getting the newer features covere
 -   update the existing reference page with the Compatibility info
 -   check your work back in (note any gotchas, incompleteness, or issues, and let others know that your work is done and ready for review and/or use)
 
-## <span>Special instructions for the November 2012 Adobe Doc Sprint (or other doc sprints or hackathons)</span>
+## Special instructions for the November 2012 Adobe Doc Sprint (or other doc sprints or hackathons)
 
 These instructions were created in order to set up the Compatibility Info update as a quick entry point for new participants to engage. In order to have everyone's efforts make a difference, some special attention is needed.
 
@@ -38,7 +38,7 @@ One suggestion for event organizers might be to pull a list of prioritized topic
 
 **TODO**: Consider splitting this into a basics training for new users, and a quick reference just for Compatibility Info.
 
-## <span>Selecting items to update</span>
+## Selecting items to update
 
 **Note**: We are most interested in covering the emerging and most recent features in JS/CSS3/HTML5. If it was covered by Safari 1 or IE 4, the information is useful for completeness, but is not a priority.
 
@@ -46,7 +46,7 @@ One suggestion for event organizers might be to pull a list of prioritized topic
 -   Pick something you already noticed was incomplete or missing. Note that if the template doesn't include the Compatibility tables, you might want to double check that you are working on the most appropriate page. Compatibility tables can be added manually, but that is beyond the scope of this Getting Started piece. (or)
 -   Browse the WPD site to locate a specific topic of interest (e.g., <http://docs.webplatform.org/wiki/html/elements>).
 
-## <span>Avoiding edit collisions</span>
+## Avoiding edit collisions
 
 Especially if you are engaged in a hackathon or doc sprint, we suggest that you establish a way to communicate across the group(s) to avoid having two people taking the same element at the same time. Similarly, avoid suggestions like "just take the first item on the list" (high probability of collision). This can be done verbally, electronically, or using a flipchart or white board.
 
@@ -56,7 +56,7 @@ Even outside a large-group setting, you can take steps to protect the value of y
 
  Look for such a row before you start researching missing info.
 
-## <span>Locating the missing Compatibility Information</span>
+## Locating the missing Compatibility Information
 
 You can login to the Mozilla Developer Network (<http://developer.mozilla.org/>) and search, or search Google (or your alternate) for MDN + (CSS | HTML | JS -- whichever area you're touching) + the element name. For newer features (the ones we want you to start with) also check <http://caniuse.com>.
 
@@ -64,7 +64,7 @@ For each item, you want to note which browser version was the first to provide c
 
 For MDN, you can use the basic facts (version numbers, yes/no/partial on support) without attribution. WPD has already made this arrangement. For all others, you should follow the [attribution guidelines](http://docs.webplatform.org/wiki/WPD:External_Attribution).
 
-## <span>Compatibility details</span>
+## Compatibility details
 
 Note that especially the new, emergent, proposed, and transitional features tend to be implemented in browser-specific ways. This is usually done with a browser-specific prefix on the tag (e.g., -moz- or -ms-). There are two rows in the Compatibility Table templates for each browser, to cover both the common standards and the vendor-specific (prefixed) versions.
 
@@ -81,17 +81,17 @@ Examples of multi-row Compatibility tables are:
 
 Additional rows should be sorted by name. Use the drag handles to the right of the "Remove" button to move an item up or down in the list.
 
-## <span>Compatibility Notes</span>
+## Compatibility Notes
 
 There is a third table in the compatibility section for Compatibility Notes. Use this to cover anything that can't be covered just by yes/no/?? and a version number. Just click "Add another" to insert a row.
 
-## <span>Save your work</span>
+## Save your work
 
 When you have completed your edits (or have simply done a significant piece of work which is not yet saved), enter a summary of your changes (if needed), check the box for a "minor edit" if you only tweaked existing info, click "Show preview" to review your work (recommended), and then click "Save page" to finish.
 
 **Note**: If you have been editing for a while without saving, your session info might be stale, and *your work will not be saved.* You can tell because you get a warning message starting with "Sorry! We could not process your edit due to a loss of session data. Please try again...." (along with a deceptively updated preview of your unprocessed new version, and the edited source). Most of the time, just resubmitting will work fine (the first attempt refreshes your session, so the second attempt goes through).
 
-## <span>Closure and exceptions</span>
+## Closure and exceptions
 
 If you feel that the Compatibility Info is now complete (for both desktop and mobile browsers), you can uncheck the "Compatibility Incomplete" box in the Content section just below the page title (the checkbox is to the left of the text, at least in the English version).
 

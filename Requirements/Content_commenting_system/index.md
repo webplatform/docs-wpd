@@ -3,15 +3,15 @@ title: Content commenting system
 uri: 'WPD:Requirements/Content commenting system'
 
 ---
-## <span>Overview</span>
+## Overview
 
 We want an extension to allow users on our wiki to comment on particular sections of wiki page, in an way that is unobtrusive for readers.
 
-## <span>Environment</span>
+## Environment
 
 Semantic MediaWiki installation on dedicated servers, and several other extensions (including Semantic Forms, and Social Profile).
 
-## <span>Specifications</span>
+## Specifications
 
 The basic idea we want to reproduce (with improvements) is the Django Book commenting system [[1]](http://djangobook.com/en/2.0/chapter02/); click on the bubbles on the side, and look at the "help" tab for more details.
 
@@ -49,7 +49,7 @@ Nice-to-have:
 -   An API to read and write comments on a page and section
 -   Comment dialog would ideally be resizable
 
-## <span>Credits and License</span>
+## Credits and License
 
 We would want to release the extension as open source (preferably MIT license), with our name as sponsor, and your name as developer (if you want to be credited).
 

@@ -31,13 +31,13 @@ uri: 'WPD:Example Pages/CSS'
 
 Based on: <https://developer.mozilla.org/en-US/docs/CSS/font-size> and <http://msdn.microsoft.com/en-us/library/ie/ms530759(v=vs.85).aspx>
 
-## <span>Summary</span>
+## Summary
 
 The `font-size` CSS properties specifies the size of the font used for text in the object. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of `em` and `ex` length units.
 
 **Implementation Note**: use property of type text so we can pull this out elsewhere
 
-## <span>Overview table</span>
+## Overview table
 
 ||
 |[Initial Value](/w/index.php?title=CSS/Concepts/Initial-Value&action=edit&redlink=1)|`medium`|
@@ -49,7 +49,7 @@ The `font-size` CSS properties specifies the size of the font used for text in t
 |[CSS Object Model Property](/w/index.php?title=CSS/concepts/CSSOM&action=edit&redlink=1)|`fontSize`|
 |Animatable|No|
 
-## <span>Syntax</span>
+## Syntax
 
     font-size:  xx-small | x-small | small | medium | large | x-large | xx-large
     font-size: smaller | larger
@@ -57,7 +57,7 @@ The `font-size` CSS properties specifies the size of the font used for text in t
 
 ***Implementation Note:** Each keyword above should be automatically generated and link to the relevant part of the Values section below. Have a template for this block based on a query to properties that are set in values section to create it.*
 
-## <span>Values</span>
+## Values
 
 ***Implementation Note:** We need to be able to differentiate between literal values, data types and placeholders.*
 
@@ -73,7 +73,7 @@ The `font-size` CSS properties specifies the size of the font used for text in t
 *percentage*
 :   A positive percentage of the parent element's font size, followed by a percent symbol (%). The value is a percentage of the parent object's font size. Negative values are not allowed.
 
-## <span>Examples</span>
+## Examples
 
 [View live examples](/w/index.php?title=CSS/examples&action=edit&redlink=1)
 
@@ -96,11 +96,11 @@ var ele = document.getElementyById("my-paragraph");
 ele.style.fontSize = "small";
 ```
 
-## <span>Usage</span>
+## Usage
 
 There are several ways to specify the font size, with keywords or numerical values for pixels or ems. Choose the appropriate method based on the needs for the particular web page.
 
-### <span>Keywords</span>
+### Keywords
 
 Keywords are a good way to set the size of fonts on the web. By setting a keyword font size on the body element, you can set relative font-sizing everywhere else on the page, giving you the ability to easily scale the font up or down on the entire page accordingly. Pixels
 
@@ -110,7 +110,7 @@ Font sizing settings can also be used in combination. For example, if a parent e
 
 Note: Defining font sizes in pixel is *not accessible*, because the user cannot change the font size from the browser. (For example, users with limited vision may wish to set the font size much larger than the size chosen by a web designer.) Therefore, avoid using pixels for font sizes if you wish to create an inclusive design.
 
-### <span>Ems</span>
+### Ems
 
 Another way of setting the font size is with `em` values. The size of an `em` value is dynamic. When defining the `font-size` property, an `em` is equal to the size of the font that applies to the parent of the element in question. If you haven't set the font size anywhere on the page, then it is the browser default, which is probably 16px. So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. Note that the value 2 is essentially a multiplier of the current `em` size.
 
@@ -135,11 +135,11 @@ p {
 
  The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.
 
-## <span>Notes</span>
+## Notes
 
 The `em` and `ex` units on the font-size property are relative to the parent element's font size (unlike all other properties, where they're relative to the font size on the element). This means em units and percentages do the same thing for font-size.
 
-## <span>Specifications</span>
+## Specifications
 
 |Specification|Status|Relevant changes|
 |:------------|:-----|:---------------|
@@ -148,9 +148,9 @@ The `em` and `ex` units on the font-size property are relative to the parent ele
 |[CSS 2 (Revision 1)](http://www.w3.org/TR/CSS2/fonts.html#propdef-font-size)|Recommendation|No change|
 |[CSS Level 1](http://www.w3.org/TR/CSS1/#font-size)|Recommendation|Original specification|
 
-## <span>Browser Compatibility</span>
+## Browser Compatibility
 
-### <span>Desktop</span>
+### Desktop
 
 |Feature|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari|
 |:------|:-----|:--------------|:----------------|:----|:-----|
@@ -159,22 +159,22 @@ The `em` and `ex` units on the font-size property are relative to the parent ele
 
 ***Implementation Note:** The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.*
 
-### <span>Mobile</span>
+### Mobile
 
 |Feature|Android|Firefox Mobile (Gecko)|IE Phone|Opera Mobile|Safari Mobile|
 |:------|:------|:---------------------|:-------|:-----------|:------------|
 |Basic support|1.0|[Template:CompatGeckoMobile("1")](/w/index.php?title=Template:CompatGeckoMobile(%221%22)&action=edit&redlink=1)|6.0|6.0|1.0|
 
-### <span>Compatibility Notes</span>
+### Compatibility Notes
 
 |Browser|Version|Note|
 |:------|:------|:---|
 |Internet Explorer|6+|When using the `!DOCTYPE` declaration to specify standards-compliant mode, the default value for this property is `medium`, not `small`.|
 |Internet Explorer|4+|Possible length values specified in a relative measurement, using the height of the element's font (em) or the height of the letter "x" (ex)|
 
-## <span>See Also</span>
+## See Also
 
-### <span>Related CSS Properties</span>
+### Related CSS Properties
 
 -   ` font`
 -   ` font-family`
@@ -185,15 +185,15 @@ The `em` and `ex` units on the font-size property are relative to the parent ele
 -   ` font-variant`
 -   ` font-weight`
 
-### <span>Related CSS At Rules</span>
+### Related CSS At Rules
 
 -   ` @font-face`
 
-### <span>Related DOM Interfaces</span>
+### Related DOM Interfaces
 
 -   ` CSSStyleDeclaration`
 
-### <span>Related DOM properties</span>
+### Related DOM properties
 
 -   ` element.currentStyle`
 -   ` element.defaults` *IE Only*

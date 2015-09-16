@@ -5,15 +5,15 @@ uri: 'WPD:Flags/Content Grammar Spelling'
 ---
 This flag should be checked for articles that have grammar or spelling errors. You should also mark the specific content that has grammar or spelling problems using the associated Editorial block.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once the entirety of the article has correct grammar and spelling, this flag can be removed.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content has problems using the associated editorial block: [Template:Editorial/Content\_Grammar\_Spelling](/Template:Editorial/Content_Grammar_Spelling).
 

@@ -5,15 +5,15 @@ uri: 'WPD:Flags/Examples Errors'
 ---
 This flag should be checked for articles that have examples that have errors—that is, the example wouldn't work correctly. You *may* use the associated editorial block to describe the problem if you wish.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once all examples on the page work correctly you may remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 You may use the associated editorial block to provide additional context on what examples are necessary: [Template:Editorial/Examples\_Errors](/Template:Editorial/Examples_Errors).
 

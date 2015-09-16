@@ -7,11 +7,11 @@ This is the community task force page.
 
 See [Community Development meetings](/WPD:Community/Meetings/Community_Development).
 
-## <span>Projects</span>
+## Projects
 
 Here's what we're working on.
 
-### <span>Doc Sprints</span>
+### Doc Sprints
 
 Doc Sprint projects:
 
@@ -19,28 +19,28 @@ Doc Sprint projects:
 -   Getting Started user experience design and usability study
 -   Site architecture (i.e. DOM apis)
 
-### <span>University outreach</span>
+### University outreach
 
 -   University-focused Doc Sprints
 -   Career fairs
 
-### <span>Recognition & Rewards</span>
+### Recognition & Rewards
 
 -   Badges?
 -   Points?
 -   By-lines for initial contributors
 -   Recognition for major contributors
 
-### <span>Contributor surveys and usability studies</span>
+### Contributor surveys and usability studies
 
 See [WPD:Community/Survey](/WPD:Community/Survey)
 
-### <span>Community pages</span>
+### Community pages
 
 -   This
 -   Navigation
 
-### <span>Doug May's brain dump</span>
+### Doug May's brain dump
 
 Points raised in this section need to be edited and incorporated into the above heading topics or have headings created for them.
 

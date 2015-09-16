@@ -3,7 +3,7 @@ title: Useful commands
 uri: 'WPD:Infrastructure/architecture/Useful commands'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -28,22 +28,22 @@ A few "one off" commands using salt stack listed by their potential use.
 
 Maintenance should be done through the state system. But sometimes we still need "one off" commands on servers themselves and it would be creating cruft to have them in the state scripts.
 
-## <span>Using salt from the *salt master*</span>
+## Using salt from the *salt master*
 
 Since everything should be managed through salt, but we are in a situation where we might not want to change the states, we can do the following commands.
 
-### <span>Remove a file</span>
+### Remove a file
 
      salt \* file.remove /etc/monit/conf.d/exim4.conf
 
-### <span>Remove a user</span>
+### Remove a user
 
      salt \* user.delete foobar remove=True force=True
 
-### <span>Replace a line in a config file</span>
+### Replace a line in a config file
 
      salt app\* file.replace /etc/php5/apache2/php.ini pattern='expose_php = On' repl='expose_php = Off'
 
-### <span>Reload a service</span>
+### Reload a service
 
      salt app\* service.reload apache2

@@ -3,7 +3,7 @@ title: Rebuilding SMW when job queue is going out of control
 uri: 'WPD:Infrastructure/procedures/Rebuilding Semantic Media Wiki when job queue is going out of control'
 
 ---
-## <span>Symptom</span>
+## Symptom
 
 When the job queue seems to always have more and more jobs ("SMWUpdateJob") to do and the job runner ("maintenance/runJobs.php") has more than one running for long periods. It means that the extension needs to rebuild the data from scratch.
 
@@ -23,7 +23,7 @@ mysql> SELECT COUNT(*) FROM job WHERE job_cmd LIKE '%SMW%';
 
  Note that number is getting bigger and bigger, it is expectable that they are most likely ALL for Semantic Media Wiki.
 
-## <span>Things to know</span>
+## Things to know
 
 -   If the database setup has one master and multiple slave, make sure you do them on the master only, the slaves should follow. Doing the opposite might break the consistency of the database cluster.
 -   The cronjobs should ideally, in the scripts, use the timeout utility with a maximum duration of an hour. Doing this prevents to have multiple long running tasks slowly eating all CPU resources.
@@ -73,16 +73,16 @@ renoirb@deployment:~$ nova list | grep app
 | ... | app6  | ACTIVE | None       | Running     | vmnet=10.0.0.14, 208.113.157.162 |
 ```
 
-## <span>Steps</span>
+## Steps
 
-### <span>In summary</span>
+### In summary
 
 1.  Make sure the "job runner" will not run during the whole process (e.g. comment all applicable crontab)
 2.  Run SMW rebuild command
 3.  Truncate job table
 4.  Un comment the "job runner"
 
-### <span>In detail</span>
+### In detail
 
 -   Find the cron entries mentioning 'runJob.php' and comment them. This can be found by searching (`grep -rli 'runJob' /srv/salt`) in the salt state files. The job are assigned to the "`www-data`" user on the strongest app server (e.g. app4).
 -   Make sure no job is running. The following shows it is fine.
@@ -170,6 +170,6 @@ mysql> SELECT COUNT(*) FROM job WHERE job_cmd LIKE '%SMW%';
 -   All should be fine now!
 -   Re-enable the jobRun in the appropriate cron jobs.
 
-## <span>Reference</span>
+## Reference
 
 -   [Repairing Semantic Media Wiki data](http://semantic-mediawiki.org/wiki/Help:Repairing_SMW's_data)

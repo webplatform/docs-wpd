@@ -7,15 +7,15 @@ This flag should be checked for articles that have some content that has factual
 
 **TODO**: Links to the other related flags
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once all sections have the factual errors corrected you may remove this flag.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content has errors using the associated editorial block: [Template:Editorial/Content\_Errors](/Template:Editorial/Content_Errors).
 

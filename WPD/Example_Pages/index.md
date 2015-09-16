@@ -3,7 +3,7 @@ title: WPD:Example Pages
 uri: 'WPD:Example Pages'
 
 ---
-## <span>List of Subpages</span>
+## List of Subpages
 
 ||
 |[Example Pages/CSS](/WPD:Example_Pages/CSS)|[Example Pages/DOM Interface](/WPD:Example_Pages/DOM_Interface)|[Example Pages/DOM Interface Leaf](/WPD:Example_Pages/DOM_Interface_Leaf)|

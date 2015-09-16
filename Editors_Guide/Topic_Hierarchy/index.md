@@ -3,7 +3,7 @@ title: Topic Hierarchy
 uri: 'WPD:Editors Guide/Topic Hierarchy'
 
 ---
-## <span>docs.webplatform.org/wiki/</span>
+## docs.webplatform.org/wiki/
 
 <ul class="loc-tree" id="sitemap_list">
 -   -   html

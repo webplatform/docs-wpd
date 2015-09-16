@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/proposals/Initial infrastructure'
 ---
 **Note**: This page describes the initial plan for webplatform.org, most content is deprecated
 
-## <span>Work Items</span>
+## Work Items
 
 <table>
 <col width="14%" />
@@ -252,9 +252,9 @@ uri: 'WPD:Infrastructure/proposals/Initial infrastructure'
 </tbody>
 </table>
 
-### <span>WikiWorks SOW</span>
+### WikiWorks SOW
 
-#### <span>Phase 1</span>
+#### Phase 1
 
 -   Bring up an initial version of MediaWiki on our hosting service that makes best available use of the resources available
 -   Lock down the initial version of the site so only whitelisted users can access before it launches
@@ -263,7 +263,7 @@ uri: 'WPD:Infrastructure/proposals/Initial infrastructure'
 -   Get the MediaWiki configured to work with the CDN (e.g. Fastly), including sending site availability notices to team members
 -   Set up the \~10 Semantic MediaWiki forms for different types of article content (e.g. CSS Reference, Tutorial, User page, etc.)
 
-#### <span>Phase 2</span>
+#### Phase 2
 
 -   Implement a theme design in MediaWiki based on provided designs, and iterate on the implementation and design in response to feedback from the committee.
 -   Import \~3,000 documents from their existing, disparate sources into as consistent a format as reasonably possible
@@ -272,7 +272,7 @@ uri: 'WPD:Infrastructure/proposals/Initial infrastructure'
 -   Ensure that only administrators can create costly Semantic MediaWiki queries
 -   Various other required minor tasks leading up to the launch that may arise
 
-### <span>Scraps</span>
+### Scraps
 
 -   Fast.ly CDN
 -   Forums (Q2A)

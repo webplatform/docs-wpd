@@ -13,9 +13,9 @@ This guide reviews a number of concepts related to these software packages, as w
 
 The vast majority of editors will only have to use the (relatively) easy-to-use New Page forms. A small number of you, however, may want to understand how everything is wired together so you can help modify or add to the information structure.
 
-## <span>Normal Editing</span>
+## Normal Editing
 
-### <span>Editing pages</span>
+### Editing pages
 
 If you are editing a page that has already been created, the process is generally quite simple.
 
@@ -27,17 +27,17 @@ First, sign in. A number of editorial notes and action items are automatically h
 
 The templates are set up to handle things like blank form fields in an appropriate way--something that would be hard to do without Semantic Forms.
 
-### <span>Creating new pages</span>
+### Creating new pages
 
 Different page types have different forms. This makes sense--a page on a CSS property will have a different structure than a page on a DOM method. When you create a brand new page, however, by default there's no form type assigned. Is it up to you to figure out the correct form type to use from the list presented and create the stub based on that form. We have a listing of all pages at [WPD:New\_Page](/WPD:New_Page).
 
 It is important that you use the correct form, as that will control what form everyone *else* will see afterwards, and it requires some manually mucking in the source of the page to undo.
 
-### <span>Using templates</span>
+### Using templates
 
 Templates are an incredibly important concept in MediaWiki, and we use them *all* the time. Unlike Semantic MediaWiki or Semantic Forms, Templates are a core feature of the base install of MediaWiki. They're complicated and powerful, but this section will tell you all you need to know to *use* them.
 
-#### <span>Basic template use</span>
+#### Basic template use
 
 Templates, at their simplest, are just automatic text substitution. When MediaWiki is converting a page's MediaWiki markup into HTML to display, when it encounters a template tag, it will simply replace that text with the content of the template.
 
@@ -61,13 +61,13 @@ There are some special template types; if you see something like this:
 
  that is, a \# at the front, that's a special template that is built in, and thus does not have a Template: page.
 
-#### <span>Investigating how templates work</span>
+#### Investigating how templates work
 
 Again, templates are just like normal pages, except that when you invoke a template, their contents replace the template call (they are *transcluded*).
 
 A template's definition page, by convention, gives a short overview of what the template is for and what arguments (see the next sub-section) it takes. However, at first glance it's hard to figure out how the template **works**. This is because many templates use \<includeonly\> and \<noinclude\> tags to control which pieces of the template are the real business end, and which pieces are just documentation. If you want to see how a template actually works, **click the edit button to see the raw markup.**
 
-#### <span>Passing arguments to templates</span>
+#### Passing arguments to templates
 
 Templates are not very useful if they're just static text to use. That's where parameters come in. They are just like passing arguments to a method call.
 
@@ -87,7 +87,7 @@ Importantly, you **can pass complicated MediaWiki markup as arguments** to other
 
 **Note**: One of the most common gotchas is if you use a pipe character (a |) in the parameter value. This will break many pages in hard-to-diagnose ways. Importantly, almost everything you fill into a form field when editing a page will be passed into a template, and thus should not include any unescaped pipes. Find out more at [WPD:Manual\_Of\_Style/Gotchas](/WPD:Manual_Of_Style/Gotchas)
 
-#### <span>How templates use parameters</span>
+#### How templates use parameters
 
 This section is not required to know how to use parameters, but may help you figuring out what a template is doing if you peek underneath the covers.
 
@@ -111,7 +111,7 @@ My title is {{{title | non-existent}}}.
 
  As you can see, it is a vertical pipe character after the parameter name. You can either provide a value or leave it totally blank like in the last example. If you leave it blank, sometimes it's hard to see--that's why I'm explaining it here.
 
-#### <span>Common templates</span>
+#### Common templates
 
 -   [Template:TODO](/Template:TODO) is for action items or *implementation* things that need to be changed in the page.
 -   [Template:Editorial](/Template:Editorial) is for *editorial* action items that need to be fixed on the page. For example, if a page has the top-level "Flag" for "Examples need work" set, you could include this tag next to the specific example that needs help. These blocks don't show up to non-editors. Most often you'll actually use one of the sub-templates (which are listed from the [Template:Editorial](/Template:Editorial) page).
@@ -119,17 +119,17 @@ My title is {{{title | non-existent}}}.
 
 **Note**: You can find a more in-depth overview of how our work-horse templates are set up at [the templates sub-page of this guide](/WPD:Implementation_Patterns/Templates).
 
-## <span>Behind the scenes</span>
+## Behind the scenes
 
 **There is *no need* to read this section unless you want to really roll up your sleeves and muck with our existing structure. This part gets messy. You have been warned.**
 
 If you're still here, go through and read and understand the whole section above.
 
-### <span>Major concepts</span>
+### Major concepts
 
 There are a number of core concepts that we use in our implementation. They're all kind of loosely (and sometimes oddly) related, and at first it looks like a hopeless mess. But once you understand how they work, it makes a weird kind of sense.
 
-#### <span>Templates</span>
+#### Templates
 
 Templates are the single most important concept. They're built directly into MediaWiki. They're explained in the first section of this article.
 
@@ -147,7 +147,7 @@ There are some built-in templates, like \#if. You can find out more here: <https
 
 **Note**: There's a potential gotcha with these special "templates": after the name, you have a **colon**, not a pipe.
 
-#### <span>Categories</span>
+#### Categories
 
 Categories are also built into MediaWiki. They're used extensively in Wikipedia, for example. By default a list of categories a page belongs to is listed at the bottom of the page.
 
@@ -161,7 +161,7 @@ In our implementation, the category is set within the template call. For example
 
 **TODO**: Document how to switch a page type.
 
-#### <span>Forms</span>
+#### Forms
 
 Forms are the way that the "Edit" button knows what UI to show to the user when they hit that button.
 
@@ -177,7 +177,7 @@ Note that creating sub-sections of forms that repeat (like the list of related s
 
 You can see more documentation on how to configure forms here: <https://www.mediawiki.org/wiki/Extension:Semantic_Forms/Defining_forms>
 
-#### <span>Properties</span>
+#### Properties
 
 Properties are one of the main features that *Semantic* MediaWiki provides. Properties allow you to attach structured data to a page that can be queried in interesting places later.
 
@@ -192,7 +192,7 @@ A good example of the first use case is whether or not a CSS property is animata
 
 A good example of the second use case is the Summary property. By defining it as a property, we make it possible to auto-generate pages that are listings of properties and include their summaries.
 
-##### <span>Configuration</span>
+##### Configuration
 
 Properties are defined in, you guessed it, the Property namespace: [Property:Summary](/Property:Summary). Those definition pages include bits of configuration, and also list all of the pages that include that property.
 
@@ -202,7 +202,7 @@ By default properties can take any value. However, you can use the Allows\_type 
 
 More information: <http://semantic-mediawiki.org/wiki/Help:Properties_and_types>
 
-##### <span>Property use</span>
+##### Property use
 
 Properties can be applied to a page in handful of ways. The first is via a special link-like syntax:
 
@@ -224,7 +224,7 @@ For that, you can use this syntax:
 
  In practice you'll often see property calls inside of template definitions, and so often the value will be set via a parameter call.
 
-#### <span>Queries</span>
+#### Queries
 
 Queries are how you select pages via properties and then print out some of their property-values in some form.
 
@@ -232,15 +232,15 @@ We use them quite a bit, for example to automatically generate the listing of me
 
 More info: <http://semantic-mediawiki.org/wiki/Help:Inline_queries>
 
-## <span>Other stuff</span>
+## Other stuff
 
-### <span>How everything is wired together</span>
+### How everything is wired together
 
 Here's how we use those patterns described above to implement our site so far.
 
 We'll walk through the CSS Property template, via the sample page of [css/properties/font-size](/css/properties/font-size).
 
-#### <span>The CSS Property page</span>
+#### The CSS Property page
 
 If you go to that page and hit "Edit Source", you'll see that basically it's a number of templates being called: Flags, Summary, CSS\_Property and more. If you were to "Edit" on the page you'd see that the form basically has one-to-one correspondence with those parameters. (This is only obvious for the templates that are configured directly in the form. More on that in a bit).
 
@@ -248,7 +248,7 @@ If you scroll down in the source, you'll see the CSS\_Property template being ca
 
 When we do that, we skip to the \<includeonly\> section to see the actual implementation. It's pretty simple--mainly we just print a header for each section and then dump whatever was passed in via the parameter.
 
-### <span>Multiple templates on a form</span>
+### Multiple templates on a form
 
 There are many common elements on these reference pages that occur either on all of the major page type templates or occur on more than one. An example is the [summary section template](/Template:Summary_Section). For each of these sections, we create a separate template to do the work. We also create a template of the *form* for that template. Then, in the form for the main page type, we include the sub-form template. This automatically configures the form to deposit the sub-template on the page when it is saved.
 
@@ -260,7 +260,7 @@ If you want to figure out how a given page type works, you'll need to dig into t
 
 **You should see the [templates implementation guide](/WPD:Implementation_Patterns/Templates) for a better overview of how our main work-horse templates are wired together.**
 
-### <span>Common Patterns</span>
+### Common Patterns
 
 If you dig into the various templates and sub-patterns, you'll see some interesting patterns. Below we explore a few of them.
 
@@ -316,7 +316,7 @@ This is one of the more complicated pieces. It's where we print out the specific
 
  This last piece is very important: it's the thing that applies the category to the page. Remember, this is how we specify which form to use. If we investigate the category page: <http://webplatform.org/docs/Category:CSS_Properties> we'll see that on that page a default form is defined. Following *that* to the form definition will help us see how the form is hooked up. (Yes, this all seems like a rube goldberg device).
 
-#### <span>The CSS Property form</span>
+#### The CSS Property form
 
 Let's dive into the definition of the accompanying form, which we discovered by going to the category page: [Form:CSS\_Property](/Form:CSS_Property).
 
@@ -357,9 +357,9 @@ Later, in [the compatibility form section template](/Template:Compatibility_Form
 
  These are the sections that allow users to add between 0 and n rows. We'll dig into those in the sub-forms section.
 
-### <span>Design Patterns</span>
+### Design Patterns
 
-#### <span>New pages</span>
+#### New pages
 
 Above we talked about the fact that the "Edit" button knows which form to use because the page includes a category which has a default form defined.
 
@@ -375,7 +375,7 @@ There are two ways to mitigate this. The first is that the Form: pages include a
 
 The second is that we have a helpful page, [WPD:New\_Page](/WPD:New_Page) that lists all the common page-type forms you might want to use in one place.
 
-#### <span>Building new page types</span>
+#### Building new page types
 
 Building a new page type is *very* rare. Please ask others who know about our template infrastructure before you create a new one.
 
@@ -390,7 +390,7 @@ In practice, what you'll do is have four tabs open and be edit/save/refreshing a
 
 When you create your form, it's important to follow the best practices of including all of the sub-forms that are applicable (see below)
 
-#### <span>Only including some sections if there's content to show</span>
+#### Only including some sections if there's content to show
 
 This is a pattern to use in the definition of a template. This pattern is done like this:
 
@@ -406,7 +406,7 @@ This is a pattern to use in the definition of a template. This pattern is done l
 
  This is a complicated example because it has a conditional table (the specifications parameter will be filled with rows of data glommed together). See the deep dive above for more discussion of this pattern.
 
-#### <span>Re-usable form components</span>
+#### Re-usable form components
 
 There are many pieces of forms that we'll want to re-use in other forms. Examples include the Flags section, the Attribution section, and many, many other.
 
@@ -453,7 +453,7 @@ The contents look like this:
 
  We use this pattern **a lot**.
 
-##### <span>Sub-forms within the main template and outside</span>
+##### Sub-forms within the main template and outside
 
 There are two times you might need this pattern: for things whose parameters should be passed to *another* template, like Flags (which prints its contents out *outside* of the main template, like CSS Property), or for things that should be included in the *same* template.
 
@@ -461,7 +461,7 @@ The example above is for the former case. That's why the form template instantia
 
 However, if you're doing the latter, it's easier. The form template doesn't need that special for block above and below the template, and you should instantiate your template *inside* the main {{for template}} block.
 
-#### <span>Sub-forms</span>
+#### Sub-forms
 
 In the [Template:Compatibility\_Section](/Template:Compatibility_Section) sub-form, we have a few sections that allow you to add 0 or more sub-sections. Examples are the browser compatibility rows and the related specifications.
 
@@ -503,7 +503,7 @@ When the user hits submit on the main form, the form will automatically go throu
 
 That's it!
 
-#### <span>Tables with rows</span>
+#### Tables with rows
 
 In some cases we want form users to define multiple rows of a table, like in Related Specifications.
 
@@ -515,7 +515,7 @@ One thing to be aware of when you're building up tables like this is that we nee
 
 See <https://www.mediawiki.org/wiki/Help:Tables> for more information.
 
-#### <span>Gotcha: Table syntax</span>
+#### Gotcha: Table syntax
 
 We use tables a lot. Some parts of the page should have tables if there's rows of content to show, and no table if not. There's a weird gotcha to be aware of.
 
@@ -555,7 +555,7 @@ Basically, the hack is that we have a special template defined: [Template:!](/Te
 
 For general information about the problems with pipe characters, see [The dreaded pipe character](/WPD:Manual_Of_Style/Gotchas#The_dreaded_pipe_character).
 
-#### <span>Gotcha:Spaces in template calls</span>
+#### Gotcha:Spaces in template calls
 
 MediaWiki is very weird about spaces. In particular, a line that starts with a single space is automatically formatted as a \<pre\> block. This can bite you in template calls where you might have added spaces for readability. Most of the times they get trimmed off, but sometimes they don't. In general **do not use spaces** around parameter values. Most of the times everything will work fine, but other times it will break without warning. See the [External Attribution Block template](/Template:External_Attribution_Block) for an example.
 

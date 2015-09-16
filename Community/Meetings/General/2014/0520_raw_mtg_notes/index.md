@@ -3,7 +3,7 @@ title: 0520 raw mtg notes
 uri: 'WPD:Community/Meetings/General/2014/0520 raw mtg notes'
 
 ---
-## <span>Presents</span>
+## Presents
 
 On IRC, and call:
 
@@ -18,7 +18,7 @@ On IRC:
 
 -   Garbee
 
-## <span>Topics and duration</span>
+## Topics and duration
 
 From 13:13 to 14:00 EST
 
@@ -28,9 +28,9 @@ From 13:13 to 14:00 EST
 -   Monthly WebPlatform podcast
 -   Readiness Markers
 
-## <span>Notes</span>
+## Notes
 
-### <span>Topic: DocSprint during BeyondTellerand</span>
+### Topic: DocSprint during BeyondTellerand
 
     ... it happened last weekend
     ... there were some noise on IRC and Twitter https://twitter.com/search?q=WPDS
@@ -52,7 +52,7 @@ From 13:13 to 14:00 EST
     - Way to send notification on the mailing list
     shepazu: Let's not speculate on how to do but agree on what we want
 
-### <span>Topic: INfrastructure update</span>
+### Topic: INfrastructure update
 
     shepazu: Julee and I spent some time with renoirb two weeks ago
     ... we "kicked the tires" and it seemed to work
@@ -71,7 +71,7 @@ From 13:13 to 14:00 EST
     shepazu: giving context about we want to have annotation and that it will be shown during next AC meeting in june
     ... so we can demo it there
 
-### <span>Topic: Monthly podcast?</span>
+### Topic: Monthly podcast?
 
     shepazu: we’d like to have a podcast/news about "what’s new on the Web Platform"
     ... not a competition on existing, but aggregating
@@ -94,7 +94,7 @@ From 13:13 to 14:00 EST
     jensimmons: there are many infrastructure concerns that aren’t trival
     eliot: yep
 
-### <span>Topic: Readiness Markers</span>
+### Topic: Readiness Markers
 
      AmeliaBR: I'm ready to do, and renoirb said that he can thandle it
      ... hopefully we will have it done and setup by tonight

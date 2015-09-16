@@ -3,7 +3,7 @@ title: Maintaining email services
 uri: 'WPD:Infrastructure/procedures/Maintaining email services'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -33,11 +33,11 @@ We are using two email servers ("MTA"):
  Postfix
 :   **Only** on the *mail* node
 
-## <span>Postfix</span>
+## Postfix
 
 @TODO
 
-### <span>Useful commands</span>
+### Useful commands
 
  mailq
 :   List messages in queue, bounces, frozen, deferred, etc along with an identifier
@@ -52,7 +52,7 @@ We are using two email servers ("MTA"):
 postmap -q 'root' hash:/etc/postfix/virtual && echo OK || echo 'No match found'
 :   Test if an email alias (e.g. root@webplatform.org) works (e.g. \`root@webplatform.org\` to send to \`team-webplatform-foo@w3.org\`)
 
-#### <span>Purge messages according to a known pattern</span>
+#### Purge messages according to a known pattern
 
 Not something to do liberally, only to known email messages patterns that you know are obsolete.
 
@@ -60,7 +60,7 @@ A good time to use such command would be after a work session on a flapping serv
 
      postqueue -p | grep ubuntu@webplatform.org | awk '{print $1}' | tr -d '*' | while read mid ; do postsuper -d $mid ; done
 
-### <span>Useful links</span>
+### Useful links
 
 -   [RTCamp tutorial on Postfix queue](https://rtcamp.com/tutorials/mail/postfix-queue/)
 -   [Setup catch-all accounts in Postfix](http://tecadmin.net/setup-catch-all-email-account-in-postfix/) (useful for *webplatformstaging.org*)
@@ -69,7 +69,7 @@ A good time to use such command would be after a work session on a flapping serv
     -   [Local delivery](http://www.postfix.org/local.8.html)
     -   [Filter](http://www.postfix.org/FILTER_README.html)
 
-### <span>TODO: Read and evaluate</span>
+### TODO: Read and evaluate
 
 -   <http://www.akadia.com/services/postfix_mta.html>
 -   <http://rimuhosting.com/support/settingupemail.jsp?mta=postfix&t=users>
@@ -77,7 +77,7 @@ A good time to use such command would be after a work session on a flapping serv
 -   <http://www.rwahyudi.com/linux/postfix-for-dev-setup-%E2%80%93-catch-all-email-and-forward-it-to-a-specific-address/>
 -   <http://www.linuxquestions.org/questions/linux-server-73/email-forwarding-in-postfix-mail-server-4175414855/>
 
-## <span>Exim</span>
+## Exim
 
 @TODO
 
@@ -94,13 +94,13 @@ exim -Mrm FOO
 exim -qf
 :   Reprocess the queue that has frozen messages
 
-#### <span>Purge messages according to a known pattern</span>
+#### Purge messages according to a known pattern
 
 Not something to do liberally, but can be handy.
 
      exiqgrep -i | xargs exim -Mrm
 
-### <span>Useful links</span>
+### Useful links
 
 -   [Wiki pages on the Exim GitHub project](https://github.com/Exim/exim/wiki)
 -   <http://www.electrictoolbox.com/exim-delete-message/>

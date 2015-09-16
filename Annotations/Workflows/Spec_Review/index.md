@@ -5,9 +5,9 @@ uri: 'WPD:Annotations/Workflows/Spec Review'
 ---
 In order to comment on a specification at W3C, a new community member faces significant hurdles. In addition, a Working Group is not well-equipped by our current toolchain to record, resolve, and demonstrate response to feedback.
 
-## <span>Current Workflow</span>
+## Current Workflow
 
-### <span>Review</span>
+### Review
 
 1.  Reviewer reads spec, finds portion that requires comment
 2.  Reviewer seeks proper feedback channel
@@ -30,7 +30,7 @@ In order to comment on a specification at W3C, a new community member faces sign
 
 *Note that some WGs request for reviewers to create their own issues in the issue tracker, which is more convenient for WG, but also has several steps for the reviewer.*
 
-### <span>Working Group</span>
+### Working Group
 
 1.  WG must notice email
 2.  WG adds email to discussion
@@ -55,7 +55,7 @@ In order to comment on a specification at W3C, a new community member faces sign
 
 *Note that it takes discipline for a WG to consistently add issues to the issue tracker, and emails often slip through the cracks, even when they are added as issues.*
 
-### <span>Transition</span>
+### Transition
 
 1.  WG creates [Disposition of Comments](http://www.w3.org/Graphics/SVG/1.2/Tiny/dc.html)
     1.  Disposition of Comments should include link to original review, trail of responses, resolution by WG, and satisfaction of reviewer
@@ -68,9 +68,9 @@ In order to comment on a specification at W3C, a new community member faces sign
 
 4.  Director makes decision on document transition status, sometimes with caveats
 
-## <span>Possible Workflow with Annotations</span>
+## Possible Workflow with Annotations
 
-### <span>Review</span>
+### Review
 
 1.  Reviewer reads spec, finds portion that requires comment
 2.  Reviewer creates account (on WebPlatform.org, in current plan)
@@ -85,7 +85,7 @@ In order to comment on a specification at W3C, a new community member faces sign
 
 7.  Reviewer waits for response from WG
 
-### <span>Working Group</span>
+### Working Group
 
 1.  WG notified by email that comment has been made on a specific spec
     1.  Spec editor more likely to notice comments on their own spec, less likely to miss comments not given special subject line, easier to sort and filter
@@ -105,7 +105,7 @@ In order to comment on a specification at W3C, a new community member faces sign
 
     4.  WG member changes status of annotation comment
 
-### <span>Transition</span>
+### Transition
 
 1.  WG creates [Disposition of Comments](http://www.w3.org/Graphics/SVG/1.2/Tiny/dc.html)
     1.  Disposition of Comments automatically include link to original comment, trail of responses, resolution by WG, and satisfaction of reviewer, for comments submitted by annotation system

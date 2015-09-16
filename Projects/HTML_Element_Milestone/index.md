@@ -3,7 +3,7 @@ title: HTML Element Milestone
 uri: 'WPD:Projects/HTML Element Milestone'
 
 ---
-## <span>Background</span>
+## Background
 
 HTML is probably the most central technology in the toolset that we work with every day. It is not glamourous, but it is essential to us all (ok, except for you rockstar script kiddies, but hey, what do you know? ;-) ) We have so far not started working on the HTML element property pages, but now seems like a good time.
 
@@ -16,15 +16,15 @@ HTML elements is a great topic to focus on for a Doc Sprint:
 
 It's always hard to prioritize, because it implicitly means that some things will be *de*prioritized. Hopefully the pros outweigh the negatives here.
 
-## <span>Milestone Goal</span>
+## Milestone Goal
 
 Documentation for all standards-track HTML elements is as comprehensive, correct, and helpful as--or better than--the current best sources for HTML elements.
 
-## <span>Editing guide</span>
+## Editing guide
 
 <http://docs.webplatform.org/wiki/WPD:HTML_Element_Guide>
 
-## <span>Project Plan</span>
+## Project Plan
 
 1.  Enumerate all HTML element articles to include in this milestone
 2.  Pick one representative element and make its documentation the ideal model of HTML element documentation.

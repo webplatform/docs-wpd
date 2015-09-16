@@ -5,7 +5,7 @@ uri: 'WPD:Community/Meetings/General/2014/0513 raw mtg notes'
 ---
 Also [archived in the mailing list](http://www.w3.org/mid/CAFDDJ7y0Q8n=0Jm9ySxTyyHsCXT7J+_boFUYE8UWGwwnbJJfeA@mail.gmail.com)
 
-## <span>Presents</span>
+## Presents
 
 On IRC, and call:
 
@@ -21,15 +21,15 @@ On IRC:
 -   eliezerb
 -   jswisher
 
-## <span>Topics</span>
+## Topics
 
 -   Discussing scheduling of telecon re DocSprint Europe
 -   Page formatting
 -   Readiness markers
 
-## <span>Notes</span>
+## Notes
 
-### <span>Discussing scheduling of telecon re DocSprint Europe</span>
+### Discussing scheduling of telecon re DocSprint Europe
 
     shepazu & Julee:  Discussing scheduling of telecon re DocSprint Europe
     ... was scheduled for Friday, but will try to reschedule
@@ -47,7 +47,7 @@ On IRC:
     ... will discuss further when everyone involved with DocSprint is available
     (i.e., rescheduled telcon)
 
-### <span>Page formatting</span>
+### Page formatting
 
     All agreed, minus sarcasm from shepazu, that tables are ugly and confusing
     Jen:  Should only have title, not path, should be list not table
@@ -85,7 +85,7 @@ On IRC:
     <AmeliaBR> Plan would be (a)  replace index tables with query lists (b)
     examine more nuanced options when lists are really long
 
-### <span>Readiness markers</span>
+### Readiness markers
 
     jensimmons:  discussing different sample images from emails she sent out
 

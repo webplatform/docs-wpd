@@ -7,7 +7,7 @@ It is always a challenge keeping IRC channels, etc. on topic. People come in wit
 
 By following the below simple guidelines, you can avoid getting bogged down by too many off-topic questions.
 
-## <span>IRC</span>
+## IRC
 
 The webplatform IRC room is for conversation and questions about the webplatform.org site and its contents. On topic questions include:
 
@@ -30,7 +30,7 @@ We are not here to talk about specific web development problems, or questions ab
 
 For people who want to talk about possible new standards, the **\#whatwg** chatroom is a good place to go; or they could go to [lists.w3.org](http://lists.w3.org/) and find a relevant W3C mailing list to ask questions on.
 
-## <span>Q&A</span>
+## Q&A
 
 The webplatform.org Q&A basically follows the same remit as the IRC channel, but with a few caveats. The questions listed in the IRC section above are all perfectly appropriate for asking in the Q&A. But in addition to that, it may also be appropriate to answer some questions on technology specifics. It really is a judgement call on your part as to whether the ensuing discussion would make for good documentation on webplatform.
 

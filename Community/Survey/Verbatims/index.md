@@ -5,16 +5,16 @@ uri: 'WPD:Community/Survey/Verbatims'
 ---
 The table below lists the raw comments from participants at the Berlin (Feb. 8 & 9) and San Francisco (Feb. 23) doc sprints, and tracks the bugs logged against these issues. The gathering of this information, along with the [survey](/WPD:Community/Survey) was the first effort toward gaining insight into the usability of the wiki for contributors. Herein are summarized the findings with a bias toward raising issues with respect to editing and contributing.
 
-## <span>Summary</span>
+## Summary
 
 The verbatim information below is summarized here by category. Not all categories are summarized.
 
-### <span>Design/Layout</span>
+### Design/Layout
 
 -   Broken, unimplemented features (Comments, Q&A) are confusing users.
 -   Users are unable to log in because the log-in elements do not appear on the home page.
 
-### <span>Editing tasks</span>
+### Editing tasks
 
 -   Editing in MediaWiki and with SMW forms is not easy (this runs contrary to one of our basic assumptions)
 -   Session bugs are a serious impediment to productivity.
@@ -25,28 +25,28 @@ The verbatim information below is summarized here by category. Not all categorie
 -   Markdown is preferred over MediaWiki markup.
 -   Flag design is scaring some users away from working on pages.
 
-### <span>Forms</span>
+### Forms
 
 -   Syntax section too restrictive, not applicable to all cases.
 -   (Many other issues, see below.)
 
-### <span>Getting Started</span>
+### Getting Started
 
 -   Need to identify tasks according to role, domain expertise, skill.
 -   Need tasks for designers, and others.
 -   Supplement the Getting Started pages with video.
 -   Need a more obvious path to getting started from home pages.
 
-### <span>Search</span>
+### Search
 
 -   Duplicate pages in search results - one for each instance of the search term (this is low-hanging; why is it still on the tree?)
 -   Can't search internal help pages.
 
-## <span>Next steps</span>
+## Next steps
 
 To help with the resolutions to these problems, in the list below cite the relevant bug from our project management system. If the issue requires a new bug, please create it.
 
-## <span>Issues cited by doc sprint participants</span>
+## Issues cited by doc sprint participants
 
 <table>
 <col width="33%" />

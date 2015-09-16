@@ -7,7 +7,7 @@ uri: 'WPD:Projects/javascript'
 
 JavaScript is a proposed Web Platform Docs project to document the implementation of the ECMAScript standard in web browsers, focusing on the language itself rather than how it is coupled inside a browser to dom objects, events, HTML5 APIs, or CSS style.
 
-## <span>Project characteristics</span>
+## Project characteristics
 
  Version
 :   The version of JavaScript documented will initially be based on the ECMA-262 edition 5.1 [standard of June 2011](http://www.ecma-international.org/publications/standards/Ecma-262.htm), since it has the [greatest browser conformance](https://en.wikipedia.org/wiki/ECMAScript#Conformance_tests).
@@ -15,11 +15,11 @@ JavaScript is a proposed Web Platform Docs project to document the implementatio
  Location
 :   All JavaScript reference material will exist relative to the [javascript](/javascript) parent page.
 
-## <span>Page structure</span>
+## Page structure
 
 An initial bulk page import is planned based on pages [donated by Microsoft](http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0238.html), and reformatted. The import work is an [ongoing subproject](http://project.webplatform.org/msdnjs). The initial page structure will be a set of top-level pages shown below, each one having second-level subpages that capture the logical structure and for efficient bread crumbs page navigation.
 
-### <span>Top-level pages</span>
+### Top-level pages
 
 |Top-level page|Subpages|
 |:-------------|:-------|
@@ -33,7 +33,7 @@ An initial bulk page import is planned based on pages [donated by Microsoft](htt
 |Errors|2 pages: Run time, Syntax|
 |Reserved Words|1 page listing words unable to be used as identifiers.|
 
-### <span>Third-level subpages</span>
+### Third-level subpages
 
 Third-level subpages will exist for each property, function (not requiring an object), method (requiring an object), and constant. For example, under the Objects top-level page, we have second-level pages Array and Math. These in turn will have the following third-level subpages:
 
@@ -56,7 +56,7 @@ Notice the rules for second-level pages under Operators:
 -   Operators are spelled out as words, eg. Operators/Addition Assignment for the `+=` operator
 -   Logical or bitwise operators are capitalized, eg. Operators/Logical AND
 
-### <span>Path rewriting proposal</span>
+### Path rewriting proposal
 
 -   Rename the "Objects" level to "global" for greater accuracy and correctness -
     -   javascript/global/Array
@@ -76,7 +76,7 @@ Notice the rules for second-level pages under Operators:
     -   Move constants into the page of their parent object. So, `Infinity` will be shown as a section within the global page. It will not have its own page.
     -   Alternatively - treat constants as regular properties within the hierarchy.
 
-## <span>Templates and forms</span>
+## Templates and forms
 
 Forms for all pages will be developed to allow editing with Semantic Forms rather than basic Mediawiki markup.
 
@@ -98,7 +98,7 @@ Semantic query using the [semantic query interface](/Special:Ask) should work. I
 </dl>
 </dd>
 </dl>
-## <span>On-going work</span>
+## On-going work
 
 The latest round of converted files is located [here](https://github.com/maxpolk/msdn-js-conversion/tree/master/round-alice) as .wiki files, one of which is the mapping file upload-mapping.wiki.
 

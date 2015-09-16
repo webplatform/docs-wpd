@@ -3,7 +3,7 @@ title: Maintaining Varnish/Fastly configuration
 uri: 'WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -28,15 +28,15 @@ The following summarizes how to manage our Varnish caching service served by our
 
 This document is specific on how to maintain Varnish configuration at Fastly. Notes that describes the specifics of things we should keep in mind when configuring the cache should be moved to [Things to consider when we expose service via Fastly and Varnish](/WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish)
 
-## <span>Abastract</span>
+## Abastract
 
 If your system uses cookies, which is most of the time the case, Varnish does not caches. The configuration MUST to be adjusted to each site specifics. Details such as a web application sending HTTP headers such as Cache-Control, Set-Cookie, Cookie can still prevent caching to happen.
 
 This page is about keeping notes on current Varnish configuration files and notes to help maintaining an appropriate caching strategy.
 
-## <span>NOTES</span>
+## NOTES
 
-### <span>Varnish version and limitations</span>
+### Varnish version and limitations
 
 An important detail to remember is that Fastly is using Varnish 2.1.4, their configuration specifics do not support either pipe, ban, nor purging with ACL.
 
@@ -46,9 +46,9 @@ VCL is the Varnish Configuration language file, throughout the panel, we can see
 
 A recommended way to work is to follow **[How do I mix and match Fastly VCL with custom VCL](https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL-)**
 
-### <span>Details to consider</span>
+### Details to consider
 
-#### <span>MediaWiki</span>
+#### MediaWiki
 
 Here are the specifics for MediaWiki
 
@@ -58,7 +58,7 @@ Here are the specifics for MediaWiki
 
 **Reminder** more notes about specifics for each web application we deployed are noted in [**Things to consider when we expose service via Fastly and Varnish**](/WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish)
 
-## <span>Accessing VCL configuration from Fastly</span>
+## Accessing VCL configuration from Fastly
 
 To access/overwrite the file in Fastly, go to: ![20131121-Fastly-vcl-buttons.png](/WPD/assets/public/6/68/20131121-Fastly-vcl-buttons.png)
 
@@ -67,7 +67,7 @@ To access/overwrite the file in Fastly, go to: ![20131121-Fastly-vcl-buttons.png
 -   Configure tab on top, Configure button
 -   VCL on the left
 
-#### <span>Wizard to add a backend host</span>
+#### Wizard to add a backend host
 
 While describing how to debug an issue we had with Semantic MediaWiki, I described how to change which public IPs would be proxyed by Fastly.
 
@@ -75,13 +75,13 @@ The screenshot below is described in [WPD:Infrastructure/procedures/Rebuilding\_
 
 ![fastly-docs-service-hosts-screenshot.png](/WPD/assets/public/f/fb/fastly-docs-service-hosts-screenshot.png)
 
-### <span>Current Fastly configuration</span>
+### Current Fastly configuration
 
 Make the content of snippet as a file and upload it to the Fastly control pannel.
 
 Configuration files are stored on [Github, in **webplatform/varnish-configs** project](https://github.com/webplatform/varnish-configs), the VCL file name should match the subdomain and also the service bane in Fastly dashboard.
 
-## <span>Reference</span>
+## Reference
 
 -   [Fastly: How to mix and match Fastly VCL with custom VCL (Varnish configuration file)](https://fastly.zendesk.com/entries/23206371-How-do-I-mix-and-match-Fastly-VCL-with-custom-VCL-)
 -   [**WebPlatform** varnish-configs GitHub repository](https://github.com/webplatform/varnish-configs)

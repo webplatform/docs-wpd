@@ -5,11 +5,11 @@ uri: 'WPD:Flags/Unreviewed Import'
 ---
 This flag is used to mark content that was automatically imported from another source (generally Microsoft Developer Network) but has not been manually reviewed to verify the content is accurate, complete, and correctly flagged.
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 *Not applicable*
 
-## <span>Work Items</span>
+## Work Items
 
 There are many things to check for before removing this flag:
 
@@ -23,6 +23,6 @@ There are many things to check for before removing this flag:
 
 You may remove this flag once you've reviewed those bullet points and applied the applicable flags and editorial notes for the pages.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 There is no associated editorial block.

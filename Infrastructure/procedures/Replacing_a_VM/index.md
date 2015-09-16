@@ -3,7 +3,7 @@ title: Replacing a VM
 uri: 'WPD:Infrastructure/procedures/Replacing a VM'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -30,13 +30,13 @@ Using our *Salt Stack* (not published yet, see */srv/salt* and *WebPlatform GitH
 
 **Remember** most recurring commands are listed at the bottom of `/srv/salt/README.md` on the salt master.
 
-## <span>Introduction</span>
+## Introduction
 
 **EVERYTHING** in WebPlatform infrastructure is managed through source control, including what configures (i.e. the [states](https://github.com/webplatform/states)) from the VM acting as a *salt-master*, every VM can be replaced at will. Our infrastructure and scripts are specifically crafted to communicate with an [OpenStack cluster](http://www.openstack.org/). Over the years we’ve moved from multiple clusters without any problems and we are very happy with how reliable the *OpenStack* components are.
 
 Our infrastructure runs currently on **[DreamCompute](http://www.dreamhost.com/cloud/computing/)**, a managed OpenStack cluster graciously sponsored to us by **[DreamHost](http://www.dreamhost.com/)** and the configuration is managed by a software called **[Salt Stack](http://saltstack.com/)**.
 
-## <span>Procedure</span>
+## Procedure
 
 In this procedure we will replace a app2 VM with another that has more *vRAM* and *vCPU*.
 
@@ -50,7 +50,7 @@ In the end of this document, we will should be able to swap two VMs without inte
 
 **Note**; the output of the commands shown in this document were done from the staging deployment level.
 
-### <span>Get the details of one VM</span>
+### Get the details of one VM
 
      nova list | grep app2
      | ... | app2            | ACTIVE | -          | Running     | private-network=..., 10.10.10.215, 173.236.254.224 |
@@ -76,7 +76,7 @@ What is the flavor (i.e. Size of RAM and number of CPUs) *app2* has?
      | 300 | lightspeed | 4096      | 80   | 0         |      | 2     | 1.0         | True      |
      +-----+------------+-----------+------+-----------+------+-------+-------------+-----------+
 
-### <span>Prepare to replace app2</span>
+### Prepare to replace app2
 
 Let’s unregister *app2*’s *salt-minion* from the *salt-master*
 
@@ -86,7 +86,7 @@ Let’s unregister *app2*’s *salt-minion* from the *salt-master*
 
 **Tip** Unless the VM in question is "*flapping*" (inconsistently breaks the site), we could delete the faulty VM right away. If that VM is behind a proxy such as *Fastly* or part of a NGINX backends, other servers will take the load until a new one is in place.
 
-### <span>Create a new VM</span>
+### Create a new VM
 
 Boot a new VM;
 
@@ -103,7 +103,7 @@ Notice a few details:
 
 **Tip** Since every VM has a private network and that we dont give public IP address to all of them, we instead give a passphrase protected SSH public key per user, per environment. The reason is that if it is required to SSH to a new VM that didn’t yet have had "state.highstate" run on it, you won’t be able to access it anyway. To do so, make sure the OpenStack Horizon dashboard has at least two public keys and that you made a copy of both public and private keys in the private pillars in */srv/private/pillars/sshkeys/* on the salt master.
 
-### <span>Wait until the VM is ready</span>
+### Wait until the VM is ready
 
 The *cloud-init* script we gave at */srv/opsconfigs/userdata.txt* does also ensure the VM will have the lastest version of everything, plus salt stack minion installed.
 
@@ -140,7 +140,7 @@ Then, wait a few seconds. You can see if the VM is ready by issuing a *test.vers
 
 *Note* Accepting a new VM to the salt master is very quick. Sometimes it takes more time to get a response because the salt master might have a few automated scripts to run. Those scripts are called **Salt Reactor** (see *`/srv/salt/reactor/reactions/*.sls`*) that are configured to run when a VM has been added.
 
-### <span>The VM is ready</span>
+### The VM is ready
 
 Once the "test.version" test answers quickly, we are ready to continue. Before going any further, always run a sanity check if the VM has the essential "level" grain at the value. In our case, we should get "staging".
 
@@ -156,7 +156,7 @@ We are ready!
 
 Go drink a glass of water. It takes a while.
 
-## <span>Replacing something else than app2?</span>
+## Replacing something else than app2?
 
 Replacing a *web app runner* role VM such as *app*, *piwik*, *project*, or *notes* is pretty straight forward.
 
@@ -176,7 +176,7 @@ All private data is stored in **/srv/private** and have its own separate Git rep
 
 Here are a few situations where you have to update contents in one of those files:
 
-### <span>Infra pillar</span>
+### Infra pillar
 
 The configurations in **/srv/pillar/infra/** are mostly about what’s the current IP address to use for a given use. Each configuration file (in **/srv/salt/code/files**) gets the exact IP it need from there.
 
@@ -188,7 +188,7 @@ The configurations in **/srv/pillar/infra/** are mostly about what’s the curre
 -   Adding/Removing a VM with the **mail** role
 -   Update the internal DNS zone (**gdnsd\_timestamp**). Most useful if you change any of the above
 
-### <span>Accounts pillar</span>
+### Accounts pillar
 
 This is where we store the private data. Database passwords, external providers API keys and so on. The convention is to have a specific set per environment level so we keep a separate deployment and can throughly test every layers somewhere safe before affecting the live site.
 
@@ -197,7 +197,7 @@ This is where we store the private data. Database passwords, external providers 
 
 With this, it will be possible to change service passwords across only by changing the private pillar and the service itself. Each relying web application will read the new password from there.
 
-## <span>Apply configuration and code packages</span>
+## Apply configuration and code packages
 
 @@TODO adjust once we harmonized the way to install web apps.
 
@@ -235,7 +235,7 @@ The output should look like this;
 
 ![Running wpd-deploy.png](/WPD/assets/public/0/0d/Running_wpd-deploy.png)
 
-## <span>Testing before flipping the switch?</span>
+## Testing before flipping the switch?
 
 If you are testing a new configuration or plugin, it might be prudent to ensure that what you’ve worked on works before making it visible through the sites (i.e. **webplatformstaging.org** or **webplatform.org**). To do we can map a temporary public IP address and add it to your local **hosts** file.
 
@@ -243,7 +243,7 @@ You can do so by following the next steps with another IP address, or use the Op
 
 Remember that each web app is deployed based on the role name, you can get them in [WPD:Infrastructure/procedures/Deploying\_code\_changes\#Deploying.2Fupdating\_a\_web\_app](/WPD:Infrastructure/procedures/Deploying_code_changes#Deploying.2Fupdating_a_web_app).
 
-## <span>Prepare to flip the Floating IP address</span>
+## Prepare to flip the Floating IP address
 
 Let’s get the network adapter details of our new VM. This procedure will take into account that we didn’t test with another temporary IP address.
 
@@ -268,7 +268,7 @@ New app2 has:
 
 -   10.10.10.218 (private)
 
-## <span>Flipping the floating IP</span>
+## Flipping the floating IP
 
 The following commands in the order in which we need the proper values. Each field are generally hexadecimal strings of about 64 characters and dashes. In this example, they are replaced as "foo" and "bar" to illustrate their appropriate positions.
 
@@ -294,7 +294,7 @@ The following commands in the order in which we need the proper values. Each fie
 
 The new vm *app2* has now the public IP and the old VM is not used anymore
 
-## <span>Delete the old app2 VM</span>
+## Delete the old app2 VM
 
 Now that we have two app2 VMs in our OpenStack cluster, we cannot refer to the name to *nova*. Not a big deal, we can use the uuid string to refer to a VM. Note that I renamed the UUID here as "buzz" and "bizz", they won’t look like this in a real deployment.
 

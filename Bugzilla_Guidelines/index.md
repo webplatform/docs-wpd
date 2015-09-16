@@ -7,7 +7,7 @@ tags:
 uri: 'WPD:Bugzilla Guidelines'
 
 ---
-## <span>Summary</span>
+## Summary
 
 We are using Bugzilla on this project for two types of bugs:
 

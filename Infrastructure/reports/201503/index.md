@@ -16,9 +16,9 @@ Should cover;
 
 On a related note, there are also notes in [the 201410 report published last year](/WPD:Infrastructure/reports/201410) and in the [**2014 Improvement plan** page](/WPD:Infrastructure/analysis/2014-Improvements_plan).
 
-## <span>Software we currently use</span>
+## Software we currently use
 
-### <span>Web applications we host</span>
+### Web applications we host
 
 <table class="wikitable sortable">
 <tr>
@@ -220,7 +220,7 @@ TODO
 </td>
 </tr>
 </table>
-### <span>Web application that we rely on</span>
+### Web application that we rely on
 
 <table class="wikitable sortable">
 <tr>
@@ -296,7 +296,7 @@ An organization in which we store all repositories
 </td>
 </tr>
 </table>
-### <span>Misc.</span>
+### Misc.
 
 Ubuntu
 :   We were originally running on two different versions of Ubuntu 10.04 and 12.04. While both are "Long Term Support" we weren’t running on the same version for every servers, and also had no automatic install of security updates. Since mid-2014 all servers uses the same version — Ubuntu 14.04 LTS — and automatic security updates
@@ -317,7 +317,7 @@ Apache
 php-fpm *(new since 2014)*
 :   A PHP execution environment that NGINX connects to to server dynamic pages. Currently in use with Piwik, other PHP web applications (except MediaWiki) could be migrated to it soon enough. Unless we could run everything that runs in *php5-fpm* to HHVM (see below) instead.
 
-### <span>Software we are currently evaluating to use</span>
+### Software we are currently evaluating to use
 
 [Nutcracker](https://github.com/twitter/twemproxy)
 :   A "key store" proxy system that we could install on each app server making a local copy and balancing the load accross both Redis and Memcached.
@@ -334,7 +334,7 @@ php-fpm *(new since 2014)*
 CoreOS
 :   A thin Linux distribution that has Docker preinstalled and a few other orchestration utilities to provide auto-discoverability and automatic scaling.
 
-### <span>Conventions in place</span>
+### Conventions in place
 
 Idea is that any service use default configuration as if its local, use of equivalent service to delegate/proxy to specialized set of servers
 
@@ -353,7 +353,7 @@ ssh access
 which level a VM is in?
 :   The "level" grain exists to tell which configuration file to use in both */srv/pillar/infra/\$level.sls* AND in */srv/private/pillars/accounts/\$level.sls*. To get which level, you can ask from the terminal `salt \* grains.get level`. Refer to [architecture documentation at **Roles and Environment level**](/WPD:Infrastructure/architecture/Roles_and_environment_level)
 
-### <span>Lessons learned</span>
+### Lessons learned
 
 Varnish
 :   Refer to [**Caveats** in Things to consider when we expose service via Fastly and Varnish](/WPD:Infrastructure/architecture/Things_to_consider_when_we_expose_service_via_Fastly_and_Varnish#Caveats)
@@ -362,9 +362,9 @@ Use IP address instead of names, in web application configuration files
 To support multiple runtime backends ...
 :   Its much easier to configure a public Front-end server to use directly a private-access-only backend that handles when to serve static files it already hosts and which files should pass through FastCGI, etc. Front-end nodes wouldn’t need to duplicate that part, but be responsible to balance the load and take care of both static files and in-memory page cache. Much like Varnish does.
 
-## <span>Work done per year</span>
+## Work done per year
 
-### <span>2013</span>
+### 2013
 
 -   *Started working on WebPlatform on July 2013*
 -   Setup analytics solution w/ **Piwik**, at **stats.webplatform.org**
@@ -393,7 +393,7 @@ To support multiple runtime backends ...
 -   Removed requirement of shared storage across VMs (GlusterFS) and switched to use external DreamObjects storage (Swift) at DreamHost
 -   Set in place image storage pulling files directly from DreamObjects
 
-### <span>2014</span>
+### 2014
 
 -   Upgraded all VMs to use only Ubuntu 14.04
 -   Pages are now served under SSL
@@ -429,7 +429,7 @@ To support multiple runtime backends ...
 -   We will eventually publish all our deployment scripts to the public, except the "private" data files. Ref *WebPlatform GitHub operations issue tracker*, at **[webplatform/ops\#48](https://github.com/webplatform/ops/issues/48)**
 -   Setup an NFS mount point so that ElasticSearch instances can do backups. Reviewed idea of not using inter instance storage, at least limit it only in the case of of backups... until we can store ElasticSearch snapshots through Swift/DreamObjects too, see *WebPlatform GitHub operations issue tracker*, at **[webplatform/ops\#120](https://github.com/webplatform/ops/issues/120)**
 
-### <span>2015</span>
+### 2015
 
 -   Renamed **deployment.webplatform.org** into **salt.webplatform.org**
     -   Old **deployment** —in DHO cluster— was left to run everything in production, as long as it wasn’t ready to be moved to the new environment in DreamCompute
@@ -455,7 +455,7 @@ To support multiple runtime backends ...
 -   [How to maintain our new ElasticSearch cluster](/WPD:Infrastructure/procedures/Maintaining_ElasticSearch_cluster), including notes on how automatic backups are made
 -   [How to **Maintain email services**](/WPD:Infrastructure/procedures/Maintaining_email_services)
 
-## <span>Soon?</span>
+## Soon?
 
 Some notes that were gathered around that aren’t been tried yet.
 

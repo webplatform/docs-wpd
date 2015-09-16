@@ -7,15 +7,15 @@ This flag should be checked for articles that have some content that privileges 
 
 **TODO**: Links to the other related flags
 
-## <span>Manual of Style</span>
+## Manual of Style
 
 **TODO**: Figure out which piece of Manual of Style this relates to
 
-## <span>Work Items</span>
+## Work Items
 
 Once all sections are written to not privilege any one vendor unfairly.
 
-## <span>Editorial Block</span>
+## Editorial Block
 
 Be sure to mark which content has vendor neutrality problems using the associated editorial block: [Template:Editorial/Content\_Not\_Neutral](/Template:Editorial/Content_Not_Neutral).
 

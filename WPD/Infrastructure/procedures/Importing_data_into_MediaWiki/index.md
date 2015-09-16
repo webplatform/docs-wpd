@@ -3,7 +3,7 @@ title: Importing data into MediaWiki
 uri: 'WPD:Infrastructure/procedures/Importing data into MediaWiki'
 
 ---
-## <span>Summary</span>
+## Summary
 
 *This documentation was initially created by Yaron Koren on August 12, 2012. Feel free to write me with any questions about it, at yaron57@gmail.com.*
 
@@ -16,11 +16,11 @@ Importing content into the wiki involves several steps. For each page to be impo
 
 All of this assumes that there's a one-to-one correspondence between the source documents and pages in the wiki, which is not necessarily true: there could be source HTML pages that need to get split up into multiple wiki pages, or multiple HTML pages that need to get combined into one wiki page (this seems less likely), or even more complex combinations. And there could be HTML pages in more than set of documentation corresponding to the same concept - the data from these multiple sources would need to be synthesized in some way; or at the very least you would need to choose which data to use. This documentation won't explain how to do any of that, but this sort of action would essentially have to be done between steps 1 and 2 in the code.
 
-## <span>Scraping contents</span>
+## Scraping contents
 
 There is nothing MediaWiki-specific about this step; you just need to create code that gets the relevant data from each page in a reliable way. There are many libraries that can help with HTML and XML parsing.
 
-## <span>Wikitext</span>
+## Wikitext
 
 Every page in MediaWiki is defined by its source text, which is in a syntax called "wikitext" (though it's generic-sounding, the name "wikitext" is only used for MediaWiki's syntax). You can view the wikitext for any page by clicking on the tab that's labeled either "Edit" or "View source", depending on whether you're allowed to edit it.
 
@@ -66,18 +66,18 @@ What if you're trying to import data of a type that doesn't have an example on t
 
 (Please don't worry about actually creating or modifying the templates in question, unless you think it will be useful for the import. It's alright if the page itself, when viewed, looks nonsensical - the key is for the wikitext to be correct.)
 
-### <span>Sections</span>
+### Sections
 
 And what about sections? They're ideal for semi-structured content that differs from page to page. For instance, if there's some page where you want to have some content specific to memory leaks, but it's only relevant to that one page, then it probably doesn't make sense to create a template parameter for it. Instead, you should have a section called "Memory leaks" in the page, under the template call(s). Section headers are defined by putting "==" around the header text. So here is how such a section could look:
 
     ==Memory leaks==
     Calling this function has been know to generate memory leaks when...
 
-## <span>Page naming</span>
+## Page naming
 
 Page names on the WebPlatform wiki are all lowercase, and they're of the form "*language, API or framework*/*type of entity*/*name of entity*". "css/properties/font-size" is one example, obviously, while another could be "jquery/methods/append". The full naming system for this wiki has not been fully established, as far as I know - hopefully it is something that will for the most part fall into place during the import process.
 
-## <span>Saving the page</span>
+## Saving the page
 
 Saving the wiki page is actually possibly the easiest part of the process. MediaWiki has a URL-based (i.e. RESTful) API that can be used to perform a lot of actions, including saving pages. You can see a listing and explanation of the API [here](http://webplatform.org/d/api.php). The API is built around "actions", and the two important actions in this case are "action=login" and "action=edit". In order to save a page, you need to first call the "login" action, then the "edit" action.
 

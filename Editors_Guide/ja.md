@@ -72,36 +72,36 @@ translations:
 uri: 'WPD:Editors Guide/ja'
 
 ---
-## <span>Web Platform Docs 利用者ガイド</span>
+## Web Platform Docs 利用者ガイド
 
-### <span>[登録](http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide)</span>
+### [登録](http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide)
 
 -   [サインアップする](http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide)
 -   確認メールが届きます。もし確認メールが届かない場合には、迷惑メールフォルダもチェックしてみてください。
 
-### <span>[コミュニケーション](/w/index.php?title=WPD:Editors_Guide/step_2_communicate_with_the_online_community/ja&action=edit&redlink=1)</span>
+### [コミュニケーション](/w/index.php?title=WPD:Editors_Guide/step_2_communicate_with_the_online_community/ja&action=edit&redlink=1)
 
 -   [Join \#webplatform IRC](/WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join_the_conversation_on_the_IRC_channel)
 -   [public-webplatform-ja@w3.orgのメーリングリストに参加](/WPD:Editors_Guide/step_2_communicate_with_the_online_community#Join_the_public-webplatform.40w3.org_mailing_list)
 -   [Access the bug-tracking system](/WPD:Editors_Guide/step_2_communicate_with_the_online_community#Access_the_bug-tracking_system)
 
-### <span>[編集を始める前に](/WPD:Editors_Guide/step_3_become_familiar_with_the_wiki)</span>
+### [編集を始める前に](/WPD:Editors_Guide/step_3_become_familiar_with_the_wiki)
 
 -   [はじめに](/WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#If_you_can.27t_wait.2C_start_contributing_right_away)
 -   [ミッションを知る](/WPD:Editors_Guide/step_3_become_familiar_with_the_wiki#Understand_the_WebPlatform_project.27s_mission_and_policies)
 
-### <span>[既存ページをレビュー](/WPD:Editors_Guide/step_4_review_existing_content)</span>
+### [既存ページをレビュー](/WPD:Editors_Guide/step_4_review_existing_content)
 
 -   [コメントを追加する](/WPD:Editors_Guide/step_4_review_existing_content#IAdd_comments_to_sections)
 -   [フラグを立てる](/WPD:Editors_Guide/step_4_review_existing_content#How_to_add_a_flag)
 
-### <span>[既存ページを編集](/WPD:Editors_Guide/step_5_update_existing_content)</span>
+### [既存ページを編集](/WPD:Editors_Guide/step_5_update_existing_content)
 
 -   [MediaWikiのシンタックスを学ぶ](/WPD:Editors_Guide/step_5_update_existing_content#Become_familiar_with_MediaWiki_syntax_conventions)
 -   [スタイルガイドラインを知る](/WPD:Editors_Guide/step_5_update_existing_content#Follow_the_WebPlatform_style_guide)
 -   [コードサンプルを編集する](/WPD:Manual_Of_Style/Sample_best_practices)
 
-### <span>[新規ページを追加](/WPD:Editors_Guide/step_6_author_or_upload_new_content)</span>
+### [新規ページを追加](/WPD:Editors_Guide/step_6_author_or_upload_new_content)
 
 -   [追加するコンテンツが適切か確認する](/WPD:Editors_Guide/step_6_author_or_upload_new_content#Determine_if_your_content_is_appropriate_to_add_to_this_wiki)
 -   [ページのコンテンツを用意する](/WPD:Editors_Guide/step_6_author_or_upload_new_content#Author_new_content_using_the_correct_site_formatting_and_standards)

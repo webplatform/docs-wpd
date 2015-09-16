@@ -3,9 +3,9 @@ title: WPD:Metrics
 uri: 'WPD:Metrics'
 
 ---
-## <span>Metrics Requirements</span>
+## Metrics Requirements
 
-## <span>Metrics Policy</span>
+## Metrics Policy
 
 What one steward sees, every steward sees.
 

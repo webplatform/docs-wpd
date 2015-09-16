@@ -5,11 +5,11 @@ uri: 'WPD:Skinning the bug genie'
 ---
 What follows is an attempt to document my findings while skinning The Bug Genie in the form of a short guide that I wish I had found when I started skinning it for WebPlatform.org. Most of it is reverse engineered, so there might be small inaccuracies.
 
-## <span>Where is the HTML located?</span>
+## Where is the HTML located?
 
 Bug Genie is split into multiple modules, so the templates are scattered across multiple folders. The most common UI elements are found in the following paths:
 
-### <span>core/templates</span>
+### core/templates
 
 Very few templates, but the most crucial:
 
@@ -22,15 +22,15 @@ Very few templates, but the most crucial:
 -   `error.php`: A full page template about technical errors (e.g. can't connect to the database). Not customized in WPD.
 -   `toolarea.inc.php`: Custom WPD template, not present in the default BG.
 
-### <span>modules/main/templates</span>
+### modules/main/templates
 
 We didn’t customize any of those for WPD, but the templates for many important features reside here.
 
-### <span>modules/project/templates</span>
+### modules/project/templates
 
 Lots of useful templates here too. The distinction between `modules/main` and `modules/project` is a bit unclear. The only template here that we customized for WPD is `_overview.inc.php` which contains the project list in the home page.
 
-## <span>Can I add a new template?</span>
+## Can I add a new template?
 
 Adding templates is actually pretty easy. For example, to create a new Core template:
 
@@ -46,7 +46,7 @@ There are probably other constants similar to `THEBUGGENIE_CORE_PATH` for the ot
 
 There is also a `include_template()` function that accepts a path (e.g. `'project/milestonedetailsissue'`) and an associative array of parameters.
 
-## <span>PHP in templates</span>
+## PHP in templates
 
 PHP in templates is kept to a minimum, to adhere to a proper MVC-style separation. It’s only used for:
 
@@ -57,7 +57,7 @@ PHP in templates is kept to a minimum, to adhere to a proper MVC-style separatio
 
 The syntax for the control structures is the [alternative, longer one](http://php.net/manual/en/control-structures.alternative-syntax.php) to make them clearer, similarly to other software using PHP for templating, like Wordpress.
 
-## <span>Functions used in templates</span>
+## Functions used in templates
 
 These are PHP functions used inside `<?php` and `?>`.
 

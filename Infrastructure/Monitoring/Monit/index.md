@@ -3,7 +3,7 @@ title: Monit
 uri: 'WPD:Infrastructure/Monitoring/Monit'
 
 ---
-## <span>What is Monit</span>
+## What is Monit
 
 [Monit](http://mmonit.com/monit/) is a server monitoring system that ensures that their services are running or enforce them to run.
 
@@ -12,7 +12,7 @@ uri: 'WPD:Infrastructure/Monitoring/Monit'
 -   **monit**, an open-source agent with internal reporting
 -   **M/Monit**, a paid software that *monit* can push updates to
 
-## <span>Monit</span>
+## Monit
 
 As described in the Feb. 2015 documentation rework describing the [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM), every VM has Monit running.
 
@@ -22,7 +22,7 @@ Here is a preview of how a Monit status report looks like.
 
 ![20150224-monit-status-preview.png](/WPD/assets/public/5/5d/20150224-monit-status-preview.png)
 
-## <span>*M/Monit*</span>
+## *M/Monit*
 
 Those arescreenshots of **M/Monit** while I was testing out the feature differences between the paid app (*M/Monit*) and what comes in the open source version.
 

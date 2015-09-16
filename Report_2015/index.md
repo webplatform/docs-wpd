@@ -9,7 +9,7 @@ So it's now time to really build further on the success the project has had in t
 
 We also have emerging opportunities for more direct participation from W3C members, working groups, and community participants—to leverage the close association between Web-standards specification development and technical documentation. The close tie among those is a unique advantage that the WebPlatform project provides relative to other efforts, and while we have yet to fully realize the enormous potential in that, we are poised to bring it to reality with the next steps the project will take.
 
-## <span>Highlights</span>
+## Highlights
 
 The following are some highlights of successes the WebPlatform has had thus far.
 
@@ -18,7 +18,7 @@ The following are some highlights of successes the WebPlatform has had thus far.
 -   Built a committed community of contributors, including new stewards who committed valuable resources
 -   Stabilized and expanded our server and software infrastructure, with GitHub integration and deployment
 
-## <span>Content</span>
+## Content
 
 WebPlatform Docs set out with a goal of documenting all standardized features of the Web Platform. This is an ambitious task, but we have already tackled a significant portion of the documentation, with over 3700 reference articles and tutorials devoted exclusively to client-side technologies. There have been over 100K edits refining these articles, mostly from volunteers, but also from steward-sponsored contributors.
 
@@ -30,7 +30,7 @@ We already have active editors working on basic and advanced tutorials for HTML 
 
 Going forward, we plan to work more closely with W3C working groups and their mailing list participants to document features as they are being specified. By systematically identifying each new feature that is published as part of a W3C specification, we can efficiently establish what needs to be documented before the need is recognized elsewhere.
 
-## <span>Community</span>
+## Community
 
 WebPlatform.org has established an active community, with over 250 high-volume contributors (those contributors who have each made at least 15 edits), and 42 active editors (those contributors who have contributed over the last month with little supervision). We have over 170K registered users in total.
 
@@ -42,7 +42,7 @@ We've developed safeguards to limit spam accounts, without compromising ease of 
 
 We negotiated the contribution of the WebPlatform.com domain name from a community member, to strengthen our branding and serve as a possible additional venue, while removing a potential competitive distraction.
 
-### <span>New Stewards</span>
+### New Stewards
 
 We are bringing on two new stewards, DreamHost and Internet Academy.
 
@@ -50,7 +50,7 @@ Dreamhost is providing our hosting infrastructure, and technical support to deve
 
 Internet Academy is providing not only content from their educational curriculum, but a dedicated staff member, Nishanth Babu, who is working on content creation and curation and on social media outreach.
 
-## <span>Infrastructure</span>
+## Infrastructure
 
 In the early months of the project, the community was disrupted by frequent and lasting outages. We have solved these site stability and uptime issues, and now have greater than 99.8% uptime, due to the changes described below.
 
@@ -70,7 +70,7 @@ Some of our major services include an automated "browser support" table generato
 
 The browser support tables (also called "compatibility tables" are a crucial feature for a documentation site; they indicate how well a developer can expect any documented feature to work across browsers. Some documentation sites rely on hand-edited claims based on arbitrary distinctions; we have put into place an automated system that will integrate with W3C's comprehensive test-suite implementation reports. This data is also hand-editable through GitHub, for edge cases, and deploys automatically to the relevant page. We also offer an API for this information. We are continuing to work with W3C teams to closely integrate test-suite data in the near future.
 
-## <span>Site Traffic</span>
+## Site Traffic
 
 Traffic is the biggest challenge for WebPlaform Docs.
 
@@ -84,7 +84,7 @@ But beyond that, we need the advice and help of the stewards to help increase ou
 
 Steward activity and community curation has dramatically decreased since October 2014. We have registered a corresponding decrease in traffic and contribution since that time, showing how important the participation of the stewards is. We did notice a strong upward trend since May 2015, increasing about 15% over the previous months, so we hope to continue that trend, and with the help of the stewards, we think we can.
 
-## <span>Integration with Standards</span>
+## Integration with Standards
 
 We are making good progress to build services that increase and tighten the relationship between technical documentation, standards work, and discussion with the development and design community.
 
@@ -94,7 +94,7 @@ We have also deployed an advanced annotation system, at [Notes.WebPlatform.org](
 
 A concrete challenge in engaging developers in standards has been a friendly place to ask questions, propose features, and discuss the Web Platform. Robin Berjon, from the W3C team, launched an experimental [Discourse discussion forum at Specifiction.org](http://specifiction.org/) for this purpose, and it has been very successful in bringing new people to the table. We are migrating this service and its community to [Discuss.WebPlatform.org](https://Discuss.WebPlatform.org). This will allow the community to suggest and discuss new features for the Web Platform itself, helping increase the relevance and influence of WebPlatform.org.
 
-## <span>Next Steps</span>
+## Next Steps
 
 We have briefly outlined our current directions and plans, but we want to hear from the stewards what direction we should take the project. This project will not succeed without your ongoing participation. Together, we have laid solid foundations, and learned many lessons, and we hope you continue to build on that investment.
 

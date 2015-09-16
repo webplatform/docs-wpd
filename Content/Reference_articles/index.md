@@ -7,11 +7,11 @@ tags:
 uri: 'WPD:Content/Reference articles'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article provides a guide to editing and creating reference articles. Following the steps below should give good results, but if you have any questions, feel free to share them on the mailing list or IRC or Q&amp;A (see our help page for more details.)
 
-## <span>1. What type of reference — make a choice!</span>
+## 1. What type of reference — make a choice!
 
 First you need to choose what type of reference you are creating or editing. The [new page tool](/WPD:New_Page) has many different reference article types for you to choose from:
 
@@ -38,7 +38,7 @@ First you need to choose what type of reference you are creating or editing. The
 
 If you are not sure where to put your chosen subject, take your best guess; then afterwards send a mail to the webplatform public mailing list so someone else can check it.
 
-## <span>2. Create a new article page (if needed)</span>
+## 2. Create a new article page (if needed)
 
 To enter your chosen page name, use lower case only, and use spaces in between the words, not hyphens or anything else.
 
@@ -61,13 +61,13 @@ While **css/properties/text-align** will be created as
 
 Press the relevant **Create…** button to create your new article.
 
-## <span>3. Make sure the article is (going to go) in the right location</span>
+## 3. Make sure the article is (going to go) in the right location
 
 You can find a guide to the site structure at [Topic Hierarchy](/WPD:Content/Topic_Hierarchy). All articles should fit into this somewhere. If you have any issues with this structure, please tell us!
 
 **FOR EXISTING ARTICLES** if you think an existing article wrongly placed, flag it with the **Move candidate** flag, and write an editorial note to suggest where to move it to.
 
-## <span>4. Make sure the fields in the edit form are filled in correctly</span>
+## 4. Make sure the fields in the edit form are filled in correctly
 
 The different types of reference article will have slightly different forms, and we don't have space to list them all here. What I will do is provide some examples that should help you go in the right direction.
 
@@ -77,7 +77,7 @@ In general, you should find some decent already existing material about the thin
 
 You should also write a couple of examples demonstrating usage of the subject being discussed, as most reference pages have space for adding some examples.
 
-### <span>Example: an HTML markup element reference page</span>
+### Example: an HTML markup element reference page
 
 Let's look at an example article, [The paragraph (p) element](/html/elements/p). In its edit form, you have the following fields:
 
@@ -100,11 +100,11 @@ Let's look at an example article, [The paragraph (p) element](/html/elements/p).
 
 **FOR EXISTING ARTICLES** Feel free to move stuff around to the right places, when fixing up an existing article.
 
-## <span>5. Ask for an editor/proofer!</span>
+## 5. Ask for an editor/proofer!
 
 When you have written a new article, let us know about it, via the mailing list. It is also a good idea to ask for a proof reader to come on board to look over your work for you, and correct any errors. We all make mistakes!
 
-## <span>6. Record your progress in working on the article</span>
+## 6. Record your progress in working on the article
 
 When you are working on fixing up an article, it is a good idea to write who you are and what stage you have got to in the Editorial note box near the top of the edit form, so that others don't decided to take on the same work and start repeating what you have done.
 

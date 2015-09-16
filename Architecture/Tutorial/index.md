@@ -11,7 +11,7 @@ uri: 'WPD:Architecture/Tutorial'
 
 -   Links to subheadings within this article for ease of access
 
-## <span>Reference section</span>
+## Reference section
 
 Each tutorial article should contain a multi-faceted, useful reference section contaning a number of links:
 
@@ -22,22 +22,22 @@ Each tutorial article should contain a multi-faceted, useful reference section c
 -   Links to the relevant specs covering these features. Do we need these here too?
 -   Topic tags, which will link to other articles tagged with the same tag.
 
-## <span>Introduction</span>
+## Introduction
 
 Brief introduction to the topic in hand: the problem we are solving, the technique we are demonstrating, the widget we are coding, or the API or module feature we are explaining.
 
-## <span>Article body</span>
+## Article body
 
 The complete meat of the article. We probably need to work out some sort of guidance template for article body structure, but I don't think it should be too restricting. It can be more freeform than reference pages.
 
-## <span>Summary</span>
+## Summary
 
 Summary saying what we learned, and any conclusions we can draw from the article.
 
-## <span>External references</span>
+## External references
 
 Resources from elsewhere on the web that might give useful information or further examples about the same topic, or which were used in the creation of this article (influences, or places where inspiration or material were drawn from)
 
-## <span>Common Information</span>
+## Common Information
 
 See [Common page elements](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1).

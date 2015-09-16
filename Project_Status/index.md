@@ -7,7 +7,7 @@ The Web Platform Docs project is currently in **Alpha** phase.
 
 The goal is to get to **Beta** phase in a few months.
 
-## <span>What is Beta?</span>
+## What is Beta?
 
 **Vision:** The site must perform well, contain reasonably good content (as we define reasonably good), with search working to our community's expectations.
 
@@ -33,9 +33,9 @@ Sample Goals:
     -   But we may pick other topics as well
         -   Including SVG may give the overall site SEO gains, as there are few existing centers of gravity.
 
-## <span>Beta Goals</span>
+## Beta Goals
 
-### <span>Goals for Infrastructure</span>
+### Goals for Infrastructure
 
 We want the site work as a normal reader or editor would expect it to.
 
@@ -43,7 +43,7 @@ We want the site work as a normal reader or editor would expect it to.
     -   Usability for consumers
     -   Usability for editors
 
-#### <span>Infrastructure Items</span>
+#### Infrastructure Items
 
 -   Make sure the session issues are fixed
 -   Dabblet integration
@@ -55,11 +55,11 @@ We want the site work as a normal reader or editor would expect it to.
 -   Dependable and useful search
 -   Analytics: we track campaigns, address serious SEO issues, provide metrics data on site and projects as required and defined
 
-#### <span>Goals for Templates</span>
+#### Goals for Templates
 
 The templates taskforce aims to reactively support the content and infrastructure teams with whatever they need to get to beta. Those teams should file bugs in the template project in BugGenie as necessary.
 
-### <span>Goals for content</span>
+### Goals for content
 
 It should be **beta complete**
 
@@ -80,12 +80,12 @@ These criteria can be applied to one major content area at a time.
 
 For additional commentary on this section, see [WPD:Project\_Status/comments](/WPD:Project_Status/comments)
 
-#### <span>Content Areas for Early Beta</span>
+#### Content Areas for Early Beta
 
 -   CSS properties content task
 -   API reference
 
-#### <span>Content items for later</span>
+#### Content items for later
 
 -   DOM reference
 -   CSS: other reference articles
@@ -98,7 +98,7 @@ For additional commentary on this section, see [WPD:Project\_Status/comments](/W
 -   SVG
 -   General web concepts
 
-### <span>Goals for Community</span>
+### Goals for Community
 
 -   Mechanisms are in place to encourage new members to engage in all channels: wiki, mailing list, IRC, Bug Genie
     -   Welcome emails point users to other channels ([Infrastructure-22](http://project.webplatform.org/infrastructure/issues/22), [Infrastructure-23](http://project.webplatform.org/infrastructure/issues/23))
@@ -124,7 +124,7 @@ For additional commentary on this section, see [WPD:Project\_Status/comments](/W
     -   \> 25% of ML activity from non-Steward staff
     -   \> 25% of wiki activity from non-Steward staff
 
-#### <span>Goals for the WPD blog</span>
+#### Goals for the WPD blog
 
 To be ready for success at the beta timeframe, the [WPD blog](http://blog.webplatform.org/) must meet the following criteria:
 
@@ -133,10 +133,10 @@ To be ready for success at the beta timeframe, the [WPD blog](http://blog.webpla
 -   Cadences for blogging about ongoing needs (content status, community health, etc.) are established and evangelized.
 -   A perpetual editorial calendar of blog posts has been created and filled out. The calendar looks forward a minimum of 60 days and is populated with topics and authors.
 
-### <span>Beta Means</span>
+### Beta Means
 
 -   unflagging party (Julee)
 
-### <span>See Also</span>
+### See Also
 
 -   [Beta Requirements](/WPD:Beta_Requirements) (out of date)

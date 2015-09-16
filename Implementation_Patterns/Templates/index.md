@@ -11,7 +11,7 @@ uri: 'WPD:Implementation Patterns/Templates'
 ---
 **This page is a specific overview of our primary work-horse templates, and complements the more high-level [WPD:Implementation\_Patterns](/WPD:Implementation_Patterns) guide. It assumes you have read and understood that guide.**
 
-## <span>General Organization</span>
+## General Organization
 
 Almost every reference page uses one of \~20 major templates/forms. You can view a comprehensive list at [WPD:New\_Page](/WPD:New_Page).
 
@@ -23,7 +23,7 @@ Most page-type forms use sub-forms and sub-templates as much as possible, and us
 
 **TODO**: Represent the information in this page as a diagram
 
-## <span>Template/Form Naming Conventions</span>
+## Template/Form Naming Conventions
 
 In the vast majority of cases, we use consistent naming conventions so it's easy to figure out what the related Form/Template is called without having to investigate it.
 
@@ -40,7 +40,7 @@ For page types:
 -   **Template**: [Template:Foo\_Section](/w/index.php?title=Template:Foo_Section&action=edit&redlink=1)
 -   **Sub-Form**: [Template:Foo\_Form\_Section](/w/index.php?title=Template:Foo_Form_Section&action=edit&redlink=1) **Note**: the sub-form is implemented as a *template*, not a *form*.
 
-## <span>Specific Sub-Forms</span>
+## Specific Sub-Forms
 
 There are many sub-forms and sub-templates that we use very often. These are generally easy to discover by viewing the source of the page-type form you're interested in.
 
@@ -58,7 +58,7 @@ There are many sub-forms and sub-templates that we use very often. These are gen
 -   [Template:External\_Attribution](/Template:External_Attribution)
 -   *This list is not comprehensive yet. Please add more sub-forms to it!*
 
-## <span>Page-Type Organization</span>
+## Page-Type Organization
 
 Again, the common elements of pages (like summaries) are handled in sub-forms and sub-templates that are used the same on every page. Most page-types have a specific "central" template that handles the interesting bits that are specific to this page type. For example, the [css property form](/Form:CSS_Property) defines fields for whether or not the field is inheritable and what its legal values are.
 
@@ -66,7 +66,7 @@ The following sections give a more in-depth overview of how these main page-type
 
 **TODO**: A lot of the documentation in the following sections actually should live in the specific documentation sections on each Template's page.
 
-### <span>API Objects, Methods, and Properties</span>
+### API Objects, Methods, and Properties
 
 Some of the most common page-types are [Template:API\_Object](/Template:API_Object), [Template:API\_Object\_Method](/Template:API_Object_Method), and [Template:API\_Object\_Property](/Template:API_Object_Property). They are also some of the most confusing when you first look at them.
 
@@ -76,7 +76,7 @@ The way the API\_Object template works is that all of the applicable API\_Object
 
 Importantly, it's also possible to define the **Subclass\_of** property of API\_Objects. This is the way we formally represent which objects this inherits properties and methods of--something that's critically important for many DOM APIs (for example, the chain for AudioElement looks like: AudioElement --\> MediaElement --\> HTMLElement --\> Element --\> Node). We automatically print out the properties and methods of the immediate parent. For performance reasons we don't print out any methods or properties that come from higher up in the chain, but if you want to, you can manually specify more ancestors in the Subclass\_of field by separating them with commas (most recent ancestor first).
 
-### <span>Summaries, Page\_Title, and API\_Name</span>
+### Summaries, Page\_Title, and API\_Name
 
 As far as MediaWiki is concerned, the "title" of a page is the entirety of the URL after the "<http://docs.webplatform.org/wiki/>" part. This leads to many pages having long names like "css/properties/font-size" when "font-size" is far more appropriate. Also, when we include a link to a page on another page, we often want to provide a bit of context on what the page is about.
 
@@ -88,7 +88,7 @@ The [page title](/Template:Page_Title) template is how you set the page title. I
 
 The [API name](/Template:API_Name) template overlaps in use with the page title template quite a bit, but historically it predates it. Whereas page title is what the page should be called when presented as a link, the API\_Name is the precise text used to invoke that API. The API\_Name is used when generating automatic examples and theoretically for more stuff in the future. For methods and properties, it would be the method/property name. For things like CSS selectors, however, it would be things like "\#" or ".". Pages with weird API\_Names are the cases where the page title might be different than the API\_Name, for example the page might have a title of "Class Selector", but the API\_Name might have a value of ".".
 
-### <span>API Listing</span>
+### API Listing
 
 The [API Listing](/Template:API_Listing) template is somewhat confusingly named. Unlike the API\_Object template which is the canonical reference for the methods, properties, and events that apply to a given interface object, the API Listing template is more about just listing all sub-pages that match some criteria.
 
@@ -96,7 +96,7 @@ The API\_Listing page template is used for many pages that are primarily about o
 
 The listing is powered in one of two ways: the better way and the worse way.
 
-#### <span>The Worse Way</span>
+#### The Worse Way
 
 First, the worse way.
 
@@ -110,7 +110,7 @@ We figured at the beginning that it was better to comprehensively list all desce
 
 Over time, as more articles are touched, every API\_Listing page should transition to using the Better Way and stop using this "Print all sub-pages rooted here" checkbox. Note that while we're transitioning, it's best practice to include the better way print out as well as the comprehensive sub-listing (they can coexist on the page). Once we've verified the better listing is comprehensive, we can uncheck the sub-listing option.
 
-#### <span>The Better Way</span>
+#### The Better Way
 
 The better way uses Semantic Media Wiki query syntax to select which pages to show. You can see what syntax is allowed at [this page](http://semantic-mediawiki.org/wiki/Help:Selecting_pages). Basically you write a query that selects pages based on categories they're in or the values of semantic media wiki properties on them.
 
@@ -120,7 +120,7 @@ Note that it's actually kind of difficult to select pages that are only direct c
 
  In practice, the queries you will create will be some combination of a given template type combined with it having a URL of a given form.
 
-### <span>Attributes, properties, and DOM</span>
+### Attributes, properties, and DOM
 
 **Note**: This part gets hairy really fast, and our current information organization for it has known problems (see the notes from the community meeting on 10/30 for just a few examples of things we need to change).
 
@@ -134,7 +134,7 @@ Attributes are weird for another reason: generally every attribute on a markup e
 
 Events are weird because they have both an Applies\_to (the types of DOM interfaces they can be fired at), as well as their Subclass\_of. There are many different event types that are interconnected with dependency relationships that it's important to model. Most of these relationships terminate with the vanilla Event object.
 
-### <span>Topics, Topic Clusters, See Also</span>
+### Topics, Topic Clusters, See Also
 
 We use a number of organizing principles, and it's easy to get confused about how they all inter-relate and when you should use each one.
 

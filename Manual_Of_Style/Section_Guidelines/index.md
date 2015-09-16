@@ -7,29 +7,29 @@ uri: 'WPD:Manual Of Style/Section Guidelines'
 
 You may also be interested in the [list of article types](/WPD:Manual_Of_Style/Article_Types).
 
-### <span>Summary</span>
+### Summary
 
 -   Summaries should mention the property (SEO vs. tools)
 -   Summaries should not be more than 3 sentences.
 -   Idea: transcluding summary into overview article.
 
-### <span>Overview Table</span>
+### Overview Table
 
 -   Values should be IN \<code\>
 -   Link to concepts
 
-## <span>Syntax</span>
+## Syntax
 
 -   use \<dl\> for lists.
 
-## <span>General</span>
+## General
 
 -   Formatting:
 -   Literals: Code literals should be in \<code\> or \<pre\> throughout
 -   Data-Types: Data-type (like \<length\> or \<percentage\>) should be with \<\> and in italics + bold and link to the page they're defined on.
 -   Placeholder: Styled like data-type, but link to intra-page
 
-## <span>Example</span>
+## Example
 
 -   Example code should be useful and interesting (not straight-forward grammar completion)
 -   Include inline examples where possible
@@ -41,15 +41,15 @@ You may also be interested in the [list of article types](/WPD:Manual_Of_Style/A
 -   Should have descriptive comments to explain the results.
 -   See also [Sample best practices](/WPD:Manual_Of_Style/Sample_best_practices)
 
-## <span>Notes</span>
+## Notes
 
 -   Not specific to syntax or value, not directly related to usage, but still germane to the member. Remove this section ideally. In the long term, we should split them into other areas.
 
-## <span>Interactions</span>
+## Interactions
 
 -   Create this section.
 
-## <span>Compatibility Section</span>
+## Compatibility Section
 
 -   Compatibility notes is a table:
 

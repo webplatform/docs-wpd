@@ -37,11 +37,11 @@ uri: 'WPD:Example Pages/Event'
 -   <https://developer.mozilla.org/en-US/docs/DOM/MouseEvent>
 -   <http://msdn.microsoft.com/en-us/library/ie/ms536913%28v=vs.85%29.aspx>
 
-## <span>Summary</span>
+## Summary
 
 The `click` event type is dispatched when the user activates the primary pointer indicator (e.g., the left mouse button) on an element.
 
-## <span>Syntax</span>
+## Syntax
 
 <table class="wikitable">
 <tr>
@@ -99,7 +99,7 @@ Event Property
 </td>
 </tr>
 </table>
-## <span>Event Properties</span>
+## Event Properties
 
 <table class="wikitable">
 <tr>
@@ -163,7 +163,7 @@ None
 </td>
 </tr>
 </table>
-## <span>Interface</span>
+## Interface
 
 The `click` event type uses the `MouseEvent` interface.
 
@@ -259,11 +259,11 @@ The `click` event type uses the `MouseEvent` interface.
 </tbody>
 </table>
 
-### <span>Methods</span>
+### Methods
 
     boolean getModifierState(in DOMString keyArg);
 
-#### <span>getModifierState()</span>
+#### getModifierState()
 
 Returns the current state of the specified modifier key. See the document of KeyboardEvent.getModifierState() for the detail.
 
@@ -275,11 +275,11 @@ Returns the current state of the specified modifier key. See the document of Key
 
 ***Implementation Note:** end transclusion of `MouseEvent` interface.*
 
-## <span>Examples</span>
+## Examples
 
 [View live examples](/w/index.php?title=Event/examples/click&action=edit&redlink=1)
 
-### <span>Example: Click Event Origin</span>
+### Example: Click Event Origin
 
 This example uses the event object to gain information about the origin of the click. In addition, it cancels the default action to prevent navigation of anchor elements, unless the SHIFT key is pressed. Normally a Shift+Click opens the target of a link in a new window; however, the script replaces the current document by setting the location of the window object.
 
@@ -309,7 +309,7 @@ function clickIt()
 </body>
 ```
 
-### <span>Example: Binding the Click Event to Controls</span>
+### Example: Binding the Click Event to Controls
 
 This example shows how to bind the `click` event to grouped controls.
 
@@ -350,7 +350,7 @@ txtOutput.value = window.event.srcElement.value;
 </body>
 ```
 
-## <span>Usage</span>
+## Usage
 
 If the user clicks the left mouse button, the `click` event for an object occurs only if the mouse pointer is over the object and an `mousedown` and an `mouseup` event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no `click` event occurs.
 
@@ -370,11 +370,11 @@ To invoke this event, do one of the following:
 -   Press the access key for a control.
 -   Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.
 
-## <span>Notes</span>
+## Notes
 
 None.
 
-## <span>Specifications</span>
+## Specifications
 
 |Specification|Status|Relevant changes|
 |:------------|:-----|:---------------|
@@ -383,9 +383,9 @@ None.
 |[DOM Level 2: MouseEvent](/w/index.php?title=DOM_Level_2:_MouseEvent&action=edit&redlink=1)|Recommendation|Original DOM specification|
 |[HTML 4.01](/w/index.php?title=HTML_4.01&action=edit&redlink=1)|Recommendation|Original onclick attribute specification|
 
-## <span>Browser Compatibility</span>
+## Browser Compatibility
 
-### <span>Desktop</span>
+### Desktop
 
 |Feature|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari|
 |:------|:-----|:--------------|:----------------|:----|:-----|
@@ -394,13 +394,13 @@ None.
 
 ***Implementation Note:** The prefix tag (here, a fake value just to show it off) would be a link to the concept of prefixes.*
 
-### <span>Mobile</span>
+### Mobile
 
 |Feature|Android|Firefox Mobile (Gecko)|IE Phone|Opera Mobile|Safari Mobile|
 |:------|:------|:---------------------|:-------|:-----------|:------------|
 |Basic support|1.0|[Template:CompatGeckoMobile("1")](/w/index.php?title=Template:CompatGeckoMobile(%221%22)&action=edit&redlink=1)|1.0|1.0|1.0|
 
-### <span>Compatibility Notes</span>
+### Compatibility Notes
 
 |Browser|Version|Note|
 |:------|:------|:---|
@@ -408,11 +408,11 @@ None.
 |Firefox|15.0|On Windows, if user installed a mouse driver and its utility software which can customize button actions (e.g., IntelliPoint and SetPoint), the Middle (wheel) button, 4th button and 5th button may not be set actually even when they're pressed.|
 |Firefox|15.0|On Linux (GTK), 4th button and 5th button are not supported. And also, `mouseup` event always have the releasing button information in this attribute value.|
 
-## <span>See Also</span>
+## See Also
 
 The [DOM Reference](/w/index.php?title=DOM_Reference&action=edit&redlink=1) and the [DOM Event Reference](/w/index.php?title=DOM_Event_Reference&action=edit&redlink=1).
 
-### <span>Related Event Properties</span>
+### Related Event Properties
 
 -   `mouseenter`
 -   `mouseleave`
@@ -425,18 +425,18 @@ The [DOM Reference](/w/index.php?title=DOM_Reference&action=edit&redlink=1) and 
 -   `click`
 -   `dblclick`
 
-### <span>Related DOM Interfaces</span>
+### Related DOM Interfaces
 
 -   `Event`
     -   `UIEvent`
         -   `MouseEvent`
 
-### <span>Related DOM properties</span>
+### Related DOM properties
 
 -   ` element.currentStyle`
 -   ` element.defaults` [Flag:Non-standard](/w/index.php?title=Flag:Non-standard&action=edit&redlink=1) *IE Only*
 
-### <span>Allowed Elements</span>
+### Allowed Elements
 
 **list elements? or list element groups?**
 

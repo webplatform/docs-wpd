@@ -3,7 +3,7 @@ title: 2014-07-08 Community Meeting
 uri: 'WPD:Community/Meetings/General/2014/0708 raw mtg notes'
 
 ---
-## <span>Presents</span>
+## Presents
 
 -   Amelia
 -   Doug
@@ -12,7 +12,7 @@ uri: 'WPD:Community/Meetings/General/2014/0708 raw mtg notes'
 -   Julee
 -   Renoir (scribe)
 
-## <span>Minutes</span>
+## Minutes
 
 eliot: AmeliaBR: Quick recap of where we're are.
 

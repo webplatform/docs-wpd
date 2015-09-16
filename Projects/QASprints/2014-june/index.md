@@ -7,13 +7,13 @@ todo_broken_links:
 uri: 'WPD:Projects/QASprints/2014-june'
 
 ---
-## <span>Overview</span>
+## Overview
 
 As part of the progression of Webplatform.org to Beta stage (see the [Project Status](/WPD:Project_Status) or [Beta requirements](/WPD:Projects/Beta_Requirements) pages), we need to assign [readiness state properties](/Property:State) to every reference article. Once individual articles have markers of their quality, we can remove the "Web Platform Docs is in alpha" warning from every page.
 
 As this will require a manual review of every page by experienced contributors, this is also a good time to do other quick and simple clean-up and quality assurance (QA) tasks that can only be done manually.
 
-## <span>UPDATE</span>
+## UPDATE
 
 We're in the final stretch, and to make sure everything gets done, I've broken the remaining articles into the bite-size lists, available on a separate sign-up page:
 
@@ -23,7 +23,7 @@ We're in the final stretch, and to make sure everything gets done, I've broken t
 
 There are 80 batches, each with about 15-20 articles; I tried to split them at logical topic changes. The more you can do the better, but even if you only do one batch that's a big help. If you haven't already been working on the QA review, scroll down this page for information on what to do.
 
-## <span>Progress</span>
+## Progress
 
 Current Article Count:
 
@@ -32,7 +32,7 @@ Current Article Count:
 
 (You can see the counts by readiness state, with links to all articles given that state, on the [Property:State](/Property:State) page.)
 
-## <span>Review Tasks</span>
+## Review Tasks
 
 The following is a list of tasks which have been suggested for this review.
 
@@ -44,11 +44,11 @@ The following is a list of tasks which have been suggested for this review.
 6.  For almost-done pages, check that the W3C status icon is correct.
 7.  ~~Ensure that every page has a summary section.~~
 
-## <span>Checklist</span>
+## Checklist
 
 We have a lot of pages to get through, so this checklist has been designed to make the assessment quick and consistent. Follow the decision tree until you reach a readiness state. For some pages there are extra to-do lists, given below.
 
-### <span>Decision Tree for all pages</span>
+### Decision Tree for all pages
 
 1.  Does the page have an editing form?
      NO
@@ -131,7 +131,7 @@ We have a lot of pages to get through, so this checklist has been designed to ma
      NO, everything looks good
     :   Readiness = READY TO USE
 
-### <span>DOM Method To-Do List</span>
+### DOM Method To-Do List
 
 1.  Does the syntax block have the words "see parameter list" insted of parameters?
      YES
@@ -139,12 +139,12 @@ We have a lot of pages to get through, so this checklist has been designed to ma
 
 2.  Continue with the readiness checklist
 
-### <span>Standardization Status To-Do List</span>
+### Standardization Status To-Do List
 
 1.  In the edit form, ensure that the value for Standardization Status matches the most recent value in the Specifications table.
 2.  Continue with the readiness checklist
 
-### <span>Basic Templates To-Do List</span>
+### Basic Templates To-Do List
 
 For pages that don't currently have a page template/default form (the "Edit" button opens a text box):
 
@@ -168,7 +168,7 @@ An example with a custom title and existing flag information will look like
        |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
        }}
 
-## <span>List of Volunteers</span>
+## List of Volunteers
 
 **Thanks for everyone who volunteered.** If anyone else wants to help, get in touch with one of the people on the list and ask them if they need help on their assigned articles.
 
@@ -194,7 +194,7 @@ If you indicate topic areas you are comfortable with, I'll try to make most of y
 16. Roberto
 17. caraya (late addition, may be able to help out with other people's article blocks)
 
-## <span>Article Blocks</span>
+## Article Blocks
 
 <ins> See the update above for information about the new article blocks, or go to the [sign-up page](/WPD:Projects/QASprints/2014-june/Sign-up) to claim your block.</ins>
 
@@ -371,11 +371,11 @@ caraya
 </dt>
 </dl>
 
-## <span>Plan of Attack</span>
+## Plan of Attack
 
 If you need help, [ask on IRC](/WPD:Community#Chat_with_us_on_IRC). If you can't complete your assigned tasks, send a note to the email list clearly indicating what range of articles still needs to be done, so that other people can take over.
 
-## <span>Timeline</span>
+## Timeline
 
 -   ~~Comments and volunteers ASAP~~
 -   Articles to be assigned Thursday June 12, 2014

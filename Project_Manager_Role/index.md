@@ -7,7 +7,7 @@ Web Platform Docs is looking for someone to formally take on the role of "Projec
 
 *Time Commitment*: Minimum of 10 hours/week
 
-## <span>Responsibilities</span>
+## Responsibilities
 
 -   *Note: the role will start with a minimum of keeping track of **content** actions, but ideally will expand to cover all types if the project manager has the time and inclination*
 -   Design and execute on a coordinated, consistent task-tracking system for content issues (perhaps in bugs, flags, spreadsheets, etc)
@@ -19,7 +19,7 @@ Web Platform Docs is looking for someone to formally take on the role of "Projec
 -   Keep track of work items in flight and their status
 -   Attend weekly meetings to keep track of actions and follow up on them
 
-## <span>Requirements</span>
+## Requirements
 
 -   Project Management experience preferred
 -   Strong organizational skills: able to bring order to chaos

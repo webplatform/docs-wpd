@@ -17,11 +17,11 @@ todo_broken_links:
 uri: 'WPD:License and Reuse'
 
 ---
-## <span>What is the license, how can I use it?</span>
+## What is the license, how can I use it?
 
 This FAQ is for anyone who wants to use WebPlatform documentation or example code. You do not need to register with the WebPlatform project. WebPlatform content is freely available to anyone.
 
-### <span>The WebPlatform Content License</span>
+### The WebPlatform Content License
 
 The WebPlatform project provides increasingly extensive reference material, documentation, tutorials, example code, and other content for developing or designing content for the Open Web Platform that you can download and use for ANY purpose you like.
 
@@ -35,39 +35,39 @@ Our current license for most content is the Creative Commons Attribution version
 
 **Legal Bit!** Please note that none of this is legal advice.
 
-### <span>Is it really free?</span>
+### Is it really free?
 
 Yes!
 
 But if you would like to support the project, [become a sponsor](/w/index.php?title=become_a_sponsor&action=edit&redlink=1) or [donate](/w/index.php?title=donate&action=edit&redlink=1). (Donate Button)
 
-### <span>What about example code?</span>
+### What about example code?
 
 Example code is in the public domain, made available with the Creative Commons [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). This grant was chosen for clarity and for maximum compatibility with other software licenses. For more details, see the [CC0 FAQ](http://wiki.creativecommons.org/CC0_FAQ#May_I_apply_CC0_to_computer_software.3F_If_so.2C_is_there_a_recommended_implementation.3F). Please note that CC0 does not confer patent licensing.
 
 There may be additional code, such as Javascript polyfills or other script libraries, which is also free for use; where these script libraries use a different software license, they will be clearly marked.
 
-### <span>What about content APIs?</span>
+### What about content APIs?
 
 If your application is going to directly serve content from [api.WebPlatform.org], we ask you to observe our [API usage policy](/w/index.php?title=API_usage_policy&action=edit&redlink=1). You can also use a proxy or your own content server; see details on our [API usage policy page].
 
-### <span>Can I get permission from WebPlatform to distribute the content under an alternative license?</span>
+### Can I get permission from WebPlatform to distribute the content under an alternative license?
 
 No.
 
 The licensing was chosen carefully to provide incentive to contributors while still allowing the greatest ease of reusability, and offering the content under a different license complicates the administration of this site, and may violate the expectations of the contributors.
 
-### <span>Will the license ever change?</span>
+### Will the license ever change?
 
 The license may change to reflect the best legal expression of the goal of the project to make the content openly and widely available. For example, if Creative Commons issues an updated version of the CC-BY license, this project will likely adopt it.
 
-### <span>What do you mean by "Attribution"?</span>
+### What do you mean by "Attribution"?
 
 We want you to attribute WebPlatform and its contributors, i.e. you show users and viewers of whatever you do with our content clearly where you got the data from.
 
 Many individuals and organizations from around the world have spent and continue to spend a lot of time, effort, and even money adding and maintaining our content. We want people to know about our project and perhaps use or contribute content themselves. To find out how best to give this attribution for different kinds of uses, see our [Attribution Guidelines](#How_should_I_attribute_the_project.3F).
 
-### <span>How should I attribute the project?</span>
+### How should I attribute the project?
 
 For example code, you do not need to provide any attribution, though you are allowed to state that your project uses code derived from WebPlatform (though without implication of endorsement, or any guarantees as to the suitability or effectiveness of the code).
 
@@ -96,6 +96,6 @@ Here are specific guidelines to providing attribution to WebPlatform for differe
 
 In addition, we encourage specificity in your attribution. If you quote an article from WebPlatform which was written by a particular person, we suggest you name that person, not only to give them well-deserved credit, but also to improve the credibility of your quotation. If you provide a link, please link to the specific page or pages where the content is located, to make it easier for your audience to find updated information on that specific topic.
 
-### <span>Acknowledgments</span>
+### Acknowledgments
 
 WebPlatform.org thanks [Creative Commons](http://creativecommons.org/) for developing the licenses, Wikipedia for proving a model of large-scale community collaboration on reference content and developing the Mediawiki software, and [OpenStreetMap](http://www.osmfoundation.org/wiki/License) for inspiring this FAQ.

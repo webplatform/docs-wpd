@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/procedures/Maintaining ElasticSearch cluster'
 ---
 To get details about how a node is installed, refer to [WPD:Infrastructure/architecture/VM\_roles\#elastic](/WPD:Infrastructure/architecture/VM_roles#elastic)
 
-## <span>How to get system status/health</span>
+## How to get system status/health
 
 Since everything is made through HTTP calls, here are a few we can make.
 
@@ -15,7 +15,7 @@ Since everything is made through HTTP calls, here are a few we can make.
        curl 'http://localhost:9200/_cluster/health?wait_for_status=green&timeout=50s'
        curl localhost:9200/_nodes/_local?pretty > nodes_details.json
 
-## <span>How backups are made</span>
+## How backups are made
 
 Our ElasticSearch cluster backup is currently done through **type: fs**, each **elastic** VM mounts an NFS share up to the **backup** VM.
 
@@ -35,9 +35,9 @@ It means that, in **production** level on the March 11 2015, the following would
     1.  the **backup** VM makes an archive of the full `/srv/exports/elasticsearch/nfsshared` — therefore including any other snapshots the cluster might have
     2.  the **backup** VM then saves the archive at `/mnt/backup/elasticsearch-snapshot-20150311.tar.gz` — along with other backups the VM stores.
 
-## <span>Misc tasks</span>
+## Misc tasks
 
-### <span>Backup and restore</span>
+### Backup and restore
 
 ElasticSearch backup are referred to as "snapshots".
 
@@ -92,22 +92,22 @@ Check a snapshot status:
 
        curl localhost:9200/_snapshot/nfsshared/production?pretty
 
-#### <span>Use a plugin to store backups to a Swift endpoint automatically</span>
+#### Use a plugin to store backups to a Swift endpoint automatically
 
 This option would be perfect as we wouldn’t need to sync to DreamObjects later like we need to do with the rest.
 
 This has to be done, refer to *WebPlatform GitHub operations issue tracker*, at **[webplatform/ops\#120](https://github.com/webplatform/ops/issues/120)**. Until then, we’ll stick to initial [\#How backups are made](#How_backups_are_made)
 
-#### <span>Related reference</span>
+#### Related reference
 
 -   <http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-snapshots.html>
 -   <https://github.com/wikimedia/search-repository-swift>
 
-### <span>Plugins</span>
+### Plugins
 
 ElasticSearch has many plugins available, we aren’t using any yet.
 
-### <span>Example on how to install a plugin</span>
+### Example on how to install a plugin
 
 One of the plugins ElasticSearch has is "Marvel", a status dashboard to show the cluster health using Kibana. Kibana is an open source project that’s made to create graphs based on data we can feed it.
 
@@ -129,7 +129,7 @@ Once you have a web browser setup, you can go to "http://elastic1:9200/\_plugin/
 
 ![elasticsearch-cluster-status-201503.png](/WPD/assets/public/6/61/elasticsearch-cluster-status-201503.png)
 
-## <span>Reference</span>
+## Reference
 
 -   <http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-plugins.html>
 -   [ElasticSearch setup repositories](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-repositories.html)
@@ -137,7 +137,7 @@ Once you have a web browser setup, you can go to "http://elastic1:9200/\_plugin/
 -   <http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-service.html>
 -   <http://www.xmsxmx.com/elasticsearch-cluster-configuration-best-practices/>
 
-#### <span>Understanding how ElasticSearch works</span>
+#### Understanding how ElasticSearch works
 
 A *must-read* list to help understand how ElasticSearch works. It takes more or less two hours.
 

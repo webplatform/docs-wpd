@@ -3,7 +3,7 @@ title: WPD:Infrastructure
 uri: 'WPD:Infrastructure'
 
 ---
-## <span>Table of contents</span>
+## Table of contents
 
 Listing all sub pages from here.
 
@@ -63,7 +63,7 @@ Listing all sub pages from here.
     -   [201410](/WPD:Infrastructure/reports/201410)
     -   [201503](/WPD:Infrastructure/reports/201503)
 
-## <span>Site Structure</span>
+## Site Structure
 
 |Resource|Software|URL structure|Deployed|
 |:-------|:-------|:------------|:-------|

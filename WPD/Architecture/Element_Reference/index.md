@@ -19,31 +19,31 @@ uri: 'WPD:Architecture/Element Reference'
 
 -   Links to subheadings within this article for ease of access
 
-## <span>Summary</span>
+## Summary
 
 Brief summary. A few sentences at most.
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>HTML information</span>
+## HTML information
 
 -   Closing tag: {required|optional}
 -   CSS display: {inline|block}
 
-## <span>Members</span>
+## Members
 
 -   List of types of members that the DOM object has, linked to following sections
 
-## <span>= (Events)</span>
+## = (Events)
 
 [event1](/w/index.php?title=event1&action=edit&redlink=1)
 :   summary of event1
 [event2](/w/index.php?title=event2&action=edit&redlink=1)
 :   summary of event2
 
-### <span>(Methods)</span>
+### (Methods)
 
 [method1](/w/index.php?title=method1&action=edit&redlink=1)
 :   summary of method1
@@ -51,7 +51,7 @@ Brief summary. A few sentences at most.
 [method2](/w/index.php?title=method2&action=edit&redlink=1)
 :   summary of method2
 
-### <span>(Properties)</span>
+### (Properties)
 
 [property1](/w/index.php?title=property1&action=edit&redlink=1)
 :   (type of property1 -- used only by MDN)
@@ -59,26 +59,26 @@ Brief summary. A few sentences at most.
 [property2](/w/index.php?title=property2&action=edit&redlink=1)
 :   summary of property2
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, can be multiple paragraphs.
 
-### <span>(Arbitrary subheading)</span>
+### (Arbitrary subheading)
 
 More explanation.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Browser compatibility</span>
+## Browser compatibility
 
 [Example pages/Common elements\#Browser\_compatibility](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>(See also)</span>
+## (See also)
 
 [Example pages/Common elements\#See\_also](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

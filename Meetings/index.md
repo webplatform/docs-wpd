@@ -9,7 +9,7 @@ Web Platform community meetings occur every week on [Tuesdays, 18:00 UTC / 13:00
 
 **The rest of this information is out-of-date and maintained for archival purposes only.** Agendas and minutes for current meetings are distributed via the [webplatform email list](http://lists.w3.org/Archives/Public/public-webplatform/).
 
-## <span>Agenda 4 December 2012</span>
+## Agenda 4 December 2012
 
 -   Welcome
 
@@ -57,7 +57,7 @@ Web Platform community meetings occur every week on [Tuesdays, 18:00 UTC / 13:00
 
 -   AOB
 
-## <span>Agenda 27 November 2012</span>
+## Agenda 27 November 2012
 
 -   Welcome
 -   Triage of new bugs

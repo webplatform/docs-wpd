@@ -3,18 +3,18 @@ title: Piwik Tracking code installation
 uri: 'WPD:Infrastructure/procedures/Piwik Tracking code installation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 How is installed the tracking code throughout the web application.
 
-## <span>Web applications</span>
+## Web applications
 
-### <span>BugGenie</span>
+### BugGenie
 
 -   File **core/templates/footer.inc.php** has the Piwik tracking code
 -   Visitor exclusion: None
 
-### <span>MediaWiki</span>
+### MediaWiki
 
 -   Based on [MediaWiki Piwik Integration](http://www.mediawiki.org/wiki/Extension:Piwik_Integration)
 -   Created two files in *code/docs/current/extensions/piwik/*
@@ -23,17 +23,17 @@ How is installed the tracking code throughout the web application.
 -   Modified code/docs/Settings.php accordingly to [6]
 -   Visitor exclusion: None
 
-### <span>Status (tumblr)</span>
+### Status (tumblr)
 
 -   Login to Tumblr, in Settings, WebPlatform.org site, Search for Theme, click 'customize', find 'Edit HTML' button, added code.
 -   Visitor exclusion: None
 
-### <span>WordPress</span>
+### WordPress
 
 -   Installed [Wp-Piwik plugin](http://wordpress.org/plugins/wp-piwik/)
 -   Visitor exclusion: None
 
-### <span>Static pages</span>
+### Static pages
 
 -   Edited in file: code/nonshared/webplatform/templates/container\_close.html
 -   Used on the pages:
@@ -44,9 +44,9 @@ How is installed the tracking code throughout the web application.
     5.  <http://www.webplatform.org/logo/>
 -   Visitor exclusion: None
 
-### <span>Customizations</span>
+### Customizations
 
-#### <span>MediaWiki</span>
+#### MediaWiki
 
 ``` html
 // In file Piwik.hooks.php, within AddPiwik method

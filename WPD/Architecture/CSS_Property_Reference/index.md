@@ -7,9 +7,9 @@ todo_broken_links:
 uri: 'WPD:Architecture/CSS Property Reference'
 
 ---
-## <span>Syntax</span>
+## Syntax
 
-## <span>CSS Property characteristics</span>
+## CSS Property characteristics
 
 -   Initial value
 -   Applies to
@@ -24,22 +24,22 @@ Type: some type
 
 Brief description
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, can be multiple paragraphs.
 
-### <span>(Arbitrary subheading)</span>
+### (Arbitrary subheading)
 
 More explanation.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

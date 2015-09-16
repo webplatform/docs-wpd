@@ -3,9 +3,9 @@ title: When The Bug Genie mailing queue is broken
 uri: 'WPD:Infrastructure/procedures/When The Bug Genie mailing queue is broken'
 
 ---
-## <span>Issue 1: When message arent sent due to unserialize()</span>
+## Issue 1: When message arent sent due to unserialize()
 
-### <span>Finding the issue</span>
+### Finding the issue
 
 The mailing queue from TheBugGenie happened to be broken. The issue was not noticed until a maintenance check made me run the cronjob and to see an error message such as.
 
@@ -56,7 +56,7 @@ While trying to use PHP unserialize the field we get the same error we had in th
 
 This means that the class `TBGMimemail` will be unserialized with this data but the unserialized data seems to have something broken.
 
-### <span>To fix the issue</span>
+### To fix the issue
 
 1.  Ensure no cron job will be running on server running The Bug Genie
 2.  Run manually the `mailing:process_mail_queue` command until you are sure the next message is the broken one

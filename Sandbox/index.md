@@ -3,7 +3,7 @@ title: WPD:Sandbox
 uri: 'WPD:Sandbox'
 
 ---
-## <span>Work Items</span>
+## Work Items
 
 |Priority|Owner|Task|Status|Time Estimate|Depends On|Must Finish By|Priority|Owner|Task|Status|Time Estimate|Depends On|Must Finish By|
 |:-------|:----|:---|:-----|:------------|:---------|:-------------|:-------|:----|:---|:-----|:------------|:---------|:-------------|

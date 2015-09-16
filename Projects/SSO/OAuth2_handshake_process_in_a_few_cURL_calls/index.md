@@ -11,7 +11,7 @@ It doesn’t matter that we expose some secrets in this web page, all you will g
 
 There is also a longer, in depth, version available at [WPD:Projects/SSO/How\_we\_implemented\_it](/WPD:Projects/SSO/How_we_implemented_it)
 
-### <span>Requirements</span>
+### Requirements
 
 1.  An account created on [accounts.webplatform.org](https://accounts.webplatform.org/)
 2.  A command-line terminal with access to cURL (MacOS has one)
@@ -21,19 +21,19 @@ There is also a longer, in depth, version available at [WPD:Projects/SSO/How\_we
 
 Note: The both client\_id, and client\_secret are configured on WebPlatform OAuth server and, provided you finish the handshake, will redirect you to `http://127.0.0.1:5000/login`.
 
-### <span>TL;DR</span>
+### TL;DR
 
 This process is about getting a one time code that you exchange for a "Bearer token". Once the steps are done, you will get redirected to `http://127.0.0.1:5000/login?code=WHAT_WE_WANT`.
 
 Each steps along the way requires cURL, but one of them will have you If you have no web server on your own machine, it will just hang, but will have you what you seek for to finish off the steps.
 
-## <span>Steps</span>
+## Steps
 
 Here are the steps of the OAuth handshake all through cURL. Except the login, that will make you use your own web browser and [account details](https://accounts.webplatform.org/), of course.
 
 Also, if we want to have a [WPD:Projects/SSO/How\_we\_implemented\_it\#SSO\_and\_remembering remember my session](/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering_remember_my_session) and prevent us to ask for a password again, I pointed out where we could make it happen. Unfortunately for us, its not possible as it is right now.
 
-### <span>1. Get handshake starting point details</span>
+### 1. Get handshake starting point details
 
 Basically, its asking what data is related to this OAuth client so we can start the handshake.
 
@@ -53,7 +53,7 @@ Its a way to know if the service exists for the relying party, it lets you ask f
 
  Note that it gives the `redirect_uri`. As in, we don’t trust ANY data sent by the client, we’ll send it there ourselves.
 
-### <span>2. Start the handshake</span>
+### 2. Start the handshake
 
 This step makes your browser go around through Response `Location: ` header and change the browser location to that address.
 
@@ -92,7 +92,7 @@ https://accounts.webplatform.org/oauth/signin?scope=session&state=8888&client_id
 
 Instead of doing like [WPD:Projects/SSO/How\_we\_implemented\_it\#SSO\_and\_remembering remember my session](/WPD:Projects/SSO/How_we_implemented_it#SSO_and_remembering_remember_my_session), if [our version of FxA](http://docs.webplatform.org/wiki/WPD:Projects/SSO/Adapt_Firefox_Accounts_for_WebPlatform) [had handled remember session](http://docs.webplatform.org/wiki/WPD:Projects/SSO/Improvements_roadmap#Leveraging_completely_OAuth2), we could get right through. If that part was complete, it would "remember" you signed in already and we would already get to [\#4. Exchange the code for what we need](#4._Exchange_the_code_for_what_we_need) with a code in hand!
 
-### <span>3. Go to the Location and ask the code</span>
+### 3. Go to the Location and ask the code
 
 Use your web browser, and sign in.
 
@@ -110,7 +110,7 @@ Use your web browser, and sign in.
 
 Like previously said about the feature miss. We wouldn’t had needed to ask the user to login if it was complete, we would have had gotten back to the initiating web app, the notes server here, the code and could start a session in his own web app.
 
-### <span>4. Exchange the code for what we need</span>
+### 4. Exchange the code for what we need
 
 This is done by the backend of the relying party site. The `callback_uri` expects a `GET` request with a `&code=...` string that it’ll communicate **Off the band** (i.e. from the web app server to the OAuth server, without passing through the visitor web browser).
 
@@ -136,7 +136,7 @@ We get the token we wanted in the response body:
 
 **NOTE**: That bearer token is invalid (i changed it), you will have to get your own ;)
 
-### <span>5. Ask stuff to an OAuth2 protected API</span>
+### 5. Ask stuff to an OAuth2 protected API
 
 So far, only a few are available, the profile server which gives us back data for our own users.
 

@@ -3,13 +3,13 @@ title: Meetings and schedules
 uri: 'WPD:Community/Meetings'
 
 ---
-## <span>Schedule calendar</span>
+## Schedule calendar
 
 You can import the following into your own calendar application.
 
 [Meeting calendar and Coordinator availabilities](https://www.google.com/calendar/embed?src=gqaik6l023aodhh4m24qapctpg%40group.calendar.google.com)
 
-## <span>WPD Meetings</span>
+## WPD Meetings
 
 We currently convene the following meetings.
 

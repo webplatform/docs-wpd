@@ -28,70 +28,70 @@ An Object page should transclude the appropriate Object Method and Object Proper
 
 -   Link to [Parent object](/w/index.php?title=Example_pages/API_Reference_page&action=edit&redlink=1), if any
 
-## <span>Summary</span>
+## Summary
 
 Brief summary. A few sentences at most.
 
-## <span>Syntax</span>
+## Syntax
 
 `New ObjectName(param1, param2, ...)` Syntax prototype should not have syntax-coloring, because it's not meant to be executed.
 
-## <span>Parameters</span>
+## Parameters
 
 param1
 :   definition of param1
 param2
 :   definition of param2
 
-## <span>Properties</span>
+## Properties
 
 property1
 :   definition of property1; {tag for specific spec version, e.g., HTML5}
 property2
 :   definition of property2
 
-### <span>Inherited properties</span>
+### Inherited properties
 
 Inherited from [SomeObject](/w/index.php?title=SomeObject&action=edit&redlink=1): [foo](/w/index.php?title=foo&action=edit&redlink=1), [bar](/w/index.php?title=bar&action=edit&redlink=1), [baz](/w/index.php?title=baz&action=edit&redlink=1)
 
-## <span>Functions</span>
+## Functions
 
 [function1()](/w/index.php?title=function1()&action=edit&redlink=1)
 :   brief description of function1(); click link for separate page about function1().
 
-## <span>Methods</span>
+## Methods
 
 [method1()](/w/index.php?title=method1()&action=edit&redlink=1)
 :   brief description of method1(); click link for separate page about method1().
 
-### <span>Inherited methods</span>
+### Inherited methods
 
 Inherited from [SomeObject](/w/index.php?title=SomeObject&action=edit&redlink=1): [qux()](/w/index.php?title=qux()&action=edit&redlink=1), [quuz()](/w/index.php?title=quuz()&action=edit&redlink=1)
 
-## <span>Description/Remarks</span>
+## Description/Remarks
 
 Longer description, multiple paragraphs.
 
-### <span>(Arbitrary subheading)</span>
+### (Arbitrary subheading)
 
 More explanation.
 
-### <span>(Examples)</span>
+### (Examples)
 
 Explanatory text about examples
 
-#### <span>(Example subheading)</span>
+#### (Example subheading)
 
 [Example pages/Common elements\#Code\_block](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Normative documents</span>
+## Normative documents
 
 [Example pages/Common elements\#Normative\_documents](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>Browser compatibility</span>
+## Browser compatibility
 
 [Example pages/Common elements\#Browser\_compatibility](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)
 
-## <span>(See Also)</span>
+## (See Also)
 
 [Example pages/Common elements\#See\_also](/w/index.php?title=Example_pages/Common_elements&action=edit&redlink=1)

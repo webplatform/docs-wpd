@@ -5,13 +5,13 @@ uri: 'WPD:Infrastructure/proposals/Site Map'
 ---
 **Note**: This page describes the initial plan for webplatform.org, most content is deprecated
 
-## <span>Landing Page</span>
+## Landing Page
 
 WebPlatform.org
 
 **uri:** webplatform.org
 
-### <span>Content</span>
+### Content
 
 -   Project description
 -   Partners
@@ -20,7 +20,7 @@ WebPlatform.org
 -   Blog: summaries of current developments in open web platform
     -   [WordPress](http://wordpress.org/)
 
-### <span>Sub-Pages</span>
+### Sub-Pages
 
 -   Web standards
     -   Standards Development Organizations (SDOs): W3C, IETF, Khronos, WHATWG, etc.
@@ -28,17 +28,17 @@ WebPlatform.org
 -   Profile pages for contributors and organizations
 -    ?
 
-## <span>Docs</span>
+## Docs
 
 **uri:** webplatform.org/docs/
 
-### <span>Content</span>
+### Content
 
 -   Reference docs
 -   Guides
 -   Tutorials
 
-### <span>Software</span>
+### Software
 
 -   [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki) with extensions:
 
@@ -66,11 +66,11 @@ WebPlatform.org
 |[WikiFactory](http://www.mediawiki.org/wiki/Extension:WikiFactory)||||Admin interface for enabling extensions, etc.|
 |[SphinxSearch](http://www.mediawiki.org/wiki/Extension:SphinxSearch)|||✓|Improved site search, requires [Sphinx Search Engine](http://sphinxsearch.com/downloads/) to be installed on server|
 
-## <span>Teaching Material</span>
+## Teaching Material
 
 **uri:** webplatform.org/teach/
 
-### <span>Content</span>
+### Content
 
 -   Curricula
 -   Lesson plans
@@ -78,20 +78,20 @@ WebPlatform.org
 -   Teaching guides
 -   Forums
 
-### <span>Software</span>
+### Software
 
 -   [Moodle](http://moodle.org/): a tool many teacher already use
 
-## <span>Discussion / Help Forums</span>
+## Discussion / Help Forums
 
 **uri:** webplatform.org/talk/
 
-### <span>Content</span>
+### Content
 
 -   Web-based IRC client tied to dedicated \#webplatform IRC channel
 -   Forums
 
-### <span>Software</span>
+### Software
 
 -   [qwebirc](http://www.qwebirc.org/): a web-based IRC client
     -   see [borknet](http://www.borknet.org/index.php?topic=irc&page=qwebirc) for an example of a well-integrated web-based IRC client and [freenode webchat](http://webchat.freenode.net/) for an example with a captcha
@@ -99,28 +99,28 @@ WebPlatform.org
     -   include HTML logs, with highlighting and linking, like [Krijn Hoetmer's logs](http://krijnhoetmer.nl/irc-logs/whatwg/20120604)
 -   [Question2Answer](http://www.question2answer.org/): Q/A Forums (a la StackOverflow)
 
-## <span>User Profiles</span>
+## User Profiles
 
 **uri:** webplatform.org/profiles/
 
-### <span>Content</span>
+### Content
 
 -   User bios
 -   Contribution lists (by user)
 -   Organization and "Team" pages
     -   Linked lists of users
 
-## <span>Tools</span>
+## Tools
 
 *Lower priority; Phase 2*
 
 **uri:** webplatform.org/tools/
 
-### <span>Content</span>
+### Content
 
 ?
 
-### <span>Software</span>
+### Software
 
 -   pastebin
 -   live code tester

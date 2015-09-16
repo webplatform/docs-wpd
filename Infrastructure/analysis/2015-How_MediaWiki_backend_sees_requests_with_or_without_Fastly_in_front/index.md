@@ -5,7 +5,7 @@ uri: 'WPD:Infrastructure/analysis/2015-How MediaWiki backend sees requests with 
 ---
 This page shows two equivalent browsing sessions. One was made with Fastly, and the other without.
 
-## <span>Description</span>
+## Description
 
 The purpose of this is to illustrate the difference in how MediaWiki backend processes what it gets from the browsers depending of whether or not Fastly is present.
 
@@ -14,11 +14,11 @@ Things to notice:
 1.  Cookies are trimmed; only the ones starting with *wpwiki* are passed to the backend
 2.  *Forwarded-For* headers and their temporary counterparts
 
-## <span>Actions</span>
+## Actions
 
-### <span>Go to Edit Form</span>
+### Go to Edit Form
 
-#### <span>Without Fastly</span>
+#### Without Fastly
 
 ```
 Start request GET /w/index.php?title=Special:UserLogin&returnto=WPD%3AInfrastructure%2Farchitecture%2FVM+roles
@@ -48,7 +48,7 @@ OutputPage::sendCacheControl: private caching;  **
 Request ended normally
 ```
 
-#### <span>With Fastly</span>
+#### With Fastly
 
 ```
 Start request GET /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&action=edit
@@ -101,9 +101,9 @@ OutputPage::sendCacheControl: private caching;  **
 Request ended normally
 ```
 
-### <span>Submit Form, view page</span>
+### Submit Form, view page
 
-#### <span>Without Fastly</span>
+#### Without Fastly
 
 ```
 Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=WPD:Infrastructure/architecture/VM+roles
@@ -178,7 +178,7 @@ OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:48:20 GMT **
 Request ended normally
 ```
 
-### <span>With Fastly</span>
+### With Fastly
 
 ```
 Start request POST /w/index.php?title=WPD:Infrastructure/architecture/VM_roles&action=submit
@@ -344,9 +344,9 @@ OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 22:56:00 GMT **
 Request ended normally
 ```
 
-### <span>Go to Main Page</span>
+### Go to Main Page
 
-#### <span>Without Fastly</span>
+#### Without Fastly
 
 ```
 Start request GET /wiki/Main_Page
@@ -389,7 +389,7 @@ OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:50:16 GMT **
 Request ended normally
 ```
 
-#### <span>With Fastly</span>
+#### With Fastly
 
 ```
 Start request GET /wiki/Main_Page
@@ -440,9 +440,9 @@ OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 22:56:00 GMT **
 Request ended normally
 ```
 
-### <span>Logout</span>
+### Logout
 
-#### <span>Without Fastly</span>
+#### Without Fastly
 
 ```
 Start request GET /w/index.php?title=Special:UserLogout&returnto=Main+Page
@@ -512,7 +512,7 @@ OutputPage::sendCacheControl: private caching; Wed, 25 Feb 2015 21:50:20 GMT **
 Request ended normally
 ```
 
-#### <span>With Fastly</span>
+#### With Fastly
 
 ```
 Start request GET /w/index.php?title=Special:UserLogout&returnto=Main+Page

@@ -10,7 +10,7 @@ uri: 'WPD:Content/Content Categories'
 
 The following is a list of the various categories that may apply to content in WPD.
 
-## <span>Concepts</span>
+## Concepts
 
 -   compatibility
 -   control
@@ -24,7 +24,7 @@ The following is a list of the various categories that may apply to content in W
 -   usability
 -   vendor prefix
 
-## <span>Languages and libraries</span>
+## Languages and libraries
 
 -   CSS
 -   HTML
@@ -36,7 +36,7 @@ The following is a list of the various categories that may apply to content in W
 -   XHTML
 -   XML
 
-## <span>Page types</span>
+## Page types
 
 -   basic page
 -   glossary
@@ -46,7 +46,7 @@ The following is a list of the various categories that may apply to content in W
 -   sample
 -   tutorial
 
-## <span>Features and technologies</span>
+## Features and technologies
 
 -   accessibility
 -   appcache
@@ -72,7 +72,7 @@ The following is a list of the various categories that may apply to content in W
 -   Webworkers
 -   xhr
 
-## <span>Members</span>
+## Members
 
 -   at rule
 -   attribute

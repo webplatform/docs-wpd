@@ -3,7 +3,7 @@ title: Lists
 uri: 'WPD:Style Guide/Lists'
 
 ---
-## <span>Syntax</span>
+## Syntax
 
 For consistency and compatibility of lists, please use the following list syntax styles. These rules are required to ensure that tables print correctly in all contexts, including when they are part of a form field.
 
@@ -20,7 +20,7 @@ There cannot be a line break between list items, or it will start a new list.
 
 MediaWiki supports other list styles, but these are not allowed on Web Platform Docs, because of inadequate accessibility.
 
-### <span>Unordered list</span>
+### Unordered list
 
 Unordered lists (bulleted lists) start each line with an asterisk (\*), with additional asterisks indicating the level of nesting of a list item (e.g., \*\* is a nested list item, \*\*\* is a double-nested list item).
 
@@ -58,7 +58,7 @@ Any other start also ends the list.
 
     * This is not a list item, because there was a space before the token
 
-### <span>Ordered list</span>
+### Ordered list
 
 Ordered lists (numbered lists) start each line with an asterisk (\#), with additional asterisks indicating the level of nesting of a list item (e.g., \#\# is a nested list item, \#\#\# is a double-nested list item).
 
@@ -97,7 +97,7 @@ Any other start also ends the list.
 
     # This is not a list item, because there was a space before the token
 
-### <span>Definition list</span>
+### Definition list
 
 Definition lists use slightly different sytnax:
 
@@ -120,7 +120,7 @@ This results in the following list:
 :   definition 1 for term 2
 :   definition 2 for term 2
 
-### <span>Mixed list</span>
+### Mixed list
 
 Mixing tokens results in a mixed list
 

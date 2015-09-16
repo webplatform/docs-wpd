@@ -15,24 +15,24 @@ uri: 'WPD:Example Pages/DOM Interface Leaf'
 
 Based on: <https://developer.mozilla.org/en-US/docs/DOM/Node.appendChild> and <http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx>
 
-## <span>Summary</span>
+## Summary
 
 Node.appendChild() adds a node to the end of the list of children of a specified parent node. If the node already exists it is removed from current parent node, then added to new parent node.
 
-## <span>Syntax</span>
+## Syntax
 
     var child=element.appendChild(child);
 
-### <span>Parameters</span>
+### Parameters
 
 -   `element` is the parent element.
 -   `child` is the node to append underneath `parent`. Also returned.
 
-### <span>Return Value</span>
+### Return Value
 
 Returns `child`, the element that was appended.
 
-## <span>Examples</span>
+## Examples
 
 [View live examples](/w/index.php?title=DOM/interfaces/examples/appendChild&action=edit&redlink=1)
 
@@ -43,7 +43,7 @@ var oDiv=document.createElement("DIV");
 document.body.appendChild(oDiv);
 ```
 
-## <span>Usage</span>
+## Usage
 
 If `child` is a reference to an existing node in the document, `appendChild` moves it from its current position to the new position (i.e. there is no requirement to remove the node from its parent node before appending it to some other node).
 
@@ -57,48 +57,48 @@ This method is not allowed to move nodes between different documents. If you wan
 
 This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 
-## <span>Specifications</span>
+## Specifications
 
 |Specification|Status|Relevant changes|
 |:------------|:-----|:---------------|
 |[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-184E7107)|Recommendation|Original specification|
 
-## <span>Browser Compatibility</span>
+## Browser Compatibility
 
 **Implementation Note**: Would have the Compatibility\_Incomplete flag
 
 **Implementation Note:** : Supported (when?) should ideally be a template or something we can query on, low priority.
 
-### <span>Desktop</span>
+### Desktop
 
 |Feature|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari|
 |:------|:-----|:--------------|:----------------|:----|:-----|
 |Basic support|Supported (when?)|Supported (when?)|Supported (when?)|Supported(when?)|Supported(when?)|
 
-### <span>Mobile</span>
+### Mobile
 
 |Feature|Android|Firefox Mobile (Gecko)|IE Phone|Opera Mobile|Safari Mobile|
 |:------|:------|:---------------------|:-------|:-----------|:------------|
 |Basic support|Supported (when?)|Supported (when?)|Supported (when?)|Supported (when?)|Supported (when?)|
 
-### <span>Compatibility Notes</span>
+### Compatibility Notes
 
 |Browser|Version|Note|
 |:------|:------|:---|
 |Internet Explorer|6+|This method now applies to the attribute object.|
 |Internet Explorer|9+|Exceptions are only supported when webpages are displayed in IE9 Standards mode.|
 
-## <span>See Also</span>
+## See Also
 
 **Implementation Note**: These should be auto-generated via tags.
 
-### <span>Related DOM Methods</span>
+### Related DOM Methods
 
 -   ` insertBefore`
 -   ` replaceChild`
 -   ` removeChild`
 
-### <span>Related DOM Concepts</span>
+### Related DOM Concepts
 
 -   [About the DOM object model](/w/index.php?title=DOM/concepts/document-model&action=edit&redlink=1)
 

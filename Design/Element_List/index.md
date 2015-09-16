@@ -14,12 +14,12 @@ This is a checklist of different visual design aspects ("elements") of a page on
 
 This table includes early mockups ([Style Tile 01](/WPD:Design/Style_Tiles#Style_1), [Style Tile 02](/WPD:Design/Style_Tiles#Style_2), [Style Tile 03](/WPD:Design/Style_Tiles#Style_3)), as well as the final page design ([Style Tile Revised](/WPD:Design/Mock-Up_Stage_2)).
 
-## <span>Other Formats</span>
+## Other Formats
 
 -   [File:Elements and Structure.pdf](/w/index.php?title=Special:Upload&wpDestFile=Elements_and_Structure.pdf)
 -   [File:Elements and Structure.xlsx](/w/index.php?title=Special:Upload&wpDestFile=Elements_and_Structure.xlsx)
 
-## <span>Table</span>
+## Table
 
 <table>
 <col width="16%" />

@@ -3,7 +3,7 @@ title: The Salt Master
 uri: 'WPD:Infrastructure/architecture/The salt master'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -32,11 +32,11 @@ The software we use for configuration management is called **[Salt Stack](http:/
 
 Commands that can be done from the *salt* VM in the terminal, but some could also be visualized from within your local web browser through [Read reports from a VM through private network](/WPD:Infrastructure/architecture/Reports_to_review_status#Read_reports_from_a_VM_through_private_network) in [WPD:Infrastructure/architecture/Reports\_to\_review\_status](/WPD:Infrastructure/architecture/Reports_to_review_status).
 
-## <span>Also configured ...</span>
+## Also configured ...
 
 -   Runs fail2ban and *bans* successive unsuccessful login attempts (Possible attacks)
 
-## <span>Centralized logging</span>
+## Centralized logging
 
 The salt master in every environment receives raw logs from all the *minions* it controls. Here are a few log files you can tail.
 
@@ -51,16 +51,16 @@ The salt master in every environment receives raw logs from all the *minions* it
 /mnt/logs/error.log
 :   Sent through UDP
 
-### <span>Sent by MediaWiki</span>
+### Sent by MediaWiki
 
 MediaWiki config has a line **\$wpdUdp2logDest = 'salt:8420';** and other directives. All is setup via salt from the template at **/srv/salt/code/files/docs/Settings.php.jinja** and gets written to the wiki configuration at deploy time.
 
-### <span>Sent through UDP</span>
+### Sent through UDP
 
 Each VM, except the salt master itself, should have a file in \`/etc/rsyslog.d/60-local1.conf\` for this purpose. The salt master is using syslog-ng to receive and write the log messages from the minions.
 
 Setup is not fully trusted/reliable yet. I’m affraid we are losing packets due to many factors (if a minion VM doesnt find the salt master for any reason for example). This will be addressed, see *WebPlatform GitHub operations issue tracker*, at **[webplatform/ops\#117](https://github.com/webplatform/ops/issues/117)**
 
-### <span>Sent by Fastly</span>
+### Sent by Fastly
 
 Each service has a "Logging" setting to send through TCP from their respective services.

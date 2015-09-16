@@ -5,7 +5,7 @@ uri: 'WPD:discuss'
 ---
 There are many ways for you to get in touch with fellow Webplatform.org community members, whether you have questions about contributing, feedback about the site itself, or just want to discuss relevant topics with like-minded individuals. Below you'll find information on our IRC/chat channels, mailing list and Q&A.
 
-## <span>General note on discussion topics</span>
+## General note on discussion topics
 
 In general, the Webplatform.org community is very welcoming and friendly, but we would like to gently remind you to keep your conversations *on topic* for the community. Relevant topics for Webplatform.org include questions about contributing to Webplatform.org (whether that is helping to moderate chat, write or edit articles, create or modify WPD templates, help with site graphics or styling, or general questions about writing style), feedback about aspects of Webplatform.org, and requests for new content.
 
@@ -13,17 +13,17 @@ We are not a tech support line for "please help me fix my code" type questions; 
 
 You can find more information on discussion topics and conduct at [WPD:Conduct](/WPD:Conduct).
 
-## <span>Public mailing list</span>
+## Public mailing list
 
 Our public mailing list, **<public-webplatform@w3.org>**, is for article organization, changes to common templates or forms, soliciting feedback, and setting new norms. It's also where we announce things like upcoming Doc Sprints (which everyone is welcome to join). You can [subscribe to the list here](http://lists.w3.org/Archives/Public/public-webplatform/). You do not need a W3C account to join or send messages.
 
-## <span>Q&A</span>
+## Q&A
 
 Please visit our **[Q&A page](http://talk.webplatform.org/forums/)**.
 
 This is a Q&A forum where you can post questions and get them answered by other members of the community. You can get questions voted up and down so they will appear higher or lower in the answer list depending on how popular they are, so keep discussions high quality and on topic.
 
-## <span>Web Platform IRC Chat</span>
+## Web Platform IRC Chat
 
 We have three IRC channels available for talking about different aspects of Webplatform.org, available on freenode.net IRC:
 

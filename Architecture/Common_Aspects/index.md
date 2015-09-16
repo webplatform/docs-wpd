@@ -3,7 +3,7 @@ title: Common Aspects
 uri: 'WPD:Architecture/Common Aspects'
 
 ---
-## <span>Browser compatibility</span>
+## Browser compatibility
 
 In MSDN, this section is called "Requirements", and is a list of IE version standards.
 
@@ -81,14 +81,14 @@ Another feature
 
 -   Quick-glance color-coded browser support icons?
 
-## <span>Normative documents</span>
+## Normative documents
 
 -   Link to relevant draft/spec section
 -   Might be more than one version(e.g., HTML4 & HTML5)
 -   Or more than one draft (e.g., W3C & WHAT-WG)
 -   Or more than one name (e.g., JavaScript 1.8.5, EcmaScript 5th Edition)
 
-## <span>Standardization Status</span>
+## Standardization Status
 
 -   Standardizing body or bodies (e.g. W3C, W3C and WHATWG, W3C and IETF, Khronos, etc.) (link)
     -   Specific Working Groups or Technical Committees working on that specification (link)
@@ -97,18 +97,18 @@ Another feature
     -   Boolean stability value: **stable** or **unstable** (arbitrary, but useful)
     -   Stability icon or color-code?
 
-## <span>See Also</span>
+## See Also
 
 -   List of other relevant pages on this site
 -   Possibly relevant pages on other sites
 
-## <span>Code block</span>
+## Code block
 
     var foo = "This is some code.";
     var bar = "It should have syntax-coloring and line numbers.";
     var baz = "This code could actually be quite long.";
 
-## <span>Admonitions</span>
+## Admonitions
 
 Not a separate section. Admonitions can occur anywhere in explanatory text. They should be styled to be visually distinctive. A more severe category of "Warning" is not usually necessary in software docs.
 
@@ -116,9 +116,9 @@ Not a separate section. Admonitions can occur anywhere in explanatory text. They
 
 **Caution:** This is admonition that warns about a potential pitfall, such as data loss, security risk, etc.
 
-## <span>Page Asides</span>
+## Page Asides
 
-### <span>External Resources</span>
+### External Resources
 
 **Note:** WPD tutorials and guides should point to relevant WPD reference page, which provides links to external resources; other pages should avoid pointing outside the site unless no reference page (or stub) exists for that feature (except for "Further Reading" to external articles). This will minimize the number of articles which have to be updated when specs change versions, and promote consistent linking practices
 
@@ -127,19 +127,19 @@ Not a separate section. Admonitions can occur anywhere in explanatory text. They
 -   Links to other sites with useful info, such as MDN, MSDN
 -   "what links here", list of articles that point to this page, available upon demand (e.g. not initially loaded)
 
-### <span>Page Metadata</span>
+### Page Metadata
 
 -   attribution: links to contributors
 -   license
 
-### <span>Tags</span>
+### Tags
 
 -   Stub
 -   Needs review
 -   Standards organization (if any)
 -   Originating oranization (if any)
 
-### <span>Social Features</span>
+### Social Features
 
 -   Article rating
     -   Use "[Article Feedback Tool](http://en.wikipedia.org/wiki/Wikipedia:Article_Feedback_Tool)" extension by Wikimedia Foundation (see [project history](http://www.mediawiki.org/wiki/Article_Feedback), [blog post](http://blog.wikimedia.org/2011/07/15/%E2%80%9Crate-this-page%E2%80%9D-is-coming-to-the-english-wikipedia/), and the [example of Article Feedback Dashboard](http://en.wikipedia.org/wiki/Special:ArticleFeedback))

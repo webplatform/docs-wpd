@@ -7,26 +7,26 @@ tags:
 uri: 'WPD:Content/Import Guide'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.
 
 **Note:** if you are importing content from HTML5Rocks! see [this guide](/WPD:Content/Import_Guide/H5R) for additional information.
 
-## <span>Preparation</span>
+## Preparation
 
-### <span>1. Open up the pages you need to do this work:</span>
+### 1. Open up the pages you need to do this work:
 
 -   [Alex's content batch tracking spreadsheet](https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AkRs-89PKiZpdHBqN2poNnJjV1c0N1FCYlN3ZUtpZ3c#gid=0)
 -   The [Content requirements](http://webplatform.org/docs/WPD:Content_Requirements)
 -   The [Site architecture document](http://webplatform.org/docs/WPD:Architecture)
 -   The [New page creator tool](http://webplatform.org/docs/WPD:New_Page)
 
-### <span>2. Choose a batch to work on</span>
+### 2. Choose a batch to work on
 
 Mark it as being in progress in Alex's spread
 
-### <span>3. Choose an article to work on</span>
+### 3. Choose an article to work on
 
 From the batch you have chosen.
 
@@ -37,27 +37,27 @@ Go to the relevant tab on Alex's spread for the batch you are working on. For yo
 -   Choose a page category for your page, and fill it in. Page categories are generally the same as page types (see the [New page tool](http://webplatform.org/docs/WPD:New_Page)), but you should fill in a more specific page category identifier, as several different ones might fit into a single page type. For example, it would include things like DOM Interface (as opposed to API\_Object being the page type). The point of this column is to enumerate how many import scripts we would need based on how many categories of things to import there are from your content.
 -   Choose a page type for your page to be based on, at the [New page tool](http://webplatform.org/docs/WPD:New_Page), and fill it in.
 
-## <span>Implementation</span>
+## Implementation
 
-### <span>Fill in your chosen page title</span>
+### Fill in your chosen page title
 
 in the text field in the relevant page type section at the [New page tool](http://webplatform.org/docs/WPD:New_Page). You should basically replace "foo" in each case with your page title.
 
-### <span>Press the "Create…" button for your page type</span>
+### Press the "Create…" button for your page type
 
 This will take you to the form editing page for your new page.
 
-### <span>record your page URL</span>
+### record your page URL
 
 Immediately go to the bottom on the page and press "Save". Grab the Page URL and fill it in, in the "WPD URL" field of Alex's spreadsheet. It may seem tedious having to fill in all this information in Alex's spreadsheet, but it will make a lot of things way easier later on, if we have it to hand.
 
-### <span>Start filling in the form</span>
+### Start filling in the form
 
 Press the edit button, and start filling in the form.
 
 [THESE INSTRUCTIONS WILL DIFFER FROM PAGE TO PAGE - THE CURRENT ONES ARE ONLY FOR TUTORIALS. WE'LL HAVE TO ADD MORE AS WE TACKLE DIFFERENT PAGE TYPES.]
 
-#### <span>Main content</span>
+#### Main content
 
 First of all, tackle the main content box - this is where the bulk of your article content goes:
 
@@ -109,19 +109,19 @@ First of all, tackle the main content box - this is where the bulk of your artic
 
     -   Foo
 
-#### <span>flags/issues</span>
+#### flags/issues
 
 Check any boxes for issues that you know apply to the current article, and enter any editorial notes you want to add at this stage. [I REALLY WOULDN'T OBSESS OVER THESE RIGHT NOW - BETTER TO GET THE ARTICLES ON THE SITE FIRST, AND THEN WORRY ABOUT THESE LATER IF YOU ARE NOT SURE WHAT TO PUT]
 
-#### <span>Summary</span>
+#### Summary
 
 Fill in a short top level summary to say what the article covers.
 
-#### <span>Next and previous pages</span>
+#### Next and previous pages
 
 You probably won't be able to fill in next and previous pages at first. Leave this blank for now, and come back when you've filled in a whole series, or batch.
 
-#### <span>Browser compatibility</span>
+#### Browser compatibility
 
 In the compatibility section, fill in information on what browser support there is for the technology features discussed in the tutorial. If the article does not discuss specific technology features, check the "Not required" checkbox.
 
@@ -131,7 +131,7 @@ To add a section detailing support for a single technology feature on desktop of
 
 The "Compatibility note" section is for you to add support information about a browser that doesn't appear in the list.
 
-#### <span>See also section: references and further reading</span>
+#### See also section: references and further reading
 
 In the "See also" section, include any further information and links to other resources that you deem relevant.
 
@@ -149,11 +149,11 @@ You need to include the links in bullet form, like this:
 
 If you want to put any extra text and headings below the reference links in the "Manual sections" field, you'll need to start the headings at heading level three for them to appear underneath the "See also" heading. You can start them at page 2 if you want to include more sections at the bottom unrelated to "See also", but I'm not sure why you'd want to do that.
 
-#### <span>Page topics</span>
+#### Page topics
 
 The "Topics" section allows you to put the current article into a high level topic, such as Accessibility, or CSS. You can choose multiple topics for each article. These will appear at the very bottom of the page.
 
-#### <span>Attribution</span>
+#### Attribution
 
 The "External attribution" section is for you to fill in extra licensing information about the article. It should be licensed as CC-BY, in which case you can do nothing.
 
@@ -161,7 +161,7 @@ If it is instead licensed as CC-BY-SA, check the top checkbox. You may also need
 
 [SOME MORE DETAILS WILL PROBABLY BE NEEDED HERE, BUT NOT SURE WHAT TO PUT AS YET.]
 
-## <span>Tracking progress</span>
+## Tracking progress
 
 In the "overview" tab of Alex's tracking spread, you should update the status of each task for your batch as you complete them - these are the dreaded red boxes. The less red you see, the better! You will generally only change the status of these boxes twice - once to "In progress" when you start progress on a batch, and once when to "Done" you complete processing all articles in a batch (as you tend to do all the tasks concurrently.)
 

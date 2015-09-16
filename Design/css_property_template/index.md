@@ -9,11 +9,11 @@ uri: 'WPD:Design/css property template'
 ---
 \<compatability topic="css" type="property" feature="font-size" format="list"\> \</compatability\>
 
-## <span>Summary</span>
+## Summary
 
 `font-size` sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [CSS Text Styling Fundamentals](/guides/css_text_styling_fundamentals) provides an overview.
 
-## <span>Syntax</span>
+## Syntax
 
 <table class="wikitable template_test">
 <tr>
@@ -75,7 +75,7 @@ font-size
 </td>
 </tr>
 </table>
-## <span>Values</span>
+## Values
 
 absolute-size
 :   A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are **xx-small**, **x-small**, **small**, **medium**, **large**, **x-large**, and **xx-large**.
@@ -101,7 +101,7 @@ length
 percentage
 :   A positive integer followed by a percent ([**%**](/w/index.php?title=css/data_types/numeric&action=edit&redlink=1)), indicating a percentage of the parent element's **font-size**.
 
-## <span>Overview table</span>
+## Overview table
 
 ||
 |Initial value|`medium`|
@@ -112,9 +112,9 @@ percentage
 |Animatable|Yes|
 |CSS Object Model Property|`fontSize`|
 
-## <span>Examples</span>
+## Examples
 
-### <span>absolute-size examples</span>
+### absolute-size examples
 
 ``` html
  font-size: small;
@@ -124,7 +124,7 @@ percentage
  font-size: xx-large;
 ```
 
-### <span>relative-size examples</span>
+### relative-size examples
 
 ``` html
  font-sizes: larger;
@@ -134,7 +134,7 @@ percentage
  font-sizes: smaller;
 ```
 
-### <span>length examples</span>
+### length examples
 
 ``` html
  font-size: 1.5em;
@@ -144,7 +144,7 @@ percentage
  border-radius: 5px;
 ```
 
-### <span>percentage examples</span>
+### percentage examples
 
 ``` html
  font-size: 110%;
@@ -154,7 +154,7 @@ percentage
  border-radius: 50%;
 ```
 
-### <span>Other examples</span>
+### Other examples
 
 Redefine the typical **16px** default **medium** value as **10px**, then redefine other tags in proportion to the root:
 
@@ -169,15 +169,15 @@ h2 { font-size: 2.4rem }   /* 24px */
 p  { font-size: 1.4rem }   /* 14px */
 ```
 
-## <span>Usage</span>
+## Usage
 
-## <span>Notes</span>
+## Notes
 
-## <span>Compatibility</span>
+## Compatibility
 
 \<compatability topic="css" type="property" feature="font-size"\> \</compatability\>
 
-## <span>Related Specifications</span>
+## Related Specifications
 
 |Specification|Status|Related Changes|
 |:------------|:-----|:--------------|
@@ -185,4 +185,4 @@ p  { font-size: 1.4rem }   /* 14px */
 |[CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)|Candidate Recommendation||
 |[Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS2/)|W3C Recommendation||
 
-## <span>See Also</span>
+## See Also

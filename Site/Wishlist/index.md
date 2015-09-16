@@ -5,11 +5,11 @@ uri: 'WPD:Site/Wishlist'
 ---
 This page is to collect requests for features of the site in general, or the wiki/CMS itself. See also the [WPD:Site Map](/WPD:Site_Map) and [WPD:Technical Requirements](/WPD:Technical_Requirements).
 
-## <span>Site</span>
+## Site
 
-## <span>CMS</span>
+## CMS
 
-### <span>Editing Workflows</span>
+### Editing Workflows
 
 Eric Shepherd:
 

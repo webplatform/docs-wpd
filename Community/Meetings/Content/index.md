@@ -3,9 +3,9 @@ title: Content
 uri: 'WPD:Community/Meetings/Content'
 
 ---
-## <span>Content programming meeting</span>
+## Content programming meeting
 
-## <span>Telcon Info</span>
+## Telcon Info
 
 **Time:** [Tuesdays, 17:00 UTC / 13:00 ET / 10:00 PT](http://everytimezone.com/#2014-2-25,1800).
 

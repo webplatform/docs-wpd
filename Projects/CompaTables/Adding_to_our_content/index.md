@@ -7,15 +7,15 @@ uri: 'WPD:Projects/CompaTables/Adding to our content'
 -   **See in action:** Take a look at all *example pages* listed in [\#Templates changed](#Templates_changed)
 -   **Next steps:** TBD, see [\#TODO](#TODO)
 
-## <span>Summary</span>
+## Summary
 
 Which MediaWiki templates are involved to display the compatibility tables data.
 
-## <span>What has been done</span>
+## What has been done
 
 For instructions on how to set in place, refer to [Template:Compatibility](http://docs.webplatform.org/wiki/Template:Compatibility#How_to_use) at **How to use**.
 
-### <span>Templates changed</span>
+### Templates changed
 
 Each of them might have had a {{Compatibility\_Form\_Section}} (at least in the Form) and we removed it. Instead we made sure the Template had the new {{Compatibility}} template in both *Form* and *Template* ... templates.
 
@@ -80,7 +80,7 @@ Each of them might have had a {{Compatibility\_Form\_Section}} (at least in the 
     -   **topic page:** [svg/attributes](/svg/attributes), [html/attributes](/html/attributes), [mathml/attributes](/mathml/attributes)
     -   **example pages:** [html/attributes/autocomplete](/html/attributes/autocomplete), [html/attributes/altdom/alt](/html/attributes/altdom/alt), [html/attributes/colSpan](/html/attributes/colSpan), [html/attributes/placeholder](/html/attributes/placeholder), [svg/attributes/baseline-shift](/svg/attributes/baseline-shift), [svg/attributes/fill-rule](/svg/attributes/fill-rule)
 
-### <span>Templates that has been emptied</span>
+### Templates that has been emptied
 
 For depreciation.
 
@@ -90,9 +90,9 @@ See list of pages [using Template:Compatibility\_Section in an hardcoded fashion
 
 The [Template:Compatibility\_Form\_Section](http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section) should be removed from all templates as they are being replaced with the new [Compatibility template](http://docs.webplatform.org/wiki/Template:Compatibility)
 
-## <span>TODO</span>
+## TODO
 
-### <span>Next steps</span>
+### Next steps
 
 Rough estimate of tasks to do:
 
@@ -101,13 +101,13 @@ Rough estimate of tasks to do:
 -   Automate deployment on Merge to master
 -   Clear appropriate caches (Varnish, Memcached, Redis, et al.)
 
-### <span>Reminders</span>
+### Reminders
 
 -   **CSS\_Media\_Feature**, in [Template](http://docs.webplatform.org/wiki/Template:CSS_Media_Feature), [Form](http://docs.webplatform.org/wiki/Form:CSS_Media_Feature), has feature hardcoded at "media-queries"
 -   In all [javascript](/javascript) pages, the Compatibility inclusion is made through *Template:JS\_Topics* and should be moved somewhere that is used only within the new JavaScript docs pages.
 -   Page [css/media\_queries/device-height](/css/media_queries/device-height) has more than one form , listed from [css/mediaqueries](/css/mediaqueries)
 
-### <span>Former Compatibility table template</span>
+### Former Compatibility table template
 
 Should we mute them from the template, or their call? Decision: remove from page, or empty.
 
@@ -116,14 +116,14 @@ Should we mute them from the template, or their call? Decision: remove from page
 -   [Template:Compatibility\_Form\_Section](http://docs.webplatform.org/wiki/Template:Compatibility_Form_Section) *REMOVED from Form Templates*
 -   [Template:Compat\_Unknown](http://docs.webplatform.org/wiki/Template:Compat_Unknown)
 
-### <span>Where they \*might not\* make sense to have a Compatibility table?</span>
+### Where they \*might not\* make sense to have a Compatibility table?
 
 Should we?
 
 -   In [guides/advanced\_selectors\_guide](/guides/advanced_selectors_guide), via [Form:Guide](http://docs.webplatform.org/wiki/Form:Guide), category [Category:Guides](http://docs.webplatform.org/wiki/Category:Guides)
 -   In [tutorials/inheritance\_and\_cascade](/tutorials/inheritance_and_cascade), via [Form:Tutorial](http://docs.webplatform.org/wiki/Form:Tutorial), category [Category:Tutorials](http://docs.webplatform.org/wiki/Category:Tutorials)
 
-### <span>Things to improve</span>
+### Things to improve
 
 -   **CSS\_Selector**: [Form](http://docs.webplatform.org/wiki/Form:CSS_Selector), [Template](http://docs.webplatform.org/wiki/Template:CSS_Selector), need improvements in template+form
 -   **CSS\_Function**: [Form](http://docs.webplatform.org/wiki/Form:CSS_Function), [Template](http://docs.webplatform.org/wiki/Template:CSS_Function), need improvements in template+form
@@ -138,19 +138,19 @@ Should we?
 -   In [mathml](/mathml), we have [mathml/elements](/mathml/elements), but no [mathml/attributes](/mathml/attributes) at all.
 -   See if we can get good data from [the pages that has a "Compatibility Section" along with data](http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompatibility_Section&namespace=0)
 
-## <span>Pastebin</span>
+## Pastebin
 
-### <span>When changing page for this project</span>
+### When changing page for this project
 
      Installing Compatibility tables, see [[WPD:Projects/CompaTables/Adding_to_our_content]]
 
-### <span>Listing pages based on URL prefix</span>
+### Listing pages based on URL prefix
 
 Like it is done at [concepts/Internet\_and\_Web](/concepts/Internet_and_Web)
 
      {{Special:PrefixIndex/concepts/Internet_and_Web/|hideredirects=1|stripprefix=1}}
 
-### <span>Listing index based on SMW properties</span>
+### Listing index based on SMW properties
 
 Like it is done at [html](/html)
 

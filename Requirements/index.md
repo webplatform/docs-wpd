@@ -5,7 +5,7 @@ uri: 'WPD:Requirements'
 ---
 Ideas and their descriptions.
 
-## <span>Table of contents</span>
+## Table of contents
 
 Listing all sub pages from here.
 

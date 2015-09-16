@@ -9,7 +9,7 @@ The problem is that recommendation status is not immediately useful to the avera
 
 These pieces of data are related, but definitely separate.
 
-## <span>A potential solution</span>
+## A potential solution
 
 So we need a solution that will fulfil both aims:
 

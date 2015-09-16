@@ -3,13 +3,13 @@ title: General
 uri: 'WPD:Community/Meetings/General'
 
 ---
-## <span>Web Platform general status meeting</span>
+## Web Platform general status meeting
 
 Web Platform community meetings occur on [Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT](http://everytimezone.com/#2014-2-25,1800).
 
 **Note**: If you haven't already done so, please volunteer to scribe.
 
-## <span>Telcon Info</span>
+## Telcon Info
 
 **Time:** [Tuesdays, 18:00 UTC / 13:00 ET / 10:00 PT](http://everytimezone.com/#2014-2-25,1800).
 
@@ -27,19 +27,19 @@ Web Platform community meetings occur on [Tuesdays, 18:00 UTC / 13:00 ET / 10:00
 
 We recommend that you follow both the audio conference and the IRC chat. For those without an audio connection, key updates are provided live on the IRC, courtesy of each week's volunteer scribe.
 
-## <span>Agenda 2014-04-22</span>
+## Agenda 2014-04-22
 
 [WPD:Community/Meetings/General/2014/0422\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2014/0422_raw_mtg_notes)
 
-## <span>Agenda 2014-04-15</span>
+## Agenda 2014-04-15
 
 [WPD:Community/Meetings/General/2014/0415\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2014/0415_raw_mtg_notes)
 
-## <span>Agenda 2014-02-07</span>
+## Agenda 2014-02-07
 
 [WPD:Community/Meetings/General/2014/0207\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2014/0207_raw_mtg_notes)
 
-## <span>Agenda 2014-01-31</span>
+## Agenda 2014-01-31
 
 -   JS Import
     -   Final import
@@ -53,21 +53,21 @@ We recommend that you follow both the audio conference and the IRC chat. For tho
 -   Compat Tables Task Force
 -   WPD landing page
 
-### <span>Discussion</span>
+### Discussion
 
 [WPD:Community/Meetings/General/2014/0131\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2014/0131_raw_mtg_notes)
 
-## <span>Agenda 2014-01-10</span>
+## Agenda 2014-01-10
 
 -   JS import
 -   Landing Page
 -   Flags
 -   Compatibility tables
 
-### <span>Discussion</span>
+### Discussion
 
 [WPD:Community/Meetings/General/2014/0110\_raw\_mtg\_notes](/WPD:Community/Meetings/General/2014/0110_raw_mtg_notes)
 
-## <span>Earlier meeting notes</span>
+## Earlier meeting notes
 
 [WPD:Community/Meetings/General/Earlier](/WPD:Community/Meetings/General/Earlier)

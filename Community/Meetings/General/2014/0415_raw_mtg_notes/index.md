@@ -3,7 +3,7 @@ title: 0415 raw mtg notes
 uri: 'WPD:Community/Meetings/General/2014/0415 raw mtg notes'
 
 ---
-## <span>Topic: Compat tables</span>
+## Topic: Compat tables
 
 renoirb: We have something working that use compatibility data from MDN
 
@@ -33,7 +33,7 @@ renoirb: We have something working that use compatibility data from MDN
 
 … So, at the moment, we: have MDN data, can normalize it, do generate HTML tables, do have two layers of caching, have ways for users to embed the data in our wiki (!).
 
-## <span>Topic: Compat tables; known limitation</span>
+## Topic: Compat tables; known limitation
 
 renoirb: As I said, we have a known limitation. … Our current implementation was already making a copy, but with a specific tool, we can concentrate [mdn-compat-importer](https://github.com/webplatform/mdn-compat-importer) only for normalizing the data
 
@@ -57,7 +57,7 @@ renoirb: As I said, we have a known limitation. … Our current implementation w
 
 … currently we have good amount of data. It is incomplete, but good enough to make us have something working.
 
-## <span>Topic: Compat tables; how to work around limitation</span>
+## Topic: Compat tables; how to work around limitation
 
 … to work around the problem of hardcoded limitation from MDN. We have been suggested
 

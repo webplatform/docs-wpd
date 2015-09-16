@@ -3,7 +3,7 @@ title: Deploying code changes
 uri: 'WPD:Infrastructure/procedures/Deploying code changes'
 
 ---
-### <span>[WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)</span>
+### [WebPlatform server Infrastructure architecture menu](/WPD:Infrastructure/architecture)
 
 -   [Base configuration of a VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM)
 -   [Reports to review status](/WPD:Infrastructure/architecture/Reports_to_review_status)
@@ -30,7 +30,7 @@ The way we update code is handled from the salt master and apply changes where i
 
 The process of deploying is going to change into something that will allow us to ensure that we can revert to the same state the web app was built from without any risks of broken external dependencies. [see the project *webplatform/ops* milestone](https://github.com/webplatform/ops/issues?milestone=1) that has this objective.
 
-## <span>Procedure</span>
+## Procedure
 
 This procedure will take into account that you have an existing set of VMs already installed [WPD:Infrastructure/architecture/Base\_configuration\_of\_a\_VM](/WPD:Infrastructure/architecture/Base_configuration_of_a_VM) and managed by the [WPD:Infrastructure/architecture/The\_salt\_master](/WPD:Infrastructure/architecture/The_salt_master).
 
@@ -51,7 +51,7 @@ In this example we’ll update the code on all VMs that fills the *role* of **ap
      app3:
        - app
 
-### <span>Running a code update</span>
+### Running a code update
 
 Deploying code on VMs of a given role:
 
@@ -71,7 +71,7 @@ Output should look like this;
 
 ![Running wpd-deploy.png](/assets/public/0/0d/Running_wpd-deploy.png)
 
-## <span>Deploying/updating a web app</span>
+## Deploying/updating a web app
 
 ANY deployment is made through Salt Stack. The deployment code is publicly available on *GitHub* as [**webplatform/salt-states**](https://github.com/webplatform/salt-states).
 
@@ -94,7 +94,7 @@ project
 accounts
 :   `wpd-deploy accounts`
 
-## <span>Related</span>
+## Related
 
 -   The detail of what each roles does is described in [WPD:Infrastructure/architecture/VM\_roles](/WPD:Infrastructure/architecture/VM_roles).
 -   How to replace a VM has details on how to deploy code too [WPD:Infrastructure/procedures/Replacing\_a\_VM](/WPD:Infrastructure/procedures/Replacing_a_VM).

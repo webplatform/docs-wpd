@@ -5,36 +5,36 @@ uri: 'WPD:Content/Content List/Batch 11'
 ---
 *This page is where you document the migration mapping for each "Category type" in your content that you identified in the spreadsheet tab.*
 
-## <span>Page Category Migration Mapping Tutorial</span>
+## Page Category Migration Mapping Tutorial
 
-### <span>URL Mapping</span>
+### URL Mapping
 
 *Input URL*: <http://www.html5rocks.com/en/tutorials/>\<category\>/foo/ *Final URL*: <http://webplatform.org/docs/tutorials/foo>
 
 Note: the input URL does not contain any information required in output URL. The foo name comes from the \<h1\> title on the input page, with the content "foo property".
 
-#### <span>Page Form</span>
+#### Page Form
 
 Use the [Form:Tutorial](/Form:Tutorial) form.
 
-### <span>Field values</span>
+### Field values
 
-#### <span>Flags</span>
+#### Flags
 
 -   Content\_Missing\_Specification\_Links
 -   Compatibility\_missing
 
-#### <span>Standardization</span>
+#### Standardization
 
 Value: W3C Recommendation
 
-#### <span>Summary</span>
+#### Summary
 
 The first
 
 element in the content
 
-#### <span>Initial value</span>
+#### Initial value
 
 From the "Initial Value table in CSS Information section
 

@@ -8,7 +8,7 @@ uri: 'WPD:Translations/ko'
 
 특히, [{{Languages}} 템플릿](http://www.mediawiki.org/wiki/Template:Languages)을 사용하면, 해당 문서의 모든 번역 문서에 대한 링크가 생성됩니다.
 
-## <span>시스템시스템</span>
+## 시스템시스템
 
 이 사이트는 미디어위키의 방식인, 영어가 아닌 언어로 작성된 글(번역문 또는 비영문 원문)을 영어로 작성된 메인 글의 서브페이지로 취급합니다. 예를 들어, CSS 속성인 `border-radius`의 URL은 다음과 같습니다.
 
@@ -34,15 +34,15 @@ This mechanism applies not only to the final "leaf" node articles, those at the 
 
 This allows each language to reuse the same underlying information hierarchy and automatic semantic and structural mechanisms of the wiki system.
 
-### <span>Details</span>
+### Details
 
 For more details, see [multilanguage support](/WPD:Multilanguage_Support).
 
-### <span>Example</span>
+### Example
 
 As an example, see the [languages test page](/WPD:Languages).
 
-### <span>Bugs</span>
+### Bugs
 
 -   Currently, the displayed title of a translated article will be incorrect
 -   Languages template is not included by default
@@ -53,7 +53,7 @@ As an example, see the [languages test page](/WPD:Languages).
 -   No "*auto-translate'* option
 -   No **side-by-side** source-target page view
 
-## <span>Making translations</span>
+## Making translations
 
 If you are interested in providing translations for WPD, please follow the following steps:
 
@@ -62,7 +62,7 @@ If you are interested in providing translations for WPD, please follow the follo
 -   Please use the appropriate templates for the translated page (the same templates as the source page)
 -   Coordinate with other translators (especially the '*translation lead*)
 
-### <span>Translation leads</span>
+### Translation leads
 
 A '*translation lead* is the main coordinator for translations into any language. Some of their duties include:
 

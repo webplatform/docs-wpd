@@ -5,14 +5,14 @@ uri: 'WPD:External Attribution'
 ---
 Most articles automatically maintain a history of all edits and who made them. However, some articles are seeded with already-comprehensive content that comes from external sites. Maintaining a link to the original content helps give credit to those sites, maintain a historical link to the original copy in case it is necessary in the future, and in some cases it is required by the license of the original source.
 
-## <span>Legal Note</span>
+## Legal Note
 
 Note that there are some potential exceptions to our general policy on attribution and external sources:
 
 -   Documents that only state facts, and not interpretation, are not protected by copyright, and are thus outside the bounds of licensing . But this line can be gray... a compilation of facts is protected by copyright if the selection and arrangement of the material is original. Thus, if the contribution is based on another source, it's safer to provide and preserve attribution;
 -   If all the original material from a particular source has been excised from the article, attribution for that source can optionally be removed; in practice, however, we are only using this to deliberately simplify the license the article is available under, e.g., if the original content was under CC-BY-SA (Attribution and Share Alike), we might remove all the old material so the replacement article can be reused under CC-BY. Even so, we may choose to keep the original attribution for social reasons.
 
-## <span>Adding external attribution to an article</span>
+## Adding external attribution to an article
 
 External attribution for a site should be added to an article when:
 
@@ -27,7 +27,7 @@ To add external attribution to an article, choose "Edit with Form" and check off
 
 **Special note for Mozilla Developer Network content**: Mozilla Developer Network content is licensed under a CC-BY-SA license. If the article you are editing contains content originally from that site and the license has *not* [been converted to the WPD license](/WPD:Copyright), you **must check off the CC-BY-SA checkbox** when editing the article and **include a link to the original site.** Again, think carefully before mixing in CC-BY-SA content, as it is a different license from the rest of the site. See the [Dealing With CC-BY-SA Content](#Dealing_With_CC-BY-SA_Content) section below for more information.
 
-## <span>Canonical list of sites that are on the external attribution list</span>
+## Canonical list of sites that are on the external attribution list
 
 The canonical list of external attribution sites is maintained at [Property:External\_Attribution\_Source](/Property:External_Attribution_Source). The list has been copied here for convenience:
 
@@ -39,7 +39,7 @@ The canonical list of external attribution sites is maintained at [Property:Exte
 
 This list will populate the article-editing form.
 
-## <span>Maintaining the list of external attribution sites</span>
+## Maintaining the list of external attribution sites
 
 The list of sites that get external attribution is deliberately kept small. All items on the list should:
 
@@ -48,7 +48,7 @@ The list of sites that get external attribution is deliberately kept small. All 
 
 If you believe that there is a site that fulfills these requirements that is not yet on the list, contact an administrator to have them add it to the canonical list.
 
-## <span>Dealing with CC-BY-SA content</span>
+## Dealing with CC-BY-SA content
 
 In some cases there will be portions of content that come from sites with a CC-BY-SA license, like the Mozilla Developer Network (as opposed to the default CC-BY license for WPD). Maintaining content under multiple licenses is an administrative burden, and it is our long-term goal to remove CC-BY-SA licensed content from the site. Only sites in the canonical list of external attribution sites may have CC-BY-SA content ported over.
 
@@ -60,7 +60,7 @@ An article should have the CC-BY-SA configuration box checked in the "Edit with 
 
 Code without the CC-BY-SA configuration box checked falls under the normal license of the WPD, CC-BY.
 
-## <span>Example box</span>
+## Example box
 
 For articles with some CC-BY-SA content:
 

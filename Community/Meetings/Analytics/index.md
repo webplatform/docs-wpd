@@ -15,9 +15,9 @@ uri: 'WPD:Community/Meetings/Analytics'
 
 See [Analytics](/WPD:Community/Task_Force/Analytics) task force page for more information.
 
-## <span>Agenda items</span>
+## Agenda items
 
-## <span>Meeting Notes</span>
+## Meeting Notes
 
 We don't have the bandwidth to do detailed note taking on this meeting. We'll publish the raw notes to public-wpd-analytics@w3.org.
 

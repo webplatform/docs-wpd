@@ -11,20 +11,20 @@ There are certainly numerous important elements "missing" from these style tiles
 
 All fonts used are free.
 
-## <span>Final Decision</span>
+## Final Decision
 
 The final decision by the Stewards was for a version of [Style 1](#Style_1) with some elements of [Style 2](#Style_2).
 
-## <span>Style 1</span>
+## Style 1
 
 The breadcrumbs should look like this example.
 
 ![Style Tile 01.png](/WPD/assets/public/5/5b/Style_Tile_01.png)
 
-## <span>Style 2</span>
+## Style 2
 
 ![Style Tile 02.png](/WPD/assets/public/e/e1/Style_Tile_02.png)
 
-## <span>Style 3</span>
+## Style 3
 
 ![Style Tile 03.png](/WPD/assets/public/d/d9/Style_Tile_03.png)
