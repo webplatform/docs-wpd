@@ -262,7 +262,7 @@ A set of keywords interpreted relative to the parent element's **font-size**. Po
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   **[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)**
 -   **[currentStyle](/css/cssom/currentStyle)**
