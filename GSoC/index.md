@@ -1,5 +1,5 @@
 ---
-title: Google Summer of Code 2013
+title: 'Google Summer of Code 2013'
 uri: 'WPD:GSoC'
 
 ---

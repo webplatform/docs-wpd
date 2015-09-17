@@ -1,5 +1,5 @@
 ---
-title: Importing data into MediaWiki
+title: 'Importing data into MediaWiki'
 uri: 'WPD:Infrastructure/procedures/Importing data into MediaWiki'
 
 ---

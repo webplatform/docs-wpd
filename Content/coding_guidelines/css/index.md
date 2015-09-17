@@ -1,5 +1,5 @@
 ---
-title: CSS Coding Guidelines
+title: 'CSS Coding Guidelines'
 summary: "These guidelines aim to produce consistent coding style throughout all CSS examples on WebPlatform Docs.\n"
 tags:
   - Basic

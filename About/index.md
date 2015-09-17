@@ -1,5 +1,5 @@
 ---
-title: About Webplatform.org
+title: 'About Webplatform.org'
 tags:
   - Basic
   - Pages

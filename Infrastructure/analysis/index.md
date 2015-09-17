@@ -1,5 +1,5 @@
 ---
-title: Analysis
+title: 'Analysis'
 uri: 'WPD:Infrastructure/analysis'
 
 ---

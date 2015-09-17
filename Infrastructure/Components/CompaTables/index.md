@@ -1,5 +1,5 @@
 ---
-title: Compatibility tables component
+title: 'Compatibility tables component'
 uri: 'WPD:Infrastructure/Components/CompaTables'
 
 ---

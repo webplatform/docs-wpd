@@ -1,5 +1,5 @@
 ---
-title: WPD:Current activity
+title: 'WPD:Current activity'
 uri: 'WPD:Current activity'
 
 ---

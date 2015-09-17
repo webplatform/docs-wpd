@@ -1,5 +1,5 @@
 ---
-title: Tutorial title
+title: 'Tutorial title'
 uri: 'WPD:Example Pages/Tutorial Page'
 
 ---

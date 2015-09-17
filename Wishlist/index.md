@@ -1,5 +1,5 @@
 ---
-title: WPD:Wishlist
+title: 'WPD:Wishlist'
 uri: 'WPD:Wishlist'
 
 ---

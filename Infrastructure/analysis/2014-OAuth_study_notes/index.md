@@ -1,5 +1,5 @@
 ---
-title: OAuth Study notes
+title: 'OAuth Study notes'
 uri: 'WPD:Infrastructure/analysis/2014-OAuth study notes'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: WordPress plugin
+title: 'WordPress plugin'
 uri: 'WPD:Projects/SSO/WordPressPlugin'
 
 ---

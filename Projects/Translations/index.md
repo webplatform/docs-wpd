@@ -1,5 +1,5 @@
 ---
-title: translations
+title: 'translations'
 uri: 'WPD:Projects/translations'
 
 ---

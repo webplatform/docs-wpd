@@ -1,5 +1,5 @@
 ---
-title: Deletion Candidate
+title: 'Deletion Candidate'
 uri: 'WPD:Flags/Deletion Candidate'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Site architecture
+title: 'Site architecture'
 summary: 'Here we describe how the site content is organized so that you can find it by following the path in the URL.'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

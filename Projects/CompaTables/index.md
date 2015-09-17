@@ -1,5 +1,5 @@
 ---
-title: Compatibility Tables ("CompaTables")
+title: 'Compatibility Tables ("CompaTables")'
 uri: 'WPD:Projects/CompaTables'
 
 ---

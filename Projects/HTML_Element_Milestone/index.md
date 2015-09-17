@@ -1,5 +1,5 @@
 ---
-title: HTML Element Milestone
+title: 'HTML Element Milestone'
 uri: 'WPD:Projects/HTML Element Milestone'
 
 ---

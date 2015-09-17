@@ -1,5 +1,5 @@
 ---
-title: Step 4: Review existing content
+title: 'Step 4: Review existing content'
 readiness: 'Out of Date'
 summary: 'This is Step 4 of the Editor''s Guide.'
 tags:

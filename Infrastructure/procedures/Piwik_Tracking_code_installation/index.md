@@ -1,5 +1,5 @@
 ---
-title: Piwik Tracking code installation
+title: 'Piwik Tracking code installation'
 uri: 'WPD:Infrastructure/procedures/Piwik Tracking code installation'
 
 ---

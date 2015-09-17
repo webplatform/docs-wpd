@@ -1,5 +1,5 @@
 ---
-title: Element List
+title: 'Element List'
 tags:
   - Pages
   - with

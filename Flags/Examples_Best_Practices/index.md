@@ -1,5 +1,5 @@
 ---
-title: Examples Best Practices
+title: 'Examples Best Practices'
 uri: 'WPD:Flags/Examples Best Practices'
 
 ---

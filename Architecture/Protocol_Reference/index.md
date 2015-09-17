@@ -1,5 +1,5 @@
 ---
-title: Protocol Reference
+title: 'Protocol Reference'
 uri: 'WPD:Architecture/Protocol Reference'
 
 ---

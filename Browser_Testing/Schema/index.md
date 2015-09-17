@@ -1,5 +1,5 @@
 ---
-title: Schema
+title: 'Schema'
 uri: 'WPD:Browser Testing/Schema'
 
 ---

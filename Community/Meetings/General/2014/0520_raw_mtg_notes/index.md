@@ -1,5 +1,5 @@
 ---
-title: 0520 raw mtg notes
+title: '0520 raw mtg notes'
 uri: 'WPD:Community/Meetings/General/2014/0520 raw mtg notes'
 
 ---

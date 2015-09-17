@@ -1,5 +1,5 @@
 ---
-title: Site Metrics
+title: 'Site Metrics'
 tags:
   - Basic
   - Pages

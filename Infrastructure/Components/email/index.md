@@ -1,5 +1,5 @@
 ---
-title: Email infrastructure
+title: 'Email infrastructure'
 uri: 'WPD:Infrastructure/Components/email'
 
 ---

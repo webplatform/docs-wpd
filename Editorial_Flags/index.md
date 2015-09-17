@@ -1,5 +1,5 @@
 ---
-title: Flags and editorial notes
+title: 'Flags and editorial notes'
 uri: 'WPD:Editorial Flags'
 
 ---

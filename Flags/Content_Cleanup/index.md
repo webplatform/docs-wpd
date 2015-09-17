@@ -1,5 +1,5 @@
 ---
-title: Content Cleanup
+title: 'Content Cleanup'
 uri: 'WPD:Flags/Content Cleanup'
 
 ---

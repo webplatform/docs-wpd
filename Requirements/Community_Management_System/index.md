@@ -1,5 +1,5 @@
 ---
-title: Community Management System
+title: 'Community Management System'
 uri: 'WPD:Requirements/Community Management System'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Batch 12
+title: 'Batch 12'
 uri: 'WPD:Content/Content List/Batch 12'
 
 ---

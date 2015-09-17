@@ -1,5 +1,5 @@
 ---
-title: Step 3: 위키 문서 작업하기
+title: 'Step 3: 위키 문서 작업하기'
 lang: ko
 summary: '이것은 편집자 가이드 Step 3입니다.'
 tags:

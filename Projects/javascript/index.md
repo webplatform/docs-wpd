@@ -1,5 +1,5 @@
 ---
-title: JavaScript project proposal
+title: 'JavaScript project proposal'
 uri: 'WPD:Projects/javascript'
 
 ---

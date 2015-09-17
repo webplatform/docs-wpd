@@ -1,5 +1,5 @@
 ---
-title: JavaScript keyword
+title: 'JavaScript keyword'
 uri: 'WPD:Example Pages/JavaScript keyword'
 
 ---

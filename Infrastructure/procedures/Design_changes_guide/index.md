@@ -1,5 +1,5 @@
 ---
-title: Design changes guide
+title: 'Design changes guide'
 uri: 'WPD:Infrastructure/procedures/Design changes guide'
 
 ---

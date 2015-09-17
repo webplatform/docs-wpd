@@ -1,5 +1,5 @@
 ---
-title: Content Not Neutral
+title: 'Content Not Neutral'
 uri: 'WPD:Flags/Content Not Neutral'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Stub
+title: 'Stub'
 uri: 'WPD:Flags/Stub'
 
 ---

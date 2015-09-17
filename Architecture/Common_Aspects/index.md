@@ -1,5 +1,5 @@
 ---
-title: Common Aspects
+title: 'Common Aspects'
 uri: 'WPD:Architecture/Common Aspects'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: WPD:External Attribution
+title: 'WPD:External Attribution'
 uri: 'WPD:External Attribution'
 
 ---

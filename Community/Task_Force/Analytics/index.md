@@ -1,5 +1,5 @@
 ---
-title: Analytics Task Force
+title: 'Analytics Task Force'
 uri: 'WPD:Community/Task Force/Analytics'
 
 ---

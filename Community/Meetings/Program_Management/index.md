@@ -1,5 +1,5 @@
 ---
-title: Program Management
+title: 'Program Management'
 uri: 'WPD:Community/Meetings/Program Management'
 
 ---

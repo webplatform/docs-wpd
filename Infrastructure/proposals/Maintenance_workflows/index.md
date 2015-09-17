@@ -1,5 +1,5 @@
 ---
-title: Infrastructure Maintenance Workflows
+title: 'Infrastructure Maintenance Workflows'
 uri: 'WPD:Infrastructure/proposals/Maintenance workflows'
 
 ---

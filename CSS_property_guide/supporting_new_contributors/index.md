@@ -1,5 +1,5 @@
 ---
-title: supporting new contributors
+title: 'supporting new contributors'
 uri: 'WPD:CSS property guide/supporting new contributors'
 
 ---

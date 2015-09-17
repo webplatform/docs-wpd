@@ -1,5 +1,5 @@
 ---
-title: Community Engagement Plan
+title: 'Community Engagement Plan'
 uri: 'WPD:Community/Community Engagement Plan'
 
 ---

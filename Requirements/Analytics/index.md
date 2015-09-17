@@ -1,5 +1,5 @@
 ---
-title: Analytics project
+title: 'Analytics project'
 uri: 'WPD:Requirements/Analytics'
 
 ---

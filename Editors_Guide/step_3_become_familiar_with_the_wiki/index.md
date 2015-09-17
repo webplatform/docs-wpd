@@ -1,5 +1,5 @@
 ---
-title: Editor's Guide: Step 3: Become familiar with the wiki
+title: 'Editor\'s Guide: Step 3: Become familiar with the wiki'
 readiness: 'Out of Date'
 summary: 'This is Step 3 of the Editor''s Guide.'
 tags:

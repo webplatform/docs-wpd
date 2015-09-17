@@ -1,5 +1,5 @@
 ---
-title: Finding help
+title: 'Finding help'
 uri: 'WPD:Help'
 
 ---

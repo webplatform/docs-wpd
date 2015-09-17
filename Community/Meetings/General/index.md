@@ -1,5 +1,5 @@
 ---
-title: General
+title: 'General'
 uri: 'WPD:Community/Meetings/General'
 
 ---

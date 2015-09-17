@@ -1,5 +1,5 @@
 ---
-title: A Quick Start to adding your contributions to Web Platform.org
+title: 'A Quick Start to adding your contributions to Web Platform.org'
 summary: 'This article provides quick access to important Content to give you the &quot;lay of the land&quot; to start contributing as quickly as possible...'
 tags:
   - Basic

@@ -1,5 +1,5 @@
 ---
-title: WPD:Code Samples
+title: 'WPD:Code Samples'
 uri: 'WPD:Code Samples'
 
 ---

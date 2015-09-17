@@ -1,5 +1,5 @@
 ---
-title: WPD:Crowdsourcing Testing
+title: 'WPD:Crowdsourcing Testing'
 uri: 'WPD:Crowdsourcing Testing'
 
 ---

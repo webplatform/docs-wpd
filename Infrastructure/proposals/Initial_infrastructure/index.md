@@ -1,5 +1,5 @@
 ---
-title: Initial infrastructure
+title: 'Initial infrastructure'
 uri: 'WPD:Infrastructure/proposals/Initial infrastructure'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Maintaining ElasticSearch cluster
+title: 'Maintaining ElasticSearch cluster'
 uri: 'WPD:Infrastructure/procedures/Maintaining ElasticSearch cluster'
 
 ---

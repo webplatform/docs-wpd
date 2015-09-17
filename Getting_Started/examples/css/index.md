@@ -1,5 +1,5 @@
 ---
-title: CSS pages needing examples
+title: 'CSS pages needing examples'
 uri: 'WPD:Getting Started/examples/css'
 
 ---

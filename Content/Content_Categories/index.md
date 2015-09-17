@@ -1,5 +1,5 @@
 ---
-title: Content Categories
+title: 'Content Categories'
 tags:
   - Basic
   - Pages

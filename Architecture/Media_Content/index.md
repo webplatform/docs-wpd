@@ -1,5 +1,5 @@
 ---
-title: Media Content
+title: 'Media Content'
 uri: 'WPD:Architecture/Media Content'
 
 ---

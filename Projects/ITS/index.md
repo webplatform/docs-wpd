@@ -1,5 +1,5 @@
 ---
-title: ITS
+title: 'ITS'
 uri: 'WPD:Projects/ITS'
 
 ---

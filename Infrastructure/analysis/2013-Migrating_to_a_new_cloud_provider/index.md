@@ -1,5 +1,5 @@
 ---
-title: 2013 - Migrating to a new cloud provider
+title: '2013 - Migrating to a new cloud provider'
 uri: 'WPD:Infrastructure/analysis/2013-Migrating to a new cloud provider'
 
 ---

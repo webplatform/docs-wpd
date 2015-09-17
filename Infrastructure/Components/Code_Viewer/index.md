@@ -1,5 +1,5 @@
 ---
-title: Code Viewer
+title: 'Code Viewer'
 uri: 'WPD:Infrastructure/Components/Code Viewer'
 
 ---

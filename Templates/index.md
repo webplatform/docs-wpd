@@ -1,5 +1,5 @@
 ---
-title: WPD:Templates
+title: 'WPD:Templates'
 uri: 'WPD:Templates'
 
 ---

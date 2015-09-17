@@ -1,5 +1,5 @@
 ---
-title: Decentralized commenting
+title: 'Decentralized commenting'
 uri: 'WPD:Projects/Decentralized commenting'
 
 ---

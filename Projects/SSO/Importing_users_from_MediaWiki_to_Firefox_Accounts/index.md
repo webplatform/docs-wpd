@@ -1,5 +1,5 @@
 ---
-title: Importing users from MediaWiki to Firefox Accounts
+title: 'Importing users from MediaWiki to Firefox Accounts'
 uri: 'WPD:Projects/SSO/Importing users from MediaWiki to Firefox Accounts'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: 2014-07-08 Community Meeting
+title: '2014-07-08 Community Meeting'
 uri: 'WPD:Community/Meetings/General/2014/0708 raw mtg notes'
 
 ---

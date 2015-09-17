@@ -1,5 +1,5 @@
 ---
-title: Move Candidate
+title: 'Move Candidate'
 uri: 'WPD:Flags/Move Candidate'
 
 ---

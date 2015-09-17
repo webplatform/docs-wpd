@@ -1,5 +1,5 @@
 ---
-title: WPD:Design
+title: 'WPD:Design'
 tags:
   - Design
 uri: 'WPD:Design'

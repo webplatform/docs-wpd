@@ -1,5 +1,5 @@
 ---
-title: WebPlatform.org community events
+title: 'WebPlatform.org community events'
 uri: 'WPD:Community/Community Events'
 
 ---

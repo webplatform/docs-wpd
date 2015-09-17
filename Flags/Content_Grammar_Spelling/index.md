@@ -1,5 +1,5 @@
 ---
-title: Content Grammar Spelling
+title: 'Content Grammar Spelling'
 uri: 'WPD:Flags/Content Grammar Spelling'
 
 ---

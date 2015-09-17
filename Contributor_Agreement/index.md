@@ -1,5 +1,5 @@
 ---
-title: WPD:Contributor Agreement
+title: 'WPD:Contributor Agreement'
 uri: 'WPD:Contributor Agreement'
 
 ---

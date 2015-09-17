@@ -1,5 +1,5 @@
 ---
-title: WPD:Sandbox
+title: 'WPD:Sandbox'
 uri: 'WPD:Sandbox'
 
 ---

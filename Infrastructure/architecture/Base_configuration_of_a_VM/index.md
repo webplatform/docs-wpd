@@ -1,5 +1,5 @@
 ---
-title: Base configuration of a VM
+title: 'Base configuration of a VM'
 uri: 'WPD:Infrastructure/architecture/Base configuration of a VM'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Docs pages analytics
+title: 'Docs pages analytics'
 uri: 'WPD:Infrastructure/Components/Docs pages analytics'
 
 ---

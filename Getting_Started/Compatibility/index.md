@@ -1,5 +1,5 @@
 ---
-title: Compatibility
+title: 'Compatibility'
 uri: 'WPD:Getting Started/Compatibility'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Style Tiles
+title: 'Style Tiles'
 tags:
   - Design
 uri: 'WPD:Design/Style Tiles'

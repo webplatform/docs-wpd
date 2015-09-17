@@ -1,5 +1,5 @@
 ---
-title: Step 2: Communicate with the online community
+title: 'Step 2: Communicate with the online community'
 readiness: 'Out of Date'
 summary: 'This is Step 2 of the Editor''s Guide.'
 tags:

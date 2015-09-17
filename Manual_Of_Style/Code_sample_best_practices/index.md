@@ -1,5 +1,5 @@
 ---
-title: Code sample best practices
+title: 'Code sample best practices'
 summary: 'Guidelines to follow for developing code samples in Web Platform Docs.'
 tags:
   - Basic

@@ -1,5 +1,5 @@
 ---
-title: WPD:Guides
+title: 'WPD:Guides'
 uri: 'WPD:Guides'
 
 ---

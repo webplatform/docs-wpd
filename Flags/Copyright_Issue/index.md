@@ -1,5 +1,5 @@
 ---
-title: Copyright Issue
+title: 'Copyright Issue'
 uri: 'WPD:Flags/Copyright Issue'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Content List
+title: 'Content List'
 uri: 'WPD:Content/Content List'
 
 ---

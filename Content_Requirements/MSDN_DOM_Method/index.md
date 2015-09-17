@@ -1,5 +1,5 @@
 ---
-title: MSDN DOM Method
+title: 'MSDN DOM Method'
 uri: 'WPD:Content Requirements/MSDN DOM Method'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Hierarchical Menu
+title: 'Hierarchical Menu'
 uri: 'WPD:Design/Hierarchical Menu'
 
 ---

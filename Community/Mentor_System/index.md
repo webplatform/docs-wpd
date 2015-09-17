@@ -1,5 +1,5 @@
 ---
-title: Webplatform.org mentor system
+title: 'Webplatform.org mentor system'
 summary: 'Folowing on from our ideas about contributor recognition, we should also run a system whereby experts in different skills should act as mentors for those who want to learn. '
 tags:
   - Basic

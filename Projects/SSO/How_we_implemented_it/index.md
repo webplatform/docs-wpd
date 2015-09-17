@@ -1,5 +1,5 @@
 ---
-title: How we implemented SSO
+title: 'How we implemented SSO'
 uri: 'WPD:Projects/SSO/How we implemented it'
 
 ---

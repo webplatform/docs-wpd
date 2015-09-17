@@ -1,5 +1,5 @@
 ---
-title: Logging aggregation and analytics
+title: 'Logging aggregation and analytics'
 uri: 'WPD:Infrastructure/proposals/Logging aggregation and analytics'
 
 ---

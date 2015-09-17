@@ -1,5 +1,5 @@
 ---
-title: Topic Hierarchy
+title: 'Topic Hierarchy'
 uri: 'WPD:Editors Guide/Topic Hierarchy'
 
 ---

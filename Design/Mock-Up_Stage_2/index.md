@@ -1,5 +1,5 @@
 ---
-title: Mock-Up Stage 2
+title: 'Mock-Up Stage 2'
 tags:
   - Design
 uri: 'WPD:Design/Mock-Up Stage 2'

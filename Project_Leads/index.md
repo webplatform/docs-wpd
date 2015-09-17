@@ -1,5 +1,5 @@
 ---
-title: WPD:Project Leads
+title: 'WPD:Project Leads'
 uri: 'WPD:Project Leads'
 
 ---

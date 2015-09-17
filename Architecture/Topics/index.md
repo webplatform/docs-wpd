@@ -1,5 +1,5 @@
 ---
-title: Topics
+title: 'Topics'
 uri: 'WPD:Architecture/Topics'
 
 ---

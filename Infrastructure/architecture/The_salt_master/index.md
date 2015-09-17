@@ -1,5 +1,5 @@
 ---
-title: The Salt Master
+title: 'The Salt Master'
 uri: 'WPD:Infrastructure/architecture/The salt master'
 
 ---

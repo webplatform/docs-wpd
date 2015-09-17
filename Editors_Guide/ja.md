@@ -1,5 +1,5 @@
 ---
-title: WPD:Editors Guide
+title: 'WPD:Editors Guide'
 lang: ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

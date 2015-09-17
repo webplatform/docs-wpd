@@ -1,5 +1,5 @@
 ---
-title: Examples Errors
+title: 'Examples Errors'
 uri: 'WPD:Flags/Examples Errors'
 
 ---

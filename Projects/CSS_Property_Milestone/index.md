@@ -1,5 +1,5 @@
 ---
-title: CSS Property Milestone
+title: 'CSS Property Milestone'
 uri: 'WPD:Projects/CSS Property Milestone'
 
 ---

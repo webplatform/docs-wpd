@@ -1,5 +1,5 @@
 ---
-title: WPD:Test Page
+title: 'WPD:Test Page'
 uri: 'WPD:Test Page'
 
 ---

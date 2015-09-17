@@ -1,5 +1,5 @@
 ---
-title: WPD:Meetings
+title: 'WPD:Meetings'
 uri: 'WPD:Meetings'
 
 ---

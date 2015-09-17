@@ -1,5 +1,5 @@
 ---
-title: Adding to our Docs pages
+title: 'Adding to our Docs pages'
 uri: 'WPD:Projects/CompaTables/Adding to our content'
 
 ---

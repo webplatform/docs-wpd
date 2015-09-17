@@ -1,5 +1,5 @@
 ---
-title: WPW Task Assignment
+title: 'WPW Task Assignment'
 uri: 'WPD:Annotations/Workflows/WPW Task Assignment'
 
 ---

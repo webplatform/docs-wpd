@@ -1,5 +1,5 @@
 ---
-title: Q&A Moderation Guide
+title: 'Q&A Moderation Guide'
 summary: 'Quick guide to Moderation of the WP Q&amp;A section.'
 tags:
   - Basic

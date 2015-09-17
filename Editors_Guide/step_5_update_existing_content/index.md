@@ -1,5 +1,5 @@
 ---
-title: Step 5: Update existing content
+title: 'Step 5: Update existing content'
 notes:
   - 'Need to create a NEW Page for this Editor''s Guide that contains a list of all valid tags and macros for WebPlatform.org. For example, using the tag splist (et al.) to display a list of sub pages, find a link, if this page exists already.'
 readiness: 'Out of Date'

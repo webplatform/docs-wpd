@@ -1,5 +1,5 @@
 ---
-title: Wishlist
+title: 'Wishlist'
 uri: 'WPD:Site/Wishlist'
 
 ---

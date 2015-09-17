@@ -1,5 +1,5 @@
 ---
-title: WPD:Key Contributors
+title: 'WPD:Key Contributors'
 uri: 'WPD:Key Contributors'
 
 ---

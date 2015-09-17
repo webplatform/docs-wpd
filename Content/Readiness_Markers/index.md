@@ -1,5 +1,5 @@
 ---
-title: Readiness Markers & Editorial Notes
+title: 'Readiness Markers & Editorial Notes'
 uri: 'WPD:Content/Readiness Markers'
 
 ---

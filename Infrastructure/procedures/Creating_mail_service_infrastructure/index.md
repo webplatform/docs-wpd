@@ -1,5 +1,5 @@
 ---
-title: Creating mail service infrastructure
+title: 'Creating mail service infrastructure'
 uri: 'WPD:Infrastructure/procedures/Creating mail service infrastructure'
 
 ---

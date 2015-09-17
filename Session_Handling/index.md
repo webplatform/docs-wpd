@@ -1,5 +1,5 @@
 ---
-title: WPD:Session Handling
+title: 'WPD:Session Handling'
 uri: 'WPD:Session Handling'
 
 ---

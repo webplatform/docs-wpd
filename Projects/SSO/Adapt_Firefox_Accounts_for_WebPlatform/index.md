@@ -1,5 +1,5 @@
 ---
-title: Adapt Firefox Accounts for WebPlatform
+title: 'Adapt Firefox Accounts for WebPlatform'
 uri: 'WPD:Projects/SSO/Adapt Firefox Accounts for WebPlatform'
 
 ---

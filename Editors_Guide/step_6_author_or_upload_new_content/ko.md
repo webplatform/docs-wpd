@@ -1,5 +1,5 @@
 ---
-title: Step 6: 새로운 콘텐츠를 작성하기
+title: 'Step 6: 새로운 콘텐츠를 작성하기'
 lang: ko
 summary: '이것은 편집자 가이드 Step6 입니다..'
 tags:

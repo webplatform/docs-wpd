@@ -1,5 +1,5 @@
 ---
-title: KnownIssues
+title: 'KnownIssues'
 summary: 'Known issues with webplatform.org.'
 tags:
   - Basic

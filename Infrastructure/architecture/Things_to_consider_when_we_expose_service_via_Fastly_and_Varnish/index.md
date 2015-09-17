@@ -1,5 +1,5 @@
 ---
-title: Things to consider when we expose service via Fastly and Varnish
+title: 'Things to consider when we expose service via Fastly and Varnish'
 uri: 'WPD:Infrastructure/architecture/Things to consider when we expose service via Fastly and Varnish'
 
 ---

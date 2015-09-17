@@ -1,5 +1,5 @@
 ---
-title: Hardware and software requirements
+title: 'Hardware and software requirements'
 uri: 'WPD:Infrastructure/analysis/2013-Hardware and software requirements'
 
 ---

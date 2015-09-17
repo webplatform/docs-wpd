@@ -1,5 +1,5 @@
 ---
-title: Article Types
+title: 'Article Types'
 uri: 'WPD:Manual Of Style/Article Types'
 
 ---

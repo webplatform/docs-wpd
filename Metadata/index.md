@@ -1,5 +1,5 @@
 ---
-title: WPD:Metadata
+title: 'WPD:Metadata'
 uri: 'WPD:Metadata'
 
 ---

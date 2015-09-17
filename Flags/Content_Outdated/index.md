@@ -1,5 +1,5 @@
 ---
-title: Content Outdated
+title: 'Content Outdated'
 uri: 'WPD:Flags/Content Outdated'
 
 ---

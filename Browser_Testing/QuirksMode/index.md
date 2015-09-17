@@ -1,5 +1,5 @@
 ---
-title: QuirksMode
+title: 'QuirksMode'
 uri: 'WPD:Browser Testing/QuirksMode'
 
 ---

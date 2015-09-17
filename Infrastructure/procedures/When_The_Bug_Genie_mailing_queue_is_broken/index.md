@@ -1,5 +1,5 @@
 ---
-title: When The Bug Genie mailing queue is broken
+title: 'When The Bug Genie mailing queue is broken'
 uri: 'WPD:Infrastructure/procedures/When The Bug Genie mailing queue is broken'
 
 ---

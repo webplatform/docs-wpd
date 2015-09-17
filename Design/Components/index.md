@@ -1,5 +1,5 @@
 ---
-title: Components
+title: 'Components'
 uri: 'WPD:Design/Components'
 
 ---

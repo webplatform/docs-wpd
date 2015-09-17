@@ -1,5 +1,5 @@
 ---
-title: WPD:Flags
+title: 'WPD:Flags'
 uri: 'WPD:Flags'
 
 ---

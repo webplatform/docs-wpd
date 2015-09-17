@@ -1,5 +1,5 @@
 ---
-title: content
+title: 'content'
 uri: 'WPD:Projects/javascript/content'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: proposals
+title: 'proposals'
 uri: 'WPD:Infrastructure/proposals'
 
 ---

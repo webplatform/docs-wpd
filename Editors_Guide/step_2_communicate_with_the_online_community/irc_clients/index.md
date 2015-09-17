@@ -1,5 +1,5 @@
 ---
-title: irc clients
+title: 'irc clients'
 uri: 'WPD:Editors Guide/step 2 communicate with the online community/irc clients'
 
 ---

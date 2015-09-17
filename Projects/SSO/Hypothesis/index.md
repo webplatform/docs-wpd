@@ -1,5 +1,5 @@
 ---
-title: Annotator (w/ Hypothes.is)
+title: 'Annotator (w/ Hypothes.is)'
 uri: 'WPD:Projects/SSO/Hypothesis'
 
 ---

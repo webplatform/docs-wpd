@@ -1,5 +1,5 @@
 ---
-title: Keeping on topic in webplatform.org IRC and Q&A
+title: 'Keeping on topic in webplatform.org IRC and Q&A'
 uri: 'WPD:Keeping on Topic'
 
 ---

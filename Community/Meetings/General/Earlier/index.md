@@ -1,5 +1,5 @@
 ---
-title: Earlier
+title: 'Earlier'
 uri: 'WPD:Community/Meetings/General/Earlier'
 
 ---

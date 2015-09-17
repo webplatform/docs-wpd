@@ -1,5 +1,5 @@
 ---
-title: WPD:Semantic Forms
+title: 'WPD:Semantic Forms'
 uri: 'WPD:Semantic Forms'
 
 ---

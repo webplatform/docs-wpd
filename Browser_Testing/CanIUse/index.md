@@ -1,5 +1,5 @@
 ---
-title: CanIUse
+title: 'CanIUse'
 uri: 'WPD:Browser Testing/CanIUse'
 
 ---

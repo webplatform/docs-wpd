@@ -1,5 +1,5 @@
 ---
-title: How MediaWiki backend sees an HTTP request. With or without Fastly in front
+title: 'How MediaWiki backend sees an HTTP request. With or without Fastly in front'
 uri: 'WPD:Infrastructure/analysis/2015-How MediaWiki backend sees requests with or without Fastly in front'
 
 ---

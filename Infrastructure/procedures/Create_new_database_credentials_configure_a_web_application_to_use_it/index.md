@@ -1,5 +1,5 @@
 ---
-title: Create new database credentials and configure a web application to use it
+title: 'Create new database credentials and configure a web application to use it'
 uri: 'WPD:Infrastructure/procedures/Create new database credentials configure a web application to use it'
 
 ---

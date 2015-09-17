@@ -1,5 +1,5 @@
 ---
-title: Data Not Semantic
+title: 'Data Not Semantic'
 uri: 'WPD:Flags/Data Not Semantic'
 
 ---

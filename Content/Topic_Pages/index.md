@@ -1,5 +1,5 @@
 ---
-title: Topic Pages
+title: 'Topic Pages'
 uri: 'WPD:Content/Topic Pages'
 
 ---

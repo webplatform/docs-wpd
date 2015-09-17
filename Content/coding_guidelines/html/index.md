@@ -1,5 +1,5 @@
 ---
-title: html
+title: 'html'
 notes:
   - 'These guidelines aim to produce consistent coding style throughout all HTML examples on WebPlatform Docs.'
 tags:

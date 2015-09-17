@@ -1,5 +1,5 @@
 ---
-title: Videos
+title: 'Videos'
 uri: 'WPD:Marketing/Videos'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Monit
+title: 'Monit'
 uri: 'WPD:Infrastructure/Monitoring/Monit'
 
 ---

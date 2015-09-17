@@ -1,5 +1,5 @@
 ---
-title: WPD:Project Status
+title: 'WPD:Project Status'
 uri: 'WPD:Project Status'
 
 ---

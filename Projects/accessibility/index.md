@@ -1,5 +1,5 @@
 ---
-title: accessibility
+title: 'accessibility'
 uri: 'WPD:Projects/accessibility'
 
 ---

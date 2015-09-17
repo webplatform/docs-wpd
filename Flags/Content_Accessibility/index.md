@@ -1,5 +1,5 @@
 ---
-title: Content Accessibility
+title: 'Content Accessibility'
 uri: 'WPD:Flags/Content Accessibility'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions ("FAQ")
+title: 'Frequently Asked Questions ("FAQ")'
 uri: 'WPD:Compatibility Info/FAQ'
 
 ---

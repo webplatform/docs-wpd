@@ -1,5 +1,5 @@
 ---
-title: Scenarios
+title: 'Scenarios'
 uri: 'WPD:Annotations/Scenarios'
 
 ---

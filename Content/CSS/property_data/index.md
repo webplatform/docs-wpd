@@ -1,5 +1,5 @@
 ---
-title: property data
+title: 'property data'
 uri: 'WPD:Content/CSS/property data'
 
 ---

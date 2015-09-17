@@ -1,5 +1,5 @@
 ---
-title: WPD:Tasks
+title: 'WPD:Tasks'
 uri: 'WPD:Tasks'
 
 ---

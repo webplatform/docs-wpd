@@ -1,5 +1,5 @@
 ---
-title: WPD:Index
+title: 'WPD:Index'
 uri: 'WPD:Index'
 
 ---

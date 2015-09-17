@@ -1,5 +1,5 @@
 ---
-title: Installing Firefox Accounts ("FxA")
+title: 'Installing Firefox Accounts ("FxA")'
 uri: 'WPD:Infrastructure/procedures/Installing and theme Firefox accounts'
 
 ---

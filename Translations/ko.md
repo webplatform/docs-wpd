@@ -1,5 +1,5 @@
 ---
-title: WPD:Translations
+title: 'WPD:Translations'
 lang: ko
 uri: 'WPD:Translations/ko'
 

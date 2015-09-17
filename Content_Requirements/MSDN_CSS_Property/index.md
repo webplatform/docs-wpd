@@ -1,5 +1,5 @@
 ---
-title: MSDN CSS Property
+title: 'MSDN CSS Property'
 uri: 'WPD:Content Requirements/MSDN CSS Property'
 
 ---

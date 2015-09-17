@@ -1,5 +1,5 @@
 ---
-title: Step 6: Author or upload new content
+title: 'Step 6: Author or upload new content'
 notes:
   - 'Update documentation about Compability'
 readiness: 'Out of Date'

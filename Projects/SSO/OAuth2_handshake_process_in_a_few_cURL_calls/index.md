@@ -1,5 +1,5 @@
 ---
-title: OAuth2 handshake process in a few cURL calls
+title: 'OAuth2 handshake process in a few cURL calls'
 uri: 'WPD:Projects/SSO/OAuth2 handshake process in a few cURL calls'
 
 ---

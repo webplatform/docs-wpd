@@ -1,5 +1,5 @@
 ---
-title: Pillars
+title: 'Pillars'
 uri: 'WPD:Policy/Pillars'
 
 ---

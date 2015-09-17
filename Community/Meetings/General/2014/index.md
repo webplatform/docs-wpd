@@ -1,5 +1,5 @@
 ---
-title: Notes from meetings that happened in 2014
+title: 'Notes from meetings that happened in 2014'
 uri: 'WPD:Community/Meetings/General/2014'
 
 ---

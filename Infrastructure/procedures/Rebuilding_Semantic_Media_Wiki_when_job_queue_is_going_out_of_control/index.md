@@ -1,5 +1,5 @@
 ---
-title: Rebuilding SMW when job queue is going out of control
+title: 'Rebuilding SMW when job queue is going out of control'
 uri: 'WPD:Infrastructure/procedures/Rebuilding Semantic Media Wiki when job queue is going out of control'
 
 ---

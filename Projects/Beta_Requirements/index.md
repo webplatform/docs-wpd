@@ -1,5 +1,5 @@
 ---
-title: WebPlatform.org beta requirements
+title: 'WebPlatform.org beta requirements'
 summary: 'This page is a brainstorm page for deciding on and listing the tasks that need to be done before we can move WebPlatform.org to beta stage.'
 tags:
   - Basic

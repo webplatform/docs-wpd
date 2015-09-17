@@ -1,5 +1,5 @@
 ---
-title: WebPlatform server Infrastructure architecture
+title: 'WebPlatform server Infrastructure architecture'
 uri: 'WPD:Infrastructure/architecture'
 
 ---

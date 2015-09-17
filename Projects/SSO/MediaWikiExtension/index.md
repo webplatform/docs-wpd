@@ -1,5 +1,5 @@
 ---
-title: MediaWiki SSO using Firefox Accounts
+title: 'MediaWiki SSO using Firefox Accounts'
 uri: 'WPD:Projects/SSO/MediaWikiExtension'
 
 ---

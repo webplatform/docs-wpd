@@ -1,5 +1,5 @@
 ---
-title: WPD:Doc Sprints
+title: 'WPD:Doc Sprints'
 uri: 'WPD:Doc Sprints'
 
 ---

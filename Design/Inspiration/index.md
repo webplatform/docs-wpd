@@ -1,5 +1,5 @@
 ---
-title: Inspiration
+title: 'Inspiration'
 tags:
   - Design
 uri: 'WPD:Design/Inspiration'

@@ -1,5 +1,5 @@
 ---
-title: WPD:Infrastructure
+title: 'WPD:Infrastructure'
 uri: 'WPD:Infrastructure'
 
 ---

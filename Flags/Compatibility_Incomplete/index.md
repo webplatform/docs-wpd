@@ -1,5 +1,5 @@
 ---
-title: Compatibility Incomplete
+title: 'Compatibility Incomplete'
 uri: 'WPD:Flags/Compatibility Incomplete'
 
 ---

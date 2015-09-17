@@ -1,5 +1,5 @@
 ---
-title: Discuss
+title: 'Discuss'
 uri: 'WPD:discuss'
 
 ---

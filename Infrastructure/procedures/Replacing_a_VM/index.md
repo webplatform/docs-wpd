@@ -1,5 +1,5 @@
 ---
-title: Replacing a VM
+title: 'Replacing a VM'
 uri: 'WPD:Infrastructure/procedures/Replacing a VM'
 
 ---

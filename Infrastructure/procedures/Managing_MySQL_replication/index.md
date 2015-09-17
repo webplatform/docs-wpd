@@ -1,5 +1,5 @@
 ---
-title: Managing MySQL Replication over SSL
+title: 'Managing MySQL Replication over SSL'
 uri: 'WPD:Infrastructure/procedures/Managing MySQL replication'
 
 ---

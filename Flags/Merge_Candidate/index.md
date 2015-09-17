@@ -1,5 +1,5 @@
 ---
-title: Merge Candidate
+title: 'Merge Candidate'
 uri: 'WPD:Flags/Merge Candidate'
 
 ---

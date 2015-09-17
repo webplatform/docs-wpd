@@ -1,5 +1,5 @@
 ---
-title: HTML elements & attributes
+title: 'HTML elements & attributes'
 uri: 'WPD:Projects/HTML elems attrs'
 
 ---

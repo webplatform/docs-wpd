@@ -1,5 +1,5 @@
 ---
-title: Stewardship Committee Charter
+title: 'Stewardship Committee Charter'
 uri: 'WPD:Stewardship Committee Charter'
 
 ---

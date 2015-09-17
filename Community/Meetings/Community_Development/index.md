@@ -1,5 +1,5 @@
 ---
-title: Community Development
+title: 'Community Development'
 uri: 'WPD:Community/Meetings/Community Development'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Setting in place a structure for contributors to improve site
+title: 'Setting in place a structure for contributors to improve site'
 uri: 'WPD:Projects/Setting in place structure for contributors to improve site'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: WPD:Multilanguage Support
+title: 'WPD:Multilanguage Support'
 uri: 'WPD:Multilanguage Support'
 
 ---

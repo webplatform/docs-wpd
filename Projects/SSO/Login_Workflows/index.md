@@ -1,5 +1,5 @@
 ---
-title: Login workflows
+title: 'Login workflows'
 uri: 'WPD:Projects/SSO/Login Workflows'
 
 ---

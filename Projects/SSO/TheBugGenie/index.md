@@ -1,5 +1,5 @@
 ---
-title: The Bug Genie
+title: 'The Bug Genie'
 uri: 'WPD:Projects/SSO/TheBugGenie'
 
 ---

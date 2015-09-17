@@ -1,5 +1,5 @@
 ---
-title: October 2014 sprint report
+title: 'October 2014 sprint report'
 uri: 'WPD:Infrastructure/reports/201410'
 
 ---

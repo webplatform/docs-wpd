@@ -1,5 +1,5 @@
 ---
-title: A hitchhiker’s guide to skinning the Bug Genie
+title: 'A hitchhiker’s guide to skinning the Bug Genie'
 uri: 'WPD:Skinning the bug genie'
 
 ---

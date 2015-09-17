@@ -1,5 +1,5 @@
 ---
-title: Mock-Up Stage 1
+title: 'Mock-Up Stage 1'
 tags:
   - Design
 todo_broken_links:

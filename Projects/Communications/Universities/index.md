@@ -1,5 +1,5 @@
 ---
-title: Universities
+title: 'Universities'
 uri: 'WPD:Projects/Communications/Universities'
 
 ---

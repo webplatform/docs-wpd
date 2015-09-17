@@ -1,5 +1,5 @@
 ---
-title: WPD:Blogging
+title: 'WPD:Blogging'
 uri: 'WPD:Blogging'
 
 ---

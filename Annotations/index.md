@@ -1,5 +1,5 @@
 ---
-title: Annotations
+title: 'Annotations'
 uri: 'WPD:Annotations'
 
 ---

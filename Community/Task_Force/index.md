@@ -1,5 +1,5 @@
 ---
-title: WPD Community Task Forces
+title: 'WPD Community Task Forces'
 uri: 'WPD:Community/Task Force'
 
 ---

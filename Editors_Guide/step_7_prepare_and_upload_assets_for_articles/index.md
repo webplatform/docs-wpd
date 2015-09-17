@@ -1,5 +1,5 @@
 ---
-title: Step 7: Prepare and upload assets for articles
+title: 'Step 7: Prepare and upload assets for articles'
 summary: 'This is Step 7 of the Editor''s Guide.'
 tags:
   - Basic

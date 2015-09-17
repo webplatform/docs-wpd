@@ -1,5 +1,5 @@
 ---
-title: Landing
+title: 'Landing'
 uri: 'WPD:Design/Landing'
 
 ---

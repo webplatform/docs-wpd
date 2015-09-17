@@ -1,5 +1,5 @@
 ---
-title: Unreviewed Import
+title: 'Unreviewed Import'
 uri: 'WPD:Flags/Unreviewed Import'
 
 ---

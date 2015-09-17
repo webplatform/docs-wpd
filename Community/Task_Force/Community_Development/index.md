@@ -1,5 +1,5 @@
 ---
-title: Community Development task force
+title: 'Community Development task force'
 uri: 'WPD:Community/Task Force/Community Development'
 
 ---

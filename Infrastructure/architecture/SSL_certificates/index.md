@@ -1,5 +1,5 @@
 ---
-title: SSL Certificates
+title: 'SSL Certificates'
 uri: 'WPD:Infrastructure/architecture/SSL certificates'
 
 ---

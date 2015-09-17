@@ -1,5 +1,5 @@
 ---
-title: Maintaining Varnish/Fastly configuration
+title: 'Maintaining Varnish/Fastly configuration'
 uri: 'WPD:Infrastructure/procedures/Maintaining Varnish or Fastly configuration'
 
 ---

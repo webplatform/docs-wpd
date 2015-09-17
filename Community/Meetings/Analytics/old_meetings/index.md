@@ -1,5 +1,5 @@
 ---
-title: old meetings
+title: 'old meetings'
 uri: 'WPD:Community/Meetings/Analytics/old meetings'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: QASprints
+title: 'QASprints'
 uri: 'WPD:Projects/QASprints'
 
 ---

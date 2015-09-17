@@ -1,5 +1,5 @@
 ---
-title: Editor's Guide Proposal [DONE]
+title: 'Editor\'s Guide Proposal [DONE]'
 summary: "Go to WPD:Editors Guide for the Editor's Guide, the result of this project.\n"
 tags:
   - Basic

@@ -1,5 +1,5 @@
 ---
-title: Content Errors
+title: 'Content Errors'
 uri: 'WPD:Flags/Content Errors'
 
 ---

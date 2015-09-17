@@ -1,5 +1,5 @@
 ---
-title: Practice Page
+title: 'Practice Page'
 code_samples:
   - 'http://gist.github.com/286d4dbdf96f6fe42b0f'
 notes:
@@ -97,19 +97,6 @@ uri: 'WPD:Practice Page'
 This makes it easier for me to do free flowing content editing, which I am unable to do in Notepad.
 
 [Template:This is the api](/w/index.php?title=Template:This_is_the_api&action=edit&redlink=1)
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Language:**
-
-</th>
-<td class="mbox-text">
-****English****
-
-</td>
-</tr>
-</table>
 
 ## Overview table
 

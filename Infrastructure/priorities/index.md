@@ -1,5 +1,5 @@
 ---
-title: Infrastructure priorities
+title: 'Infrastructure priorities'
 uri: 'WPD:Infrastructure/priorities'
 
 ---

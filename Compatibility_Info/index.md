@@ -1,5 +1,5 @@
 ---
-title: WPD:Compatibility Info
+title: 'WPD:Compatibility Info'
 uri: 'WPD:Compatibility Info'
 
 ---

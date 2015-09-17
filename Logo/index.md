@@ -1,5 +1,5 @@
 ---
-title: WPD:Logo
+title: 'WPD:Logo'
 uri: 'WPD:Logo'
 
 ---

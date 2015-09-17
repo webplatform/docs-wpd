@@ -1,5 +1,5 @@
 ---
-title: Reporting an issue
+title: 'Reporting an issue'
 readiness: 'Ready to Use'
 summary: 'How to report a bug or an issue to participate'
 tags:

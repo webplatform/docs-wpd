@@ -1,5 +1,5 @@
 ---
-title: icons
+title: 'icons'
 uri: 'WPD:Design/icons'
 
 ---

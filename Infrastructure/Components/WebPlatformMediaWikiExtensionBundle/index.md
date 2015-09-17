@@ -1,5 +1,5 @@
 ---
-title: Description
+title: 'Description'
 uri: 'WPD:Infrastructure/Components/WebPlatformMediaWikiExtensionBundle'
 
 ---

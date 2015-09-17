@@ -1,5 +1,5 @@
 ---
-title: WebPlatform.org bugs
+title: 'WebPlatform.org bugs'
 uri: 'WPD:Filing Bugs'
 
 ---

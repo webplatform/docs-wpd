@@ -1,5 +1,5 @@
 ---
-title: Import Guide
+title: 'Import Guide'
 summary: 'This is a guide to importing articles form other sources into WPD, including converting HTML to Wiki markup, how to fill in the page type forms, and more.'
 tags:
   - Basic

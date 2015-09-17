@@ -1,5 +1,5 @@
 ---
-title: Site status problem notification messages
+title: 'Site status problem notification messages'
 uri: 'WPD:Infrastructure/proposals/Site status problem notification messages'
 
 ---

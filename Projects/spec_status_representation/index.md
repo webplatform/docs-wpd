@@ -1,5 +1,5 @@
 ---
-title: Representing the status of a spec
+title: 'Representing the status of a spec'
 uri: 'WPD:Projects/spec status representation'
 
 ---

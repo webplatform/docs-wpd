@@ -1,5 +1,5 @@
 ---
-title: Creating/editing reference articles
+title: 'Creating/editing reference articles'
 summary: 'This article provides a guide to editing and creating reference articles. Following the steps below should give good results, but if you have any questions, feel free to share them on the mailing list or IRC or Q&amp;A (see our help page for more details.)'
 tags:
   - Basic

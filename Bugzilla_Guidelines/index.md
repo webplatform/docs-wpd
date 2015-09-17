@@ -1,5 +1,5 @@
 ---
-title: Bugzilla Guidelines
+title: 'Bugzilla Guidelines'
 summary: "We are using Bugzilla on this project for two types of bugs:\n"
 tags:
   - Basic

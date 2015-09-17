@@ -1,5 +1,5 @@
 ---
-title: WPD:Content
+title: 'WPD:Content'
 uri: 'WPD:Content'
 
 ---

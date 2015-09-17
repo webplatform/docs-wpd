@@ -1,5 +1,5 @@
 ---
-title: display
+title: 'display'
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`inline`'
   'Applies to': 'All elements'

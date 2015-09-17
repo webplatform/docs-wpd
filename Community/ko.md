@@ -1,5 +1,5 @@
 ---
-title: 커뮤니티에 참여하기
+title: '커뮤니티에 참여하기'
 lang: ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -67,18 +67,6 @@ todo_broken_links:
 uri: 'WPD:Community/ko'
 
 ---
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**언어:**
-
-</th>
-<td class="mbox-text">
-**[English](/WPD:Community)**  • <span lang="ko">**한국어**</span>
-
-</td>
-</tr>
-</table>
 웹 플랫폼 문서는 월드 와이드 웹 기술을 문서화하는 목적의 커뮤니티입니다. 웹 기술을 처음 시작하거나 또는 이미 웹 전문가든 상관없이, [커뮤니티에 참여](/WPD:Editors_Guide/step_2_communicate_with_the_online_community)하기를 권장합니다.
 
 ![community pic.jpeg](/WPD/assets/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg)

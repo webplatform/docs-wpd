@@ -1,5 +1,5 @@
 ---
-title: Meetings and schedules
+title: 'Meetings and schedules'
 uri: 'WPD:Community/Meetings'
 
 ---

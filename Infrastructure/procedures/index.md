@@ -1,5 +1,5 @@
 ---
-title: procedures
+title: 'procedures'
 uri: 'WPD:Infrastructure/procedures'
 
 ---

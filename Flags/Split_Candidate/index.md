@@ -1,5 +1,5 @@
 ---
-title: Split Candidate
+title: 'Split Candidate'
 uri: 'WPD:Flags/Split Candidate'
 
 ---

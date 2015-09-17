@@ -1,5 +1,5 @@
 ---
-title: CSS property editing guide
+title: 'CSS property editing guide'
 summary: 'Help us update, review, add samples, and add quality to the CSS properties! This article is a guide to implementing a CSS property reference page.'
 tags:
   - Basic

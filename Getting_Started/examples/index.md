@@ -1,5 +1,5 @@
 ---
-title: Pages needing examples
+title: 'Pages needing examples'
 uri: 'WPD:Getting Started/examples'
 
 ---

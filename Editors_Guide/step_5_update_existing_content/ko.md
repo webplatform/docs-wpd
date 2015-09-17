@@ -1,5 +1,5 @@
 ---
-title: Step 5: 기존에 작성된 콘텐츠를 수정하기
+title: 'Step 5: 기존에 작성된 콘텐츠를 수정하기'
 lang: ko
 summary: '이것은 편집자 가이드 Step 5입니다.'
 tags:

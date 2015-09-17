@@ -1,5 +1,5 @@
 ---
-title: Missing Relevant Sections
+title: 'Missing Relevant Sections'
 uri: 'WPD:Flags/Missing Relevant Sections'
 
 ---

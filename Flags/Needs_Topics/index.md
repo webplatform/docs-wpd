@@ -1,5 +1,5 @@
 ---
-title: Needs Topics
+title: 'Needs Topics'
 uri: 'WPD:Flags/Needs Topics'
 
 ---

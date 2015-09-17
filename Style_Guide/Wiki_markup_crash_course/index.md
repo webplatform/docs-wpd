@@ -1,5 +1,5 @@
 ---
-title: Media Wiki crash course
+title: 'Media Wiki crash course'
 uri: 'WPD:Style Guide/Wiki markup crash course'
 
 ---

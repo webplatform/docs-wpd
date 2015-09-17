@@ -1,5 +1,5 @@
 ---
-title: Site Map
+title: 'Site Map'
 uri: 'WPD:Infrastructure/proposals/Site Map'
 
 ---

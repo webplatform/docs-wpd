@@ -1,5 +1,5 @@
 ---
-title: Q&A FAQ
+title: 'Q&A FAQ'
 tags:
   - Basic
   - Pages

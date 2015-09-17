@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: 'Tables'
 uri: 'WPD:Style Guide/Tables'
 
 ---

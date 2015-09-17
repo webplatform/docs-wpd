@@ -1,5 +1,5 @@
 ---
-title: Step 1: Register for a WebPlatform.org wiki account
+title: 'Step 1: Register for a WebPlatform.org wiki account'
 summary: 'This is Step 1 of the Editor''s Guide.'
 tags:
   - Basic

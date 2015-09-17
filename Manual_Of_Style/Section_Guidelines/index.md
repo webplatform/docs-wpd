@@ -1,5 +1,5 @@
 ---
-title: Section Guidelines
+title: 'Section Guidelines'
 uri: 'WPD:Manual Of Style/Section Guidelines'
 
 ---

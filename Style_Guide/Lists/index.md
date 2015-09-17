@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: 'Lists'
 uri: 'WPD:Style Guide/Lists'
 
 ---

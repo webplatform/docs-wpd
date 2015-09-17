@@ -1,5 +1,5 @@
 ---
-title: Reviewer Checklist
+title: 'Reviewer Checklist'
 tags:
   - Topics
 uri: 'WPD:WPD:Contributors Guide/reviewer checklist'

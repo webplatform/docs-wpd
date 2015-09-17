@@ -1,5 +1,5 @@
 ---
-title: Infrastructure Monitoring
+title: 'Infrastructure Monitoring'
 uri: 'WPD:Infrastructure/Monitoring'
 
 ---

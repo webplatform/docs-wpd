@@ -1,5 +1,5 @@
 ---
-title: WPD:Copyright
+title: 'WPD:Copyright'
 uri: 'WPD:Copyright'
 
 ---

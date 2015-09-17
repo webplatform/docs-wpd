@@ -1,5 +1,5 @@
 ---
-title: Landingv2
+title: 'Landingv2'
 uri: 'WPD:Design/Landingv2'
 
 ---

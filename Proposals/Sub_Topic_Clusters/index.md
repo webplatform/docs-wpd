@@ -1,5 +1,5 @@
 ---
-title: Sub-topic Clusters in WPD
+title: 'Sub-topic Clusters in WPD'
 uri: 'WPD:Proposals/Sub Topic Clusters'
 
 ---

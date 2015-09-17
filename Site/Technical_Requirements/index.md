@@ -1,5 +1,5 @@
 ---
-title: Technical Requirements
+title: 'Technical Requirements'
 uri: 'WPD:Site/Technical Requirements'
 
 ---

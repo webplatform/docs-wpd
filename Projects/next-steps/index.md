@@ -1,5 +1,5 @@
 ---
-title: What’s next with the project?
+title: 'What’s next with the project?'
 uri: 'WPD:Projects/next-steps'
 
 ---

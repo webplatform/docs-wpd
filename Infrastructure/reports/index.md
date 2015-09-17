@@ -1,5 +1,5 @@
 ---
-title: Infrastructure work progress reports
+title: 'Infrastructure work progress reports'
 uri: 'WPD:Infrastructure/reports'
 
 ---

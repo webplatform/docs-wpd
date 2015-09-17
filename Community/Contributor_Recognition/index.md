@@ -1,5 +1,5 @@
 ---
-title: Contributor Recognition
+title: 'Contributor Recognition'
 uri: 'WPD:Community/Contributor Recognition'
 
 ---

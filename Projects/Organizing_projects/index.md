@@ -1,5 +1,5 @@
 ---
-title: Organizing projects
+title: 'Organizing projects'
 uri: 'WPD:Projects/Organizing projects'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: MSDN HTML Attribute
+title: 'MSDN HTML Attribute'
 uri: 'WPD:Content Requirements/MSDN HTML Attribute'
 
 ---

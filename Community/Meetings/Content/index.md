@@ -1,5 +1,5 @@
 ---
-title: Content
+title: 'Content'
 uri: 'WPD:Community/Meetings/Content'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: WPD:Norms
+title: 'WPD:Norms'
 uri: 'WPD:Norms'
 
 ---

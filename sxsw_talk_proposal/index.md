@@ -1,5 +1,5 @@
 ---
-title: WPD:sxsw talk proposal
+title: 'WPD:sxsw talk proposal'
 uri: 'WPD:sxsw talk proposal'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Survey
+title: 'Survey'
 uri: 'WPD:Community/Survey'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Step 4: 기존에 작성된 콘텐츠를 검토하기
+title: 'Step 4: 기존에 작성된 콘텐츠를 검토하기'
 lang: ko
 summary: '이것은 편집자 가이드 Step 4입니다..'
 tags:

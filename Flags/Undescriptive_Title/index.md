@@ -1,5 +1,5 @@
 ---
-title: Undescriptive Title
+title: 'Undescriptive Title'
 uri: 'WPD:Flags/Undescriptive Title'
 
 ---

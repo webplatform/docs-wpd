@@ -1,5 +1,5 @@
 ---
-title: Proposal
+title: 'Proposal'
 uri: 'WPD:Projects/SSO/Proposal'
 
 ---

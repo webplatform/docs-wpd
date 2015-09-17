@@ -1,5 +1,5 @@
 ---
-title: Public conduct/displine guidelines
+title: 'Public conduct/displine guidelines'
 uri: 'WPD:Conduct'
 
 ---

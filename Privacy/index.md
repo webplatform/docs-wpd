@@ -1,5 +1,5 @@
 ---
-title: WPD:Privacy
+title: 'WPD:Privacy'
 uri: 'WPD:Privacy'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Analytics Task Force Meeting
+title: 'Analytics Task Force Meeting'
 uri: 'WPD:Community/Meetings/Analytics'
 
 ---

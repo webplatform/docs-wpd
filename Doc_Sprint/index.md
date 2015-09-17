@@ -1,5 +1,5 @@
 ---
-title: Doc Sprint in a Box
+title: 'Doc Sprint in a Box'
 uri: 'WPD:Doc Sprint'
 
 ---

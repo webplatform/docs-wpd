@@ -1,5 +1,5 @@
 ---
-title: Spec Review
+title: 'Spec Review'
 uri: 'WPD:Annotations/Workflows/Spec Review'
 
 ---

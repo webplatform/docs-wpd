@@ -1,5 +1,5 @@
 ---
-title: WPD style guide
+title: 'WPD style guide'
 uri: 'WPD:Style Guide'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Test
+title: 'Test'
 uri: 'WPD:Compatibility Info/Test'
 
 ---

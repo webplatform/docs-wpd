@@ -1,5 +1,5 @@
 ---
-title: Needs Flags
+title: 'Needs Flags'
 uri: 'WPD:Flags/Needs Flags'
 
 ---

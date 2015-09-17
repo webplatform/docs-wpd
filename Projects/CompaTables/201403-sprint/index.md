@@ -1,5 +1,5 @@
 ---
-title: Sprint of 2014-03
+title: 'Sprint of 2014-03'
 uri: 'WPD:Projects/CompaTables/201403-sprint'
 
 ---

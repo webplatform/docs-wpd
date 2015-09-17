@@ -1,5 +1,5 @@
 ---
-title: Typical wiki maintenance tasks
+title: 'Typical wiki maintenance tasks'
 summary: 'This page contains some quick guides to performing small maintenance tasks, which we thought were too small to put on their own separate pages.'
 tags:
   - Basic

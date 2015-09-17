@@ -1,5 +1,5 @@
 ---
-title: Swag
+title: 'Swag'
 uri: 'WPD:Marketing/Swag'
 
 ---

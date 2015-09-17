@@ -1,5 +1,5 @@
 ---
-title: old compatibility table instrux
+title: 'old compatibility table instrux'
 uri: 'WPD:CSS property guide/old compatibility table instrux'
 
 ---

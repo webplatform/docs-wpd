@@ -1,5 +1,5 @@
 ---
-title: WPD:New Page
+title: 'WPD:New Page'
 uri: 'WPD:New Page'
 
 ---

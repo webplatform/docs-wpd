@@ -1,5 +1,5 @@
 ---
-title: WPD:Metrics
+title: 'WPD:Metrics'
 uri: 'WPD:Metrics'
 
 ---

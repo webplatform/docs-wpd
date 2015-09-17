@@ -1,5 +1,5 @@
 ---
-title: Web Platform Docs Community Engagement Goals, Metrics, and Execution
+title: 'Web Platform Docs Community Engagement Goals, Metrics, and Execution'
 uri: 'WPD:Community Engagement Plan/Goals'
 
 ---

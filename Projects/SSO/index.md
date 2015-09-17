@@ -1,5 +1,5 @@
 ---
-title: WebPlatform SSO
+title: 'WebPlatform SSO'
 uri: 'WPD:Projects/SSO'
 
 ---

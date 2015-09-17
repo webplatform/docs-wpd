@@ -1,5 +1,5 @@
 ---
-title: Step 2: 온라인 커뮤니티에서 교류하기
+title: 'Step 2: 온라인 커뮤니티에서 교류하기'
 lang: ko
 summary: '이것은 편집자 가이드 Step 2 입니다.'
 tags:
@@ -74,18 +74,6 @@ uri: 'WPD:Editors Guide/step 2 communicate with the online community/ko'
 
 이것은 편집자 가이드 Step 2 입니다.
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**언어:**
-
-</th>
-<td class="mbox-text">
-**[English](/WPD:Editors_Guide/step_2_communicate_with_the_online_community)**  • <span lang="ko">**한국어**</span>
-
-</td>
-</tr>
-</table>
 ## IRC 채널에서 대화에 참여하세요.
 
 WebPlatform.org 온라인 커뮤니티는 IRC를 광범위하게 사용합니다. 아래 설정값으로 IRC 클라이언트를 통해 WebPlatform 채널에 접속하세요.
