@@ -11,7 +11,7 @@ Some material on the site comes from other sources that have made it available u
 
 ## Contributing
 
-When you register to edit at WebPlatform.org, you agree to the [Web Platform Documentation Site Contributor Agreement](http://docs.webplatform.org/wiki/MediaWiki:Site-terms-of-service), agreeing to post only material you own or have rights to post and share. Material you contribute will be licensed CC-BY for others to use and remix.
+When you register to edit at WebPlatform.org, you agree to the [Web Platform Documentation Site Contributor Agreement](/Contributor_Agreement), agreeing to post only material you own or have rights to post and share. Material you contribute will be licensed CC-BY for others to use and remix.
 
 ## Reporting Copyright Infringement
 
