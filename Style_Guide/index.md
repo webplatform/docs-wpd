@@ -60,21 +60,29 @@ We follow the [Yahoo style guide](http://styleguide.yahoo.com/) for language sty
 
 ## Code syntax highlighting
 
-WPD uses the [SyntaxHighlight](http://www.mediawiki.org/wiki/Syntaxhighlight) GeSHi extension for syntax highlighting. Use the following guidelines for WPD articles.
+WPD now uses Markdown to store its content. You can use typical [Markdown syntax as GitHub documented it](https://help.github.com/articles/github-flavored-markdown/) and it should work just fine in our pages.
 
--   Use `<syntaxhighlight>` only for standalone code blocks; for inline terms use the `<code>` tag (as used in this list item).
--   Specify the language for each code block in the opening tag: `<syntaxhighlight lang="language">`. You can find a full list of supported languages in the [Syntaxhighlight documentation](http://www.mediawiki.org/wiki/Syntaxhighlight).
--   `html5`, `css`, and `javascript` are the most common language notations you'll use. Note that using just `html` does not work; you must use either `html5` or `html4strict` to get proper highlighting.
--   Prefer `<syntaxhighlight>` blocks to `<pre>` blocks, and do not use them together in any case — the SyntaxHighlight extension handles all the formatting.
--   There is no need to escape entities like angle brackets inside your code block; Syntaxhighlight takes care of that as well.
--   Lines of code can be emphasized by providing a `highlight=""` attribute:
-    -   `<syntaxhighlight lang="language" highlight="3">`
-        This highlights the third line in your code snippet.
-    -   `<syntaxhighlight lang="language" highlight="3-5">`
-        `<syntaxhighlight lang="language" highlight="1,4,8">`
-        This highlights a range of lines or multiple lines specified one by one.
-    -   `<syntaxhighlight lang="language" highlight="1,4-6,9">`
-        Multiple options can even be mixed together.
+### Inline litteral usage
+
+If you want to use an HTML/XML as part of the content, you'll have to either escape it using backslash \\,
+for example an XML tag could be written like this \<xml type="tag"\>foo\</foo\>,
+or mark it between backticks (\`) like that `<xml type="tag">foo</xml>`.
+
+### Code blocks
+
+Another option is to create a code blocks by creating two lines starting by three backticks and an optionnal language identifier \`\`\`js
+
+
+  \`\`\`js
+  // JavaScirpt example
+  var foo = 'bar';
+  \`\`\`
+
+
+### Indented text becomes code automatically
+
+Also, any text that starts by two or more spaces becomes automatically code blocks.
+
 
 ## Images
 
