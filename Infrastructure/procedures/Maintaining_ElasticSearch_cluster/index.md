@@ -127,7 +127,7 @@ Details on how to access the dashboard is described in [WPD:Infrastructure/archi
 
 Once you have a web browser setup, you can go to "http://elastic1:9200/\_plugin/marvel/" and see the dashboard;
 
-![elasticsearch-cluster-status-201503.png](/WPD/assets/public/6/61/elasticsearch-cluster-status-201503.png)
+![elasticsearch-cluster-status-201503.png](//static.webplatform.org/6/61/elasticsearch-cluster-status-201503.png)
 
 ## Reference
 

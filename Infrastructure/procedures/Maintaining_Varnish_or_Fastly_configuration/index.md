@@ -60,7 +60,7 @@ Here are the specifics for MediaWiki
 
 ## Accessing VCL configuration from Fastly
 
-To access/overwrite the file in Fastly, go to: ![20131121-Fastly-vcl-buttons.png](/WPD/assets/public/6/68/20131121-Fastly-vcl-buttons.png)
+To access/overwrite the file in Fastly, go to: ![20131121-Fastly-vcl-buttons.png](//static.webplatform.org/6/68/20131121-Fastly-vcl-buttons.png)
 
 -   [Fastly pannel](https://app.fastly.com/), login
 -   Select targeted site (e.g. *docs.webplatform.org*)
@@ -73,7 +73,7 @@ While describing how to debug an issue we had with Semantic MediaWiki, I describ
 
 The screenshot below is described in [WPD:Infrastructure/procedures/Rebuilding\_Semantic\_Media\_Wiki\_when\_job\_queue\_is\_going\_out\_of\_control](/WPD:Infrastructure/procedures/Rebuilding_Semantic_Media_Wiki_when_job_queue_is_going_out_of_control)
 
-![fastly-docs-service-hosts-screenshot.png](/WPD/assets/public/f/fb/fastly-docs-service-hosts-screenshot.png)
+![fastly-docs-service-hosts-screenshot.png](//static.webplatform.org/f/fb/fastly-docs-service-hosts-screenshot.png)
 
 ### Current Fastly configuration
 

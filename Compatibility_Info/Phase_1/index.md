@@ -35,7 +35,7 @@ The results are a table showing the compatibility tables for the feature indicat
 
 There are substantial differences between the manual data currently available on many articles on WPD and the data available from CanIUse.
 
-See the existing table on the [border-radius article](/css/properties/border-radius#Compatibility): ![compat-table border-radius.png](/WPD/assets/public/f/f2/compat-table_border-radius.png)
+See the existing table on the [border-radius article](/css/properties/border-radius#Compatibility): ![compat-table border-radius.png](//static.webplatform.org/f/f2/compat-table_border-radius.png)
 
 ## Caching
 
@@ -45,7 +45,7 @@ Generated HTML has three layers of caching:
 2.  Generates ESI tag for varnish (in progress)
 3.  Cache generated HTML inside Memcached, invalidate cache if source JSON file is changed
 
-![CompaTables to use ESI and Memcached.png](/WPD/assets/thumb/7/7b/CompaTables_to_use_ESI_and_Memcached.png/300px-CompaTables_to_use_ESI_and_Memcached.png)
+![CompaTables to use ESI and Memcached.png](//static.webplatform.org/thumb/7/7b/CompaTables_to_use_ESI_and_Memcached.png/300px-CompaTables_to_use_ESI_and_Memcached.png)
 
 ### Feature Coverage
 

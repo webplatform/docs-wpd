@@ -25,11 +25,11 @@ WebPlatform.org has a MediaWiki extension installed that allows us to create tra
 -   If you've put the translated page into the right place and added the {{Languages}} tags correctly, a link to the available translations should appear in a special banner at the top of the pages, as seen in the image below.
 -   Find a reviewer for your translation; this may be the [translation lead](/w/index.php?title=WPD:translations/translation_lead&action=edit&redlink=1)
 
-![A WebPlatform.org page showing that a Portuguese translation is available.](/WPD/assets/public/d/d3/translation1.jpg)
+![A WebPlatform.org page showing that a Portuguese translation is available.](//static.webplatform.org/d/d3/translation1.jpg)
 
 PLEASE NOTE: If you want to use a language variant, for example "pt-br" for Brazilian Portuguese (see image below), rather than just "pt" for Portuguese, you need to **make everything lower case**. "pt-BR" won't work.
 
-![A WebPlatform.org page showing that a Brazilian Portuguese translation is available.](/WPD/assets/public/a/af/translation2.jpg)
+![A WebPlatform.org page showing that a Brazilian Portuguese translation is available.](//static.webplatform.org/a/af/translation2.jpg)
 
 ## Mechanism
 

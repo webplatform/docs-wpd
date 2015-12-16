@@ -116,7 +116,7 @@ If you include certain characters in your article, like the pipe character, the 
 
 When you include either curly or straight brackets in your article, the wiki will choke if you don't pair a left bracket with a matching right bracket. The form will stop rendering and you'll see an error message like this:
 
-![open bracket.png](/WPD/assets/public/2/28/open_bracket.png)
+![open bracket.png](//static.webplatform.org/2/28/open_bracket.png)
 
 If the text incudes a single bracket that should not be paired, as when the text describes a bracket character as part of a code example, use an HTML entity instead of the keyboard character. See [Escaping characters](#Escaping_characters) for more information.
 

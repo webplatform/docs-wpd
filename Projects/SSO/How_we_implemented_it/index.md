@@ -130,7 +130,7 @@ The web application generates and sends user to the OAuth authentication endpoin
 
 Since the OAuth server knows who is the client, it adjusts the title to "Sign in to WebPlatform Test".
 
-![sso steps login dialog.png](/WPD/assets/public/3/31/sso_steps_login_dialog.png)
+![sso steps login dialog.png](//static.webplatform.org/3/31/sso_steps_login_dialog.png)
 
 **NOTE** In the screenshot above, you see *scope=profile*. Since that snapshot, we changed the scope name to *session* because we needed to differentiate web application that will use OAuth to create local sessions from future use cases.
 

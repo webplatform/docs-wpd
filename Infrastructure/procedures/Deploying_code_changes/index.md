@@ -69,7 +69,7 @@ The latter is an alias for the comfort of everyday use and can be done without b
 
 Output should look like this;
 
-![Running wpd-deploy.png](/WPD/assets/public/0/0d/Running_wpd-deploy.png)
+![Running wpd-deploy.png](//static.webplatform.org/0/0d/Running_wpd-deploy.png)
 
 ## Deploying/updating a web app
 

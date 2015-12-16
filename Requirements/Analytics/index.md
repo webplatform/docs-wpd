@@ -44,5 +44,5 @@ Please add e-mail reply that help describe the project requirements.
 
 1.  [File:20130827 analytics draft2 gabiviana.pdf](/File:20130827_analytics_draft2_gabiviana.pdf), see [[7]](http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0024.html)
 2.  [File:20130821 analytics first draft gabiviana.pdf](/File:20130821_analytics_first_draft_gabiviana.pdf), see [Call for comments](http://lists.w3.org/Archives/Public/public-wpd-analytics/2013JulSep/0023.html)
-3.  ![Initial wireframe by Patrick D'Souza](/WPD/assets/public/b/b5/20130800_analytics_pdsouza_wireframe.png)
+3.  ![Initial wireframe by Patrick D'Souza](//static.webplatform.org/b/b5/20130800_analytics_pdsouza_wireframe.png)
 4.  [snap-shot view by Julee](http://project.webplatform.org/files/show/13), see [Analytics issue \#15](http://project.webplatform.org/analytics/issues/15)

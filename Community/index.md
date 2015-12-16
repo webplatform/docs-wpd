@@ -107,7 +107,7 @@ To file a bug, log into the project space [project.webplatform.org](http://proje
 
 Web Platform Docs is a community of people dedicated to documenting the technologies that deliver the World Wide Web. Whether you're just starting in your career or are already a seasoned web professional, we encourage you to [get involved with the community](/WPD:Editors_Guide/step_2_communicate_with_the_online_community).
 
-![community pic.jpeg](/WPD/assets/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg)
+![community pic.jpeg](//static.webplatform.org/thumb/f/f7/community_pic.jpeg/200px-community_pic.jpeg)
 
 We might be a little bit messy right now, and we aren't quite big enough for our t-shirts yet, but with your help, we're doing great things!
 

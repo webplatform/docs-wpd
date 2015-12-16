@@ -54,7 +54,7 @@ Both address the same problem, besides the fact that SAML is dating from 2005 an
 
 Quoting the example given in (link8)
 
-![mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png](/WPD/assets/public/1/15/mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png)
+![mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png](//static.webplatform.org/1/15/mutuallyhuman-com-strategy-sso-schema-oauth2-flow.png)
 
 > -   (A) – a user opens their web-browser and goes to MyPhotos.com which stores all of their photos. MyPhotos.com doesn't handle authentication itself, so the user is redirected to the Authorization Server with a request for authorization. The user is presented with a login form and is asked if they want to approve the Resource Server (MyPhotos.com) to act on their behalf. The user logs in and they are redirected back to MyPhotos.com.
 > -   (B) – MyPhotos.com receives an authorization grant code as a part of the redirect and then passes this along to the client

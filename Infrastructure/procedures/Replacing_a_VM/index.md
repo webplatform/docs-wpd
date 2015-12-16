@@ -233,7 +233,7 @@ This commands ensures that configuration files are applied on top of each web ap
 
 The output should look like this;
 
-![Running wpd-deploy.png](/WPD/assets/public/0/0d/Running_wpd-deploy.png)
+![Running wpd-deploy.png](//static.webplatform.org/0/0d/Running_wpd-deploy.png)
 
 ## Testing before flipping the switch?
 

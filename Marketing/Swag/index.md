@@ -25,17 +25,17 @@ Another alternative is [Sticker Robot](http://stickerobot.com/order/), which see
 
 We can print custom art as a **gray scale** on every page, and this adds only a set-up of \$150.00, if the quantity is greater than 2500 units! For 1k units, we have the same above setup charge + \$0.55 per piece. This gives you an idea of cost. We need the template of the site to estimate cost for color printing (recommended). Images of covers are below (indicative).
 
-![WebPlatformJournal.png](/WPD/assets/public/e/ee/WebPlatformJournal.png)
+![WebPlatformJournal.png](//static.webplatform.org/e/ee/WebPlatformJournal.png)
 
-![WebPlatform.OrgNotebook.png](/WPD/assets/public/f/f8/WebPlatform.OrgNotebook.png)
+![WebPlatform.OrgNotebook.png](//static.webplatform.org/f/f8/WebPlatform.OrgNotebook.png)
 
-![WebPlatform.Org2.png](/WPD/assets/public/3/33/WebPlatform.Org2.png)
+![WebPlatform.Org2.png](//static.webplatform.org/3/33/WebPlatform.Org2.png)
 
 ### Sticky-Note Notebooks
 
 Another option is flip-top notebooks with a collection of sticky notes, as available on [Discount Mugs](http://www.discountmugs.com/nc/view-product/NOT21/525-x-7-in-eco-flip-top-notebooks-with-sticky-notes/). They are \$2.15 in lots of 1000+, and \$2.09 in lots of 2500+, with no setup fee, with a single-color logo on cover.
 
-![NOT21.jpg](/WPD/assets/public/3/3a/NOT21.jpg)
+![NOT21.jpg](//static.webplatform.org/3/3a/NOT21.jpg)
 
 ## T-Shirts
 

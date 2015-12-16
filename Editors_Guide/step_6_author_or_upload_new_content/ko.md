@@ -60,7 +60,7 @@ uri: 'WPD:Editors Guide/step 6 author or upload new content/ko'
 
 호환성 표는 CSS, HTML, JavaScript 기능, API들이 어느 브라우저에서 지원되는지, 브라우저 버전에 따라 지원여부에 대한 상세 정보를 제공하세요. 이 표는 헤더(데스크탐과 모바일을 위한 분리된 호환성 섹션)와 함께 템플릿안에 포함되어야 합니다. 아래는 호환성표의 스크린 샷입니다.
 
-![Screenshot of a compatibility table.](/WPD/assets/public/7/73/compatibility_table.png)
+![Screenshot of a compatibility table.](//static.webplatform.org/7/73/compatibility_table.png)
 
 표는 [호환성 정보를 잃어버린 페이지들의 동적인 목록](http://docs.webplatform.org/w/index.php?title=Special%3AWhatLinksHere&target=Template%3ACompat+Unknown&namespace=)에 나타남에 따라 자동적으로 플래그가 지정됩니다.
 

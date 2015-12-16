@@ -7,7 +7,7 @@ The compatibility tables on each reference page are meant to show how well each 
 
 We plan to integrate data from multiple sources to provide up-to-date information on each feature of the Open Web Platform. This information will be displayed in what we call **Compatibility Tables**, which show the support for a feature.
 
-![Compatibility Table.png](/WPD/assets/public/4/49/Compatibility_Table.png)
+![Compatibility Table.png](//static.webplatform.org/4/49/Compatibility_Table.png)
 
 ## Automatic results
 
